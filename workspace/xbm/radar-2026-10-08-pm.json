@@ -1,0 +1,67 @@
+{
+ "label": "2026-10-08 晚上",
+ "run_at": "2026-10-08 23:12",
+ "window_start": "2026-10-08 12:06",
+ "window_end": "2026-10-08 23:12",
+ "empty": false,
+ "items": [
+  {
+   "name": "SynthID Detector 公开可用",
+   "desc": "Google 的 AI 水印检测工具 synthid.com 对所有人开放，上传或粘贴图片、视频、音频就能查是不是 AI 生成，支持 Nano Banana 2.1、OpenAI、NVIDIA、Kakao 的水印，Apple 即将加入。",
+   "source": "@_philschmid（Google DeepMind）",
+   "url": "https://x.com/_philschmid/status/2108209169052414138",
+   "first_seen": "2026-10-08 22:53",
+   "keyword_rank": 1,
+   "keyword": "SynthID Detector",
+   "reason": "「怎么判断图片/视频是不是 AI 生成」是长期刚需，官方工具刚开放、跨厂商可用，适合做使用教程、支持哪些模型的说明页或 AI 内容检测工具导航，竞争页面现在很少。"
+  },
+  {
+   "name": "Gemini Agent（Google Cloud 通用工作智能体）",
+   "desc": "Google Cloud 在 Gemini at Work 2026 发布 Gemini Agent：给目标不给指令，能在 Gmail、Docs、Sheets、Slack、Microsoft 365 里跑几小时到几天，会派子智能体，按任务在 Gemini 和 Claude 模型间自动选，目前私密预览。",
+   "source": "@googlecloud",
+   "url": "https://x.com/googlecloud/status/2108180723920166972",
+   "first_seen": "2026-10-08 21:00",
+   "keyword_rank": 2,
+   "keyword": "Gemini Agent",
+   "reason": "企业用户会大量搜「Gemini Agent 怎么开通、价格、和 Copilot/ChatGPT Agent 对比」，现在只有新闻稿，适合做对比评测和上手指南。"
+  },
+  {
+   "name": "Meta Muse 上线 iPad 版",
+   "desc": "Meta 的 AI 智能体 Muse 推出 iPad 版，支持分屏多任务和更多应用连接器；目前只在美国、加拿大提供，Windows 版已确认在做。",
+   "source": "@techpp",
+   "url": "https://x.com/techpp/status/2108067382568624523",
+   "first_seen": "2026-10-08 13:30",
+   "keyword_rank": 3,
+   "keyword": "Meta Muse",
+   "reason": "上线不到一个月日活约 220 万，但只开放美加，海外用户在搜「怎么注册、邀请码、地区限制」，适合做注册教程和功能玩法站。"
+  },
+  {
+   "name": "Hermes Agent 登陆华硕 ProArt RTX Spark",
+   "desc": "Nous Research 的 Hermes Agent 预装到华硕 ProArt RTX Spark 电脑，集成 MuseTree 和 ComfyUI，支持最多 128GB 统一内存跑本地模型。",
+   "source": "@NousResearch",
+   "url": "https://x.com/NousResearch/status/2108201390493544680",
+   "first_seen": "2026-10-08 22:22"
+  },
+  {
+   "name": "Antigravity 智能体改名「Chief of stuff」（爆料）",
+   "desc": "TestingCatalog 发现 Google Antigravity 的智能体在最新版本里改名为「Chief of stuff」，猜测 Google 可能把更多智能体放进 Antigravity。",
+   "source": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2108154053171478564",
+   "first_seen": "2026-10-08 19:14"
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "SynthID Detector",
+   "reason": "「怎么判断图片/视频是不是 AI 生成」是长期刚需，官方工具刚开放、跨厂商可用，适合做使用教程、支持哪些模型的说明页或 AI 内容检测工具导航，竞争页面现在很少。"
+  },
+  {
+   "keyword": "Gemini Agent",
+   "reason": "企业用户会大量搜「Gemini Agent 怎么开通、价格、和 Copilot/ChatGPT Agent 对比」，现在只有新闻稿，适合做对比评测和上手指南。"
+  },
+  {
+   "keyword": "Meta Muse",
+   "reason": "上线不到一个月日活约 220 万，但只开放美加，海外用户在搜「怎么注册、邀请码、地区限制」，适合做注册教程和功能玩法站。"
+  }
+ ]
+}

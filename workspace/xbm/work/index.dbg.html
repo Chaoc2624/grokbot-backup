@@ -1,0 +1,659 @@
+<!doctype html><html lang=zh><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>Halo 的看板</title>
+<style>
+:root{--b:#e7e9ee;--mut:#8a929c;--ink:#1f2328;--blue:#1d6fe0;--soft:#eaf2ff;--bg:#f5f6f8}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Noto Sans CJK SC","Segoe UI",sans-serif;background:var(--bg);color:var(--ink);font-size:15px;line-height:1.55}
+header{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:saturate(1.2) blur(10px);border-bottom:1px solid var(--b);z-index:5;padding:12px 16px 0}
+.top{display:flex;align-items:center;gap:12px;flex-wrap:wrap}h1{font-size:18px;line-height:1.25;margin:0;font-weight:650;letter-spacing:-.015em;color:#111827}
+#q{padding:8px 12px;border:1px solid var(--b);border-radius:10px;min-width:200px;background:#fff;color:var(--ink)}
+nav{display:flex;gap:6px;margin:8px 0 12px;overflow-x:auto;scrollbar-width:none}nav::-webkit-scrollbar{display:none}nav button{border:1px solid transparent;background:#eef0f3;color:#374151;border-radius:999px;padding:5px 12px;white-space:nowrap;cursor:pointer;font:inherit;font-size:13px;line-height:1.3}
+nav button:hover{background:#e5e7eb}nav button.on{background:var(--soft);color:#1a56c4;border-color:#d3e4fc;font-weight:650}nav .n{opacity:.7;margin-left:4px;font-weight:500;font-variant-numeric:tabular-nums}
+main{max-width:880px;margin:0 auto;padding:16px}
+.card{background:#fff;border:1px solid var(--b);border-radius:12px;padding:14px 16px;margin-bottom:12px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+.card.p-low{opacity:.85}
+.card.overdue{background:#fff5f5}
+.h{display:flex;gap:8px;align-items:flex-start}.t{font-weight:650;flex:1;font-size:15.5px;line-height:1.4;color:#111827}
+.tag{font-size:12px;background:#f3f4f6;color:#4b5563;border-radius:6px;padding:1px 6px;white-space:nowrap;font-weight:500}
+.badge{font-size:12px;border-radius:4px;padding:1px 6px;background:#f3f4f6;color:#374151;white-space:nowrap}.badge.red{background:#fee2e2;color:#b91c1c}
+.dl{color:#b91c1c;font-weight:600;margin-top:4px;font-size:14px}.row{margin-top:4px;font-size:14px}.k{color:var(--mut)}
+.meta{color:var(--mut);font-size:12px;line-height:1.4;margin-top:6px;display:flex;gap:10px;flex-wrap:wrap}.meta a{color:#1d6fe0}.tweet{display:inline-flex;align-items:center;gap:4px;background:#1d9bf0;color:#fff!important;text-decoration:none;border-radius:8px;padding:6px 12px;font-size:13px;font-weight:600;margin-top:8px}
+.acts{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.acts button{border:1px solid var(--b);background:#fff;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:13px}
+.acts .ok{background:#16a34a;color:#fff;border-color:#16a34a}.acts .no{color:#6b7280}
+textarea{width:100%;margin-top:8px;border:1px solid var(--b);border-radius:6px;padding:6px;font:inherit;font-size:13px;min-height:34px}
+.hist{font-size:12px;color:var(--mut);margin-top:6px}.empty{text-align:center;color:var(--mut);padding:40px}
+.help{font-size:13px;line-height:1.55;color:#4b5563;background:#fff;border:1px dashed var(--b);border-radius:12px;padding:12px 14px;margin-bottom:14px}
+.card{position:relative}
+.pt{display:inline-block;font-size:13px;font-weight:700;color:#1d4ed8;background:#dbeafe;border-radius:6px;padding:2px 8px;margin-top:6px}
+.new{display:inline-flex;align-items:center;gap:4px;font-size:12px;font-weight:700;color:#fff;background:#f97316;border-radius:10px;padding:1px 8px;white-space:nowrap}
+.card.unread{box-shadow:0 0 0 2px #fed7aa}
+.foot .acts{margin:0 0 0 auto;flex-wrap:nowrap;overflow-x:auto;visibility:hidden;opacity:0;transition:opacity .15s;max-width:100%;scrollbar-width:none}
+.foot .acts button{padding:5px 8px;white-space:nowrap}
+.card:hover .foot .acts,.card.open .foot .acts{visibility:visible;opacity:1}
+@media (hover:none){.card:hover .foot .acts{visibility:hidden;opacity:0}.card.open .foot .acts{visibility:visible;opacity:1}}
+.foot{flex-wrap:nowrap}.foot .tweet,.foot .tg{flex-shrink:0;white-space:nowrap}.foot .acts{min-width:0}.pt .sub{font-weight:500;color:#3b5bab}
+.foot{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:10px}
+.tweet{font-size:15px!important;padding:10px 20px!important;margin-top:0!important}
+.tg{font-size:12px;color:var(--mut);cursor:pointer;user-select:none}
+.uchip{margin-left:auto;border:1px dashed #f97316!important;color:#c2410c}.uchip.on{background:#f97316!important;color:#fff!important;border-style:solid!important}
+nav .un{color:#ea580c;font-weight:700;margin-left:3px}nav button.on .un{color:#c2410c}
+textarea.empty-note{min-height:30px}
+.tl{position:relative;padding-left:22px}.tl:before{content:'';position:absolute;left:7px;top:4px;bottom:0;width:2px;background:#d1d5db}
+.day{font-weight:650;font-size:13px;letter-spacing:.02em;color:#6b7280;margin:16px 0 8px -22px;background:var(--bg);position:relative;padding-left:22px}
+.br{position:relative;background:#fff;border:1px solid var(--b);border-radius:12px;padding:14px 16px;margin-bottom:12px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+.br:before{content:'';position:absolute;left:-21px;top:16px;width:12px;height:12px;border-radius:50%;background:#1d6fe0;border:2px solid #fff;box-shadow:0 0 0 1px #1d6fe0}
+.br.noon:before{background:#f59e0b;box-shadow:0 0 0 1px #f59e0b}
+.bh{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}.bh b{font-size:15.5px;font-weight:650;color:#111827}.bt{font-size:12px;line-height:1.4;color:var(--mut);font-weight:400}
+.pdf{margin-left:auto;font-size:13px;color:#1d6fe0;text-decoration:none;border:1px solid #bfdbfe;border-radius:6px;padding:3px 8px}
+.sum{margin-top:8px;font-size:14.5px;line-height:1.65;color:#1f2328}
+.bi{display:flex;gap:8px;align-items:center;padding:7px 0;border-top:1px dashed var(--b);font-size:14px}.bi:first-of-type{border-top:0}
+.bi .tt{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#1f2328;text-decoration:none}.bi .tt:hover{color:#1d6fe0}
+.bi .st{font-size:12px;border-radius:4px;padding:1px 6px;white-space:nowrap;background:#f3f4f6;color:#374151}.st.open{background:#dbeafe;color:#1d4ed8}.st.urgent{background:#fee2e2;color:#b91c1c}.st.done{background:#dcfce7;color:#15803d}.st.ignored{color:#9ca3af}
+.bi .pa{font-size:12px;color:#1d4ed8;white-space:nowrap}.bi .ox{font-size:13px;color:#1d9bf0;text-decoration:none;white-space:nowrap;font-weight:600}
+.sec{font-size:12px;color:var(--mut);margin-top:10px}details summary{cursor:pointer;font-size:13px;color:#374151;margin-top:10px}
+.flash{animation:fl 2s}@keyframes fl{0%,40%{box-shadow:0 0 0 3px #1d6fe0}}
+@media (max-width:560px){.bi{flex-wrap:wrap}.bi .tt{flex-basis:100%;white-space:normal}}
+.rbar{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+.rbar button,.rbar input{border:1px solid var(--b);background:#fff;border-radius:16px;padding:5px 12px;font:inherit;font-size:13px;cursor:pointer}
+.rbar button.on{background:#1f2328;color:#fff;border-color:#1f2328}.rbar input{border-radius:8px;padding:4px 8px}.rbar .sp{flex:1}
+.rbox{background:#fff;border:1px solid var(--b);border-radius:10px;padding:10px 12px;margin-bottom:12px}
+.rbox h3{font-size:15.5px;font-weight:650;margin:2px 0 10px;display:flex;gap:8px;align-items:baseline;color:#111827}.rbox h3 .bt{font-weight:400;font-size:12px}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table.rt{border-collapse:collapse;width:100%;font-size:13px;min-width:640px}
+.rt th{text-align:left;color:var(--mut);font-weight:500;padding:6px 8px;border-bottom:1px solid var(--b);white-space:nowrap}
+.rt td{padding:7px 8px;border-bottom:1px dashed var(--b);vertical-align:top}.rt tr:last-child td{border-bottom:0}
+.rt tr:hover td{background:#f9fafb}.rt .nm{font-weight:600;white-space:nowrap}.rt .nw{white-space:nowrap}.rt .mut{color:var(--mut)}
+.kw{font-weight:500;color:#1a56c4;background:var(--soft);border-radius:4px;padding:1px 6px;white-space:nowrap}.cnt{display:inline-block;min-width:22px;text-align:center;background:#fee2e2;color:#b91c1c;border-radius:10px;font-weight:700;font-size:12px;padding:1px 6px}
+.rk{color:var(--mut);font-weight:700;width:24px}.rp{font-size:12px;color:#1d4ed8}
+.emp{color:var(--mut);font-size:13px;padding:8px 2px}
+.kwl{display:flex;flex-direction:column;gap:6px;margin-top:10px}.kwl div{font-size:13.5px;line-height:1.5}.kwline{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}.kwline .why{color:#4b5563;font-weight:400}
+.br.tgd:before{background:#7c3aed;box-shadow:0 0 0 1px #7c3aed}.br.tgw.part:before{background:#fff;box-shadow:0 0 0 2px #1d6fe0}
+.br.tgd,.br.tgw{padding:10px 14px}.tgd .bh,.tgw .bh{padding-right:96px;min-height:22px}
+.hov{position:absolute;top:8px;right:10px;display:flex;gap:4px;visibility:hidden;opacity:0;transition:opacity .12s}
+.hov button{border:1px solid var(--b);background:#fff;border-radius:6px;padding:2px 7px;font-size:12px;cursor:pointer;color:#374151}
+.br:hover>.hov{visibility:visible;opacity:1}@media (hover:none){.br>.hov{visibility:visible;opacity:.55}}
+.pill{font-size:11px;border-radius:9px;padding:0 7px;line-height:18px;background:#dbeafe;color:#1d4ed8;white-space:nowrap}.pill.pp{background:#fef3c7;color:#b45309}
+.md{font-size:14px;line-height:1.6;color:#1f2328;margin-top:6px;word-break:break-word}.md p{margin:3px 0}.md ul,.md ol{margin:3px 0;padding-left:20px}.md li{margin:1px 0}
+.md .mh{font-weight:700;margin:8px 0 2px;color:#111827}.md .mh:first-child{margin-top:2px}.md a{color:#1d6fe0;text-decoration:none;word-break:break-all}.md a:hover{text-decoration:underline}
+.md code{background:#f3f4f6;border-radius:4px;padding:0 4px;font-size:13px}.md .ga{font-size:12px;color:#7c3aed;background:#ede9fe;border-radius:4px;padding:0 5px;margin-right:3px;white-space:nowrap}
+details.tgg{border-top:1px dashed var(--b)}details.tgg:first-of-type{border-top:0}details.tgg>summary{list-style:none;display:flex;gap:8px;align-items:center;padding:6px 0;margin:0;font-size:14px;cursor:pointer}
+details.tgg>summary::-webkit-details-marker{display:none}details.tgg>summary:before{content:'▸';color:#9ca3af;width:10px;flex-shrink:0;font-size:12px}details.tgg[open]>summary:before{content:'▾'}
+.tgg .gn{font-weight:600;white-space:nowrap;flex-shrink:0}.tgg .gc{font-size:12px;color:var(--mut);white-space:nowrap;flex-shrink:0;min-width:42px}.tgg .gv{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#6b7280;font-size:13px}
+.tgg summary:hover .gn{color:#1d6fe0}.tgg.nil .gn{color:#9ca3af;font-weight:500}.tgg>.md{padding:0 0 8px 18px;margin-top:0}
+.tgd .md.clamp{max-height:360px;overflow:hidden;-webkit-mask-image:linear-gradient(#000 80%,transparent)}.more{font-size:13px;color:#1d6fe0;cursor:pointer;margin-top:4px;display:inline-block}
+.pg{display:flex;gap:8px;justify-content:center;margin:6px 0 20px}.pg button{border:1px solid var(--b);background:#fff;border-radius:16px;padding:5px 14px;cursor:pointer;font-size:13px}
+@media (max-width:560px){.tgg .gv{display:none}}
+
+.tabs{display:flex;gap:2px;margin:12px 0 0;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{appearance:none;-webkit-appearance:none;border:0;background:transparent;font:inherit;font-size:14px;line-height:1.2;font-weight:550;color:#6b7280;padding:10px 14px 11px;cursor:pointer;white-space:nowrap;border-bottom:2px solid transparent;border-radius:8px 8px 0 0}
+.tabs button:hover{color:#111827;background:#f4f6f8}
+.tabs button.on{color:#1a56c4;border-bottom-color:#1d6fe0;font-weight:650}
+.tabs button:focus-visible,nav button:focus-visible,.rbar button:focus-visible{outline:2px solid #d3e4fc;outline-offset:1px}
+.brand{flex:1;min-width:0}h1{flex:none}
+.brandsub{margin:2px 0 0;font-size:12px;line-height:1.35;color:var(--mut);font-weight:400}
+.logout{font-size:13px;color:var(--mut);text-decoration:none;padding:6px 8px;border-radius:8px;white-space:nowrap}
+.logout:hover{color:#111827;background:#f3f4f6}
+#q{font:inherit;font-size:14px}#q:focus{outline:2px solid #d3e4fc;border-color:#93b4ef}
+mark.hl{background:#eaf2ff;color:#1a56c4;border-radius:4px;padding:0 4px;font-weight:500}
+.rbox{border-radius:12px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+.rt th{font-size:12px;letter-spacing:.01em}
+.pt{font-weight:600}
+@media (max-width:640px){
+ header{padding:10px 12px 0}
+ h1{font-size:17px}
+ .brandsub{display:none}
+ .tabs button{padding:10px 11px 11px;font-size:13.5px}
+ main{padding:12px 10px}
+ #q{min-width:0;flex:1 1 120px}
+ .top{gap:8px}
+ .card,.br{padding:12px 12px}
+}
+/* ---- TG chat-style digests ---- */
+.br.tgw,.br.tgd{border-radius:12px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+details.tgg{border-top:1px solid #f0f1f3}details.tgg>summary{padding:8px 2px}
+.tgg .gn{font-size:14px;color:#111827}.tgg .gc{font-size:11px;color:#6b7280;background:#f3f4f6;border-radius:9px;padding:0 7px;line-height:18px;min-width:0}
+.tgg .gv{color:#8a929c;font-size:12.5px}.tgg[open]>summary .gv{visibility:hidden}
+.tgg>.cv{margin:2px 0 10px 12px;padding-left:12px;border-left:2px solid #eef0f3}
+.cv{font-size:14px;line-height:1.65;color:#1f2328;word-break:break-word}
+.cv .hr{display:flex;align-items:center;gap:8px;margin:12px 0 4px;font-size:11.5px;color:#6b7280;font-variant-numeric:tabular-nums;letter-spacing:.2px}
+.cv .hr:first-child{margin-top:4px}.cv .hr:after{content:'';flex:1;height:1px;background:#eef0f3}
+.cv .hr span{background:#f3f4f6;border-radius:9px;padding:0 8px;line-height:19px}
+.cv .sh{font-weight:700;font-size:14.5px;color:#111827;margin:16px 0 4px}.cv .sh:first-child{margin-top:2px}
+.cv .tp{display:flex;align-items:baseline;gap:8px;margin:10px 0 3px;flex-wrap:wrap}
+.cv .tp .tt{font-weight:600;font-size:13.5px;color:#111827;padding-left:8px;border-left:3px solid #1d6fe0;line-height:1.25}
+.cv .tp .tm{font-size:11px;color:#8a929c;font-variant-numeric:tabular-nums}
+.cv .tp.z .tt{border-left-color:#c7ccd3;color:#4b5563;font-weight:500}
+.cv .tp .ga{margin-left:2px}
+.cv .sp{display:grid;grid-template-columns:3.7em 1fr 4.6em;column-gap:8px;padding:2px 0 2px 11px;border-radius:6px;position:relative}
+.cv .sp .nm{color:#9aa1ab;font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-top:1px;direction:rtl;text-align:right}.cv .sp .nm bdi{direction:ltr;unicode-bidi:isolate}
+.cv .sp .tx{color:#1f2328;min-width:0}.cv .sp .sep{color:#c3c8cf;font-style:normal;margin:0 5px}
+.cv mark.hl{background:#eaf2ff;color:#1a56c4;border-radius:4px;padding:0 2px;font-weight:500}
+.cv .mt{font-size:11.5px;color:#9aa1ab;margin:3px 0 2px 11px}
+.cv a{color:#1d6fe0;text-decoration:none;word-break:break-all}.cv a:hover{text-decoration:underline}
+.cv .ga{font-size:11px;color:#6d28d9;background:#f3efff;border-radius:4px;padding:0 5px;margin-left:4px;white-space:nowrap;font-weight:500}
+.cv ul{margin:3px 0;padding-left:20px}.cv p{margin:3px 0}.cv code{background:#f3f4f6;border-radius:4px;padding:0 4px;font-size:13px}
+.cv .vf{margin:12px 0 4px;background:#fbfaf6;border:1px dashed #e3d9b8;border-radius:10px;padding:8px 12px}
+.cv .vh{font-size:12px;font-weight:600;color:#8a6d1f;margin-bottom:4px}.cv .vh span{font-weight:400;color:#a8946a;margin-left:6px}
+.cv .vi{font-size:13px;line-height:1.6;color:#374151;padding:4px 0;border-top:1px dashed #eee6cc}.cv .vi:first-of-type{border-top:0}
+.cv .vi .vt{font-size:11px;color:#a8946a;margin-right:6px;font-variant-numeric:tabular-nums}.cv .vi b{font-weight:600;color:#1f2328}
+.cv .vi .vs{font-size:11.5px;color:#8a6d1f;background:#f5eed8;border-radius:4px;padding:0 5px;margin-left:6px;white-space:nowrap}
+.cv .vi mark.hl{background:#f5eed8;color:#7a5a00}
+.tgd .cv.clamp{max-height:420px;overflow:hidden;-webkit-mask-image:linear-gradient(#000 80%,transparent)}
+.tgd .cv.clamp>.vf{max-height:168px;overflow:hidden}
+@media (max-width:560px){.cv .sp{grid-template-columns:auto 1fr;column-gap:6px;padding-left:6px;margin-bottom:3px}.cv .sp .nm{grid-row:1;grid-column:1;max-width:72vw;font-size:12px;padding-top:0;direction:ltr;text-align:left}.cv .sp .st{grid-row:1;grid-column:2;text-align:left;padding-top:0;align-self:center}.cv .sp .tx{grid-row:2;grid-column:1/-1}.cv .sp .nf{display:none}
+ .tgg>.cv{margin-left:2px;padding-left:9px}.cv .vi .vs{white-space:normal}}
+/* ---- v2: priority pill, labelled action pills, TG row time ---- */
+.prio{font-size:12px;font-weight:650;line-height:18px;border-radius:999px;padding:0 8px;white-space:nowrap;color:#fff;flex-shrink:0}
+.prio.urgent{background:#dc2626}.prio.normal{background:#f59e0b}.prio.low{background:#9ca3af}
+.foot,.foot{display:flex;flex-wrap:nowrap;gap:8px;align-items:center}
+.foot .acts{margin:0;flex:0 1 auto;min-width:0;overflow-x:auto;flex-wrap:nowrap;gap:4px}.foot .acts::-webkit-scrollbar{display:none}
+.foot .acts button{border-radius:999px;padding:3px 9px;font-size:12.5px;line-height:18px;white-space:nowrap;flex-shrink:0;color:#374151}
+.foot .acts .ok{color:#fff}.foot .acts .no{color:#4b5563}
+.foot .tg{margin-left:auto;flex-shrink:0;padding-left:4px}
+.cv .sp:hover{background:#f6f7f9}
+.cv .sp .st{font-size:11px;color:#9aa1ab;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap;padding-top:2px;cursor:default}
+.cv .sp .nf{position:absolute;left:6px;bottom:100%;margin-bottom:1px;z-index:3;background:#1f2328;color:#fff;font-size:12px;line-height:20px;padding:0 8px;border-radius:6px;white-space:nowrap;pointer-events:none;visibility:hidden;opacity:0;transition:opacity .1s;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+.cv .sp .nm:hover~.nf{visibility:visible;opacity:1}.cv .sp .nm{cursor:default}
+.br.latest{border-color:#cfe0fb;box-shadow:0 0 0 1px #e3edfd,0 1px 2px rgba(16,24,40,.04)}
+@media (max-width:640px){.tabs button{padding:10px 9px 11px}}
+.rt .nm{white-space:normal;min-width:7.5em;max-width:13em}.rt td.nm+td{min-width:15em}
+.rt tr.kwr td{background:#fffbea}.rt tr.kwr:hover td{background:#fff5d1}
+.kwc{display:inline-block;margin-left:6px;font-size:11px;font-weight:600;line-height:17px;padding:0 6px;border-radius:999px;background:#fde68a;color:#854d0e;white-space:nowrap;vertical-align:1px}
+.rt .sug{display:block;margin-top:2px;font-size:12.5px;line-height:1.5;color:#92400e}
+.cv.vtop{margin:2px 0 6px}.cv.vtop .vf,.cv .vf:first-child{margin-top:4px}
+/* ---- TG card header: one line ---- */
+.bh.tgh{flex-wrap:nowrap;align-items:center;column-gap:8px;min-height:22px}
+.bh.tgh>b{white-space:nowrap;flex:none}
+.pill.pst{background:#fef3c7;color:#b45309}
+.bh.tgh>.pill{flex:none;align-self:center;width:auto;display:inline-block}
+.bh.tgh>.tgm{margin-left:auto;white-space:nowrap;text-align:right;font-size:11.5px;color:#8a929c;font-variant-numeric:tabular-nums;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.tgd .bh.tgh{padding-right:52px}.tgw .bh.tgh{padding-right:132px}
+@media (max-width:640px){.bh.tgh{flex-wrap:wrap;row-gap:2px}.bh.tgh>.tgm{margin-left:0;text-align:left}}
+#npill{position:fixed;left:50%;transform:translateX(-50%);z-index:30;display:none;border:0;background:#1d6fe0;color:#fff;font:inherit;font-size:13px;font-weight:600;line-height:1;padding:8px 14px;border-radius:999px;box-shadow:0 4px 14px rgba(29,111,224,.35);cursor:pointer}
+#npill:hover{background:#1a5fc4}
+@keyframes frs{0%,35%{background-color:#fff4d6}100%{background-color:transparent}}
+.fresh,.rt tr.fresh td{animation:frs 4s ease-out}
+#toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#1f2328;color:#fff;padding:8px 14px;border-radius:8px;display:none}
+nav[hidden],#q[hidden]{display:none !important}
+/* ---- 📡 TG 主动拉取 ---- */
+.rbar .pullb{background:#1d6fe0;color:#fff;border-color:#1d6fe0;font-weight:600}.rbar .pullb:hover{background:#1a5fc4}
+.rbar .pullb.off{background:#fff;color:#1a56c4;border-color:#bfd5f7}.rbar .pullb.run{background:var(--soft);color:#1a56c4;border-color:#d3e4fc}
+.pmini{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--b);border-radius:10px;padding:8px 12px;margin:-2px 0 10px;font-size:12.5px;color:#4b5563;cursor:pointer}
+.pmini .pgb{flex:1;margin:0}.pmini b{color:#1a56c4;font-weight:650;font-variant-numeric:tabular-nums}
+.pgb{height:6px;background:#eef0f3;border-radius:99px;overflow:hidden;margin:8px 0 6px}.pgf{height:100%;background:#1d6fe0;border-radius:99px;transition:width .4s}
+.pgb.wait .pgf{background:#f59e0b}.pgb.done .pgf{background:#16a34a}
+.br.tgr:before{background:#0d9488;box-shadow:0 0 0 1px #0d9488}.br.tgr{padding:10px 14px}
+.tgr .bh{padding-right:96px;min-height:22px}
+.pill.live{background:#ccfbf1;color:#0f766e}.pill.nw{background:#ffedd5;color:#c2410c}
+.tgg .gnew{font-size:11px;color:#c2410c;background:#ffedd5;border-radius:9px;padding:0 6px;line-height:18px;white-space:nowrap;flex-shrink:0}
+.rh{margin:0 0 8px 12px;padding-left:10px;border-left:2px solid #eef0f3}
+details.rhr>summary{list-style:none;display:flex;gap:8px;align-items:center;padding:5px 0;font-size:13px;cursor:pointer;color:#374151}
+details.rhr>summary::-webkit-details-marker{display:none}details.rhr>summary:before{content:'▸';color:#9ca3af;width:10px;font-size:11px}details.rhr[open]>summary:before{content:'▾'}
+.rhr .hrl{font-variant-numeric:tabular-nums;font-weight:550}
+.cv.rawm{max-height:62vh;overflow:auto;overscroll-behavior:contain;margin:2px 0 8px;padding-right:4px}
+.rawm .sp.nw{background:#fff7ed}.rawm .tx{white-space:pre-wrap}.rawm .tx.cl{display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden;cursor:pointer}
+.rawm a.st{color:#9aa1ab;text-decoration:none}.rawm a.st:hover{color:#1d6fe0}
+.rawm .rmd{font-size:11.5px;color:#6b7280;background:#f3f4f6;border-radius:4px;padding:0 5px;margin-right:4px;white-space:nowrap}
+.rawm .rmt{display:block;font-size:11.5px;color:#9aa1ab}
+.rawm .ld{font-size:12.5px;color:var(--mut);padding:6px 11px}.rawm .lm{border:1px solid var(--b);background:#fff;border-radius:16px;padding:3px 12px;font-size:12.5px;cursor:pointer;margin:6px 0 2px 11px;color:#374151}
+.ppm{position:fixed;inset:0;background:rgba(17,24,39,.32);z-index:20;display:flex;align-items:center;justify-content:center;padding:16px}
+.pp{background:#fff;border-radius:14px;width:100%;max-width:580px;max-height:min(86vh,760px);display:flex;flex-direction:column;box-shadow:0 12px 40px rgba(16,24,40,.18)}
+.pph{display:flex;align-items:baseline;gap:8px;padding:16px 18px 10px;border-bottom:1px solid #f0f1f3}.pph b{font-size:16px;font-weight:650;color:#111827}
+.pph .x{margin-left:auto;border:0;background:transparent;font-size:16px;color:#6b7280;cursor:pointer;border-radius:8px;padding:2px 8px}.pph .x:hover{background:#f3f4f6}
+.ppb{overflow:auto;padding:4px 18px 8px;overscroll-behavior:contain}
+.pps{padding:12px 0;border-bottom:1px solid #f3f4f6}.pps:last-child{border-bottom:0}
+.ppl{display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;color:#6b7280;letter-spacing:.02em;margin-bottom:8px}.ppl .sp{flex:1}
+.ppl button{border:1px solid var(--b);background:#fff;border-radius:999px;padding:2px 10px;font-size:12px;color:#374151;cursor:pointer;font-weight:500}
+.chips{display:flex;gap:6px;flex-wrap:wrap}.chips button{border:1px solid var(--b);background:#fff;border-radius:999px;padding:5px 12px;font:inherit;font-size:13px;cursor:pointer;color:#374151}
+.chips button.on{background:var(--soft);border-color:#93b4ef;color:#1a56c4;font-weight:600}
+.ppr{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:10px;font-size:13.5px;color:#374151;padding:6px 8px;border-radius:10px;border:1px solid transparent}
+.ppr.on{background:#f7faff;border-color:#d3e4fc}.ppr .lb{font-weight:550;min-width:5.5em}
+.ppr input,.ppr select{font:inherit;font-size:13.5px;border:1px solid var(--b);border-radius:8px;padding:4px 8px;background:#fff;color:var(--ink)}.ppr input[type=number]{width:5.5em}
+.ppr .hint{font-size:11.5px;color:var(--mut)}
+.pgl{display:flex;flex-direction:column}.pgs{font-size:11.5px;color:var(--mut);margin:8px 0 2px}
+.pgi{display:flex;align-items:center;gap:10px;padding:7px 6px;border-radius:8px;cursor:pointer;font-size:14px}.pgi:hover{background:#f6f7f9}
+.pgi input{width:16px;height:16px;accent-color:#1d6fe0;flex-shrink:0}.pgi .t{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500;font-size:14px;color:#1f2328}
+.pgi .m{font-size:11.5px;color:var(--mut);white-space:nowrap;font-variant-numeric:tabular-nums}
+.ppf{border-top:1px solid #f0f1f3;padding:12px 18px 14px}.ppf .acts2{display:flex;gap:8px;justify-content:flex-end;align-items:center;flex-wrap:wrap}
+.ppf .sum2{font-size:12.5px;color:#4b5563;margin-right:auto}
+.ppf .bt2{border:1px solid var(--b);background:#fff;border-radius:10px;padding:8px 14px;font:inherit;font-size:14px;cursor:pointer;color:#374151}
+.ppf .bt2.pri{background:#1d6fe0;border-color:#1d6fe0;color:#fff;font-weight:600}.ppf .bt2:disabled{opacity:.5;cursor:default}
+.pgb.ind .pgf{width:32%;transition:none;animation:pgind 1.3s ease-in-out infinite}@keyframes pgind{0%{transform:translateX(-110%)}100%{transform:translateX(320%)}}
+.pgb.ind.err .pgf{animation:none;width:100%;background:#f59e0b}
+.pill.sm{background:#e0ecff;color:#1a56c4}.pill.pend{background:#fef3c7;color:#b45309}
+.psb{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px;color:#4b5563;background:#f8fafc;border:1px solid #eef0f3;border-radius:10px;padding:8px 12px;margin:6px 0 8px}
+.psb .pgb{flex:1 1 120px;margin:0;min-width:80px}.psb .bt{font-size:11.5px;color:#9aa1ab}
+.psb.err{background:#fff7ed;border-color:#fde3c7;color:#9a3412}.psb .why{flex:1 1 200px;min-width:0}
+.psb button,.pgr2 button{border:1px solid #fdba74;background:#fff;color:#c2410c;border-radius:999px;padding:3px 12px;font:inherit;font-size:12.5px;cursor:pointer;font-weight:550}
+.psb button:hover{background:#fff7ed}
+details.rawx{margin:2px 0 8px 12px}details.rawx>summary{list-style:none;cursor:pointer;font-size:12px;color:#8a929c;padding:4px 0;display:inline-flex;gap:4px;align-items:center}
+details.rawx>summary::-webkit-details-marker{display:none}details.rawx>summary:before{content:'▸';font-size:10px}details.rawx[open]>summary:before{content:'▾'}
+details.rawx>summary:hover{color:#1d6fe0}.tgg.rs>.cv{margin-bottom:2px}
+/* ---- 每次拉取一张卡片（AI 总结优先） ---- */
+.br.tgp .bh.tgh{padding-right:132px}.br.tgp .bh.tgh>b{font-variant-numeric:tabular-nums}
+.br.tgp.flash{box-shadow:0 0 0 2px #93b4ef,0 4px 16px rgba(29,111,224,.15);transition:box-shadow .3s}
+.psb.big{display:block;background:#f2f7ff;border-color:#cfe0fb;color:#1a3f7a;padding:10px 14px;margin:8px 0 10px}
+.psb.big b{font-weight:650;font-size:14px}.psb.big .bt{margin-left:8px}.psb.big .pgb{margin:8px 0 0;height:5px;background:#dde9fb}
+.tgp .ovw{margin:4px 0 6px}
+details.rawall{margin:8px 0 0;border-top:1px solid #f0f1f3;padding-top:4px}
+details.rawall>summary{list-style:none;cursor:pointer;font-size:13px;color:#4b5563;padding:6px 0;display:flex;gap:6px;align-items:center}
+details.rawall>summary::-webkit-details-marker{display:none}details.rawall>summary:before{content:'▸';color:#9ca3af;font-size:11px;width:10px}details.rawall[open]>summary:before{content:'▾'}
+details.rawall>summary:hover{color:#1d6fe0}details.rawall>summary .bt{font-size:11.5px;color:#9aa1ab}
+.cv.rawa{max-height:70vh}.rawa .rgh{position:sticky;top:0;z-index:1;background:#fff;display:flex;gap:8px;align-items:baseline;padding:8px 0 4px;margin-top:4px;border-bottom:1px solid #f0f1f3;font-size:13.5px;font-weight:600;color:#111827}
+.rawa .rgh span{font-size:11.5px;font-weight:400;color:#8a929c}
+.pullb .spn,.psb .spn{display:inline-block;width:10px;height:10px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:spn .8s linear infinite;vertical-align:-1px;margin-right:6px}
+@keyframes spn{to{transform:rotate(360deg)}}
+.stp{font-size:13.5px;color:#374151;margin-top:2px}.stp.ok{color:#15803d}.stp.run{color:#1a56c4;font-weight:600;margin-top:12px}.stp.fin{color:#15803d;font-weight:600;margin-top:12px}
+.pgt{font-size:13px;color:#374151;font-variant-numeric:tabular-nums}.pgt b{color:#111827}.pgn{font-size:12px;color:#b45309;margin-top:2px}
+.pge{font-size:12px;color:#b91c1c;margin-top:4px}.pgr{font-size:12px;color:#4b5563;margin-top:4px;line-height:1.6}
+@media (max-width:640px){.ppm{align-items:flex-end;padding:0}.pp{max-width:none;border-radius:16px 16px 0 0;max-height:90vh}.pph,.ppb,.ppf{padding-left:14px;padding-right:14px}
+ .pgi .m{display:none}.ppf .pgr{display:none}.rh{margin-left:2px;padding-left:8px}.ppr .lb{min-width:0}}
+</style></head><body>
+<header><div class=top><div class=brand><h1>Halo 的看板</h1><p class=brandsub>书签、群聊、新词和热词</p></div><input id=q placeholder="搜索标题、需求、备注" aria-label="搜索书签"><a class=logout href=logout>退出</a></div>
+<div class=tabs id=tabs role=tablist></div>
+<nav id=nav></nav></header>
+<main><div class=help id=help>流程：每次简报推送的新书签都会进到这里。没处理的「紧急」和「待处理」会在下一份简报里继续出现；普通事项被提醒 3 次仍没动会自动升为紧急。点「完成」或「忽略」就不再推，「不紧急」只留在这里不再推，「推迟」到期后重新开始推。<a href="#" onclick="this.parentNode.remove();localStorage.hideHelp=1">知道了</a></div><div id=list></div></main>
+<div id=toast></div><button id=npill type=button onclick="aJump()"></button>
+<script>
+if(location.hash=='#tg-login')location.replace('tg-login');
+const V=[['urgent','紧急'],['open','待处理'],['low','不紧急'],['snoozed','已推迟'],['done','已完成'],['ignored','已忽略'],['all','全部']];
+const TABS=[['brief','每日简报'],['bm','X 书签'],['tg','TG 群聊记录'],['new','新词'],['hot','热词']];
+const BM=new Set(V.map(x=>x[0]));
+const NOI=k=>k=='brief'||k=='radar'||k=='tg'||k=='new'||k=='hot';
+function sec(){const v=String(view).startsWith('item:')?'all':view;if(v=='brief')return 'brief';if(v=='tg')return 'tg';if(v=='hot')return 'hot';if(v=='new')return 'new';if(v=='radar')return RV=='kw'?'hot':'new';return 'bm'}
+const HV=h=>{h=h||'brief';return h=='briefs'?'brief':h};
+let FOCUS=null,view=HV(location.hash.slice(1)),T='',UN=localStorage.unread=='1';if(localStorage.hideHelp)document.getElementById('help').remove();
+const esc=s=>(s??'').toString().replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.style.display='block';clearTimeout(t._h);t._h=setTimeout(()=>t.style.display='none',1600)}
+async function load(){if(!ARF){AFR=[];const p=document.getElementById('npill');if(p)p.style.display='none'}if(view.startsWith('item:')){FOCUS=view.slice(5);view='all'}const iv=NOI(view)?'all':view;const r=await fetch('api/items?view='+iv+'&unread='+(UN?1:0)+'&q='+encodeURIComponent(document.getElementById('q').value));if(r.status==401)return location.reload();const d=await r.json();T=d.today;{const h=document.getElementById('help');if(h)h.style.display=sec()=='bm'?'':'none'}
+if(view=='new')RV='tl';else if(view=='hot')RV='kw';if(BM.has(view))localStorage.bmview=view;
+const onTab=sec();
+document.getElementById('tabs').innerHTML=TABS.map(([k,l])=>`<button type=button role=tab aria-selected="${onTab==k}" class="${onTab==k?'on':''}" onclick="goTab('${k}')">${l}</button>`).join('');
+const showBm=onTab=='bm';
+document.getElementById('q').hidden=!showBm;{const o=document.querySelector('#tabs .on');if(o)o.parentNode.scrollLeft=o.offsetLeft-o.parentNode.offsetLeft-40}
+document.getElementById('nav').hidden=!showBm;
+document.getElementById('nav').innerHTML=showBm?V.map(([k,l])=>`<button type=button class="${k==view?'on':''}" onclick="go('${k}')">${l}<span class=n>${NOI(k)?'':d.counts[k]}</span>${d.counts['unread_'+k]?`<span class=un>·${d.counts['unread_'+k]}新</span>`:''}</button>`).join('')+(NOI(view)?'':`<button type=button class="uchip ${UN?'on':''}" onclick="UN=!UN;localStorage.unread=UN?1:0;load()">只看未读 ${d.counts['unread_'+view]}</button>`):'';{const o=document.querySelector('#nav .on');if(o)o.parentNode.scrollLeft=o.offsetLeft-o.parentNode.offsetLeft-40}if(view=='brief')return briefs();if(view=='radar'||view=='new'||view=='hot')return radar();if(view=='tg')return tg();
+document.getElementById('list').innerHTML=d.items.length?d.items.map(card).join(''):`<div class=empty>${UN?'这里没有未读事项 👀':'这里没有事项 🎉'}</div>`;observe();if(FOCUS){const c=document.getElementById('c'+FOCUS);FOCUS=null;if(c){c.scrollIntoView({block:'center'});c.classList.add('flash')}}}
+function go(k){view=k;if(BM.has(k))localStorage.bmview=k;location.hash=k;load()}
+function goTab(s){if(s=='brief')view='brief';else if(s=='bm'){if(!BM.has(view))view=localStorage.bmview||'urgent'}else if(s=='tg')view='tg';else if(s=='new'){view='new';RV='tl';localStorage.rv='tl'}else if(s=='hot'){view='hot';RV='kw';localStorage.rv='kw'}location.hash=view;load()}
+function fmt(p){const m=/(\d{4})-(\d\d)-(\d\d)[ T](\d\d:\d\d)/.exec(p||'');return m?m[2]+'-'+m[3]+' '+m[4]:p}
+function card(i){const od=i.status=='open'&&i.due_date&&i.due_date<T;const sn=i.snooze_until&&i.snooze_until>T;const un=!i.read_at;
+const P={urgent:'紧急',normal:'普通',low:'不紧急'}[i.priority],S={open:'',done:'已完成',ignored:'已忽略'}[i.status];
+let a=[];if(i.status=='open'){a.push(`<button class=ok onclick="u('${i.id}',{status:'done'})" title=标记完成>✅ 完成</button>`);
+ if(i.priority!='urgent')a.push(`<button onclick="u('${i.id}',{priority:'urgent'})" title=设为紧急>🔴 紧急</button>`);
+ if(i.priority=='urgent')a.push(`<button onclick="u('${i.id}',{priority:'normal'})" title=降为普通>⬇️ 普通</button>`);
+ if(i.priority!='low')a.push(`<button onclick="u('${i.id}',{priority:'low'})" title=降为不紧急>💤 不紧急</button>`);else a.push(`<button onclick="u('${i.id}',{priority:'normal'})" title=恢复普通>↩︎ 普通</button>`);
+ a.push(sn?`<button onclick="u('${i.id}',{snooze_days:0})" title=取消推迟>▶️ 取消推迟</button>`:`<button onclick="snz('${i.id}')" title=推迟>⏸ 推迟</button>`);
+ a.push(`<button class=no onclick="u('${i.id}',{status:'ignored'})" title=忽略>🚫 忽略</button>`)}
+else a.push(`<button onclick="u('${i.id}',{status:'open'})" title=恢复待处理>↩︎ 恢复</button>`);
+a.push(`<button class=no onclick="due('${i.id}','${i.due_date||''}')" title=截止日>📅 截止日</button>`,`<button class=no onclick="hist('${i.id}',this)" title=操作记录>🧾 记录</button>`);
+if(!un)a.push(`<button class=no onclick="u('${i.id}',{read:false})" title=标为未读>🆕 未读</button>`);
+return `<div class="card p-${i.priority} ${od?'overdue':''} ${un?'unread':''}" id="c${i.id}" data-id="${i.id}" data-un="${un?1:0}" onclick="tap(event,this)" onmouseenter="rd(this)"><div class=h>${un?'<span class=new>● 新</span>':''}${i.tag?`<span class=tag>${esc(i.tag)}</span>`:''}<div class=t>${esc(i.title)}</div>
+${P?`<span class="prio ${i.priority}">${P}</span>`:''}${S?`<span class=badge>${S}</span>`:''}${i.push_count>1?`<span class="badge red">已提醒 ${i.push_count} 次</span>`:''}${od?'<span class="badge red">已过期</span>':''}${sn?`<span class=badge>推迟到 ${i.snooze_until}</span>`:''}</div>
+<span class=pt>🕒 ${i.posted_at?'发于 '+esc(fmt(i.posted_at)):'发帖时间未知'}<span class=sub> · 推送 ${esc(fmt(i.first_seen))}${i.last_pushed&&i.last_pushed!=i.first_seen?'（最近 '+esc(fmt(i.last_pushed))+'）':''}</span></span>${i.deadline?`<div class=dl>⏰ ${esc(i.deadline)}${i.due_date?'（截止 '+i.due_date+'）':''}</div>`:(i.due_date?`<div class=dl>⏰ 截止 ${i.due_date}</div>`:'')}
+${i.need?`<div class=row><span class=k>需求：</span>${esc(i.need)}</div>`:''}${i.action?`<div class=row><span class=k>建议：</span>${esc(i.action)}</div>`:''}
+<div class=foot>${i.url?`<a class=tweet href="${esc(i.url)}" target=_blank rel=noopener onclick="rd(this.closest('.card'))">打开原帖 ↗</a>`:''}<div class=acts>${a.join('')}</div>${i.note?'':`<span class=tg onclick="const t=this.closest('.card').querySelector('textarea');t.style.display='block';t.focus();this.style.visibility='hidden'">✏️ 加备注</span>`}</div>
+<textarea style="${i.note?'':'display:none'}" placeholder="备注（失焦自动保存）" onchange="u('${i.id}',{note:this.value},1)">${esc(i.note)}</textarea><div class=hist></div></div>`}
+function tap(e,el){if(e.target.closest('button,a,textarea,input,.tg'))return;el.classList.toggle('open');rd(el)}
+function rd(el){if(!el||el.dataset.un!='1')return;el.dataset.un='0';el.classList.remove('unread');el.querySelector('.new')?.remove();
+fetch('api/items/'+el.dataset.id,{method:'POST',headers:{'Content-Type':'application/json','X-Requested-With':'xbm'},body:JSON.stringify({read:true})})}
+let io;function observe(){io&&io.disconnect();io=new IntersectionObserver(es=>es.forEach(e=>{const el=e.target;if(e.isIntersecting&&e.intersectionRatio>=.6){el._t=setTimeout(()=>{rd(el);io.unobserve(el)},1500)}else clearTimeout(el._t)}),{threshold:[0,.6]});
+document.querySelectorAll('.card[data-un="1"]').forEach(c=>io.observe(c))}
+
+const STL={open:'待处理',done:'已完成',ignored:'已忽略'};
+function bitem(i){const st=i.status=='open'?(i.priority=='urgent'?['urgent','紧急']:i.priority=='low'?['low','不紧急']:['open','待处理']):[i.status,STL[i.status]];
+return `<div class=bi>${i.tag?`<span class=tag>${esc(i.tag)}</span>`:''}<a class=tt href="#item:${i.id}" title="${esc(i.title)}">${esc(i.title)}</a>${i.posted_at?`<span class=pa>🕒 ${esc(fmt(i.posted_at))}</span>`:''}<span class="st ${st[0]}">${st[1]}</span>${i.url?`<a class=ox href="${esc(i.url)}" target=_blank rel=noopener>原帖 ↗</a>`:''}</div>`}
+async function briefs(){const r=await fetch('api/briefs');const d=await r.json();let day='',h='<div class=tl>';
+let bi0=0;for(const b of d.briefs){const first=bi0++==0;const dd=(b.label.match(/\d{4}-\d\d-\d\d/)||[b.run_at.slice(0,10)])[0];if(dd!=day){day=dd;h+=`<div class=day>${dd}</div>`}
+const noon=/上午|中午/.test(b.label);
+h+=`<div class="br ${noon?'noon':''}${first?' latest':''}"><div class=bh><b>${noon?'☀️':'🌙'} ${esc(b.label)}</b>${first?'<span class="pill">最新</span>':''}<span class=bt>${esc(b.run_at)} 推送 · 新增 ${b.new.length} · 提醒 ${b.carried.length}</span>${b.has_pdf?`<a class=pdf href="api/briefs/${b.id}/pdf" target=_blank>📄 PDF</a>`:''}</div>
+${b.summary?`<div class=sum>${esc(b.summary)}</div>`:''}${b.new.length?`<div class=sec>本次新增</div>${b.new.map(bitem).join('')}`:'<div class=sec>本次没有新增</div>'}
+${b.carried.length?`<details${first?' open':''}><summary>继续提醒的未处理事项 ${b.carried.length} 条</summary>${b.carried.map(bitem).join('')}</details>`:''}</div>`}
+document.getElementById('list').innerHTML=d.briefs.length?h+'</div>':'<div class=empty>还没有简报记录</div>'}
+
+let RD=null,RR=localStorage.rr||'3',RV=localStorage.rv||'tl',RS=localStorage.rs||'new';
+const dadd=(d,n)=>{const x=new Date(d+'T12:00:00+08:00');x.setDate(x.getDate()+n);return new Date(x.getTime()+8*3600e3).toISOString().slice(0,10)};
+function rset(k,v){if(k=='rr'){RR=v;localStorage.rr=v}if(k=='rv'){RV=v;localStorage.rv=v}if(k=='rs'){RS=v;localStorage.rs=v}if(k=='rd')RD=v;radar()}
+async function radar(){let qs='';if(!RD)RD=T;if(RR!='all'){const n=+RR;qs='?from='+dadd(RD,1-n)+'&to='+RD}
+const r=await fetch('api/radar'+qs);const d=await r.json();const runs=d.runs;
+const rng=RR=='all'?'全部时间':(RR=='1'?RD:dadd(RD,1-RR)+' ~ '+RD);
+let h=`<div class=rbar><button onclick="rset('rd','${dadd(RD,-1)}')">‹ 前一天</button><input type=date value="${RD}" max="${d.today}" onchange="rset('rd',this.value||'${d.today}')"><button onclick="rset('rd','${dadd(RD,1)}')" ${RD>=d.today?'disabled style="opacity:.4"':''}>后一天 ›</button>${RD!=d.today?`<button onclick="rset('rd','${d.today}')">回到今天</button>`:''}<span class=sp></span>
+${[['1','今天'],['3','3天'],['7','7天'],['all','全部']].map(([k,l])=>`<button class="${RR==k?'on':''}" onclick="rset('rr','${k}')">${k=='1'&&RD!=d.today?'当天':l}</button>`).join('')}</div>
+<div class=rbar><span class=bt>${esc(rng)} · ${runs.length} 次扫描 · ${runs.reduce((a,x)=>a+x.items.length,0)} 个发布</span></div>`;
+if(RV=='kw')h+=kwBoard(runs);else h+=rTimeline(runs);
+document.getElementById('list').innerHTML=h}
+function kwBoard(runs){const M={};for(const r of runs.slice().reverse())for(const k of r.keywords){const key=k.keyword.trim().toLowerCase();if(!key)continue;
+ const m=M[key]||(M[key]={kw:k.keyword,n:0,first:r,last:r,reason:'',prods:new Set()});m.n++;m.last=r;if(k.reason)m.reason=k.reason;
+ const toks=key.split(/[\s\-_/]+/).filter(t=>t.length>1);const rel=r.items.filter(i=>toks.some(t=>(i.name+' '+i.desc).toLowerCase().includes(t)));(rel.length?rel:r.items.slice(0,2)).forEach(i=>m.prods.add(i.name))}
+let L=Object.values(M);L.sort(RS=='cnt'?(a,b)=>b.n-a.n||(b.last.run_at>a.last.run_at?1:-1):(a,b)=>(b.last.run_at>a.last.run_at?1:b.last.run_at<a.last.run_at?-1:b.n-a.n));
+if(!L.length)return '<div class=rbox><div class=emp>这段时间还没有热词。</div></div>';
+return `<div class=rbox><h3>热词榜 <span class=bt>排序</span>${[['new','最新'],['cnt','次数']].map(([k,l])=>`<a href="#hot" onclick="rset('rs','${k}');return false" style="font-size:13px;font-weight:${RS==k?650:400};color:${RS==k?'#1a56c4':'#6b7280'};text-decoration:none">${l}</a>`).join(' ')}</h3>
+<div class=tw><table class=rt><tr><th>#</th><th>关键词</th><th>次数</th><th>最新理由</th><th>首次 / 最近</th><th>相关产品</th></tr>
+${L.map((m,i)=>`<tr><td class=rk>${i+1}</td><td class=kw>${esc(m.kw)}</td><td><span class=cnt>${m.n}</span></td><td>${esc(m.reason)}</td><td class="nw mut">${esc(m.first.label)}${m.first!==m.last?'<br>'+esc(m.last.label):''}</td><td class=rp>${[...m.prods].slice(0,4).map(esc).join('、')}</td></tr>`).join('')}</table></div></div>`}
+const kn=s=>(s||'').toLowerCase().replace(/[\s\p{P}\p{S}]+/gu,'');
+const ktoks=s=>(s||'').toLowerCase().split(/[\s\p{P}\p{S}]+/u).filter(t=>t.length>1);
+function fsKey(v,day){v=v||'';if(/^\d{4}-/.test(v))return v;if(/^\d\d-\d\d/.test(v))return (day||'').slice(0,4)+'-'+v;return ''}
+function kwMatch(k,i){const a=kn(k),b=kn(i.name);if(!a||!b)return 0;if(a==b)return 100;if(b.includes(a)||a.includes(b))return 90;
+ const ts=ktoks(k);if(!ts.length)return 0;const nm=(i.name||'').toLowerCase(),all=nm+' '+(i.desc||'').toLowerCase();
+ if(!ts.every(t=>all.includes(t)))return 0;const inN=ts.filter(t=>nm.includes(t)).length;return inN*2>=ts.length?10+inN:0}
+function rRows(r){const items=r.items.map(i=>({...i})),kws=(r.keywords||[]).slice().sort((a,b)=>(a.rank||99)-(b.rank||99));
+ const rk=k=>{const x=kws.find(z=>kn(z.keyword)==kn(k));return x?x:null};
+ for(const i of items)if(i.keyword||i.keyword_rank!=null){i.kw=i.keyword||i.name;const x=rk(i.kw);i.rank=i.keyword_rank??(x?x.rank:99);i.reason=i.reason||(x?x.reason:'')}
+ const extra=[];for(const k of kws){if(items.some(i=>i.kw&&kn(i.kw)==kn(k.keyword)))continue;
+  let best=null,bs=0;for(const i of items){if(i.kw)continue;const s=kwMatch(k.keyword,i);if(s>bs){bs=s;best=i}}
+  if(best){best.kw=k.keyword;best.rank=k.rank||99;best.reason=k.reason||''}else extra.push({name:k.keyword,kw:k.keyword,rank:k.rank||99,reason:k.reason||'',only:1})}
+ const top=items.filter(i=>i.kw).concat(extra).sort((a,b)=>a.rank-b.rank);
+ const rest=items.filter(i=>!i.kw).sort((a,b)=>fsKey(b.first_seen,r.day)<fsKey(a.first_seen,r.day)?-1:fsKey(b.first_seen,r.day)>fsKey(a.first_seen,r.day)?1:0);
+ return top.concat(rest)}
+function rTimeline(runs){if(!runs.length)return '<div class=rbox><div class=emp>这段时间没有扫描记录。</div></div>';let day='',h='<div class=tl>';
+for(const r of runs){if(r.day!=day){day=r.day;h+=`<div class=day>${day}</div>`}const noon=/上午|中午/.test(r.label)||(r.run_at||'').slice(11,13)=='12';
+const win=r.window_start?`${fmt(r.window_start)} ~ ${fmt(r.window_end||r.run_at)}`:'';
+if(r.empty&&!r.items.length){h+=`<div class="br ${noon?'noon':''}" style="padding:8px 14px"><div class=bh><b style="font-size:14px">${noon?'☀️':'🌙'} ${esc(r.label)}</b><span class=bt>${win} · 今天当前无重要发布${r.note?' · '+esc(r.note):''}</span></div></div>`;continue}
+h+=`<div class="br ${noon?'noon':''}"><div class=bh><b>${noon?'☀️':'🌙'} ${esc(r.label)}</b><span class=bt>${win?'窗口 '+win+' · ':''}${r.items.length} 个发布</span></div>${r.note?`<div class=sum>${esc(r.note)}</div>`:''}
+<div class=tw style="margin-top:8px"><table class=rt><tr><th>产品</th><th>是干什么的</th><th>来源</th><th>首发时间</th><th>链接</th></tr>
+${rRows(r).map(i=>`<tr class="${i.kw?'kwr':''}"><td class=nm>${esc(i.name)}${i.kw?`<span class=kwc title="${esc('建站词 #'+i.rank+(i.kw!==i.name?'：'+i.kw:''))}">🔑 建站词</span>`:''}</td><td>${i.only?`<span class=sug>建议：${esc(i.reason)}</span>`:esc(i.desc)}${i.kw&&!i.only&&i.reason?`<div class=sug>建议：${esc(i.reason)}</div>`:''}</td><td class=nw>${esc(i.source||'')}</td><td class="nw mut">${esc(fmt(i.first_seen)||'')}</td><td class=nw>${i.url?`<a class=ox href="${esc(i.url)}" target=_blank rel=noopener style="color:#1d9bf0;font-weight:600;text-decoration:none">原帖 ↗</a>`:''}</td></tr>`).join('')}</table></div></div>`}
+return h+'</div>'}
+// ---------- 💬 TG 群总结 ----------
+let GD=null,GR=localStorage.gr||'1',GP=0,GX={};
+function gset(k,v){if(k=='gr'){GR=v;localStorage.gr=v;GP=0}if(k=='gd'){GD=v;GP=0}if(k=='gp')GP=v;tg()}
+function inl(t){const L=[];t=t.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,(m,a,u)=>{L.push(`<a href="${u}" target=_blank rel=noopener>${a}</a>`);return '\u0000'+(L.length-1)+'\u0000'});
+t=t.replace(/https?:\/\/[^\s<>()（）"'，。、]+/g,u=>{L.push(`<a href="${u}" target=_blank rel=noopener>${u.replace(/^https?:\/\//,'').slice(0,48)}${u.length>56?'…':''}</a>`);return '\u0000'+(L.length-1)+'\u0000'});
+t=t.replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>').replace(/`([^`]+)`/g,'<code>$1</code>').replace(/【([^】]{1,24})】/g,'<span class=ga>$1</span>');
+return t.replace(/\u0000(\d+)\u0000/g,(m,i)=>L[+i])}
+function md(src){const out=[];let lt=null;const close=()=>{if(lt){out.push(`</${lt}>`);lt=null}};
+for(let ln of esc(src||'').split('\n')){const t=ln.trim();if(!t){close();continue}let m;
+ if(m=/^#{1,4}\s+(.*)/.exec(t)){close();out.push(`<div class=mh>${inl(m[1])}</div>`)}
+ else if(m=/^[-*•]\s+(.*)/.exec(t)){if(lt!='ul'){close();out.push('<ul>');lt='ul'}out.push(`<li>${inl(m[1])}</li>`)}
+ else if(m=/^\d+[.)、]\s*(.*)/.exec(t)){if(lt!='ol'){close();out.push('<ol>');lt='ol'}out.push(`<li>${inl(m[1])}</li>`)}
+ else{close();out.push(`<p>${inl(t)}</p>`)}}close();return out.join('')}
+function hli(t){const L=[];const ph=h=>{L.push(h);return '\u0000'+(L.length-1)+'\u0000'};
+ t=t.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,(m,a,u)=>ph(`<a href="${u}" target=_blank rel=noopener>${a}</a>`));
+ t=t.replace(/https?:\/\/[^\s<>()（）"'，。、]+/g,u=>ph(`<a href="${u}" target=_blank rel=noopener>${u.replace(/^https?:\/\//,'').slice(0,48)}${u.length>56?'…':''}</a>`));
+ t=t.replace(/==([^=\n]{1,40}?)==/g,'<mark class=hl>$1</mark>').replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>').replace(/`([^`]+)`/g,'<code>$1</code>').replace(/【([^】]{1,24})】/g,'<span class=ga>$1</span>');
+ return t.replace(/\u0000(\d+)\u0000/g,(m,i)=>L[+i])}
+const TOKRE=/\s*\{\{([^{}\n]{4,40})\}\}\s*$/;
+function tok(s){const m=TOKRE.exec(s);if(!m)return {txt:s,hms:'',full:''};const txt=s.slice(0,m.index);
+ const r=/^(?:(\d{4}-\d\d-\d\d)[ T])?(\d{1,2}:\d\d(?::\d\d)?)(?:\s*[~–-]\s*(?:\d{4}-\d\d-\d\d[ T])?(\d{1,2}:\d\d(?::\d\d)?))?$/.exec(m[1].trim());
+ if(!r)return {txt,hms:'',full:''};const d=r[1]||CHD||'';return {txt,hms:r[2],full:(d?d+' ':'')+r[2]+(r[3]&&r[3]!=r[2]?' – '+r[3]:'')}}
+const untok=c=>(c||'').split('\n').map(l=>l.replace(TOKRE,'')).join('\n');
+let CHD='';
+const VFH='#### 🔎 网上核验（外部公开来源，不是群友发言）';
+const isVH=t=>/^#{1,4}\s+.*网上核验/.test(t),isBound=t=>/^#{1,4}\s/.test(t)||/^\*\*\d{1,2}:\d{2}\s*[–-]\s*\d{1,2}:\d{2}\*\*$/.test(t);
+function tkey(l){const m=TOKRE.exec(l);if(!m)return '';const r=/^(?:(\d{4}-\d\d-\d\d)[ T])?(\d{1,2}:\d\d(?::\d\d)?)/.exec(m[1].trim());if(!r)return '';let t=r[2];if(t.split(':').length==2)t+=':00';return (r[1]||'0000-00-00')+' '+t.padStart(8,'0')}
+function vkey(l){const m=/^[-*•]\s*[（(](\d{1,2}):(\d{2})/.exec(l);return m?m[1].padStart(2,'0')+':'+m[2]:''}
+function sortDesc(arr,key){const t=arr.filter(x=>key(x)),u=arr.filter(x=>!key(x));t.sort((a,b)=>key(b)<key(a)?-1:key(b)>key(a)?1:0);return t.concat(u)}
+// reorder one content: speech rows newest-first inside each topic segment; pull 网上核验 entries out
+function reord(c){const L=(c||'').split('\n'),body=[],ver=[];let inv=false,seg=[];
+ const flush=()=>{const idx=seg.map((l,i)=>/^>\s*[^：:\n]{1,40}[：:]/.test(l.trim())?i:-1).filter(i=>i>=0);const sp=sortDesc(idx.map(i=>seg[i]),tkey);idx.forEach((i,k)=>seg[i]=sp[k]);body.push(...seg);seg=[]};
+ for(const l of L){const t=l.trim();
+  if(isVH(t)){flush();inv=true;continue}
+  if(inv){if(isBound(t)){inv=false}else{if(/^[-*•]\s+/.test(t))ver.push(t);else if(t)ver.push('- '+t);continue}}
+  if(isBound(t))flush();seg.push(l)}
+ flush();while(body.length&&!body[body.length-1].trim())body.pop();return {body:body.join('\n'),ver}}
+const gtag=s=>(s||'').replace(/[【】\[\]]/g,'').slice(0,20);
+function vsrc(ents){return ents.length?VFH+'\n'+sortDesc(ents,vkey).join('\n')+'\n\n':''}
+function chat(src){const out=[];let lt=null,vf=false,cv=false;const close=()=>{if(lt){out.push(`</${lt}>`);lt=null}};
+ const endv=()=>{if(vf){out.push('</div>');vf=false}};
+ for(let ln of esc(src||'').split('\n')){const t=ln.trim();if(!t){close();continue}let m;
+  if(m=/^\*\*(\d{1,2}:\d{2}\s*[–-]\s*\d{1,2}:\d{2})\*\*$/.exec(t)){close();endv();out.push(`<div class=hr><span>${m[1]}</span></div>`)}
+  else if(m=/^#{1,4}\s+.*网上核验(.*)$/.exec(t)){close();endv();out.push(`<div class=vf><div class=vh>🔎 网上核验<span>外部公开来源，不是群友发言</span></div>`);vf=true}
+  else if(m=/^###\s+(.*?)\s*(?:[（(]\s*(\d+)\s*条\s*\/\s*(\d+)\s*人\s*[)）])?\s*$/.exec(t)){close();endv();const z=/^零星消息/.test(m[1]);
+   out.push(`<div class="tp${z?' z':''}"><span class=tt>${hli(m[1])}</span>${m[2]?`<span class=tm>${m[2]} 条 · ${m[3]} 人</span>`:''}</div>`)}
+  else if(m=/^#{1,2}\s+(.*)/.exec(t)){close();endv();out.push(`<div class=sh>${hli(m[1])}</div>`)}
+  else if(m=/^&gt;\s*([^：\n]{1,40})：\s*(.*)$/.exec(t)){close();const nm=m[1].trim();const tk=tok(m[2]);
+   out.push(`<div class=sp><span class=nm><bdi>${nm}</bdi></span><span class=nf>${nm}</span><span class=tx>${hli(tk.txt).replace(/ · /g,'<i class=sep>·</i>')}</span><span class=st${tk.full?` title="${tk.full}"`:''}>${tk.hms}</span></div>`)}
+  else if(m=/^~\s+(.*)/.exec(t)){close();out.push(`<div class=mt>${hli(m[1])}</div>`)}
+  else if(vf&&(m=/^[-*•]\s+(.*)/.exec(t))){let r=m[1],tm='';const a=/^[（(](\d{1,2}:\d{2})[–-]\d{1,2}:\d{2}[)）]\s*/.exec(r);if(a){tm=a[1];r=r.slice(a[0].length)}
+   const b=/^([^｜：]{1,40})｜([^：]{1,60})：\s*(.*)$/.exec(r);
+   out.push(`<div class=vi>${tm?`<span class=vt>${tm}</span>`:''}${b?`<b>${hli(b[1])}</b><span class=vs>${hli(b[2])}</span><div>${hli(b[3])}</div>`:hli(r)}</div>`)}
+  else if(m=/^[-*•]\s+(.*)/.exec(t)){if(lt!='ul'){close();out.push('<ul>');lt='ul'}out.push(`<li>${hli(m[1])}</li>`)}
+  else{close();out.push(`<p>${hli(t)}</p>`)}}
+ close();endv();return out.join('')}
+function prev(c){c=untok(c);const tps=[];for(const l of c.split('\n')){const m=/^###\s+(.*?)\s*(?:[（(]\s*\d+\s*条.*)?$/.exec(l.trim());if(m&&!/^零星消息/.test(m[1])&&!tps.includes(m[1]))tps.push(m[1])}
+ const cl=s=>s.replace(/==/g,'').replace(/\*\*/g,'').replace(/\[([^\]]*)\]\([^)]*\)/g,'$1').replace(/https?:\/\/\S+/g,'').replace(/`/g,'').replace(/【[^】]*】/g,'').trim();
+ if(tps.length)return cl(tps.join(' · '));
+ for(const l of c.split('\n')){const s=l.trim();if(/^\*\*\d{1,2}:\d{2}\s*[–-]\s*\d{1,2}:\d{2}\*\*$/.test(s)||/^#{1,4}\s+.*网上核验/.test(s)||/^~\s/.test(s))continue;const t=cl(s.replace(/^>\s*/,'').replace(/^[#\-*•\d.)、\s]+/,''));if(t)return t}return ''}
+const NIL=c=>!c||/^\s*无重要内容\s*$/.test(c);
+function cp(id){const t=untok(GX[id]);if(!t)return;navigator.clipboard.writeText(t).then(()=>toast('已复制 Markdown'),()=>toast('复制失败'))}
+function exp(btn,on){btn.closest('.br').querySelectorAll('details.tgg').forEach(d=>d.open=on)}
+async function tg(){if(!GD)GD=T;let qs='?per=0';if(GR=='all')qs='?per=5&page='+GP;else{const n=+GR;qs+='&from='+dadd(GD,1-n)+'&to='+GD}
+const sp0=tgStat();const r=await fetch('api/tg'+qs);if(r.status==401)return location.reload();const d=await r.json();GX={};let gid=0;const RW=await rawFetch(d);await sp0;
+const rng=GR=='all'?'全部时间':(GR=='1'?GD:dadd(GD,1-GR)+' ~ '+GD);
+let h=`<div class=rbar><button onclick="gset('gd','${dadd(GD,-1)}')">‹ 前一天</button><input type=date value="${GD}" max="${d.today}" onchange="gset('gd',this.value||'${d.today}')"><button onclick="gset('gd','${dadd(GD,1)}')" ${GD>=d.today?'disabled style="opacity:.4"':''}>后一天 ›</button>${GD!=d.today?`<button onclick="gset('gd','${d.today}')">回到今天</button>`:''}<span class=sp></span>
+${[['1','今天'],['3','3天'],['7','7天'],['all','全部']].map(([k,l])=>`<button class="${GR==k?'on':''}" onclick="gset('gr','${k}')">${k=='1'&&GD!=d.today?'当天':l}</button>`).join('')}${pullBtn()}</div><div id=pullbar>${pullBar()}</div>`;
+const nw=d.days.reduce((a,x)=>a+x.windows.length,0),nm=d.days.reduce((a,x)=>a+x.windows.reduce((b,w)=>b+w.msg_count,0),0);
+h+=`<div class=rbar><span class=bt>${esc(rng)} · ${GR=='all'?d.total_days:d.days.length} 天 · ${nw} 个时段 · ${nm} 条消息${RW.total?` · 实时拉取 ${nf(RW.total)} 条`:''}</span></div>`;
+if(!d.days.length&&!RW.days.length&&!(RW.pulls||[]).length){document.getElementById('list').innerHTML=h+'<div class=rbox><div class=emp>这段时间还没有群总结。</div></div>';return}
+h+='<div class=tl>';
+const RM={},DM={};RW.days.forEach(x=>RM[x.date]=x);d.days.forEach(x=>DM[x.date]=x);const PS=pullIdx(RW),cov=dd=>(RW.pulls||[]).some(p=>p.from_date<=dd&&dd<=p.to_date);
+for(const dd of [...new Set([...d.days.map(x=>x.date),...RW.days.map(x=>x.date),...Object.keys(PS)])].sort().reverse()){const day=DM[dd]||{date:dd,daily:null,windows:[]};CHD=day.date;h+=`<div class=day>${day.date}</div>`;
+ for(const p of (PS[dd]||[]))h+=pullCard(p);if(RM[dd]&&!cov(dd))h+=rawCard(RM[dd]);CHD=day.date;
+ if(day.daily){const id='g'+(gid++);const ro=reord(day.daily.content);const dsrc=vsrc(ro.ver)+ro.body;GX[id]=dsrc;const up=(day.daily.updated_at||'').slice(11);const part=day.daily.partial;
+  h+=`<div class="br tgd"><div class=hov><button onclick="cp('${id}')" title="复制 Markdown">复制</button></div><div class="bh tgh"><b>📅 全天合并总结</b>${part?`<span class="pill pst">截至 ${esc(up)}</span>`:''}<span class="bt tgm">${esc(day.daily.msg_count!=null?day.daily.msg_count+' 条消息 · ':'')}更新 ${esc(up)}</span></div>
+  <div class="cv${(day.daily.content||'').length>1200?' clamp':''}" id="${id}">${chat(dsrc)}</div>${(day.daily.content||'').length>1200?`<span class=more onclick="const m=document.getElementById('${id}');m.classList.toggle('clamp');this.textContent=m.classList.contains('clamp')?'展开全文 ▾':'收起 ▴'">展开全文 ▾</span>`:''}</div>`}
+ for(const w of day.windows){const [a,b]=w.window.split('-');const id='g'+(gid++);
+  const ra=w.all?reord(w.all.content):null,rg=w.groups.map(g=>reord(g.content));
+  const ents=(ra?ra.ver:[]).concat(...rg.map((r,k)=>r.ver.map(v=>v+' 【'+gtag(w.groups[k].title)+'】')));const vs=vsrc(ents);
+  const gk=w.groups.map((g,k)=>k).filter(k=>(+w.groups[k].msg_count||0)>0);
+  GX[id]=vs+(ra?ra.body+'\n\n':'')+gk.map(k=>`## ${w.groups[k].title}（${w.groups[k].msg_count} 条）\n${rg[k].body}`).join('\n\n');
+  const hasAll=ra&&!NIL(ra.body);
+  h+=`<div class="br tgw${w.partial?' part':''}"><div class=hov><button onclick="exp(this,true)" title="展开全部群">展开</button><button onclick="exp(this,false)" title="收起全部群">收起</button><button onclick="cp('${id}')" title="复制 Markdown">复制</button></div>
+  <div class="bh tgh"><b>🕒 ${a}:00–${b}:00</b>${w.partial?`<span class="pill pst">进行中 · 至 ${esc((w.win_end||'').slice(11)||'现在')}</span>`:''}<span class="bt tgm" title="${gk.length} 个群有消息（共跟踪 ${w.groups.length} 个）">${w.msg_count} 条 · ${gk.length} 群</span></div>
+  ${vs?`<div class="cv vtop">${chat(vs)}</div>`:''}${hasAll?`<div class=cv>${chat(ra.body)}</div>`:''}
+  ${gk.map(k=>{const g=w.groups[k];const nil=NIL(rg[k].body);return `<details class="tgg${nil?' nil':''}"><summary><span class=gn>${esc(g.title)}</span><span class=gc>${g.msg_count??0} 条</span><span class=gv>${nil?'无重要内容':esc(prev(rg[k].body))}</span></summary>${nil?'':`<div class=cv>${chat(rg[k].body)}</div>`}</details>`}).join('')}</div>`}}
+h+='</div>';
+if(GR=='all'&&d.total_days>d.per){const pages=Math.ceil(d.total_days/d.per);h+=`<div class=pg>${GP>0?`<button onclick="gset('gp',${GP-1})">‹ 更新</button>`:''}<span class=bt style="align-self:center">第 ${GP+1} / ${pages} 页</span>${GP<pages-1?`<button onclick="gset('gp',${GP+1})">更早 ›</button>`:''}</div>`}
+document.getElementById('list').innerHTML=h;rawRestore();document.querySelectorAll('#list details.rawall[open]').forEach(el=>rawAll(el))}
+// ---------- 📡 TG 主动拉取（实时原始消息） ----------
+const UIV='__UIV__';
+let TGS={state:'?'},PJ=null,PJT=null,PSEL=null,PM={k:'q',v:'h6'},PGL=[],RAWOPEN=new Set(JSON.parse(sessionStorage.rawopen||'[]')),RAWD=null;
+const nf=n=>(+n||0).toLocaleString('en-US');
+async function tgStat(){try{const r=await fetch('api/tg/login');TGS=await r.json();
+ if(TGS.ui&&UIV.indexOf('__')<0&&TGS.ui!=UIV&&!document.getElementById('ppm')&&sessionStorage.uivr!=TGS.ui){sessionStorage.uivr=TGS.ui;location.reload();return}if(TGS.job&&!PJ)PJ=TGS.job;if(TGS.job&&TGS.job.status=='running'&&!PJT)pjPoll(TGS.job.id);if(TGS.job&&!PJT){if(!PJ||PJ.id==TGS.job.id)PJ=TGS.job;if(sumRun(TGS.job)&&!SPT)sumPoll(TGS.job.id)}}catch(e){TGS={state:'down'}}}
+async function rawFetch(d){let a,b;if(GR=='all'){a=d.days.length&&GP<Math.ceil(d.total_days/d.per)-1?d.days[d.days.length-1].date:'2000-01-01';b=GP==0||!d.days.length?d.today:d.days[0].date}else{a=dadd(GD,1-GR);b=GD}
+ RAWR=[a,b];try{const r=await fetch('api/tg/raw?from='+a+'&to='+b);return RAWD=await r.json()}catch(e){return RAWD={days:[],total:0}}}
+const sumRun=j=>!!(j&&j.status!='running'&&j.summary&&j.summary.status=='pending'&&!j.summary.timeout);
+function pullBtn(){if(PJ&&PJ.status=='running')return `<button class="pullb run" onclick="pullOpen()">拉取中 ${Math.floor(PJ.percent||0)}%</button>`;
+ if(sumRun(PJ))return `<button class="pullb run" onclick="pullOpen()" title="拉取已完成，AI 正在生成总结"><span class=spn></span>总结中…</button>`;
+ if(TGS.state=='authorized')return `<button class=pullb onclick="pullOpen()" title="从 Telegram 主动拉取原始消息">⟳ 拉取</button>`;
+ if(TGS.state=='down')return `<button class="pullb off" onclick="toast('拉取服务没有运行')" title="拉取服务没有运行">⟳ 拉取</button>`;
+ return `<button class="pullb off" onclick="location.href='tg-login'" title="还没连接 Telegram，先去扫码登录">⟳ 拉取 · 先登录</button>`}
+function pullBar(){const j=PJ;if(sumRun(j))return `<div class=pmini onclick="pullOpen()"><span>📝 AI 总结生成中…</span><div class="pgb ind"><div class=pgf></div></div><span>拉取完成 · 新增 ${nf(j.added)} 条 · 通常 1–3 分钟</span></div>`;
+ if(!j||j.status!='running')return '';
+ return `<div class=pmini onclick="pullOpen()"><span>📡 正在拉取</span><div class="pgb${j.wait_left?' wait':''}"><div class=pgf style="width:${j.percent||0}%"></div></div><b>${Math.floor(j.percent||0)}%</b><span>${esc(j.current_group||'')} · 已拉 ${nf(j.fetched)} 条</span></div>`}
+// 📡 每次拉取一张卡片：挂在任务结束那天（超出当前视图就挂在视图边上），同一天按拉取时间倒序
+let RAWR=['',''];
+function pullIdx(RW){const P={},lo=RAWR[0]||'0000',hi=RAWR[1]||'9999';
+ for(const p of (RW.pulls||[])){const anc=p.to_date>hi?hi:p.to_date<lo?lo:p.to_date;(P[anc]=P[anc]||[]).push(p)}
+ for(const k in P)P[k].sort((a,b)=>(b.created_at||'').localeCompare(a.created_at||'')||(b.job_id||'').localeCompare(a.job_id||''));return P}
+function rawHours(g,k){return `<div class=rh>${g.hours.map(x=>{const hk=k+'|'+x.h;return `<details class=rhr data-k="${hk}"${RAWOPEN.has(hk)?' open':''} ontoggle="rawTog(this)"><summary><span class=hrl>${x.h}:00–${String(+x.h+1).padStart(2,'0')}:00</span><span class=gc>${nf(x.count)} 条</span>${x.new?`<span class=gnew>+${nf(x.new)}</span>`:''}</summary><div class="cv rawm"></div></details>`}).join('')}</div>`}
+function prng(p){const a=p.from||'',b=p.to||'';return a.slice(0,10)==b.slice(0,10)?`${a.slice(5,10)} ${a.slice(11,16)}–${b.slice(11,16)}`:`${a.slice(5,16)} – ${b.slice(5,16)}`}
+function sumBanner(p){const s=p.summary||{};
+ if(s.status=='pending'&&!s.timeout)return `<div class="psb big"><b><span class=spn></span>📝 AI 总结生成中…</b><span class=bt>通常 1–3 分钟，好了会自动刷新${s.waited_min?` · 已等 ${s.waited_min} 分钟`:''}</span><div class="pgb ind"><div class=pgf></div></div></div>`;
+ if(s.status=='pending')return `<div class="psb err"><span class=why>⏱ 总结超时（已等 ${s.waited_min??15} 分钟）</span><button onclick="sumRetry('${p.job_id}',this)">重新总结</button></div>`;
+ if(s.status=='failed')return `<div class="psb err"><span class=why>⚠️ 总结失败：${esc(s.error||'未知原因')}</span><button onclick="sumRetry('${p.job_id}',this)">重新总结</button></div>`;
+ return ''}
+function pullCard(p){const s=p.summary||{},st=s.status,pid=p.job_id,id='g'+Object.keys(GX).length+'p';CHD=(p.to||'').slice(0,10)||CHD;
+ const SI={},order=[];for(const it of p.items){const key=it.chat_id!=null?String(it.chat_id):'n:'+it.grp;if(!SI[key]){SI[key]=[];order.push(key)}SI[key].push(it)}
+ const GT={};p.groups.forEach(g=>GT[String(g.chat_id)]=g.title);
+ const ov=(p.overview||'').trim(),hasSum=order.length>0||!!ov;let cpy=ov;
+ const sumG=order.map(key=>{const its=SI[key],k=pid+'|'+key;
+  const multi=its.length>1,src=multi?its.map(it=>{const f=it.from||'',t=it.to||'';return f.slice(0,10)==t.slice(0,10)?`**${f.slice(11,16)||'??:??'}–${t.slice(11,16)||'??:??'}**\n${it.content}`:`## ${f.slice(5,16)} – ${t.slice(5,16)}\n${it.content}`}).join('\n\n'):its[0].content;
+  const ro=reord(src),body=vsrc(ro.ver)+ro.body,title=its[0].grp||GT[key]||key,cnt=its.reduce((a,it)=>a+(+it.msg_count||0),0)||(p.counts||{})[key]||0;
+  cpy+=`\n\n## ${title}（${cnt} 条）\n${untok(src)}`;
+  return `<details class="tgg rg rs" data-k="${k}"${SUMCL.has(k)?'':' open'} ontoggle="sumTog(this)"><summary><span class=gn>${esc(title)}</span><span class=gc>${nf(cnt)} 条</span><span class=gv>${esc(prev(src))}</span></summary><div class=cv>${chat(body)}</div></details>`}).join('');
+ if(hasSum)GX[id]=cpy.trim();
+ const pend=st=='pending'&&!s.timeout;
+ const pill=hasSum?'<span class="pill sm">AI 总结</span>':pend?'<span class="pill pend">总结中</span>':st=='none'?'<span class="pill live">无新消息</span>':'<span class="pill pst">未总结</span>';
+ const rk='all|'+pid,tot=p.msg_total??p.fetched??0;
+ return `<div class="br tgr tgp" id="pull-${pid}"><div class=hov>${order.length>1?`<button onclick="rexp(this,true)" title="展开全部群">展开</button><button onclick="rexp(this,false)" title="收起全部群">收起</button>`:''}${hasSum?`<button onclick="cp('${id}')" title="复制 Markdown">复制</button>`:''}</div>
+ <div class="bh tgh"><b>📡 实时拉取 ${esc(prng(p))}</b>${pill}<span class="bt tgm" title="拉取于 ${esc(p.created_at||'')}">${p.groups.length} 群 · ${nf(tot)} 条 · 新增 ${nf(p.new_count)}</span></div>
+ ${sumBanner(p)}${ov?`<div class="cv ovw">${chat((r=>vsrc(r.ver)+r.body)(reord(ov)))}</div>`:''}${sumG}
+ ${!hasSum&&st=='none'?`<div class=pgr style="margin:4px 0">这次拉取没有新消息，不需要总结。</div>`:''}
+ ${tot?`<details class=rawall data-job="${pid}" data-k="${rk}"${RAWOPEN.has(rk)?' open':''} ontoggle="rawTog(this);if(this.open)rawAll(this)"><summary>查看全部原始消息（${nf(tot)} 条）<span class=bt>按群分段 · 时间顺序</span></summary><div class="cv rawm rawa"></div></details>`:''}</div>`}
+// 旧版按日期合并的原始消息卡（只在某天没有任何拉取任务覆盖时兜底）
+function rawCard(rd){const dd=rd.date;
+ return `<div class="br tgr" id="raw-${dd}"><div class=hov><button onclick="rexp(this,true)" title="展开全部群">展开</button><button onclick="rexp(this,false)" title="收起">收起</button></div>
+ <div class=bh><b>📡 实时拉取</b><span class="pill live">原始消息</span><span class=bt>${nf(rd.count)} 条 · ${rd.groups.length} 群</span></div>
+ ${rd.groups.map(g=>{const k=dd+'|'+g.chat;return `<details class="tgg rg" data-k="${k}"${RAWOPEN.has(k)?' open':''} ontoggle="rawTog(this)"><summary><span class=gn>${esc(g.title)}</span><span class=gc>${nf(g.count)} 条</span><span class=gv>${g.first.slice(0,5)} – ${g.last.slice(0,5)}</span></summary>${rawHours(g,k)}</details>`}).join('')}</div>`}
+let SUMCL=new Set(JSON.parse(sessionStorage.sumcl||'[]'));
+function sumTog(el){const k=el.dataset.k;if(el.open)SUMCL.delete(k);else SUMCL.add(k);sessionStorage.sumcl=JSON.stringify([...SUMCL].slice(-200))}
+// 「查看全部原始消息」：一次性加载整个任务范围（按群分段、群内按时间），超过 3000 条分批
+async function rawAll(el,more){const box=el.querySelector('.rawa'),jid=el.dataset.job;if(box.dataset.busy||(!more&&box.dataset.done))return;box.dataset.busy=1;
+ const off=more?+box.dataset.n||0:0;if(!more)box.innerHTML='<div class=ld>加载中…</div>';
+ try{const r=await fetch(`api/tg/pull/${jid}/raw?offset=${off}&limit=3000`);if(!r.ok)throw 0;const d=await r.json();
+  const T={},C=d.counts||{};(d.groups||[]).forEach(g=>T[String(g.chat_id)]=g.title);const md=(d.from||'').slice(0,10)!=(d.to||'').slice(0,10);
+  let lc=box.dataset.lc||'',ld=box.dataset.ld||'',h='';
+  for(const m of d.messages){const c=String(m.chat_id);if(c!=lc){h+=`<div class=rgh>${esc(T[c]||m.grp||c)}<span>${nf(C[c]||0)} 条</span></div>`;lc=c;ld=''}
+   if(md&&m.date!=ld){h+=`<div class=hr><span>${m.date.slice(5)}</span></div>`;ld=m.date}h+=rawMsg(m,m.date)}
+  box.querySelector('.ld,.lm')?.remove();if(more)box.insertAdjacentHTML('beforeend',h);else box.innerHTML=h||'<div class=ld>没有消息</div>';
+  box.dataset.lc=lc;box.dataset.ld=ld;const n=off+d.messages.length;box.dataset.n=n;
+  if(n<d.total)box.insertAdjacentHTML('beforeend',`<button class=lm onclick="rawAll(this.closest('details'),1)">继续加载（还有 ${nf(d.total-n)} 条）</button>`);else box.dataset.done=1}
+ catch(e){box.innerHTML='<div class=ld>加载失败，收起再展开重试</div>'}finally{delete box.dataset.busy}}
+function pjump(id){const el=document.getElementById('pull-'+id);if(!el)return;el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),2400)}
+async function sumRetry(id,btn){if(btn)btn.disabled=true;try{const r=await fetch('api/tg/pull/'+id+'/summary/retry',{method:'POST',headers:{'X-Requested-With':'xbm'}});const d=await r.json().catch(()=>({}));
+ if(!r.ok){if(btn)btn.disabled=false;return toast(d.error=='bad value: no_new'?'这次拉取没有新消息，不需要总结':'没能重新发起总结（'+(d.error||r.status)+'）')}
+ toast('已重新发起总结');sumPoll(id);if(view=='tg')tg()}catch(e){if(btn)btn.disabled=false;toast('网络出错，稍后再试')}}
+function rexp(b,on){b.closest('.br').querySelectorAll('details.rg').forEach(d=>d.open=on)}
+function rawTog(el){const k=el.dataset.k;if(el.open)RAWOPEN.add(k);else RAWOPEN.delete(k);sessionStorage.rawopen=JSON.stringify([...RAWOPEN].slice(-60));if(el.open&&el.classList.contains('rhr'))rawLoad(el)}
+function rawRestore(){document.querySelectorAll('#list details.rhr[open]').forEach(el=>rawLoad(el))}
+function rlink(t){return t.replace(/https?:\/\/[^\s<>"']+/g,u=>`<a href="${u}" target=_blank rel=noopener>${u.replace(/^https?:\/\//,'').slice(0,60)}${u.length>68?'…':''}</a>`)}
+function rawMsg(m,dd){const tx=m.text?rlink(esc(m.text)):'';const long=(m.text||'').length>240||(m.text||'').split('\n').length>6;
+ const meta=[m.fwd?'转发自 '+esc(m.fwd):'',m.reply_to?'↩ 回复 #'+m.reply_to:''].filter(Boolean).join(' · ');
+ return `<div class="sp${m.new?' nw':''}"><span class=nm><bdi>${esc(m.sender||'?')}</bdi></span><span class=nf>${esc(m.sender||'?')}</span><span class="tx${long?' cl':''}"${long?` onclick="this.classList.remove('cl')" title="点开全文"`:''}>${meta?`<span class=rmt>${meta}</span>`:''}${m.media?`<span class=rmd>${esc(m.media)}</span>`:''}${tx}</span>${m.link?`<a class=st href="${esc(m.link)}" target=_blank rel=noopener title="${dd} ${m.hm} · 在 Telegram 打开">${m.hm.slice(0,5)}</a>`:`<span class=st title="${dd} ${m.hm}">${m.hm.slice(0,5)}</span>`}</div>`}
+async function rawLoad(el,more){const box=el.querySelector('.rawm');const [dd,chat,h]=el.dataset.k.split('|');const off=more?+box.dataset.n||0:0;
+ if(!more){if(box.dataset.busy)return;box.innerHTML='<div class=ld>加载中…</div>'}box.dataset.busy=1;
+ try{const r=await fetch(`api/tg/raw/msgs?date=${dd}&chat=${chat}&hour=${h}&offset=${off}&limit=200`);const d=await r.json();
+  const html=d.messages.map(m=>rawMsg(m,dd)).join('');box.querySelector('.ld,.lm')?.remove();
+  if(more)box.insertAdjacentHTML('beforeend',html);else box.innerHTML=html||'<div class=ld>没有消息</div>';
+  const n=off+d.messages.length;box.dataset.n=n;if(n<d.total)box.insertAdjacentHTML('beforeend',`<button class=lm onclick="rawLoad(this.closest('details'),1)">加载更多（还有 ${nf(d.total-n)} 条）</button>`)}
+ catch(e){box.innerHTML='<div class=ld>加载失败，收起再展开重试</div>'}finally{delete box.dataset.busy}}
+// --- 拉取面板 ---
+const PQ=[['h1','1 小时',{hours:1}],['h3','3 小时',{hours:3}],['h6','6 小时',{hours:6}],['h12','12 小时',{hours:12}],['d1','1 天',{days:1}],['d3','3 天',{days:3}],['d7','7 天',{days:7}]];
+const bjNow=()=>new Date(Date.now()+8*3600e3).toISOString().slice(0,16);
+async function pullOpen(){if(TGS.state!='authorized'&&!(PJ&&PJ.status=='running')){if(TGS.state=='down')return toast('拉取服务没有运行');location.href='tg-login';return}
+ try{const r=await fetch('api/tg/groups');PGL=(await r.json()).groups}catch(e){PGL=[]}
+ if(!PSEL){try{PSEL=new Set(JSON.parse(localStorage.pullsel))}catch(e){}if(!PSEL||!PSEL.size)PSEL=new Set(PGL.filter(g=>g.default).map(g=>g.key))}
+ let m=document.getElementById('ppm');if(!m){m=document.createElement('div');m.id='ppm';m.className='ppm';m.onclick=e=>{if(e.target==m)pullClose()};document.body.appendChild(m)}
+ const t=bjNow(),t0=t.slice(0,10)+'T00:00';
+ m.innerHTML=`<div class=pp role=dialog aria-modal=true aria-label="主动拉取群消息"><div class=pph><b>主动拉取群消息</b><span class=bt>只读${TGS.me?' · '+esc(TGS.me.name):''}</span><button class=x onclick="pullClose()" aria-label=关闭>✕</button></div>
+ <div class=ppb><div class=pps><div class=ppl>时间范围<span class=sp></span><span class=hint style="font-weight:400">北京时间</span></div>
+ <div class="ppr" id=prq><span class=lb>最近</span><div class=chips>${PQ.map(([k,l])=>`<button type=button data-q="${k}" onclick="pmSet('q','${k}')">${l}</button>`).join('')}</div></div>
+ <div class="ppr" id=prc onclick="pmSet('c')"><span class=lb>自定义最近</span><input type=number id=pcn min=1 max=744 value="${localStorage.pcn||2}" oninput="pmSet('c')"><select id=pcu onchange="pmSet('c')"><option value=hours>小时</option><option value=days${localStorage.pcu=='days'?' selected':''}>天</option></select></div>
+ <div class="ppr" id=prr onclick="pmSet('r')"><span class=lb>具体时段</span><input type=datetime-local id=prf value="${t0}" max="${t}" onchange="pmSet('r')"><span>至</span><input type=datetime-local id=prt value="${t}" max="${t}" onchange="pmSet('r')"></div></div>
+ <div class=pps><div class=ppl>群聊 <span id=pgc></span><span class=sp></span><button type=button onclick="psel('all')">全选</button><button type=button onclick="psel('inv')">反选</button><button type=button onclick="psel('def')">默认</button></div>
+ <div class=pgl>${pgItems()}</div></div></div><div class=ppf id=ppf></div></div>`;
+ pmSet(PM.k,PM.v);pgCount();pfoot();document.addEventListener('keydown',pesc)}
+function pesc(e){if(e.key=='Escape')pullClose()}
+function pullClose(){document.getElementById('ppm')?.remove();document.removeEventListener('keydown',pesc)}
+function pgItems(){const row=g=>`<label class=pgi><input type=checkbox value="${esc(g.key)}"${PSEL.has(g.key)?' checked':''} onchange="pck(this)"><span class=t title="${esc(g.title)}">${esc(g.title)}</span><span class=m>${g.latest_at?'已拉到 '+esc(g.latest_at.slice(5)):'未拉过'}${g.stored?' · '+nf(g.stored)+' 条':''}</span></label>`;
+ const a=PGL.filter(g=>g.default),b=PGL.filter(g=>!g.default);return `<div class=pgs>总结里的 ${a.length} 个群</div>${a.map(row).join('')}<div class=pgs>其他 ${b.length} 个群</div>${b.map(row).join('')}`}
+function pck(i){i.checked?PSEL.add(i.value):PSEL.delete(i.value);localStorage.pullsel=JSON.stringify([...PSEL]);pgCount()}
+function psel(k){if(k=='all')PSEL=new Set(PGL.map(g=>g.key));else if(k=='inv')PSEL=new Set(PGL.filter(g=>!PSEL.has(g.key)).map(g=>g.key));else PSEL=new Set(PGL.filter(g=>g.default).map(g=>g.key));
+ localStorage.pullsel=JSON.stringify([...PSEL]);document.querySelectorAll('#ppm .pgi input').forEach(i=>i.checked=PSEL.has(i.value));pgCount()}
+function pgCount(){const e=document.getElementById('pgc');if(e)e.textContent=`已选 ${PSEL.size} / ${PGL.length}`;pfoot()}
+function pmSet(k,v){PM={k,v:k=='q'?(v||PM.v||'h6'):null}; document.querySelectorAll('#ppm .chips button').forEach(b=>b.classList.toggle('on',k=='q'&&b.dataset.q==PM.v));
+ ['prq','prc','prr'].forEach((id,i)=>document.getElementById(id)?.classList.toggle('on','qcr'[i]==k));pfoot()}
+function pmBody(){if(PM.k=='q')return Object.assign({},PQ.find(x=>x[0]==PM.v)[2]);
+ if(PM.k=='c'){const n=+document.getElementById('pcn').value,u=document.getElementById('pcu').value;localStorage.pcn=n;localStorage.pcu=u;if(!(n>0))return null;if(u=='days'&&n>31||u=='hours'&&n>744)return null;return {[u]:n}}
+ const f=document.getElementById('prf').value,t=document.getElementById('prt').value;if(!f||!t||f>=t)return null;return {from:f,to:t}}
+function pmText(){const b=pmBody();if(!b)return '时间范围不对';if(b.hours)return `最近 ${b.hours} 小时`;if(b.days)return `最近 ${b.days} 天`;return `${b.from.replace('T',' ')} 至 ${b.to.replace('T',' ')}`}
+function pfoot(){const f=document.getElementById('ppf');if(!f)return;const j=PJ;
+ if(sumRun(j)){f.innerHTML=`<div class="stp ok">① ✅ 拉取完成：拉到 <b>${nf(j.fetched)}</b> 条，新增 <b>${nf(j.added)}</b> 条</div><div class="pgb done"><div class=pgf style="width:100%"></div></div>
+  <div class="stp run"><span class=spn style="display:inline-block;width:10px;height:10px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:spn .8s linear infinite;margin-right:6px;vertical-align:-1px"></span>② 📝 AI 总结生成中…</div><div class="pgb ind"><div class=pgf></div></div>
+  <div class=pgr>通常 1–3 分钟。可以关掉弹窗，顶部按钮会一直显示「总结中…」，总结好后时间轴自动刷新并跳到这次拉取。</div>
+  <div class=acts2 style="margin-top:10px"><span class=sum2>${esc((j.since_bj||'')+' 至 '+(j.until_bj||''))}</span><button class="bt2 pri" onclick="pullClose()">后台等待</button></div>`;return}
+ if(j&&j.status=='running'){f.innerHTML=`<div class=pgt><b>${Math.floor(j.percent||0)}%</b> · 第 ${j.current_index||0}/${j.groups_total} 个群 · ${esc(j.current_group||'准备中')} · 已拉 <b>${nf(j.fetched)}</b> 条（本群 ${nf(j.current_fetched)}）· 新增 ${nf(j.added)}</div>
+  <div class="pgb${j.wait_left?' wait':''}"><div class=pgf style="width:${j.percent||0}%"></div></div>${j.wait_left?`<div class=pgn>Telegram 限流，${j.wait_left} 秒后自动继续</div>`:''}${(j.errors||[]).map(e=>`<div class=pge>${esc(e)}</div>`).join('')}
+  <div class=acts2><span class=sum2>${esc((j.since_bj||'')+' 至 '+(j.until_bj||''))}</span><button class=bt2 onclick="pcancel()">停止</button><button class="bt2 pri" onclick="pullClose()">后台继续</button></div>`;return}
+ const last=j&&j.status!='running'?`<div class=pgt>${j.status=='done'?'✅ 上次拉取完成':j.status=='cancelled'?'⏹ 上次拉取已停止':'⚠️ 上次拉取出错'}：拉到 <b>${nf(j.fetched)}</b> 条，新增 <b>${nf(j.added)}</b> 条</div><div class="pgb done"><div class=pgf style="width:${j.status=='done'?100:j.percent||0}%"></div></div>${(j.per_group||[]).length?`<div class=pgr>${j.per_group.map(g=>`${esc(g.title)} +${nf(g.added)}`).join(' · ')}</div>`:''}${(j.truncated||[]).length?`<div class=pgn>这些群消息太多，只拉了最近 2 万条：${j.truncated.map(esc).join('、')}</div>`:''}${(j.errors||[]).map(e=>`<div class=pge>${esc(e)}</div>`).join('')}${sumLine(j)}`:'';
+ const ok=PSEL&&PSEL.size&&pmBody();
+ f.innerHTML=`${last}<div class=acts2 style="margin-top:${last?10:0}px"><span class=sum2>${esc(pmText())} · ${PSEL?PSEL.size:0} 个群</span><button class=bt2 onclick="pullClose()">关闭</button><button class="bt2 pri" ${ok?'':'disabled'} onclick="pstart(this)">开始拉取</button></div>`}
+function sumLine(j){const s=j.summary;if(!s)return '';
+ if(s.status=='none')return `<div class=pgr>没有新消息，不需要总结</div>`;
+ if(s.status=='pending'&&!s.timeout)return `<div class=pgt style="margin-top:10px">📝 第二步：正在生成总结…</div><div class="pgb ind"><div class=pgf></div></div><div class=pgr>拉取已完成，总结好后时间轴会自动刷新</div>`;
+ if(s.status=='done')return `<div class="stp fin">② ✅ AI 总结已生成${s.summary_at?' · '+esc(s.summary_at.slice(5)):''} <button class=bt2 style="padding:3px 12px;font-size:12.5px;margin-left:6px" onclick="pullClose();pjump('${j.id}')">查看总结</button></div>`;
+ const why=s.status=='pending'?`总结超时（已等 ${s.waited_min??15} 分钟）`:'总结失败：'+(s.error||'未知原因');
+ return `<div class=pge style="margin-top:8px">⚠️ ${esc(why)}</div><div class=pgr2 style="margin-top:6px"><button onclick="sumRetry('${j.id}',this)">重新总结</button></div>`}
+async function pstart(b){const body=pmBody();if(!body||!PSEL.size)return;b.disabled=true;body.groups=PGL.filter(g=>PSEL.has(g.key)).map(g=>g.key);
+ const r=await fetch('api/tg/pull',{method:'POST',headers:{'Content-Type':'application/json','X-Requested-With':'xbm'},body:JSON.stringify(body)});const d=await r.json().catch(()=>({}));
+ if(r.status==409&&d.error=='busy'){PJ=d.job;pjPoll(d.job.id);return}
+ if(r.status==409&&d.error=='not_logged_in'){location.href='tg-login';return}
+ if(!r.ok||!d.id){b.disabled=false;return toast('没能开始拉取（'+(d.error||r.status)+'）')}
+ PJ=d.job;pfoot();pjPoll(d.id)}
+async function pcancel(){if(PJ)await fetch('api/tg/pull/'+PJ.id+'/cancel',{method:'POST',headers:{'X-Requested-With':'xbm'}})}
+function pui(){pfoot();const pb=document.querySelector('#list .pullb');if(pb&&view=='tg'){pb.outerHTML=pullBtn()}const bar=document.getElementById('pullbar');if(bar&&view=='tg')bar.innerHTML=pullBar()}
+function pjPoll(id){clearInterval(PJT);const tick=async()=>{try{const r=await fetch('api/tg/pull/'+id);if(!r.ok){clearInterval(PJT);PJT=null;return}const d=await r.json();PJ=d.job}catch(e){return}
+ pui();if(PJ.status!='running'){clearInterval(PJT);PJT=null;pdone(PJ)}};PJT=setInterval(tick,1000);tick()}
+let SPT=null,SPID=null;
+function sumPoll(id){clearInterval(SPT);SPID=id;const tick=async()=>{try{const r=await fetch('api/tg/pull/'+id);if(!r.ok){clearInterval(SPT);SPT=null;return}const d=await r.json();const j=d.job;if(!j)return;
+  if(!PJ||PJ.id==id)PJ=j;pui();const s=j.summary||{};if(s.status=='pending'&&!s.timeout)return;clearInterval(SPT);SPT=null;
+  toast(s.status=='done'?'AI 总结已生成':s.status=='failed'?'总结失败：'+(s.error||'未知原因'):s.status=='pending'?'总结超时，可以点「重新总结」':'');if(view=='tg'){await tg();pui();if(s.status=='done'&&!document.getElementById('ppm'))pjump(id)}}catch(e){}};
+ SPT=setInterval(tick,4000);tick()}
+function pdone(j){const s=j.summary||{};toast((j.status=='done'?`拉取完成，新增 ${nf(j.added)} 条`:j.status=='cancelled'?`已停止，新增 ${nf(j.added)} 条`:'拉取出错，已保存拉到的部分')+(s.status=='pending'?'，AI 正在总结…':s.status=='none'?'，没有新消息':''));
+ if(s.status=='pending'&&!s.timeout)sumPoll(j.id);
+ if(view!='tg')return;
+ if(GR!='all'&&j.since_bj&&(!GD||GD==T)){const sd=j.since_bj.slice(0,10),need=Math.round((new Date(T+'T12:00:00+08:00')-new Date(sd+'T12:00:00+08:00'))/864e5)+1;
+  if(need>+GR){const v=need<=3?'3':need<=7?'7':'all';GR=v;localStorage.gr=v;GP=0}}
+ tg().then(()=>{pui();pjump(j.id)})}
+async function u(id,b,quiet){const r=await fetch('api/items/'+id,{method:'POST',headers:{'Content-Type':'application/json','X-Requested-With':'xbm'},body:JSON.stringify(b)});
+if(!r.ok)return toast('保存失败');toast('已保存');if(!quiet)load()}
+function snz(id){const d=prompt('推迟几天？到期后会重新出现在简报里','3');if(d&&+d>0)u(id,{snooze_days:+d})}
+function due(id,cur){const d=prompt('截止日期（YYYY-MM-DD，留空清除）',cur);if(d!==null)u(id,{due_date:d.trim()})}
+async function hist(id,btn){const r=await fetch('api/items/'+id+'/history');const d=await r.json();btn.closest('.card').querySelector('.hist').innerHTML=d.events.map(e=>esc(e.ts+'  '+e.what)).join('<br>')||'暂无记录'}
+// ---------- 🔄 自动刷新（60 秒短轮询，只在内容变化时刷新当前页） ----------
+let AV=null,ARF=false,AFR=[],AOBS=[];
+const SECV={brief:'brief',bm:'bm',tg:'tg',new:'radar',hot:'radar'};
+function hdrH(){const h=document.querySelector('header');return h?h.getBoundingClientRect().bottom:0}
+function aBusy(k){const a=document.activeElement;if(a&&(/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)||a.isContentEditable))return true;
+ if(document.getElementById('ppm'))return true;const sl=getSelection&&getSelection();if(sl&&String(sl).trim())return true;
+ if(k=='tg'&&(typeof PJT!='undefined'&&PJT||typeof SPT!='undefined'&&SPT))return true;return false}
+function brKey(b){if(!b)return '';let d=b.previousElementSibling;while(d&&!d.classList.contains('day'))d=d.previousElementSibling;const t=b.querySelector('.bh b');return (d?d.textContent:'')+'|'+(t?t.textContent:b.id||'')}
+function elKey(e){const b=e.closest('.br');
+ if(e.classList.contains('card'))return 'c:'+e.dataset.id;
+ if(e.classList.contains('br'))return 'b:'+brKey(e);
+ if(e.classList.contains('day'))return 'd:'+e.textContent;
+ if(e.classList.contains('sp')){const g=e.closest('details.tgg');return 's:'+brKey(b)+'|'+(g?(g.querySelector('.gn')||{}).textContent:'')+'|'+e.textContent}
+ if(e.tagName=='TR')return 'r:'+brKey(b)+'|'+e.textContent;return ''}
+function aEls(){const L=document.getElementById('list');return [...L.querySelectorAll('.card,.br,.day,.cv:not(.rawm) .sp,table.rt tr')].filter(e=>e.tagName!='TR'||e.querySelector('td'))}
+function aMap(){const m=new Map(),n={};for(const e of aEls()){const k=elKey(e);if(!k)continue;n[k]=(n[k]||0)+1;m.set(k+'#'+n[k],e)}return m}
+function dKey(d){return brKey(d.closest('.br'))+'|'+d.className+'|'+((d.querySelector(':scope>summary .gn')||d.querySelector(':scope>summary')||{}).textContent||'').replace(/\d[\d,]*/g,'#').slice(0,60)}
+function aSnap(){const L=document.getElementById('list');
+ return {det:[...L.querySelectorAll('details')].map(d=>[dKey(d),d.open]),
+  open:[...L.querySelectorAll('.card.open')].map(e=>e.id),
+  hist:[...L.querySelectorAll('.card .hist')].filter(x=>x.innerHTML).map(x=>[x.closest('.card').id,x.innerHTML]),
+  note:[...L.querySelectorAll('.card textarea')].filter(t=>t.style.display=='block').map(t=>t.closest('.card').id),
+  unc:[...L.querySelectorAll('.br')].filter(b=>b.querySelector('.more')&&!b.querySelector('.cv.clamp')).map(brKey)}}
+function aRestore(s){const L=document.getElementById('list');const dm=new Map(s.det);
+ L.querySelectorAll('details').forEach(d=>{const k=dKey(d);if(dm.has(k)&&d.open!=dm.get(k))d.open=dm.get(k)});
+ s.open.forEach(id=>document.getElementById(id)?.classList.add('open'));
+ s.hist.forEach(([id,h])=>{const x=document.getElementById(id)?.querySelector('.hist');if(x)x.innerHTML=h});
+ s.note.forEach(id=>{const c=document.getElementById(id);const t=c&&c.querySelector('textarea');if(t){t.style.display='block';const g=c.querySelector('.foot .tg');if(g)g.style.visibility='hidden'}});
+ const U=new Set(s.unc);L.querySelectorAll('.br').forEach(b=>{if(U.has(brKey(b))){const c=b.querySelector('.cv.clamp'),m=b.querySelector('.more');if(c){c.classList.remove('clamp');if(m)m.textContent='收起 ▴'}}})}
+function aAnchor(){const top=hdrH();const m=[...aMap()];for(const fine of [true,false])for(const [k,e] of m){if(fine!=/^[scr]:/.test(k))continue;const r=e.getBoundingClientRect();if(r.height&&r.bottom>top+2&&r.top<innerHeight)return [k,r.top]}return null}
+async function softRefresh(){const s=aSnap(),an=aAnchor(),old=aMap();ARF=true;window.__an=an;
+ try{await load()}finally{ARF=false}
+ aRestore(s);
+ if(an){const e=aMap().get(an[0]);window.__an2=e?[e.getBoundingClientRect().top,e.textContent.slice(0,20)]:null;if(e){const d=e.getBoundingClientRect().top-an[1];if(Math.abs(d)>0.5)window.scrollBy({top:d,left:0,behavior:'instant'})}}
+ const nw=[];for(const [k,e] of aMap())if(!old.has(k))nw.push(e);
+ const S=sec();let U=nw.filter(e=>S=='bm'?e.classList.contains('card'):S=='brief'?e.classList.contains('br'):S=='tg'?e.classList.contains('sp')||(e.classList.contains('br')&&!nw.some(x=>x!==e&&e.contains(x))):e.tagName=='TR'||(e.classList.contains('br')&&!nw.some(x=>x!==e&&e.contains(x))));
+ U.forEach(e=>e.classList.add('fresh'));
+ if(S=='bm'&&io){U.forEach(e=>io.unobserve(e));AOBS=U;setTimeout(()=>addEventListener('scroll',aReobs,{once:true,passive:true}),400)}
+ if(U.length){AFR=AFR.filter(e=>e.isConnected).concat(U);aPill()}}
+function aReobs(){if(io)AOBS.filter(e=>e.isConnected&&e.dataset.un=='1').forEach(e=>io.observe(e));AOBS=[]}
+function aPill(){const p=document.getElementById('npill');AFR=AFR.filter(e=>e.isConnected);if(!AFR.length){p.style.display='none';return}
+ p.textContent='有 '+AFR.length+' 条新内容';p.style.top=(hdrH()+8)+'px';p.style.display='block'}
+function aJump(){AFR=AFR.filter(e=>e.isConnected);const e=AFR[0];document.getElementById('npill').style.display='none';if(!e)return;
+ let d=e.closest('details');while(d){d.open=true;d=d.parentElement&&d.parentElement.closest('details')}
+ const c=e.closest('.cv.clamp');if(c){c.classList.remove('clamp');const m=c.parentElement.querySelector('.more');if(m)m.textContent='收起 ▴'}
+ window.scrollTo({top:e.getBoundingClientRect().top+scrollY-hdrH()-12,behavior:'smooth'});
+ AFR.forEach(x=>{x.classList.remove('fresh');void x.offsetWidth;x.classList.add('fresh')});aReobs();AFR=[]}
+async function poll(){if(document.hidden)return;let v;try{const r=await fetch('api/version',{cache:'no-store'});if(r.status==401)return;if(!r.ok)return;v=await r.json()}catch(e){return}
+ if(v.ui&&UIV.indexOf('__')<0&&v.ui!=UIV&&!aBusy()&&sessionStorage.uivr!=v.ui){sessionStorage.uivr=v.ui;location.reload();return}
+ if(!AV){AV=v;return}const k=SECV[sec()];const nv={...v};
+ if(k&&AV[k]!=v[k]){if(aBusy(k)){nv[k]=AV[k]}else{AV=nv;try{await softRefresh()}catch(e){}return}}AV=nv}
+setInterval(poll,60000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)poll()});poll();
+let qt;document.getElementById('q').oninput=()=>{clearTimeout(qt);qt=setTimeout(load,250)};
+document.addEventListener('visibilitychange',()=>{if(!document.hidden&&view=='tg')tgStat().then(pui)});
+window.onhashchange=()=>{if(location.hash=='#tg-login')return location.replace('tg-login');view=HV(location.hash.slice(1));load()};load();
+</script></body></html>

@@ -1,0 +1,1281 @@
+# GL-MT3600BE OpenClash main profile (generated 2026-10-03, modeled on the user's Loon config)
+# Nodes come from proxy-provider "omni" = /etc/openclash/config/omni-sub.yaml, which OpenClash's
+# config subscription "omni-sub" (Config Subscribe page) refreshes every 12h. Do NOT select omni-sub.yaml as the active config.
+mixed-port: 7893
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: warning
+ipv6: false
+unified-delay: true
+tcp-concurrent: true
+find-process-mode: 'off'
+geodata-mode: false
+geo-auto-update: false
+profile:
+  store-selected: true
+  store-fake-ip: true
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: false
+  sniff:
+    HTTP:
+      ports:
+      - 80
+      - 8080-8880
+    TLS:
+      ports:
+      - 443
+      - 8443
+    QUIC:
+      ports:
+      - 443
+      - 8443
+  skip-domain:
+  - +.push.apple.com
+  - Mijia Cloud
+dns:
+  enable: true
+  listen: 0.0.0.0:7874
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.19.0.1/16
+  fake-ip-filter-mode: blacklist
+  fake-ip-filter:
+  - rule-set:geosite-private
+  - rule-set:geosite-cn
+  - +.lan
+  - +.local
+  - +.arpa
+  - localhost.ptr
+  - console.gl-inet.com
+  - +.3gppnetwork.org
+  - gspe1-ssl.ls.apple.com
+  - gs-loc.apple.com
+  - gs-loc-cn.apple.com
+  - +.qpic.cn
+  - +.qlogo.cn
+  - +.weixin.qq.com
+  - +.wechat.com
+  - +.servicewechat.com
+  - +.wx.qq.com
+  - +.tenpay.com
+  - +.argotunnel.com
+  - +.trycloudflare.com
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+  - time.*.com
+  - ntp.*.com
+  - +.ntp.org
+  - +.pool.ntp.org
+  - stun.*.*
+  - stun.*.*.*
+  - +.stun.*.*
+  - +.stun.*.*.*
+  use-hosts: true
+  use-system-hosts: false
+  respect-rules: false
+  default-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  nameserver:
+  - https://1.1.1.1/dns-query#默认出口
+  - https://8.8.8.8/dns-query#默认出口
+  proxy-server-nameserver: &id001
+  - https://223.5.5.5/dns-query
+  - https://doh.pub/dns-query
+  direct-nameserver: *id001
+  nameserver-policy:
+    rule-set:geosite-cn,geosite-private: *id001
+    +.tube-cat.com: *id001
+    +.catcat321.com: *id001
+    +.gcp300.com: *id001
+    +.omnitools.cc: *id001
+    +.0b96e976-9ec3-44c0-aa2b-30bf8b0792ea.com: *id001
+    +.qpic.cn:
+    - 119.29.29.29
+    +.qlogo.cn:
+    - 119.29.29.29
+    +.weixin.qq.com:
+    - 119.29.29.29
+    +.weixin.com:
+    - 119.29.29.29
+    +.wechat.com:
+    - 119.29.29.29
+    +.wx.qq.com:
+    - 119.29.29.29
+    +.servicewechat.com:
+    - 119.29.29.29
+    +.douyin.com:
+    - 119.29.29.29
+    +.douyinpic.com:
+    - 119.29.29.29
+    +.amemv.com:
+    - 119.29.29.29
+    +.doubao.com:
+    - 119.29.29.29
+    +.snssdk.com:
+    - 119.29.29.29
+    +.toutiao.com:
+    - 119.29.29.29
+    +.byteimg.com:
+    - 119.29.29.29
+    +.bytedance.com:
+    - 119.29.29.29
+    +.bytedance.net:
+    - 119.29.29.29
+    +.ecombdapi.com:
+    - 119.29.29.29
+    +.ecombdimg.com:
+    - 119.29.29.29
+    +.jinritemai.com:
+    - 119.29.29.29
+    +.lan:
+    - 127.0.0.1:53
+    +.local:
+    - 127.0.0.1:53
+    +.arpa:
+    - 127.0.0.1:53
+    console.gl-inet.com:
+    - 127.0.0.1:53
+proxy-providers:
+  omni:
+    type: file
+    path: ./config/omni-sub.yaml
+    interval: 600
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+      timeout: 5000
+      expected-status: 204
+  sakura:
+    type: file
+    path: ./proxy_provider/sakura.yaml
+    exclude-filter: 剩余流量|套餐到期
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 600
+      timeout: 5000
+proxy-groups:
+- name: 默认出口
+  type: select
+  proxies:
+  - QQG优先
+  - 自动
+  - 手动
+  - 樱花猫
+  - 🇺🇸 美国
+  - 🇯🇵 日本
+  - 🇭🇰 香港
+  - 🇸🇬 新加坡
+  - 🇲🇾 马来西亚
+  - DIRECT
+- name: QQG优先
+  type: fallback
+  proxies:
+  - 洛杉矶QQG
+  - 自动
+  url: https://www.gstatic.com/generate_204
+  interval: 120
+- name: 洛杉矶QQG
+  type: select
+  use:
+  - omni
+  filter: QQG-洛杉矶-Reality
+  hidden: true
+- name: 自动
+  type: url-test
+  use:
+  - omni
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 100
+- name: 手动
+  type: select
+  proxies:
+  - QQG优先
+  - 樱花猫
+  use:
+  - omni
+- name: 樱花猫
+  type: select
+  proxies:
+  - 樱花猫自动
+  use:
+  - sakura
+- name: 樱花猫自动
+  type: url-test
+  use:
+  - sakura
+  exclude-filter: 5倍
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+  tolerance: 100
+- name: AI
+  type: select
+  proxies:
+  - 🇺🇸 美国
+  - QQG优先
+  - 🇸🇬 新加坡
+  - 🇯🇵 日本
+  - 手动
+  - 樱花猫
+- name: Telegram
+  type: select
+  proxies:
+  - 默认出口
+  - 🇸🇬 新加坡
+  - 🇯🇵 日本
+  - 🇺🇸 美国
+  - 🇭🇰 香港
+  - 手动
+  - 樱花猫
+- name: YouTube
+  type: select
+  proxies:
+  - 默认出口
+  - 🇺🇸 美国
+  - 🇯🇵 日本
+  - 🇭🇰 香港
+  - 🇸🇬 新加坡
+  - 🇲🇾 马来西亚
+  - 手动
+  - 樱花猫
+- name: Google
+  type: select
+  proxies:
+  - 默认出口
+  - 🇺🇸 美国
+  - 🇯🇵 日本
+  - 🇭🇰 香港
+  - 🇸🇬 新加坡
+  - 🇲🇾 马来西亚
+  - 手动
+  - 樱花猫
+- name: Netflix
+  type: select
+  proxies:
+  - 默认出口
+  - 🇺🇸 美国
+  - 🇯🇵 日本
+  - 🇭🇰 香港
+  - 🇸🇬 新加坡
+  - 🇲🇾 马来西亚
+  - 手动
+  - 樱花猫
+- name: Spotify
+  type: select
+  proxies:
+  - 默认出口
+  - 🇺🇸 美国
+  - 🇯🇵 日本
+  - 🇭🇰 香港
+  - 🇸🇬 新加坡
+  - 🇲🇾 马来西亚
+  - 手动
+  - 樱花猫
+- name: PayPal
+  type: select
+  proxies:
+  - 🇺🇸 美国
+  - 🇸🇬 新加坡
+  - 默认出口
+  - DIRECT
+- name: Maya
+  type: select
+  proxies:
+  - 🇸🇬 新加坡
+  - 默认出口
+  - DIRECT
+- name: Apple
+  type: select
+  proxies:
+  - DIRECT
+  - 默认出口
+- name: Microsoft
+  type: select
+  proxies:
+  - DIRECT
+  - 默认出口
+- name: 广告拦截
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: 国内直连
+  type: select
+  proxies:
+  - DIRECT
+  - 默认出口
+- name: 漏网之鱼
+  type: select
+  proxies:
+  - 默认出口
+  - DIRECT
+- name: 🇺🇸 美国
+  type: url-test
+  use:
+  - omni
+  filter: 🇺🇸|美国|洛杉矶|US
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 100
+- name: 🇯🇵 日本
+  type: url-test
+  use:
+  - omni
+  filter: 🇯🇵|日本|东京|JP
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 100
+- name: 🇭🇰 香港
+  type: url-test
+  use:
+  - omni
+  filter: 🇭🇰|香港|HK
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 100
+- name: 🇸🇬 新加坡
+  type: url-test
+  use:
+  - omni
+  filter: 🇸🇬|新加坡|SG
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 100
+- name: 🇲🇾 马来西亚
+  type: url-test
+  use:
+  - omni
+  filter: 🇲🇾|马来西亚|MY
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 100
+rule-providers:
+  geosite-private:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs
+    path: ./rule_provider/geosite_private.mrs
+    interval: 259200
+    proxy: 默认出口
+  geosite-cn:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs
+    path: ./rule_provider/geosite_cn.mrs
+    interval: 259200
+    proxy: 默认出口
+  geosite-geolocation-notcn:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs
+    path: ./rule_provider/geosite_geolocation-notcn.mrs
+    interval: 259200
+    proxy: 默认出口
+  geosite-category-ai-notcn:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs
+    path: ./rule_provider/geosite_category-ai-notcn.mrs
+    interval: 259200
+    proxy: 默认出口
+  geosite-telegram:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs
+    path: ./rule_provider/geosite_telegram.mrs
+    interval: 259200
+    proxy: 默认出口
+  geosite-youtube:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs
+    path: ./rule_provider/geosite_youtube.mrs
+    interval: 259200
+    proxy: 默认出口
+  geosite-netflix:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs
+    path: ./rule_provider/geosite_netflix.mrs
+    interval: 259200
+    proxy: 默认出口
+  geosite-spotify:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.mrs
+    path: ./rule_provider/geosite_spotify.mrs
+    interval: 259200
+    proxy: 默认出口
+  geosite-paypal:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.mrs
+    path: ./rule_provider/geosite_paypal.mrs
+    interval: 259200
+    proxy: 默认出口
+  geosite-google:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs
+    path: ./rule_provider/geosite_google.mrs
+    interval: 259200
+    proxy: 默认出口
+  geosite-apple:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.mrs
+    path: ./rule_provider/geosite_apple.mrs
+    interval: 259200
+    proxy: 默认出口
+  geosite-microsoft:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs
+    path: ./rule_provider/geosite_microsoft.mrs
+    interval: 259200
+    proxy: 默认出口
+  geoip-private:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs
+    path: ./rule_provider/geoip_private.mrs
+    interval: 259200
+    proxy: 默认出口
+  geoip-cn:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs
+    path: ./rule_provider/geoip_cn.mrs
+    interval: 259200
+    proxy: 默认出口
+  geoip-telegram:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs
+    path: ./rule_provider/geoip_telegram.mrs
+    interval: 259200
+    proxy: 默认出口
+  geoip-netflix:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs
+    path: ./rule_provider/geoip_netflix.mrs
+    interval: 259200
+    proxy: 默认出口
+  geoip-google:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs
+    path: ./rule_provider/geoip_google.mrs
+    interval: 259200
+    proxy: 默认出口
+  loon-reject:
+    type: file
+    behavior: domain
+    format: text
+    path: ./rule_provider/loon_reject_domain.txt
+  loon-reject-ip:
+    type: file
+    behavior: ipcidr
+    format: text
+    path: ./rule_provider/loon_reject_ip.txt
+rules:
+- DOMAIN-SUFFIX,qpic.cn,国内直连
+- DOMAIN-SUFFIX,qlogo.cn,国内直连
+- DOMAIN-SUFFIX,weixin.qq.com,国内直连
+- DOMAIN-SUFFIX,weixin.com,国内直连
+- DOMAIN-SUFFIX,wechat.com,国内直连
+- DOMAIN-SUFFIX,wechatlegal.net,国内直连
+- DOMAIN-SUFFIX,wechatos.net,国内直连
+- DOMAIN-SUFFIX,wechatpay.com,国内直连
+- DOMAIN-SUFFIX,servicewechat.com,国内直连
+- DOMAIN-SUFFIX,weixinbridge.com,国内直连
+- DOMAIN-SUFFIX,wx.qq.com,国内直连
+- DOMAIN-SUFFIX,wxs.qq.com,国内直连
+- DOMAIN-SUFFIX,wx.gtimg.com,国内直连
+- DOMAIN-SUFFIX,vweixinthumb.tc.qq.com,国内直连
+- DOMAIN-SUFFIX,wxapp.tc.qq.com,国内直连
+- DOMAIN,vweixinf.tc.qq.com,国内直连
+- DOMAIN,weixin110.qq.com,国内直连
+- DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net,国内直连
+- DOMAIN-SUFFIX,xiaohongshu.com,国内直连
+- DOMAIN-SUFFIX,xiaohongshu.com.cn,国内直连
+- DOMAIN-SUFFIX,xhscdn.com,国内直连
+- DOMAIN-SUFFIX,xhscdn.net,国内直连
+- DOMAIN-SUFFIX,xhslink.com,国内直连
+- DOMAIN-SUFFIX,xhscdn.cn,国内直连
+- DOMAIN-SUFFIX,rednote.com,国内直连
+- DOMAIN-SUFFIX,xiaohongshu.net,国内直连
+- DOMAIN-KEYWORD,xiaohongshu,国内直连
+- DOMAIN-KEYWORD,xhscdn,国内直连
+- DOMAIN-KEYWORD,xhslink,国内直连
+- DOMAIN-SUFFIX,fengkongcloud.com,国内直连
+- DOMAIN-SUFFIX,geetest.com,国内直连
+- DOMAIN-SUFFIX,ishumei.com,国内直连
+- DOMAIN-SUFFIX,douyin.com,国内直连
+- DOMAIN-SUFFIX,douyinpic.com,国内直连
+- DOMAIN-SUFFIX,douyinstatic.com,国内直连
+- DOMAIN-SUFFIX,douyinvod.com,国内直连
+- DOMAIN-SUFFIX,amemv.com,国内直连
+- DOMAIN-SUFFIX,iesdouyin.com,国内直连
+- DOMAIN-SUFFIX,doubao.com,国内直连
+- DOMAIN-SUFFIX,snssdk.com,国内直连
+- DOMAIN-SUFFIX,zijieapi.com,国内直连
+- DOMAIN-SUFFIX,toutiao.com,国内直连
+- DOMAIN-SUFFIX,toutiaostatic.com,国内直连
+- DOMAIN-SUFFIX,toutiaovod.com,国内直连
+- DOMAIN-SUFFIX,byteimg.com,国内直连
+- DOMAIN-SUFFIX,bytecdn.cn,国内直连
+- DOMAIN-SUFFIX,bytetos.com,国内直连
+- DOMAIN-SUFFIX,bytedance.com,国内直连
+- DOMAIN-SUFFIX,bytedance.net,国内直连
+- DOMAIN-KEYWORD,bytedance,国内直连
+- DOMAIN-SUFFIX,ecombdapi.com,国内直连
+- DOMAIN-SUFFIX,ecombdimg.com,国内直连
+- DOMAIN-SUFFIX,jinritemai.com,国内直连
+- DOMAIN-KEYWORD,ecombd,国内直连
+- DOMAIN-SUFFIX,doupay.com,国内直连
+- DOMAIN-SUFFIX,douyinpay.com,国内直连
+- DOMAIN-SUFFIX,douyinec.com,国内直连
+- DOMAIN-SUFFIX,zjcdn.com,国内直连
+- DOMAIN-SUFFIX,365yg.com,国内直连
+- DOMAIN-SUFFIX,ixigua.com,国内直连
+- DOMAIN-SUFFIX,ixiguavideo.com,国内直连
+- DOMAIN-SUFFIX,huoshan.com,国内直连
+- DOMAIN-SUFFIX,jianying.com,国内直连
+- DOMAIN-KEYWORD,douyin,国内直连
+- DOMAIN-KEYWORD,amemv,国内直连
+- DOMAIN-KEYWORD,doubao,国内直连
+- DOMAIN-SUFFIX,kuaishou.com,国内直连
+- DOMAIN-SUFFIX,kuaishouapp.com,国内直连
+- DOMAIN-SUFFIX,yximgs.com,国内直连
+- DOMAIN-SUFFIX,gifshow.com,国内直连
+- DOMAIN-SUFFIX,ksyun.com,国内直连
+- DOMAIN-SUFFIX,bilibili.com,国内直连
+- DOMAIN-SUFFIX,bilibili.cn,国内直连
+- DOMAIN-SUFFIX,biliapi.net,国内直连
+- DOMAIN-SUFFIX,biliapi.com,国内直连
+- DOMAIN-SUFFIX,hdslb.com,国内直连
+- DOMAIN-SUFFIX,b23.tv,国内直连
+- DOMAIN-SUFFIX,bilivideo.com,国内直连
+- DOMAIN-SUFFIX,bilivideo.cn,国内直连
+- DOMAIN-SUFFIX,weibo.com,国内直连
+- DOMAIN-SUFFIX,weibo.cn,国内直连
+- DOMAIN-SUFFIX,weibo.com.cn,国内直连
+- DOMAIN-SUFFIX,sina.com.cn,国内直连
+- DOMAIN-SUFFIX,sinaimg.cn,国内直连
+- DOMAIN-SUFFIX,sinajs.cn,国内直连
+- DOMAIN-SUFFIX,miaopai.com,国内直连
+- DOMAIN-SUFFIX,baidu.com,国内直连
+- DOMAIN-SUFFIX,baidu.cn,国内直连
+- DOMAIN-SUFFIX,bdstatic.com,国内直连
+- DOMAIN-SUFFIX,bdimg.com,国内直连
+- DOMAIN-SUFFIX,baidubce.com,国内直连
+- DOMAIN-SUFFIX,baidupcs.com,国内直连
+- DOMAIN-SUFFIX,baidubce.cn,国内直连
+- DOMAIN-SUFFIX,bdydns.com,国内直连
+- DOMAIN-SUFFIX,taobao.com,国内直连
+- DOMAIN-SUFFIX,tmall.com,国内直连
+- DOMAIN-SUFFIX,tmall.hk,国内直连
+- DOMAIN-SUFFIX,alicdn.com,国内直连
+- DOMAIN-SUFFIX,aliyun.com,国内直连
+- DOMAIN-SUFFIX,aliyuncs.com,国内直连
+- DOMAIN-SUFFIX,mmstat.com,国内直连
+- DOMAIN-SUFFIX,tbcdn.cn,国内直连
+- DOMAIN-SUFFIX,alibabausercontent.com,国内直连
+- DOMAIN-SUFFIX,cainiao.com,国内直连
+- DOMAIN-SUFFIX,ele.me,国内直连
+- DOMAIN-SUFFIX,elemecdn.com,国内直连
+- DOMAIN-SUFFIX,dingtalk.com,国内直连
+- DOMAIN-SUFFIX,jd.com,国内直连
+- DOMAIN-SUFFIX,jd.hk,国内直连
+- DOMAIN-SUFFIX,jdcdn.com,国内直连
+- DOMAIN-SUFFIX,360buyimg.com,国内直连
+- DOMAIN-SUFFIX,jingdong.com,国内直连
+- DOMAIN-SUFFIX,pinduoduo.com,国内直连
+- DOMAIN-SUFFIX,pinduoduo.net,国内直连
+- DOMAIN-SUFFIX,pinduoduo.cn,国内直连
+- DOMAIN-SUFFIX,yangkeduo.com,国内直连
+- DOMAIN-SUFFIX,pddpic.com,国内直连
+- DOMAIN-SUFFIX,pddugc.com,国内直连
+- DOMAIN-KEYWORD,pinduoduo,国内直连
+- DOMAIN-KEYWORD,yangkeduo,国内直连
+- DOMAIN-KEYWORD,pddpic,国内直连
+- DOMAIN-SUFFIX,meituan.com,国内直连
+- DOMAIN-SUFFIX,meituan.net,国内直连
+- DOMAIN-SUFFIX,dianping.com,国内直连
+- DOMAIN-SUFFIX,dpfile.com,国内直连
+- DOMAIN-SUFFIX,didichuxing.com,国内直连
+- DOMAIN-SUFFIX,udache.com,国内直连
+- DOMAIN-SUFFIX,163.com,国内直连
+- DOMAIN-SUFFIX,126.com,国内直连
+- DOMAIN-SUFFIX,127.net,国内直连
+- DOMAIN-SUFFIX,netease.com,国内直连
+- DOMAIN-SUFFIX,ydstatic.com,国内直连
+- DOMAIN-SUFFIX,zhihu.com,国内直连
+- DOMAIN-SUFFIX,zhimg.com,国内直连
+- DOMAIN-SUFFIX,mi.com,国内直连
+- DOMAIN-SUFFIX,xiaomi.com,国内直连
+- DOMAIN-SUFFIX,xiaomi.net,国内直连
+- DOMAIN-SUFFIX,miui.com,国内直连
+- DOMAIN-SUFFIX,huawei.com,国内直连
+- DOMAIN-SUFFIX,hicloud.com,国内直连
+- DOMAIN-SUFFIX,vmall.com,国内直连
+- DOMAIN-SUFFIX,honor.com,国内直连
+- DOMAIN-SUFFIX,amap.com,国内直连
+- DOMAIN-SUFFIX,autonavi.com,国内直连
+- DOMAIN-SUFFIX,12306.cn,国内直连
+- DOMAIN-SUFFIX,iqiyi.com,国内直连
+- DOMAIN-SUFFIX,iqiyipic.com,国内直连
+- DOMAIN-SUFFIX,qy.net,国内直连
+- DOMAIN-SUFFIX,youku.com,国内直连
+- DOMAIN-SUFFIX,ykimg.com,国内直连
+- DOMAIN-SUFFIX,feishu.cn,国内直连
+- DOMAIN-SUFFIX,feishucdn.com,国内直连
+- DOMAIN-SUFFIX,tencentmeeting.com,国内直连
+- DOMAIN-SUFFIX,wemeet.com,国内直连
+- DOMAIN-SUFFIX,dewu.com,国内直连
+- DOMAIN-SUFFIX,poizon.com,国内直连
+- DOMAIN-SUFFIX,ximalaya.com,国内直连
+- DOMAIN-SUFFIX,xmcdn.com,国内直连
+- DOMAIN-SUFFIX,gtimg.cn,国内直连
+- DOMAIN-SUFFIX,idqqimg.com,国内直连
+- DOMAIN-SUFFIX,qcloud.com,国内直连
+- DOMAIN-SUFFIX,myqcloud.com,国内直连
+- DOMAIN-SUFFIX,tencent-cloud.net,国内直连
+- DOMAIN-SUFFIX,weiyun.com,国内直连
+- DOMAIN-SUFFIX,video.qq.com,国内直连
+- DOMAIN-SUFFIX,v.qq.com,国内直连
+- DOMAIN-SUFFIX,y.qq.com,国内直连
+- DOMAIN-SUFFIX,mgtv.com,国内直连
+- DOMAIN-SUFFIX,hitv.com,国内直连
+- DOMAIN-SUFFIX,sohu.com,国内直连
+- DOMAIN-SUFFIX,sohucs.com,国内直连
+- DOMAIN-SUFFIX,itc.cn,国内直连
+- DOMAIN-SUFFIX,cctv.com,国内直连
+- DOMAIN-SUFFIX,cntv.cn,国内直连
+- DOMAIN-SUFFIX,migu.cn,国内直连
+- DOMAIN-SUFFIX,cmvideo.cn,国内直连
+- DOMAIN-SUFFIX,kugou.com,国内直连
+- DOMAIN-SUFFIX,kuwo.cn,国内直连
+- DOMAIN-SUFFIX,douban.com,国内直连
+- DOMAIN-SUFFIX,doubanio.com,国内直连
+- DOMAIN-SUFFIX,ifeng.com,国内直连
+- DOMAIN-SUFFIX,thepaper.cn,国内直连
+- DOMAIN-SUFFIX,xueqiu.com,国内直连
+- DOMAIN-SUFFIX,smzdm.com,国内直连
+- DOMAIN-SUFFIX,csdn.net,国内直连
+- DOMAIN-SUFFIX,juejin.cn,国内直连
+- DOMAIN-SUFFIX,ctrip.com,国内直连
+- DOMAIN-SUFFIX,c-ctrip.com,国内直连
+- DOMAIN-SUFFIX,qunar.com,国内直连
+- DOMAIN-SUFFIX,ly.com,国内直连
+- DOMAIN-SUFFIX,suning.com,国内直连
+- DOMAIN-SUFFIX,vip.com,国内直连
+- DOMAIN-SUFFIX,58.com,国内直连
+- DOMAIN-SUFFIX,anjuke.com,国内直连
+- DOMAIN-SUFFIX,ke.com,国内直连
+- DOMAIN-SUFFIX,lianjia.com,国内直连
+- DOMAIN-SUFFIX,alipan.com,国内直连
+- DOMAIN-SUFFIX,aliyundrive.com,国内直连
+- DOMAIN-SUFFIX,quark.cn,国内直连
+- DOMAIN-SUFFIX,uc.cn,国内直连
+- DOMAIN-SUFFIX,icbc.com.cn,国内直连
+- DOMAIN-SUFFIX,95588.com,国内直连
+- DOMAIN-SUFFIX,ccb.com,国内直连
+- DOMAIN-SUFFIX,ccb.com.cn,国内直连
+- DOMAIN-SUFFIX,95533.com,国内直连
+- DOMAIN-SUFFIX,boc.cn,国内直连
+- DOMAIN-SUFFIX,bankofchina.com,国内直连
+- DOMAIN-SUFFIX,abchina.com,国内直连
+- DOMAIN-SUFFIX,95599.cn,国内直连
+- DOMAIN-SUFFIX,psbc.com,国内直连
+- DOMAIN-SUFFIX,psbc.com.cn,国内直连
+- DOMAIN-SUFFIX,cmbchina.com,国内直连
+- DOMAIN-SUFFIX,cmbimg.com,国内直连
+- DOMAIN-SUFFIX,bankcomm.com,国内直连
+- DOMAIN-SUFFIX,95559.com.cn,国内直连
+- DOMAIN-SUFFIX,spdb.com.cn,国内直连
+- DOMAIN-SUFFIX,cib.com.cn,国内直连
+- DOMAIN-SUFFIX,cebbank.com,国内直连
+- DOMAIN-SUFFIX,cmbc.com.cn,国内直连
+- DOMAIN-SUFFIX,citicbank.com,国内直连
+- DOMAIN-SUFFIX,hxb.com.cn,国内直连
+- DOMAIN-SUFFIX,cgbchina.com.cn,国内直连
+- DOMAIN-SUFFIX,pingan.com,国内直连
+- DOMAIN-SUFFIX,pingan.com.cn,国内直连
+- DOMAIN-SUFFIX,yqb.com,国内直连
+- DOMAIN-SUFFIX,szse.cn,国内直连
+- DOMAIN-SUFFIX,sse.com.cn,国内直连
+- DOMAIN-SUFFIX,unionpay.com,国内直连
+- DOMAIN-SUFFIX,unionpaysecure.com,国内直连
+- DOMAIN-SUFFIX,95516.com,国内直连
+- DOMAIN-SUFFIX,chinapay.com,国内直连
+- DOMAIN-SUFFIX,chinaums.com,国内直连
+- DOMAIN-SUFFIX,nucc.com,国内直连
+- DOMAIN-SUFFIX,alipay.com,国内直连
+- DOMAIN-SUFFIX,alipayobjects.com,国内直连
+- DOMAIN-SUFFIX,alipay.com.cn,国内直连
+- DOMAIN-SUFFIX,taobao.com,国内直连
+- DOMAIN-SUFFIX,tenpay.com,国内直连
+- DOMAIN-SUFFIX,qcloud.com,国内直连
+- DOMAIN-SUFFIX,mybank.cn,国内直连
+- DOMAIN-SUFFIX,jdpay.com,国内直连
+- DOMAIN-SUFFIX,95508.com,国内直连
+- DOMAIN-SUFFIX,eastmoney.com,国内直连
+- DOMAIN-SUFFIX,1234567.com.cn,国内直连
+- DOMAIN-SUFFIX,htsc.com.cn,国内直连
+- DOMAIN-SUFFIX,gtja.com,国内直连
+- DOMAIN-SUFFIX,csc108.com,国内直连
+- DOMAIN,c-hsbc.lytics.io,国内直连
+- DOMAIN,mobile.eum-appdynamics.com,国内直连
+- DOMAIN,tags.tiqcdn.com,国内直连
+- DOMAIN,hsbc.edge.sdk.awswaf.com,国内直连
+- DOMAIN,cdnbc.wup.hsbc.com.hk,国内直连
+- DOMAIN,cdn.optimizely.com,国内直连
+- DOMAIN,log-58144bf0.we-stats.com,国内直连
+- DOMAIN-SUFFIX,tealiumiq.com,国内直连
+- DOMAIN-SUFFIX,hsbc.com.hk,国内直连
+- DOMAIN-SUFFIX,online-metrix.net,国内直连
+- DOMAIN-SUFFIX,cloud1.vv1865.com,国内直连
+- DOMAIN-SUFFIX,liveperson.net,国内直连
+- DOMAIN-SUFFIX,lpsnmedia.net,国内直连
+- DOMAIN-SUFFIX,elebank.com,国内直连
+- DOMAIN-SUFFIX,appsflyersdk.com,国内直连
+- DOMAIN-SUFFIX,za.group,国内直连
+- DOMAIN-SUFFIX,zainvest.group,国内直连
+- DOMAIN-SUFFIX,crashlytics.com,国内直连
+- DOMAIN-SUFFIX,zajourney.com,国内直连
+- DOMAIN,app-measurement.com,国内直连
+- DOMAIN,api.mixpanel.com,国内直连
+- DOMAIN-SUFFIX,wise.com,国内直连
+- DOMAIN-KEYWORD,paypal,PayPal
+- DOMAIN-SUFFIX,paypal.com,PayPal
+- DOMAIN-SUFFIX,paypal.cn,PayPal
+- DOMAIN-SUFFIX,paypal.me,PayPal
+- DOMAIN-SUFFIX,paypalobjects.com,PayPal
+- DOMAIN-SUFFIX,paypal-communication.com,PayPal
+- DOMAIN-SUFFIX,py.pl,PayPal
+- DOMAIN-SUFFIX,venmo.com,PayPal
+- DOMAIN-SUFFIX,braintreegateway.com,PayPal
+- DOMAIN-SUFFIX,braintree-api.com,PayPal
+- DOMAIN-SUFFIX,braintreepayments.com,PayPal
+- DOMAIN-SUFFIX,maya.ph,Maya
+- DOMAIN-SUFFIX,maya.com.ph,Maya
+- DOMAIN-SUFFIX,mayabank.ph,Maya
+- DOMAIN-SUFFIX,paymaya.com,Maya
+- DOMAIN-SUFFIX,paymaya.ph,Maya
+- DOMAIN-KEYWORD,paymaya,Maya
+- DOMAIN,guzzoni.apple.com,🇺🇸 美国
+- DOMAIN,mask-api.fe.apple-dns.net,🇺🇸 美国
+- DOMAIN,mask-api.icloud.com,🇺🇸 美国
+- DOMAIN,mask-t.apple-dns.net,🇺🇸 美国
+- DOMAIN,mask.apple-dns.net,🇺🇸 美国
+- DOMAIN-SUFFIX,smoot.apple.com,🇺🇸 美国
+- DOMAIN-SUFFIX,apple-relay.apple.com,🇺🇸 美国
+- DOMAIN-SUFFIX,apple-relay.cloudflare.com,🇺🇸 美国
+- DOMAIN-SUFFIX,apple-relay.fastly-edge.com,🇺🇸 美国
+- DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,🇺🇸 美国
+- DOMAIN-SUFFIX,cp4.cloudflare.com,🇺🇸 美国
+- DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,🇺🇸 美国
+- DOMAIN-SUFFIX,gateway.icloud.com,🇺🇸 美国
+- DOMAIN-SUFFIX,ls.apple.com,🇺🇸 美国
+- DOMAIN-SUFFIX,mask-h2.icloud.com,🇺🇸 美国
+- DOMAIN-SUFFIX,mask.icloud.com,🇺🇸 美国
+- DOMAIN-SUFFIX,apps.mzstatic.com,🇺🇸 美国
+- DOMAIN-KEYWORD,siri,🇺🇸 美国
+- DOMAIN-SUFFIX,openai.com,AI
+- DOMAIN-SUFFIX,chatgpt.com,AI
+- DOMAIN-SUFFIX,oaistatic.com,AI
+- DOMAIN-SUFFIX,oaiusercontent.com,AI
+- DOMAIN-SUFFIX,chatgpt.livekit.cloud,AI
+- DOMAIN-SUFFIX,openaiapi-site.azureedge.net,AI
+- DOMAIN-KEYWORD,openai,AI
+- DOMAIN-KEYWORD,chatgpt,AI
+- DOMAIN-KEYWORD,gemini,AI
+- DOMAIN-SUFFIX,gemini.google.com,AI
+- DOMAIN-SUFFIX,aistudio.google.com,AI
+- DOMAIN-SUFFIX,makersuite.google.com,AI
+- DOMAIN-SUFFIX,ai.google.dev,AI
+- DOMAIN-SUFFIX,bard.google.com,AI
+- DOMAIN-SUFFIX,deepmind.com,AI
+- DOMAIN-SUFFIX,deepmind.google,AI
+- DOMAIN-SUFFIX,generativelanguage.googleapis.com,AI
+- DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,AI
+- DOMAIN-SUFFIX,aisandbox-pa.googleapis.com,AI
+- DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com,AI
+- DOMAIN-SUFFIX,geminiweb-pa.clients6.google.com,AI
+- DOMAIN-SUFFIX,roboto-pa.googleapis.com,AI
+- DOMAIN-SUFFIX,generativelanguage.google.com,AI
+- DOMAIN-SUFFIX,anthropic.com,AI
+- DOMAIN-SUFFIX,claude.ai,AI
+- DOMAIN-SUFFIX,claudeusercontent.com,AI
+- DOMAIN-SUFFIX,x.ai,AI
+- DOMAIN-SUFFIX,grok.com,AI
+- DOMAIN-SUFFIX,x.com,自动
+- DOMAIN-SUFFIX,twitter.com,自动
+- DOMAIN-SUFFIX,twimg.com,自动
+- DOMAIN-SUFFIX,t.co,自动
+- DOMAIN-SUFFIX,youtube.com,自动
+- DOMAIN-SUFFIX,youtu.be,自动
+- DOMAIN-SUFFIX,googlevideo.com,自动
+- DOMAIN-SUFFIX,ytimg.com,自动
+- DOMAIN-SUFFIX,ggpht.com,自动
+- DOMAIN-SUFFIX,tiktok.com,自动
+- DOMAIN-SUFFIX,tiktokv.com,自动
+- DOMAIN-SUFFIX,musical.ly,自动
+- DOMAIN-SUFFIX,byteoversea.com,自动
+- DOMAIN-SUFFIX,ibytedtos.com,自动
+- DOMAIN-SUFFIX,netflix.com,Netflix
+- DOMAIN-SUFFIX,netflix.net,Netflix
+- DOMAIN-SUFFIX,nflxext.com,Netflix
+- DOMAIN-SUFFIX,nflximg.com,Netflix
+- DOMAIN-SUFFIX,nflximg.net,Netflix
+- DOMAIN-SUFFIX,nflxso.net,Netflix
+- DOMAIN-SUFFIX,nflxvideo.net,Netflix
+- DOMAIN-SUFFIX,netflixdnstest0.com,Netflix
+- DOMAIN-SUFFIX,netflixdnstest1.com,Netflix
+- DOMAIN-SUFFIX,netflixdnstest2.com,Netflix
+- DOMAIN-SUFFIX,netflixdnstest3.com,Netflix
+- DOMAIN-SUFFIX,netflixdnstest4.com,Netflix
+- DOMAIN-SUFFIX,netflixdnstest5.com,Netflix
+- DOMAIN-SUFFIX,netflixdnstest6.com,Netflix
+- DOMAIN-SUFFIX,netflixdnstest7.com,Netflix
+- DOMAIN-SUFFIX,netflixdnstest8.com,Netflix
+- DOMAIN-SUFFIX,netflixdnstest9.com,Netflix
+- DOMAIN-SUFFIX,spotify.com,Spotify
+- DOMAIN-SUFFIX,scdn.co,Spotify
+- DOMAIN-SUFFIX,spotifycdn.com,Spotify
+- DOMAIN-SUFFIX,spoti.fi,Spotify
+- DOMAIN-KEYWORD,download,自动
+- DOMAIN-KEYWORD,github,手动
+- DOMAIN-KEYWORD,mega,手动
+- DOMAIN-SUFFIX,ampproject.org,默认出口
+- DOMAIN-SUFFIX,tedcdn.com,默认出口
+- DOMAIN-SUFFIX,t.me,默认出口
+- DOMAIN-SUFFIX,tdesktop.com,默认出口
+- DOMAIN-SUFFIX,telegra.ph,默认出口
+- DOMAIN-SUFFIX,telegram.me,默认出口
+- DOMAIN-SUFFIX,telegram.org,默认出口
+- DOMAIN-SUFFIX,telesco.pe,默认出口
+- IP-CIDR,91.108.56.0/22,默认出口,no-resolve
+- IP-CIDR,91.108.4.0/22,默认出口,no-resolve
+- IP-CIDR,91.108.8.0/22,默认出口,no-resolve
+- IP-CIDR,91.108.16.0/22,默认出口,no-resolve
+- IP-CIDR,91.108.12.0/22,默认出口,no-resolve
+- IP-CIDR,149.154.160.0/20,默认出口,no-resolve
+- IP-CIDR,91.105.192.0/23,默认出口,no-resolve
+- IP-CIDR,91.108.20.0/22,默认出口,no-resolve
+- IP-CIDR,185.76.151.0/24,默认出口,no-resolve
+- DOMAIN-SUFFIX,disquscdn.com,默认出口
+- IP-CIDR,18.194.0.0/15,默认出口,no-resolve
+- IP-CIDR,34.224.0.0/12,默认出口,no-resolve
+- DOMAIN-SUFFIX,appledaily.tw,默认出口
+- IP-CIDR,74.125.0.0/16,默认出口,no-resolve
+- DOMAIN-SUFFIX,www-google-analytics.l.google.com,默认出口
+- DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,默认出口
+- DOMAIN-SUFFIX,partnerad.l.google.com,默认出口
+- DOMAIN-SUFFIX,pagead.l.google.com,默认出口
+- DOMAIN-SUFFIX,pagead.google.com,默认出口
+- DOMAIN-SUFFIX,pagead-tpc.l.google.com,默认出口
+- DOMAIN-SUFFIX,mobileads.google.com,默认出口
+- DOMAIN-SUFFIX,ads.google.com,默认出口
+- DOMAIN-SUFFIX,afd.l.google.com,默认出口
+- DOMAIN-SUFFIX,dowjones.com,默认出口
+- DOMAIN-SUFFIX,bcbits.com,默认出口
+- DOMAIN-SUFFIX,ogma.iad.appboy.com,默认出口
+- DOMAIN-SUFFIX,odc.officeapps.live.com,默认出口
+- DOMAIN-SUFFIX,skyapi.live.net,默认出口
+- DOMAIN-SUFFIX,centralus1.mediap.svc.ms,默认出口
+- DOMAIN-SUFFIX,dm.files.1drv.com,默认出口
+- DOMAIN-SUFFIX,mobile.pipe.aria.microsoft.com,默认出口
+- DOMAIN-SUFFIX,gate.hockeyapp.net,默认出口
+- DOMAIN-SUFFIX,api.onedrive.com,默认出口
+- DOMAIN-SUFFIX,vortex.data.microsoft.com,默认出口
+- DOMAIN-SUFFIX,mendeley.com,默认出口
+- DOMAIN-SUFFIX,news-events.apple.com,默认出口
+- DOMAIN-SUFFIX,news-edge.apple.com,默认出口
+- DOMAIN-SUFFIX,apple.comscoreresearch.com,默认出口
+- DOMAIN-SUFFIX,play.itunes.apple.com,默认出口
+- DOMAIN-SUFFIX,play-cdn.itunes-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,cvws.apple-dns.net,默认出口
+- DOMAIN-SUFFIX,news.apple-dns.net,默认出口
+- DOMAIN-SUFFIX,gateway.fe.apple-dns.net,默认出口
+- DOMAIN-SUFFIX,akamaiedge.net,默认出口
+- DOMAIN-SUFFIX,gs-loc.apple.com,默认出口
+- DOMAIN-SUFFIX,bag.itunes.apple.com,默认出口
+- DOMAIN-SUFFIX,apple.news,默认出口
+- DOMAIN-SUFFIX,news.iadsdk.apple.com,默认出口
+- DOMAIN-SUFFIX,raw.githubusercontent.com,默认出口
+- DOMAIN-SUFFIX,vox.com,默认出口
+- DOMAIN-SUFFIX,adcdownload.apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,appldnld.g.aaplimg.com,默认出口
+- DOMAIN-SUFFIX,cds-cdn.v.aaplimg.com,默认出口
+- DOMAIN-SUFFIX,cds.apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,cl1-cdn.origin-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,cl3-cdn.origin-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,cl4-cdn.origin-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,cl5-cdn.origin-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,clientflow.apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,configuration.apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,dd-cdn.origin-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,cdn.apple-mapkit.com,默认出口
+- DOMAIN-SUFFIX,gspe19-cn.ls-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,gs-loc-cn.apple.com,默认出口
+- DOMAIN-SUFFIX,icloud-cdn.icloud.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,init-p01md-lb.push-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,init-p01st-lb.push-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,init-s01st-lb.push-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,itunes-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,mesu-china.apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,oscdn.origin-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,pancake.cdn-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,prod-support.apple-support.akadns.net,默认出口
+- DOMAIN-SUFFIX,stocks-sparkline-lb.apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,store.storeimages.apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,support-china.apple-support.akadns.net,默认出口
+- DOMAIN-SUFFIX,swcatalog-cdn.apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,swdist.apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,swscan-cdn.apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,valid.origin-apple.com.akadns.net,默认出口
+- DOMAIN-SUFFIX,phobos.apple.com,默认出口
+- DOMAIN-SUFFIX,disney.asia,默认出口
+- DOMAIN-SUFFIX,disney.be,默认出口
+- DOMAIN-SUFFIX,disney.bg,默认出口
+- DOMAIN-SUFFIX,disney.ca,默认出口
+- DOMAIN-SUFFIX,disney.ch,默认出口
+- DOMAIN-SUFFIX,disney.co.il,默认出口
+- DOMAIN-SUFFIX,disney.co.jp,默认出口
+- DOMAIN-SUFFIX,disney.co.kr,默认出口
+- DOMAIN-SUFFIX,disney.co.th,默认出口
+- DOMAIN-SUFFIX,disney.co.uk,默认出口
+- DOMAIN-SUFFIX,disney.co.za,默认出口
+- DOMAIN-SUFFIX,disney.com,默认出口
+- DOMAIN-SUFFIX,disney.com.au,默认出口
+- DOMAIN-SUFFIX,disney.com.br,默认出口
+- DOMAIN-SUFFIX,disney.com.hk,默认出口
+- DOMAIN-SUFFIX,disney.com.tw,默认出口
+- DOMAIN-SUFFIX,disney.cz,默认出口
+- DOMAIN-SUFFIX,disney.de,默认出口
+- DOMAIN-SUFFIX,disney.dk,默认出口
+- DOMAIN-SUFFIX,disney.es,默认出口
+- DOMAIN-SUFFIX,disney.fi,默认出口
+- DOMAIN-SUFFIX,disney.fr,默认出口
+- DOMAIN-SUFFIX,disney.gr,默认出口
+- DOMAIN-SUFFIX,disney.hu,默认出口
+- DOMAIN-SUFFIX,disney.id,默认出口
+- DOMAIN-SUFFIX,disney.in,默认出口
+- DOMAIN-SUFFIX,disney.io,默认出口
+- DOMAIN-SUFFIX,disney.it,默认出口
+- DOMAIN-SUFFIX,disney.my,默认出口
+- DOMAIN-SUFFIX,disney.nl,默认出口
+- DOMAIN-SUFFIX,disney.no,默认出口
+- DOMAIN-SUFFIX,disney.ph,默认出口
+- DOMAIN-SUFFIX,disney.pl,默认出口
+- DOMAIN-SUFFIX,disney.pt,默认出口
+- DOMAIN-SUFFIX,disney.ro,默认出口
+- DOMAIN-SUFFIX,disney.ru,默认出口
+- DOMAIN-SUFFIX,disney.se,默认出口
+- DOMAIN-SUFFIX,disney.sg,默认出口
+- DOMAIN-SUFFIX,20thcenturystudios.com.au,默认出口
+- DOMAIN-SUFFIX,20thcenturystudios.com.br,默认出口
+- DOMAIN-SUFFIX,20thcenturystudios.jp,默认出口
+- DOMAIN-SUFFIX,adventuresbydisney.com,默认出口
+- DOMAIN-SUFFIX,babble.com,默认出口
+- DOMAIN-SUFFIX,babyzone.com,默认出口
+- DOMAIN-SUFFIX,bamgrid.com,默认出口
+- DOMAIN-SUFFIX,beautyandthebeastmusical.co.uk,默认出口
+- DOMAIN-SUFFIX,dilcdn.com,默认出口
+- DOMAIN-SUFFIX,disney-asia.com,默认出口
+- DOMAIN-SUFFIX,disney-discount.com,默认出口
+- DOMAIN-SUFFIX,disney-plus.net,默认出口
+- DOMAIN-SUFFIX,disney-portal.my.onetrust.com,默认出口
+- DOMAIN-SUFFIX,disney-studio.com,默认出口
+- DOMAIN-SUFFIX,disney-studio.net,默认出口
+- DOMAIN-SUFFIX,disney.my.sentry.io,默认出口
+- DOMAIN-SUFFIX,disneyadsales.com,默认出口
+- DOMAIN-SUFFIX,disneyarena.com,默认出口
+- DOMAIN-SUFFIX,disneyaulani.com,默认出口
+- DOMAIN-SUFFIX,disneybaby.com,默认出口
+- DOMAIN-SUFFIX,disneycareers.com,默认出口
+- DOMAIN-SUFFIX,disneychannelonstage.com,默认出口
+- DOMAIN-SUFFIX,disneychannelroadtrip.com,默认出口
+- DOMAIN-SUFFIX,disneycruisebrasil.com,默认出口
+- DOMAIN-SUFFIX,disneyenconcert.com,默认出口
+- DOMAIN-SUFFIX,disneyiejobs.com,默认出口
+- DOMAIN-SUFFIX,disneyinflight.com,默认出口
+- DOMAIN-SUFFIX,disneyinternational.com,默认出口
+- DOMAIN-SUFFIX,disneyinternationalhd.com,默认出口
+- DOMAIN-SUFFIX,disneyjunior.com,默认出口
+- DOMAIN-SUFFIX,disneyjuniortreataday.com,默认出口
+- DOMAIN-SUFFIX,disneylatino.com,默认出口
+- DOMAIN-SUFFIX,disneymagicmoments.co.il,默认出口
+- DOMAIN-SUFFIX,disneymagicmoments.co.uk,默认出口
+- DOMAIN-SUFFIX,disneymagicmoments.co.za,默认出口
+- DOMAIN-SUFFIX,disneymagicmoments.de,默认出口
+- DOMAIN-SUFFIX,disneymagicmoments.es,默认出口
+- DOMAIN-SUFFIX,disneymagicmoments.fr,默认出口
+- DOMAIN-SUFFIX,disneymagicmoments.gen.tr,默认出口
+- DOMAIN-SUFFIX,disneymagicmoments.gr,默认出口
+- DOMAIN-SUFFIX,disneymagicmoments.it,默认出口
+- DOMAIN-SUFFIX,disneymagicmoments.pl,默认出口
+- DOMAIN-SUFFIX,disneymagicmomentsme.com,默认出口
+- DOMAIN-SUFFIX,disneyme.com,默认出口
+- DOMAIN-SUFFIX,disneymeetingsandevents.com,默认出口
+- DOMAIN-SUFFIX,disneymovieinsiders.com,默认出口
+- DOMAIN-SUFFIX,disneymusicpromotion.com,默认出口
+- DOMAIN-SUFFIX,disneynewseries.com,默认出口
+- DOMAIN-SUFFIX,disneynow.com,默认出口
+- DOMAIN-SUFFIX,disneypeoplesurveys.com,默认出口
+- DOMAIN-SUFFIX,disneyplus.bn5x.net,默认出口
+- DOMAIN-SUFFIX,disneyplus.com,默认出口
+- DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,默认出口
+- DOMAIN-SUFFIX,disneyredirects.com,默认出口
+- DOMAIN-SUFFIX,disneysrivieraresort.com,默认出口
+- DOMAIN-SUFFIX,disneystore.com,默认出口
+- DOMAIN-SUFFIX,disneystreaming.com,默认出口
+- DOMAIN-SUFFIX,disneysubscription.com,默认出口
+- DOMAIN-SUFFIX,disneytickets.co.uk,默认出口
+- DOMAIN-SUFFIX,disneyturkiye.com.tr,默认出口
+- DOMAIN-SUFFIX,disneytvajobs.com,默认出口
+- DOMAIN-SUFFIX,disneyworld-go.com,默认出口
+- DOMAIN-SUFFIX,dssott.com,默认出口
+- DOMAIN-SUFFIX,go-disneyworldgo.com,默认出口
+- DOMAIN-SUFFIX,go.com,默认出口
+- DOMAIN-SUFFIX,mickey.tv,默认出口
+- DOMAIN-SUFFIX,moviesanywhere.com,默认出口
+- DOMAIN-SUFFIX,nomadlandmovie.ch,默认出口
+- DOMAIN-SUFFIX,playmation.com,默认出口
+- DOMAIN-SUFFIX,shopdisney.com,默认出口
+- DOMAIN-SUFFIX,shops-disney.com,默认出口
+- DOMAIN-SUFFIX,sorcerersarena.com,默认出口
+- DOMAIN-SUFFIX,spaindisney.com,默认出口
+- DOMAIN-SUFFIX,star-brasil.com,默认出口
+- DOMAIN-SUFFIX,star-latam.com,默认出口
+- DOMAIN-SUFFIX,starwars.com,默认出口
+- DOMAIN-SUFFIX,starwarsgalacticstarcruiser.com,默认出口
+- DOMAIN-SUFFIX,starwarskids.com,默认出口
+- DOMAIN-SUFFIX,streamingdisney.net,默认出口
+- DOMAIN-SUFFIX,thestationbymaker.com,默认出口
+- DOMAIN-SUFFIX,thisispolaris.com,默认出口
+- DOMAIN-SUFFIX,watchdisneyfe.com,默认出口
+- DOMAIN-SUFFIX,a2z.com,默认出口
+- DOMAIN-SUFFIX,aboutamazon.co.uk,默认出口
+- DOMAIN-SUFFIX,aboutamazon.com,默认出口
+- DOMAIN-SUFFIX,aboutamazon.com.au,默认出口
+- DOMAIN-SUFFIX,aboutamazon.de,默认出口
+- DOMAIN-SUFFIX,aboutamazon.es,默认出口
+- DOMAIN-SUFFIX,aboutamazon.eu,默认出口
+- DOMAIN-SUFFIX,aboutamazon.fr,默认出口
+- DOMAIN-SUFFIX,aboutamazon.in,默认出口
+- DOMAIN-SUFFIX,aboutamazon.it,默认出口
+- DOMAIN-SUFFIX,aboutamazon.jp,默认出口
+- DOMAIN-SUFFIX,aboutamazon.pl,默认出口
+- DOMAIN-SUFFIX,acmvalidations.com,默认出口
+- DOMAIN-SUFFIX,acmvalidationsaws.com,默认出口
+- DOMAIN-SUFFIX,aesworkshops.com,默认出口
+- DOMAIN-SUFFIX,aiv-cdn.net,默认出口
+- DOMAIN-SUFFIX,aiv-delivery.net,默认出口
+- DOMAIN-SUFFIX,alexa.com,默认出口
+- DOMAIN-SUFFIX,amaaozn.com,默认出口
+- DOMAIN-KEYWORD,amazon,默认出口
+- DOMAIN-SUFFIX,amazon-adsystem.com,默认出口
+- DOMAIN-SUFFIX,amazon-fashions.com,默认出口
+- DOMAIN-SUFFIX,amazon-jp-recruiting.com,默认出口
+- DOMAIN-SUFFIX,amazon-lantern.com,默认出口
+- DOMAIN-SUFFIX,amazon-launchpad.com,默认出口
+- DOMAIN-SUFFIX,amazon.ae,默认出口
+- DOMAIN-SUFFIX,amazon.ca,默认出口
+- DOMAIN-SUFFIX,amazon.co.jp,默认出口
+- DOMAIN-SUFFIX,amazon.co.uk,默认出口
+- DOMAIN-SUFFIX,amazon.com,默认出口
+- DOMAIN-SUFFIX,amazon.com.au,默认出口
+- DOMAIN-SUFFIX,amazon.com.br,默认出口
+- DOMAIN-SUFFIX,amazon.com.mx,默认出口
+- DOMAIN-SUFFIX,amazon.com.tr,默认出口
+- DOMAIN-SUFFIX,amazon.de,默认出口
+- DOMAIN-SUFFIX,amazon.es,默认出口
+- DOMAIN-SUFFIX,amazon.fr,默认出口
+- DOMAIN-SUFFIX,amazon.in,默认出口
+- DOMAIN-SUFFIX,amazon.it,默认出口
+- DOMAIN-SUFFIX,amazon.jobs,默认出口
+- DOMAIN-SUFFIX,amazon.jp,默认出口
+- DOMAIN-SUFFIX,amazon.nl,默认出口
+- DOMAIN-SUFFIX,amazon.red,默认出口
+- DOMAIN-SUFFIX,amazon.sg,默认出口
+- DOMAIN-SUFFIX,amazonalexavoxcon.com,默认出口
+- DOMAIN-SUFFIX,amazonauthorinsights.com,默认出口
+- DOMAIN-SUFFIX,amazonaws-china.com,默认出口
+- DOMAIN-SUFFIX,amazonaws.co.uk,默认出口
+- DOMAIN-SUFFIX,amazonaws.com,默认出口
+- DOMAIN-SUFFIX,amazonaws.tv,默认出口
+- DOMAIN-SUFFIX,amazonbusiness.org,默认出口
+- DOMAIN-SUFFIX,amazonbusinessblog.com,默认出口
+- DOMAIN-SUFFIX,amazondevicesupport.com,默认出口
+- DOMAIN-SUFFIX,amazonfctours.com,默认出口
+- DOMAIN-SUFFIX,amazonianblog.com,默认出口
+- DOMAIN-SUFFIX,amazonimages.com,默认出口
+- DOMAIN-SUFFIX,amazonlaunchpad.com,默认出口
+- DOMAIN-SUFFIX,amazonliterarypartnership.com,默认出口
+- DOMAIN-SUFFIX,amazonlumberyard.wang,默认出口
+- DOMAIN-SUFFIX,amazonpay.com,默认出口
+- DOMAIN-SUFFIX,amazonpay.in,默认出口
+- DOMAIN-SUFFIX,amazonprimevideos.com,默认出口
+- DOMAIN-SUFFIX,amazonsdi.com,默认出口
+- DOMAIN-SUFFIX,amazonstudiosguilds.com,默认出口
+- DOMAIN-SUFFIX,amazontrust.com,默认出口
+- DOMAIN-SUFFIX,amazonuniversity.jobs,默认出口
+- DOMAIN-SUFFIX,amazonvideo.cc,默认出口
+- DOMAIN-SUFFIX,amazonvideo.com,默认出口
+- DOMAIN-SUFFIX,amazonvideodirect.com,默认出口
+- DOMAIN-SUFFIX,amazonworkdocs.com,默认出口
+- DOMAIN-SUFFIX,amplifyapp.com,默认出口
+- DOMAIN-SUFFIX,amplifyframework.com,默认出口
+- DOMAIN-SUFFIX,amzn.asia,默认出口
+- DOMAIN-SUFFIX,amzn.com,默认出口
+- DOMAIN-SUFFIX,amzn.to,默认出口
+- DOMAIN-SUFFIX,amznl.com,默认出口
+- DOMAIN-SUFFIX,associates-amazon.com,默认出口
+- DOMAIN-SUFFIX,audible.com,默认出口
+- DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net,默认出口
+- DOMAIN-KEYWORD,aws,默认出口
+- DOMAIN-SUFFIX,aws-iot-hackathon.com,默认出口
+- DOMAIN-SUFFIX,awsautopilot.com,默认出口
+- DOMAIN-SUFFIX,awsautoscaling.com,默认出口
+- DOMAIN-SUFFIX,awsbraket.com,默认出口
+- DOMAIN-SUFFIX,awscloud.com,默认出口
+- DOMAIN-SUFFIX,awscommandlineinterface.com,默认出口
+- DOMAIN-SUFFIX,awsedstart.com,默认出口
+- DOMAIN-SUFFIX,awseducate.com,默认出口
+- DOMAIN-SUFFIX,awseducate.net,默认出口
+- DOMAIN-SUFFIX,awseducate.org,默认出口
+- DOMAIN-SUFFIX,awsloft-johannesburg.com,默认出口
+- DOMAIN-SUFFIX,awsloft-stockholm.com,默认出口
+- DOMAIN-SUFFIX,awssecworkshops.com,默认出口
+- DOMAIN-SUFFIX,awsstatic.com,默认出口
+- DOMAIN-SUFFIX,awsthinkbox.com,默认出口
+- DOMAIN-SUFFIX,awstrack.me,默认出口
+- DOMAIN-SUFFIX,awstrust.com,默认出口
+- DOMAIN-SUFFIX,boxofficemojo.com,默认出口
+- DOMAIN-SUFFIX,cdkworkshop.com,默认出口
+- DOMAIN-SUFFIX,cloudfront.net,默认出口
+- DOMAIN-SUFFIX,containersonaws.com,默认出口
+- DOMAIN-SUFFIX,createspace.com,默认出口
+- DOMAIN-SUFFIX,elasticbeanstalk.com,默认出口
+- DOMAIN-SUFFIX,gameon-masters.com,默认出口
+- DOMAIN-SUFFIX,gdansk-amazon.com,默认出口
+- DOMAIN-SUFFIX,images-amazon.com,默认出口
+- DOMAIN-SUFFIX,imdb.com,默认出口
+- DOMAIN-SUFFIX,imdb.to,默认出口
+- DOMAIN-SUFFIX,kindle.co.jp,默认出口
+- DOMAIN-SUFFIX,kindle.co.uk,默认出口
+- DOMAIN-SUFFIX,kindle.com,默认出口
+- DOMAIN-SUFFIX,kindle.de,默认出口
+- DOMAIN-SUFFIX,kindle.es,默认出口
+- DOMAIN-SUFFIX,kindle.fr,默认出口
+- DOMAIN-SUFFIX,kindle.in,默认出口
+- DOMAIN-SUFFIX,kindle.it,默认出口
+- DOMAIN-SUFFIX,kindle.jp,默认出口
+- DOMAIN-SUFFIX,kindleoasis.com,默认出口
+- DOMAIN-SUFFIX,kindleoasis.info,默认出口
+- DOMAIN-SUFFIX,kindleoasis.jp,默认出口
+- DOMAIN-SUFFIX,kindleoasis.org,默认出口
+- DOMAIN-SUFFIX,kindleoasis.us,默认出口
+- DOMAIN-SUFFIX,kindleoasisnews.com,默认出口
+- DOMAIN-SUFFIX,kindleproject.com,默认出口
+- DOMAIN-SUFFIX,llnwd.net,默认出口
+- DOMAIN-SUFFIX,media-amazon.com,默认出口
+- DOMAIN-SUFFIX,media-imdb.com,默认出口
+- DOMAIN-SUFFIX,prime-video.com,默认出口
+- DOMAIN-SUFFIX,primeday.info,默认出口
+- DOMAIN-SUFFIX,primevideo.cc,默认出口
+- DOMAIN-SUFFIX,primevideo.com,默认出口
+- DOMAIN-SUFFIX,primevideo.info,默认出口
+- DOMAIN-SUFFIX,primevideo.org,默认出口
+- DOMAIN-SUFFIX,primevideo.tv,默认出口
+- DOMAIN-SUFFIX,pv-cdn.net,默认出口
+- DOMAIN-SUFFIX,siege-amazon.com,默认出口
+- DOMAIN-SUFFIX,ssl-images-amazon.com,默认出口
+- DOMAIN-SUFFIX,thinkboxsoftware.com,默认出口
+- DOMAIN-SUFFIX,ueberamazon.de,默认出口
+- DOMAIN-SUFFIX,wfm.com,默认出口
+- DOMAIN-SUFFIX,wholecitiesfoundation.org,默认出口
+- DOMAIN-SUFFIX,wholefoods.com,默认出口
+- DOMAIN-SUFFIX,wholefoodsmarket.co.uk,默认出口
+- DOMAIN-SUFFIX,wholefoodsmarket.com,默认出口
+- DOMAIN-SUFFIX,wholekidsfoundation.org,默认出口
+- DOMAIN-SUFFIX,wholeplanetfoundation.org,默认出口
+- DOMAIN-SUFFIX,yamaxun.com,默认出口
+- DOMAIN-SUFFIX,paramountplus.com,默认出口
+- DOMAIN-SUFFIX,bing.com,默认出口
+- DOMAIN-SUFFIX,dnsleaktest.com,默认出口
+- DOMAIN-SUFFIX,ipleak.net,默认出口
+- DOMAIN-SUFFIX,browserleaks.com,默认出口
+- DOMAIN-SUFFIX,browserleaks.org,默认出口
+- DOMAIN-SUFFIX,vpnunlimited.com,默认出口
+- DOMAIN-SUFFIX,whrq.net,默认出口
+- DOMAIN-SUFFIX,forefront.ai,默认出口
+- DOMAIN-SUFFIX,mozilla.org,默认出口
+- DOMAIN-SUFFIX,txt.fyi,默认出口
+- DOMAIN-SUFFIX,adobe.com,默认出口
+- DOMAIN-SUFFIX,aol.com,默认出口
+- DOMAIN-SUFFIX,yahoo.com,默认出口
+- DOMAIN-SUFFIX,linkedin.cn,默认出口
+- DOMAIN-SUFFIX,linkedin.com,默认出口
+- DOMAIN-SUFFIX,copilot.microsoft.com,默认出口
+- DOMAIN-SUFFIX,hoyolab.com,默认出口
+- DOMAIN-SUFFIX,location.microsoft.com,默认出口
+- DOMAIN-SUFFIX,devv.ai,默认出口
+- DOMAIN-SUFFIX,ba-jp-sdk.bluearchive.jp,默认出口
+- DOMAIN-SUFFIX,resources.download.minecraft.net,默认出口
+- DOMAIN-SUFFIX,piston-data.mojang.com,默认出口
+- DOMAIN-SUFFIX,github.dev,默认出口
+- DOMAIN-SUFFIX,mc-heads.net,默认出口
+- DOMAIN-SUFFIX,apt.thebigboss.org,默认出口
+- DOMAIN-SUFFIX,repo.chariz.com,默认出口
+- RULE-SET,loon-reject,广告拦截
+- RULE-SET,loon-reject-ip,广告拦截,no-resolve
+- RULE-SET,geosite-private,DIRECT
+- RULE-SET,geosite-category-ai-notcn,AI
+- RULE-SET,geosite-telegram,Telegram
+- RULE-SET,geoip-telegram,Telegram,no-resolve
+- RULE-SET,geosite-youtube,YouTube
+- RULE-SET,geosite-netflix,Netflix
+- RULE-SET,geoip-netflix,Netflix,no-resolve
+- RULE-SET,geosite-spotify,Spotify
+- RULE-SET,geosite-paypal,PayPal
+- RULE-SET,geosite-google,Google
+- RULE-SET,geosite-apple,Apple
+- RULE-SET,geosite-microsoft,Microsoft
+- RULE-SET,geosite-cn,国内直连
+- RULE-SET,geosite-geolocation-notcn,默认出口
+- RULE-SET,geoip-google,Google,no-resolve
+- RULE-SET,geoip-private,DIRECT,no-resolve
+- RULE-SET,geoip-cn,国内直连
+- MATCH,漏网之鱼

@@ -1,0 +1,50 @@
+#!/bin/sh
+# proxy-bypass: manage devices (by MAC) that bypass the mihomo transparent proxy.
+LIST=/etc/mihomo/bypass.list
+FW=/etc/mihomo/firewall.sh
+SET=mihomo_bypass
+
+usage() {
+  cat <<U
+Usage: proxy-bypass add <MAC> [name]   add/rename a device (plain direct: no proxy, normal DNS)
+       proxy-bypass del <MAC>          remove a device (it will be proxied again)
+       proxy-bypass list               show bypassed devices with current IP
+List file: $LIST  (changes apply instantly via ipset; no connection drop for others)
+U
+  exit 1
+}
+
+norm() { echo "$1" | tr 'A-F-' 'a-f:'; }
+valid() { echo "$1" | grep -qE '^([0-9a-f]{2}:){5}[0-9a-f]{2}$'; }
+apply() { [ -x "$FW" ] && "$FW" sync; }
+ipof() {
+  ip=$(awk -v m="$1" 'tolower($2)==m {print $3}' /tmp/dhcp.leases 2>/dev/null | head -1)
+  [ -z "$ip" ] && ip=$(ip -4 neigh 2>/dev/null | awk -v m="$1" 'tolower($5)==m {print $1}' | head -1)
+  echo "${ip:--}"
+}
+
+touch "$LIST"
+case "$1" in
+  add)
+    [ -n "$2" ] || usage
+    mac=$(norm "$2"); valid "$mac" || { echo "invalid MAC: $2" >&2; exit 2; }
+    name=$(echo "${3:--}" | tr -c 'A-Za-z0-9._\n-' '_')
+    grep -v -i "^$mac[[:space:]]" "$LIST" > "$LIST.tmp"
+    echo "$mac $name" >> "$LIST.tmp"; mv "$LIST.tmp" "$LIST"
+    apply; echo "added: $mac ($name)  ip=$(ipof $mac)"
+    echo "note: the device's existing proxied connections will reset; it may need a Wi-Fi reconnect to drop cached DNS." ;;
+  del|rm|remove)
+    [ -n "$2" ] || usage
+    mac=$(norm "$2"); valid "$mac" || { echo "invalid MAC: $2" >&2; exit 2; }
+    grep -qi "^$mac[[:space:]]" "$LIST" || { echo "not in list: $mac" >&2; exit 3; }
+    grep -v -i "^$mac[[:space:]]" "$LIST" > "$LIST.tmp"; mv "$LIST.tmp" "$LIST"
+    apply; echo "removed: $mac" ;;
+  list|ls|"")
+    printf "%-19s %-20s %-16s %s\n" MAC NAME IP ACTIVE
+    sed 's/#.*//' "$LIST" | awk 'NF' | while read -r mac name; do
+      mac=$(norm "$mac")
+      if ipset test $SET "$mac" >/dev/null 2>&1; then act=yes; else act=no; fi
+      printf "%-19s %-20s %-16s %s\n" "$mac" "${name:--}" "$(ipof $mac)" "$act"
+    done ;;
+  *) usage ;;
+esac

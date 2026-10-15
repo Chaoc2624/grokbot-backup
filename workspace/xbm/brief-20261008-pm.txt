@@ -1,0 +1,39 @@
+📌 推特书签简报 · 2026-10-08 晚上（22:00 那次没跑成，23:12 补发）
+
+账号 @Chaoc2624 · 新增 3 条书签：一篇软路由教程、一张便宜的新加坡漫游 eSIM，还有一条闲聊段子，都不急。另外有 23 条之前推过、在看板上还没处理，其中 SheerID 认证和香港换驾照预约 2 条比较急。
+
+🟡 和正在办的事相关
+• 【网络】软路由保姆级教程：NAS 虚拟机跑 iStoreOS + OpenClash（10-08 11:26）
+  在群晖 NAS、旧电脑或 Mac 虚拟机里装 iStoreOS 当旁路由。设旁路由时一定要关掉 DHCPv4；OpenClash 要先在电脑上下载 _all.ipk 再上传安装；导入订阅后重启一次 OpenClash。
+  👉 和你收藏的「家里配旁路由」「Claude 防封分流规则」是一套，搭好后可以把 Claude 规则组和按设备固定出口加进去。家里开了 IPv6 记得关掉，不然会绕过代理。
+  https://x.com/i/status/2108036233737941048
+
+🔵 需求清单
+• 【eSIM】新加坡漫游 eSIM：29 元 15G，在大陆就能激活（10-08 11:45）
+  在 KKday 买 StarHub 的卡，30 天 15G，包含中国大陆漫游，国内写入就能用，IP 干净，适合用 AI 和社媒；用护照做 KYC，支付宝或微信付款。
+  👉 KYC 最大的坑：页面显示「成功，可以关闭浏览器」时别关，再等几十秒，等它跳到 Verify ID 后点完 Complete registration。这张卡不能续费，流量用完要重新买。文中链接是作者的推广短链。
+  https://x.com/i/status/2108041096437592531
+
+⚪ 不用处理
+• 【闲聊】蒙古包不隔音的段子，已经标成「不紧急」，以后不会再提醒。https://x.com/i/status/2107751083976364269
+
+⏳ 之前推过、还没处理（23 条，详情在看板）
+• 🔴 SheerID 认证通道：作者说随时可能关，要用就尽快 https://x.com/i/status/2106583475109421287
+• 🔴 内地驾照换香港驾照：工作日 17:00 放未来 4 周的名额，每人只能约一次 https://x.com/i/status/2105861048553329151
+• 其余 21 条是美卡、税号、身份、出海这些，包括中午推的 Claude 分流规则、IBKR 开户材料和 SEO 大佬名单。
+
+🤖 AI 新品（10-08 12:06 – 23:12）
+• SynthID Detector 公开可用：synthid.com 上传图片、视频或音频就能查是不是 AI 生成，支持 Google、OpenAI、NVIDIA、Kakao 的水印，Apple 即将支持。@_philschmid · 22:53 https://x.com/_philschmid/status/2108209169052414138
+• Gemini Agent：Google Cloud 在 Gemini at Work 发布的通用工作智能体，给它目标就行，不用一步步下指令，能跨 Gmail、Docs、Slack、M365 连续干几天，还会自动在 Gemini 和 Claude 之间选模型，目前是私密预览。@googlecloud · 21:00 https://x.com/googlecloud/status/2108180723920166972
+• Meta Muse 推出 iPad 版：支持多任务和更多连接器，目前只开放美国和加拿大，Windows 版在做。@techpp · 13:30 https://x.com/techpp/status/2108067382568624523
+• Hermes Agent 预装到华硕 ProArt RTX Spark 电脑：集成 ComfyUI，能跑本地模型。@NousResearch · 22:22 https://x.com/NousResearch/status/2108201390493544680
+• （爆料）Google Antigravity 的智能体改名叫「Chief of stuff」。@testingcatalog · 19:14 https://x.com/testingcatalog/status/2108154053171478564
+
+🔥 建站热词
+1. SynthID Detector：「怎么判断图片是不是 AI 做的」是长期刚需，官方工具刚开放，适合做教程或 AI 检测工具导航。
+2. Gemini Agent：企业用户会搜开通方式、价格，以及和 Copilot、ChatGPT Agent 的对比，现在只有新闻稿。
+3. Meta Muse：日活约 220 万但只开放美加，海外用户在搜注册方法和邀请码，适合做注册教程。
+
+💰 X 接口：这次跑完余额还是 14.00 美元（免费额度，2027-10-06 到期），中午是 14.50。这次只调用了 1 次书签接口，费用还没体现在余额里。
+
+看板：https://x.omnitools.cc

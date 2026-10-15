@@ -1,0 +1,66 @@
+#!/bin/sh
+# openclash-auto-sub: auto-merge OpenClash subscriptions into the active profile (router.yaml) as proxy-providers.
+# - every uci openclash config_subscribe whose file /etc/openclash/config/<name>.yaml exists becomes provider
+#   ./proxy_provider/<key>.yaml (symlink) + groups "<name>" (select) / "<name>自动" (url-test, no multiplier nodes),
+#   added as option to 默认出口 手动 AI Telegram YouTube Google Netflix Spotify Twitter, and to 「英国」 (UK filter applies).
+# - removed subscriptions (uci entry or file gone) are removed again (except pinned omni-sub).
+# - node-file content changes -> provider refreshed via Clash API (no reload).
+# - validates with mihomo -t, backs up, hot-reloads via API, logs to syslog (logread -e openclash-auto-sub).
+# Usage: openclash-auto-sub [--force]     (cron runs it every 2 min; cheap when nothing changed)
+CFG=/etc/openclash/config/router.yaml; RT=/etc/openclash/router.yaml; DIR=/etc/openclash/custom/auto-sub
+MAP=$DIR/map; LOCK=/tmp/openclash-auto-sub.lock; RB=/usr/libexec/openclash-auto-sub.rb
+log(){ logger -t openclash-auto-sub "$*"; [ -t 1 ] && echo "$*"; }
+mkdir -p $DIR; [ -f $MAP ] || printf 'omni-sub=omni=pinned\n樱花猫=sakura=managed\n蓝天云=lantian=managed\n' > $MAP
+[ "$(uci -q get openclash.config.enable)" = "1" ] || exit 0
+pgrep -f /etc/openclash/clash >/dev/null || exit 0
+mkdir $LOCK 2>/dev/null || { [ -n "$(find $LOCK -mmin +10 2>/dev/null)" ] && rmdir $LOCK && mkdir $LOCK || exit 0; }
+trap 'rmdir $LOCK 2>/dev/null' EXIT
+SECRET=$(uci -q get openclash.config.dashboard_password); API=http://127.0.0.1:9090; AUTH="Authorization: Bearer $SECRET"
+
+# current subscriptions with existing files
+PRESENT=""
+for n in $(uci show openclash 2>/dev/null | sed -n "s/^openclash\.@config_subscribe\[[0-9]*\]\.name='\(.*\)'$/\1/p" | tr ' ' '\001'); do
+  n=$(echo "$n" | tr '\001' ' '); [ "$n" = "router" ] && continue
+  [ -f "/etc/openclash/config/$n.yaml" ] || continue
+  k=$(grep -F "$n=" $MAP | awk -F= -v n="$n" '$1==n{print $2}' | head -1)
+  if [ -z "$k" ]; then k="sub$(printf '%s' "$n" | md5sum | cut -c1-6)"; echo "$n=$k=managed" >> $MAP; log "new subscription '$n' -> provider $k"; fi
+  ln -sf "/etc/openclash/config/$n.yaml" "/etc/openclash/proxy_provider/$k.yaml"
+  PRESENT="$PRESENT$n=$k
+"
+done
+SIG=$(printf '%s' "$PRESENT" | sort | md5sum | cut -c1-32)
+NEED=0; [ "$1" = "--force" ] && NEED=1
+[ "$SIG" != "$(cat $DIR/sig 2>/dev/null)" ] && NEED=1
+# provider missing from active config?
+printf '%s' "$PRESENT" | while IFS== read n k; do [ -n "$k" ] && ! grep -q "^  $k:$" $RT && echo miss; done | grep -q miss && NEED=1
+
+if [ $NEED = 1 ]; then
+  printf '%s' "$PRESENT" > $DIR/present
+  cp $RT /tmp/auto-sub-rt.yaml
+  OUT=$(ruby $RB /tmp/auto-sub-rt.yaml $MAP $DIR/present 2>&1); RC=$?
+  if [ $RC = 2 ]; then log "no structural change"; echo "$SIG" > $DIR/sig; rm -f /tmp/auto-sub-rt.yaml
+  elif [ $RC != 0 ]; then log "merge failed: $OUT"; rm -f /tmp/auto-sub-rt.yaml; exit 1
+  elif SAFE_PATHS=/usr/share/openclash /etc/openclash/core/clash_meta -t -d /etc/openclash -f /tmp/auto-sub-rt.yaml 2>&1 | tail -1 | grep -q successful; then
+    TS=$(date +%Y%m%d%H%M%S); cp $CFG $DIR/router.yaml.bak-$TS; ls -t $DIR/router.yaml.bak-* 2>/dev/null | tail -n +6 | xargs -r rm -f
+    ruby $RB $CFG $MAP $DIR/present >/dev/null 2>&1
+    cp /tmp/auto-sub-rt.yaml $RT; rm -f /tmp/auto-sub-rt.yaml
+    R=$(curl -s -m 30 -X PUT -H "$AUTH" -H "Content-Type: application/json" -d "{\"path\":\"$RT\"}" "$API/configs?force=true" -w "%{http_code}")
+    log "applied: $OUT; reload=$R; backup $DIR/router.yaml.bak-$TS"
+    echo "$SIG" > $DIR/sig
+    # drop map entries of removed managed subs
+    awk -F= 'NR==FNR{p[$1]=1;next} $3=="pinned"||p[$1]' $DIR/present $MAP > $MAP.new && mv $MAP.new $MAP
+  else
+    log "validation FAILED, nothing applied: $OUT"; rm -f /tmp/auto-sub-rt.yaml; exit 1
+  fi
+fi
+
+# content changes -> refresh provider (no reload)
+printf '%s' "$PRESENT" | while IFS== read n k; do
+  [ -n "$k" ] || continue
+  h=$(md5sum "/etc/openclash/config/$n.yaml" | cut -c1-32); o=$(cat "$DIR/$k.md5" 2>/dev/null)
+  if [ "$h" != "$o" ]; then
+    echo "$h" > "$DIR/$k.md5"
+    [ -n "$o" ] && { c=$(curl -s -m 20 -X PUT -H "$AUTH" "$API/providers/proxies/$k" -w "%{http_code}"); log "subscription '$n' content changed -> provider $k refreshed ($c)"; }
+  fi
+done
+exit 0

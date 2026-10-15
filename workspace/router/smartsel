@@ -1,0 +1,79 @@
+#!/usr/bin/env ruby
+# 智能选节点：每 10 分钟查一次延迟，每小时测一次实际带宽。
+# 只调整「🚀 总出口」和「Telegram」当前链路上的自动测速（url-test）组，只在组内节点之间切换。
+# 当前节点延迟 > 800ms / 超时、带宽 < 300KB/s、或不到最快候选的一半时，锁定到最快的节点并发 Telegram。
+# 测速走专用入口 127.0.0.1:7899（绑定隐藏组「测速专用」），不影响正在用的连接。
+ENTRIES = ['🚀 总出口', 'Telegram']
+SLOW = 300.0; HIGH = 800; CANDS = 3; BYTES = 1_000_000
+conf = File.read('/etc/linkmon.conf')
+TOK = conf[/TG_TOKEN=['"]?([^'"\s]+)/,1]; CHAT = conf[/TG_CHAT=['"]?([^'"\s]+)/,1]
+SEC = `uci -q get openclash.config.dashboard_password`.strip
+API = 'http://127.0.0.1:9090'
+pa = (File.read('/etc/openclash/router.yaml')[/^authentication:\n\s*-\s*["']?([^"'\n]+)/,1] rescue nil)
+PROXY = "http://#{pa ? pa + '@' : ''}127.0.0.1:7893"
+TESTER = 'http://127.0.0.1:7899'
+URLS = { 'Telegram' => 'https://telegram.org/dl/desktop/mac', :default => 'https://proof.ovh.net/files/10Mb.dat' }
+def enc(n) n.b.bytes.map{|b| (b.chr =~ /[A-Za-z0-9_.~-]/) ? b.chr : "%%%02X" % b }.join end
+def get(path) `curl -s -m 15 -H "Authorization: Bearer #{SEC}" "#{API}#{path}"`.force_encoding('UTF-8') end
+def put(g, n) system('curl', '-s', '-m', '6', '-X', 'PUT', '-H', "Authorization: Bearer #{SEC}", '-H', 'Content-Type: application/json',
+                     '-d', %Q({"name":"#{n.gsub('"', '\"')}"}), "#{API}/proxies/#{enc(g)}", out: File::NULL) end
+def info(g) j = get("/proxies/#{enc(g)}"); { type: j[/"type":"([^"]*)"/,1].to_s, now: j[/"now":"([^"]*)"/,1].to_s,
+  all: (j[/"all":\[([^\]]*)\]/,1].to_s.scan(/"((?:[^"\\]|\\.)*)"/).flatten) } end
+def delays(g) j = get("/group/#{enc(g)}/delay?url=#{enc('https://www.gstatic.com/generate_204')}&timeout=3000")
+  j.scan(/"((?:[^"\\]|\\.)*)":(\d+)/).map { |n, d| [n, d.to_i] }.to_h end
+def bw(node, url)
+  put('测速专用', node); sleep 0.5
+  (IO.popen(['curl', '-sL', '-o', '/dev/null', '-m', '10', '-r', "0-#{BYTES - 1}", '-x', TESTER, '-w', '%{speed_download}', url], &:read).to_f / 1024) rescue 0.0
+end
+def fmt(k) k >= 1024 ? format('%.1f MB/s', k / 1024) : format('%d KB/s', k) end
+def send(msg)
+  url = "https://api.telegram.org/bot#{TOK}/sendMessage"
+  ok = system('curl', '-sf', '-m', '20', '-x', PROXY, url, '--data-urlencode', "chat_id=#{CHAT}", '--data-urlencode', "text=#{msg}", out: File::NULL)
+  system('curl', '-s', '-m', '20', url, '--data-urlencode', "chat_id=#{CHAT}", '--data-urlencode', "text=#{msg}", out: File::NULL) unless ok
+end
+full = ARGV.include?('--full') || Time.now.min < 10   # 每小时第一次运行时做带宽测试
+# 找出两条链路上的 url-test 组
+groups = {}
+ENTRIES.each do |e|
+  g = e
+  8.times do
+    i = info(g); break if i[:now].empty?
+    groups[g] ||= [e, i] if i[:type] == 'URLTest'
+    g = i[:now]
+  end
+end
+msgs = []; allslow = []
+groups.each do |g, (entry, i)|
+  url = URLS[entry] || URLS[:default]
+  d = delays(g)
+  cur = i[:now]; cd = d[cur]
+  latbad = cd.nil? || cd > HIGH
+  next unless full || latbad
+  cands = d.select { |n, v| v <= HIGH }.sort_by { |_, v| v }.first(CANDS).map(&:first)
+  cands.unshift(cur) unless cands.include?(cur) || cd.nil?
+  res = cands.map { |n| [n, bw(n, url)] }.to_h
+  cb = res[cur] || 0.0
+  best, bb = res.max_by { |_, v| v } || [nil, 0.0]
+  system('logger', '-t', 'smartsel', "#{g} cur=#{cur} #{cd.inspect}ms #{cb.round}KB/s best=#{best} #{bb.round}KB/s")
+  if bb < SLOW then allslow << "#{g}（最快 #{best} 也只有 #{fmt(bb)}）"; next end
+  if best != cur && (latbad || cb < SLOW || cb < bb * 0.5)
+    put(g, best)
+    why = latbad ? (cd ? "延迟 #{cd}ms" : '连不上') : "带宽只有 #{fmt(cb)}"
+    msgs << "🔀 #{entry} 链路的「#{g}」：#{cur}（#{why}）→ #{best}（#{fmt(bb)}，延迟 #{d[best]}ms）"
+  end
+end
+put('测速专用', 'DIRECT')
+unless allslow.empty?
+  st = '/tmp/smartsel.slow'
+  unless File.exist?(st) && Time.now - File.mtime(st) < 6 * 3600   # 同类提醒 6 小时最多一次
+    direct = (IO.popen(['curl', '-sL', '-o', '/dev/null', '-m', '10', '-r', '0-4999999', '-w', '%{speed_download}',
+                        'https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe'], &:read).to_f / 1024) rescue 0.0
+    wan = `ethtool eth0 2>/dev/null`[/Speed: (\S+)/, 1].to_s
+    load = File.read('/proc/loadavg').split[0]
+    msgs << "🐢 组里候选节点都很慢：#{allslow.join('；')}"
+    msgs << (direct < 1000 ? "诊断：直连国内也只有 #{fmt(direct)}（WAN #{wan}，负载 #{load}），是家里宽带或路由器这边的问题。" :
+                             "诊断：直连 #{fmt(direct)} 正常（WAN #{wan}，负载 #{load}），是这组机场节点整体慢，可以在总出口换个组。")
+    File.write(st, Time.now.to_s)
+  end
+end
+send(msgs.join("\n")) unless msgs.empty?

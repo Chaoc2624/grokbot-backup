@@ -1,0 +1,71 @@
+<!doctype html><html lang=zh><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>连接 Telegram · Halo 的看板</title>
+<style>
+:root{--b:#e7e9ee;--mut:#8a929c;--ink:#1f2328;--blue:#1d6fe0;--soft:#eaf2ff;--bg:#f5f6f8}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Noto Sans CJK SC","Segoe UI",sans-serif;background:var(--bg);color:var(--ink);font-size:15px;line-height:1.55}
+header{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:saturate(1.2) blur(10px);border-bottom:1px solid var(--b);padding:12px 16px;display:flex;align-items:center;gap:12px}
+h1{font-size:18px;line-height:1.25;margin:0;font-weight:650;letter-spacing:-.015em;color:#111827;flex:1}
+.back{font-size:13px;color:var(--mut);text-decoration:none;padding:6px 8px;border-radius:8px;white-space:nowrap}.back:hover{color:#111827;background:#f3f4f6}
+main{max-width:520px;margin:0 auto;padding:24px 16px}
+.card{background:#fff;border:1px solid var(--b);border-radius:12px;padding:22px 22px 20px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+h2{font-size:16.5px;font-weight:650;margin:0 0 4px;color:#111827}.sub{font-size:13px;color:#6b7280;margin:0 0 18px;line-height:1.6}
+.qrw{display:flex;flex-direction:column;align-items:center;gap:12px}
+.qr{width:248px;height:248px;border:1px solid var(--b);border-radius:12px;padding:10px;background:#fff;display:flex;align-items:center;justify-content:center;color:var(--mut);font-size:13px;position:relative}
+.qr img{width:100%;height:100%;image-rendering:pixelated}
+.qr.old img{opacity:.25}
+.tip{font-size:14.5px;line-height:1.6;color:#1f2328;text-align:center;background:var(--soft);border-radius:10px;padding:10px 14px;margin:0}
+.tip b{color:#1a56c4;font-weight:600}
+.meta{font-size:12px;color:var(--mut);text-align:center;font-variant-numeric:tabular-nums}
+.ok{display:flex;gap:10px;align-items:center;font-size:15px}.ok .dot{width:10px;height:10px;border-radius:50%;background:#16a34a;flex-shrink:0}
+.ok .nm{font-weight:650}.ok .un{color:var(--mut);font-size:13px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--blue);background:var(--blue);color:#fff;border-radius:10px;padding:9px 16px;font:inherit;font-size:14px;font-weight:600;cursor:pointer;text-decoration:none}
+.btn:hover{background:#1a5fc4}.btn.ghost{background:#fff;color:#374151;border-color:var(--b);font-weight:500}.btn.ghost:hover{background:#f6f7f9}
+.btn:disabled{opacity:.55;cursor:default}
+.row{display:flex;gap:8px;margin-top:16px;flex-wrap:wrap}
+label{display:block;font-size:13px;color:#4b5563;margin:4px 0 6px}
+input[type=password]{width:100%;padding:10px 12px;border:1px solid var(--b);border-radius:10px;font:inherit;font-size:15px}
+input[type=password]:focus{outline:2px solid #d3e4fc;border-color:#93b4ef}
+.err{color:#b91c1c;font-size:13px;margin-top:8px}.note{font-size:12px;color:var(--mut);margin-top:8px;line-height:1.5}
+.foot{font-size:12px;color:var(--mut);margin-top:16px;line-height:1.6}
+.spin{width:22px;height:22px;border:2px solid #dbe3ef;border-top-color:var(--blue);border-radius:50%;animation:sp 0.9s linear infinite}@keyframes sp{to{transform:rotate(360deg)}}
+@media (max-width:560px){main{padding:14px 10px}.card{padding:18px 14px}.qr{width:min(78vw,260px);height:min(78vw,260px)}}
+</style></head><body>
+<header><h1>Halo 的看板</h1><a class=back href="./#tg">← 返回 TG 群聊记录</a></header>
+<main><div class=card>
+<h2>连接 Telegram（只读）</h2>
+<p class=sub>看板服务器用一个单独的会话去拉群消息，只读：不发消息、不标已读、不加群退群。它在 Telegram「设备」列表里显示为「Halo 看板 (xbm-tg)」，可以随时撤销。</p>
+<div id=box><div class=qrw><div class=qr><div class=spin></div></div><div class=meta>正在连接拉取服务…</div></div></div>
+</div>
+<p class=foot>二维码大约 30 秒过期，页面会自动换新的，不用刷新。登录完成后回到 TG 群聊记录，点「拉取」就能用。</p>
+</main>
+<script>
+const esc=s=>(s??'').toString().replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const box=document.getElementById('box');let ST='',VER=-1,lastStart=0,timer=null,busy=false,exp=0,pwErr='';
+const H={'Content-Type':'application/json','X-Requested-With':'xbm'};
+async function post(p,b){return fetch(p,{method:'POST',headers:H,body:JSON.stringify(b||{})})}
+function render(d){const s=d.state;
+ if(s=='qr'&&d.qr){if(ST!='qr'||!document.getElementById('qimg')){box.innerHTML=`<div class=qrw><div class=qr id=qbox><img id=qimg alt="Telegram 登录二维码"></div>
+<p class=tip>在手机 Telegram 里打开 <b>设置 &gt; 设备 &gt; 连接桌面设备</b>，扫这个码。</p><div class=meta id=qmeta></div></div>`}
+  if(d.qr.ver!=VER){VER=d.qr.ver;document.getElementById('qimg').src=d.qr.img;document.getElementById('qbox').classList.remove('old')}
+  exp=Date.now()+d.qr.expires_in*1000;tick();ST=s;return}
+ if(s==ST&&s!='error'&&s!='down')return;ST=s;VER=-1;
+ if(s=='authorized'){const m=d.me||{};box.innerHTML=`<div class=ok><span class=dot></span><div><div>已登录：<span class=nm>${esc(m.name||'')}</span> ${m.username?`<span class=un>@${esc(m.username)}</span>`:''}</div><div class=note style="margin-top:2px">现在可以在 TG 群聊记录里主动拉取了。</div></div></div><div class=row><a class=btn href="./#tg">去拉取 →</a></div>`;return}
+ if(s=='password'){box.innerHTML=`<form id=pf onsubmit="return sendPw(event)"><label for=pw>这个账号开了两步验证，请输入 Telegram 的两步验证密码</label>
+<input type=password id=pw autocomplete=current-password autofocus placeholder="两步验证密码">${d.hint?`<div class=note>密码提示：${esc(d.hint)}</div>`:''}<div class=err id=pe>${esc(pwErr||'')}</div>
+<div class=row><button class=btn id=pb>登录</button></div><div class=note>密码只转交给 Telegram 完成这次登录，不保存、不记日志。</div></form>`;setTimeout(()=>document.getElementById('pw')?.focus(),50);return}
+ if(s=='qr'||s=='logged_out'||s=='starting'){box.innerHTML=`<div class=qrw><div class=qr><div class=spin></div></div><div class=meta>正在生成二维码…</div></div>`;return}
+ if(s=='qr_wait'){box.innerHTML=`<div class=qrw><div class=qr>请稍候</div><div class=meta>${esc(d.error||'Telegram 要求稍等再试')}</div></div>`;return}
+ box.innerHTML=`<div class=err style="font-size:14px">${esc(d.error||(s=='down'?'拉取服务没有运行':'出错了'))}</div><div class=row><button class="btn ghost" onclick="lastStart=0;ST='';poll()">重试</button></div>`}
+function tick(){const m=document.getElementById('qmeta');if(!m)return;const l=Math.max(0,Math.round((exp-Date.now())/1000));m.textContent=l>0?`二维码约 ${l} 秒后自动换新`:'正在换新二维码…';if(l<=0)document.getElementById('qbox')?.classList.add('old')}
+setInterval(tick,1000);
+async function poll(){if(busy||document.hidden)return;busy=true;try{
+ const r=await fetch('api/tg/login?watch=1',{cache:'no-store'});if(r.status==401){location.reload();return}const d=await r.json();
+ if(d.error&&d.state=='password')pwErr=d.error;
+ if((d.state=='logged_out'||(d.state=='qr'&&!d.qr))&&Date.now()-lastStart>6000){lastStart=Date.now();await post('api/tg/login/qr')}
+ render(d)}catch(e){render({state:'down',error:'连不上看板服务器，稍后会自动重试'})}finally{busy=false}}
+async function sendPw(e){e.preventDefault();const i=document.getElementById('pw'),b=document.getElementById('pb');if(!i.value)return false;b.disabled=true;b.textContent='登录中…';
+ const r=await post('api/tg/login/password',{password:i.value});i.value='';const d=await r.json().catch(()=>({}));
+ if(r.ok){ST='';poll()}else{document.getElementById('pe').textContent=d.error=='bad_password'?'密码不对，请重试':(d.error=='flood'?`尝试太频繁，请 ${d.seconds} 秒后再试`:'登录失败，请重试');b.disabled=false;b.textContent='登录'}return false}
+document.addEventListener('visibilitychange',()=>{if(!document.hidden){lastStart=0;poll()}});
+poll();timer=setInterval(poll,2000);
+</script></body></html>

@@ -1,0 +1,91 @@
+=== waika
+### CelcomDigi / 大马 KYC / CMHK (16 条 / 4 人)
+> Ray：现在有什么能开的吗 · celecomdigi？
+> 艺术家的爱也有保质期：开大马 · 大马坡卡美卡港澳加拿大新西兰 · 大马呗 · digi
+> Ray：我主要拿来漫游用的 · 流量可能不够😂
+> June Park：流量怎么会不够，可以另外加，还有40rm包，贵是比破卡贵
+> 艺术家的爱也有保质期：马来用的不烧心自己kyc
+> 一隻北極熊：不認識人的kyc少用，用多了燒心
+> Ray：大马的是用自己的kyc？ · 我以为直接代kyc😂
+> 艺术家的爱也有保质期：大马自己kyc · 大马配cmhk · hk，200g大马还有80g · 坡卡就玩玩死了就死了
+### Maxx ToS / Eight / StarHub (14 条 / 3 人)
+> 一隻北極熊：eight就是個垃圾 · starhub的mvno · 你本家都體驗過，eight只會比本家更差
+> 艺术家的爱也有保质期：他这个流量是不是比maxx还多 · 我发现maxx有ToS · 每日超过26G Maxx有权利直接ban线
+> 一隻北極熊：形式條款誰都有 · 實際上不ban · 我一同步谷歌雲一天燒它100G，200G的 · 從來不ban我
+> 一隻北極熊：或許試試eight · eight也有AU
+> 🇦🇺VAN：不知道能不能线下开
+~ 话题活跃成员（近 7 天话题消息）：艺术家的爱也有保质期 96（SIM/银行开户/VPS）、For Freedom 55（SIM/银行开户/VPS）、一隻北極熊 52（SIM/银行开户）、SSS 35（SIM/银行开户）、苏 可乐 31（SIM/银行开户）、🐟 21（美卡外卡/SIM）
+### 零星消息
+> 艺术家的爱也有保质期：你要回国玩感觉只有新加坡移动好 · 有钱证加拿大呗找公子
+> Alii：有没有好用的esim流量推荐一下
+
+
+--- 核验
+- Maxx 每日超 26G ban｜未找到公开「每日超过26G 可 ban」条文（已查 Maxx FAQ / M1 Critical Information Summary，2026-10-10）：公开页强调 Fair Use Policy 与未购套餐/90 天未用等停机条款，未见 ==26G== 日限额。 https://maxxonline.sg/faqs-sim-only-plan https://www.m1.com.sg/support/critical-information-summary-nov-24
+
+=== naixi
+### Singtel 全球漫游 (2 条 / 2 人)
+> Zip Jun：可以看看singtel,也一堆国家
+> Olivi：买过 Singtel 全球200+地区的漫游
+~ 话题活跃成员（近 7 天话题消息）：抛 瓦 23（银行开户/羊毛链接/SIM）、绒雪 月舞 16（银行开户）、ワールド 12（银行开户）、高松燈 11（美卡外卡/VPS）、冲浪屌鹰 11（银行开户/美卡外卡）、陈 老师 9（美卡外卡/银行开户/U卡）
+
+--- 核验
+- Singtel 全球漫游地区数｜Singtel 官网（2026-10-10 查阅）：ReadyRoam 覆盖最多约 ==210== 目的地；hi! 页仍有「Worldwide Roaming – 200+ destinations」写法；另称网络可达 ==259== 目的地。 https://www.singtel.com/personal/products-services/mobile/roaming/all-plans https://www.singtel.com/personal/products-services/mobile/hi/roaming
+
+=== haiwufang
+### Shippo / DHL Express Envelope 寄卡 (21 条 / 3 人)
+> 海无方：shenzhan+shippo@gmail.com
+> 神 战：加号也带着吗
+> Maruc5：是的
+> 神 战：OK，白天在搞，明白了
+> Maruc5：自从dhl把我包裹在美国海关退回过一次还不退钱之后 · 我开始就发奋研究如何填写label信息 · 21那个是平信 · 无追踪
+> 神 战：美国邮政如何 · 那个ups · 100多刀 · 好贵啊 · 希望能顺利寄回来
+> Maruc5：我怀疑你包裹重量或者尺寸不对
+> 神 战：我尺寸写的12.5，7.5 · 英寸 · 有那个大盒子和小包裹，我选的后面 · 我写的0.5磅
+> Maruc5：直接选DHL express envelope就行 · 重量写个3oz · 还是用英语吧 · 翻译器出来的结果各不相同 · 0.5lb=8oz · 那重量没啥影响 · 这个信封最重允许17.6oz · 你房东是快递店的话 · 一般都有这个信封 · 或者DHL上门取件也会有这个信封
+> 神 战：我不知道他是干啥的，我给他打电话，然后我说我想转寄，好像他没听懂 · 然后说网页可以操作 · 我说那个太贵我想自己打单 · 他说给他发邮件，可以 · 行，还有上门取件，有点高端 · 不知道到国内换成啥快递 · 是不是顺丰接替了好像
+~ 话题活跃成员（近 7 天话题消息）：海无方 86（美卡外卡/银行开户/SIM）、柚子 80（美卡外卡/银行开户/SIM）、八方来财 78（美卡外卡/银行开户/U卡）、avalon 70（银行开户/美卡外卡/SIM）、Nihalnazden 66（银行开户/SIM/U卡）、CapeCake 50（美卡外卡/银行开户）
+
+--- 核验
+- DHL Express Envelope 重量上限｜DHL Express US Service & Rate Guide 2026（2026-10-10 查阅）：Express Envelope 限重 ==10 oz== / ==0.625 lb==（仅文件）；群友称信封最重允许 ==17.6oz== 高于该公开档，可能为 Shippo 包装选项或他档尺寸。 https://mydhl.express.dhl/content/dam/downloads/us/en/rate-guide/service_and_rate_guide_us_en_2026.pdf.coredownload.pdf
+
+=== donni_jj
+### Ethena / P1 出金手续费 (9 条 / 2 人)
+> LXF🕊：转出手续费像杀猪一样，我转3磅收七美元手续费来着 · 2磅收六美元手续费 · 换欧元也一样，手续费贼离谱 · 出金手续费贵死了 · 还不如p1户出金呢 · ethena出金5刀收你快10刀手续费了
+> 白 白：p1 最开始是真免费，后面加钱了
+> LXF🕊：正常，我在p1出金2500美元收了10刀来着吧 · ena出金2500不得上天了
+### Zopa 国内消费 / Chase UK (9 条 / 4 人)
+> Milo andm：zopa国内消费没问题吗
+> Sprint：可以 · 我之前就在国内直接消费 · 6号开的 · 9月6号 · 我没有收实体卡 一直虚拟卡在国内消费
+> chou simon：开卡多久在国内刷的 · 掌管zopa的神
+> Sprint：我还想看看chase uk 看看能不能搞 · 现在tu 和ex都没有分 · 我倒是想试试用zopa入金海妖卡
+> ss dyhs：Sprint 怎么查这个分啊？
+### ether.fi e卡 / 欧元 (8 条 / 4 人)
+> Sprint：老e卡这么屌的吗 · 这个卡好像把我拉黑了 · 一直过不了 用英区资料
+> Valerio（tz）：欧元最好的卡，应该就是老E · E的欧元，没货转费 · 返的也是欧元
+> Alii：不是p卡吗
+> sam：我好像是菲区
+### Rain KYC / 先交钱 (4 条 / 3 人)
+> C酱です：这个kyc不了吧
+> Austin：他家卡也是rain我记得 · 卡是rain发的猪肝红kyc估计难过😂
+> 白 白：先交钱才能 k，还不一定能成功，不能单独 k 账户，必须要开那个卡才让你 k，没必要搞了
+### 港币转 USDC/USDT (5 条 / 2 人)
+> 爱吃香菜：收了 2.2w 的港币 · 我想转成usdc  或者 usdt · 有没有 最好的无损方法
+> chou simon：港币在哪个银行 · wise-monzo-krak
+~ 话题活跃成员（近 7 天话题消息）：Leon丶 112（银行开户/U卡）、C酱です 97（银行开户/U卡）、Da da 90（银行开户/美卡外卡/U卡）、Golden West 88（银行开户/U卡/美卡外卡）、Not now 65（SIM/银行开户/U卡）、Minyi Lu 64（银行开户/U卡）
+### 零星消息
+> Golden West：bybit不都是邮箱密码登录吗 · 主要我bybit好几个号 · 交易所 这些我都从不用谷歌账号登录的 · 邮箱 密码 谷歌验证器
+> Valerio（tz）：ifast我昨天刷了一笔，一般啊，不如stb
+> sam：有开过nexo的嘛 · 送了一个月的会员
+> 一米 阳光：monzo
+
+--- 核验
+- Ethena / ena 出金手续费｜Ethena Pay Pricing / Plasma One 评测（2026-10-10 查阅）：Ethena Pay ATM 为 ==$1==+==0.65%==；第三方评测写 Plasma One 银行出金约 ==$1==+==1%==；群友「出金5刀收近10刀」未见公开固定价目直接对应。 https://pay.ethena.fi/pricing https://cryptocard.guide/cards/plasma-one-card
+- ether.fi Cash 欧元｜ether.fi 帮助/文档（2026-10-10 查阅）：Cash 卡支持多币种消费与返现；欧元侧具体「无货转费」表述以产品页/App 为准。 https://www.ether.fi/
+- Zopa 虚拟卡国内消费｜Zopa 帮助中心（2026-10-10 查阅）：Zopa Bank 提供虚拟卡；跨境/境外消费规则以卡组织与 App 限制为准，未见「禁止中国境内刷」明文。 https://www.zopa.com/bank
+
+=== loon0x00
+### 零星消息
+> Leadshines：loon协议
+> H BN：设置教程 · 规则
+> SAINTYE1OU：3k：管他什么的 能用就行

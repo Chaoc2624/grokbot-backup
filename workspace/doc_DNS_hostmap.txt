@@ -1,0 +1,79 @@
+
+DNS映射 | Loon
+跳到主要内容
+Loon
+文档
+工具
+证书工具
+插件转换器
+Rewrite 编辑器
+Rewrite 转换器
+Script 编辑器
+Script 转换器
+教程
+简体中文
+简体中文
+English
+GitHub
+Loon
+节点
+规则
+策略
+复写
+脚本
+插件
+DNS
+DNS
+DNS映射
+MitM
+其他配置
+Scheme
+DNS
+DNS映射
+本页总览
+DNS映射
+DNS 映射用于为指定域名或 SSID 设置固定 IP、别名或 DNS 服务器。
+支持以下方式：
+域名映射到另一个域名。
+域名映射到固定 IP。
+为域名指定 DNS 服务器。
+为特定 SSID 指定 DNS 服务器。
+为域名指定 IP 模式。
+配置示例
+​
+example.com = 192.168.1.20
+example.com = example.com.cn
+*.testflight.apple.com = server:8.8.4.4
+# system 表示系统 DNS
+*.apple.com = server:system
+ssid:LOON's WIFI = server:system
+ssid:LOON WIFI = server:https://example.com/dns-query
+example.com = ip-mode:ipv4-only
+ip-mode
+ 支持 
+ipv4-only
+、
+dual
+、
+ipv4-preferred
+ 和 
+ipv6-preferred
+，详见 
+通用配置
+。
+上一页
+DNS
+下一页
+MitM
+配置示例
+文档
+使用手册
+社区
+Telegram
+Twitter
+更多
+教程
+GitHub
+隐私安全声明
+Copyright © 2026 Loon Lab Limited. 由 Docusaurus 构建。
+

@@ -1,0 +1,645 @@
+# Teledigest
+
+[![License](https://img.shields.io/badge/licence-MIT-green)](https://opensource.org/license/mit)
+[![Build on push](https://github.com/igoropaniuk/teledigest/actions/workflows/ci.yml/badge.svg)](https://github.com/igoropaniuk/teledigest/actions/workflows/ci.yml/badge.svg)
+
+Teledigest is a framework for building Telegram bots that collect messages from channels,
+analyze them, and generate readable digests using large language models.
+
+- **Channel ingestion**
+  Scrapes messages from one or more Telegram channels using a dedicated user session.
+
+- **Message storage & indexing**
+  Stores messages in SQLite with FTS5 full-text search, enabling fast filtering
+  (with configurable keywords for filtering) and relevance selection.
+
+- **LLM-powered analysis & summarization**
+  Uses configurable prompts for Large Language Models to analyze recent messages
+  and produce structured summaries or digests.
+
+- **Scheduled and on-demand digests**
+  - Automatic daily digests at a configured time
+  - Manual `/digest` command to generate a digest on demand
+
+- **Bot publishing**
+  Publishes generated digests to a configured target channel.
+
+> **Using Teledigest only?**
+> Install the latest release from PyPI <https://pypi.org/project/teledigest>
+> (see [Installing from PyPI](#installing-from-pypi-recommended))
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Fetching the project](#fetching-the-project)
+- [Obtaining a Telegram Bot Token](#obtaining-a-telegram-bot-token)
+- [Obtaining Telegram Application Credentials](#obtaining-telegram-application-credentials)
+- [Obtaining an OpenAI API Key](#obtaining-an-openai-api-key)
+- [Using Local Ollama / LM Studio Models](#using-local-ollama--lm-studio-models)
+- [Preparing the configuration file](#preparing-the-configuration-file)
+- [Bot Architecture](#bot-architecture)
+- [Installing from PyPI (recommended)](#installing-from-pypi-recommended)
+- [Installing and running the project with Poetry](#installing-and-running-the-project-with-poetry)
+- [Running with Docker](#running-with-docker)
+- [Running as a systemd service](#running-as-a-systemd-service)
+- [First run & authentication](#first-run--authentication)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Prerequisites
+
+Before installing and running Teledigest, ensure the following tools are
+installed on your system:
+
+### Python
+
+The bot requires at least **3.12** version of **Python**.
+Check your Python version:
+
+``` bash
+python3 --version
+```
+
+Install examples:
+
+- **macOS (Homebrew)**
+
+  ``` bash
+  brew install python@3.12
+  ```
+
+- **Ubuntu/Debian**
+
+  ``` bash
+  sudo add-apt-repository ppa:deadsnakes/ppa
+  sudo apt-get update
+  sudo apt-get install python3.12 python3.12-venv python3.12-dev
+  ```
+
+### Poetry (needed for development)
+
+The bot uses **Poetry** for dependency management and packaging. It requires at
+least version **2.0** of Poetry.
+
+Install Poetry:
+
+``` bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+or:
+
+``` bash
+pip install poetry
+```
+
+Verify installation:
+
+``` bash
+poetry --version
+```
+
+## Fetching the project
+
+``` bash
+git clone https://github.com/igoropaniuk/teledigest.git
+cd teledigest
+```
+
+## Obtaining a Telegram Bot Token
+
+1. Open Telegram and start a chat with `@BotFather`
+2. Run `/newbot` and follow the instructions
+3. Copy the generated **bot token** - you will need it for the
+   configuration file
+
+## Obtaining Telegram Application Credentials
+
+1. Go to <https://my.telegram.org>
+2. Log in with your phone number
+3. Open **API Development Tools**
+4. Create an application
+5. Save **api_id** and **api_hash**
+
+These are required for the Telegram client that fetches channel
+messages.
+
+## Obtaining an OpenAI API Key
+
+1. Visit <https://platform.openai.com/api-keys>
+2. Create a new API key
+3. Copy the api key - you will need it for the
+   configuration file
+
+## Using Local Ollama / LM Studio Models
+
+1. Make sure Ollama or LM Studio is running locally and the model is loaded.
+2. Set the following fields in the `[llm]` section of your config file:
+   - `model` — local model name, e.g. `"gemma3:1b"`
+   - `api_key` — set to `"ollama"` or `"lm-studio"` respectively
+   - `base_url` — the local API endpoint:
+     - Ollama: `"http://localhost:11434/v1"`
+     - LM Studio: `"http://localhost:1234/v1"`
+
+> **Note:** The port number may differ if you changed the default settings.
+> Omit `base_url` entirely when using the standard OpenAI API.
+
+## Preparing the configuration file
+
+Before running the bot, create a configuration file,
+e.g. `teledigest.conf`:
+
+``` toml
+[telegram]
+api_id = 123456
+api_hash = "your_api_hash"
+bot_token = "123456:ABCDEF"
+
+[bot]
+channels = ["@news", "@events"]
+summary_target = "@digest_channel" # your channel for the
+                                   # bot to post summary digest
+summary_hour = 21
+summary_minute = 0
+time_zone = "America/New_York" # optional to configure for your timezone;
+                               # default is "Europe/Warsaw" if this flag
+                               # is empty or missing
+allowed_users = "@admin,123456789" # usernames for people
+                                   # allowed to communicate with the bot.
+
+[llm]
+model = "gpt-5.1-mini"
+api_key = "YOUR_OPENAI_API_KEY"
+base_url = "url_for_llm_api" # Not needed when using OpenAI API.
+                             # Set only when using local models
+temperature = 0.4            # optional; controls LLM output randomness (0.0-2.0)
+
+[storage.rag]
+keywords = [
+    "sanctions", "economy", "energy",
+    "market", "budget",
+]
+
+[llm.prompts]
+system = """
+You are a Telegram digest bot. Produce concise, well-structured daily summaries.
+"""
+
+user = """
+Summarize the following messages for {DAY}:
+
+{MESSAGES}
+"""
+```
+
+`DAY` and `MESSAGES` will be automatically replaced by the bot while building
+the final prompt.
+
+### Important
+
+**The bot must be added as an administrator to the target channel** so
+it can publish digests.
+
+Telegram Bot API doesn't permit joining channels automatically, so Teledigest
+starts a regular user session requiring two-factor authentication specifically for
+scraping channels.
+**This will require inputting the phone number and 2FA dynamic password**
+during the first run of the Teledigest.
+
+Please check [First run & authentication](#first-run--authentication) section for
+more details
+
+## Bot Architecture
+
+Teledigest uses **two separate Telegram clients**:
+
+1. **Bot client** - handles incoming bot commands and posts digests
+   to the target channel. Requires a correct `bot_token` to be provided.
+   Always starts automatically
+1. **User client** - authenticated with `api_id` and `api_hash`, used
+   to fetch posts from Telegram channels. An additional Telegram client
+   instance was introduced to overcome the limitations of the Telegram
+   Bot API, which doesn't allow bots to join channels.
+
+This separation ensures correct access to the Telegram channels.
+
+## Installing from PyPI (recommended)
+
+Teledigest is available on PyPI and can be installed directly without cloning
+the repository.
+
+### Using pipx (recommended)
+
+```bash
+pipx install teledigest
+```
+
+Verify installation:
+
+```bash
+teledigest --help
+```
+
+### Using pip (virtual environment)
+
+```bash
+python3.12 -m venv venv
+source venv/bin/activate
+pip install teledigest
+```
+
+### Running after PyPI installation
+
+```bash
+teledigest --config teledigest.conf
+```
+
+> **Note**
+> Installing from PyPI is recommended for users who only want to run the bot.
+> Cloning the repository and using Poetry is mainly intended for development.
+
+## Installing and running the project with Poetry
+
+### Install dependencies using Poetry
+
+``` bash
+poetry install
+```
+
+### Run the bot
+
+``` bash
+poetry run teledigest --config teledigest.conf
+```
+
+### Bot Commands
+
+| Command   | Description |
+|-----------|-----------------------------------------------------------------|
+| `/auth`   | Authorize the user client so it canto access and scrape channels|
+| `/start`  | Alias for `/help`                                               |
+| `/help`   | Lists all supported bot commands                                |
+| `/status` | Shows parsed/relevant counts (last 24h), schedule, model, ...   |
+| `/today`  | Immediately triggers digest generation for last 24 hours        |
+| `/digest` | Alias for `/today`                                              |
+
+## Running with Docker
+
+The bot can be run fully containerized using Docker.
+Configuration and persistent data (Telegram sessions + SQLite database) are mounted
+from the host.
+
+Docker is recommended for long-running or production deployments.
+
+### Requirements
+
+- Docker 20+
+- Docker Compose v2 (`docker compose`)
+
+### Configuration
+
+Create a config file on the host, for example `teledigest.conf`:
+
+```toml
+[telegram]
+api_id = 123456
+api_hash = "YOUR_API_HASH"
+bot_token = "YOUR_BOT_TOKEN"
+sessions_dir = "/data"
+
+[storage]
+db_path = "/data/messages_fts.db"
+
+[logging]
+level = "INFO"
+```
+
+Always use absolute paths (`/data`) inside the container for persistent files.
+
+Create a directory for persistent data:
+
+```bash
+mkdir -p data
+```
+
+This directory stores:
+
+- Telegram `.session` files
+- SQLite database for scraped messages
+
+### Option A: Docker Compose (recommended)
+
+#### docker-compose.yml
+
+```yaml
+services:
+  teledigest:
+    build: .
+    image: teledigest:latest
+    command: ["--config", "/config/teledigest.conf"]
+    volumes:
+      - ./teledigest.conf:/config/teledigest.conf:ro
+      - ./data:/data
+    user: "${GID:-1000}:${UID:-1000}"
+    restart: unless-stopped
+    environment:
+      TZ: ${TZ}
+```
+
+#### Start the bot
+
+```bash
+docker compose up --build
+```
+
+You can also provide timezone configuration before running docker compose:
+
+```bash
+export TZ=$(cat /etc/timezone)
+docker compose up --build
+```
+
+Run in background:
+
+```bash
+docker compose up -d
+```
+
+View logs:
+
+```bash
+docker compose logs -f
+```
+
+Stop:
+
+```bash
+docker compose down
+```
+
+### Option B: Plain Docker (no Compose)
+
+Build the image:
+
+```bash
+docker build -t teledigest .
+```
+
+Run the container:
+
+```bash
+export TZ=$(cat /etc/timezone)
+docker run -e TZ=$TZ --rm \
+   --user "$(id -u):$(id -g)" \
+   -v "$(pwd)/teledigest.conf:/config/teledigest.conf:ro" \
+   -v "$(pwd)/data:/data" teledigest:latest
+```
+
+### Permissions model
+
+The container runs using the same UID/GID as the host user.
+This avoids permission issues with bind-mounted volumes and prevents errors
+such as:
+
+- Permission denied
+- SQLite readonly database errors
+First run & authentication
+If needed, ensure the data directory is writable:
+
+```bash
+chmod -R a+rwX data
+```
+
+## Running as a systemd service
+
+For production deployments on Linux, you can manage the Teledigest Docker
+Compose stack with a systemd service. This ensures the bot starts automatically
+on boot and is restarted by the init system if the host reboots.
+
+### Creating the service file
+
+Create `/etc/systemd/system/teledigest.service` with the following content,
+replacing `youruser` and `/path/to/your/teledigest/repository` with the actual
+values for your system:
+
+```ini
+[Unit]
+Description=Teledigest service
+Requires=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+User=youruser
+WorkingDirectory=/path/to/your/teledigest/repository
+ExecStart=/usr/bin/docker compose up -d
+ExecStop=/usr/bin/docker compose down
+TimeoutStartSec=0
+
+[Install]
+WantedBy=multi-user.target
+```
+
+> **Note:** The user specified in `User=` must have permission to manage
+Docker containers. This typically means adding the user to the `docker`
+group: `sudo usermod -aG docker youruser`.
+
+### Enabling and starting the service
+
+Reload systemd to pick up the new unit file, then enable and start the service:
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable teledigest.service
+sudo systemctl start teledigest.service
+```
+
+### Managing the service
+
+Check the current status:
+
+```bash
+sudo systemctl status teledigest.service
+```
+
+View logs (forwarded from Docker via journald):
+
+```bash
+sudo journalctl -u teledigest.service -f
+```
+
+Stop the bot:
+
+```bash
+sudo systemctl stop teledigest.service
+```
+
+Restart the bot (e.g. after a config change):
+
+```bash
+sudo systemctl restart teledigest.service
+```
+
+Update the bot after a code change (rebuilds image):
+
+```bash
+sudo systemctl reload teledigest.service
+```
+
+Disable autostart on boot:
+
+```bash
+sudo systemctl disable teledigest.service
+```
+
+> **Note:** `Type=oneshot` with `RemainAfterExit=yes` is intentional — the
+> `ExecStart` command returns immediately after Docker Compose launches the
+> containers in detached mode (`-d`). systemd then treats the service as
+> *active* for as long as the containers are running, and correctly invokes
+> `ExecStop` on shutdown or `systemctl stop`.
+
+## First run & authentication
+
+On first run, if the user session is missing:
+
+- The bot starts normally
+- Scraping is disabled
+- `/status` explicitly shows that authorization is required
+
+### Authorizing via Telegram bot (recommended)
+
+Authorization can be performed interactively via bot chat dialog:
+
+1. `/auth`
+2. Send your phone number (`+123456789`)
+3. Send the 2FA code you receive.
+
+When you authorize the user client via the `/auth` command, the bot asks you to
+type the Telegram login code with spaces between each digit, for example:
+
+`1 2 3 4 5`
+
+This is **not** a protocol requirement, but a practical workaround for Telegram's
+security system.
+
+Telegram tries to detect situations where a login code might have been leaked or
+shared. If the code is **forwarded** or **shared** from your account and then used
+to log in from another client, Telegram may treat that as suspicious and block
+the login, even though the code itself is correct. In that case you may see a
+message similar to:
+
+> the code was entered correctly, but the login was not allowed because the code
+> was previously shared from your account.
+
+By asking you to **type the code manually with spaces**, the bot encourages a
+pattern that is clearly different from simply forwarding or copy-pasting the
+original message with the code. On the bot side, those spaces are removed
+before the code is sent to Telegram, so Telegram still receives the exact code
+it issued.
+
+In short:
+
+- You type: `1 2 3 4 5`
+- The bot converts it to: `12345`
+- This reduces the chance of Telegram treating the login as a suspicious
+  "shared code" login and blocking it.
+
+If authorization fails, repeat `/auth`.
+
+### CLI authorization (`--auth`)
+
+It's possible to perform authentication via CLI and then exit:
+
+```bash
+poetry run teledigest --config teledigest.conf --auth
+```
+
+Or do this inside docker container:
+
+```bash
+docker run -it --rm --user "$(id -u):$(id -g)" \
+   -v "$(pwd)/teledigest.conf:/config/teledigest.conf:ro" \
+   -v "$(pwd)/data:/data" teledigest:latest \
+   --config /config/teledigest.conf --auth
+```
+
+Expect this output during initial session registration:
+
+```bash
+$ poetry run teledigest --config teledigest.conf --auth
+[INFO] teledigest - Logging configured at INFO level
+[INFO] teledigest - Using session paths: user=data/user.session, bot=data/bot.session
+[INFO] teledigest - Starting user & bot clients...
+[INFO] teledigest - Channels to scrape (user account): @channel1, @channel2
+[INFO] telethon.network.mtprotosender - Connecting to 0.0.0.0/TcpFull...
+[INFO] telethon.network.mtprotosender - Connection to 0.0.0.0/TcpFull complete!
+Please enter your phone (or bot token): +48888888888
+Please enter the code you received: 12345
+Signed in successfully as User; remember to not break the ToS!
+[INFO] teledigest - Auth-only mode: skipping channel joins and handler registration.
+[INFO] telethon.network.mtprotosender - Disconnecting from 0.0.0.0/TcpFull...
+[INFO] telethon.network.mtprotosender - Not disconnecting (already have no connection)
+[INFO] telethon.network.mtprotosender - Disconnection from 0.0.0.0/TcpFull complete!
+[INFO] teledigest - Authentication completed
+```
+
+Then you can restart the bot without `--auth` param and it will use existing
+sessions files.
+
+Do not delete the `data/` directory unless you want to re-authenticate.
+
+### Why bot-based authorization is preferred over CLI auth (especially in Docker)
+
+Even CLI auth mode (`teledigest --auth`) still exists and works fine for local
+development on your machine, it is **not recommended** as the primary method
+in Docker / containerized environments.
+
+There are a few reasons for that:
+
+1. **Docker often has no usable stdin**
+
+   The boot CLI-style `--auth` expects to read the phone number,
+   login code and (optional) 2FA password from `stdin` (your terminal). In a
+   typical Docker setup you will run the container in detached mode, or under
+   an orchestrator (Kubernetes, docker-compose, etc.) with **no interactive
+   TTY attached**.
+
+   In that situation there is nowhere for Telethon to read from, so the process
+   either blocks waiting on stdin or fails with an error. Attaching manually to
+   container stdin just to type a one-time code is awkward and fragile.
+
+2. **Non-interactive / automated deployments**
+
+   Containers are usually started by scripts or orchestration tools, not by a
+   human at a terminal. An interactive login step in the startup path breaks
+   this model and makes fully automated deployments impossible. The bot-based
+   `/auth` flow lets you keep the container fully non-interactive: you authorize
+   once via Telegram, and the session file is reused next time the container
+   starts.
+
+3. **Clear separation of concerns**
+
+   With bot-based auth, the container just runs the bot and user clients using
+   existing session files. All interactive steps (phone, code, password) happen
+   in Telegram itself, where you already expect to handle sensitive login
+   information. The container only sees the resulting session, not the raw
+   codes.
+
+Because of these constraints, the recommended approach is:
+
+- use `teledigest --auth` only for **local, manual** login when you are
+  actually sitting at a terminal; or when you are deliberately managing
+  sessions outside Docker, and
+- use the `/auth` bot command for **normal Docker / production** deployments,
+  where stdin is not reliably available and the process must remain
+  non-interactive.
+
+## Contributing
+
+Development setup, coding standards, testing, and pull request workflow live in
+[`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the **MIT License**.

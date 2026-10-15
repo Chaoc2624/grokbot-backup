@@ -1,0 +1,26 @@
+[RECOVERY FAILED — not a verbatim routine prompt]
+
+Could not recover the exact saved prompt text of automation-1791313550394 「推特书签每日简报」.
+
+Blocked paths:
+- cursor.ReadTranscript: namespace "cursor" not available to this executor (MCP error).
+- Local automations dir empty; getAgentAutomations / listAllAutomations via host gateway return [].
+- Temporal harness stores routines in cloud; no local automation.json with prompt.
+- Gateway transcript APIs (getAgentTranscript*) expose UI messages/events only, not tool-call args / UpdateRoutine payloads.
+
+Automation-changed events found on main agent 31fec602-45df-4a9a-8979-daf334dc4899:
+- 2026-10-07 03:05:50 CST — created (seq 707)
+- 2026-10-07 03:14:12 CST — updated (seq 709)
+- 2026-10-07 03:15:18 CST — updated (seq 710)
+- 2026-10-07 03:24:36 CST — updated (seq 717)
+- 2026-10-07 12:17:36 CST — updated (seq 726)  # posted_at on board/brief
+- 2026-10-08 00:21:35 CST — updated (seq 807)  # text-only to X Bookmark Bot + board timeline
+- 2026-10-08 03:47:52 CST — updated (seq 830)  # likely last prompt content change (X 热词 added)
+- 2026-10-08 12:15:36 CST — updated (seq 855)  # schedule-only per chat: "简报内容和发送方式我都没动，只改了时间" → 10:00/22:00
+
+Parent should call ReadTranscript itself on agent_id 31fec602-45df-4a9a-8979-daf334dc4899,
+page before seq ~860 with limit 200, and extract the UpdateRoutine call around seq 830
+(or whichever newest call includes a prompt field). Seq 855 may be schedule-only.
+
+X Bookmark Bot group id: 358740b9-b6c9-4984-95c6-d91a1f29a988
+Delivery references in chat: results go as text to that group; board sync to https://xbm.omnitools.cc

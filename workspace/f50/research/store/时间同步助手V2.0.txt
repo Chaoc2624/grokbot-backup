@@ -1,0 +1,890 @@
+//<script>
+(function () {
+  /* ================== 配置 ================== */
+  var BOOT_SH = "/sdcard/ufi_tools_boot.sh";
+  var LOG_FILE = "/data/local/tmp/time_sync.log";
+  var ACTIVE_BG = "var(--dark-btn-color-active)";
+  var BOOT_BEGIN = "#TIME_SYNC_HELPER_BOOT_BEGIN#";
+  var BOOT_END = "#TIME_SYNC_HELPER_BOOT_END#";
+
+  // 并发锁（JS 与 boot.sh 共用）
+  var LOCK_DIR = "/data/local/tmp/time_sync.lockdir";
+
+  // 开机自动同步重试策略
+  var BOOT_INITIAL_DELAY_SEC = 15;
+  var BOOT_RETRY_MAX = 5;
+  var BOOT_RETRY_BASE_INTERVAL_SEC = 20;
+
+  // curl 稳定参数（-k 跳过证书日期；retry 处理瞬时网络）
+  var CURL_RETRY = "--retry 3 --retry-delay 2 --retry-all-errors";
+  var CURL_COMMON = "-I -m 10 -s -k " + CURL_RETRY;
+
+  // 上次同步信息（网页本地保存）
+  var LS_LAST_KEY = "TIME_SYNC_HELPER_LAST";
+  var lastSync = { ts: "", mode: "" };
+
+  // 服务器配置（主/备1/备2）
+  var LS_SRV_KEY = "TIME_SYNC_HELPER_SERVERS";
+  var defaultServerNames = ["ntp.aliyun.com", "ntp.tencent.com", "ntp.ntsc.ac.cn"];
+  var serverNames = defaultServerNames.slice(0);
+
+  /* ================== 基础工具 ================== */
+  function toast(msg, color) {
+    try { if (typeof createToast === "function") createToast(msg, color || ""); } catch (e) { }
+  }
+
+  async function runRoot(cmd, timeout) {
+    try {
+      if (typeof runShellWithRoot !== "function") return { success: false, content: "" };
+      return await runShellWithRoot(cmd, timeout);
+    } catch (e) {
+      return { success: false, content: "" };
+    }
+  }
+
+  function pad(n) { return n < 10 ? "0" + n : "" + n; }
+
+  // 设备时间（本地时间）
+  function fmtLocal(d) {
+    return (
+      d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()) + " " +
+      pad(d.getHours()) + ":" + pad(d.getMinutes()) + ":" + pad(d.getSeconds())
+    );
+  }
+
+  function esc(s) { return String(s).replace(/'/g, "'\\''"); }
+
+  function getTZOffsetLabel() {
+    var off = -new Date().getTimezoneOffset();
+    var sign = off >= 0 ? "+" : "-";
+    off = Math.abs(off);
+    return "UTC" + sign + pad(Math.floor(off / 60)) + ":" + pad(off % 60);
+  }
+
+  function getTZName() {
+    try {
+      var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      return tz ? String(tz) : "";
+    } catch (e) { return ""; }
+  }
+
+  /* ================== 持久化（上次同步/服务器） ================== */
+  function loadLastSync() {
+    try {
+      var s = localStorage.getItem(LS_LAST_KEY);
+      if (!s) return;
+      var o = JSON.parse(s);
+      if (o && o.ts) lastSync.ts = String(o.ts);
+      if (o && o.mode) lastSync.mode = String(o.mode);
+    } catch (e) { }
+  }
+  function saveLastSync(ts, mode) {
+    try {
+      lastSync.ts = ts || "";
+      lastSync.mode = mode || "";
+      localStorage.setItem(LS_LAST_KEY, JSON.stringify(lastSync));
+    } catch (e) { }
+  }
+
+  function loadServers() {
+    try {
+      var s = localStorage.getItem(LS_SRV_KEY);
+      if (!s) return;
+      var arr = JSON.parse(s);
+      if (arr && arr.length === 3) {
+        for (var i = 0; i < 3; i++) {
+          if (arr[i] && String(arr[i]).trim()) serverNames[i] = String(arr[i]).trim();
+        }
+      }
+    } catch (e) { }
+  }
+  function saveServers(a3) {
+    try { localStorage.setItem(LS_SRV_KEY, JSON.stringify(a3)); } catch (e) { }
+  }
+
+  /* ================== 关键修复：NTP 域名 -> Web 可取 Date 的站点 ================== */
+  function smartMapUrl(nameOrUrl) {
+    var v = String(nameOrUrl || "").trim();
+    if (!v) return "http://www.baidu.com";
+
+    // 用户已填完整 URL，尊重用户
+    if (v.indexOf("http://") === 0 || v.indexOf("https://") === 0) return v;
+
+    var low = v.toLowerCase();
+
+    // ✅ NTP 域名不是网页服务器：映射到可返回 Date 的网站
+    // 优先 http 作为第一跳（避免时间错导致 TLS 各种拦截）
+    if (low === "ntp.aliyun.com" || low.indexOf("aliyun") >= 0) return "http://www.aliyun.com";
+    if (low === "ntp.tencent.com" || low.indexOf("tencent") >= 0 || low.indexOf("qq.com") >= 0) return "http://www.qq.com";
+    if (low === "ntp.ntsc.ac.cn" || low.indexOf("ntsc") >= 0) return "http://www.ntsc.ac.cn";
+
+    // 其它域名：默认 https（有 -k + retry 兜底）
+    return "https://" + v;
+  }
+
+  function swapProtocol(url) {
+    if (url.indexOf("https://") === 0) return "http://" + url.slice(8);
+    if (url.indexOf("http://") === 0) return "https://" + url.slice(7);
+    return url;
+  }
+
+  function uniq(arr) {
+    var m = {};
+    var out = [];
+    for (var i = 0; i < arr.length; i++) {
+      var x = String(arr[i] || "").trim();
+      if (!x) continue;
+      if (m[x]) continue;
+      m[x] = 1;
+      out.push(x);
+    }
+    return out;
+  }
+
+  var SERVERS = [];
+  function rebuildServers() {
+    SERVERS = [
+      { name: serverNames[0], url: smartMapUrl(serverNames[0]) },
+      { name: serverNames[1], url: smartMapUrl(serverNames[1]) },
+      { name: serverNames[2], url: smartMapUrl(serverNames[2]) }
+    ];
+  }
+
+  loadLastSync();
+  loadServers();
+  rebuildServers();
+
+  /* ================== 日志 ================== */
+  function logResult(modeCn, serverName, resultCn, detail) {
+    var line =
+      "[TSRES] " + fmtLocal(new Date()) +
+      " mode=" + modeCn +
+      " server=" + (serverName || "-") +
+      " result=" + resultCn +
+      " detail=" + (detail || "");
+    runRoot("mkdir -p /data/local/tmp >/dev/null 2>&1 || true; echo '" + esc(line) + "' >> '" + LOG_FILE + "' 2>/dev/null || true");
+  }
+
+  function logProc(text) {
+    var line = "[TSPROC] " + fmtLocal(new Date()) + " text=" + String(text || "");
+    runRoot("mkdir -p /data/local/tmp >/dev/null 2>&1 || true; echo '" + esc(line) + "' >> '" + LOG_FILE + "' 2>/dev/null || true");
+  }
+
+  async function readLogRaw() {
+    var r = await runRoot("tail -n 1200 '" + LOG_FILE + "' 2>/dev/null || echo ''");
+    return (r.content || "").trim();
+  }
+
+  async function clearLogFile() {
+    await runRoot("rm -f '" + LOG_FILE + "' 2>/dev/null || true; echo OK");
+  }
+
+  async function isRoot() {
+    var r = await runRoot("whoami");
+    return (r.content || "").indexOf("root") >= 0;
+  }
+
+  /* ================== 本次开机日志：自动清空（解决跨开机累积） ================== */
+  var LS_BOOT_ID_KEY = "TIME_SYNC_HELPER_BOOT_ID";
+
+  async function getBootId() {
+    // ✅ 优先：boot_id（每次开机唯一，最稳）
+    var r1 = await runShellWithRoot("timeout 2s  awk '{print}' /proc/sys/kernel/random/boot_id");
+    var id1 = (r1.content.replaceAll('\n',"") || "").trim();
+    if (id1) return id1;
+
+    // 兜底：btime
+    var r2 = await runRoot("timeout 2s  awk '{print}' /proc/stat | awk '/^btime/{print $2}' 2>/dev/null");
+    var id2 = (r2.content || "").trim();
+    if (id2) return id2;
+
+    return "";
+  }
+
+  async function ensureLogForCurrentBoot() {
+    var bid = await getBootId();
+    if (!bid) return;
+
+    var old = "";
+    try { old = localStorage.getItem(LS_BOOT_ID_KEY) || ""; } catch (e) { }
+
+    // 只有检测到“新开机”才清空，刷新页面不会重复清空
+    if (old !== bid) {
+      await clearLogFile();
+      try { localStorage.setItem(LS_BOOT_ID_KEY, bid); } catch (e) { }
+    }
+  }
+
+  /* ================== 并发锁 ================== */
+  async function lockAcquire() {
+    var r = await runRoot("mkdir '" + LOCK_DIR + "' 2>/dev/null && echo OK || echo LOCKED");
+    return (r.content || "").trim() === "OK";
+  }
+  async function lockRelease() {
+    await runRoot("rmdir '" + LOCK_DIR + "' 2>/dev/null || true");
+  }
+
+  /* ================== UI（保持稳定布局） ================== */
+  var container = document.querySelector(".functions-container");
+  if (!container) return;
+
+  var ID = "TIME_SYNC_HELPER";
+  var old = document.getElementById(ID);
+  if (old) old.remove();
+
+  // ✅【关键修复】手机端也保持左右同一行：不换行 + 右侧固定宽度 + 左侧可压缩 + 数字等宽
+  (function injectStyle() {
+    var sid = "ts_helper_style_v2";
+    var prev = document.getElementById(sid);
+    if (prev) prev.remove();
+
+    var css =
+      "#" + ID + " .ts_nums{font-variant-numeric:tabular-nums; font-feature-settings:'tnum' 1;}" +
+
+      // 一行布局，禁止换行（彻底消抖）
+      "#" + ID + " .ts_row{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:nowrap;}" +
+
+      // 左侧可压缩：避免挤不下就换行
+      "#" + ID + " .ts_left{flex:1 1 auto;min-width:0;}" +
+
+      // 右侧固定宽度：避免每秒刷新导致临界点反复换行
+      // 这里 170px 比较稳；你想更紧凑可以改 150px
+      "#" + ID + " .ts_right{flex:0 0 170px;min-width:170px;text-align:right;}" +
+
+      // 文字不要撑爆：超出就省略号（仍保持在右侧）
+      "#" + ID + " .ts_right .ellipsis{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}" +
+
+      // 时间一律不换行
+      "#" + ID + " #ts_now, #" + ID + " #ts_last_sync{white-space:nowrap;}";
+
+    var st = document.createElement("style");
+    st.id = sid;
+    st.type = "text/css";
+    st.appendChild(document.createTextNode(css));
+    document.head.appendChild(st);
+  })();
+
+  var tzLabel = getTZOffsetLabel();
+  var tzName = getTZName();
+  var tzShow = tzName ? (tzLabel + "（" + tzName + "）") : tzLabel;
+
+  var html =
+    '<div id="' + ID + '" style="width:100%; margin-top:10px;">' +
+    '<div class="title" style="margin: 6px 0 ;">' +
+    '<strong>时间同步助手</strong>' +
+    '<div style="display: inline-block;" id="collapse_btn_timesync"></div>' +
+    '</div>' +
+
+    '<div class="collapse" id="collapse_timesync" data-name="close" style="height: 0px; overflow: hidden;">' +
+    '<div class="collapse_box">' +
+
+    '<div id="ts_action_box" style="margin-bottom:8px;display:flex;gap:10px;flex-wrap:wrap;align-items:center">' +
+    '<button id="btn_boot_sync" class="btn">开机自同步</button>' +
+    '<button id="btn_manual_sync" class="btn">手动同步</button>' +
+    '<button id="btn_edit_servers" class="btn">编辑服务器</button>' +
+    '<button id="btn_show_log" class="btn">显示日志</button>' +
+    '</div>' +
+
+    '<div id="ts_boot_hint" style="margin:-2px 0 10px 2px;font-size:.64rem;opacity:.85;">状态：<span id="ts_boot_state_text">检测中...</span></div>' +
+
+    '<ul class="deviceList"><li style="padding:10px">' +
+    '<div class="ts_row">' +
+    '<div class="ts_left">' +
+    '<div style="font-size:.77rem;opacity:.8">当前时间（设备时间）</div>' +
+    '<div id="ts_now" class="ts_nums" style="font-size:18px;font-weight:bold;color:#4CAF50;">--</div>' +
+    '<div style="font-size:.64rem;opacity:.75;margin-top:2px;white-space:nowrap;">时区：' + tzShow + "</div>" +
+    '</div>' +
+
+    '<div class="ts_right">' +
+    '<div style="font-size:.77rem;opacity:.8;white-space:nowrap;">上次同步</div>' +
+    '<div id="ts_last_sync" class="ts_nums ellipsis" style="font-size:.77rem;opacity:.9;">--</div>' +
+    '<div class="ellipsis" style="font-size:.77rem;opacity:.8;margin-top:2px;">同步方式：<span id="ts_last_mode" style="opacity:.95">--</span></div>' +
+    "</div>" +
+    "</div>" +
+    "</li></ul>" +
+
+    "</div>" +
+    "</div>" +
+    "</div>";
+
+  container.insertAdjacentHTML("afterend", html);
+
+  try { collapseGen("#collapse_btn_timesync", "#collapse_timesync", "#collapse_timesync", function () { }); } catch (e) { }
+
+  function updateLastSyncUI() {
+    var elTs = document.getElementById("ts_last_sync");
+    var elMode = document.getElementById("ts_last_mode");
+    if (elTs) elTs.textContent = lastSync.ts ? lastSync.ts : "--";
+    if (elMode) elMode.textContent = lastSync.mode ? lastSync.mode : "--";
+  }
+  updateLastSyncUI();
+
+  function tick() {
+    var el = document.getElementById("ts_now");
+    if (el) el.textContent = fmtLocal(new Date());
+  }
+  tick();
+  setInterval(tick, 1000);
+
+  /* ================== 同步逻辑（手动/自动共用） ================== */
+  async function syncOnce(mode) {
+    var modeCn = (mode === "boot") ? "自动" : "手动";
+
+    if (!(await lockAcquire())) {
+      toast("正在同步中，请稍后再试…", "red");
+      logResult(modeCn, "-", "失败", "同步被拒绝：已有同步任务在运行");
+      return false;
+    }
+
+    try {
+      logResult(modeCn, "-", "开始", "开始同步（顺序：1→2→3）");
+      logProc(modeCn + "同步开始（顺序：1→2→3）");
+
+      var curl = "curl";
+      var ck = await runRoot("command -v curl || [ -x /data/data/com.minikano.f50_sms/files/curl ] && echo /data/data/com.minikano.f50_sms/files/curl");
+      if (ck.content) curl = ck.content.trim();
+
+      for (var i = 0; i < SERVERS.length; i++) {
+        var idx = i + 1;
+        var s = SERVERS[i];
+
+        var urls = uniq([s.url, swapProtocol(s.url)]);
+
+        for (var u = 0; u < urls.length; u++) {
+          var url = urls[u];
+
+          logProc("尝试第" + idx + "号服务器：" + s.name + "（" + url + "）");
+
+          var r = await runRoot(curl + " " + CURL_COMMON + " '" + url + "' | grep -i '^Date:' | head -n1");
+
+          var code = await runRoot(curl + " -m 10 -s -k " + CURL_RETRY + " -o /dev/null -w '%{http_code}' '" + url + "' 2>/dev/null || echo 000");
+          var httpCode = (code.content || "").trim() || "000";
+
+          if (!r.content) {
+            logResult(modeCn, s.name, "失败", "未获取到时间（http_code=" + httpCode + "；网络未通/握手失败/无 Date 头）");
+            continue;
+          }
+
+          var dateStr = "";
+          var p = String(r.content).indexOf(":");
+          if (p >= 0) dateStr = String(r.content).slice(p + 1).trim();
+
+          var d = Date.parse(dateStr);
+          if (!d) {
+            logResult(modeCn, s.name, "失败", "时间解析失败（Date 头异常；http_code=" + httpCode + "）");
+            continue;
+          }
+
+          var t = new Date(d);
+          var utc =
+            t.getUTCFullYear() + "-" + pad(t.getUTCMonth() + 1) + "-" + pad(t.getUTCDate()) + " " +
+            pad(t.getUTCHours()) + ":" + pad(t.getUTCMinutes()) + ":" + pad(t.getUTCSeconds());
+
+          var ok = await runRoot("date -u -s '" + utc + "' >/dev/null 2>&1; echo $?");
+          if ((ok.content || "").trim() === "0") {
+            var detail = "与第" + idx + "号服务器同步成功";
+            logResult(modeCn, s.name, "成功", detail + "（http_code=" + httpCode + "）");
+            logProc("同步成功！" + detail + "。同步地址：" + s.name);
+
+            saveLastSync(fmtLocal(new Date()), modeCn);
+            updateLastSyncUI();
+
+            if (mode !== "boot") toast("同步成功！同步地址：" + s.name, "green");
+            return true;
+          } else {
+            logResult(modeCn, s.name, "失败", "设置系统时间失败（权限/系统限制；http_code=" + httpCode + "）");
+          }
+        }
+      }
+
+      logResult(modeCn, "-", "失败", "所有服务器均失败");
+      logProc("同步失败：1/2/3号服务器均失败（检查网络/curl/权限/地址）");
+      if (mode !== "boot") toast("同步失败，请查看日志", "red");
+      return false;
+
+    } finally {
+      await lockRelease();
+    }
+  }
+
+  /* ================== 页面加载时用日志回填“自动同步”状态 ================== */
+  function parseLatestAutoSuccessFromRaw(raw) {
+    if (!raw) return null;
+    var lines = raw.split("\n");
+    for (var i = lines.length - 1; i >= 0; i--) {
+      var line = String(lines[i] || "").trim();
+      if (line.indexOf("[TSRES] ") !== 0) continue;
+      if (line.indexOf(" mode=自动 ") < 0) continue;
+      if (line.indexOf(" result=成功 ") < 0) continue;
+      var ts = line.substring(8).trim().substring(0, 19);
+      if (ts && ts.length === 19) return { ts: ts, mode: "自动" };
+    }
+    return null;
+  }
+
+  async function reconcileAutoFromLog() {
+    var raw = await readLogRaw();
+    var rec = parseLatestAutoSuccessFromRaw(raw);
+    if (!rec) return;
+    if (!lastSync.ts || rec.ts > lastSync.ts) {
+      saveLastSync(rec.ts, "自动");
+      updateLastSyncUI();
+    }
+  }
+
+  /* ================== 编辑服务器弹窗 ================== */
+  function openEditServersModal() {
+    if (typeof createFixedToast !== "function") {
+      toast("当前环境缺少弹窗组件 createFixedToast", "red");
+      return;
+    }
+
+    var content =
+      '<div style="pointer-events:all;width:80vw;max-width:720px;">' +
+      '<div class="title" style="margin:0">编辑服务器</div>' +
+      '<div style="margin:10px 0;font-size:.77rem;opacity:.85;line-height:1.5;">' +
+      "顺序固定为：主 → 备1 → 备2（同步按 1→2→3）。<br>" +
+      "提示：你可以继续填 ntp.xxx（用于显示），系统会自动映射为可取 Date 的网站进行校时。" +
+      "</div>" +
+
+      '<div class="inner" style="display:flex;flex-direction:column;gap:10px;">' +
+      '<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">' +
+      '<div style="width:70px;opacity:.9;">主</div>' +
+      '<input id="ts_srv_0" style="flex:1;min-width:220px;padding:8px;border-radius:8px;border:1px solid #0080002b;background:rgba(255,255,255,0.06);color:#fff;" />' +
+      "</div>" +
+
+      '<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">' +
+      '<div style="width:70px;opacity:.9;">备1</div>' +
+      '<input id="ts_srv_1" style="flex:1;min-width:220px;padding:8px;border-radius:8px;border:1px solid #0080002b;background:rgba(255,255,255,0.06);color:#fff;" />' +
+      "</div>" +
+
+      '<div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">' +
+      '<div style="width:70px;opacity:.9;">备2</div>' +
+      '<input id="ts_srv_2" style="flex:1;min-width:220px;padding:8px;border-radius:8px;border:1px solid #0080002b;background:rgba(255,255,255,0.06);color:#fff;" />' +
+      "</div>" +
+      "</div>" +
+
+      '<div style="text-align:right;margin-top:12px;">' +
+      '<button style="font-size:.64rem" id="ts_srv_save_btn">保存</button> ' +
+      '<button style="font-size:.64rem" id="ts_srv_close_btn">关闭</button>' +
+      "</div>" +
+      "</div>";
+
+    var r = createFixedToast("ts_edit_servers_modal", content, "");
+    if (!r || !r.el || !r.close) return;
+
+    var el = r.el;
+    var close = r.close;
+
+    var in0 = el.querySelector("#ts_srv_0");
+    var in1 = el.querySelector("#ts_srv_1");
+    var in2 = el.querySelector("#ts_srv_2");
+    if (in0) in0.value = serverNames[0] || "";
+    if (in1) in1.value = serverNames[1] || "";
+    if (in2) in2.value = serverNames[2] || "";
+
+    var btnClose = el.querySelector("#ts_srv_close_btn");
+    var btnSave = el.querySelector("#ts_srv_save_btn");
+
+    if (btnClose) btnClose.onclick = function () { close(); };
+
+    if (btnSave) btnSave.onclick = function () {
+      var a0 = in0 && in0.value ? in0.value.trim() : "";
+      var a1 = in1 && in1.value ? in1.value.trim() : "";
+      var a2 = in2 && in2.value ? in2.value.trim() : "";
+
+      if (!a0 || !a1 || !a2) {
+        toast("三个服务器都不能为空", "red");
+        return;
+      }
+
+      serverNames = [a0, a1, a2];
+      saveServers(serverNames);
+      rebuildServers();
+
+      logResult("自动", "-", "配置", "已更新服务器配置：主=" + a0 + "，备1=" + a1 + "，备2=" + a2);
+      logProc("已更新服务器配置：主=" + a0 + "，备1=" + a1 + "，备2=" + a2);
+      toast("服务器已保存并生效", "green");
+      close();
+    };
+  }
+
+  /* ================== 日志弹窗（固定高度可滚动） ================== */
+  function parseLog(raw) {
+    var rowsRes = [];
+    var rowsProc = [];
+    if (!raw) return { res: rowsRes, proc: rowsProc };
+
+    var lines = raw.split("\n");
+    for (var i = 0; i < lines.length; i++) {
+      var line = String(lines[i] || "").trim();
+
+      if (line.indexOf("[TSRES] ") === 0) {
+        var rest = line.substring(8).trim();
+        var ts = rest.length >= 19 ? rest.substring(0, 19) : "";
+        var tail = rest.length > 19 ? rest.substring(19).trim() : "";
+
+        function pick(key) {
+          var p = tail.indexOf(key + "=");
+          if (p < 0) return "";
+          var sub = tail.substring(p + key.length + 1);
+          var cut = sub.length;
+          var keys = ["mode=", "server=", "result=", "detail="];
+          for (var k = 0; k < keys.length; k++) {
+            var kk = keys[k];
+            if (kk === key + "=") continue;
+            var j = sub.indexOf(" " + kk);
+            if (j >= 0 && j < cut) cut = j;
+          }
+          return sub.substring(0, cut).trim();
+        }
+
+        rowsRes.push({
+          ts: ts,
+          mode: pick("mode"),
+          server: pick("server"),
+          result: pick("result"),
+          detail: pick("detail")
+        });
+
+      } else if (line.indexOf("[TSPROC] ") === 0) {
+        var r2 = line.substring(9).trim();
+        var ts2 = r2.length >= 19 ? r2.substring(0, 19) : "";
+        var tail2 = r2.length > 19 ? r2.substring(19).trim() : "";
+        var text = "";
+        var p2 = tail2.indexOf("text=");
+        if (p2 >= 0) text = tail2.substring(p2 + 5);
+        rowsProc.push({ ts: ts2, text: text });
+      }
+    }
+
+    return { res: rowsRes, proc: rowsProc };
+  }
+
+  async function openLogModal() {
+    if (typeof createFixedToast !== "function") {
+      toast("当前环境缺少弹窗组件 createFixedToast", "red");
+      return;
+    }
+
+    var content =
+      '<div style="pointer-events:all;width:86vw;max-width:980px;">' +
+      '<div class="title" style="margin:0;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;">' +
+      '<div>同步日志</div>' +
+      '<label style="font-size:.77rem;opacity:.85;display:flex;align-items:center;gap:6px;">' +
+      '<input id="ts_detail_toggle" type="checkbox" style="transform:scale(1.05);" /> 详细模式/展开' +
+      "</label>" +
+      "</div>" +
+
+      '<div style="margin:10px 0;font-size:.77rem;opacity:.85;line-height:1.5;">' +
+      "默认仅显示“每次同步结果”。勾选详细模式后，会额外显示“过程日志”。<br>" +
+      "当前日志路径：<code>" + LOG_FILE + "</code>" +
+      "</div>" +
+
+      '<div style="margin:10px 0;">' +
+      '<div style="font-size:.77rem;opacity:.9;margin-bottom:6px;font-weight:bold;">同步结果（每次同步的最终结果）</div>' +
+      '<div id="ts_log_res_box" style="max-height:34vh;overflow:auto;border-radius:10px;border:1px solid #0080002b;background:rgba(255,255,255,0.03);"></div>' +
+      "</div>" +
+
+      '<div id="ts_log_proc_wrap" style="margin:12px 0;display:none;">' +
+      '<div style="font-size:.77rem;opacity:.9;margin-bottom:6px;font-weight:bold;">过程日志（调试用）</div>' +
+      '<div id="ts_log_proc_box" style="max-height:28vh;overflow:auto;border-radius:10px;border:1px solid #0080002b;background:rgba(255,255,255,0.03);"></div>' +
+      "</div>" +
+
+      '<div style="text-align:right;margin-top:12px;display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap;">' +
+      '<button style="font-size:.64rem" id="ts_log_clear_btn">清空日志</button>' +
+      '<button style="font-size:.64rem" id="ts_log_refresh_btn">刷新</button>' +
+      '<button style="font-size:.64rem" id="ts_log_close_btn">关闭</button>' +
+      "</div>" +
+      "</div>";
+
+    var r = createFixedToast("ts_log_modal", content, "");
+    if (!r || !r.el || !r.close) return;
+
+    var el = r.el;
+    var close = r.close;
+
+    var detailToggle = el.querySelector("#ts_detail_toggle");
+    var procWrap = el.querySelector("#ts_log_proc_wrap");
+
+    function setDetailVisible(on) {
+      if (!procWrap) return;
+      procWrap.style.display = on ? "block" : "none";
+    }
+
+    async function render() {
+      var raw = await readLogRaw();
+      var parsed = parseLog(raw);
+
+      var res = parsed.res.slice(0).reverse();
+      var proc = parsed.proc.slice(0).reverse();
+
+      var resBox = el.querySelector("#ts_log_res_box");
+      if (resBox) {
+        if (!res.length) {
+          resBox.innerHTML = '<div style="padding:10px;font-size:.77rem;opacity:.9;">(暂无同步结果记录)</div>';
+        } else {
+          var h =
+            '<table style="width:100%;border-collapse:collapse;font-size:.77rem;">' +
+            "<thead style='opacity:.9;position:sticky;top:0;background:rgba(0,0,0,0.22);backdrop-filter:blur(6px);'>" +
+            "<tr>" +
+            "<th style='text-align:left;padding:10px;border-bottom:1px solid #0080002b;white-space:nowrap;'>时间</th>" +
+            "<th style='text-align:left;padding:10px;border-bottom:1px solid #0080002b;white-space:nowrap;'>方式</th>" +
+            "<th style='text-align:left;padding:10px;border-bottom:1px solid #0080002b;'>服务器</th>" +
+            "<th style='text-align:left;padding:10px;border-bottom:1px solid #0080002b;white-space:nowrap;'>结果</th>" +
+            "<th style='text-align:left;padding:10px;border-bottom:1px solid #0080002b;'>说明</th>" +
+            "</tr>" +
+            "</thead><tbody>";
+
+          for (var i = 0; i < res.length; i++) {
+            var it = res[i];
+            h +=
+              "<tr style='border-bottom:1px solid #0080002b;opacity:.95;'>" +
+              "<td style='padding:10px;white-space:nowrap;'>" + (it.ts || "--") + "</td>" +
+              "<td style='padding:10px;white-space:nowrap;'>" + (it.mode || "--") + "</td>" +
+              "<td style='padding:10px;word-break:break-word;'><code>" + (it.server || "--") + "</code></td>" +
+              "<td style='padding:10px;white-space:nowrap;'>" + (it.result || "--") + "</td>" +
+              "<td style='padding:10px;word-break:break-word;opacity:.9;'>" + (it.detail || "") + "</td>" +
+              "</tr>";
+          }
+
+          h += "</tbody></table>";
+          resBox.innerHTML = h;
+        }
+      }
+
+      var procBox = el.querySelector("#ts_log_proc_box");
+      if (procBox) {
+        if (!proc.length) {
+          procBox.innerHTML = '<div style="padding:10px;font-size:.77rem;opacity:.9;">(暂无过程日志)</div>';
+        } else {
+          var h2 =
+            '<table style="width:100%;border-collapse:collapse;font-size:.77rem;">' +
+            "<thead style='opacity:.9;position:sticky;top:0;background:rgba(0,0,0,0.22);backdrop-filter:blur(6px);'>" +
+            "<tr>" +
+            "<th style='text-align:left;padding:10px;border-bottom:1px solid #0080002b;white-space:nowrap;'>时间</th>" +
+            "<th style='text-align:left;padding:10px;border-bottom:1px solid #0080002b;'>内容</th>" +
+            "</tr>" +
+            "</thead><tbody>";
+
+          for (var j = 0; j < proc.length; j++) {
+            var it2 = proc[j];
+            h2 +=
+              "<tr style='border-bottom:1px solid #0080002b;opacity:.95;'>" +
+              "<td style='padding:10px;white-space:nowrap;'>" + (it2.ts || "--") + "</td>" +
+              "<td style='padding:10px;word-break:break-word;opacity:.9;'>" + (it2.text || "") + "</td>" +
+              "</tr>";
+          }
+
+          h2 += "</tbody></table>";
+          procBox.innerHTML = h2;
+        }
+      }
+    }
+
+    await render();
+
+    if (detailToggle) {
+      detailToggle.onchange = async function () {
+        setDetailVisible(!!detailToggle.checked);
+        await render();
+      };
+    }
+
+    var btnClose = el.querySelector("#ts_log_close_btn");
+    var btnRefresh = el.querySelector("#ts_log_refresh_btn");
+    var btnClear = el.querySelector("#ts_log_clear_btn");
+
+    if (btnClose) btnClose.onclick = function () { close(); };
+    if (btnRefresh) btnRefresh.onclick = function () { render(); };
+    if (btnClear) btnClear.onclick = async function () {
+      await clearLogFile();
+      toast("日志已清空", "green");
+      await render();
+    };
+  }
+
+  /* ================== boot.sh（保持块替换 + 同样的智能映射） ================== */
+  function bootBlockText() {
+    function mapToWeb(v) {
+      v = String(v || "").trim();
+      if (!v) return "http://www.baidu.com";
+      if (v.indexOf("http://") === 0 || v.indexOf("https://") === 0) return v;
+      var low = v.toLowerCase();
+      if (low === "ntp.aliyun.com" || low.indexOf("aliyun") >= 0) return "http://www.aliyun.com";
+      if (low === "ntp.tencent.com" || low.indexOf("tencent") >= 0 || low.indexOf("qq.com") >= 0) return "http://www.qq.com";
+      if (low === "ntp.ntsc.ac.cn" || low.indexOf("ntsc") >= 0) return "http://www.ntsc.ac.cn";
+      return "https://" + v;
+    }
+
+    var s1 = String(serverNames[0] || "").trim();
+    var s2 = String(serverNames[1] || "").trim();
+    var s3 = String(serverNames[2] || "").trim();
+    var u1 = mapToWeb(s1);
+    var u2 = mapToWeb(s2);
+    var u3 = mapToWeb(s3);
+
+    var CURL_PATH = "/data/data/com.minikano.f50_sms/files/curl";
+
+    var blk =
+      BOOT_BEGIN + "\n" +
+      "(\n" +
+      "  LOG_FILE='" + LOG_FILE + "'\n" +
+      "  LOCK_DIR='" + LOCK_DIR + "'\n" +
+      "  mkdir -p /data/local/tmp >/dev/null 2>&1 || true\n" +
+      "  rm -f \"$LOG_FILE\" 2>/dev/null || true\n" +
+      "  rmdir \"$LOCK_DIR\" 2>/dev/null || true\n" +
+      "  sleep " + BOOT_INITIAL_DELAY_SEC + "\n" +
+      "  now(){ date '+%Y-%m-%d %H:%M:%S'; }\n" +
+      "  wres(){ echo \"[TSRES] $(now) mode=自动 server=$1 result=$2 detail=$3\" >> \"$LOG_FILE\" 2>/dev/null || true; }\n" +
+      "  wproc(){ echo \"[TSPROC] $(now) text=$1\" >> \"$LOG_FILE\" 2>/dev/null || true; }\n" +
+      "  mkdir \"$LOCK_DIR\" 2>/dev/null || { wres '-' '失败' '同步被拒绝：已有同步任务在运行'; exit 0; }\n" +
+      "  trap 'rmdir \"$LOCK_DIR\" 2>/dev/null || true' EXIT\n" +
+      "  CURL=curl\n" +
+      "  [ -x \"" + CURL_PATH + "\" ] && CURL=\"" + CURL_PATH + "\"\n" +
+      "  wres '-' '开始' '开始开机自动同步（带重试）'\n" +
+      "  wproc '开机自动同步开始（带重试）'\n" +
+      "  mon2num(){\n" +
+      "    case \"$1\" in\n" +
+      "      Jan) echo 01;; Feb) echo 02;; Mar) echo 03;; Apr) echo 04;; May) echo 05;; Jun) echo 06;;\n" +
+      "      Jul) echo 07;; Aug) echo 08;; Sep) echo 09;; Oct) echo 10;; Nov) echo 11;; Dec) echo 12;;\n" +
+      "      *) echo 00;;\n" +
+      "    esac\n" +
+      "  }\n" +
+      "  rfc1123_to_utc(){\n" +
+      "    s=\"$1\"\n" +
+      "    s=$(echo \"$s\" | sed 's/^[Dd]ate:[ ]*//')\n" +
+      "    s=$(echo \"$s\" | sed 's/,//')\n" +
+      "    set -- $s\n" +
+      "    d=\"$2\"; m=\"$3\"; y=\"$4\"; t=\"$5\"\n" +
+      "    mm=$(mon2num \"$m\")\n" +
+      "    [ \"$mm\" = \"00\" ] && echo '' && return\n" +
+      "    [ ${#d} -eq 1 ] && d=\"0$d\"\n" +
+      "    echo \"$y-$mm-$d $t\"\n" +
+      "  }\n" +
+      "  swap_proto(){\n" +
+      "    x=\"$1\"\n" +
+      "    echo \"$x\" | grep -q '^https://' && echo \"http://$(echo $x | cut -c9-)\" && return\n" +
+      "    echo \"$x\" | grep -q '^http://' && echo \"https://$(echo $x | cut -c8-)\" && return\n" +
+      "    echo \"$x\"\n" +
+      "  }\n" +
+      "  try_url(){\n" +
+      "    idx=\"$1\"; name=\"$2\"; url=\"$3\"\n" +
+      "    wproc \"尝试第${idx}号服务器：${name}（${url}）\"\n" +
+      "    DATE_LINE=$($CURL " + CURL_COMMON + " \"$url\" | grep -i '^Date:' | head -n1)\n" +
+      "    code=$($CURL -m 10 -s -k " + CURL_RETRY + " -o /dev/null -w '%{http_code}' \"$url\" 2>/dev/null || echo 000)\n" +
+      "    [ -z \"$DATE_LINE\" ] && wres \"$name\" '失败' \"未获取到时间（http_code=${code}；网络未通/握手失败/无 Date 头）\" && return 1\n" +
+      "    UTC=$(rfc1123_to_utc \"$DATE_LINE\")\n" +
+      "    [ -z \"$UTC\" ] && wres \"$name\" '失败' \"时间解析失败（Date 头异常；http_code=${code}）\" && return 1\n" +
+      "    date -u -s \"$UTC\" >/dev/null 2>&1\n" +
+      "    if [ \"$?\" = \"0\" ]; then\n" +
+      "      wres \"$name\" '成功' \"与第${idx}号服务器同步成功（http_code=${code}）\"\n" +
+      "      wproc \"同步成功！与第${idx}号服务器同步成功。同步地址：${name}\"\n" +
+      "      return 0\n" +
+      "    else\n" +
+      "      wres \"$name\" '失败' \"设置系统时间失败（权限/系统限制；http_code=${code}）\"\n" +
+      "      return 1\n" +
+      "    fi\n" +
+      "  }\n" +
+      "  try_one(){\n" +
+      "    idx=\"$1\"; name=\"$2\"; url=\"$3\"\n" +
+      "    try_url \"$idx\" \"$name\" \"$url\" && return 0\n" +
+      "    try_url \"$idx\" \"$name\" \"$(swap_proto \"$url\")\" && return 0\n" +
+      "    return 1\n" +
+      "  }\n" +
+      "  MAX=" + BOOT_RETRY_MAX + "\n" +
+      "  BASE=" + BOOT_RETRY_BASE_INTERVAL_SEC + "\n" +
+      "  i=1\n" +
+      "  while [ \"$i\" -le \"$MAX\" ]; do\n" +
+      "    wproc \"第${i}次自动同步：开始（顺序 1→2→3）\"\n" +
+      "    try_one 1 '" + s1 + "' '" + u1 + "' && exit 0\n" +
+      "    try_one 2 '" + s2 + "' '" + u2 + "' && exit 0\n" +
+      "    try_one 3 '" + s3 + "' '" + u3 + "' && exit 0\n" +
+      "    wproc \"第${i}次自动同步：失败\"\n" +
+      "    if [ \"$i\" -lt \"$MAX\" ]; then\n" +
+      "      wait=$((BASE + (i-1)*10))\n" +
+      "      wproc \"等待 ${wait} 秒后重试\"\n" +
+      "      sleep \"$wait\"\n" +
+      "    fi\n" +
+      "    i=$((i+1))\n" +
+      "  done\n" +
+      "  wres '-' '失败' '开机自动同步：多次重试仍失败（检查网络/DNS/权限）'\n" +
+      "  wproc '开机自动同步：已达到最大重试次数'\n" +
+      ") >/dev/null 2>&1 &\n" +
+      BOOT_END + "\n";
+
+    return blk;
+  }
+
+  async function bootEnabled() {
+    var r = await runRoot("grep -F '" + BOOT_BEGIN + "' '" + BOOT_SH + "' >/dev/null 2>&1; echo $?");
+    return (r.content || "").trim() === "0";
+  }
+
+  async function refreshBootUI() {
+    var btn = document.getElementById("btn_boot_sync");
+    var st = document.getElementById("ts_boot_state_text");
+    if (!btn || !st) return;
+
+    var en = await bootEnabled();
+    btn.style.background = en ? ACTIVE_BG : "";
+    st.textContent = en
+      ? ("已开启（开机等待 " + BOOT_INITIAL_DELAY_SEC + " 秒，最多重试 " + BOOT_RETRY_MAX + " 次）")
+      : "已关闭";
+  }
+
+  async function setBootEnabled(enable) {
+    await runRoot("mkdir -p /sdcard >/dev/null 2>&1 || true; [ -f '" + BOOT_SH + "' ] || touch '" + BOOT_SH + "'");
+
+    await runRoot("sed -i '/" + BOOT_BEGIN.replace(/#/g, "\\#") + "/,/" + BOOT_END.replace(/#/g, "\\#") + "/d' '" + BOOT_SH + "' 2>/dev/null || true");
+
+    if (enable) {
+      var blk = bootBlockText();
+      await runRoot("printf '%s' '" + esc(blk) + "' >> '" + BOOT_SH + "' 2>/dev/null || true");
+      logResult("自动", "-", "配置", "已开启开机自同步");
+      logProc("已开启开机自同步（写入 boot.sh 块）");
+      toast("已开启开机自同步", "green");
+    } else {
+      logResult("自动", "-", "配置", "已关闭开机自同步");
+      logProc("已关闭开机自同步（移除 boot.sh 块）");
+      toast("已关闭开机自同步", "green");
+    }
+
+    await refreshBootUI();
+  }
+
+  /* ================== 绑定按钮 ================== */
+  setTimeout(async function () {
+    var bBoot = document.getElementById("btn_boot_sync");
+    var bMan = document.getElementById("btn_manual_sync");
+    var bEdit = document.getElementById("btn_edit_servers");
+    var bLog = document.getElementById("btn_show_log");
+    if (!bBoot || !bMan || !bEdit || !bLog) return;
+
+    bEdit.onclick = function () { openEditServersModal(); };
+    bLog.onclick = function () { openLogModal(); };
+
+    if (!(await isRoot())) {
+      bMan.onclick = function () { toast("未开启高级功能/root", "red"); };
+      bBoot.onclick = function () { toast("未开启高级功能/root", "red"); };
+      var st = document.getElementById("ts_boot_state_text");
+      if (st) st.textContent = "未开启高级功能/root";
+      return;
+    }
+
+    // ✅ 新开机自动清空旧日志：只保留本次开机日志
+    await ensureLogForCurrentBoot();
+
+    await reconcileAutoFromLog();
+
+    bMan.onclick = function () { syncOnce("manual"); };
+
+    await refreshBootUI();
+
+    bBoot.onclick = async function () {
+      var en = await bootEnabled();
+      await setBootEnabled(!en);
+    };
+  }, 300);
+})();
+//</script>

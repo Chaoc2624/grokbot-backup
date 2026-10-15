@@ -1,0 +1,13 @@
+=== hejushang
+### 大象 / ZA 改地址 (1 条 / 1 人)
+> LXF🕊：大象改地址到香港地址会不会风控限制，za改地址会限制的
+~ 话题活跃成员（近 7 天话题消息）：爱吃香菜 49（银行开户）、何居上 25（银行开户/美卡外卡）、KimJongun 21（银行开户）、Feng 21（银行开户）
+
+--- 核验
+- 大象银行改地址风控｜EleBank 帮助中心 / 开户页（2026-10-10 查阅）：帮助中心「个人资料更新」仅写手机号、电邮更新路径（概览>全部>个人信息）；开户页写香港居民须「提供有效的香港住址或中国内地地址」；公开页未写「改到香港地址会风控限制」。 https://support.platform.elebank.com/personal/zh-cn/topic15_672 https://www.elebank.com/zh-hk/open-account
+- ZA 改地址会限制｜ZA Bank 条款 / FlyerTalk（2026-10-10 查阅）：一般账户条款 22.4 要求资料变动须尽快书面通知（最迟 ==30== 日内）；FlyerTalk 帖「香港数字银行风控加强了？」有用户称众安更新资料后长期处于审核状态。公开页未写「改地址必然限制」。 https://bank.za.group/assets/files/hk/terms/Standard%20and%20Account%20related%20terms.pdf https://www.flyert.com.cn/forum.php?mod=viewthread&tid=4824224
+
+=== loon0x00
+### 零星消息
+> UK Chi：为什么现在YouTube去广告插件不支持后台播放了？  视频中确实没有广告了，就是不能后台播放
+> io：似乎是不行了，我后台播放只有声音，画面灰的一直转圈。背景更新也打开了。以前没问题的。

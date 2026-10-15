@@ -1,0 +1,91 @@
+📌 推特书签简报 · 2026-10-15 上午（10:00 档，约 10:11 发出）
+
+账号 @Chaoc2624 · 这次是补跑：上次成功推送是 10-09 晚上，之后几次（包括 10-14 晚上）都没跑成，所以一次补上 10-09 晚上以来新增的 66 条书签。另外有 36 条之前推过、在看板上还没处理。
+
+🔴 今天要处理
+• 【Cursor】MLH 全球黑客周免费领 Cursor Pro，今天（10-15）截止
+  免费注册、做完一个挑战，邮箱会收到 Pro 兑换码，不用学生认证。按下面那条「Grok Bot 怎么充最划算」的说法，Cursor Pro 约等于 $200 的 Grok Bot 用量。
+  https://x.com/i/status/2109153017471947230 （另一条实测帖：https://x.com/i/status/2109372972649865640）
+• 【IBKR】IBKR 放水：护照 + 居住地澳门，没交地址证明一晚上就批了（10-14 21:01）
+  和看板上「IBKR 开户：身份和地址证明怎么凑」是同一件事。作者说不知道能放多久，想开就尽快。
+  https://x.com/i/status/2110355189823574084
+
+🟡 和正在办的事相关
+【美卡 / 建信用】
+• Discover 押金卡获批：C1 风控交不出流水，改走 Discover，用 IBKR 交押金，10-07 申请、10-15 批下（10-15 08:08）https://x.com/i/status/2110523115294069139
+• C1 死了怎么起步：HSBC US、OpenSky、Majority、富港、Revolut 押金卡，3/4/5 组合能把三家信报都建起来 https://x.com/i/status/2110394979290059103
+• C1 新卡先别激活实体卡，等 1–15 天开出虚拟卡再刷，不容易被风控 https://x.com/i/status/2110397834621292881
+• 美卡四大行 EP.03 Citi：接受 ITIN 和护照，主力卡 Strata Premier $95，两张卡隔 65 天，开卡礼基本一生一次 https://x.com/i/status/2109576012526965076
+• 汇丰 UK → US 问答：UK 零存款开，拿到账单开 US 后关掉 UK，US 单独做 DD https://x.com/i/status/2109572769042026629
+• Kikoff $20 套餐第二天就上报信用（接看板上的 Kikoff 那条）https://x.com/i/status/2109945602188734529
+• Chase 已经能用 ITIN 做预审，但作者一个 offer 都没有，还是排后面申 https://x.com/i/status/2109937053391802804
+• ITIN 美区 PayPal 入金：欧易闪兑 PYUSD → Solana → PayPal 卖出，手续费约 0.3（接看板上 PayPal SSN 那条）https://x.com/i/status/2109849428215656705
+• ⚠️ 用 Revolut 账单当美国地址证明、用完就注销：有被认定材料不实的风险，只作了解 https://x.com/i/status/2109135655091724352
+
+【税号 / IRS】
+• 赴美开户先问清自己是 NRA 还是 RA：NRA 交 W-8BEN，不是 W-9，否则开户 Bonus 可能被预扣 30% https://x.com/i/status/2110258184879546505
+• 有 ITIN 就能注册 IRS 在线账户（官方流程版，建议照这篇做）：irs.gov 进 → ID.me 验证 → 视频人工核验，不要传改过的材料 https://x.com/i/status/2109141827593044409
+  实操踩坑版：https://x.com/i/status/2110198872580796685 （这篇建议用 GPT 改证明上的地址，别照做）
+
+【港卡】
+• 中银香港开户顺序：先去分行线下办，不行再用 App。App 一提交，柜台就不能再帮你递申请了 https://x.com/i/status/2109295692674121897
+
+【网络 / 服务器】
+• 翻墙后测一下 DNS / WebRTC / IPv6 泄漏（browserleaks），结果里出现中国就说明漏了，和 Claude 防封那条线直接相关 https://x.com/i/status/2109849146849206352
+• AI 用 9 句话搭好美日韩英家宽出口，Talkatone 一次过；作者后来补了网页教程 jiakuan-9-sentences.pages.dev https://x.com/i/status/2110206807159513138
+• 让 Codex 修分流规则的提示词（国内直连、国外固定住宅出口，先备份再改）https://x.com/i/status/2108944979163021795
+• 中兴 F50 刷 OpenWrt：作者回复里补了仓库 github.com/dikeckaan/mu300-linux 和完整的 Codex 提示词 https://x.com/i/status/2107404924724425100
+• VPS 加固脚本 vps-security-hardening（改端口、密钥登录、fail2ban、UFW）：原帖和作者时间线都没给仓库链接；脚本要在命令行传 root 密码，用之前先确认来源 https://x.com/i/status/2108480640937087284
+• 科技 lion VPS 优化脚本、甬哥 sing-box 五协议节点脚本，别在跑看板的服务器上直接试 https://x.com/i/status/2108810788945498434
+
+【建站词 / GEO】（和看板「新词」直接相关）
+• 新词站出单复盘：8 个人里哥飞一个词 7000+ 刀，弗里两天破 1000 刀；多数人热度一过订单就掉 https://x.com/i/status/2110341909386531274
+• new-term-radar 新词雷达开源，优化版加了近 7 天对比、Google Trends 相关查询、0.6 分过滤：github.com/zhuyansen/new-term-radar https://x.com/i/status/2109842623016177920 （开源帖：https://x.com/i/status/2109543158761808243）
+• 弗里的新词雷达框架：X 数据 + IG/TikTok 一起看，判断是真火还是昙花一现 https://x.com/i/status/2109570314120376495
+• GEO 实测：AI 引用的是竞品的 /pricing 和 /docs，不是 blog https://x.com/i/status/2110300064430354918
+• chatgpt-fanout-queries Skill：看 ChatGPT 回答一个问题时实际搜了哪些词 https://x.com/i/status/2110215759075164502
+• 页脚放 llms.txt 和带提示词的 AI 跳转链接，提升 GEO https://x.com/i/status/2107294022092116233
+
+【Grok Bot / Agent】
+• Yobiru：让 Grok Bot、Hal0-M4 上的 Codex、VPS 互相传消息和文件，跑在自己的 Tailscale 里，正好对上你的配置 https://x.com/i/status/2109643779464720568
+• Grok Bot 怎么充最划算：实测 Cursor Pro 的用量约是 SuperGrok 的 2 倍。但 10-13 已经合并成 The X Subscription，续费前先看新方案 https://x.com/i/status/2109145087011918070
+• Claude Code 只在 Grok Bot 云电脑里用，一个半月一直稳定 https://x.com/i/status/2109982711284961664
+
+🔵 需求清单（存着备用）
+• 美卡：Kraken 美区邀请福利 25–300 刀（邀请帖）https://x.com/i/status/2110027085532336228 ｜Kraken 有 ITIN 就能开、可当地址证明 https://x.com/i/status/2109676116923609177 ｜多久信报能申 Amex https://x.com/i/status/2105579408434356254 ｜Chase 线下申 https://x.com/i/status/2109470805730173402 ｜Citi 押金卡直接查硬信用 https://x.com/i/status/2109161544970018985 ｜推荐链接谁拿钱 https://x.com/i/status/2109482311137833304 ｜英区三分免费看 https://x.com/i/status/2110374724668702912 ｜SDFCU（需要 SSN）https://x.com/i/status/2109638292279083251 ｜云居民四件套扫盲 https://x.com/i/status/2109190638512263418
+• 港卡 / eSIM：南洋商业银行（作者还没出教程）https://x.com/i/status/2109547944546341135 ｜马来西亚自助 KYC 上台卡（还没出详情）https://x.com/i/status/2109560093490413796
+• 建站：OpenUptime 状态页，可以部署到 Cloudflare Workers，适合给看板加监控 https://x.com/i/status/2109456202354635198 ｜34 款开源字体 https://x.com/i/status/2108760122919121096 ｜设计参考站 https://x.com/i/status/2108374105716400315 ｜「一键发」GEO 插件（推广）https://x.com/i/status/2110216829667008549
+• AI 工具：animate 动画 Skill https://x.com/i/status/2109796325630058584 ｜guizang PPT Skill 更新 https://x.com/i/status/2053657613460771142 ｜大厂 AI 开发心得 https://x.com/i/status/2108577165306687938 ｜Agent 评测 https://x.com/i/status/2109447989584621884 ｜Lody 多 Agent 控制面 https://x.com/i/status/2109477281945305212 ｜agentusecases.ai 用例库 https://x.com/i/status/2109148090792124639 ｜Muse 接 OpenRouter 免费模型（min-skill；记得用有额度上限的专用 Key）https://x.com/i/status/2108522615048442067
+• 硬件：ESP32 五大开源项目 https://x.com/i/status/2109854134644179248 ｜Claude Code 玩 ESP32 防翻车 https://x.com/i/status/2109680124216156337
+• ⚠️ GPT 代充副业教程：要客户交 session，session 就是账号登录凭证，自己千万别交给代充 https://x.com/i/status/2110310125609144512
+
+⚪ 不用处理（已标低优先）
+AI 代充招代理（广告）、REA 逆向两条、PentAGI 渗透工具、REraserTech 没头没尾的截图、ESP32 视频、Agent 阶级观点帖、iPhone 静音录音（可能违法）、社保长文，共 9 条。
+
+⏳ 之前推过、还没处理（36 条，详情在看板）
+• 🔴 SheerID 认证通道：作者说随时可能关 https://x.com/i/status/2106583475109421287
+• 🔴 内地驾照换香港驾照：工作日 17:00 放未来 4 周的名额 https://x.com/i/status/2105861048553329151
+• 创兴银行开户活动 10-09 已经截止，没去的话可以在看板上关掉。
+• 其余 33 条是美卡、税号、身份、出海、网络、eSIM、IBKR、微信情报库、Grok Bot 接微信、域名/Cloudflare 这些。这次新增的 IBKR、Kikoff、PayPal、Chase 几条和其中好几条是同一件事，可以一起处理。
+
+🤖 AI 新品（10-09 22:39 – 10-15 10:11）
+• Gemini 4 Argon 全球上线：100 万输入 + 100 万输出 token，主打编程、金融、法律、网安和科研。Gemini App（Pro/Ultra）、API 付费层、Antigravity、AI Studio 都能用；Cursor 已接入，和 Opus 5.5 持平，$2/$10。@GoogleDeepMind · 10-14 00:05 https://x.com/GoogleDeepMind/status/2110039274922131792
+• Meta Muse Wonder / Wonder Full：主打 Agent 任务，有 Active Memory 和 Active Focus；可以通过 Meta Model API 和 Muse Code 使用，之后会接入 Muse。@AIatMeta · 10-13 01:02 https://x.com/AIatMeta/status/2109691148943999167
+• The X Subscription：Grok、Cursor、X Premium 合并订阅，$8/月起五档，共用一个用量池；SuperGrok 和 Cursor 老用户可以切换。@cursor_ai · 10-13 07:10 https://x.com/cursor_ai/status/2109783879490191502
+• Codex 两项更新：composer predictions（预测你的下一条消息，Pro beta）https://x.com/OpenAIDevs/status/2108624138369929725 ；Windows 新沙箱 MXC https://x.com/OpenAIDevs/status/2108573188703781190
+• Cursor Origin 支持 20+ 集成，应用市场开放投稿 @cursor_ai · 10-14 02:30 https://x.com/cursor_ai/status/2110075611633074295
+• Anthropic 自研版本控制系统替代 git（每天合并 3 万多次变更）@AnthropicAI · 10-14 00:36 https://x.com/AnthropicAI/status/2110047081414987957 ；新加坡办公室 + 和新加坡政府签 MOU https://x.com/AnthropicAI/status/2110289695888511368
+• Mistral Large 4 视觉定位 Dense 200 得分 42% @MistralAI · 10-13 00:49 https://x.com/MistralAI/status/2109687906751086628
+• QwenGyre 超长程 Agent 强化学习框架 @Alibaba_Qwen · 10-12 21:11 https://x.com/Alibaba_Qwen/status/2109633085658808515
+• Perplexity Computer 上线 GPT-6 Astra / SOL 6.1 Ultrafast（Max 订阅）@perplexity_ai · 10-15 01:01 https://x.com/perplexity_ai/status/2110415710073819389
+• Grok Bot 上线 Supabase 插件 @grok · 10-14 01:14 https://x.com/grok/status/2110056511405949409
+（传闻：Claude Fable 5.5 已经出现在 Azure 模型目录，社区猜本周发布，还没官宣。）
+
+🔥 建站热词
+1. Gemini 4 Argon：本周最大的模型发布，「怎么用、价格、和 Opus 5.5/GPT-6 对比、API 怎么接」会集中搜，中文教程和对比页还很少。
+2. Muse Wonder：Muse 用户量大，「和 Muse Spark 有什么区别、Muse Code 怎么订、API 价格」会有大量搜索。
+3. The X Subscription：「五档怎么选、和 SuperGrok/Cursor Pro 哪个划算、怎么切换」，适合做价格对比和选购页。
+
+💰 X 接口：开跑前余额 13.66 美元，跑完 13.16 美元（免费额度，2027-10-06 到期），这次用了 0.50，主要是两页书签（100 条）。10-09 晚上跑完是 13.75，中间几次失败的运行用掉了 0.09。AI 雷达和书签后续查询用的是免费的 x 搜索，没遇到限流；@xai 账号不能按账号拉，改用搜索补上了。
+
+看板：https://x.omnitools.cc

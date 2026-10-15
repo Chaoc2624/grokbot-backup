@@ -1,0 +1,67 @@
+{
+ "label": "2026-10-09 上午",
+ "run_at": "2026-10-09 11:05",
+ "window_start": "2026-10-08 23:12",
+ "window_end": "2026-10-09 11:06",
+ "empty": false,
+ "items": [
+  {
+   "name": "Claude Dashboards & Claude Motion 进入 beta",
+   "desc": "Anthropic/@claudeai：用自然语言连数据平台或 CRM，Claude 写查询并生成随数据更新的实时看板（Dashboards，付费计划 beta）；Claude Motion 把报告/图表/产品演示写成代码驱动的短动画并可导出 MP4（Team/Enterprise beta）。同日 Docs、Slides、Design 退出 beta，免费计划也可用，可与 Claude 同编文档/幻灯片/设计。",
+   "source": "@claudeai",
+   "url": "https://x.com/claudeai/status/2108271552991252810",
+   "first_seen": "2026-10-09 03:01",
+   "keyword_rank": 1,
+   "keyword": "Claude Dashboards",
+   "reason": "「Claude 看板怎么用、和 Notion/Looker 比、免费能做啥」会集中搜；主帖互动极高，教程和功能对比页现在空缺大。"
+  },
+  {
+   "name": "Anthropic Cyber Mission + OSS Scanner",
+   "desc": "Anthropic 启动 Cyber Mission：面向关键基础设施的 Critical Infrastructure Defense Program（前沿 Claude + 驻场工程师），以及面向开源的 OSS Scanner——维护者自愿加入后，用最强模型定期免费扫漏洞，报告含 PoC、说明和建议补丁（模型自动生成、无人审）。",
+   "source": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2108302539498414208",
+   "first_seen": "2026-10-09 05:04",
+   "keyword_rank": 2,
+   "keyword": "OSS Scanner",
+   "reason": "开源维护者会搜「怎么报名、是否免费、误报怎么办」；安全向教程和报名指南适合做站。"
+  },
+  {
+   "name": "Claude Docs / Slides / Design 全计划开放（含 Free）",
+   "desc": "原先 beta 的 Claude Docs、Slides、Design 正式对所有套餐开放，包括免费用户；可与 Claude 一起改同一份文档、幻灯片或设计稿。",
+   "source": "@claudeai",
+   "url": "https://x.com/claudeai/status/2108271559928389679",
+   "first_seen": "2026-10-09 03:01",
+   "keyword_rank": 3,
+   "keyword": "Claude Docs",
+   "reason": "免费用户会搜「Claude Docs/Slides 怎么开、和 Canvas/Gamma 比」；全计划开放后教程需求会起来。"
+  },
+  {
+   "name": "Anthropic 向 Genesis Mission 承诺 1.5 亿美元",
+   "desc": "Anthropic 承诺三年内向美国联邦 Genesis Mission 投入 1.5 亿美元，并向 15+ 联邦机构提供 Claude 与技术支持。",
+   "source": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2108226292235809081",
+   "first_seen": "2026-10-09 00:01"
+  },
+  {
+   "name": "Cursor /visualize：同对话里追问出新图表",
+   "desc": "Cursor 演示：看完第一张图后在同一聊天继续追问，/visualize 会再生成新图表回答。",
+   "source": "@cursor_ai",
+   "url": "https://x.com/cursor_ai/status/2108289748628566496",
+   "first_seen": "2026-10-09 04:13"
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "Claude Dashboards",
+   "reason": "「Claude 看板怎么用、和 Notion/Looker 比、免费能做啥」会集中搜；主帖互动极高，教程和功能对比页现在空缺大。"
+  },
+  {
+   "keyword": "OSS Scanner",
+   "reason": "开源维护者会搜「怎么报名、是否免费、误报怎么办」；安全向教程和报名指南适合做站。"
+  },
+  {
+   "keyword": "Claude Docs",
+   "reason": "免费用户会搜「Claude Docs/Slides 怎么开、和 Canvas/Gamma 比」；全计划开放后教程需求会起来。"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{"label":"2026-10-08 03:45","run_at":"2026-10-08 03:45","window_start":"2026-10-07 15:45","window_end":"2026-10-08 03:45","empty":false,
+"items":[
+{"name":"Claude Haiku 5.5","desc":"Anthropic 最新小模型，号称最便宜最快的 Haiku，运行成本比 Haiku 4.5 低约 75%，首次支持可调推理强度，电脑操作能力大幅提升。","source":"@claudeai","url":"https://x.com/claudeai/status/2107894039626277339","first_seen":"10-08 02:01"},
+{"name":"GPT-6 + Intelligent UI（ChatGPT）","desc":"ChatGPT 全量上线 GPT-6 与「智能界面」，回答可混合图表、可点按钮、表单等交互元素；付费版用 GPT-6 Sol，免费/Go 版明天起用 GPT-6 Luna。","source":"@OpenAI","url":"https://x.com/OpenAI/status/2107894997538525580","first_seen":"10-08 02:05"},
+{"name":"ChatGPT for Teens / College Planner","desc":"OpenAI 面向未满 18 岁用户的 ChatGPT 青少年版进展，同时预览升学规划工具 College Planner 和新学习工具。","source":"@OpenAI","url":"https://x.com/OpenAI/status/2107909792945832070","first_seen":"10-08 03:03"},
+{"name":"SynthID Detector（全面开放）","desc":"Google 的 AI 内容检测门户向所有人开放，可检测图片、视频、音频是否带 SynthID 水印，联合 OpenAI、NVIDIA、Kakao，Apple 即将加入。","source":"@GoogleDeepMind","url":"https://x.com/GoogleDeepMind/status/2107834249680499136","first_seen":"10-07 22:03"},
+{"name":"Google「Concierge」语音智能体（爆料）","desc":"TestingCatalog 爆料 Google 在原型开发内部代号 Concierge 的语音智能体，同时在 Antigravity 中为 Gemini 4 上线做准备，目前还很早期。","source":"@testingcatalog","url":"https://x.com/testingcatalog/status/2107835952924065925","first_seen":"10-07 22:10"},
+{"name":"Google Playground 新实验（美国）","desc":"Google 在美国上线新的 Playground 实验，付费用户可用 AI 生成小游戏，所有人都能玩画廊里的游戏。","source":"@testingcatalog","url":"https://x.com/testingcatalog/status/2107858810173792336","first_seen":"10-07 23:41"},
+{"name":"ChatGPT 音频上传（爆料）","desc":"ChatGPT 发布说明一度出现「音频上传」功能：付费用户可上传录音生成转写、摘要并提问，随后又被撤下。","source":"@btibor91","url":"https://x.com/btibor91/status/2107765800035873147","first_seen":"10-07 17:31"},
+{"name":"Qwen-Image-2.1-Multiple-Angles-LoRA","desc":"基于 Qwen-Image 2.1 的多视角 LoRA，可把一张图生成同一物体/人物的不同拍摄角度。","source":"@_akhaliq","url":"https://x.com/_akhaliq/status/2107758426843648071","first_seen":"10-07 17:02"}
+],
+"keywords":[
+{"keyword":"Claude Haiku 5.5","reason":"全新型号名，开发者会大量搜索价格、API 调用、与 Haiku 4.5/GPT-6 Luna 的对比和基准，适合做价格计算器或对比页，竞争页面还少。"},
+{"keyword":"ChatGPT Intelligent UI","reason":"面向所有 ChatGPT 用户（含免费用户明天起）的新交互形态，普通用户会搜「怎么用、怎么关、示例」，适合做教程和玩法案例合集站。"},
+{"keyword":"SynthID Detector","reason":"AI 内容检测是长期刚需，现在全民可用且跨厂商，用户会搜「如何检测 AI 图片/视频」，适合做检测指南或聚合多家检测工具的导航站。"}
+]}

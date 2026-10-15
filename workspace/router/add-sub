@@ -1,0 +1,69 @@
+#!/bin/sh
+# add-sub: integrate an OpenClash subscription file into the active router.yaml as a proxy-provider
+# Usage: add-sub <subscription-name-as-in-/etc/openclash/config> <provider-key> [extra-groups]
+#   e.g. add-sub 蓝天云 lantian
+# Creates: ./proxy_provider/<key>.yaml symlink, provider <key>, groups "<name>" (select) + "<name>自动" (url-test,
+#          excludes info lines & multiplier nodes), adds "<name>" as option to 默认出口 手动 AI Telegram YouTube Google
+#          Netflix Spotify Twitter, adds provider to 「英国」 (UK-only filter still applies), DNS policy for node domains.
+#          Backs up router.yaml.bak-pre-<key>, validates, hot-reloads via Clash API. Default selections unchanged.
+set -e
+NAME="$1"; KEY="$2"
+[ -n "$NAME" ] && [ -n "$KEY" ] || { echo "usage: add-sub <name> <provider-key>"; exit 1; }
+SRC="/etc/openclash/config/$NAME.yaml"; [ -f "$SRC" ] || { echo "no $SRC"; exit 1; }
+CFG=/etc/openclash/config/router.yaml; RT=/etc/openclash/router.yaml
+SECRET=$(uci -q get openclash.config.dashboard_password); PORT=$(uci -q get openclash.config.cn_port || echo 9090)
+grep -q "^  $KEY:$" "$CFG" && { echo "provider $KEY already in $CFG"; exit 1; }
+ln -sf "$SRC" "/etc/openclash/proxy_provider/$KEY.yaml"
+cp "$CFG" "$CFG.bak-pre-$KEY"; cp "$RT" "/tmp/rt-pre-$KEY.yaml"
+cat > /tmp/add-sub.rb <<'RB'
+require 'yaml'
+f, name, key, src = ARGV
+s = File.read(f)
+nodes = (YAML.load_file(src)['proxies'] || []) rescue []
+info = '剩余|套餐|到期|官网|流量|重置|过期|更新'
+mult = '倍率|倍|[2-9]x|[2-9]X|x[2-9]|×'
+prov = "  #{key}:\n    type: file\n    path: \"./proxy_provider/#{key}.yaml\"\n    exclude-filter: '#{info}'\n" \
+       "    health-check:\n      enable: true\n      url: https://www.gstatic.com/generate_204\n      interval: 600\n      timeout: 5000\n"
+s.sub!(/^proxy-groups:\n/) { prov + "proxy-groups:\n" } or abort('no proxy-groups')
+grp = "- name: #{name}\n  type: select\n  proxies:\n  - #{name}自动\n  use:\n  - #{key}\n" \
+      "- name: #{name}自动\n  type: url-test\n  use:\n  - #{key}\n  exclude-filter: '#{mult}'\n" \
+      "  url: https://www.gstatic.com/generate_204\n  interval: 600\n  tolerance: 100\n"
+if s =~ /^- name: AI\n/ then s.sub!(/^- name: AI\n/) { grp + "- name: AI\n" } else s.sub!(/^(rule-providers|rules):\n/) { grp + $& } end
+def block(s, g)
+  i = s.index(/^- name: #{Regexp.escape(g)}\n/) or return nil
+  j = s.index(/^(- name: |[a-z-]+:)/, i + 1) || s.size
+  [i, j]
+end
+%w[默认出口 手动 AI Telegram YouTube Google Netflix Spotify Twitter].each do |g|
+  b = block(s, g) or (warn "skip #{g}"; next)
+  blk = s[b[0]...b[1]]
+  next if blk.include?("  - #{name}\n")
+  if blk =~ /^  proxies:\n((?:  - [^\n]*\n)*)/
+    nb = blk.sub(/^  proxies:\n((?:  - [^\n]*\n)*)/) { "  proxies:\n#{$1}  - #{name}\n" }
+  else
+    nb = blk.sub(/^(  type: [^\n]*\n)/) { "#{$1}  proxies:\n  - #{name}\n" }
+  end
+  s[b[0]...b[1]] = nb
+end
+if (b = block(s, '英国'))
+  blk = s[b[0]...b[1]]
+  nb = blk.sub(/^  use:\n((?:  - [^\n]*\n)*)/) { "  use:\n#{$1}  - #{key}\n" }
+  s[b[0]...b[1]] = nb unless blk.include?("  - #{key}\n")
+end
+doms = nodes.map { |p| p['server'].to_s }.reject { |h| h.empty? || h =~ /\A[\d.]+\z|:/ }.map { |h| h.split('.').last(2).join('.') }.uniq
+doms.each do |d|
+  next if s.include?("\"+.#{d}\": *1")
+  s.sub!(/^(    "\+\.omnitools\.cc": \*1\n)/) { "#{$1}    \"+.#{d}\": *1\n" }
+end
+File.write(f, s)
+uk = nodes.map { |p| p['name'].to_s }.select { |n| n =~ /🇬🇧|英国|伦敦|united kingdom|\b(uk|gb|gbr|london)\b/i && n !~ /5倍|剩余|套餐|到期|官网|ukraine|乌克兰/i }
+puts "#{f}: nodes=#{nodes.size} node-domains=#{doms.join(',')} uk=#{uk.join(',')}"
+RB
+cp "$RT" /tmp/add-sub-rt.yaml
+ruby /tmp/add-sub.rb /tmp/add-sub-rt.yaml "$NAME" "$KEY" "$SRC"
+SAFE_PATHS=/usr/share/openclash /etc/openclash/core/clash_meta -t -d /etc/openclash -f /tmp/add-sub-rt.yaml 2>&1 | tail -1 | grep -q successful || { echo "config test FAILED, nothing applied"; rm -f "/etc/openclash/proxy_provider/$KEY.yaml"; exit 1; }
+ruby /tmp/add-sub.rb "$CFG" "$NAME" "$KEY" "$SRC" >/dev/null
+cp /tmp/add-sub-rt.yaml "$RT"; rm -f /tmp/add-sub-rt.yaml /tmp/add-sub.rb
+curl -s -X PUT -H "Authorization: Bearer $SECRET" -H "Content-Type: application/json" \
+  -d "{\"path\":\"$RT\"}" "http://127.0.0.1:9090/configs?force=true" -w "reload:%{http_code}\n"
+echo "backup: $CFG.bak-pre-$KEY  (runtime: /tmp/rt-pre-$KEY.yaml)"

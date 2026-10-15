@@ -1,0 +1,22 @@
+[Unit]
+Description=xbm-tg read-only Telegram puller for Halo board
+After=network-online.target
+Wants=network-online.target
+[Service]
+User=xbmtg
+Group=xbmtg
+EnvironmentFile=/opt/xbm-tg/creds.env
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/xbm-tg/venv/bin/python /opt/xbm-tg/app/xbm_tg.py
+WorkingDirectory=/opt/xbm-tg/data
+UMask=0077
+Restart=always
+RestartSec=5
+MemoryMax=160M
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/opt/xbm-tg/data
+ProtectHome=true
+PrivateTmp=true
+[Install]
+WantedBy=multi-user.target

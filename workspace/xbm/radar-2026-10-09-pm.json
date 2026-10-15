@@ -1,0 +1,60 @@
+{
+ "label": "2026-10-09 晚上",
+ "run_at": "2026-10-09 22:39",
+ "window_start": "2026-10-09 11:06",
+ "window_end": "2026-10-09 22:39",
+ "empty": false,
+ "items": [
+  {
+   "name": "Google SynthID 检测门户全球英语开放",
+   "desc": "@GoogleAI 周五汇总：SynthID.com 全球英语可用，可在检测门户验证图片/视频/音频是否由 Google 或行业伙伴的 AI 生成。同帖还提 Nano Banana 2.1（局部精修）、EmbeddingGemma 2（原生多模态端侧嵌入）、Gemini 企业 Agent、Gemini Live Guided Vision 等。",
+   "source": "@GoogleAI",
+   "url": "https://x.com/GoogleAI/status/2108550067724407281",
+   "first_seen": "2026-10-09 21:28",
+   "keyword_rank": 1,
+   "keyword": "SynthID",
+   "reason": "「怎么辨别 AI 图/视频/音频、SynthID 怎么用」会集中搜；官方检测门户刚全球开放，教程和对比页空缺大。"
+  },
+  {
+   "name": "EmbeddingGemma 2：原生多模态开源嵌入模型",
+   "desc": "Google 发布 EmbeddingGemma 2，首个原生多模态开源嵌入模型，把文本、图像、视频、音频和代码统一到同一向量空间，面向端侧嵌入场景。",
+   "source": "@GoogleAI",
+   "url": "https://x.com/GoogleAI/status/2108550067724407281",
+   "first_seen": "2026-10-09 21:28",
+   "keyword_rank": 2,
+   "keyword": "EmbeddingGemma 2",
+   "reason": "开发者会搜「EmbeddingGemma 2 怎么用、和上一代/其他多模态嵌入比、端侧能不能跑」；开源嵌入类教程需求高。"
+  },
+  {
+   "name": "Nano Banana 2.1：局部精修与主体一致性",
+   "desc": "Google 图像模型 Nano Banana 升级到 2.1：视觉设计、主体一致性提升，并支持精确局部编辑（改细节而不动整图）。",
+   "source": "@GoogleAI",
+   "url": "https://x.com/GoogleAI/status/2108550067724407281",
+   "first_seen": "2026-10-09 21:28",
+   "keyword_rank": 3,
+   "keyword": "Nano Banana 2.1",
+   "reason": "创作者会搜「Nano Banana 2.1 局部编辑怎么用、和上一代差在哪」；适合做对比评测和操作指南。"
+  },
+  {
+   "name": "Claude Startups 暂停 Team/千刀 API 额度发放",
+   "desc": "@claudeai：Claude Startups 申请量远超预期（数十万），暂停 Claude Team 与 $1,000 API 额度发放并重新审核；已领取的保留，未领取的可能拿不到；仍可享 Startup Stack 与 Applied AI office hours。",
+   "source": "@claudeai",
+   "url": "https://x.com/claudeai/status/2108404561413349695",
+   "first_seen": "2026-10-09 11:49"
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "SynthID",
+   "reason": "「怎么辨别 AI 图/视频/音频、SynthID 怎么用」会集中搜；官方检测门户刚全球开放，教程和对比页空缺大。"
+  },
+  {
+   "keyword": "EmbeddingGemma 2",
+   "reason": "开发者会搜「EmbeddingGemma 2 怎么用、和上一代/其他多模态嵌入比、端侧能不能跑」；开源嵌入类教程需求高。"
+  },
+  {
+   "keyword": "Nano Banana 2.1",
+   "reason": "创作者会搜「Nano Banana 2.1 局部编辑怎么用、和上一代差在哪」；适合做对比评测和操作指南。"
+  }
+ ]
+}

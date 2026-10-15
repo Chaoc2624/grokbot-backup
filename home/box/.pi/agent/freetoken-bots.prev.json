@@ -1,0 +1,82 @@
+{
+  "checked_at": "2026-10-15T01:09:19.365282+00:00",
+  "eligible": [],
+  "needs_parameter_verification": [
+    {
+      "id": "dots-studio/dots-3-note-preview:free",
+      "context_length": 512000
+    },
+    {
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "context_length": 65536
+    },
+    {
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "context_length": 1000000
+    },
+    {
+      "id": "thinkingmachines/inkling-small:free",
+      "context_length": 1048576
+    },
+    {
+      "id": "poolside/laguna-s-2.1:free",
+      "context_length": 262144
+    },
+    {
+      "id": "thinkingmachines/inkling:free",
+      "context_length": 1048576
+    },
+    {
+      "id": "poolside/laguna-xs-2.1:free",
+      "context_length": 262144
+    },
+    {
+      "id": "cohere/north-mini-code:free",
+      "context_length": 256000
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "context_length": 1000000
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "context_length": 256000
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it:free",
+      "context_length": 262144
+    },
+    {
+      "id": "google/gemma-4-31b-it:free",
+      "context_length": 262144
+    },
+    {
+      "id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "context_length": 262144
+    },
+    {
+      "id": "openrouter/free",
+      "context_length": 200000
+    }
+  ],
+  "free_ids": [
+    "cohere/north-mini-code:free",
+    "dots-studio/dots-3-note-preview:free",
+    "google/gemma-4-26b-a4b-it:free",
+    "google/gemma-4-31b-it:free",
+    "google/lyria-3-clip-preview",
+    "google/lyria-3-pro-preview",
+    "liquid/lfm-2.5-2.6b:free",
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "nvidia/nemotron-3-super-120b-a12b:free",
+    "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "nvidia/nemotron-3.5-content-safety:free",
+    "nvidia/nemotron-3.5-lightning:free",
+    "openrouter/free",
+    "poolside/laguna-s-2.1:free",
+    "poolside/laguna-xs-2.1:free",
+    "thinkingmachines/inkling-small:free",
+    "thinkingmachines/inkling:free"
+  ],
+  "free_count": 17
+}

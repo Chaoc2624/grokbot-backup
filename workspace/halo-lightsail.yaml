@@ -1,0 +1,37 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+ipv6: false
+
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+
+proxies:
+  - name: halo-mac
+    type: vless
+    server: 13.215.219.205
+    port: 8443
+    uuid: 2ebb8913-fbf6-42f3-a3aa-1358dc2bad59
+    network: tcp
+    tls: true
+    udp: true
+    servername: www.microsoft.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: Bf2zd9UaJ4rsCNSlBkLUEVle214vtHfZcXQTQ6tIvWM
+      short-id: "0d980532"
+
+proxy-groups:
+  - name: PROXY
+    type: select
+    proxies:
+      - halo-mac
+      - DIRECT
+
+rules:
+  - MATCH,PROXY

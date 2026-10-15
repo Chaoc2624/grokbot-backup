@@ -1,0 +1,72 @@
+{
+ "label": "2026-10-08 中午",
+ "run_at": "2026-10-08 12:06",
+ "window_start": "2026-10-08 00:06",
+ "window_end": "2026-10-08 12:06",
+ "empty": false,
+ "items": [
+  {
+   "name": "Claude Haiku 5.5",
+   "desc": "Anthropic 发布最新小模型，号称最便宜、最快、最强的 Haiku，平均运行成本比 Haiku 4.5 低约 75%，首次支持可调推理强度。",
+   "source": "@claudeai",
+   "url": "https://x.com/claudeai/status/2107894039626277339",
+   "first_seen": "10-08 02:01"
+  },
+  {
+   "name": "GPT-6 + Intelligent UI",
+   "desc": "ChatGPT 向所有用户推出 GPT-6 和「智能界面」，回答能变成图表、按钮、表单这类可交互的界面。",
+   "source": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2107894997538525580",
+   "first_seen": "10-08 02:05"
+  },
+  {
+   "name": "ChatGPT for Teens / College Planner",
+   "desc": "OpenAI 公布未满 18 岁用户的青少年版 ChatGPT 进展，并预览升学规划工具 College Planner 和新的学习工具。",
+   "source": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2107909792945832070",
+   "first_seen": "10-08 03:03"
+  },
+  {
+   "name": "Grok Bot 可以直接搜 X",
+   "desc": "TestingCatalog 称 SpaceXAI 给 Grok Bot 上线了 X 搜索，一条指令就能分析上百条帖子，不再只靠网页搜索或 X 连接器。",
+   "source": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2107953994588983361",
+   "first_seen": "10-08 05:59"
+  },
+  {
+   "name": "Grok Bot「Meetings」会议功能（爆料）",
+   "desc": "SpaceXAI 正在给 Grok Bot 做会议功能，可以把 Google Meet 或 Zoom 链接交给 Bot 让它入会。",
+   "source": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2107872133057503400",
+   "first_seen": "10-08 00:34"
+  },
+  {
+   "name": "Windows Copilot 混合智能",
+   "desc": "微软给 Windows 版 Copilot 加入「混合智能」，结合电脑本地上下文和本地模型，智能分配任务在本地还是云端跑。",
+   "source": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2107939082571559421",
+   "first_seen": "10-08 05:00"
+  },
+  {
+   "name": "Envato Burst Mode",
+   "desc": "素材平台 Envato 推出「Burst Mode」，一个想法或参考图花 1 个点数就能生成最多 6 个视觉方向，速度快 10 倍。",
+   "source": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2107942182405521535",
+   "first_seen": "10-08 05:12"
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "Claude Haiku 5.5",
+   "reason": "全新型号名，开发者会集中搜价格、API 用法、和 Haiku 4.5、GPT-6 的对比，适合做价格计算器或对比评测页，现在相关页面还很少。"
+  },
+  {
+   "keyword": "ChatGPT Intelligent UI",
+   "reason": "所有 ChatGPT 用户都会碰到的新交互，普通人会搜「怎么用、怎么关、能做什么」，适合做教程和玩法案例合集站。"
+  },
+  {
+   "keyword": "ChatGPT College Planner",
+   "reason": "正赶上美国申请季（11 月初提前批截止），学生和家长会搜怎么用它选校、写文书，适合做使用指南或升学 AI 工具导航站。"
+  }
+ ]
+}

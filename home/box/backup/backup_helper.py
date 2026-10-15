@@ -8,7 +8,7 @@ ROOTS = ['/workspace/xbm', '/workspace/tg', '/workspace/handoff', '/workspace/kb
          '/workspace/tp', '/workspace/tpl', '/workspace/lpx', '/workspace/play', '/workspace/xray',
          '/workspace/neko-agent', '/workspace/ufi', '/workspace/uploads',
          HOME + '/sand-data/workflows', HOME + '/.pi/agent', HOME + '/agent-tools', HOME + '/reference',
-         HOME + '/.bashrc', HOME + '/.profile', HOME + '/backup/sync.sh', HOME + '/backup/backup_helper.py']
+         HOME + '/.bashrc', HOME + '/.profile', HOME + '/backup/sync.sh', HOME + '/backup/backup_helper.py', HOME + '/backup/askpass.sh', HOME + '/backup/notify_fail.sh']
 TOP_KEEP = {'/workspace/loon_fixed_v3.lcf'}
 EXC = re.compile(r'(/venv/|/\.venv/|node_modules|__pycache__|\.pyc$|/\.cache/|/(build|dist|out|out2|bundle|pkg)/'
     r'|\.bak|\.(log|err|zip|tgz|tar\.gz|gz|dex|dat|mmdb|db|so|pdf|png|jpg|jpeg|gif|webp|lcf|b64|out)$'
@@ -17,7 +17,7 @@ EXC = re.compile(r'(/venv/|/\.venv/|node_modules|__pycache__|\.pyc$|/\.cache/|/(
     r'|^/workspace/f50/subs/|^/workspace/f50/config\.yaml$|^/workspace/router/t/config\.yaml$'
     r'|install-command|/raw-[^/]*\.json$|bookmarks-raw\.json$|ufi_rg_out'
     r'|(^|/)[^/]*(secret|credential|creds|token|session|cookie)[^/]*$|\.pem$|auth\.json'
-    r'|^/home/box/agent-tools/[^/]*/out)', re.I)
+    r'|^/home/box/agent-tools/[^/]*/out|/\.config/grokbot-backup/)', re.I)
 ALLOW_TOKEN_EXT = {'freetoken-bots'}  # dir names containing "token" that are fine
 REDACT_FILES = ('/workspace/tp/tp.py', '/workspace/shared.md', '/workspace/tg/digests/', '/workspace/loon_fixed_v3.lcf')
 WEAK = re.compile(r'''(password|passwd|pwd|secret|api_?key|token)(["']?\s*[:=]\s*["']?)([^"'\s,${}<>`]{6,})''', re.I)

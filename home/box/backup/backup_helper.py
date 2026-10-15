@@ -15,7 +15,7 @@ EXC = re.compile(r'(/venv/|/\.venv/|node_modules|__pycache__|\.pyc$|/\.cache/|/(
     r'|\.env$|/\.env|/sessions/|\.jsonl$|/\.git/|/repo/|/src_'
     r'|^/workspace/tg/(data|archive)/|^/workspace/router/oc/|^/workspace/subtask/'
     r'|^/workspace/f50/subs/|^/workspace/f50/config\.yaml$|^/workspace/router/t/config\.yaml$'
-    r'|install-command|/raw-[^/]*\.json$|bookmarks-raw\.json$|ufi_rg_out'
+    r'|install-command|/raw-[^/]*\.(json|txt)$|bookmarks-raw\.json$|ufi_rg_out'
     r'|(^|/)[^/]*(secret|credential|creds|token|session|cookie)[^/]*$|\.pem$|auth\.json'
     r'|^/home/box/agent-tools/[^/]*/out|/\.config/grokbot-backup/)', re.I)
 ALLOW_TOKEN_EXT = {'freetoken-bots'}  # dir names containing "token" that are fine

@@ -1,0 +1,88 @@
+{
+ "label": "2026-10-15 晚上",
+ "run_at": "2026-10-15 22:06",
+ "window_start": "2026-10-15 10:11",
+ "window_end": "2026-10-15 22:06",
+ "empty": false,
+ "items": [
+  {
+   "name": "DeepSeek V4.1 Flash 在 OpenCode 免费",
+   "desc": "OpenCode 宣布 DeepSeek V4.1 Flash 限时免费（没给截止日期）。免费版模型 ID 是 deepseek-v4.1-flash-free，200K 上下文、最大输出 32K，文档写明服务商零留存、不拿数据训练；付费版 deepseek-v4.1-flash 是 1M 上下文、$0.30/$1.20 每百万 token，选错会扣费。官方帖浏览上百万。",
+   "source": "@opencode",
+   "url": "https://x.com/opencode/status/2110635747648909472",
+   "first_seen": "2026-10-15 15:35",
+   "keyword_rank": 1,
+   "keyword": "DeepSeek V4.1 Flash free",
+   "reason": "免费又是终端 Agent 刚需，「OpenCode 怎么用 DeepSeek V4.1 Flash 免费、模型 ID、和付费版区别、隐私条款」今天会集中搜，适合做配置教程页。"
+  },
+  {
+   "name": "阶跃星辰 Step 5 Preview 开放权重",
+   "desc": "StepFun 把 Step 5 Preview 权重放上 Hugging Face 和 ModelScope（BF16/FP8），稀疏 MoE 600B 总参、每 token 激活 27B，1M 上下文，原生文本+视觉，主打长程 Agent（编程、软件工程、金融等）。OpenCode、Cline 里也有限时免费档。",
+   "source": "@StepFun_ai",
+   "url": "https://x.com/StepFun_ai/status/2110717330657616092",
+   "first_seen": "2026-10-15 21:00",
+   "keyword_rank": 2,
+   "keyword": "Step 5 Preview",
+   "reason": "刚开源的国产大模型，「Step 5 Preview 怎么部署、显存要求、免费在哪用、和 Kimi K3 / GLM-5.3 对比」会有一波搜索。"
+  },
+  {
+   "name": "Ultramarine 1 Flash（Paper Instruments）",
+   "desc": "五人团队 Paper Instruments 花约 30 万美元，在 GLM-5.3 Flash 上做强化学习后训练，面向银行、律所、咨询的知识工作（Excel 模型、Word 备忘录、PPT）；自家测试接近或超过 Claude Fable 5，每个任务约 $0.13，号称便宜约 60 倍。API 已开放，权重说两周内放出。",
+   "source": "@DocumentingAGI",
+   "url": "https://x.com/DocumentingAGI/status/2110466136345346137",
+   "first_seen": "2026-10-15 04:21",
+   "keyword_rank": 3,
+   "keyword": "Ultramarine 1 Flash",
+   "reason": "「便宜 60 倍的 Fable 5 平替」话题性强，「Ultramarine 1 Flash API 价格、怎么用、权重什么时候出」会被搜，竞争还小。"
+  },
+  {
+   "name": "Google Deep Review：AI 审论文，每周 2 次免费",
+   "desc": "Google 上线 Deep Review，用 Gemini 4 Argon 审论文草稿和复杂文档、给详细修改意见，每周 2 次免费，超出付费；前身 Paper Assistant Tool 已在 1.6 万多篇论文上试过。",
+   "source": "@JeremyNguyenPhD",
+   "url": "https://x.com/JeremyNguyenPhD/status/2110687723908714892",
+   "first_seen": "2026-10-15 19:02"
+  },
+  {
+   "name": "HeyGen 场景匹配配音模型",
+   "desc": "HeyGen 发布新的声音模型：用一小段样本克隆声音后，能按视频场景自动加混响、话筒效果和说话风格，把说话人身份和环境声分开，盲测得分领先。（来源是 X 新闻摘要）",
+   "source": "X 新闻",
+   "url": "https://x.com/i/trending/2110693532705194085",
+   "first_seen": "2026-10-15 19:32"
+  },
+  {
+   "name": "CERN × Mistral：Large Physics Model",
+   "desc": "欧洲核子研究中心和 Mistral 宣布战略合作，先做一个用几十亿次模拟碰撞训练的 Large Physics Model，用于碰撞重建、粒子识别等。",
+   "source": "@MistralAI",
+   "url": "https://x.com/MistralAI/status/2110684732103041474",
+   "first_seen": "2026-10-15 18:50"
+  },
+  {
+   "name": "Anthropic 两个新 Fellowship 开放申请",
+   "desc": "STEM Fellows（理工）和 Conceptual Reasoning Fellows（哲学、认知科学、经济、政策、法律），2027 年 1 月起在 Anthropic 待四个月，帮 Claude 提升推理。",
+   "source": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2110720940665372825",
+   "first_seen": "2026-10-15 21:14"
+  },
+  {
+   "name": "Apple Intelligence 12 月进中国",
+   "desc": "苹果计划随 iOS 27.3 在中国上线第一批 Apple Intelligence 功能（Genmoji、通知摘要、写作工具、照片清除），模型来自阿里，百度协助搜索。（来源是 X 新闻摘要）",
+   "source": "X 新闻",
+   "url": "https://x.com/i/trending/2110474736870490405",
+   "first_seen": "2026-10-15 21:17"
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "DeepSeek V4.1 Flash free",
+   "reason": "免费又是终端 Agent 刚需，「OpenCode 怎么用 DeepSeek V4.1 Flash 免费、模型 ID、和付费版区别、隐私条款」今天会集中搜，适合做配置教程页。"
+  },
+  {
+   "keyword": "Step 5 Preview",
+   "reason": "刚开源的国产大模型，「Step 5 Preview 怎么部署、显存要求、免费在哪用、和 Kimi K3 / GLM-5.3 对比」会有一波搜索。"
+  },
+  {
+   "keyword": "Ultramarine 1 Flash",
+   "reason": "「便宜 60 倍的 Fable 5 平替」话题性强，「Ultramarine 1 Flash API 价格、怎么用、权重什么时候出」会被搜，竞争还小。"
+  }
+ ]
+}

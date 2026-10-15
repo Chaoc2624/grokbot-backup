@@ -408,3 +408,33 @@
 - `Lazada` / lazada — 东南亚电商，群友用来充话费（外卡交流频道 漫天 飛雪）。 · mudi7 — 群友说的随身 Wi-Fi/路由设备名（Felix Wong「celcom放在mudi7里面稳定不掉移动」），照原文。 · 尚饒 — 群友提到的卖卡者名字（一隻北極熊），照原文。
 - 木星 — 群友对某卡/钱包的叫法（InfiCheesy 瀬戸環奈「木星 maya P1」），照原文。 · 2333 卡 — 群友原话（达瓦里希 乌拉），照原文。 · YouProEXTRA — YouTube 第三方增强 iOS 版（Loon-0x00 jiang ming 链接）。 · e-Residency — 爱沙尼亚电子居民，群友写作 eResidence（Da da），照原文。
 - 成员：外卡交流频道 — 7674047962 AU、八方来财、- Eden、K Mox、漫天 飛雪、Adolf Hitler；奶昔论坛 — 懒蛋、L.L.；海无方美卡 — Miss Lam、linko mina、silence☁️💳、Phoebe、AiHua、Maruc5、Yu Lin、优衣 库、Ran to sea、night；东逆薅毛大队 — 华人出金U卡 | 柯南、xuanwoa、M Li .；东逆海外基建 — J oy、Feng、vsp IPVX、爱吃香菜、KimJongun、Ginlay、8848、qingyu、Vinv🇨🇳；InfiCheesy — 达瓦里希 乌拉、ikbf vv、Kizami 大魔王、loong god；何居上跨境 — qian ci；VPS家宽AI群 — dwnb、confront、喵 帕斯；Loon-0x00 — 跟我玩嘛、秋梦 神原、Isaac Reed；Nbvil — GARY BLOOM。
+
+## 2026-10-15 21 点新增
+- `FAB` / fab — First Abu Dhabi Bank 阿联酋第一阿布扎比银行（东逆海外基建 J oy「我的 fab 已经被关户了」）。 · `Standard Chartered UAE` — 渣打阿联酋（vsp IPVX「提现Standard Chartered UAE 可以秒到」）；核验用：`Zodia` Custody / Markets 为渣打旗下数字资产托管/交易。 · 迪拉姆 — 阿联酋货币 AED，照原文。 · 德国税号 — 德国 Steuer-ID（🐉「我德国税号下了 · 3天」），照原文。
+- `Square` — 美国刷卡收款/POS 服务（海无方美卡 Yu Yu「为什么都不用square刷」）。 · Live Translation / 电话自带翻译 — iPhone 电话 App 的实时翻译（Ralap Richardson「苹果手机直接翻译对话」；核验用）。 · 小黑 — 群友说的代 KYC 者，照原文（WTOM）。
+- `Cuniq` 续：cuniqjp — 群友写法（外卡交流频道 John lpng「cuniqjp有人用吗」），照原文。 · Fable / fabel — 群友说的 Claude 高阶模型名（VPS家宽AI群 维多「fabel5.1」、Kane Harry「fable5」），照原文。 · Apple 天气增强插件 — Loon 插件（LoonCommunity moon），照原文。
+- 成员：外卡交流频道 — 以色列人、Ccc Xin、John lpng、Mask、清秋 🇨🇳；奶昔论坛 — 啊七、Jaf Ku、The Boys、想想就好玩；海无方美卡 — LXF🕊、林先生、King 💳、N、Zzzz、WTOM、真 司、Li mac、Ralap Richardson、AMI、A粉色红头龟、大道无形我有型 aa313233；东逆薅毛大队 — Peter、fue Chun、Ethan Chou、飘来荡去；东逆海外基建 — wall wall、Bill、Bo Jer、king lout、MEN ZHE、LIN YU、🐉；InfiCheesy — Aar Edi、Livia 莉薇亚、柳如烟、aniefyek；何居上跨境 — leo；英国卡代收 — kk fm；Loon-0x00 — 向海许了个愿、桃白白、Remielle Dan；LoonCommunity — moon、我真的不胖、Blueskyy、Wang Vincent。
+
+## 2026-10-15 22 点新增
+- `myEquifax` — Equifax 面向消费者的信用报告注册/查询服务（海无方美卡 / 东逆海外基建 leon jay「用itin注册myEquifax」）。 · `SFR` — 法国电信运营商（外卡交流频道 Dallon「之前用来支付SFR话费」）。 · `Nationwide` — 英国 Nationwide Building Society（奶昔论坛 whisper voice「我的Nationwide用了半个月收到」）。 · `Acorns` — 美国圆整投资/理财 App（东逆薅毛大队 AMI「美区Acorns来个人」）。
+- `QRPH` / qrph — 菲律宾 QR 支付体系（东逆薅毛大队 Ryoi Sern「qrph感觉很好」）。 · `CFP` / 巴西税号 — 巴西 CPF 税号，群友写作 cfp（东逆海外基建 ccc「领巴西cfp」），照原文。 · `ethenaPay` / ethenapay — 群友邀请码写法，或指 Ethena / ether.fi 相关支付入口（东逆海外基建 Yy），照原文。 · `padex` — 群友写法（奶昔论坛 想想就好玩「目前还开了一个 padex」），或指 `PDAX`，照原文。
+- `stellar` — 群友说的查 Stellar 链/数据的网址（外卡交流频道 G mer），照原文。 · 剃头护照 — 群友对某类护照办理渠道的叫法（东逆海外基建 Da da），照原文。 · 满血版巴林 — 群友对币安巴林「非 CN 证件 + 巴林地址证明 + 当地政府签发证件」KYC 完整档的叫法（vsp IPVX），照原文。
+- 成员：外卡交流频道 — Liu Sir、Dallon、Jett、bing、G mer、DJB；奶昔论坛 — Rola Li、Ryoi Sern、whisper voice、Haki🀄️、murray John、123细软短、kutoku k、a sir；海无方美卡 — Gahany、leon jay、panda；东逆薅毛大队 — Tony stark、Ryoi Sern；东逆海外基建 — Golden West、Ronsey IG、Yy、Pancake、kirk sun、HyperBird、Richard Lin、ccc、地址证明 gpt学生认证；InfiCheesy — star、Trump（5u解万愁）、An Li、Hanson、huo、Clear Alan、𝓡𝓮𝓶𝓲𝔁、YM LL；何居上跨境 — 嘿咻 嘿咻；VPS家宽AI群 — D姐 | demonyins、shengfeng2012 王、张子君、小螃蟹、James Phil、carry line；Loon-0x00 — 🤔、ZYW、Zahic、Tartarus、V、银川、蜡笔小新、du dung、上楼府遍吃、⛰️ 高山流水、汤缘；LoonCommunity — A ning、𝑳𝒊𝒌𝒆 𝑳𝒊𝒌𝒆。
+
+## 2026-10-15 23 点新增
+- 小狐狸 / 狐狸卡 — 群友对某钱包卡的叫法（东逆薅毛大队 大师「申请狐狸卡，放100美金，自动抽奖」「毕竟最大的钱包了」），照原文。 · `Wirex One` — Wirex 卡产品（东逆薅毛大队 Sprint「Wirex one可以用英区地址开吗」）。 · `Luxe` / luxe — 群友说的 U 卡等级/卡名（东逆海外基建 Valerio（tz）、Ronsey IG），照原文。 · eliso / 新e — 群友说的 U 卡名，照原文（Vinv🇨🇳）。 · P1 / p卡 — 群友对 Plasma 卡的叫法（Valerio（tz）、William Sebastian），照原文。
+- `Equifax` 续：eq — 群友写法（海无方美卡 海无方「注册 eq 1刀订阅看三家」），照原文。 · `HKBN` 续：香港宽频 2500M HK$149（奶昔论坛 nath2say「149 HKD一个月，2.5G上下对等」，核验用）。 · wloc — iOS 改定位工具名（东逆海外基建 xuanwoa「ios27 wloc废掉了」），照原文。 · 送中 — 群友说的 IP 被 Google 判为中国（VPS家宽AI群 dwnb），照原文。 · `Loon` 3.5.3 TestFlight / `DOMAIN-WILDCARD` 规则。 · cp565 — 群友提到的地址来源，照原文（东逆海外基建 Wilt）。
+- 成员：海无方美卡 — 神 战、Yu Yu、Jason Chou、Nico、mint、Ray Leeee、52；奶昔论坛 — nath2say、c c；东逆薅毛大队 — 口罩弟、cake、Sprint、大师、Gahany；东逆海外基建 — Jo Yohan、William Sebastian、Eternity、Wilt、Ye Li、Adam J；InfiCheesy — 大馒头、InfiCheesy SC、水箭龟、Viper、Hugh Brecy、Sam Adam、LáFLAME、吾 🌐［建网防封指导］、慕名 rust；VPS家宽AI群 — dwnb、Mxioc；Loon-0x00 — 哑巴、DeepSleep𓎩𓆡、crok、Zeff、Mr.Bing、Berg Stephanie、Da lEi；Nbvil — John X Liu、k k。
+
+## 2026-10-16 00 点新增
+- `Altery` 续：群友说 Altery 新分配的美元 / 欧元 / 英镑 IBAN 由 iFAST 提供（东逆海外基建 / 何居上跨境 爱吃香菜「altery 有个美元iban  是英国 ifast 分发的 户头」）；奕丰环球银行 = `iFAST Global Bank`（Altery 客服回复原文写法）。 · `The Currency Cloud` / `Community Federal Savings Bank`（CFSB）— 群友对照的其他 IBAN / 美元户底层银行（xuanwoa、东逆）。 · `Banking Circle` — 群友说被 iFAST 拉黑的 IBAN 发行方（Jo Yohan）。 · MT — 群友对某类 IBAN 的叫法（「海妖和mt 那种垃圾iban」），照原文。
+- 大兵 Fi / fi兵 — 群友对 Google Fi 流量套餐转售的叫法（海无方美卡 bing「大兵100G啊」「130稳稳当当」），照原文。 · gv — `Google Voice`（CapeCake「3.5u买个gv」）。 · wfc — Wi-Fi Calling（海无方「为了用 wfc」）。 · 黑妹 — 群友对嘉信开户成功邮件/信件的叫法，照原文。 · `Cte` / 中国电信英国 — CTExcel（First Word）。
+- 广播 IP — VPS 群友说的 IP 归属地在不同库显示不同国家（VPS家宽AI群 confront「这绿云神了…换了一次也是广播」），照原文。 · 反重力 — 群友说的 Google Antigravity，照原文（carry line）。 · `Jio` — 印度运营商，群友说「一美元的号」（carry line「那必须是jio啊」）。 · generic 脚本 — Loon 插件中节点长按可运行的脚本类型（Loon-0x00 DeepSleep𓎩𓆡）。
+- 成员：海无方美卡 — Banana、Theodore Lai、sqzr74110、hun k、First Word、bing、Nihalnazden、不吃香菜；东逆海外基建 — 爱吃香菜、高松燈、股票大手作回忆录、jelly、qu、Charissa、Churen Gongyi、陈伯、chou simon、Jay Lee、Ntpowya Edwfgalche；InfiCheesy — 1、Pure、xiaoshu、Arion、Codex Yes工程师、阿祥、Jake、Богомолов Артур；VPS家宽AI群 — ren lu、Noption、柚子；Loon-0x00 — 羊羊 懒、Cat；奶昔论坛 — Olivi、Double cat。
+
+## 2026-10-16 01 点新增
+- `Xfers` / `StraitsX` — 新加坡持牌支付机构，欧易新加坡 OKX SG Card（Visa）的发卡方（东逆海外基建 Golden West「Xfers发卡」）。 · `OKX SG` / 欧易新加坡区 — 群友说删号重开新加坡区（爱吃香菜）；okx欧区万事达卡 — 群友对 OKX EEA 卡的叫法（509），照原文。 · payow — 群友说的新加坡支付写法（爱吃香菜），照原文，具体所指未确认。
+- `Plasma One` 续：群友称 p卡开放 php、可出金菲律宾比索（Ronsey IG），照原文。 · `Smarty` / smarty — 美国地址校验服务（海无方美卡 AiHua「查了smarty和usps和c1预审」），与 `USPS`、`UPS` 并提。 · 小马账单 — 群友对 Lloyds 账单（英国地址证明）的叫法，照原文。
+- `Google Voice` / gv — 群友写 gv / goole voice（照原文）；`Google Fi` 见上。 · 奶思 — Loon-0x00 群友提到的配置作者/配置名（张 根硕「奶思的配置文件」），照原文。 · 请求记录 / 目标地址 — Loon 界面项名（圆不溜秋胖小麻）。
+- 成员：海无方美卡 — WU、sophnet、AiHua、Ray Leeee、Miss Lam、Theodore Lai（续）；东逆海外基建 — Lopa、币圈奥特曼、yd j98o（续）、股票大手作回忆录（续）；InfiCheesy — Pin、o vo、亦二一、Trump；VPS家宽AI群 — Sheng Kimmy（续）、大无聊国国王（续）；Loon-0x00 — 圆不溜秋胖小麻、张 根硕、qixxxx 7、𝓞𝓻𝓲𝓸𝓷；奶昔论坛 — Godtokoo（续）、Olivi（续）。
+- 华侨银行 — 群友对 `OCBC` 的中文叫法（东逆海外基建 爱吃香菜「先搞个 华侨银行吧」）。 · okx de — 群友对 OKX 德国站的写法（东逆薅毛大队 Planting「okx de早关门了」），照原文。 · Fake-IP / fake ip — 代理软件 DNS 模式（Loon-0x00 Tartarus、圆不溜秋胖小麻）；cv — 群友对某代理客户端的简称（圆不溜秋胖小麻「cv 的pc版」），照原文，未确认。

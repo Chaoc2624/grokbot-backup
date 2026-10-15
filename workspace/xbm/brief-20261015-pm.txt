@@ -1,0 +1,47 @@
+📌 推特书签简报 · 2026-10-15 晚上（22:00 档，约 22:06 发出）
+
+账号 @Chaoc2624 · 上午那次之后新增 9 条书签，没有今天必须处理的新事。另有 93 条之前推过、在看板上还没处理（大部分是今早补跑的那批）。
+
+⏰ 提醒：MLH 全球黑客周领 Cursor Pro 今天（10-15）截止，还没领的话今晚抓紧 https://x.com/i/status/2109153017471947230
+
+🟡 和正在办的事相关
+【美卡】
+• Capital One 激活后马上查 7 项：AutoPay 选上期账单全额、交易提醒、核对地址、Mobile App Verification、Apple Pay、开卡奖励、电子账单并记下账单日 https://x.com/i/status/2110584669821637060
+• C1 批卡时间线：10-08 ITIN 下号，10-09 首次被拒，隔 24 小时再申，10-13 批了 $500 https://x.com/i/status/2109897182728028626
+• Anytime Mailbox 的坑：预览页不显示房间号，下单后带房号去 USPS 查，可能已经是商业地址；先问房东或在房东官网找完整地址查过再下单（接看板上 ATMB 那条）https://x.com/i/status/2110324046457901395
+
+【港卡】
+• 港币回内地：小钱走 StarryBlu（0 手续费，几乎中间价，免费额度 5000 港币），大钱走澳门蚂蚁 → 澳门支付宝（汇损约 0.7%，一天 3 万澳门币）；有中银香港就直接汇内地中行 https://x.com/i/status/2110596781017096451
+
+【eSIM / 保号】
+• Lebara 和 DITO 一旦连过内地基站就拉不起 WiFi Calling；补救是删掉 eSIM 配置，用原二维码在同一设备重下，之后一直飞行模式拉。作者更推荐读卡器 + SIMhub，全程不连基站（SIMhub 教程作者说在主页，帖子没给链接）https://x.com/i/status/2110610573683769854
+
+🔵 需求清单（存着备用）
+• 出海：Stripe 被欺诈预警退了 230 刀，作者在评论里给了 Radar 规则（3DS 为 optional 且风险分 > 40 时要求 3DS；同一张卡历史退款 > 1 次就拦截；另外两条专门针对菲律宾卡）。评论区建议收到预警先退款，别变成正式争议 https://x.com/i/status/2110386153983758602
+• 港卡羊毛：AlipayHK「北上消费卡」+ 美团小象超市电子卡，约 26 元拿 60 元面值，付款前看清有没有减 HK$10，随时可能下线 https://x.com/i/status/2110545500047102227
+• 身份（低优先）：在国内申加拿大 PR，主要门槛是法语 NCLC7（约 B2）https://x.com/i/status/2110343533089456379
+• AI 工具（低优先）：Eleven，开源的 Agent 逆向 IDE，能接 Claude Code / Codex / Cursor，github.com/Zfinix/eleven https://x.com/i/status/2110603171920023720
+
+⏳ 之前推过、还没处理（93 条，详情在看板）
+• 🔴 IBKR 放水（不交地址证明也批）、SheerID 认证通道、内地驾照换香港驾照预约，这三条都可能随时关。
+• 其余主要是今早那批美卡、税号、港卡、网络、建站词和 Agent 工具。
+
+🤖 AI 新品（10-15 10:11 – 22:06）
+• OpenCode 限时免费开放 DeepSeek V4.1 Flash：模型 ID 选 deepseek-v4.1-flash-free（200K 上下文，零留存不训练），选成付费版 deepseek-v4.1-flash 会扣费 @opencode · 15:35 https://x.com/opencode/status/2110635747648909472
+• 阶跃星辰 Step 5 Preview 开放权重：600B 总参 / 27B 激活，1M 上下文，文本+视觉，主打长程 Agent；OpenCode、Cline 里也有免费档 @StepFun_ai · 21:00 https://x.com/StepFun_ai/status/2110717330657616092
+• Ultramarine 1 Flash：五人团队在 GLM-5.3 Flash 上后训练，做金融/法律/咨询文档，自称接近 Claude Fable 5、便宜约 60 倍；API 已开，权重说两周内放 · 04:21 https://x.com/DocumentingAGI/status/2110466136345346137
+• Google Deep Review：用 Gemini 4 Argon 审论文草稿，每周 2 次免费 https://x.com/JeremyNguyenPhD/status/2110687723908714892
+• HeyGen 新配音模型，能按视频场景自动加混响和话筒效果（X 新闻）https://x.com/i/trending/2110693532705194085
+• CERN 和 Mistral 合作做 Large Physics Model @MistralAI · 18:50 https://x.com/MistralAI/status/2110684732103041474
+• Anthropic 开放两个新 Fellowship（理工、概念推理），2027 年 1 月起 4 个月 @AnthropicAI · 21:14 https://x.com/AnthropicAI/status/2110720940665372825
+• Apple Intelligence 计划 12 月随 iOS 27.3 进中国，模型来自阿里（X 新闻）https://x.com/i/trending/2110474736870490405
+
+🔥 建站热词
+1. DeepSeek V4.1 Flash free：免费又是终端 Agent 刚需，「OpenCode 怎么配、模型 ID、和付费版区别、隐私条款」今天会集中搜，适合做配置教程页。
+2. Step 5 Preview：刚开源的国产大模型，「怎么部署、显存要求、免费在哪用、和 Kimi K3 / GLM-5.3 对比」会有一波搜索。
+3. Ultramarine 1 Flash：「便宜 60 倍的 Fable 5 平替」话题性强，「API 价格、怎么用、权重什么时候出」会被搜，竞争还小。
+
+💰 X 接口：开跑前余额 13.16 美元，跑完 13.11 美元（免费额度，2027-10-06 到期），这次用了 0.05，就是一页 20 条书签。AI 雷达和书签后续查询用的是免费的 x 搜索，没遇到限流。
+
+这次没出问题，看板已同步（9 条新书签、简报、新词表）。
+看板：https://x.omnitools.cc

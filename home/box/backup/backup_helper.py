@@ -28,7 +28,7 @@ PLACEHOLDER = re.compile(r'(<REDACTED>|os\.(environ|getenv)|re\.compile|your[_-]
 # reviewed: weak-pattern hits here are code variables / docs, not secrets (strong patterns still enforced)
 ALLOWLIST = re.compile(r'^(workspace/wechat/(src/|ilink\.py|forwarder\.py|reply\.py|common\.py|status\.sh|RESEARCH\.md)'
     r'|workspace/xbm/.*(tg-login\.html|xbm_tg\.py)$|workspace/tg/qr_login\.py$|workspace/tg/igoropaniuk_teledigest\.md$'
-    r'|workspace/f50/research/store/|workspace/tg/[A-Za-z0-9]+_[^/]*\.md$|home/box/backup/)')
+    r'|workspace/f50/research/store/|workspace/tg/[A-Za-z0-9]+_[^/]*\.md$|home/box/backup/|workspace/xinci/report\.md$)')
 
 def excluded(p):
     m = EXC.search(p)

@@ -1,0 +1,152 @@
+=== waika
+### GOMO / HI / Celcom (4 条 / 3 人)
+> 八方来财：hi和celcom 加tello和一些+86
+> andy：gomo只能移动2g 其它连不上 也上不了网 是不是凉了
+> June Park：重启sim卡或者手机 · 我gomo反而连不上移动。。。。
+~ 话题活跃成员（近 7 天话题消息）：June Park 54（SIM）、Liu Sir 23（银行开户/VPS）、一隻北極熊 23（SIM）
+### 零星消息
+> - Eden：不用开梯子上飞机跟ws
+> - Eden：go能注册上但是没数据是不是也是废的？
+
+=== naixi
+### CTExcel 首月 / 境内使用 (8 条 / 2 人)
+> yun zai：好像要等一个月才能在境内使用 · 看上面写着支不支持大陆了
+> Drift Silent：不用，马上就可以用
+> 96 110：放7天吧，我的ctexcel多灾多难 · 开了月套餐才给连基站 · 只要ctexcel不是封号，有啥问题的，重新开个套餐就行了 · 垃圾的ctexcel · ctexcel的微信客服纯垃圾，啥也不解决
+> yun zai：我朋友官网买的卡，但是问客服说第一个月的套餐只能在英国使用 · 没法在大陆使用 · 我是其他地方买的卡倒没问题 · 我认识的另外一个人也得这样，他是七八月份买的 · 第一个月他以为能用，谁知道不行，最后花了30磅
+> 96 110：ctexcel uk，偷偷用就行了
+### 零星消息
+> lay la：tg换安卓设备登录要短信费怎么办，香港号码 · 这不是随便开吗香港号码 · 告诉我怎么跳过tg短信收费
+> ROT AM🇦🇲：羡慕香港号码 · 大佬们带带吧 · 萌新也想要玩卡
+~ 话题活跃成员（近 7 天话题消息）：抛 瓦 31（银行开户）、yun zai 29（银行开户/VPS）、murray John 18（SIM/银行开户）
+--- 核验
+- CTExcel 首月只能英国用｜SimDirs / CTExcel 官网（2026-10-16 查阅）：公开套餐写中英共享流量（如 £11.9 档 50GB 中英）；激活需在 UK/EU 且 10 天内有计费使用；未见官网写「第一个月套餐只能在英国」 https://simdirs.com/sims/cteuk/ https://www.ctexcel.com/uk/home
+
+=== haiwufang
+### 红包卡 / Tello / 熊猫 Panda (35 条 / 8 人)
+> First Word：我曹，红包卡刚打电话断了wificall后拉不起来了 · 我这额度每个月没有更新 · 你们红包卡是每个月更新额度吗 · 漫游数据
+> Banana：还是tello香啊 哎 · 不能吧 我梯子一关 Wi-Ficalling就掉了 · 可以打呀 用漫游额度咯 · 那没办法 实在不行你用tello · tello额度确实给的夯 · 我tello被封的不想折腾了 · 你不封大概率你是Wi-Ficalling没开漫游 · 漫游激活就可以哦 · 不过漫游其实打电话不是很贵 · 流量贵
+> Oub：上个月用的流量，这个月刷新了 · 之前有1刀一个月学生套餐 · 有5g漫游 · 这个只能wifi call · 没有通话漫游 · 我不开wifi call也接不到电话，就算有信号也不行 · tello不也是只能wifi call · 活动价只给你5g · 原价45刀30g流量 · https://pandamobile.com/zh
+> Smiple jack：完全想不到tello有什么理由封号 · 我一直开着漫游，估计幸存者偏差 · 刚看了一眼，giffgaff的号还活着呢 · 必须弄一个了那，这个套餐看着不错 · @Oub_void 45刀这个是折扣三个月？还是
+> CapeCake：tello封号很正常
+> Audrey Jimenez：但是是lite套餐 不开wificalling死活发不了短信 · 不知道买unlimited能不能做到不开Wi-Fi calling还能发短信？ · 我用的就是15刀 lite套餐啊 我不开Wi-Fi calling没办法接短信 · 熊猫的其他套餐也只能这样？
+> Skin：发短信干啥，我就用熊猫 · 这个熊猫是个好东西，就纯用流量就行，其他下个月再跟你说 · 不是有个15刀的那个，重新注册账号买那个，
+> nn：3个月45刀，每月30G流量
+### 国行 eSIM / 外版机 (15 条 / 7 人)
+> 观澜：sim+esim才是绝配
+> Spark：只有esim
+> 海无方：外版写不了国行esim
+> nn：国行的esim没意义
+> Banana：国行真就把esim的优点弄没了 · 什么叫做装esim卡需要去线下营业厅办理 · 我sim卡都不用去营业厅 快递员还上门服务呢 · 我这一两年换个手机 额外花270u保一个8块钱的保号套餐 图个啥
+> (˵¯͒〰¯͒˵)❄️：兄弟们买了saily中国流量，但是仍然没网络是怎么回事
+### 众安 / Wise 港户 (7 条 / 2 人)
+> sqzr74110：汇丰香港 众安 恒生 开了 · 中银香港线上申请还没过 · 我现在可以直接拿众安入金wise吧 · 众安可以入金wise吧 · 回去把wise什么的全弄了
+> Oub：wise也要有港户才行吧 · 有港户，就能入金
+### 小马银行激活信 (5 条 / 2 人)
+> Nihalnazden：小马银行 六天了 还没发激活邮件 · 就到了第一个注册的 喊我等激活 · 激活都没有 · 激活信是实体啊 不是电子邮寄
+> M Li .：一般激活信5天能到 · 第一封激活信一般一周内到 · 一般激活信3-5天就能到
+### 零星消息
+> 神 战：兄弟们，C1网银注册好了，卡也激活了，有什么需要注意的没有 · 现在就开通那个还款合适吗？还是现在可以消费吗
+> Freeman X：有人要c1邀请链接注册卡吗
+> Smiple jack：我给c1客服打了好多电话，快一个小时了都加起来，才扣了一美金
+> Ralap Richardson：弄这些卡的话需要怎么弄，弄啥ip · 我不太懂，那是需要买个像搬瓦工那样的吗 · 就是弄美卡英卡的不是说都需要家宽 · 链式代理吗
+> 坠明：那搬瓦工用不了，除非你在本地有宽带拿它当跳板 · 你都玩美卡了，搞点邪修
+> Spark：还有机场gv哥呢 · 用机场，用gv申请的
+> CAO：请问下肉身去线下开银行卡，可以当场拿到卡或者过几天自取吗
+~ 话题活跃成员（近 7 天话题消息）：坠明 103（美卡外卡/银行开户）、CapeCake 75（美卡外卡/银行开户）、Banana 63（SIM）
+--- 核验
+- Panda Mobile ==$45== / ==30GB==｜Panda Mobile 官网（2026-10-16 查阅）：Unlimited Plus 标准价 ==$45==/月含 ==30GB== 高速 5G；Lite ==$15==/月；页面另有 3 个月闪促（如 Unlimited Plus 促销售 ==$49==/前 3 月含 35GB）https://pandamobile.com/ https://pandamobile.com/blogs/no-contract-phone-plans-usa/
+- Tello 只能 Wi-Fi Calling｜未找到公开信息写「Tello 只能 wifi call」；Tello 官网有国际漫游/PAYG 价目（Talk ==1¢==/min 等）https://tello.com/buy/pay_as_you_go
+
+=== donni_hm
+### Wirex / IBKR (4 条 / 3 人)
+> Valerio（tz）：wirex应该是只做大户生意，看不上普通人小散 · 充几万几十万刀，然后返现能拉到5-8%，门槛太高了 · 有这钱存IBKR不行吗😂 · 它背景还不错的。。 · 只能说，不是我的菜，开个户留着，卡都懒得开 · 几十万刀存他那的，至少usd计价的A8以上甚至A9以上
+> Vinv🇨🇳：十老板几个亿都是存okx · 几千刀敢放，几万怕它不还
+> Arion：ibkr可能关门
+### 零星消息
+> Leon丶：我是第二次要转就不行了。。。 · 一直加到30的 · 10 20 30都有失败？
+~ 话题活跃成员（近 7 天话题消息）：Valerio（tz） 37（银行开户/U卡）、C酱です 34（银行开户/U卡）、lu12926 26（U卡/羊毛链接）
+
+=== donni_jj
+### VOXI / Lebara / ASDA WiFi Calling (21 条 / 11 人)
+> zero zero：有人遇见了国行iphone用小白卡加lebara的英国电话卡可以开Wi-Ficalling吗 · voxi付款不了 · 我的bybit eu付不了 · 招商万事达也是 · 拉lebara拉了好久啦不起来 · 我就是lebara
+> Ryoi Sern：lebara wificalling不好拉
+> rose derrick：voxi不是随便拉吗 · 飞行一开ip一改不就拉了 · o2倒是不用 · cmlink和ctexcel去hk插上就激活了
+> Felix John：有可能是，我发现 voxi 的卡最好拉，下载下来重启就有 WiFi calling · 不用啊，在我这边直接开启 WiFi，打开飞行模式，插卡就有 WiFi calling
+> Jo Yohan：voxi不用改定位吗
+> xuanwoa：voxi、lebera、asda的WiFi call，iPhone用wloc改个定位不都是随便拉么，ip都没要求 · 随便拉，你的lebara不能连基站 · 删除esim，然后上报运营商，然后重新下载 · 你得看看你的esim设备怎么上报，不上报你不能重新下载
+> Da da：沃达丰不就是voxi吗 · asda voxi 都是Vodafone 网络 · lebara不能链接基站
+> Vinv🇨🇳：拉wificall要udp · uk沃达丰可不是插卡秒拉
+> M Li .：拉WIFI CALLING可以激活 · 节点IP稍微干净点
+> Lyn：为何沉迷wificalling · 德国号码已经全部放生
+### ether.fi / P卡 / P1 / 抹茶 U卡 (27 条 / 9 人)
+> Felix John：ether.fi 开这个到底需要什么条件？用英国的 IP ，英国 手机号，转了 10u 开卡。 中国的护照，填完护照信息单子直接就拒绝下卡，只留一个账户 · 是啊 我的也是这样 我看别人还有地址证明上传审核。我的传完护照 不给填地址证明就直接拒了，你的还有个过程 · 我第一次、第二次都是填完护照信息直接拒 · p1 秒过，第二天 e 卡就 gg
+> 吉克：P卡填完cn护照，让我填地址证明，我地址证明还没填呢，就来通知了
+> wall wall：P卡我在安卓上注册有问题，到了地址证明这里没办法上传，我就懒得搞了哈 · U卡没啥好用的，都吃灰了
+> C：我注册p卡一直显示资料已经在另一个号提交过 · 这p卡真的是没话说 · 还有那个老e卡 · 我只有新e卡秒过 · 我当时p卡一直审核 · 老e卡给我秒拒，说地区不支持验证 · 我当时p卡用的地址证明太假了，估计因为这个一直给我审核 · 抹茶我用的香港，不给卡 · 还给我发了三份，一个汇丰，一个Ocbc，一个Ifast · 然后用这个过了新e卡的
+> Valerio（tz）：P1没必要，看看别的吧😂 · 打算等core过期，删了重开P1。。。 · 现在太多香港地址statement了。。。P1是为了第一个香港地址 · 抹茶全球是顶级好卡
+> Vinv🇨🇳：现在申请mex卡，4-6%，然后新e卡，4%，最后eliospay · 我除了老e其他都是秒 · 当时联系人工，看到cn护照直接拒 · 有返现才算
+> Da da：minipay是真的爽
+> rose derrick：抹茶活动谁做 本月十万美金合约交易 然后ai订阅返现百分之五十 最高可返十美金 这个才是正道
+### Wise / 众安账单 (5 条 / 4 人)
+> Leon丶：来吧，接wise，包过，一次200，不过的话，当我没说 · 不整那么多花里胡哨的，我就是进了4家银行系统，改了一下数据库，改完下载pdf而已 · 不过我也大意了好吧，忘记进wise了，直接wise就行了
+> yuxi liu：是众安银行账单改的 · 众安的账单是pypdf生成的
+> xuanwoa：众安直接改成菲地址就行？
+> Ly：我是护照+工行香港账单
+### 零星消息
+> (˵¯͒〰¯͒˵)❄️：兄弟们买了saily中国流量，但是仍然没网络是怎么回事
+> yuxi liu：用bridge把u换成美元入嘉信理财买美股
+~ 话题活跃成员（近 7 天话题消息）：C酱です 146（银行开户/U卡）、J oy 110（银行开户/U卡）、Valerio（tz） 106（银行开户/U卡）
+--- 核验
+- ether.fi 中国护照开卡｜ether.fi Help Center（2026-10-16 查阅）：中国护照可从香港以外的合格地区申请；须提供本人名下真实住址证明，申报居住国、住址证明国与 IP 国须一致；注册/核验时不应使用 VPN；部分账户核验前须入金 ==$10== 加密货币 https://help.ether.fi/en/articles/865620-applying-with-a-chinese-passport https://help.ether.fi/en/articles/758781-why-do-i-need-to-make-an-initial-10-crypto-deposit-before-verification
+- VOXI Wi-Fi Calling｜VOXI 官网（2026-10-16 查阅）：计划免费含 WiFi Calling，需兼容机型并开启设置；漫游时使用 WiFi Calling 不被支持 https://www.voxi.co.uk/help/network/how-to-get-wifi-calling https://www.voxi.co.uk/our-network
+
+=== inficheesy
+### 众安 / Pulse / N26 / 大象 (8 条 / 6 人)
+> Zeeeee：我猜肯定有，都是数字银行 · 而且大象能直接转微信 很香 · 众安第一个月返现4%啊，使劲薅啊
+> Clear Alan：出去还有必要回来吗，直接还pulse，或者平时直接走wechatpayhk
+> 𝓠𝓲𝓾𝓽𝓲𝓪𝓷：N26都收到清退信了吗
+> aniefyek：@CDCLFBOT pulse有账单退款的话，一般是三个工作日到账吗 · pulse好用
+> 水箭龟：都有延迟 · 差不多，不会差你的，放心
+> First Word：唉我第一个月啥也没干 · 可以存rmb · 他是等值港币10w
+### 零星消息
+> James Fox：GF的手机卡给86的手机发短信可以顺利保号吗？
+> Michael young：giffgaff现在还能用吗？
+> 🍒：好像用不了了
+> Ray Leeee：所有是用好机会升级多薅一张red？
+> 我他妈是法学生：wise如果给这两个账户分别充值，会不会识别出？是同一个账户
+> An Li：你们的 vps 在 cloudflare 上面是代理还是直连的啊
+> Benny Yao：大佬们，我想问一下，为什么我花钱重置了一个ip，新建了一个finalshell主机，他还是提示我connection timeout 连接不上啊
+~ 话题活跃成员（近 7 天话题消息）：水箭龟 81（银行开户/美卡外卡）、Zeeeee 74（银行开户/U卡）、Sunny Wang 73（银行开户）
+--- 核验
+- 众安第一个月返现 ==4%==｜ZA Bank 官网 / jetsohk101（2026-10-16 查阅）：公开 StockBack 限时 ==1.5%==（至 2026-12-31）；新客开户 30 天内首 HKD==10,000== 另有 ==1%==；ZA Credit 至 10-31 可再加 ==0.5%==（与 PowerDraw 共用月签账上限 HKD==30,000==）；未见固定「第一个月 4%」档位 https://bank.za.group/hk/za-card https://jetsohk101.com/credit-card-review-za-card/
+
+=== hejushang
+### Lebara eSIM / WiFi Calling (6 条 / 2 人)
+> zero zero：有人用了国行iphone用小白卡加lebara的英国电话卡可以开Wi-Ficalling吗 · 多我也是@wufengde 我现在变成了这个荷兰啥的了 · 我的卡是lebara的
+> 无风 | 全球SIM卡代购：esim很难 · 实体卡很简单 · esim只要连了国内基站就变成了荷兰沃达丰，永远无法wificall · esim的bug · 想用它就转实体卡 · 不建议用他家的esim卡
+~ 话题活跃成员（近 7 天话题消息）：爱吃香菜 38（银行开户/U卡）、何居上 27（U卡/银行开户）
+
+=== vps_jk
+### Claude 封号 / IP / 设备 (12 条 / 4 人)
+> 维多：claude经常被封号的可以尝试这个方法 · claude没有明确说明就不要觉得没有 · 本质是玄学但是还是有一点规律的 · 封号的人会一直封 · 不封的就一直不封 · 我感觉确实会和设备有关系 · 改时区啥的没啥用 · 家宽应该也没关系，因为国外也要用机房部署claude
+> Kane Harry：作息跟IP作息一样就行 · cc没做设备指纹，硬件读取啥的 · 理论上这种时区啥的没影响。 · 因为anthropic有的机器就在台湾啊 · 中国也就台湾能用 · 澳门香港用不了
+> hello：好像用台北的地区也可以啊 东八区 · 我只能说封号是玄学，我用的是台北的市区梯子是美国的ip · 这个我看网上说是不是和设备有关系，如果要完全隔离要换个新设备再试一下 · 我从来没有用过中转站啥的，而且是第一次安装和使用 ，用的又是家宽，我觉得这是我没有被封的原因
+> 柚子：设备指纹想记录还是很简单的，这个时候就应该学习下隔壁的挂逼，改主板 id 了 · 给不给权限都不影响程序本身获取了
+### 零星消息
+> Kane Harry：我用的supay这家
+> 维多：还充了270u · 反正尽量不要用，特别是小白，拒付付款失败扣手续费的，搞不明白的会扣很多钱（虽然可以找客服）
+~ 话题活跃成员（近 7 天话题消息）：Kane Harry 136（VPS）、维多 60（VPS/羊毛链接）、柚子 18（VPS）
+
+=== loon0x00
+### Loon 复写 / TF 图标 (少量收)
+> chaoscard：loon能优化下这里吗，希望可以直接看，而不用先输入
+> R：https://t.me/Loon0x00/3826261 · 9月18日的这个问题还没修复🥹 · 3K大佬，这个图标问题还没修复🥹 最新的TF版本仍存在此问题😭
+> 可莉🅥：不要拿surge的往loon里塞，loon不认你的 · 不要对loon的不报错抱有任何信任，因为3k懒得写报错
+> 秦城二院彭医生｜夜勤病棟：只要不是碰到bug，目前复写功能只要surge支持的，loon不存在用不了，何况这只是最基础的url rewrite，前提是语法是loon的🌚 · 复写的直接403了，脚本处理的正常200
+> 👨🏾‍💻 🏎🏎：https://nsloon.app/rewrite-builder · 一个个来，我先把 rewrite 不匹配问题复现了
+~ 话题活跃成员（近 7 天话题消息）：jiang ming 27（VPS）、Tartarus 21（VPS）、R 20（VPS）
+
+=== loon_comm
+### 零星消息
+> makapaka：请问：mac loon怎么反激活？

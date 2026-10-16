@@ -1,0 +1,88 @@
+{
+ "label": "2026-10-16 上午",
+ "run_at": "2026-10-16 10:08",
+ "window_start": "2026-10-15 22:06",
+ "window_end": "2026-10-16 10:08",
+ "empty": false,
+ "items": [
+  {
+   "name": "Meta Muse Spark Open（开源权重）",
+   "desc": "Meta 发布自称迄今最强的美国开源权重模型 Muse Spark Open：816B 总参 / 42B 激活，1M 上下文，原生多模态（文本/图/视频/音频），主打编程与长程 Agent。权重可在 Hugging Face、SageMaker、Model Garden、Foundry 下载；API 已上 Baseten、Fireworks、Groq、Modal、Nebius、OpenRouter、Together 等。另有 Muse Wonder 已进 Cursor（CursorBench 46.1%，$4/$20 每百万 token）。",
+   "source": "@AIatMeta",
+   "url": "https://x.com/AIatMeta/status/2110779754274292212",
+   "first_seen": "2026-10-16 01:08",
+   "keyword_rank": 1,
+   "keyword": "Muse Spark Open",
+   "reason": "美国开源权重新顶流，「Muse Spark Open 怎么跑、显存/双 Mac Studio、API 哪家便宜、和 Llama / DeepSeek 对比」会集中搜，适合做部署与评测页。"
+  },
+  {
+   "name": "FLUX 3 Image Klein（开源图像）",
+   "desc": "Black Forest Labs 发布 FLUX 3 Image Klein：约 5.6B 参数、可在单张消费级 GPU 跑，开放权重，支持原生 4K、bounding box 与像素级编辑；Hugging Face Diffusers、Comfy、fal 等已日更支持。",
+   "source": "@bfl_ai",
+   "url": "https://x.com/bfl_ai/status/2110751201105256925",
+   "first_seen": "2026-10-15 23:30",
+   "keyword_rank": 2,
+   "keyword": "FLUX 3 Image Klein",
+   "reason": "开源图像新一代名号，「FLUX 3 Klein 怎么装、和 FLUX 2 对比、Comfy 工作流、显存」搜索会起来，教程和资源页好做。"
+  },
+  {
+   "name": "Nemotron 3.5 Super VL 在 OpenCode 免费",
+   "desc": "NVIDIA 新开放 Nemotron 3.5 Super VL（视觉+推理+工具调用，面向 Agent）；OpenCode 宣布限时免费可用：120B 总参 / 12B 激活、多模态。同日还发了面向笔记本的 Nemotron 3.5 Bolt（约 74B、目标约 24GB 显存，适配 RTX Spark 本地 Agent）。",
+   "source": "@opencode",
+   "url": "https://x.com/opencode/status/2110819994238066934",
+   "first_seen": "2026-10-16 03:47",
+   "keyword_rank": 3,
+   "keyword": "Nemotron 3.5 Super VL free",
+   "reason": "终端 Agent 免费档又一例，「OpenCode 怎么选 Nemotron 3.5、和 DeepSeek 免费档比、Bolt 本地怎么跑」适合做配置对照页。"
+  },
+  {
+   "name": "Mistral Timestral：时间序列基础模型",
+   "desc": "Mistral 在 Hugging Face 放出 Timestral，主打零样本时间序列预测，覆盖三大基准，支持 21 个分位数、最长约 32k 上下文。",
+   "source": "@_akhaliq",
+   "url": "https://x.com/_akhaliq/status/2110783695397564863",
+   "first_seen": "2026-10-16 01:23"
+  },
+  {
+   "name": "GPT-Live-1.1 语音更新",
+   "desc": "OpenAI 为 ChatGPT / Codex / dots 的 Voice 推出 GPT-Live-1.1：更多口音、更少“checking…”，新增法/德/印地/墨西哥西语/韩/日等语音；今日向全体用户推送，API 稍后。",
+   "source": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2110797830361436604",
+   "first_seen": "2026-10-16 02:19"
+  },
+  {
+   "name": "OpenAI × Anthropic × Simons：$15M 数学×AI 计划",
+   "desc": "Simons Foundation 牵头约 1500 万美元倡议，帮助数学家检验和利用 AI 结果；OpenAI 与 Anthropic 各承诺约 500 万美元资金/算力/模型权限，支持工作坊与社区项目。",
+   "source": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2110741355739963884",
+   "first_seen": "2026-10-15 22:35"
+  },
+  {
+   "name": "GPT-Rosalind 学术计划扩容",
+   "desc": "OpenAI 推出 Rosalind Academic Plan：面向美国高校合格实验室，赞助使用 GPT-Rosalind 等工具做生物与文献推理，最长约 12 个月赞助权限。",
+   "source": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2110841898076418336",
+   "first_seen": "2026-10-16 05:15"
+  },
+  {
+   "name": "Muse Wonder 上线 Cursor",
+   "desc": "Meta Superintelligence Labs 的 Muse Wonder 已在 Cursor 可选：官方转述 CursorBench 默认档 46.1%（Muse 系列最高），定价约 $4 / $20 每百万输入/输出 token。",
+   "source": "@cursor_ai",
+   "url": "https://x.com/cursor_ai/status/2110867556693430293",
+   "first_seen": "2026-10-16 07:45"
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "Muse Spark Open",
+   "reason": "美国开源权重新顶流，「Muse Spark Open 怎么跑、显存/双 Mac Studio、API 哪家便宜、和 Llama / DeepSeek 对比」会集中搜，适合做部署与评测页。"
+  },
+  {
+   "keyword": "FLUX 3 Image Klein",
+   "reason": "开源图像新一代名号，「FLUX 3 Klein 怎么装、和 FLUX 2 对比、Comfy 工作流、显存」搜索会起来，教程和资源页好做。"
+  },
+  {
+   "keyword": "Nemotron 3.5 Super VL free",
+   "reason": "终端 Agent 免费档又一例，「OpenCode 怎么选 Nemotron 3.5、和 DeepSeek 免费档比、Bolt 本地怎么跑」适合做配置对照页。"
+  }
+ ]
+}

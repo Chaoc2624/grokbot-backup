@@ -1,7 +1,11 @@
 {
-  "checked_at": "2026-10-15T13:02:40.360847+00:00",
+  "checked_at": "2026-10-16T13:11:14.969586+00:00",
   "eligible": [],
   "needs_parameter_verification": [
+    {
+      "id": "nvidia/nemotron-3.5-super-vl:free",
+      "context_length": 1000000
+    },
     {
       "id": "dots-studio/dots-3-note-preview:free",
       "context_length": 512000
@@ -72,11 +76,12 @@
     "nvidia/nemotron-3-ultra-550b-a55b:free",
     "nvidia/nemotron-3.5-content-safety:free",
     "nvidia/nemotron-3.5-lightning:free",
+    "nvidia/nemotron-3.5-super-vl:free",
     "openrouter/free",
     "poolside/laguna-s-2.1:free",
     "poolside/laguna-xs-2.1:free",
     "thinkingmachines/inkling-small:free",
     "thinkingmachines/inkling:free"
   ],
-  "free_count": 17
+  "free_count": 18
 }

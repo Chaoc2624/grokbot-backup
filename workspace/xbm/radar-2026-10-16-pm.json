@@ -1,0 +1,53 @@
+{
+ "label": "2026-10-16 晚上",
+ "run_at": "2026-10-16 22:06",
+ "window_start": "2026-10-16 10:08",
+ "window_end": "2026-10-16 22:06",
+ "empty": false,
+ "items": [
+  {
+   "name": "Reflection Beam 1.0（开源权重）",
+   "desc": "Reflection 发布首个开源权重模型 Beam：Apache 2.0，放出权重、tokenizer、参考实现，BF16/FP8/NVFP4 三种精度和 DFlash2 草稿模型，以及训练时用的开源 harness Mirror CLI；与 40+ 合作方同步上线。NVIDIA 称是 501B MoE，vLLM 首日支持（23B 激活、1M 上下文）。",
+   "source": "@reflection_ai",
+   "url": "https://x.com/reflection_ai/status/2111079965529968798",
+   "first_seen": "2026-10-16 21:01",
+   "keyword_rank": 1,
+   "keyword": "Reflection Beam",
+   "reason": "美国开源权重又一个新名号，「Beam 怎么部署、显存/量化多大、和 GLM / DeepSeek / Muse Spark Open 对比、Mirror CLI 怎么用」今晚起会集中搜，适合做部署与评测对照页。"
+  },
+  {
+   "name": "GLM 5.3 Flash 在 OpenCode 免费",
+   "desc": "OpenCode 宣布 GLM 5.3 Flash 免费可用，帖子获 1.3 万+ 赞，是今天终端编程 Agent 圈最热的免费档。",
+   "source": "@opencode",
+   "url": "https://x.com/opencode/status/2110986357539754114",
+   "first_seen": "2026-10-16 14:49",
+   "keyword_rank": 2,
+   "keyword": "GLM 5.3 Flash free",
+   "reason": "免费编程模型持续高热，「GLM 5.3 Flash 免费怎么用、OpenCode 配置、和 DeepSeek V4.1 Flash 比」适合做免费模型配置/对比页。"
+  },
+  {
+   "name": "TinyFish OpenSource Free WebAccess",
+   "desc": "AI Jason 发布开源的免费 WebAccess：给 Agent 用的 100% 免费网页搜索和抓取，按任务把请求路由到最合适的供应商，并附成本/速度/token 效率基准，代码开源。",
+   "source": "@jasonzhou1993",
+   "url": "https://x.com/jasonzhou1993/status/2111050345384452508",
+   "first_seen": "2026-10-16 19:03",
+   "keyword_rank": 3,
+   "keyword": "free web search API for AI agents",
+   "reason": "「Agent 免费联网搜索 / 网页抓取 API」是长期刚需词，新开源方案出来适合做免费搜索 API 对比和接入教程页。"
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "Reflection Beam",
+   "reason": "美国开源权重又一个新名号，「Beam 怎么部署、显存/量化多大、和 GLM / DeepSeek / Muse Spark Open 对比、Mirror CLI 怎么用」今晚起会集中搜，适合做部署与评测对照页。"
+  },
+  {
+   "keyword": "GLM 5.3 Flash free",
+   "reason": "免费编程模型持续高热，「GLM 5.3 Flash 免费怎么用、OpenCode 配置、和 DeepSeek V4.1 Flash 比」适合做免费模型配置/对比页。"
+  },
+  {
+   "keyword": "free web search API for AI agents",
+   "reason": "「Agent 免费联网搜索 / 网页抓取 API」是长期刚需词，新开源方案出来适合做免费搜索 API 对比和接入教程页。"
+  }
+ ]
+}

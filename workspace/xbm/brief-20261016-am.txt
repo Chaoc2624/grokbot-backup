@@ -1,0 +1,51 @@
+📌 推特书签简报 · 2026-10-16 上午（10:00 档，约 10:11 发出）
+
+账号 @Chaoc2624 · 昨晚之后新增 8 条书签，没有今天必须立刻处理的硬截止。另有 100 条之前推过、在看板上还没处理。
+
+⏰ 提醒：MLH 全球黑客周领 Cursor Pro 已在昨天（10-15）截止；若还没领到，这条可以当过期关掉。创兴银行「最后一天」那条标注也是 10-09，别被旧文案误导。
+
+🟡 和正在办的事相关
+【建站 / SEO】
+• 新站关键词别只按搜索量排：作者配了一张「新站怎么确定 SEO 关键词优先级」图，上一条还写了只导出几千词仍不知道相关度、优先级、同需求归并和长期主题覆盖的问题 https://x.com/CoderJeffLee/status/2110789661908246677
+• 收录健康度盯三个数：可收录 N、已索引 M、Google 知道的 X；作者站 agentskillshub.top 大约 N 19600 / M 3380 / X 6010。批量上程序化页、改 URL、加筛选参数、改模板或误加 noindex 最容易把这三个数打崩 https://x.com/GoSailGlobal/status/2110367654687199530
+
+【出海】
+• SaaS 增长循环：先让用户拿到价值再放分享；漏斗要分段记，区分曝光型/协作型病毒传播，病毒≠网络效应；也可做 UGC SEO Loop https://x.com/GoSailGlobal/status/2110584037743939737
+
+【港卡】
+• 香港平安数字银行：作者开户成功，说开户礼当场给、规则比众安好懂；邀请码 ZY7IVD（是否长期有效以 App 为准）https://x.com/donniy520/status/2110732700806271000
+
+【AI 工具】
+• Claude Code 降封号风险：别在 CC 里反复 /login；更稳妥是安装后跑 `claude setup-token`，一次认证拿约一年有效 token https://x.com/leo114119/status/2110714136250515518
+
+【eSIM / 保号】
+• yoursafe + 荷兰沃达丰：久不用会催活跃，不活跃可能关户；不少卡还有闲置费 https://x.com/Aisiverto/status/2110633152767287352
+
+🔵 需求清单（存着备用）
+• 留学（低优先）：预算不高想出国读本/技术，作者推韩国——学费减免后一年学费+住宿大约 3 万多人民币，可半工半读 https://x.com/visa6363/status/2110689915046641746
+• 建站审美（低优先）：《硅谷设计师私藏的 10 个网站+灵感库》长文 https://x.com/yanliudreamer/status/2110649301257060368
+
+⏳ 之前推过、还没处理（100 条，详情在看板）
+• 仍可能随时关：SheerID 认证通道、内地驾照换香港驾照预约。
+• MLH / Cursor Pro、创兴「最后一天」等已过标注日期的，看板上可顺手清掉。
+• 其余仍是美卡、税号、港卡、网络、建站词和 Agent 工具那几大块。
+
+🤖 AI 新品（10-15 22:06 – 10-16 10:08）
+• Meta Muse Spark Open：816B/42B 激活、1M 上下文、原生多模态，自称美国最强开源权重，主打编程与长程 Agent；HF 等可下权重，多家 API 已上 @AIatMeta · 01:08 https://x.com/AIatMeta/status/2110779754274292212
+• Muse Wonder 已进 Cursor：CursorBench 默认档约 46.1%，约 $4/$20 每百万 token @cursor_ai · 07:45 https://x.com/cursor_ai/status/2110867556693430293
+• FLUX 3 Image Klein：约 5.6B 开源图像模型，单卡可跑，原生 4K + bounding box 编辑；Diffusers/Comfy/fal 已跟 @bfl_ai · 23:30 https://x.com/bfl_ai/status/2110751201105256925
+• OpenCode 免费开放 Nemotron 3.5 Super VL：120B/12B 激活、多模态；NVIDIA 同日还有面向本机的 Nemotron 3.5 Bolt @opencode · 03:47 https://x.com/opencode/status/2110819994238066934
+• Mistral Timestral：时间序列基础模型上 HF，零样本预测、21 分位数、最长约 32k 上下文 @_akhaliq · 01:23 https://x.com/_akhaliq/status/2110783695397564863
+• GPT-Live-1.1：ChatGPT/Codex/dots 语音更新，更多口音、少“checking…”，新增多语语音，今日全量，API 稍后 @OpenAI · 02:19 https://x.com/OpenAI/status/2110797830361436604
+• OpenAI × Anthropic × Simons：约 $15M 数学×AI 倡议，两家各约 $5M 资金/算力/模型权限 @OpenAI · 22:35 https://x.com/OpenAI/status/2110741355739963884
+• GPT-Rosalind 学术计划：美国高校合格实验室可申请最长约 12 个月赞助权限 @OpenAI · 05:15 https://x.com/OpenAI/status/2110841898076418336
+
+🔥 建站热词
+1. Muse Spark Open：开源权重新顶流，「怎么部署、双 Mac Studio / 显存、哪家 API 便宜、和 DeepSeek / Llama 对比」今天会集中搜，适合做部署与评测页。
+2. FLUX 3 Image Klein：开源图像新名号，「怎么装、Comfy 工作流、和 FLUX 2 对比、显存」适合做教程和资源聚合。
+3. Nemotron 3.5 Super VL free：终端 Agent 又一个免费档，「OpenCode 怎么选、和 DeepSeek 免费档比、Bolt 本地怎么跑」适合做配置对照页。
+
+💰 X 接口：开跑前余额 13.11 美元，跑完 13.01 美元（免费额度，2027-10-06 到期），这次用了 0.10，主要是一页书签。AI 雷达用的是免费的 x 搜索，没遇到限流。
+
+这次没出问题，看板已同步（8 条新书签、简报、新词表）。
+看板：https://x.omnitools.cc

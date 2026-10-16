@@ -1,12 +1,572 @@
 {
- "leads": [],
+ "leads": [
+  {
+   "term": "stembench",
+   "kinds": [
+    "x"
+   ],
+   "signals": [
+    "X 1 个账号 ♥714"
+   ],
+   "examples": [
+    "@MistralAI: Turns out le Chonk is into rocket science. Mistral Large 4 scoring well in engin"
+   ],
+   "variants": [],
+   "posts": [
+    {
+     "account": "MistralAI",
+     "text": "Turns out le Chonk is into rocket science. Mistral Large 4 scoring well in engineering and astronomy on Ulam’s private benchmark, STEMBench: https://t.co/OW3reppzWN https://t.co/3BbnbEuYvP",
+     "url": "https://x.com/MistralAI/status/2111056939841163336",
+     "likes": 714
+    }
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "handwired",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 chenglou/handwired ★1377(均 931/天,一天 +1023)"
+   ],
+   "examples": [
+    "chenglou/handwired: Turn your regular JavaScript code into a neural net."
+   ],
+   "variants": [
+    "handwired",
+    "chenglou handwired",
+    "cheng handwired"
+   ],
+   "posts": [],
+   "repo": "chenglou/handwired",
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "git ai",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 feder-cr/git-ai ★1032(均 1009/天)"
+   ],
+   "examples": [
+    "feder-cr/git-ai: Git designed for AI agents."
+   ],
+   "variants": [
+    "git ai",
+    "feder-cr git ai",
+    "federico git ai"
+   ],
+   "posts": [],
+   "repo": "feder-cr/git-ai",
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "aurelio finance",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 LosaLosSantos/aurelio-finance ★3942(均 405/天,一天 +569)"
+   ],
+   "examples": [
+    "LosaLosSantos/aurelio-finance: Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts o"
+   ],
+   "variants": [
+    "aurelio finance",
+    "losalossantos aurelio finance",
+    "loris aurelio finance"
+   ],
+   "posts": [],
+   "repo": "LosaLosSantos/aurelio-finance",
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "uncharted pc",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 Supermedo/uncharted_pc ★896(均 574/天)"
+   ],
+   "examples": [
+    "Supermedo/uncharted_pc: Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo"
+   ],
+   "variants": [
+    "uncharted pc",
+    "supermedo uncharted pc"
+   ],
+   "posts": [],
+   "repo": "Supermedo/uncharted_pc",
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "idapro",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×6.7)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "wanderlog",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 10 处 (×9.3)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "cloakbrowser",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 9 处 (×8.2)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "langfuse",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 10 处 (×7.7)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "excalidraw architect",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×6.7)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "stufently",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×6.5)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "aiframework",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 25 处 (×25.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "mspbotsaiframework",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 25 处 (×25.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "p4mcp",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 8 处 (×7.7)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "vibe coder",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 8 处 (×7.5)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "pingfusi",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×7.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "aki",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×6.4)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "connectors io.github.ukraine",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 27 处 (×27.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "mspbots",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 25 处 (×15.5)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "ombre brain",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 8 处 (×7.7)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "pooriaarab benchmark",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 8 处 (×7.7)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "connectors dev.workers.mmelnyk2000.well",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 14 处 (×14.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.5
+  },
+  {
+   "term": "ombre",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 8 处 (×7.7)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.5
+  },
+  {
+   "term": "desk",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 fyzugx/DEsk ★969(均 162/天,一天 +597)"
+   ],
+   "examples": [
+    "fyzugx/DEsk: "
+   ],
+   "variants": [
+    "desk",
+    "fyzugx desk"
+   ],
+   "posts": [],
+   "repo": "fyzugx/DEsk",
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "io.github.ukraine territorial",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 27 处 (×27.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.4
+  },
+  {
+   "term": "arxiv latex",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 8 处 (×7.6)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "setup",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 13 处 (×8.8)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.1
+  },
+  {
+   "term": "modeling prep",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×6.5)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.1
+  },
+  {
+   "term": "financial modeling",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×6.4)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.1
+  },
+  {
+   "term": "blog",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 36 处 (×6.2)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.0
+  },
+  {
+   "term": "outline",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 8 处 (×6.2)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.0
+  }
+ ],
  "x": {
   "accounts": 35,
   "answered": 35,
   "posts": 660,
   "cost_micros": 99300,
-  "first_run": true,
-  "terms": []
+  "first_run": false,
+  "terms": [
+   {
+    "term": "stembench",
+    "sources": [
+     "MistralAI"
+    ],
+    "likes": 714,
+    "examples": [
+     "@MistralAI: Turns out le Chonk is into rocket science. Mistral Large 4 scoring well in engin"
+    ],
+    "posts": [
+     {
+      "account": "MistralAI",
+      "text": "Turns out le Chonk is into rocket science. Mistral Large 4 scoring well in engineering and astronomy on Ulam’s private benchmark, STEMBench: https://t.co/OW3reppzWN https://t.co/3BbnbEuYvP",
+      "url": "https://x.com/MistralAI/status/2111056939841163336",
+      "likes": 714
+     }
+    ],
+    "recent": 1,
+    "note": "X 1 个账号 ♥714"
+   }
+  ]
  },
  "hf": {
   "first_run": false,
@@ -15,208 +575,300 @@
   "spaces": 100
  },
  "breakout": {
-  "searched": 196,
+  "searched": 194,
   "first_run": false,
   "repos": [
-   {
-    "repo": "openai/math",
-    "owner": "openai",
-    "name": "math",
-    "stars": 14882,
-    "velocity": 1721,
-    "delta": 2,
-    "age_days": 8.6,
-    "description": "",
-    "new": false
-   },
    {
     "repo": "wheresryan22/anatomy",
     "owner": "wheresryan22",
     "name": "anatomy",
-    "stars": 12100,
-    "velocity": 1697,
-    "delta": 11,
-    "age_days": 7.1,
+    "stars": 13600,
+    "velocity": 1669,
+    "delta": 1500,
+    "age_days": 8.1,
     "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Ge",
+    "new": false
+   },
+   {
+    "repo": "openai/math",
+    "owner": "openai",
+    "name": "math",
+    "stars": 14998,
+    "velocity": 1552,
+    "delta": 116,
+    "age_days": 9.7,
+    "description": "",
     "new": false
    },
    {
     "repo": "storytold/wordcraft",
     "owner": "storytold",
     "name": "wordcraft",
-    "stars": 12875,
-    "velocity": 1570,
-    "delta": 4,
-    "age_days": 8.2,
+    "stars": 13496,
+    "velocity": 1464,
+    "delta": 621,
+    "age_days": 9.2,
     "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
     "new": false
+   },
+   {
+    "repo": "chenglou/handwired",
+    "owner": "chenglou",
+    "name": "handwired",
+    "stars": 1377,
+    "velocity": 931,
+    "delta": 1023,
+    "age_days": 1.5,
+    "description": "Turn your regular JavaScript code into a neural net.",
+    "new": true,
+    "variants": [
+     "handwired",
+     "chenglou handwired",
+     "cheng handwired"
+    ]
+   },
+   {
+    "repo": "feder-cr/git-ai",
+    "owner": "feder-cr",
+    "name": "git-ai",
+    "stars": 1032,
+    "velocity": 1009,
+    "delta": null,
+    "age_days": 1.0,
+    "description": "Git designed for AI agents.",
+    "new": true,
+    "variants": [
+     "git ai",
+     "feder-cr git ai",
+     "federico git ai"
+    ]
    },
    {
     "repo": "jhaizhou-ops/d2r-mobile",
     "owner": "jhaizhou-ops",
     "name": "d2r-mobile",
-    "stars": 2781,
-    "velocity": 870,
-    "delta": 5,
-    "age_days": 3.2,
+    "stars": 3452,
+    "velocity": 820,
+    "delta": 671,
+    "age_days": 4.2,
     "description": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs you",
-    "new": false
-   },
-   {
-    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-    "owner": "Arekejoker",
-    "name": "qwen21-nsfw-pose-skill",
-    "stars": 1778,
-    "velocity": 733,
-    "delta": 6,
-    "age_days": 2.4,
-    "description": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
     "new": false
    },
    {
     "repo": "ahwootech/BRUTAL",
     "owner": "ahwootech",
     "name": "BRUTAL",
-    "stars": 619,
-    "velocity": 619,
-    "delta": 10,
-    "age_days": 1.0,
+    "stars": 1390,
+    "velocity": 791,
+    "delta": 771,
+    "age_days": 1.8,
     "description": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, wit",
+    "new": false
+   },
+   {
+    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
+    "owner": "Arekejoker",
+    "name": "qwen21-nsfw-pose-skill",
+    "stars": 2389,
+    "velocity": 694,
+    "delta": 611,
+    "age_days": 3.4,
+    "description": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
+    "new": false
+   },
+   {
+    "repo": "fyzugx/DEsk",
+    "owner": "fyzugx",
+    "name": "DEsk",
+    "stars": 969,
+    "velocity": 162,
+    "delta": 597,
+    "age_days": 6.0,
+    "description": "",
+    "new": true,
+    "variants": [
+     "desk",
+     "fyzugx desk"
+    ]
+   },
+   {
+    "repo": "HeyPuter/everything",
+    "owner": "HeyPuter",
+    "name": "everything",
+    "stars": 1563,
+    "velocity": 540,
+    "delta": 591,
+    "age_days": 2.9,
+    "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
     "new": false
    },
    {
     "repo": "onehumanbeing/esp32-iphone-agent",
     "owner": "onehumanbeing",
     "name": "esp32-iphone-agent",
-    "stars": 2282,
-    "velocity": 607,
-    "delta": 3,
-    "age_days": 3.8,
+    "stars": 2774,
+    "velocity": 581,
+    "delta": 492,
+    "age_days": 4.8,
     "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No M",
     "new": false
+   },
+   {
+    "repo": "Supermedo/uncharted_pc",
+    "owner": "Supermedo",
+    "name": "uncharted_pc",
+    "stars": 896,
+    "velocity": 574,
+    "delta": null,
+    "age_days": 1.6,
+    "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
+    "new": true,
+    "variants": [
+     "uncharted pc",
+     "supermedo uncharted pc"
+    ]
    },
    {
     "repo": "storytold/gridcraft",
     "owner": "storytold",
     "name": "gridcraft",
-    "stars": 5049,
-    "velocity": 606,
-    "delta": 3,
-    "age_days": 8.3,
+    "stars": 5320,
+    "velocity": 569,
+    "delta": 271,
+    "age_days": 9.4,
     "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
     "new": false
+   },
+   {
+    "repo": "LosaLosSantos/aurelio-finance",
+    "owner": "LosaLosSantos",
+    "name": "aurelio-finance",
+    "stars": 3942,
+    "velocity": 405,
+    "delta": 569,
+    "age_days": 9.7,
+    "description": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts o",
+    "new": true,
+    "variants": [
+     "aurelio finance",
+     "losalossantos aurelio finance",
+     "loris aurelio finance"
+    ]
    },
    {
     "repo": "storytold/cadcraft",
     "owner": "storytold",
     "name": "cadcraft",
-    "stars": 5009,
-    "velocity": 601,
-    "delta": 2,
-    "age_days": 8.3,
+    "stars": 5298,
+    "velocity": 567,
+    "delta": 289,
+    "age_days": 9.3,
     "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
-    "new": false
-   },
-   {
-    "repo": "ARahim3/DigUp",
-    "owner": "ARahim3",
-    "name": "DigUp",
-    "stars": 3926,
-    "velocity": 586,
-    "delta": 4,
-    "age_days": 6.7,
-    "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Wi",
-    "new": false
-   },
-   {
-    "repo": "Caho1/open-claude-ui",
-    "owner": "Caho1",
-    "name": "open-claude-ui",
-    "stars": 580,
-    "velocity": 580,
-    "delta": 3,
-    "age_days": 1.0,
-    "description": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。纯手写 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
-    "new": false
-   },
-   {
-    "repo": "mhtsec/ARTEX",
-    "owner": "mhtsec",
-    "name": "ARTEX",
-    "stars": 4224,
-    "velocity": 577,
-    "delta": 1,
-    "age_days": 7.3,
-    "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
-    "new": false
-   },
-   {
-    "repo": "liseami/CCBaga",
-    "owner": "liseami",
-    "name": "CCBaga",
-    "stars": 2324,
-    "velocity": 528,
-    "delta": 0,
-    "age_days": 4.4,
-    "description": "",
-    "new": false
-   },
-   {
-    "repo": "HeyPuter/everything",
-    "owner": "HeyPuter",
-    "name": "everything",
-    "stars": 972,
-    "velocity": 518,
-    "delta": 6,
-    "age_days": 1.9,
-    "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
-    "new": false
-   },
-   {
-    "repo": "storytold/craft-launcher",
-    "owner": "storytold",
-    "name": "craft-launcher",
-    "stars": 2783,
-    "velocity": 498,
-    "delta": 0,
-    "age_days": 5.6,
-    "description": "The Craft App Launcher",
     "new": false
    }
   ],
-  "terms": [],
+  "terms": [
+   {
+    "term": "handwired",
+    "recent": 1,
+    "variants": [
+     "handwired",
+     "chenglou handwired",
+     "cheng handwired"
+    ],
+    "repo": "chenglou/handwired",
+    "note": "GitHub 爆发 chenglou/handwired ★1377(均 931/天,一天 +1023)",
+    "examples": [
+     "chenglou/handwired: Turn your regular JavaScript code into a neural net."
+    ]
+   },
+   {
+    "term": "git ai",
+    "recent": 1,
+    "variants": [
+     "git ai",
+     "feder-cr git ai",
+     "federico git ai"
+    ],
+    "repo": "feder-cr/git-ai",
+    "note": "GitHub 爆发 feder-cr/git-ai ★1032(均 1009/天)",
+    "examples": [
+     "feder-cr/git-ai: Git designed for AI agents."
+    ]
+   },
+   {
+    "term": "desk",
+    "recent": 1,
+    "variants": [
+     "desk",
+     "fyzugx desk"
+    ],
+    "repo": "fyzugx/DEsk",
+    "note": "GitHub 爆发 fyzugx/DEsk ★969(均 162/天,一天 +597)",
+    "examples": [
+     "fyzugx/DEsk: "
+    ]
+   },
+   {
+    "term": "uncharted pc",
+    "recent": 1,
+    "variants": [
+     "uncharted pc",
+     "supermedo uncharted pc"
+    ],
+    "repo": "Supermedo/uncharted_pc",
+    "note": "GitHub 爆发 Supermedo/uncharted_pc ★896(均 574/天)",
+    "examples": [
+     "Supermedo/uncharted_pc: Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo"
+    ]
+   },
+   {
+    "term": "aurelio finance",
+    "recent": 1,
+    "variants": [
+     "aurelio finance",
+     "losalossantos aurelio finance",
+     "loris aurelio finance"
+    ],
+    "repo": "LosaLosSantos/aurelio-finance",
+    "note": "GitHub 爆发 LosaLosSantos/aurelio-finance ★3942(均 405/天,一天 +569)",
+    "examples": [
+     "LosaLosSantos/aurelio-finance: Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts o"
+    ]
+   }
+  ],
   "window_days": 14
  },
  "sitemap": {
   "sites": {
    "glama": {
-    "urls": 128751,
-    "new": 13,
+    "urls": 130546,
+    "new": 1825,
     "first_run": false,
     "sample": [
-     "https://glama.ai/mcp/connectors/com.kwhmate/k-whmate-calculators",
-     "https://glama.ai/mcp/servers/Bavlio/bavimail-mcp-server",
-     "https://glama.ai/mcp/servers/Built-AI/prism-mcp",
-     "https://glama.ai/mcp/servers/DeepAleph/jevreel",
-     "https://glama.ai/mcp/servers/DuongNAD/pygmalion-mcp",
-     "https://glama.ai/mcp/servers/RealSatanyan/mnogoreels-mcp",
-     "https://glama.ai/mcp/servers/ashark-ai-05/mcp-screen",
-     "https://glama.ai/mcp/servers/capskov/cad-agent-foundation"
+     "https://glama.ai/mcp/connectors/academy.apexai/apex-ai-academy",
+     "https://glama.ai/mcp/connectors/ae.waggle/fenlight",
+     "https://glama.ai/mcp/connectors/ag.moltnode/molt-node-by-chord",
+     "https://glama.ai/mcp/connectors/ai.annsa/annsa",
+     "https://glama.ai/mcp/connectors/ai.askyouraudience/ask-your-audience",
+     "https://glama.ai/mcp/connectors/ai.boxcompute/boxcompute",
+     "https://glama.ai/mcp/connectors/ai.buildandship/agent",
+     "https://glama.ai/mcp/connectors/ai.clonekit/clonekit"
     ]
    },
    "mcp.so": {
-    "urls": 18855,
-    "new": 19,
+    "urls": 19018,
+    "new": 182,
     "first_run": false,
     "sample": [
-     "https://mcp.so/servers/ableton-vibe",
-     "https://mcp.so/servers/agent-pm",
-     "https://mcp.so/servers/amplitude",
-     "https://mcp.so/servers/beans-mcp",
-     "https://mcp.so/servers/bitcoin-mcp-server",
-     "https://mcp.so/servers/browseract",
-     "https://mcp.so/servers/cirdan",
-     "https://mcp.so/servers/csv_analyzer_mcp_server"
+     "https://mcp.so/agents/a2agent",
+     "https://mcp.so/agents/ai-hairstyle-changer",
+     "https://mcp.so/agents/imgai",
+     "https://mcp.so/agents/jev-ai-developer-api",
+     "https://mcp.so/agents/kelvinai",
+     "https://mcp.so/agents/loreform",
+     "https://mcp.so/agents/menuforma",
+     "https://mcp.so/agents/opengame-ai-game-agent"
     ]
    },
    "lobehub-mcp": {
@@ -234,7 +886,7 @@
    "toolify": {
     "urls": 692,
     "new": 0,
-    "first_run": true,
+    "first_run": false,
     "sample": []
    },
    "aixploria": {
@@ -245,9 +897,18 @@
    },
    "ai-bot.cn": {
     "urls": 5068,
-    "new": 0,
+    "new": 8,
     "first_run": false,
-    "sample": []
+    "sample": [
+     "https://ai-bot.cn/claude-opus-5-5-video-generation-collection/",
+     "https://ai-bot.cn/doory/",
+     "https://ai-bot.cn/flux-3-image-klein/",
+     "https://ai-bot.cn/gpt-live-1-1/",
+     "https://ai-bot.cn/midashenglm-spatial/",
+     "https://ai-bot.cn/muse-spark-open/",
+     "https://ai-bot.cn/sites/88050.html",
+     "https://ai-bot.cn/sites/88080.html"
+    ]
    },
    "opentools": {
     "urls": 6990,
@@ -256,10 +917,19 @@
     "sample": []
    },
    "dang": {
-    "urls": 7631,
-    "new": 0,
+    "urls": 7668,
+    "new": 37,
     "first_run": false,
-    "sample": []
+    "sample": [
+     "https://dang.ai/integration/canva-ai-apps-and-integrations",
+     "https://dang.ai/integration/copyscape-ai-tools-and-integrations",
+     "https://dang.ai/integration/microsoft-teams-ai-apps-and-bots",
+     "https://dang.ai/integration/notion-ai-tools-and-integrations",
+     "https://dang.ai/integration/outlook-ai-add-ins-and-integrations",
+     "https://dang.ai/integration/semrush-ai-integrations",
+     "https://dang.ai/tool/ai-anime-generator-anime-ai-image-generator",
+     "https://dang.ai/tool/ai-ranked-robots-txt-ai-crawler-checker-robots-txt-ai-crawler-checker"
+    ]
    },
    "clipfly": {
     "urls": 281,
@@ -268,10 +938,16 @@
     "sample": []
    },
    "aitoptools": {
-    "urls": 11826,
-    "new": 0,
+    "urls": 11831,
+    "new": 5,
     "first_run": false,
-    "sample": []
+    "sample": [
+     "https://aitoptools.com/ai-blog/how-ai-tools-are-changing-instagram-growth-strategies/",
+     "https://aitoptools.com/tool/ai-jewelry-model-2/",
+     "https://aitoptools.com/tool/botreon-3/",
+     "https://aitoptools.com/tool/everygen-ai-2/",
+     "https://aitoptools.com/tool/overmode-outfit-aesthetic-identifier/"
+    ]
    },
    "futurepedia": {
     "urls": 1329,
@@ -280,7 +956,158 @@
     "sample": []
    }
   },
-  "terms": []
+  "terms": [
+   {
+    "term": "connectors io.github.ukraine",
+    "recent": 27,
+    "baseline": 0,
+    "lift": 27.0
+   },
+   {
+    "term": "io.github.ukraine territorial",
+    "recent": 27,
+    "baseline": 0,
+    "lift": 27.0
+   },
+   {
+    "term": "aiframework",
+    "recent": 25,
+    "baseline": 0,
+    "lift": 25.0
+   },
+   {
+    "term": "mspbotsaiframework",
+    "recent": 25,
+    "baseline": 0,
+    "lift": 25.0
+   },
+   {
+    "term": "mspbots",
+    "recent": 25,
+    "baseline": 54,
+    "lift": 15.5
+   },
+   {
+    "term": "connectors dev.workers.mmelnyk2000.well",
+    "recent": 14,
+    "baseline": 0,
+    "lift": 14.0
+   },
+   {
+    "term": "wanderlog",
+    "recent": 10,
+    "baseline": 7,
+    "lift": 9.3
+   },
+   {
+    "term": "setup",
+    "recent": 13,
+    "baseline": 42,
+    "lift": 8.8
+   },
+   {
+    "term": "cloakbrowser",
+    "recent": 9,
+    "baseline": 9,
+    "lift": 8.2
+   },
+   {
+    "term": "langfuse",
+    "recent": 10,
+    "baseline": 26,
+    "lift": 7.7
+   },
+   {
+    "term": "p4mcp",
+    "recent": 8,
+    "baseline": 3,
+    "lift": 7.7
+   },
+   {
+    "term": "ombre",
+    "recent": 8,
+    "baseline": 3,
+    "lift": 7.7
+   },
+   {
+    "term": "ombre brain",
+    "recent": 8,
+    "baseline": 3,
+    "lift": 7.7
+   },
+   {
+    "term": "pooriaarab benchmark",
+    "recent": 8,
+    "baseline": 3,
+    "lift": 7.7
+   },
+   {
+    "term": "arxiv latex",
+    "recent": 8,
+    "baseline": 5,
+    "lift": 7.6
+   },
+   {
+    "term": "vibe coder",
+    "recent": 8,
+    "baseline": 6,
+    "lift": 7.5
+   },
+   {
+    "term": "pingfusi",
+    "recent": 7,
+    "baseline": 0,
+    "lift": 7.0
+   },
+   {
+    "term": "excalidraw architect",
+    "recent": 7,
+    "baseline": 4,
+    "lift": 6.7
+   },
+   {
+    "term": "idapro",
+    "recent": 7,
+    "baseline": 4,
+    "lift": 6.7
+   },
+   {
+    "term": "modeling prep",
+    "recent": 7,
+    "baseline": 7,
+    "lift": 6.5
+   },
+   {
+    "term": "stufently",
+    "recent": 7,
+    "baseline": 7,
+    "lift": 6.5
+   },
+   {
+    "term": "aki",
+    "recent": 7,
+    "baseline": 8,
+    "lift": 6.4
+   },
+   {
+    "term": "financial modeling",
+    "recent": 7,
+    "baseline": 8,
+    "lift": 6.4
+   },
+   {
+    "term": "blog",
+    "recent": 36,
+    "baseline": 425,
+    "lift": 6.2
+   },
+   {
+    "term": "outline",
+    "recent": 8,
+    "baseline": 26,
+    "lift": 6.2
+   }
+  ]
  },
  "newsite": {
   "skipped": true
@@ -292,7 +1119,7 @@
   "skipped": true
  },
  "gsc": {
-  "skipped": true
+  "off": true
  },
  "review": {
   "checked": [],
@@ -301,10 +1128,204 @@
  },
  "summary": {
   "by_signal": {},
-  "pending": 15,
+  "pending": 51,
   "window_days": 60
  },
  "keywords": {
-  "skipped": true
+  "names": [
+   "handwired",
+   "git ai",
+   "aurelio finance",
+   "uncharted pc"
+  ],
+  "rows": [
+   {
+    "phrase": "net worth tracker app",
+    "evidence": "how to calculate net worth… your banks and brokers, their cash, and dated situations of what you hold",
+    "brand": false,
+    "source": "model",
+    "relevance": 0.82,
+    "is_name": false,
+    "established": false,
+    "term": "net worth tracker app",
+    "kind": "generic",
+    "names": [
+     "aurelio finance"
+    ],
+    "volume": 140,
+    "month": "2026-09",
+    "no_data": true,
+    "peak_vs": 1,
+    "bench_level": 50.9,
+    "decision": "watch",
+    "competition": {
+     "verdict": "open",
+     "weak": null,
+     "kd": 14,
+     "ads": false,
+     "kinds": {
+      "forum": 1,
+      "article": 2,
+      "tool": 2,
+      "list": 3,
+      "video": 1
+     },
+     "features": [
+      "ai_overview",
+      "people_also_ask",
+      "related_searches"
+     ],
+     "weakest": null
+    }
+   },
+   {
+    "phrase": "investment portfolio tracker",
+    "evidence": "every position priced from the market, with its cost, gain and dividends",
+    "brand": false,
+    "source": "model",
+    "relevance": 0.75,
+    "is_name": false,
+    "established": false,
+    "term": "investment portfolio tracker",
+    "kind": "generic",
+    "names": [
+     "aurelio finance"
+    ],
+    "volume": 260,
+    "month": "2026-09",
+    "no_data": false,
+    "base": 5.5,
+    "peak": 19,
+    "peak_day": "2026-09-20",
+    "rose": false,
+    "new": false,
+    "momentum": null,
+    "now": "flat",
+    "peak_vs": 1,
+    "bench_level": 52.1,
+    "per_day": 0,
+    "decision": "skip"
+   },
+   {
+    "phrase": "play ps4 games on pc",
+    "evidence": "the original PS4 game code runs directly on your PC and the graphics are translated to Vulkan",
+    "brand": true,
+    "source": "model",
+    "relevance": 0.6,
+    "is_name": false,
+    "established": false,
+    "term": "play ps4 games on pc",
+    "kind": "generic",
+    "names": [
+     "uncharted pc"
+    ],
+    "volume": 110,
+    "month": "2026-09",
+    "no_data": false,
+    "base": 0,
+    "peak": 100,
+    "peak_day": "2026-10-04",
+    "rose": true,
+    "new": true,
+    "momentum": 0.0,
+    "started": "2026-10-04",
+    "now": "fading",
+    "peak_vs": 3,
+    "bench_level": 52.4,
+    "decision": "skip"
+   },
+   {
+    "term": "handwired",
+    "phrase": "handwired",
+    "kind": "name",
+    "names": [],
+    "brand": true,
+    "evidence": "",
+    "no_data": false,
+    "base": 5.2,
+    "peak": 16,
+    "peak_day": "2026-09-20",
+    "rose": false,
+    "new": false,
+    "momentum": null,
+    "now": "flat",
+    "peak_vs": 2,
+    "bench_level": 51.6,
+    "decision": "skip"
+   },
+   {
+    "term": "git ai",
+    "phrase": "git ai",
+    "kind": "name",
+    "names": [],
+    "brand": true,
+    "evidence": "",
+    "no_data": false,
+    "base": 48.2,
+    "peak": 58,
+    "peak_day": "2026-09-16",
+    "rose": false,
+    "new": false,
+    "momentum": 1.0,
+    "now": "flat",
+    "peak_vs": 42,
+    "bench_level": 57.5,
+    "decision": "skip"
+   },
+   {
+    "term": "aurelio finance",
+    "phrase": "aurelio finance",
+    "kind": "name",
+    "names": [],
+    "brand": true,
+    "evidence": "",
+    "no_data": false,
+    "base": 0,
+    "peak": 100,
+    "peak_day": "2026-10-12",
+    "rose": false,
+    "new": false,
+    "momentum": null,
+    "now": "flat",
+    "peak_vs": 2,
+    "bench_level": 52.2,
+    "decision": "skip"
+   },
+   {
+    "term": "uncharted pc",
+    "phrase": "uncharted pc",
+    "kind": "name",
+    "names": [],
+    "brand": true,
+    "evidence": "",
+    "no_data": false,
+    "base": 15.3,
+    "peak": 100,
+    "peak_day": "2026-09-14",
+    "rose": false,
+    "new": false,
+    "momentum": 0.9,
+    "now": "flat",
+    "peak_vs": 37,
+    "bench_level": 40.5,
+    "decision": "skip"
+   }
+  ],
+  "proposed": 23,
+  "relevant": 10,
+  "kept": 3,
+  "benchmark": "gpts",
+  "bench_daily": null,
+  "volume_month": "2026-09",
+  "no_evidence": [],
+  "posts_error": "",
+  "related": false,
+  "tails": {},
+  "cosearch": [],
+  "related_errors": [],
+  "geo": "US",
+  "country_errors": [],
+  "competition_errors": [],
+  "cost_micros": 122270
  }
 }

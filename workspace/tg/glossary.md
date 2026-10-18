@@ -793,3 +793,62 @@
 - `3xui` — 面板软件（InfiCheesy 橙子「3xui 面板」）。
 - `Xfers` — 发卡/BIN 相关（东逆海外基建 Golden West「xfers发卡」）；此前 RedotPay 新加坡卡亦提及。
 - 成员续：外卡交流频道 — Wong、ingat、炖粉条 猪肉、一隻北極熊（续）；奶昔论坛 — 𝑾𝒊𝒏𝒔 𝑻𝒚𝒏𝒆、The Boys、Jaf Ku、ingat、裁缝、kutoku k（续）；海无方美卡 — sophnet、CapeCake（续）；东逆薅毛大队 — Yu Yu、枪王、东逆、MEN ZHE、Sprint、Alex Yang、白 白、Da da、Ryoi Sern、Hotman、Ginlay、jooooeyc、Footless（续）；东逆海外基建 — Ronsey IG、Sprint、lu12926、𝑾𝒉𝒊𝒕𝒆𝑺𝒉𝒆𝒆𝒑、Golden West、Arion、Not now、Van Darkholme、T&C TYIP、wall wall、yuxi liu、ssx a、Da da、ice W、Hotman、hhhhh、@w、MEN ZHE（续）；InfiCheesy — kaka、水箭龟、aniefyek、Feng、Sunny Wang、Ferdinand LENG、asdqwee123、Vincent Stacy、橙子、Trump、Zara Joyce、loong god（续）；何居上跨境 — 𝑾𝒉𝒊𝒕𝒆𝑺𝒉𝒆𝒆𝒑、dh p（续）；英国卡代收 — USS.Discovery、Woo Zeke、Ralap Richardson（续）；U美卡分享会 — 陈 安、Yll Yl；plum开车群 — 绝杀黑七 永久、华人出金U卡 | 柯南；VPS家宽AI群 — rinxv、Kutnahola、Wen、Wiend Roboy、Kane Harry、维多（续）；Loon-0x00 — sahc、姥 舅、friend、Tartarus、🔔🐈、萧楚澜、colin pp、老王、Real Trump（续）；Nbvil交流群 — sun haoran。
+
+## 本小时新增（2026-10-18 17）
+- `Bitsflow` — VPS/线路商家（群友发 ccp.bitsflow.cloud 订购页；与日本线路延迟并提）。
+- `ProxySeller` — 住宅/代理 IP 商家（InfiCheesy 群友写 proxyseller 日本住宅 IP）。
+- `SECBANK` / `secbank` — 菲律宾银行（东逆薅毛大队 Tao「secbank 中转」；Van Darkholme 问开户是否要菲律宾 IP）。
+- `CTMO` — 群友对澳门 CTM 预付/线上开卡的俗称（奶昔论坛对比 CTMO / CTHK）。
+- `CTHK` — 群友对电信香港（China Telecom HK）卡的俗称；与绿卡流量套餐并提。
+- `Western Union` / `Westunion` — 西联汇款（东逆薅毛大队 Ice Blue「Westunion转ifast」）。
+
+## 本小时新增（2026-10-18 18）
+- `MySIM` / mysim — 群友称与 `CMHK`（中国移动香港）相关的「一卡两地」产品/称呼（外卡交流频道 Adolf Hitler「mysim一卡两地」、Liu Sir「这是cmhk」），照原文。
+- `英沃` — 群友对英国 Vodafone / VOXI 相关 App 的俗称（InfiCheesy Arion「我只能登录英沃app」「他给我转英沃了好像」），照原文。
+- 成员续：外卡交流频道 — Adolf Hitler、星と青空、Vick Tang（续）；奶昔论坛 — kutoku k、斯巴达克斯✨、抛 瓦（续）、大蒙古 帝国🇲🇳；海无方美卡 — 52、Freelf、OG、T T、八方来财、Ralap Richardson、Lune、Pain4Din0、无缘、冲浪屌鹰、X JANE（续）；东逆薅毛大队 — AMI、King 💳、relax、ss dyhs、Dahl Deacon、Elijah WW；东逆海外基建 — Carey Mins、Coek old、jim betty、Ɔ̸azima、LIN YU、壹贰叁、帝 文、𝑾𝒉𝒊𝒕𝒆𝑺𝒉𝒆𝒆𝒑（续）；InfiCheesy — 𝑯𝑶𝑳𝑴𝑬𝑺、Arion、Momtaj Bejum（续）；英国卡代收 — kkyuy99、MEN ZHE（续）；plum开车群 — 天；VPS家宽AI群 — Kutnahola（续）；Loon-0x00 — 手伸进裤子掏出又大又硬又烫的小米手机来玩。
+
+## 本小时新增（2026-10-18 19）
+- `CallYa` — 德国 Vodafone 预付品牌（奶昔 Mu Mu 贴 SMS「CallYa SIM-Karte sperren wir in einem Monat」；客服号 ==12007==）。
+- `信银 GBA` / 信银国际大湾区双币信用卡 — 中信银行（国际）GBA 卡（海无方 冲浪屌鹰「信银gba信用卡 每月刷4200」）。
+- `AkileCloud` — VPS 商家（VPS家宽AI群 Wen「AkileCloud和panstar.ai长得都好像」）。
+- `panstar.ai` — 群友与 AkileCloud 并提的 VPS/面板站（Wen），照原文。
+- `NoSLA Cloud` — VPS 商家（VPS家宽AI群 bot 列出洛杉矶机）。
+- 成员续：外卡交流频道 — TRAIN、June Park、星と青空、Liu Sir（续）；奶昔论坛 — Jiä、Mu Mu、Nerve、Jaf Ku（续）；海无方美卡 — sophnet、CapeCake、也许天天开心、Lune、David、Yole、zz+++++++、(˵¯͒〰¯͒˵)❄️、OG、AMI、海无方、冲浪屌鹰、Ray Leeee（续）；东逆薅毛大队 — undefined、Alex Yang、ox00、wall wall、2han9wen71an、AMI（续）；东逆海外基建 — Ɔ̸azima、Hugh Lee、Coek old、Not now、Carey Mins、Ly、C、panda、C酱です、Da da、wall wall（续）；InfiCheesy — (๑´0`๑)、First Word、自由者、Micheal Courant、Feng（续）；何居上跨境 — Yamada saki、ox00（续）；英国卡代收 — MEN ZHE、Alex Yang、Y、🐉、Not now（续）；VPS家宽AI群 — liu mart、crok、D姐 | demonyins、Carolyn、Wen、Jeff Van（续）；Loon-0x00 — Doryeong Nam、ᴘᴀᴋᴏˣ、Tartarus、手伸进裤子掏出又大又硬又烫的小米手机来玩（续）。
+
+## 本小时新增（2026-10-18 20）
+- `CTGNet` / ctgnet — 中国电信国际/港澳相关骨干（群友称 CTHK/CTMO 改用 ctgnet；AS 核验见 CTMO AS136167 upstream AS23764）。
+- `电信蓝卡` / `电信绿卡` — 群友对电信香港预付档的叫法（奶昔 CBKGX 1088 / Zip Jun），照原文。
+- `PayPal UK` / paypaluk — 群友问英区 PayPal 信用卡需几个月信用（奶昔 想想就好玩）。
+- `wolford` — VPS家宽AI群 Carolyn 称 CF 流量被薅主要来源写法，照原文。
+- `claude flare` — InfiCheesy zuo xin 称用其搭节点，照原文。
+- 成员续：奶昔论坛 — CBKGX 1088、Nerve、kutoku k、Zip Jun、阿力、roy bark（续 𝑾𝒊𝒏𝒔 𝑻𝒚𝒏𝒆/想想就好玩）；海无方美卡 — Jing Li、Phoebe、Iuuuu、Lune、David、AMI（续）；东逆薅毛大队 — Ice Blue、Roy 🍅 🍅 LL 🍅、奶茶⁵分甜𖠚ᐝ、Ralap Richardson、Yy、Sprint、ox00、AMI（续）；东逆海外基建 — 无风 | 全球SIM卡代购、Ɔ̸azima、q jk、ssx a、Y T、kirk sun、Kayno、夏天的风、zzkkxx、Sun ZY、skyboy（续 Carey Mins/C酱です/Ly/wall wall/xuanwoa/panda）；InfiCheesy — Weerasila Gan、NeoLeo 404、Qian Ye、zuo xin、Momtaj Bejum、QQ pp、Alan、财务 李天（续）；何居上跨境 — Yamada saki、Yun、叶 良辰（续）；英国卡代收 — USS.Discovery、Yuxiang、severen gust（续）；U卡交流 — yibu lishou、晴天 云；Jason保号实验室 — Shawn、Jason（续）；VPS家宽AI群 — 煜林、无聊 🚸、wolford语境 Carolyn（续）；Loon-0x00 — ⛰️ 高山流水、moyan、索隆、王嘉尔、Rain、烏力、雾 晨（续 Tartarus）。
+
+## 2026-10-18 21 时增补
+- `RevolutX` — Revolut 加密交易产品（东逆海外基建群友写 RevolutX / revolute）。
+- `肥鱼` — VPS家宽AI群对某 AI/中转面板的叫法（张子君「1017的肥鱼」），照原文。
+
+## 2026-10-18 22 时增补
+- `TransferGo` — 跨境汇款 App（东逆薅毛大队 C酱です 对比 Ria 汇率；群友亦写 Tansfergo）。
+- `Loon Lite` — Loon 相关产品名（Loon-0x00 JJ 问「Loon Lite 是啥」；Rain 称官网 ==10== 刀）。
+- `dwell` — 群友称可莉推荐的某群/服务（Loon Community slim zhang「dwell 还能加入吗」），照原文。
+- `MTiban` / mtiban — Altery/相关英镑账户 IBAN 变体（东逆海外基建 LIN YU「喜提MTiban」；C酱です称多 IBAN），照原文。
+- `ppflight` — 中转机/VPS 特价商家（VPS家宽AI群 SkyBlue 与 vmiss、taxi.ip、六六云、Akko 并提）。
+- `taxi.ip` — 中转机特价商家（SkyBlue），照原文。
+- `Akko` — VPS/中转特价商家（SkyBlue「Akko特价」），照原文。
+- 成员续：奶昔论坛 — Calyx Hikari | TCC Bankruptcy Countdown、乾坤、阿力（续）；海无方美卡 — Maruc5、o_0、许 四多、nn、Jaf Ku、欣、Yu Yu、Lune（续）；东逆薅毛大队 — Y. GAO、さくら、vi visitor、ha ha、AMI、Sprint、MEN ZHE、C酱です、Y（续）；东逆海外基建 — Keil、Ronsey IG、小梦 蚩、wall wall、啊七、Carey Mins、yuxi liu、ice W、不穿内裤 巨龙不应该被束缚、LIN YU、Golden West、Lee、KimJongun（续）；InfiCheesy — Sunny Wang、cheng mike、濯、Ray Leeee、Jing Li、达瓦里希 乌拉、?¿?、闲聊、星 星、X Freedom、ikun、dorrin、𝓡𝓮𝓶𝓲𝔁、故人、Peter-lawyer、TSSXingYi、自由者、拾 恩、𝑨𝒔𝒔𝒂𝒔𝒔𝒊𝒏 𝑼𝒔（续）；VPS家宽AI群 — Milo Quinn、SkyBlue、Rick、Jiang Haiyang、rinxv、大无聊国国王（续 维多/D姐）；Loon-0x00 — Peng、Benn L、Xia Wanting、JJ、Rain、zao、sahc、Airne Lol、Tartarus（续）；LoonCommunity — slim zhang。
+
+## 2026-10-18 23 时增补
+- `Cross River Bank`（群友：Cross River Bank最出名的就是X Card了）
+- `懒猫云`（VPS，群友称卖 NAT）、`esimfan`（eSIM 管理 App）、`LocationSpoofer`（安卓改定位）
+
+## 2026-10-19 0 时增补
+- `nbn`（澳洲宽带网，群友：一般都是用telstra的nbn的）、`Optus`（澳洲运营商/家宽，For Freedom）
+- `中银 Chill` — 中银香港 Chill 卡（InfiCheesy Feng「中银chill 汇丰red都要啊」）；`Amex HK`（海无方美卡 Ray Leeee「走gt用的amex hk」）
+- 成员续：海无方美卡 — OWENRAUL、springjellyfish、Sep.、silence☁️💳、WTOM、Yuen Bai、M Li .；InfiCheesy — Weerasila Gan、Kizami 大魔王、Seven77 HK、LáFLAME、小耗子；东逆海外基建 — 飒纳诺、Gahany、天 明；东逆薅毛大队 — Found♦、miku39arch、白夜雨。
+- `Starry Plus` — Starryblu 月度会员档（网上核验来源写 9.99 美元/月；InfiCheesy LáFLAME「付9.9开会员就下卡了」）；`skinny`（InfiCheesy Rene「有没有skinny中介群」）
+- 成员续：InfiCheesy — Zane Hsu、Rene；Loon-0x00 — 微笑 不失礼。
+
+## 2026-10-19 2 时增补
+- `Superloop`（澳洲 NBN 宽带商，外卡交流频道「•」：千兆的superloop只要公寓支持就可以装）；`GLaDOS`（Loon-0x00 签到插件 glados.lpx）、`WPS`（Loon 签到脚本）
+- `Plasma One` — 群里简称 p1（东逆海外基建 飒纳诺「p1好啊，每个月薅8美元」）；`council tax`（英国市政税单，Lyn 用作地址证明）
+- 成员续：东逆海外基建 — Lyn、U w U、Ɔ̸azima、x x、J LORDBEE、白 白；东逆薅毛大队 — Felix、洛；InfiCheesy — Giftia；Loon-0x00 — 鱼安 yuan、crok、八 天王、火鸡面；LoonCommunity — p c。

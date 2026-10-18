@@ -16,10 +16,10 @@ EXC = re.compile(r'(/venv/|/\.venv/|node_modules|__pycache__|\.pyc$|/\.cache/|/(
     r'|^/workspace/tg/(data|archive)/|^/workspace/router/oc/|^/workspace/subtask/'
     r'|^/workspace/f50/subs/|^/workspace/f50/config\.yaml$|^/workspace/router/t/config\.yaml$'
     r'|install-command|/raw-[^/]*\.(json|txt)$|bookmarks-raw\.json$|ufi_rg_out'
-    r'|(^|/)[^/]*(secret|credential|creds|token|session|cookie)[^/]*$|\.pem$|auth\.json'
+    r'|(^|/)[^/]*(secret|credential|creds|token|session|cookie)[^/]*$|\.pem$|\.pw$|auth\.json'
     r'|^/home/box/agent-tools/[^/]*/out|/\.config/grokbot-backup/)', re.I)
 ALLOW_TOKEN_EXT = {'freetoken-bots'}  # dir names containing "token" that are fine
-REDACT_FILES = ('/workspace/tp/tp.py', '/workspace/shared.md', '/workspace/tg/digests/', '/workspace/loon_fixed_v3.lcf')
+REDACT_FILES = ('/workspace/tp/tp.py', '/workspace/shared.md', '/workspace/tg/digests/', '/workspace/loon_fixed_v3.lcf', '/workspace/handoff/anytls-nodes.md')
 WEAK = re.compile(r'''(password|passwd|pwd|secret|api_?key|token)(["']?\s*[:=]\s*["']?)([^"'\s,${}<>`]{6,})''', re.I)
 STRONG = re.compile(r'sk-[A-Za-z0-9_-]{16,}|ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16}'
                     r'|xox[bpa]-[A-Za-z0-9-]{10,}|-----BEGIN [A-Z ]*PRIVATE KEY')

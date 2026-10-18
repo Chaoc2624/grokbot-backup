@@ -1,0 +1,44 @@
+📌 推特书签简报 · 2026-10-17 晚上（22:00 档，约 22:11 发出）
+
+账号 @Chaoc2624 · 今早之后新增 7 条书签，没有新的硬截止。另有 112 条之前推过、在看板上还没处理。
+
+🟡 和正在办的事相关
+【建站】
+• TanStarter 内置 better-auth 的 emailHarmony：注册时记 normalized email，同一主邮箱的别名没法再注册，用来防 AI SaaS 被恶意换邮箱白嫖。做免费额度/试用产品可对照落地 https://x.com/indie_maker_fox/status/2111291109297238384
+
+【出海】
+• 欧易欧区注册有风险：条款写明一人不能同时拥有多区账户；作者会注销欧区、不出教程以免国区被封。已有国区的别再开欧区 https://x.com/WeiYi88890/status/2111293432086106132
+
+【AI 工具】
+• agency-agents：GitHub 约 15 万 star，200+ 专家级 Agent 角色（CEO/程序员/律师/增长黑客等），可直接丢给 Claude。可和看板上其他角色库对照 https://x.com/wangxiaoxin88/status/2111162005231128632
+• OpenDesign Motion：自称 Claude Motion 开源替代，可用自选模型和 Agent 做动效视频（发布视频用 DeepSeek v4.1 Flash 做的）。关注是否真开源与定价 https://x.com/tuturetom/status/2111044476273910123
+
+【Claude】
+• Claude 官网可查账号要不要 KYC：登录后 /api/organizations 拿 uuid，再看 …/kyc_status（not_required / pending / approved / denied） https://x.com/RiverAi7z/status/2110992159331831919
+
+【服务器】
+• 甲骨文云 2026 版教程：免费开最多 4 台？最高 4 核 24G，手把手开通。注意 Always Free 配额与账号风控 https://x.com/Ylj158852/status/2111045977167774029
+
+【身份】
+• 内地驾照可换香港驾照（出境办或淘宝）；作者称换到后英/德/澳/新/马/新西兰/加等可用香港本——务必再核实当地政策，并和看板上「免试换证需预约」对照 https://x.com/visa6363/status/2111016147847889264
+
+⏳ 之前推过、还没处理（112 条，详情在看板）
+• 仍可能随时关：SheerID 认证通道、内地驾照换香港驾照预约、IBKR 放水、AlipayHK×美团小象等羊毛。
+• MLH / Cursor Pro（10-15 截止）、创兴「最后一天」（10-09）都已过期，看板上可顺手清掉。
+• 其余主要是美卡、税号、港卡、网络、建站和 Agent 工具几大块。
+
+🤖 AI 新品（10-17 10:05 – 10-17 22:10）
+• DeepSeek-V4.1-Flash-1017：基准更强、任务更快、输出更短，称性能与成本 Pareto 改进；已上线官网/App/API，并针对 DeepSeekHarness、腾讯 CodeBuddy 等优化。同线程开源上架 HF/ModelScope @deepseek_ai · 16:35 https://x.com/deepseek_ai/status/2111375640717033777
+• DeepSeek Search & Fetch API 全面开放：自研搜索引擎，每端点 $0.75/千次；文档已出，也可经服务端工具在 DeepSeek 内调用 @deepseek_ai · 16:35 https://x.com/deepseek_ai/status/2111375650414309859
+• DeepSeek-V4.1-Flash-1017 开源权重：Hugging Face + ModelScope 可下 @deepseek_ai · 16:35 https://x.com/deepseek_ai/status/2111375653069259247
+（OpenAI、Anthropic、DeepMind、Meta、Qwen、HF、@_akhaliq 这窗口没有新帖；xAI 搜索无结果。早间已推过的 Astra Pro / Mythos 5 / Argon 不重复。）
+
+🔥 建站热词
+1. DeepSeek-V4.1-Flash-1017：全新型号名刚官宣，「Flash-1017 和旧 Flash 差在哪、API 怎么调、HF 权重在哪」今晚会集中搜，适合做型号对比与接入教程页。
+2. DeepSeek Search Fetch API：Agent/RAG 联网检索新入口，「怎么接、和自建搜索比贵不贵」会跟着搜，适合做接入与比价页。
+3. DeepSeek-V4.1-Flash open weight：开源权重落地后，「本地怎么跑、量化、和 API 版差多少」会成热点，适合做部署/量化指南页。
+
+💰 X 接口：开跑前 12.96 美元 → 跑完 12.92 美元（免费额度，2027-10-06 到期），本次约花 0.04 美元（一页 15 条书签）。AI 雷达用的是免费的 x 搜索，没遇到限流。
+
+简报同步时 HTTPS 曾断连一次，改用 curl 直推成功；看板已同步（7 条新书签、简报、新词表）。
+看板：https://x.omnitools.cc

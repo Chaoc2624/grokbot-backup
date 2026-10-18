@@ -111,3 +111,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/box/.local/bin:$PATH"

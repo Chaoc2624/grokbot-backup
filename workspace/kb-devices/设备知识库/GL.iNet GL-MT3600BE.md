@@ -60,6 +60,13 @@ updated: 2026-10-09
 
 > 新的在上。日期来自文件里的注释或文件修改时间。共享电脑上标着 10-06 14:21 的文件是那时统一拷进来的，实际改动可能更早。
 
+### 2026-10-17 · 关闭自建 VPS 出口切换的 Telegram 通知
+- 原因：自建 VPS（含 QQG）暂时不可用，用户要求不要再为这类失败/切换发 TG。
+- 改动：注释掉 crontab 里的 `* * * * * /usr/bin/exitmon`（脚本本身未删）。
+- 保留：`linkmon`（网口降速）、`bwmon`（总出口/Telegram 带宽变慢）照常。
+- 备份：`/root/bak-exitmon/exitmon.20261017-115016`、`/root/bak-exitmon/crontab.20261017-115016`
+- 恢复：把 crontab 里那行 `# * * * * * /usr/bin/exitmon` 前面的注释去掉即可。
+
 ### 2026-10-08 · 导出当前配置给 F50 用
 - 当时路由器上在用的 OpenClash 配置被拷了一份到 `/workspace/f50/src/gl-work-router.yaml`。这时已经有「樱花猫 / 樱花猫自动」组，节点来源是 omni + sakura。
 - F50 的配置就是以它为模板生成的，见 [[ZTE F50]]。

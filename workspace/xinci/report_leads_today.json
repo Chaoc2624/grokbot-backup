@@ -1,0 +1,554 @@
+{
+  "day": "2026-10-17",
+  "source": "radar.db leads + first daily run (second --out pass emptied after state update)",
+  "aisa_data_spend_usd": 0.0,
+  "failures": [
+    "X: AisaError RemoteDisconnected / IncompleteRead（新词表未生成）",
+    "breakout second pass: RemoteDisconnected",
+    "glama second pass IncompleteRead; first pass ai-bot.cn IncompleteRead",
+    "newsites skipped by design"
+  ],
+  "leads_today": [
+    {
+      "term": "codebadger",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 8 处 (×7.4)",
+      "name_score": 0.7,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "com.douxprocess",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 3 处 (×3.0)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "connectors app.openkrill",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 17 处 (×13.8)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "connectors com.douxprocess",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 3 处 (×3.0)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "connectors dev.tanod",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 5 处 (×4.7)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "connectors io.github.nichovski",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 3 处 (×3.0)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "connectors io.github.pcp183",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 20 处 (×19.3)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "deepseek v4.1 flash 1017",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "hf"
+      ],
+      "note": "HF 新进榜第 5 名",
+      "name_score": 0.95,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "fizzbuzz",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "x"
+      ],
+      "note": "X 1 个账号 ♥106",
+      "name_score": 0.6,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "flowlens",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 7 处 (×6.8)",
+      "name_score": 0.85,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "gemini 3.8 tts",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "x"
+      ],
+      "note": "X 1 个账号 ♥106",
+      "name_score": 0.7,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "geo",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 6 处 (×3.5)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "gpt 6.1",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "x"
+      ],
+      "note": "X 1 个账号 ♥107",
+      "name_score": 0.8,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "gpt 6.1 sol",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "x"
+      ],
+      "note": "X 1 个账号 ♥107",
+      "name_score": 0.85,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "gpt-6 astra pro",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "x"
+      ],
+      "note": "X 1 个账号 ♥5829",
+      "name_score": 0.9,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "gpt-live-1",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "x"
+      ],
+      "note": "X 1 个账号 ♥1093",
+      "name_score": 0.85,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "groundmail",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 3 处 (×3.0)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "harness",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 8 处 (×4.6)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "harness kit",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 5 处 (×4.9)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "hasdata",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 6 处 (×5.1)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "hegelion",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 8 处 (×7.4)",
+      "name_score": 0.7,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "io.github.nichovski",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 3 处 (×3.0)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "io.github.pcp183",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 20 处 (×19.3)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "jev browser",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 9 处 (×7.6)",
+      "name_score": 0.6,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "mac",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 5 处 (×3.0)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "memex",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 8 处 (×6.8)",
+      "name_score": 0.8,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "moss image",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "hf"
+      ],
+      "note": "HF 新进榜第 49 名",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "moss image sft",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "hf"
+      ],
+      "note": "HF 新进榜第 42 名",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "multicad",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 11 处 (×10.2)",
+      "name_score": 0.8,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "net.useapi",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 3 处 (×3.0)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "opencode",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 5 处 (×3.1)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "pika x chatgpt",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "x"
+      ],
+      "note": "X 1 个账号 ♥134",
+      "name_score": 0.8,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "pocketbase",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 11 处 (×8.8)",
+      "name_score": 0.9,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "reactmcp",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 10 处 (×9.6)",
+      "name_score": 0.7,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "renor",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 3 处 (×3.0)",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "serpapi",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 11 处 (×9.2)",
+      "name_score": 0.85,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "solidcraft",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "breakout"
+      ],
+      "note": "GitHub 爆发 tangency-labs/solidcraft ★3600(均 368/天,一天 +526)",
+      "name_score": 0.95,
+      "variants": [
+        "solidcraft",
+        "tangency-labs solidcraft",
+        "tangency solidcraft"
+      ],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "speech to decisions",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "hf"
+      ],
+      "note": "HF Spaces 新进榜第 39 名",
+      "name_score": null,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "threejs devtools",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 8 处 (×7.7)",
+      "name_score": 0.6,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "uisight",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "sitemap"
+      ],
+      "note": "③ 竞品 8 处 (×7.2)",
+      "name_score": 0.7,
+      "variants": [],
+      "verdict": null,
+      "days_ahead": null
+    },
+    {
+      "term": "xscreensaver",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "signals": [
+        "breakout"
+      ],
+      "note": "GitHub 爆发 xscreensaver-official/xscreensaver ★501(均 501/天)",
+      "name_score": 0.9,
+      "variants": [
+        "xscreensaver",
+        "xscreensaver-official xscreensaver",
+        "xscreensaver xscreensaver"
+      ],
+      "verdict": null,
+      "days_ahead": null
+    }
+  ]
+}

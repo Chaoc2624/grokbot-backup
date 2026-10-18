@@ -1,0 +1,24 @@
+outcome: brief_ready
+new_bookmarks: 7
+ai_items: 3
+board_sync: ok (ingest new=7 carried=112; brief id=14; radar id=12 items=3)
+credits_before: 12.96
+credits_after: 12.92
+spend: ~0.04
+seen_appended: yes (7 ids; seen.txt now 158)
+problems: brief via board_client.py failed once (HTTPS RemoteDisconnected; ssh fallback missing on box); retried with curl to https://x.omnitools.cc — ok. AI: OpenAI/Anthropic/DeepMind/Meta/Qwen/HF/_akhaliq quiet in window; xai search empty.
+files:
+- /workspace/xbm/raw-20261017-pm.json
+- /workspace/xbm/new-20261017-pm.json
+- /workspace/xbm/carryover-20261017-pm.json
+- /workspace/xbm/ids-20261017-pm.json
+- /workspace/xbm/ingest-20261017-pm.json
+- /workspace/xbm/briefsync-20261017-pm.json
+- /workspace/xbm/radar-2026-10-17-pm.json
+- /workspace/xbm/radar-20261017-pm.json
+- /workspace/xbm/ai-raw-20261017-pm.txt
+- /workspace/xbm/brief-20261017-pm.txt
+- /workspace/xbm/ingest-result-20261017-pm.json
+- /workspace/xbm/brief-result-20261017-pm.json
+- /workspace/xbm/radar-result-20261017-pm.json
+- /workspace/xbm/run-status-20261017-pm.txt

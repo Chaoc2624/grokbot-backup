@@ -1,0 +1,53 @@
+{
+ "label": "2026-10-17 晚上",
+ "run_at": "2026-10-17 22:10",
+ "window_start": "2026-10-17 10:05",
+ "window_end": "2026-10-17 22:10",
+ "empty": false,
+ "items": [
+  {
+   "name": "DeepSeek-V4.1-Flash-1017",
+   "desc": "DeepSeek 发布 V4.1-Flash-1017：基准更强、任务完成更快、输出更短，称性能与成本 Pareto 改进；已上线官网、App 与 API，并针对 DeepSeekHarness、腾讯 CodeBuddy 等优化。同线程宣布开源上架 HF/ModelScope，并开放 Search & Fetch API（每端点 $0.75/千次）。",
+   "source": "@deepseek_ai",
+   "url": "https://x.com/deepseek_ai/status/2111375640717033777",
+   "first_seen": "2026-10-17 16:35",
+   "keyword_rank": 1,
+   "keyword": "DeepSeek-V4.1-Flash-1017",
+   "reason": "全新型号名刚官宣，「Flash-1017 和旧 Flash 差在哪、API 怎么调、HF 权重在哪」今晚会集中搜，适合做型号对比与接入教程页。"
+  },
+  {
+   "name": "DeepSeek Search & Fetch API 全面开放",
+   "desc": "DeepSeek 自研搜索引擎支撑的 Search & Fetch API 现对所有人开放，服务全球每日数亿请求；每个端点 $0.75/千次调用，文档已出，也可经服务端工具在 DeepSeek 内调用。",
+   "source": "@deepseek_ai",
+   "url": "https://x.com/deepseek_ai/status/2111375650414309859",
+   "first_seen": "2026-10-17 16:35",
+   "keyword_rank": 2,
+   "keyword": "DeepSeek Search Fetch API",
+   "reason": "Agent/RAG 联网检索新入口，「DeepSeek Search API 怎么接、和自建搜索比贵不贵」会跟着搜，适合做接入与比价页。"
+  },
+  {
+   "name": "DeepSeek-V4.1-Flash-1017 开源（HF / ModelScope）",
+   "desc": "官方同线程放出开源权重：Hugging Face 与 ModelScope 均可下载 DeepSeek-V4.1-Flash-1017。",
+   "source": "@deepseek_ai",
+   "url": "https://x.com/deepseek_ai/status/2111375653069259247",
+   "first_seen": "2026-10-17 16:35",
+   "keyword_rank": 3,
+   "keyword": "DeepSeek-V4.1-Flash open weight",
+   "reason": "开源权重落地后，「本地怎么跑、量化、和 API 版差多少」会成为搜索热点，适合做部署/量化指南页。"
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "DeepSeek-V4.1-Flash-1017",
+   "reason": "全新型号名刚官宣，「Flash-1017 和旧 Flash 差在哪、API 怎么调、HF 权重在哪」今晚会集中搜，适合做型号对比与接入教程页。"
+  },
+  {
+   "keyword": "DeepSeek Search Fetch API",
+   "reason": "Agent/RAG 联网检索新入口，「DeepSeek Search API 怎么接、和自建搜索比贵不贵」会跟着搜，适合做接入与比价页。"
+  },
+  {
+   "keyword": "DeepSeek-V4.1-Flash open weight",
+   "reason": "开源权重落地后，「本地怎么跑、量化、和 API 版差多少」会成为搜索热点，适合做部署/量化指南页。"
+  }
+ ]
+}

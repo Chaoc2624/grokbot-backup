@@ -1,0 +1,53 @@
+{
+ "label": "2026-10-17 上午",
+ "run_at": "2026-10-17 10:05",
+ "window_start": "2026-10-16 22:06",
+ "window_end": "2026-10-17 10:05",
+ "empty": false,
+ "items": [
+  {
+   "name": "GPT-6 Astra Pro 多 Agent 并行升级",
+   "desc": "OpenAI 宣布 ChatGPT 里的 GPT-6 Astra Pro 升级：响应更快、插件/工具调用更好；多名 Agent 可并行拆分同一任务的不同部分，可跟踪进度并打开已完成子任务查看结果。现已对 Pro 用户开放。",
+   "source": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2111192259073094035",
+   "first_seen": "2026-10-17 04:27",
+   "keyword_rank": 1,
+   "keyword": "GPT-6 Astra Pro parallel agents",
+   "reason": "ChatGPT Pro 多 Agent 并行是新能力名号，「Astra Pro 怎么开并行、和单 Agent 差在哪、插件怎么配、Pro 能否用」今早起会集中搜，适合做功能说明与对比页。"
+  },
+  {
+   "name": "Claude Mythos 5 设计量子电路（STEM Fellows）",
+   "desc": "Anthropic STEM Fellows 项目：用自然语言指令，Claude Mythos 5 设计出的量子电路在部分题上优于已发表最优结果，有时提升一个数量级以上。属研究展示，不是新产品上架帖。",
+   "source": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2111152183240511640",
+   "first_seen": "2026-10-17 01:47",
+   "keyword_rank": 2,
+   "keyword": "Claude Mythos 5",
+   "reason": "「Mythos 5」型号名被官方研究帖点名，「Mythos 5 是什么、和 Opus/Sonnet 关系、能不能用、量子电路论文」会跟着搜，适合做型号解读页。"
+  },
+  {
+   "name": "Gemini 4 Argon 多智能体通关 Minecraft",
+   "desc": "Google DeepMind：四个 Gemini 4 Argon Agent 在沙盒里仅用代码和文本，27 小时、写 2783 个程序、分工聊天与共享笔记，无人干预打通 Minecraft（击败末影龙）。属能力演示，模型本身此前已发布。",
+   "source": "@GoogleDeepMind",
+   "url": "https://x.com/GoogleDeepMind/status/2111127991401247033",
+   "first_seen": "2026-10-17 00:11",
+   "keyword_rank": 3,
+   "keyword": "Gemini 4 Argon agents Minecraft",
+   "reason": "多智能体通关演示会带一波二次传播，「Argon 多智能体怎么复现、和 OpenAI 并行 Agent 比」适合做演示复盘/对比页。"
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "GPT-6 Astra Pro parallel agents",
+   "reason": "ChatGPT Pro 多 Agent 并行是新能力名号，「Astra Pro 怎么开并行、和单 Agent 差在哪、插件怎么配、Pro 能否用」今早起会集中搜，适合做功能说明与对比页。"
+  },
+  {
+   "keyword": "Claude Mythos 5",
+   "reason": "「Mythos 5」型号名被官方研究帖点名，「Mythos 5 是什么、和 Opus/Sonnet 关系、能不能用、量子电路论文」会跟着搜，适合做型号解读页。"
+  },
+  {
+   "keyword": "Gemini 4 Argon agents Minecraft",
+   "reason": "多智能体通关演示会带一波二次传播，「Argon 多智能体怎么复现、和 OpenAI 并行 Agent 比」适合做演示复盘/对比页。"
+  }
+ ]
+}

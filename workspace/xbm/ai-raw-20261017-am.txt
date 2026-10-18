@@ -1,0 +1,40 @@
+{
+ "window_start_utc": "2026-10-16T14:06:00Z",
+ "window_end_local": "2026-10-17 ~10:05 Asia/Shanghai",
+ "findings": [
+  {
+   "name": "GPT-6 Astra Pro upgrade (parallel agents)",
+   "source": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2111192259073094035",
+   "created_at": "2026-10-16T20:27:13.000Z",
+   "text": "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools. And now, multiple agents can tackle different parts of a task in parallel. Now available to Pro."
+  },
+  {
+   "name": "Claude Mythos 5 quantum circuits (STEM Fellows)",
+   "source": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2111152183240511640",
+   "created_at": "2026-10-16T17:47:58.000Z",
+   "text": "STEM Fellows: Claude Mythos 5 designed quantum circuits that improve on best published ones, sometimes by an order of magnitude."
+  },
+  {
+   "name": "Gemini 4 Argon agents Minecraft demo",
+   "source": "@GoogleDeepMind",
+   "url": "https://x.com/GoogleDeepMind/status/2111127991401247033",
+   "created_at": "2026-10-16T16:11:50.000Z",
+   "text": "Four Gemini 4 Argon agents beat Minecraft from scratch in 27 hours."
+  },
+  {
+   "name": "HF live stream open weight (boundary/near prior window)",
+   "source": "@huggingface",
+   "url": "https://x.com/huggingface/status/2111094948133216735",
+   "created_at": "2026-10-16T14:00:32.000Z",
+   "note": "likely Reflection Beam already covered in PM brief; skip duplicate"
+  }
+ ],
+ "no_posts": [
+  "deepseek_ai",
+  "Alibaba_Qwen",
+  "metaai"
+ ],
+ "xai": "not authorized to read"
+}

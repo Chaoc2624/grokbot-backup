@@ -1,7 +1,11 @@
 {
-  "checked_at": "2026-10-16T01:06:26.905276+00:00",
+  "checked_at": "2026-10-17T13:06:17.894171+00:00",
   "eligible": [],
   "needs_parameter_verification": [
+    {
+      "id": "xingchen-agi/xing4.0-29b-a4b:free",
+      "context_length": 262144
+    },
     {
       "id": "nvidia/nemotron-3.5-super-vl:free",
       "context_length": 1000000
@@ -81,7 +85,8 @@
     "poolside/laguna-s-2.1:free",
     "poolside/laguna-xs-2.1:free",
     "thinkingmachines/inkling-small:free",
-    "thinkingmachines/inkling:free"
+    "thinkingmachines/inkling:free",
+    "xingchen-agi/xing4.0-29b-a4b:free"
   ],
-  "free_count": 18
+  "free_count": 19
 }

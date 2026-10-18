@@ -1,0 +1,121 @@
+{
+ "day": "2026-10-17",
+ "config": {
+  "min_volume": 500,
+  "max_kd": 15,
+  "min_cpc": 0.01,
+  "need_open_serp": true,
+  "database": "us",
+  "max_terms": 40,
+  "max_spend_usd": 0.5,
+  "cache_days": 7,
+  "serp_fetch": true,
+  "serp_location_code": 2840
+ },
+ "terms": [
+  {
+   "phrase": "net worth tracker app",
+   "source": "模型提取",
+   "names": [
+    "aurelio finance"
+   ],
+   "evidence": "how to calculate net worth… your banks and brokers, their cash, and dated situations of what you hold",
+   "competition": {
+    "verdict": "open",
+    "weak": null,
+    "kd": 14,
+    "ads": false,
+    "kinds": {
+     "forum": 1,
+     "article": 2,
+     "tool": 2,
+     "list": 3,
+     "video": 1
+    },
+    "features": [
+     "ai_overview",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "weakest": null
+   },
+   "radar_volume": 140,
+   "decision": "watch",
+   "overview_ok": true,
+   "volume": 140,
+   "cpc": 2.47,
+   "comp": 0.48,
+   "results": 147,
+   "kd_ok": true,
+   "kd": 33,
+   "verdict": "open",
+   "comp_detail": {
+    "verdict": "open",
+    "weak": null,
+    "kd": 14,
+    "ads": false,
+    "kinds": {
+     "forum": 1,
+     "article": 2,
+     "tool": 2,
+     "list": 3,
+     "video": 1
+    },
+    "features": [
+     "ai_overview",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "weakest": null
+   },
+   "checks": {
+    "月搜": false,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": true
+   },
+   "score": 60,
+   "failed": [
+    "月搜",
+    "KD"
+   ],
+   "unknown": []
+  },
+  {
+   "phrase": "investment portfolio tracker",
+   "source": "模型提取",
+   "names": [
+    "aurelio finance"
+   ],
+   "evidence": "every position priced from the market, with its cost, gain and dividends",
+   "competition": null,
+   "radar_volume": 260,
+   "decision": "skip",
+   "overview_ok": true,
+   "volume": 110,
+   "cpc": 5.06,
+   "comp": 0.53,
+   "results": 119,
+   "kd_ok": true,
+   "kd": 42,
+   "verdict": null,
+   "checks": {
+    "月搜": false,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": null
+   },
+   "score": 40,
+   "failed": [
+    "月搜",
+    "KD"
+   ],
+   "unknown": [
+    "首页竞争"
+   ]
+  }
+ ],
+ "spent_micros": 0,
+ "errors": [],
+ "skipped": []
+}

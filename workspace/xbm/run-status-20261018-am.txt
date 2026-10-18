@@ -1,0 +1,23 @@
+outcome: skip_no_brief
+reason: 无新增书签 + AI 雷达窗口无新品（不重复昨晚 DeepSeek）
+new_bookmarks: 0
+ai_items: 0
+carryover_open: 119
+board_sync: ok (radar empty id=13 items=0; skipped ingest/brief — no new items)
+credits_before: 12.92
+credits_after: 12.85
+spend: ~0.07
+seen_appended: no (nothing new; seen.txt still 158)
+problems: xAI get_users_posts unauthorized (same as prior runs); search_posts_all from:xai empty
+WakeParent: yes — 告知用户本档 skip（无新书签/无 AI），可选短通知
+files:
+- /workspace/xbm/raw-20261018-am.json
+- /workspace/xbm/new-20261018-am.json
+- /workspace/xbm/carryover-20261018-am.json
+- /workspace/xbm/ids-20261018-am.json
+- /workspace/xbm/ai-raw-20261018-am.txt
+- /workspace/xbm/radar-20261018-am.json
+- /workspace/xbm/radar-2026-10-18-am.json
+- /workspace/xbm/radar-result-20261018-am.json
+- /workspace/xbm/brief-20261018-am.txt
+- /workspace/xbm/run-status-20261018-am.txt

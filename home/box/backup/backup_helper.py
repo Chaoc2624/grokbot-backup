@@ -19,7 +19,7 @@ EXC = re.compile(r'(/venv/|/\.venv/|node_modules|__pycache__|\.pyc$|/\.cache/|/(
     r'|(^|/)[^/]*(secret|credential|creds|token|session|cookie)[^/]*$|\.pem$|\.pw$|auth\.json'
     r'|^/home/box/agent-tools/[^/]*/out|/\.config/grokbot-backup/)', re.I)
 ALLOW_TOKEN_EXT = {'freetoken-bots'}  # dir names containing "token" that are fine
-REDACT_FILES = ('/workspace/tp/tp.py', '/workspace/shared.md', '/workspace/tg/digests/', '/workspace/loon_fixed_v3.lcf', '/workspace/handoff/anytls-nodes.md')
+REDACT_FILES = ('/workspace/tp/tp.py', '/workspace/shared.md', '/workspace/tg/digests/', '/workspace/tg/specs/', '/workspace/loon_fixed_v3.lcf', '/workspace/handoff/anytls-nodes.md')
 WEAK = re.compile(r'''(password|passwd|pwd|secret|api_?key|token)(["']?\s*[:=]\s*["']?)([^"'\s,${}<>`]{6,})''', re.I)
 STRONG = re.compile(r'sk-[A-Za-z0-9_-]{16,}|ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16}'
                     r'|xox[bpa]-[A-Za-z0-9-]{10,}|-----BEGIN [A-Z ]*PRIVATE KEY')
@@ -67,6 +67,7 @@ def stage(repo):
         if p.startswith(REDACT_FILES):
             t = open(dst, encoding='utf-8', errors='surrogateescape').read()
             t2 = WEAK.sub(lambda m: m.group(1) + m.group(2) + '<REDACTED>', t)
+            t2 = STRONG.sub('<REDACTED>', t2); t2 = BEARER.sub('Bearer <REDACTED>', t2)
             if t2 != t: open(dst, 'w', encoding='utf-8', errors='surrogateescape').write(t2)
         total += os.path.getsize(dst)
     print(f'staged {len(sel)} files, {total/1048576:.2f} MB')

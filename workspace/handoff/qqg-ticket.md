@@ -17,3 +17,8 @@ Hello, since early Oct 17 (UTC+8) my VPS 107.149.159.229 cannot reach the intern
 - DNS (8.8.8.8:53) and HTTP/HTTPS all time out;
 - No outbound filtering on the server (iptables/nft clean), no NIC errors, inbound SSH works.
 Please check whether outbound is blocked/rate-limited or the traffic quota is exhausted, and restore it. Diagnostic output attached. Thanks.
+
+## Update 2026-10-19 11:45 Asia/Shanghai
+Outbound partly back: 8.8.8.8, Google, YouTube reachable (HTTP 200). Still dead: 1.1.1.1, cloudflare.com, x.com, github.com, api.ipify.org (connect timeouts).
+Fixed on server: sing-box default_domain_resolver cf(1.1.1.1) -> g(8.8.8.8); backup /etc/sing-box/config.json.bak-dns-20261019. AnyTLS 8443 now passes Google 204 end-to-end.
+Ticket follow-up (EN): Update: outbound to Google/8.8.8.8 is working again, but connections to Cloudflare (1.1.1.1, 104.16.0.0/12, 172.64.0.0/13), github.com (172.182.252.133) and X (162.159.140.229) still time out from 107.149.159.229. Please remove the remaining outbound restriction.

@@ -852,3 +852,81 @@
 - `Superloop`（澳洲 NBN 宽带商，外卡交流频道「•」：千兆的superloop只要公寓支持就可以装）；`GLaDOS`（Loon-0x00 签到插件 glados.lpx）、`WPS`（Loon 签到脚本）
 - `Plasma One` — 群里简称 p1（东逆海外基建 飒纳诺「p1好啊，每个月薅8美元」）；`council tax`（英国市政税单，Lyn 用作地址证明）
 - 成员续：东逆海外基建 — Lyn、U w U、Ɔ̸azima、x x、J LORDBEE、白 白；东逆薅毛大队 — Felix、洛；InfiCheesy — Giftia；Loon-0x00 — 鱼安 yuan、crok、八 天王、火鸡面；LoonCommunity — p c。
+
+## 2026-10-19 3 时增补
+- `SafePay` — 菲区钱包卡（东逆海外基建 𝑾𝒉𝒊𝒕𝒆𝑺𝒉𝒆𝒆𝒑「现在safepay那卡还在？」）；`Sumsub ID` — Sumsub 可复用 KYC 账户（Golden West「Minipay强制Sumsub快速认证」）
+- `OKX EU` — 群里写 okxeu（C酱です「和krak还有okxeu都一家」，指同为 Monavate 发卡）；`UAB Monavate` / `Monavate Ltd` — 立陶宛 / 英国发卡主体
+- 成员续：东逆海外基建 — 烨 Y、伤心凉粉、always online、Mr Cheng。
+- 世界之极 — 群友对 Mastercard World Elite 的叫法（东逆海外基建 Golden West「Krak 世界之极借记卡」，zzkkxx「海妖的卡不都是世界之极？」），照原文。 · 卡台 — 群友对虚拟卡平台的叫法（东逆海外基建 U w U「卡台的卡全烂了」），照原文。
+- 免费鸡蛋 — VPS家宽AI群 维多对自己免费分享的 AI/token 服务的叫法（「免费鸡蛋今天跑了24亿token」「免费鸡蛋已经没了」），照原文。 · 靓号转移 — 奶昔论坛 乾坤「我转移到cte的靓号」，指 CTExcel 携号转网，照原文。
+- 成员续：奶昔论坛 — 乾坤、東雪蓮；东逆海外基建 — Whitlock Whitlockm。
+- `Ria` 封号 — 东逆薅毛大队 rose derrick「ria吃了一百多磅给我封号了」；worIdremit — 东逆海外基建 家富 百 的写法（大写 I），即 `WorldRemit`，照原文。 · voxi — 奶昔论坛 车底 战神「左手爱沙尼亚，右手voxi」，即 VOXI。
+- 成员续：东逆薅毛大队 — Oy；东逆海外基建 — 家富 百；奶昔论坛 — 车底 战神；Loon-0x00 — SylvanRoe。
+- （2026-10-19 08 点）`Capital One Platinum` — 群友写 paltinum（海无方美卡 S「c1首卡怎么选，savor还是paltinum」），照原文。 · 老e卡 — 群友说的某卡/账户叫法（东逆海外基建 U w U「老e卡要什么地区才能开账户啊」），照原文。 · 平安邀请码 — 东逆「要不要开个平安，赚个车费，邀请码ZY7IVD」，照原文。
+
+## 2026-10-19 9 时增补
+- 留子 / 假留子 — 群友对出借美国地址的留学生的叫法（海无方美卡 solar 727「我找了一个留子，申请了一张c1的卡」，undefined「你这绝对是假留子」），照原文。 · xmoney — 群友写法（InfiCheesy Di ZH「收到xmoney推送了」），即 `X Money`，照原文。
+- `Google AI Pro` — 群友写 google AI pro（InfiCheesy john he）；4argon / 4 Argon — 群友原写法（𝑨𝒔𝒔𝒂𝒔𝒔𝒊𝒏 𝑼𝒔、john he），照原文。 · `SheerID` — Google 学生优惠的学生身份验证服务（核验用）。
+- RN — InfiCheesy 自由者「这RN真是气死个人」，照原文。 · boa — 海无方美卡 CR 7「线下也就boa chase」，即 `Bank of America`，照原文。 · ra身份 — CapeCake 原写法，照原文。
+- 成员续：海无方美卡 — solar 727、Oub、52、cao Mr、X JANE、Iuuuu、Zzzz、mint、欣；InfiCheesy — Di ZH、john he、自由者、猫e/acc；东逆海外基建 — 2han9wen71an、Luyeh Real；VPS家宽AI群 — Jiang Haiyang、张子君。
+- `CMUK` — 中国移动英国（CMLink UK）简称（奶昔论坛 冲浪屌鹰「冷知识，很多黑产用CTE和CMUK」），照原文。 · `GetPlu` / `Blofin` — 群友列举的 ss（Sumsub）认证 U 卡（东逆海外基建 Da da「一堆 · GetPlu · Blofin · 一堆野鸡 · Solid」），照原文。 · ADH — 群友对 `AdGuard Home` 的简称（Loon-0x00 V「使用ADH毫秒级拦截，百万规则」），照原文。 · mon zo — 群友对 Monzo 的写法（东逆海外基建 CR 7），照原文。 · X card — 群友写法（东逆薅毛大队 miku39arch「还能反手去冲X card」，指 X Money 的 X Card），照原文。 · p / p+ — 海无方美卡 坠明「当时p给15，p+给25」，指 X Premium / Premium+，照原文。
+- 成员续：奶昔论坛 — Jang yu、P P、皮特 王、乾坤、冲浪屌鹰；海无方美卡 — zz+++++++、(˵¯͒〰¯͒˵)❄️；东逆海外基建 — zero zero、Not now、Ɔ̸azima、Keil、飒纳诺；何居上跨境 — Michael Jordan；Loon-0x00 — hinoka、V、niker。
+- （2026-10-19 11 点）`Anodos` — 东逆海外基建 小梦 蚩 列举的 App 名（原写 anodos，Da da「这位更是超级野鸡」），照原文。 · `LiveSmart` — 菲律宾运营商品牌（何居上跨境 o.o「livesmart 可以」），照原文写 livesmart。 · armb 房东 — 海无方美卡 S 原写法（可能指 Airbnb 房东，未确认），照原文。 · 2004 — 海无方美卡群友对某个美国收卡地址门牌的简称（X JANE「现在看到2004都应激了」），照原文。 · `Tausch-eSIM` — o2 德国官网的替换 eSIM（核验用）。 · 3uk — 英国 `Three` 运营商简称（奶昔论坛 乾坤），照原文。 · 机场三色图 — Loon-0x00 笑对人生 原话，照原文。 · DoH / DoQ — DNS over HTTPS / DNS over QUIC（Loon-0x00 V）。 · `TransUnion`（tu）/ `Equifax`（eq）/ `Experian`（ex）— 美国三大征信局，海无方美卡 Freelf 原写小写缩写。
+- 成员续：海无方美卡 — Freelf、q jk、吮指原味猫、Lune、Xing Fan、A粉色红头龟；东逆海外基建 — Vinv🇨🇳、Digital immigration、天、qingyu、Mr Ay；何居上跨境 — Yamada saki、Austin、o.o、buyaa；奶昔论坛 — 巧了不是、Akira、Stan Lee；Loon-0x00 — 秋咻呀、sahc、Qingu LiLi、可恶可恶ni、dazz、笑对人生。
+- （2026-10-19 12 点）`易票联` — 国内支付机构，VPS家宽AI群 张子君称其开的虚拟卡是「香港归属的万事达」，照原文。 · 懒猫云 `Pavlov` 动态家宽 — VPS家宽AI群 Xx X 原写法。 · `etherfi` / P1 — 东逆海外基建 Tu Tu 问「P1和etherfi地址证明能krak账单吗」，照原文。 · 爱思 — 爱思助手（东逆海外基建 Luyeh Real 用来修改定位），照原文。 · XHTTP — 代理传输方式（Loon-0x00 IU「Loon 支持 XHTTP 吗」）。 · 哔哩万象 — Loon 插件名（Loon-0x00 chaoscard），照原文。 · 包段 / 混段 / 卡台 — VPS家宽AI群讨论虚拟卡 BIN 的说法（Konwkonw、张子君），照原文。 · 云居民 — 海无方美卡群友讨论的收信地址服务（A粉色红头龟「那个应该比atmb稳一点吧」），照原文。
+- 成员续：海无方美卡 — sophnet、tell wang、silence☁️💳、Hayden Madison；东逆薅毛大队 — cake、Gahany；东逆海外基建 — anla、Luyeh Real、miku39arch、Антон.、jim betty、Tu Tu；InfiCheesy — Qian Ye、颜子 小新、Aste Kometa、Rex Gustave；Jason保号实验室 — Lee、car Os、R F；VPS家宽AI群 — Konwkonw、Xx X、李 木田；Loon-0x00 — 鲸落、chaoscard。
+- （2026-10-19 13 点）`Webull` — 美国券商（海无方美卡 Lune「webull us w8」，原写小写）。 · moomoo us / moomoo sg — 富途 moomoo 美国 / 新加坡（Lune、Ray Leeee），照原文。 · W-8 / W-9（群友写 w8 / w9）— 美国税表；crs — CRS 共同申报准则（也许天天开心「w9我宁愿crs」），照原文。 · P1core — 东逆海外基建 Valerio（tz）说 Bitget 卡绑上的商户名，照原文。 · open押金卡 / amex am / gt — 海无方美卡 Ray Leeee 原写法（「想走open押金卡或amex hk  通过gt开amex am的」），照原文。 · 小一寸 — 证件照尺寸（东逆海外基建 Keil「贴的小一寸还是不行」）。 · 春川 / 大阪 / 东京 — 甲骨文云区域（InfiCheesy 水箭龟、好花不常開）。 · ipproxy — InfiCheesy yi 说的代理 IP 商，照原文。 · Surge / Stash / Loon 对比（Loon Community Co、Wang Vincent）。
+- 成员续：海无方美卡 — Ray Leeee、欣、也许天天开心、JHUI Ma、P. T.、no name；东逆薅毛大队 — wddgg wdhdan8、Ginlay、ss dyhs、yuxi liu、洛；东逆海外基建 — chou simon、Van Darkholme、U Ner、Yu Yu、boom boom、Golden West；InfiCheesy — 好花不常開、神仙鱼、𝙉𝙖𝙉、TheJeeknd、LáFLAME、polplay、kaka；何居上跨境 — 汤 吉米、dh p；英国卡代收 — メロンパン；Jason保号实验室 — 林佳树 Yo；VPS家宽AI群 — Anton Wang、@ big；Nbvil交流群 — Alec Liu、Sindri、udb Anau。
+
+## 2026-10-19 14 点新增
+- `Biscuit`（Zopa 的活期账户名，群里说「Zopa」）
+- `Venmo`（美国 P2P 支付，群里写 venmo）
+- N1（斐讯 N1 盒子，群友用来放在房东家做家宽节点）
+- XHTTP（代理传输协议，群里写 xhttp）
+- fmz200 / 墨鱼 / libopro（Loon / QX 规则、插件作者名，照原文写）
+
+## 2026-10-19 15 点新增
+- `Xplace` — 东逆海外基建 Da da「你去看看xplace」说的 U 卡，照原文写 xplace。 · `Reap` — 发卡机构（C酱です「reap不是红点卡有用吗」，Da da「红点用的海峡」），照原文。 · `Tide` — 英国数字银行（东逆薅毛大队 白 白「tide？」）。 · 海峡 — 群友对某发卡机构的叫法（Da da），照原文。 · 黑猫 — `BlackCat` U 卡（东逆海外基建 可爱多/懒「黑猫终于退款了」），照原文。 · 工亚大湾区信用卡 / 信银信用卡 — 奶昔论坛 𝘈𝘭𝘦𝘹 𝘉𝘢𝘳𝘯𝘦𝘴 原写法，照原文。 · 电信蓝卡 — 香港两地卡（同上），照原文。 · Worldwide Scan & Pay — iFAST Global Bank 跨境扫码付款功能（核验用）。
+- 成员续：东逆海外基建 — Pandowdy、Ramona Ciobanu、可爱多/懒、8848、烨 Y、Ana Herman、Felix、Jing Li；东逆薅毛大队 — xuanwoa、白 白、纸雨；海无方美卡 — Harrison Sinclair、Owen、Soma；InfiCheesy — First Word、annss 2、Hyper10n_、Jade Senn；何居上跨境 — Nathaniel、KimJongun；VPS家宽AI群 — hui wu、fan wang、jonah jh；Loon-0x00 — 心有余悸、𝗠𝗮𝗿𝗶𝘂𝘀、moyan。
+
+## 2026-10-19 16 点新增
+- `Kaktus` — 捷克 T-Mobile 网络 MVNO（群友写 kaktus；奶昔 ❄️ Maki 🇬🇪「捷克kaktus补卡最方便」「卡炸了有ICCID随便补」），照原文。
+- `VoWiFi` — Voice over Wi-Fi / Wi-Fi Calling（群友写 vowifi；奶昔 高松燈「dito，无限制vowifi」），与既有 Wi-Fi Calling 并提。
+
+## 2026-10-19 17 点新增
+- `Keiro` — 家宽 IP 商家（InfiCheesy Lumi「有听过Keiro的家宽ip吗  这家公司的客服邮箱投递失败」），照原文。
+- `Oobit` — U 卡/支付 App（群友写 oobit；东逆海外基建 C酱です「oobit能护照吗？」），照原文。
+- 建亚 — 群友对建行亚洲（CCB Asia）的简称（InfiCheesy First Word「建亚线上申请通过后还得去线下复核」）；First Word 贴的热线表写「建行亚洲  400-199-5533」。
+- private relay — iPhone iCloud 专用代理（海无方美卡 Gyara(dos)「iphone開了private relay所有的卡基本都會變成機房」），照原文。
+- ip.net.coffee — 群友贴的 IP 查询站（U美卡分享会 栗悟饭和龟波功），照原文。
+- 成员续：东逆海外基建 — zero zero、Golden West、Keil、ice W、qingyu、妮妮、509；海无方美卡 — QAQ 别拿激光笔射我、Miss Lam、IoKap Uk、Lao San、LXF🕊；InfiCheesy — JimmyC、YUZhu He、🍀Kitty；U美卡分享会 — 7 uy、红藻头。
+
+## 2026-10-19 18 点新增
+- `Kolo` — U 卡（东逆海外基建 ice W「还有个kolo」），照原文。 · Perks / luxe — 东逆海外基建 Da da「新出的活Perks」「250u可以体验luxe」原写法，照原文。 · `次元云` / `肥猫云` — 机场名（Loon-0x00 叶 苏），照原文。 · 英飞灵 — 奶昔 抛 瓦 原写法，照原文。 · Suci — 奶昔 •「Estk Max 支持 Suci吗」，照原文。 · 寰宇人生借记卡 — 兴业银行借记卡（InfiCheesy Hun mini），照原文。 · 国民保险号 — 英国 National Insurance number（东逆海外基建 LXF🕊「uk区要那个什么国民保险号」），照原文。 · `FSCS` — 英国金融服务补偿计划（何居上跨境 爱吃香菜「fscs提供120000的保护」）。 · 香港CAA — 海无方美卡 高 雅男 原写法，照原文。
+- 成员续：奶昔论坛 — yin feng、kyotai、高松燈🇳🇴、Calytrix、96 110、小怪咯咯、香港九龙；海无方美卡 — Lune、也许天天开心、Hayden Madison、Ray Leeee、Guyscode、Ricardo Lu、ryker、sophnet、吮指原味猫、高 雅男；东逆薅毛大队 — vi visitor、Hotman、chou simon、VN、cool；东逆海外基建 — U w U、king usd1、洛、Ɔ̸azima、Vinv🇨🇳；InfiCheesy — kaka、haru haru、Kizami 大魔王、无限芝士、Hun mini、Theo Brooks、小c；何居上跨境 — luacas007；Nbvil交流群 — Ada kkk、奥利给、Ostara；Loon-0x00 — Bobi、5heep、叶 苏。
+
+## 2026-10-19 19 点新增
+- `Coca`（U 卡，东逆薅毛大队里写作 coca）
+- `Huobi` 火币（交易所，InfiCheesy 群里写作 火币）
+- `Codice Fiscale` 意大利税号（codicefiscale.com，东逆海外基建群里写作 意大利税号）
+- `Niva`（机场，InfiCheesy 群里写作 niva）
+- 汇丰香港 DFV 邮箱 dfv.enquiry@hsbc.com.hk（奶昔群讨论）
+
+## 2026-10-19 20–21 点新增
+- `paysafecard` — 欧洲预付卡/充值品牌（群友说注册消费 20 欧元可领 20 欧元奖励，可充 Wise）。
+- `Aave` — DeFi 借贷协议（群友发邀请码、讨论 KYC/法币）。
+
+## 2026-10-19 22 点新增
+- `LuckySIM`（群友写 luckysim，漫游卡）· `OpenSky`（群友写 open / Open sky，押金信用卡）· 雷掣读卡器（配 simhub 安卓端）
+
+## 2026-10-19 23 点新增
+- `ClubSIM`（群友写 clubsim，香港本地流量卡；InfiCheesy Kuhn Lee、Hakuu）· `Currensea`（群友写 currensea，Hilton 卡；东逆薅毛大队 LIN YU）· 熊猫卡（奶昔 yyyy「鸭寮街看了下几乎全是熊猫卡和luckysim」，漫游卡）· 鸭寮街（香港深水埗卖卡街）
+
+## 2026-10-20 00 点新增
+- `Buy Now, Pay Maybe` — Tuyo 的消费返还活动；@itstuyo 2026-10-19 发帖称 10 月 31 日结束，11 月 1 日起改 1.5% cashback（东逆海外基建 rose derrick「这还调成返现一点五」）。 · `伤心的云`（sadidc）— VPS 家宽 AI 群 AI查VPS机器人 结果里的商家名，照原文。 · Ricardo Lu — 海无方美卡常见成员（Gemini 学生认证 bot）。
+
+## 2026-10-20 01 点新增
+- `Santander`（群友写 santander，英国银行；东逆薅毛大队 Found♦「跟santander一样sb」）· 中信貔貅（中信银行信用卡，东逆海外基建 民阁）· 西部数据（Loon-0x00 群友 tea 说的节点/机场名，照原文）· Found♦ — 东逆薅毛大队常见成员（Bunq 工资流水）。
+
+## 2026-10-20 02 点新增
+- Telegram DC1–DC5（外卡交流频道 John lpng「dc3荷兰」、一隻北極熊「DC3在邁阿密…dc2和dc4才在荷蘭」，照原文）· 鸭哥的地址（英国卡代收 KimJongun「用了鸭哥的地址一把过」，照原文）· `ClubSIM` 本小时为东逆海外基建 壹贰叁「clubsim的小白卡」。

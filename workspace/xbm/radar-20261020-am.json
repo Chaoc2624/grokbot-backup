@@ -1,0 +1,47 @@
+{
+ "label": "2026-10-20 上午",
+ "run_at": "2026-10-20 10:15",
+ "window_start": "2026-10-19 22:10",
+ "window_end": "2026-10-20 10:15",
+ "empty": false,
+ "items": [
+  {
+   "name": "SKY-001（Skyfall AI）",
+   "desc": "Skyfall AI 发布的「首个工程世界模型」，把文字或草图变成 CAD/BIM 设计；官方称在 CAD 和 BIM 任务上比 GPT-6 Astra 等前沿模型快 51–125 倍、便宜 150–210 倍、IOU 更高。研究预览，开放候补名单。",
+   "source": "@spisallyouneed（Skyfall AI CEO Sam Pasupalak）",
+   "url": "https://x.com/spisallyouneed/status/2112242023805964327",
+   "first_seen": "2026-10-20 01:58",
+   "keyword_rank": 1,
+   "keyword": "SKY-001",
+   "reason": "首发帖 118 万浏览、5300+ 收藏，「AI 生成 CAD」是新需求，适合做「SKY-001 是什么 / 怎么申请 / 和 GPT 出 CAD 对比」页。"
+  },
+  {
+   "name": "Mercury 3（Inception）",
+   "desc": "Inception 的扩散式大模型新版：称超过 GPT-6 Luna 和 Claude Haiku 5.5，速度 1000+ token/秒，规模是 Mercury 1 的 40 多倍、标准基准智能约 3 倍。已上线。",
+   "source": "@StefanoErmon（Inception 联合创始人）",
+   "url": "https://x.com/StefanoErmon/status/2112222911218291051",
+   "first_seen": "2026-10-20 00:42",
+   "keyword_rank": 2,
+   "keyword": "Mercury 3",
+   "reason": "「扩散 LLM」+ 极速卖点，开发者会搜 API 价格、接入方式、和 Haiku/Luna 对比，适合做测评和接入教程页。"
+  },
+  {
+   "name": "JST-2（ViggleAI）",
+   "desc": "Viggle 发布「首个全栈物理原生世界基础模型」：在 3D 空间里从头建模，几秒生成可扩展的 3D 场景，一张图生成自带动作的 3D 角色（无需绑骨），文字/视频生成全身动作；场景可导出高斯泼溅 .ply/.spz，免费试用。",
+   "source": "@ViggleAI",
+   "url": "https://x.com/ViggleAI/status/2112202242048528540",
+   "first_seen": "2026-10-19 23:20",
+   "keyword_rank": 3,
+   "keyword": "Viggle JST-2",
+   "reason": "首发 70 万浏览，图生 3D 角色/场景免费可玩，适合做「怎么用 / 导入 Unity·Unreal / 和其他世界模型对比」教程页。"
+  },
+  {
+   "name": "Clairic（Cloudflare）",
+   "desc": "Cloudflare 推出的「System One」抽取模型，从邮件、图片、文本等非结构化输入里抽取、计算、估算和预测数据（如发票金额、日期）。",
+   "source": "@Cloudflare",
+   "url": "https://x.com/Cloudflare/status/2112244042658423149",
+   "first_seen": "2026-10-20 02:06"
+  }
+ ],
+ "keywords": []
+}

@@ -1,0 +1,47 @@
+{
+ "label": "2026-10-20 晚上",
+ "run_at": "2026-10-20 22:10",
+ "window_start": "2026-10-20 10:15",
+ "window_end": "2026-10-20 22:10",
+ "empty": false,
+ "items": [
+  {
+   "name": "DeepInfer（DeepSeek）",
+   "desc": "DeepSeek 开源自家推理框架 DeepInfer，就是线上跑 DeepSeek-V4.1-Flash 的那套生产栈，主打高吞吐、低延迟、降算力和能耗成本；Apache-2.0，GitHub: deepseek-ai/DeepInfer。",
+   "source": "@deepseek_ai",
+   "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+   "first_seen": "2026-10-20 17:30",
+   "keyword_rank": 1,
+   "keyword": "DeepInfer",
+   "reason": "首发帖 136 万浏览、6300+ 收藏，DeepSeek 官方开源、名字全新，开发者会搜「DeepInfer 部署教程 / 和 vLLM、SGLang 对比 / 硬件要求」，适合做教程和对比页。"
+  },
+  {
+   "name": "llm-d 1.0（Red Hat / IBM / Google Cloud 等）",
+   "desc": "开源的 Kubernetes 原生分布式推理栈正式 1.0，在 PyTorch 大会发布：多租户 QoS、零停机滚动升级、前缀缓存感知路由，可把 vLLM/SGLang、GPU/TPU 挂到同一入口。X 上最早 19:30 由 @gcpweekly 转发 Google Cloud 公告，Red Hat 官方 20:02 发帖。",
+   "source": "@gcpweekly（Red Hat 官方帖 https://x.com/RedHat/status/2112514674528813448）",
+   "url": "https://x.com/gcpweekly/status/2112506828428918816",
+   "first_seen": "2026-10-20 19:30",
+   "keyword_rank": 3,
+   "keyword": "llm-d",
+   "reason": "大厂联合的推理基础设施新词，搜索量偏企业/运维向，适合做「llm-d 是什么 / 部署指南 / 和 DeepInfer 区别」的技术页，竞争小。"
+  },
+  {
+   "name": "FLUX 3 Max（fal × Black Forest Labs）【上一档漏收，补录】",
+   "desc": "fal Research 与 BFL 合作后训练的视频模型：文字/图片/关键帧生成 5–20 秒 720p 带音频视频，图生视频质量并列第一，10 秒视频约 12 秒生成；fal 上线并有首发折扣。首发在上一档窗口内（10-20 02:34），上次漏了，这里补上。",
+   "source": "@fal",
+   "url": "https://x.com/fal/status/2112251022047412492",
+   "first_seen": "2026-10-20 02:34",
+   "keyword_rank": 2,
+   "keyword": "FLUX 3 Max",
+   "reason": "首发帖 32 万浏览，FLUX 品牌认知度高，视频生成用户会搜价格、怎么用、和 Seedance/Kling 对比，适合做教程和对比页。"
+  },
+  {
+   "name": "Wabi 2.0（Eugenia Kuyda）【上一档漏收，补录】",
+   "desc": "Replika 创始人的新产品：能拉进群聊、多人一起用的 AI agent，可订票、对日程、在聊天里直接做小应用。首发在上一档窗口内（10-20 00:02），这里补上。",
+   "source": "@ekuyda",
+   "url": "https://x.com/ekuyda/status/2112212804979880239",
+   "first_seen": "2026-10-20 00:02"
+  }
+ ],
+ "keywords": []
+}

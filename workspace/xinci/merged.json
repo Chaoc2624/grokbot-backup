@@ -1,0 +1,625 @@
+{
+ "date": "2026-10-20",
+ "board_runs": [
+  "2026-10-20 上午",
+  "2026-10-20 晚上"
+ ],
+ "our_x_failed": false,
+ "terms": [
+  {
+   "name": "earshot",
+   "key": "earshot",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "Leonxlnx/earshot: Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "url": "https://github.com/Leonxlnx/earshot",
+   "signals": [
+    "GitHub 爆发 Leonxlnx/earshot ★1795(均 340/天,一天 +1063)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "deepinfer",
+   "key": "deepinfer",
+   "sources": [
+    "GitHub",
+    "看板X"
+   ],
+   "desc": "DeepSeek 开源自家推理框架 DeepInfer，就是线上跑 DeepSeek-V4.1-Flash 的那套生产栈，主打高吞吐、低延迟、降算力和能耗成本；Apache-2.0，GitHub: deepseek-ai/DeepInfer。",
+   "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+   "signals": [
+    "GitHub 爆发 deepseek-ai/DeepInfer ★7825(均 1844/天)"
+   ],
+   "variants": [],
+   "named": 0.95,
+   "board": {
+    "name": "DeepInfer（DeepSeek）",
+    "source": "@deepseek_ai",
+    "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+    "first_seen": "2026-10-20 17:30",
+    "keyword_rank": 1,
+    "keyword": "DeepInfer",
+    "reason": "首发帖 136 万浏览、6300+ 收藏，DeepSeek 官方开源、名字全新，开发者会搜「DeepInfer 部署教程 / 和 vLLM、SGLang 对比 / 硬件要求」，适合做教程和对比页。"
+   }
+  },
+  {
+   "name": "cleanyourtv",
+   "key": "cleanyourtv",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+   "url": "https://github.com/Gathin23/cleanyourtv",
+   "signals": [
+    "GitHub 爆发 Gathin23/cleanyourtv ★9384(均 2909/天)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "free my tv",
+   "key": "freemytv",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "simbasjungles/free-my-tv: A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
+   "url": "https://github.com/simbasjungles/free-my-tv",
+   "signals": [
+    "GitHub 爆发 simbasjungles/free-my-tv ★987(均 987/天)"
+   ],
+   "variants": [],
+   "named": 0.85
+  },
+  {
+   "name": "leanrea",
+   "key": "leanrea",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "aicodeking/leanrea: One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% chea",
+   "url": "https://github.com/aicodeking/leanrea",
+   "signals": [
+    "GitHub 爆发 aicodeking/leanrea ★1120(均 325/天,一天 +581)"
+   ],
+   "variants": [],
+   "named": 0.85
+  },
+  {
+   "name": "macnativegames",
+   "key": "macnativegames",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "ly05010419/MacNativeGames: ",
+   "url": "https://github.com/ly05010419/MacNativeGames",
+   "signals": [
+    "GitHub 爆发 ly05010419/MacNativeGames ★2438(均 890/天)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "locklens",
+   "key": "locklens",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 12 处 (×8.8)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "piia engram",
+   "key": "piiaengram",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 12 处 (×8.4)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "vibe coder",
+   "key": "vibecoder",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 12 处 (×8.2)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "gitingest",
+   "key": "gitingest",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 14 处 (×9.6)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "langfuse",
+   "key": "langfuse",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 21 处 (×9.2)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "ncrawl",
+   "key": "ncrawl",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 12 处 (×9.1)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "searx",
+   "key": "searx",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 12 处 (×9.0)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "piia",
+   "key": "piia",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 12 处 (×8.4)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "searxncrawl",
+   "key": "searxncrawl",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 12 处 (×9.0)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "aki",
+   "key": "aki",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 14 处 (×8.7)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "cinema4d",
+   "key": "cinema4d",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 15 处 (×10.0)"
+   ],
+   "variants": [],
+   "named": 0.5
+  },
+  {
+   "name": "fcp",
+   "key": "fcp",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 14 处 (×8.7)"
+   ],
+   "variants": [],
+   "named": 0.5
+  },
+  {
+   "name": "firstdata",
+   "key": "firstdata",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 12 处 (×8.7)"
+   ],
+   "variants": [],
+   "named": 0.5
+  },
+  {
+   "name": "cn math taxonomy",
+   "key": "cnmathtaxonomy",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "xiaoyang111222/cn-math-taxonomy: 中小学+高中数学知识图谱 + 前置诊断：课标对齐、人教版一–九年级与高中必修、选择性必修、802 知识点、3355 题、自适应诊断",
+   "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+   "signals": [
+    "GitHub 爆发 xiaoyang111222/cn-math-taxonomy ★1420(均 648/天)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "joecheofficial",
+   "key": "joecheofficial",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 10 处 (×10.0)"
+   ],
+   "variants": [],
+   "named": 0.4
+  },
+  {
+   "name": "memory keeper",
+   "key": "memorykeeper",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 16 处 (×12.0)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "telegram supercharged",
+   "key": "telegramsupercharged",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 17 处 (×11.5)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "sonic match",
+   "key": "sonicmatch",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 14 处 (×9.8)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "uptime marketplace",
+   "key": "uptimemarketplace",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 87 处 (×87.0)"
+   ],
+   "variants": [],
+   "named": 0.2
+  },
+  {
+   "name": "life.lhr uptime",
+   "key": "lifelhruptime",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 79 处 (×79.0)"
+   ],
+   "variants": [],
+   "named": 0.2
+  },
+  {
+   "name": "connectors life.lhr",
+   "key": "connectorslifelhr",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 79 处 (×77.6)"
+   ],
+   "variants": [],
+   "named": 0.2
+  },
+  {
+   "name": "sites",
+   "key": "sites",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 681 处 (×498.1)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "marketplace",
+   "key": "marketplace",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 89 处 (×22.4)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "korean dart",
+   "key": "koreandart",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 18 处 (×13.5)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "tradingview chart",
+   "key": "tradingviewchart",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 19 处 (×12.1)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "vectorize",
+   "key": "vectorize",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 18 处 (×12.0)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "SKY-001（Skyfall AI）",
+   "key": "sky001",
+   "sources": [
+    "看板X"
+   ],
+   "desc": "Skyfall AI 发布的「首个工程世界模型」，把文字或草图变成 CAD/BIM 设计；官方称在 CAD 和 BIM 任务上比 GPT-6 Astra 等前沿模型快 51–125 倍、便宜 150–210 倍、IOU 更高。研究预览，开放候补名单。",
+   "url": "https://x.com/spisallyouneed/status/2112242023805964327",
+   "signals": [],
+   "variants": [],
+   "board": {
+    "name": "SKY-001（Skyfall AI）",
+    "source": "@spisallyouneed（Skyfall AI CEO Sam Pasupalak）",
+    "url": "https://x.com/spisallyouneed/status/2112242023805964327",
+    "first_seen": "2026-10-20 01:58",
+    "keyword_rank": 1,
+    "keyword": "SKY-001",
+    "reason": "首发帖 118 万浏览、5300+ 收藏，「AI 生成 CAD」是新需求，适合做「SKY-001 是什么 / 怎么申请 / 和 GPT 出 CAD 对比」页。"
+   }
+  },
+  {
+   "name": "Mercury 3（Inception）",
+   "key": "mercury3",
+   "sources": [
+    "看板X"
+   ],
+   "desc": "Inception 的扩散式大模型新版：称超过 GPT-6 Luna 和 Claude Haiku 5.5，速度 1000+ token/秒，规模是 Mercury 1 的 40 多倍、标准基准智能约 3 倍。已上线。",
+   "url": "https://x.com/StefanoErmon/status/2112222911218291051",
+   "signals": [],
+   "variants": [],
+   "board": {
+    "name": "Mercury 3（Inception）",
+    "source": "@StefanoErmon（Inception 联合创始人）",
+    "url": "https://x.com/StefanoErmon/status/2112222911218291051",
+    "first_seen": "2026-10-20 00:42",
+    "keyword_rank": 2,
+    "keyword": "Mercury 3",
+    "reason": "「扩散 LLM」+ 极速卖点，开发者会搜 API 价格、接入方式、和 Haiku/Luna 对比，适合做测评和接入教程页。"
+   }
+  },
+  {
+   "name": "JST-2（ViggleAI）",
+   "key": "jst2",
+   "sources": [
+    "看板X"
+   ],
+   "desc": "Viggle 发布「首个全栈物理原生世界基础模型」：在 3D 空间里从头建模，几秒生成可扩展的 3D 场景，一张图生成自带动作的 3D 角色（无需绑骨），文字/视频生成全身动作；场景可导出高斯泼溅 .ply/.spz，免费试用。",
+   "url": "https://x.com/ViggleAI/status/2112202242048528540",
+   "signals": [],
+   "variants": [],
+   "board": {
+    "name": "JST-2（ViggleAI）",
+    "source": "@ViggleAI",
+    "url": "https://x.com/ViggleAI/status/2112202242048528540",
+    "first_seen": "2026-10-19 23:20",
+    "keyword_rank": 3,
+    "keyword": "Viggle JST-2",
+    "reason": "首发 70 万浏览，图生 3D 角色/场景免费可玩，适合做「怎么用 / 导入 Unity·Unreal / 和其他世界模型对比」教程页。"
+   }
+  },
+  {
+   "name": "Clairic（Cloudflare）",
+   "key": "clairic",
+   "sources": [
+    "看板X"
+   ],
+   "desc": "Cloudflare 推出的「System One」抽取模型，从邮件、图片、文本等非结构化输入里抽取、计算、估算和预测数据（如发票金额、日期）。",
+   "url": "https://x.com/Cloudflare/status/2112244042658423149",
+   "signals": [],
+   "variants": [],
+   "board": {
+    "name": "Clairic（Cloudflare）",
+    "source": "@Cloudflare",
+    "url": "https://x.com/Cloudflare/status/2112244042658423149",
+    "first_seen": "2026-10-20 02:06",
+    "keyword_rank": null,
+    "keyword": null,
+    "reason": null
+   }
+  },
+  {
+   "name": "llm-d 1.0（Red Hat / IBM / Google Cloud 等）",
+   "key": "llmd10",
+   "sources": [
+    "看板X"
+   ],
+   "desc": "开源的 Kubernetes 原生分布式推理栈正式 1.0，在 PyTorch 大会发布：多租户 QoS、零停机滚动升级、前缀缓存感知路由，可把 vLLM/SGLang、GPU/TPU 挂到同一入口。X 上最早 19:30 由 @gcpweekly 转发 Google Cloud 公告，Red Hat 官方 20:02 发帖。",
+   "url": "https://x.com/gcpweekly/status/2112506828428918816",
+   "signals": [],
+   "variants": [],
+   "board": {
+    "name": "llm-d 1.0（Red Hat / IBM / Google Cloud 等）",
+    "source": "@gcpweekly（Red Hat 官方帖 https://x.com/RedHat/status/2112514674528813448）",
+    "url": "https://x.com/gcpweekly/status/2112506828428918816",
+    "first_seen": "2026-10-20 19:30",
+    "keyword_rank": 3,
+    "keyword": "llm-d",
+    "reason": "大厂联合的推理基础设施新词，搜索量偏企业/运维向，适合做「llm-d 是什么 / 部署指南 / 和 DeepInfer 区别」的技术页，竞争小。"
+   }
+  },
+  {
+   "name": "FLUX 3 Max（fal × Black Forest Labs）【上一档漏收，补录】",
+   "key": "flux3max",
+   "sources": [
+    "看板X"
+   ],
+   "desc": "fal Research 与 BFL 合作后训练的视频模型：文字/图片/关键帧生成 5–20 秒 720p 带音频视频，图生视频质量并列第一，10 秒视频约 12 秒生成；fal 上线并有首发折扣。首发在上一档窗口内（10-20 02:34），上次漏了，这里补上。",
+   "url": "https://x.com/fal/status/2112251022047412492",
+   "signals": [],
+   "variants": [],
+   "board": {
+    "name": "FLUX 3 Max（fal × Black Forest Labs）【上一档漏收，补录】",
+    "source": "@fal",
+    "url": "https://x.com/fal/status/2112251022047412492",
+    "first_seen": "2026-10-20 02:34",
+    "keyword_rank": 2,
+    "keyword": "FLUX 3 Max",
+    "reason": "首发帖 32 万浏览，FLUX 品牌认知度高，视频生成用户会搜价格、怎么用、和 Seedance/Kling 对比，适合做教程和对比页。"
+   }
+  },
+  {
+   "name": "Wabi 2.0（Eugenia Kuyda）【上一档漏收，补录】",
+   "key": "wabi20",
+   "sources": [
+    "看板X"
+   ],
+   "desc": "Replika 创始人的新产品：能拉进群聊、多人一起用的 AI agent，可订票、对日程、在聊天里直接做小应用。首发在上一档窗口内（10-20 00:02），这里补上。",
+   "url": "https://x.com/ekuyda/status/2112212804979880239",
+   "signals": [],
+   "variants": [],
+   "board": {
+    "name": "Wabi 2.0（Eugenia Kuyda）【上一档漏收，补录】",
+    "source": "@ekuyda",
+    "url": "https://x.com/ekuyda/status/2112212804979880239",
+    "first_seen": "2026-10-20 00:02",
+    "keyword_rank": null,
+    "keyword": null,
+    "reason": null
+   }
+  }
+ ],
+ "dupes": [
+  {
+   "name": "DeepInfer（DeepSeek）",
+   "matched": "deepinfer",
+   "ours": [
+    "GitHub"
+   ]
+  }
+ ],
+ "board_keywords": [
+  "SKY-001",
+  "Mercury 3",
+  "Viggle JST-2",
+  "DeepInfer",
+  "llm-d",
+  "FLUX 3 Max"
+ ]
+}

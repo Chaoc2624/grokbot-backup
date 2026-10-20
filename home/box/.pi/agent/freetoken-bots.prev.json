@@ -1,7 +1,11 @@
 {
-  "checked_at": "2026-10-19T01:04:13.057664+00:00",
+  "checked_at": "2026-10-20T01:00:34.848906+00:00",
   "eligible": [],
   "needs_parameter_verification": [
+    {
+      "id": "minimax/minimax-m3.1-flash:free",
+      "context_length": 1000000
+    },
     {
       "id": "xingchen-agi/xing4.0-29b-a4b:free",
       "context_length": 262144
@@ -75,6 +79,7 @@
     "google/lyria-3-clip-preview",
     "google/lyria-3-pro-preview",
     "liquid/lfm-2.5-2.6b:free",
+    "minimax/minimax-m3.1-flash:free",
     "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "nvidia/nemotron-3-super-120b-a12b:free",
     "nvidia/nemotron-3-ultra-550b-a55b:free",
@@ -88,5 +93,5 @@
     "thinkingmachines/inkling:free",
     "xingchen-agi/xing4.0-29b-a4b:free"
   ],
-  "free_count": 19
+  "free_count": 20
 }

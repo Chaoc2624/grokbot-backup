@@ -197,5 +197,126 @@
    "source": "serp",
    "soft_weak": 1
   }
+ },
+ "ai sound effect generator": {
+  "overview_ok": true,
+  "volume": 1900,
+  "cpc": 1.81,
+  "comp": 0.32,
+  "results": 768000000,
+  "kd_ok": true,
+  "kd": 8,
+  "day": "2026-10-20",
+  "serp": {
+   "kinds": {
+    "video": 1,
+    "tool": 5,
+    "forum": 1,
+    "article": 2
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "youtube.com",
+    "foximusic.com",
+    "reddit.com",
+    "media.io",
+    "dupdub.com",
+    "fal.ai",
+    "elser.ai",
+    "wondercraft.ai",
+    "huggingface.co"
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  }
+ },
+ "sky-001": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": 0,
+  "day": "2026-10-21"
+ },
+ "mercury 3": {
+  "overview_ok": true,
+  "volume": 170,
+  "cpc": 0.0,
+  "comp": 0.11,
+  "results": 194,
+  "kd_ok": true,
+  "kd": 25,
+  "day": "2026-10-21"
+ },
+ "viggle jst-2": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "day": "2026-10-21"
+ },
+ "deepinfer": {
+  "overview_ok": true,
+  "volume": 10,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": 0,
+  "day": "2026-10-21"
+ },
+ "llm-d": {
+  "overview_ok": true,
+  "volume": 1600,
+  "cpc": 7.4,
+  "comp": 0.01,
+  "results": 106,
+  "kd_ok": true,
+  "kd": 50,
+  "day": "2026-10-21",
+  "serp": {
+   "kinds": {
+    "article": 8,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "top": [
+    "github.com",
+    "llm-d.ai",
+    "redhat.com",
+    "llm-d.ai",
+    "github.com",
+    "llm-d.ai",
+    "cloud.google.com",
+    "docs.vllm.ai",
+    "coreweave.com"
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "flux 3 max": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "day": "2026-10-21"
  }
 }

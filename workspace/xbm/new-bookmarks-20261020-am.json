@@ -1,0 +1,278 @@
+[
+ {
+  "author_id": "1068172934630395904",
+  "conversation_id": "2112244985156481059",
+  "created_at": "2026-10-19T18:10:22.000Z",
+  "edit_history_post_ids": [
+   "2112244985156481059"
+  ],
+  "id": "2112244985156481059",
+  "note_tweet": {
+   "text": "分享一个很好用的前端提示词。\n优先复用成熟库、组件源代码可控、统一设计语言、严格限制重复依赖。\n再配合指定好各种库，就算 oneshot 也能出很不错的前端。\nUI 风格统一使用  譬如 shadcn/ui Nova\n图标统一使用  譬如 Lucide\n动画统一使用  譬如 Motion\n布局库 譬如 react-resizable-panels\n拖拽使用 譬如 dnd-kit\n状态管理使用 譬如 Zustand\n......"
+  },
+  "text": "分享一个很好用的前端提示词。\n优先复用成熟库、组件源代码可控、统一设计语言、严格限制重复依赖。\n再配合指定好各种库，就算 oneshot 也能出很不错的前端。\nUI 风格统一使用  譬如 shadcn/ui Nova\n图标统一使用  譬如 Lucide\n动画统一使用  譬如 Motion\n布局库 譬如 react-resizable-panels\n拖拽使用",
+  "url": "https://x.com/jakevin7/status/2112244985156481059"
+ },
+ {
+  "author_id": "2043219895001997312",
+  "conversation_id": "2112076750285099315",
+  "created_at": "2026-10-19T07:01:52.000Z",
+  "edit_history_post_ids": [
+   "2112076750285099315"
+  ],
+  "id": "2112076750285099315",
+  "note_tweet": {
+   "entities": {
+    "hashtags": [
+     {
+      "end": 1192,
+      "start": 1186,
+      "tag": "Gmail"
+     },
+     {
+      "end": 1198,
+      "start": 1193,
+      "tag": "隐私保护"
+     },
+     {
+      "end": 1204,
+      "start": 1199,
+      "tag": "免费工具"
+     }
+    ],
+    "mentions": [
+     {
+      "end": 418,
+      "id": "189751101",
+      "start": 413,
+      "username": "duck"
+     },
+     {
+      "end": 837,
+      "id": "2192638314",
+      "start": 829,
+      "username": "mozmail"
+     },
+     {
+      "end": 989,
+      "id": "189751101",
+      "start": 984,
+      "username": "duck"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "duckduckgo.com/email",
+      "end": 236,
+      "expanded_url": "https://duckduckgo.com/email",
+      "start": 213,
+      "url": "https://t.co/yVw3G7bdKG"
+     },
+     {
+      "display_url": "simplelogin.io",
+      "end": 542,
+      "expanded_url": "https://simplelogin.io",
+      "start": 519,
+      "url": "https://t.co/NY7g9pzPpZ"
+     },
+     {
+      "display_url": "relay.firefox.com",
+      "end": 780,
+      "expanded_url": "https://relay.firefox.com",
+      "start": 757,
+      "url": "https://t.co/DqU074LFcf"
+     }
+    ]
+   },
+   "text": "难道还有人在注册海外网站时，直接把自己的主力 Gmail 交出去？？\n\n你注册过的几十个网站，只要有一家发生数据泄露，你的邮箱就可能被拿去撞库、发钓鱼邮件、关联不同平台的身份。\n\n更离谱的是，现在有工具能免费生成一大堆邮箱地址，邮件照样进你原来的 Gmail。\n\n而且比 Gmail 加「+」高级多了，网站甚至不需要知道你的真实邮箱。\n\n整理了三个，直接上链接👇\n\n① DuckDuckGo Email Protection\nhttps://t.co/yVw3G7bdKG\n\n这个最值得试。\n\n✅ 完全免费\n✅ 可以无限生成随机邮箱\n✅ 自动转发到你的 Gmail\n✅ 自动清除邮件中的部分追踪器\n✅ 某个地址收到垃圾邮件，可以单独停用\n\n操作：\n\n1️⃣ 打开官网，用 DuckDuckGo 浏览器或扩展启用 Email Protection\n\n2️⃣ 绑定自己的 Gmail\n\n3️⃣ 完成邮箱验证\n\n4️⃣ 生成随机的 @duck.com 地址\n\n5️⃣ 注册网站时直接填写生成的地址\n\n网站发来的验证邮件会自动转发到 Gmail。\n\n以后每注册一个网站，直接用不同的邮箱地址。\n\n② SimpleLogin（Proton 旗下）\nhttps://t.co/NY7g9pzPpZ\n\n这个更适合长期管理多个账号。\n\n免费版提供：\n\n✅ 10 个邮箱别名\n✅ 自动转发到真实邮箱\n✅ 支持通过别名回复邮件\n✅ Chrome、Firefox、Safari 扩展\n✅ 支持手机 App\n\n注册 → 验证真实邮箱 → 创建 Alias → 复制地址。\n\n比如注册 X 用一个，注册 Reddit 用一个，购物再用一个。\n\n某个平台天天发广告？直接关掉对应别名，不影响其他账号收邮件。\n\n③ Firefox Relay\nhttps://t.co/DqU074LFcf\n\nMozilla 自家的邮箱隐藏服务。\n\n注册 Mozilla 账号，设置转发邮箱，就可以生成 @mozmail.com 地址。\n\n免费提供多个邮箱别名，还能通过控制台暂停转发。\n\n平时注册论坛、工具网站、订阅服务，完全够用。\n\n最关键的来了：\n\n普通的 Gmail + 别名，例如：\n\nabc+twitter@gmail.com\n\n别人一眼就能看出原邮箱是 abc@gmail.com。\n\n但随机生成的 @duck.com 邮箱，网站无法直接从地址看出你的 Gmail。\n\n当然，这些地址本质上还是转发服务，不是独立邮箱。有些网站也会拒绝邮箱别名。\n\n建议重要金融账户继续使用自己长期控制的邮箱。\n\n说真的，很多人一个 Gmail 用了十年，注册过几百个网站。\n\n哪天垃圾邮件、诈骗链接满天飞，才想起来自己的邮箱早就被到处传播。\n\n以后注册不重要的网站，真的没必要再把主邮箱交出去。\n\n这三个你用过哪个？\n\n#Gmail #隐私保护 #免费工具"
+  },
+  "text": "难道还有人在注册海外网站时，直接把自己的主力 Gmail 交出去？？\n\n你注册过的几十个网站，只要有一家发生数据泄露，你的邮箱就可能被拿去撞库、发钓鱼邮件、关联不同平台的身份。\n\n更离谱的是，现在有工具能免费生成一大堆邮箱地址，邮件照样进你原来的 Gmail。\n\n而且比 Gmail",
+  "url": "https://x.com/PengPai09/status/2112076750285099315"
+ },
+ {
+  "author_id": "104063846",
+  "conversation_id": "2111983416279281893",
+  "created_at": "2026-10-19T00:50:59.000Z",
+  "edit_history_post_ids": [
+   "2111983416279281893"
+  ],
+  "entities": {
+   "urls": [
+    {
+     "display_url": "pic.x.com/a27LQOMDDF",
+     "end": 161,
+     "expanded_url": "https://x.com/slashui/status/2111983416279281893/video/1",
+     "media_key": "13_2111983346565664768",
+     "start": 138,
+     "url": "https://t.co/a27LQOMDDF"
+    },
+    {
+     "display_url": "x.com/LexnLin/status…",
+     "end": 185,
+     "expanded_url": "https://twitter.com/LexnLin/status/2111927727318245426",
+     "start": 162,
+     "url": "https://t.co/4npy2trSll"
+    }
+   ]
+  },
+  "id": "2111983416279281893",
+  "note_tweet": {
+   "text": "动画做得再酷炫，如果没有声音的陪衬，质感也得直接降一个档次！\n\n好的音效真的太重要了！尤其是那些恰到好处的点击声、碰撞声、转场声，简直就是动画的灵魂。\n\n今天试了一下 Earshot v0.3，太帅了！\n\n内置 201 种音效，而且全部由代码生成！\n可以一键生成整套音效包。\n最绝的是，音效可以精确到某一帧，和动画完美同步！\n\n现在它还集成进了 Cinetic 动效设计 Skill。\n\nAI 已经能把动画做得越来越漂亮了，现在连声音都能用代码精准控制。\n\n这才叫真正的声画合一！"
+  },
+  "referenced_tweets": [
+   {
+    "id": "2111927727318245426",
+    "type": "quoted"
+   }
+  ],
+  "text": "动画做得再酷炫，如果没有声音的陪衬，质感也得直接降一个档次！\n\n好的音效真的太重要了！尤其是那些恰到好处的点击声、碰撞声、转场声，简直就是动画的灵魂。\n\n今天试了一下 Earshot v0.3，太帅了！\n\n内置 201 种音效，而且全部由代码生成！\n可以一键生成整套音效包。 https://t.co/a27LQOMDDF https://t.co/4npy2trSll",
+  "url": "https://x.com/slashui/status/2111983416279281893"
+ },
+ {
+  "author_id": "2064014337321418752",
+  "conversation_id": "2112161760061059337",
+  "created_at": "2026-10-19T12:39:40.000Z",
+  "edit_history_post_ids": [
+   "2112161760061059337"
+  ],
+  "entities": {
+   "urls": [
+    {
+     "display_url": "pic.x.com/XdJX6TdnDj",
+     "end": 194,
+     "expanded_url": "https://x.com/SecJack96/status/2112161760061059337/photo/1",
+     "media_key": "3_2112159712976539648",
+     "start": 171,
+     "url": "https://t.co/XdJX6TdnDj"
+    },
+    {
+     "display_url": "pic.x.com/XdJX6TdnDj",
+     "end": 194,
+     "expanded_url": "https://x.com/SecJack96/status/2112161760061059337/photo/1",
+     "media_key": "3_2112159773290582016",
+     "start": 171,
+     "url": "https://t.co/XdJX6TdnDj"
+    },
+    {
+     "display_url": "x.com/SecJack96/stat…",
+     "end": 218,
+     "expanded_url": "https://twitter.com/SecJack96/status/2112111763588260220",
+     "start": 195,
+     "url": "https://t.co/1psyhz9klY"
+    }
+   ]
+  },
+  "id": "2112161760061059337",
+  "note_tweet": {
+   "text": "刚测试了一下：LemFi 收尼日利亚奈拉再换成英镑，汇损巨大，这条路很不推荐！推荐用 Cashi 充值奈拉兑换成USDT！\n\n10000 奈拉：\n🔹 LemFi → 只能换 5.12 英镑（约 6.82 美元）\n🔹 Cashi → 换成 U 能到 7.19U\n差距太明显了 😂 只能说 LemFi 这换汇是真黑，吃相太难看了！\n\nCashi 注册开卡和实测的文章链接我放在评论区了 👇"
+  },
+  "referenced_tweets": [
+   {
+    "id": "2112111763588260220",
+    "type": "quoted"
+   }
+  ],
+  "text": "刚测试了一下：LemFi 收尼日利亚奈拉再换成英镑，汇损巨大，这条路很不推荐！推荐用 Cashi 充值奈拉兑换成USDT！\n\n10000 奈拉：\n🔹 LemFi → 只能换 5.12 英镑（约 6.82 美元）\n🔹 Cashi → 换成 U 能到 7.19U\n差距太明显了 😂 只能说 LemFi 这换汇是真黑，吃相太难看了！\n\nCashi https://t.co/XdJX6TdnDj https://t.co/1psyhz9klY",
+  "url": "https://x.com/SecJack96/status/2112161760061059337"
+ },
+ {
+  "author_id": "1588865055122026496",
+  "conversation_id": "2112184739314741658",
+  "created_at": "2026-10-19T14:10:59.000Z",
+  "edit_history_post_ids": [
+   "2112184739314741658"
+  ],
+  "entities": {
+   "urls": [
+    {
+     "display_url": "prenotami.esteri.it",
+     "end": 56,
+     "expanded_url": "https://prenotami.esteri.it/",
+     "start": 33,
+     "status": 403,
+     "unwound_url": "https://prenotami.esteri.it/",
+     "url": "https://t.co/ONSDjcwnMP"
+    }
+   ]
+  },
+  "id": "2112184739314741658",
+  "note_tweet": {
+   "entities": {
+    "urls": [
+     {
+      "display_url": "prenotami.esteri.it",
+      "end": 56,
+      "expanded_url": "https://prenotami.esteri.it/",
+      "start": 33,
+      "url": "https://t.co/A7b1uidj0h"
+     }
+    ]
+   },
+   "text": "关于意大利个人税号，简单列一下吧：\n填写申请表及准备好对应材料，在https://t.co/A7b1uidj0h进行注册并预约税号申请，\n提交材料将住址证明上传至驾照选项即可。\n\n准备材料：\n1、填妥并签名的 AA4/8 表格；\n2、护照扫描件；\n3、英国住址证明。\n\n目前申请的人不多，一般1个工作日内即可收到税号文件。趁着没关门，冲吧！\n\n这两天忙，没什么时间回答问题，大家直接把问题和流程喂给AI，很快就搞定了。"
+  },
+  "text": "关于意大利个人税号，简单列一下吧：\n填写申请表及准备好对应材料，在https://t.co/ONSDjcwnMP进行注册并预约税号申请，\n提交材料将住址证明上传至驾照选项即可。\n\n准备材料：\n1、填妥并签名的 AA4/8 表格；\n2、护照扫描件；\n3、英国住址证明。",
+  "url": "https://x.com/HaiWaiYunJuMin/status/2112184739314741658"
+ },
+ {
+  "author_id": "1613198074246987778",
+  "conversation_id": "2112110018472337499",
+  "created_at": "2026-10-19T09:14:04.000Z",
+  "edit_history_post_ids": [
+   "2112110018472337499"
+  ],
+  "entities": {
+   "urls": [
+    {
+     "display_url": "pic.x.com/oAAj1igx9a",
+     "end": 86,
+     "expanded_url": "https://x.com/Yonkxx/status/2112110018472337499/photo/1",
+     "media_key": "3_2112109780433014784",
+     "start": 63,
+     "url": "https://t.co/oAAj1igx9a"
+    }
+   ]
+  },
+  "id": "2112110018472337499",
+  "text": "已经成功预约了意大利税号\n\n人不用过去，提交了资料，过几天就会签发了\n\n真实可验证的税号，目前还不知道有什么用，先冲了再说😋 https://t.co/oAAj1igx9a",
+  "url": "https://x.com/Yonkxx/status/2112110018472337499"
+ },
+ {
+  "author_id": "2064014337321418752",
+  "conversation_id": "2112111763588260220",
+  "created_at": "2026-10-19T09:21:00.000Z",
+  "edit_history_post_ids": [
+   "2112111763588260220"
+  ],
+  "entities": {
+   "urls": [
+    {
+     "display_url": "pic.x.com/drtmJzP2OA",
+     "end": 188,
+     "expanded_url": "https://x.com/SecJack96/status/2112111763588260220/photo/1",
+     "media_key": "3_2112103555343728641",
+     "start": 165,
+     "url": "https://t.co/drtmJzP2OA"
+    },
+    {
+     "display_url": "x.com/SecJack96/stat…",
+     "end": 212,
+     "expanded_url": "https://twitter.com/SecJack96/status/2111436069778727218",
+     "start": 189,
+     "url": "https://t.co/QbXQ3dFpx4"
+    }
+   ]
+  },
+  "id": "2112111763588260220",
+  "note_tweet": {
+   "text": "今天发现 LemFi 居然还送一个同名的尼日利亚奈拉银行账户，Wise 那边 NGN 不给账户。\n\n尼日利亚感觉也是云居民可以基建的一个国家：MTN 的 eSIM + NIN + OPay，三件套配齐就差不多了\n\n这样薅 LemFi、Sendwave、Ria 等等的羊毛，也可以选择用英镑汇尼日利亚奈拉到 OPay，然后无损转到 LemFi，再换回英镑，实现闭环。\n\nMaya 也是同理：无损汇菲律宾比索到 Wise，一样闭环。\n\n需要开Lemfi的可以看我引用的推文~"
+  },
+  "referenced_tweets": [
+   {
+    "id": "2111436069778727218",
+    "type": "quoted"
+   }
+  ],
+  "text": "今天发现 LemFi 居然还送一个同名的尼日利亚奈拉银行账户，Wise 那边 NGN 不给账户。\n\n尼日利亚感觉也是云居民可以基建的一个国家：MTN 的 eSIM + NIN + OPay，三件套配齐就差不多了\n\n这样薅 LemFi、Sendwave、Ria 等等的羊毛，也可以选择用英镑汇尼日利亚奈拉到 OPay，然后无损转到 https://t.co/drtmJzP2OA https://t.co/QbXQ3dFpx4",
+  "url": "https://x.com/SecJack96/status/2112111763588260220"
+ }
+]

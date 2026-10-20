@@ -83,7 +83,11 @@ def collect(report: dict, extra: list[str], cap: int) -> list[dict]:
             competition=r.get("competition"), radar_volume=r.get("volume"), decision=r.get("decision"))
     # kw["tails"] are the name's own long tails ("photocraft download"): branded, left out.
     for t in extra:
-        add(t, source="手动", names=[], evidence="")
+        if isinstance(t, dict):
+            add(t.get("phrase", ""), source=t.get("source") or "看板X", names=t.get("names") or [],
+                evidence=t.get("evidence") or "")
+        else:
+            add(t, source="手动", names=[], evidence="")
     return list(out.values())[:cap]
 
 
@@ -315,13 +319,17 @@ def main():
     ap.add_argument("--report", default=str(HERE / "report.json"))
     ap.add_argument("--out", default=str(HERE / "doable.md"))
     ap.add_argument("--terms", default="", help="extra terms, ';'-separated")
+    ap.add_argument("--extra-file", default="", help="JSON list of {phrase,source,names,evidence} (e.g. board_keywords.json from merge_board.py)")
     ap.add_argument("--dry-run", action="store_true", help="collect and show terms, spend nothing")
     a = ap.parse_args()
     load_env()
     cfg = config()
     report = json.loads(Path(a.report).read_text())
     report_day = datetime.fromtimestamp(Path(a.report).stat().st_mtime).strftime("%Y-%m-%d")
-    terms = collect(report, [t for t in a.terms.split(";") if t.strip()], cfg["max_terms"])
+    extra = [t for t in a.terms.split(";") if t.strip()]
+    if a.extra_file and Path(a.extra_file).exists():
+        extra += json.loads(Path(a.extra_file).read_text())
+    terms = collect(report, extra, cfg["max_terms"])
     if a.dry_run:
         print(json.dumps([t["phrase"] for t in terms], ensure_ascii=False))
         return

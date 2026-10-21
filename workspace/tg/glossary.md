@@ -1005,3 +1005,106 @@
 - `澳门电讯`（CTM，Macau Telecom）· `HiNet`（中华电信网络）· `软银`（SoftBank 日本线路）
 ## 2026-10-21 2 点新增
 - `PayPal Debit`（群友写 paypal debit / pp卡，东逆海外基建 polplay「paypal debit 开卡成功」）· 双不限卡 — 奶昔论坛 lanh cang 原写法，照原文 · WroldFrist — 群友 AMI 原写法（指 WorldFirst 万里汇），照原文 · 成员：海无方美卡 — LXF🕊、Ice Blue；东逆海外基建 — polplay、松坂砂糖橘🌸、cc cc；InfiCheesy — Pure；何居上跨境 — Big white；奶昔论坛 — chatfish、lanh cang；VPS家宽AI群 — 睁眼就爆单；Loon-0x00 — Spains、76 JOKER、Smith Steven、michae1、桑 Ko.
+- `cteuk` — 群友写法，指中国电信英国（CTExcel UK）卡（外卡交流频道 淡寫 问 90 天不充值保号，2026-10-21）。
+- （2026-10-21 6 点）直布罗陀（英屬直布羅陀，+350，8 位号码）、福克兰群岛（福克蘭群島，+500，五位号码，运营商 `Sure` Falkland Islands）— 外卡交流频道 ❄️ Maki 🇬🇮、一隻北極熊 聊号码，照原文。 · 平信 / DHL — 东逆海外基建 ALT GUI、T&C TYIP 说 P1 实体卡寄送方式，照原文。
+- `蚂蚁阿福` — 蚂蚁集团的健康 AI 应用（Loon-0x00 starry sky 2026-10-21 问开 Loon 后能否正常使用）。
+
+## 2026-10-21 8 点新增
+- `TIME`（马来西亚宽带运营商 Time Internet，群友写作 time；官网 time.com.my）
+
+## 2026-10-21 9 点新增
+- `magpie` / yeton — VPS家宽AI群 D姐 | demonyins 称 magpie 为 yeton 大神开发的产品（抢购讨论），照原文。
+- GG卡 — Jason保号实验室群友对某英国/海外预付卡的俗称（Li「除了GG卡」；与 `Lebara`/leb 并提），照原文。
+- `leb` — 群友对 `Lebara` 的简称（Jason保号实验室 Li），照原文。
+
+## 2026-10-21 10 点新增
+- `Hatoba`：带 AI 助手的开源 SSH 客户端（奶昔 詩音 求 Star，github.com/scarletkc/Hatoba）
+- amtb — 海无方 nn 在 C1 私人住宅地址讨论中提到（原文「amtb租吧」），照原文。
+- `Loon for Mac 0.5.0(1009)`：2026-10-21 发布，新增网关、DHCP 功能
+
+## 2026-10-21 11 点新增
+- `Alpinetrek` — 东逆海外基建 chou simon / 枪王：用 Zilch 前「去zilch搜索Alpinetrek，允许2小时」再淘宝、美团消费（照原文）。
+- `中银卡` — 中银香港提款卡（东逆海外基建 U Ner「中银卡/万事达扣帐卡」，线上开户后默认寄出）；`中银万事达卡扣账卡` 需在手机银行另申请实体卡。
+- `cuhk` — 外卡交流频道 June Park「cuhk我之前存了5000多」，群友写法（与 ctm 流量/话费并提），照原文。
+- 电信蓝卡 — 外卡交流频道 アーミヤ「电信蓝卡那个不能在中港澳外的地区漫游」，照原文。
+- `Nexora Panel` — VPS家宽AI群 D姐 发 https://nexora-panel.org/ 「出现了无敌面板」「商业化的」。
+- 携程任我行 / 京东e卡 / 天猫超市卡 — 礼品卡（东逆海外基建 U Ner「闲鱼去搜礼品卡」），照原文。
+- 日本乐天 36G 年卡 — 奶昔 纸船 旧 转发出售乐天实体卡（Rakuten Mobile），照原文。
+
+## 2026-10-21 12 点新增
+- `2degrees`（新西兰运营商，群友写作 2 degrees）；`One NZ`（新西兰运营商）
+- `CMIN2`（VPS 线路名，VPS 群提到 US.LA.CMIN2.Basic）
+- 常见成员：坠明（海无方，C1 多户/refer）、huo yan（东逆海外基建，万里汇推荐）
+
+## 2026-10-21 13 点新增
+- `Payoneer`（派安盈；东逆海外基建 Vinv🇨🇳 提到 payoneer）
+- `Amex 百夫长`（国内美国运通百夫长卡；海无方 avalon / 林先生 提到「国内百夫长」「无限pp」）
+
+## 2026-10-21 14 点新增
+- `VoHive`（群里写 vohive 变体；InfiCheesy 群用于拉起 eSIM / Wi-Fi Calling）
+- `TRI CORE`（VPS 群里写 TRI CORE / tri / core，溢价转手的套餐）
+- `as967`（VPS 群贴的预约页 reserve.as967.com）
+
+## 2026-10-21 15 点新增
+- `VIRCS`（VPS 群里写 vircs，"开始卖电话号码了"）
+- `Komari`（VPS 探针，群里写 komari / KOmari，有 lite 版）
+- `Jupiter`（东逆群里写 jupiter，"也能开"）
+- `UPS Worldwide Saver`（海无方群寄卡用的 UPS 国际服务）
+
+## 2026-10-21 16 点新增
+- `Craigslist`（海无方群找美国地址时提到的平台）
+- `VPM`（海无方群写 vpm，"vpm拼车的 5人 50刀一个月"）
+- `CF 探针`（VPS 群写 cf探针 / CF探针，由 KAMARI〔即 Komari〕换过去；"极简探针"）
+- `Pulse`（汇丰 Pulse 银联双币钻石信用卡，群里写 pulse；`蓝狮子` = 汇丰香港 Mastercard 扣账卡）
+
+## 2026-10-21 17 点新增
+- `东莞银行(国际)`（东莞国际，香港持牌银行，2025-08-11 开业；万事达 / 银联扣账卡）
+- `Sevo`（新加坡多币种钱包，群友称「類似starryblu多幣種錢包」）
+- `Sandwave`（东逆群提到的可薅 aff）
+- 诺亚（VPS 群：「诺亚的双isp」）
+
+## 2026-10-21 18 点新增
+- `Senwave`（东逆薅毛大队 Luyeh Real 写 senwave，问用什么充值）
+- `DPT卡`（东逆海外基建 Aiden One：「DPT卡有人开过吗」）
+- `OpenPayd`（群里写 Openpayd，Valerio（tz）称 pulsar 的户「也是MT」）
+- `FedNow`（美联储即时支付系统，东逆群 yuxi liu 提到）
+- `Airtm`（InfiCheesy 群 影 写 airtm）
+- `Cue`（AI 接电话助手；海无方群 Gyara(dos)：「自動轉接到Cue」，先写成 muse）
+- 佩奇机场（Loon 群提到的机场名）
+
+## 2026-10-21 19 点新增
+- `eSIM Plus`（群友写 esimplus / esmpl）：eSIM 与虚拟号码服务商，群友说已无永久套餐、重置成 365 天
+- `TipTrans`（群友写 tiptrans）：英国转运地址服务；`UKP`（ukp）同类转运地址
+- 极搜：InfiCheesy 群友提到的服务名，原文「极搜 是出了什么事」
+
+## 2026-10-21 20 点新增
+- `NSOCK`：代理/静态 ISP 商家（InfiCheesy JimmyC：「我在NSOCK买的静态ISP 一拖20」）
+- `True`（泰国 TrueMove H 运营商，群友写 True/true）、`AIS`（泰国运营商）：InfiCheesy 落地 IP 话题
+- `GOMO`：新加坡 Singtel 旗下 SIM-only 品牌（外卡交流频道 腼腆内向小男孩：「30.99SGD100G不限速」）
+
+## 2026-10-21 21 点新增
+- `UK Postbox`（ukpostbox / ukp，英国转运代收）
+- `3m-ui`（3x-ui 的分支面板，Loon 群里 Tartarus 推荐）
+- `LinkCube`（机场名）
+
+## 2026-10-21 22 点新增
+- `ZTE U10L`（4G 随身 WiFi，外卡交流频道 Miku：「4G买ZTE U10L」）；`U30`、`M3` 同条提到的 5G 随身 WiFi 型号
+- `Lumen`（骨干网运营商，VPS 群 柚子：「lumen v6 ≈ cmin2 v4」）；`CMI`（中国移动国际，群友写 cmi）
+- `市政税账单`（Council Tax bill，英国地方议会签发；东逆群里作小马/地址证明讨论）
+
+## 2026-10-21 23 点新增
+- `Xapo`（Xapo Bank，奶昔群 c c：「xapo干他，1000刀一年」）
+- `NIF`（葡萄牙税号，奶昔群 Ryoi Sern：「nif线上50eur」）；`NIE`（西班牙外国人识别号）
+- `HMRC`（英国税务海关总署）；`DRD`（Direct Recovery of Debts，HMRC 从银行账户直接扣欠税，东逆群 Arion 提到）
+- `NScok`（代理/节点服务，InfiCheesy 群 JimmyC：「我还是用回NScok吧」）
+
+## 2026-10-22 00 点新增
+- `IHG`（IHG One Rewards 联名信用卡，Chase 发行；海无方群 Theo Li：「你ihg 也是老版的99刀吗」；新卡 IHG One Rewards Premier Select 年费 $350）
+- `Gate Card`（Gate 交易所 U 卡，东逆群 king usd1：「gate card有人用吗」）
+
+## 2026-10-22 1 点新增
+- `BCB Group`：英国加密行业银行/支付服务商（群友 fue Chun 提到 sort code 04-05-40～04-05-41 登记在其名下），网络 BLINC
+- `tGBP`：英镑稳定币（东逆海外基建 Evelpeu Vesuec 提到「tGBP换英镑 按固定1;1」）
+
+- `GTourist`：GCash 面向短期访菲外国人的账户
+- `PDAX`：菲律宾加密交易所

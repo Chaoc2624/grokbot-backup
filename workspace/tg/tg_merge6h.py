@@ -90,6 +90,11 @@ def merge(date, b1, b2):
            'sources': [os.path.relpath(f['path'], BASE) for f in frags]}
     return doc, missing
 
+def attach_images(path):
+    """Add item['images'] from captured photos (tools/attach_images.py; content text untouched)."""
+    r = subprocess.run([sys.executable, os.path.join(BASE, 'tools', 'attach_images.py'), path], capture_output=True, text=True)
+    print((r.stdout or r.stderr).strip())
+
 def push(path):
     subprocess.run([sys.executable, os.path.join(BASE, 'tg_digest_push.py'), path], check=True)
 
@@ -123,6 +128,7 @@ def main():
         os.makedirs(ddir(date), exist_ok=True)
         json.dump(doc, open(path, 'w'), ensure_ascii=False, indent=1)
         print(path, info)
+        attach_images(path)
         if a.push: push(path)
 
 if __name__ == '__main__':

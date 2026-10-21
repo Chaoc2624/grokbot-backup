@@ -18,6 +18,8 @@ import argparse, asyncio, json, os, sys, time, logging
 from datetime import datetime, timedelta, timezone
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from tgnet import make_client
+import tg_media
+IMAGES = os.environ.get('TG_NO_IMAGES') != '1'   # --no-images turns this off
 from telethon.errors import FloodWaitError
 from telethon.tl.functions.messages import GetForumTopicsRequest
 from telethon.tl.types import (MessageMediaPhoto, MessageMediaDocument, MessageMediaWebPage,
@@ -104,11 +106,11 @@ async def fetch_group(client, g, start, end, ent=None):
     ent = ent or await client.get_entity(g['id'])
     is_forum = bool(getattr(ent, 'forum', False))
     topics = await forum_topics(client, ent) if is_forum else {}
-    msgs = []
+    msgs = []; raw = []
     tries = 0
     while True:
         try:
-            msgs = []
+            msgs = []; raw = []
             async for m in client.iter_messages(ent, offset_date=end, wait_time=1):
                 if m.date < start: break
                 if isinstance(m, MessageService): continue
@@ -130,6 +132,7 @@ async def fetch_group(client, g, start, end, ent=None):
                     'fwd_from': fwd,
                     'link': msg_link(ent, m.id),
                 })
+                if IMAGES and tg_media.is_image(m): raw.append((m, msgs[-1]))
                 if is_forum:
                     tid = topic_of(m); msgs[-1]['topic'] = topics.get(tid, f'topic {tid}')
             break
@@ -138,6 +141,10 @@ async def fetch_group(client, g, start, end, ent=None):
             log.warning('FloodWait %ss on %s (try %d)', e.seconds, g['title'], tries); FLOOD.append((g['title'], e.seconds))
             if tries > 3: raise
             await asyncio.sleep(e.seconds + 2)
+    for m, rec in raw:                                   # images: read-only file download, thumbnails on disk
+        img = await tg_media.capture(client, m, g['key'], rec['time'][:10])
+        if img: rec['image'] = img
+    if raw: log.info('%s: %d image(s)', g['title'], sum(1 for _, r in raw if 'image' in r))
     msgs.reverse()
     # attach short quote of replied-to message when it is inside the window
     by_id = {m['id']: m for m in msgs}
@@ -240,8 +247,11 @@ def main():
     ap.add_argument('--split-local', help='split an existing fetched window file into hourly files (no network)')
     ap.add_argument('--date', help='YYYY-MM-DD (default today, Asia/Shanghai)')
     ap.add_argument('--all', action='store_true', help='all 3h windows of --date up to now')
+    ap.add_argument('--no-images', action='store_true', help='do not download photos')
     ap.add_argument('--start'); ap.add_argument('--end'); ap.add_argument('--out')
     a = ap.parse_args()
+    global IMAGES
+    if a.no_images: IMAGES = False
     now = datetime.now(TZ)
     day = datetime.strptime(a.date, '%Y-%m-%d').date() if a.date else now.date()
     hourly = False

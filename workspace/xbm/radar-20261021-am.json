@@ -1,0 +1,47 @@
+{
+ "label": "2026-10-21 上午",
+ "run_at": "2026-10-21 10:10",
+ "window_start": "2026-10-20 22:10",
+ "window_end": "2026-10-21 10:05",
+ "empty": false,
+ "items": [
+  {
+   "name": "Ornith-1.5-122B（Ornith）",
+   "desc": "122B 总参 / 约 10B 激活的 MoE 开源模型，MIT 许可，单张 DGX/80GB 卡可跑；SWE-bench Verified 0.845、MCP-Atlas 0.746、BrowseComp 0.785。首日即上 Hugging Face、Ollama、Unsloth GGUF、SGLang、Hermes Agent，64GB Mac 可跑量化版。",
+   "source": "@ornith_",
+   "url": "https://x.com/ornith_/status/2112553477457268799",
+   "first_seen": "2026-10-20 22:36",
+   "keyword_rank": 1,
+   "keyword": "Ornith-1.5-122B",
+   "reason": "首发帖 84 万浏览、1000+ 收藏，全新开源模型名，本地部署玩家会集中搜「Ornith 1.5 本地运行 / Mac 配置 / GGUF 下载 / 和 Qwen 对比」，适合做部署教程和对比页。"
+  },
+  {
+   "name": "Voxtral 3（Mistral AI）",
+   "desc": "Mistral 新一代语音转写（Transcribe）和语音合成（Speech）模型，同时上线新的语音 agent API。",
+   "source": "@MistralAI",
+   "url": "https://x.com/MistralAI/status/2112574615318876178",
+   "first_seen": "2026-10-21 00:00",
+   "keyword_rank": 2,
+   "keyword": "Voxtral 3",
+   "reason": "首发帖 15 万浏览，语音转写/TTS 需求稳定，用户会搜价格、API 用法、和 Whisper / ElevenLabs 对比，适合做价格计算和对比页。"
+  },
+  {
+   "name": "Gemini Personal Intelligence 上 Android Auto（Google）",
+   "desc": "Gemini 的 Personal Intelligence 开始在 Android Auto 推送，经授权可连接 Gmail、日历、搜索等提供车载免手动帮助，未来几个月扩展到内置 Google 的汽车。功能更新，不是新模型。",
+   "source": "@Google",
+   "url": "https://x.com/Google/status/2112655614132285592",
+   "first_seen": "2026-10-21 05:22"
+  },
+  {
+   "name": "MemT-1.0（记忆张量 MemTensor）【上一档漏收，补录】",
+   "desc": "记忆原生开源模型系列：Flash（288B）和 Nano（36B），把可更新的内部记忆放进模型计算，长会话无需重新塞历史，128K 下存储约降 66 倍；11 项记忆基准在参数化记忆方法中排前二。首发在上一档窗口内（10-20 16:00），上次漏了，这里补上。",
+   "source": "@ModelScope2022",
+   "url": "https://x.com/ModelScope2022/status/2112453862351073661",
+   "first_seen": "2026-10-20 16:00",
+   "keyword_rank": 3,
+   "keyword": "MemT-1.0",
+   "reason": "「记忆原生模型」是新概念，中文圈讨论多、竞争小，适合做「MemT 是什么 / 和 RAG 区别 / Nano 本地部署」解释页。"
+  }
+ ],
+ "keywords": []
+}

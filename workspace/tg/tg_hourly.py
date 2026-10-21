@@ -31,9 +31,10 @@ plan = {'date': D, 'hour': H, 'block': blk(H), 'block_final': H % 6 == 5, 'day_f
             '# web-verify 3-5 key claims -> "--- 核验" lines in the group blocks',
             f'./venv/bin/python tools/checkquotes.py {D} {H:02d} specs/{D}-{H:02d}.spec',
             f'./venv/bin/python tools/mkfrag.py {D} {H:02d} < specs/{D}-{H:02d}.spec',
-            f'./venv/bin/python tg_merge6h.py --date {D} --block {blk(H)} --push',
+            f'./venv/bin/python tools/attach_images.py digests/{D}/hourly/{H:02d}.json',
+            f'./venv/bin/python tg_merge6h.py --date {D} --block {blk(H)}   # NO --push; also attaches images',
             f'# update digests/{D}/daily.json (partial={str(H != 23).lower()}, win_end={(last + timedelta(hours=1)).strftime("%Y-%m-%d %H:%M")})',
-            f'./venv/bin/python tg_digest_push.py digests/{D}/daily.json']}
+            f'./venv/bin/python tools/attach_images.py digests/{D}/daily.json']}   # never push to the board
 if '--json' in sys.argv: print(json.dumps(plan, ensure_ascii=False, indent=1)); sys.exit()
 print(f"last completed hour: {D} {H:02d}:00-{H + 1:02d}:00  block {plan['block']}"
       + ('  (block completes)' if plan['block_final'] else '') + ('  (day completes -> finalise daily)' if plan['day_final'] else ''))

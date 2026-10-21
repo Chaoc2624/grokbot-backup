@@ -1,0 +1,54 @@
+{
+ "label": "2026-10-21 晚上",
+ "run_at": "2026-10-21 22:10",
+ "window_start": "2026-10-21 10:05",
+ "window_end": "2026-10-21 22:05",
+ "empty": false,
+ "items": [
+  {
+   "name": "Sage-A1.5（InternScience）",
+   "desc": "面向长程科研任务的开源模型，256K 上下文，可把独立调查分给并行子 agent，带可选验证模式；PinchBench 90.0、FrontierScience-Olympiad 81.0。BF16/FP8/GGUF，支持 Transformers、vLLM、SGLang，Apache 2.0。",
+   "source": "@ModelScope2022",
+   "url": "https://x.com/ModelScope2022/status/2112816255375745132",
+   "first_seen": "2026-10-21 16:00",
+   "keyword_rank": 1,
+   "keyword": "Sage-A1.5",
+   "reason": "首发帖 1.6 万浏览、154 收藏，社区已在 5090 上跑 Q4 量化；全新名字，适合做「是什么 / 本地部署 / 和 Kimi、GLM 对比」页。"
+  },
+  {
+   "name": "Spark-X2.6-4B（讯飞星火）",
+   "desc": "4B 开源小模型，1M 上下文，三档思考预算（none/low/high），FP8/INT8/INT4/GGUF 全套，支持 Ollama、llama.cpp、MLX、LM Studio，Apache 2.0。",
+   "source": "@ModelScope2022",
+   "url": "https://x.com/ModelScope2022/status/2112781153065165291",
+   "first_seen": "2026-10-21 13:40",
+   "keyword_rank": 2,
+   "keyword": "Spark-X2.6-4B",
+   "reason": "本地小模型需求大，用户会搜「Ollama 运行 / 显存要求 / 和 Qwen3.5-9B 对比」，适合做部署教程和配置页。"
+  },
+  {
+   "name": "OXR-1.0（SoMark）",
+   "desc": "1.3B 开源文档解析模型，把 PDF 和文档图片转成 Markdown 或 JSON，识别表格、公式、化学结构、代码块等 13 类元素；olmOCR-Bench、OmniDocBench 等项目自报第一，557 tokens/s。",
+   "source": "@ModelScope2022",
+   "url": "https://x.com/ModelScope2022/status/2112901338178687182",
+   "first_seen": "2026-10-21 21:38",
+   "keyword_rank": 3,
+   "keyword": "OXR-1.0",
+   "reason": "PDF 转 Markdown 是长期刚需，词新竞争小，适合做在线试用、教程和与 olmOCR / MinerU 对比页。"
+  },
+  {
+   "name": "Mistral × NVIDIA 工业工程 AI 合作",
+   "desc": "Mistral 宣布和 NVIDIA 合作：更快的仿真、物理 AI 开放基准和数据集、CAE/EDA 场景的 agent 评测。合作公告，不是新模型。",
+   "source": "@MistralAI",
+   "url": "https://x.com/MistralAI/status/2112870261829603589",
+   "first_seen": "2026-10-21 19:35"
+  },
+  {
+   "name": "GPT-Rosalind 药物研发新线索（OpenAI）",
+   "desc": "OpenAI 公布数千个 GPT-Rosalind agent 并行 32 分钟分析小鼠脑数据，提出 Perry 综合征的胆固醇转运假说，与 Scripps 等扩大合作。科研成果，不是新产品。",
+   "source": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2112899854569762936",
+   "first_seen": "2026-10-21 21:32"
+  }
+ ],
+ "keywords": []
+}

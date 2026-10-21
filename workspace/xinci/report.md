@@ -2,24 +2,18 @@
 
 ### 新词表:新名字和它背后的通用词
 
-今天读了:earshot, deepinfer, cleanyourtv, free my tv, leanrea。提出 30 个通用写法,19 个通过相关性筛选,其中 1 个月搜不低于 50(2026-09 数据)。
-日搜是估算:通用词用它自己的月搜索量沿 Trends 曲线推到现在;名字对比基准词 `gpts`(按今天这批词反推,约每天 820 次)。
+今天读了:eagle 4, aerial tv, rea prompts, handwired, git ai。提出 24 个通用写法,12 个通过相关性筛选,其中 0 个月搜不低于 50(? 数据)。
+日搜是按每个通用词自己的月搜索量估算的。今天没法校准基准词 `gpts`,所以名字没有估算值。
 
 | 关键词 | 类型 | 来自 | 新词? | 估算日搜 | 开始上涨 | 峰值 vs gpts | 峰值日 | 近 7 天比前 7 天 | 现在 | 首页竞争 | 决策 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| **leanrea** | 名字 | — | — | 4 | — | 1 vs 32.1 | — | — | 还读不出 | 挤满 | 观察 |
-| **deepinfer** | 名字 | — | 是 | 0 | 2026-10-15 | 0 vs 30.6 | 2026-10-15 | ×1.1 | 还在涨 | 挤满 | 观察 |
-| **cleanyourtv** | 名字 | — | — | 0 | — | 0 vs 50.3 | — | — | 还读不出 | 挤满 | 观察 |
-| **ai sound effect generator** 🎙 | 通用词 | earshot | 是 | 80 | 2026-10-10 | 10 vs 54.8 | 2026-10-10 | ×0.3 | 回落 | — | 跳过 |
-| **earshot** | 名字 | — | 否 | 44 | — | 6 vs 52.9 | 2026-09-17 | ×0.9 | 没动 | — | 跳过 |
-| **free my tv** | 名字 | — | 否 | 41 | — | 6 vs 51.1 | 2026-10-10 | ×0.6 | 没动 | — | 跳过 |
+| **eagle 4** | 名字 | — | 否 | — | — | 10 vs 47.6 | 2026-09-29 | ×1.3 | 没动 | — | 跳过 |
+| **aerial tv** | 名字 | — | 否 | — | — | 7 vs 55.6 | 2026-09-21 | ×0.7 | 没动 | — | 跳过 |
+| **rea prompts** | 名字 | — | 否 | — | — | 1 vs 49.8 | 2026-10-12 | — | 没动 | — | 跳过 |
+| **handwired** | 名字 | — | 是 | — | 2026-09-20 | 3 vs 53.4 | 2026-09-20 | — | 回落 | — | 跳过 |
+| **git ai** | 名字 | — | 否 | — | — | 42 vs 57.4 | 2026-09-18 | ×1.3 | 没动 | — | 跳过 |
 
 决策规则:优先 = 近 30 天涨过、现在还在高位、估算日搜不低于 300。观察 = 涨了但规模小;还太早读不出;或者没动但本身就有这个规模的稳定需求。跳过 = 已回落,或没动且规模小。Trends 最后两天的数据还没结算,不计入。
-首页竞争:能进 = 前十里有 3 个以上评分低于 30 的站,或关键词难度低于 20;挤满 = 一个弱站都没有、难度 40 以上(或未知);其余为一般。↓ = 还在涨,但首页被强站占满,从优先降为观察。有广告 = 有人花钱买这个点击。已有页面 = 近一个月标题里带这个词的页面数(多少人已经在为它做东西);在投广告 = 在这个词上投谷歌广告的域名(广告透明度:已经有人为这个需求付钱)。评分、页面数和广告来自 GoAnyAPI,难度和结果来自 DataForSEO。
-没有 GOANYAPI_API_KEY:首页竞争只看关键词难度,没有各站评分。
-
-原话(每个通用词的依据):
-- **ai sound effect generator** (earshot): “a bank of 201 sound effects stored as code that render by id in seconds, with no models and no network”
 
 相关查询未开启:设置 GOANYAPI_API_KEY 后,会加入大家和每个名字一起搜的词。
 
@@ -27,29 +21,28 @@
 
 | 词 | 信号 | 名字得分 | 已覆盖 | 搜索变体 | 例子 |
 |---|---|---|---|---|---|
-| **earshot** 🎙 | GitHub 爆发 Leonxlnx/earshot ★1795(均 340/天,一天 +1063) | 0.90 | 无 | leonxlnx earshot, leon earshot | Leonxlnx/earshot: Ears for coding agents: let AI h |
-| **deepinfer** | GitHub 爆发 deepseek-ai/DeepInfer ★7825(均 1844/天) | 0.95 | 无 | deepseek-ai deepinfer, deepseek deepinfer | deepseek-ai/DeepInfer: DeepInfer: High-performance |
-| **cleanyourtv** | GitHub 爆发 Gathin23/cleanyourtv ★9384(均 2909/天) | 0.90 | 无 | gathin23 cleanyourtv, gathin cleanyourtv | Gathin23/cleanyourtv: Debloat any Android or Googl |
-| **free my tv** | GitHub 爆发 simbasjungles/free-my-tv ★987(均 987/天) | 0.85 | 无 | simbasjungles free my tv, simba free my tv | simbasjungles/free-my-tv: A fast, ad-free home scr |
-| **leanrea** | GitHub 爆发 aicodeking/leanrea ★1120(均 325/天,一天 +581) | 0.85 | 无 | aicodeking leanrea | aicodeking/leanrea: One 8 KB skill that replaces R |
-| **macnativegames** | GitHub 爆发 ly05010419/MacNativeGames ★2438(均 890/天) | 0.80 | 无 | ly05010419 macnativegames, yong macnativegames | ly05010419/MacNativeGames:  |
-| **locklens** | ③ 竞品 12 处 (×8.8) | 0.80 | 无 | — |  |
-| **piia engram** | ③ 竞品 12 处 (×8.4) | 0.80 | 无 | — |  |
-| **vibe coder** | ③ 竞品 12 处 (×8.2) | 0.80 | 无 | — |  |
-| **gitingest** | ③ 竞品 14 处 (×9.6) | 0.70 | 无 | — |  |
-| **langfuse** | ③ 竞品 21 处 (×9.2) | 0.70 | 无 | — |  |
-| **ncrawl** | ③ 竞品 12 处 (×9.1) | 0.70 | 无 | — |  |
-| **searx** | ③ 竞品 12 处 (×9.0) | 0.70 | 无 | — |  |
-| **piia** | ③ 竞品 12 处 (×8.4) | 0.70 | 无 | — |  |
-| **searxncrawl** | ③ 竞品 12 处 (×9.0) | 0.60 | 无 | — |  |
-| **aki** | ③ 竞品 14 处 (×8.7) | 0.60 | 无 | — |  |
-| **cinema4d** | ③ 竞品 15 处 (×10.0) | 0.50 | 无 | — |  |
-| **fcp** | ③ 竞品 14 处 (×8.7) | 0.50 | 无 | — |  |
-| **firstdata** | ③ 竞品 12 处 (×8.7) | 0.50 | 无 | — |  |
+| **dctn1** | X 1 个账号 ♥1830 | 0.70 | 无 | — | @OpenAI: GPT-Rosalind surfaced a new lead for drug |
+| **php** | X 1 个账号 ♥1803 | 0.50 | 无 | — | @OpenAI: OpenAI models helped researchers—operatin |
+| **eagle 4** | GitHub 爆发 eagle-hq/EAGLE-4 ★624(均 611/天) | 0.90 | 无 | eagle-hq eagle 4, eagle eagle 4 | eagle-hq/EAGLE-4: Official Inference Code of EAGLE |
+| **aerial tv** | GitHub 爆发 pengchujin/aerial-tv ★1836(均 1502/天) | 0.80 | 无 | pengchujin aerial tv | pengchujin/aerial-tv: 给国产电视的一块干净桌面：参照 tvOS 设计的开源 A |
+| **rea prompts** | GitHub 爆发 JoasASantos/REA-Prompts ★1262(均 753/天,一天 +751) | 0.80 | 无 | joasasantos rea prompts, joas rea prompts | JoasASantos/REA-Prompts: REAP - Prompts for you to |
+| **koleharv** | ③ 竞品 8 处 (×8.0) | 0.80 | 无 | — |  |
+| **connectors com.insightfulpipe** | ③ 竞品 47 处 (×47.0) | 0.70 | 无 | — |  |
+| **connectors com.textforagents** | ③ 竞品 28 处 (×25.8) | 0.70 | 无 | — |  |
+| **app.abracadabrax** | ③ 竞品 23 处 (×23.0) | 0.70 | 无 | — |  |
+| **abracadabrax** | ③ 竞品 23 处 (×23.0) | 0.70 | 无 | — |  |
+| **connectors app.abracadabrax** | ③ 竞品 23 处 (×23.0) | 0.70 | 无 | — |  |
+| **connectors com.manymotions** | ③ 竞品 18 处 (×18.0) | 0.70 | 无 | — |  |
+| **insightful pipe** | ③ 竞品 17 处 (×16.8) | 0.70 | 无 | — |  |
+| **connectors io.github.pooriaarab** | ③ 竞品 14 处 (×13.6) | 0.70 | 无 | — |  |
+| **maker abracadabrax** | ③ 竞品 13 处 (×13.0) | 0.70 | 无 | — |  |
+| **io.resumenext** | ③ 竞品 8 处 (×8.0) | 0.70 | 无 | — |  |
+| **connectors io.resumenext** | ③ 竞品 8 处 (×8.0) | 0.70 | 无 | — |  |
+| **johannschiffer** | ③ 竞品 15 处 (×15.0) | 0.60 | 无 | — |  |
+| **diogenes** | ③ 竞品 12 处 (×11.7) | 0.60 | 无 | — |  |
+| **deepseek** | ③ 竞品 29 处 (×9.7) | 0.60 | 无 | — |  |
 
-🎬 视频 · 🎙 语音 · 🖼 图片:它产出什么,一般用户愿意付费的顺序是 视频 > 语音 > 图片 > 文字。⚡ = 有 1,000 赞以上的帖子在手把手讲一套手动流程,或在跟一个热梗:还没人做成一键工具。按标签行动前先读原帖。
-
-其他上升词(判为普通词):cn math taxonomy, joecheofficial, memory keeper, telegram supercharged, sonic match, uptime marketplace, life.lhr uptime, connectors life.lhr, sites, marketplace, korean dart, tradingview chart, vectorize
+其他上升词(判为普通词):video maker, tutorials deepseek, many motions, resume next, out sun, maker, tutorials, booking
 
 ### 主题:AI video
 
@@ -59,21 +52,21 @@
 
 | 仓库 | ★ | 均/天 | 比昨天 | 天数 | 简介 |
 |---|---|---|---|---|---|
-| [google-research/harness2](https://github.com/google-research/harness2) | 14030 | 1027 | +10514 | 13.7 |  |
-| [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 7908 | 619 | +3011 | 12.8 | SolidCraft: an open-source parametric 3D CAD application bui |
-| 🆕 [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 9384 | 2909 | — | 3.2 | Debloat any Android or Google TV over Wi-Fi and get an Apple |
-| 🆕 [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | 7825 | 1844 | — | 4.2 | DeepInfer: High-performance, large-scale inference framework |
-| [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | 17328 | 1427 | +1659 | 12.1 | An agent skill for creating detailed, interactive isometric  |
-| [feder-cr/git-ai](https://github.com/feder-cr/git-ai) | 2579 | 514 | +1348 | 5.0 | Git designed for AI agents. |
-| [storytold/wordcraft](https://github.com/storytold/wordcraft) | 14937 | 1131 | +705 | 13.2 | An open-source, clean-room reimplementation of Microsoft Wor |
-| [openai/math](https://github.com/openai/math) | 15276 | 1118 | +129 | 13.7 |  |
-| 🆕 [Leonxlnx/earshot](https://github.com/Leonxlnx/earshot) | 1795 | 340 | +1063 | 5.3 | Ears for coding agents: let AI hear, review and make sound.  |
-| 🆕 [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) | 987 | 987 | — | 1.0 | A fast, ad-free home screen for Google TV. Open source, buil |
-| 🆕 [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) | 2438 | 890 | — | 2.7 |  |
-| [HeyPuter/everything](https://github.com/HeyPuter/everything) | 2939 | 427 | +796 | 6.9 | We're rebuilding and open-sourcing the world’s software from |
-| [Arekejoker/qwen21-nsfw-pose-skill](https://github.com/Arekejoker/qwen21-nsfw-pose-skill) | 3473 | 467 | +771 | 7.4 | Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 |
-| 🆕 [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 1420 | 648 | — | 2.2 | 中小学+高中数学知识图谱 + 前置诊断：课标对齐、人教版一–九年级与高中必修、选择性必修、802 知识点、3355 题、 |
-| 🆕 [aicodeking/leanrea](https://github.com/aicodeking/leanrea) | 1120 | 325 | +581 | 3.4 | One 8 KB skill that replaces REA (Reverse Engineer Anything) |
+| [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | 17082 | 3234 | +9257 | 5.3 | DeepInfer: High-performance, large-scale inference framework |
+| [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 16706 | 3918 | +7322 | 4.3 | Debloat any Android or Google TV over Wi-Fi and get an Apple |
+| 🆕 [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) | 1836 | 1502 | — | 1.2 | 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS- |
+| [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | 18210 | 1382 | +882 | 13.2 | An agent skill for creating detailed, interactive isometric  |
+| [simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv) | 2346 | 1307 | +1359 | 1.8 | A fast, ad-free home screen for Google TV. Open source, buil |
+| [storytold/wordcraft](https://github.com/storytold/wordcraft) | 15253 | 1070 | +316 | 14.2 | An open-source, clean-room reimplementation of Microsoft Wor |
+| [ly05010419/MacNativeGames](https://github.com/ly05010419/MacNativeGames) | 3505 | 928 | +1067 | 3.8 |  |
+| [tangency-labs/solidcraft](https://github.com/tangency-labs/solidcraft) | 8667 | 627 | +759 | 13.8 | SolidCraft: an open-source parametric 3D CAD application bui |
+| 🆕 [JoasASantos/REA-Prompts](https://github.com/JoasASantos/REA-Prompts) | 1262 | 753 | +751 | 1.7 | REAP - Prompts for you to use REA (Reverse Engineer Anything |
+| 🆕 [eagle-hq/EAGLE-4](https://github.com/eagle-hq/EAGLE-4) | 624 | 611 | — | 1.0 | Official Inference Code of EAGLE-4 |
+| [xiaoyang111222/cn-math-taxonomy](https://github.com/xiaoyang111222/cn-math-taxonomy) | 1892 | 586 | +472 | 3.2 | 中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中、高中），课标对齐、人教版，1 |
+| [jhaizhou-ops/d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) | 4288 | 464 | +158 | 9.2 | Open-source iOS / macOS compatibility layer for Diablo II: R |
+| [HeyPuter/everything](https://github.com/HeyPuter/everything) | 3388 | 427 | +449 | 7.9 | We're rebuilding and open-sourcing the world’s software from |
+| [storytold/cadcraft](https://github.com/storytold/cadcraft) | 6269 | 436 | +178 | 14.4 | CADCraft: computer-aided design and drafting — an open-sourc |
+| [storytold/gridcraft](https://github.com/storytold/gridcraft) | 6118 | 425 | +133 | 14.4 | GridCraft: an open-source, clean-room spreadsheet (Microsoft |
 
 ### ⑤ 复盘(14 天前报出的词,在 Google Trends 里起没起来)
 
@@ -84,16 +77,17 @@
 - ① X:35/35 个账号,660 条帖子
 - ① HF:trending 100 个模型、100 个 Space
 - ② 爆发:搜到 200 个新仓库
-- ③ glama:139789 个网址,新增 2753
-- ③ mcp.so:19410 个网址,新增 32
+- ③ glama:141078 个网址,新增 1330
+- ③ mcp.so:19444 个网址,新增 45
 - ③ lobehub-mcp:200 个网址,新增 0
 - ③ lobehub-skills:200 个网址,新增 0
-- ③ toolify:no URLs read
+- ③ toolify:692 个网址,新增 0
 - ③ aixploria:595 个网址,新增 0
-- ③ ai-bot.cn:5068 个网址,新增 687
+- ③ ai-bot.cn:5068 个网址,新增 681
 - ③ opentools:7007 个网址,新增 0
-- ③ dang:7744 个网址,新增 27
+- ③ dang:7783 个网址,新增 39
 - ③ clipfly:281 个网址,新增 0
-- ③ aitoptools:11837 个网址,新增 3
+- ③ aitoptools:11842 个网址,新增 6
 - ③ futurepedia:1329 个网址,新增 0
-- 本次 AIsa 数据花费:$0.230(名字判断的模型调用另计)
+- 本次 AIsa 数据花费:$0.207(名字判断的模型调用另计)
+

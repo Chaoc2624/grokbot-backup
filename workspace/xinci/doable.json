@@ -1,5 +1,5 @@
 {
- "day": "2026-10-20",
+ "day": "2026-10-21",
  "config": {
   "min_volume": 500,
   "max_kd": 15,
@@ -14,127 +14,12 @@
  },
  "terms": [
   {
-   "phrase": "ai sound effect generator",
-   "source": "模型提取",
-   "names": [
-    "earshot"
-   ],
-   "evidence": "a bank of 201 sound effects stored as code that render by id in seconds, with no models and no network",
-   "competition": null,
-   "radar_volume": 1900,
-   "decision": "skip",
-   "overview_ok": true,
-   "volume": 1900,
-   "cpc": 1.81,
-   "comp": 0.32,
-   "results": 768000000,
-   "kd_ok": true,
-   "kd": 8,
-   "verdict": "open",
-   "comp_detail": {
-    "kinds": {
-     "video": 1,
-     "tool": 5,
-     "forum": 1,
-     "article": 2
-    },
-    "ads": false,
-    "features": [
-     "ai_overview",
-     "related_searches"
-    ],
-    "top": [
-     "youtube.com",
-     "foximusic.com",
-     "reddit.com",
-     "media.io",
-     "dupdub.com",
-     "fal.ai",
-     "elser.ai",
-     "wondercraft.ai",
-     "huggingface.co"
-    ],
-    "source": "serp",
-    "soft_weak": 2
-   },
-   "checks": {
-    "月搜": true,
-    "KD": true,
-    "CPC": true,
-    "首页竞争": true
-   },
-   "score": 90,
-   "failed": [],
-   "unknown": []
-  },
-  {
-   "phrase": "sky-001",
+   "phrase": "ornith-1.5-122b",
    "source": "看板X",
    "names": [
-    "SKY-001（Skyfall AI）"
+    "Ornith-1.5-122B（Ornith）"
    ],
-   "evidence": "首发帖 118 万浏览、5300+ 收藏，「AI 生成 CAD」是新需求，适合做「SKY-001 是什么 / 怎么申请 / 和 GPT 出 CAD 对比」页。",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": 0.0,
-   "comp": 0.33,
-   "results": 0,
-   "kd_ok": true,
-   "kd": 0,
-   "verdict": null,
-   "checks": {
-    "月搜": false,
-    "KD": true,
-    "CPC": false,
-    "首页竞争": null
-   },
-   "score": 35,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "首页竞争"
-   ]
-  },
-  {
-   "phrase": "mercury 3",
-   "source": "看板X",
-   "names": [
-    "Mercury 3（Inception）"
-   ],
-   "evidence": "「扩散 LLM」+ 极速卖点，开发者会搜 API 价格、接入方式、和 Haiku/Luna 对比，适合做测评和接入教程页。",
-   "overview_ok": true,
-   "volume": 170,
-   "cpc": 0.0,
-   "comp": 0.11,
-   "results": 194,
-   "kd_ok": true,
-   "kd": 25,
-   "verdict": null,
-   "checks": {
-    "月搜": false,
-    "KD": false,
-    "CPC": false,
-    "首页竞争": null
-   },
-   "score": 30,
-   "failed": [
-    "月搜",
-    "KD",
-    "CPC"
-   ],
-   "unknown": [
-    "首页竞争"
-   ]
-  },
-  {
-   "phrase": "viggle jst-2",
-   "source": "看板X",
-   "names": [
-    "JST-2（ViggleAI）"
-   ],
-   "evidence": "首发 70 万浏览，图生 3D 角色/场景免费可玩，适合做「怎么用 / 导入 Unity·Unreal / 和其他世界模型对比」教程页。",
+   "evidence": "首发帖 84 万浏览、1000+ 收藏，全新开源模型名，本地部署玩家会集中搜「Ornith 1.5 本地运行 / Mac 配置 / GGUF 下载 / 和 Qwen 对比」，适合做部署教程和对比页。",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -160,95 +45,136 @@
    ]
   },
   {
-   "phrase": "deepinfer",
+   "phrase": "voxtral 3",
    "source": "看板X",
    "names": [
-    "DeepInfer（DeepSeek）"
+    "Voxtral 3（Mistral AI）"
    ],
-   "evidence": "首发帖 136 万浏览、6300+ 收藏，DeepSeek 官方开源、名字全新，开发者会搜「DeepInfer 部署教程 / 和 vLLM、SGLang 对比 / 硬件要求」，适合做教程和对比页。",
+   "evidence": "首发帖 15 万浏览，语音转写/TTS 需求稳定，用户会搜价格、API 用法、和 Whisper / ElevenLabs 对比，适合做价格计算和对比页。",
    "overview_ok": true,
-   "volume": 10,
-   "cpc": 0.0,
-   "comp": 0.33,
-   "results": 0,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
-   "kd": 0,
+   "kd": null,
    "verdict": null,
    "checks": {
     "月搜": false,
-    "KD": true,
+    "KD": null,
     "CPC": false,
     "首页竞争": null
    },
-   "score": 35,
+   "score": 10,
    "failed": [
     "月搜",
     "CPC"
    ],
    "unknown": [
+    "KD",
     "首页竞争"
    ]
   },
   {
-   "phrase": "llm-d",
+   "phrase": "memt-1.0",
    "source": "看板X",
    "names": [
-    "llm-d 1.0（Red Hat / IBM / Google Cloud 等）"
+    "MemT-1.0（记忆张量 MemTensor）【上一档漏收，补录】"
    ],
-   "evidence": "大厂联合的推理基础设施新词，搜索量偏企业/运维向，适合做「llm-d 是什么 / 部署指南 / 和 DeepInfer 区别」的技术页，竞争小。",
+   "evidence": "「记忆原生模型」是新概念，中文圈讨论多、竞争小，适合做「MemT 是什么 / 和 RAG 区别 / Nano 本地部署」解释页。",
    "overview_ok": true,
-   "volume": 1600,
-   "cpc": 7.4,
-   "comp": 0.01,
-   "results": 106,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
-   "kd": 50,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {
-     "article": 8,
-     "tool": 1
-    },
-    "ads": false,
-    "features": [
-     "ai_overview",
-     "people_also_ask",
-     "related_searches"
-    ],
-    "top": [
-     "github.com",
-     "llm-d.ai",
-     "redhat.com",
-     "llm-d.ai",
-     "github.com",
-     "llm-d.ai",
-     "cloud.google.com",
-     "docs.vllm.ai",
-     "coreweave.com"
-    ],
-    "source": "serp",
-    "soft_weak": 0
-   },
+   "kd": null,
+   "verdict": null,
    "checks": {
-    "月搜": true,
-    "KD": false,
-    "CPC": true,
-    "首页竞争": false
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null
    },
-   "score": 61,
+   "score": 10,
    "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
     "KD",
     "首页竞争"
-   ],
-   "unknown": []
+   ]
   },
   {
-   "phrase": "flux 3 max",
+   "phrase": "sage-a1.5",
    "source": "看板X",
    "names": [
-    "FLUX 3 Max（fal × Black Forest Labs）【上一档漏收，补录】"
+    "Sage-A1.5（InternScience）"
    ],
-   "evidence": "首发帖 32 万浏览，FLUX 品牌认知度高，视频生成用户会搜价格、怎么用、和 Seedance/Kling 对比，适合做教程和对比页。",
+   "evidence": "首发帖 1.6 万浏览、154 收藏，社区已在 5090 上跑 Q4 量化；全新名字，适合做「是什么 / 本地部署 / 和 Kimi、GLM 对比」页。",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "verdict": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争"
+   ]
+  },
+  {
+   "phrase": "spark-x2.6-4b",
+   "source": "看板X",
+   "names": [
+    "Spark-X2.6-4B（讯飞星火）"
+   ],
+   "evidence": "本地小模型需求大，用户会搜「Ollama 运行 / 显存要求 / 和 Qwen3.5-9B 对比」，适合做部署教程和配置页。",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "verdict": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争"
+   ]
+  },
+  {
+   "phrase": "oxr-1.0",
+   "source": "看板X",
+   "names": [
+    "OXR-1.0（SoMark）"
+   ],
+   "evidence": "PDF 转 Markdown 是长期刚需，词新竞争小，适合做在线试用、教程和与 olmOCR / MinerU 对比页。",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -274,7 +200,7 @@
    ]
   }
  ],
- "spent_micros": 26000,
+ "spent_micros": 0,
  "errors": [],
  "skipped": []
 }

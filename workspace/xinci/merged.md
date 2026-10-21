@@ -1,43 +1,40 @@
-## 合并新词（2026-10-20）
+## 合并新词（2026-10-21）
 
-看板雷达：2026-10-20 上午、2026-10-20 晚上；共 39 个词，两边重合 1 个。
+看板雷达：2026-10-21 上午、2026-10-21 晚上；共 36 个词，两边重合 0 个。
 
-- **deepinfer**〔GitHub / 看板X〕DeepSeek 开源自家推理框架 DeepInfer，就是线上跑 DeepSeek-V4.1-Flash 的那套生产栈，主打高吞吐、低延迟、降算力和能耗成本；Apache-2.0，GitHub: deepseek-ai/DeepInfer [链接](https://x.com/deepseek_ai/status/2112476496283775135)
-- **SKY-001（Skyfall AI）**〔看板X〕Skyfall AI 发布的「首个工程世界模型」，把文字或草图变成 CAD/BIM 设计；官方称在 CAD 和 BIM 任务上比 GPT-6 Astra 等前沿模型快 51–125 倍、便宜 150–210 倍、IOU 更高。研究预览，开放 [链接](https://x.com/spisallyouneed/status/2112242023805964327)
-- **Mercury 3（Inception）**〔看板X〕Inception 的扩散式大模型新版：称超过 GPT-6 Luna 和 Claude Haiku 5.5，速度 1000+ token/秒，规模是 Mercury 1 的 40 多倍、标准基准智能约 3 倍。已上线。 [链接](https://x.com/StefanoErmon/status/2112222911218291051)
-- **JST-2（ViggleAI）**〔看板X〕Viggle 发布「首个全栈物理原生世界基础模型」：在 3D 空间里从头建模，几秒生成可扩展的 3D 场景，一张图生成自带动作的 3D 角色（无需绑骨），文字/视频生成全身动作；场景可导出高斯泼溅 .ply/.spz，免费试用。 [链接](https://x.com/ViggleAI/status/2112202242048528540)
-- **Clairic（Cloudflare）**〔看板X〕Cloudflare 推出的「System One」抽取模型，从邮件、图片、文本等非结构化输入里抽取、计算、估算和预测数据（如发票金额、日期）。 [链接](https://x.com/Cloudflare/status/2112244042658423149)
-- **llm-d 1.0（Red Hat / IBM / Google Cloud 等）**〔看板X〕开源的 Kubernetes 原生分布式推理栈正式 1.0，在 PyTorch 大会发布：多租户 QoS、零停机滚动升级、前缀缓存感知路由，可把 vLLM/SGLang、GPU/TPU 挂到同一入口。X 上最早 19:30 由 @gcpwe [链接](https://x.com/gcpweekly/status/2112506828428918816)
-- **FLUX 3 Max（fal × Black Forest Labs）【上一档漏收，补录】**〔看板X〕fal Research 与 BFL 合作后训练的视频模型：文字/图片/关键帧生成 5–20 秒 720p 带音频视频，图生视频质量并列第一，10 秒视频约 12 秒生成；fal 上线并有首发折扣。首发在上一档窗口内（10-20 02:34 [链接](https://x.com/fal/status/2112251022047412492)
-- **Wabi 2.0（Eugenia Kuyda）【上一档漏收，补录】**〔看板X〕Replika 创始人的新产品：能拉进群聊、多人一起用的 AI agent，可订票、对日程、在聊天里直接做小应用。首发在上一档窗口内（10-20 00:02），这里补上。 [链接](https://x.com/ekuyda/status/2112212804979880239)
-- **earshot**〔GitHub〕Leonxlnx/earshot: Ears for coding agents: let AI hear, review and make sound. CPU-only, open source. [链接](https://github.com/Leonxlnx/earshot)
-- **cleanyourtv**〔GitHub〕Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home. [链接](https://github.com/Gathin23/cleanyourtv)
-- **free my tv**〔GitHub〕simbasjungles/free-my-tv: A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to  [链接](https://github.com/simbasjungles/free-my-tv)
-- **leanrea**〔GitHub〕aicodeking/leanrea: One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked:  [链接](https://github.com/aicodeking/leanrea)
-- **macnativegames**〔GitHub〕ly05010419/MacNativeGames:  [链接](https://github.com/ly05010419/MacNativeGames)
-- **locklens**〔竞品站〕③ 竞品 12 处 (×8.8)
-- **piia engram**〔竞品站〕③ 竞品 12 处 (×8.4)
-- **vibe coder**〔竞品站〕③ 竞品 12 处 (×8.2)
-- **gitingest**〔竞品站〕③ 竞品 14 处 (×9.6)
-- **langfuse**〔竞品站〕③ 竞品 21 处 (×9.2)
-- **ncrawl**〔竞品站〕③ 竞品 12 处 (×9.1)
-- **searx**〔竞品站〕③ 竞品 12 处 (×9.0)
-- **piia**〔竞品站〕③ 竞品 12 处 (×8.4)
-- **searxncrawl**〔竞品站〕③ 竞品 12 处 (×9.0)
-- **aki**〔竞品站〕③ 竞品 14 处 (×8.7)
-- **cinema4d**〔竞品站〕③ 竞品 15 处 (×10.0)
-- **fcp**〔竞品站〕③ 竞品 14 处 (×8.7)
-- **firstdata**〔竞品站〕③ 竞品 12 处 (×8.7)
-- **cn math taxonomy**〔GitHub〕xiaoyang111222/cn-math-taxonomy: 中小学+高中数学知识图谱 + 前置诊断：课标对齐、人教版一–九年级与高中必修、选择性必修、802 知识点、3355 题、自适应诊断 [链接](https://github.com/xiaoyang111222/cn-math-taxonomy)
-- **joecheofficial**〔竞品站〕③ 竞品 10 处 (×10.0)
-- **memory keeper**〔竞品站〕③ 竞品 16 处 (×12.0)
-- **telegram supercharged**〔竞品站〕③ 竞品 17 处 (×11.5)
-- **sonic match**〔竞品站〕③ 竞品 14 处 (×9.8)
-- **uptime marketplace**〔竞品站〕③ 竞品 87 处 (×87.0)
-- **life.lhr uptime**〔竞品站〕③ 竞品 79 处 (×79.0)
-- **connectors life.lhr**〔竞品站〕③ 竞品 79 处 (×77.6)
-- **sites**〔竞品站〕③ 竞品 681 处 (×498.1)
-- **marketplace**〔竞品站〕③ 竞品 89 处 (×22.4)
-- **korean dart**〔竞品站〕③ 竞品 18 处 (×13.5)
-- **tradingview chart**〔竞品站〕③ 竞品 19 处 (×12.1)
-- **vectorize**〔竞品站〕③ 竞品 18 处 (×12.0)
+- **Ornith-1.5-122B（Ornith）**〔看板X〕122B 总参 / 约 10B 激活的 MoE 开源模型，MIT 许可，单张 DGX/80GB 卡可跑；SWE-bench Verified 0.845、MCP-Atlas 0.746、BrowseComp 0.785。首日即上 Huggi [链接](https://x.com/ornith_/status/2112553477457268799)
+- **Voxtral 3（Mistral AI）**〔看板X〕Mistral 新一代语音转写（Transcribe）和语音合成（Speech）模型，同时上线新的语音 agent API。 [链接](https://x.com/MistralAI/status/2112574615318876178)
+- **Gemini Personal Intelligence 上 Android Auto（Google）**〔看板X〕Gemini 的 Personal Intelligence 开始在 Android Auto 推送，经授权可连接 Gmail、日历、搜索等提供车载免手动帮助，未来几个月扩展到内置 Google 的汽车。功能更新，不是新模型。 [链接](https://x.com/Google/status/2112655614132285592)
+- **MemT-1.0（记忆张量 MemTensor）【上一档漏收，补录】**〔看板X〕记忆原生开源模型系列：Flash（288B）和 Nano（36B），把可更新的内部记忆放进模型计算，长会话无需重新塞历史，128K 下存储约降 66 倍；11 项记忆基准在参数化记忆方法中排前二。首发在上一档窗口内（10-20 16:00） [链接](https://x.com/ModelScope2022/status/2112453862351073661)
+- **Sage-A1.5（InternScience）**〔看板X〕面向长程科研任务的开源模型，256K 上下文，可把独立调查分给并行子 agent，带可选验证模式；PinchBench 90.0、FrontierScience-Olympiad 81.0。BF16/FP8/GGUF，支持 Transfor [链接](https://x.com/ModelScope2022/status/2112816255375745132)
+- **Spark-X2.6-4B（讯飞星火）**〔看板X〕4B 开源小模型，1M 上下文，三档思考预算（none/low/high），FP8/INT8/INT4/GGUF 全套，支持 Ollama、llama.cpp、MLX、LM Studio，Apache 2.0。 [链接](https://x.com/ModelScope2022/status/2112781153065165291)
+- **OXR-1.0（SoMark）**〔看板X〕1.3B 开源文档解析模型，把 PDF 和文档图片转成 Markdown 或 JSON，识别表格、公式、化学结构、代码块等 13 类元素；olmOCR-Bench、OmniDocBench 等项目自报第一，557 tokens/s。 [链接](https://x.com/ModelScope2022/status/2112901338178687182)
+- **Mistral × NVIDIA 工业工程 AI 合作**〔看板X〕Mistral 宣布和 NVIDIA 合作：更快的仿真、物理 AI 开放基准和数据集、CAE/EDA 场景的 agent 评测。合作公告，不是新模型。 [链接](https://x.com/MistralAI/status/2112870261829603589)
+- **GPT-Rosalind 药物研发新线索（OpenAI）**〔看板X〕OpenAI 公布数千个 GPT-Rosalind agent 并行 32 分钟分析小鼠脑数据，提出 Perry 综合征的胆固醇转运假说，与 Scripps 等扩大合作。科研成果，不是新产品。 [链接](https://x.com/OpenAI/status/2112899854569762936)
+- **orchestra bio**〔我们X〕X 2 个账号 ♥5152
+- **gpt-5.1-codex-max**〔我们X〕X 1 个账号 ♥122
+- **gpt-5.2-codex**〔我们X〕X 1 个账号 ♥122
+- **eagle 4**〔GitHub〕GitHub 爆发 eagle-hq/EAGLE-4 ★624(均 611/天) [链接](https://github.com/eagle-hq/EAGLE-4)
+- **free ai humanizer**〔HF〕HF Spaces 新进榜第 25 名
+- **free ai detector**〔HF〕HF Spaces 新进榜第 34 名
+- **aerial tv**〔GitHub〕GitHub 爆发 pengchujin/aerial-tv ★1836(均 1502/天) [链接](https://github.com/pengchujin/aerial-tv)
+- **rea prompts**〔GitHub〕GitHub 爆发 JoasASantos/REA-Prompts ★1262(均 753/天,一天 +751) [链接](https://github.com/JoasASantos/REA-Prompts)
+- **koleharv**〔竞品站〕③ 竞品 8 处 (×8.0)
+- **sm100**〔我们X〕X 2 个账号 ♥89
+- **dctn1**〔我们X〕X 1 个账号 ♥1830
+- **connectors com.insightfulpipe**〔竞品站〕③ 竞品 47 处 (×47.0)
+- **connectors com.textforagents**〔竞品站〕③ 竞品 28 处 (×25.8)
+- **app.abracadabrax**〔竞品站〕③ 竞品 23 处 (×23.0)
+- **abracadabrax**〔竞品站〕③ 竞品 23 处 (×23.0)
+- **connectors app.abracadabrax**〔竞品站〕③ 竞品 23 处 (×23.0)
+- **connectors com.manymotions**〔竞品站〕③ 竞品 18 处 (×18.0)
+- **insightful pipe**〔竞品站〕③ 竞品 17 处 (×16.8)
+- **connectors io.github.pooriaarab**〔竞品站〕③ 竞品 14 处 (×13.6)
+- **maker abracadabrax**〔竞品站〕③ 竞品 13 处 (×13.0)
+- **io.resumenext**〔竞品站〕③ 竞品 8 处 (×8.0)
+- **connectors io.resumenext**〔竞品站〕③ 竞品 8 处 (×8.0)
+- **deepseek**〔竞品站〕③ 竞品 35 处 (×9.5)；③ 竞品 29 处 (×9.7)
+- **johannschiffer**〔竞品站〕③ 竞品 15 处 (×15.0)
+- **diogenes**〔竞品站〕③ 竞品 12 处 (×11.7)
+- **cae**〔我们X〕X 1 个账号 ♥801
+- **php**〔我们X〕X 1 个账号 ♥1803

@@ -1,1358 +1,375 @@
 {
  "leads": [
   {
-   "term": "earshot",
+   "term": "orchestra bio",
+   "kinds": [
+    "x"
+   ],
+   "signals": [
+    "X 2 个账号 ♥5152"
+   ],
+   "examples": [],
+   "repo": null,
+   "named": 0.9,
+   "variants": []
+  },
+  {
+   "term": "gpt-5.1-codex-max",
+   "kinds": [
+    "x"
+   ],
+   "signals": [
+    "X 1 个账号 ♥122"
+   ],
+   "examples": [],
+   "repo": null,
+   "named": 0.9,
+   "variants": []
+  },
+  {
+   "term": "gpt-5.2-codex",
+   "kinds": [
+    "x"
+   ],
+   "signals": [
+    "X 1 个账号 ♥122"
+   ],
+   "examples": [],
+   "repo": null,
+   "named": 0.9,
+   "variants": []
+  },
+  {
+   "term": "eagle 4",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 Leonxlnx/earshot ★1795(均 340/天,一天 +1063)"
+    "GitHub 爆发 eagle-hq/EAGLE-4 ★624(均 611/天)"
    ],
-   "examples": [
-    "Leonxlnx/earshot: Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
-   ],
+   "examples": [],
+   "repo": "eagle-hq/EAGLE-4",
+   "named": 0.9,
    "variants": [
-    "earshot",
-    "leonxlnx earshot",
-    "leon earshot"
-   ],
-   "posts": [],
-   "repo": "Leonxlnx/earshot",
-   "known": "",
-   "format": "voice",
-   "one_click": null,
-   "named": 0.9
+    "eagle 4",
+    "eagle-hq eagle 4",
+    "eagle eagle 4"
+   ]
   },
   {
-   "term": "deepinfer",
+   "term": "free ai humanizer",
+   "kinds": [
+    "hf"
+   ],
+   "signals": [
+    "HF Spaces 新进榜第 25 名"
+   ],
+   "examples": [],
+   "repo": null,
+   "named": 0.8,
+   "variants": []
+  },
+  {
+   "term": "free ai detector",
+   "kinds": [
+    "hf"
+   ],
+   "signals": [
+    "HF Spaces 新进榜第 34 名"
+   ],
+   "examples": [],
+   "repo": null,
+   "named": 0.8,
+   "variants": []
+  },
+  {
+   "term": "aerial tv",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 deepseek-ai/DeepInfer ★7825(均 1844/天)"
+    "GitHub 爆发 pengchujin/aerial-tv ★1836(均 1502/天)"
    ],
-   "examples": [
-    "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models"
-   ],
+   "examples": [],
+   "repo": "pengchujin/aerial-tv",
+   "named": 0.8,
    "variants": [
-    "deepinfer",
-    "deepseek-ai deepinfer",
-    "deepseek deepinfer"
-   ],
-   "posts": [],
-   "repo": "deepseek-ai/DeepInfer",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.95
+    "aerial tv",
+    "pengchujin aerial tv"
+   ]
   },
   {
-   "term": "cleanyourtv",
+   "term": "rea prompts",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 Gathin23/cleanyourtv ★9384(均 2909/天)"
+    "GitHub 爆发 JoasASantos/REA-Prompts ★1262(均 753/天,一天 +751)"
    ],
-   "examples": [
-    "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."
-   ],
+   "examples": [],
+   "repo": "JoasASantos/REA-Prompts",
+   "named": 0.8,
    "variants": [
-    "cleanyourtv",
-    "gathin23 cleanyourtv",
-    "gathin cleanyourtv"
-   ],
-   "posts": [],
-   "repo": "Gathin23/cleanyourtv",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
+    "rea prompts",
+    "joasasantos rea prompts",
+    "joas rea prompts"
+   ]
   },
   {
-   "term": "free my tv",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 simbasjungles/free-my-tv ★987(均 987/天)"
-   ],
-   "examples": [
-    "simbasjungles/free-my-tv: A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo."
-   ],
-   "variants": [
-    "free my tv",
-    "simbasjungles free my tv",
-    "simba free my tv"
-   ],
-   "posts": [],
-   "repo": "simbasjungles/free-my-tv",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.85
-  },
-  {
-   "term": "leanrea",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 aicodeking/leanrea ★1120(均 325/天,一天 +581)"
-   ],
-   "examples": [
-    "aicodeking/leanrea: One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% chea"
-   ],
-   "variants": [
-    "leanrea",
-    "aicodeking leanrea"
-   ],
-   "posts": [],
-   "repo": "aicodeking/leanrea",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.85
-  },
-  {
-   "term": "macnativegames",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 ly05010419/MacNativeGames ★2438(均 890/天)"
-   ],
-   "examples": [
-    "ly05010419/MacNativeGames: "
-   ],
-   "variants": [
-    "macnativegames",
-    "ly05010419 macnativegames",
-    "yong macnativegames"
-   ],
-   "posts": [],
-   "repo": "ly05010419/MacNativeGames",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "locklens",
+   "term": "koleharv",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 12 处 (×8.8)"
+    "③ 竞品 8 处 (×8.0)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
+   "repo": null,
+   "named": 0.8,
+   "variants": []
   },
   {
-   "term": "piia engram",
+   "term": "sm100",
+   "kinds": [
+    "x"
+   ],
+   "signals": [
+    "X 2 个账号 ♥89"
+   ],
+   "examples": [],
+   "repo": null,
+   "named": 0.7,
+   "variants": []
+  },
+  {
+   "term": "dctn1",
+   "kinds": [
+    "x"
+   ],
+   "signals": [
+    "X 1 个账号 ♥1830"
+   ],
+   "examples": [],
+   "repo": null,
+   "named": 0.7,
+   "variants": []
+  },
+  {
+   "term": "connectors com.insightfulpipe",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 12 处 (×8.4)"
+    "③ 竞品 47 处 (×47.0)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
+   "repo": null,
+   "named": 0.7,
+   "variants": []
   },
   {
-   "term": "vibe coder",
+   "term": "connectors com.textforagents",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 12 处 (×8.2)"
+    "③ 竞品 28 处 (×25.8)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
+   "repo": null,
+   "named": 0.7,
+   "variants": []
   },
   {
-   "term": "gitingest",
+   "term": "app.abracadabrax",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 14 处 (×9.6)"
+    "③ 竞品 23 处 (×23.0)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
+   "repo": null,
+   "named": 0.7,
+   "variants": []
   },
   {
-   "term": "langfuse",
+   "term": "abracadabrax",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 21 处 (×9.2)"
+    "③ 竞品 23 处 (×23.0)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
+   "repo": null,
+   "named": 0.7,
+   "variants": []
   },
   {
-   "term": "ncrawl",
+   "term": "connectors app.abracadabrax",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 12 处 (×9.1)"
+    "③ 竞品 23 处 (×23.0)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
+   "repo": null,
+   "named": 0.7,
+   "variants": []
   },
   {
-   "term": "searx",
+   "term": "connectors com.manymotions",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 12 处 (×9.0)"
+    "③ 竞品 18 处 (×18.0)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
+   "repo": null,
+   "named": 0.7,
+   "variants": []
   },
   {
-   "term": "piia",
+   "term": "insightful pipe",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 12 处 (×8.4)"
+    "③ 竞品 17 处 (×16.8)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
+   "repo": null,
+   "named": 0.7,
+   "variants": []
   },
   {
-   "term": "searxncrawl",
+   "term": "connectors io.github.pooriaarab",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 12 处 (×9.0)"
+    "③ 竞品 14 处 (×13.6)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "repo": null,
+   "named": 0.7,
+   "variants": []
   },
   {
-   "term": "aki",
+   "term": "maker abracadabrax",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 14 处 (×8.7)"
+    "③ 竞品 13 处 (×13.0)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "repo": null,
+   "named": 0.7,
+   "variants": []
   },
   {
-   "term": "cinema4d",
+   "term": "io.resumenext",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 15 处 (×10.0)"
+    "③ 竞品 8 处 (×8.0)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.5
+   "repo": null,
+   "named": 0.7,
+   "variants": []
   },
   {
-   "term": "fcp",
+   "term": "connectors io.resumenext",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 14 处 (×8.7)"
+    "③ 竞品 8 处 (×8.0)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.5
+   "repo": null,
+   "named": 0.7,
+   "variants": []
   },
   {
-   "term": "firstdata",
+   "term": "deepseek",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 12 处 (×8.7)"
+    "③ 竞品 35 处 (×9.5)",
+    "③ 竞品 29 处 (×9.7)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.5
+   "repo": null,
+   "named": 0.6,
+   "variants": []
   },
   {
-   "term": "cn math taxonomy",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 xiaoyang111222/cn-math-taxonomy ★1420(均 648/天)"
-   ],
-   "examples": [
-    "xiaoyang111222/cn-math-taxonomy: 中小学+高中数学知识图谱 + 前置诊断：课标对齐、人教版一–九年级与高中必修、选择性必修、802 知识点、3355 题、自适应诊断"
-   ],
-   "variants": [
-    "cn math taxonomy",
-    "xiaoyang111222 cn math taxonomy"
-   ],
-   "posts": [],
-   "repo": "xiaoyang111222/cn-math-taxonomy",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "joecheofficial",
+   "term": "johannschiffer",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 10 处 (×10.0)"
+    "③ 竞品 15 处 (×15.0)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.4
+   "repo": null,
+   "named": 0.6,
+   "variants": []
   },
   {
-   "term": "memory keeper",
+   "term": "diogenes",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 16 处 (×12.0)"
+    "③ 竞品 12 处 (×11.7)"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
+   "repo": null,
+   "named": 0.6,
+   "variants": []
   },
   {
-   "term": "telegram supercharged",
+   "term": "cae",
    "kinds": [
-    "sitemap"
+    "x"
    ],
    "signals": [
-    "③ 竞品 17 处 (×11.5)"
+    "X 1 个账号 ♥801"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
+   "repo": null,
+   "named": 0.5,
+   "variants": []
   },
   {
-   "term": "sonic match",
+   "term": "php",
    "kinds": [
-    "sitemap"
+    "x"
    ],
    "signals": [
-    "③ 竞品 14 处 (×9.8)"
+    "X 1 个账号 ♥1803"
    ],
    "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "uptime marketplace",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 87 处 (×87.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.2
-  },
-  {
-   "term": "life.lhr uptime",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 79 处 (×79.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.2
-  },
-  {
-   "term": "connectors life.lhr",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 79 处 (×77.6)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.2
-  },
-  {
-   "term": "sites",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 681 处 (×498.1)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "marketplace",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 89 处 (×22.4)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "korean dart",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 18 处 (×13.5)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "tradingview chart",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 19 处 (×12.1)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "vectorize",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 18 处 (×12.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
+   "repo": null,
+   "named": 0.5,
+   "variants": []
   }
  ],
  "x": {
-  "accounts": 35,
   "answered": 35,
-  "posts": 660,
-  "cost_micros": 99300,
-  "first_run": false,
-  "terms": []
- },
- "hf": {
-  "first_run": false,
-  "terms": [],
-  "models": 100,
-  "spaces": 100
- },
- "breakout": {
-  "searched": 200,
-  "first_run": false,
-  "repos": [
-   {
-    "repo": "google-research/harness2",
-    "owner": "google-research",
-    "name": "harness2",
-    "stars": 14030,
-    "velocity": 1027,
-    "delta": 10514,
-    "age_days": 13.7,
-    "description": "",
-    "new": false
-   },
-   {
-    "repo": "tangency-labs/solidcraft",
-    "owner": "tangency-labs",
-    "name": "solidcraft",
-    "stars": 7908,
-    "velocity": 619,
-    "delta": 3011,
-    "age_days": 12.8,
-    "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
-    "new": false
-   },
-   {
-    "repo": "Gathin23/cleanyourtv",
-    "owner": "Gathin23",
-    "name": "cleanyourtv",
-    "stars": 9384,
-    "velocity": 2909,
-    "delta": null,
-    "age_days": 3.2,
-    "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-    "new": true,
-    "variants": [
-     "cleanyourtv",
-     "gathin23 cleanyourtv",
-     "gathin cleanyourtv"
-    ]
-   },
-   {
-    "repo": "deepseek-ai/DeepInfer",
-    "owner": "deepseek-ai",
-    "name": "DeepInfer",
-    "stars": 7825,
-    "velocity": 1844,
-    "delta": null,
-    "age_days": 4.2,
-    "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-    "new": true,
-    "variants": [
-     "deepinfer",
-     "deepseek-ai deepinfer",
-     "deepseek deepinfer"
-    ]
-   },
-   {
-    "repo": "wheresryan22/anatomy",
-    "owner": "wheresryan22",
-    "name": "anatomy",
-    "stars": 17328,
-    "velocity": 1427,
-    "delta": 1659,
-    "age_days": 12.1,
-    "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Ge",
-    "new": false
-   },
-   {
-    "repo": "feder-cr/git-ai",
-    "owner": "feder-cr",
-    "name": "git-ai",
-    "stars": 2579,
-    "velocity": 514,
-    "delta": 1348,
-    "age_days": 5.0,
-    "description": "Git designed for AI agents.",
-    "new": false
-   },
-   {
-    "repo": "storytold/wordcraft",
-    "owner": "storytold",
-    "name": "wordcraft",
-    "stars": 14937,
-    "velocity": 1131,
-    "delta": 705,
-    "age_days": 13.2,
-    "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
-    "new": false
-   },
-   {
-    "repo": "openai/math",
-    "owner": "openai",
-    "name": "math",
-    "stars": 15276,
-    "velocity": 1118,
-    "delta": 129,
-    "age_days": 13.7,
-    "description": "",
-    "new": false
-   },
-   {
-    "repo": "Leonxlnx/earshot",
-    "owner": "Leonxlnx",
-    "name": "earshot",
-    "stars": 1795,
-    "velocity": 340,
-    "delta": 1063,
-    "age_days": 5.3,
-    "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
-    "new": true,
-    "variants": [
-     "earshot",
-     "leonxlnx earshot",
-     "leon earshot"
-    ]
-   },
-   {
-    "repo": "simbasjungles/free-my-tv",
-    "owner": "simbasjungles",
-    "name": "free-my-tv",
-    "stars": 987,
-    "velocity": 987,
-    "delta": null,
-    "age_days": 1.0,
-    "description": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
-    "new": true,
-    "variants": [
-     "free my tv",
-     "simbasjungles free my tv",
-     "simba free my tv"
-    ]
-   },
-   {
-    "repo": "ly05010419/MacNativeGames",
-    "owner": "ly05010419",
-    "name": "MacNativeGames",
-    "stars": 2438,
-    "velocity": 890,
-    "delta": null,
-    "age_days": 2.7,
-    "description": "",
-    "new": true,
-    "variants": [
-     "macnativegames",
-     "ly05010419 macnativegames",
-     "yong macnativegames"
-    ]
-   },
-   {
-    "repo": "HeyPuter/everything",
-    "owner": "HeyPuter",
-    "name": "everything",
-    "stars": 2939,
-    "velocity": 427,
-    "delta": 796,
-    "age_days": 6.9,
-    "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
-    "new": false
-   },
-   {
-    "repo": "Arekejoker/qwen21-nsfw-pose-skill",
-    "owner": "Arekejoker",
-    "name": "qwen21-nsfw-pose-skill",
-    "stars": 3473,
-    "velocity": 467,
-    "delta": 771,
-    "age_days": 7.4,
-    "description": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
-    "new": false
-   },
-   {
-    "repo": "xiaoyang111222/cn-math-taxonomy",
-    "owner": "xiaoyang111222",
-    "name": "cn-math-taxonomy",
-    "stars": 1420,
-    "velocity": 648,
-    "delta": null,
-    "age_days": 2.2,
-    "description": "中小学+高中数学知识图谱 + 前置诊断：课标对齐、人教版一–九年级与高中必修、选择性必修、802 知识点、3355 题、自适应诊断",
-    "new": true,
-    "variants": [
-     "cn math taxonomy",
-     "xiaoyang111222 cn math taxonomy"
-    ]
-   },
-   {
-    "repo": "aicodeking/leanrea",
-    "owner": "aicodeking",
-    "name": "leanrea",
-    "stars": 1120,
-    "velocity": 325,
-    "delta": 581,
-    "age_days": 3.4,
-    "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% chea",
-    "new": true,
-    "variants": [
-     "leanrea",
-     "aicodeking leanrea"
-    ]
-   }
-  ],
-  "terms": [
-   {
-    "term": "cleanyourtv",
-    "recent": 1,
-    "variants": [
-     "cleanyourtv",
-     "gathin23 cleanyourtv",
-     "gathin cleanyourtv"
-    ],
-    "repo": "Gathin23/cleanyourtv",
-    "note": "GitHub 爆发 Gathin23/cleanyourtv ★9384(均 2909/天)",
-    "examples": [
-     "Gathin23/cleanyourtv: Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."
-    ]
-   },
-   {
-    "term": "deepinfer",
-    "recent": 1,
-    "variants": [
-     "deepinfer",
-     "deepseek-ai deepinfer",
-     "deepseek deepinfer"
-    ],
-    "repo": "deepseek-ai/DeepInfer",
-    "note": "GitHub 爆发 deepseek-ai/DeepInfer ★7825(均 1844/天)",
-    "examples": [
-     "deepseek-ai/DeepInfer: DeepInfer: High-performance, large-scale inference framework for DeepSeek models"
-    ]
-   },
-   {
-    "term": "earshot",
-    "recent": 1,
-    "variants": [
-     "earshot",
-     "leonxlnx earshot",
-     "leon earshot"
-    ],
-    "repo": "Leonxlnx/earshot",
-    "note": "GitHub 爆发 Leonxlnx/earshot ★1795(均 340/天,一天 +1063)",
-    "examples": [
-     "Leonxlnx/earshot: Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
-    ]
-   },
-   {
-    "term": "free my tv",
-    "recent": 1,
-    "variants": [
-     "free my tv",
-     "simbasjungles free my tv",
-     "simba free my tv"
-    ],
-    "repo": "simbasjungles/free-my-tv",
-    "note": "GitHub 爆发 simbasjungles/free-my-tv ★987(均 987/天)",
-    "examples": [
-     "simbasjungles/free-my-tv: A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo."
-    ]
-   },
-   {
-    "term": "macnativegames",
-    "recent": 1,
-    "variants": [
-     "macnativegames",
-     "ly05010419 macnativegames",
-     "yong macnativegames"
-    ],
-    "repo": "ly05010419/MacNativeGames",
-    "note": "GitHub 爆发 ly05010419/MacNativeGames ★2438(均 890/天)",
-    "examples": [
-     "ly05010419/MacNativeGames: "
-    ]
-   },
-   {
-    "term": "cn math taxonomy",
-    "recent": 1,
-    "variants": [
-     "cn math taxonomy",
-     "xiaoyang111222 cn math taxonomy"
-    ],
-    "repo": "xiaoyang111222/cn-math-taxonomy",
-    "note": "GitHub 爆发 xiaoyang111222/cn-math-taxonomy ★1420(均 648/天)",
-    "examples": [
-     "xiaoyang111222/cn-math-taxonomy: 中小学+高中数学知识图谱 + 前置诊断：课标对齐、人教版一–九年级与高中必修、选择性必修、802 知识点、3355 题、自适应诊断"
-    ]
-   },
-   {
-    "term": "leanrea",
-    "recent": 1,
-    "variants": [
-     "leanrea",
-     "aicodeking leanrea"
-    ],
-    "repo": "aicodeking/leanrea",
-    "note": "GitHub 爆发 aicodeking/leanrea ★1120(均 325/天,一天 +581)",
-    "examples": [
-     "aicodeking/leanrea: One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% chea"
-    ]
-   }
-  ],
-  "window_days": 14
- },
- "sitemap": {
-  "sites": {
-   "glama": {
-    "urls": 139789,
-    "new": 2753,
-    "first_run": false,
-    "sample": [
-     "https://glama.ai/mcp/connectors/ae.waggle/vera",
-     "https://glama.ai/mcp/connectors/ai.agentmash/agent-mash",
-     "https://glama.ai/mcp/connectors/ai.agentmash/agentmash",
-     "https://glama.ai/mcp/connectors/ai.autovox/autovox",
-     "https://glama.ai/mcp/connectors/ai.boon/boon",
-     "https://glama.ai/mcp/connectors/ai.contentsweep/data-quality-gate",
-     "https://glama.ai/mcp/connectors/ai.dealsharp/dealsharp",
-     "https://glama.ai/mcp/connectors/ai.dotpad/dotpad"
-    ]
-   },
-   "mcp.so": {
-    "urls": 19410,
-    "new": 32,
-    "first_run": false,
-    "sample": [
-     "https://mcp.so/agents/dolphinradar-6654ad",
-     "https://mcp.so/agents/oc-maker",
-     "https://mcp.so/agents/vectoree",
-     "https://mcp.so/servers/10ml-perfume-finder-25040d",
-     "https://mcp.so/servers/appcreator24-android-app-apk-builder",
-     "https://mcp.so/servers/arvx",
-     "https://mcp.so/servers/atwork",
-     "https://mcp.so/servers/botchelor"
-    ]
-   },
-   "lobehub-mcp": {
-    "urls": 200,
-    "new": 0,
-    "first_run": false,
-    "sample": []
-   },
-   "lobehub-skills": {
-    "urls": 200,
-    "new": 0,
-    "first_run": false,
-    "sample": []
-   },
-   "toolify": {
-    "error": "no URLs read"
-   },
-   "aixploria": {
-    "urls": 595,
-    "new": 0,
-    "first_run": false,
-    "sample": []
-   },
-   "ai-bot.cn": {
-    "urls": 5068,
-    "new": 687,
-    "first_run": false,
-    "sample": [
-     "https://ai-bot.cn/cleanyourtv/",
-     "https://ai-bot.cn/dongleya/",
-     "https://ai-bot.cn/doubaowork-create-ip-tutorial/",
-     "https://ai-bot.cn/flux-3-max/",
-     "https://ai-bot.cn/ming-3-0/",
-     "https://ai-bot.cn/minimax-m3-1-flash/",
-     "https://ai-bot.cn/sites/1338.html",
-     "https://ai-bot.cn/sites/43780.html"
-    ]
-   },
-   "opentools": {
-    "urls": 7007,
-    "new": 0,
-    "first_run": false,
-    "sample": []
-   },
-   "dang": {
-    "urls": 7744,
-    "new": 27,
-    "first_run": false,
-    "sample": [
-     "https://dang.ai/integration/microsoft-teams-ai-apps-and-bots",
-     "https://dang.ai/integration/notion-ai-tools-and-integrations",
-     "https://dang.ai/tool/adrecast-ai-ad-remake-video-generator",
-     "https://dang.ai/tool/adscove-ai-ads-agent-mcp",
-     "https://dang.ai/tool/badmars-adversarial-ai-business-plan-review",
-     "https://dang.ai/tool/bracketview-json-viewer",
-     "https://dang.ai/tool/chatsku-ai-b2b-catalog-chatbot",
-     "https://dang.ai/tool/dame-hombro-photo-to-video-ai"
-    ]
-   },
-   "clipfly": {
-    "urls": 281,
-    "new": 0,
-    "first_run": false,
-    "sample": []
-   },
-   "aitoptools": {
-    "urls": 11837,
-    "new": 3,
-    "first_run": false,
-    "sample": [
-     "https://aitoptools.com/ai-blog/get-paid-for-ads-a-30-day-plan-for-a-small-site/",
-     "https://aitoptools.com/tool/roundhound/",
-     "https://aitoptools.com/tool/seedance-2-5-3/"
-    ]
-   },
-   "futurepedia": {
-    "urls": 1329,
-    "new": 0,
-    "first_run": false,
-    "sample": []
-   }
-  },
-  "terms": [
-   {
-    "term": "sites",
-    "recent": 681,
-    "baseline": 20,
-    "lift": 498.1
-   },
-   {
-    "term": "uptime marketplace",
-    "recent": 87,
-    "baseline": 0,
-    "lift": 87.0
-   },
-   {
-    "term": "life.lhr uptime",
-    "recent": 79,
-    "baseline": 0,
-    "lift": 79.0
-   },
-   {
-    "term": "connectors life.lhr",
-    "recent": 79,
-    "baseline": 1,
-    "lift": 77.6
-   },
-   {
-    "term": "marketplace",
-    "recent": 89,
-    "baseline": 162,
-    "lift": 22.4
-   },
-   {
-    "term": "korean dart",
-    "recent": 18,
-    "baseline": 18,
-    "lift": 13.5
-   },
-   {
-    "term": "tradingview chart",
-    "recent": 19,
-    "baseline": 31,
-    "lift": 12.1
-   },
-   {
-    "term": "vectorize",
-    "recent": 18,
-    "baseline": 27,
-    "lift": 12.0
-   },
-   {
-    "term": "memory keeper",
-    "recent": 16,
-    "baseline": 18,
-    "lift": 12.0
-   },
-   {
-    "term": "telegram supercharged",
-    "recent": 17,
-    "baseline": 26,
-    "lift": 11.5
-   },
-   {
-    "term": "cinema4d",
-    "recent": 15,
-    "baseline": 27,
-    "lift": 10.0
-   },
-   {
-    "term": "joecheofficial",
-    "recent": 10,
-    "baseline": 0,
-    "lift": 10.0
-   },
-   {
-    "term": "sonic match",
-    "recent": 14,
-    "baseline": 23,
-    "lift": 9.8
-   },
-   {
-    "term": "gitingest",
-    "recent": 14,
-    "baseline": 25,
-    "lift": 9.6
-   },
-   {
-    "term": "langfuse",
-    "recent": 21,
-    "baseline": 70,
-    "lift": 9.2
-   },
-   {
-    "term": "ncrawl",
-    "recent": 12,
-    "baseline": 17,
-    "lift": 9.1
-   },
-   {
-    "term": "searx",
-    "recent": 12,
-    "baseline": 18,
-    "lift": 9.0
-   },
-   {
-    "term": "searxncrawl",
-    "recent": 12,
-    "baseline": 18,
-    "lift": 9.0
-   },
-   {
-    "term": "locklens",
-    "recent": 12,
-    "baseline": 20,
-    "lift": 8.8
-   },
-   {
-    "term": "fcp",
-    "recent": 14,
-    "baseline": 33,
-    "lift": 8.7
-   },
-   {
-    "term": "aki",
-    "recent": 14,
-    "baseline": 33,
-    "lift": 8.7
-   },
-   {
-    "term": "firstdata",
-    "recent": 12,
-    "baseline": 21,
-    "lift": 8.7
-   },
-   {
-    "term": "piia",
-    "recent": 12,
-    "baseline": 23,
-    "lift": 8.4
-   },
-   {
-    "term": "piia engram",
-    "recent": 12,
-    "baseline": 23,
-    "lift": 8.4
-   },
-   {
-    "term": "vibe coder",
-    "recent": 12,
-    "baseline": 25,
-    "lift": 8.2
-   }
-  ]
- },
- "newsite": {
-  "skipped": true
- },
- "revenue": {
-  "skipped": true
- },
- "ask": {
-  "skipped": true
- },
- "gsc": {
-  "off": true
- },
- "review": {
-  "checked": [],
-  "cost_micros": 0,
-  "after_days": 14
- },
- "summary": {
-  "by_signal": {},
-  "pending": 165,
-  "window_days": 60
+  "posts": 660
  },
  "keywords": {
-  "names": [
-   "earshot",
-   "deepinfer",
-   "cleanyourtv",
-   "free my tv",
-   "leanrea"
-  ],
-  "rows": [
-   {
-    "term": "leanrea",
-    "phrase": "leanrea",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": true,
-    "peak_vs": 1,
-    "bench_level": 32.1,
-    "per_day": 4,
-    "decision": "watch",
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "kinds": {
-      "tool": 1,
-      "list": 2,
-      "article": 4,
-      "forum": 2,
-      "video": 1
-     },
-     "features": [],
-     "weakest": null
-    }
-   },
-   {
-    "term": "deepinfer",
-    "phrase": "deepinfer",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": false,
-    "base": 0,
-    "peak": 100,
-    "peak_day": "2026-10-15",
-    "rose": true,
-    "new": true,
-    "momentum": 1.1,
-    "started": "2026-10-15",
-    "now": "rising",
-    "peak_vs": 0,
-    "bench_level": 30.6,
-    "per_day": 0,
-    "decision": "watch",
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "kinds": {
-      "article": 5,
-      "tool": 1,
-      "forum": 2
-     },
-     "features": [
-      "people_also_ask",
-      "perspectives",
-      "top_stories"
-     ],
-     "weakest": null
-    }
-   },
-   {
-    "term": "cleanyourtv",
-    "phrase": "cleanyourtv",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": true,
-    "peak_vs": 0,
-    "bench_level": 50.3,
-    "per_day": 0,
-    "decision": "watch",
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "kinds": {
-      "article": 6,
-      "list": 1,
-      "tool": 1,
-      "video": 1
-     },
-     "features": [
-      "ai_overview"
-     ],
-     "weakest": null
-    }
-   },
-   {
-    "phrase": "ai sound effect generator",
-    "evidence": "a bank of 201 sound effects stored as code that render by id in seconds, with no models and no network",
-    "brand": false,
-    "source": "model",
-    "relevance": 0.85,
-    "is_name": false,
-    "established": false,
-    "term": "ai sound effect generator",
-    "kind": "generic",
-    "names": [
-     "earshot"
-    ],
-    "volume": 1900,
-    "month": "2026-09",
-    "no_data": false,
-    "base": 5.1,
-    "peak": 100,
-    "peak_day": "2026-10-10",
-    "rose": true,
-    "new": true,
-    "momentum": 0.3,
-    "started": "2026-10-10",
-    "now": "fading",
-    "peak_vs": 10,
-    "bench_level": 54.8,
-    "per_day": 80,
-    "decision": "skip"
-   },
-   {
-    "term": "earshot",
-    "phrase": "earshot",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": false,
-    "base": 26.5,
-    "peak": 30,
-    "peak_day": "2026-09-17",
-    "rose": false,
-    "new": false,
-    "momentum": 0.9,
-    "now": "flat",
-    "peak_vs": 6,
-    "bench_level": 52.9,
-    "per_day": 44,
-    "decision": "skip"
-   },
-   {
-    "term": "free my tv",
-    "phrase": "free my tv",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": false,
-    "base": 36.3,
-    "peak": 41,
-    "peak_day": "2026-10-10",
-    "rose": false,
-    "new": false,
-    "momentum": 0.6,
-    "now": "flat",
-    "peak_vs": 6,
-    "bench_level": 51.1,
-    "per_day": 41,
-    "decision": "skip"
-   }
-  ],
-  "proposed": 30,
-  "relevant": 19,
-  "kept": 1,
-  "benchmark": "gpts",
-  "bench_daily": 820,
-  "volume_month": "2026-09",
-  "no_evidence": [],
-  "posts_error": "",
-  "related": false,
-  "tails": {},
-  "cosearch": [],
-  "related_errors": [],
-  "geo": "US",
-  "country_errors": [],
-  "competition_errors": [],
-  "cost_micros": 130500
- }
+  "rows": []
+ },
+ "_note": "rebuilt from radar.db; daily run was without --out"
 }

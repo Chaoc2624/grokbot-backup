@@ -1,0 +1,53 @@
+{
+ "label": "2026-10-22 晚上",
+ "run_at": "2026-10-22 22:20",
+ "window_start": "2026-10-22 10:10",
+ "window_end": "2026-10-22 22:10",
+ "empty": false,
+ "items": [
+  {
+   "name": "Kibitz / Kalmia（Arena 匿名模型，传闻 Kimi K3.1 / Qwen 4）",
+   "desc": "Arena 盲测里出现两个匿名模型，社区根据分词器特征和命名规律猜测 Kibitz 是月之暗面 Kimi K3.1、Kalmia 是阿里 Qwen 4，代码和 3D 任务对战表现亮眼。未官宣，属于传闻。",
+   "source": "@FahadPrimeX",
+   "url": "https://x.com/FahadPrimeX/status/2113161434486235318",
+   "first_seen": "2026-10-22 14:52",
+   "keyword_rank": 1,
+   "keyword": "Kimi K3.1 / Qwen 4",
+   "reason": "两家国产旗舰新版本疑似本周前后发布，中文圈相关帖已有上万浏览；提前做「Kimi K3.1 / Qwen 4 发布时间、怎么在 Arena 试用、跑分对比」页，官宣当天能吃到搜索高峰。"
+  },
+  {
+   "name": "Breken（补漏，上一档漏掉）",
+   "desc": "新创公司 Breken 发布：把你的真实软件放进模拟的生产环境（假用户、老数据、外部服务宕机、时钟 4000 倍加速）跑，在用户之前找出 bug 并附复现和修复草稿；自建基准里 235 个真实用户报告 bug 抓到 76 个，Fable 5.1 读代码只抓到 37 个。",
+   "source": "@brekenai",
+   "url": "https://x.com/brekenai/status/2112936781087973732",
+   "first_seen": "2026-10-21 23:59",
+   "keyword_rank": 2,
+   "keyword": "Breken",
+   "reason": "首发帖 119 万浏览、1800 收藏，新品牌词竞争小；适合做「Breken 是什么 / 定价 / 和传统 QA、AI 代码审查对比」页。"
+  },
+  {
+   "name": "Carbon-X（Hugging Face）",
+   "desc": "Hugging Face 开源 14B DNA + 语言模型（基于 Qwen3-14B 在 3000 亿 token DNA 与文本上继续训练），可以用自然语言问一段序列是什么、突变会不会致病，也能生成 DNA；五项 DNA 基准超过所有开源模型，和 GPT-6.1 Sol 差一分左右、成本低上千倍，Apache 2.0，可用 llama.cpp 本地跑。",
+   "source": "@LoubnaBenAllal1",
+   "url": "https://x.com/LoubnaBenAllal1/status/2113212025560023513",
+   "first_seen": "2026-10-22 18:13",
+   "keyword_rank": 3,
+   "keyword": "Carbon-X",
+   "reason": "「ChatGPT for DNA」话题被 WIRED、Business Insider 报道，首发帖 2.3 万浏览；适合做本地部署教程、使用示例和局限说明页（非临床诊断）。"
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "Kimi K3.1 / Qwen 4",
+   "reason": "两家国产旗舰新版本疑似本周前后发布，中文圈相关帖已有上万浏览；提前做「Kimi K3.1 / Qwen 4 发布时间、怎么在 Arena 试用、跑分对比」页，官宣当天能吃到搜索高峰。"
+  },
+  {
+   "keyword": "Breken",
+   "reason": "首发帖 119 万浏览、1800 收藏，新品牌词竞争小；适合做「Breken 是什么 / 定价 / 和传统 QA、AI 代码审查对比」页。"
+  },
+  {
+   "keyword": "Carbon-X",
+   "reason": "「ChatGPT for DNA」话题被 WIRED、Business Insider 报道，首发帖 2.3 万浏览；适合做本地部署教程、使用示例和局限说明页（非临床诊断）。"
+  }
+ ]
+}

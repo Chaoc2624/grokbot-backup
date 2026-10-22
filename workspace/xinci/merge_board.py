@@ -61,17 +61,40 @@ def main():
             board_kw.append((kw["keyword"], "", kw.get("reason", "")))
         if not any(i.get("keyword") for i in run.get("items", [])) and not run.get("keywords"):
             board_kw += [(re.sub(r"[（(【].*$", "", i["name"]).strip(), i["name"], "") for i in run.get("items", [])]
+    # our free X scan (XSCAN.md): xnew-YYYYMMDD-{am,pm}.json, label 书签X
+    xnew_runs = []
+    for half in ("am", "pm"):
+        p = HERE / f"xnew-{d}-{half}.json"
+        if not p.exists(): continue
+        run = json.loads(p.read_text()); xnew_runs.append(run.get("label", p.name))
+        for it in run.get("items", []):
+            k = norm(it["name"]); existed = k in idx
+            t = get(it["name"])
+            if existed and "书签X" not in t["sources"]:
+                dupes.append({"name": it["name"], "matched": t["name"], "ours": list(t["sources"])})
+            if "书签X" not in t["sources"]: t["sources"].append("书签X")
+            if it.get("kind") == "not_model": t["not_model"] = True
+            if not t["desc"] or not t.get("board"):
+                t["desc"] = it.get("desc") or t["desc"]; t["url"] = t["url"] or it.get("url", "")
+            t.setdefault("first_seen", it.get("first_seen"))
+            if it.get("keyword"): board_kw.append((it["keyword"], it["name"], it.get("reason", ""), "书签X"))
+        for kw in run.get("keywords", []):
+            board_kw.append((kw["keyword"], "", kw.get("reason", ""), "书签X"))
     extra, seen = [], set()
-    for kw, nm, why in board_kw:
-        if kw.lower() in seen: continue
-        seen.add(kw.lower()); extra.append({"phrase": kw, "source": "看板X", "names": [nm] if nm else [], "evidence": why})
+    for e in board_kw:
+        kw, nm, why = e[:3]; src = e[3] if len(e) > 3 else "看板X"
+        hit = next((x for x in extra if x["phrase"].lower() == kw.lower()), None)
+        if hit:
+            if src not in hit["source"]: hit["source"] += "/" + src
+            continue
+        extra.append({"phrase": kw, "source": src, "names": [nm] if nm else [], "evidence": why})
     xs = report.get("x", {})
     x_failed = bool(xs.get("error")) or (xs.get("answered", 0) == 0)
-    out = {"date": a.date, "board_runs": board_runs, "our_x_failed": x_failed, "terms": terms,
+    out = {"date": a.date, "board_runs": board_runs, "xnew_runs": xnew_runs, "our_x_failed": x_failed, "terms": terms,
            "dupes": dupes, "board_keywords": [e["phrase"] for e in extra]}
     (HERE / "merged.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
     (HERE / "board_keywords.json").write_text(json.dumps(extra, ensure_ascii=False, indent=1))
-    L = [f"## 合并新词（{a.date}）", "", f"看板雷达：{'、'.join(board_runs) or '当天没有'}；共 {len(terms)} 个词，两边重合 {len(dupes)} 个。"]
+    L = [f"## 合并新词（{a.date}）", "", f"看板雷达：{'、'.join(board_runs) or '当天没有'}；书签X：{'、'.join(xnew_runs) or '当天没有'}；共 {len(terms)} 个词，两边重合 {len(dupes)} 个。"]
     if x_failed: L.append("⚠ 我们的 X 源今晚失败，X 部分只有看板雷达的词。")
     L.append("")
     order = sorted(terms, key=lambda t: (-len(t["sources"]), "看板X" not in t["sources"]))

@@ -1,0 +1,67 @@
+{
+ "label": "2026-10-22 上午",
+ "run_at": "2026-10-22 10:15",
+ "window_start": "2026-10-21 22:05",
+ "window_end": "2026-10-22 10:10",
+ "empty": false,
+ "items": [
+  {
+   "name": "Claude Duet（Anthropic）",
+   "desc": "Anthropic 推出的主动型个人 agent 独立 App（研究预览）：主动找出需要你关注的事、完成任务、你离开时继续干活，代你行动前先问你。基于 Opus 5.5，共用 Claude 账户的记忆、技能和连接应用；美国 Pro/Max 用户排队申请，Canva、Airtable、Shopify 已接入。",
+   "source": "@claudeai",
+   "url": "https://x.com/claudeai/status/2112984664256241837",
+   "first_seen": "2026-10-22 03:09",
+   "keyword_rank": 1,
+   "keyword": "Claude Duet",
+   "reason": "首发帖 435 万浏览，和 Grok Bot、Meta Muse、ChatGPT Dots 正面竞争；适合做「是什么 / 怎么申请候补 / 和 Dots、Muse 对比」页。"
+  },
+  {
+   "name": "Recursive Flint",
+   "desc": "Recursive 首个模型：40B MoE（2.5B 激活）本地编码模型，256K 上下文，MacBook Pro 上 125+ tok/s、RTX Spark 上 150+ tok/s，由其自动科研系统 Eureka Machine 不到 4 个月从零练成；Apache 2.0 开放权重，OpenCode 可免费试。",
+   "source": "@RichardSocher",
+   "url": "https://x.com/RichardSocher/status/2112944385415426249",
+   "first_seen": "2026-10-22 00:29",
+   "keyword_rank": 2,
+   "keyword": "Recursive Flint",
+   "reason": "首发帖 190 万浏览、近 5 千收藏，本地编码模型需求大；适合做 Mac/Ollama 本地部署、显存要求、和 Qwen 编码模型对比页。"
+  },
+  {
+   "name": "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能",
+   "desc": "OpenAI 的 Patch the Planet 计划用模型发现 PHP（约 70% 网站在用）的严重安全漏洞，已联合维护者提前准备修复；随后发布一个 Codex 技能仓库，帮你检查自己的网站是否受影响。是安全研究，不是新模型。",
+   "source": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2112907856018309586",
+   "first_seen": "2026-10-21 22:04",
+   "keyword_rank": 3,
+   "keyword": "PHP 漏洞检测",
+   "reason": "首发帖 479 万浏览，站长会集中搜「我的网站受影响吗 / 怎么修 / 升级哪个 PHP 版本」，适合做检测工具和修复教程页。"
+  },
+  {
+   "name": "Claude Security 持续扫描",
+   "desc": "Claude Security 现在连一次代码仓库就会先深度扫描，之后随代码变更自动重扫；Claude Enterprise 公测。",
+   "source": "@claudeai",
+   "url": "https://x.com/claudeai/status/2112962248218148878",
+   "first_seen": "2026-10-22 01:40"
+  },
+  {
+   "name": "OpenAI 模型登陆 Google Cloud",
+   "desc": "OpenAI 前沿模型和 Codex agent 工作流进入 Google Cloud Model Garden，企业可在 Google Cloud 上直接用。是合作上架，不是新模型。",
+   "source": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2112988118471295323",
+   "first_seen": "2026-10-22 03:23"
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "Claude Duet",
+   "reason": "首发帖 435 万浏览，和 Grok Bot、Meta Muse、ChatGPT Dots 正面竞争；适合做「是什么 / 怎么申请候补 / 和 Dots、Muse 对比」页。"
+  },
+  {
+   "keyword": "Recursive Flint",
+   "reason": "首发帖 190 万浏览、近 5 千收藏，本地编码模型需求大；适合做 Mac/Ollama 本地部署、显存要求、和 Qwen 编码模型对比页。"
+  },
+  {
+   "keyword": "PHP 漏洞检测",
+   "reason": "首发帖 479 万浏览，站长会集中搜「我的网站受影响吗 / 怎么修 / 升级哪个 PHP 版本」，适合做检测工具和修复教程页。"
+  }
+ ]
+}

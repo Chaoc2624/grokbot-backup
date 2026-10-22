@@ -4,9 +4,15 @@
   "min_cpc": 0.01,
   "need_open_serp": true,
   "database": "us",
-  "max_terms": 40,
-  "max_spend_usd": 0.50,
+  "max_terms": 110,
+  "max_spend_usd": 0.8,
   "cache_days": 7,
   "serp_fetch": true,
-  "serp_location_code": 2840
+  "serp_location_code": 2840,
+  "kd_min_volume": 100,
+  "max_allintitle": 10000,
+  "check_allintitle": true,
+  "need_small_sites": false,
+  "small_sites_min": 5,
+  "tool_intent_bonus": 15
 }

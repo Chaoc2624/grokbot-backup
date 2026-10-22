@@ -37,7 +37,20 @@ DEFAULTS = {
     "cache_days": 7,
     "serp_fetch": True,       # read page one ($0.002) for terms with no competition data that pass volume+CPC
     "serp_location_code": 2840,
+    # 2026-10-22 筛词升级
+    "kd_min_volume": 100,       # 月搜低于此不再花钱查 KD（预筛）
+    "max_allintitle": 10000,    # allintitle 结果数上限
+    "check_allintitle": True,   # 对过了月搜+CPC 的词查 allintitle（DataForSEO SERP，经 AIsa）
+    "need_small_sites": False,  # True 时「首页小站居多」也算门槛；默认只展示
+    "small_sites_min": 5,       # 首页前 10 里非大站 >= 此数算小站居多
+    "tool_intent_bonus": 15,
 }
+TOOL_INTENT = __import__("re").compile(r"\b(generator|converter|maker|checker|editor|creator|detector|remover|downloader|translator|calculator|upscaler)\b", __import__("re").I)
+BIG = ("wikipedia.org", "youtube.com", "reddit.com", "amazon.com", "github.com", "google.com", "apple.com", "microsoft.com",
+       "facebook.com", "x.com", "twitter.com", "linkedin.com", "medium.com", "quora.com", "forbes.com", "nytimes.com",
+       "cnn.com", "bbc.com", "theverge.com", "techcrunch.com", "instagram.com", "tiktok.com", "huggingface.co",
+       "openai.com", "anthropic.com", "adobe.com", "canva.com", "zapier.com", "g2.com", "capterra.com", "pcmag.com",
+       "cnet.com", "wired.com", "nvidia.com", "meta.com", "ibm.com", "aws.amazon.com", "yahoo.com", "ebay.com", "walmart.com")
 PRICE = {"overview": 1000, "kd": 5000, "serp": 2000}   # micro-USD estimates, per keyword
 OVERVIEW = "get_semrush_keyword_overview"
 KD = "get_semrush_keyword_difficulty"
@@ -158,8 +171,14 @@ def fetch_semrush(phrases: list[str], cfg: dict, budget: Budget, errors: list[st
             else:
                 got[p].update(volume=0, cpc=None, comp=None, nodata=True)
     # KD: one call per 20 phrases, billed per phrase
-    for i in range(0, len(phrases), 20):
-        chunk = phrases[i:i + 20]
+    kd_need = []
+    for p in phrases:
+        if got[p].get("overview_ok") and (got[p].get("volume") or 0) < cfg.get("kd_min_volume", 0):
+            got[p].update(kd_ok=True, kd=None, kd_skipped=True)
+        else:
+            kd_need.append(p)
+    for i in range(0, len(kd_need), 20):
+        chunk = kd_need[i:i + 20]
         if not budget.allows(PRICE["kd"] * len(chunk)):
             budget.skipped += [f"kd:{p}" for p in chunk]
             continue
@@ -194,6 +213,35 @@ def serp_check(phrase: str, cfg: dict, budget: Budget, errors: list[str]) -> dic
             "top": [x["domain"] for x in page["results"][:10]], "source": "serp"}
 
 
+def allintitle(phrase: str, cfg: dict, budget: Budget, errors: list[str]):
+    from radar import aisa
+    if not budget.allows(PRICE["serp"] * 5):
+        budget.skipped.append(f"allintitle:{phrase}")
+        return None
+    try:
+        data, cost = aisa.call([{"call_id": "a", "tool": "post_dataforseo_serp_google_organic_live", "arguments": {"body": [{
+            "keyword": f"allintitle:{phrase}", "location_code": cfg["serp_location_code"], "language_code": "en", "depth": 10}]}}])
+        budget.spent += cost
+    except aisa.AisaError as exc:
+        errors.append(f"allintitle {phrase}: {exc}")
+        return None
+    res = (((data.get("a") or {}).get("tasks") or [{}])[0].get("result") or [{}])[0]
+    return res.get("se_results_count")
+
+
+def small_sites(serp: dict) -> int | None:
+    top = serp.get("top") or []
+    if not top:
+        return None
+    return sum(1 for d in top if not any(d == b or d.endswith("." + b) for b in BIG))
+
+
+def kdroi(t: dict) -> float | None:
+    if not t.get("volume") or t.get("cpc") is None:
+        return None
+    return round(t["volume"] * t["cpc"] / max(t.get("kd") or 1, 1), 1)
+
+
 def serp_verdict(serp: dict, kd) -> str:
     """No GoAnyAPI site ratings: count forum + video results as the soft slots a new site can take."""
     soft = (serp["kinds"].get("forum", 0) + serp["kinds"].get("video", 0))
@@ -215,6 +263,10 @@ def checks(t: dict, cfg: dict) -> dict[str, bool | None]:
     }
     if cfg["need_open_serp"]:
         c["首页竞争"] = None if t.get("verdict") is None else t["verdict"] == "open"
+    if cfg.get("check_allintitle"):
+        c["allintitle"] = None if t.get("allintitle") is None else t["allintitle"] < cfg["max_allintitle"]
+    if cfg.get("need_small_sites"):
+        c["小站居多"] = None if t.get("small_sites") is None else t["small_sites"] >= cfg["small_sites_min"]
     return c
 
 
@@ -230,6 +282,7 @@ def score(t: dict, cfg: dict) -> int:
     s += min(15, int(cpc * 5))
     s += {"open": 20, "mixed": 8}.get(t.get("verdict"), 0)
     s += 10 if t.get("evidence") else 0
+    s += cfg.get("tool_intent_bonus", 0) if t.get("tool_intent") else 0
     return min(100, s)
 
 
@@ -238,6 +291,8 @@ def fmt(v, kind):
         return "—"
     if kind == "cpc":
         return f"${v:.2f}"
+    if kind == "n":
+        return f"{v:,}" if isinstance(v, (int, float)) else str(v)
     if kind == "vol":
         return f"{v:,}"
     return str(v)
@@ -283,28 +338,30 @@ def render(terms: list[dict], cfg: dict, budget: Budget, errors: list[str], repo
             near.append(t)
         else:
             rest.append(t)
-    passed.sort(key=lambda t: -t["score"])
-    near.sort(key=lambda t: -t["score"])
-    th = f"月搜 ≥ {cfg['min_volume']:,}、KD ≤ {cfg['max_kd']}、CPC 有值" + ("、首页竞争「能进」" if cfg["need_open_serp"] else "")
+    key = lambda t: (not t.get("tool_intent"), -(t.get("kdroi") or 0), -t["score"])
+    passed.sort(key=key)
+    near.sort(key=key)
+    rest.sort(key=key)
+    th = f"月搜 ≥ {cfg['min_volume']:,}、KD ≤ {cfg['max_kd']}、CPC 有值" + ("、首页竞争「能进」" if cfg["need_open_serp"] else "") + (f"、allintitle < {cfg['max_allintitle']:,}" if cfg.get("check_allintitle") else "") + "；按 KDROI（月搜×CPC÷KD）排序，🛠 工具意图词优先"
     L = [f"## 可做的词（{report_day}）", "", f"门槛：{th}。只看不带品牌的通用词（⚠ 品牌词留给你判断），数据来自 Semrush 美国库。共查 {len(terms)} 个词。", ""]
     L.append(f"### 全过门槛的词（{len(passed)}）")
     if passed:
-        L += ["", "| 词 | 月搜 | KD | CPC | 首页竞争 | 信心分 | 依据/来源 |", "|---|---|---|---|---|---|---|"]
+        L += ["", "| 词 | 月搜 | KD | CPC | KDROI | allintitle | 小站/10 | 首页竞争 | 信心分 | 依据/来源 |", "|---|---|---|---|---|---|---|---|---|---|"]
         for t in passed:
-            L.append(f"| **{t['phrase']}** | {fmt(t.get('volume'),'vol')} | {fmt(t.get('kd'),'kd')} | {fmt(t.get('cpc'),'cpc')} | {comp_note(t)} | {t['score']} | {source_note(t)} |")
+            L.append(f"| **{t['phrase']}** | {fmt(t.get('volume'),'vol')} | {fmt(t.get('kd'),'kd')} | {fmt(t.get('cpc'),'cpc')} | {fmt(t.get('kdroi'),'n')}{' 🛠' if t.get('tool_intent') else ''} | {fmt(t.get('allintitle'),'vol')} | {fmt(t.get('small_sites'),'n')} | {comp_note(t)} | {t['score']} | {source_note(t)} |")
     else:
         L += ["", "今天没有词全过门槛。"]
     L += ["", f"### 差一点就过的词（{len(near)}）"]
     if near:
-        L += ["", "| 词 | 月搜 | KD | CPC | 首页竞争 | 卡在哪 | 依据/来源 |", "|---|---|---|---|---|---|---|"]
+        L += ["", "| 词 | 月搜 | KD | CPC | KDROI | allintitle | 小站/10 | 首页竞争 | 卡在哪 | 依据/来源 |", "|---|---|---|---|---|---|---|---|---|---|"]
         for t in near:
             why = "、".join([f"{k}没过" for k in t["failed"]] + [f"{k}没数据" for k in t["unknown"]])
-            L.append(f"| {t['phrase']} | {fmt(t.get('volume'),'vol')} | {fmt(t.get('kd'),'kd')} | {fmt(t.get('cpc'),'cpc')} | {comp_note(t)} | {why} | {source_note(t)} |")
+            L.append(f"| {t['phrase']} | {fmt(t.get('volume'),'vol')} | {fmt(t.get('kd'),'kd')} | {fmt(t.get('cpc'),'cpc')} | {fmt(t.get('kdroi'),'n')}{' 🛠' if t.get('tool_intent') else ''} | {fmt(t.get('allintitle'),'vol')} | {fmt(t.get('small_sites'),'n')} | {comp_note(t)} | {why} | {source_note(t)} |")
     else:
         L += ["", "没有只差一项的词。"]
     if rest:
         L += ["", "其余（两项以上没过）：" + "；".join(
-            f"{t['phrase']}（月搜 {fmt(t.get('volume'),'vol')}，KD {fmt(t.get('kd'),'kd')}，CPC {fmt(t.get('cpc'),'cpc')}；卡在 " + "、".join(t['failed'] + [k + '没数据' for k in t['unknown']]) + "）" for t in rest)]
+            f"{t['phrase']}（月搜 {fmt(t.get('volume'),'vol')}，KDROI {fmt(t.get('kdroi'),'n')}，KD {fmt(t.get('kd'),'kd')}，CPC {fmt(t.get('cpc'),'cpc')}；卡在 " + "、".join(t['failed'] + [k + '没数据' for k in t['unknown']]) + "）" for t in rest)]
     L += ["", f"花费：本次 AIsa 约 ${budget.spent/1e6:.3f}（上限 ${budget.cap/1e6:.2f}），{cached} 个词用了 7 天内缓存没再付费。"]
     if budget.skipped:
         L.append(f"因上限跳过 {len(budget.skipped)} 次查询。")
@@ -327,8 +384,9 @@ def main():
     report = json.loads(Path(a.report).read_text())
     report_day = datetime.fromtimestamp(Path(a.report).stat().st_mtime).strftime("%Y-%m-%d")
     extra = [t for t in a.terms.split(";") if t.strip()]
-    if a.extra_file and Path(a.extra_file).exists():
-        extra += json.loads(Path(a.extra_file).read_text())
+    for ef in [x for x in a.extra_file.split(",") if x.strip()]:
+        if Path(ef).exists():
+            extra += json.loads(Path(ef).read_text())
     terms = collect(report, extra, cfg["max_terms"])
     if a.dry_run:
         print(json.dumps([t["phrase"] for t in terms], ensure_ascii=False))
@@ -346,7 +404,7 @@ def main():
             terms_by.update(v)
     for t in terms:
         if t["phrase"] in cache:
-            t.update({k: v for k, v in cache[t["phrase"]].items() if k not in ("day", "serp")})
+            t.update({k: v for k, v in cache[t["phrase"]].items() if k not in ("day", "serp", "allintitle")})
     # page one: reuse the radar's verdict, else cached/new SERP read for terms clearing volume + CPC
     for t in terms:
         comp = t.get("competition")
@@ -363,6 +421,19 @@ def main():
             t["verdict"], t["comp_detail"] = serp_verdict(serp, t.get("kd")), serp
         else:
             t["verdict"] = None
+    for t in terms:
+        t["tool_intent"] = bool(TOOL_INTENT.search(t["phrase"]))
+        t["kdroi"] = kdroi(t)
+        if t.get("comp_detail") and t["comp_detail"].get("top"):
+            t["small_sites"] = small_sites(t["comp_detail"])
+        pre = (t.get("volume") or 0) >= cfg["min_volume"] and (t.get("cpc") or 0) >= cfg["min_cpc"]
+        c = cache.get(t["phrase"]) or {}
+        if "allintitle" in c:
+            t["allintitle"] = c["allintitle"]
+        elif pre and cfg.get("check_allintitle"):
+            t["allintitle"] = allintitle(t["phrase"], cfg, budget, errors)
+            if t["allintitle"] is not None and t["phrase"] in cache:
+                cache[t["phrase"]]["allintitle"] = t["allintitle"]
     for t in terms:
         t["checks"] = checks(t, cfg)
         t["score"] = score(t, cfg)

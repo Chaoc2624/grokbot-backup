@@ -1,40 +1,56 @@
-## 合并新词（2026-10-21）
+## 合并新词（2026-10-22）
 
-看板雷达：2026-10-21 上午、2026-10-21 晚上；共 36 个词，两边重合 0 个。
+看板雷达：2026-10-22 上午；书签X：2026-10-22 验证 书签X、2026-10-22 晚上 书签X；共 52 个词，两边重合 5 个。
 
-- **Ornith-1.5-122B（Ornith）**〔看板X〕122B 总参 / 约 10B 激活的 MoE 开源模型，MIT 许可，单张 DGX/80GB 卡可跑；SWE-bench Verified 0.845、MCP-Atlas 0.746、BrowseComp 0.785。首日即上 Huggi [链接](https://x.com/ornith_/status/2112553477457268799)
-- **Voxtral 3（Mistral AI）**〔看板X〕Mistral 新一代语音转写（Transcribe）和语音合成（Speech）模型，同时上线新的语音 agent API。 [链接](https://x.com/MistralAI/status/2112574615318876178)
-- **Gemini Personal Intelligence 上 Android Auto（Google）**〔看板X〕Gemini 的 Personal Intelligence 开始在 Android Auto 推送，经授权可连接 Gmail、日历、搜索等提供车载免手动帮助，未来几个月扩展到内置 Google 的汽车。功能更新，不是新模型。 [链接](https://x.com/Google/status/2112655614132285592)
-- **MemT-1.0（记忆张量 MemTensor）【上一档漏收，补录】**〔看板X〕记忆原生开源模型系列：Flash（288B）和 Nano（36B），把可更新的内部记忆放进模型计算，长会话无需重新塞历史，128K 下存储约降 66 倍；11 项记忆基准在参数化记忆方法中排前二。首发在上一档窗口内（10-20 16:00） [链接](https://x.com/ModelScope2022/status/2112453862351073661)
-- **Sage-A1.5（InternScience）**〔看板X〕面向长程科研任务的开源模型，256K 上下文，可把独立调查分给并行子 agent，带可选验证模式；PinchBench 90.0、FrontierScience-Olympiad 81.0。BF16/FP8/GGUF，支持 Transfor [链接](https://x.com/ModelScope2022/status/2112816255375745132)
-- **Spark-X2.6-4B（讯飞星火）**〔看板X〕4B 开源小模型，1M 上下文，三档思考预算（none/low/high），FP8/INT8/INT4/GGUF 全套，支持 Ollama、llama.cpp、MLX、LM Studio，Apache 2.0。 [链接](https://x.com/ModelScope2022/status/2112781153065165291)
-- **OXR-1.0（SoMark）**〔看板X〕1.3B 开源文档解析模型，把 PDF 和文档图片转成 Markdown 或 JSON，识别表格、公式、化学结构、代码块等 13 类元素；olmOCR-Bench、OmniDocBench 等项目自报第一，557 tokens/s。 [链接](https://x.com/ModelScope2022/status/2112901338178687182)
-- **Mistral × NVIDIA 工业工程 AI 合作**〔看板X〕Mistral 宣布和 NVIDIA 合作：更快的仿真、物理 AI 开放基准和数据集、CAE/EDA 场景的 agent 评测。合作公告，不是新模型。 [链接](https://x.com/MistralAI/status/2112870261829603589)
-- **GPT-Rosalind 药物研发新线索（OpenAI）**〔看板X〕OpenAI 公布数千个 GPT-Rosalind agent 并行 32 分钟分析小鼠脑数据，提出 Perry 综合征的胆固醇转运假说，与 Scripps 等扩大合作。科研成果，不是新产品。 [链接](https://x.com/OpenAI/status/2112899854569762936)
-- **orchestra bio**〔我们X〕X 2 个账号 ♥5152
-- **gpt-5.1-codex-max**〔我们X〕X 1 个账号 ♥122
-- **gpt-5.2-codex**〔我们X〕X 1 个账号 ♥122
-- **eagle 4**〔GitHub〕GitHub 爆发 eagle-hq/EAGLE-4 ★624(均 611/天) [链接](https://github.com/eagle-hq/EAGLE-4)
-- **free ai humanizer**〔HF〕HF Spaces 新进榜第 25 名
-- **free ai detector**〔HF〕HF Spaces 新进榜第 34 名
-- **aerial tv**〔GitHub〕GitHub 爆发 pengchujin/aerial-tv ★1836(均 1502/天) [链接](https://github.com/pengchujin/aerial-tv)
-- **rea prompts**〔GitHub〕GitHub 爆发 JoasASantos/REA-Prompts ★1262(均 753/天,一天 +751) [链接](https://github.com/JoasASantos/REA-Prompts)
-- **koleharv**〔竞品站〕③ 竞品 8 处 (×8.0)
-- **sm100**〔我们X〕X 2 个账号 ♥89
-- **dctn1**〔我们X〕X 1 个账号 ♥1830
-- **connectors com.insightfulpipe**〔竞品站〕③ 竞品 47 处 (×47.0)
-- **connectors com.textforagents**〔竞品站〕③ 竞品 28 处 (×25.8)
-- **app.abracadabrax**〔竞品站〕③ 竞品 23 处 (×23.0)
-- **abracadabrax**〔竞品站〕③ 竞品 23 处 (×23.0)
-- **connectors app.abracadabrax**〔竞品站〕③ 竞品 23 处 (×23.0)
-- **connectors com.manymotions**〔竞品站〕③ 竞品 18 处 (×18.0)
-- **insightful pipe**〔竞品站〕③ 竞品 17 处 (×16.8)
-- **connectors io.github.pooriaarab**〔竞品站〕③ 竞品 14 处 (×13.6)
-- **maker abracadabrax**〔竞品站〕③ 竞品 13 处 (×13.0)
-- **io.resumenext**〔竞品站〕③ 竞品 8 处 (×8.0)
-- **connectors io.resumenext**〔竞品站〕③ 竞品 8 处 (×8.0)
-- **deepseek**〔竞品站〕③ 竞品 35 处 (×9.5)；③ 竞品 29 处 (×9.7)
-- **johannschiffer**〔竞品站〕③ 竞品 15 处 (×15.0)
-- **diogenes**〔竞品站〕③ 竞品 12 处 (×11.7)
-- **cae**〔我们X〕X 1 个账号 ♥801
-- **php**〔我们X〕X 1 个账号 ♥1803
+- **Claude Duet（Anthropic）**〔看板X / 书签X〕Anthropic 推出的主动型个人 agent 独立 App（研究预览）：主动找出需要你关注的事、完成任务、你离开时继续干活，代你行动前先问你。基于 Opus 5.5，共用 Claude 账户的记忆、技能和连接应用；美国 Pro/Max  [链接](https://x.com/claudeai/status/2112984664256241837)
+- **Recursive Flint**〔看板X / 书签X〕Recursive 首个模型：40B MoE（2.5B 激活）本地编码模型，256K 上下文，MacBook Pro 上 125+ tok/s、RTX Spark 上 150+ tok/s，由其自动科研系统 Eureka Machine 不 [链接](https://x.com/RichardSocher/status/2112944385415426249)
+- **OpenAI 发现 PHP 严重漏洞 + Codex 检测技能**〔看板X / 书签X〕OpenAI 的 Patch the Planet 计划用模型发现 PHP（约 70% 网站在用）的严重安全漏洞，已联合维护者提前准备修复；随后发布一个 Codex 技能仓库，帮你检查自己的网站是否受影响。是安全研究，不是新模型。 [链接](https://x.com/OpenAI/status/2112907856018309586)
+- **Claude Security 持续扫描**〔看板X / 书签X〕Claude Security 现在连一次代码仓库就会先深度扫描，之后随代码变更自动重扫；Claude Enterprise 公测。 [链接](https://x.com/claudeai/status/2112962248218148878)
+- **OpenAI 模型登陆 Google Cloud**〔看板X / 书签X〕OpenAI 前沿模型和 Codex agent 工作流进入 Google Cloud Model Garden，企业可在 Google Cloud 上直接用。是合作上架，不是新模型。 [链接](https://x.com/OpenAI/status/2112988118471295323)
+- **pokebonk**〔我们X〕@op7418: 这哥们儿做的宝可梦版本《吸血鬼幸存者》游戏是真的火 叫 PokeBonk，我去，玩家非常多，各种自传播，国内也特别火。 玩法就是你扮演其中一个宝可梦，在一个类似
+- **qwen3.5-0.8b**〔我们X〕@TeksEdge: This small Local AI model could replace an entire document-processing pipeline. 
+- **ocrbench kie**〔我们X〕@TeksEdge: This small Local AI model could replace an entire document-processing pipeline. 
+- **carbon x release**〔HF〕HuggingFaceBio/Carbon-X-Release (static, ♥19)
+- **ssi**〔HF〕Hunter26666666/SSI_Space (docker, ♥48)
+- **rubix lang**〔GitHub〕tek-sys-hub/Rubix-lang: The 100% Pure x86-64 Assembly Systems Language [链接](https://github.com/tek-sys-hub/Rubix-lang)
+- **php2shell poc**〔GitHub〕ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session. [链接](https://github.com/ikow/php2shell-poc)
+- **php2shell bypass aslr exp**〔GitHub〕9bie/php2shell-bypass-aslr-exp: A php2shell exploit that requires no modifications to the official version, and does not [链接](https://github.com/9bie/php2shell-bypass-aslr-exp)
+- **php2shell cve 2026 109618 cve 2026 109619 poc**〔GitHub〕eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE [链接](https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC)
+- **dsh purge**〔GitHub〕mmparko/dsh-purge: DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与 [链接](https://github.com/mmparko/dsh-purge)
+- **php2shell checker**〔GitHub〕openai/php2shell-checker:  [链接](https://github.com/openai/php2shell-checker)
+- **connectors io.github.datadmon**〔竞品站〕③ 竞品 10 处 (×10.0)
+- **com.1102tools**〔竞品站〕③ 竞品 9 处 (×9.0)
+- **connectors com.1102tools**〔竞品站〕③ 竞品 9 处 (×9.0)
+- **connectors ai.saifs**〔竞品站〕③ 竞品 8 处 (×7.4)
+- **click.mymarketing**〔竞品站〕③ 竞品 7 处 (×7.0)
+- **connectors click.mymarketing**〔竞品站〕③ 竞品 7 处 (×7.0)
+- **co.youraitools**〔竞品站〕③ 竞品 7 处 (×7.0)
+- **connectors co.youraitools**〔竞品站〕③ 竞品 7 处 (×7.0)
+- **connectors app.openkrill**〔竞品站〕③ 竞品 9 处 (×6.0)
+- **connectors com.faceabot**〔竞品站〕③ 竞品 6 处 (×5.7)
+- **click.myinfrastructure**〔竞品站〕③ 竞品 4 处 (×4.0)
+- **connectors click.myinfrastructure**〔竞品站〕③ 竞品 4 处 (×4.0)
+- **io.github.rico**〔竞品站〕③ 竞品 4 处 (×4.0)
+- **connectors io.github.rico**〔竞品站〕③ 竞品 4 处 (×4.0)
+- **click.myagents google**〔竞品站〕③ 竞品 5 处 (×5.0)
+- **emudhra 18**〔我们X〕@dotey: 用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的
+- **relation f1 ovisocr3**〔我们X〕@TeksEdge: This small Local AI model could replace an entire document-processing pipeline. 
+- **crypto.randomuuid**〔我们X〕@dotey: 用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的
+- **randomint**〔我们X〕@dotey: 用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的
+- **leis**〔GitHub〕ctresb/leis: Todas as leis do Brasil [链接](https://github.com/ctresb/leis)
+- **io.github.theluckystrike**〔竞品站〕③ 竞品 77 处 (×45.8)
+- **connectors io.github.theluckystrike**〔竞品站〕③ 竞品 77 处 (×45.8)
+- **connectors com.textforagents**〔竞品站〕③ 竞品 29 处 (×22.1)
+- **dev.workers.rainmaker**〔竞品站〕③ 竞品 15 处 (×15.0)
+- **connectors dev.workers.rainmaker**〔竞品站〕③ 竞品 15 处 (×15.0)
+- **dev.workers.rainmaker wells.well**〔竞品站〕③ 竞品 14 处 (×14.0)
+- **connectors click.myagents**〔竞品站〕③ 竞品 12 处 (×12.0)
+- **io.github.datadmon**〔竞品站〕③ 竞品 10 处 (×10.0)
+- **sites**〔竞品站〕③ 竞品 684 处 (×579.1)
+- **jobs scraper**〔竞品站〕③ 竞品 5 处 (×4.6)
+- **GPT-Rosalind 药物发现线索**〔书签X〕GPT-Rosalind 提出神经退行疾病新药线索（DCTN1）。科研成果，不是新模型。 [链接](https://x.com/OpenAI/status/2112899854569762936)
+- **Mistral × NVIDIA 工业工程合作**〔书签X〕合作做仿真加速、物理 AI 基准和数据集。合作，不是新模型。 [链接](https://x.com/MistralAI/status/2112870261829603589)
+- **Gemini 在 Google 地图 CarPlay 导航**〔书签X〕CarPlay 版 Google 地图导航可语音调用 Gemini。功能更新，不是新模型。 [链接](https://x.com/Google/status/2112963255924674955)
+- **Moss-Image-Edit**〔书签X〕MOSS-Image 的开放权重 LoRA 编辑适配器，文字＋最多 4 张参考图改图，附 ComfyUI 工作流。 [链接](https://x.com/ModelScope2022/status/2113254634030764100)
+- **PixText**〔书签X〕两个约 0.95B 开放权重模型，在像素空间本地修正图中文字。 [链接](https://x.com/ModelScope2022/status/2113204928076247522)
+- **Omni-R2V**〔书签X〕上架 ModelScope 的 33.9 万条视频参考生成训练数据集。不是新模型 [链接](https://x.com/ModelScope2022/status/2113141454109290675)

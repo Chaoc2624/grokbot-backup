@@ -1,0 +1,119 @@
+=== waika
+### 零星消息
+> ingat：就是不给1个月的 · 而且都是月初给，我16号才账单日
+=== naixi
+### 零星消息
+> ❄️ Maki 🇬🇮：损耗比返现大
+=== haiwufang
+### Nubank 开户材料 / 邀请 (16 条 / 6 人)
+> S：巴西nubank收到开户通知邮件了，需要准备哪些资料。需要地址证明和身份证明吗？已有itin，但还没有银行账单地址的呀
+> severen gust：填一堆资料，但是有的人直接视频就过
+> S：还要视频认证？
+> Ezra：我都20天了还没有邀请我
+> S：我走的也是海大邀请，4天就出来了。还以为要等很久，现在连地址证明都没有，只能等c1出账单了再说
+> X JANE：nu bank要提交材料的话最好一次性交完😂我估计我哪一步操作不当我需要三天后重新申请
+> 坠明：nu我等了一个月了
+> severen gust：昨天提交没过，今天继续重新提交地址证明身份证明 · 没有证明啊，不填了
+> X JANE：可能也会是三天后让你重新申请
+> Spark：我三个号过了，如果能改邮箱的话拿去认证（ · 但是感觉不安全就是了
+> 坠明：应该是不行，就得输指定的邮箱
+> Spark：我不知道注册好之后能不能改 · 这三个都是小号（ · 我不怎么喜欢 · 多拿几个邮箱点点试试看 · 我9.22和10.1点的都没邀请
+> 坠明：我也多点几个邮箱去
+> Spark：6天前点的过了
+> Ralap Richardson：这个要用证明吗，注册
+> X JANE：信报短就需要
+### C1 / Discover 账单与 refer (16 条 / 6 人)
+> severen gust：我c1刚发出来，提前激活吗 · 不理它了估计没信报，c1还没收到卡
+> Ralap Richardson：那我不注册了，老老实实等我的c1吧
+> Zzzz：第一期账单终于出来了
+> Spark：羡慕4个refer · discover吗
+> Ralap Richardson：这是负的账单吗
+> Spark：banlance负数
+> Zzzz：我专门等的马上账单了才给的refer 还是入账了。
+> Ralap Richardson：那不就是没用的账单
+> Spark：他这个入账批卡的当天就会入账
+> 坠明：谁有那个dis的refer
+> Zzzz：应该是有用的吧，上报就有记录了
+> 坠明：有用的，不过两个月如果还是负数的话会寄支票
+> Zzzz：我想一下干个350刀 不知道会不会风控 · 前几天没出账单 我刷了一笔美团 · 我蓝绿刷不了，afb让贴卡 我验证不了 不知道为什么
+### 零星消息
+> 禁止私聊William Lee：你们地址怎么搞到的
+--- 核验
+- Nubank US 开户凭 ITIN、刷脸｜Huoke.Me 博客（2026-10-11，整理自个人实测帖，非官方条款）：ITIN 即可申请，验证环节只刷脸，实测全程没有要求上传任何证件或文件；走邀请链接进候补名单，实测约 5 天获批 https://blog.huoke.me/posts/nubank-us-account/
+- Discover 负余额寄支票｜WalletHub（查阅 2026-10-22）：If you maintain a negative credit balance for six months, Discover is required to offer you a refund；可电话 1-800-347-2683 或书面申请，退款形式为 check https://wallethub.com/answers/cc/discover-credit-balance-refund-1000311-2140740572/
+=== donni_hm
+### 代收收定金争议 (10 条 / 3 人)
+> 🐉：我这边从来不收定金，你随便问
+> chou simon：是他抄了你的文案？
+> 🐉：群里做代收的，哪一个有像我一样不收定金？
+> CR 7：同样的文案两个小号一直发，都会觉的是一个人吧😅
+### 零星消息
+> Hugh Lee：uk信用分在哪看
+> 天：万里汇啥情况，才下来，今天就封了？ · 我的也关了……是不是因为没接电话 · 昨天我入金都还没到……还没开始动就关机了
+=== donni_jj
+### 零星消息
+> Carey Mins：这个起码要一年刷流水和消费或者花钱 几百磅纯投入
+> king usd1：哪个国家的amex好办啊
+=== inficheesy
+### 海外电话卡 / T-Mobile 3 刀套餐 / eSIM (22 条 / 7 人)
+> lomo p：有没有好操作的海外电话卡
+> 𝑨𝒔𝒔𝒂𝒔𝒔𝒊𝒏 𝑼𝒔：esimgg
+> First Word：龟龟卡不是虚拟运营商吗
+> lomo p：不要esim
+> 𝑨𝒔𝒔𝒂𝒔𝒔𝒊𝒏 𝑼𝒔：不都是esim · 不要esim，有钱就行
+> 水箭龟：养好的T-Mobile 600左右吧 · 实体卡3刀套餐
+> First Word：港卡
+> 𝑨𝒔𝒔𝒂𝒔𝒔𝒊𝒏 𝑼𝒔：港卡也要去香港买吧
+> 水箭龟：3刀一个月啊 · 正常是15刀套餐，需要养到3刀
+> 𝑨𝒔𝒔𝒂𝒔𝒔𝒊𝒏 𝑼𝒔：我的正经美电话卡是lyca的 · 野鸡吗，薅羊毛的
+> 小Un的管理员：自动改3刀有时间成本
+> 水箭龟：所以卖600不贵的
+> 小Un的管理员：卖给客户的t-mobile用到现在还没有封号的情况 · 然后让客服在空卡激活15刀套餐
+> lomo p：现在国内还有什么好用的卡吗
+> ye han：600有点贵了吧，esim有美卡就能付款，家宽环境就能进官网，便宜点美版iPhone就能写上数据，不过网上说，养到3美金的渠道不稳定，5个多月。情况不稳 · 也不野鸡，正规虚拟运营商，就是套餐贵，15刀一个月，我给停用了 · esim的好处是可以通过渠道，在美国激活
+> F-OJGF：eSIM便宜又方便
+### 零星消息
+> lomo p：我只办了护照
+> 水箭龟：护照都不管用
+> 小c：申请万事达卡提示这个是因为啥
+--- 核验
+- T-Mobile 3 刀套餐｜T-Mobile Prepaid 官网条款（查阅 2026-10-22）：余额不足续费时 all lines will convert to Pay As You Go for 30-day increments with $3/mo. for 30 voice min./SMS messages https://prepaid.t-mobile.com/prepaid-plans
+- T-Mobile $3 PayGo｜T-Mobile 社区官方回复（2019）：PayGo 计划自 7 月起由 UltraMobile 处理，需转号到 Ultra https://www.t-mobile.com/community/discussions/accounts-services/paygo-prepaid-plan-no-longer-part-of-t-mobile/35557/replies/35563
+=== jason_sim
+### 零星消息
+> [申请教程] 露拾 清晨：提示在中国旅游，WiFi-Calling不能打开，是不是这个卡收不到验证码码了
+=== yuge
+### 零星消息
+> [该死的gg] 鱼哥：凡是私聊的安全提醒都是骗子
+=== vps_jk
+### 机场业务 / 发卡平台 (15 条 / 2 人)
+> Node Yang：现在没有量，即将上线机场业务
+> 维多：没量没用户就先用别人的发卡 · 不然光门槛你一个月都不能提现一次
+> Node Yang：有注册用户和并发数要求么？
+> 维多：是你没用户没量，人家都是有门槛，没到一定数额没法提现 · 钱卡在四方支付，你运营也不好运营
+> Node Yang：惭愧；）还没开。只是失业了，很难受，总🉐做点啥 · @vitoclion 如何挑选和使用发卡平台
+> 维多：失业搞机场堪比49年入国军
+> Node Yang：发卡，手续费多少？ · 自建最后一环也得收费呀 · 有没有D+1的平台推荐呢？
+> 维多：其实你。连这个都搞不定就真没必要搞机场 · 搞了也没用户
+> 张子君：而且这玩意一旦售卖涉及钱，破事情就多了
+=== loon0x00
+### Loon Mac 0.5.0 / 正式版 (21 条 / 12 人)
+> ᗷᗴᒪᒪᗩ：有用mac loon的朋友遇到更新到0.5.0之后部分节点延迟超时但却又可以使用的问题吗？ 0.4.0没这个问题但更新后却有
+> sahc：而且loon也出了网关  是时候买个macmini了😂
+> 多吃香菜再加醋：loon 啥时候更新啊，饥渴难耐了
+> DeepSleep𓎩𓆡：还没达到正式版标准呢
+> Terry：mac版更新了 · mac版昨天更新的稳定性如何
+> Danny Hellen：确实，慢慢磨，磨到稳了再发～
+> Qingu LiLi：每次下个正式版都有你们要等的饼，这次是回环，那下一个呢
+> 比比拉布：ios的正式版更新了吗
+> Danny Hellen：商店还没上呢，正式版还在磨～
+> Tartarus：没碰到
+> Terry：0.5能当主力用吗？
+> Tartarus：这几个版本一直都可以
+> ᗷᗴᒪᒪᗩ：唉好奇怪，线路是通的，就是这个显示超时看起来不舒服。同样substore导出来的节点配置，stash显示正常，loon mac就超时
+> 清风徐来：墨鱼不是qx的吗，有办法把重写转成loon吗
+> Tartarus：https://t.me/LoonTutorial/224?single
+> Terry：怎么防止DNS泄漏，怕Claude检测 · 封号是玄学，封多了麻了
+> 姥 舅：那就把检测的网站拉去代理
+### 零星消息
+> 可莉🅥：🌚我靠，塞尔达传说：王国之泪可以在M系SoC的mac上玩了 https://github.com/ly05010419/MacNativeGames

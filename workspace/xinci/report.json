@@ -1,258 +1,141 @@
 {
  "leads": [
   {
-   "term": "pokebonk",
+   "term": "ltx2 distilled faceswap v3",
    "kinds": [
-    "x"
+    "hf"
    ],
    "signals": [
-    "X 1 个账号 ♥157"
+    "HF 新进榜第 35 名"
    ],
    "examples": [
-    "@op7418: 这哥们儿做的宝可梦版本《吸血鬼幸存者》游戏是真的火 叫 PokeBonk，我去，玩家非常多，各种自传播，国内也特别火。 玩法就是你扮演其中一个宝可梦，在一个类似"
+    "linoyts/ltx2-19b-distilled-faceswap-v3 (?, ♥136)"
    ],
    "variants": [],
-   "posts": [
-    {
-     "account": "op7418",
-     "text": "这哥们儿做的宝可梦版本《吸血鬼幸存者》游戏是真的火 叫 PokeBonk，我去，玩家非常多，各种自传播，国内也特别火。 玩法就是你扮演其中一个宝可梦，在一个类似吸血鬼幸存者的地图里升级、自动打怪，宝可梦本身也能升级，打完 Boss 之后进下一个地图。 整个游戏非常完整，而且特别上瘾，就不知道任天堂怎么看",
-     "url": "https://x.com/op7418/status/2113134055680262324",
-     "likes": 157
-    }
-   ],
+   "posts": [],
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.9
   },
   {
-   "term": "qwen3.5-0.8b",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥114"
-   ],
-   "examples": [
-    "@TeksEdge: This small Local AI model could replace an entire document-processing pipeline. "
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "TeksEdge",
-     "text": "This small Local AI model could replace an entire document-processing pipeline. ATH-MaaS released OvisOCR3. It’s only a 0.8B-class multimodal model. But one local model can now do all these things 📄 document → Markdown 🧾 document → structured JSON 🔎 OCR + bounding boxes 🧮 formulas → LaTeX 📊 charts → structured data 🔑 key-value extraction 🖼️ figure captioning 🔀 flowcharts → Mermaid 📚 cross-page table reconstruction That last one is interesting. Give it consecutive document pages and OvisOCR3 can determine whether a table continues onto the next page and reconstruct the complete table. Team-reported results OCRBench → 88.8 OCRBench KIE → 90.5 Cross-page table Relation F1 OvisOCR3 → 97.07 Qwen3.8-Max → 94.47 And it’s 🧠 built on Qwen3.5-0.8B 🔓 Apache 2.0 🏠 downloadable/local ⚙️ Transformers + vLLM + SGLang 🔌 OpenAI-compatible local server through vLLM No official GGUF that I can find yet. Link in ALT",
-     "url": "https://x.com/TeksEdge/status/2113118145024319963",
-     "likes": 114
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "ocrbench kie",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥114"
-   ],
-   "examples": [
-    "@TeksEdge: This small Local AI model could replace an entire document-processing pipeline. "
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "TeksEdge",
-     "text": "This small Local AI model could replace an entire document-processing pipeline. ATH-MaaS released OvisOCR3. It’s only a 0.8B-class multimodal model. But one local model can now do all these things 📄 document → Markdown 🧾 document → structured JSON 🔎 OCR + bounding boxes 🧮 formulas → LaTeX 📊 charts → structured data 🔑 key-value extraction 🖼️ figure captioning 🔀 flowcharts → Mermaid 📚 cross-page table reconstruction That last one is interesting. Give it consecutive document pages and OvisOCR3 can determine whether a table continues onto the next page and reconstruct the complete table. Team-reported results OCRBench → 88.8 OCRBench KIE → 90.5 Cross-page table Relation F1 OvisOCR3 → 97.07 Qwen3.8-Max → 94.47 And it’s 🧠 built on Qwen3.5-0.8B 🔓 Apache 2.0 🏠 downloadable/local ⚙️ Transformers + vLLM + SGLang 🔌 OpenAI-compatible local server through vLLM No official GGUF that I can find yet. Link in ALT",
-     "url": "https://x.com/TeksEdge/status/2113118145024319963",
-     "likes": 114
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "carbon x release",
-   "kinds": [
-    "hf"
-   ],
-   "signals": [
-    "HF Spaces 新进榜第 46 名"
-   ],
-   "examples": [
-    "HuggingFaceBio/Carbon-X-Release (static, ♥19)"
-   ],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "ssi",
-   "kinds": [
-    "hf"
-   ],
-   "signals": [
-    "HF Spaces 新进榜第 40 名"
-   ],
-   "examples": [
-    "Hunter26666666/SSI_Space (docker, ♥48)"
-   ],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.6
-  },
-  {
-   "term": "rubix lang",
+   "term": "3d model anything",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 tek-sys-hub/Rubix-lang ★1898(均 570/天)"
+    "GitHub 爆发 wesbos/3d-model-anything ★793(均 455/天)"
    ],
    "examples": [
-    "tek-sys-hub/Rubix-lang: The 100% Pure x86-64 Assembly Systems Language"
+    "wesbos/3d-model-anything: Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser."
    ],
    "variants": [
-    "rubix lang",
-    "tek-sys-hub rubix lang",
-    "tek rubix lang"
+    "3d model anything",
+    "wesbos 3d model anything"
    ],
    "posts": [],
-   "repo": "tek-sys-hub/Rubix-lang",
+   "repo": "wesbos/3d-model-anything",
+   "known": "",
+   "format": "image",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "nxnative",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 seedds/nxnative ★2306(均 223/天,一天 +1081)"
+   ],
+   "examples": [
+    "seedds/nxnative: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE "
+   ],
+   "variants": [
+    "nxnative",
+    "seedds nxnative"
+   ],
+   "posts": [],
+   "repo": "seedds/nxnative",
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.9
   },
   {
-   "term": "php2shell poc",
+   "term": "hackios xnu kernel",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 ikow/php2shell-poc ★1378(均 1118/天,一天 +955)"
+    "GitHub 爆发 oosexgang/hackios-xnu-kernel ★882(均 679/天)"
    ],
    "examples": [
-    "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-"
+    "oosexgang/hackios-xnu-kernel: "
    ],
    "variants": [
-    "php2shell poc",
-    "ikow php2shell poc",
-    "qi php2shell poc"
+    "hackios xnu kernel",
+    "oosexgang hackios xnu kernel"
    ],
    "posts": [],
-   "repo": "ikow/php2shell-poc",
+   "repo": "oosexgang/hackios-xnu-kernel",
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.8
+   "named": 0.9
   },
   {
-   "term": "php2shell bypass aslr exp",
+   "term": "reylo",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 9bie/php2shell-bypass-aslr-exp ★850(均 775/天)"
+    "GitHub 爆发 colinhacks/reylo ★922(均 361/天,一天 +530)"
    ],
    "examples": [
-    "9bie/php2shell-bypass-aslr-exp: A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit"
+    "colinhacks/reylo: Import .sql files into TypeScript with full type inference and zero codegen."
    ],
    "variants": [
-    "php2shell bypass aslr exp",
-    "9bie php2shell bypass aslr exp"
+    "reylo",
+    "colinhacks reylo",
+    "colin reylo"
    ],
    "posts": [],
-   "repo": "9bie/php2shell-bypass-aslr-exp",
+   "repo": "colinhacks/reylo",
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.8
+   "named": 0.9
   },
   {
-   "term": "php2shell cve 2026 109618 cve 2026 109619 poc",
+   "term": "snapintosh",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC ★803(均 665/天)"
+    "GitHub 爆发 Snapintosh/Snapintosh ★690(均 462/天)"
    ],
    "examples": [
-    "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in"
+    "Snapintosh/Snapintosh: EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack"
    ],
    "variants": [
-    "php2shell cve 2026 109618 cve 2026 109619 poc",
-    "eness php2shell cve 2026 109618 cve 2026 109619 poc",
-    "enes php2shell cve 2026 109618 cve 2026 109619 poc"
+    "snapintosh",
+    "snapintosh snapintosh"
    ],
    "posts": [],
-   "repo": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
+   "repo": "Snapintosh/Snapintosh",
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.8
+   "named": 0.9
   },
   {
-   "term": "dsh purge",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 mmparko/dsh-purge ★1549(均 166/天,一天 +704)"
-   ],
-   "examples": [
-    "mmparko/dsh-purge: DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。"
-   ],
-   "variants": [
-    "dsh purge",
-    "mmparko dsh purge"
-   ],
-   "posts": [],
-   "repo": "mmparko/dsh-purge",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "php2shell checker",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 openai/php2shell-checker ★696(均 451/天)"
-   ],
-   "examples": [
-    "openai/php2shell-checker: "
-   ],
-   "variants": [
-    "php2shell checker",
-    "openai php2shell checker"
-   ],
-   "posts": [],
-   "repo": "openai/php2shell-checker",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "connectors io.github.datadmon",
+   "term": "co.youraitools.api",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 10 处 (×10.0)"
+    "③ 竞品 4 处 (×4.0)"
    ],
    "examples": [],
    "variants": [],
@@ -260,15 +143,15 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.7
+   "named": 0.9
   },
   {
-   "term": "com.1102tools",
+   "term": "com.jocktaxes",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 9 处 (×9.0)"
+    "③ 竞品 4 处 (×4.0)"
    ],
    "examples": [],
    "variants": [],
@@ -276,15 +159,15 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.7
+   "named": 0.9
   },
   {
-   "term": "connectors com.1102tools",
+   "term": "deepseek",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 9 处 (×9.0)"
+    "③ 竞品 28 处 (×9.7)"
    ],
    "examples": [],
    "variants": [],
@@ -292,15 +175,15 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.7
+   "named": 0.5
   },
   {
-   "term": "connectors ai.saifs",
+   "term": "alexa",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 8 处 (×7.4)"
+    "③ 竞品 15 处 (×8.8)"
    ],
    "examples": [],
    "variants": [],
@@ -308,15 +191,15 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.7
+   "named": 0.5
   },
   {
-   "term": "click.mymarketing",
+   "term": "lemon squared",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 7 处 (×7.0)"
+    "③ 竞品 11 处 (×11.0)"
    ],
    "examples": [],
    "variants": [],
@@ -324,23 +207,7 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "connectors click.mymarketing",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 7 处 (×7.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
+   "named": 0.4
   },
   {
    "term": "co.youraitools",
@@ -348,7 +215,7 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 7 处 (×7.0)"
+    "③ 竞品 10 处 (×9.3)"
    ],
    "examples": [],
    "variants": [],
@@ -356,7 +223,87 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.7
+   "named": 0.4
+  },
+  {
+   "term": "aiframework",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 13 处 (×8.7)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.4
+  },
+  {
+   "term": "mspbotsaiframework",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 13 处 (×8.7)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.4
+  },
+  {
+   "term": "mspbots",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 13 处 (×6.4)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.4
+  },
+  {
+   "term": "writerco",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 6 处 (×5.2)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.4
+  },
+  {
+   "term": "connectors com.textforagents",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 48 处 (×28.8)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
   },
   {
    "term": "connectors co.youraitools",
@@ -364,6 +311,38 @@
     "sitemap"
    ],
    "signals": [
+    "③ 竞品 10 处 (×9.3)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "jaknow01",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 8 处 (×8.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "cotletdev",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
     "③ 竞品 7 处 (×7.0)"
    ],
    "examples": [],
@@ -372,15 +351,15 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.7
+   "named": 0.3
   },
   {
-   "term": "connectors app.openkrill",
+   "term": "acrt",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 9 处 (×6.0)"
+    "③ 竞品 6 处 (×6.0)"
    ],
    "examples": [],
    "variants": [],
@@ -388,15 +367,15 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.7
+   "named": 0.3
   },
   {
-   "term": "connectors com.faceabot",
+   "term": "eval n8n",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 6 处 (×5.7)"
+    "③ 竞品 6 处 (×6.0)"
    ],
    "examples": [],
    "variants": [],
@@ -404,15 +383,15 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.7
+   "named": 0.3
   },
   {
-   "term": "click.myinfrastructure",
+   "term": "acrt eval",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 4 处 (×4.0)"
+    "③ 竞品 6 处 (×6.0)"
    ],
    "examples": [],
    "variants": [],
@@ -420,58 +399,10 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.7
+   "named": 0.3
   },
   {
-   "term": "connectors click.myinfrastructure",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 4 处 (×4.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "io.github.rico",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 4 处 (×4.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "connectors io.github.rico",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 4 处 (×4.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "click.myagents google",
+   "term": "connectors io.github.omarkhandji",
    "kinds": [
     "sitemap"
    ],
@@ -484,137 +415,47 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.5
+   "named": 0.3
   },
   {
-   "term": "emudhra 18",
+   "term": "connectors co.youraitools.api",
    "kinds": [
-    "x"
+    "sitemap"
    ],
    "signals": [
-    "X 1 个账号 ♥239"
+    "③ 竞品 4 处 (×4.0)"
    ],
-   "examples": [
-    "@dotey: 用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的"
-   ],
+   "examples": [],
    "variants": [],
-   "posts": [
-    {
-     "account": "dotey",
-     "text": "用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的开发者，这周要换版本了。10 月 21 日，Node.js 给还在维护的三条版本线发了安全更新：22.x 升到 v22.23.4，24.x 升到 v24.22.1，26.x 升到 v26.12.1。三条线都修了高危漏洞，最严重的一个，官方说可能被用来远程执行代码。 20.x 在 2026 年 4 月 30 日停止维护，25.x 在 6 月 1 日停止维护，这次都没有补丁。Node.js 在公告里提醒，每次发安全更新，停止维护的版本都会受影响，还在用的只能换到 22、24 或 26。 【最需要注意的几个】 Node.js 自带一个解压 Brotli 格式的组件。Brotli 是网页传输常用的压缩格式，HTTP 里写作 br。这个组件有越界写入的问题，也就是把数据写到了不该写的内存位置，官方说这能导致远程执行代码。公告对它只有这一句描述，没说什么情况下会触发。修法是同步了 Google Brotli 项目的一处改动，让解压程序更早发现并拒绝格式不对的数据。 另外三个漏洞出在 HTTPS 的证书核对上，两个高危、一个中危。Node 连 HTTPS 地址时，会核对证书上写的地址和你要连的地址是否一致，对不上就拒绝连接。这三个问题都和 IP 地址有关：IP 用全角数字写（输入法全角状态下打出的“１２７”这种），或者写法不规范、但能被宽松地认成 IP，核对就可能被绕过。修复后，Node 直接拒绝写法不规范的 IP 地址。全角数字那个只影响 24.x 和 26.x。 还有一个高危出在 dns.resolve（查域名对应地址的函数）：域名中间如果夹着一个空字符（NUL），Node 会在那里把名字截断，实际查的只是前半截。 中危里，用启动快照或者把程序打包成单个可执行文件（SEA）的要留意：crypto.randomUUID() 和 randomInt() 的随机数缓存会被一起存进包里，每次启动都生成同样的“随机”值。另有三个低危，涉及 26.x 读取 ZIP 文件，以及实验性的权限模型（--permission 开关）。 这次还更新了 c-ares、OpenSSL、SQLite、undici 等内置组件，修的是这些组件已经公开的漏洞。 【eMudhra 坏证书，Node 也拉黑了】 三个新版本都加了一份内置黑名单，第一批放进去的就是 eMudhra 那 8 枚出问题的中间证书。 这件事前几天刚曝出：印度发证机构 eMudhra 有 8 枚被各家系统认可的“网站公章”，盖章用的密码小到一秒就能算出来，谁拿到都能给任意网站做假证书。10 月 17 日被发现后，Chrome 和 Firefox 当天拉黑，eMudhra 18 日作废，Apple 19 日、Microsoft 20 日跟进，Node.js 21 日发版。 当时 Cloudflare 提醒，浏览器之外的程序要一路更新到编程语言这一层，Node.js 就在这一层。Node 内置了 Mozilla 的可信发证机构名单，却没有浏览器那种随时拉黑坏证书的机制，所以用这 8 枚章签出的假证书，旧版 Node 照样放行。这份黑名单对 Node 建立的所有加密连接都生效。修复的提交说明里写道，它和 Go 语言、Electron 拉黑的是同一批。 想测自己的程序还认不认这几枚章，可以用 Mozilla 工程师 Dennis Jackson 做的自查网站：https://t.co/iJDiH3dZ4O 原文：https://t.co/0Ib8AIHPaX",
-     "url": "https://x.com/dotey/status/2113067412979433847",
-     "likes": 239
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.4
-  },
-  {
-   "term": "relation f1 ovisocr3",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥114"
-   ],
-   "examples": [
-    "@TeksEdge: This small Local AI model could replace an entire document-processing pipeline. "
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "TeksEdge",
-     "text": "This small Local AI model could replace an entire document-processing pipeline. ATH-MaaS released OvisOCR3. It’s only a 0.8B-class multimodal model. But one local model can now do all these things 📄 document → Markdown 🧾 document → structured JSON 🔎 OCR + bounding boxes 🧮 formulas → LaTeX 📊 charts → structured data 🔑 key-value extraction 🖼️ figure captioning 🔀 flowcharts → Mermaid 📚 cross-page table reconstruction That last one is interesting. Give it consecutive document pages and OvisOCR3 can determine whether a table continues onto the next page and reconstruct the complete table. Team-reported results OCRBench → 88.8 OCRBench KIE → 90.5 Cross-page table Relation F1 OvisOCR3 → 97.07 Qwen3.8-Max → 94.47 And it’s 🧠 built on Qwen3.5-0.8B 🔓 Apache 2.0 🏠 downloadable/local ⚙️ Transformers + vLLM + SGLang 🔌 OpenAI-compatible local server through vLLM No official GGUF that I can find yet. Link in ALT",
-     "url": "https://x.com/TeksEdge/status/2113118145024319963",
-     "likes": 114
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.4
-  },
-  {
-   "term": "crypto.randomuuid",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥239"
-   ],
-   "examples": [
-    "@dotey: 用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "dotey",
-     "text": "用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的开发者，这周要换版本了。10 月 21 日，Node.js 给还在维护的三条版本线发了安全更新：22.x 升到 v22.23.4，24.x 升到 v24.22.1，26.x 升到 v26.12.1。三条线都修了高危漏洞，最严重的一个，官方说可能被用来远程执行代码。 20.x 在 2026 年 4 月 30 日停止维护，25.x 在 6 月 1 日停止维护，这次都没有补丁。Node.js 在公告里提醒，每次发安全更新，停止维护的版本都会受影响，还在用的只能换到 22、24 或 26。 【最需要注意的几个】 Node.js 自带一个解压 Brotli 格式的组件。Brotli 是网页传输常用的压缩格式，HTTP 里写作 br。这个组件有越界写入的问题，也就是把数据写到了不该写的内存位置，官方说这能导致远程执行代码。公告对它只有这一句描述，没说什么情况下会触发。修法是同步了 Google Brotli 项目的一处改动，让解压程序更早发现并拒绝格式不对的数据。 另外三个漏洞出在 HTTPS 的证书核对上，两个高危、一个中危。Node 连 HTTPS 地址时，会核对证书上写的地址和你要连的地址是否一致，对不上就拒绝连接。这三个问题都和 IP 地址有关：IP 用全角数字写（输入法全角状态下打出的“１２７”这种），或者写法不规范、但能被宽松地认成 IP，核对就可能被绕过。修复后，Node 直接拒绝写法不规范的 IP 地址。全角数字那个只影响 24.x 和 26.x。 还有一个高危出在 dns.resolve（查域名对应地址的函数）：域名中间如果夹着一个空字符（NUL），Node 会在那里把名字截断，实际查的只是前半截。 中危里，用启动快照或者把程序打包成单个可执行文件（SEA）的要留意：crypto.randomUUID() 和 randomInt() 的随机数缓存会被一起存进包里，每次启动都生成同样的“随机”值。另有三个低危，涉及 26.x 读取 ZIP 文件，以及实验性的权限模型（--permission 开关）。 这次还更新了 c-ares、OpenSSL、SQLite、undici 等内置组件，修的是这些组件已经公开的漏洞。 【eMudhra 坏证书，Node 也拉黑了】 三个新版本都加了一份内置黑名单，第一批放进去的就是 eMudhra 那 8 枚出问题的中间证书。 这件事前几天刚曝出：印度发证机构 eMudhra 有 8 枚被各家系统认可的“网站公章”，盖章用的密码小到一秒就能算出来，谁拿到都能给任意网站做假证书。10 月 17 日被发现后，Chrome 和 Firefox 当天拉黑，eMudhra 18 日作废，Apple 19 日、Microsoft 20 日跟进，Node.js 21 日发版。 当时 Cloudflare 提醒，浏览器之外的程序要一路更新到编程语言这一层，Node.js 就在这一层。Node 内置了 Mozilla 的可信发证机构名单，却没有浏览器那种随时拉黑坏证书的机制，所以用这 8 枚章签出的假证书，旧版 Node 照样放行。这份黑名单对 Node 建立的所有加密连接都生效。修复的提交说明里写道，它和 Go 语言、Electron 拉黑的是同一批。 想测自己的程序还认不认这几枚章，可以用 Mozilla 工程师 Dennis Jackson 做的自查网站：https://t.co/iJDiH3dZ4O 原文：https://t.co/0Ib8AIHPaX",
-     "url": "https://x.com/dotey/status/2113067412979433847",
-     "likes": 239
-    }
-   ],
+   "posts": [],
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.3
   },
   {
-   "term": "randomint",
+   "term": "tutorials deepseek",
    "kinds": [
-    "x"
+    "sitemap"
    ],
    "signals": [
-    "X 1 个账号 ♥239"
+    "③ 竞品 19 处 (×18.4)"
    ],
-   "examples": [
-    "@dotey: 用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的"
-   ],
+   "examples": [],
    "variants": [],
-   "posts": [
-    {
-     "account": "dotey",
-     "text": "用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的开发者，这周要换版本了。10 月 21 日，Node.js 给还在维护的三条版本线发了安全更新：22.x 升到 v22.23.4，24.x 升到 v24.22.1，26.x 升到 v26.12.1。三条线都修了高危漏洞，最严重的一个，官方说可能被用来远程执行代码。 20.x 在 2026 年 4 月 30 日停止维护，25.x 在 6 月 1 日停止维护，这次都没有补丁。Node.js 在公告里提醒，每次发安全更新，停止维护的版本都会受影响，还在用的只能换到 22、24 或 26。 【最需要注意的几个】 Node.js 自带一个解压 Brotli 格式的组件。Brotli 是网页传输常用的压缩格式，HTTP 里写作 br。这个组件有越界写入的问题，也就是把数据写到了不该写的内存位置，官方说这能导致远程执行代码。公告对它只有这一句描述，没说什么情况下会触发。修法是同步了 Google Brotli 项目的一处改动，让解压程序更早发现并拒绝格式不对的数据。 另外三个漏洞出在 HTTPS 的证书核对上，两个高危、一个中危。Node 连 HTTPS 地址时，会核对证书上写的地址和你要连的地址是否一致，对不上就拒绝连接。这三个问题都和 IP 地址有关：IP 用全角数字写（输入法全角状态下打出的“１２７”这种），或者写法不规范、但能被宽松地认成 IP，核对就可能被绕过。修复后，Node 直接拒绝写法不规范的 IP 地址。全角数字那个只影响 24.x 和 26.x。 还有一个高危出在 dns.resolve（查域名对应地址的函数）：域名中间如果夹着一个空字符（NUL），Node 会在那里把名字截断，实际查的只是前半截。 中危里，用启动快照或者把程序打包成单个可执行文件（SEA）的要留意：crypto.randomUUID() 和 randomInt() 的随机数缓存会被一起存进包里，每次启动都生成同样的“随机”值。另有三个低危，涉及 26.x 读取 ZIP 文件，以及实验性的权限模型（--permission 开关）。 这次还更新了 c-ares、OpenSSL、SQLite、undici 等内置组件，修的是这些组件已经公开的漏洞。 【eMudhra 坏证书，Node 也拉黑了】 三个新版本都加了一份内置黑名单，第一批放进去的就是 eMudhra 那 8 枚出问题的中间证书。 这件事前几天刚曝出：印度发证机构 eMudhra 有 8 枚被各家系统认可的“网站公章”，盖章用的密码小到一秒就能算出来，谁拿到都能给任意网站做假证书。10 月 17 日被发现后，Chrome 和 Firefox 当天拉黑，eMudhra 18 日作废，Apple 19 日、Microsoft 20 日跟进，Node.js 21 日发版。 当时 Cloudflare 提醒，浏览器之外的程序要一路更新到编程语言这一层，Node.js 就在这一层。Node 内置了 Mozilla 的可信发证机构名单，却没有浏览器那种随时拉黑坏证书的机制，所以用这 8 枚章签出的假证书，旧版 Node 照样放行。这份黑名单对 Node 建立的所有加密连接都生效。修复的提交说明里写道，它和 Go 语言、Electron 拉黑的是同一批。 想测自己的程序还认不认这几枚章，可以用 Mozilla 工程师 Dennis Jackson 做的自查网站：https://t.co/iJDiH3dZ4O 原文：https://t.co/0Ib8AIHPaX",
-     "url": "https://x.com/dotey/status/2113067412979433847",
-     "likes": 239
-    }
-   ],
+   "posts": [],
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.2
   },
   {
-   "term": "leis",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 ctresb/leis ★1155(均 154/天,一天 +485)"
-   ],
-   "examples": [
-    "ctresb/leis: Todas as leis do Brasil"
-   ],
-   "variants": [
-    "leis",
-    "ctresb leis"
-   ],
-   "posts": [],
-   "repo": "ctresb/leis",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "io.github.theluckystrike",
+   "term": "r1",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 77 处 (×45.8)"
+    "③ 竞品 9 处 (×7.2)"
    ],
    "examples": [],
    "variants": [],
@@ -622,127 +463,15 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.1
+   "named": 0.2
   },
   {
-   "term": "connectors io.github.theluckystrike",
+   "term": "tutorials",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 77 处 (×45.8)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "connectors com.textforagents",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 29 处 (×22.1)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "dev.workers.rainmaker",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 15 处 (×15.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "connectors dev.workers.rainmaker",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 15 处 (×15.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "dev.workers.rainmaker wells.well",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 14 处 (×14.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "connectors click.myagents",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 12 处 (×12.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "io.github.datadmon",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 10 处 (×10.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "sites",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 684 处 (×579.1)"
+    "③ 竞品 28 处 (×10.6)"
    ],
    "examples": [],
    "variants": [],
@@ -753,12 +482,44 @@
    "named": 0.0
   },
   {
-   "term": "jobs scraper",
+   "term": "io.github.omarkhandji commits",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 5 处 (×4.6)"
+    "③ 竞品 5 处 (×5.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.0
+  },
+  {
+   "term": "squared google",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 5 处 (×5.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.0
+  },
+  {
+   "term": "essence",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 5 处 (×4.9)"
    ],
    "examples": [],
    "variants": [],
@@ -771,175 +532,24 @@
  ],
  "x": {
   "accounts": 35,
-  "answered": 33,
-  "posts": 620,
-  "cost_micros": 93300,
+  "answered": 35,
+  "posts": 660,
+  "cost_micros": 99300,
   "first_run": false,
-  "terms": [
-   {
-    "term": "crypto.randomuuid",
-    "sources": [
-     "dotey"
-    ],
-    "likes": 239,
-    "examples": [
-     "@dotey: 用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的"
-    ],
-    "posts": [
-     {
-      "account": "dotey",
-      "text": "用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的开发者，这周要换版本了。10 月 21 日，Node.js 给还在维护的三条版本线发了安全更新：22.x 升到 v22.23.4，24.x 升到 v24.22.1，26.x 升到 v26.12.1。三条线都修了高危漏洞，最严重的一个，官方说可能被用来远程执行代码。 20.x 在 2026 年 4 月 30 日停止维护，25.x 在 6 月 1 日停止维护，这次都没有补丁。Node.js 在公告里提醒，每次发安全更新，停止维护的版本都会受影响，还在用的只能换到 22、24 或 26。 【最需要注意的几个】 Node.js 自带一个解压 Brotli 格式的组件。Brotli 是网页传输常用的压缩格式，HTTP 里写作 br。这个组件有越界写入的问题，也就是把数据写到了不该写的内存位置，官方说这能导致远程执行代码。公告对它只有这一句描述，没说什么情况下会触发。修法是同步了 Google Brotli 项目的一处改动，让解压程序更早发现并拒绝格式不对的数据。 另外三个漏洞出在 HTTPS 的证书核对上，两个高危、一个中危。Node 连 HTTPS 地址时，会核对证书上写的地址和你要连的地址是否一致，对不上就拒绝连接。这三个问题都和 IP 地址有关：IP 用全角数字写（输入法全角状态下打出的“１２７”这种），或者写法不规范、但能被宽松地认成 IP，核对就可能被绕过。修复后，Node 直接拒绝写法不规范的 IP 地址。全角数字那个只影响 24.x 和 26.x。 还有一个高危出在 dns.resolve（查域名对应地址的函数）：域名中间如果夹着一个空字符（NUL），Node 会在那里把名字截断，实际查的只是前半截。 中危里，用启动快照或者把程序打包成单个可执行文件（SEA）的要留意：crypto.randomUUID() 和 randomInt() 的随机数缓存会被一起存进包里，每次启动都生成同样的“随机”值。另有三个低危，涉及 26.x 读取 ZIP 文件，以及实验性的权限模型（--permission 开关）。 这次还更新了 c-ares、OpenSSL、SQLite、undici 等内置组件，修的是这些组件已经公开的漏洞。 【eMudhra 坏证书，Node 也拉黑了】 三个新版本都加了一份内置黑名单，第一批放进去的就是 eMudhra 那 8 枚出问题的中间证书。 这件事前几天刚曝出：印度发证机构 eMudhra 有 8 枚被各家系统认可的“网站公章”，盖章用的密码小到一秒就能算出来，谁拿到都能给任意网站做假证书。10 月 17 日被发现后，Chrome 和 Firefox 当天拉黑，eMudhra 18 日作废，Apple 19 日、Microsoft 20 日跟进，Node.js 21 日发版。 当时 Cloudflare 提醒，浏览器之外的程序要一路更新到编程语言这一层，Node.js 就在这一层。Node 内置了 Mozilla 的可信发证机构名单，却没有浏览器那种随时拉黑坏证书的机制，所以用这 8 枚章签出的假证书，旧版 Node 照样放行。这份黑名单对 Node 建立的所有加密连接都生效。修复的提交说明里写道，它和 Go 语言、Electron 拉黑的是同一批。 想测自己的程序还认不认这几枚章，可以用 Mozilla 工程师 Dennis Jackson 做的自查网站：https://t.co/iJDiH3dZ4O 原文：https://t.co/0Ib8AIHPaX",
-      "url": "https://x.com/dotey/status/2113067412979433847",
-      "likes": 239
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥239"
-   },
-   {
-    "term": "emudhra 18",
-    "sources": [
-     "dotey"
-    ],
-    "likes": 239,
-    "examples": [
-     "@dotey: 用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的"
-    ],
-    "posts": [
-     {
-      "account": "dotey",
-      "text": "用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的开发者，这周要换版本了。10 月 21 日，Node.js 给还在维护的三条版本线发了安全更新：22.x 升到 v22.23.4，24.x 升到 v24.22.1，26.x 升到 v26.12.1。三条线都修了高危漏洞，最严重的一个，官方说可能被用来远程执行代码。 20.x 在 2026 年 4 月 30 日停止维护，25.x 在 6 月 1 日停止维护，这次都没有补丁。Node.js 在公告里提醒，每次发安全更新，停止维护的版本都会受影响，还在用的只能换到 22、24 或 26。 【最需要注意的几个】 Node.js 自带一个解压 Brotli 格式的组件。Brotli 是网页传输常用的压缩格式，HTTP 里写作 br。这个组件有越界写入的问题，也就是把数据写到了不该写的内存位置，官方说这能导致远程执行代码。公告对它只有这一句描述，没说什么情况下会触发。修法是同步了 Google Brotli 项目的一处改动，让解压程序更早发现并拒绝格式不对的数据。 另外三个漏洞出在 HTTPS 的证书核对上，两个高危、一个中危。Node 连 HTTPS 地址时，会核对证书上写的地址和你要连的地址是否一致，对不上就拒绝连接。这三个问题都和 IP 地址有关：IP 用全角数字写（输入法全角状态下打出的“１２７”这种），或者写法不规范、但能被宽松地认成 IP，核对就可能被绕过。修复后，Node 直接拒绝写法不规范的 IP 地址。全角数字那个只影响 24.x 和 26.x。 还有一个高危出在 dns.resolve（查域名对应地址的函数）：域名中间如果夹着一个空字符（NUL），Node 会在那里把名字截断，实际查的只是前半截。 中危里，用启动快照或者把程序打包成单个可执行文件（SEA）的要留意：crypto.randomUUID() 和 randomInt() 的随机数缓存会被一起存进包里，每次启动都生成同样的“随机”值。另有三个低危，涉及 26.x 读取 ZIP 文件，以及实验性的权限模型（--permission 开关）。 这次还更新了 c-ares、OpenSSL、SQLite、undici 等内置组件，修的是这些组件已经公开的漏洞。 【eMudhra 坏证书，Node 也拉黑了】 三个新版本都加了一份内置黑名单，第一批放进去的就是 eMudhra 那 8 枚出问题的中间证书。 这件事前几天刚曝出：印度发证机构 eMudhra 有 8 枚被各家系统认可的“网站公章”，盖章用的密码小到一秒就能算出来，谁拿到都能给任意网站做假证书。10 月 17 日被发现后，Chrome 和 Firefox 当天拉黑，eMudhra 18 日作废，Apple 19 日、Microsoft 20 日跟进，Node.js 21 日发版。 当时 Cloudflare 提醒，浏览器之外的程序要一路更新到编程语言这一层，Node.js 就在这一层。Node 内置了 Mozilla 的可信发证机构名单，却没有浏览器那种随时拉黑坏证书的机制，所以用这 8 枚章签出的假证书，旧版 Node 照样放行。这份黑名单对 Node 建立的所有加密连接都生效。修复的提交说明里写道，它和 Go 语言、Electron 拉黑的是同一批。 想测自己的程序还认不认这几枚章，可以用 Mozilla 工程师 Dennis Jackson 做的自查网站：https://t.co/iJDiH3dZ4O 原文：https://t.co/0Ib8AIHPaX",
-      "url": "https://x.com/dotey/status/2113067412979433847",
-      "likes": 239
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥239"
-   },
-   {
-    "term": "randomint",
-    "sources": [
-     "dotey"
-    ],
-    "likes": 239,
-    "examples": [
-     "@dotey: 用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的"
-    ],
-    "posts": [
-     {
-      "account": "dotey",
-      "text": "用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的开发者，这周要换版本了。10 月 21 日，Node.js 给还在维护的三条版本线发了安全更新：22.x 升到 v22.23.4，24.x 升到 v24.22.1，26.x 升到 v26.12.1。三条线都修了高危漏洞，最严重的一个，官方说可能被用来远程执行代码。 20.x 在 2026 年 4 月 30 日停止维护，25.x 在 6 月 1 日停止维护，这次都没有补丁。Node.js 在公告里提醒，每次发安全更新，停止维护的版本都会受影响，还在用的只能换到 22、24 或 26。 【最需要注意的几个】 Node.js 自带一个解压 Brotli 格式的组件。Brotli 是网页传输常用的压缩格式，HTTP 里写作 br。这个组件有越界写入的问题，也就是把数据写到了不该写的内存位置，官方说这能导致远程执行代码。公告对它只有这一句描述，没说什么情况下会触发。修法是同步了 Google Brotli 项目的一处改动，让解压程序更早发现并拒绝格式不对的数据。 另外三个漏洞出在 HTTPS 的证书核对上，两个高危、一个中危。Node 连 HTTPS 地址时，会核对证书上写的地址和你要连的地址是否一致，对不上就拒绝连接。这三个问题都和 IP 地址有关：IP 用全角数字写（输入法全角状态下打出的“１２７”这种），或者写法不规范、但能被宽松地认成 IP，核对就可能被绕过。修复后，Node 直接拒绝写法不规范的 IP 地址。全角数字那个只影响 24.x 和 26.x。 还有一个高危出在 dns.resolve（查域名对应地址的函数）：域名中间如果夹着一个空字符（NUL），Node 会在那里把名字截断，实际查的只是前半截。 中危里，用启动快照或者把程序打包成单个可执行文件（SEA）的要留意：crypto.randomUUID() 和 randomInt() 的随机数缓存会被一起存进包里，每次启动都生成同样的“随机”值。另有三个低危，涉及 26.x 读取 ZIP 文件，以及实验性的权限模型（--permission 开关）。 这次还更新了 c-ares、OpenSSL、SQLite、undici 等内置组件，修的是这些组件已经公开的漏洞。 【eMudhra 坏证书，Node 也拉黑了】 三个新版本都加了一份内置黑名单，第一批放进去的就是 eMudhra 那 8 枚出问题的中间证书。 这件事前几天刚曝出：印度发证机构 eMudhra 有 8 枚被各家系统认可的“网站公章”，盖章用的密码小到一秒就能算出来，谁拿到都能给任意网站做假证书。10 月 17 日被发现后，Chrome 和 Firefox 当天拉黑，eMudhra 18 日作废，Apple 19 日、Microsoft 20 日跟进，Node.js 21 日发版。 当时 Cloudflare 提醒，浏览器之外的程序要一路更新到编程语言这一层，Node.js 就在这一层。Node 内置了 Mozilla 的可信发证机构名单，却没有浏览器那种随时拉黑坏证书的机制，所以用这 8 枚章签出的假证书，旧版 Node 照样放行。这份黑名单对 Node 建立的所有加密连接都生效。修复的提交说明里写道，它和 Go 语言、Electron 拉黑的是同一批。 想测自己的程序还认不认这几枚章，可以用 Mozilla 工程师 Dennis Jackson 做的自查网站：https://t.co/iJDiH3dZ4O 原文：https://t.co/0Ib8AIHPaX",
-      "url": "https://x.com/dotey/status/2113067412979433847",
-      "likes": 239
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥239"
-   },
-   {
-    "term": "pokebonk",
-    "sources": [
-     "op7418"
-    ],
-    "likes": 157,
-    "examples": [
-     "@op7418: 这哥们儿做的宝可梦版本《吸血鬼幸存者》游戏是真的火 叫 PokeBonk，我去，玩家非常多，各种自传播，国内也特别火。 玩法就是你扮演其中一个宝可梦，在一个类似"
-    ],
-    "posts": [
-     {
-      "account": "op7418",
-      "text": "这哥们儿做的宝可梦版本《吸血鬼幸存者》游戏是真的火 叫 PokeBonk，我去，玩家非常多，各种自传播，国内也特别火。 玩法就是你扮演其中一个宝可梦，在一个类似吸血鬼幸存者的地图里升级、自动打怪，宝可梦本身也能升级，打完 Boss 之后进下一个地图。 整个游戏非常完整，而且特别上瘾，就不知道任天堂怎么看",
-      "url": "https://x.com/op7418/status/2113134055680262324",
-      "likes": 157
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥157"
-   },
-   {
-    "term": "relation f1 ovisocr3",
-    "sources": [
-     "TeksEdge"
-    ],
-    "likes": 114,
-    "examples": [
-     "@TeksEdge: This small Local AI model could replace an entire document-processing pipeline. "
-    ],
-    "posts": [
-     {
-      "account": "TeksEdge",
-      "text": "This small Local AI model could replace an entire document-processing pipeline. ATH-MaaS released OvisOCR3. It’s only a 0.8B-class multimodal model. But one local model can now do all these things 📄 document → Markdown 🧾 document → structured JSON 🔎 OCR + bounding boxes 🧮 formulas → LaTeX 📊 charts → structured data 🔑 key-value extraction 🖼️ figure captioning 🔀 flowcharts → Mermaid 📚 cross-page table reconstruction That last one is interesting. Give it consecutive document pages and OvisOCR3 can determine whether a table continues onto the next page and reconstruct the complete table. Team-reported results OCRBench → 88.8 OCRBench KIE → 90.5 Cross-page table Relation F1 OvisOCR3 → 97.07 Qwen3.8-Max → 94.47 And it’s 🧠 built on Qwen3.5-0.8B 🔓 Apache 2.0 🏠 downloadable/local ⚙️ Transformers + vLLM + SGLang 🔌 OpenAI-compatible local server through vLLM No official GGUF that I can find yet. Link in ALT",
-      "url": "https://x.com/TeksEdge/status/2113118145024319963",
-      "likes": 114
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥114"
-   },
-   {
-    "term": "ocrbench kie",
-    "sources": [
-     "TeksEdge"
-    ],
-    "likes": 114,
-    "examples": [
-     "@TeksEdge: This small Local AI model could replace an entire document-processing pipeline. "
-    ],
-    "posts": [
-     {
-      "account": "TeksEdge",
-      "text": "This small Local AI model could replace an entire document-processing pipeline. ATH-MaaS released OvisOCR3. It’s only a 0.8B-class multimodal model. But one local model can now do all these things 📄 document → Markdown 🧾 document → structured JSON 🔎 OCR + bounding boxes 🧮 formulas → LaTeX 📊 charts → structured data 🔑 key-value extraction 🖼️ figure captioning 🔀 flowcharts → Mermaid 📚 cross-page table reconstruction That last one is interesting. Give it consecutive document pages and OvisOCR3 can determine whether a table continues onto the next page and reconstruct the complete table. Team-reported results OCRBench → 88.8 OCRBench KIE → 90.5 Cross-page table Relation F1 OvisOCR3 → 97.07 Qwen3.8-Max → 94.47 And it’s 🧠 built on Qwen3.5-0.8B 🔓 Apache 2.0 🏠 downloadable/local ⚙️ Transformers + vLLM + SGLang 🔌 OpenAI-compatible local server through vLLM No official GGUF that I can find yet. Link in ALT",
-      "url": "https://x.com/TeksEdge/status/2113118145024319963",
-      "likes": 114
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥114"
-   },
-   {
-    "term": "qwen3.5-0.8b",
-    "sources": [
-     "TeksEdge"
-    ],
-    "likes": 114,
-    "examples": [
-     "@TeksEdge: This small Local AI model could replace an entire document-processing pipeline. "
-    ],
-    "posts": [
-     {
-      "account": "TeksEdge",
-      "text": "This small Local AI model could replace an entire document-processing pipeline. ATH-MaaS released OvisOCR3. It’s only a 0.8B-class multimodal model. But one local model can now do all these things 📄 document → Markdown 🧾 document → structured JSON 🔎 OCR + bounding boxes 🧮 formulas → LaTeX 📊 charts → structured data 🔑 key-value extraction 🖼️ figure captioning 🔀 flowcharts → Mermaid 📚 cross-page table reconstruction That last one is interesting. Give it consecutive document pages and OvisOCR3 can determine whether a table continues onto the next page and reconstruct the complete table. Team-reported results OCRBench → 88.8 OCRBench KIE → 90.5 Cross-page table Relation F1 OvisOCR3 → 97.07 Qwen3.8-Max → 94.47 And it’s 🧠 built on Qwen3.5-0.8B 🔓 Apache 2.0 🏠 downloadable/local ⚙️ Transformers + vLLM + SGLang 🔌 OpenAI-compatible local server through vLLM No official GGUF that I can find yet. Link in ALT",
-      "url": "https://x.com/TeksEdge/status/2113118145024319963",
-      "likes": 114
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥114"
-   }
-  ]
+  "terms": []
  },
  "hf": {
   "first_run": false,
   "terms": [
    {
-    "term": "ssi",
-    "rank": 40,
+    "term": "ltx2 distilled faceswap v3",
+    "rank": 35,
     "copies": 1,
     "examples": [
-     "Hunter26666666/SSI_Space (docker, ♥48)"
+     "linoyts/ltx2-19b-distilled-faceswap-v3 (?, ♥136)"
     ],
     "recent": 1,
-    "note": "HF Spaces 新进榜第 40 名"
-   },
-   {
-    "term": "carbon x release",
-    "rank": 46,
-    "copies": 1,
-    "examples": [
-     "HuggingFaceBio/Carbon-X-Release (static, ♥19)"
-    ],
-    "recent": 1,
-    "note": "HF Spaces 新进榜第 46 名"
+    "note": "HF 新进榜第 35 名"
    }
   ],
   "models": 100,
@@ -953,10 +563,10 @@
     "repo": "Gathin23/cleanyourtv",
     "owner": "Gathin23",
     "name": "cleanyourtv",
-    "stars": 22262,
-    "velocity": 4264,
-    "delta": 5556,
-    "age_days": 5.2,
+    "stars": 26480,
+    "velocity": 4256,
+    "delta": 4218,
+    "age_days": 6.2,
     "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
     "new": false
    },
@@ -964,59 +574,47 @@
     "repo": "deepseek-ai/DeepInfer",
     "owner": "deepseek-ai",
     "name": "DeepInfer",
-    "stars": 19376,
-    "velocity": 3106,
-    "delta": 2294,
-    "age_days": 6.2,
+    "stars": 20666,
+    "velocity": 2855,
+    "delta": 1290,
+    "age_days": 7.2,
     "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-    "new": false
-   },
-   {
-    "repo": "wheresryan22/anatomy",
-    "owner": "wheresryan22",
-    "name": "anatomy",
-    "stars": 18909,
-    "velocity": 1338,
-    "delta": 699,
-    "age_days": 14.1,
-    "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Ge",
     "new": false
    },
    {
     "repo": "pengchujin/aerial-tv",
     "owner": "pengchujin",
     "name": "aerial-tv",
-    "stars": 2871,
-    "velocity": 1318,
-    "delta": 1035,
-    "age_days": 2.2,
+    "stars": 3648,
+    "velocity": 1147,
+    "delta": 777,
+    "age_days": 3.2,
     "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
     "new": false
    },
    {
-    "repo": "ikow/php2shell-poc",
-    "owner": "ikow",
-    "name": "php2shell-poc",
-    "stars": 1378,
-    "velocity": 1118,
-    "delta": 955,
-    "age_days": 1.2,
-    "description": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-",
+    "repo": "seedds/nxnative",
+    "owner": "seedds",
+    "name": "nxnative",
+    "stars": 2306,
+    "velocity": 223,
+    "delta": 1081,
+    "age_days": 10.3,
+    "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE ",
     "new": true,
     "variants": [
-     "php2shell poc",
-     "ikow php2shell poc",
-     "qi php2shell poc"
+     "nxnative",
+     "seedds nxnative"
     ]
    },
    {
     "repo": "simbasjungles/free-my-tv",
     "owner": "simbasjungles",
     "name": "free-my-tv",
-    "stars": 3070,
-    "velocity": 1116,
-    "delta": 724,
-    "age_days": 2.8,
+    "stars": 3716,
+    "velocity": 991,
+    "delta": 646,
+    "age_days": 3.8,
     "description": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
     "new": false
    },
@@ -1024,221 +622,195 @@
     "repo": "ly05010419/MacNativeGames",
     "owner": "ly05010419",
     "name": "MacNativeGames",
-    "stars": 4285,
-    "velocity": 905,
-    "delta": 780,
-    "age_days": 4.7,
+    "stars": 4755,
+    "velocity": 829,
+    "delta": 470,
+    "age_days": 5.7,
     "description": "",
     "new": false
+   },
+   {
+    "repo": "ikow/php2shell-poc",
+    "owner": "ikow",
+    "name": "php2shell-poc",
+    "stars": 1635,
+    "velocity": 732,
+    "delta": 257,
+    "age_days": 2.2,
+    "description": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-",
+    "new": false
+   },
+   {
+    "repo": "oosexgang/hackios-xnu-kernel",
+    "owner": "oosexgang",
+    "name": "hackios-xnu-kernel",
+    "stars": 882,
+    "velocity": 679,
+    "delta": null,
+    "age_days": 1.3,
+    "description": "",
+    "new": true,
+    "variants": [
+     "hackios xnu kernel",
+     "oosexgang hackios xnu kernel"
+    ]
+   },
+   {
+    "repo": "colinhacks/reylo",
+    "owner": "colinhacks",
+    "name": "reylo",
+    "stars": 922,
+    "velocity": 361,
+    "delta": 530,
+    "age_days": 2.6,
+    "description": "Import .sql files into TypeScript with full type inference and zero codegen.",
+    "new": true,
+    "variants": [
+     "reylo",
+     "colinhacks reylo",
+     "colin reylo"
+    ]
    },
    {
     "repo": "9bie/php2shell-bypass-aslr-exp",
     "owner": "9bie",
     "name": "php2shell-bypass-aslr-exp",
-    "stars": 850,
-    "velocity": 775,
-    "delta": null,
-    "age_days": 1.1,
+    "stars": 1088,
+    "velocity": 519,
+    "delta": 238,
+    "age_days": 2.1,
     "description": "A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit",
-    "new": true,
-    "variants": [
-     "php2shell bypass aslr exp",
-     "9bie php2shell bypass aslr exp"
-    ]
-   },
-   {
-    "repo": "mmparko/dsh-purge",
-    "owner": "mmparko",
-    "name": "dsh-purge",
-    "stars": 1549,
-    "velocity": 166,
-    "delta": 704,
-    "age_days": 9.3,
-    "description": "DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。",
-    "new": true,
-    "variants": [
-     "dsh purge",
-     "mmparko dsh purge"
-    ]
-   },
-   {
-    "repo": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-    "owner": "eness",
-    "name": "php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-    "stars": 803,
-    "velocity": 665,
-    "delta": null,
-    "age_days": 1.2,
-    "description": "Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in",
-    "new": true,
-    "variants": [
-     "php2shell cve 2026 109618 cve 2026 109619 poc",
-     "eness php2shell cve 2026 109618 cve 2026 109619 poc",
-     "enes php2shell cve 2026 109618 cve 2026 109619 poc"
-    ]
-   },
-   {
-    "repo": "tek-sys-hub/Rubix-lang",
-    "owner": "tek-sys-hub",
-    "name": "Rubix-lang",
-    "stars": 1898,
-    "velocity": 570,
-    "delta": null,
-    "age_days": 3.3,
-    "description": "The 100% Pure x86-64 Assembly Systems Language",
-    "new": true,
-    "variants": [
-     "rubix lang",
-     "tek-sys-hub rubix lang",
-     "tek rubix lang"
-    ]
-   },
-   {
-    "repo": "JoasASantos/REA-Prompts",
-    "owner": "JoasASantos",
-    "name": "REA-Prompts",
-    "stars": 1431,
-    "velocity": 544,
-    "delta": 169,
-    "age_days": 2.6,
-    "description": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any progr",
     "new": false
    },
    {
     "repo": "xiaoyang111222/cn-math-taxonomy",
     "owner": "xiaoyang111222",
     "name": "cn-math-taxonomy",
-    "stars": 2145,
-    "velocity": 513,
-    "delta": 253,
-    "age_days": 4.2,
+    "stars": 2640,
+    "velocity": 509,
+    "delta": 495,
+    "age_days": 5.2,
     "description": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
     "new": false
    },
    {
-    "repo": "ctresb/leis",
-    "owner": "ctresb",
-    "name": "leis",
-    "stars": 1155,
-    "velocity": 154,
-    "delta": 485,
-    "age_days": 7.5,
-    "description": "Todas as leis do Brasil",
+    "repo": "Snapintosh/Snapintosh",
+    "owner": "Snapintosh",
+    "name": "Snapintosh",
+    "stars": 690,
+    "velocity": 462,
+    "delta": null,
+    "age_days": 1.5,
+    "description": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack",
     "new": true,
     "variants": [
-     "leis",
-     "ctresb leis"
+     "snapintosh",
+     "snapintosh snapintosh"
     ]
    },
    {
-    "repo": "openai/php2shell-checker",
-    "owner": "openai",
-    "name": "php2shell-checker",
-    "stars": 696,
-    "velocity": 451,
+    "repo": "wesbos/3d-model-anything",
+    "owner": "wesbos",
+    "name": "3d-model-anything",
+    "stars": 793,
+    "velocity": 455,
     "delta": null,
-    "age_days": 1.5,
-    "description": "",
+    "age_days": 1.7,
+    "description": "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.",
     "new": true,
     "variants": [
-     "php2shell checker",
-     "openai php2shell checker"
+     "3d model anything",
+     "wesbos 3d model anything"
     ]
+   },
+   {
+    "repo": "tek-sys-hub/Rubix-lang",
+    "owner": "tek-sys-hub",
+    "name": "Rubix-lang",
+    "stars": 1916,
+    "velocity": 442,
+    "delta": 18,
+    "age_days": 4.3,
+    "description": "The 100% Pure x86-64 Assembly Systems Language",
+    "new": false
+   },
+   {
+    "repo": "JoasASantos/REA-Prompts",
+    "owner": "JoasASantos",
+    "name": "REA-Prompts",
+    "stars": 1586,
+    "velocity": 437,
+    "delta": 155,
+    "age_days": 3.6,
+    "description": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any progr",
+    "new": false
    }
   ],
   "terms": [
    {
-    "term": "php2shell poc",
+    "term": "nxnative",
     "recent": 1,
     "variants": [
-     "php2shell poc",
-     "ikow php2shell poc",
-     "qi php2shell poc"
+     "nxnative",
+     "seedds nxnative"
     ],
-    "repo": "ikow/php2shell-poc",
-    "note": "GitHub 爆发 ikow/php2shell-poc ★1378(均 1118/天,一天 +955)",
+    "repo": "seedds/nxnative",
+    "note": "GitHub 爆发 seedds/nxnative ★2306(均 223/天,一天 +1081)",
     "examples": [
-     "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-"
+     "seedds/nxnative: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE "
     ]
    },
    {
-    "term": "php2shell bypass aslr exp",
+    "term": "hackios xnu kernel",
     "recent": 1,
     "variants": [
-     "php2shell bypass aslr exp",
-     "9bie php2shell bypass aslr exp"
+     "hackios xnu kernel",
+     "oosexgang hackios xnu kernel"
     ],
-    "repo": "9bie/php2shell-bypass-aslr-exp",
-    "note": "GitHub 爆发 9bie/php2shell-bypass-aslr-exp ★850(均 775/天)",
+    "repo": "oosexgang/hackios-xnu-kernel",
+    "note": "GitHub 爆发 oosexgang/hackios-xnu-kernel ★882(均 679/天)",
     "examples": [
-     "9bie/php2shell-bypass-aslr-exp: A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit"
+     "oosexgang/hackios-xnu-kernel: "
     ]
    },
    {
-    "term": "dsh purge",
+    "term": "reylo",
     "recent": 1,
     "variants": [
-     "dsh purge",
-     "mmparko dsh purge"
+     "reylo",
+     "colinhacks reylo",
+     "colin reylo"
     ],
-    "repo": "mmparko/dsh-purge",
-    "note": "GitHub 爆发 mmparko/dsh-purge ★1549(均 166/天,一天 +704)",
+    "repo": "colinhacks/reylo",
+    "note": "GitHub 爆发 colinhacks/reylo ★922(均 361/天,一天 +530)",
     "examples": [
-     "mmparko/dsh-purge: DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。"
+     "colinhacks/reylo: Import .sql files into TypeScript with full type inference and zero codegen."
     ]
    },
    {
-    "term": "php2shell cve 2026 109618 cve 2026 109619 poc",
+    "term": "snapintosh",
     "recent": 1,
     "variants": [
-     "php2shell cve 2026 109618 cve 2026 109619 poc",
-     "eness php2shell cve 2026 109618 cve 2026 109619 poc",
-     "enes php2shell cve 2026 109618 cve 2026 109619 poc"
+     "snapintosh",
+     "snapintosh snapintosh"
     ],
-    "repo": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-    "note": "GitHub 爆发 eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC ★803(均 665/天)",
+    "repo": "Snapintosh/Snapintosh",
+    "note": "GitHub 爆发 Snapintosh/Snapintosh ★690(均 462/天)",
     "examples": [
-     "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in"
+     "Snapintosh/Snapintosh: EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack"
     ]
    },
    {
-    "term": "rubix lang",
+    "term": "3d model anything",
     "recent": 1,
     "variants": [
-     "rubix lang",
-     "tek-sys-hub rubix lang",
-     "tek rubix lang"
+     "3d model anything",
+     "wesbos 3d model anything"
     ],
-    "repo": "tek-sys-hub/Rubix-lang",
-    "note": "GitHub 爆发 tek-sys-hub/Rubix-lang ★1898(均 570/天)",
+    "repo": "wesbos/3d-model-anything",
+    "note": "GitHub 爆发 wesbos/3d-model-anything ★793(均 455/天)",
     "examples": [
-     "tek-sys-hub/Rubix-lang: The 100% Pure x86-64 Assembly Systems Language"
-    ]
-   },
-   {
-    "term": "leis",
-    "recent": 1,
-    "variants": [
-     "leis",
-     "ctresb leis"
-    ],
-    "repo": "ctresb/leis",
-    "note": "GitHub 爆发 ctresb/leis ★1155(均 154/天,一天 +485)",
-    "examples": [
-     "ctresb/leis: Todas as leis do Brasil"
-    ]
-   },
-   {
-    "term": "php2shell checker",
-    "recent": 1,
-    "variants": [
-     "php2shell checker",
-     "openai php2shell checker"
-    ],
-    "repo": "openai/php2shell-checker",
-    "note": "GitHub 爆发 openai/php2shell-checker ★696(均 451/天)",
-    "examples": [
-     "openai/php2shell-checker: "
+     "wesbos/3d-model-anything: Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser."
     ]
    }
   ],
@@ -1247,33 +819,33 @@
  "sitemap": {
   "sites": {
    "glama": {
-    "urls": 141772,
-    "new": 741,
+    "urls": 143013,
+    "new": 1290,
     "first_run": false,
     "sample": [
-     "https://glama.ai/mcp/connectors/ai.achromat/mcp-server",
-     "https://glama.ai/mcp/connectors/ai.augmentev/fabric-verify",
-     "https://glama.ai/mcp/connectors/ai.bnbgenius/mcp",
-     "https://glama.ai/mcp/connectors/ai.fapper/fapperai",
-     "https://glama.ai/mcp/connectors/ai.flowmingo/flowmingo",
-     "https://glama.ai/mcp/connectors/ai.glassflow/rius",
-     "https://glama.ai/mcp/connectors/ai.harcourtvaluations/nav",
-     "https://glama.ai/mcp/connectors/ai.kliqo/ai-visibility"
+     "https://glama.ai/mcp/connectors/academy.ase/periodic-system",
+     "https://glama.ai/mcp/connectors/ae.beachclubs/mcp",
+     "https://glama.ai/mcp/connectors/ai.1court.state/court-directory",
+     "https://glama.ai/mcp/connectors/ai.alphaweb.mcp/alpha-web",
+     "https://glama.ai/mcp/connectors/ai.alwen/alwen",
+     "https://glama.ai/mcp/connectors/ai.bumblebox/mail",
+     "https://glama.ai/mcp/connectors/ai.chucho/chucho",
+     "https://glama.ai/mcp/connectors/ai.commerceai/commerce-ai"
     ]
    },
    "mcp.so": {
-    "urls": 19665,
-    "new": 241,
+    "urls": 19671,
+    "new": 21,
     "first_run": false,
     "sample": [
-     "https://mcp.so/agents/chuyenpdf",
-     "https://mcp.so/agents/hol-plugins",
-     "https://mcp.so/agents/royalty",
-     "https://mcp.so/agents/skaleagents",
-     "https://mcp.so/agents/zeptap",
-     "https://mcp.so/cli/ai2web-65f21b",
-     "https://mcp.so/cli/bridge-cli",
-     "https://mcp.so/cli/mcpfold"
+     "https://mcp.so/agents/chatgpt",
+     "https://mcp.so/agents/tinymusic",
+     "https://mcp.so/servers/3dsellers-mcp-server",
+     "https://mcp.so/servers/altss-public-profiles-mcp",
+     "https://mcp.so/servers/artistally-conferences-mcp",
+     "https://mcp.so/servers/canopy-api-amazon-data-for-agents",
+     "https://mcp.so/servers/clitpude-mcp",
+     "https://mcp.so/servers/closedloop-ai"
     ]
    },
    "lobehub-mcp": {
@@ -1289,7 +861,10 @@
     "sample": []
    },
    "toolify": {
-    "error": "no URLs read"
+    "urls": 692,
+    "new": 0,
+    "first_run": false,
+    "sample": []
    },
    "aixploria": {
     "urls": 595,
@@ -1299,17 +874,17 @@
    },
    "ai-bot.cn": {
     "urls": 5068,
-    "new": 689,
+    "new": 685,
     "first_run": false,
     "sample": [
-     "https://ai-bot.cn/agensh/",
-     "https://ai-bot.cn/baocut/",
-     "https://ai-bot.cn/claude-duet/",
-     "https://ai-bot.cn/memt-1-0/",
-     "https://ai-bot.cn/moss-image/",
-     "https://ai-bot.cn/sites/1338.html",
-     "https://ai-bot.cn/sites/43780.html",
-     "https://ai-bot.cn/sites/46015.html"
+     "https://ai-bot.cn/2pr/",
+     "https://ai-bot.cn/3fs/",
+     "https://ai-bot.cn/a0-dev/",
+     "https://ai-bot.cn/ace-plus/",
+     "https://ai-bot.cn/agent-tars/",
+     "https://ai-bot.cn/agentic-object-detection/",
+     "https://ai-bot.cn/agentic-reasoning/",
+     "https://ai-bot.cn/agentrefine/"
     ]
    },
    "opentools": {
@@ -1319,15 +894,18 @@
     "sample": []
    },
    "dang": {
-    "urls": 7787,
-    "new": 5,
+    "urls": 7797,
+    "new": 10,
     "first_run": false,
     "sample": [
-     "https://dang.ai/tool/barside-ai-second-brain-desktop-app",
-     "https://dang.ai/tool/fastsub-ai-subtitle-generator",
-     "https://dang.ai/tool/proxyai-multichannel-ai-customer-support-chatbot",
-     "https://dang.ai/tool/superbot",
-     "https://dang.ai/tool/try-oc-maker-ai-character-generator"
+     "https://dang.ai/tool/beautyplus-ai-photo-editor",
+     "https://dang.ai/tool/booster-seo",
+     "https://dang.ai/tool/budgetpixel-ai-ai-image-and-video-generator",
+     "https://dang.ai/tool/deepswapface-ai-face-swap",
+     "https://dang.ai/tool/kurodyne-ai-marketplace",
+     "https://dang.ai/tool/nexscope-ai-ecommerce-data-api",
+     "https://dang.ai/tool/outrank",
+     "https://dang.ai/tool/qualio"
     ]
    },
    "clipfly": {
@@ -1337,14 +915,11 @@
     "sample": []
    },
    "aitoptools": {
-    "urls": 11846,
-    "new": 4,
+    "urls": 11847,
+    "new": 1,
     "first_run": false,
     "sample": [
-     "https://aitoptools.com/ai-blog/ai-dubbing-in-2026-how-companies-take-one-video-into-many-languages/",
-     "https://aitoptools.com/tool/attendance-tracker/",
-     "https://aitoptools.com/tool/celebmakerai/",
-     "https://aitoptools.com/tool/lorka-ai/"
+     "https://aitoptools.com/tool/image-to-3d/"
     ]
    },
    "futurepedia": {
@@ -1356,153 +931,153 @@
   },
   "terms": [
    {
-    "term": "sites",
-    "recent": 684,
-    "baseline": 21,
-    "lift": 579.1
-   },
-   {
-    "term": "io.github.theluckystrike",
-    "recent": 77,
-    "baseline": 79,
-    "lift": 45.8
-   },
-   {
-    "term": "connectors io.github.theluckystrike",
-    "recent": 77,
-    "baseline": 79,
-    "lift": 45.8
-   },
-   {
     "term": "connectors com.textforagents",
-    "recent": 29,
-    "baseline": 36,
-    "lift": 22.1
+    "recent": 48,
+    "baseline": 65,
+    "lift": 28.8
    },
    {
-    "term": "dev.workers.rainmaker",
-    "recent": 15,
+    "term": "tutorials deepseek",
+    "recent": 19,
+    "baseline": 3,
+    "lift": 18.4
+   },
+   {
+    "term": "lemon squared",
+    "recent": 11,
     "baseline": 0,
-    "lift": 15.0
+    "lift": 11.0
    },
    {
-    "term": "connectors dev.workers.rainmaker",
-    "recent": 15,
-    "baseline": 0,
-    "lift": 15.0
+    "term": "tutorials",
+    "recent": 28,
+    "baseline": 161,
+    "lift": 10.6
    },
    {
-    "term": "dev.workers.rainmaker wells.well",
-    "recent": 14,
-    "baseline": 0,
-    "lift": 14.0
-   },
-   {
-    "term": "connectors click.myagents",
-    "recent": 12,
-    "baseline": 0,
-    "lift": 12.0
-   },
-   {
-    "term": "io.github.datadmon",
-    "recent": 10,
-    "baseline": 0,
-    "lift": 10.0
-   },
-   {
-    "term": "connectors io.github.datadmon",
-    "recent": 10,
-    "baseline": 0,
-    "lift": 10.0
-   },
-   {
-    "term": "com.1102tools",
-    "recent": 9,
-    "baseline": 0,
-    "lift": 9.0
-   },
-   {
-    "term": "connectors com.1102tools",
-    "recent": 9,
-    "baseline": 0,
-    "lift": 9.0
-   },
-   {
-    "term": "connectors ai.saifs",
-    "recent": 8,
-    "baseline": 9,
-    "lift": 7.4
-   },
-   {
-    "term": "click.mymarketing",
-    "recent": 7,
-    "baseline": 0,
-    "lift": 7.0
-   },
-   {
-    "term": "connectors click.mymarketing",
-    "recent": 7,
-    "baseline": 0,
-    "lift": 7.0
+    "term": "deepseek",
+    "recent": 28,
+    "baseline": 186,
+    "lift": 9.7
    },
    {
     "term": "co.youraitools",
-    "recent": 7,
-    "baseline": 0,
-    "lift": 7.0
+    "recent": 10,
+    "baseline": 7,
+    "lift": 9.3
    },
    {
     "term": "connectors co.youraitools",
+    "recent": 10,
+    "baseline": 7,
+    "lift": 9.3
+   },
+   {
+    "term": "alexa",
+    "recent": 15,
+    "baseline": 69,
+    "lift": 8.8
+   },
+   {
+    "term": "aiframework",
+    "recent": 13,
+    "baseline": 48,
+    "lift": 8.7
+   },
+   {
+    "term": "mspbotsaiframework",
+    "recent": 13,
+    "baseline": 48,
+    "lift": 8.7
+   },
+   {
+    "term": "jaknow01",
+    "recent": 8,
+    "baseline": 0,
+    "lift": 8.0
+   },
+   {
+    "term": "r1",
+    "recent": 9,
+    "baseline": 25,
+    "lift": 7.2
+   },
+   {
+    "term": "cotletdev",
     "recent": 7,
     "baseline": 0,
     "lift": 7.0
    },
    {
-    "term": "connectors app.openkrill",
-    "recent": 9,
-    "baseline": 58,
+    "term": "mspbots",
+    "recent": 13,
+    "baseline": 102,
+    "lift": 6.4
+   },
+   {
+    "term": "acrt",
+    "recent": 6,
+    "baseline": 0,
     "lift": 6.0
    },
    {
-    "term": "connectors com.faceabot",
+    "term": "eval n8n",
     "recent": 6,
-    "baseline": 6,
-    "lift": 5.7
+    "baseline": 0,
+    "lift": 6.0
    },
    {
-    "term": "click.myagents google",
+    "term": "acrt eval",
+    "recent": 6,
+    "baseline": 0,
+    "lift": 6.0
+   },
+   {
+    "term": "writerco",
+    "recent": 6,
+    "baseline": 14,
+    "lift": 5.2
+   },
+   {
+    "term": "connectors io.github.omarkhandji",
     "recent": 5,
     "baseline": 0,
     "lift": 5.0
    },
    {
-    "term": "jobs scraper",
+    "term": "io.github.omarkhandji commits",
     "recent": 5,
-    "baseline": 9,
-    "lift": 4.6
+    "baseline": 0,
+    "lift": 5.0
    },
    {
-    "term": "click.myinfrastructure",
+    "term": "squared google",
+    "recent": 5,
+    "baseline": 0,
+    "lift": 5.0
+   },
+   {
+    "term": "essence",
+    "recent": 5,
+    "baseline": 1,
+    "lift": 4.9
+   },
+   {
+    "term": "co.youraitools.api",
     "recent": 4,
     "baseline": 0,
     "lift": 4.0
    },
    {
-    "term": "connectors click.myinfrastructure",
+    "term": "connectors co.youraitools.api",
     "recent": 4,
     "baseline": 0,
     "lift": 4.0
    },
    {
-    "term": "io.github.rico",
+    "term": "com.jocktaxes",
     "recent": 4,
-    "baseline": 1,
-    "lift": 4.0
-   },
-   {
-    "term": "connectors io.github.rico",
-    "recent": 4,
-    "baseline": 1,
+    "baseline": 0,
     "lift": 4.0
    }
   ]
@@ -1526,21 +1101,89 @@
  },
  "summary": {
   "by_signal": {},
-  "pending": 225,
+  "pending": 237,
   "window_days": 60
  },
  "keywords": {
   "names": [
-   "pokebonk",
-   "qwen3.5-0.8b",
-   "rubix lang",
-   "php2shell poc",
-   "php2shell bypass aslr exp"
+   "ltx2 distilled faceswap v3",
+   "3d model anything",
+   "nxnative",
+   "hackios xnu kernel",
+   "reylo"
   ],
   "rows": [
    {
-    "term": "pokebonk",
-    "phrase": "pokebonk",
+    "phrase": "nintendo switch emulator iphone",
+    "evidence": "It is not an emulator: the game's own code runs directly on the Apple chip, with Switch graphics rebuilt on Metal.",
+    "brand": true,
+    "source": "model",
+    "relevance": 0.75,
+    "is_name": false,
+    "established": false,
+    "term": "nintendo switch emulator iphone",
+    "kind": "generic",
+    "names": [
+     "nxnative"
+    ],
+    "volume": 110,
+    "month": "2026-09",
+    "no_data": true,
+    "peak_vs": 1,
+    "bench_level": 51.7,
+    "decision": "watch",
+    "competition": {
+     "verdict": "open",
+     "weak": null,
+     "kd": 9,
+     "ads": false,
+     "kinds": {
+      "forum": 2,
+      "tool": 2,
+      "video": 2,
+      "article": 1
+     },
+     "features": [
+      "ai_overview",
+      "discussions_and_forums",
+      "people_also_ask",
+      "related_searches",
+      "video"
+     ],
+     "weakest": null
+    }
+   },
+   {
+    "term": "ltx2 distilled faceswap v3",
+    "phrase": "ltx2 distilled faceswap v3",
+    "kind": "name",
+    "names": [],
+    "brand": true,
+    "evidence": "",
+    "no_data": true,
+    "peak_vs": 0,
+    "bench_level": 54.4,
+    "decision": "watch",
+    "competition": {
+     "verdict": "crowded",
+     "weak": null,
+     "kd": null,
+     "ads": false,
+     "kinds": {
+      "list": 2,
+      "article": 3,
+      "forum": 4
+     },
+     "features": [
+      "ai_overview",
+      "related_searches"
+     ],
+     "weakest": null
+    }
+   },
+   {
+    "term": "nxnative",
+    "phrase": "nxnative",
     "kind": "name",
     "names": [],
     "brand": true,
@@ -1552,10 +1195,10 @@
     "rose": true,
     "new": true,
     "momentum": null,
-    "started": "2026-10-15",
+    "started": "2026-10-19",
     "now": "rising",
-    "peak_vs": 100,
-    "bench_level": 8.1,
+    "peak_vs": 2,
+    "bench_level": 55.6,
     "decision": "watch",
     "competition": {
      "verdict": "crowded",
@@ -1563,77 +1206,13 @@
      "kd": null,
      "ads": false,
      "kinds": {
-      "video": 1,
-      "tool": 4,
-      "article": 3,
-      "list": 1
-     },
-     "features": [
-      "video"
-     ],
-     "weakest": null
-    }
-   },
-   {
-    "term": "qwen3.5-0.8b",
-    "phrase": "qwen3.5-0.8b",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": false,
-    "base": 4,
-    "peak": 100,
-    "peak_day": "2026-09-22",
-    "rose": true,
-    "new": true,
-    "momentum": null,
-    "started": "2026-09-20",
-    "now": "holding",
-    "peak_vs": 12,
-    "bench_level": 51.9,
-    "decision": "watch",
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "kinds": {
-      "video": 1,
-      "article": 7,
-      "list": 1
+      "tool": 3,
+      "article": 4,
+      "video": 1
      },
      "features": [
       "ai_overview",
-      "related_searches"
-     ],
-     "weakest": null
-    }
-   },
-   {
-    "term": "rubix lang",
-    "phrase": "rubix lang",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": true,
-    "peak_vs": 0,
-    "bench_level": 46.4,
-    "decision": "watch",
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "kinds": {
-      "tool": 1,
-      "article": 5,
-      "video": 2,
-      "forum": 2
-     },
-     "features": [
-      "ai_overview",
+      "images",
       "people_also_ask",
       "related_searches"
      ],
@@ -1641,15 +1220,15 @@
     }
    },
    {
-    "term": "php2shell poc",
-    "phrase": "php2shell poc",
+    "term": "hackios xnu kernel",
+    "phrase": "hackios xnu kernel",
     "kind": "name",
     "names": [],
     "brand": true,
     "evidence": "",
     "no_data": true,
     "peak_vs": 0,
-    "bench_level": 51.0,
+    "bench_level": 48.7,
     "decision": "watch",
     "competition": {
      "verdict": "crowded",
@@ -1657,7 +1236,9 @@
      "kd": null,
      "ads": false,
      "kinds": {
-      "article": 9
+      "forum": 4,
+      "article": 3,
+      "list": 2
      },
      "features": [
       "ai_overview"
@@ -1666,40 +1247,56 @@
     }
    },
    {
-    "term": "php2shell bypass aslr exp",
-    "phrase": "php2shell bypass aslr exp",
+    "term": "3d model anything",
+    "phrase": "3d model anything",
     "kind": "name",
     "names": [],
     "brand": true,
     "evidence": "",
-    "no_data": true,
-    "peak_vs": 0,
-    "bench_level": 54.9,
-    "decision": "watch",
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "kinds": {
-      "article": 7,
-      "video": 1,
-      "forum": 1
-     },
-     "features": [
-      "ai_overview"
-     ],
-     "weakest": null
-    }
+    "no_data": false,
+    "base": 11.5,
+    "peak": 12,
+    "peak_day": "2026-10-05",
+    "rose": false,
+    "new": false,
+    "momentum": null,
+    "now": "flat",
+    "peak_vs": 2,
+    "bench_level": 51.9,
+    "decision": "skip"
+   },
+   {
+    "term": "reylo",
+    "phrase": "reylo",
+    "kind": "name",
+    "names": [],
+    "brand": true,
+    "evidence": "",
+    "no_data": false,
+    "base": 2.4,
+    "peak": 100,
+    "peak_day": "2026-09-23",
+    "rose": true,
+    "new": true,
+    "momentum": null,
+    "started": "2026-09-23",
+    "now": "fading",
+    "peak_vs": 22,
+    "bench_level": 54.1,
+    "decision": "skip"
    }
   ],
-  "proposed": 22,
-  "relevant": 13,
-  "kept": 0,
+  "proposed": 12,
+  "relevant": 11,
+  "kept": 1,
   "benchmark": "gpts",
   "bench_daily": null,
-  "volume_month": "",
-  "no_evidence": [],
+  "volume_month": "2026-09",
+  "no_evidence": [
+   "ltx2 distilled faceswap v3",
+   "3d model anything",
+   "hackios xnu kernel"
+  ],
   "posts_error": "",
   "related": false,
   "tails": {},
@@ -1708,6 +1305,6 @@
   "geo": "US",
   "country_errors": [],
   "competition_errors": [],
-  "cost_micros": 127750
+  "cost_micros": 129020
  }
 }

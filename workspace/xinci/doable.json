@@ -1,5 +1,5 @@
 {
- "day": "2026-10-22",
+ "day": "2026-10-23",
  "config": {
   "min_volume": 500,
   "max_kd": 15,
@@ -20,167 +20,188 @@
  },
  "terms": [
   {
-   "phrase": "claude duet",
-   "source": "看板X/书签X",
-   "names": [
-    "Claude Duet（Anthropic）"
-   ],
-   "evidence": "首发帖 435 万浏览，和 Grok Bot、Meta Muse、ChatGPT Dots 正面竞争；适合做「是什么 / 怎么申请候补 / 和 Dots、Muse 对比」页。",
-   "overview_ok": true,
-   "volume": 20,
-   "cpc": 0.0,
-   "comp": 0.03,
-   "results": 0,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 0.0,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "recursive flint",
-   "source": "看板X/书签X",
-   "names": [
-    "Recursive Flint"
-   ],
-   "evidence": "首发帖 190 万浏览、近 5 千收藏，本地编码模型需求大；适合做 Mac/Ollama 本地部署、显存要求、和 Qwen 编码模型对比页。",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "php 漏洞检测",
+   "phrase": "decisions api",
    "source": "看板X",
    "names": [
-    "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能"
+    "OpenAI Decisions API（正式 GA）"
    ],
-   "evidence": "首发帖 479 万浏览，站长会集中搜「我的网站受影响吗 / 怎么修 / 升级哪个 PHP 版本」，适合做检测工具和修复教程页。",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "claude duet free",
-   "source": "Google 补全",
-   "names": [
-    "Claude Duet"
-   ],
-   "evidence": "Claude Duet 的补全长尾（共 38 条）",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "playful rewards online",
-   "source": "App Store 新上榜",
-   "names": [
-    "PLAYFUL REWARDS: Earn Rewards"
-   ],
-   "evidence": "美区免费榜第 29 名，上架 2023-09-26",
+   "evidence": "新 API 品类名，开发者会集中搜「是什么 / 定价 / 和普通 chat completion 对比 / 语音与多模态用法」；适合做快速上手和场景页。",
    "overview_ok": true,
    "volume": 20,
-   "cpc": 1.36,
-   "comp": 0.6,
+   "cpc": 16.77,
+   "comp": 0.37,
    "results": 0,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": 27.2,
+   "kdroi": 335.4,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": true,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 25,
+   "failed": [
+    "月搜"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "agent skills",
+   "source": "看板X",
+   "names": [
+    "Agent Skills 捐给 Agentic AI Foundation"
+   ],
+   "evidence": "标准捐赠会带来一波「怎么写 SKILL.md / 跨平台能不能通用 / 和 MCP 什么关系」搜索；适合做教程和迁移指南页。",
+   "overview_ok": true,
+   "volume": 5400,
+   "cpc": 4.15,
+   "comp": 0.09,
+   "results": 132,
+   "kd_ok": true,
+   "kd": 61,
+   "verdict": "mixed",
+   "comp_detail": {
+    "kinds": {
+     "article": 7,
+     "forum": 1,
+     "tool": 1
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "related_searches"
+    ],
+    "top": [
+     "github.com",
+     "platform.claude.com",
+     "learn.microsoft.com",
+     "blogs.cisco.com",
+     "cloud.google.com",
+     "reddit.com",
+     "addyosmani.com",
+     "skills.addy.ie",
+     "dev.to"
+    ],
+    "source": "serp",
+    "soft_weak": 1
+   },
+   "tool_intent": false,
+   "kdroi": 367.4,
+   "small_sites": 5,
+   "allintitle": 6750,
+   "checks": {
+    "月搜": true,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": true
+   },
+   "score": 72,
+   "failed": [
+    "KD",
+    "首页竞争"
+   ],
+   "unknown": []
+  },
+  {
+   "phrase": "ling-3.0-flash-sante",
+   "source": "看板X",
+   "names": [
+    "Ling-3.0-flash-Sante（蚂蚁 / inclusionAI）"
+   ],
+   "evidence": "新开源医疗模型品牌词，竞争小；适合做「是什么 / 怎么下权重 / 医疗基准对比 / 本地部署注意（非临床诊断）」页。",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "agent skills free",
+   "source": "Google 补全",
+   "names": [
+    "Agent Skills"
+   ],
+   "evidence": "Agent Skills 的补全长尾（共 233 条）",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "vibeshort online",
+   "source": "App Store 新上榜",
+   "names": [
+    "VibeShort: AI Short Dramas"
+   ],
+   "evidence": "美区免费榜第 68 名，上架 2026-02-25",
+   "overview_ok": true,
+   "volume": 10,
+   "cpc": 1.34,
+   "comp": 0.04,
+   "results": 0,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 13.4,
    "checks": {
     "月搜": false,
     "KD": null,
@@ -202,7 +223,7 @@
    "phrase": "php vulnerability",
    "source": "Google Trends",
    "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
+   "evidence": "7d 上升，12 个月内新出现",
    "overview_ok": true,
    "volume": 210,
    "cpc": 0.0,
@@ -232,12 +253,47 @@
    ]
   },
   {
-   "phrase": "free ai humanizer uk",
+   "phrase": "railway alternative",
+   "source": "Hacker News",
+   "names": [
+    "Railway"
+   ],
+   "evidence": "HN「Show HN: Stackdome – An open source self-hostable Railway alternative 」9 分",
+   "overview_ok": true,
+   "volume": 70,
+   "cpc": 11.13,
+   "comp": 0.5,
+   "results": 93,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 779.1,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": true,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 26,
+   "failed": [
+    "月搜"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "ling-3.0-flash-sante-free",
    "source": "Google 补全",
    "names": [
-    "free ai humanizer"
+    "Ling-3.0-flash-Sante"
    ],
-   "evidence": "free ai humanizer 的补全长尾（共 141 条）",
+   "evidence": "Ling-3.0-flash-Sante 的补全长尾（共 1 条）",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -268,14 +324,14 @@
    ]
   },
   {
-   "phrase": "netflix game controller online",
+   "phrase": "zeta online",
    "source": "App Store 新上榜",
    "names": [
-    "Netflix Game Controller"
+    "zeta: AI Chat, Story, Play"
    ],
-   "evidence": "美区免费榜第 64 名，上架 2023-08-07",
+   "evidence": "美区免费榜第 87 名，上架 2022-05-30",
    "overview_ok": true,
-   "volume": 40,
+   "volume": 30,
    "cpc": 0.0,
    "comp": 0.33,
    "results": 0,
@@ -307,7 +363,7 @@
    "phrase": "sahara ray",
    "source": "Google Trends",
    "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
+   "evidence": "7d 上升，12 个月内新出现",
    "overview_ok": true,
    "volume": 1000,
    "cpc": 0.0,
@@ -336,12 +392,12 @@
    ]
   },
   {
-   "phrase": "free ai humanizer io",
+   "phrase": "reylo online",
    "source": "Google 补全",
    "names": [
-    "free ai humanizer"
+    "reylo"
    ],
-   "evidence": "free ai humanizer 的补全长尾（共 141 条）",
+   "evidence": "reylo 的补全长尾（共 190 条）",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -372,22 +428,150 @@
    ]
   },
   {
-   "phrase": "nba online",
+   "phrase": "alibaba.com b2b trade app online",
    "source": "App Store 新上榜",
    "names": [
-    "NBA: Live Games & Scores"
+    "Alibaba.com B2B Trade App"
    ],
-   "evidence": "美区免费榜第 66 名，上架 2020-10-27",
+   "evidence": "美区免费榜第 98 名，上架 2012-02-24",
    "overview_ok": true,
-   "volume": 390,
-   "cpc": 1.09,
-   "comp": 0.12,
-   "results": 1230,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
-   "kd": 100,
+   "kd": null,
+   "kd_skipped": true,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": 4.3,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "oregon vs nebraska",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "1d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 1600,
+   "cpc": 0.61,
+   "comp": 0.35,
+   "results": 120,
+   "kd_ok": true,
+   "kd": 27,
+   "verdict": "mixed",
+   "comp_detail": {
+    "kinds": {
+     "forum": 2,
+     "list": 4
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "people_also_ask",
+     "perspectives",
+     "related_searches",
+     "short_videos",
+     "video"
+    ],
+    "top": [
+     "huskermax.com",
+     "espn.com",
+     "winsipedia.com",
+     "reddit.com",
+     "espn.com",
+     "sports.yahoo.com"
+    ],
+    "source": "serp",
+    "soft_weak": 2
+   },
+   "tool_intent": false,
+   "kdroi": 36.1,
+   "small_sites": 4,
+   "allintitle": 683,
+   "checks": {
+    "月搜": true,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": true
+   },
+   "score": 63,
+   "failed": [
+    "KD",
+    "首页竞争"
+   ],
+   "unknown": []
+  },
+  {
+   "phrase": "deepseek is free",
+   "source": "Google 补全",
+   "names": [
+    "deepseek"
+   ],
+   "evidence": "deepseek 的补全长尾（共 270 条）",
+   "overview_ok": true,
+   "volume": 20,
+   "cpc": 0.0,
+   "comp": 0.03,
+   "results": 0,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "klarna online",
+   "source": "App Store 新上榜",
+   "names": [
+    "Klarna: Smarter everyday money"
+   ],
+   "evidence": "美区免费榜第 100 名，上架 2016-06-22",
+   "overview_ok": true,
+   "volume": 170,
+   "cpc": 2.89,
+   "comp": 0.13,
+   "results": 127,
+   "kd_ok": true,
+   "kd": 49,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 10.0,
    "checks": {
     "月搜": false,
     "KD": false,
@@ -395,7 +579,7 @@
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 20,
+   "score": 38,
    "failed": [
     "月搜",
     "KD"
@@ -409,7 +593,7 @@
    "phrase": "san clemente fire",
    "source": "Google Trends",
    "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
+   "evidence": "7d 上升，12 个月内新出现",
    "overview_ok": true,
    "volume": 480,
    "cpc": 0.0,
@@ -439,12 +623,46 @@
    ]
   },
   {
-   "phrase": "free ai humanizer ace",
+   "phrase": "deepseek free api",
    "source": "Google 补全",
    "names": [
-    "free ai humanizer"
+    "deepseek"
    ],
-   "evidence": "free ai humanizer 的补全长尾（共 141 条）",
+   "evidence": "deepseek 的补全长尾（共 270 条）",
+   "overview_ok": true,
+   "volume": 480,
+   "cpc": 3.48,
+   "comp": 0.13,
+   "results": 135,
+   "kd_ok": true,
+   "kd": 66,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 25.3,
+   "checks": {
+    "月搜": false,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 40,
+   "failed": [
+    "月搜",
+    "KD"
+   ],
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "vibeshort web version",
+   "source": "App Store 新上榜",
+   "names": [
+    "VibeShort: AI Short Dramas"
+   ],
+   "evidence": "美区免费榜第 68 名，上架 2026-02-25",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -475,171 +693,10 @@
    ]
   },
   {
-   "phrase": "prizepicks online",
-   "source": "App Store 新上榜",
-   "names": [
-    "PrizePicks - Sports Picks"
-   ],
-   "evidence": "美区免费榜第 75 名，上架 2018-10-16",
-   "overview_ok": true,
-   "volume": 70,
-   "cpc": 6.95,
-   "comp": 0.23,
-   "results": 0,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 486.5,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": true,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 26,
-   "failed": [
-    "月搜"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "nebraska vs oregon",
-   "source": "Google Trends",
-   "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
-   "overview_ok": true,
-   "volume": 1600,
-   "cpc": 0.59,
-   "comp": 0.21,
-   "results": 108,
-   "kd_ok": true,
-   "kd": 26,
-   "verdict": "mixed",
-   "comp_detail": {
-    "kinds": {
-     "list": 4,
-     "article": 2,
-     "forum": 1
-    },
-    "ads": false,
-    "features": [
-     "ai_overview",
-     "perspectives",
-     "related_searches",
-     "video"
-    ],
-    "top": [
-     "espn.com",
-     "goducks.com",
-     "huskers.com",
-     "huskermax.com",
-     "seatgeek.com",
-     "cornnation.com",
-     "espn.com"
-    ],
-    "source": "serp",
-    "soft_weak": 1
-   },
-   "tool_intent": false,
-   "kdroi": 36.3,
-   "small_sites": 7,
-   "allintitle": 640,
-   "checks": {
-    "月搜": true,
-    "KD": false,
-    "CPC": true,
-    "首页竞争": false,
-    "allintitle": true
-   },
-   "score": 62,
-   "failed": [
-    "KD",
-    "首页竞争"
-   ],
-   "unknown": []
-  },
-  {
-   "phrase": "free ai detector m",
-   "source": "Google 补全",
-   "names": [
-    "free ai detector"
-   ],
-   "evidence": "free ai detector 的补全长尾（共 179 条）",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": true,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 25,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "aliexpress online",
-   "source": "App Store 新上榜",
-   "names": [
-    "AliExpress - Shopping App"
-   ],
-   "evidence": "美区免费榜第 84 名，上架 2011-05-27",
-   "overview_ok": true,
-   "volume": 320,
-   "cpc": 0.93,
-   "comp": 0.64,
-   "results": 0,
-   "kd_ok": true,
-   "kd": 67,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 4.4,
-   "checks": {
-    "月搜": false,
-    "KD": false,
-    "CPC": true,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 26,
-   "failed": [
-    "月搜",
-    "KD"
-   ],
-   "unknown": [
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
    "phrase": "arial definition",
    "source": "Google Trends",
    "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
+   "evidence": "7d 上升，12 个月内新出现",
    "overview_ok": true,
    "volume": 5400,
    "cpc": 0.0,
@@ -668,23 +725,23 @@
    ]
   },
   {
-   "phrase": "free ai detector uk",
+   "phrase": "deepseek free tier",
    "source": "Google 补全",
    "names": [
-    "free ai detector"
+    "deepseek"
    ],
-   "evidence": "free ai detector 的补全长尾（共 179 条）",
+   "evidence": "deepseek 的补全长尾（共 270 条）",
    "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
+   "volume": 40,
+   "cpc": 0.0,
+   "comp": 0.01,
+   "results": 0,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
    "verdict": null,
-   "tool_intent": true,
-   "kdroi": null,
+   "tool_intent": false,
+   "kdroi": 0.0,
    "checks": {
     "月搜": false,
     "KD": null,
@@ -692,7 +749,7 @@
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 25,
+   "score": 10,
    "failed": [
     "月搜",
     "CPC"
@@ -704,17 +761,17 @@
    ]
   },
   {
-   "phrase": "roku remote official online",
+   "phrase": "vibeshort alternative",
    "source": "App Store 新上榜",
    "names": [
-    "Roku Remote (Official)"
+    "VibeShort: AI Short Dramas"
    ],
-   "evidence": "美区免费榜第 88 名，上架 2011-12-15",
+   "evidence": "美区免费榜第 68 名，上架 2026-02-25",
    "overview_ok": true,
    "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
+   "cpc": 0.0,
+   "comp": 0.02,
+   "results": 0,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
@@ -743,7 +800,7 @@
    "phrase": "chevron font",
    "source": "Google Trends",
    "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
+   "evidence": "7d 上升，12 个月内新出现",
    "overview_ok": true,
    "volume": 20,
    "cpc": 0.0,
@@ -774,12 +831,46 @@
    ]
   },
   {
-   "phrase": "free ai detector owl",
+   "phrase": "alexa free",
    "source": "Google 补全",
    "names": [
-    "free ai detector"
+    "alexa"
    ],
-   "evidence": "free ai detector 的补全长尾（共 179 条）",
+   "evidence": "alexa 的补全长尾（共 293 条）",
+   "overview_ok": true,
+   "volume": 320,
+   "cpc": 1.07,
+   "comp": 0.13,
+   "results": 107,
+   "kd_ok": true,
+   "kd": 50,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 6.8,
+   "checks": {
+    "月搜": false,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 31,
+   "failed": [
+    "月搜",
+    "KD"
+   ],
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "zeta web version",
+   "source": "App Store 新上榜",
+   "names": [
+    "zeta: AI Chat, Story, Play"
+   ],
+   "evidence": "美区免费榜第 87 名，上架 2022-05-30",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -789,7 +880,7 @@
    "kd": null,
    "kd_skipped": true,
    "verdict": null,
-   "tool_intent": true,
+   "tool_intent": false,
    "kdroi": null,
    "checks": {
     "月搜": false,
@@ -798,7 +889,7 @@
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 25,
+   "score": 10,
    "failed": [
     "月搜",
     "CPC"
@@ -810,45 +901,10 @@
    ]
   },
   {
-   "phrase": "suno online",
-   "source": "App Store 新上榜",
-   "names": [
-    "Suno - AI Songs, Music, Lyrics"
-   ],
-   "evidence": "美区免费榜第 89 名，上架 2024-07-01",
-   "overview_ok": true,
-   "volume": 90,
-   "cpc": 1.44,
-   "comp": 0.34,
-   "results": 105,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 129.6,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": true,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 18,
-   "failed": [
-    "月搜"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
    "phrase": "ken kutaragi",
    "source": "Google Trends",
    "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
+   "evidence": "7d 上升，12 个月内新出现",
    "overview_ok": true,
    "volume": 1600,
    "cpc": 0.0,
@@ -877,164 +933,80 @@
    ]
   },
   {
-   "phrase": "aerial tv free",
+   "phrase": "alexa online",
    "source": "Google 补全",
    "names": [
-    "aerial tv"
+    "alexa"
    ],
-   "evidence": "aerial tv 的补全长尾（共 82 条）",
+   "evidence": "alexa 的补全长尾（共 293 条）",
    "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
+   "volume": 590,
+   "cpc": 0.7,
+   "comp": 0.03,
+   "results": 0,
    "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
+   "kd": 53,
+   "verdict": "mixed",
+   "comp_detail": {
+    "kinds": {
+     "tool": 2,
+     "forum": 1,
+     "article": 4
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "top": [
+     "alexa.amazon.com",
+     "amazon.com",
+     "reddit.com",
+     "play.google.com",
+     "amazon.com",
+     "aboutamazon.com",
+     "amazon.com"
+    ],
+    "source": "serp",
+    "soft_weak": 1
    },
-   "score": 10,
+   "tool_intent": false,
+   "kdroi": 7.8,
+   "small_sites": 1,
+   "allintitle": 53,
+   "checks": {
+    "月搜": true,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": true
+   },
+   "score": 40,
    "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
     "KD",
-    "首页竞争",
-    "allintitle"
-   ]
+    "首页竞争"
+   ],
+   "unknown": []
   },
   {
-   "phrase": "ebay online shopping selling online",
+   "phrase": "zeta alternative",
    "source": "App Store 新上榜",
    "names": [
-    "eBay online shopping & selling"
+    "zeta: AI Chat, Story, Play"
    ],
-   "evidence": "美区免费榜第 91 名，上架 2019-01-31",
+   "evidence": "美区免费榜第 87 名，上架 2022-05-30",
    "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "cve-2026-109618",
-   "source": "Google Trends",
-   "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "sm100 smoke detector",
-   "source": "Google 补全",
-   "names": [
-    "sm100"
-   ],
-   "evidence": "sm100 的补全长尾（共 147 条）",
-   "overview_ok": true,
-   "volume": 10,
-   "cpc": 1.1,
-   "comp": 0.99,
+   "volume": 20,
+   "cpc": 0.0,
+   "comp": 0.0,
    "results": 0,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
    "verdict": null,
-   "tool_intent": true,
-   "kdroi": 11.0,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": true,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 30,
-   "failed": [
-    "月搜"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "ebay online shopping selling web version",
-   "source": "App Store 新上榜",
-   "names": [
-    "eBay online shopping & selling"
-   ],
-   "evidence": "美区免费榜第 91 名，上架 2019-01-31",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
    "tool_intent": false,
-   "kdroi": null,
+   "kdroi": 0.0,
    "checks": {
     "月搜": false,
     "KD": null,
@@ -1054,120 +1026,298 @@
    ]
   },
   {
-   "phrase": "php vulnerability 2026",
+   "phrase": "golden knights vs blues",
    "source": "Google Trends",
    "names": [],
    "evidence": "1d 上升，12 个月内新出现",
    "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "sm100 ac smoke detector",
-   "source": "Google 补全",
-   "names": [
-    "sm100"
-   ],
-   "evidence": "sm100 的补全长尾（共 147 条）",
-   "overview_ok": true,
-   "volume": 40,
-   "cpc": 1.12,
-   "comp": 1.0,
-   "results": 4110,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": true,
-   "kdroi": 44.8,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": true,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 30,
-   "failed": [
-    "月搜"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "ebay online shopping selling alternative",
-   "source": "App Store 新上榜",
-   "names": [
-    "eBay online shopping & selling"
-   ],
-   "evidence": "美区免费榜第 91 名，上架 2019-01-31",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "horseshoe font",
-   "source": "Google Trends",
-   "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
-   "overview_ok": true,
-   "volume": 70,
+   "volume": 480,
    "cpc": 0.0,
    "comp": 0.01,
-   "results": 103,
+   "results": 0,
+   "kd_ok": true,
+   "kd": 26,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "checks": {
+    "月搜": false,
+    "KD": false,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 35,
+   "failed": [
+    "月搜",
+    "KD",
+    "CPC"
+   ],
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "decisions api vs jev",
+   "source": "Google 补全",
+   "names": [
+    "Decisions API"
+   ],
+   "evidence": "Decisions API 的补全长尾（共 45 条）",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "alibaba.com b2b trade app web version",
+   "source": "App Store 新上榜",
+   "names": [
+    "Alibaba.com B2B Trade App"
+   ],
+   "evidence": "美区免费榜第 98 名，上架 2012-02-24",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "steam php",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "1d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 20,
+   "cpc": 0.0,
+   "comp": 0.33,
+   "results": 0,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "decisions api cost vs jev",
+   "source": "Google 补全",
+   "names": [
+    "Decisions API"
+   ],
+   "evidence": "Decisions API 的补全长尾（共 45 条）",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "alibaba.com b2b trade app alternative",
+   "source": "App Store 新上榜",
+   "names": [
+    "Alibaba.com B2B Trade App"
+   ],
+   "evidence": "美区免费榜第 98 名，上架 2012-02-24",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "shamonda virus",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "1d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 20,
+   "cpc": 0.0,
+   "comp": 0.33,
+   "results": 0,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "decisions api openai vs jev",
+   "source": "Google 补全",
+   "names": [
+    "Decisions API"
+   ],
+   "evidence": "Decisions API 的补全长尾（共 45 条）",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "klarna web version",
+   "source": "App Store 新上榜",
+   "names": [
+    "Klarna: Smarter everyday money"
+   ],
+   "evidence": "美区免费榜第 100 名，上架 2016-06-22",
+   "overview_ok": true,
+   "volume": 90,
+   "cpc": 0.0,
+   "comp": 0.33,
+   "results": 106,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
@@ -1193,79 +1343,7 @@
    ]
   },
   {
-   "phrase": "claude duet vs muse",
-   "source": "Google 补全",
-   "names": [
-    "Claude Duet"
-   ],
-   "evidence": "Claude Duet 的补全长尾（共 38 条）",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "netshort online",
-   "source": "App Store 新上榜",
-   "names": [
-    "NetShort - Popular Dramas & TV"
-   ],
-   "evidence": "美区免费榜第 98 名，上架 2024-07-12",
-   "overview_ok": true,
-   "volume": 20,
-   "cpc": 0.0,
-   "comp": 0.01,
-   "results": 0,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 0.0,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "universal facial recognition attraction lockers",
+   "phrase": "shy safari",
    "source": "Google Trends",
    "names": [],
    "evidence": "1d 上升，12 个月内新出现",
@@ -1299,34 +1377,33 @@
    ]
   },
   {
-   "phrase": "claude duet vs dots",
+   "phrase": "agent skills vs mcp",
    "source": "Google 补全",
    "names": [
-    "Claude Duet"
+    "Agent Skills"
    ],
-   "evidence": "Claude Duet 的补全长尾（共 38 条）",
+   "evidence": "Agent Skills 的补全长尾（共 233 条）",
    "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
+   "volume": 70,
+   "cpc": 6.63,
+   "comp": 0.04,
+   "results": 124,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": null,
+   "kdroi": 464.1,
    "checks": {
     "月搜": false,
     "KD": null,
-    "CPC": false,
+    "CPC": true,
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 10,
+   "score": 26,
    "failed": [
-    "月搜",
-    "CPC"
+    "月搜"
    ],
    "unknown": [
     "KD",
@@ -1335,246 +1412,35 @@
    ]
   },
   {
-   "phrase": "playful rewards web version",
+   "phrase": "klarna alternative",
    "source": "App Store 新上榜",
    "names": [
-    "PLAYFUL REWARDS: Earn Rewards"
+    "Klarna: Smarter everyday money"
    ],
-   "evidence": "美区免费榜第 29 名，上架 2023-09-26",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "is boruto canon",
-   "source": "Google Trends",
-   "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
-   "overview_ok": true,
-   "volume": 720,
-   "cpc": 0.0,
-   "comp": 0.33,
-   "results": 193,
-   "kd_ok": true,
-   "kd": 25,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 0.0,
-   "checks": {
-    "月搜": true,
-    "KD": false,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 38,
-   "failed": [
-    "KD",
-    "CPC"
-   ],
-   "unknown": [
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "recursive flint model",
-   "source": "Google 补全",
-   "names": [
-    "Recursive Flint"
-   ],
-   "evidence": "Recursive Flint 的补全长尾（共 3 条）",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "playful rewards alternative",
-   "source": "App Store 新上榜",
-   "names": [
-    "PLAYFUL REWARDS: Earn Rewards"
-   ],
-   "evidence": "美区免费榜第 29 名，上架 2023-09-26",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "wolves vs heat",
-   "source": "Google Trends",
-   "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
+   "evidence": "美区免费榜第 100 名，上架 2016-06-22",
    "overview_ok": true,
    "volume": 320,
-   "cpc": 0.0,
-   "comp": 0.33,
-   "results": 290,
+   "cpc": 5.16,
+   "comp": 0.63,
+   "results": 105,
    "kd_ok": true,
-   "kd": 33,
+   "kd": 28,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": 0.0,
+   "kdroi": 59.0,
    "checks": {
     "月搜": false,
     "KD": false,
-    "CPC": false,
+    "CPC": true,
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 30,
+   "score": 47,
    "failed": [
     "月搜",
-    "KD",
-    "CPC"
+    "KD"
    ],
    "unknown": [
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "recursive flint huggingface",
-   "source": "Google 补全",
-   "names": [
-    "Recursive Flint"
-   ],
-   "evidence": "Recursive Flint 的补全长尾（共 3 条）",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "netflix game controller web version",
-   "source": "App Store 新上榜",
-   "names": [
-    "Netflix Game Controller"
-   ],
-   "evidence": "美区免费榜第 64 名，上架 2023-08-07",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
     "首页竞争",
     "allintitle"
    ]
@@ -1583,7 +1449,7 @@
    "phrase": "accounting software for small business",
    "source": "Google Trends",
    "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
+   "evidence": "7d 上升，12 个月内新出现",
    "overview_ok": true,
    "volume": 9900,
    "cpc": 16.96,
@@ -1639,87 +1505,17 @@
    "unknown": []
   },
   {
-   "phrase": "recursive flint ai coding model",
+   "phrase": "agent skills vs tools",
    "source": "Google 补全",
    "names": [
-    "Recursive Flint"
+    "Agent Skills"
    ],
-   "evidence": "Recursive Flint 的补全长尾（共 3 条）",
+   "evidence": "Agent Skills 的补全长尾（共 233 条）",
    "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "netflix game controller alternative",
-   "source": "App Store 新上榜",
-   "names": [
-    "Netflix Game Controller"
-   ],
-   "evidence": "美区免费榜第 64 名，上架 2023-08-07",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "apple duo",
-   "source": "Google Trends",
-   "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
-   "overview_ok": true,
-   "volume": 90,
+   "volume": 40,
    "cpc": 0.0,
-   "comp": 0.34,
-   "results": 175,
+   "comp": 0.05,
+   "results": 130,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
@@ -1733,7 +1529,7 @@
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 11,
+   "score": 10,
    "failed": [
     "月搜",
     "CPC"
@@ -1745,12 +1541,68 @@
    ]
   },
   {
-   "phrase": "orchestra bio ed",
+   "phrase": "cybersecurity solutions for small business",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "1d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 590,
+   "cpc": 42.4,
+   "comp": 0.05,
+   "results": 78,
+   "kd_ok": true,
+   "kd": 45,
+   "verdict": "mixed",
+   "comp_detail": {
+    "kinds": {
+     "article": 3,
+     "list": 5,
+     "forum": 1
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "people_also_ask"
+    ],
+    "top": [
+     "web.uri.edu",
+     "sysgen.ca",
+     "ifeeltech.com",
+     "reddit.com",
+     "verizon.com",
+     "cybersecurityguide.org",
+     "signeasy.com",
+     "lkmethod.com",
+     "data-analytics-certification.hashnode.dev"
+    ],
+    "source": "serp",
+    "soft_weak": 1
+   },
+   "tool_intent": false,
+   "kdroi": 555.9,
+   "small_sites": 8,
+   "allintitle": 8240,
+   "checks": {
+    "月搜": true,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": true
+   },
+   "score": 54,
+   "failed": [
+    "KD",
+    "首页竞争"
+   ],
+   "unknown": []
+  },
+  {
+   "phrase": "reylo vk",
    "source": "Google 补全",
    "names": [
-    "orchestra bio"
+    "reylo"
    ],
-   "evidence": "orchestra bio 的补全长尾（共 26 条）",
+   "evidence": "reylo 的补全长尾（共 190 条）",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -1781,17 +1633,51 @@
    ]
   },
   {
-   "phrase": "nba web version",
-   "source": "App Store 新上榜",
-   "names": [
-    "NBA: Live Games & Scores"
-   ],
-   "evidence": "美区免费榜第 66 名，上架 2020-10-27",
+   "phrase": "amazon prime automatic refund eligibility",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "7d 上升，12 个月内新出现",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
    "comp": null,
    "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "reylo ai",
+   "source": "Google 补全",
+   "names": [
+    "reylo"
+   ],
+   "evidence": "reylo 的补全长尾（共 190 条）",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": 0.0,
+   "comp": 0.0,
+   "results": 0,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
@@ -1820,7 +1706,7 @@
    "phrase": "wrest",
    "source": "Google Trends",
    "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
+   "evidence": "7d 上升，12 个月内新出现",
    "overview_ok": true,
    "volume": 5400,
    "cpc": 0.0,
@@ -1849,17 +1735,49 @@
    ]
   },
   {
-   "phrase": "orchestra biomed",
+   "phrase": "alexa vs echo",
    "source": "Google 补全",
    "names": [
-    "orchestra bio"
+    "alexa"
    ],
-   "evidence": "orchestra bio 的补全长尾（共 26 条）",
+   "evidence": "alexa 的补全长尾（共 293 条）",
    "overview_ok": true,
-   "volume": 590,
+   "volume": 320,
+   "cpc": 0.75,
+   "comp": 0.12,
+   "results": 170,
+   "kd_ok": true,
+   "kd": 36,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 6.7,
+   "checks": {
+    "月搜": false,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 33,
+   "failed": [
+    "月搜",
+    "KD"
+   ],
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "wrest meaning",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "1d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 1300,
    "cpc": 0.0,
    "comp": 0.33,
-   "results": 0,
+   "results": 135,
    "kd_ok": true,
    "kd": 35,
    "verdict": null,
@@ -1872,7 +1790,7 @@
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 34,
+   "score": 45,
    "failed": [
     "KD",
     "CPC"
@@ -1883,82 +1801,12 @@
    ]
   },
   {
-   "phrase": "nba alternative",
-   "source": "App Store 新上榜",
-   "names": [
-    "NBA: Live Games & Scores"
-   ],
-   "evidence": "美区免费榜第 66 名，上架 2020-10-27",
-   "overview_ok": true,
-   "volume": 20,
-   "cpc": 0.0,
-   "comp": 0.33,
-   "results": 0,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 0.0,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "amazon prime automatic refund eligibility",
-   "source": "Google Trends",
-   "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "orchestra bio ceo",
+   "phrase": "lemon squared paola",
    "source": "Google 补全",
    "names": [
-    "orchestra bio"
+    "lemon squared"
    ],
-   "evidence": "orchestra bio 的补全长尾（共 26 条）",
+   "evidence": "lemon squared 的补全长尾（共 8 条）",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -1989,45 +1837,10 @@
    ]
   },
   {
-   "phrase": "prizepicks web version",
-   "source": "App Store 新上榜",
-   "names": [
-    "PrizePicks - Sports Picks"
-   ],
-   "evidence": "美区免费榜第 75 名，上架 2018-10-16",
-   "overview_ok": true,
-   "volume": 140,
-   "cpc": 0.0,
-   "comp": 0.06,
-   "results": 122,
-   "kd_ok": true,
-   "kd": 41,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 0.0,
-   "checks": {
-    "月搜": false,
-    "KD": false,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 26,
-   "failed": [
-    "月搜",
-    "KD",
-    "CPC"
-   ],
-   "unknown": [
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "baby boomer steakhouse preferences yougov",
+   "phrase": "universal facial recognition attraction lockers",
    "source": "Google Trends",
    "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
+   "evidence": "7d 上升，12 个月内新出现",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -2058,67 +1871,34 @@
    ]
   },
   {
-   "phrase": "eagle 44",
+   "phrase": "lemon squared bkara",
    "source": "Google 补全",
    "names": [
-    "eagle 4"
+    "lemon squared"
    ],
-   "evidence": "eagle 4 的补全长尾（共 53 条）",
+   "evidence": "lemon squared 的补全长尾（共 8 条）",
    "overview_ok": true,
-   "volume": 110,
-   "cpc": 1.71,
-   "comp": 0.03,
-   "results": 175,
-   "kd_ok": true,
-   "kd": 16,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 11.8,
-   "checks": {
-    "月搜": false,
-    "KD": false,
-    "CPC": true,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 40,
-   "failed": [
-    "月搜",
-    "KD"
-   ],
-   "unknown": [
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "prizepicks alternative",
-   "source": "App Store 新上榜",
-   "names": [
-    "PrizePicks - Sports Picks"
-   ],
-   "evidence": "美区免费榜第 75 名，上架 2018-10-16",
-   "overview_ok": true,
-   "volume": 20,
-   "cpc": 17.92,
-   "comp": 0.49,
-   "results": 0,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": 358.4,
+   "kdroi": null,
    "checks": {
     "月搜": false,
     "KD": null,
-    "CPC": true,
+    "CPC": false,
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 25,
+   "score": 10,
    "failed": [
-    "月搜"
+    "月搜",
+    "CPC"
    ],
    "unknown": [
     "KD",
@@ -2130,7 +1910,7 @@
    "phrase": "the voice the battles part 3",
    "source": "Google Trends",
    "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
+   "evidence": "7d 上升，12 个月内新出现",
    "overview_ok": true,
    "volume": 390,
    "cpc": 0.0,
@@ -2160,58 +1940,23 @@
    ]
   },
   {
-   "phrase": "eagle 4x",
+   "phrase": "lemon squared photos",
    "source": "Google 补全",
    "names": [
-    "eagle 4"
+    "lemon squared"
    ],
-   "evidence": "eagle 4 的补全长尾（共 53 条）",
+   "evidence": "lemon squared 的补全长尾（共 8 条）",
    "overview_ok": true,
-   "volume": 40,
-   "cpc": 0.25,
-   "comp": 0.96,
-   "results": 181,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 10.0,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": true,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 11,
-   "failed": [
-    "月搜"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "aliexpress web version",
-   "source": "App Store 新上榜",
-   "names": [
-    "AliExpress - Shopping App"
-   ],
-   "evidence": "美区免费榜第 84 名，上架 2011-05-27",
-   "overview_ok": true,
-   "volume": 20,
+   "volume": 0,
    "cpc": 0.0,
-   "comp": 0.02,
+   "comp": 0.0,
    "results": 0,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": 0.0,
+   "kdroi": null,
    "checks": {
     "月搜": false,
     "KD": null,
@@ -2234,7 +1979,7 @@
    "phrase": "brighton vs palace",
    "source": "Google Trends",
    "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
+   "evidence": "7d 上升，12 个月内新出现",
    "overview_ok": true,
    "volume": 40,
    "cpc": 0.0,
@@ -2263,9 +2008,372 @@
     "首页竞争",
     "allintitle"
    ]
+  },
+  {
+   "phrase": "mspbots ai",
+   "source": "Google 补全",
+   "names": [
+    "mspbots"
+   ],
+   "evidence": "mspbots 的补全长尾（共 30 条）",
+   "overview_ok": true,
+   "volume": 10,
+   "cpc": 12.54,
+   "comp": 0.39,
+   "results": 0,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 125.4,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": true,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 25,
+   "failed": [
+    "月搜"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "best budget smartphone",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "7d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 1600,
+   "cpc": 1.95,
+   "comp": 0.81,
+   "results": 186,
+   "kd_ok": true,
+   "kd": 56,
+   "verdict": "mixed",
+   "comp_detail": {
+    "kinds": {
+     "list": 7,
+     "video": 2
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "discussions_and_forums",
+     "people_also_ask",
+     "popular_products",
+     "related_searches"
+    ],
+    "top": [
+     "androidcentral.com",
+     "stuff.tv",
+     "metrobyt-mobile.com",
+     "theverge.com",
+     "youtube.com",
+     "engadget.com",
+     "techspot.com",
+     "forum.allinsider.net",
+     "youtube.com"
+    ],
+    "source": "serp",
+    "soft_weak": 2
+   },
+   "tool_intent": false,
+   "kdroi": 55.7,
+   "small_sites": 6,
+   "allintitle": 63,
+   "checks": {
+    "月搜": true,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": true
+   },
+   "score": 61,
+   "failed": [
+    "KD",
+    "首页竞争"
+   ],
+   "unknown": []
+  },
+  {
+   "phrase": "mspbots inc",
+   "source": "Google 补全",
+   "names": [
+    "mspbots"
+   ],
+   "evidence": "mspbots 的补全长尾（共 30 条）",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "expectations ft chappell roan lyrics",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "7d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "mspbots api",
+   "source": "Google 补全",
+   "names": [
+    "mspbots"
+   ],
+   "evidence": "mspbots 的补全长尾（共 30 条）",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "seo services pricing",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "7d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 3600,
+   "cpc": 7.52,
+   "comp": 0.04,
+   "results": 135,
+   "kd_ok": true,
+   "kd": 49,
+   "verdict": "mixed",
+   "comp_detail": {
+    "kinds": {
+     "article": 6,
+     "forum": 1,
+     "list": 1
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "discussions_and_forums",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "top": [
+     "outerboxdesign.com",
+     "seo.com",
+     "pathfinderseo.com",
+     "authoritysolutions.com",
+     "backlinko.com",
+     "webfx.com",
+     "shopify.com",
+     "foxxr.com"
+    ],
+    "source": "serp",
+    "soft_weak": 1
+   },
+   "tool_intent": false,
+   "kdroi": 552.5,
+   "small_sites": 8,
+   "allintitle": 17100,
+   "checks": {
+    "月搜": true,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": false
+   },
+   "score": 75,
+   "failed": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ],
+   "unknown": []
+  },
+  {
+   "phrase": "writercom",
+   "source": "Google 补全",
+   "names": [
+    "writerco"
+   ],
+   "evidence": "writerco 的补全长尾（共 10 条）",
+   "overview_ok": true,
+   "volume": 20,
+   "cpc": 0.0,
+   "comp": 0.86,
+   "results": 0,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "iphone duo case",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "7d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "writercon",
+   "source": "Google 补全",
+   "names": [
+    "writerco"
+   ],
+   "evidence": "writerco 的补全长尾（共 10 条）",
+   "overview_ok": true,
+   "volume": 50,
+   "cpc": 0.0,
+   "comp": 0.01,
+   "results": 106,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
   }
  ],
- "spent_micros": 72000,
+ "spent_micros": 132000,
  "errors": [],
  "skipped": []
 }

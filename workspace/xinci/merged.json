@@ -1,251 +1,167 @@
 {
- "date": "2026-10-22",
+ "date": "2026-10-23",
  "board_runs": [
-  "2026-10-22 上午"
+  "2026-10-23 早上"
  ],
  "xnew_runs": [
-  "2026-10-22 验证 书签X",
-  "2026-10-22 晚上 书签X"
+  "2026-10-23 上午 书签X",
+  "2026-10-23 晚上 书签X"
  ],
  "our_x_failed": false,
  "terms": [
   {
-   "name": "pokebonk",
-   "key": "pokebonk",
+   "name": "ltx2 distilled faceswap v3",
+   "key": "ltx2distilledfaceswapv3",
    "sources": [
-    "我们X"
+    "HF"
    ],
-   "desc": "@op7418: 这哥们儿做的宝可梦版本《吸血鬼幸存者》游戏是真的火 叫 PokeBonk，我去，玩家非常多，各种自传播，国内也特别火。 玩法就是你扮演其中一个宝可梦，在一个类似",
+   "desc": "linoyts/ltx2-19b-distilled-faceswap-v3 (?, ♥136)",
    "url": "",
    "signals": [
-    "X 1 个账号 ♥157"
+    "HF 新进榜第 35 名"
    ],
    "variants": [],
    "named": 0.9
   },
   {
-   "name": "qwen3.5-0.8b",
-   "key": "qwen3508b",
+   "name": "3d model anything",
+   "key": "3dmodelanything",
    "sources": [
-    "我们X"
+    "GitHub"
    ],
-   "desc": "@TeksEdge: This small Local AI model could replace an entire document-processing pipeline. ",
-   "url": "",
+   "desc": "wesbos/3d-model-anything: Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.",
+   "url": "https://github.com/wesbos/3d-model-anything",
    "signals": [
-    "X 1 个账号 ♥114"
+    "GitHub 爆发 wesbos/3d-model-anything ★793(均 455/天)"
    ],
    "variants": [],
    "named": 0.8
   },
   {
-   "name": "ocrbench kie",
-   "key": "ocrbenchkie",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@TeksEdge: This small Local AI model could replace an entire document-processing pipeline. ",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥114"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "carbon x release",
-   "key": "carbonxrelease",
-   "sources": [
-    "HF"
-   ],
-   "desc": "HuggingFaceBio/Carbon-X-Release (static, ♥19)",
-   "url": "",
-   "signals": [
-    "HF Spaces 新进榜第 46 名"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "ssi",
-   "key": "ssi",
-   "sources": [
-    "HF"
-   ],
-   "desc": "Hunter26666666/SSI_Space (docker, ♥48)",
-   "url": "",
-   "signals": [
-    "HF Spaces 新进榜第 40 名"
-   ],
-   "variants": [],
-   "named": 0.6
-  },
-  {
-   "name": "rubix lang",
-   "key": "rubixlang",
+   "name": "nxnative",
+   "key": "nxnative",
    "sources": [
     "GitHub"
    ],
-   "desc": "tek-sys-hub/Rubix-lang: The 100% Pure x86-64 Assembly Systems Language",
-   "url": "https://github.com/tek-sys-hub/Rubix-lang",
+   "desc": "seedds/nxnative: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE ",
+   "url": "https://github.com/seedds/nxnative",
    "signals": [
-    "GitHub 爆发 tek-sys-hub/Rubix-lang ★1898(均 570/天)"
+    "GitHub 爆发 seedds/nxnative ★2306(均 223/天,一天 +1081)"
    ],
    "variants": [],
    "named": 0.9
   },
   {
-   "name": "php2shell poc",
-   "key": "php2shellpoc",
+   "name": "hackios xnu kernel",
+   "key": "hackiosxnukernel",
    "sources": [
     "GitHub"
    ],
-   "desc": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-",
-   "url": "https://github.com/ikow/php2shell-poc",
+   "desc": "oosexgang/hackios-xnu-kernel: ",
+   "url": "https://github.com/oosexgang/hackios-xnu-kernel",
    "signals": [
-    "GitHub 爆发 ikow/php2shell-poc ★1378(均 1118/天,一天 +955)"
+    "GitHub 爆发 oosexgang/hackios-xnu-kernel ★882(均 679/天)"
    ],
    "variants": [],
-   "named": 0.8
+   "named": 0.9
   },
   {
-   "name": "php2shell bypass aslr exp",
-   "key": "php2shellbypassaslrexp",
+   "name": "reylo",
+   "key": "reylo",
    "sources": [
     "GitHub"
    ],
-   "desc": "9bie/php2shell-bypass-aslr-exp: A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit",
-   "url": "https://github.com/9bie/php2shell-bypass-aslr-exp",
+   "desc": "colinhacks/reylo: Import .sql files into TypeScript with full type inference and zero codegen.",
+   "url": "https://github.com/colinhacks/reylo",
    "signals": [
-    "GitHub 爆发 9bie/php2shell-bypass-aslr-exp ★850(均 775/天)"
+    "GitHub 爆发 colinhacks/reylo ★922(均 361/天,一天 +530)"
    ],
    "variants": [],
-   "named": 0.8
+   "named": 0.9
   },
   {
-   "name": "php2shell cve 2026 109618 cve 2026 109619 poc",
-   "key": "php2shellcve2026109618cve2026109619poc",
+   "name": "snapintosh",
+   "key": "snapintosh",
    "sources": [
     "GitHub"
    ],
-   "desc": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in",
-   "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
+   "desc": "Snapintosh/Snapintosh: EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack",
+   "url": "https://github.com/Snapintosh/Snapintosh",
    "signals": [
-    "GitHub 爆发 eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC ★803(均 665/天)"
+    "GitHub 爆发 Snapintosh/Snapintosh ★690(均 462/天)"
    ],
    "variants": [],
-   "named": 0.8
+   "named": 0.9
   },
   {
-   "name": "dsh purge",
-   "key": "dshpurge",
-   "sources": [
-    "GitHub"
-   ],
-   "desc": "mmparko/dsh-purge: DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。",
-   "url": "https://github.com/mmparko/dsh-purge",
-   "signals": [
-    "GitHub 爆发 mmparko/dsh-purge ★1549(均 166/天,一天 +704)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "php2shell checker",
-   "key": "php2shellchecker",
-   "sources": [
-    "GitHub"
-   ],
-   "desc": "openai/php2shell-checker: ",
-   "url": "https://github.com/openai/php2shell-checker",
-   "signals": [
-    "GitHub 爆发 openai/php2shell-checker ★696(均 451/天)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "connectors io.github.datadmon",
-   "key": "connectorsiogithubdatadmon",
+   "name": "co.youraitools.api",
+   "key": "coyouraitoolsapi",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 10 处 (×10.0)"
+    "③ 竞品 4 处 (×4.0)"
    ],
    "variants": [],
-   "named": 0.7
+   "named": 0.9
   },
   {
-   "name": "com.1102tools",
-   "key": "com1102tools",
+   "name": "com.jocktaxes",
+   "key": "comjocktaxes",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 9 处 (×9.0)"
+    "③ 竞品 4 处 (×4.0)"
    ],
    "variants": [],
-   "named": 0.7
+   "named": 0.9
   },
   {
-   "name": "connectors com.1102tools",
-   "key": "connectorscom1102tools",
+   "name": "deepseek",
+   "key": "deepseek",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 9 处 (×9.0)"
+    "③ 竞品 28 处 (×9.7)"
    ],
    "variants": [],
-   "named": 0.7
+   "named": 0.5
   },
   {
-   "name": "connectors ai.saifs",
-   "key": "connectorsaisaifs",
+   "name": "alexa",
+   "key": "alexa",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 8 处 (×7.4)"
+    "③ 竞品 15 处 (×8.8)"
    ],
    "variants": [],
-   "named": 0.7
+   "named": 0.5
   },
   {
-   "name": "click.mymarketing",
-   "key": "clickmymarketing",
+   "name": "lemon squared",
+   "key": "lemonsquared",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 7 处 (×7.0)"
+    "③ 竞品 11 处 (×11.0)"
    ],
    "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "connectors click.mymarketing",
-   "key": "connectorsclickmymarketing",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 7 处 (×7.0)"
-   ],
-   "variants": [],
-   "named": 0.7
+   "named": 0.4
   },
   {
    "name": "co.youraitools",
@@ -256,220 +172,66 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 7 处 (×7.0)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "connectors co.youraitools",
-   "key": "connectorscoyouraitools",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 7 处 (×7.0)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "connectors app.openkrill",
-   "key": "connectorsappopenkrill",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 9 处 (×6.0)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "connectors com.faceabot",
-   "key": "connectorscomfaceabot",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 6 处 (×5.7)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "click.myinfrastructure",
-   "key": "clickmyinfrastructure",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 4 处 (×4.0)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "connectors click.myinfrastructure",
-   "key": "connectorsclickmyinfrastructure",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 4 处 (×4.0)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "io.github.rico",
-   "key": "iogithubrico",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 4 处 (×4.0)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "connectors io.github.rico",
-   "key": "connectorsiogithubrico",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 4 处 (×4.0)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "click.myagents google",
-   "key": "clickmyagentsgoogle",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 5 处 (×5.0)"
-   ],
-   "variants": [],
-   "named": 0.5
-  },
-  {
-   "name": "emudhra 18",
-   "key": "emudhra18",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: 用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥239"
+    "③ 竞品 10 处 (×9.3)"
    ],
    "variants": [],
    "named": 0.4
   },
   {
-   "name": "relation f1 ovisocr3",
-   "key": "relationf1ovisocr3",
+   "name": "aiframework",
+   "key": "aiframework",
    "sources": [
-    "我们X"
+    "竞品站"
    ],
-   "desc": "@TeksEdge: This small Local AI model could replace an entire document-processing pipeline. ",
+   "desc": "",
    "url": "",
    "signals": [
-    "X 1 个账号 ♥114"
+    "③ 竞品 13 处 (×8.7)"
    ],
    "variants": [],
    "named": 0.4
   },
   {
-   "name": "crypto.randomuuid",
-   "key": "cryptorandomuuid",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: 用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥239"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "randomint",
-   "key": "randomint",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: 用 Node.js 的要升级了：三条版本线都有高危漏洞，最严重的可远程执行代码，eMudhra 那 8 枚坏证书也一并拉黑 用 Node.js 跑服务、写工具的",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥239"
-   ],
-   "variants": [],
-   "named": 0.2
-  },
-  {
-   "name": "leis",
-   "key": "leis",
-   "sources": [
-    "GitHub"
-   ],
-   "desc": "ctresb/leis: Todas as leis do Brasil",
-   "url": "https://github.com/ctresb/leis",
-   "signals": [
-    "GitHub 爆发 ctresb/leis ★1155(均 154/天,一天 +485)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "io.github.theluckystrike",
-   "key": "iogithubtheluckystrike",
+   "name": "mspbotsaiframework",
+   "key": "mspbotsaiframework",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 77 处 (×45.8)"
+    "③ 竞品 13 处 (×8.7)"
    ],
    "variants": [],
-   "named": 0.1
+   "named": 0.4
   },
   {
-   "name": "connectors io.github.theluckystrike",
-   "key": "connectorsiogithubtheluckystrike",
+   "name": "mspbots",
+   "key": "mspbots",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 77 处 (×45.8)"
+    "③ 竞品 13 处 (×6.4)"
    ],
    "variants": [],
-   "named": 0.1
+   "named": 0.4
+  },
+  {
+   "name": "writerco",
+   "key": "writerco",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 6 处 (×5.2)"
+   ],
+   "variants": [],
+   "named": 0.4
   },
   {
    "name": "connectors com.textforagents",
@@ -480,339 +242,448 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 29 处 (×22.1)"
+    "③ 竞品 48 处 (×28.8)"
    ],
    "variants": [],
-   "named": 0.1
+   "named": 0.3
   },
   {
-   "name": "dev.workers.rainmaker",
-   "key": "devworkersrainmaker",
+   "name": "connectors co.youraitools",
+   "key": "connectorscoyouraitools",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 15 处 (×15.0)"
+    "③ 竞品 10 处 (×9.3)"
    ],
    "variants": [],
-   "named": 0.1
+   "named": 0.3
   },
   {
-   "name": "connectors dev.workers.rainmaker",
-   "key": "connectorsdevworkersrainmaker",
+   "name": "jaknow01",
+   "key": "jaknow01",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 15 处 (×15.0)"
+    "③ 竞品 8 处 (×8.0)"
    ],
    "variants": [],
-   "named": 0.1
+   "named": 0.3
   },
   {
-   "name": "dev.workers.rainmaker wells.well",
-   "key": "devworkersrainmakerwellswell",
+   "name": "cotletdev",
+   "key": "cotletdev",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 14 处 (×14.0)"
+    "③ 竞品 7 处 (×7.0)"
    ],
    "variants": [],
-   "named": 0.1
+   "named": 0.3
   },
   {
-   "name": "connectors click.myagents",
-   "key": "connectorsclickmyagents",
+   "name": "acrt",
+   "key": "acrt",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 12 处 (×12.0)"
+    "③ 竞品 6 处 (×6.0)"
    ],
    "variants": [],
-   "named": 0.1
+   "named": 0.3
   },
   {
-   "name": "io.github.datadmon",
-   "key": "iogithubdatadmon",
+   "name": "eval n8n",
+   "key": "evaln8n",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 10 处 (×10.0)"
+    "③ 竞品 6 处 (×6.0)"
    ],
    "variants": [],
-   "named": 0.1
+   "named": 0.3
   },
   {
-   "name": "sites",
-   "key": "sites",
+   "name": "acrt eval",
+   "key": "acrteval",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 684 处 (×579.1)"
+    "③ 竞品 6 处 (×6.0)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "connectors io.github.omarkhandji",
+   "key": "connectorsiogithubomarkhandji",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 5 处 (×5.0)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "connectors co.youraitools.api",
+   "key": "connectorscoyouraitoolsapi",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "tutorials deepseek",
+   "key": "tutorialsdeepseek",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 19 处 (×18.4)"
+   ],
+   "variants": [],
+   "named": 0.2
+  },
+  {
+   "name": "r1",
+   "key": "r1",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 9 处 (×7.2)"
+   ],
+   "variants": [],
+   "named": 0.2
+  },
+  {
+   "name": "tutorials",
+   "key": "tutorials",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 28 处 (×10.6)"
    ],
    "variants": [],
    "named": 0.0
   },
   {
-   "name": "jobs scraper",
-   "key": "jobsscraper",
+   "name": "io.github.omarkhandji commits",
+   "key": "iogithubomarkhandjicommits",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 5 处 (×4.6)"
+    "③ 竞品 5 处 (×5.0)"
    ],
    "variants": [],
    "named": 0.0
   },
   {
-   "name": "Claude Duet（Anthropic）",
-   "key": "claudeduet",
+   "name": "squared google",
+   "key": "squaredgoogle",
    "sources": [
-    "看板X",
-    "书签X"
+    "竞品站"
    ],
-   "desc": "Anthropic 推出的主动型个人 agent 独立 App（研究预览）：主动找出需要你关注的事、完成任务、你离开时继续干活，代你行动前先问你。基于 Opus 5.5，共用 Claude 账户的记忆、技能和连接应用；美国 Pro/Max 用户排队申请，Canva、Airtable、Shopify 已接入。",
-   "url": "https://x.com/claudeai/status/2112984664256241837",
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 5 处 (×5.0)"
+   ],
+   "variants": [],
+   "named": 0.0
+  },
+  {
+   "name": "essence",
+   "key": "essence",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 5 处 (×4.9)"
+   ],
+   "variants": [],
+   "named": 0.0
+  },
+  {
+   "name": "OpenAI Decisions API（正式 GA）",
+   "key": "openaidecisionsapi",
+   "sources": [
+    "看板X"
+   ],
+   "desc": "OpenAI Decisions API 正式开放：用 GPT-6 Luna 做近实时分类、评估和路由，不必生成完整模型回复，速度最多快约 10 倍；GA 后新增 GPT-Live 语音集成、prompt caching、原生 JSON 输入、单请求最多 400 个问题、单题指令可带图等。据报道输入约 $0.10/百万 token、无输出费。",
+   "url": "https://x.com/OpenAIDevs/status/2113346642787086538",
    "signals": [],
    "variants": [],
    "board": {
-    "name": "Claude Duet（Anthropic）",
-    "source": "@claudeai",
-    "url": "https://x.com/claudeai/status/2112984664256241837",
-    "first_seen": "2026-10-22 03:09",
+    "name": "OpenAI Decisions API（正式 GA）",
+    "source": "@OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2113346642787086538",
+    "first_seen": "2026-10-23 03:07",
     "keyword_rank": 1,
-    "keyword": "Claude Duet",
-    "reason": "首发帖 435 万浏览，和 Grok Bot、Meta Muse、ChatGPT Dots 正面竞争；适合做「是什么 / 怎么申请候补 / 和 Dots、Muse 对比」页。"
-   },
-   "first_seen": "2026-10-22 03:09"
+    "keyword": "Decisions API",
+    "reason": "新 API 品类名，开发者会集中搜「是什么 / 定价 / 和普通 chat completion 对比 / 语音与多模态用法」；适合做快速上手和场景页。"
+   }
   },
   {
-   "name": "Recursive Flint",
-   "key": "recursiveflint",
+   "name": "Agent Skills 捐给 Agentic AI Foundation",
+   "key": "agentskills捐给agenticaifoundation",
    "sources": [
-    "看板X",
-    "书签X"
+    "看板X"
    ],
-   "desc": "Recursive 首个模型：40B MoE（2.5B 激活）本地编码模型，256K 上下文，MacBook Pro 上 125+ tok/s、RTX Spark 上 150+ tok/s，由其自动科研系统 Eureka Machine 不到 4 个月从零练成；Apache 2.0 开放权重，OpenCode 可免费试。",
-   "url": "https://x.com/RichardSocher/status/2112944385415426249",
+   "desc": "Anthropic（ClaudeDevs）把 Agent Skills 开放标准捐给 Linux Foundation 旗下 Agentic AI Foundation（和 MCP 同一基金会），一并移交名称、Logo、GitHub 组织和 agentskills.io。自 2025-12 以来已有 ChatGPT、Cursor、GitHub Copilot、VS Code 等 70+ 平台接入，约 100 万技能、2.8 亿次安装。",
+   "url": "https://x.com/ClaudeDevs/status/2113328526413996100",
    "signals": [],
    "variants": [],
    "board": {
-    "name": "Recursive Flint",
-    "source": "@RichardSocher",
-    "url": "https://x.com/RichardSocher/status/2112944385415426249",
-    "first_seen": "2026-10-22 00:29",
+    "name": "Agent Skills 捐给 Agentic AI Foundation",
+    "source": "@ClaudeDevs",
+    "url": "https://x.com/ClaudeDevs/status/2113328526413996100",
+    "first_seen": "2026-10-23 01:55",
     "keyword_rank": 2,
-    "keyword": "Recursive Flint",
-    "reason": "首发帖 190 万浏览、近 5 千收藏，本地编码模型需求大；适合做 Mac/Ollama 本地部署、显存要求、和 Qwen 编码模型对比页。"
-   },
-   "first_seen": "2026-10-22 00:29"
+    "keyword": "Agent Skills",
+    "reason": "标准捐赠会带来一波「怎么写 SKILL.md / 跨平台能不能通用 / 和 MCP 什么关系」搜索；适合做教程和迁移指南页。"
+   }
   },
   {
-   "name": "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能",
-   "key": "openai发现php严重漏洞codex检测技能",
+   "name": "Ling-3.0-flash-Sante（蚂蚁 / inclusionAI）",
+   "key": "ling30flashsante",
    "sources": [
     "看板X",
     "书签X"
    ],
-   "desc": "OpenAI 的 Patch the Planet 计划用模型发现 PHP（约 70% 网站在用）的严重安全漏洞，已联合维护者提前准备修复；随后发布一个 Codex 技能仓库，帮你检查自己的网站是否受影响。是安全研究，不是新模型。",
-   "url": "https://x.com/OpenAI/status/2112907856018309586",
+   "desc": "蚂蚁 Ling 开源医疗增强 MoE：总参 124B、每 token 仅激活 5.1B；HealthBench Professional 45.73→54.29（同档 flash 第一），并强化复杂医疗推理、深度研究与多 agent。权重已上 Hugging Face / ModelScope。",
+   "url": "https://x.com/AntLingAGI/status/2113293431435149349",
    "signals": [],
    "variants": [],
    "board": {
-    "name": "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能",
-    "source": "@OpenAI",
-    "url": "https://x.com/OpenAI/status/2112907856018309586",
-    "first_seen": "2026-10-21 22:04",
+    "name": "Ling-3.0-flash-Sante（蚂蚁 / inclusionAI）",
+    "source": "@AntLingAGI",
+    "url": "https://x.com/AntLingAGI/status/2113293431435149349",
+    "first_seen": "2026-10-22 23:36",
     "keyword_rank": 3,
-    "keyword": "PHP 漏洞检测",
-    "reason": "首发帖 479 万浏览，站长会集中搜「我的网站受影响吗 / 怎么修 / 升级哪个 PHP 版本」，适合做检测工具和修复教程页。"
+    "keyword": "Ling-3.0-flash-Sante",
+    "reason": "新开源医疗模型品牌词，竞争小；适合做「是什么 / 怎么下权重 / 医疗基准对比 / 本地部署注意（非临床诊断）」页。"
    },
-   "not_model": true,
-   "first_seen": "2026-10-21 22:04"
+   "first_seen": "2026-10-22 23:36"
   },
   {
-   "name": "Claude Security 持续扫描",
-   "key": "claudesecurity持续扫描",
+   "name": "Gemini API CLI（gemini-api，预览）",
+   "key": "geminiapicli",
+   "sources": [
+    "看板X"
+   ],
+   "desc": "Google 员工 Dmitry Lyalin 发布 Gemini API CLI（gemini-api）预览：单二进制 + API key，让 agent 直接生成图/视频/语音/音乐、分析媒体、转写、管理 agent，不用猜模型字符串或写一堆 curl。与旧的开源 Gemini CLI（gemini）不是同一个产品。",
+   "url": "https://x.com/LyalinDotCom/status/2113287431382601765",
+   "signals": [],
+   "variants": [],
+   "board": {
+    "name": "Gemini API CLI（gemini-api，预览）",
+    "source": "@LyalinDotCom",
+    "url": "https://x.com/LyalinDotCom/status/2113287431382601765",
+    "first_seen": "2026-10-22 23:12",
+    "keyword_rank": null,
+    "keyword": null,
+    "reason": null
+   }
+  },
+  {
+   "name": "Google Cloud Agent Compute Engine",
+   "key": "googlecloudagentcomputeengine",
+   "sources": [
+    "看板X"
+   ],
+   "desc": "Google Cloud 在 AGNTCon + MCPCon 宣布 Agent Compute Engine：用隔离 microVM 跑 agent，并扩展 Gemini for business 的 agent 治理能力。",
+   "url": "https://x.com/googlecloud/status/2113285915258794378",
+   "signals": [],
+   "variants": [],
+   "board": {
+    "name": "Google Cloud Agent Compute Engine",
+    "source": "@googlecloud",
+    "url": "https://x.com/googlecloud/status/2113285915258794378",
+    "first_seen": "2026-10-22 23:06",
+    "keyword_rank": null,
+    "keyword": null,
+    "reason": null
+   }
+  },
+  {
+   "name": "Claude 大规模形式化验证（研究博客）",
+   "key": "claude大规模形式化验证",
    "sources": [
     "看板X",
     "书签X"
    ],
-   "desc": "Claude Security 现在连一次代码仓库就会先深度扫描，之后随代码变更自动重扫；Claude Enterprise 公测。",
-   "url": "https://x.com/claudeai/status/2112962248218148878",
+   "desc": "Anthropic Frontier Red Team 博客：与 Theorem Labs 合作，用 Claude 在数周内对 100+ 真实开源库做安全属性的形式化证明；形式化验证以往只适合小代码库或大量专家时间。",
+   "url": "https://x.com/AnthropicAI/status/2113390212911083894",
    "signals": [],
    "variants": [],
    "board": {
-    "name": "Claude Security 持续扫描",
-    "source": "@claudeai",
-    "url": "https://x.com/claudeai/status/2112962248218148878",
-    "first_seen": "2026-10-22 01:40",
+    "name": "Claude 大规模形式化验证（研究博客）",
+    "source": "@AnthropicAI",
+    "url": "https://x.com/AnthropicAI/status/2113390212911083894",
+    "first_seen": "2026-10-23 06:01",
     "keyword_rank": null,
     "keyword": null,
     "reason": null
    },
    "not_model": true,
-   "first_seen": "2026-10-22 01:40"
+   "first_seen": "2026-10-23 06:01"
   },
   {
-   "name": "OpenAI 模型登陆 Google Cloud",
-   "key": "openai模型登陆googlecloud",
+   "name": "Ling-3.1-flash-1019（补漏，上一档漏掉）",
+   "key": "ling31flash1019",
    "sources": [
-    "看板X",
-    "书签X"
+    "看板X"
    ],
-   "desc": "OpenAI 前沿模型和 Codex agent 工作流进入 Google Cloud Model Garden，企业可在 Google Cloud 上直接用。是合作上架，不是新模型。",
-   "url": "https://x.com/OpenAI/status/2112988118471295323",
+   "desc": "蚂蚁 Ling 发布 Ling-3.1-flash-1019：Artificial Analysis Intelligence Index 41→44；agent 相关 AA-Briefcase ~1400→1524 Elo、AutomationBench-AA 62%→68%。API 与开源权重「即将推出」，当时尚未放权。首发在上一档晚上窗口内（10-22 19:10），简报漏报故补。",
+   "url": "https://x.com/AntLingAGI/status/2113226531522891851",
    "signals": [],
    "variants": [],
    "board": {
-    "name": "OpenAI 模型登陆 Google Cloud",
-    "source": "@OpenAI",
-    "url": "https://x.com/OpenAI/status/2112988118471295323",
-    "first_seen": "2026-10-22 03:23",
+    "name": "Ling-3.1-flash-1019（补漏，上一档漏掉）",
+    "source": "@AntLingAGI",
+    "url": "https://x.com/AntLingAGI/status/2113226531522891851",
+    "first_seen": "2026-10-22 19:10",
     "keyword_rank": null,
     "keyword": null,
     "reason": null
-   },
-   "not_model": true,
-   "first_seen": "2026-10-22 03:23"
+   }
   },
   {
-   "name": "GPT-Rosalind 药物发现线索",
-   "key": "gptrosalind药物发现线索",
+   "name": "MiniMax M3.1 Flash",
+   "key": "minimaxm31flash",
    "sources": [
     "书签X"
    ],
-   "desc": "GPT-Rosalind 提出神经退行疾病新药线索（DCTN1）。科研成果，不是新模型。",
-   "url": "https://x.com/OpenAI/status/2112899854569762936",
+   "desc": "MiniMax 公开 428B MoE（23B 激活）权重，主打 agent/编码/工具调用。",
+   "url": "https://x.com/MiniMax_AI/status/2113436864904610008",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-10-23 09:06"
+  },
+  {
+   "name": "Canva Craft",
+   "key": "canvacraft",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "Canva 首个面向设计的自研图像生成前沿模型，已对全体用户开放。",
+   "url": "https://x.com/canva/status/2113348707223753165",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-10-23 03:16"
+  },
+  {
+   "name": "Claude 登陆 Google Cloud GA",
+   "key": "claude登陆googlecloudga",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "Anthropic 托管的 Claude 模型在 Google Cloud 正式 GA，支持 IAM/计费。不是新模型",
+   "url": "https://x.com/claudeai/status/2113380122468454765",
    "signals": [],
    "variants": [],
    "not_model": true,
-   "first_seen": "2026-10-21 21:32"
+   "first_seen": "2026-10-23 05:21"
   },
   {
-   "name": "Mistral × NVIDIA 工业工程合作",
-   "key": "mistralnvidia工业工程合作",
+   "name": "Claude 默认自动模式",
+   "key": "claude默认自动模式",
    "sources": [
     "书签X"
    ],
-   "desc": "合作做仿真加速、物理 AI 基准和数据集。合作，不是新模型。",
-   "url": "https://x.com/MistralAI/status/2112870261829603589",
+   "desc": "Pro/Max/Team 下周起会话默认自动模式，风控自动拦危险操作。功能更新，不是新模型",
+   "url": "https://x.com/claudeai/status/2113360845409583307",
    "signals": [],
    "variants": [],
    "not_model": true,
-   "first_seen": "2026-10-21 19:35"
+   "first_seen": "2026-10-23 04:04"
   },
   {
-   "name": "Gemini 在 Google 地图 CarPlay 导航",
-   "key": "gemini在google地图carplay导航",
+   "name": "OpenAI × METR 嵌入式评估",
+   "key": "openaimetr嵌入式评估",
    "sources": [
     "书签X"
    ],
-   "desc": "CarPlay 版 Google 地图导航可语音调用 Gemini。功能更新，不是新模型。",
-   "url": "https://x.com/Google/status/2112963255924674955",
+   "desc": "OpenAI 邀请 METR 与 Redwood 对其内部监控做三周嵌入式评估试点。合作/科研成果，不是新模型",
+   "url": "https://x.com/OpenAI/status/2113298833392496746",
    "signals": [],
    "variants": [],
    "not_model": true,
-   "first_seen": "2026-10-22 01:44"
+   "first_seen": "2026-10-22 23:57"
   },
   {
-   "name": "Moss-Image-Edit",
-   "key": "mossimageedit",
+   "name": "StreamEval",
+   "key": "streameval",
    "sources": [
     "书签X"
    ],
-   "desc": "MOSS-Image 的开放权重 LoRA 编辑适配器，文字＋最多 4 张参考图改图，附 ComfyUI 工作流。",
-   "url": "https://x.com/ModelScope2022/status/2113254634030764100",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-10-22 21:02"
-  },
-  {
-   "name": "PixText",
-   "key": "pixtext",
-   "sources": [
-    "书签X"
-   ],
-   "desc": "两个约 0.95B 开放权重模型，在像素空间本地修正图中文字。",
-   "url": "https://x.com/ModelScope2022/status/2113204928076247522",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-10-22 17:44"
-  },
-  {
-   "name": "Omni-R2V",
-   "key": "omnir2v",
-   "sources": [
-    "书签X"
-   ],
-   "desc": "上架 ModelScope 的 33.9 万条视频参考生成训练数据集。不是新模型",
-   "url": "https://x.com/ModelScope2022/status/2113141454109290675",
+   "desc": "ModelScope 上架交互式长视频生成评测集 StreamEval（15–300 秒多模态会话）。上架，不是新模型",
+   "url": "https://x.com/ModelScope2022/status/2113571171140542659",
    "signals": [],
    "variants": [],
    "not_model": true,
-   "first_seen": "2026-10-22 13:32"
+   "first_seen": "2026-10-23 18:00"
   }
  ],
  "dupes": [
   {
-   "name": "Claude Duet",
-   "matched": "Claude Duet（Anthropic）",
+   "name": "Ling-3.0-flash-Sante",
+   "matched": "Ling-3.0-flash-Sante（蚂蚁 / inclusionAI）",
    "ours": [
     "看板X"
    ]
   },
   {
-   "name": "Recursive Flint",
-   "matched": "Recursive Flint",
-   "ours": [
-    "看板X"
-   ]
-  },
-  {
-   "name": "Claude Security 持续扫描",
-   "matched": "Claude Security 持续扫描",
-   "ours": [
-    "看板X"
-   ]
-  },
-  {
-   "name": "OpenAI 模型登陆 Google Cloud",
-   "matched": "OpenAI 模型登陆 Google Cloud",
-   "ours": [
-    "看板X"
-   ]
-  },
-  {
-   "name": "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能",
-   "matched": "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能",
+   "name": "Claude 大规模形式化验证",
+   "matched": "Claude 大规模形式化验证（研究博客）",
    "ours": [
     "看板X"
    ]
   }
  ],
  "board_keywords": [
-  "Claude Duet",
-  "Recursive Flint",
-  "PHP 漏洞检测"
+  "Decisions API",
+  "Agent Skills",
+  "Ling-3.0-flash-Sante"
  ]
 }

@@ -1,0 +1,81 @@
+{
+ "label": "2026-10-23 早上",
+ "run_at": "2026-10-23 10:09",
+ "window_start": "2026-10-22 22:10",
+ "window_end": "2026-10-23 10:10",
+ "empty": false,
+ "items": [
+  {
+   "name": "OpenAI Decisions API（正式 GA）",
+   "desc": "OpenAI Decisions API 正式开放：用 GPT-6 Luna 做近实时分类、评估和路由，不必生成完整模型回复，速度最多快约 10 倍；GA 后新增 GPT-Live 语音集成、prompt caching、原生 JSON 输入、单请求最多 400 个问题、单题指令可带图等。据报道输入约 $0.10/百万 token、无输出费。",
+   "source": "@OpenAIDevs",
+   "url": "https://x.com/OpenAIDevs/status/2113346642787086538",
+   "first_seen": "2026-10-23 03:07",
+   "keyword_rank": 1,
+   "keyword": "Decisions API",
+   "reason": "新 API 品类名，开发者会集中搜「是什么 / 定价 / 和普通 chat completion 对比 / 语音与多模态用法」；适合做快速上手和场景页。"
+  },
+  {
+   "name": "Agent Skills 捐给 Agentic AI Foundation",
+   "desc": "Anthropic（ClaudeDevs）把 Agent Skills 开放标准捐给 Linux Foundation 旗下 Agentic AI Foundation（和 MCP 同一基金会），一并移交名称、Logo、GitHub 组织和 agentskills.io。自 2025-12 以来已有 ChatGPT、Cursor、GitHub Copilot、VS Code 等 70+ 平台接入，约 100 万技能、2.8 亿次安装。",
+   "source": "@ClaudeDevs",
+   "url": "https://x.com/ClaudeDevs/status/2113328526413996100",
+   "first_seen": "2026-10-23 01:55",
+   "keyword_rank": 2,
+   "keyword": "Agent Skills",
+   "reason": "标准捐赠会带来一波「怎么写 SKILL.md / 跨平台能不能通用 / 和 MCP 什么关系」搜索；适合做教程和迁移指南页。"
+  },
+  {
+   "name": "Ling-3.0-flash-Sante（蚂蚁 / inclusionAI）",
+   "desc": "蚂蚁 Ling 开源医疗增强 MoE：总参 124B、每 token 仅激活 5.1B；HealthBench Professional 45.73→54.29（同档 flash 第一），并强化复杂医疗推理、深度研究与多 agent。权重已上 Hugging Face / ModelScope。",
+   "source": "@AntLingAGI",
+   "url": "https://x.com/AntLingAGI/status/2113293431435149349",
+   "first_seen": "2026-10-22 23:36",
+   "keyword_rank": 3,
+   "keyword": "Ling-3.0-flash-Sante",
+   "reason": "新开源医疗模型品牌词，竞争小；适合做「是什么 / 怎么下权重 / 医疗基准对比 / 本地部署注意（非临床诊断）」页。"
+  },
+  {
+   "name": "Gemini API CLI（gemini-api，预览）",
+   "desc": "Google 员工 Dmitry Lyalin 发布 Gemini API CLI（gemini-api）预览：单二进制 + API key，让 agent 直接生成图/视频/语音/音乐、分析媒体、转写、管理 agent，不用猜模型字符串或写一堆 curl。与旧的开源 Gemini CLI（gemini）不是同一个产品。",
+   "source": "@LyalinDotCom",
+   "url": "https://x.com/LyalinDotCom/status/2113287431382601765",
+   "first_seen": "2026-10-22 23:12"
+  },
+  {
+   "name": "Google Cloud Agent Compute Engine",
+   "desc": "Google Cloud 在 AGNTCon + MCPCon 宣布 Agent Compute Engine：用隔离 microVM 跑 agent，并扩展 Gemini for business 的 agent 治理能力。",
+   "source": "@googlecloud",
+   "url": "https://x.com/googlecloud/status/2113285915258794378",
+   "first_seen": "2026-10-22 23:06"
+  },
+  {
+   "name": "Claude 大规模形式化验证（研究博客）",
+   "desc": "Anthropic Frontier Red Team 博客：与 Theorem Labs 合作，用 Claude 在数周内对 100+ 真实开源库做安全属性的形式化证明；形式化验证以往只适合小代码库或大量专家时间。",
+   "source": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2113390212911083894",
+   "first_seen": "2026-10-23 06:01"
+  },
+  {
+   "name": "Ling-3.1-flash-1019（补漏，上一档漏掉）",
+   "desc": "蚂蚁 Ling 发布 Ling-3.1-flash-1019：Artificial Analysis Intelligence Index 41→44；agent 相关 AA-Briefcase ~1400→1524 Elo、AutomationBench-AA 62%→68%。API 与开源权重「即将推出」，当时尚未放权。首发在上一档晚上窗口内（10-22 19:10），简报漏报故补。",
+   "source": "@AntLingAGI",
+   "url": "https://x.com/AntLingAGI/status/2113226531522891851",
+   "first_seen": "2026-10-22 19:10"
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "Decisions API",
+   "reason": "新 API 品类名，开发者会集中搜「是什么 / 定价 / 和普通 chat completion 对比 / 语音与多模态用法」；适合做快速上手和场景页。"
+  },
+  {
+   "keyword": "Agent Skills",
+   "reason": "标准捐赠会带来一波「怎么写 SKILL.md / 跨平台能不能通用 / 和 MCP 什么关系」搜索；适合做教程和迁移指南页。"
+  },
+  {
+   "keyword": "Ling-3.0-flash-Sante",
+   "reason": "新开源医疗模型品牌词，竞争小；适合做「是什么 / 怎么下权重 / 医疗基准对比 / 本地部署注意（非临床诊断）」页。"
+  }
+ ]
+}

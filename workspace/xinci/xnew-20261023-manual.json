@@ -1,0 +1,90 @@
+{
+ "label": "2026-10-23 手动 书签X",
+ "run_at": "2026-10-23 16:23",
+ "window_start": "2026-10-23 10:20",
+ "window_end": "2026-10-23 16:23",
+ "empty": false,
+ "items": [
+  {
+   "name": "EvaOmni",
+   "desc": "ModelScope 与交大/复旦/腾讯优图开源的 Omni 多模态基准：1027 题、392 视频，测模型能否准确定位音视频证据。基准/数据集，不是新模型",
+   "source": "@ModelScope2022",
+   "url": "https://x.com/ModelScope2022/status/2113520260720803868",
+   "first_seen": "2026-10-23 14:37",
+   "kind": "not_model",
+   "views": 855,
+   "bookmarks": 4
+  },
+  {
+   "name": "OpenAI Decisions API（正式 GA）",
+   "desc": "【补报】OpenAI Decisions API 正式 GA：近实时分类/评估/路由，不必生成完整回复。今早窗口漏抓（账号 OpenAIDevs 不在重点列表）",
+   "source": "@OpenAIDevs",
+   "url": "https://x.com/OpenAIDevs/status/2113346642787086538",
+   "first_seen": "2026-10-23 03:07",
+   "kind": "product",
+   "views": 117343,
+   "bookmarks": 401,
+   "backfill": true
+  },
+  {
+   "name": "Agent Skills 捐给 Agentic AI Foundation",
+   "desc": "【补报】Anthropic 把 Agent Skills 开放标准捐给 Linux Foundation 旗下 Agentic AI Foundation（与 MCP 同基金会）。标准捐赠，不是新模型。今早漏抓（ClaudeDevs 不在重点列表）",
+   "source": "@ClaudeDevs",
+   "url": "https://x.com/ClaudeDevs/status/2113328526413996100",
+   "first_seen": "2026-10-23 01:55",
+   "kind": "not_model",
+   "views": 623708,
+   "bookmarks": 2041,
+   "backfill": true,
+   "keyword_rank": 2,
+   "keyword": "Agent Skills",
+   "reason": "标准捐赠热度够（约 62 万浏览/2041 收藏）；适合做 SKILL.md 教程与 MCP 关系页。标「不是新模型」。"
+  },
+  {
+   "name": "Gemini API CLI（gemini-api，预览）",
+   "desc": "【补报】Google 员工发布 Gemini API CLI 预览：单二进制+API key 让 agent 直接生成图/视频/语音。非官方主账号首发",
+   "source": "@LyalinDotCom",
+   "url": "https://x.com/LyalinDotCom/status/2113287431382601765",
+   "first_seen": "2026-10-22 23:12",
+   "kind": "product",
+   "views": 177239,
+   "bookmarks": 996,
+   "backfill": true
+  },
+  {
+   "name": "Ling-3.1-flash-1019",
+   "desc": "【补报】蚂蚁 Ling-3.1-flash-1019：AA Index 41→44；API 与权重「即将推出」。上一档漏报",
+   "source": "@AntLingAGI",
+   "url": "https://x.com/AntLingAGI/status/2113226531522891851",
+   "first_seen": "2026-10-22 19:10",
+   "kind": "model",
+   "views": 295186,
+   "bookmarks": 231,
+   "backfill": true
+  },
+  {
+   "name": "Canva Craft",
+   "desc": "【热度更新】Canva 首个面向设计的自研图像生成模型；今早约 40 万浏览/899 收藏未过门槛，现已涨到约 93.6 万浏览/1267 收藏",
+   "source": "@canva",
+   "url": "https://x.com/canva/status/2113348707223753165",
+   "first_seen": "2026-10-23 03:16",
+   "kind": "model",
+   "views": 935629,
+   "bookmarks": 1267,
+   "keyword_rank": 1,
+   "keyword": "Canva Craft",
+   "reason": "新设计向图像模型名；浏览已过 50 万且收藏过 1000；适合做「是什么 / 怎么用 / 和 Firefly·Ideogram 对比」落地页。"
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "Canva Craft",
+   "reason": "新设计向图像模型名；浏览约 93.6 万、收藏 1267，过门槛；适合做对比/教程落地页。"
+  },
+  {
+   "keyword": "Agent Skills",
+   "reason": "标准捐赠热度够（约 62 万浏览/2041 收藏）；适合做 SKILL.md 教程与 MCP 关系页。标「不是新模型」。"
+  }
+ ],
+ "note": "manual re-run for Halo Z; threshold views>=500000 OR bookmarks>=1000; compared with xbm/radar-20261023-am.json"
+}

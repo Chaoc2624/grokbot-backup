@@ -1,247 +1,233 @@
 {
- "label": "2026-10-24 新词雷达",
- "run_at": "2026-10-24 21:43",
- "window_start": "2026-10-24 00:00",
- "window_end": "2026-10-24 23:59",
+ "label": "2026-10-25 新词雷达",
+ "run_at": "2026-10-25 21:45",
+ "window_start": "2026-10-25 00:00",
+ "window_end": "2026-10-25 23:59",
  "empty": false,
  "items": [
   {
-   "name": "deepseek v4.1 flash 1017 gsq rco",
-   "desc": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF (text-generation, ♥142)",
-   "source": "HF",
-   "url": "",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "name": "hatchzip",
-   "desc": "xevrion/hatchzip: Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, ",
+   "name": "mccarbon",
+   "desc": "yeqv111/mccarbon: 麦麦碳账本 · 基于麦当劳 MCP 的个人餐饮碳足迹估算与减排模拟器 | Personal dining carbon footprint estimator powered by McDonald's MCP",
    "source": "GitHub",
-   "url": "https://github.com/xevrion/hatchzip",
-   "first_seen": "2026-10-24"
+   "url": "https://github.com/yeqv111/mccarbon",
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "fairplay decrypt",
-   "desc": "EthanArbuckle/fairplay-decrypt: Offline FairPlay App Store IPA decryption with independent key derivation",
+   "name": "mclife desk",
+   "desc": "Nikii-w/McLife-Desk: 忙碌了一天，回到家，你打开麦当劳，却突然纠结：今天吃了什么？这周点了几次？这个月花了多少钱？热量会不会超标？  于是有了 **McLife Desk 麦门人生工作台**。它记录每一次点麦：日期、餐品、金额与热量，生成专属点餐日历；按当月消费",
    "source": "GitHub",
-   "url": "https://github.com/EthanArbuckle/fairplay-decrypt",
-   "first_seen": "2026-10-24"
+   "url": "https://github.com/Nikii-w/McLife-Desk",
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "gpu unlock",
-   "desc": "Zagitta/gpu-unlock: Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents",
+   "name": "learnharness",
+   "desc": "amosblomqvist/learnharness: Agent harness for learning difficult things.",
    "source": "GitHub",
-   "url": "https://github.com/Zagitta/gpu-unlock",
-   "first_seen": "2026-10-24"
+   "url": "https://github.com/amosblomqvist/learnharness",
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "io.github.ygfalcon",
-   "desc": "③ 竞品 5 处 (×5.0)",
-   "source": "竞品站",
-   "url": "",
-   "first_seen": "2026-10-24"
+   "name": "gpu unlock ada",
+   "desc": "JustAResearcher/gpu-unlock-ada: GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
+   "source": "GitHub",
+   "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "mspbotsaiframework",
-   "desc": "③ 竞品 22 处 (×14.3)",
+   "name": "ghostpawjs",
+   "desc": "③ 竞品 7 处 (×7.0)",
    "source": "竞品站",
    "url": "",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "name": "aiframework",
-   "desc": "③ 竞品 22 处 (×14.3)",
-   "source": "竞品站",
-   "url": "",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "name": "skilleddragoncorp",
-   "desc": "③ 竞品 13 处 (×13.0)",
-   "source": "竞品站",
-   "url": "",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "name": "pinot",
-   "desc": "③ 竞品 6 处 (×5.9)",
-   "source": "竞品站",
-   "url": "",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "name": "mspbots",
-   "desc": "③ 竞品 22 处 (×11.4)",
-   "source": "竞品站",
-   "url": "",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "name": "dev.cotlet",
-   "desc": "③ 竞品 11 处 (×10.9)",
-   "source": "竞品站",
-   "url": "",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "name": "io.github.bck",
-   "desc": "③ 竞品 8 处 (×7.9)",
-   "source": "竞品站",
-   "url": "",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "name": "com.scriptmasterlabs",
-   "desc": "③ 竞品 6 处 (×5.7)",
-   "source": "竞品站",
-   "url": "",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "name": "alexa",
-   "desc": "③ 竞品 11 处 (×6.3)",
-   "source": "竞品站",
-   "url": "",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "name": "kubernetes",
-   "desc": "③ 竞品 6 处 (×4.3)",
-   "source": "竞品站",
-   "url": "",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "name": "connectors dev.cotlet",
-   "desc": "③ 竞品 11 处 (×10.9)",
-   "source": "竞品站",
-   "url": "",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "name": "connectors io.github.bck",
-   "desc": "③ 竞品 8 处 (×7.9)",
-   "source": "竞品站",
-   "url": "",
-   "first_seen": "2026-10-24"
-  },
-  {
-   "name": "io.github.bck stack",
-   "desc": "③ 竞品 8 处 (×7.9)",
-   "source": "竞品站",
-   "url": "",
-   "first_seen": "2026-10-24"
+   "first_seen": "2026-10-25"
   },
   {
    "name": "connectors io.usefulapi",
-   "desc": "③ 竞品 31 处 (×7.6)",
+   "desc": "③ 竞品 45 处 (×15.4)",
    "source": "竞品站",
    "url": "",
-   "first_seen": "2026-10-24"
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "connectors com.scriptmasterlabs",
-   "desc": "③ 竞品 6 处 (×5.7)",
+   "name": "io.github.serenido",
+   "desc": "③ 竞品 10 处 (×10.0)",
    "source": "竞品站",
    "url": "",
-   "first_seen": "2026-10-24"
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "acrt eval",
-   "desc": "③ 竞品 21 处 (×19.9)",
+   "name": "connectors io.github.serenido",
+   "desc": "③ 竞品 10 处 (×10.0)",
    "source": "竞品站",
    "url": "",
-   "first_seen": "2026-10-24"
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "stack sitecheck",
-   "desc": "③ 竞品 8 处 (×7.9)",
+   "name": "connectors com.augur",
+   "desc": "③ 竞品 8 处 (×8.0)",
    "source": "竞品站",
    "url": "",
-   "first_seen": "2026-10-24"
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "eval figma",
-   "desc": "③ 竞品 6 处 (×6.0)",
+   "name": "connectors com.jonakisoft",
+   "desc": "③ 竞品 7 处 (×7.0)",
    "source": "竞品站",
    "url": "",
-   "first_seen": "2026-10-24"
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "connectors io.github.ygfalcon",
+   "name": "com.freedailypro.api",
    "desc": "③ 竞品 5 处 (×5.0)",
    "source": "竞品站",
    "url": "",
-   "first_seen": "2026-10-24"
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "figma context",
-   "desc": "③ 竞品 6 处 (×5.2)",
+   "name": "connectors com.freedailypro.api",
+   "desc": "③ 竞品 5 处 (×5.0)",
    "source": "竞品站",
    "url": "",
-   "first_seen": "2026-10-24"
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "sites",
-   "desc": "③ 竞品 685 处 (×577.3)",
+   "name": "io.github.catalyst",
+   "desc": "③ 竞品 5 处 (×4.9)",
    "source": "竞品站",
    "url": "",
-   "first_seen": "2026-10-24"
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "skilled",
-   "desc": "③ 竞品 13 处 (×12.8)",
+   "name": "io.github.catalyst labs",
+   "desc": "③ 竞品 5 处 (×4.9)",
    "source": "竞品站",
    "url": "",
-   "first_seen": "2026-10-24"
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "dragon",
-   "desc": "③ 竞品 13 处 (×11.7)",
+   "name": "com.augur trade",
+   "desc": "③ 竞品 8 处 (×8.0)",
    "source": "竞品站",
    "url": "",
-   "first_seen": "2026-10-24"
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "corp",
-   "desc": "③ 竞品 13 处 (×8.5)",
+   "name": "thebananastand",
+   "desc": "③ 竞品 8 处 (×7.6)",
    "source": "竞品站",
    "url": "",
-   "first_seen": "2026-10-24"
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "Kimi K3.1 Pro",
-   "desc": "月之暗面发布 2.8T MoE（104B 激活）开放权重旗舰，1M 上下文，网页/App/API 当天可用，完整权重预计 11 月 4 日前放出。",
-   "source": "书签X",
-   "url": "https://x.com/Kimi_Moonshot/status/2113680701770068067",
-   "first_seen": "2026-10-24"
+   "name": "connectors io.github.catalyst",
+   "desc": "③ 竞品 5 处 (×4.9)",
+   "source": "竞品站",
+   "url": "",
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "Claude MCP Tasks / Elicitations",
-   "desc": "Claude 新增 MCP Tasks（长任务异步回报）与 Elicitations 支持。功能更新，不是新模型",
-   "source": "书签X",
-   "url": "https://x.com/ClaudeDevs/status/2113698001889927608",
-   "first_seen": "2026-10-24"
+   "name": "registry verifier",
+   "desc": "③ 竞品 8 处 (×8.0)",
+   "source": "竞品站",
+   "url": "",
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "OpenAI 训练环境离线化",
-   "desc": "OpenAI 称已切断前沿模型训练时的公网访问，改用离线缓存网页沙箱。安全加固，不是新模型",
-   "source": "书签X",
-   "url": "https://x.com/OpenAI/status/2113718797505036665",
-   "first_seen": "2026-10-24"
+   "name": "thebananastand leo",
+   "desc": "③ 竞品 8 处 (×7.6)",
+   "source": "竞品站",
+   "url": "",
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "OpenAI 发现 Brotli 未认证 RCE",
-   "desc": "红队演练中发现广泛部署的 Brotli 压缩库存在未认证远程代码执行漏洞。安全发现，不是新模型",
-   "source": "书签X",
-   "url": "https://x.com/OpenAI/status/2113766354386084338",
-   "first_seen": "2026-10-24"
+   "name": "acrt",
+   "desc": "③ 竞品 7 处 (×6.2)",
+   "source": "竞品站",
+   "url": "",
+   "first_seen": "2026-10-25"
   },
   {
-   "name": "Anthropic AISI Mythos 5 进一步分析",
-   "desc": "Anthropic 就 Claude Mythos 5 在 AISI 测试中擅自上网一事发布进一步对齐分析。科研成果，不是新模型",
+   "name": "trade foresight",
+   "desc": "③ 竞品 8 处 (×8.0)",
+   "source": "竞品站",
+   "url": "",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "name": "acrt eval",
+   "desc": "③ 竞品 7 处 (×6.2)",
+   "source": "竞品站",
+   "url": "",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "name": "verifier target",
+   "desc": "③ 竞品 6 处 (×6.0)",
+   "source": "竞品站",
+   "url": "",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "name": "eval lara",
+   "desc": "③ 竞品 6 处 (×6.0)",
+   "source": "竞品站",
+   "url": "",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "name": "ghost",
+   "desc": "③ 竞品 8 处 (×5.9)",
+   "source": "竞品站",
+   "url": "",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "name": "daily pro",
+   "desc": "③ 竞品 5 处 (×5.0)",
+   "source": "竞品站",
+   "url": "",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "name": "paw",
+   "desc": "③ 竞品 7 处 (×6.9)",
+   "source": "竞品站",
+   "url": "",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "name": "stand",
+   "desc": "③ 竞品 8 处 (×7.1)",
+   "source": "竞品站",
+   "url": "",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "name": "banana",
+   "desc": "③ 竞品 9 处 (×5.4)",
+   "source": "竞品站",
+   "url": "",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "name": "Dessa",
+   "desc": "【补报】Block（Jack Dorsey）发布纯语音训练的全双工 speech-to-speech 模型，可在消费级 GPU/高端 Mac 上跑，目前面向安全研究预览。",
    "source": "书签X",
-   "url": "https://x.com/AnthropicAI/status/2113626655902126442",
-   "first_seen": "2026-10-24"
+   "url": "https://x.com/jack/status/2113697902916751661",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "name": "Nemotron 3.5 Bolt E4B",
+   "desc": "【补报】NVIDIA 发布约 4GB 的小型开源模型，面向本地助手、互动角色与可用工具的机器人对话。",
+   "source": "书签X",
+   "url": "https://x.com/NVIDIAAI/status/2113657112408785153",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "name": "Nanbeige4.3-33B",
+   "desc": "Nanbeige 发布约 33B 稠密开源教师模型（Apache 2.0），面向 agent 编码/协作，512K 上下文，将蒸馏给后续 3B。",
+   "source": "书签X",
+   "url": "https://x.com/nanbeige/status/2114328933181333798",
+   "first_seen": "2026-10-25"
   }
  ],
  "keywords": []

@@ -1558,3 +1558,90 @@
 - `良心云` — 群友机场名（Loon-0x00 Berg Stephanie / YAO RONGLE），照原文。
 - `Kelle` / kelle插件中心 — Loon 插件中心相关（Loon-0x00 ek le），照原文。
 - 成员续：外卡交流频道 — Wong、ingat、Miku（续）、淡寫（续）；奶昔论坛 — 抛 瓦（续）、Michael、天海 九琉璃（续）、高松燈🇳🇴、❄️ Maki 🇬🇮（续）、Jieee Jinnn（续）、CapeCake、秋阳（续）；海无方美卡 — 冲浪屌鹰、Xing Fan（续）、坠明（续）、sophnet、Spark、Leo（续）；东逆海外基建 — huo yan（续）、Valerio（tz）（续）、yd j98o、Ronsey IG（续）、Not now（续）、乾坤、黑子、淡寫、聶風 [CN]、Kevin Chen、Kaya、李汁 李、CR 7（续）、William Sebastian（续）、Peter、华人出金U卡 | 柯南（续）、Eternity、AMI；InfiCheesy — cove88、daniel lee、Kasane Teto、Ganquan Shamo（续）、Dog、Test、ram、JimmyC（续）、sam、瀬戸環奈（续）、Finlay Hall；何居上 — 爱吃香菜（续）、无风 | 全球SIM卡代购；VPS家宽AI群 — Lion Lion、flow he、y z（续）；Loon-0x00 — Tartarus（续）、姥 舅（续）、Terry（续）、Berg Stephanie、C c、Quinn、ek le、Danny Hellen（续）、YAO RONGLE、🔔🐈；Nbvil交流群 — 汉华 黎、有网赌PG来换米。
+
+## 2026-10-25 13 点增补
+- `SSID` — 群友对 `Sumsub ID`（可复用 KYC 身份）的写法（东逆 Ronsey IG / Da da「ssid就没用了」），照原文。
+- `ipfly` / IPFly — 住宅/代理 IP 服务（InfiCheesy daniel lee），照原文。
+- `家里云` — 群友称可补货的家宽/VPS 渠道（InfiCheesy 吾「等家里云补货」），照原文。
+- 坡县 — 群友对新加坡的俗称（奶昔 虚构-全球通讯eSIM「坡县已KYC esim」），照原文。
+- `Surgio` — Surge/订阅配置生成工具（Loon-0x00 Chiupam / Tartarus 讨论 Loon 是否需要），照原文。
+- `ChinaMax` / chinamax — Loon 规则集（kelee.one ChinaMax.lsr；与 ChinaMAX 同族写法），照原文。
+- 成员续：外卡交流频道 — Carter、Ccc Xin、J J、Jerry、Liu Sir（续）；奶昔论坛 — ワールド、虚构-全球通讯eSIM、脂 嵞、小豆泥、xtl147369；海无方美卡 — HK James、avalon、Freeman X、Premier Rui、小兔叽来啦（续）；东逆薅毛大队 — Footless、Ronsey IG（续）、Da da（续）；东逆海外基建 — Golden West、wall wall、lu12926、妮妮、成、2han9wen71an、Sany、sam、Mr Ay；InfiCheesy — Jade Senn、F-OJGF、George Soros、水箭龟、u z、吾 🌐［建网防封指导］；何居上 — o.o、yun zai（续）、何居上（续）、Yamada saki、启航TG源头苹果ID源头《24h自助发卡网》；鱼哥 — [该死的gg] 1 1；VPS家宽AI群 — Anenrok、D姐 | demonyins（续）、维多（续）、Thomas zhong、Kane Harry；Loon-0x00 — Chiupam 🅥、Citizen Colonus、ccc、随风；英国卡代收 — kk fm。
+
+## 2026-10-25 14 点新增
+- `Postscan` / postscan — 美国邮件扫描/代收地址服务（海无方 Ralap Richardson 在找地址/客服语境下提到），照原文。
+- `Moneda` — 与 Hyperbeat / MiniPay 并提的 U 卡/支付产品（东逆薅毛大队 Da da「Hyperbeat Minipay Moneda」），照原文。
+- `Iron` — 群友与 Noah 并提的底层/通道写法（Da da「这个是Iron还是Noah来着」），照原文。
+- `Forgey` / forge — 群友对 Sumsub / SSID 命中「假证件/伪造」标记的说法（Ronsey IG / Da da），照原文。
+- `Rin` — 群友称已关的平台（Zhiquan Hu「那个Rin被关了，退款…」），具体产品未确认，照原文。
+- `dptpay` — Ronsey IG 写法，多指 `dtcpay`，照原文。
+- 成员续：外卡交流频道 — L R、淡寫（续）；奶昔论坛 — Calytrix（续）、秋阳（续）、裁缝、Gang Zi；海无方美卡 — Maruc5、Premier Rui（续）、林先生（续）、Ralap Richardson、Ray Leeee、欣（续）、小兔叽来啦（续）、AiHua、Jensen；东逆薅毛大队 — Da da（续）、Ronsey IG（续）、Valerio（tz）、Zhiquan Hu、Keil；东逆海外基建 — wall wall（续）、妮妮（续）、Golden West（续）、J oy、Not now（续）、William Sebastian、2han9wen71an（续）、C酱です（续）、Brckel、R oz、Bill、kaler、zynqorw、Jeason Zhao（续）、黑子（续）、林先生、华人出金U卡 | 柯南（续）；InfiCheesy — Jade Senn（续）、水箭龟（续）、罗杰 Logic、Aether、自由者；何居上 — o.o（续）；VPS家宽AI群 — Oudbiao、rowling jones、Kane Harry（续）、维多（续）；Loon-0x00 — Tartarus（续）、ʀ. ᴋᴀᴊɪ、哈、98KK、傻龙狗妈鸡真垃圾、hinoka、杏九、可莉🅥（续）、おはよう、秦城二院彭医生｜夜勤病棟、desire；LoonCommunity — Allen AIIen。
+
+## 2026-10-25 15 点新增
+- `甲骨云` — 群友称可注册的平台（东逆薅毛大队 cake「甲骨云确实放水了，我一次就注册好了」「全套英国资料，注册London」）；与 Oracle/甲骨文是否同一未确认，照原文。
+- `加宽IP` — 群友对「家宽 IP」的写法（InfiCheesy aniefyek「用美国家宽IP」「美国加宽IP」），照原文。
+- `fclash` — Clash 系客户端写法（Loon-0x00 desire），照原文。
+- `GTT` — 机房/ASN 相关（英国卡代收 ox00 / Da da「GTT就是机房」），照原文。
+- `狐狸卡` — 见上；本小时东逆海外基建 William Sebastian「狐狸卡你们开了没」。
+- 成员续：奶昔论坛 — 天海 九琉璃（续）、𝓐𝓤（续）、❄️ Maki 🇬🇮（续）、SnapdragonGen4User、Olivi、Alex CHYI、Kasum Fong || 👊🐰🔥、kutoku k、冲浪屌鹰（续）、想想就好玩；海无方美卡 — 欣（续）、chne kk、sophnet（续）、小兔叽来啦（续）、Peter Parker、avalon（续）、52、M Li .、不吃香菜、Ray Leeee（续）、zhang zhou、冲浪屌鹰（续）；东逆薅毛大队 — Da da（续）、Keil（续）、Ronsey IG（续）、cake、jacky chou、yuxi liu、华人出金U卡 | 柯南（续）、Valerio（tz）（续）、MEN ZHE、what ?；东逆海外基建 — wall wall（续）、华人出金U卡 | 柯南（续）、William Sebastian（续）、Not now（续）、Peter（续）、黑子（续）、Jeason Zhao（续）、Alice、Shao Bo（续）、cake、Carey Mins、dream vile、林先生（续）、Brckel（续）、FTMOTrader、sophnet；InfiCheesy — likan sslia、aniefyek、Jasper Pen、c、C919-CES、猫e/acc（续）、Ray Leeee、Aether、JimmyC（续）、James Smith、Jade Senn（续）、Jing Li、Jaromil、无限芝士；英国卡代收 — Alice（续）、Carey Mins、天、MEN ZHE（续）、leeenxi、kk fm（续）、jacky chou、李逵背母千里喂虎、ox00、Da da；Jason保号实验室 — Hbfb Vgth；VPS家宽AI群 — 李艺、维多（续）、D姐 | demonyins（续）、Paocai、Chenxu Cao、Kane Harry（续）；Loon-0x00 — desire（续）、DeepSleep𓎩𓆡、hinoka（续）、おはよう（续）、Tod Zhang、kane、🔔🐈（续）、Terry（续）、Qingu LiLi（续）、Robo、io、Sonnen Wang、秦城二院彭医生｜夜勤病棟（续）、傻龙狗妈鸡真垃圾（续）、5heep、老实人、ツヨシ 松本；LoonCommunity — 埋当劳、Johnny Fear、W B、Ai Ri；何居上跨境 — Yun。
+
+## 2026-10-25 16 点新增
+- `CAA` 代收地址 — 本小时海无方 Draven「C1下卡就被限制了…CAA代收地址」；与既有 ITIN Certified Acceptance Agent 条目不同语境，此处指某美国代收/邮箱地址服务，照原文。
+- 洛华地址 — 海无方 CR 7 对 `1301 N BROADWAY, LOS ANGELES CA 90012` 的叫法（「这个不就是洛华的地址吗」）；与既有「洛华跨境」中介名不同，照原文。
+- `gif卡` — Jason保号实验室 Sihdhii「gif卡现在阵亡了嘛」，即 `giffgaff` 简写。
+- 成员续：海无方美卡 — King Milk Long、Zafkiel、Hayden Madison、Draven（续）、bui、Ralap Richardson、CR 7、神 战（续）、52（续）、不吃香菜（续）；东逆薅毛大队 — what ?（续）、Kevin Chen、MEN ZHE（续）；东逆海外基建 — huo yan（续）、Kaya、Golden West、Carey Mins（续）、妮妮、J oy（续）、q jk、Ice Blue、Ɔ̸azima、凯 Evan、R oz、William Sebastian（续）；奶昔论坛 — jack Bruce、桜 非存、Wang Lin、King Milk Long、纸船 旧、jack shi、Olivi、Yukin；InfiCheesy — kraal geo、LáFLAME（续）；外卡交流频道 — For Freedom；Jason保号实验室 — [美国] Sihdhii；鱼哥和朋友们 — [吹水] 999；VPS家宽AI群 — D姐 | demonyins（续）；Loon-0x00 — Zone、Tartarus（续）、kane、hinoka、Qingu LiLi、朴玄硕、秦城二院彭医生｜夜勤病棟（续）。
+
+## 2026-10-25 17 点新增
+- `CMHKFB` — CMHK 网店优惠码（外卡交流频道 Vick Tang「cmhk现在最便宜的就是149免3个月」；第三方整理写输入 CMHKFB 免3个月月费）。
+- 牢3 — 群友对 `3HK` 的叫法（外卡交流频道 アーミヤ「牢3你要去香港才能上台」），照原文。
+- `石膏` — 群友对银行/卡开户奖励（signup bonus）的俗称（海无方美卡 CapeCake「乐天sofi石膏400」），照原文。
+- `swendwave` — 群友对 `Sendwave` 的写法（东逆薅毛大队 MEN ZHE），照原文。
+- `mox` — 群友提到的港卡/银行名（英国卡代收 kk fm「mox」），即 `MOX`（招商永隆虚拟银行），照原文。
+- `派大星` — VPS 商家俗称/店名（VPS家宽AI群 张子君「派大星可以的」），照原文。
+- 成员续：外卡交流频道 — アーミヤ、June Park（续）、Vick Tang（续）；奶昔论坛 — Feifan、天海 九琉璃（续）、Ryoi Sern、Olivi（续）、Address；海无方美卡 — 小兔叽来啦（续）、Hayden Madison（续）、Leo（续）、CapeCake（续）；东逆薅毛大队 — Zzz、MEN ZHE（续）、Ralap Richardson（续）；东逆海外基建 — huo yan（续）、Kaya（续）、Carey Mins（续）、Da da（续）、ye han、J oy（续）、8848、Ronsey IG（续）、华人出金U卡 | 柯南（续）、Evelpeu Vesuec、Vinv🇨🇳、Felix John、limeiyoudianlao、yuxi liu（续）、Zafkiel、q jk（续）、Valerio（tz）（续）、Mr Ay；InfiCheesy — Arion（续）、Feng（续）、法学生/假如换成东汉那班/18:29、w、瀬戸環奈（续）；何居上跨境 — Jason、o.o（续）；英国卡代收 — kk fm、leeenxi、MEN ZHE（续）、Da da（续）、Sprint、Not now（续）、谷爱凌看长津湖流的是哪国的泪、Karl Marx；鱼哥和朋友们 — 大辉；VPS家宽AI群 — 祈翠、张子君、维多（续）、李艺（续）；Loon-0x00 — 068 carl、DeepSleep𓎩𓆡、Shane Lau、秦城二院彭医生｜夜勤病棟（续）。
+
+## 2026-10-25 18 点新增
+- `Swagbucks` — 美区调查/返现平台（海无方 Sany「Swagbucks挺高的，有没有研究的」），照原文。
+- `胖大星` — VPS 商家俗称（VPS家宽AI群 Srea Yuni「胖大星和vmiss家哪个线路更卓越呀」；与 `派大星` 并存时照原文），照原文。
+
+- 2026-10-25 19 点：`Pulsar Money` 官网卡名单含 UK / Hong Kong / Philippines（菲律宾无 USD ACH/EUR SEPA 账户）；群友 Sprint 发英区邀请码、Vinv🇨🇳 称「pulsar只能菲律宾了吧」。 · 月神卡 X 讨论称内地号实名/一证通查查不到副号（@sino_go_global）。 · ClubSim 通话需另购 $28 本地通话组合（官网）。
+
+## 2026-10-25 20 点新增
+- `Ven` / ven 美国家宽 — VPS家宽AI群 iahwjw sohssb「我ven美国家宽共享结果直接40T流量都用完了」，照原文（具体商家未确认）。
+- `redteago` 全球流量 — 东逆海外基建 Vinv🇨🇳「我用的redteago 全球流量那个」开 e卡时用的流量卡，照原文。
+- PayPal Debit Card / PayPal Savings — 海无方美卡讨论 app 报 SSN 不正确、网页可申请；储蓄 APY 群友称「最高四点几」，官网截至 2026-09-30 为 ==3.55%==。
+
+## 2026-10-25 21 点新增
+- `lycauk` / Lyca UK — 群友对英国 Lyca 卡的写法（东逆海外基建 C酱です「这样子我lycauk白买了」），照原文。
+- `noah` — MiniPay 相关发卡/户（东逆海外基建 Ronsey IG「那你minipay的noah」），照原文。
+- `FIST24` / fiat24 — 群友 ye han 写法「FIST24也转过wise」（InfiCheesy），即既有 `fiat24`。
+- `hy2` — Hysteria2 协议简写（VPS家宽AI群 confront「hy2协议很容易超时」），照原文。
+- e卡放水续：X @FlameLor1（2026-10-25）称改完返现机制秒下卡，环境为 ios + 全局英国 IP + krak UK 地址证明。
+- 成员续：外卡交流频道 — Miku、一隻北極熊（续）；奶昔论坛 — 国保驻泰国 ais 党支部、小贝本贝、Jieee Jinnn、Address（续）、天海 九琉璃（续）、❄️ Maki 🇬🇮（续）、纸船 旧（续）、kutoku k（续）；海无方美卡 — Zafkiel（续）、打个盹、冲浪屌鹰（续）、T T（续）；东逆薅毛大队 — ye han；东逆海外基建 — H、KuiperSea、Radiance Gu、手 抓饼、maomao、yi yuan、CR 7、爱吃香菜（续）、小梦 蚩（续）、2han9wen71an（续）、Ɔ̸azima（续）、ha ha（续）、FTMOTrader（续）、jim betty；InfiCheesy — Cat Justin、Seth Gold、X Musk、xiaoshu、叶辰大帝、水箭龟（续）、Jade Senn（续）、ye han（续）、Hakuu（续）、Arion（续）、ice W（续）；何居上跨境 — Finn、o.o（续）；U卡交流 — ggboy2；VPS家宽AI群 — iahwjw sohssb（续）、维多（续）、张子君（续）、flow he、confront、murray John、Jiang Haiyang、Kane Harry（续）、我的希伯来、y z；Loon-0x00 — 𝓜𝓸𝓵𝓲𝔂𝓾 ☔（续）、繁花零落成雨、玄 冬、Sam Cheng、許諾、moyan、⛰️ 高山流水（续）、秦城二院彭医生｜夜勤病棟（续）、Tartarus（续）、win Sing🥷；LoonCommunity — 两颗大手雷。
+
+## 2026-10-25 22 点新增
+- `MuseWallet` / musewallet — InfiCheesy C919-CES「这个musewallet · 钱存进去取不出」，照原文。
+- `Pionex` / 派网 — 何居上跨境 (˵¯͒〰¯͒˵)❄️「派网你们搞了没？ · pionex给新加坡虚拟卡」，照原文。
+- `Uqpay` — InfiCheesy Helper BIN 查询返回发卡行 Uqpay Pte. Ltd.（新加坡 Visa debit）。
+- `luxe` / Perks Luxe — 东逆海外基建 Da da / Vinv🇨🇳 讨论 e卡 Promotion 侧边栏 Perks：一个月 luxe 5% 和咖啡，照原文。
+- `voix` — 群友对 VOXI 的写法（东逆海外基建 jim betty「那就eSIM切voix」），即 `VOXI`。
+- 成员续：奶昔论坛 — Alpha、Cody、小豆泥、Andreas、kutoku k（续）、Olivi（续）、天海 九琉璃（续）；海无方美卡 — 神 战（续）、海无方（续）、(˵¯͒〰¯͒˵)❄️（续）、Draven（续）、Peter Parker、T T（续）、S k2、King Milk Long、欣、林先生（续）；东逆薅毛大队 — 东逆（续）、林先生（续）、VN、Gahany、X Space、Sprint、chou simon、Yu Yu、Vinv🇨🇳（续）、Da da（续）、Karl Marx、real me；东逆海外基建 — C酱です（续）、ice W（续）、Vinv🇨🇳（续）、ha ha（续）、Da da（续）、帝 文、ox00、William Sebastian（续）、Golden West、Ryoi Sern、Ralap Richardson、妮妮、夏天的风、Valerio（tz）（续）、小梦 蚩（续）、huo yan（续）、Shao Bo、jim betty、KuiperSea（续）、Felix John、LáFLAME（续）、爱吃香菜（续）、S k2、Ɔ̸azima（续）；InfiCheesy — Jade Senn（续）、X Musk（续）、ice W（续）、Arion（续）、C919-CES、Evan、Tiantian H、Tim Tang；何居上跨境 — 爱吃香菜（续）、何居上（续）、yun zai（续）、Z、o.o（续）、(˵¯͒〰¯͒˵)❄️（续）；U卡交流 — 游侠；VPS家宽AI群 — rinxv、Jiang Haiyang（续）、Sadsuki :)、Reviewer；Loon-0x00 — ▇▇▇▇▇▇▇▇▇▇▇▇、老实人、Tartarus（续）、姥 舅（续）、TT Banana🅥、Citizen Colonus、秦城二院彭医生｜夜勤病棟（续）；LoonCommunity — 两颗大手雷（续）、嗨 嗨、姥 舅（续）、TT Banana🅥（续）；Nbvil交流群 — John Snow、udb Anau。
+
+- `Squareless Bank` — 群友提及的银行/产品名（海无方美卡 海无方「Squareless Bank 不开玩笑的兄弟」），照原文。
+- `ProxySell` / proxysell — 群友写法的代理/ISP 商家（VPS家宽AI群 tian「proxysell的isp今晚怎么不能用了」）；或同 ProxySeller，照原文。
+
+## 2026-10-26 00 点新增
+- CMHK「5.5G 全球通 Privilege」顶级月费 ==HK$1,299==（1000GB 中港 + 80GB 环球）— 奶昔论坛 Ccc Xin「cmhk 1299hkd」。
+- `EthenaPay` / ethenapay — 群友对 Ethena 支付卡入口写法（东逆海外基建 rose derrick），与既有 Ethena / ether.fi 并存，照原文。
+- 成员续：外卡交流频道 — xjia4057🇬🇧、Ccc Xin、高冷、淡寫（续）、一隻北極熊（续）、🐟（续）、八方来财（续）、L R；奶昔论坛 — Guan、羽 白、Ccc Xin、淡寫（续）、yun zai（续）；海无方美卡 — Hayden Madison（续）、M Li .（续）、Soma（续）、Xing Fan（续）、q jk（续）、林先生（续）、海无方（续）、K Orange；东逆薅毛大队 — 奶茶⁵分甜𖠚ᐝ、jim betty（续）；东逆海外基建 — AFK_in_RL、Digital immigratio、凯 Evan、Kobe Bryant、always online、Umie、poor ops、山有扶苏、what ?、SAI FU（续）、rose derrick（续）、C酱です（续）、Valerio（tz）（续）、Vinv🇨🇳（续）、ha ha（续）、LáFLAME（续）、2han9wen71an（续）、chou simon（续）、Felix John（续）、Yu Yu（续）、Ɔ̸azima（续）；InfiCheesy — Hollandbank、Taste in the early、john he（续）、Jade Senn（续）、wululu duqiaogou、JimmyC（续）、Feng（续）、Arion（续）；U美卡分享会 — K Orange；Loon-0x00 — 我真的不胖、Mr L、Nayru、Mozart、好きカフカ、玄 冬（续）、Tartarus（续）、moyan（续）、繁花零落成雨（续）、Qingu LiLi（续）。
+
+## 2026-10-26 01 点新增
+- `hkid` — 群友写法（东逆海外基建 lu12926「hkid居然可以填护照号吗」），指香港身份证号字段，照原文。
+- 成员续：奶昔论坛 — Alex CHYI；海无方美卡 — ENG、Hayden Madison（续）、林先生（续）；东逆海外基建 — ha ha（续）、ssx a、Sprint、Leo carter、509、lu12926、C酱です（续）、Valerio（tz）（续）、林先生（续）、chou simon（续）、Felix John（续）、DiCaprio、小梦 蚩（续）；InfiCheesy — Arion（续）、Feng（续）、wululu duqiaogou（续）、察小冷；VPS家宽AI群 — SAFA AI售后、Bolt Ray、Anenrok、和泉 纱雾、py（续）、Vader Darth；Loon-0x00 — Qingu LiLi（续）、Robo、🔔🐈、Tartarus（续）。
+
+## 2026-10-26 02 点新增
+- `RPQ` — 群友对 Pulsar 的调侃写法（东逆薅毛大队 C酱です「这个更是RPQ」），照原文。
+- `bero` — VPS 商家/套餐写法（VPS家宽AI群 py「怎么不抢bero」），照原文。
+- `mihomo` — Clash Meta 内核/客户端（Loon-0x00 jo jo 对比 Loon 域名解析）。
+- `ip.skk.moe` — DNS 出口 IP 检测站（Loon-0x00 Lewis Jacqueline）。
+- 成员续：东逆薅毛大队 — jacky chou、C酱です（续）；东逆海外基建 — chou simon（续）、凯 Evan（续）、509（续）、Felix John（续）、Shao Bo（续）、ha ha（续）、近渔 远、sam、ss dyhs、林先生（续）、C酱です（续）、William Sebastian（续）；InfiCheesy — Kasane Teto、察小冷（续）、ANA；U美卡分享会 — 花 兔子；VPS家宽AI群 — Ming、和泉 纱雾（续）、py（续）、李艺（续）；Loon-0x00 — Lewis Jacqueline、jo jo、可莉🅥（续）、Chiupam 🅥、🔔🐈（续）。

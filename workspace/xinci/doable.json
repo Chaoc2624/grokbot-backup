@@ -1,5 +1,5 @@
 {
- "day": "2026-10-24",
+ "day": "2026-10-25",
  "config": {
   "min_volume": 500,
   "max_kd": 31,
@@ -20,190 +20,187 @@
  },
  "terms": [
   {
-   "phrase": "net worth tracker",
+   "phrase": "food personality quiz",
    "source": "模型提取",
    "names": [
-    "aurelio finance"
+    "mclife desk"
    ],
-   "evidence": "tracks net worth, ETFs, investments and cash",
+   "evidence": "通过轻松的趣味测试，找到属于你的麦门消费人格，生成一张可以分享的麦门身份卡",
    "competition": {
     "verdict": "open",
     "weak": null,
-    "kd": 17,
+    "kd": 1,
     "ads": false,
     "kinds": {
-     "article": 2,
-     "list": 1,
-     "tool": 3,
-     "video": 1,
-     "forum": 1
+     "article": 9
     },
     "features": [
      "ai_overview",
-     "discussions_and_forums",
-     "people_also_ask",
      "related_searches"
     ],
     "weakest": null
    },
-   "radar_volume": 1300,
+   "radar_volume": 140,
    "decision": "watch",
    "overview_ok": true,
-   "volume": 1000,
-   "cpc": 3.29,
-   "comp": 0.46,
-   "results": 125,
+   "volume": 40,
+   "cpc": 0.0,
+   "comp": 0.33,
+   "results": 133,
    "kd_ok": true,
-   "kd": 44,
+   "kd": null,
+   "kd_skipped": true,
    "verdict": "open",
    "comp_detail": {
     "verdict": "open",
     "weak": null,
-    "kd": 17,
+    "kd": 1,
     "ads": false,
     "kinds": {
-     "article": 2,
-     "list": 1,
-     "tool": 3,
-     "video": 1,
-     "forum": 1
+     "article": 9
     },
     "features": [
      "ai_overview",
-     "discussions_and_forums",
-     "people_also_ask",
      "related_searches"
     ],
     "weakest": null
    },
    "tool_intent": false,
-   "kdroi": 74.8,
-   "allintitle": 2590,
+   "kdroi": 0.0,
    "checks": {
-    "月搜": true,
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": true,
+    "allintitle": null
+   },
+   "score": 30,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "ai tutoring app",
+   "source": "模型提取",
+   "names": [
+    "learnharness"
+   ],
+   "evidence": "LearnHarness uses AI agents to plan and teach lessons from your current understanding to your goal.",
+   "competition": null,
+   "radar_volume": 320,
+   "decision": "skip",
+   "overview_ok": true,
+   "volume": 170,
+   "cpc": 1.88,
+   "comp": 0.16,
+   "results": 144,
+   "kd_ok": true,
+   "kd": 74,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 4.3,
+   "checks": {
+    "月搜": false,
     "KD": false,
     "CPC": true,
-    "首页竞争": true,
-    "allintitle": true
+    "首页竞争": null,
+    "allintitle": null
    },
-   "score": 74,
+   "score": 27,
    "failed": [
+    "月搜",
     "KD"
    ],
-   "unknown": []
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
   },
   {
-   "phrase": "ai financial advisor",
+   "phrase": "food carbon footprint calculator",
    "source": "模型提取",
    "names": [
-    "aurelio finance"
+    "mccarbon"
    ],
-   "evidence": "personal finance app with an AI advisor you can talk to",
+   "evidence": "把它算出来，还告诉你换成什么能少一点 / 按三层碳核算模型（餐品 / 包装 / 配送）估算出个人餐饮碳足迹",
    "competition": null,
-   "radar_volume": 1900,
+   "radar_volume": 110,
    "decision": "skip",
    "overview_ok": true,
-   "volume": 1600,
-   "cpc": 8.65,
-   "comp": 0.55,
-   "results": 116,
+   "volume": 170,
+   "cpc": 0.0,
+   "comp": 0.03,
+   "results": 108,
    "kd_ok": true,
-   "kd": 52,
-   "verdict": "mixed",
-   "comp_detail": {
-    "kinds": {
-     "article": 4,
-     "forum": 1,
-     "list": 3,
-     "video": 1
-    },
-    "ads": false,
-    "features": [
-     "ai_overview",
-     "people_also_ask",
-     "related_searches"
-    ],
-    "top": [
-     "mitsloan.mit.edu",
-     "advisors.vanguard.com",
-     "reddit.com",
-     "jump.ai",
-     "wealthenhancement.com",
-     "useorigin.com",
-     "m1.com",
-     "whistl.app",
-     "youtube.com"
-    ],
-    "source": "serp",
-    "soft_weak": 2
-   },
-   "tool_intent": false,
-   "kdroi": 266.2,
-   "small_sites": 7,
-   "allintitle": 52,
+   "kd": 54,
+   "verdict": null,
+   "tool_intent": true,
+   "kdroi": 0.0,
    "checks": {
-    "月搜": true,
+    "月搜": false,
     "KD": false,
-    "CPC": true,
-    "首页竞争": false,
-    "allintitle": true
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
    },
-   "score": 69,
+   "score": 38,
    "failed": [
+    "月搜",
     "KD",
-    "首页竞争"
+    "CPC"
    ],
-   "unknown": []
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
   },
   {
-   "phrase": "personal finance tracker",
-   "source": "模型提取",
+   "phrase": "dessa",
+   "source": "书签X",
    "names": [
-    "aurelio finance"
+    "Dessa"
    ],
-   "evidence": "personal finance app with an AI advisor you can talk to. tracks net worth, ETFs, investments and cash",
-   "competition": null,
-   "radar_volume": 590,
-   "decision": "skip",
+   "evidence": "全新语音模型名、浏览超千万/收藏七万+；适合做全双工语音对话评测与本地/研究接入指南页。",
    "overview_ok": true,
-   "volume": 720,
-   "cpc": 6.58,
-   "comp": 0.84,
-   "results": 129,
+   "volume": 5400,
+   "cpc": 1.19,
+   "comp": 0.01,
+   "results": 108,
    "kd_ok": true,
-   "kd": 79,
-   "verdict": "mixed",
+   "kd": 57,
+   "verdict": "crowded",
    "comp_detail": {
     "kinds": {
-     "tool": 2,
-     "article": 3,
-     "forum": 1,
-     "list": 2
+     "article": 8
     },
     "ads": false,
     "features": [
      "ai_overview",
-     "people_also_ask",
-     "related_searches",
+     "knowledge_graph",
      "video"
     ],
     "top": [
-     "mint.intuit.com",
-     "notion.com",
-     "excel.cloud.microsoft",
-     "reddit.com",
-     "goodbudget.com",
-     "play.google.com",
-     "spendee.com",
-     "quicken.com"
+     "soundcloud.com",
+     "music.apple.com",
+     "hyper.ai",
+     "aiprofitboardroom.com",
+     "open.spotify.com",
+     "genius.com",
+     "music.apple.com",
+     "thenews.com.pk"
     ],
     "source": "serp",
-    "soft_weak": 1
+    "soft_weak": 0
    },
    "tool_intent": false,
-   "kdroi": 60.0,
+   "kdroi": 112.7,
    "small_sites": 6,
-   "allintitle": 45,
+   "allintitle": 56,
    "checks": {
     "月搜": true,
     "KD": false,
@@ -211,7 +208,7 @@
     "首页竞争": false,
     "allintitle": true
    },
-   "score": 48,
+   "score": 55,
    "failed": [
     "KD",
     "首页竞争"
@@ -219,85 +216,12 @@
    "unknown": []
   },
   {
-   "phrase": "investment portfolio tracker",
-   "source": "模型提取",
-   "names": [
-    "aurelio finance"
-   ],
-   "evidence": "tracks net worth, ETFs, investments and cash",
-   "competition": null,
-   "radar_volume": 260,
-   "decision": "skip",
-   "overview_ok": true,
-   "volume": 110,
-   "cpc": 5.06,
-   "comp": 0.53,
-   "results": 119,
-   "kd_ok": true,
-   "kd": 42,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 13.3,
-   "checks": {
-    "月搜": false,
-    "KD": false,
-    "CPC": true,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 40,
-   "failed": [
-    "月搜",
-    "KD"
-   ],
-   "unknown": [
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "kimi k3.1 pro",
-   "source": "书签X",
-   "names": [
-    "Kimi K3.1 Pro"
-   ],
-   "evidence": "全新旗舰名、浏览近 200 万/收藏四千+；适合做评测对比与本地/API 接入指南页。",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "reylo online",
+   "phrase": "dessa assessment free",
    "source": "Google 补全",
    "names": [
-    "reylo"
+    "Dessa"
    ],
-   "evidence": "reylo 的补全长尾（共 190 条）",
+   "evidence": "Dessa 的补全长尾（共 219 条）",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -328,23 +252,23 @@
    ]
   },
   {
-   "phrase": "reflex online",
+   "phrase": "mcm events online",
    "source": "App Store 新上榜",
    "names": [
-    "Reflex - Flexible Retail Work"
+    "MCM Events"
    ],
-   "evidence": "美区免费榜第 42 名，上架 2023-07-06",
+   "evidence": "美区免费榜第 70 名，上架 2023-10-06",
    "overview_ok": true,
-   "volume": 20,
-   "cpc": 0.0,
-   "comp": 0.04,
-   "results": 0,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": 0.0,
+   "kdroi": null,
    "checks": {
     "月搜": false,
     "KD": null,
@@ -396,12 +320,12 @@
    ]
   },
   {
-   "phrase": "allow alternative",
+   "phrase": "for starlink alternative",
    "source": "Hacker News",
    "names": [
-    "Allow"
+    "For Starlink"
    ],
-   "evidence": "HN「Apple ordered Allow alternative App Stores - Violated Australian Compe」4 分",
+   "evidence": "HN「For Starlink alternative, Ukraine partners with Nokia and satellite ma」8 分",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -432,96 +356,71 @@
    ]
   },
   {
-   "phrase": "deepseek ai free",
+   "phrase": "dessa vs detta",
    "source": "Google 补全",
    "names": [
-    "deepseek"
+    "Dessa"
    ],
-   "evidence": "deepseek 的补全长尾（共 270 条）",
+   "evidence": "Dessa 的补全长尾（共 219 条）",
    "overview_ok": true,
-   "volume": 1900,
-   "cpc": 1.97,
-   "comp": 0.32,
-   "results": 119000,
-   "kd_ok": true,
-   "kd": 27,
-   "verdict": "mixed",
-   "comp_detail": {
-    "kinds": {
-     "article": 1,
-     "tool": 3,
-     "list": 2,
-     "forum": 1,
-     "video": 1
-    },
-    "ads": false,
-    "features": [
-     "ai_overview",
-     "people_also_ask",
-     "related_searches",
-     "video"
-    ],
-    "top": [
-     "play.google.com",
-     "ai.updf.com",
-     "datastudios.org",
-     "reddit.com",
-     "chat4o.ai",
-     "justinmckelvey.com",
-     "youtube.com",
-     "pricepertoken.com"
-    ],
-    "source": "serp",
-    "soft_weak": 2
-   },
-   "tool_intent": false,
-   "kdroi": 138.6,
-   "small_sites": 5,
-   "allintitle": 49,
-   "checks": {
-    "月搜": true,
-    "KD": true,
-    "CPC": true,
-    "首页竞争": false,
-    "allintitle": true
-   },
-   "score": 73,
-   "failed": [
-    "首页竞争"
-   ],
-   "unknown": []
-  },
-  {
-   "phrase": "fox one online",
-   "source": "App Store 新上榜",
-   "names": [
-    "FOX One: Live News, Sports, TV"
-   ],
-   "evidence": "美区免费榜第 61 名，上架 2025-08-20",
-   "overview_ok": true,
-   "volume": 50,
-   "cpc": 0.69,
-   "comp": 0.23,
-   "results": 717,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": 34.5,
+   "kdroi": null,
    "checks": {
     "月搜": false,
     "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "youtube tv online",
+   "source": "App Store 新上榜",
+   "names": [
+    "YouTube TV"
+   ],
+   "evidence": "美区免费榜第 80 名，上架 2017-04-05",
+   "overview_ok": true,
+   "volume": 260,
+   "cpc": 2.61,
+   "comp": 0.11,
+   "results": 315000,
+   "kd_ok": true,
+   "kd": 88,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 7.7,
+   "checks": {
+    "月搜": false,
+    "KD": false,
     "CPC": true,
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 13,
+   "score": 29,
    "failed": [
-    "月搜"
+    "月搜",
+    "KD"
    ],
    "unknown": [
-    "KD",
     "首页竞争",
     "allintitle"
    ]
@@ -558,46 +457,12 @@
    ]
   },
   {
-   "phrase": "deepseek free api",
+   "phrase": "dessa vs denna",
    "source": "Google 补全",
    "names": [
-    "deepseek"
+    "Dessa"
    ],
-   "evidence": "deepseek 的补全长尾（共 270 条）",
-   "overview_ok": true,
-   "volume": 480,
-   "cpc": 3.48,
-   "comp": 0.13,
-   "results": 135,
-   "kd_ok": true,
-   "kd": 66,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 25.3,
-   "checks": {
-    "月搜": false,
-    "KD": false,
-    "CPC": true,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 40,
-   "failed": [
-    "月搜",
-    "KD"
-   ],
-   "unknown": [
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "vizio remote official online",
-   "source": "App Store 新上榜",
-   "names": [
-    "VIZIO Remote (Official)"
-   ],
-   "evidence": "美区免费榜第 70 名，上架 2016-03-21",
+   "evidence": "Dessa 的补全长尾（共 219 条）",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -628,130 +493,62 @@
    ]
   },
   {
-   "phrase": "nebraska vs oregon",
-   "source": "Google Trends",
-   "names": [],
-   "evidence": "7d 上升，12 个月内新出现",
+   "phrase": "tubi online",
+   "source": "App Store 新上榜",
+   "names": [
+    "Tubi: Movies & Live TV"
+   ],
+   "evidence": "美区免费榜第 88 名，上架 2014-07-24",
    "overview_ok": true,
-   "volume": 1600,
-   "cpc": 0.59,
-   "comp": 0.21,
-   "results": 108,
+   "volume": 590,
+   "cpc": 1.34,
+   "comp": 0.01,
+   "results": 0,
    "kd_ok": true,
-   "kd": 26,
-   "verdict": "mixed",
+   "kd": 69,
+   "verdict": "crowded",
    "comp_detail": {
     "kinds": {
-     "list": 4,
-     "article": 2,
-     "forum": 1
+     "tool": 7,
+     "article": 2
     },
     "ads": false,
     "features": [
      "ai_overview",
-     "perspectives",
-     "related_searches",
-     "video"
+     "people_also_ask",
+     "related_searches"
     ],
     "top": [
-     "espn.com",
-     "goducks.com",
-     "huskers.com",
-     "huskermax.com",
-     "seatgeek.com",
-     "cornnation.com",
-     "espn.com"
+     "corporate.tubitv.com",
+     "tubitv.com",
+     "tubitv.com",
+     "channelstore.roku.com",
+     "tubitv.com",
+     "en.wikipedia.org",
+     "tubitv.com",
+     "apps.apple.com",
+     "instagram.com"
     ],
     "source": "serp",
-    "soft_weak": 1
+    "soft_weak": 0
    },
    "tool_intent": false,
-   "kdroi": 36.3,
-   "small_sites": 7,
-   "allintitle": 640,
+   "kdroi": 11.5,
+   "small_sites": 6,
+   "allintitle": 54,
    "checks": {
     "月搜": true,
-    "KD": true,
+    "KD": false,
     "CPC": true,
     "首页竞争": false,
     "allintitle": true
    },
-   "score": 62,
+   "score": 31,
    "failed": [
+    "KD",
     "首页竞争"
    ],
    "unknown": []
-  },
-  {
-   "phrase": "deepseek free tier",
-   "source": "Google 补全",
-   "names": [
-    "deepseek"
-   ],
-   "evidence": "deepseek 的补全长尾（共 270 条）",
-   "overview_ok": true,
-   "volume": 40,
-   "cpc": 0.0,
-   "comp": 0.01,
-   "results": 0,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 0.0,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "waymo online",
-   "source": "App Store 新上榜",
-   "names": [
-    "Waymo"
-   ],
-   "evidence": "美区免费榜第 84 名，上架 2019-12-05",
-   "overview_ok": true,
-   "volume": 20,
-   "cpc": 0.75,
-   "comp": 0.19,
-   "results": 0,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 15.0,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": true,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 13,
-   "failed": [
-    "月搜"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
   },
   {
    "phrase": "arial definition",
@@ -786,69 +583,73 @@
    ]
   },
   {
-   "phrase": "alexa free",
+   "phrase": "mccarbon sa",
    "source": "Google 补全",
    "names": [
-    "alexa"
+    "mccarbon"
    ],
-   "evidence": "alexa 的补全长尾（共 293 条）",
+   "evidence": "mccarbon 的补全长尾（共 1 条）",
    "overview_ok": true,
-   "volume": 320,
-   "cpc": 1.07,
-   "comp": 0.13,
-   "results": 107,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
-   "kd": 50,
+   "kd": null,
+   "kd_skipped": true,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": 6.8,
+   "kdroi": null,
    "checks": {
     "月搜": false,
-    "KD": false,
-    "CPC": true,
+    "KD": null,
+    "CPC": false,
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 31,
+   "score": 10,
    "failed": [
     "月搜",
-    "KD"
+    "CPC"
    ],
    "unknown": [
+    "KD",
     "首页竞争",
     "allintitle"
    ]
   },
   {
-   "phrase": "uber eats online",
+   "phrase": "crimeradar dispatch audio online",
    "source": "App Store 新上榜",
    "names": [
-    "Uber Eats: Food & Groceries"
+    "CrimeRadar Dispatch Audio"
    ],
-   "evidence": "美区免费榜第 93 名，上架 2016-03-01",
+   "evidence": "美区免费榜第 90 名，上架 2025-05-27",
    "overview_ok": true,
-   "volume": 480,
-   "cpc": 1.57,
-   "comp": 0.54,
-   "results": 9,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
-   "kd": 75,
+   "kd": null,
+   "kd_skipped": true,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": 10.0,
+   "kdroi": null,
    "checks": {
     "月搜": false,
-    "KD": false,
-    "CPC": true,
+    "KD": null,
+    "CPC": false,
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 30,
+   "score": 10,
    "failed": [
     "月搜",
-    "KD"
+    "CPC"
    ],
    "unknown": [
+    "KD",
     "首页竞争",
     "allintitle"
    ]
@@ -888,73 +689,52 @@
    ]
   },
   {
-   "phrase": "alexa online",
+   "phrase": "acrt nj",
    "source": "Google 补全",
    "names": [
-    "alexa"
+    "acrt"
    ],
-   "evidence": "alexa 的补全长尾（共 293 条）",
+   "evidence": "acrt 的补全长尾（共 65 条）",
    "overview_ok": true,
-   "volume": 590,
-   "cpc": 0.7,
-   "comp": 0.03,
-   "results": 0,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
-   "kd": 53,
-   "verdict": "mixed",
-   "comp_detail": {
-    "kinds": {
-     "tool": 2,
-     "forum": 1,
-     "article": 4
-    },
-    "ads": false,
-    "features": [
-     "ai_overview",
-     "people_also_ask",
-     "related_searches"
-    ],
-    "top": [
-     "alexa.amazon.com",
-     "amazon.com",
-     "reddit.com",
-     "play.google.com",
-     "amazon.com",
-     "aboutamazon.com",
-     "amazon.com"
-    ],
-    "source": "serp",
-    "soft_weak": 1
-   },
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
    "tool_intent": false,
-   "kdroi": 7.8,
-   "small_sites": 1,
-   "allintitle": 53,
+   "kdroi": null,
    "checks": {
-    "月搜": true,
-    "KD": false,
-    "CPC": true,
-    "首页竞争": false,
-    "allintitle": true
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
    },
-   "score": 40,
+   "score": 10,
    "failed": [
-    "KD",
-    "首页竞争"
+    "月搜",
+    "CPC"
    ],
-   "unknown": []
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
   },
   {
-   "phrase": "posh online",
+   "phrase": "cantina online",
    "source": "App Store 新上榜",
    "names": [
-    "Posh – Create & Find Events"
+    "Cantina: AI Video & Characters"
    ],
-   "evidence": "美区免费榜第 95 名，上架 2021-03-31",
+   "evidence": "美区免费榜第 91 名，上架 2015-10-12",
    "overview_ok": true,
    "volume": 20,
    "cpc": 0.0,
-   "comp": 0.08,
+   "comp": 0.33,
    "results": 0,
    "kd_ok": true,
    "kd": null,
@@ -962,6 +742,134 @@
    "verdict": null,
    "tool_intent": false,
    "kdroi": 0.0,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "fantasy bra",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "1d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 1000,
+   "cpc": 0.88,
+   "comp": 0.99,
+   "results": 190,
+   "kd_ok": true,
+   "kd": 29,
+   "verdict": "mixed",
+   "comp_detail": {
+    "kinds": {
+     "article": 5,
+     "forum": 2,
+     "list": 1
+    },
+    "ads": false,
+    "features": [
+     "images",
+     "people_also_ask",
+     "product_considerations",
+     "related_searches",
+     "video"
+    ],
+    "top": [
+     "instagram.com",
+     "indianexpress.com",
+     "facebook.com",
+     "dailymotion.com",
+     "dailyamerican.com",
+     "sophisticatedstature.shop",
+     "facebook.com",
+     "thebragenie.com"
+    ],
+    "source": "serp",
+    "soft_weak": 2
+   },
+   "tool_intent": false,
+   "kdroi": 30.3,
+   "small_sites": 5,
+   "allintitle": 602,
+   "checks": {
+    "月搜": true,
+    "KD": true,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": true
+   },
+   "score": 54,
+   "failed": [
+    "首页竞争"
+   ],
+   "unknown": []
+  },
+  {
+   "phrase": "acrt inc",
+   "source": "Google 补全",
+   "names": [
+    "acrt"
+   ],
+   "evidence": "acrt 的补全长尾（共 65 条）",
+   "overview_ok": true,
+   "volume": 210,
+   "cpc": 0.0,
+   "comp": 0.02,
+   "results": 115,
+   "kd_ok": true,
+   "kd": 47,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "checks": {
+    "月搜": false,
+    "KD": false,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 26,
+   "failed": [
+    "月搜",
+    "KD",
+    "CPC"
+   ],
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "domino s pizza usa online",
+   "source": "App Store 新上榜",
+   "names": [
+    "Domino's Pizza USA"
+   ],
+   "evidence": "美区免费榜第 97 名，上架 2011-06-08",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
    "checks": {
     "月搜": false,
     "KD": null,
@@ -1015,12 +923,12 @@
    ]
   },
   {
-   "phrase": "kimi k3.1 pro vs opus 5.5",
+   "phrase": "acrt nhs",
    "source": "Google 补全",
    "names": [
-    "Kimi K3.1 Pro"
+    "acrt"
    ],
-   "evidence": "Kimi K3.1 Pro 的补全长尾（共 8 条）",
+   "evidence": "acrt 的补全长尾（共 65 条）",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -1051,12 +959,80 @@
    ]
   },
   {
-   "phrase": "reflex web version",
+   "phrase": "tv remote online",
    "source": "App Store 新上榜",
    "names": [
-    "Reflex - Flexible Retail Work"
+    "TV Remote - Universal Control"
    ],
-   "evidence": "美区免费榜第 42 名，上架 2023-07-06",
+   "evidence": "美区免费榜第 99 名，上架 2020-11-19",
+   "overview_ok": true,
+   "volume": 320,
+   "cpc": 0.9,
+   "comp": 0.24,
+   "results": 199,
+   "kd_ok": true,
+   "kd": 48,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 6.0,
+   "checks": {
+    "月搜": false,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 31,
+   "failed": [
+    "月搜",
+    "KD"
+   ],
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "asbury park mesh tunnel cats",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "7d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "mcm events web version",
+   "source": "App Store 新上榜",
+   "names": [
+    "MCM Events"
+   ],
+   "evidence": "美区免费榜第 70 名，上架 2023-10-06",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -1119,154 +1095,12 @@
    ]
   },
   {
-   "phrase": "kimi k3.1 pro api",
-   "source": "Google 补全",
-   "names": [
-    "Kimi K3.1 Pro"
-   ],
-   "evidence": "Kimi K3.1 Pro 的补全长尾（共 8 条）",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "reflex alternative",
+   "phrase": "mcm events alternative",
    "source": "App Store 新上榜",
    "names": [
-    "Reflex - Flexible Retail Work"
+    "MCM Events"
    ],
-   "evidence": "美区免费榜第 42 名，上架 2023-07-06",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "asbury park mesh tunnel cats",
-   "source": "Google Trends",
-   "names": [],
-   "evidence": "1d 上升，12 个月内新出现",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "kimi k3.1 pro size",
-   "source": "Google 补全",
-   "names": [
-    "Kimi K3.1 Pro"
-   ],
-   "evidence": "Kimi K3.1 Pro 的补全长尾（共 8 条）",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "fox one web version",
-   "source": "App Store 新上榜",
-   "names": [
-    "FOX One: Live News, Sports, TV"
-   ],
-   "evidence": "美区免费榜第 61 名，上架 2025-08-20",
+   "evidence": "美区免费榜第 70 名，上架 2023-10-06",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -1328,48 +1162,12 @@
    ]
   },
   {
-   "phrase": "nxnative github",
-   "source": "Google 补全",
-   "names": [
-    "nxnative"
-   ],
-   "evidence": "nxnative 的补全长尾（共 1 条）",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "fox one alternative",
+   "phrase": "youtube tv web version",
    "source": "App Store 新上榜",
    "names": [
-    "FOX One: Live News, Sports, TV"
+    "YouTube TV"
    ],
-   "evidence": "美区免费榜第 61 名，上架 2025-08-20",
+   "evidence": "美区免费榜第 80 名，上架 2017-04-05",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -1434,154 +1232,100 @@
    ]
   },
   {
-   "phrase": "reylo au",
-   "source": "Google 补全",
-   "names": [
-    "reylo"
-   ],
-   "evidence": "reylo 的补全长尾（共 190 条）",
-   "overview_ok": true,
-   "volume": 20,
-   "cpc": 0.0,
-   "comp": 0.33,
-   "results": 0,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 0.0,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "vizio remote official web version",
+   "phrase": "youtube tv alternative",
    "source": "App Store 新上榜",
    "names": [
-    "VIZIO Remote (Official)"
+    "YouTube TV"
    ],
-   "evidence": "美区免费榜第 70 名，上架 2016-03-21",
+   "evidence": "美区免费榜第 80 名，上架 2017-04-05",
    "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
+   "volume": 480,
+   "cpc": 1.18,
+   "comp": 0.5,
+   "results": 919,
    "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
+   "kd": 48,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": null,
+   "kdroi": 11.8,
    "checks": {
     "月搜": false,
-    "KD": null,
-    "CPC": false,
+    "KD": false,
+    "CPC": true,
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 10,
+   "score": 35,
    "failed": [
     "月搜",
-    "CPC"
+    "KD"
    ],
    "unknown": [
-    "KD",
     "首页竞争",
     "allintitle"
    ]
   },
   {
-   "phrase": "horseshoe font",
+   "phrase": "best laptop 2026",
    "source": "Google Trends",
    "names": [],
-   "evidence": "7d 上升，12 个月内新出现",
+   "evidence": "1d 上升，12 个月内新出现",
    "overview_ok": true,
-   "volume": 70,
-   "cpc": 0.0,
-   "comp": 0.01,
-   "results": 103,
+   "volume": 135000,
+   "cpc": 1.62,
+   "comp": 1.0,
+   "results": 2720,
    "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 0.0,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
+   "kd": 70,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {
+     "list": 8
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "people_also_ask",
+     "video"
+    ],
+    "top": [
+     "ryanraiker.com",
+     "legacyncc.com",
+     "tayodigital.tech",
+     "thefuturenexus.netlify.app",
+     "rendict.com",
+     "techtalkclub.com",
+     "francismaiso.com",
+     "thecarbynegroup.com"
+    ],
+    "source": "serp",
+    "soft_weak": 0
    },
-   "score": 11,
+   "tool_intent": false,
+   "kdroi": 3124.3,
+   "small_sites": 8,
+   "allintitle": 76,
+   "checks": {
+    "月搜": true,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": true
+   },
+   "score": 55,
    "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
     "KD",
-    "首页竞争",
-    "allintitle"
-   ]
+    "首页竞争"
+   ],
+   "unknown": []
   },
   {
-   "phrase": "reylo vk",
-   "source": "Google 补全",
-   "names": [
-    "reylo"
-   ],
-   "evidence": "reylo 的补全长尾（共 190 条）",
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "vizio remote official alternative",
+   "phrase": "tubi web version",
    "source": "App Store 新上榜",
    "names": [
-    "VIZIO Remote (Official)"
+    "Tubi: Movies & Live TV"
    ],
-   "evidence": "美区免费榜第 70 名，上架 2016-03-21",
+   "evidence": "美区免费榜第 88 名，上架 2014-07-24",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -1646,137 +1390,77 @@
    ]
   },
   {
-   "phrase": "alexa vs siri",
-   "source": "Google 补全",
-   "names": [
-    "alexa"
-   ],
-   "evidence": "alexa 的补全长尾（共 293 条）",
-   "overview_ok": true,
-   "volume": 480,
-   "cpc": 0.02,
-   "comp": 0.01,
-   "results": 107,
-   "kd_ok": true,
-   "kd": 12,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 0.8,
-   "checks": {
-    "月搜": false,
-    "KD": true,
-    "CPC": true,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 39,
-   "failed": [
-    "月搜"
-   ],
-   "unknown": [
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "waymo web version",
+   "phrase": "tubi alternative",
    "source": "App Store 新上榜",
    "names": [
-    "Waymo"
+    "Tubi: Movies & Live TV"
    ],
-   "evidence": "美区免费榜第 84 名，上架 2019-12-05",
+   "evidence": "美区免费榜第 88 名，上架 2014-07-24",
    "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
+   "volume": 210,
+   "cpc": 0.75,
+   "comp": 0.05,
+   "results": 119,
    "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
+   "kd": 39,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": null,
+   "kdroi": 4.0,
    "checks": {
     "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "cybersecurity solutions for small business",
-   "source": "Google Trends",
-   "names": [],
-   "evidence": "7d 上升，12 个月内新出现",
-   "overview_ok": true,
-   "volume": 590,
-   "cpc": 42.4,
-   "comp": 0.05,
-   "results": 78,
-   "kd_ok": true,
-   "kd": 45,
-   "verdict": "mixed",
-   "comp_detail": {
-    "kinds": {
-     "article": 3,
-     "list": 5,
-     "forum": 1
-    },
-    "ads": false,
-    "features": [
-     "ai_overview",
-     "people_also_ask"
-    ],
-    "top": [
-     "web.uri.edu",
-     "sysgen.ca",
-     "ifeeltech.com",
-     "reddit.com",
-     "verizon.com",
-     "cybersecurityguide.org",
-     "signeasy.com",
-     "lkmethod.com",
-     "data-analytics-certification.hashnode.dev"
-    ],
-    "source": "serp",
-    "soft_weak": 1
-   },
-   "tool_intent": false,
-   "kdroi": 555.9,
-   "small_sites": 8,
-   "allintitle": 8240,
-   "checks": {
-    "月搜": true,
     "KD": false,
     "CPC": true,
-    "首页竞争": false,
-    "allintitle": true
+    "首页竞争": null,
+    "allintitle": null
    },
-   "score": 54,
+   "score": 31,
    "failed": [
-    "KD",
-    "首页竞争"
+    "月搜",
+    "KD"
    ],
-   "unknown": []
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
   },
   {
-   "phrase": "lemon squared bkara",
-   "source": "Google 补全",
-   "names": [
-    "lemon squared"
+   "phrase": "krillion",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "1d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 590,
+   "cpc": 0.0,
+   "comp": 0.33,
+   "results": 156,
+   "kd_ok": true,
+   "kd": 22,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "checks": {
+    "月搜": true,
+    "KD": true,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 37,
+   "failed": [
+    "CPC"
    ],
-   "evidence": "lemon squared 的补全长尾（共 8 条）",
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "crimeradar dispatch audio web version",
+   "source": "App Store 新上榜",
+   "names": [
+    "CrimeRadar Dispatch Audio"
+   ],
+   "evidence": "美区免费榜第 90 名，上架 2025-05-27",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -1799,41 +1483,6 @@
    "failed": [
     "月搜",
     "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "waymo alternative",
-   "source": "App Store 新上榜",
-   "names": [
-    "Waymo"
-   ],
-   "evidence": "美区免费榜第 84 名，上架 2019-12-05",
-   "overview_ok": true,
-   "volume": 20,
-   "cpc": 1.89,
-   "comp": 0.07,
-   "results": 0,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 37.8,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": true,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 19,
-   "failed": [
-    "月搜"
    ],
    "unknown": [
     "KD",
@@ -1876,12 +1525,12 @@
    ]
   },
   {
-   "phrase": "lemon squared paola",
-   "source": "Google 补全",
+   "phrase": "crimeradar dispatch audio alternative",
+   "source": "App Store 新上榜",
    "names": [
-    "lemon squared"
+    "CrimeRadar Dispatch Audio"
    ],
-   "evidence": "lemon squared 的补全长尾（共 8 条）",
+   "evidence": "美区免费榜第 90 名，上架 2025-05-27",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -1893,42 +1542,6 @@
    "verdict": null,
    "tool_intent": false,
    "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "uber eats web version",
-   "source": "App Store 新上榜",
-   "names": [
-    "Uber Eats: Food & Groceries"
-   ],
-   "evidence": "美区免费榜第 93 名，上架 2016-03-01",
-   "overview_ok": true,
-   "volume": 20,
-   "cpc": 0.0,
-   "comp": 0.24,
-   "results": 0,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 0.0,
    "checks": {
     "月搜": false,
     "KD": null,
@@ -1980,17 +1593,17 @@
    ]
   },
   {
-   "phrase": "lemon squared photos",
-   "source": "Google 补全",
+   "phrase": "cantina web version",
+   "source": "App Store 新上榜",
    "names": [
-    "lemon squared"
+    "Cantina: AI Video & Characters"
    ],
-   "evidence": "lemon squared 的补全长尾（共 8 条）",
+   "evidence": "美区免费榜第 91 名，上架 2015-10-12",
    "overview_ok": true,
    "volume": 0,
-   "cpc": 0.0,
-   "comp": 0.0,
-   "results": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
@@ -2016,35 +1629,160 @@
    ]
   },
   {
-   "phrase": "uber eats alternative",
+   "phrase": "utsa vs tulane",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "1d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 720,
+   "cpc": 0.55,
+   "comp": 0.13,
+   "results": 114,
+   "kd_ok": true,
+   "kd": 24,
+   "verdict": "mixed",
+   "comp_detail": {
+    "kinds": {
+     "list": 5,
+     "video": 1
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "discussions_and_forums",
+     "people_also_ask",
+     "perspectives",
+     "related_searches",
+     "video"
+    ],
+    "top": [
+     "collegefootballnews.com",
+     "espn.com",
+     "espn.com",
+     "winsipedia.com",
+     "sportsgamblingpodcast.com",
+     "youtube.com"
+    ],
+    "source": "serp",
+    "soft_weak": 1
+   },
+   "tool_intent": false,
+   "kdroi": 16.5,
+   "small_sites": 5,
+   "allintitle": 51,
+   "checks": {
+    "月搜": true,
+    "KD": true,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": true
+   },
+   "score": 49,
+   "failed": [
+    "首页竞争"
+   ],
+   "unknown": []
+  },
+  {
+   "phrase": "cantina alternative",
    "source": "App Store 新上榜",
    "names": [
-    "Uber Eats: Food & Groceries"
+    "Cantina: AI Video & Characters"
    ],
-   "evidence": "美区免费榜第 93 名，上架 2016-03-01",
+   "evidence": "美区免费榜第 91 名，上架 2015-10-12",
    "overview_ok": true,
-   "volume": 210,
-   "cpc": 3.98,
-   "comp": 0.51,
-   "results": 101,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
-   "kd": 36,
+   "kd": null,
+   "kd_skipped": true,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": 23.2,
+   "kdroi": null,
    "checks": {
     "月搜": false,
-    "KD": false,
-    "CPC": true,
+    "KD": null,
+    "CPC": false,
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 44,
+   "score": 10,
    "failed": [
     "月搜",
-    "KD"
+    "CPC"
    ],
    "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "wrest meaning",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "7d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 1300,
+   "cpc": 0.0,
+   "comp": 0.33,
+   "results": 135,
+   "kd_ok": true,
+   "kd": 35,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "checks": {
+    "月搜": true,
+    "KD": false,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 45,
+   "failed": [
+    "KD",
+    "CPC"
+   ],
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "domino s pizza usa web version",
+   "source": "App Store 新上榜",
+   "names": [
+    "Domino's Pizza USA"
+   ],
+   "evidence": "美区免费榜第 97 名，上架 2011-06-08",
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
     "首页竞争",
     "allintitle"
    ]
@@ -2084,47 +1822,12 @@
    ]
   },
   {
-   "phrase": "mspbots ai",
-   "source": "Google 补全",
-   "names": [
-    "mspbots"
-   ],
-   "evidence": "mspbots 的补全长尾（共 30 条）",
-   "overview_ok": true,
-   "volume": 10,
-   "cpc": 12.54,
-   "comp": 0.39,
-   "results": 0,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 125.4,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": true,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 25,
-   "failed": [
-    "月搜"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "posh web version",
+   "phrase": "domino s pizza usa alternative",
    "source": "App Store 新上榜",
    "names": [
-    "Posh – Create & Find Events"
+    "Domino's Pizza USA"
    ],
-   "evidence": "美区免费榜第 95 名，上架 2021-03-31",
+   "evidence": "美区免费榜第 97 名，上架 2011-06-08",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -2155,46 +1858,10 @@
    ]
   },
   {
-   "phrase": "brighton vs palace",
+   "phrase": "samsung galaxy z fold 8 vs iphone duo",
    "source": "Google Trends",
    "names": [],
-   "evidence": "7d 上升，12 个月内新出现",
-   "overview_ok": true,
-   "volume": 40,
-   "cpc": 0.0,
-   "comp": 0.02,
-   "results": 554,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 0.0,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "mspbots inc",
-   "source": "Google 补全",
-   "names": [
-    "mspbots"
-   ],
-   "evidence": "mspbots 的补全长尾（共 30 条）",
+   "evidence": "1d 上升，12 个月内新出现",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -2225,17 +1892,17 @@
    ]
   },
   {
-   "phrase": "posh alternative",
+   "phrase": "tv remote web version",
    "source": "App Store 新上榜",
    "names": [
-    "Posh – Create & Find Events"
+    "TV Remote - Universal Control"
    ],
-   "evidence": "美区免费榜第 95 名，上架 2021-03-31",
+   "evidence": "美区免费榜第 99 名，上架 2020-11-19",
    "overview_ok": true,
    "volume": 0,
-   "cpc": 0.0,
-   "comp": 0.0,
-   "results": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
@@ -2293,12 +1960,12 @@
    ]
   },
   {
-   "phrase": "mspbots api",
-   "source": "Google 补全",
+   "phrase": "tv remote alternative",
+   "source": "App Store 新上榜",
    "names": [
-    "mspbots"
+    "TV Remote - Universal Control"
    ],
-   "evidence": "mspbots 的补全长尾（共 30 条）",
+   "evidence": "美区免费榜第 99 名，上架 2020-11-19",
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -2329,7 +1996,38 @@
    ]
   },
   {
-   "phrase": "iphone duo internal display break",
+   "phrase": "xelajú mc municipal",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "1d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 3600,
+   "cpc": 0.0,
+   "comp": 0.33,
+   "results": 118,
+   "kd_ok": true,
+   "kd": 28,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "checks": {
+    "月搜": true,
+    "KD": true,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 58,
+   "failed": [
+    "CPC"
+   ],
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "iphone duo screen crack",
    "source": "Google Trends",
    "names": [],
    "evidence": "1d 上升，12 个月内新出现",
@@ -2344,42 +2042,6 @@
    "verdict": null,
    "tool_intent": false,
    "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "writercom",
-   "source": "Google 补全",
-   "names": [
-    "writerco"
-   ],
-   "evidence": "writerco 的补全长尾（共 10 条）",
-   "overview_ok": true,
-   "volume": 20,
-   "cpc": 0.0,
-   "comp": 0.86,
-   "results": 0,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "tool_intent": false,
-   "kdroi": 0.0,
    "checks": {
     "月搜": false,
     "KD": null,
@@ -2457,23 +2119,21 @@
    "unknown": []
   },
   {
-   "phrase": "writercon",
-   "source": "Google 补全",
-   "names": [
-    "writerco"
-   ],
-   "evidence": "writerco 的补全长尾（共 10 条）",
+   "phrase": "iphone duo price",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "7d 上升，12 个月内新出现",
    "overview_ok": true,
-   "volume": 50,
-   "cpc": 0.0,
-   "comp": 0.01,
-   "results": 106,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
    "kd": null,
    "kd_skipped": true,
    "verdict": null,
    "tool_intent": false,
-   "kdroi": 0.0,
+   "kdroi": null,
    "checks": {
     "月搜": false,
     "KD": null,
@@ -2491,9 +2151,188 @@
     "首页竞争",
     "allintitle"
    ]
+  },
+  {
+   "phrase": "mailbox rental near me",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "1d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 33100,
+   "cpc": 2.79,
+   "comp": 0.51,
+   "results": 148,
+   "kd_ok": true,
+   "kd": 49,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {
+     "article": 4,
+     "list": 5
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "local_pack",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "top": [
+     "pakmail.com",
+     "yelp.com",
+     "pakmail.com",
+     "yelp.com",
+     "printpackship.org",
+     "yelp.com",
+     "locations.theupsstore.com",
+     "yelp.com",
+     "yelp.com"
+    ],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "tool_intent": false,
+   "kdroi": 1884.7,
+   "small_sites": 9,
+   "allintitle": 56,
+   "checks": {
+    "月搜": true,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": true
+   },
+   "score": 65,
+   "failed": [
+    "KD",
+    "首页竞争"
+   ],
+   "unknown": []
+  },
+  {
+   "phrase": "seo services pricing",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "7d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 3600,
+   "cpc": 7.52,
+   "comp": 0.04,
+   "results": 135,
+   "kd_ok": true,
+   "kd": 49,
+   "verdict": "mixed",
+   "comp_detail": {
+    "kinds": {
+     "article": 6,
+     "forum": 1,
+     "list": 1
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "discussions_and_forums",
+     "people_also_ask",
+     "related_searches"
+    ],
+    "top": [
+     "outerboxdesign.com",
+     "seo.com",
+     "pathfinderseo.com",
+     "authoritysolutions.com",
+     "backlinko.com",
+     "webfx.com",
+     "shopify.com",
+     "foxxr.com"
+    ],
+    "source": "serp",
+    "soft_weak": 1
+   },
+   "tool_intent": false,
+   "kdroi": 552.5,
+   "small_sites": 8,
+   "allintitle": 17100,
+   "checks": {
+    "月搜": true,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": false
+   },
+   "score": 75,
+   "failed": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ],
+   "unknown": []
+  },
+  {
+   "phrase": "palace vs newcastle",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "1d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 210,
+   "cpc": 0.0,
+   "comp": 0.33,
+   "results": 408,
+   "kd_ok": true,
+   "kd": 33,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "checks": {
+    "月搜": false,
+    "KD": false,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 29,
+   "failed": [
+    "月搜",
+    "KD",
+    "CPC"
+   ],
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "monaco vs losc",
+   "source": "Google Trends",
+   "names": [],
+   "evidence": "1d 上升，12 个月内新出现",
+   "overview_ok": true,
+   "volume": 1300,
+   "cpc": 0.0,
+   "comp": 0.33,
+   "results": 163,
+   "kd_ok": true,
+   "kd": 26,
+   "verdict": null,
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "checks": {
+    "月搜": true,
+    "KD": true,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 47,
+   "failed": [
+    "CPC"
+   ],
+   "unknown": [
+    "首页竞争",
+    "allintitle"
+   ]
   }
  ],
- "spent_micros": 102000,
+ "spent_micros": 176000,
  "errors": [],
  "skipped": []
 }

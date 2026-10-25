@@ -2,261 +2,80 @@
  "date": "2026-10-25",
  "board_runs": [],
  "xnew_runs": [
-  "2026-10-25 上午 书签X"
+  "2026-10-25 上午 书签X",
+  "2026-10-25 晚上 书签X"
  ],
  "our_x_failed": false,
  "terms": [
   {
-   "name": "deepseek v4.1 flash 1017 gsq rco",
-   "key": "deepseekv41flash1017gsqrco",
+   "name": "mccarbon",
+   "key": "mccarbon",
    "sources": [
-    "HF"
+    "GitHub"
    ],
-   "desc": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF (text-generation, ♥142)",
-   "url": "",
+   "desc": "yeqv111/mccarbon: 麦麦碳账本 · 基于麦当劳 MCP 的个人餐饮碳足迹估算与减排模拟器 | Personal dining carbon footprint estimator powered by McDonald's MCP",
+   "url": "https://github.com/yeqv111/mccarbon",
    "signals": [
-    "HF 新进榜第 33 名"
+    "GitHub 爆发 yeqv111/mccarbon ★1747(均 133/天,一天 +732)"
    ],
    "variants": [],
    "named": 0.9
   },
   {
-   "name": "hatchzip",
-   "key": "hatchzip",
+   "name": "mclife desk",
+   "key": "mclifedesk",
    "sources": [
     "GitHub"
    ],
-   "desc": "xevrion/hatchzip: Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, ",
-   "url": "https://github.com/xevrion/hatchzip",
+   "desc": "Nikii-w/McLife-Desk: 忙碌了一天，回到家，你打开麦当劳，却突然纠结：今天吃了什么？这周点了几次？这个月花了多少钱？热量会不会超标？  于是有了 **McLife Desk 麦门人生工作台**。它记录每一次点麦：日期、餐品、金额与热量，生成专属点餐日历；按当月消费",
+   "url": "https://github.com/Nikii-w/McLife-Desk",
    "signals": [
-    "GitHub 爆发 xevrion/hatchzip ★1418(均 501/天)"
+    "GitHub 爆发 Nikii-w/McLife-Desk ★1611(均 111/天,一天 +425)"
    ],
    "variants": [],
    "named": 0.9
   },
   {
-   "name": "fairplay decrypt",
-   "key": "fairplaydecrypt",
+   "name": "learnharness",
+   "key": "learnharness",
    "sources": [
     "GitHub"
    ],
-   "desc": "EthanArbuckle/fairplay-decrypt: Offline FairPlay App Store IPA decryption with independent key derivation",
-   "url": "https://github.com/EthanArbuckle/fairplay-decrypt",
+   "desc": "amosblomqvist/learnharness: Agent harness for learning difficult things.",
+   "url": "https://github.com/amosblomqvist/learnharness",
    "signals": [
-    "GitHub 爆发 EthanArbuckle/fairplay-decrypt ★1834(均 357/天,一天 +610)"
+    "GitHub 爆发 amosblomqvist/learnharness ★1330(均 152/天,一天 +673)"
    ],
    "variants": [],
    "named": 0.85
   },
   {
-   "name": "gpu unlock",
-   "key": "gpuunlock",
+   "name": "gpu unlock ada",
+   "key": "gpuunlockada",
    "sources": [
     "GitHub"
    ],
-   "desc": "Zagitta/gpu-unlock: Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents",
-   "url": "https://github.com/Zagitta/gpu-unlock",
+   "desc": "JustAResearcher/gpu-unlock-ada: GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
+   "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
    "signals": [
-    "GitHub 爆发 Zagitta/gpu-unlock ★1416(均 218/天,一天 +1023)"
+    "GitHub 爆发 JustAResearcher/gpu-unlock-ada ★1994(均 1179/天)"
    ],
    "variants": [],
    "named": 0.8
   },
   {
-   "name": "io.github.ygfalcon",
-   "key": "iogithubygfalcon",
+   "name": "ghostpawjs",
+   "key": "ghostpawjs",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 5 处 (×5.0)"
+    "③ 竞品 7 处 (×7.0)"
    ],
    "variants": [],
    "named": 0.8
-  },
-  {
-   "name": "mspbotsaiframework",
-   "key": "mspbotsaiframework",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 22 处 (×14.3)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "aiframework",
-   "key": "aiframework",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 22 处 (×14.3)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "skilleddragoncorp",
-   "key": "skilleddragoncorp",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 13 处 (×13.0)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "pinot",
-   "key": "pinot",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 6 处 (×5.9)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "mspbots",
-   "key": "mspbots",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 22 处 (×11.4)"
-   ],
-   "variants": [],
-   "named": 0.6
-  },
-  {
-   "name": "dev.cotlet",
-   "key": "devcotlet",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 11 处 (×10.9)"
-   ],
-   "variants": [],
-   "named": 0.6
-  },
-  {
-   "name": "io.github.bck",
-   "key": "iogithubbck",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 8 处 (×7.9)"
-   ],
-   "variants": [],
-   "named": 0.6
-  },
-  {
-   "name": "com.scriptmasterlabs",
-   "key": "comscriptmasterlabs",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 6 处 (×5.7)"
-   ],
-   "variants": [],
-   "named": 0.6
-  },
-  {
-   "name": "alexa",
-   "key": "alexa",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 11 处 (×6.3)"
-   ],
-   "variants": [],
-   "named": 0.5
-  },
-  {
-   "name": "kubernetes",
-   "key": "kubernetes",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 6 处 (×4.3)"
-   ],
-   "variants": [],
-   "named": 0.5
-  },
-  {
-   "name": "connectors dev.cotlet",
-   "key": "connectorsdevcotlet",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 11 处 (×10.9)"
-   ],
-   "variants": [],
-   "named": 0.4
-  },
-  {
-   "name": "connectors io.github.bck",
-   "key": "connectorsiogithubbck",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 8 处 (×7.9)"
-   ],
-   "variants": [],
-   "named": 0.4
-  },
-  {
-   "name": "io.github.bck stack",
-   "key": "iogithubbckstack",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 8 处 (×7.9)"
-   ],
-   "variants": [],
-   "named": 0.4
   },
   {
    "name": "connectors io.usefulapi",
@@ -267,21 +86,217 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 31 处 (×7.6)"
+    "③ 竞品 45 处 (×15.4)"
    ],
    "variants": [],
-   "named": 0.4
+   "named": 0.7
   },
   {
-   "name": "connectors com.scriptmasterlabs",
-   "key": "connectorscomscriptmasterlabs",
+   "name": "io.github.serenido",
+   "key": "iogithubserenido",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 6 处 (×5.7)"
+    "③ 竞品 10 处 (×10.0)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "connectors io.github.serenido",
+   "key": "connectorsiogithubserenido",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 10 处 (×10.0)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "connectors com.augur",
+   "key": "connectorscomaugur",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 8 处 (×8.0)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "connectors com.jonakisoft",
+   "key": "connectorscomjonakisoft",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 7 处 (×7.0)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "com.freedailypro.api",
+   "key": "comfreedailyproapi",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 5 处 (×5.0)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "connectors com.freedailypro.api",
+   "key": "connectorscomfreedailyproapi",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 5 处 (×5.0)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "io.github.catalyst",
+   "key": "iogithubcatalyst",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 5 处 (×4.9)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "io.github.catalyst labs",
+   "key": "iogithubcatalystlabs",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 5 处 (×4.9)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "com.augur trade",
+   "key": "comaugurtrade",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 8 处 (×8.0)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "thebananastand",
+   "key": "thebananastand",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 8 处 (×7.6)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "connectors io.github.catalyst",
+   "key": "connectorsiogithubcatalyst",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 5 处 (×4.9)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "registry verifier",
+   "key": "registryverifier",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 8 处 (×8.0)"
+   ],
+   "variants": [],
+   "named": 0.5
+  },
+  {
+   "name": "thebananastand leo",
+   "key": "thebananastandleo",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 8 处 (×7.6)"
+   ],
+   "variants": [],
+   "named": 0.5
+  },
+  {
+   "name": "acrt",
+   "key": "acrt",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 7 处 (×6.2)"
+   ],
+   "variants": [],
+   "named": 0.5
+  },
+  {
+   "name": "trade foresight",
+   "key": "tradeforesight",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 8 处 (×8.0)"
    ],
    "variants": [],
    "named": 0.4
@@ -295,28 +310,14 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 21 处 (×19.9)"
+    "③ 竞品 7 处 (×6.2)"
    ],
    "variants": [],
-   "named": 0.3
+   "named": 0.4
   },
   {
-   "name": "stack sitecheck",
-   "key": "stacksitecheck",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 8 处 (×7.9)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "eval figma",
-   "key": "evalfigma",
+   "name": "verifier target",
+   "key": "verifiertarget",
    "sources": [
     "竞品站"
    ],
@@ -329,8 +330,36 @@
    "named": 0.3
   },
   {
-   "name": "connectors io.github.ygfalcon",
-   "key": "connectorsiogithubygfalcon",
+   "name": "eval lara",
+   "key": "evallara",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 6 处 (×6.0)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "ghost",
+   "key": "ghost",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 8 处 (×5.9)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "daily pro",
+   "key": "dailypro",
    "sources": [
     "竞品站"
    ],
@@ -343,74 +372,46 @@
    "named": 0.3
   },
   {
-   "name": "figma context",
-   "key": "figmacontext",
+   "name": "paw",
+   "key": "paw",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 6 处 (×5.2)"
+    "③ 竞品 7 处 (×6.9)"
+   ],
+   "variants": [],
+   "named": 0.2
+  },
+  {
+   "name": "stand",
+   "key": "stand",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 8 处 (×7.1)"
    ],
    "variants": [],
    "named": 0.1
   },
   {
-   "name": "sites",
-   "key": "sites",
+   "name": "banana",
+   "key": "banana",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 685 处 (×577.3)"
+    "③ 竞品 9 处 (×5.4)"
    ],
    "variants": [],
-   "named": 0.0
-  },
-  {
-   "name": "skilled",
-   "key": "skilled",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 13 处 (×12.8)"
-   ],
-   "variants": [],
-   "named": 0.0
-  },
-  {
-   "name": "dragon",
-   "key": "dragon",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 13 处 (×11.7)"
-   ],
-   "variants": [],
-   "named": 0.0
-  },
-  {
-   "name": "corp",
-   "key": "corp",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 13 处 (×8.5)"
-   ],
-   "variants": [],
-   "named": 0.0
+   "named": 0.1
   },
   {
    "name": "Dessa",
@@ -435,6 +436,18 @@
    "signals": [],
    "variants": [],
    "first_seen": "2026-10-23 23:41"
+  },
+  {
+   "name": "Nanbeige4.3-33B",
+   "key": "nanbeige4333b",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "Nanbeige 发布约 33B 稠密开源教师模型（Apache 2.0），面向 agent 编码/协作，512K 上下文，将蒸馏给后续 3B。",
+   "url": "https://x.com/nanbeige/status/2114328933181333798",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-10-25 20:11"
   }
  ],
  "dupes": [],

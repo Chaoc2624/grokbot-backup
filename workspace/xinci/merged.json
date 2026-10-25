@@ -1,195 +1,80 @@
 {
- "date": "2026-10-23",
- "board_runs": [
-  "2026-10-23 早上"
- ],
+ "date": "2026-10-25",
+ "board_runs": [],
  "xnew_runs": [
-  "2026-10-23 上午 书签X",
-  "2026-10-23 晚上 书签X"
+  "2026-10-25 上午 书签X"
  ],
  "our_x_failed": false,
  "terms": [
   {
-   "name": "ltx2 distilled faceswap v3",
-   "key": "ltx2distilledfaceswapv3",
+   "name": "deepseek v4.1 flash 1017 gsq rco",
+   "key": "deepseekv41flash1017gsqrco",
    "sources": [
     "HF"
    ],
-   "desc": "linoyts/ltx2-19b-distilled-faceswap-v3 (?, ♥136)",
+   "desc": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF (text-generation, ♥142)",
    "url": "",
    "signals": [
-    "HF 新进榜第 35 名"
+    "HF 新进榜第 33 名"
    ],
    "variants": [],
    "named": 0.9
   },
   {
-   "name": "3d model anything",
-   "key": "3dmodelanything",
+   "name": "hatchzip",
+   "key": "hatchzip",
    "sources": [
     "GitHub"
    ],
-   "desc": "wesbos/3d-model-anything: Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.",
-   "url": "https://github.com/wesbos/3d-model-anything",
+   "desc": "xevrion/hatchzip: Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, ",
+   "url": "https://github.com/xevrion/hatchzip",
    "signals": [
-    "GitHub 爆发 wesbos/3d-model-anything ★793(均 455/天)"
+    "GitHub 爆发 xevrion/hatchzip ★1418(均 501/天)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "fairplay decrypt",
+   "key": "fairplaydecrypt",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "EthanArbuckle/fairplay-decrypt: Offline FairPlay App Store IPA decryption with independent key derivation",
+   "url": "https://github.com/EthanArbuckle/fairplay-decrypt",
+   "signals": [
+    "GitHub 爆发 EthanArbuckle/fairplay-decrypt ★1834(均 357/天,一天 +610)"
+   ],
+   "variants": [],
+   "named": 0.85
+  },
+  {
+   "name": "gpu unlock",
+   "key": "gpuunlock",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "Zagitta/gpu-unlock: Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents",
+   "url": "https://github.com/Zagitta/gpu-unlock",
+   "signals": [
+    "GitHub 爆发 Zagitta/gpu-unlock ★1416(均 218/天,一天 +1023)"
    ],
    "variants": [],
    "named": 0.8
   },
   {
-   "name": "nxnative",
-   "key": "nxnative",
-   "sources": [
-    "GitHub"
-   ],
-   "desc": "seedds/nxnative: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE ",
-   "url": "https://github.com/seedds/nxnative",
-   "signals": [
-    "GitHub 爆发 seedds/nxnative ★2306(均 223/天,一天 +1081)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "hackios xnu kernel",
-   "key": "hackiosxnukernel",
-   "sources": [
-    "GitHub"
-   ],
-   "desc": "oosexgang/hackios-xnu-kernel: ",
-   "url": "https://github.com/oosexgang/hackios-xnu-kernel",
-   "signals": [
-    "GitHub 爆发 oosexgang/hackios-xnu-kernel ★882(均 679/天)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "reylo",
-   "key": "reylo",
-   "sources": [
-    "GitHub"
-   ],
-   "desc": "colinhacks/reylo: Import .sql files into TypeScript with full type inference and zero codegen.",
-   "url": "https://github.com/colinhacks/reylo",
-   "signals": [
-    "GitHub 爆发 colinhacks/reylo ★922(均 361/天,一天 +530)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "snapintosh",
-   "key": "snapintosh",
-   "sources": [
-    "GitHub"
-   ],
-   "desc": "Snapintosh/Snapintosh: EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack",
-   "url": "https://github.com/Snapintosh/Snapintosh",
-   "signals": [
-    "GitHub 爆发 Snapintosh/Snapintosh ★690(均 462/天)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "co.youraitools.api",
-   "key": "coyouraitoolsapi",
+   "name": "io.github.ygfalcon",
+   "key": "iogithubygfalcon",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 4 处 (×4.0)"
+    "③ 竞品 5 处 (×5.0)"
    ],
    "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "com.jocktaxes",
-   "key": "comjocktaxes",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 4 处 (×4.0)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "deepseek",
-   "key": "deepseek",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 28 处 (×9.7)"
-   ],
-   "variants": [],
-   "named": 0.5
-  },
-  {
-   "name": "alexa",
-   "key": "alexa",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 15 处 (×8.8)"
-   ],
-   "variants": [],
-   "named": 0.5
-  },
-  {
-   "name": "lemon squared",
-   "key": "lemonsquared",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 11 处 (×11.0)"
-   ],
-   "variants": [],
-   "named": 0.4
-  },
-  {
-   "name": "co.youraitools",
-   "key": "coyouraitools",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 10 处 (×9.3)"
-   ],
-   "variants": [],
-   "named": 0.4
-  },
-  {
-   "name": "aiframework",
-   "key": "aiframework",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 13 处 (×8.7)"
-   ],
-   "variants": [],
-   "named": 0.4
+   "named": 0.8
   },
   {
    "name": "mspbotsaiframework",
@@ -200,10 +85,52 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 13 处 (×8.7)"
+    "③ 竞品 22 处 (×14.3)"
    ],
    "variants": [],
-   "named": 0.4
+   "named": 0.7
+  },
+  {
+   "name": "aiframework",
+   "key": "aiframework",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 22 处 (×14.3)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "skilleddragoncorp",
+   "key": "skilleddragoncorp",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 13 处 (×13.0)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "pinot",
+   "key": "pinot",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 6 处 (×5.9)"
+   ],
+   "variants": [],
+   "named": 0.7
   },
   {
    "name": "mspbots",
@@ -214,108 +141,150 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 13 处 (×6.4)"
+    "③ 竞品 22 处 (×11.4)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "dev.cotlet",
+   "key": "devcotlet",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 11 处 (×10.9)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "io.github.bck",
+   "key": "iogithubbck",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 8 处 (×7.9)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "com.scriptmasterlabs",
+   "key": "comscriptmasterlabs",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 6 处 (×5.7)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "alexa",
+   "key": "alexa",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 11 处 (×6.3)"
+   ],
+   "variants": [],
+   "named": 0.5
+  },
+  {
+   "name": "kubernetes",
+   "key": "kubernetes",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 6 处 (×4.3)"
+   ],
+   "variants": [],
+   "named": 0.5
+  },
+  {
+   "name": "connectors dev.cotlet",
+   "key": "connectorsdevcotlet",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 11 处 (×10.9)"
    ],
    "variants": [],
    "named": 0.4
   },
   {
-   "name": "writerco",
-   "key": "writerco",
+   "name": "connectors io.github.bck",
+   "key": "connectorsiogithubbck",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 6 处 (×5.2)"
+    "③ 竞品 8 处 (×7.9)"
    ],
    "variants": [],
    "named": 0.4
   },
   {
-   "name": "connectors com.textforagents",
-   "key": "connectorscomtextforagents",
+   "name": "io.github.bck stack",
+   "key": "iogithubbckstack",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 48 处 (×28.8)"
+    "③ 竞品 8 处 (×7.9)"
    ],
    "variants": [],
-   "named": 0.3
+   "named": 0.4
   },
   {
-   "name": "connectors co.youraitools",
-   "key": "connectorscoyouraitools",
+   "name": "connectors io.usefulapi",
+   "key": "connectorsiousefulapi",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 10 处 (×9.3)"
+    "③ 竞品 31 处 (×7.6)"
    ],
    "variants": [],
-   "named": 0.3
+   "named": 0.4
   },
   {
-   "name": "jaknow01",
-   "key": "jaknow01",
+   "name": "connectors com.scriptmasterlabs",
+   "key": "connectorscomscriptmasterlabs",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 8 处 (×8.0)"
+    "③ 竞品 6 处 (×5.7)"
    ],
    "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "cotletdev",
-   "key": "cotletdev",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 7 处 (×7.0)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "acrt",
-   "key": "acrt",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 6 处 (×6.0)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "eval n8n",
-   "key": "evaln8n",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 6 处 (×6.0)"
-   ],
-   "variants": [],
-   "named": 0.3
+   "named": 0.4
   },
   {
    "name": "acrt eval",
@@ -326,14 +295,42 @@
    "desc": "",
    "url": "",
    "signals": [
+    "③ 竞品 21 处 (×19.9)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "stack sitecheck",
+   "key": "stacksitecheck",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 8 处 (×7.9)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "eval figma",
+   "key": "evalfigma",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
     "③ 竞品 6 处 (×6.0)"
    ],
    "variants": [],
    "named": 0.3
   },
   {
-   "name": "connectors io.github.omarkhandji",
-   "key": "connectorsiogithubomarkhandji",
+   "name": "connectors io.github.ygfalcon",
+   "key": "connectorsiogithubygfalcon",
    "sources": [
     "竞品站"
    ],
@@ -346,344 +343,102 @@
    "named": 0.3
   },
   {
-   "name": "connectors co.youraitools.api",
-   "key": "connectorscoyouraitoolsapi",
+   "name": "figma context",
+   "key": "figmacontext",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 4 处 (×4.0)"
+    "③ 竞品 6 处 (×5.2)"
    ],
    "variants": [],
-   "named": 0.3
+   "named": 0.1
   },
   {
-   "name": "tutorials deepseek",
-   "key": "tutorialsdeepseek",
+   "name": "sites",
+   "key": "sites",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 19 处 (×18.4)"
-   ],
-   "variants": [],
-   "named": 0.2
-  },
-  {
-   "name": "r1",
-   "key": "r1",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 9 处 (×7.2)"
-   ],
-   "variants": [],
-   "named": 0.2
-  },
-  {
-   "name": "tutorials",
-   "key": "tutorials",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 28 处 (×10.6)"
+    "③ 竞品 685 处 (×577.3)"
    ],
    "variants": [],
    "named": 0.0
   },
   {
-   "name": "io.github.omarkhandji commits",
-   "key": "iogithubomarkhandjicommits",
+   "name": "skilled",
+   "key": "skilled",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 5 处 (×5.0)"
+    "③ 竞品 13 处 (×12.8)"
    ],
    "variants": [],
    "named": 0.0
   },
   {
-   "name": "squared google",
-   "key": "squaredgoogle",
+   "name": "dragon",
+   "key": "dragon",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 5 处 (×5.0)"
+    "③ 竞品 13 处 (×11.7)"
    ],
    "variants": [],
    "named": 0.0
   },
   {
-   "name": "essence",
-   "key": "essence",
+   "name": "corp",
+   "key": "corp",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 5 处 (×4.9)"
+    "③ 竞品 13 处 (×8.5)"
    ],
    "variants": [],
    "named": 0.0
   },
   {
-   "name": "OpenAI Decisions API（正式 GA）",
-   "key": "openaidecisionsapi",
-   "sources": [
-    "看板X"
-   ],
-   "desc": "OpenAI Decisions API 正式开放：用 GPT-6 Luna 做近实时分类、评估和路由，不必生成完整模型回复，速度最多快约 10 倍；GA 后新增 GPT-Live 语音集成、prompt caching、原生 JSON 输入、单请求最多 400 个问题、单题指令可带图等。据报道输入约 $0.10/百万 token、无输出费。",
-   "url": "https://x.com/OpenAIDevs/status/2113346642787086538",
-   "signals": [],
-   "variants": [],
-   "board": {
-    "name": "OpenAI Decisions API（正式 GA）",
-    "source": "@OpenAIDevs",
-    "url": "https://x.com/OpenAIDevs/status/2113346642787086538",
-    "first_seen": "2026-10-23 03:07",
-    "keyword_rank": 1,
-    "keyword": "Decisions API",
-    "reason": "新 API 品类名，开发者会集中搜「是什么 / 定价 / 和普通 chat completion 对比 / 语音与多模态用法」；适合做快速上手和场景页。"
-   }
-  },
-  {
-   "name": "Agent Skills 捐给 Agentic AI Foundation",
-   "key": "agentskills捐给agenticaifoundation",
-   "sources": [
-    "看板X"
-   ],
-   "desc": "Anthropic（ClaudeDevs）把 Agent Skills 开放标准捐给 Linux Foundation 旗下 Agentic AI Foundation（和 MCP 同一基金会），一并移交名称、Logo、GitHub 组织和 agentskills.io。自 2025-12 以来已有 ChatGPT、Cursor、GitHub Copilot、VS Code 等 70+ 平台接入，约 100 万技能、2.8 亿次安装。",
-   "url": "https://x.com/ClaudeDevs/status/2113328526413996100",
-   "signals": [],
-   "variants": [],
-   "board": {
-    "name": "Agent Skills 捐给 Agentic AI Foundation",
-    "source": "@ClaudeDevs",
-    "url": "https://x.com/ClaudeDevs/status/2113328526413996100",
-    "first_seen": "2026-10-23 01:55",
-    "keyword_rank": 2,
-    "keyword": "Agent Skills",
-    "reason": "标准捐赠会带来一波「怎么写 SKILL.md / 跨平台能不能通用 / 和 MCP 什么关系」搜索；适合做教程和迁移指南页。"
-   }
-  },
-  {
-   "name": "Ling-3.0-flash-Sante（蚂蚁 / inclusionAI）",
-   "key": "ling30flashsante",
-   "sources": [
-    "看板X",
-    "书签X"
-   ],
-   "desc": "蚂蚁 Ling 开源医疗增强 MoE：总参 124B、每 token 仅激活 5.1B；HealthBench Professional 45.73→54.29（同档 flash 第一），并强化复杂医疗推理、深度研究与多 agent。权重已上 Hugging Face / ModelScope。",
-   "url": "https://x.com/AntLingAGI/status/2113293431435149349",
-   "signals": [],
-   "variants": [],
-   "board": {
-    "name": "Ling-3.0-flash-Sante（蚂蚁 / inclusionAI）",
-    "source": "@AntLingAGI",
-    "url": "https://x.com/AntLingAGI/status/2113293431435149349",
-    "first_seen": "2026-10-22 23:36",
-    "keyword_rank": 3,
-    "keyword": "Ling-3.0-flash-Sante",
-    "reason": "新开源医疗模型品牌词，竞争小；适合做「是什么 / 怎么下权重 / 医疗基准对比 / 本地部署注意（非临床诊断）」页。"
-   },
-   "first_seen": "2026-10-22 23:36"
-  },
-  {
-   "name": "Gemini API CLI（gemini-api，预览）",
-   "key": "geminiapicli",
-   "sources": [
-    "看板X"
-   ],
-   "desc": "Google 员工 Dmitry Lyalin 发布 Gemini API CLI（gemini-api）预览：单二进制 + API key，让 agent 直接生成图/视频/语音/音乐、分析媒体、转写、管理 agent，不用猜模型字符串或写一堆 curl。与旧的开源 Gemini CLI（gemini）不是同一个产品。",
-   "url": "https://x.com/LyalinDotCom/status/2113287431382601765",
-   "signals": [],
-   "variants": [],
-   "board": {
-    "name": "Gemini API CLI（gemini-api，预览）",
-    "source": "@LyalinDotCom",
-    "url": "https://x.com/LyalinDotCom/status/2113287431382601765",
-    "first_seen": "2026-10-22 23:12",
-    "keyword_rank": null,
-    "keyword": null,
-    "reason": null
-   }
-  },
-  {
-   "name": "Google Cloud Agent Compute Engine",
-   "key": "googlecloudagentcomputeengine",
-   "sources": [
-    "看板X"
-   ],
-   "desc": "Google Cloud 在 AGNTCon + MCPCon 宣布 Agent Compute Engine：用隔离 microVM 跑 agent，并扩展 Gemini for business 的 agent 治理能力。",
-   "url": "https://x.com/googlecloud/status/2113285915258794378",
-   "signals": [],
-   "variants": [],
-   "board": {
-    "name": "Google Cloud Agent Compute Engine",
-    "source": "@googlecloud",
-    "url": "https://x.com/googlecloud/status/2113285915258794378",
-    "first_seen": "2026-10-22 23:06",
-    "keyword_rank": null,
-    "keyword": null,
-    "reason": null
-   }
-  },
-  {
-   "name": "Claude 大规模形式化验证（研究博客）",
-   "key": "claude大规模形式化验证",
-   "sources": [
-    "看板X",
-    "书签X"
-   ],
-   "desc": "Anthropic Frontier Red Team 博客：与 Theorem Labs 合作，用 Claude 在数周内对 100+ 真实开源库做安全属性的形式化证明；形式化验证以往只适合小代码库或大量专家时间。",
-   "url": "https://x.com/AnthropicAI/status/2113390212911083894",
-   "signals": [],
-   "variants": [],
-   "board": {
-    "name": "Claude 大规模形式化验证（研究博客）",
-    "source": "@AnthropicAI",
-    "url": "https://x.com/AnthropicAI/status/2113390212911083894",
-    "first_seen": "2026-10-23 06:01",
-    "keyword_rank": null,
-    "keyword": null,
-    "reason": null
-   },
-   "not_model": true,
-   "first_seen": "2026-10-23 06:01"
-  },
-  {
-   "name": "Ling-3.1-flash-1019（补漏，上一档漏掉）",
-   "key": "ling31flash1019",
-   "sources": [
-    "看板X"
-   ],
-   "desc": "蚂蚁 Ling 发布 Ling-3.1-flash-1019：Artificial Analysis Intelligence Index 41→44；agent 相关 AA-Briefcase ~1400→1524 Elo、AutomationBench-AA 62%→68%。API 与开源权重「即将推出」，当时尚未放权。首发在上一档晚上窗口内（10-22 19:10），简报漏报故补。",
-   "url": "https://x.com/AntLingAGI/status/2113226531522891851",
-   "signals": [],
-   "variants": [],
-   "board": {
-    "name": "Ling-3.1-flash-1019（补漏，上一档漏掉）",
-    "source": "@AntLingAGI",
-    "url": "https://x.com/AntLingAGI/status/2113226531522891851",
-    "first_seen": "2026-10-22 19:10",
-    "keyword_rank": null,
-    "keyword": null,
-    "reason": null
-   }
-  },
-  {
-   "name": "MiniMax M3.1 Flash",
-   "key": "minimaxm31flash",
+   "name": "Dessa",
+   "key": "dessa",
    "sources": [
     "书签X"
    ],
-   "desc": "MiniMax 公开 428B MoE（23B 激活）权重，主打 agent/编码/工具调用。",
-   "url": "https://x.com/MiniMax_AI/status/2113436864904610008",
+   "desc": "【补报】Block（Jack Dorsey）发布纯语音训练的全双工 speech-to-speech 模型，可在消费级 GPU/高端 Mac 上跑，目前面向安全研究预览。",
+   "url": "https://x.com/jack/status/2113697902916751661",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-10-23 09:06"
+   "first_seen": "2026-10-24 02:23"
   },
   {
-   "name": "Canva Craft",
-   "key": "canvacraft",
+   "name": "Nemotron 3.5 Bolt E4B",
+   "key": "nemotron35bolte4b",
    "sources": [
     "书签X"
    ],
-   "desc": "Canva 首个面向设计的自研图像生成前沿模型，已对全体用户开放。",
-   "url": "https://x.com/canva/status/2113348707223753165",
+   "desc": "【补报】NVIDIA 发布约 4GB 的小型开源模型，面向本地助手、互动角色与可用工具的机器人对话。",
+   "url": "https://x.com/NVIDIAAI/status/2113657112408785153",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-10-23 03:16"
-  },
-  {
-   "name": "Claude 登陆 Google Cloud GA",
-   "key": "claude登陆googlecloudga",
-   "sources": [
-    "书签X"
-   ],
-   "desc": "Anthropic 托管的 Claude 模型在 Google Cloud 正式 GA，支持 IAM/计费。不是新模型",
-   "url": "https://x.com/claudeai/status/2113380122468454765",
-   "signals": [],
-   "variants": [],
-   "not_model": true,
-   "first_seen": "2026-10-23 05:21"
-  },
-  {
-   "name": "Claude 默认自动模式",
-   "key": "claude默认自动模式",
-   "sources": [
-    "书签X"
-   ],
-   "desc": "Pro/Max/Team 下周起会话默认自动模式，风控自动拦危险操作。功能更新，不是新模型",
-   "url": "https://x.com/claudeai/status/2113360845409583307",
-   "signals": [],
-   "variants": [],
-   "not_model": true,
-   "first_seen": "2026-10-23 04:04"
-  },
-  {
-   "name": "OpenAI × METR 嵌入式评估",
-   "key": "openaimetr嵌入式评估",
-   "sources": [
-    "书签X"
-   ],
-   "desc": "OpenAI 邀请 METR 与 Redwood 对其内部监控做三周嵌入式评估试点。合作/科研成果，不是新模型",
-   "url": "https://x.com/OpenAI/status/2113298833392496746",
-   "signals": [],
-   "variants": [],
-   "not_model": true,
-   "first_seen": "2026-10-22 23:57"
-  },
-  {
-   "name": "StreamEval",
-   "key": "streameval",
-   "sources": [
-    "书签X"
-   ],
-   "desc": "ModelScope 上架交互式长视频生成评测集 StreamEval（15–300 秒多模态会话）。上架，不是新模型",
-   "url": "https://x.com/ModelScope2022/status/2113571171140542659",
-   "signals": [],
-   "variants": [],
-   "not_model": true,
-   "first_seen": "2026-10-23 18:00"
+   "first_seen": "2026-10-23 23:41"
   }
  ],
- "dupes": [
-  {
-   "name": "Ling-3.0-flash-Sante",
-   "matched": "Ling-3.0-flash-Sante（蚂蚁 / inclusionAI）",
-   "ours": [
-    "看板X"
-   ]
-  },
-  {
-   "name": "Claude 大规模形式化验证",
-   "matched": "Claude 大规模形式化验证（研究博客）",
-   "ours": [
-    "看板X"
-   ]
-  }
- ],
+ "dupes": [],
  "board_keywords": [
-  "Decisions API",
-  "Agent Skills",
-  "Ling-3.0-flash-Sante"
+  "Dessa"
  ]
 }

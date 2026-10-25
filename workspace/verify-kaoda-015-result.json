@@ -1,0 +1,702 @@
+{
+  "favicons": {
+    "/favicon.svg": {
+      "status": 200,
+      "contentType": "image/svg+xml"
+    },
+    "/favicon.ico": {
+      "status": 200,
+      "contentType": "image/svg+xml"
+    },
+    "/version.json": {
+      "status": 404,
+      "contentType": "text/html; charset=utf-8"
+    }
+  },
+  "routes": {
+    "desktop": {
+      "briefs": {
+        "routeName": "briefs",
+        "vpName": "desktop",
+        "scrollW": 1280,
+        "clientW": 1280,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 73,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "24px",
+        "pagePaddingRight": "24px",
+        "mainLeft": 74,
+        "mainWidth": 788,
+        "toolbarLeft": 74,
+        "toolbarTop": -19,
+        "topbarAlpha": 1
+      },
+      "bookmarks-urgent": {
+        "routeName": "bookmarks-urgent",
+        "vpName": "desktop",
+        "scrollW": 1280,
+        "clientW": 1280,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 73,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "24px",
+        "pagePaddingRight": "24px",
+        "mainLeft": 74,
+        "mainWidth": 788,
+        "toolbarLeft": 74,
+        "toolbarTop": -19,
+        "topbarAlpha": 1
+      },
+      "bookmarks-open": {
+        "routeName": "bookmarks-open",
+        "vpName": "desktop",
+        "scrollW": 1280,
+        "clientW": 1280,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 73,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "24px",
+        "pagePaddingRight": "24px",
+        "mainLeft": 74,
+        "mainWidth": 788,
+        "toolbarLeft": 74,
+        "toolbarTop": -19,
+        "topbarAlpha": 1
+      },
+      "bookmarks-done": {
+        "routeName": "bookmarks-done",
+        "vpName": "desktop",
+        "scrollW": 1280,
+        "clientW": 1280,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 73,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "24px",
+        "pagePaddingRight": "24px",
+        "mainLeft": 74,
+        "mainWidth": 788,
+        "toolbarLeft": 74,
+        "toolbarTop": -19,
+        "topbarAlpha": 1
+      },
+      "radar-new": {
+        "routeName": "radar-new",
+        "vpName": "desktop",
+        "scrollW": 1280,
+        "clientW": 1280,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 73,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "24px",
+        "pagePaddingRight": "24px",
+        "mainLeft": 74,
+        "mainWidth": 788,
+        "toolbarLeft": 74,
+        "toolbarTop": -19,
+        "topbarAlpha": 1
+      },
+      "radar-hot": {
+        "routeName": "radar-hot",
+        "vpName": "desktop",
+        "scrollW": 1280,
+        "clientW": 1280,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 73,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "24px",
+        "pagePaddingRight": "24px",
+        "mainLeft": 74,
+        "mainWidth": 788,
+        "toolbarLeft": 74,
+        "toolbarTop": -19,
+        "topbarAlpha": 1
+      },
+      "forum": {
+        "routeName": "forum",
+        "vpName": "desktop",
+        "scrollW": 1280,
+        "clientW": 1280,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 73,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "24px",
+        "pagePaddingRight": "24px",
+        "mainLeft": 74,
+        "mainWidth": 788,
+        "toolbarLeft": 74,
+        "toolbarTop": -19,
+        "topbarAlpha": 1
+      },
+      "tg-slots": {
+        "routeName": "tg-slots",
+        "vpName": "desktop",
+        "scrollW": 1280,
+        "clientW": 1280,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 73,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [
+          {
+            "tag": "MAIN",
+            "cls": "tg-reader",
+            "clientH": 709,
+            "scrollH": 129616
+          },
+          {
+            "tag": "ASIDE",
+            "cls": "tg-side-rail",
+            "clientH": 709,
+            "scrollH": 24993
+          }
+        ],
+        "pagePaddingLeft": "51.2px",
+        "pagePaddingRight": "51.2px",
+        "mainLeft": 51,
+        "mainWidth": 759,
+        "toolbarLeft": 87,
+        "toolbarTop": 88,
+        "topbarAlpha": 1
+      },
+      "tg-merged": {
+        "routeName": "tg-merged",
+        "vpName": "desktop",
+        "scrollW": 1280,
+        "clientW": 1280,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 73,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [
+          {
+            "tag": "MAIN",
+            "cls": "tg-reader",
+            "clientH": 709,
+            "scrollH": 1934
+          },
+          {
+            "tag": "ASIDE",
+            "cls": "tg-side-rail",
+            "clientH": 709,
+            "scrollH": 24993
+          }
+        ],
+        "pagePaddingLeft": "51.2px",
+        "pagePaddingRight": "51.2px",
+        "mainLeft": 51,
+        "mainWidth": 759,
+        "toolbarLeft": 87,
+        "toolbarTop": 88,
+        "topbarAlpha": 1
+      },
+      "login": {
+        "routeName": "login",
+        "vpName": "desktop",
+        "scrollW": 1280,
+        "clientW": 1280,
+        "horizOverflow": false,
+        "topbarBg": null,
+        "topbarTop": null,
+        "topbarBottom": null,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": null,
+        "pagePaddingRight": null,
+        "mainLeft": null,
+        "mainWidth": null,
+        "toolbarLeft": null,
+        "toolbarTop": null,
+        "topbarAlpha": 0
+      }
+    },
+    "mobile": {
+      "briefs": {
+        "routeName": "briefs",
+        "vpName": "mobile",
+        "scrollW": 390,
+        "clientW": 390,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 145,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "14px",
+        "pagePaddingRight": "14px",
+        "mainLeft": 14,
+        "mainWidth": 362,
+        "toolbarLeft": 14,
+        "toolbarTop": 53,
+        "topbarAlpha": 1
+      },
+      "bookmarks-urgent": {
+        "routeName": "bookmarks-urgent",
+        "vpName": "mobile",
+        "scrollW": 396,
+        "clientW": 390,
+        "horizOverflow": true,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 145,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "14px",
+        "pagePaddingRight": "14px",
+        "mainLeft": 14,
+        "mainWidth": 362,
+        "toolbarLeft": 14,
+        "toolbarTop": 53,
+        "topbarAlpha": 1
+      },
+      "bookmarks-open": {
+        "routeName": "bookmarks-open",
+        "vpName": "mobile",
+        "scrollW": 396,
+        "clientW": 390,
+        "horizOverflow": true,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 145,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "14px",
+        "pagePaddingRight": "14px",
+        "mainLeft": 14,
+        "mainWidth": 362,
+        "toolbarLeft": 14,
+        "toolbarTop": 53,
+        "topbarAlpha": 1
+      },
+      "bookmarks-done": {
+        "routeName": "bookmarks-done",
+        "vpName": "mobile",
+        "scrollW": 390,
+        "clientW": 390,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 145,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "14px",
+        "pagePaddingRight": "14px",
+        "mainLeft": 14,
+        "mainWidth": 362,
+        "toolbarLeft": 14,
+        "toolbarTop": 53,
+        "topbarAlpha": 1
+      },
+      "radar-new": {
+        "routeName": "radar-new",
+        "vpName": "mobile",
+        "scrollW": 390,
+        "clientW": 390,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 145,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "14px",
+        "pagePaddingRight": "14px",
+        "mainLeft": 14,
+        "mainWidth": 362,
+        "toolbarLeft": 14,
+        "toolbarTop": 53,
+        "topbarAlpha": 1
+      },
+      "radar-hot": {
+        "routeName": "radar-hot",
+        "vpName": "mobile",
+        "scrollW": 390,
+        "clientW": 390,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 145,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "14px",
+        "pagePaddingRight": "14px",
+        "mainLeft": 14,
+        "mainWidth": 362,
+        "toolbarLeft": 14,
+        "toolbarTop": 53,
+        "topbarAlpha": 1
+      },
+      "forum": {
+        "routeName": "forum",
+        "vpName": "mobile",
+        "scrollW": 473,
+        "clientW": 390,
+        "horizOverflow": true,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 145,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": "14px",
+        "pagePaddingRight": "14px",
+        "mainLeft": 14,
+        "mainWidth": 362,
+        "toolbarLeft": 14,
+        "toolbarTop": 53,
+        "topbarAlpha": 1
+      },
+      "tg-slots": {
+        "routeName": "tg-slots",
+        "vpName": "mobile",
+        "scrollW": 390,
+        "clientW": 390,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 105,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [
+          {
+            "tag": "MAIN",
+            "cls": "tg-reader",
+            "clientH": 722,
+            "scrollH": 1892
+          }
+        ],
+        "pagePaddingLeft": "20px",
+        "pagePaddingRight": "20px",
+        "mainLeft": 20,
+        "mainWidth": 350,
+        "toolbarLeft": 35,
+        "toolbarTop": 116,
+        "topbarAlpha": 1
+      },
+      "tg-merged": {
+        "routeName": "tg-merged",
+        "vpName": "mobile",
+        "scrollW": 390,
+        "clientW": 390,
+        "horizOverflow": false,
+        "topbarBg": "rgb(11, 15, 16)",
+        "topbarTop": 0,
+        "topbarBottom": 105,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [
+          {
+            "tag": "MAIN",
+            "cls": "tg-reader",
+            "clientH": 722,
+            "scrollH": 2098
+          }
+        ],
+        "pagePaddingLeft": "20px",
+        "pagePaddingRight": "20px",
+        "mainLeft": 20,
+        "mainWidth": 350,
+        "toolbarLeft": 35,
+        "toolbarTop": 116,
+        "topbarAlpha": 1
+      },
+      "login": {
+        "routeName": "login",
+        "vpName": "mobile",
+        "scrollW": 390,
+        "clientW": 390,
+        "horizOverflow": false,
+        "topbarBg": null,
+        "topbarTop": null,
+        "topbarBottom": null,
+        "logoVisible": true,
+        "faviconLinks": [
+          "/favicon.svg",
+          "/favicon.ico"
+        ],
+        "nativeSelects": 0,
+        "nestedCards": [],
+        "wrappedShortLabels": [],
+        "verticalScrollers": [],
+        "pagePaddingLeft": null,
+        "pagePaddingRight": null,
+        "mainLeft": null,
+        "mainWidth": null,
+        "toolbarLeft": null,
+        "toolbarTop": null,
+        "topbarAlpha": 0
+      }
+    }
+  },
+  "tgStickyAndGutter": {
+    "desktop": {
+      "vpName": "desktop",
+      "readerScrollTop": 320,
+      "topbarBg": "rgb(11, 15, 16)",
+      "shellBg": "rgb(11, 15, 16)",
+      "timelineBg": "rgb(11, 15, 16)",
+      "winNavBg": "rgb(11, 15, 16)",
+      "gapAboveStickyPanel": 0,
+      "gapBetweenStickyLayers": 0,
+      "seamHitOk": true,
+      "bottomLeftCornerHitOk": true,
+      "bottomRightCornerHitOk": true,
+      "seamHitTag": "SECTION.tg-timeline",
+      "bottomLeftCornerTag": "DIV.tg-timeline-shell",
+      "bottomRightCornerTag": "DIV.tg-timeline-shell",
+      "readerPadLeft": 12,
+      "readerPadRight": 12,
+      "gutterWidth": 8,
+      "leftInset": 12,
+      "rightInsetFromClient": 12,
+      "rightInsetFromBorder": 20,
+      "timelineInnerLeftInset": 24,
+      "timelineInnerRightInset": 93,
+      "winNavPadLeft": 6,
+      "winNavPadRight": 6,
+      "topbarAlpha": 1,
+      "shellAlpha": 1,
+      "timelineAlpha": 1,
+      "winNavAlpha": 1
+    },
+    "mobile": {
+      "vpName": "mobile",
+      "readerScrollTop": 320,
+      "topbarBg": "rgb(11, 15, 16)",
+      "shellBg": "rgb(11, 15, 16)",
+      "timelineBg": "rgb(11, 15, 16)",
+      "winNavBg": null,
+      "gapAboveStickyPanel": 0,
+      "gapBetweenStickyLayers": 0,
+      "seamHitOk": true,
+      "bottomLeftCornerHitOk": true,
+      "bottomRightCornerHitOk": true,
+      "seamHitTag": "SECTION.tg-timeline",
+      "bottomLeftCornerTag": "DIV.tg-timeline-shell",
+      "bottomRightCornerTag": "DIV.tg-timeline-shell",
+      "readerPadLeft": 4,
+      "readerPadRight": 4,
+      "gutterWidth": 8,
+      "leftInset": 4,
+      "rightInsetFromClient": 4,
+      "rightInsetFromBorder": 12,
+      "timelineInnerLeftInset": 11,
+      "timelineInnerRightInset": 11,
+      "winNavPadLeft": null,
+      "winNavPadRight": null,
+      "topbarAlpha": 1,
+      "shellAlpha": 1,
+      "timelineAlpha": 1,
+      "winNavAlpha": null
+    }
+  },
+  "stateAnchorChecks": {
+    "desktop": {
+      "tgMergedBefore": {
+        "timelineLeft": 63,
+        "timelineWidth": 727,
+        "streamLeft": 63,
+        "streamWidth": 727
+      },
+      "tgMergedAfterExpand": {
+        "timelineLeft": 63,
+        "timelineWidth": 727,
+        "streamLeft": 63,
+        "streamWidth": 727,
+        "l3Open": true,
+        "l3Height": 171,
+        "l3Messages": 2
+      },
+      "tgMergedEmptyDate": {
+        "timelineLeft": 63,
+        "timelineWidth": 727,
+        "streamLeft": 63,
+        "streamWidth": 727
+      },
+      "tgTimelineDriftOnExpand": 0,
+      "tgStreamDriftOnExpand": 0,
+      "tgStreamDriftOnEmpty": 0,
+      "bookmarksUrgentVsOpenMainDrift": 0,
+      "bookmarksUrgentVsDoneMainDrift": 0
+    },
+    "mobile": {
+      "tgMergedBefore": {
+        "timelineLeft": 24,
+        "timelineWidth": 334,
+        "streamLeft": 24,
+        "streamWidth": 334
+      },
+      "tgMergedAfterExpand": {
+        "timelineLeft": 24,
+        "timelineWidth": 334,
+        "streamLeft": 24,
+        "streamWidth": 334,
+        "l3Open": true,
+        "l3Height": 265,
+        "l3Messages": 2
+      },
+      "tgMergedEmptyDate": {
+        "timelineLeft": 24,
+        "timelineWidth": 334,
+        "streamLeft": 24,
+        "streamWidth": 334
+      },
+      "tgTimelineDriftOnExpand": 0,
+      "tgStreamDriftOnExpand": 0,
+      "tgStreamDriftOnEmpty": 0,
+      "bookmarksUrgentVsOpenMainDrift": 0,
+      "bookmarksUrgentVsDoneMainDrift": 0
+    }
+  }
+}

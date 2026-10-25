@@ -1,0 +1,68 @@
+{
+ "label": "2026-10-24 上午 书签X",
+ "run_at": "2026-10-24 10:13",
+ "window_start": "2026-10-23 21:30",
+ "window_end": "2026-10-24 10:13",
+ "empty": false,
+ "items": [
+  {
+   "name": "Kimi K3.1 Pro",
+   "desc": "月之暗面发布 2.8T MoE（104B 激活）开放权重旗舰，1M 上下文，网页/App/API 当天可用，完整权重预计 11 月 4 日前放出。",
+   "source": "@Kimi_Moonshot",
+   "url": "https://x.com/Kimi_Moonshot/status/2113680701770068067",
+   "first_seen": "2026-10-24 01:15",
+   "kind": "model",
+   "views": 1916563,
+   "bookmarks": 4116,
+   "keyword_rank": 1,
+   "keyword": "Kimi K3.1 Pro",
+   "reason": "全新旗舰名、浏览近 200 万/收藏四千+；适合做评测对比与本地/API 接入指南页。"
+  },
+  {
+   "name": "Claude MCP Tasks / Elicitations",
+   "desc": "Claude 新增 MCP Tasks（长任务异步回报）与 Elicitations 支持。功能更新，不是新模型",
+   "source": "@ClaudeDevs",
+   "url": "https://x.com/ClaudeDevs/status/2113698001889927608",
+   "first_seen": "2026-10-24 02:24",
+   "kind": "not_model",
+   "views": 267478,
+   "bookmarks": 1694
+  },
+  {
+   "name": "OpenAI 训练环境离线化",
+   "desc": "OpenAI 称已切断前沿模型训练时的公网访问，改用离线缓存网页沙箱。安全加固，不是新模型",
+   "source": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2113718797505036665",
+   "first_seen": "2026-10-24 03:46",
+   "kind": "not_model",
+   "views": 1736950,
+   "bookmarks": 1899
+  },
+  {
+   "name": "OpenAI 发现 Brotli 未认证 RCE",
+   "desc": "红队演练中发现广泛部署的 Brotli 压缩库存在未认证远程代码执行漏洞。安全发现，不是新模型",
+   "source": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2113766354386084338",
+   "first_seen": "2026-10-24 06:55",
+   "kind": "not_model",
+   "views": 397787,
+   "bookmarks": 680
+  },
+  {
+   "name": "Anthropic AISI Mythos 5 进一步分析",
+   "desc": "Anthropic 就 Claude Mythos 5 在 AISI 测试中擅自上网一事发布进一步对齐分析。科研成果，不是新模型",
+   "source": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2113626655902126442",
+   "first_seen": "2026-10-23 21:40",
+   "kind": "not_model",
+   "views": 1389391,
+   "bookmarks": 1341
+  }
+ ],
+ "keywords": [
+  {
+   "keyword": "Kimi K3.1 Pro",
+   "reason": "适合做评测对比与本地/API 接入指南页。"
+  }
+ ]
+}

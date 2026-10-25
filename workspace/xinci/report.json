@@ -1,15 +1,15 @@
 {
  "leads": [
   {
-   "term": "ltx2 distilled faceswap v3",
+   "term": "deepseek v4.1 flash 1017 gsq rco",
    "kinds": [
     "hf"
    ],
    "signals": [
-    "HF 新进榜第 35 名"
+    "HF 新进榜第 33 名"
    ],
    "examples": [
-    "linoyts/ltx2-19b-distilled-faceswap-v3 (?, ♥136)"
+    "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF (text-generation, ♥142)"
    ],
    "variants": [],
    "posts": [],
@@ -19,123 +19,81 @@
    "named": 0.9
   },
   {
-   "term": "3d model anything",
+   "term": "hatchzip",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 wesbos/3d-model-anything ★793(均 455/天)"
+    "GitHub 爆发 xevrion/hatchzip ★1418(均 501/天)"
    ],
    "examples": [
-    "wesbos/3d-model-anything: Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser."
+    "xevrion/hatchzip: Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, "
    ],
    "variants": [
-    "3d model anything",
-    "wesbos 3d model anything"
+    "hatchzip",
+    "xevrion hatchzip",
+    "yash hatchzip"
    ],
    "posts": [],
-   "repo": "wesbos/3d-model-anything",
+   "repo": "xevrion/hatchzip",
    "known": "",
-   "format": "image",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "fairplay decrypt",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 EthanArbuckle/fairplay-decrypt ★1834(均 357/天,一天 +610)"
+   ],
+   "examples": [
+    "EthanArbuckle/fairplay-decrypt: Offline FairPlay App Store IPA decryption with independent key derivation"
+   ],
+   "variants": [
+    "fairplay decrypt",
+    "ethanarbuckle fairplay decrypt",
+    "objc fairplay decrypt"
+   ],
+   "posts": [],
+   "repo": "EthanArbuckle/fairplay-decrypt",
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.85
+  },
+  {
+   "term": "gpu unlock",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 Zagitta/gpu-unlock ★1416(均 218/天,一天 +1023)"
+   ],
+   "examples": [
+    "Zagitta/gpu-unlock: Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents"
+   ],
+   "variants": [
+    "gpu unlock",
+    "zagitta gpu unlock",
+    "simon gpu unlock"
+   ],
+   "posts": [],
+   "repo": "Zagitta/gpu-unlock",
+   "known": "",
+   "format": "text",
    "one_click": null,
    "named": 0.8
   },
   {
-   "term": "nxnative",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 seedds/nxnative ★2306(均 223/天,一天 +1081)"
-   ],
-   "examples": [
-    "seedds/nxnative: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE "
-   ],
-   "variants": [
-    "nxnative",
-    "seedds nxnative"
-   ],
-   "posts": [],
-   "repo": "seedds/nxnative",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "hackios xnu kernel",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 oosexgang/hackios-xnu-kernel ★882(均 679/天)"
-   ],
-   "examples": [
-    "oosexgang/hackios-xnu-kernel: "
-   ],
-   "variants": [
-    "hackios xnu kernel",
-    "oosexgang hackios xnu kernel"
-   ],
-   "posts": [],
-   "repo": "oosexgang/hackios-xnu-kernel",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "reylo",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 colinhacks/reylo ★922(均 361/天,一天 +530)"
-   ],
-   "examples": [
-    "colinhacks/reylo: Import .sql files into TypeScript with full type inference and zero codegen."
-   ],
-   "variants": [
-    "reylo",
-    "colinhacks reylo",
-    "colin reylo"
-   ],
-   "posts": [],
-   "repo": "colinhacks/reylo",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "snapintosh",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 Snapintosh/Snapintosh ★690(均 462/天)"
-   ],
-   "examples": [
-    "Snapintosh/Snapintosh: EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack"
-   ],
-   "variants": [
-    "snapintosh",
-    "snapintosh snapintosh"
-   ],
-   "posts": [],
-   "repo": "Snapintosh/Snapintosh",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "co.youraitools.api",
+   "term": "io.github.ygfalcon",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 4 处 (×4.0)"
+    "③ 竞品 5 处 (×5.0)"
    ],
    "examples": [],
    "variants": [],
@@ -143,103 +101,7 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "com.jocktaxes",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 4 处 (×4.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "deepseek",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 28 处 (×9.7)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.5
-  },
-  {
-   "term": "alexa",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 15 处 (×8.8)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.5
-  },
-  {
-   "term": "lemon squared",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 11 处 (×11.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.4
-  },
-  {
-   "term": "co.youraitools",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 10 处 (×9.3)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.4
-  },
-  {
-   "term": "aiframework",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 13 处 (×8.7)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.4
+   "named": 0.8
   },
   {
    "term": "mspbotsaiframework",
@@ -247,7 +109,7 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 13 处 (×8.7)"
+    "③ 竞品 22 处 (×14.3)"
    ],
    "examples": [],
    "variants": [],
@@ -255,7 +117,55 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.4
+   "named": 0.7
+  },
+  {
+   "term": "aiframework",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 22 处 (×14.3)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "skilleddragoncorp",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 13 处 (×13.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "pinot",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 6 处 (×5.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
   },
   {
    "term": "mspbots",
@@ -263,7 +173,103 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 13 处 (×6.4)"
+    "③ 竞品 22 处 (×11.4)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "dev.cotlet",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 11 处 (×10.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "io.github.bck",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 8 处 (×7.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "com.scriptmasterlabs",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 6 处 (×5.7)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "alexa",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 11 处 (×6.3)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.5
+  },
+  {
+   "term": "kubernetes",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 6 处 (×4.3)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.5
+  },
+  {
+   "term": "connectors dev.cotlet",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 11 处 (×10.9)"
    ],
    "examples": [],
    "variants": [],
@@ -274,7 +280,135 @@
    "named": 0.4
   },
   {
-   "term": "writerco",
+   "term": "connectors io.github.bck",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 8 处 (×7.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.4
+  },
+  {
+   "term": "io.github.bck stack",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 8 处 (×7.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.4
+  },
+  {
+   "term": "connectors io.usefulapi",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 31 处 (×7.6)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.4
+  },
+  {
+   "term": "connectors com.scriptmasterlabs",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 6 处 (×5.7)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.4
+  },
+  {
+   "term": "acrt eval",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 21 处 (×19.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "stack sitecheck",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 8 处 (×7.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "eval figma",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 6 处 (×6.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "connectors io.github.ygfalcon",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 5 处 (×5.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "figma context",
    "kinds": [
     "sitemap"
    ],
@@ -287,191 +421,15 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.4
+   "named": 0.1
   },
   {
-   "term": "connectors com.textforagents",
+   "term": "sites",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 48 处 (×28.8)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "connectors co.youraitools",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 10 处 (×9.3)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "jaknow01",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 8 处 (×8.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "cotletdev",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 7 处 (×7.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "acrt",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 6 处 (×6.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "eval n8n",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 6 处 (×6.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "acrt eval",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 6 处 (×6.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "connectors io.github.omarkhandji",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 5 处 (×5.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "connectors co.youraitools.api",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 4 处 (×4.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "tutorials deepseek",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 19 处 (×18.4)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.2
-  },
-  {
-   "term": "r1",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 9 处 (×7.2)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.2
-  },
-  {
-   "term": "tutorials",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 28 处 (×10.6)"
+    "③ 竞品 685 处 (×577.3)"
    ],
    "examples": [],
    "variants": [],
@@ -482,12 +440,12 @@
    "named": 0.0
   },
   {
-   "term": "io.github.omarkhandji commits",
+   "term": "skilled",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 5 处 (×5.0)"
+    "③ 竞品 13 处 (×12.8)"
    ],
    "examples": [],
    "variants": [],
@@ -498,12 +456,12 @@
    "named": 0.0
   },
   {
-   "term": "squared google",
+   "term": "dragon",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 5 处 (×5.0)"
+    "③ 竞品 13 处 (×11.7)"
    ],
    "examples": [],
    "variants": [],
@@ -514,12 +472,12 @@
    "named": 0.0
   },
   {
-   "term": "essence",
+   "term": "corp",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 5 处 (×4.9)"
+    "③ 竞品 13 处 (×8.5)"
    ],
    "examples": [],
    "variants": [],
@@ -542,14 +500,14 @@
   "first_run": false,
   "terms": [
    {
-    "term": "ltx2 distilled faceswap v3",
-    "rank": 35,
+    "term": "deepseek v4.1 flash 1017 gsq rco",
+    "rank": 33,
     "copies": 1,
     "examples": [
-     "linoyts/ltx2-19b-distilled-faceswap-v3 (?, ♥136)"
+     "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF (text-generation, ♥142)"
     ],
     "recent": 1,
-    "note": "HF 新进榜第 35 名"
+    "note": "HF 新进榜第 33 名"
    }
   ],
   "models": 100,
@@ -563,10 +521,10 @@
     "repo": "Gathin23/cleanyourtv",
     "owner": "Gathin23",
     "name": "cleanyourtv",
-    "stars": 26480,
-    "velocity": 4256,
-    "delta": 4218,
-    "age_days": 6.2,
+    "stars": 29996,
+    "velocity": 4155,
+    "delta": 3516,
+    "age_days": 7.2,
     "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
     "new": false
    },
@@ -574,69 +532,97 @@
     "repo": "deepseek-ai/DeepInfer",
     "owner": "deepseek-ai",
     "name": "DeepInfer",
-    "stars": 20666,
-    "velocity": 2855,
-    "delta": 1290,
-    "age_days": 7.2,
+    "stars": 21575,
+    "velocity": 2619,
+    "delta": 909,
+    "age_days": 8.2,
     "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
     "new": false
+   },
+   {
+    "repo": "Zagitta/gpu-unlock",
+    "owner": "Zagitta",
+    "name": "gpu-unlock",
+    "stars": 1416,
+    "velocity": 218,
+    "delta": 1023,
+    "age_days": 6.5,
+    "description": "Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents",
+    "new": true,
+    "variants": [
+     "gpu unlock",
+     "zagitta gpu unlock",
+     "simon gpu unlock"
+    ]
    },
    {
     "repo": "pengchujin/aerial-tv",
     "owner": "pengchujin",
     "name": "aerial-tv",
-    "stars": 3648,
-    "velocity": 1147,
-    "delta": 777,
-    "age_days": 3.2,
+    "stars": 4202,
+    "velocity": 1006,
+    "delta": 554,
+    "age_days": 4.2,
     "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
     "new": false
-   },
-   {
-    "repo": "seedds/nxnative",
-    "owner": "seedds",
-    "name": "nxnative",
-    "stars": 2306,
-    "velocity": 223,
-    "delta": 1081,
-    "age_days": 10.3,
-    "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE ",
-    "new": true,
-    "variants": [
-     "nxnative",
-     "seedds nxnative"
-    ]
    },
    {
     "repo": "simbasjungles/free-my-tv",
     "owner": "simbasjungles",
     "name": "free-my-tv",
-    "stars": 3716,
-    "velocity": 991,
-    "delta": 646,
-    "age_days": 3.8,
-    "description": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
+    "stars": 4110,
+    "velocity": 865,
+    "delta": 394,
+    "age_days": 4.7,
+    "description": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
     "new": false
    },
    {
     "repo": "ly05010419/MacNativeGames",
     "owner": "ly05010419",
     "name": "MacNativeGames",
-    "stars": 4755,
-    "velocity": 829,
-    "delta": 470,
-    "age_days": 5.7,
+    "stars": 5111,
+    "velocity": 759,
+    "delta": 356,
+    "age_days": 6.7,
     "description": "",
     "new": false
+   },
+   {
+    "repo": "wesbos/3d-model-anything",
+    "owner": "wesbos",
+    "name": "3d-model-anything",
+    "stars": 1430,
+    "velocity": 521,
+    "delta": 637,
+    "age_days": 2.7,
+    "description": "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.",
+    "new": false
+   },
+   {
+    "repo": "EthanArbuckle/fairplay-decrypt",
+    "owner": "EthanArbuckle",
+    "name": "fairplay-decrypt",
+    "stars": 1834,
+    "velocity": 357,
+    "delta": 610,
+    "age_days": 5.1,
+    "description": "Offline FairPlay App Store IPA decryption with independent key derivation",
+    "new": true,
+    "variants": [
+     "fairplay decrypt",
+     "ethanarbuckle fairplay decrypt",
+     "objc fairplay decrypt"
+    ]
    },
    {
     "repo": "ikow/php2shell-poc",
     "owner": "ikow",
     "name": "php2shell-poc",
-    "stars": 1635,
-    "velocity": 732,
-    "delta": 257,
-    "age_days": 2.2,
+    "stars": 1733,
+    "velocity": 536,
+    "delta": 98,
+    "age_days": 3.2,
     "description": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-",
     "new": false
    },
@@ -644,173 +630,115 @@
     "repo": "oosexgang/hackios-xnu-kernel",
     "owner": "oosexgang",
     "name": "hackios-xnu-kernel",
-    "stars": 882,
-    "velocity": 679,
-    "delta": null,
-    "age_days": 1.3,
+    "stars": 1215,
+    "velocity": 529,
+    "delta": 333,
+    "age_days": 2.3,
     "description": "",
+    "new": false
+   },
+   {
+    "repo": "xevrion/hatchzip",
+    "owner": "xevrion",
+    "name": "hatchzip",
+    "stars": 1418,
+    "velocity": 501,
+    "delta": null,
+    "age_days": 2.8,
+    "description": "Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, ",
     "new": true,
     "variants": [
-     "hackios xnu kernel",
-     "oosexgang hackios xnu kernel"
+     "hatchzip",
+     "xevrion hatchzip",
+     "yash hatchzip"
     ]
    },
    {
-    "repo": "colinhacks/reylo",
-    "owner": "colinhacks",
-    "name": "reylo",
-    "stars": 922,
-    "velocity": 361,
-    "delta": 530,
-    "age_days": 2.6,
-    "description": "Import .sql files into TypeScript with full type inference and zero codegen.",
-    "new": true,
-    "variants": [
-     "reylo",
-     "colinhacks reylo",
-     "colin reylo"
-    ]
-   },
-   {
-    "repo": "9bie/php2shell-bypass-aslr-exp",
-    "owner": "9bie",
-    "name": "php2shell-bypass-aslr-exp",
-    "stars": 1088,
-    "velocity": 519,
-    "delta": 238,
-    "age_days": 2.1,
-    "description": "A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit",
+    "repo": "seedds/nxnative",
+    "owner": "seedds",
+    "name": "nxnative",
+    "stars": 2802,
+    "velocity": 247,
+    "delta": 496,
+    "age_days": 11.3,
+    "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE ",
     "new": false
    },
    {
     "repo": "xiaoyang111222/cn-math-taxonomy",
     "owner": "xiaoyang111222",
     "name": "cn-math-taxonomy",
-    "stars": 2640,
-    "velocity": 509,
-    "delta": 495,
-    "age_days": 5.2,
+    "stars": 3031,
+    "velocity": 490,
+    "delta": 391,
+    "age_days": 6.2,
     "description": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
     "new": false
    },
    {
-    "repo": "Snapintosh/Snapintosh",
-    "owner": "Snapintosh",
-    "name": "Snapintosh",
-    "stars": 690,
-    "velocity": 462,
-    "delta": null,
-    "age_days": 1.5,
-    "description": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack",
-    "new": true,
-    "variants": [
-     "snapintosh",
-     "snapintosh snapintosh"
-    ]
-   },
-   {
-    "repo": "wesbos/3d-model-anything",
-    "owner": "wesbos",
-    "name": "3d-model-anything",
-    "stars": 793,
-    "velocity": 455,
-    "delta": null,
-    "age_days": 1.7,
-    "description": "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.",
-    "new": true,
-    "variants": [
-     "3d model anything",
-     "wesbos 3d model anything"
-    ]
-   },
-   {
-    "repo": "tek-sys-hub/Rubix-lang",
-    "owner": "tek-sys-hub",
-    "name": "Rubix-lang",
-    "stars": 1916,
-    "velocity": 442,
-    "delta": 18,
-    "age_days": 4.3,
-    "description": "The 100% Pure x86-64 Assembly Systems Language",
+    "repo": "9bie/php2shell-bypass-aslr-exp",
+    "owner": "9bie",
+    "name": "php2shell-bypass-aslr-exp",
+    "stars": 1385,
+    "velocity": 448,
+    "delta": 297,
+    "age_days": 3.1,
+    "description": "A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit",
     "new": false
    },
    {
-    "repo": "JoasASantos/REA-Prompts",
-    "owner": "JoasASantos",
-    "name": "REA-Prompts",
-    "stars": 1586,
-    "velocity": 437,
-    "delta": 155,
-    "age_days": 3.6,
-    "description": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any progr",
+    "repo": "openai/php2shell-checker",
+    "owner": "openai",
+    "name": "php2shell-checker",
+    "stars": 1364,
+    "velocity": 385,
+    "delta": 420,
+    "age_days": 3.5,
+    "description": "",
     "new": false
    }
   ],
   "terms": [
    {
-    "term": "nxnative",
+    "term": "gpu unlock",
     "recent": 1,
     "variants": [
-     "nxnative",
-     "seedds nxnative"
+     "gpu unlock",
+     "zagitta gpu unlock",
+     "simon gpu unlock"
     ],
-    "repo": "seedds/nxnative",
-    "note": "GitHub 爆发 seedds/nxnative ★2306(均 223/天,一天 +1081)",
+    "repo": "Zagitta/gpu-unlock",
+    "note": "GitHub 爆发 Zagitta/gpu-unlock ★1416(均 218/天,一天 +1023)",
     "examples": [
-     "seedds/nxnative: Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE "
+     "Zagitta/gpu-unlock: Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents"
     ]
    },
    {
-    "term": "hackios xnu kernel",
+    "term": "fairplay decrypt",
     "recent": 1,
     "variants": [
-     "hackios xnu kernel",
-     "oosexgang hackios xnu kernel"
+     "fairplay decrypt",
+     "ethanarbuckle fairplay decrypt",
+     "objc fairplay decrypt"
     ],
-    "repo": "oosexgang/hackios-xnu-kernel",
-    "note": "GitHub 爆发 oosexgang/hackios-xnu-kernel ★882(均 679/天)",
+    "repo": "EthanArbuckle/fairplay-decrypt",
+    "note": "GitHub 爆发 EthanArbuckle/fairplay-decrypt ★1834(均 357/天,一天 +610)",
     "examples": [
-     "oosexgang/hackios-xnu-kernel: "
+     "EthanArbuckle/fairplay-decrypt: Offline FairPlay App Store IPA decryption with independent key derivation"
     ]
    },
    {
-    "term": "reylo",
+    "term": "hatchzip",
     "recent": 1,
     "variants": [
-     "reylo",
-     "colinhacks reylo",
-     "colin reylo"
+     "hatchzip",
+     "xevrion hatchzip",
+     "yash hatchzip"
     ],
-    "repo": "colinhacks/reylo",
-    "note": "GitHub 爆发 colinhacks/reylo ★922(均 361/天,一天 +530)",
+    "repo": "xevrion/hatchzip",
+    "note": "GitHub 爆发 xevrion/hatchzip ★1418(均 501/天)",
     "examples": [
-     "colinhacks/reylo: Import .sql files into TypeScript with full type inference and zero codegen."
-    ]
-   },
-   {
-    "term": "snapintosh",
-    "recent": 1,
-    "variants": [
-     "snapintosh",
-     "snapintosh snapintosh"
-    ],
-    "repo": "Snapintosh/Snapintosh",
-    "note": "GitHub 爆发 Snapintosh/Snapintosh ★690(均 462/天)",
-    "examples": [
-     "Snapintosh/Snapintosh: EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack"
-    ]
-   },
-   {
-    "term": "3d model anything",
-    "recent": 1,
-    "variants": [
-     "3d model anything",
-     "wesbos 3d model anything"
-    ],
-    "repo": "wesbos/3d-model-anything",
-    "note": "GitHub 爆发 wesbos/3d-model-anything ★793(均 455/天)",
-    "examples": [
-     "wesbos/3d-model-anything: Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser."
+     "xevrion/hatchzip: Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, "
     ]
    }
   ],
@@ -819,33 +747,33 @@
  "sitemap": {
   "sites": {
    "glama": {
-    "urls": 143013,
-    "new": 1290,
+    "urls": 143987,
+    "new": 1047,
     "first_run": false,
     "sample": [
-     "https://glama.ai/mcp/connectors/academy.ase/periodic-system",
-     "https://glama.ai/mcp/connectors/ae.beachclubs/mcp",
-     "https://glama.ai/mcp/connectors/ai.1court.state/court-directory",
-     "https://glama.ai/mcp/connectors/ai.alphaweb.mcp/alpha-web",
-     "https://glama.ai/mcp/connectors/ai.alwen/alwen",
-     "https://glama.ai/mcp/connectors/ai.bumblebox/mail",
-     "https://glama.ai/mcp/connectors/ai.chucho/chucho",
-     "https://glama.ai/mcp/connectors/ai.commerceai/commerce-ai"
+     "https://glama.ai/mcp/connectors/ai.aistlabs/aistlabs",
+     "https://glama.ai/mcp/connectors/ai.appgoat/mcp",
+     "https://glama.ai/mcp/connectors/ai.atmy/air-quality",
+     "https://glama.ai/mcp/connectors/ai.brevium/agent-puzzle-bounty",
+     "https://glama.ai/mcp/connectors/ai.celestio/celestio",
+     "https://glama.ai/mcp/connectors/ai.ciphyr.agentmart/core",
+     "https://glama.ai/mcp/connectors/ai.commerceai/shopping",
+     "https://glama.ai/mcp/connectors/ai.darim/darim"
     ]
    },
    "mcp.so": {
-    "urls": 19671,
+    "urls": 19681,
     "new": 21,
     "first_run": false,
     "sample": [
-     "https://mcp.so/agents/chatgpt",
-     "https://mcp.so/agents/tinymusic",
-     "https://mcp.so/servers/3dsellers-mcp-server",
-     "https://mcp.so/servers/altss-public-profiles-mcp",
-     "https://mcp.so/servers/artistally-conferences-mcp",
-     "https://mcp.so/servers/canopy-api-amazon-data-for-agents",
-     "https://mcp.so/servers/clitpude-mcp",
-     "https://mcp.so/servers/closedloop-ai"
+     "https://mcp.so/servers/aicut",
+     "https://mcp.so/servers/appgoat",
+     "https://mcp.so/servers/astro_mcp",
+     "https://mcp.so/servers/bujusjujus-pokemon-tcg-restock-alerts",
+     "https://mcp.so/servers/code-sandbox-mcp-insecurepla",
+     "https://mcp.so/servers/dev_log-mcp",
+     "https://mcp.so/servers/git-mcp-server-sidgupt12",
+     "https://mcp.so/servers/kyrodata-brazil-trade-crop-commodity-data-a3c61e"
     ]
    },
    "lobehub-mcp": {
@@ -874,17 +802,17 @@
    },
    "ai-bot.cn": {
     "urls": 5068,
-    "new": 685,
+    "new": 687,
     "first_run": false,
     "sample": [
-     "https://ai-bot.cn/2pr/",
-     "https://ai-bot.cn/3fs/",
-     "https://ai-bot.cn/a0-dev/",
-     "https://ai-bot.cn/ace-plus/",
-     "https://ai-bot.cn/agent-tars/",
-     "https://ai-bot.cn/agentic-object-detection/",
-     "https://ai-bot.cn/agentic-reasoning/",
-     "https://ai-bot.cn/agentrefine/"
+     "https://ai-bot.cn/kimi-k3-1-pro/",
+     "https://ai-bot.cn/sites/1338.html",
+     "https://ai-bot.cn/sites/43780.html",
+     "https://ai-bot.cn/sites/46015.html",
+     "https://ai-bot.cn/sites/46196.html",
+     "https://ai-bot.cn/sites/46353.html",
+     "https://ai-bot.cn/sites/46429.html",
+     "https://ai-bot.cn/sites/46431.html"
     ]
    },
    "opentools": {
@@ -894,18 +822,11 @@
     "sample": []
    },
    "dang": {
-    "urls": 7797,
-    "new": 10,
+    "urls": 7798,
+    "new": 1,
     "first_run": false,
     "sample": [
-     "https://dang.ai/tool/beautyplus-ai-photo-editor",
-     "https://dang.ai/tool/booster-seo",
-     "https://dang.ai/tool/budgetpixel-ai-ai-image-and-video-generator",
-     "https://dang.ai/tool/deepswapface-ai-face-swap",
-     "https://dang.ai/tool/kurodyne-ai-marketplace",
-     "https://dang.ai/tool/nexscope-ai-ecommerce-data-api",
-     "https://dang.ai/tool/outrank",
-     "https://dang.ai/tool/qualio"
+     "https://dang.ai/tool/interviews-by-ai"
     ]
    },
    "clipfly": {
@@ -916,11 +837,9 @@
    },
    "aitoptools": {
     "urls": 11847,
-    "new": 1,
+    "new": 0,
     "first_run": false,
-    "sample": [
-     "https://aitoptools.com/tool/image-to-3d/"
-    ]
+    "sample": []
    },
    "futurepedia": {
     "urls": 1329,
@@ -931,154 +850,154 @@
   },
   "terms": [
    {
-    "term": "connectors com.textforagents",
-    "recent": 48,
-    "baseline": 65,
-    "lift": 28.8
-   },
-   {
-    "term": "tutorials deepseek",
-    "recent": 19,
-    "baseline": 3,
-    "lift": 18.4
-   },
-   {
-    "term": "lemon squared",
-    "recent": 11,
-    "baseline": 0,
-    "lift": 11.0
-   },
-   {
-    "term": "tutorials",
-    "recent": 28,
-    "baseline": 161,
-    "lift": 10.6
-   },
-   {
-    "term": "deepseek",
-    "recent": 28,
-    "baseline": 186,
-    "lift": 9.7
-   },
-   {
-    "term": "co.youraitools",
-    "recent": 10,
-    "baseline": 7,
-    "lift": 9.3
-   },
-   {
-    "term": "connectors co.youraitools",
-    "recent": 10,
-    "baseline": 7,
-    "lift": 9.3
-   },
-   {
-    "term": "alexa",
-    "recent": 15,
-    "baseline": 69,
-    "lift": 8.8
-   },
-   {
-    "term": "aiframework",
-    "recent": 13,
-    "baseline": 48,
-    "lift": 8.7
-   },
-   {
-    "term": "mspbotsaiframework",
-    "recent": 13,
-    "baseline": 48,
-    "lift": 8.7
-   },
-   {
-    "term": "jaknow01",
-    "recent": 8,
-    "baseline": 0,
-    "lift": 8.0
-   },
-   {
-    "term": "r1",
-    "recent": 9,
-    "baseline": 25,
-    "lift": 7.2
-   },
-   {
-    "term": "cotletdev",
-    "recent": 7,
-    "baseline": 0,
-    "lift": 7.0
-   },
-   {
-    "term": "mspbots",
-    "recent": 13,
-    "baseline": 102,
-    "lift": 6.4
-   },
-   {
-    "term": "acrt",
-    "recent": 6,
-    "baseline": 0,
-    "lift": 6.0
-   },
-   {
-    "term": "eval n8n",
-    "recent": 6,
-    "baseline": 0,
-    "lift": 6.0
+    "term": "sites",
+    "recent": 685,
+    "baseline": 21,
+    "lift": 577.3
    },
    {
     "term": "acrt eval",
+    "recent": 21,
+    "baseline": 6,
+    "lift": 19.9
+   },
+   {
+    "term": "mspbotsaiframework",
+    "recent": 22,
+    "baseline": 61,
+    "lift": 14.3
+   },
+   {
+    "term": "aiframework",
+    "recent": 22,
+    "baseline": 61,
+    "lift": 14.3
+   },
+   {
+    "term": "skilleddragoncorp",
+    "recent": 13,
+    "baseline": 0,
+    "lift": 13.0
+   },
+   {
+    "term": "skilled",
+    "recent": 13,
+    "baseline": 2,
+    "lift": 12.8
+   },
+   {
+    "term": "dragon",
+    "recent": 13,
+    "baseline": 12,
+    "lift": 11.7
+   },
+   {
+    "term": "mspbots",
+    "recent": 22,
+    "baseline": 105,
+    "lift": 11.4
+   },
+   {
+    "term": "dev.cotlet",
+    "recent": 11,
+    "baseline": 1,
+    "lift": 10.9
+   },
+   {
+    "term": "connectors dev.cotlet",
+    "recent": 11,
+    "baseline": 1,
+    "lift": 10.9
+   },
+   {
+    "term": "corp",
+    "recent": 13,
+    "baseline": 60,
+    "lift": 8.5
+   },
+   {
+    "term": "io.github.bck",
+    "recent": 8,
+    "baseline": 1,
+    "lift": 7.9
+   },
+   {
+    "term": "connectors io.github.bck",
+    "recent": 8,
+    "baseline": 1,
+    "lift": 7.9
+   },
+   {
+    "term": "io.github.bck stack",
+    "recent": 8,
+    "baseline": 1,
+    "lift": 7.9
+   },
+   {
+    "term": "stack sitecheck",
+    "recent": 8,
+    "baseline": 2,
+    "lift": 7.9
+   },
+   {
+    "term": "connectors io.usefulapi",
+    "recent": 31,
+    "baseline": 348,
+    "lift": 7.6
+   },
+   {
+    "term": "alexa",
+    "recent": 11,
+    "baseline": 84,
+    "lift": 6.3
+   },
+   {
+    "term": "eval figma",
     "recent": 6,
     "baseline": 0,
     "lift": 6.0
    },
    {
-    "term": "writerco",
+    "term": "pinot",
     "recent": 6,
-    "baseline": 14,
+    "baseline": 2,
+    "lift": 5.9
+   },
+   {
+    "term": "com.scriptmasterlabs",
+    "recent": 6,
+    "baseline": 5,
+    "lift": 5.7
+   },
+   {
+    "term": "connectors com.scriptmasterlabs",
+    "recent": 6,
+    "baseline": 5,
+    "lift": 5.7
+   },
+   {
+    "term": "figma context",
+    "recent": 6,
+    "baseline": 18,
     "lift": 5.2
    },
    {
-    "term": "connectors io.github.omarkhandji",
+    "term": "io.github.ygfalcon",
     "recent": 5,
     "baseline": 0,
     "lift": 5.0
    },
    {
-    "term": "io.github.omarkhandji commits",
+    "term": "connectors io.github.ygfalcon",
     "recent": 5,
     "baseline": 0,
     "lift": 5.0
    },
    {
-    "term": "squared google",
-    "recent": 5,
-    "baseline": 0,
-    "lift": 5.0
-   },
-   {
-    "term": "essence",
-    "recent": 5,
-    "baseline": 1,
-    "lift": 4.9
-   },
-   {
-    "term": "co.youraitools.api",
-    "recent": 4,
-    "baseline": 0,
-    "lift": 4.0
-   },
-   {
-    "term": "connectors co.youraitools.api",
-    "recent": 4,
-    "baseline": 0,
-    "lift": 4.0
-   },
-   {
-    "term": "com.jocktaxes",
-    "recent": 4,
-    "baseline": 0,
-    "lift": 4.0
+    "term": "kubernetes",
+    "recent": 6,
+    "baseline": 45,
+    "lift": 4.3
    }
   ]
  },
@@ -1101,68 +1020,107 @@
  },
  "summary": {
   "by_signal": {},
-  "pending": 237,
+  "pending": 258,
   "window_days": 60
  },
  "keywords": {
   "names": [
-   "ltx2 distilled faceswap v3",
-   "3d model anything",
-   "nxnative",
-   "hackios xnu kernel",
-   "reylo"
+   "deepseek v4.1 flash 1017 gsq rco",
+   "hatchzip",
+   "fairplay decrypt",
+   "gpu unlock",
+   "aurelio finance"
   ],
   "rows": [
    {
-    "phrase": "nintendo switch emulator iphone",
-    "evidence": "It is not an emulator: the game's own code runs directly on the Apple chip, with Switch graphics rebuilt on Metal.",
-    "brand": true,
+    "phrase": "net worth tracker",
+    "evidence": "tracks net worth, ETFs, investments and cash",
+    "brand": false,
     "source": "model",
-    "relevance": 0.75,
+    "relevance": 0.8,
     "is_name": false,
     "established": false,
-    "term": "nintendo switch emulator iphone",
+    "term": "net worth tracker",
     "kind": "generic",
     "names": [
-     "nxnative"
+     "aurelio finance"
     ],
-    "volume": 110,
+    "volume": 1300,
     "month": "2026-09",
-    "no_data": true,
-    "peak_vs": 1,
-    "bench_level": 51.7,
+    "no_data": false,
+    "base": 6.8,
+    "peak": 77,
+    "peak_day": "2026-09-27",
+    "rose": true,
+    "new": true,
+    "momentum": null,
+    "started": "2026-09-27",
+    "now": "holding",
+    "peak_vs": 3,
+    "bench_level": 55.1,
+    "per_day": 35,
     "decision": "watch",
     "competition": {
      "verdict": "open",
      "weak": null,
-     "kd": 9,
+     "kd": 17,
      "ads": false,
      "kinds": {
-      "forum": 2,
-      "tool": 2,
-      "video": 2,
-      "article": 1
+      "article": 2,
+      "list": 1,
+      "tool": 3,
+      "video": 1,
+      "forum": 1
      },
      "features": [
       "ai_overview",
       "discussions_and_forums",
       "people_also_ask",
-      "related_searches",
+      "related_searches"
+     ],
+     "weakest": null
+    }
+   },
+   {
+    "term": "deepseek v4.1 flash 1017 gsq rco",
+    "phrase": "deepseek v4.1 flash 1017 gsq rco",
+    "kind": "name",
+    "names": [],
+    "brand": true,
+    "evidence": "",
+    "no_data": true,
+    "peak_vs": 0,
+    "bench_level": 58.0,
+    "per_day": 0,
+    "decision": "watch",
+    "competition": {
+     "verdict": "crowded",
+     "weak": null,
+     "kd": null,
+     "ads": false,
+     "kinds": {
+      "forum": 2,
+      "article": 3,
+      "list": 3
+     },
+     "features": [
+      "perspectives",
       "video"
      ],
      "weakest": null
     }
    },
    {
-    "term": "ltx2 distilled faceswap v3",
-    "phrase": "ltx2 distilled faceswap v3",
+    "term": "hatchzip",
+    "phrase": "hatchzip",
     "kind": "name",
     "names": [],
     "brand": true,
     "evidence": "",
     "no_data": true,
     "peak_vs": 0,
-    "bench_level": 54.4,
+    "bench_level": 58.0,
+    "per_day": 0,
     "decision": "watch",
     "competition": {
      "verdict": "crowded",
@@ -1170,110 +1128,56 @@
      "kd": null,
      "ads": false,
      "kinds": {
-      "list": 2,
-      "article": 3,
-      "forum": 4
+      "article": 5,
+      "video": 3,
+      "forum": 1
      },
      "features": [
       "ai_overview",
+      "popular_products",
       "related_searches"
      ],
      "weakest": null
     }
    },
    {
-    "term": "nxnative",
-    "phrase": "nxnative",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
+    "phrase": "ai financial advisor",
+    "evidence": "personal finance app with an AI advisor you can talk to",
+    "brand": false,
+    "source": "model",
+    "relevance": 0.8,
+    "is_name": false,
+    "established": false,
+    "term": "ai financial advisor",
+    "kind": "generic",
+    "names": [
+     "aurelio finance"
+    ],
+    "volume": 1900,
+    "month": "2026-09",
     "no_data": false,
-    "base": 0,
+    "base": 20.7,
     "peak": 100,
-    "peak_day": "2026-10-19",
+    "peak_day": "2026-10-16",
     "rose": true,
-    "new": true,
-    "momentum": null,
-    "started": "2026-10-19",
-    "now": "rising",
-    "peak_vs": 2,
-    "bench_level": 55.6,
-    "decision": "watch",
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "kinds": {
-      "tool": 3,
-      "article": 4,
-      "video": 1
-     },
-     "features": [
-      "ai_overview",
-      "images",
-      "people_also_ask",
-      "related_searches"
-     ],
-     "weakest": null
-    }
-   },
-   {
-    "term": "hackios xnu kernel",
-    "phrase": "hackios xnu kernel",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": true,
-    "peak_vs": 0,
-    "bench_level": 48.7,
-    "decision": "watch",
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "kinds": {
-      "forum": 4,
-      "article": 3,
-      "list": 2
-     },
-     "features": [
-      "ai_overview"
-     ],
-     "weakest": null
-    }
-   },
-   {
-    "term": "3d model anything",
-    "phrase": "3d model anything",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": false,
-    "base": 11.5,
-    "peak": 12,
-    "peak_day": "2026-10-05",
-    "rose": false,
     "new": false,
-    "momentum": null,
-    "now": "flat",
-    "peak_vs": 2,
-    "bench_level": 51.9,
+    "momentum": 2.2,
+    "started": "2026-10-16",
+    "now": "fading",
+    "peak_vs": 5,
+    "bench_level": 60.4,
+    "per_day": 68,
     "decision": "skip"
    },
    {
-    "term": "reylo",
-    "phrase": "reylo",
+    "term": "gpu unlock",
+    "phrase": "gpu unlock",
     "kind": "name",
     "names": [],
     "brand": true,
     "evidence": "",
     "no_data": false,
-    "base": 2.4,
+    "base": 4.7,
     "peak": 100,
     "peak_day": "2026-09-23",
     "rose": true,
@@ -1281,22 +1185,116 @@
     "momentum": null,
     "started": "2026-09-23",
     "now": "fading",
-    "peak_vs": 22,
-    "bench_level": 54.1,
+    "peak_vs": 3,
+    "bench_level": 57.9,
+    "per_day": 38,
+    "decision": "skip"
+   },
+   {
+    "phrase": "personal finance tracker",
+    "evidence": "personal finance app with an AI advisor you can talk to. tracks net worth, ETFs, investments and cash",
+    "brand": false,
+    "source": "model",
+    "relevance": 0.85,
+    "is_name": false,
+    "established": false,
+    "term": "personal finance tracker",
+    "kind": "generic",
+    "names": [
+     "aurelio finance"
+    ],
+    "volume": 590,
+    "month": "2026-09",
+    "no_data": false,
+    "base": 3.3,
+    "peak": 100,
+    "peak_day": "2026-10-10",
+    "rose": true,
+    "new": true,
+    "momentum": 0.1,
+    "started": "2026-10-10",
+    "now": "fading",
+    "peak_vs": 5,
+    "bench_level": 59.7,
+    "per_day": 11,
+    "decision": "skip"
+   },
+   {
+    "term": "aurelio finance",
+    "phrase": "aurelio finance",
+    "kind": "name",
+    "names": [],
+    "brand": true,
+    "evidence": "",
+    "no_data": false,
+    "base": 0,
+    "peak": 100,
+    "peak_day": "2026-10-12",
+    "rose": false,
+    "new": false,
+    "momentum": 0.0,
+    "now": "flat",
+    "peak_vs": 2,
+    "bench_level": 60.2,
+    "per_day": 6,
+    "decision": "skip"
+   },
+   {
+    "phrase": "investment portfolio tracker",
+    "evidence": "tracks net worth, ETFs, investments and cash",
+    "brand": false,
+    "source": "model",
+    "relevance": 0.75,
+    "is_name": false,
+    "established": false,
+    "term": "investment portfolio tracker",
+    "kind": "generic",
+    "names": [
+     "aurelio finance"
+    ],
+    "volume": 260,
+    "month": "2026-09",
+    "no_data": false,
+    "base": 7.7,
+    "peak": 26,
+    "peak_day": "2026-10-21",
+    "rose": false,
+    "new": false,
+    "momentum": null,
+    "now": "flat",
+    "peak_vs": 1,
+    "bench_level": 53.2,
+    "per_day": 3,
+    "decision": "skip"
+   },
+   {
+    "term": "fairplay decrypt",
+    "phrase": "fairplay decrypt",
+    "kind": "name",
+    "names": [],
+    "brand": true,
+    "evidence": "",
+    "no_data": false,
+    "base": 2.1,
+    "peak": 0,
+    "peak_day": "2026-10-21",
+    "rose": false,
+    "new": false,
+    "momentum": null,
+    "now": "flat",
+    "peak_vs": 1,
+    "bench_level": 48.7,
+    "per_day": 0,
     "decision": "skip"
    }
   ],
-  "proposed": 12,
-  "relevant": 11,
-  "kept": 1,
+  "proposed": 24,
+  "relevant": 19,
+  "kept": 4,
   "benchmark": "gpts",
-  "bench_daily": null,
+  "bench_daily": 2562,
   "volume_month": "2026-09",
-  "no_evidence": [
-   "ltx2 distilled faceswap v3",
-   "3d model anything",
-   "hackios xnu kernel"
-  ],
+  "no_evidence": [],
   "posts_error": "",
   "related": false,
   "tails": {},
@@ -1305,6 +1303,6 @@
   "geo": "US",
   "country_errors": [],
   "competition_errors": [],
-  "cost_micros": 129020
+  "cost_micros": 133170
  }
 }

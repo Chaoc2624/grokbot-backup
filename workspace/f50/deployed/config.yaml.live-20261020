@@ -375,6 +375,10 @@ proxy-groups:
         - "\U0001F680 总出口"
         - DIRECT
       type: select
+    - name: 英国金融
+      proxies:
+        - "\U0001F1EC\U0001F1E7 英国"
+      type: select
     - name: Maya
       proxies:
         - "\U0001F1F8\U0001F1EC 新加坡"
@@ -1111,6 +1115,51 @@ rules:
     - "DOMAIN,app-measurement.com,\U0001F3AF 直连"
     - "DOMAIN,api.mixpanel.com,\U0001F3AF 直连"
     - "DOMAIN-SUFFIX,wise.com,\U0001F3AF 直连"
+    - DOMAIN-SUFFIX,monzo.com,英国金融
+    - DOMAIN-SUFFIX,monzo.me,英国金融
+    - DOMAIN-SUFFIX,monzo.co.uk,英国金融
+    - DOMAIN-SUFFIX,mondo.co.uk,英国金融
+    - DOMAIN-SUFFIX,getmondo.co.uk,英国金融
+    - DOMAIN-SUFFIX,zopa.com,英国金融
+    - DOMAIN-SUFFIX,zopa.co.uk,英国金融
+    - DOMAIN-SUFFIX,lloydsbank.com,英国金融
+    - DOMAIN-SUFFIX,lloydsbank.co.uk,英国金融
+    - DOMAIN-SUFFIX,lloydsbankinggroup.com,英国金融
+    - DOMAIN-SUFFIX,lloydsbanking.com,英国金融
+    - DOMAIN-SUFFIX,halifax.co.uk,英国金融
+    - DOMAIN-SUFFIX,halifax-online.co.uk,英国金融
+    - DOMAIN-SUFFIX,bankofscotland.co.uk,英国金融
+    - DOMAIN-SUFFIX,bankofscotland.com,英国金融
+    - DOMAIN-SUFFIX,bankofscotlandbusiness.co.uk,英国金融
+    - DOMAIN-SUFFIX,chase.co.uk,英国金融
+    - DOMAIN-SUFFIX,chase.com,英国金融
+    - DOMAIN-SUFFIX,chasecdn.com,英国金融
+    - DOMAIN-SUFFIX,jpmorganchase.com,英国金融
+    - DOMAIN-SUFFIX,jpmchase.com,英国金融
+    - DOMAIN-SUFFIX,jpmorgan.com,英国金融
+    - DOMAIN-SUFFIX,nutmeg.com,英国金融
+    - DOMAIN-SUFFIX,go.chase,英国金融
+    - DOMAIN-SUFFIX,barclays.co.uk,英国金融
+    - DOMAIN-SUFFIX,barclays.com,英国金融
+    - DOMAIN-SUFFIX,barclaycard.co.uk,英国金融
+    - DOMAIN-SUFFIX,barclaycard.com,英国金融
+    - DOMAIN-SUFFIX,barclays.net,英国金融
+    - DOMAIN-SUFFIX,barcap.com,英国金融
+    - DOMAIN-SUFFIX,home.barclays,英国金融
+    - DOMAIN-SUFFIX,trading212.com,英国金融
+    - DOMAIN-SUFFIX,trading212.co.uk,英国金融
+    - DOMAIN-SUFFIX,ifastgb.com,英国金融
+    - DOMAIN-SUFFIX,ifastgm.com,英国金融
+    - DOMAIN-SUFFIX,ifastgm.com.sg,英国金融
+    - DOMAIN-SUFFIX,ifastglobalmarkets.com,英国金融
+    - DOMAIN-SUFFIX,ifastfinancial.com,英国金融
+    - DOMAIN-SUFFIX,ifastcorp.com,英国金融
+    - DOMAIN-SUFFIX,fundsupermart.com,英国金融
+    - DOMAIN-SUFFIX,fsmone.com,英国金融
+    - DOMAIN-SUFFIX,fsmone.com.sg,英国金融
+    - DOMAIN-SUFFIX,lemfi.com,英国金融
+    - DOMAIN-SUFFIX,lemonade.finance,英国金融
+    - OR,((DOMAIN-SUFFIX,monzo.com),(DOMAIN-SUFFIX,monzo.me),(DOMAIN-SUFFIX,monzo.co.uk),(DOMAIN-SUFFIX,mondo.co.uk),(DOMAIN-SUFFIX,getmondo.co.uk),(DOMAIN-SUFFIX,zopa.com),(DOMAIN-SUFFIX,zopa.co.uk),(DOMAIN-SUFFIX,lloydsbank.com),(DOMAIN-SUFFIX,lloydsbank.co.uk),(DOMAIN-SUFFIX,lloydsbankinggroup.com),(DOMAIN-SUFFIX,lloydsbanking.com),(DOMAIN-SUFFIX,halifax.co.uk),(DOMAIN-SUFFIX,halifax-online.co.uk),(DOMAIN-SUFFIX,bankofscotland.co.uk),(DOMAIN-SUFFIX,bankofscotland.com),(DOMAIN-SUFFIX,bankofscotlandbusiness.co.uk),(DOMAIN-SUFFIX,chase.co.uk),(DOMAIN-SUFFIX,chase.com),(DOMAIN-SUFFIX,chasecdn.com),(DOMAIN-SUFFIX,jpmorganchase.com),(DOMAIN-SUFFIX,jpmchase.com),(DOMAIN-SUFFIX,jpmorgan.com),(DOMAIN-SUFFIX,nutmeg.com),(DOMAIN-SUFFIX,go.chase),(DOMAIN-SUFFIX,barclays.co.uk),(DOMAIN-SUFFIX,barclays.com),(DOMAIN-SUFFIX,barclaycard.co.uk),(DOMAIN-SUFFIX,barclaycard.com),(DOMAIN-SUFFIX,barclays.net),(DOMAIN-SUFFIX,barcap.com),(DOMAIN-SUFFIX,home.barclays),(DOMAIN-SUFFIX,trading212.com),(DOMAIN-SUFFIX,trading212.co.uk),(DOMAIN-SUFFIX,ifastgb.com),(DOMAIN-SUFFIX,ifastgm.com),(DOMAIN-SUFFIX,ifastgm.com.sg),(DOMAIN-SUFFIX,ifastglobalmarkets.com),(DOMAIN-SUFFIX,ifastfinancial.com),(DOMAIN-SUFFIX,ifastcorp.com),(DOMAIN-SUFFIX,fundsupermart.com),(DOMAIN-SUFFIX,fsmone.com),(DOMAIN-SUFFIX,fsmone.com.sg),(DOMAIN-SUFFIX,lemfi.com),(DOMAIN-SUFFIX,lemonade.finance)),REJECT
     - DOMAIN-KEYWORD,paypal,PayPal
     - DOMAIN-SUFFIX,paypal.com,PayPal
     - DOMAIN-SUFFIX,paypal.cn,PayPal

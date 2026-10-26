@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 HERE = Path(__file__).resolve().parent
 XBM = Path("/workspace/xbm")
-KIND = {"x": "我们X", "hf": "HF", "breakout": "GitHub", "sitemap": "竞品站"}
+KIND = {"x": "我们X", "hf": "HF", "breakout": "GitHub", "sitemap": "竞品站", "seller": "收款新站", "ask": "Reddit痛点", "revenue": "营收榜", "newsite": "新域名"}
 
 def norm(s):
     s = re.sub(r"[（(【\[].*?[）)】\]]", "", s or "")
@@ -37,6 +37,7 @@ def main():
         t["signals"] += l.get("signals", [])
         t["desc"] = t["desc"] or "；".join(l.get("examples", [])[:1])
         if l.get("repo"): t["url"] = t["url"] or f"https://github.com/{l['repo']}"
+        elif l.get("about") and isinstance(l["about"], (list, tuple)) and l["about"]: t["url"] = t["url"] or l["about"][0]
         t["named"] = l.get("named")
         for v in l.get("variants", []):  # map variants onto same term
             idx.setdefault(norm(v), t)

@@ -189,7 +189,96 @@
   "kd_ok": true,
   "kd": null,
   "kd_skipped": true,
-  "day": "2026-10-22"
+  "day": "2026-10-25",
+  "serp": {
+   "kinds": {
+    "article": 4,
+    "list": 2,
+    "tool": 1,
+    "video": 2
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "nocode.mba",
+    "myclaw.ai",
+    "enterpriseai.economictimes.indiatimes.com",
+    "atilab.io",
+    "youtube.com",
+    "georgemoreas.com",
+    "claudecowork.com",
+    "nexscope.ai",
+    "youtube.com"
+   ],
+   "items": [
+    {
+     "domain": "nocode.mba",
+     "url": "https://www.nocode.mba/articles/claude-duet-ai-agent",
+     "title": "Claude Duet Explained: How the AI Agent Works and Who ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "myclaw.ai",
+     "url": "https://myclaw.ai/blog/claude-duet-review",
+     "title": "Claude Duet Review: Anthropic's Proactive Agent, Access ...",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "enterpriseai.economictimes.indiatimes.com",
+     "url": "https://enterpriseai.economictimes.indiatimes.com/news/industry/anthropic-unveils-claude-duet-ai-agent-app/135121581",
+     "title": "Anthropic unveils Claude Duet AI agent app",
+     "position": 3,
+     "kind": "tool"
+    },
+    {
+     "domain": "atilab.io",
+     "url": "https://www.atilab.io/blog/claude-duet-vs-cowork",
+     "title": "Claude Duet vs Cowork: What It Is, Who Can Use It - ATI Lab",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=yD62IxvxJjc&vl=en",
+     "title": "Claude Duet Is the $20 AI Agent. Here's the Catch",
+     "position": 5,
+     "kind": "video"
+    },
+    {
+     "domain": "georgemoreas.com",
+     "url": "https://georgemoreas.com/entities/claude-duet",
+     "title": "What is Claude Duet? - George Moreas",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "claudecowork.com",
+     "url": "https://www.claudecowork.com/claude-duet/",
+     "title": "Claude Duet: Anthropic's Proactive AI Agent",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "nexscope.ai",
+     "url": "https://www.nexscope.ai/blog/what-is-claude-duet-and-how-can-it-help-your-business",
+     "title": "What Is Claude Duet and How Can It Help Your Business?",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=bimxLaBottg",
+     "title": "Claude Duet Explained: Worth the Waitlist?",
+     "position": 9,
+     "kind": "video"
+    }
+   ],
+   "small_sites": 7,
+   "source": "serp",
+   "soft_weak": 2
+  }
  },
  "recursive flint": {
   "overview_ok": true,
@@ -354,7 +443,82 @@
   "kd_ok": true,
   "kd": null,
   "kd_skipped": true,
-  "day": "2026-10-22"
+  "day": "2026-10-22",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "discussions_and_forums",
+    "people_also_ask",
+    "video"
+   ],
+   "top": [
+    "aichatdaily.com",
+    "aiadoptionagency.com",
+    "models.dev",
+    "reddit.com",
+    "beri.net",
+    "promptea.me",
+    "asksurf.ai"
+   ],
+   "items": [
+    {
+     "domain": "aichatdaily.com",
+     "url": "https://www.aichatdaily.com/ai-models/recursive-releases-flint-open-weight-coding-model-runs-laptop",
+     "title": "Recursive releases Flint, an open-weight coding model ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "aiadoptionagency.com",
+     "url": "https://aiadoptionagency.com/recursive-si-flint/?srsltid=AYCX9vL5rqLn3iblpn0SsSN1iAmoiQlcDQianI3Z1bJera6056vqG00m",
+     "title": "Recursive SI Flint: Open Weight AI for Local Coding",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "models.dev",
+     "url": "https://models.dev/labs/recursive",
+     "title": "Recursive models, providers, and specs",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/huggingface/comments/1xco4ej/ai_helped_build_this_ai_meet_recursives_new/",
+     "title": "Meet Recursive's New Coding Model, Flint : r/huggingface",
+     "position": 4,
+     "kind": "forum"
+    },
+    {
+     "domain": "beri.net",
+     "url": "https://www.beri.net/tools/recursive-flint",
+     "title": "Recursive Flint - Rajesh Beri",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "promptea.me",
+     "url": "https://www.promptea.me/en/blog/recursive-flint-open-weight-local-coding-model",
+     "title": "Recursive Flint: open-weight coding model for local agents",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "asksurf.ai",
+     "url": "https://asksurf.ai/pulse/en/recursive-launches-flint-40b-moe",
+     "title": "Recursive Launches Flint 40B MoE Model for Coding Agents",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
  },
  "recursive flint huggingface": {
   "overview_ok": true,
@@ -560,7 +724,92 @@
   "results": 129,
   "kd_ok": true,
   "kd": 31,
-  "day": "2026-10-22"
+  "day": "2026-10-22",
+  "serp": {
+   "kinds": {
+    "article": 5,
+    "forum": 1,
+    "list": 1,
+    "video": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "perspectives",
+    "related_searches"
+   ],
+   "top": [
+    "bbc.com",
+    "reddit.com",
+    "cloud.google.com",
+    "cert.europa.eu",
+    "en.wikipedia.org",
+    "nytimes.com",
+    "youtube.com",
+    "wired.com"
+   ],
+   "items": [
+    {
+     "domain": "bbc.com",
+     "url": "https://www.bbc.com/news/articles/c3qjnwye0ep5o",
+     "title": "PHP: What is it and why did it spark a global cyber security ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/OutOfTheLoop/comments/1xbo7bh/what_is_the_deal_with_this_php_vulnerability_how/",
+     "title": "What is the deal with this PHP vulnerability? How does it ...",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "cloud.google.com",
+     "url": "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619",
+     "title": "Responding to core PHP vulnerabilities CVE-2026-109618 ...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "cert.europa.eu",
+     "url": "https://cert.europa.eu/publications/security-advisories/2026-018",
+     "title": "Critical Vulnerabilities in PHP - CERT-EU",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "en.wikipedia.org",
+     "url": "https://en.wikipedia.org/wiki/PHP2Shell",
+     "title": "PHP2Shell",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "nytimes.com",
+     "url": "https://www.nytimes.com/wirecutter/news/php-security-flaw-20261023/",
+     "title": "The 5 Things You Need to Know About the PHP Security ...",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=8iPKQpE40Es",
+     "title": "PHP vulnerability causing concern for companies worldwide ...",
+     "position": 7,
+     "kind": "video"
+    },
+    {
+     "domain": "wired.com",
+     "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/",
+     "title": "'This Is Not a Drill': Critical PHP Vulnerabilities Are Setting ...",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  }
  },
  "grok bot online": {
   "overview_ok": true,
@@ -692,7 +941,90 @@
   "kd_ok": true,
   "kd": null,
   "kd_skipped": true,
-  "day": "2026-10-22"
+  "day": "2026-10-22",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "list": 1,
+    "video": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "therecord.media",
+    "teamvoy.com",
+    "proarch.com",
+    "abc30.com",
+    "thestack.technology",
+    "cybrsecmedia.com",
+    "youtube.com",
+    "mashable.com"
+   ],
+   "items": [
+    {
+     "domain": "therecord.media",
+     "url": "https://therecord.media/php-script-vulnerabilities-warnings",
+     "title": "Hundreds of websites taken offline as concern grows over ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "teamvoy.com",
+     "url": "https://teamvoy.com/blog/php-vulnerability-2026/",
+     "title": "PHP Vulnerability 2026: Patch Now, Then Decide on ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "proarch.com",
+     "url": "https://www.proarch.com/blog/threats-vulnerabilities/critical-php-vulnerabilities-cve-2026-109618-109619",
+     "title": "Critical PHP Vulnerabilities Require Immediate Action",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "abc30.com",
+     "url": "https://abc30.com/story/php-vulnerability-2026-websites-shut-down-globally-operators-address-ai-detected-flaw-web-programming-language/19968288/",
+     "title": "PHP vulnerability 2026: Websites shut down globally as ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "thestack.technology",
+     "url": "https://www.thestack.technology/critical-php-vulnerabilities-poc-released-attacks-starting/",
+     "title": "Critical PHP vulnerabilities: POC released, attacks starting",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "cybrsecmedia.com",
+     "url": "https://www.cybrsecmedia.com/critical-php-rce-flaws-5-steps-to-take-now/",
+     "title": "Critical PHP RCE Flaws: 5 Steps to Take Now (Updated)",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=up9B9_FcOXA",
+     "title": "PHP Vulnerability 2026: The 2-Year-Old Bug an AI Found ...",
+     "position": 7,
+     "kind": "video"
+    },
+    {
+     "domain": "mashable.com",
+     "url": "https://mashable.com/tech/php-vulnerability-security-update-explained",
+     "title": "PHP vulnerability: PHP security issues today explained",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
  },
  "best laptop for work": {
   "overview_ok": true,
@@ -2051,7 +2383,71 @@
   "kd_ok": true,
   "kd": null,
   "kd_skipped": true,
-  "day": "2026-10-24"
+  "day": "2026-10-25",
+  "serp": {
+   "kinds": {
+    "video": 1,
+    "list": 3,
+    "forum": 2
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "youtube.com",
+    "benchlm.ai",
+    "reddit.com",
+    "stork.ai",
+    "facebook.com",
+    "kingy.ai"
+   ],
+   "items": [
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=GJzeenE6vRY",
+     "title": "Kimi K3.1 Pro Debut LIVE!  New AI Model Revealed?",
+     "position": 1,
+     "kind": "video"
+    },
+    {
+     "domain": "benchlm.ai",
+     "url": "https://benchlm.ai/models/kimi-3-1-pro",
+     "title": "Kimi K3.1 Pro Benchmarks, Pricing & Speed (October 2026)",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/kimi/comments/1xdkyv4/meet_kimi_k31_pro/",
+     "title": "Meet Kimi K3.1 Pro",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "stork.ai",
+     "url": "https://www.stork.ai/blog/kimi-k31-pro-the-ai-benchmark-shock",
+     "title": "Kimi K3.1 Pro: Benchmarks, Pricing, and Real-World Test",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/kazimoutushejamanmim01/posts/moonshot-ai-just-launched-kimi-k31-pro-a-28-trillion-parameter-open-model-that-r/122124007461456338/",
+     "title": "Kimi K3.1 Pro open model rivals Claude Opus 5.5 and GPT-6",
+     "position": 5,
+     "kind": "forum"
+    },
+    {
+     "domain": "kingy.ai",
+     "url": "https://kingy.ai/blog/kimi-k3-1-pro-vs-gpt-astra-sol-claude-fable-opus/",
+     "title": "Kimi K3.1 Pro vs GPT Astra, Sol, Claude Fable & Opus",
+     "position": 6,
+     "kind": "list"
+    }
+   ],
+   "small_sites": 3,
+   "source": "serp",
+   "soft_weak": 3
+  }
  },
  "reflex online": {
   "overview_ok": true,
@@ -3007,5 +3403,6566 @@
   "kd_ok": true,
   "kd": 26,
   "day": "2026-10-25"
+ },
+ "dessa ai": {
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 4,
+    "forum": 2,
+    "video": 1
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "block.xyz",
+    "x.com",
+    "mashable.com",
+    "news.ycombinator.com",
+    "instagram.com",
+    "theverge.com",
+    "youtube.com"
+   ],
+   "items": [
+    {
+     "domain": "block.xyz",
+     "url": "https://block.xyz/dessa",
+     "title": "Dessa - the Conversation Model trained only on speech",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/i/trending/2113698647234015512",
+     "title": "Block Unveils Dessa, a Strikingly Human Speech AI Model",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "mashable.com",
+     "url": "https://mashable.com/tech/block-unveils-new-ai-model-dessa-trained-entirely-on-human-speech",
+     "title": "Block's latest AI model Dessa was trained entirely on ...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "news.ycombinator.com",
+     "url": "https://news.ycombinator.com/item?id=50213925",
+     "title": "Dessa: Conversation Model trained only on speech",
+     "position": 4,
+     "kind": "forum"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/De54jrhsXDF/",
+     "title": "There is a new AI voice model in town, and the entire X ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "theverge.com",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+     "title": "Jack Dorsey's Block made an AI model that talks to you like ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=NqO39Fjy1C0",
+     "title": "Jack Dorsey's New Dessa AI Voice Sounds Scary Human",
+     "position": 7,
+     "kind": "video"
+    }
+   ],
+   "small_sites": 3,
+   "source": "serp",
+   "soft_weak": 3
+  },
+  "overview_ok": true,
+  "volume": 30,
+  "cpc": 0.0,
+  "comp": 0.06,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true
+ },
+ "nanbeige4.3-33b": {
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 5,
+    "list": 2,
+    "video": 1
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "github.com",
+    "huggingface.co",
+    "hackernoon.com",
+    "huggingface.co",
+    "github.com",
+    "huggingface.co",
+    "llmbase.ai",
+    "youtube.com"
+   ],
+   "items": [
+    {
+     "domain": "github.com",
+     "url": "https://github.com/hiyouga/LlamaFactory/issues/9761",
+     "title": "[Feature Request] Add support for Nanbeige4-3B-Base ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "huggingface.co",
+     "url": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B/blame/0133423b3ad669fd75848375d9e49fb48f49f84c/README.md",
+     "title": "README.md · Nanbeige/Nanbeige4.1-3B at ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "hackernoon.com",
+     "url": "https://hackernoon.com/inside-nanbeige42-3b-bases-looped-transformer-architecture",
+     "title": "Inside Nanbeige4.2-3B-Base's Looped Transformer ...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "huggingface.co",
+     "url": "https://huggingface.co/arunb74/Nanbeige4.2-3B",
+     "title": "arunb74/Nanbeige4.2-3B",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/pollinations/pollinations/issues/8274",
+     "title": "[Model Request] Add Nanbeige 4.1-3B - High-Performance ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "huggingface.co",
+     "url": "https://huggingface.co/Nanbeige/Nanbeige4-3B-Thinking-2511/tree/main",
+     "title": "Nanbeige/Nanbeige4-3B-Thinking-2511 at main",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "llmbase.ai",
+     "url": "https://llmbase.ai/compare/motif-3,nanbeige4-1-3b/",
+     "title": "Compare Motif 3 vs Nanbeige4.1-3B | AI Model Comparison",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=UI0Wn8Ap1mo",
+     "title": "The Tiny 3B Model Outperforming Qwen 32B (Nanbeige 4.1 ...",
+     "position": 8,
+     "kind": "video"
+    }
+   ],
+   "small_sites": 2,
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true
+ },
+ "nemotron 3.5 bolt e4b": {
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 2,
+    "list": 4,
+    "forum": 2
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "huggingface.co",
+    "artificialanalysis.ai",
+    "ollama.com",
+    "research.nvidia.com",
+    "reddit.com",
+    "x.com",
+    "unsloth.ai",
+    "build.nvidia.com"
+   ],
+   "items": [
+    {
+     "domain": "huggingface.co",
+     "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+     "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "artificialanalysis.ai",
+     "url": "https://artificialanalysis.ai/models/nemotron-3-5-bolt-e4b-4gb",
+     "title": "Nemotron 3.5 Bolt E4B 4GB (Reasoning) Intelligence ...",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "ollama.com",
+     "url": "https://ollama.com/library/nemotron-3.5-bolt",
+     "title": "nemotron-3.5-bolt",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "research.nvidia.com",
+     "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3.5-Bolt-E4B-4GB/",
+     "title": "NVIDIA Nemotron 3.5 Bolt E4B 4GB",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdiecx/nvidianvidianemotron35bolte4b4gb_hugging_face/",
+     "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB · Hugging Face",
+     "position": 5,
+     "kind": "forum"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/NVIDIAAI/status/2113657112408785153",
+     "title": "NVIDIA Nemotron 3.5 Bolt E4B 4GB ⚡️ Our newest small ...",
+     "position": 6,
+     "kind": "forum"
+    },
+    {
+     "domain": "unsloth.ai",
+     "url": "https://unsloth.ai/docs/models/nemotron-3.5-bolt",
+     "title": "NVIDIA Nemotron 3.5 Bolt: Run Locally Guide",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "build.nvidia.com",
+     "url": "https://build.nvidia.com/nvidia/nemotron-3.5-bolt-e4b",
+     "title": "Nemotron 3.5 Bolt E4B Model by NVIDIA",
+     "position": 8,
+     "kind": "list"
+    }
+   ],
+   "small_sites": 3,
+   "source": "serp",
+   "soft_weak": 2
+  },
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true
+ },
+ "learnharness": {
+  "day": "2026-10-25",
+  "serp": {
+   "kinds": {
+    "article": 4,
+    "forum": 2,
+    "tool": 1,
+    "video": 1
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "medium.com",
+    "reddit.com",
+    "robearlam.com",
+    "instagram.com",
+    "reddit.com",
+    "developers.redhat.com",
+    "skillifysolutions.com",
+    "youtube.com"
+   ],
+   "items": [
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/@techlatest.net/harness-engineering-full-visual-guide-9a8de52b42d2",
+     "title": "Harness Engineering — Full Visual Guide",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/learnmachinelearning/comments/1v47gds/opensource_course_on_building_a_coding_agent_from/",
+     "title": "Open-source course on building a coding agent from scratch",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "robearlam.com",
+     "url": "https://robearlam.com/blog/an-introduction-to-harness-engineering",
+     "title": "An Introduction to Harness Engineering | Rob Earlam",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/DYjWsOZThR5/",
+     "title": "The Ultimate Free Course on Harness Engineering",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/harnesscommunity/comments/1qlnams/i_have_to_learn_harness_quickly_for_a_project/",
+     "title": "I have to Learn harness quickly for a project.",
+     "position": 5,
+     "kind": "forum"
+    },
+    {
+     "domain": "developers.redhat.com",
+     "url": "https://developers.redhat.com/articles/2026/04/07/harness-engineering-structured-workflows-ai-assisted-development",
+     "title": "Harness engineering: Structured workflows for AI-assisted ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "skillifysolutions.com",
+     "url": "https://skillifysolutions.com/blogs/career-growth/what-is-harness-engineering/",
+     "title": "What Is Harness Engineering? A Beginner's Guide (2026)",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=DYUqTQAW-To",
+     "title": "Harness Engineering in 25 Minutes",
+     "position": 8,
+     "kind": "video"
+    }
+   ],
+   "small_sites": 3,
+   "source": "serp"
+  }
+ },
+ "mccarbon": {
+  "day": "2026-10-25",
+  "serp": {
+   "kinds": {
+    "tool": 3,
+    "article": 5,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "macarbon.com",
+    "mccarbons.com",
+    "mcarbonsa.com",
+    "facebook.com",
+    "mcarbon.fi",
+    "instagram.com",
+    "maxicarbon.com",
+    "ebay.com",
+    "mccarbons.com"
+   ],
+   "items": [
+    {
+     "domain": "macarbon.com",
+     "url": "https://www.macarbon.com/",
+     "title": "MACarbon Inc. - MAcarbon - Carbon Fiber for Porsche, Ferrari ...",
+     "position": 1,
+     "kind": "tool"
+    },
+    {
+     "domain": "mccarbons.com",
+     "url": "https://www.mccarbons.com/",
+     "title": "MC Carbon: Car Styling Manufacture | Carbon Fiber Factory",
+     "position": 2,
+     "kind": "tool"
+    },
+    {
+     "domain": "mcarbonsa.com",
+     "url": "https://www.mcarbonsa.com/?srsltid=AYCX9vIqbiuldZTnWUjJmKff4vgUq9SCX4iFrprvBDC-LUCZIHcxaXYL",
+     "title": "Welcome To MCarbon",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/MAcarbonfiber/",
+     "title": "MAcarbon (@MAcarbonfiber)",
+     "position": 4,
+     "kind": "forum"
+    },
+    {
+     "domain": "mcarbon.fi",
+     "url": "https://www.mcarbon.fi/en",
+     "title": "Mcarbon: Home",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/McCarbon/",
+     "title": "(@mccarbon) • Instagram photos and videos",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "maxicarbon.com",
+     "url": "https://www.maxicarbon.com/",
+     "title": "Maxicarbon - our parts, your mark",
+     "position": 7,
+     "kind": "tool"
+    },
+    {
+     "domain": "ebay.com",
+     "url": "https://www.ebay.com/str/macarbonthecarbonspecialists",
+     "title": "MAcarbon | eBay Stores",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "mccarbons.com",
+     "url": "https://www.mccarbons.com/product/",
+     "title": "Product - Guangzhou M.C Carbon Fiber Motorsport Co., Ltd",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "small_sites": 6,
+   "source": "serp"
+  }
+ },
+ "flint llm": {
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "huggingface.co",
+    "lmstudio.ai",
+    "ollama.com",
+    "unsloth.ai",
+    "reddit.com",
+    "dev.to",
+    "marktechpost.com"
+   ],
+   "items": [
+    {
+     "domain": "huggingface.co",
+     "url": "https://huggingface.co/RecursiveSI/flint",
+     "title": "RecursiveSI/flint",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "lmstudio.ai",
+     "url": "https://lmstudio.ai/models/recursive-flint",
+     "title": "Flint",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "ollama.com",
+     "url": "https://ollama.com/library/flint",
+     "title": "flint",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "unsloth.ai",
+     "url": "https://unsloth.ai/docs/models/flint",
+     "title": "Flint: Run Locally Guide",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbqik0/recursivesiflint_40b_a25b_hugging_face/",
+     "title": "RecursiveSI/flint (40B A2.5B) · Hugging Face : r/LocalLLaMA",
+     "position": 5,
+     "kind": "forum"
+    },
+    {
+     "domain": "dev.to",
+     "url": "https://dev.to/jamilxt/flint-is-a-coding-model-the-bigger-test-is-whether-ai-can-build-the-next-one-27jo",
+     "title": "Flint Is a Coding Model. The Bigger Test Is Whether AI Can ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "marktechpost.com",
+     "url": "https://www.marktechpost.com/2026/10/21/recursive-flint-local-coding-model/",
+     "title": "Recursive Releases Flint, an Open-Weight 40B MoE Local ...",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "small_sites": 5,
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": 4.07,
+  "comp": 0.16,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true
+ },
+ "mercury 3 llm": {
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 5,
+    "list": 2,
+    "video": 1
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "inceptionlabs.ai",
+    "instagram.com",
+    "aitoolsrecap.com",
+    "fastmetal.ai",
+    "aistartups.me",
+    "aicoder.com",
+    "youtube.com",
+    "hdatf.com"
+   ],
+   "items": [
+    {
+     "domain": "inceptionlabs.ai",
+     "url": "https://www.inceptionlabs.ai/blog/mercury-refreshed",
+     "title": "The Next Step for dLLMs: Scaling up Mercury",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/De4WgZkjWqA/",
+     "title": "4–8× faster generation 🧠 1M token context window 🏆 Beats ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "aitoolsrecap.com",
+     "url": "https://aitoolsrecap.com/Blog/inception-labs-mercury-3-diffusion-llm-2026",
+     "title": "Inception Labs Ships Mercury 3, a Diffusion LLM",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "fastmetal.ai",
+     "url": "https://fastmetal.ai/blog/mercury-3-available",
+     "title": "Mercury 3, Inception's diffusion LLM, now in FastMetal chat",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "aistartups.me",
+     "url": "https://www.aistartups.me/inception-mercury-3-startups-founders-guide-2026/",
+     "title": "Mercury 3 for Startups: The Founder's Guide (2026)",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "aicoder.com",
+     "url": "https://aicoder.com/news/news-20261020-inception-mercury-3-diffusion-llm-1068-tps",
+     "title": "Inception launches Mercury 3 diffusion LLM - AICoder",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=T9d9fDlz1J0",
+     "title": "Inception Mercury 3: The AI That Writes 1000 Tokens a ...",
+     "position": 7,
+     "kind": "video"
+    },
+    {
+     "domain": "hdatf.com",
+     "url": "https://hdatf.com/news/20261019-inception-mercury-3",
+     "title": "Inception Labs unveils Mercury 3, a 1000-token-per- ...",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "small_sites": 6,
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true
+ },
+ "pavo ai video generator": {
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 1,
+    "tool": 6,
+    "video": 1
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "github.com",
+    "play.google.com",
+    "youtube.com",
+    "apps.apple.com",
+    "apps.apple.com",
+    "pavoai.com",
+    "openart.ai",
+    "play.google.com"
+   ],
+   "items": [
+    {
+     "domain": "github.com",
+     "url": "https://github.com/sonnhfit/pavo-engine-py",
+     "title": "sonnhfit/pavo-engine-py - AI-Powered Video Editing Agent",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "play.google.com",
+     "url": "https://play.google.com/store/apps/details?id=com.agnes.pixa&hl=pt",
+     "title": "Pavo - AI Image & Video Maker",
+     "position": 2,
+     "kind": "tool"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=kVVqs1zqV3U",
+     "title": "AI Launchpad 2026: Pavo",
+     "position": 3,
+     "kind": "video"
+    },
+    {
+     "domain": "apps.apple.com",
+     "url": "https://apps.apple.com/sr/app/pavo-ai-image-video-maker/id6759694050?l=nl&see-all=customers-also-bought-apps&platform=vision",
+     "title": "AI Image & Video Maker - Suggesties voor jou - App Store",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "apps.apple.com",
+     "url": "https://apps.apple.com/in/app/pavo-ai-image-video-maker/id6759694050?l=kn&platform=watch",
+     "title": "Pavo - AI Image & Video Maker ಆ್ಯಪ್ - App Store - Apple",
+     "position": 5,
+     "kind": "tool"
+    },
+    {
+     "domain": "pavoai.com",
+     "url": "https://www.pavoai.com/",
+     "title": "Pavo - Continual improvement for production AI systems",
+     "position": 6,
+     "kind": "tool"
+    },
+    {
+     "domain": "openart.ai",
+     "url": "https://openart.ai/ai-video-generator/",
+     "title": "Introducing OpenArt's AI Video Generator",
+     "position": 7,
+     "kind": "tool"
+    },
+    {
+     "domain": "play.google.com",
+     "url": "https://play.google.com/store/apps/details?id=com.varni.postermaker&hl=en_US",
+     "title": "AI Video Generator: AI Videos - Apps on Google Play",
+     "position": 8,
+     "kind": "tool"
+    }
+   ],
+   "small_sites": 2,
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "overview_ok": true,
+  "volume": 10,
+  "cpc": 1.61,
+  "comp": 0.43,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true
+ },
+ "everygen ai video generator": {
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "tool": 4,
+    "video": 1,
+    "list": 3
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "everygen-ai.com",
+    "dreamina.capcut.com",
+    "youtube.com",
+    "aipo.st",
+    "aiidelist.com",
+    "everygen.ai",
+    "aitoptools.com",
+    "saascity.io"
+   ],
+   "items": [
+    {
+     "domain": "everygen-ai.com",
+     "url": "https://everygen-ai.com/",
+     "title": "EveryGen AI Video Generator & Creative Studio",
+     "position": 1,
+     "kind": "tool"
+    },
+    {
+     "domain": "dreamina.capcut.com",
+     "url": "https://dreamina.capcut.com/ai-video/everygen-ai-video-generator",
+     "title": "Everygen AI Video Generator for Shorts, UGC, and Ads",
+     "position": 2,
+     "kind": "tool"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=GUTjuvRgypU",
+     "title": "I Tested Every Free AI Video Generator (Here's the Best One)",
+     "position": 3,
+     "kind": "video"
+    },
+    {
+     "domain": "aipo.st",
+     "url": "https://aipo.st/products/everygen-ai",
+     "title": "Everygen AI: AI Video Generator: Text & Image… - AIPO.ST",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "aiidelist.com",
+     "url": "https://aiidelist.com/blog/everygen-ai-video-generator",
+     "title": "EveryGen AI Video Generator Review 2026: Pricing & ...",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "everygen.ai",
+     "url": "https://everygen.ai/",
+     "title": "Everygen AI (formerly Viewmax): AI Video Generator for ...",
+     "position": 6,
+     "kind": "tool"
+    },
+    {
+     "domain": "aitoptools.com",
+     "url": "https://aitoptools.com/tool/everygen-ai-2/",
+     "title": "Everygen AI Reviews 2026: Details, Pricing, & Features",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "saascity.io",
+     "url": "https://saascity.io/blog/everygen-ai-review-2026",
+     "title": "EveryGen AI Review 2026: AI Director, Pricing and MCP",
+     "position": 8,
+     "kind": "list"
+    }
+   ],
+   "small_sites": 7,
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true
+ },
+ "moss image ai": {
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 7,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "huggingface.co",
+    "github.com",
+    "reddit.com",
+    "openmoss.ai",
+    "modelscope.ai",
+    "fal.ai",
+    "aiweekly.co",
+    "docs.comfy.org"
+   ],
+   "items": [
+    {
+     "domain": "huggingface.co",
+     "url": "https://huggingface.co/spaces/OpenMOSS-Team/MOSS-Image",
+     "title": "a Hugging Face Space by OpenMOSS-Team",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/OpenMOSS/MOSS-Image",
+     "title": "Official repository for MOSS-Image, a 5B-parameter base ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/StableDiffusion/comments/1x7zf1r/hey_guys_im_one_of_the_core_developers_of/",
+     "title": "Hey guys! I'm one of the core developers of MOSS-Image. ...",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "openmoss.ai",
+     "url": "https://openmoss.ai/MOSS-Image/",
+     "title": "Text-to-Image Generation with Native Layout Control",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "modelscope.ai",
+     "url": "https://www.modelscope.ai/models/openmoss/MOSS-Image-SFT",
+     "title": "MOSS-Image-SFT",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "fal.ai",
+     "url": "https://fal.ai/models/fal-ai/moss-image",
+     "title": "MOSS Image (Text to Image) API on fal",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "aiweekly.co",
+     "url": "https://aiweekly.co/alerts/moss-image-5b-tops-open-weight-long-text-rendering-at-963",
+     "title": "MOSS-Image 5B tops open-weight long-text rendering at ...",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "docs.comfy.org",
+     "url": "https://docs.comfy.org/tutorials/image/moss-image/moss-image",
+     "title": "MOSS-Image in ComfyUI: Text-to-Image and Layout ...",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "small_sites": 5,
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true
+ },
+ "code mode mcp": {
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "forum": 2,
+    "video": 1
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "developers.cloudflare.com",
+    "lucumr.pocoo.org",
+    "gofastmcp.com",
+    "reddit.com",
+    "github.com",
+    "dev.to",
+    "news.ycombinator.com",
+    "youtube.com",
+    "thenewstack.io"
+   ],
+   "items": [
+    {
+     "domain": "developers.cloudflare.com",
+     "url": "https://developers.cloudflare.com/agents/tools/codemode/",
+     "title": "Code Mode · Cloudflare Agents docs",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "lucumr.pocoo.org",
+     "url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+     "title": "What is Codemode",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "gofastmcp.com",
+     "url": "https://gofastmcp.com/servers/transforms/code-mode",
+     "title": "Code Mode",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/mcp/comments/1o1wdfh/do_you_think_code_mode_will_supercede_mcp/",
+     "title": "Do you think \"code mode\" will supercede MCP?",
+     "position": 4,
+     "kind": "forum"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/jx-codes/codemode-mcp",
+     "title": "jx-codes/codemode-mcp: An implementation of ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "dev.to",
+     "url": "https://dev.to/aws-heroes/code-mode-for-mcp-the-long-tail-escape-hatch-not-the-front-door-40ga",
+     "title": "Code Mode for MCP: The Long-Tail Escape Hatch, Not ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "news.ycombinator.com",
+     "url": "https://news.ycombinator.com/item?id=45399204",
+     "title": "Code Mode: the better way to use MCP",
+     "position": 7,
+     "kind": "forum"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=0bpYCxv2qhw&vl=en",
+     "title": "[Video Response] What Cloudflare's code mode misses about ...",
+     "position": 8,
+     "kind": "video"
+    },
+    {
+     "domain": "thenewstack.io",
+     "url": "https://thenewstack.io/port-of-context-the-open-source-code-mode/",
+     "title": "Port of Context: The open source code mode",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "small_sites": 6,
+   "source": "serp",
+   "soft_weak": 3
+  },
+  "overview_ok": true,
+  "volume": 50,
+  "cpc": 0.0,
+  "comp": 0.01,
+  "results": 136,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true
+ },
+ "ai image generator magnific": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.02,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 2,
+    "video": 3,
+    "tool": 2,
+    "list": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "instagram.com",
+    "youtube.com",
+    "magnific.com",
+    "therundown.ai",
+    "youtube.com",
+    "pcguide.com",
+    "youtube.com",
+    "magnific.com"
+   ],
+   "items": [
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/magnific_ai/?hl=en",
+     "title": "Magnific (@magnific_ai) • Instagram photos and videos",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=b4iWjX6wgu8&vl=en-US",
+     "title": "How To Create Multiple Images In Magnific AI Mobile [2026 ...",
+     "position": 2,
+     "kind": "video"
+    },
+    {
+     "domain": "magnific.com",
+     "url": "https://www.magnific.com/free-photos-vectors/highquality-generative-ai",
+     "title": "Highquality generative ai Images - Free Download on ...",
+     "position": 3,
+     "kind": "tool"
+    },
+    {
+     "domain": "therundown.ai",
+     "url": "https://www.therundown.ai/tools/magnific-ai",
+     "title": "Magnific AI: Image Upscaler, Pricing & Alternatives",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=B7x0Ree_6aA",
+     "title": "Complete Magnific AI Tutorial for Geginners (Formerly Freepik)",
+     "position": 5,
+     "kind": "video"
+    },
+    {
+     "domain": "pcguide.com",
+     "url": "https://www.pcguide.com/ai/how-to/magnific-ai-image-enhancer/",
+     "title": "How to use Magnific AI image enhancer",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=FLvmTSYLTuQ",
+     "title": "EASIEST way of generating AI images | Magnific AI Tutorial",
+     "position": 7,
+     "kind": "video"
+    },
+    {
+     "domain": "magnific.com",
+     "url": "https://www.magnific.com/photos/beautiful-ai-generated",
+     "title": "Beautiful ai generated Photos - Download Free High ...",
+     "position": 8,
+     "kind": "tool"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 3
+  }
+ },
+ "dessa model": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 9
+   },
+   "ads": false,
+   "features": [
+    "ai_overview"
+   ],
+   "top": [
+    "instagram.com",
+    "instagram.com",
+    "buzzcast.com",
+    "pinterest.com",
+    "instagram.com",
+    "instagram.com",
+    "instagram.com",
+    "instagram.com",
+    "instagram.com"
+   ],
+   "items": [
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/p/C1HGtlms5nF/",
+     "title": "Princess Dessa 👑♥️🌏🙏✨✨🎄🎁",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/denikadelfin/",
+     "title": "Alessa Dee (@denikadelfin)",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "buzzcast.com",
+     "url": "https://www.buzzcast.com/10091246",
+     "title": "BuzzCast Profile - Dessa",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "pinterest.com",
+     "url": "https://www.pinterest.com/dlsessa/",
+     "title": "Deja Sessa (dlsessa) - Profile",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/deess_/",
+     "title": "(@deess_) • Instagram photos and videos",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/_deessa_/",
+     "title": "Deessa (@_deessa_) • Instagram photos and videos",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/tess.a1187/",
+     "title": "Tessa Devin (@tess.a1187)",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/dxvanessa/",
+     "title": "V Λ N E S S Λ (@dxvanessa)",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/_dessa.06_/",
+     "title": "Des (@_dessa.06_) • Instagram photos and videos",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "obs alternative": {
+  "overview_ok": true,
+  "volume": 880,
+  "cpc": 1.81,
+  "comp": 0.19,
+  "results": 53400000,
+  "kd_ok": true,
+  "kd": 22,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "forum": 2,
+    "list": 3,
+    "video": 1,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "discussions_and_forums",
+    "people_also_ask",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "reddit.com",
+    "poindeo.com",
+    "youtube.com",
+    "obsproject.com",
+    "gumlet.com",
+    "dina.so",
+    "evmux.com"
+   ],
+   "items": [
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/PakGamers/comments/1nm7t7z/what_is_the_best_free_alternative_to_obs_studio/",
+     "title": "What is the best Free alternative to OBS studio for screen ...",
+     "position": 1,
+     "kind": "forum"
+    },
+    {
+     "domain": "poindeo.com",
+     "url": "https://poindeo.com/blog/obs-alternatives",
+     "title": "2026 Best OBS Alternative for Recording & Live Streaming",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=o9e2nYt6faU",
+     "title": "OBS, Riverside, StreamYard, Ecamm Live & Evmux Compared",
+     "position": 3,
+     "kind": "video"
+    },
+    {
+     "domain": "obsproject.com",
+     "url": "https://obsproject.com/",
+     "title": "Open Broadcaster Software | OBS",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "gumlet.com",
+     "url": "https://www.gumlet.com/learn/obs-alternatives/",
+     "title": "Best OBS Alternatives for Creators in 2026",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "dina.so",
+     "url": "https://www.dina.so/blog/obs-studio-alternative-non-technical",
+     "title": "The Best OBS Studio Alternative for Non-Technical Users - Dina",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "evmux.com",
+     "url": "https://www.evmux.com/blog/best-obs-alternative-for-live-streaming-evmux/",
+     "title": "Best OBS Alternative for Live Streaming - Try Now",
+     "position": 7,
+     "kind": "forum"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 3
+  },
+  "allintitle": 30
+ },
+ "open source ai coding assistant": {
+  "overview_ok": true,
+  "volume": 320,
+  "cpc": 6.03,
+  "comp": 0.33,
+  "results": 113,
+  "kd_ok": true,
+  "kd": 57,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "tool": 2,
+    "forum": 1,
+    "list": 5,
+    "article": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "top": [
+    "opencode.ai",
+    "reddit.com",
+    "augmentcode.com",
+    "syntackle.com",
+    "zapier.com",
+    "opensourcealternatives.to",
+    "axify.io",
+    "github.com",
+    "kimi.ai"
+   ],
+   "items": [
+    {
+     "domain": "opencode.ai",
+     "url": "https://opencode.ai/",
+     "title": "OpenCode | The open source AI coding agent",
+     "position": 1,
+     "kind": "tool"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/StableDiffusion/comments/1nzpvxu/best_ai_coding_agent_opensourcefree_for_coding/",
+     "title": "Best AI coding Agent Opensource/Free for coding?",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "augmentcode.com",
+     "url": "https://www.augmentcode.com/tools/8-top-ai-coding-assistants-and-their-best-use-cases",
+     "title": "8 Best AI Coding Assistants by Job [Updated August 2026]",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "syntackle.com",
+     "url": "https://syntackle.com/blog/opensource-ai-coding-agents-to-try/",
+     "title": "Open Source AI Coding Agents to Try for Free",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "zapier.com",
+     "url": "https://zapier.com/blog/ai-coding-tools/",
+     "title": "The 9 best AI coding tools in 2026",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "opensourcealternatives.to",
+     "url": "https://www.opensourcealternatives.to/blog/best-open-source-ai-coding-assistants",
+     "title": "10 Best Open Source AI Coding Assistants (Free in 2026)",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "axify.io",
+     "url": "https://axify.io/blog/the-best-ai-coding-assistants-a-full-comparison-of-20-tools",
+     "title": "The Best AI Coding Assistants: 20 Tools Reviewed for 2026",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/sourcegraph/awesome-code-ai",
+     "title": "sourcegraph/awesome-code-ai: A list of AI coding tools ( ...",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "kimi.ai",
+     "url": "https://www.kimi.ai/resources/open-source-ai-code-tools",
+     "title": "10 Open Source AI Code Tools for Better Programming - Kimi.ai",
+     "position": 9,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "dessa voice": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": 0.0,
+  "comp": 0.0,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "forum": 1,
+    "article": 5,
+    "list": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "perspectives",
+    "video"
+   ],
+   "top": [
+    "facebook.com",
+    "pro.edgex.exchange",
+    "ai-tldr.dev",
+    "sourceforge.net",
+    "voiceaispace.com",
+    "instagram.com",
+    "getvoisi.in"
+   ],
+   "items": [
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/berlianselnovik/posts/block-introduces-dessa-an-ai-voice-model-that-learns-to-speak-through-human-conv/2514764055686963/",
+     "title": "Block introduces Dessa, an AI voice model",
+     "position": 1,
+     "kind": "forum"
+    },
+    {
+     "domain": "pro.edgex.exchange",
+     "url": "https://pro.edgex.exchange/news/article/block-dessa-ai-voice-model",
+     "title": "Jack Dorsey's Block Unveils Dessa, an AI Voice Model ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "ai-tldr.dev",
+     "url": "https://ai-tldr.dev/releases/block-dessa/",
+     "title": "Dessa — Block's full-duplex speech model trained… - AI/TLDR",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "sourceforge.net",
+     "url": "https://sourceforge.net/software/product/Dessa/",
+     "title": "Dessa Reviews in 2026",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "voiceaispace.com",
+     "url": "https://www.voiceaispace.com/tool/dessa",
+     "title": "Dessa — Voice AI Technology",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/De5_4qqxjbE/",
+     "title": "️ AI THAT TALKS LIKE A HUMAN? Jack Dorsey's Block ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "getvoisi.in",
+     "url": "https://getvoisi.in/blog/dessa-ai-voice-block",
+     "title": "Block's New Voice AI Dessa Listens Just Like A Human ...",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "dessa voice ai": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": 0.0,
+  "comp": 0.0,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "forum": 1,
+    "article": 5,
+    "list": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "perspectives",
+    "video"
+   ],
+   "top": [
+    "facebook.com",
+    "enterpriseai.economictimes.indiatimes.com",
+    "voiceaispace.com",
+    "instagram.com",
+    "qoshe.com",
+    "sourceforge.net",
+    "getvoisi.in"
+   ],
+   "items": [
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/askclash/posts/jack-dorseys-block-has-unveiled-dessa-a-voice-ai-trained-from-scratch-purely-on-/122126403861307071/",
+     "title": "Jack Dorsey's Block unveils Dessa voice ai",
+     "position": 1,
+     "kind": "forum"
+    },
+    {
+     "domain": "enterpriseai.economictimes.indiatimes.com",
+     "url": "https://enterpriseai.economictimes.indiatimes.com/news/industry/jack-dorseys-block-launches-dessa-ai-voice-model-trained-entirely-on-human-conversation/135165286",
+     "title": "AI voice model trained entirely on 'human conversation'",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "voiceaispace.com",
+     "url": "https://www.voiceaispace.com/tool/dessa",
+     "title": "Dessa — Voice AI Technology",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/De5HK_NjnSg/",
+     "title": "Block built a voice AI that learned to talk by listening",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "qoshe.com",
+     "url": "https://qoshe.com/the-news-international/pareesa-afreen/block-s-dessa-ai-voice-model-learned-to-talk-without-text-here-s-how/189401529/amp",
+     "title": "Block's Dessa AI voice model learned to talk without text",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "sourceforge.net",
+     "url": "https://sourceforge.net/software/product/Dessa/",
+     "title": "Dessa Reviews in 2026",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "getvoisi.in",
+     "url": "https://getvoisi.in/blog/dessa-ai-voice-block",
+     "title": "Block's New Voice AI Dessa Listens Just Like A Human ...",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "claude duet demo": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "tool": 2,
+    "article": 6
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "video"
+   ],
+   "top": [
+    "9to6ai.com",
+    "incredibleai.net",
+    "justoglobal.com",
+    "aicoder.com",
+    "malou.tech",
+    "upfynd.com",
+    "iapp4me.com",
+    "guides.aicreativeos.com"
+   ],
+   "items": [
+    {
+     "domain": "9to6ai.com",
+     "url": "https://9to6ai.com/claude-duet/",
+     "title": "Claude Duet: Anthropic's Proactive Agent App Explained",
+     "position": 1,
+     "kind": "tool"
+    },
+    {
+     "domain": "incredibleai.net",
+     "url": "https://incredibleai.net/posts/anthropic-launches-claude-duet",
+     "title": "🚀 Anthropic Launches Claude Duet",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "justoglobal.com",
+     "url": "https://www.justoglobal.com/news/p/anthropic-launches-claude-duet-proactive-ai-agent-for-mobile-and-desktop-justo-global-news",
+     "title": "Anthropic Launches Claude Duet Proactive AI Agent ...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "aicoder.com",
+     "url": "https://aicoder.com/news/news-1792641807085-ebtor",
+     "title": "Anthropic Officially Releases Claude Duet Research Preview",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "malou.tech",
+     "url": "https://malou.tech/en/news/x-live-2112984664256241837/",
+     "title": "We're opening a research preview of Claude Duet, a new app ...",
+     "position": 5,
+     "kind": "tool"
+    },
+    {
+     "domain": "upfynd.com",
+     "url": "https://upfynd.com/blog/claude-duet-anthropic-proactive-agent",
+     "title": "Claude Duet: Access, Cost and How It Compares",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "iapp4me.com",
+     "url": "https://www.iapp4me.com/guides/get-started-with-claude-duet",
+     "title": "How to Get Claude Duet Access: Waitlist, Account Checks and ...",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "guides.aicreativeos.com",
+     "url": "https://guides.aicreativeos.com/guides/claude-duet/",
+     "title": "Claude Duet: The Full Breakdown + How to Get on ...",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "cantina ai online": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "tool": 2,
+    "forum": 1,
+    "article": 4,
+    "video": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "cantina-ai.com",
+    "reddit.com",
+    "support.cantina.com",
+    "tiktok.com",
+    "cantina.com",
+    "cantina.com",
+    "apps.apple.com",
+    "support.cantina.com"
+   ],
+   "items": [
+    {
+     "domain": "cantina-ai.com",
+     "url": "https://cantina-ai.com/",
+     "title": "Cantina AI - AI Video and Characters",
+     "position": 1,
+     "kind": "tool"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1jdlq34/cantina_ai/",
+     "title": "cantina ai : r/ArtificialInteligence",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "support.cantina.com",
+     "url": "https://support.cantina.com/hc/en-us/sections/15976371134995-Creating-and-Using-Bots",
+     "title": "Creating and Using Bots",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "tiktok.com",
+     "url": "https://www.tiktok.com/@cantina/video/7506637792261279022",
+     "title": "Create AI Videos Effortlessly with Cantina App",
+     "position": 4,
+     "kind": "video"
+    },
+    {
+     "domain": "cantina.com",
+     "url": "https://cantina.com/building-an-ai-character-cantina",
+     "title": "Building an AI Bot",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "cantina.com",
+     "url": "https://cantina.com/users/ai.videos7754659",
+     "title": "AI.videos",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "apps.apple.com",
+     "url": "https://apps.apple.com/it/app/cantina-ai-video-characters/id1018368216",
+     "title": "Cantina: AI Video & Characters - App Store - Apple",
+     "position": 7,
+     "kind": "tool"
+    },
+    {
+     "domain": "support.cantina.com",
+     "url": "https://support.cantina.com/hc/en-us/articles/51897894449683-Prompting-101",
+     "title": "Prompting 101",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  }
+ },
+ "timecapsule llm": {
+  "overview_ok": true,
+  "volume": 70,
+  "cpc": 0.0,
+  "comp": 0.01,
+  "results": 202,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 9
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "popsci.com",
+    "threads.com",
+    "llmcapsule.ai",
+    "medium.com",
+    "tom-doerr.github.io",
+    "huggingface.co",
+    "lablab.ai",
+    "arstechnica.com",
+    "github.com"
+   ],
+   "items": [
+    {
+     "domain": "popsci.com",
+     "url": "https://www.popsci.com/technology/this-ai-thinks-its-the-1800s/",
+     "title": "This AI thinks it's the 1800s",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "threads.com",
+     "url": "https://www.threads.com/@githubprojects/post/DehvsdUkv7g/explore-it-here/",
+     "title": "Explore it here: https://osp.fyi/timecapsulellm?src=x",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "llmcapsule.ai",
+     "url": "https://llmcapsule.ai/resources/learn/",
+     "title": "Learn: Enterprise AI enablement articles",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/pelagios/introducing-timecapsule-3468a281438b",
+     "title": "Introducing: TimeCapsule",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "tom-doerr.github.io",
+     "url": "https://tom-doerr.github.io/repo_posts/2025/08/22/haykgrigo3-TimeCapsuleLLM.html",
+     "title": "Haykgrigo3 Timecapsulellm | MAGI//ARCHIVE",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "huggingface.co",
+     "url": "https://huggingface.co/papers/2607.24750",
+     "title": "TimeCapsule: Generative Hallucination as a Method for ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "lablab.ai",
+     "url": "https://lablab.ai/ai-hackathons/fall-in-love-with-deepseek/happynow/time-capsule",
+     "title": "Time Capsule for Fall in Love with Deepseek",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "arstechnica.com",
+     "url": "https://arstechnica.com/information-technology/2025/08/ai-built-from-1800s-texts-surprises-creator-by-mentioning-real-1834-london-protests/",
+     "title": "College student's “time travel” AI experiment accidentally ...",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/aamirmalik85/TimeCapsule",
+     "title": "aamirmalik85/TimeCapsule",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "claude duet how to get": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 4,
+    "tool": 2,
+    "video": 1,
+    "list": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "arte.itlibra.com",
+    "instagram.com",
+    "projedefteri.com",
+    "layer3labs.io",
+    "youtube.com",
+    "mean.ceo",
+    "fynl.io",
+    "sharable.link"
+   ],
+   "items": [
+    {
+     "domain": "arte.itlibra.com",
+     "url": "https://arte.itlibra.com/en/articles/what-is-claude-duet",
+     "title": "Claude Duet: Features, Pricing, Availability, and dot Differences",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/DexRfF6lTaI/",
+     "title": "what it is, from Anthropic's own pages. 1. Claude Duet is a new ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "projedefteri.com",
+     "url": "https://projedefteri.com/en/blog/claude-duet-waitlist-price-limits/",
+     "title": "Claude Duet App: Waitlist, Price and Limits - Proje Defteri",
+     "position": 3,
+     "kind": "tool"
+    },
+    {
+     "domain": "layer3labs.io",
+     "url": "https://www.layer3labs.io/guides/claude-duet-explained",
+     "title": "What Is Claude Duet? Anthropic's Proactive Agent App",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=yD62IxvxJjc&vl=en",
+     "title": "Claude Duet Is the $20 AI Agent. Here's the Catch",
+     "position": 5,
+     "kind": "video"
+    },
+    {
+     "domain": "mean.ceo",
+     "url": "https://mean.ceo/tpost/claude-duet?amp=true",
+     "title": "Claude Duet: Anthropic's Proactive AI Agent, Explained",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "fynl.io",
+     "url": "https://fynl.io/guides/claude-duet/",
+     "title": "Claude Duet: Anthropic's New AI Agent Guide",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "sharable.link",
+     "url": "https://sharable.link/blog/claude-duet-for-agencies",
+     "title": "Claude Duet for Agencies: What It Is + 10 Ways to Use It",
+     "position": 8,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "cantina ai web version": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "video": 2,
+    "forum": 1,
+    "article": 4,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "youtube.com",
+    "reddit.com",
+    "play.google.com",
+    "linkedin.com",
+    "apps.apple.com",
+    "youtube.com",
+    "support.cantina.com",
+    "cantina.com"
+   ],
+   "items": [
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/shorts/70DX2HVC-VI?vl=en-US",
+     "title": "This FREE AI App Creates Viral Videos in Seconds - Cantina AI ...",
+     "position": 1,
+     "kind": "video"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1jdlq34/cantina_ai/",
+     "title": "cantina ai : r/ArtificialInteligence",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "play.google.com",
+     "url": "https://play.google.com/store/apps/details?id=com.signal.android&hl=es_419",
+     "title": "Cantina - Apps en Google Play",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "linkedin.com",
+     "url": "https://www.linkedin.com/company/cantinaai",
+     "title": "Cantina Labs",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "apps.apple.com",
+     "url": "https://apps.apple.com/mx/app/cantina-ai-video-characters/id1018368216",
+     "title": "Cantina: AI Video & Characters - App Store",
+     "position": 5,
+     "kind": "tool"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=s8uQ4EFXM1E",
+     "title": "How To Create & Use Ai Bots On Cantina Ai",
+     "position": 6,
+     "kind": "video"
+    },
+    {
+     "domain": "support.cantina.com",
+     "url": "https://support.cantina.com/hc/en-us/categories/8519663506835-User-Controls-and-Privacy",
+     "title": "User Controls and Privacy",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "cantina.com",
+     "url": "https://cantina.com/users/ai.videos7754659",
+     "title": "AI.videos",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 3
+  }
+ },
+ "cantina ai alternative": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "forum": 1,
+    "list": 7,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "top": [
+    "reddit.com",
+    "medium.com",
+    "localalternative.io",
+    "eesel.ai",
+    "gempages.net",
+    "talefy.ai",
+    "fritz.ai",
+    "questie.ai",
+    "myengineeringbuddy.com"
+   ],
+   "items": [
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/CharacterAIrunaways/comments/1q262q4/best_character_ai_alternatives_january_2026/",
+     "title": "Best Character AI Alternatives (January 2026) — Platforms ...",
+     "position": 1,
+     "kind": "forum"
+    },
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/@TheSocialClimb/15-uncensored-character-ai-alternatives-that-work-in-2026-9332144d7e1f",
+     "title": "15 Best Character AI Alternatives in 2026 (Uncensored & ...",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "localalternative.io",
+     "url": "https://www.localalternative.io/",
+     "title": "Local AI Apps Directory: LocalAlternative",
+     "position": 3,
+     "kind": "tool"
+    },
+    {
+     "domain": "eesel.ai",
+     "url": "https://www.eesel.ai/blog/character-ai-alternatives",
+     "title": "18 Character AI alternatives with and without filters (2026)",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "gempages.net",
+     "url": "https://gempages.net/blogs/shopify/character-ai-alternatives-guide",
+     "title": "12+ Best Character AI Alternatives 2026 Guide",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "talefy.ai",
+     "url": "https://talefy.ai/blog/best-character-ai-alternatives-in-2026-10-platforms-that-actually-deliver",
+     "title": "Best Character AI Alternatives 2026: 10 Platforms ...",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "fritz.ai",
+     "url": "https://fritz.ai/best-character-ai-alternatives/",
+     "title": "6 Best Character AI Alternatives for 2024 (Updated Monthly!)",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "questie.ai",
+     "url": "https://www.questie.ai/sillytavern",
+     "title": "SillyTavern Alternatives and Status in 2026: Get Started ...",
+     "position": 8,
+     "kind": "list"
+    },
+    {
+     "domain": "myengineeringbuddy.com",
+     "url": "https://www.myengineeringbuddy.com/blog/chai-ai-alternatives-ranked/",
+     "title": "9 Chai AI Alternatives Ranked: Best Chatbot Competitors ...",
+     "position": 9,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "rovo mcp": {
+  "overview_ok": true,
+  "volume": 170,
+  "cpc": 4.38,
+  "comp": 0.05,
+  "results": 196,
+  "kd_ok": true,
+  "kd": 33,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "forum": 1,
+    "list": 1,
+    "video": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "top": [
+    "support.atlassian.com",
+    "github.com",
+    "support.atlassian.com",
+    "reddit.com",
+    "swarmit.ch",
+    "scalekit.com",
+    "techcommunity.microsoft.com",
+    "blog.isostech.com",
+    "youtube.com"
+   ],
+   "items": [
+    {
+     "domain": "support.atlassian.com",
+     "url": "https://support.atlassian.com/atlassian-ai-gateway/docs/get-started-with-the-atlassian-remote-mcp-server/",
+     "title": "Get started with the Atlassian MCP server",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/atlassian/atlassian-mcp-server",
+     "title": "Official remote MCP server for Atlassian. Securely connect ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "support.atlassian.com",
+     "url": "https://support.atlassian.com/atlassian-ai-gateway/docs/use-atlassian-rovo-mcp-server/",
+     "title": "Use Atlassian Rovo MCP Server",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/atlassian/comments/1n3ap44/difference_between_rovo_and_mcp_atlassian_server/",
+     "title": "Difference between Rovo and MCP Atlassian Server",
+     "position": 4,
+     "kind": "forum"
+    },
+    {
+     "domain": "swarmit.ch",
+     "url": "https://www.swarmit.ch/en/insights/rovo-mcp-server-simply-explained-the-backbone-of-intelligent-automation",
+     "title": "Rovo MCP Server simply explained: The backbone of ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "scalekit.com",
+     "url": "https://www.scalekit.com/blog/atlassian-mcp-vs-api",
+     "title": "Atlassian Rovo MCP vs Atlassian API for AI Agents (2026)",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "techcommunity.microsoft.com",
+     "url": "https://techcommunity.microsoft.com/blog/appsonazureblog/get-started-with-atlassian-rovo-mcp-server-in-azure-sre-agent/4497122",
+     "title": "Get started with Atlassian Rovo MCP server in Azure SRE ...",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "blog.isostech.com",
+     "url": "https://blog.isostech.com/rovo-mcp-a-partners-guardedly-optimistic-view",
+     "title": "Rovo & MCP: A Partner's Guardedly Optimistic View",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=CMYoAdaG2aI",
+     "title": "Unlocking Atlassian Power with the Atlassian Rovo MCP Server",
+     "position": 9,
+     "kind": "video"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  }
+ },
+ "nemotron 3.5 bolt e4b 4gb": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 5,
+    "forum": 3,
+    "list": 1
+   },
+   "ads": false,
+   "features": [
+    "perspectives"
+   ],
+   "top": [
+    "catalog.ngc.nvidia.com",
+    "x.com",
+    "reddit.com",
+    "huggingface.co",
+    "note.com",
+    "catalog.ngc.nvidia.com",
+    "x.com",
+    "dev.classmethod.jp",
+    "catalog.ngc.nvidia.com"
+   ],
+   "items": [
+    {
+     "domain": "catalog.ngc.nvidia.com",
+     "url": "https://catalog.ngc.nvidia.com/orgs/nim/nvidia/containers/nemotron-3.5-bolt-e4b-4gb/-/layers?cookie-preferences",
+     "title": "Nemotron-3.5-bolt-e4b-BF16 - nvidia nim - NGC Catalog",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/Marktechpost/status/2113843609548341756",
+     "title": "NVIDIA just released Nemotron 3.5 Bolt E4B 4GB ...",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/LocalLLM/comments/1xdhzaq/nvidia_releases_nemotron_35_bolt_e4b_runs_locally/",
+     "title": "NVIDIA releases Nemotron 3.5 Bolt E4B - Runs locally on ...",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "huggingface.co",
+     "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/commit/fc2c9fed2eaabca56d44a5be74a448b14d4bc183",
+     "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB at fc2c9fe",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "note.com",
+     "url": "https://note.com/hacklog_stealth/n/n165fd037d7a6?hl=en",
+     "title": "The 4GB version of Nemotron 3.5 Bolt is actually a 6.2GB ...",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "catalog.ngc.nvidia.com",
+     "url": "https://catalog.ngc.nvidia.com/orgs/nim/nvidia/containers/nemotron-3.5-bolt-e4b-4gb/2.1.4",
+     "title": "Nemotron-3.5-bolt-e4b-BF16 - NGC Catalog - NVIDIA",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/ScaleAILabs/status/2113659092019605662",
+     "title": "Scale Labs",
+     "position": 7,
+     "kind": "forum"
+    },
+    {
+     "domain": "dev.classmethod.jp",
+     "url": "https://dev.classmethod.jp/en/articles/dgx-spark-nemotron-3-5-bolt-e4b-4gb-first-touch/",
+     "title": "I tried running the 4GB conversational model \"Nemotron 3.5 ...",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "catalog.ngc.nvidia.com",
+     "url": "https://catalog.ngc.nvidia.com/orgs/nim/nvidia/containers/nemotron-3.5-bolt-e4b-4gb/latest",
+     "title": "Nemotron-3.5-bolt-e4b-BF16 - NGC Catalog - NVIDIA",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 3
+  }
+ },
+ "claude duet review": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "list": 4,
+    "article": 1,
+    "video": 2,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "video"
+   ],
+   "top": [
+    "medium.com",
+    "beevaults.com",
+    "sourceforge.net",
+    "youtube.com",
+    "sourceforge.net",
+    "podcastrex.com",
+    "medium.com",
+    "youtube.com"
+   ],
+   "items": [
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/google-cloud/duet-ai-review-my-perception-and-use-cases-part-2-f00a5c380891",
+     "title": "Duet AI Review: My Perception and Use Cases — Part 2",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "beevaults.com",
+     "url": "https://beevaults.com/claude-duet-ai-agent/",
+     "title": "Claude Duet Explained: What Anthropic's AI Agent Can Do ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "sourceforge.net",
+     "url": "https://sourceforge.net/software/compare/Claude-Duet-vs-alfred-AI/",
+     "title": "Claude Duet vs. alfred_ Comparison",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=b8XJMKiWZCE",
+     "title": "Claude Duet Messages You First. Here's What It Won't Do",
+     "position": 4,
+     "kind": "video"
+    },
+    {
+     "domain": "sourceforge.net",
+     "url": "https://sourceforge.net/software/compare/Claude-Duet-vs-Google-Cloud-Code/",
+     "title": "Claude Duet vs. Google Cloud Code Comparison",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "podcastrex.com",
+     "url": "https://podcastrex.com/shows/how-i-ai/claude-duet-is-beautiful-i-still-forgot-to-use-it/transcript",
+     "title": "Transcript — Claude Duet is beautiful. I still forgot to use it",
+     "position": 6,
+     "kind": "forum"
+    },
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/google-cloud/duet-ai-review-my-perception-and-use-cases-part-1-c237ff5077e4",
+     "title": "Duet AI Review: My Perception and Use Cases — Part 1",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=r9Gz39VQeZ8",
+     "title": "How the Background AI Agent Works & Who Holds Control",
+     "position": 8,
+     "kind": "video"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 3
+  }
+ },
+ "monarch mcp": {
+  "overview_ok": true,
+  "volume": 140,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 160,
+  "kd_ok": true,
+  "kd": 11,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "forum": 1,
+    "tool": 1,
+    "list": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "top": [
+    "pulsemcp.com",
+    "github.com",
+    "github.com",
+    "skywork.ai",
+    "mcpmarket.com",
+    "reddit.com",
+    "mcpapp-store.com",
+    "pulsemcp.com",
+    "candor.money"
+   ],
+   "items": [
+    {
+     "domain": "pulsemcp.com",
+     "url": "https://www.pulsemcp.com/servers/colvint-monarch-money",
+     "title": "Monarch Money MCP Server by colvint",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/robcerda/monarch-mcp-server/issues",
+     "title": "Issues · robcerda/monarch-mcp-server",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/hammem/monarchmoney/discussions/146",
+     "title": "MonarchMoney MCP Server #146",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "skywork.ai",
+     "url": "https://skywork.ai/skypage/en/unlocking-finances-monarch-money/1981585457704701952",
+     "title": "Unlocking Your Finances with the Monarch Money MCP ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "mcpmarket.com",
+     "url": "https://mcpmarket.com/server/monarch-money-1",
+     "title": "Monarch Money MCP: Personal Finance Data & Budget ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/MonarchMoney/comments/1wzzjdy/mcp_and_agentic_use/",
+     "title": "MCP and Agentic Use : r/MonarchMoney",
+     "position": 6,
+     "kind": "forum"
+    },
+    {
+     "domain": "mcpapp-store.com",
+     "url": "https://mcpapp-store.com/apps/monarch-money-mcp",
+     "title": "Monarch Money MCP - MCP App Store",
+     "position": 7,
+     "kind": "tool"
+    },
+    {
+     "domain": "pulsemcp.com",
+     "url": "https://www.pulsemcp.com/servers/monarch-money",
+     "title": "Monarch Money MCP Server by vargahis",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "candor.money",
+     "url": "https://candor.money/monarch-alternative",
+     "title": "Monarch Money MCP: Setup, Limits, and Candor Compared",
+     "position": 9,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "recursive flint review": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "forum": 1,
+    "article": 6
+   },
+   "ads": false,
+   "features": [
+    "people_also_ask",
+    "perspectives",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "reddit.com",
+    "lmstudio.ai",
+    "techcrunch.com",
+    "huggingface.co",
+    "linkedin.com",
+    "wired.com",
+    "dev.to"
+   ],
+   "items": [
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbqik0/recursivesiflint_40b_a25b_hugging_face/",
+     "title": "RecursiveSI/flint (40B A2.5B) · Hugging Face : r/LocalLLaMA",
+     "position": 1,
+     "kind": "forum"
+    },
+    {
+     "domain": "lmstudio.ai",
+     "url": "https://lmstudio.ai/models/recursive-flint",
+     "title": "Flint",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "techcrunch.com",
+     "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+     "title": "Recursive launches Flint, a laptop coding model it says ...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "huggingface.co",
+     "url": "https://huggingface.co/RecursiveSI/flint",
+     "title": "RecursiveSI/flint",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "linkedin.com",
+     "url": "https://www.linkedin.com/posts/richardsocher_introducing-flint-recursives-first-model-activity-7518716509028782080-R0YW",
+     "title": "Introducing Flint, Recursive's first model: a fast local coding ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "wired.com",
+     "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
+     "title": "This Startup Is All In on Recursive Self-Improvement. Its ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "dev.to",
+     "url": "https://dev.to/jamilxt/flint-is-a-coding-model-the-bigger-test-is-whether-ai-can-build-the-next-one-27jo",
+     "title": "Flint Is a Coding Model. The Bigger Test Is Whether AI Can ...",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "diffusion llm": {
+  "overview_ok": true,
+  "volume": 720,
+  "cpc": 3.48,
+  "comp": 0.01,
+  "results": 117,
+  "kd_ok": true,
+  "kd": 44,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "forum": 1,
+    "video": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "perspectives",
+    "related_searches"
+   ],
+   "top": [
+    "arxiv.org",
+    "reddit.com",
+    "medium.com",
+    "medium.com",
+    "emergentmind.com",
+    "academy.anythingoverip.com",
+    "youtube.com",
+    "generativeai.pub"
+   ],
+   "items": [
+    {
+     "domain": "arxiv.org",
+     "url": "https://arxiv.org/html/2606.19475v2",
+     "title": "Diffusion Language Models: An Experimental Analysis",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/MachineLearning/comments/107g3yf/r_diffusion_language_models/",
+     "title": "[R] Diffusion language models : r/MachineLearning",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/@harshit.sinha0910/beyond-the-next-token-how-to-build-diffusion-language-models-with-dllm-7efe4f710387",
+     "title": "How to Build Diffusion Language Models with dllm",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/everyday-ai/diffusion-based-llms-future-is-here-3614b0577573",
+     "title": "Diffusion-Based LLMs (Future is Here) - Everyday AI",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "emergentmind.com",
+     "url": "https://www.emergentmind.com/topics/diffusion-large-language-models-dllms-bcc29963-d7eb-404b-84b1-edf23ec4b5a9",
+     "title": "Diffusion Large Language Models",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "academy.anythingoverip.com",
+     "url": "https://academy.anythingoverip.com/comparing-llms-diffusion-models/",
+     "title": "Comparing LLMs and Diffusion Models - Anything Over IP",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=TxeR1D8T87M",
+     "title": "Large Language Diffusion Models - The Era Of Diffusion LLMs?",
+     "position": 7,
+     "kind": "video"
+    },
+    {
+     "domain": "generativeai.pub",
+     "url": "https://generativeai.pub/a-computer-scientists-guide-to-diffusion-llms-ce8aec8c96cd",
+     "title": "The Hitchhiker's Guide to Diffusion LLMs | by Aarav Gupta",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  },
+  "allintitle": 452
+ },
+ "framer mcp": {
+  "overview_ok": true,
+  "volume": 720,
+  "cpc": 10.95,
+  "comp": 0.02,
+  "results": 107,
+  "kd_ok": true,
+  "kd": 25,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "video": 1,
+    "forum": 2
+   },
+   "ads": false,
+   "features": [
+    "people_also_ask",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "framer.com",
+    "framer.com",
+    "framer.com",
+    "youtube.com",
+    "framer.com",
+    "reddit.com",
+    "framer.com",
+    "x.com",
+    "github.com"
+   ],
+   "items": [
+    {
+     "domain": "framer.com",
+     "url": "https://www.framer.com/agents/external/",
+     "title": "Framer External Agents (legacy): Connect local AI agents",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "framer.com",
+     "url": "https://www.framer.com/marketplace/plugins/mcp/",
+     "title": "Tommy's MCP — Plugin for Framer",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "framer.com",
+     "url": "https://www.framer.com/mcp/",
+     "title": "Connect Claude, Codex and Cursor to Framer with MCP",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=4UOSpoOoC3Y",
+     "title": "Connect Framer to Claude Code, Codex, Cursor, and more",
+     "position": 4,
+     "kind": "video"
+    },
+    {
+     "domain": "framer.com",
+     "url": "https://www.framer.com/help/articles/getting-started-with-framer-mcp/",
+     "title": "Getting started with Framer MCP",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/framer/comments/1uo4cj8/i_tested_framer_ai_vs_framers_claude_mcp_on_the/",
+     "title": "I tested Framer AI vs Framer's Claude MCP on the same ...",
+     "position": 6,
+     "kind": "forum"
+    },
+    {
+     "domain": "framer.com",
+     "url": "https://www.framer.com/dictionary/model-context-protocol",
+     "title": "Model Context Protocol (MCP): Definition, Examples, and ...",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/framer/status/2113269394038309081",
+     "title": "Post",
+     "position": 8,
+     "kind": "forum"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/sheshiyer/framer-plugin-mcp",
+     "title": "Sheshiyer/framer-plugin-mcp: A Model Context Protocol ...",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 3
+  },
+  "allintitle": 39
+ },
+ "kimi k3.1": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 4.45,
+  "comp": 0.04,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 2,
+    "list": 3,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "discussions_and_forums",
+    "people_also_ask",
+    "perspectives",
+    "video"
+   ],
+   "top": [
+    "medium.com",
+    "lindy.ai",
+    "m.economictimes.com",
+    "facebook.com",
+    "benchlm.ai",
+    "iamshobhitagarwal.medium.com"
+   ],
+   "items": [
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/data-science-collective/kimi-k3-the-open-model-that-just-cornered-the-ai-frontier-cf9f44e76f17",
+     "title": "Kimi K3: The Open Model That Just Cornered the AI Frontier",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "lindy.ai",
+     "url": "https://www.lindy.ai/blog/kimi-k3",
+     "title": "Kimi K3: What's New, Benchmarks, and 5 Ways to Use It",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "m.economictimes.com",
+     "url": "https://m.economictimes.com/tech/artificial-intelligence/chinas-moonshot-ai-launches-kimi-k3-1-pro-plans-full-model-weights-release-by-nov/articleshow/135162538.cms",
+     "title": "China's Moonshot AI launches Kimi K3.1 Pro",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/monstarxco/posts/kimi-k31-pro-a-chinese-model-1-point-behind-claude-on-codingmoonshot-ais-new-mod/122171540469113531/",
+     "title": "Kimi K3.1 Pro: a Chinese model 1 point behind Claude on ...",
+     "position": 4,
+     "kind": "forum"
+    },
+    {
+     "domain": "benchlm.ai",
+     "url": "https://benchlm.ai/models/kimi-3-1-pro",
+     "title": "Kimi K3.1 Pro Benchmarks, Pricing & Speed (October 2026)",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "iamshobhitagarwal.medium.com",
+     "url": "https://iamshobhitagarwal.medium.com/kimi-k3-the-complete-engineers-guide-benchmarks-pricing-code-and-when-to-actually-use-it-c0faf61eaa0a",
+     "title": "Kimi K3: The Complete Engineer's Guide — Benchmarks ...",
+     "position": 6,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "hackaigc": {
+  "overview_ok": true,
+  "volume": 2400,
+  "cpc": 1.5,
+  "comp": 0.02,
+  "results": 0,
+  "kd_ok": true,
+  "kd": 12,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "list": 2,
+    "article": 4,
+    "tool": 1,
+    "forum": 2
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "aitoptools.com",
+    "betalist.com",
+    "skywork.ai",
+    "hackaigc.com",
+    "hackaigc.com",
+    "reddit.com",
+    "f6s.com",
+    "x.com",
+    "aikii.org"
+   ],
+   "items": [
+    {
+     "domain": "aitoptools.com",
+     "url": "https://aitoptools.com/tool/hackaigc/",
+     "title": "HackAIGC Reviews 2026: Details, Pricing, & Features",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "betalist.com",
+     "url": "https://betalist.com/startups/hackaigc",
+     "title": "HackAIGC: Create uncensored NSFW chat, images, and ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "skywork.ai",
+     "url": "https://skywork.ai/slide/en/hackaigc-ultimate-ai-platform-2013456068167831552",
+     "title": "HackAIGC: The Ultimate Uncensored AI Platform",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "hackaigc.com",
+     "url": "https://www.hackaigc.com/de",
+     "title": "Unzensierter AI-Generator: Chat, Kunst, Bildbearbeitung & ...",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "hackaigc.com",
+     "url": "https://www.hackaigc.com/blog/ai-uncensored-safety",
+     "title": "AI Uncensored Safety: Exploring Unrestricted AI World",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/SideProject/comments/1pbxm7n/free_truly_uncensored_ai_chatbot_hackaigc_no/",
+     "title": "Free, Truly Uncensored AI Chatbot — HackAIGC (No login, ...",
+     "position": 6,
+     "kind": "forum"
+    },
+    {
+     "domain": "f6s.com",
+     "url": "https://www.f6s.com/software/hackaigc",
+     "title": "HackAIGC Reviews and Pricing 2026",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/HackAigc?lang=en",
+     "title": "HackAIGC",
+     "position": 8,
+     "kind": "forum"
+    },
+    {
+     "domain": "aikii.org",
+     "url": "https://aikii.org/products/hackaigc",
+     "title": "HackAIGC not only provides the most stable, uncensored AI ...",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  },
+  "allintitle": 7
+ },
+ "solidcraft": {
+  "overview_ok": true,
+  "volume": 30,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "video": 3,
+    "article": 4,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "video"
+   ],
+   "top": [
+    "tiktok.com",
+    "youtube.com",
+    "solidcraft.io",
+    "sourceforge.net",
+    "youtube.com",
+    "github.com",
+    "solidcraft.online",
+    "sourceforge.net"
+   ],
+   "items": [
+    {
+     "domain": "tiktok.com",
+     "url": "https://www.tiktok.com/@nosida/video/7695876991676878094",
+     "title": "SolidCraft: Free CAD Software Like Fusion 360?",
+     "position": 1,
+     "kind": "video"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=CzVaRitLXws",
+     "title": "Automate Parametric CAD with SolidCraft's Built-in MCP Server",
+     "position": 2,
+     "kind": "video"
+    },
+    {
+     "domain": "solidcraft.io",
+     "url": "https://solidcraft.io/releases/",
+     "title": "Release notes - SolidCraft",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "sourceforge.net",
+     "url": "https://sourceforge.net/projects/solidcraft.mirror/files/v0.20.0/SolidCraft-0.20.0-windows-x64.exe/download",
+     "title": "Download SolidCraft-0.20.0-windows-x64.exe ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=CBdNIDZa_eo",
+     "title": "Complete Guide to 3D CAD Modeling for Beginners",
+     "position": 5,
+     "kind": "video"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/tangency-labs/solidcraft/blob/main/README.md",
+     "title": "solidcraft/README.md at main - tangency-labs",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "solidcraft.online",
+     "url": "https://solidcraft.online/online",
+     "title": "Free Open-Source 3D CAD in Your Browser - SolidCraft Online",
+     "position": 7,
+     "kind": "tool"
+    },
+    {
+     "domain": "sourceforge.net",
+     "url": "https://sourceforge.net/projects/solidcraft.mirror/files/v0.16.1/SolidCraft-0.16.1-windows-x64.exe/download",
+     "title": "Download SolidCraft-0.16.1-windows-x64.exe ...",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 3
+  }
+ },
+ "educly ai app review": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": 0.0,
+  "comp": 0.08,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 4,
+    "list": 2,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "discussions_and_forums",
+    "people_also_ask",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "play.google.com",
+    "uk.trustpilot.com",
+    "reddit.com",
+    "instagram.com",
+    "hotmart.com",
+    "trustpilot.com",
+    "instagram.com"
+   ],
+   "items": [
+    {
+     "domain": "play.google.com",
+     "url": "https://play.google.com/store/apps/details?id=com.educatly.lv&hl=en_US",
+     "title": "Educatly - Apps on Google Play",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "uk.trustpilot.com",
+     "url": "https://uk.trustpilot.com/review/edurely.com",
+     "title": "Read Customer Service Reviews of edurely.com",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/OnlineLearning/comments/1x3uoy9/has_anyone_tried_educly_what_do_you_think_of_it/",
+     "title": "Has anyone tried Educly. What do you think of it? Is it a ...",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/DWht5wQkf3o/",
+     "title": "You know that moment when you're stuck mid-course and ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "hotmart.com",
+     "url": "https://hotmart.com/en/marketplace/products/educly-ai-master-pack/P104360708Q",
+     "title": "Educly AI Pack - Multi",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "trustpilot.com",
+     "url": "https://www.trustpilot.com/review/edvantly.com",
+     "title": "Read Customer Service Reviews of edvantly.com",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/DSBljiuiTHR/?hl=en",
+     "title": "Everyone is talking about AI, but most people still don't know ...",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "_domains": {
+  "dessaai.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "trydessa.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "dessa.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "dessa.ai": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "dessaai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "trydessa.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "nemotron35bolt.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "nemotron35boltai.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "trynemotron.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "nemotron35bolt.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "nemotron35boltai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "nemotron35bolt.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "nanbeige43.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "nanbeige43ai.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "trynanbeige43.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "nanbeige43.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "nanbeige43ai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "nanbeige43.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "dessamodel.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "dessamodelai.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "dessamodel.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "dessamodelai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "dessamodel.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "obsalternative.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "obsalternativeai.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "tryobs.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "obsalternative.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "obsalternativeai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "obsalternative.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "flintllm.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "flintllmai.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "tryflint.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "flintllm.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "flintllmai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "flintllm.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "codemodemcp.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "codemodemcpai.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "trycode.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "codemodemcp.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "codemodemcpai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "codemodemcp.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "framermcp.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "framermcpai.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "tryframer.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "framermcp.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "framermcpai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "framermcp.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "hackaigc.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "hackaigcai.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "tryhackaigc.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "hackaigc.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "hackaigcai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "hackaigc.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "mossimageai.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "trymoss.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "mossai.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "mossimage.ai": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "mossimageai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "trymoss.ai": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "recursiveflintreview.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "recursiveflintreviewai.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "tryrecursive.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "recursiveflintreview.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "recursiveflintreviewai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "recursiveflintreview.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "dessaai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "dessa.io": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "dessaai.org": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "nemotron35boltai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "nemotron35bolt.org": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "nanbeige43ai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "nanbeige43.org": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "dessamodelai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "dessamodel.org": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "obsalternativeai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "obsalternative.org": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "flint.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "flintllmai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "flintllm.org": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "recursiveflintreviewai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "recursiveflintreview.org": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "codemode.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "codemodemcpai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "codemodemcp.org": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "framer.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "framermcpai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "framermcp.org": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "hackaigcai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "hackaigc.org": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "mossimage.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "trymossimage.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "mossimageai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "mossimage.io": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "mossimageai.org": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "d3turbo.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "d3turboai.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "tryd3.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "d3turbo.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "d3turboai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "d3turbo.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "d3turboai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "d3turbo.org": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "whatisncmvsllm.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "whatisncmvsllmai.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "whatisncmvs.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "whatisncmvsllm.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "whatisncmvsllmai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "whatisncmvsllm.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "whatisncmvsllmai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "whatisncmvsllm.org": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "digitalminimalism.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "digitalminimalismai.com": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "trydigital.com": {
+   "available": false,
+   "day": "2026-10-26"
+  },
+  "digitalminimalism.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "digitalminimalismai.ai": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "digitalminimalism.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "digitalminimalismai.io": {
+   "available": true,
+   "day": "2026-10-26"
+  },
+  "digitalminimalism.org": {
+   "available": false,
+   "day": "2026-10-26"
+  }
+ },
+ "d3-turbo": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 3,
+    "forum": 4,
+    "video": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "hpacademy.com",
+    "facebook.com",
+    "reddit.com",
+    "ebay.com",
+    "reddit.com",
+    "goturbo.net",
+    "youtube.com",
+    "facebook.com"
+   ],
+   "items": [
+    {
+     "domain": "hpacademy.com",
+     "url": "https://www.hpacademy.com/forum/pdm-installation-and-configuration/show/d3-performance-tuner/",
+     "title": "D3 Performance Tuner | Practical Reflash Tuning",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/dthreemotorsports/about/",
+     "title": "D3 Motorsports (@dthreemotorsports) - About",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/CamryTRD/comments/1w52bes/d3_performance_worth_it_or_is_there_any_other_ones/",
+     "title": "D3 performance ? Worth it or is there any other ones",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "ebay.com",
+     "url": "https://www.ebay.com/itm/140949300889",
+     "title": "Turbo Kits T3/T4 Turbo for Mitsubishi EVO 8/Eclipse /DSM ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/Camry/comments/11zqrk1/d3_performance_v6_turbo_kit/?tl=he",
+     "title": "ערכת טורבו D3 Performance V6 : r/Camry",
+     "position": 5,
+     "kind": "forum"
+    },
+    {
+     "domain": "goturbo.net",
+     "url": "https://goturbo.net/dsp8300-diablosport-holley-intune3-dodge-diesel-gas-performance-programmer?srsltid=AYCX9vLOUgZnh0N2CV4bjV20_J5mDVb_-h2KiJfvumRWKgtmGLiaatqz",
+     "title": "Diablosport (Holley) inTune3 Dodge Diesel Gas ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=bSluwstj_XU",
+     "title": "D-MAX 3.0 DDI Turbo Repair and Upgrade with Turbocharger ...",
+     "position": 7,
+     "kind": "video"
+    },
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/groups/162775738931554/posts/1460612495814532/",
+     "title": "What are noticeable performance changes with ...",
+     "position": 8,
+     "kind": "forum"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 5
+  }
+ },
+ "anthropic claude duet ai agent": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 5,
+    "forum": 1,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "perspectives",
+    "related_searches",
+    "top_stories",
+    "video"
+   ],
+   "top": [
+    "cbsnews.com",
+    "claude.com",
+    "medium.com",
+    "reddit.com",
+    "eigent.ai",
+    "cnet.com",
+    "cellcog.ai"
+   ],
+   "items": [
+    {
+     "domain": "cbsnews.com",
+     "url": "https://www.cbsnews.com/news/anthropic-claude-duet-personal-ai-agentsuggest-a-e/",
+     "title": "Anthropic debuts Claude Duet personal AI agent. Here's ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "claude.com",
+     "url": "https://claude.com/resources/articles/claude-duet",
+     "title": "Introducing Claude Duet | Claude by Anthropic",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/codetodeploy/anthropic-launches-claude-duet-a-proactive-ai-agent-that-works-before-you-ask-694c470bafe5",
+     "title": "🚀 Anthropic Launches Claude Duet: A Proactive AI Agent ...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/AIGuild/comments/1xc6gl2/anthropic_launches_claude_duet_an_ai_agent_that/",
+     "title": "Anthropic launches Claude Duet, an AI agent that keeps ...",
+     "position": 4,
+     "kind": "forum"
+    },
+    {
+     "domain": "eigent.ai",
+     "url": "https://www.eigent.ai/blog/claude-duet-proactive-agent",
+     "title": "Claude Duet: Anthropic's Proactive Agent, Explained",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "cnet.com",
+     "url": "https://www.cnet.com/tech/services-and-software/anthropic-claude-duet-ai-agent-app-professional/",
+     "title": "Anthropic Introduces Claude Duet: A New Agentic AI App ...",
+     "position": 6,
+     "kind": "tool"
+    },
+    {
+     "domain": "cellcog.ai",
+     "url": "https://cellcog.ai/blog/claude-duet/",
+     "title": "Claude Duet: Anthropic's Proactive Agent, Explained",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "ai agent website compromise report": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 5,
+    "forum": 1,
+    "video": 2,
+    "list": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview"
+   ],
+   "top": [
+    "instagram.com",
+    "mallory.ai",
+    "facebook.com",
+    "youtube.com",
+    "hackerstorm.com",
+    "instagram.com",
+    "oecd.ai",
+    "youtube.com",
+    "kimbodo.com"
+   ],
+   "items": [
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/DdPXkqXjWad/",
+     "title": "Someone broke into a company, moved through its ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "mallory.ai",
+     "url": "https://mallory.ai/stories/01a13758-0b5d-7134-bfdf-1d0ab6578630",
+     "title": "Nearly Half of Surveyed Organizations Report Suspected or ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/cyber1care/videos/the-latest-cyber-threats-include-a-reported-ai-agent-linked-data-breach-in-spain/1408094517320643/",
+     "title": "The latest cyber threats include a reported AI-agent- linked ...",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=a1gffl8Dm34",
+     "title": "A Test Agent Faked a Human Endorsement",
+     "position": 4,
+     "kind": "video"
+    },
+    {
+     "domain": "hackerstorm.com",
+     "url": "https://www.hackerstorm.com/articles/our-blog/ai-threats-fraud-intelligence/mckinsey-ai-chatbot-breach-analysis-shadow-ai-identity-governance",
+     "title": "McKinsey AI Chatbot Breach Analysis (OFA): Shadow AI ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/DewlwOZMNum/",
+     "title": "AI agents tried more than 1200 websites, and got into sites ...",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "oecd.ai",
+     "url": "https://oecd.ai/en/incidents/2026-03-25-fc08",
+     "title": "Agent AI Causes Data Breach by Leaking Sensitive User ...",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=xKk3HqIYmIQ",
+     "title": "AI Agents Broke Out and Hacked a Real Company (Part 1)",
+     "position": 8,
+     "kind": "video"
+    },
+    {
+     "domain": "kimbodo.com",
+     "url": "https://kimbodo.com/treat-internet-facing-appliances-and-ai-agents-as-priority-risk-patch-isolate-and-monitor-to-stop-active-exploits/",
+     "title": "Treat Internet-Facing Appliances and AI Agents as Priority ...",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 3
+  }
+ },
+ "ub model un": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 9
+   },
+   "ads": false,
+   "features": [
+    "ai_overview"
+   ],
+   "top": [
+    "buffalo.edu",
+    "experiencebu.brocku.ca",
+    "calhoun.org",
+    "buffalo.edu",
+    "buffalo.edu",
+    "buffalo.edu",
+    "en.wikipedia.org",
+    "instagram.com",
+    "buffalo.edu"
+   ],
+   "items": [
+    {
+     "domain": "buffalo.edu",
+     "url": "https://www.buffalo.edu/inclusion/projects/upcoming-events.html",
+     "title": "Upcoming Events - Office of Inclusive Excellence",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "experiencebu.brocku.ca",
+     "url": "https://experiencebu.brocku.ca/organization/bnmun",
+     "title": "Brock Model United Nations - ExperienceBU",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "calhoun.org",
+     "url": "https://www.calhoun.org/who-we-are/stories/~board/all-school-news/post/us-students-participate-in-model-un-competition",
+     "title": "US Students Participate in Model UN Competition",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "buffalo.edu",
+     "url": "https://www.buffalo.edu/ubnow/stories/2024/02/un-association.html",
+     "title": "UB associated with UN Global Communications",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "buffalo.edu",
+     "url": "https://www.buffalo.edu/grad/news.host.html/content/shared/university/news/ub-reporter-articles/stories/2024/02/un-association.detail.html",
+     "title": "UB associated with UN Global Communications",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "buffalo.edu",
+     "url": "https://www.buffalo.edu/home/ub_at_a_glance.html",
+     "title": "UB at a Glance",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "en.wikipedia.org",
+     "url": "https://en.wikipedia.org/wiki/University_at_Buffalo",
+     "title": "University at Buffalo",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/universityatbuffalo/?hl=en",
+     "title": "University at Buffalo (@universityatbuffalo)",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "buffalo.edu",
+     "url": "https://www.buffalo.edu/studentlife/who-we-are/departments/engagement.html",
+     "title": "Student Engagement - Student Life Guide",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "plex alternative": {
+  "overview_ok": true,
+  "volume": 1600,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 131,
+  "kd_ok": true,
+  "kd": 29,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "list": 5,
+    "forum": 2,
+    "article": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "discussions_and_forums",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "top": [
+    "olhanovitska.substack.com",
+    "reddit.com",
+    "jellyfin.org",
+    "wundertech.net",
+    "forums.plex.tv",
+    "rapidseedbox.com",
+    "xda-developers.com",
+    "asti.ga"
+   ],
+   "items": [
+    {
+     "domain": "olhanovitska.substack.com",
+     "url": "https://olhanovitska.substack.com/p/plex-alternatives",
+     "title": "The Plex alternative that handles my video collection better",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/selfhosted/comments/17a6x71/alternative_to_plex/",
+     "title": "Alternative to Plex? : r/selfhosted",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "jellyfin.org",
+     "url": "https://jellyfin.org/docs/general/about/",
+     "title": "About Jellyfin",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "wundertech.net",
+     "url": "https://www.wundertech.net/what-are-the-best-plex-alternatives/",
+     "title": "Best Plex Alternatives: Emby, Jellyfin, and Kodi",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "forums.plex.tv",
+     "url": "https://forums.plex.tv/t/plex-alternatives/930021",
+     "title": "Plex Alternatives? - General Discussions",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "rapidseedbox.com",
+     "url": "https://www.rapidseedbox.com/blog/plex-alternatives",
+     "title": "Top 7 Plex Alternatives (2026): Free and Paid Options",
+     "position": 6,
+     "kind": "forum"
+    },
+    {
+     "domain": "xda-developers.com",
+     "url": "https://www.xda-developers.com/this-self-hosted-alternative-plex-jellyfin-works-better-than-i-expected/",
+     "title": "This self-hosted alternative to Plex and Jellyfin works way ...",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "asti.ga",
+     "url": "https://asti.ga/compare/plex-alternative/",
+     "title": "The Plex alternative for music",
+     "position": 8,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  }
+ },
+ "social security administration phishing email": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "what is ncm vs llm": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "forum": 2,
+    "article": 3,
+    "list": 2
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "discussions_and_forums",
+    "people_also_ask",
+    "video"
+   ],
+   "top": [
+    "reddit.com",
+    "x.com",
+    "scalingintelligence.stanford.edu",
+    "jalmood.org",
+    "arxiv.org",
+    "linkedin.com",
+    "youtu.be"
+   ],
+   "items": [
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/MachineLearning/comments/1xd7bsu/i_just_came_across_nextconcept_modeling_and_the/",
+     "title": "I just came across Next-Concept Modeling and the idea is ...",
+     "position": 1,
+     "kind": "forum"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/Azaliamirh/status/2110461349818155247",
+     "title": "Introducing Next-Concept Models (NCMs), a new paradigm ...",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "scalingintelligence.stanford.edu",
+     "url": "https://scalingintelligence.stanford.edu/blogs/ncm",
+     "title": "N C M Next-Concept Modeling: Fast, Parallel Coarse-to-Fine ...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "jalmood.org",
+     "url": "https://jalmood.org/blog/ncm-vs-llm-next-concept-modeling-relevance?lang=en",
+     "title": "NCM vs LLM: What Next-Concept Modeling Really Changes",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "arxiv.org",
+     "url": "https://arxiv.org/abs/2610.14162",
+     "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "linkedin.com",
+     "url": "https://www.linkedin.com/posts/plomid_artificialintelligence-ai-llm-activity-7518310556492095488-jCYk",
+     "title": "Next-Concept Modeling vs LLMs and PLOMID Data ...",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "youtu.be",
+     "url": "https://youtu.be/iNVP35lZVNE?is=hNiljfV3oK5iEyIh",
+     "title": "NCM: The LLM Killer?",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  }
+ },
+ "atlas online": {
+  "overview_ok": true,
+  "volume": 260,
+  "cpc": 0.0,
+  "comp": 0.02,
+  "results": 116,
+  "kd_ok": true,
+  "kd": 38,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "forum": 1,
+    "tool": 4,
+    "article": 4
+   },
+   "ads": false,
+   "features": [
+    "ai_overview"
+   ],
+   "top": [
+    "reddit.com",
+    "atlasonline.io",
+    "fliphtml5.com",
+    "atlas.org",
+    "linkedin.com",
+    "en.wikipedia.org",
+    "factmonster.com",
+    "atlascbonline.com",
+    "theatlasonline.net"
+   ],
+   "items": [
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/geography/comments/13tf3xz/are_there_any_good_digital_atlases/",
+     "title": "Are there any good digital atlases? : r/geography",
+     "position": 1,
+     "kind": "forum"
+    },
+    {
+     "domain": "atlasonline.io",
+     "url": "https://www.atlasonline.io/",
+     "title": "Atlas Online — Make Your Mark",
+     "position": 2,
+     "kind": "tool"
+    },
+    {
+     "domain": "fliphtml5.com",
+     "url": "https://fliphtml5.com/jfuhh/nhpw/Atlas_%28World_Atlas%29/",
+     "title": "Atlas (World Atlas) - Flipbook by SK Pendek Digital Library",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "atlas.org",
+     "url": "https://www.atlas.org/index.html",
+     "title": "Atlas: School AI Assistant",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "linkedin.com",
+     "url": "https://www.linkedin.com/company/atlasonline",
+     "title": "Atlas Online",
+     "position": 5,
+     "kind": "tool"
+    },
+    {
+     "domain": "en.wikipedia.org",
+     "url": "https://en.wikipedia.org/wiki/Atlas",
+     "title": "Atlas",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "factmonster.com",
+     "url": "https://www.factmonster.com/atlas",
+     "title": "World Atlas & Map Library",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "atlascbonline.com",
+     "url": "https://atlascbonline.com/login",
+     "title": "Sign In - Atlas Community Online",
+     "position": 8,
+     "kind": "tool"
+    },
+    {
+     "domain": "theatlasonline.net",
+     "url": "https://www.theatlasonline.net/",
+     "title": "Atlas Online: Ana Sayfa",
+     "position": 9,
+     "kind": "tool"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "magnific ai image generator": {
+  "overview_ok": true,
+  "volume": 40,
+  "cpc": 2.29,
+  "comp": 0.26,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "tool": 4,
+    "list": 2,
+    "forum": 1,
+    "video": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "imagine.art",
+    "magnific.com",
+    "sketchto.com",
+    "webdesignernews.com",
+    "reddit.com",
+    "magnific.com",
+    "youtube.com",
+    "aijustbetter.com"
+   ],
+   "items": [
+    {
+     "domain": "imagine.art",
+     "url": "https://www.imagine.art/apps/magnific-image-upscaler",
+     "title": "Magnific Image Upscaler",
+     "position": 1,
+     "kind": "tool"
+    },
+    {
+     "domain": "magnific.com",
+     "url": "https://www.magnific.com/blog/ai-photo-generator/",
+     "title": "Best 9 AI Photo Generators in 2026",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "sketchto.com",
+     "url": "https://www.sketchto.com/posts/product-reviews/magnific-alternatives-2026",
+     "title": "Magnific Alternatives 2026: 7 AI Image Upscalers Compared",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "webdesignernews.com",
+     "url": "https://webdesignernews.com/magnific-ai-image-generator/",
+     "title": "Magnific AI image generator",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/midjourney/comments/1kx15uv/best_free_alternative_to_magnific_ai/",
+     "title": "Best Free Alternative To Magnific AI? : r/midjourney",
+     "position": 5,
+     "kind": "forum"
+    },
+    {
+     "domain": "magnific.com",
+     "url": "https://www.magnific.com/photos/ai-beautiful",
+     "title": "Ai beautiful Photos - Download Free High-Quality Pictures",
+     "position": 6,
+     "kind": "tool"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=0R2yP-wv8mk",
+     "title": "How To Generate Variations Of Images In Magnific AI Desktop ...",
+     "position": 7,
+     "kind": "video"
+    },
+    {
+     "domain": "aijustbetter.com",
+     "url": "https://aijustbetter.com/item/magnific-ai-image-upscaler-enhancer",
+     "title": "Magnific AI - Image Upscaler & Enhancer - AI Just Better",
+     "position": 8,
+     "kind": "tool"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  }
+ },
+ "atlas model ai": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 2,
+    "tool": 3,
+    "forum": 2
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "perspectives",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "worldlabs.ai",
+    "atlascloud.ai",
+    "atlasai.co",
+    "news.ycombinator.com",
+    "x.com",
+    "atlas.design",
+    "aiweekly.co"
+   ],
+   "items": [
+    {
+     "domain": "worldlabs.ai",
+     "url": "https://www.worldlabs.ai/blog/atlas",
+     "title": "Atlas: A World Model for Spatial Intelligence",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "atlascloud.ai",
+     "url": "https://www.atlascloud.ai/",
+     "title": "Atlas Cloud: 400+ AI Models, One API for Image, Video, Audio ...",
+     "position": 2,
+     "kind": "tool"
+    },
+    {
+     "domain": "atlasai.co",
+     "url": "https://www.atlasai.co/",
+     "title": "Atlas AI - The modeling layer for the physical economy",
+     "position": 3,
+     "kind": "tool"
+    },
+    {
+     "domain": "news.ycombinator.com",
+     "url": "https://news.ycombinator.com/item?id=49525160",
+     "title": "Atlas: A World Model for Spatial Intelligence",
+     "position": 4,
+     "kind": "forum"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/theworldlabs/status/2094839756329041984",
+     "title": "\"Introducing Atlas: The world's first multimodal world model ...",
+     "position": 5,
+     "kind": "forum"
+    },
+    {
+     "domain": "atlas.design",
+     "url": "https://atlas.design/",
+     "title": "Error — Atlas AI Studio",
+     "position": 6,
+     "kind": "tool"
+    },
+    {
+     "domain": "aiweekly.co",
+     "url": "https://aiweekly.co/alerts/world-labs-debuts-atlas-an-omni-world-model-in-early-access",
+     "title": "World Labs debuts Atlas, an omni world model, in early ...",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  }
+ },
+ "llm ncm": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "tool": 1,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "hazyresearch.stanford.edu",
+    "github.com",
+    "ncmlabs.com",
+    "x.com",
+    "ncm-society.org",
+    "ncm.com",
+    "go.ncmassociates.com",
+    "ncmassociates.com"
+   ],
+   "items": [
+    {
+     "domain": "hazyresearch.stanford.edu",
+     "url": "https://hazyresearch.stanford.edu/blog/2026-10-12-ncm",
+     "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/tkdeng/ncm-simulation",
+     "title": "tkdeng/ncm-simulation",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "ncmlabs.com",
+     "url": "https://ncmlabs.com/",
+     "title": "AI-native products, shipped with control · NCM Labs",
+     "position": 3,
+     "kind": "tool"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/Azaliamirh/status/2110461349818155247",
+     "title": "Introducing Next-Concept Models (NCMs), a new paradigm ...",
+     "position": 4,
+     "kind": "forum"
+    },
+    {
+     "domain": "ncm-society.org",
+     "url": "https://ncm-society.org/submission/",
+     "title": "Submission",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "ncm.com",
+     "url": "https://www.ncm.com/post/cinema-ad-seller-ncm-launches-ai-powered-dynamic-ad-product",
+     "title": "Cinema Ad Seller NCM Launches AI-Powered Dynamic Ad ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "go.ncmassociates.com",
+     "url": "https://go.ncmassociates.com/Clients--Friends.html",
+     "title": "NCM Clients & Friends Digital Success Workshop",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "ncmassociates.com",
+     "url": "https://ncmassociates.com/training/elearn-schedule",
+     "title": "Automotive Virtual Training Course Schedule",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "atlas alternative": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 11.12,
+  "comp": 0.12,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "list": 8,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "top": [
+    "blog.answersocrates.com",
+    "sigmabrowser.com",
+    "reddit.com",
+    "g2.com",
+    "kosmik.app",
+    "seranking.com",
+    "maxqda.com",
+    "go.tabbit.ai",
+    "jarvi.tech"
+   ],
+   "items": [
+    {
+     "domain": "blog.answersocrates.com",
+     "url": "https://blog.answersocrates.com/search-atlas-alternatives/",
+     "title": "Top 5 Search Atlas Alternatives for 2026 (One Tool Was ...",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "sigmabrowser.com",
+     "url": "https://www.sigmabrowser.com/blog/6-best-chatgpt-atlas-alternatives-in-2026-which-one-should-you-choose",
+     "title": "6 Best ChatGPT Atlas Alternatives in 2026: Which Is Best?",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/mongodb/comments/1igbg9g/selfhosted_alternatives_to_atlas/",
+     "title": "Self-hosted Alternatives to Atlas? : r/mongodb",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "g2.com",
+     "url": "https://www.g2.com/products/fivepin-inc-atlas/competitors/alternatives",
+     "title": "Top 10 Atlas Alternatives & Competitors in 2026",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "kosmik.app",
+     "url": "https://www.kosmik.app/blog/chatgpt-atlas-alternatives",
+     "title": "8 Best ChatGPT Atlas Alternatives",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "seranking.com",
+     "url": "https://seranking.com/blog/search-atlas-alternatives/",
+     "title": "7 Top Search Atlas Alternatives: Tested & Compared",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "maxqda.com",
+     "url": "https://www.maxqda.com/atlasti-alternative",
+     "title": "The best ATLAS.ti alternative",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "go.tabbit.ai",
+     "url": "https://go.tabbit.ai/blog/best-alternative-of-atlas-browser-2026",
+     "title": "Best Alternative of Atlas Browser in 2026 — Why Tabbit Wins",
+     "position": 8,
+     "kind": "list"
+    },
+    {
+     "domain": "jarvi.tech",
+     "url": "https://www.jarvi.tech/en/alternatives/atlas/",
+     "title": "Discover an alternative to Atlas for 2026 - Jarvi",
+     "position": 9,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "ncm vs llm": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "forum": 1,
+    "article": 4,
+    "list": 2,
+    "video": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "reddit.com",
+    "linkedin.com",
+    "languageline.com",
+    "youtube.com",
+    "iheart.com",
+    "community.hpe.com",
+    "adverbum.com",
+    "blog.pangeanic.com"
+   ],
+   "items": [
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/PromptEngineering/comments/1xdj6d4/ncm_simulation_coarsetofine_planning_prompt_for/",
+     "title": "NCM Simulation: Coarse-to-fine planning prompt for LLMs",
+     "position": 1,
+     "kind": "forum"
+    },
+    {
+     "domain": "linkedin.com",
+     "url": "https://www.linkedin.com/posts/joel-barmettler-b9ab361b7_ncm-is-this-the-end-of-llms-i-dont-activity-7518209928025653250-w9kw",
+     "title": "Joel Barmettler's Post",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "languageline.com",
+     "url": "https://www.languageline.com/blog/nmt-vs.-llm-which-translation-technology-suits-your-needs",
+     "title": "NMT vs. LLM: Which Translation Technology Suits Your ...",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=r5Smgy4aiJk",
+     "title": "NCM: The AI Breakthrough That Could Replace LLMs",
+     "position": 4,
+     "kind": "video"
+    },
+    {
+     "domain": "iheart.com",
+     "url": "https://www.iheart.com/podcast/1333-asiandadenergys-podcast-323790712/episode/is-this-the-end-of-llms-348251105/",
+     "title": "Is This the END of LLMs? NCM Could Change Everything",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "community.hpe.com",
+     "url": "https://community.hpe.com/t5/hpe-nimble-storage-solution/can-someone-explain-what-ncm-does-in-a-more-understandable-way/td-p/7010382",
+     "title": "Can someone explain what NCM does in a more unders...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "adverbum.com",
+     "url": "https://www.adverbum.com/post/nmt-vs-llm-translation-key-differences-explained",
+     "title": "NMT vs LLM Translation: Key Differences Explained",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "blog.pangeanic.com",
+     "url": "https://blog.pangeanic.com/which-is-better-for-my-use-case-nmt-neural-mt-or-llm-translation",
+     "title": "Which is better for my use case (neural) NMT or LLM ...",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  }
+ },
+ "garmin online": {
+  "overview_ok": true,
+  "volume": 90,
+  "cpc": 0.47,
+  "comp": 0.13,
+  "results": 173,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 9
+   },
+   "ads": true,
+   "features": [
+    "ai_overview",
+    "popular_products",
+    "related_searches"
+   ],
+   "top": [
+    "garmin.com",
+    "basspro.com",
+    "walmart.com",
+    "rununited.com",
+    "jensonusa.com",
+    "amazon.com",
+    "bhphotovideo.com",
+    "macys.com",
+    "zappos.com"
+   ],
+   "items": [
+    {
+     "domain": "garmin.com",
+     "url": "https://www.garmin.com/en-US/company/locations/",
+     "title": "Locations",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "basspro.com",
+     "url": "https://www.basspro.com/l/garmin-electronics-shop-all",
+     "title": "Shop All Garmin Electronics",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "walmart.com",
+     "url": "https://www.walmart.com/c/brand/garmin-all-watches",
+     "title": "Garmin All Watches",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "rununited.com",
+     "url": "https://rununited.com/garmin/?srsltid=AYCX9vLilgCrdzsZmHIVc4gFX-fVx48f2SO96yTsdInXQ8Jng9O_oipK",
+     "title": "Garmin Activity Trackers | RunUnited.com",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "jensonusa.com",
+     "url": "https://www.jensonusa.com/gps-watches?srsltid=AYCX9vIulfHCf0p4sXOrd_X4blGuAcCKA_BB4wEQQlj4TiYB38c-az9M",
+     "title": "GPS Watches",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "amazon.com",
+     "url": "https://www.amazon.com/garmin-watches-men/s?k=garmin+watches+for+men",
+     "title": "Garmin Watches For Men",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "bhphotovideo.com",
+     "url": "https://www.bhphotovideo.com/c/browse/garmin-store/ci/45199",
+     "title": "Garmin Store at B&H Photo",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "macys.com",
+     "url": "https://www.macys.com/shop/electronics/Brand/Garmin?id=168970",
+     "title": "Garmin Electronics",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "zappos.com",
+     "url": "https://www.zappos.com/b/garmin/brand/1813",
+     "title": "Garmin",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "atlassian mcp": {
+  "overview_ok": true,
+  "volume": 2900,
+  "cpc": 4.8,
+  "comp": 0.03,
+  "results": 99,
+  "kd_ok": true,
+  "kd": 50,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 7,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "perspectives",
+    "related_searches"
+   ],
+   "top": [
+    "hub.docker.com",
+    "reddit.com",
+    "github.com",
+    "medium.com",
+    "docker.com",
+    "mcpservers.org",
+    "community.atlassian.com",
+    "marketplace.atlassian.com"
+   ],
+   "items": [
+    {
+     "domain": "hub.docker.com",
+     "url": "https://hub.docker.com/r/mcp/atlassian",
+     "title": "mcp/atlassian - Docker Image",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/atlassian/comments/1n3ap44/difference_between_rovo_and_mcp_atlassian_server/",
+     "title": "Difference between Rovo and MCP Atlassian Server",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/sooperset/mcp-atlassian/blob/main/README.md",
+     "title": "mcp-atlassian/README.md at main",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/mcp-server/ibringing-jira-and-confluence-right-into-vs-code-the-atlassian-mcp-server-changes-everything-d055c4ce3726",
+     "title": "Bringing Jira and Confluence into Visual Studio Code ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "docker.com",
+     "url": "https://www.docker.com/blog/atlassian-remote-mcp-server-getting-started-with-docker/",
+     "title": "Atlassian MCP Server: Quick Start with Your Favorite Agent",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "mcpservers.org",
+     "url": "https://mcpservers.org/servers/InfraMCP/atlassian-mcp-server",
+     "title": "Atlassian MCP Server",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "community.atlassian.com",
+     "url": "https://community.atlassian.com/forums/discussion/3107023/welcome-to-the-atlassian-remote-mcp-server-community-group",
+     "title": "the Atlassian Remote MCP Server Community Group! 👋",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "marketplace.atlassian.com",
+     "url": "https://marketplace.atlassian.com/apps/1236580/mcp-gateway-for-jira",
+     "title": "MCP Gateway for Jira",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "allintitle": 694
+ },
+ "garmin online chat": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.01,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "forum": 1,
+    "video": 1,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "top": [
+    "support.garmin.com",
+    "support.garmin.com",
+    "reddit.com",
+    "garmin.com",
+    "support.garmin.com",
+    "youtube.com",
+    "forums.garmin.com",
+    "garmin.com",
+    "support.garmin.com"
+   ],
+   "items": [
+    {
+     "domain": "support.garmin.com",
+     "url": "https://support.garmin.com/de-DE/",
+     "title": "Garmin | Deutschland | Support-Center",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "support.garmin.com",
+     "url": "https://support.garmin.com/en-US/?faq=Ots03L9cFf98el3a0ioSk9",
+     "title": "Setting Up and Activating Assistance on a Garmin Device",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/Garmin/comments/1kly7su/any_luck_getting_a_response_from_supportgarmincom/",
+     "title": "Any luck getting a response from support@garmin.com? ...",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "garmin.com",
+     "url": "https://www.garmin.com/en-US/forms/ideas/",
+     "title": "Share Ideas",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "support.garmin.com",
+     "url": "https://support.garmin.com/nl-NL/",
+     "title": "Garmin | Nederland | Support",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=o-9MvNShVFg",
+     "title": "How To Contact Garmin Customer Service? [in 2026]",
+     "position": 6,
+     "kind": "video"
+    },
+    {
+     "domain": "forums.garmin.com",
+     "url": "https://forums.garmin.com/",
+     "title": "Garmin Forums",
+     "position": 7,
+     "kind": "tool"
+    },
+    {
+     "domain": "garmin.com",
+     "url": "https://www.garmin.com/en-US/satellite-communicators/interactive-sos-and-garmin-response/",
+     "title": "Interactive SOS and Garmin Response Center",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "support.garmin.com",
+     "url": "https://support.garmin.com/sv-SE/",
+     "title": "Garmin | Sverige | Supportcenter",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  }
+ },
+ "atlassian mcp server": {
+  "overview_ok": true,
+  "volume": 1600,
+  "cpc": 6.29,
+  "comp": 0.03,
+  "results": 101,
+  "kd_ok": true,
+  "kd": 56,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "forum": 1,
+    "list": 1,
+    "article": 7
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "reddit.com",
+    "mcpservers.org",
+    "hub.docker.com",
+    "pypi.org",
+    "medium.com",
+    "github.com",
+    "mindstudio.ai",
+    "cursor.com",
+    "docs.portkey.ai"
+   ],
+   "items": [
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/atlassian/comments/1n3ap44/difference_between_rovo_and_mcp_atlassian_server/",
+     "title": "Difference between Rovo and MCP Atlassian Server",
+     "position": 1,
+     "kind": "forum"
+    },
+    {
+     "domain": "mcpservers.org",
+     "url": "https://mcpservers.org/search?query=atlassian",
+     "title": "Top 22 Atlassian MCP Servers",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "hub.docker.com",
+     "url": "https://hub.docker.com/r/mcp/atlassian",
+     "title": "mcp/atlassian - Docker Image",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "pypi.org",
+     "url": "https://pypi.org/project/mcp-atlassian/",
+     "title": "mcp-atlassian",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/mcp-server/ibringing-jira-and-confluence-right-into-vs-code-the-atlassian-mcp-server-changes-everything-d055c4ce3726",
+     "title": "Bringing Jira and Confluence into Visual Studio Code ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/phuc-nt/mcp-atlassian-server",
+     "title": "phuc-nt/mcp-atlassian-server: MCP server connecting AI ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "mindstudio.ai",
+     "url": "https://www.mindstudio.ai/blog/atlassian-mcp-server-ga-claude-reads-writes-jira-confluence-compass-oauth",
+     "title": "Atlassian's MCP Server Is Now GA: How Claude Reads ...",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "cursor.com",
+     "url": "https://cursor.com/marketplace/mcp/atlassian",
+     "title": "atlassian | Cursor MCP Server",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "docs.portkey.ai",
+     "url": "https://docs.portkey.ai/docs/integrations/mcp-servers/atlassian-mcp-server",
+     "title": "Atlassian Remote MCP server",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "allintitle": 26
+ },
+ "garmin online maps": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.05,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 8,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "popular_products",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "developer.garmin.com",
+    "garmin.com",
+    "garmin.com",
+    "garmin.com",
+    "garmin.com",
+    "garmin.com",
+    "garmin.com",
+    "garmin.com",
+    "support.garmin.com"
+   ],
+   "items": [
+    {
+     "domain": "developer.garmin.com",
+     "url": "https://developer.garmin.com/marine-charts/mobile/",
+     "title": "Mobile | Marine Charts and Maps",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "garmin.com",
+     "url": "https://www.garmin.com/en-US/marine/view-recent-updates/usa/view-all/",
+     "title": "Recent Map and Chart Updates - USA",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "garmin.com",
+     "url": "https://www.garmin.com/en-US/blog/marine/new-garmin-marine-cartography-offers-all-in-one-mapping-solution/",
+     "title": "Benefits of having Navionics mapping on your boat",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "garmin.com",
+     "url": "https://www.garmin.com/en-US/marine/view-recent-updates/usa/lakes-and-inland-waters/",
+     "title": "Lakes & Inland Waters | Map and Chart Updates - USA",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "garmin.com",
+     "url": "https://www.garmin.com/en-US/details/",
+     "title": "Disclaimer",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "garmin.com",
+     "url": "https://www.garmin.com/en-US/blog/outdoor/seven-garmin-mapping-options-for-all-of-your-outdoor-adventures/",
+     "title": "How Garmin mapping options can help you explore the ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "garmin.com",
+     "url": "https://www.garmin.com/en-US/p/573254/",
+     "title": "ActiveCaptain® App",
+     "position": 7,
+     "kind": "tool"
+    },
+    {
+     "domain": "garmin.com",
+     "url": "https://www.garmin.com/en-US/marine/view-recent-updates/usa/chart-overlays/",
+     "title": "Chart Overlays | Recent Map and Chart Updates - USA",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "support.garmin.com",
+     "url": "https://support.garmin.com/en-US/?faq=VFHzF1UDEN6UWekbJid8W8",
+     "title": "Using Map Manager on Garmin Watches",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "jensen huang nvidia ai agent demand": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 5,
+    "forum": 1,
+    "list": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "perspectives",
+    "video"
+   ],
+   "top": [
+    "finance.yahoo.com",
+    "reddit.com",
+    "mindstudio.ai",
+    "instagram.com",
+    "nvidianews.nvidia.com",
+    "linkedin.com",
+    "fortune.com"
+   ],
+   "items": [
+    {
+     "domain": "finance.yahoo.com",
+     "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-jensen-huang-says-ai-013010925.html",
+     "title": "Nvidia's Jensen Huang Says AI Agents Have Sent Token ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1ry49gc/jensen_huang_just_painted_the_most_bold_image_of/",
+     "title": "Jensen Huang just painted the most bold image of AI's future",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "mindstudio.ai",
+     "url": "https://www.mindstudio.ai/blog/agents-as-a-service-aaas-nvidia-gtc-keynote",
+     "title": "Agents as a Service (AaaS): What Jensen Huang's GTC ...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/DchV7a7iSDR/",
+     "title": "Jensen Huang predicts companies will have millions of AI ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "nvidianews.nvidia.com",
+     "url": "http://nvidianews.nvidia.com/news/ai-agents",
+     "title": "NVIDIA Ignites the Next Industrial Revolution in Knowledge ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "linkedin.com",
+     "url": "https://www.linkedin.com/posts/contentkuba_jensen-huang-said-nvidia-plans-to-run-on-activity-7440733133500678144-lIzd",
+     "title": "Jensen Huang said NVIDIA plans to run on 100 AI agents ...",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "fortune.com",
+     "url": "https://fortune.com/2026/03/19/jensen-huang-nvidia-ai-agents-future-of-work-autonomous/",
+     "title": "Jensen Huang just painted the most bold image of AI's future",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "ipo online": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "tool": 3,
+    "article": 6
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "top": [
+    "myipo.com",
+    "hdfcsec.com",
+    "fidelity.com",
+    "us.etrade.com",
+    "investor.vanguard.com",
+    "schwab.com",
+    "sec.gov",
+    "sofi.com",
+    "axis.bank.in"
+   ],
+   "items": [
+    {
+     "domain": "myipo.com",
+     "url": "https://www.myipo.com/",
+     "title": "My IPO",
+     "position": 1,
+     "kind": "tool"
+    },
+    {
+     "domain": "hdfcsec.com",
+     "url": "https://www.hdfcsec.com/offering/ipo-product",
+     "title": "Invest in IPO Online | Apply for Current IPOs",
+     "position": 2,
+     "kind": "tool"
+    },
+    {
+     "domain": "fidelity.com",
+     "url": "https://www.fidelity.com/learning-center/trading-investing/IPO",
+     "title": "IPO 101: Investing in IPOs",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "us.etrade.com",
+     "url": "https://us.etrade.com/what-we-offer/investment-choices/new-issues",
+     "title": "IPO Investing: Participate in New Stock Offerings",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "investor.vanguard.com",
+     "url": "https://investor.vanguard.com/investor-resources-education/news/ipos-what-to-know",
+     "title": "What's an IPO? Risks, rewards, and how to get started",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "schwab.com",
+     "url": "https://www.schwab.com/learn/story/ipo-basics-what-to-know-before-investing",
+     "title": "IPO Basics: What to Know Before Investing",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "sec.gov",
+     "url": "https://www.sec.gov/data-research/statistics-data-visualizations/initial-public-offerings-ipos",
+     "title": "Initial Public Offerings (IPOs)",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "sofi.com",
+     "url": "https://www.sofi.com/invest/ipo-investing/",
+     "title": "IPO Investing - How to Participate in an IPO",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "axis.bank.in",
+     "url": "https://www.axis.bank.in/investment/iposmart",
+     "title": "IPOSmart - Invest in Initial Public Offerings (IPO) Online",
+     "position": 9,
+     "kind": "tool"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "talkie llm": {
+  "overview_ok": true,
+  "volume": 210,
+  "cpc": 0.0,
+  "comp": 0.01,
+  "results": 160,
+  "kd_ok": true,
+  "kd": 54,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 4,
+    "tool": 1,
+    "forum": 3,
+    "list": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "talkie-lm.com",
+    "talkie-lm.com",
+    "reddit.com",
+    "didof.dev",
+    "github.com",
+    "huggingface.co",
+    "x.com",
+    "gizmodo.com",
+    "news.ycombinator.com"
+   ],
+   "items": [
+    {
+     "domain": "talkie-lm.com",
+     "url": "https://talkie-lm.com/chat",
+     "title": "talkie: an LM from 1930",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "talkie-lm.com",
+     "url": "https://talkie-lm.com/",
+     "title": "Introducing talkie: a 13B vintage language model from 1930",
+     "position": 2,
+     "kind": "tool"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1sy7rry/talkie_a_13b_llm_trained_only_on_pre1931_text/",
+     "title": "Talkie: a 13B LLM trained only on pre-1931 text used ...",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "didof.dev",
+     "url": "https://didof.dev/blog/talkie-1930-llm-reasoning/",
+     "title": "Talkie-1930: An LLM That Has Never Heard of Computers ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "github.com",
+     "url": "https://github.com/talkie-lm/talkie",
+     "title": "talkie is a vintage language model from 1930",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "huggingface.co",
+     "url": "https://huggingface.co/talkie-lm/talkie-1930-13b-it",
+     "title": "talkie-lm/talkie-1930-13b-it",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/eli_lifland/status/2048931996777525308",
+     "title": "\"Played with Talkie, an LLM trained only on pre-1930 data. ...",
+     "position": 7,
+     "kind": "forum"
+    },
+    {
+     "domain": "gizmodo.com",
+     "url": "https://gizmodo.com/talkie-is-a-vintage-llm-trained-on-pre-1930-data-to-help-facilitate-time-travel-2000751758",
+     "title": "Talkie Is a 'Vintage LLM' Trained on Pre-1930 Data to Help ...",
+     "position": 8,
+     "kind": "list"
+    },
+    {
+     "domain": "news.ycombinator.com",
+     "url": "https://news.ycombinator.com/item?id=47927903",
+     "title": "Talkie: a 13B vintage language model from 1930",
+     "position": 9,
+     "kind": "forum"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 3
+  }
+ },
+ "ipo online gmp": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "llm council skill": {
+  "overview_ok": true,
+  "volume": 90,
+  "cpc": 7.16,
+  "comp": 0.03,
+  "results": 114,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "ipo model maker": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "ai recompiled classic video games": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "sec online": {
+  "overview_ok": true,
+  "volume": 70,
+  "cpc": 0.0,
+  "comp": 0.03,
+  "results": 105,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "what is ncm": {
+  "overview_ok": true,
+  "volume": 320,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 108,
+  "kd_ok": true,
+  "kd": 7,
+  "day": "2026-10-26"
+ },
+ "sec alternative": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.14,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "sec online forms": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.03,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "ai changing uk stem jobs": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "gifts online": {
+  "overview_ok": true,
+  "volume": 480,
+  "cpc": 2.01,
+  "comp": 1.0,
+  "results": 242000,
+  "kd_ok": true,
+  "kd": 6,
+  "day": "2026-10-26"
+ },
+ "micro saas ideas": {
+  "overview_ok": true,
+  "volume": 480,
+  "cpc": 2.44,
+  "comp": 0.4,
+  "results": 133,
+  "kd_ok": true,
+  "kd": 35,
+  "day": "2026-10-26"
+ },
+ "gifts online uk": {
+  "overview_ok": true,
+  "volume": 30,
+  "cpc": 1.29,
+  "comp": 1.0,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "ai fashion trends": {
+  "overview_ok": true,
+  "volume": 40,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "gifts alternative": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "ncm": {
+  "overview_ok": true,
+  "volume": 8100,
+  "cpc": 0.77,
+  "comp": 0.05,
+  "results": 107,
+  "kd_ok": true,
+  "kd": 45,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "video": 1,
+    "article": 8
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "top": [
+    "youtube.com",
+    "eta.ncmassociates.com",
+    "visitbgky.com",
+    "sf.ncmassociates.com",
+    "rocketreach.co",
+    "instagram.com",
+    "abbreviations.com",
+    "autointerests.com",
+    "textzmeaning.com"
+   ],
+   "items": [
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=2J5SddnHPdw",
+     "title": "NCM Corner Breakdown Part 3",
+     "position": 1,
+     "kind": "video"
+    },
+    {
+     "domain": "eta.ncmassociates.com",
+     "url": "https://eta.ncmassociates.com/About.aspx",
+     "title": "Electronic Transmittal Assistant - NCM ETA",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "visitbgky.com",
+     "url": "https://www.visitbgky.com/media-gallery/item/ncm-michelin/5b07315ba150f6ad948a4063/",
+     "title": "NCM Michelin",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "sf.ncmassociates.com",
+     "url": "https://sf.ncmassociates.com/news/",
+     "title": "News & Knowledge - NCM ARC",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "rocketreach.co",
+     "url": "https://rocketreach.co/national-cinemedia-ncm-profile_b5c49d3df42e0dc5",
+     "title": "National CineMedia (NCM) Information",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/ncmmsp/?hl=en",
+     "title": "NCM Motorsports Park (@ncmmsp) · Bowling Green, KY",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "abbreviations.com",
+     "url": "https://www.abbreviations.com/NCM",
+     "title": "What does NCM stand for?",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "autointerests.com",
+     "url": "https://autointerests.com/category/track/ncm-motorsports-park",
+     "title": "NCM Motorsports Park",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "textzmeaning.com",
+     "url": "https://textzmeaning.com/ncm-mean-in-text/",
+     "title": "What Does NCM Mean in Text? Slang Guide with Examples ...",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "allintitle": 56
+ },
+ "afterhours online doctor": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "vibe coding trends": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "farmbot tech ai": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "claude duet vs grok bot": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "digital minimalism": {
+  "overview_ok": true,
+  "volume": 3600,
+  "cpc": 0.48,
+  "comp": 0.2,
+  "results": 146000,
+  "kd_ok": true,
+  "kd": 22,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "forum": 1,
+    "video": 1,
+    "article": 3,
+    "list": 2,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "discussions_and_forums",
+    "knowledge_graph",
+    "people_also_ask",
+    "product_considerations",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "reddit.com",
+    "youtube.com",
+    "bogleheads.org",
+    "punkt.ch",
+    "blinkist.com",
+    "jbriones95.medium.com",
+    "thriftbooks.com",
+    "medium.com"
+   ],
+   "items": [
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/digitalminimalism/comments/1hvj2di/how_to_get_a_real_start_in_digital_minimalism/",
+     "title": "How to get a real start in digital minimalism?",
+     "position": 1,
+     "kind": "forum"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=d6_dINpTF4E",
+     "title": "How Digital Minimalism Changed My Life",
+     "position": 2,
+     "kind": "video"
+    },
+    {
+     "domain": "bogleheads.org",
+     "url": "https://www.bogleheads.org/forum/viewtopic.php?t=454748",
+     "title": "Your favorite tips for digital minimalism?",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "punkt.ch",
+     "url": "https://www.punkt.ch/blogs/library/digital-minimalism?srsltid=AYCX9vJbilagw2FOUWXtimfEL29GQFfybrhhbmwsZyRNXL8iITTy9t7s",
+     "title": "Digital Minimalism: Regain Control and Live Better with ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "blinkist.com",
+     "url": "https://www.blinkist.com/books/digital-minimalism-en",
+     "title": "Digital Minimalism Summary of Key Ideas and Review",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "jbriones95.medium.com",
+     "url": "https://jbriones95.medium.com/3-steps-towards-digital-minimalism-fda1f4951fd2",
+     "title": "3 Steps Towards Digital Minimalism - Jose Briones - Medium",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "thriftbooks.com",
+     "url": "https://www.thriftbooks.com/w/digital-minimalism-on-living-better-with-less-technology_cal-newport/21340550/?srsltid=AYCX9vI-FbEgYZ_I4QIkkmKgGhdeRpKoIUYWEWxDRTvOiipMKgJF5EuG",
+     "title": "Digital Minimalism - By Cal Newport",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/swlh/digital-minimalism-how-to-simplify-your-online-life-76b54838a877",
+     "title": "Digital Minimalism: How to Simplify Your Online Life",
+     "position": 8,
+     "kind": "tool"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  },
+  "allintitle": 58
+ },
+ "claude duet app": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "passive income ideas": {
+  "overview_ok": true,
+  "volume": 1830000,
+  "cpc": 0.83,
+  "comp": 0.48,
+  "results": 123,
+  "kd_ok": true,
+  "kd": 86,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "list": 3,
+    "article": 2,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "discussions_and_forums",
+    "images",
+    "people_also_ask",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "sbgfunding.com",
+    "entrepreneur.com",
+    "reddit.com",
+    "salonsbyjcfranchising.com",
+    "public.com",
+    "socotracapital.com"
+   ],
+   "items": [
+    {
+     "domain": "sbgfunding.com",
+     "url": "https://sbgfunding.com/passive-income-ideas-business/",
+     "title": "31 Passive Income Ideas To Get Started Now",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "entrepreneur.com",
+     "url": "https://www.entrepreneur.com/side-hustle/passive-income-ideas",
+     "title": "What Are Some Lucrative Passive Income Ideas? - Entrepreneur",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/passive_income/comments/15ggh6l/25_easy_passive_income_ideas_for_financial_freedom/",
+     "title": "25 Easy Passive Income Ideas for Financial Freedom!",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "salonsbyjcfranchising.com",
+     "url": "https://salonsbyjcfranchising.com/passive-income-ideas-cashflow/",
+     "title": "25 Passive Income Ideas for Steady Monthly Cash Flow (2026)",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "public.com",
+     "url": "https://public.com/learn/passive-income-ideas",
+     "title": "Passive Income Ideas for Building Wealth | Public.com",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "socotracapital.com",
+     "url": "https://www.socotracapital.com/resources/blog/best-passive-income-ideas-for-beginners",
+     "title": "4 Best Passive Income Ideas for Beginners",
+     "position": 6,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "allintitle": 1280
+ },
+ "ub mode of payment": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "tech gadgets 2025": {
+  "overview_ok": true,
+  "volume": 590,
+  "cpc": 0.16,
+  "comp": 0.05,
+  "results": 189,
+  "kd_ok": true,
+  "kd": 43,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 3,
+    "list": 3,
+    "video": 1,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "waident.com",
+    "tech.yahoo.com",
+    "resident.com",
+    "forum.aqara.com",
+    "youtube.com",
+    "pinterest.com",
+    "thegadgetflow.com",
+    "coolmaterial.com"
+   ],
+   "items": [
+    {
+     "domain": "waident.com",
+     "url": "https://www.waident.com/the-coolest-tech-gadgets-from-ces-2025-your-ultimate-innovation-round-up/",
+     "title": "The Coolest Tech Gadgets from CES 2025: Your Ultimate ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "tech.yahoo.com",
+     "url": "https://tech.yahoo.com/general/article/the-15-best-tech-gadgets-that-solve-common-real-world-problems-in-2026-starting-at-just-12-121446178.html",
+     "title": "The 15 best tech gadgets that solve common real-world ...",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "resident.com",
+     "url": "https://resident.com/tech-and-gear/2025/11/27/10-standout-gifts-for-tech-lovers-in-2025",
+     "title": "10 Standout Gifts for Tech Lovers in 2025",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "forum.aqara.com",
+     "url": "https://forum.aqara.com/t/top-11-tech-gadgets-of-2025-a-smart-home-enthusiasts-guide/33844",
+     "title": "Top 11 Tech Gadgets of 2025: A Smart Home Enthusiast's ...",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=Arrjg96cO6A",
+     "title": "Top tech gadgets of 2025",
+     "position": 5,
+     "kind": "video"
+    },
+    {
+     "domain": "pinterest.com",
+     "url": "https://www.pinterest.com/pin/208291551499937565/",
+     "title": "Here Are the Coolest Tech Gadgets I Recommend in 2025",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "thegadgetflow.com",
+     "url": "https://thegadgetflow.com/",
+     "title": "Gadget Flow — Your Shortcut to Gadgets That Matter",
+     "position": 7,
+     "kind": "tool"
+    },
+    {
+     "domain": "coolmaterial.com",
+     "url": "https://coolmaterial.com/feature/tech-gift-guide-2025/",
+     "title": "The Coolest Tech Gifts for 2025",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "allintitle": 61
+ },
+ "ub mode in washing machine": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "no-code app builders": {
+  "overview_ok": true,
+  "volume": 210,
+  "cpc": 11.45,
+  "comp": 0.08,
+  "results": 123,
+  "kd_ok": true,
+  "kd": 40,
+  "day": "2026-10-26"
+ },
+ "eclipse technologies inc": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "ai personal assistant": {
+  "overview_ok": true,
+  "volume": 3600,
+  "cpc": 5.23,
+  "comp": 0.42,
+  "results": 100,
+  "kd_ok": true,
+  "kd": 53,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "list": 4,
+    "tool": 1,
+    "forum": 1,
+    "article": 3
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "people_also_search",
+    "related_searches"
+   ],
+   "top": [
+    "usemotion.com",
+    "lindy.ai",
+    "personal.ai",
+    "eesel.ai",
+    "reddit.com",
+    "saner.ai",
+    "nexos.ai",
+    "play.google.com",
+    "wired.com"
+   ],
+   "items": [
+    {
+     "domain": "usemotion.com",
+     "url": "https://www.usemotion.com/blog/ai-assistant.html",
+     "title": "We Tested The Best AI Assistants. Here's Our Top 7",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "lindy.ai",
+     "url": "https://www.lindy.ai/blog/how-to-make-an-ai-free",
+     "title": "Free AI Assistants: 8 Tested and Ranked (2026)",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "personal.ai",
+     "url": "https://www.personal.ai/",
+     "title": "Personal AI | The AI Memory Platform",
+     "position": 3,
+     "kind": "tool"
+    },
+    {
+     "domain": "eesel.ai",
+     "url": "https://www.eesel.ai/blog/ai-personal-assistants",
+     "title": "7 best AI personal assistants in 2026 (tested and ranked)",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/ProductivityApps/comments/1jfqvdg/personal_ai_assistants_that_actually_do_things/",
+     "title": "Personal AI assistants that actually do things?",
+     "position": 5,
+     "kind": "forum"
+    },
+    {
+     "domain": "saner.ai",
+     "url": "https://www.saner.ai/blogs/best-artificial-intelligence-assistant",
+     "title": "Artificial Intelligence Assistant: We Tested & Ranked The ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "nexos.ai",
+     "url": "https://nexos.ai/blog/ai-personal-assistant/",
+     "title": "Best AI personal assistant tools in 2026",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "play.google.com",
+     "url": "https://play.google.com/store/apps/details?id=com.fullstack.aipersonalassistant&hl=en_US",
+     "title": "AI Personal Assistant - Apps on Google Play",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "wired.com",
+     "url": "https://www.wired.com/story/fast-forward-tested-next-gen-ai-assistant/",
+     "title": "I Tested a Next-Gen AI Assistant. It Will Blow You Away",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "allintitle": 27
+ },
+ "eclipse technologies ltd": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": 0.0,
+  "comp": 0.0,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "atlassian": {
+  "overview_ok": true,
+  "volume": 74000,
+  "cpc": 2.16,
+  "comp": 0.07,
+  "results": 51,
+  "kd_ok": true,
+  "kd": 79,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "forum": 1,
+    "article": 7,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "knowledge_graph",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "top": [
+    "reddit.com",
+    "atlassian.com",
+    "atlassian.com",
+    "support.atlassian.com",
+    "atlassian.com",
+    "atlassian.com",
+    "builtin.com",
+    "atlassian.com",
+    "community.atlassian.com"
+   ],
+   "items": [
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/atlassian/",
+     "title": "r/atlassian",
+     "position": 1,
+     "kind": "forum"
+    },
+    {
+     "domain": "atlassian.com",
+     "url": "https://www.atlassian.com/company/people",
+     "title": "People",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "atlassian.com",
+     "url": "https://www.atlassian.com/customers",
+     "title": "Atlassian Customers: Achieving the Impossible Together",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "support.atlassian.com",
+     "url": "https://support.atlassian.com/",
+     "title": "Atlassian Support",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "atlassian.com",
+     "url": "https://www.atlassian.com/company/news/press-kit",
+     "title": "Atlassian Press Kit",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "atlassian.com",
+     "url": "https://www.atlassian.com/trust/ai",
+     "title": "AI Trust Center",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "builtin.com",
+     "url": "https://builtin.com/company/atlassian",
+     "title": "Atlassian Careers, Perks + Culture",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "atlassian.com",
+     "url": "https://www.atlassian.com/customers/atlassian",
+     "title": "Atlassian connects 12000+ employees with our System of ...",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "community.atlassian.com",
+     "url": "https://community.atlassian.com/learning",
+     "title": "Learning - Atlassian Community",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "allintitle": 556
+ },
+ "eclipse technologies pvt ltd": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": 0.0,
+  "comp": 0.0,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "best productivity apps 2025": {
+  "overview_ok": true,
+  "volume": 880,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 124,
+  "kd_ok": true,
+  "kd": 45,
+  "day": "2026-10-26"
+ },
+ "afterhours ai": {
+  "overview_ok": true,
+  "volume": 70,
+  "cpc": 4.51,
+  "comp": 0.16,
+  "results": 100,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-26"
+ },
+ "banks": {
+  "overview_ok": true,
+  "volume": 550000,
+  "cpc": 13.95,
+  "comp": 0.3,
+  "results": 4210000000,
+  "kd_ok": true,
+  "kd": 86,
+  "day": "2026-10-26",
+  "serp": {
+   "kinds": {
+    "article": 3,
+    "tool": 5,
+    "list": 1,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "local_pack",
+    "people_also_ask",
+    "product_considerations",
+    "related_searches"
+   ],
+   "top": [
+    "bankspower.com",
+    "en.wikipedia.org",
+    "thebankscincy.com",
+    "forbes.com",
+    "occ.gov",
+    "cityofbanks.org",
+    "bankofamerica.com",
+    "x.com",
+    "bannerbank.com",
+    "prosperitybankusa.com"
+   ],
+   "items": [
+    {
+     "domain": "bankspower.com",
+     "url": "https://bankspower.com/?srsltid=AYCX9vJkPhQXbMSdFo-uqqdsWKbtQoPUPy6_PWaj_nKNLrtgmfqebrBQ",
+     "title": "Banks Power",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "en.wikipedia.org",
+     "url": "https://en.wikipedia.org/wiki/Bank",
+     "title": "Bank",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "thebankscincy.com",
+     "url": "https://thebankscincy.com/",
+     "title": "The Banks Cincinnati | Live. Play. Love Cincy.",
+     "position": 3,
+     "kind": "tool"
+    },
+    {
+     "domain": "forbes.com",
+     "url": "https://www.forbes.com/lists/americas-best-banks/",
+     "title": "Forbes 2026 America's Best Banks List | Top Ranked and ...",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "occ.gov",
+     "url": "https://www.occ.gov/topics/charters-and-licensing/financial-institution-lists/index-financial-institution-lists.html",
+     "title": "Financial Institution Lists",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "cityofbanks.org",
+     "url": "https://www.cityofbanks.org/",
+     "title": "Banks, Oregon",
+     "position": 6,
+     "kind": "tool"
+    },
+    {
+     "domain": "bankofamerica.com",
+     "url": "https://www.bankofamerica.com/",
+     "title": "Bank of America - Banking, Credit Cards, Loans and Merrill ...",
+     "position": 7,
+     "kind": "tool"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/Banks?lang=en",
+     "title": "Banks",
+     "position": 8,
+     "kind": "forum"
+    },
+    {
+     "domain": "bannerbank.com",
+     "url": "https://www.bannerbank.com/",
+     "title": "Banner Bank | Award-Winning Personal & Business Banking",
+     "position": 9,
+     "kind": "tool"
+    },
+    {
+     "domain": "prosperitybankusa.com",
+     "url": "https://www.prosperitybankusa.com/",
+     "title": "Prosperity Bank: Personal Banking, Texas & Oklahoma",
+     "position": 10,
+     "kind": "tool"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "allintitle": 46
  }
 }

@@ -1,0 +1,2095 @@
+{
+  "source": "https://everybacklink.com/api/sites.json",
+  "total_source_sites": 763,
+  "filter_criteria": {
+    "price_type": [
+      "free",
+      "freemium"
+    ],
+    "link_type": "dofollow",
+    "needs_badge": false
+  },
+  "whitelist_count": 27,
+  "pure_free_count": 7,
+  "freemium_count": 20,
+  "pure_free_sites": [
+    {
+      "name": "Brownbook",
+      "url": "https://brownbook.net/",
+      "submit_url": "https://www.brownbook.net/add-business",
+      "category": "other",
+      "price_type": "free",
+      "price_note": "Basic business listing is free.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "Global business directory with a basic listing form and website field.",
+      "requirements": {
+        "must": [
+          "Search for an existing listing before adding a duplicate.",
+          "Provide the business name, category and country."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Search for the business name and town.",
+        "Open Add a business and enter the required business details.",
+        "Add the business website and complete the remaining submission step."
+      ],
+      "tip": "Use consistent business details. The form includes website and social fields; claiming an existing listing gives you control of its information.",
+      "id": "brownbook",
+      "domain": "brownbook.net",
+      "dr": 80,
+      "monthly_visits": null,
+      "rank": 286,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Business Software",
+      "url": "https://business-software.com/",
+      "submit_url": "https://www.business-software.com/add-your-product/",
+      "category": "saas-directory",
+      "price_type": "free",
+      "price_note": "Free",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "Business software listing site with an Add Your Product page. Approved products get a public page.",
+      "requirements": {
+        "must": [
+          "Provide your name, email, company name and product name.",
+          "Complete the CAPTCHA and agree to the publishing/marketing disclaimer."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Add Your Product.",
+        "Complete the required product and company fields.",
+        "Submit the form and watch for follow-up to complete the listing."
+      ],
+      "tip": "The team says it will contact you within two business days to finish the submission. Read the disclaimer covering publication and marketing use.",
+      "id": "business-software",
+      "domain": "business-software.com",
+      "dr": 49,
+      "monthly_visits": null,
+      "rank": 432,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "StartupTracker",
+      "url": "https://startuptracker.io/",
+      "submit_url": "https://startuptracker.io/crowdsourcing/",
+      "category": "launch-platform",
+      "price_type": "free",
+      "price_note": "Official crowdsourcing page states that startup listings are 100% free.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "Crowdsourced startup tracker. Added projects get a public page with a link to the site.",
+      "requirements": {
+        "must": [],
+        "not_needed": []
+      },
+      "steps": [
+        "Open the crowdsourcing page to verify an existing profile or begin a new one.",
+        "Enter the startup name without Inc/Ltd and the website URL.",
+        "Review any further requirements before submitting."
+      ],
+      "tip": "The crowdsourcing page now exposes startup-name and website-URL fields. Check for an existing profile before adding one; the later submission steps were not tested.",
+      "id": "startuptracker",
+      "domain": "startuptracker.io",
+      "dr": 43,
+      "monthly_visits": null,
+      "rank": 437,
+      "verified_at": "2026-10-17",
+      "updated_at": "2026-10-24T21:39:26.291Z"
+    },
+    {
+      "name": "nologin.tools",
+      "url": "https://nologin.tools/",
+      "submit_url": "https://nologin.tools/submit",
+      "category": "other",
+      "price_type": "free",
+      "price_note": "Basic listing is free. Adding the site badge gives priority review and a ranking boost.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "No-login tools only",
+          "hard": true
+        }
+      ],
+      "lede": "Directory of tools whose core features work without an account. Basic listings are free and reviewed.",
+      "requirements": {
+        "must": [
+          "The tool's core functionality must work without signing up or logging in.",
+          "Provide the tool URL and confirm it meets the rules."
+        ],
+        "not_needed": [
+          "Contact email is optional on the submission form."
+        ]
+      },
+      "steps": [
+        "Open the submission form and add the tool URL.",
+        "Confirm the no-login requirement and submit for review."
+      ],
+      "tip": "One submitter reported submitting on July 30 and seeing the listing live about 20 days later. They checked the listing URL directly because it was absent from the sitemap. Treat that as one experience, not the current review schedule. The official form now says the badge is optional and grants priority review.",
+      "id": "nologin",
+      "domain": "nologin.tools",
+      "dr": 41,
+      "monthly_visits": null,
+      "rank": 523,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-25T09:34:16.613Z"
+    },
+    {
+      "name": "Fundl",
+      "url": "https://fundl.us/",
+      "submit_url": "https://fundl.us/create-project",
+      "category": "launch-platform",
+      "price_type": "free",
+      "price_note": "A basic shareable traction page is advertised as free; crowdfunding terms are separate.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Free listing reported",
+          "hard": false
+        }
+      ],
+      "lede": "Project platform with free public traction pages and optional reward-based crowdfunding.",
+      "requirements": {
+        "must": [
+          "Sign in to create a project.",
+          "Provide a project name, description, image and link."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Create Project and sign in.",
+        "Add project details and connect relevant traction sources.",
+        "Review the public page before sharing it."
+      ],
+      "tip": "The current product focuses on project details and connected traction data. A free page does not prove that every submission is accepted without review.",
+      "id": "fundl",
+      "domain": "fundl.us",
+      "dr": 30,
+      "monthly_visits": null,
+      "rank": 535,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Human or Not",
+      "url": "https://humanornot.co/",
+      "submit_url": "https://www.humanornot.co/submit-tool",
+      "category": "ai-directory",
+      "price_type": "free",
+      "price_note": "Free, live in 48 hours",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "AI tools only",
+          "hard": true
+        }
+      ],
+      "lede": "A directory of AI tools that publishes reviewed listings with a link.",
+      "requirements": {
+        "must": [
+          "The submitted tool must include AI features.",
+          "Provide a contact email and tool URL."
+        ],
+        "not_needed": []
+      },
+      "steps": [],
+      "tip": "The form advertises a free lifetime listing within 48 hours. Publication depends on meeting the AI-tool requirement.",
+      "id": "humanornot",
+      "domain": "humanornot.co",
+      "dr": 14,
+      "monthly_visits": null,
+      "rank": 304,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "DevPages",
+      "url": "https://devpages.io/",
+      "submit_url": "https://devpages.io/submit-a-tool",
+      "category": "saas-directory",
+      "price_type": "free",
+      "price_note": "Free, reviewed by hand",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "Tool directory for developers with a Submit a Tool page. Listed tools get a public page linking to the site.",
+      "requirements": {
+        "must": [
+          "Provide the developer tool name, description, website, category, pricing and contact email."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Submit a Tool.",
+        "Complete required product fields; add GitHub and tags if useful.",
+        "Submit the tool for review."
+      ],
+      "tip": "Explain the developer task the tool solves. DevPages says every submission is read by hand and uses your email to report the outcome.",
+      "id": "devpages",
+      "domain": "devpages.io",
+      "dr": 10,
+      "monthly_visits": null,
+      "rank": 460,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    }
+  ],
+  "freemium_sites": [
+    {
+      "name": "WordPress.com",
+      "url": "https://wordpress.com/",
+      "submit_url": "https://wordpress.com/start/",
+      "category": "blog-platform",
+      "price_type": "freemium",
+      "price_note": "Free plan; Personal US$9/month or US$4/month billed annually (US$48/year), excluding taxes",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Account",
+          "hard": true
+        },
+        {
+          "text": "Original content",
+          "hard": true
+        }
+      ],
+      "lede": "Hosted blogging platform for publishing articles that can link to your site.",
+      "requirements": {
+        "must": [
+          "A WordPress.com account",
+          "Original pages or posts that follow the service terms"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Create a WordPress.com site and choose its address.",
+        "Write your page or post and add relevant links.",
+        "Publish the content."
+      ],
+      "tip": "The free plan includes a WordPress.com address and displays ads. Use the standard editor for the free route: building with the WordPress Agent requires a paid plan. Link settings can optionally mark individual links nofollow.",
+      "id": "wordpress",
+      "domain": "wordpress.com",
+      "dr": 96,
+      "monthly_visits": null,
+      "rank": 95,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-23T03:37:26.583Z"
+    },
+    {
+      "name": "Notion",
+      "url": "https://notion.so/",
+      "submit_url": "https://www.notion.com/help/public-pages-and-web-publishing",
+      "category": "blog-platform",
+      "price_type": "freemium",
+      "price_note": "Unlimited free notion.site pages; custom-domain add-on $10/month or $8/month billed annually, per domain, plus a paid plan and domain registration (currency code unconfirmed)",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Account",
+          "hard": true
+        },
+        {
+          "text": "Page to publish",
+          "hard": true
+        }
+      ],
+      "lede": "Workspace tool that can publish public pages, usable for articles that link to your site.",
+      "requirements": {
+        "must": [
+          "A Notion account and a page to publish"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Share on your page, then Publish.",
+        "Choose Publish and copy the public site URL.",
+        "Check the page and its subpages while signed out."
+      ],
+      "tip": "Free Sites can enable search engine indexing. Custom-domain connection needs an existing paid plan plus a separate add-on. Publishing also exposes subpages by default and contributor names, photos and email addresses in page metadata; inspect the public result before sharing.",
+      "id": "notion",
+      "domain": "notion.so",
+      "dr": 92,
+      "monthly_visits": null,
+      "rank": 100,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-23T03:38:17.964Z"
+    },
+    {
+      "name": "Webflow",
+      "url": "https://webflow.io/",
+      "submit_url": "https://webflow.com/pricing",
+      "category": "blog-platform",
+      "price_type": "freemium",
+      "price_note": "Free Starter: webflow.io domain, 2 static pages, 1GB bandwidth and limited CMS. Paid plans add custom domains.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "Visual website builder with a free Starter site on a webflow.io address.",
+      "requirements": {
+        "must": [
+          "Create a Webflow account.",
+          "Keep a free Starter site within its page and bandwidth limits."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Create a site from a template or blank project.",
+        "Add your project content and website links.",
+        "Publish to the free webflow.io address."
+      ],
+      "tip": "The free plan is suitable for a small project site. Check page and CMS limits before building; custom-domain hosting requires a paid Site plan.",
+      "id": "webflow",
+      "domain": "webflow.io",
+      "dr": 92,
+      "monthly_visits": null,
+      "rank": 513,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Carrd",
+      "url": "https://carrd.co/",
+      "submit_url": "https://carrd.co/build",
+      "category": "blog-platform",
+      "price_type": "freemium",
+      "price_note": "Free: 3 sites. Pro Lite $9/year; Pro Standard with custom domains $19/year.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "One-page website builder with a free plan for up to three sites.",
+      "requirements": {
+        "must": [
+          "Create a Carrd account to manage published sites."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Choose a template or blank page.",
+        "Add your content and website links.",
+        "Publish on a Carrd address or a supported paid custom domain."
+      ],
+      "tip": "Use the free Carrd address for a simple page. Custom domains and forms require an appropriate Pro plan.",
+      "id": "carrd",
+      "domain": "carrd.co",
+      "dr": 91,
+      "monthly_visits": null,
+      "rank": 514,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "AlternativeTo",
+      "url": "https://alternativeto.net/",
+      "submit_url": "https://alternativeto.net/faq/#add-a-new-application",
+      "category": "saas-directory",
+      "price_type": "freemium",
+      "price_note": "Free review queue; paid Priority review",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Verified email account",
+          "hard": true
+        },
+        {
+          "text": "Public English product",
+          "hard": true
+        },
+        {
+          "text": "Manual review",
+          "hard": true
+        }
+      ],
+      "lede": "Software directory where people compare products and suggest alternatives to existing applications.",
+      "requirements": {
+        "must": [
+          "Register and verify your email",
+          "Product must be public and in English",
+          "No thin AI wrappers, simple tool lists or unreleased/private-beta products",
+          "Do not use your profile for advertising"
+        ],
+        "not_needed": [
+          "No backlink required"
+        ]
+      },
+      "steps": [
+        "Register and verify your email",
+        "Choose Suggest new application from the user menu",
+        "Fill in platforms, license, description, tags and official URL, then submit",
+        "Optionally buy priority review at the fee shown after submission",
+        "Check My submissions for the waiting status"
+      ],
+      "tip": "The normal queue may not be reviewed for a long time, and review is not guaranteed. Paid priority usually takes 1–2 business days, or up to a week during busy periods, but does not guarantee approval. Check eligibility before paying.",
+      "id": "alternativeto",
+      "domain": "alternativeto.net",
+      "dr": 81,
+      "monthly_visits": 2200000,
+      "rank": 14,
+      "verified_at": "2026-10-17",
+      "updated_at": "2026-10-20T13:32:18.979Z"
+    },
+    {
+      "name": "SaaSHub",
+      "url": "https://saashub.com/",
+      "submit_url": "https://www.saashub.com/services/submit",
+      "category": "saas-directory",
+      "price_type": "freemium",
+      "price_note": "Free listing; featured promotion is $99/month, cancel anytime",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Live product required",
+          "hard": true
+        },
+        {
+          "text": "Own domain",
+          "hard": true
+        },
+        {
+          "text": "Manual review",
+          "hard": true
+        }
+      ],
+      "lede": "Software directory organised around categories and alternatives. Products go through approval before publication.",
+      "requirements": {
+        "must": [
+          "An English-language product that is already released",
+          "A product website on an independent domain",
+          "Add relevant categories and competing products"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Enter your product URL on the submission page",
+        "Add categories and the products yours can replace",
+        "Verify an email on your product domain to improve review priority"
+      ],
+      "tip": "Missing competitors can send your submission to the back of the queue. Domain-email verification improves its priority; unreleased products, waitlists and development agencies are excluded.",
+      "id": "saashub",
+      "domain": "saashub.com",
+      "dr": 80,
+      "monthly_visits": 362600,
+      "rank": 4,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-20T13:31:54.695Z"
+    },
+    {
+      "name": "Uneed",
+      "url": "https://uneed.best/",
+      "submit_url": "https://www.uneed.best/submit-a-tool",
+      "category": "launch-platform",
+      "price_type": "freemium",
+      "price_note": "Free queue; Fast-track $14.99; Skip the line $29.99; relaunch $15",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Account to save",
+          "hard": true
+        },
+        {
+          "text": "Long free queue",
+          "hard": true
+        },
+        {
+          "text": "Score threshold for dofollow",
+          "hard": false
+        }
+      ],
+      "lede": "Product launchpad with a free queue, a paid fast-track queue and a paid option to choose your launch date.",
+      "requirements": {
+        "must": [
+          "Product name and website URL",
+          "Create an account to save the imported product details",
+          "Free launches need an upvote score of 10 to stay published; 20 for a dofollow link"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Enter your product name and URL to preview imported details",
+        "Sign up to save the product and review its information",
+        "Join the free queue, choose Fast-track or pay to choose a launch date"
+      ],
+      "tip": "The free queue can assign a date up to five months away. Fast-track quotes about 14 days; free and Fast-track links have different vote-score thresholds.",
+      "id": "uneed",
+      "domain": "uneed.best",
+      "dr": 76,
+      "monthly_visits": 171900,
+      "rank": 26,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "ShowMeBest",
+      "url": "https://showmebest.ai/",
+      "submit_url": "https://showmebest.ai/submit",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free; Basic $9.99; Pro $49.99",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "AI tools only",
+          "hard": true
+        },
+        {
+          "text": "Manual review",
+          "hard": true
+        }
+      ],
+      "lede": "AI tools directory with free, Basic and Pro listing options. Paid plans offer different listing and featured-placement durations.",
+      "requirements": {
+        "must": [
+          "An AI tool and the information requested in the submission form"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Choose Free, Basic or Pro",
+        "Provide your tool details",
+        "Review payment and listing duration before confirming a paid option"
+      ],
+      "tip": "Basic advertises a permanent listing. Pro’s table says six months, while other page copy uses forever; resolve that difference before purchasing Pro.",
+      "id": "showmebest",
+      "domain": "showmebest.ai",
+      "dr": 76,
+      "monthly_visits": null,
+      "rank": 53,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "SmolLaunch",
+      "url": "https://smollaunch.com/",
+      "submit_url": "https://smollaunch.com/pricing",
+      "category": "launch-platform",
+      "price_type": "freemium",
+      "price_note": "Basic Free without badge; Free Verified with badge. Premium $19 or Premium+ $39 per launch.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Free paths: 3 eligible votes this week",
+          "hard": true
+        },
+        {
+          "text": "Badge for Free Verified only",
+          "hard": false
+        },
+        {
+          "text": "Limited weekly slots",
+          "hard": false
+        }
+      ],
+      "lede": "Weekly launch board for indie and SaaS products. Paid ads are marked as sponsored.",
+      "requirements": {
+        "must": [
+          "Free paths: vote on 3 eligible launches by other makers in the current voting week",
+          "Free launch is for a product's first launch only",
+          "Free Verified requires the site badge and has 50 slots per week",
+          "Basic Free has a separate cap and queue",
+          "Relaunches require a paid tier"
+        ],
+        "not_needed": [
+          "No badge for Basic Free or paid launch tiers",
+          "No preliminary votes for paid launch tiers"
+        ]
+      },
+      "steps": [
+        "Create an account and add your product.",
+        "Choose Basic Free, Free Verified or a paid launch.",
+        "For either free path, complete 3 qualifying votes; for Free Verified, also verify the site badge.",
+        "Complete the chosen tier's scheduling steps."
+      ],
+      "tip": "Both free paths require 3 qualifying votes on other makers' eligible launches during the current voting week. Basic Free is nofollow; Free Verified requires a site badge for a dofollow listing. Each path has its own cap and queue; Free Verified has 50 weekly slots. Free covers the first launch only; relaunches are paid. Paid launch tiers need neither badge nor preliminary votes. Featured Spot ads have sponsored links.",
+      "id": "smollaunch",
+      "domain": "smollaunch.com",
+      "dr": 76,
+      "monthly_visits": null,
+      "rank": 555,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-25T12:47:02.829Z"
+    },
+    {
+      "name": "Launch",
+      "url": "https://trylaunch.ai/",
+      "submit_url": "https://trylaunch.ai/start",
+      "category": "launch-platform",
+      "price_type": "freemium",
+      "price_note": "Free; Pro $39 one-time; Grow $199; Pass $99/year",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Screenshots required",
+          "hard": true
+        },
+        {
+          "text": "Free launch queue",
+          "hard": true
+        }
+      ],
+      "lede": "Product launch community for AI tools, SaaS and other technology products.",
+      "requirements": {
+        "must": [
+          "Product name, tagline, screenshots, categories and tech stack"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open the launch guide and follow Submit your product.",
+        "Enter product details.",
+        "Use the free queue or choose a paid launch date."
+      ],
+      "tip": "Free launches join the standard queue. Pro lets you choose a date; Grow adds manual directory submissions. Check the estimate shown before submitting.",
+      "id": "trylaunch",
+      "domain": "trylaunch.ai",
+      "dr": 57,
+      "monthly_visits": null,
+      "rank": 208,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "AIToolNet",
+      "url": "https://aitoolnet.com/",
+      "submit_url": "https://www.aitoolnet.com/submit",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Start free; Pro $9.90 one-time; Business $49.90 one-time",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "AI tools only",
+          "hard": true
+        },
+        {
+          "text": "Check for duplicates",
+          "hard": true
+        },
+        {
+          "text": "Manual review",
+          "hard": true
+        }
+      ],
+      "lede": "AI tools directory with a free queue, a $9.90 faster listing and a $49.90 featured option.",
+      "requirements": {
+        "must": [
+          "An AI tool not already listed; newsletters and directories are excluded",
+          "Tool name, website, category and email",
+          "Pass the site’s approval process"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Search for an existing listing",
+        "Choose Start, Pro or Business",
+        "Complete the tool details and payment if using a paid plan",
+        "Await manual review"
+      ],
+      "tip": "The free tier says 30 days, while the FAQ says the queue can take 30–60 days. Pro quotes 24 hours; Business adds seven days of homepage and category placement.",
+      "id": "aitoolnet",
+      "domain": "aitoolnet.com",
+      "dr": 56,
+      "monthly_visits": null,
+      "rank": 52,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Best AI Tools Directory",
+      "url": "https://bai.tools/",
+      "submit_url": "https://bai.tools/pricing",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free; Standard $19.90 USD; Pro $29.90 USD, each paid plan one-time",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "AI tools directory with a free queue and paid Standard or Pro listings. No reciprocal backlink is required for the listed plans.",
+      "requirements": {
+        "must": [
+          "An AI tool and a selected listing plan"
+        ],
+        "not_needed": [
+          "A reciprocal backlink"
+        ]
+      },
+      "steps": [
+        "Open Pricing and choose Free, Standard or Pro",
+        "Use Submit AI to enter the tool details",
+        "Complete payment for a paid plan"
+      ],
+      "tip": "The free queue is quoted at one to six months. Standard and Pro quote listing within 24 hours and seven or 30 featured days. The paid plans explicitly advertise do-follow links; free-plan link rel is not confirmed.",
+      "id": "bai",
+      "domain": "bai.tools",
+      "dr": 47,
+      "monthly_visits": null,
+      "rank": 73,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-23T02:21:36.423Z"
+    },
+    {
+      "name": "TipSeason",
+      "url": "https://tipseason.com/",
+      "submit_url": "https://www.tipseason.com/ai-tools/submit-free",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free queue of 90+ days; Premium $49; Ultimate $99. Billing frequency is not stated.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "AI tool directory with a submission page. Approved tools get a public tool page with a link to the official site.",
+      "requirements": {
+        "must": [
+          "Provide email, tool name, descriptions, category, pricing model, use case and website."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Complete the free tool form or choose a paid plan.",
+        "Describe the tool and its main use case.",
+        "Submit for review and wait for the selected queue."
+      ],
+      "tip": "The free pricing card has a 90+ day queue despite also mentioning 24-48 hours. Treat the faster timing as paid priority and confirm it before buying.",
+      "id": "tipseason",
+      "domain": "tipseason.com",
+      "dr": 46,
+      "monthly_visits": null,
+      "rank": 459,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "CurateClick",
+      "url": "https://curateclick.com/",
+      "submit_url": "https://curateclick.com/submit",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free; Fast Pass $19.9, Featured $29.9",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Product details",
+          "hard": true
+        },
+        {
+          "text": "Free dofollow: badge and DR above 5",
+          "hard": false
+        }
+      ],
+      "lede": "Directory for AI, SaaS and online tools with a free tier and paid fast-track options.",
+      "requirements": {
+        "must": [
+          "Product details for the submission form"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Submit Product and enter the details.",
+        "Choose free review or a paid placement.",
+        "For the optional free dofollow upgrade, add the badge on a site with DR above 5."
+      ],
+      "tip": "Ordinary free listings are advertised as nofollow, with one to two months for review and no indexing guarantee. An optional badge on a site with DR above 5 earns a dofollow upgrade. A previous CTA sample was followed, but body links were nofollow; that sample does not describe every listing or placement.",
+      "id": "curateclick",
+      "domain": "curateclick.com",
+      "dr": 44,
+      "monthly_visits": null,
+      "rank": 108,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "PoweredbyAI",
+      "url": "https://poweredbyai.app/",
+      "submit_url": "https://poweredbyai.app/submit-tool",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free listing; Pro $11.99 and Elite $69.99 per listing, with no expiry",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Account",
+          "hard": true
+        },
+        {
+          "text": "Real AI tool",
+          "hard": true
+        },
+        {
+          "text": "Product details",
+          "hard": true
+        }
+      ],
+      "lede": "Directory that promotes AI tools, with a free manual-review listing and paid permanent plans.",
+      "requirements": {
+        "must": [
+          "A free PoweredByAI account and a verifiable AI product URL",
+          "Review the imported product details and required fields"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Create a free account and enter your tool URL.",
+        "Review the imported name, description, category and logo.",
+        "Choose a listing plan and submit for publication."
+      ],
+      "tip": "About offers free review within 24 to 48 hours. Pro and Elite are permanent paid listings. Check the final plan screen because the submit page emphasizes paid choices.",
+      "id": "poweredbyai",
+      "domain": "poweredbyai.app",
+      "dr": 35,
+      "monthly_visits": null,
+      "rank": 104,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "The AI Library",
+      "url": "https://theailibrary.co/",
+      "submit_url": "https://www.theailibrary.co/submit-tool",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free submission queue; Premium £298 once; Platinum £499 once.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Sign in to submit",
+          "hard": true
+        },
+        {
+          "text": "Free submissions wait in a queue",
+          "hard": true
+        },
+        {
+          "text": "Paid launch packages are optional",
+          "hard": false
+        }
+      ],
+      "lede": "AI tool library where adding a tool requires signing in. Approved tools get a public tool page.",
+      "requirements": {
+        "must": [
+          "Sign in to submit an AI tool.",
+          "Choose the free queue or review a paid launch package."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Submit your Tool and sign in.",
+        "Add the tool details.",
+        "Choose the free queue or the paid package that matches your launch."
+      ],
+      "tip": "Free listings wait their turn. Current paid launch packages are £298 and £499 once; the older £49 price is not shown on the current page.",
+      "id": "theailibrary",
+      "domain": "theailibrary.co",
+      "dr": 29,
+      "monthly_visits": null,
+      "rank": 467,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Infrabase.ai",
+      "url": "https://infrabase.ai/",
+      "submit_url": "https://infrabase.ai/submit",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free listing; optional Featured placement $49/month.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "AI infrastructure tool directory with a submission entry. Approved tools get a public page with a link.",
+      "requirements": {
+        "must": [
+          "Provide an AI infrastructure product name, URL and contact email."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Submit a product.",
+        "Enter the product name, website and contact email.",
+        "Add a short description if useful and submit."
+      ],
+      "tip": "The return-link checkbox is optional. The extended listing checkbox is an expression of interest, not a purchase; Featured placement costs $49/month.",
+      "id": "infrabase",
+      "domain": "infrabase.ai",
+      "dr": 28,
+      "monthly_visits": null,
+      "rank": 494,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Super Launch",
+      "url": "https://superlaunch.in/",
+      "submit_url": "https://superlaunch.in/submit",
+      "category": "launch-platform",
+      "price_type": "freemium",
+      "price_note": "Core submission and eligibility checks are free; optional sponsored promotion is separate.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "Independent directory for DPIIT-recognised startups registered in India. Free submissions use automated evidence checks, with exceptions sent for human review.",
+      "requirements": {
+        "must": [
+          "Eligible India-registered entity with a matching DPIIT recognition certificate.",
+          "Provide legal identifiers, registration details, a live HTTPS website, startup details and submitter email.",
+          "Upload the recognition PDF (maximum 5 MB).",
+          "Submitter must be at least 18, authorised to represent the entity and permitted to share the submitted content."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Complete the startup, legal-entity and certificate fields.",
+        "Confirm authority, content permissions and the certificate-processing notice.",
+        "Complete email verification and submit for checks; matches may publish automatically, while exceptions receive human review."
+      ],
+      "tip": "The platform says matching certificate, legal identifiers, live HTTPS website and own-domain email verification can publish a listing automatically. Personal email addresses or scanned certificates receive manual review. Sponsorship does not buy approval or verification.",
+      "id": "superlaunch",
+      "domain": "superlaunch.in",
+      "dr": 26,
+      "monthly_visits": null,
+      "rank": 528,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-25T09:34:18.003Z"
+    },
+    {
+      "name": "DropYourAI",
+      "url": "https://dropyourai.com/",
+      "submit_url": "https://www.dropyourai.com/submit-tool",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free submission; optional promotion costs $19 for one month or $39 for one year. Renewal type not stated.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "AI tool directory with a Submit Tool page. Approved tools get a public page linking to the site.",
+      "requirements": {
+        "must": [
+          "Provide product name, image, email, website, pricing and descriptions.",
+          "Choose an AI category and subcategory."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Complete the tool form.",
+        "Choose Submit For Free or review optional promotion.",
+        "Send it for editorial review."
+      ],
+      "tip": "Use Submit For Free for the regular review route. Optional homepage or Top Products promotion has a separate listing term and charge.",
+      "id": "dropyourai",
+      "domain": "dropyourai.com",
+      "dr": 19,
+      "monthly_visits": null,
+      "rank": 470,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "ToolFound",
+      "url": "https://toolfound.com/",
+      "submit_url": "https://toolfound.com/submit",
+      "category": "launch-platform",
+      "price_type": "freemium",
+      "price_note": "Free permanent listing. Optional Priority Launch is $29 once; Plus is $99/year, billed annually. Currency displayed as $. Earlier dates and sponsor slots are subject to availability.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Product URL and email",
+          "hard": true
+        },
+        {
+          "text": "Ownership verification before publication",
+          "hard": true
+        }
+      ],
+      "lede": "Software launch board with free permanent listings, ownership checks and a visible launch queue.",
+      "requirements": {
+        "must": [
+          "Provide the product URL and an email address.",
+          "Verify product ownership before publication.",
+          "Use a product-domain email, or a verified personal email plus a meta tag or DNS TXT record.",
+          "Optional logo: PNG, JPG, GIF or WebP up to 2MB; SVG is not supported."
+        ],
+        "not_needed": [
+          "Payment for a standard launch",
+          "Reciprocal badge",
+          "Marketing email opt-in",
+          "Logo upload (the site icon can be used)"
+        ]
+      },
+      "steps": [
+        "Submit the product URL and email; add a logo or use the site icon.",
+        "Review the drafted copy and requested launch date.",
+        "Verify ownership to confirm the reservation."
+      ],
+      "tip": "Badges are optional. Verify a product-domain email, or verify a personal email and prove website control with a meta tag or DNS TXT record. The launch date shown before verification is only an estimate.",
+      "id": "toolfound",
+      "domain": "toolfound.com",
+      "dr": 15,
+      "monthly_visits": null,
+      "rank": 610,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-25T18:33:24.768Z"
+    }
+  ],
+  "all_whitelist_sites_by_rank": [
+    {
+      "name": "SaaSHub",
+      "url": "https://saashub.com/",
+      "submit_url": "https://www.saashub.com/services/submit",
+      "category": "saas-directory",
+      "price_type": "freemium",
+      "price_note": "Free listing; featured promotion is $99/month, cancel anytime",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Live product required",
+          "hard": true
+        },
+        {
+          "text": "Own domain",
+          "hard": true
+        },
+        {
+          "text": "Manual review",
+          "hard": true
+        }
+      ],
+      "lede": "Software directory organised around categories and alternatives. Products go through approval before publication.",
+      "requirements": {
+        "must": [
+          "An English-language product that is already released",
+          "A product website on an independent domain",
+          "Add relevant categories and competing products"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Enter your product URL on the submission page",
+        "Add categories and the products yours can replace",
+        "Verify an email on your product domain to improve review priority"
+      ],
+      "tip": "Missing competitors can send your submission to the back of the queue. Domain-email verification improves its priority; unreleased products, waitlists and development agencies are excluded.",
+      "id": "saashub",
+      "domain": "saashub.com",
+      "dr": 80,
+      "monthly_visits": 362600,
+      "rank": 4,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-20T13:31:54.695Z"
+    },
+    {
+      "name": "AlternativeTo",
+      "url": "https://alternativeto.net/",
+      "submit_url": "https://alternativeto.net/faq/#add-a-new-application",
+      "category": "saas-directory",
+      "price_type": "freemium",
+      "price_note": "Free review queue; paid Priority review",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Verified email account",
+          "hard": true
+        },
+        {
+          "text": "Public English product",
+          "hard": true
+        },
+        {
+          "text": "Manual review",
+          "hard": true
+        }
+      ],
+      "lede": "Software directory where people compare products and suggest alternatives to existing applications.",
+      "requirements": {
+        "must": [
+          "Register and verify your email",
+          "Product must be public and in English",
+          "No thin AI wrappers, simple tool lists or unreleased/private-beta products",
+          "Do not use your profile for advertising"
+        ],
+        "not_needed": [
+          "No backlink required"
+        ]
+      },
+      "steps": [
+        "Register and verify your email",
+        "Choose Suggest new application from the user menu",
+        "Fill in platforms, license, description, tags and official URL, then submit",
+        "Optionally buy priority review at the fee shown after submission",
+        "Check My submissions for the waiting status"
+      ],
+      "tip": "The normal queue may not be reviewed for a long time, and review is not guaranteed. Paid priority usually takes 1–2 business days, or up to a week during busy periods, but does not guarantee approval. Check eligibility before paying.",
+      "id": "alternativeto",
+      "domain": "alternativeto.net",
+      "dr": 81,
+      "monthly_visits": 2200000,
+      "rank": 14,
+      "verified_at": "2026-10-17",
+      "updated_at": "2026-10-20T13:32:18.979Z"
+    },
+    {
+      "name": "Uneed",
+      "url": "https://uneed.best/",
+      "submit_url": "https://www.uneed.best/submit-a-tool",
+      "category": "launch-platform",
+      "price_type": "freemium",
+      "price_note": "Free queue; Fast-track $14.99; Skip the line $29.99; relaunch $15",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Account to save",
+          "hard": true
+        },
+        {
+          "text": "Long free queue",
+          "hard": true
+        },
+        {
+          "text": "Score threshold for dofollow",
+          "hard": false
+        }
+      ],
+      "lede": "Product launchpad with a free queue, a paid fast-track queue and a paid option to choose your launch date.",
+      "requirements": {
+        "must": [
+          "Product name and website URL",
+          "Create an account to save the imported product details",
+          "Free launches need an upvote score of 10 to stay published; 20 for a dofollow link"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Enter your product name and URL to preview imported details",
+        "Sign up to save the product and review its information",
+        "Join the free queue, choose Fast-track or pay to choose a launch date"
+      ],
+      "tip": "The free queue can assign a date up to five months away. Fast-track quotes about 14 days; free and Fast-track links have different vote-score thresholds.",
+      "id": "uneed",
+      "domain": "uneed.best",
+      "dr": 76,
+      "monthly_visits": 171900,
+      "rank": 26,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "AIToolNet",
+      "url": "https://aitoolnet.com/",
+      "submit_url": "https://www.aitoolnet.com/submit",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Start free; Pro $9.90 one-time; Business $49.90 one-time",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "AI tools only",
+          "hard": true
+        },
+        {
+          "text": "Check for duplicates",
+          "hard": true
+        },
+        {
+          "text": "Manual review",
+          "hard": true
+        }
+      ],
+      "lede": "AI tools directory with a free queue, a $9.90 faster listing and a $49.90 featured option.",
+      "requirements": {
+        "must": [
+          "An AI tool not already listed; newsletters and directories are excluded",
+          "Tool name, website, category and email",
+          "Pass the site’s approval process"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Search for an existing listing",
+        "Choose Start, Pro or Business",
+        "Complete the tool details and payment if using a paid plan",
+        "Await manual review"
+      ],
+      "tip": "The free tier says 30 days, while the FAQ says the queue can take 30–60 days. Pro quotes 24 hours; Business adds seven days of homepage and category placement.",
+      "id": "aitoolnet",
+      "domain": "aitoolnet.com",
+      "dr": 56,
+      "monthly_visits": null,
+      "rank": 52,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "ShowMeBest",
+      "url": "https://showmebest.ai/",
+      "submit_url": "https://showmebest.ai/submit",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free; Basic $9.99; Pro $49.99",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "AI tools only",
+          "hard": true
+        },
+        {
+          "text": "Manual review",
+          "hard": true
+        }
+      ],
+      "lede": "AI tools directory with free, Basic and Pro listing options. Paid plans offer different listing and featured-placement durations.",
+      "requirements": {
+        "must": [
+          "An AI tool and the information requested in the submission form"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Choose Free, Basic or Pro",
+        "Provide your tool details",
+        "Review payment and listing duration before confirming a paid option"
+      ],
+      "tip": "Basic advertises a permanent listing. Pro’s table says six months, while other page copy uses forever; resolve that difference before purchasing Pro.",
+      "id": "showmebest",
+      "domain": "showmebest.ai",
+      "dr": 76,
+      "monthly_visits": null,
+      "rank": 53,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Best AI Tools Directory",
+      "url": "https://bai.tools/",
+      "submit_url": "https://bai.tools/pricing",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free; Standard $19.90 USD; Pro $29.90 USD, each paid plan one-time",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "AI tools directory with a free queue and paid Standard or Pro listings. No reciprocal backlink is required for the listed plans.",
+      "requirements": {
+        "must": [
+          "An AI tool and a selected listing plan"
+        ],
+        "not_needed": [
+          "A reciprocal backlink"
+        ]
+      },
+      "steps": [
+        "Open Pricing and choose Free, Standard or Pro",
+        "Use Submit AI to enter the tool details",
+        "Complete payment for a paid plan"
+      ],
+      "tip": "The free queue is quoted at one to six months. Standard and Pro quote listing within 24 hours and seven or 30 featured days. The paid plans explicitly advertise do-follow links; free-plan link rel is not confirmed.",
+      "id": "bai",
+      "domain": "bai.tools",
+      "dr": 47,
+      "monthly_visits": null,
+      "rank": 73,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-23T02:21:36.423Z"
+    },
+    {
+      "name": "WordPress.com",
+      "url": "https://wordpress.com/",
+      "submit_url": "https://wordpress.com/start/",
+      "category": "blog-platform",
+      "price_type": "freemium",
+      "price_note": "Free plan; Personal US$9/month or US$4/month billed annually (US$48/year), excluding taxes",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Account",
+          "hard": true
+        },
+        {
+          "text": "Original content",
+          "hard": true
+        }
+      ],
+      "lede": "Hosted blogging platform for publishing articles that can link to your site.",
+      "requirements": {
+        "must": [
+          "A WordPress.com account",
+          "Original pages or posts that follow the service terms"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Create a WordPress.com site and choose its address.",
+        "Write your page or post and add relevant links.",
+        "Publish the content."
+      ],
+      "tip": "The free plan includes a WordPress.com address and displays ads. Use the standard editor for the free route: building with the WordPress Agent requires a paid plan. Link settings can optionally mark individual links nofollow.",
+      "id": "wordpress",
+      "domain": "wordpress.com",
+      "dr": 96,
+      "monthly_visits": null,
+      "rank": 95,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-23T03:37:26.583Z"
+    },
+    {
+      "name": "Notion",
+      "url": "https://notion.so/",
+      "submit_url": "https://www.notion.com/help/public-pages-and-web-publishing",
+      "category": "blog-platform",
+      "price_type": "freemium",
+      "price_note": "Unlimited free notion.site pages; custom-domain add-on $10/month or $8/month billed annually, per domain, plus a paid plan and domain registration (currency code unconfirmed)",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Account",
+          "hard": true
+        },
+        {
+          "text": "Page to publish",
+          "hard": true
+        }
+      ],
+      "lede": "Workspace tool that can publish public pages, usable for articles that link to your site.",
+      "requirements": {
+        "must": [
+          "A Notion account and a page to publish"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Share on your page, then Publish.",
+        "Choose Publish and copy the public site URL.",
+        "Check the page and its subpages while signed out."
+      ],
+      "tip": "Free Sites can enable search engine indexing. Custom-domain connection needs an existing paid plan plus a separate add-on. Publishing also exposes subpages by default and contributor names, photos and email addresses in page metadata; inspect the public result before sharing.",
+      "id": "notion",
+      "domain": "notion.so",
+      "dr": 92,
+      "monthly_visits": null,
+      "rank": 100,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-23T03:38:17.964Z"
+    },
+    {
+      "name": "PoweredbyAI",
+      "url": "https://poweredbyai.app/",
+      "submit_url": "https://poweredbyai.app/submit-tool",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free listing; Pro $11.99 and Elite $69.99 per listing, with no expiry",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Account",
+          "hard": true
+        },
+        {
+          "text": "Real AI tool",
+          "hard": true
+        },
+        {
+          "text": "Product details",
+          "hard": true
+        }
+      ],
+      "lede": "Directory that promotes AI tools, with a free manual-review listing and paid permanent plans.",
+      "requirements": {
+        "must": [
+          "A free PoweredByAI account and a verifiable AI product URL",
+          "Review the imported product details and required fields"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Create a free account and enter your tool URL.",
+        "Review the imported name, description, category and logo.",
+        "Choose a listing plan and submit for publication."
+      ],
+      "tip": "About offers free review within 24 to 48 hours. Pro and Elite are permanent paid listings. Check the final plan screen because the submit page emphasizes paid choices.",
+      "id": "poweredbyai",
+      "domain": "poweredbyai.app",
+      "dr": 35,
+      "monthly_visits": null,
+      "rank": 104,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "CurateClick",
+      "url": "https://curateclick.com/",
+      "submit_url": "https://curateclick.com/submit",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free; Fast Pass $19.9, Featured $29.9",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Product details",
+          "hard": true
+        },
+        {
+          "text": "Free dofollow: badge and DR above 5",
+          "hard": false
+        }
+      ],
+      "lede": "Directory for AI, SaaS and online tools with a free tier and paid fast-track options.",
+      "requirements": {
+        "must": [
+          "Product details for the submission form"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Submit Product and enter the details.",
+        "Choose free review or a paid placement.",
+        "For the optional free dofollow upgrade, add the badge on a site with DR above 5."
+      ],
+      "tip": "Ordinary free listings are advertised as nofollow, with one to two months for review and no indexing guarantee. An optional badge on a site with DR above 5 earns a dofollow upgrade. A previous CTA sample was followed, but body links were nofollow; that sample does not describe every listing or placement.",
+      "id": "curateclick",
+      "domain": "curateclick.com",
+      "dr": 44,
+      "monthly_visits": null,
+      "rank": 108,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Launch",
+      "url": "https://trylaunch.ai/",
+      "submit_url": "https://trylaunch.ai/start",
+      "category": "launch-platform",
+      "price_type": "freemium",
+      "price_note": "Free; Pro $39 one-time; Grow $199; Pass $99/year",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Screenshots required",
+          "hard": true
+        },
+        {
+          "text": "Free launch queue",
+          "hard": true
+        }
+      ],
+      "lede": "Product launch community for AI tools, SaaS and other technology products.",
+      "requirements": {
+        "must": [
+          "Product name, tagline, screenshots, categories and tech stack"
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open the launch guide and follow Submit your product.",
+        "Enter product details.",
+        "Use the free queue or choose a paid launch date."
+      ],
+      "tip": "Free launches join the standard queue. Pro lets you choose a date; Grow adds manual directory submissions. Check the estimate shown before submitting.",
+      "id": "trylaunch",
+      "domain": "trylaunch.ai",
+      "dr": 57,
+      "monthly_visits": null,
+      "rank": 208,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Brownbook",
+      "url": "https://brownbook.net/",
+      "submit_url": "https://www.brownbook.net/add-business",
+      "category": "other",
+      "price_type": "free",
+      "price_note": "Basic business listing is free.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "Global business directory with a basic listing form and website field.",
+      "requirements": {
+        "must": [
+          "Search for an existing listing before adding a duplicate.",
+          "Provide the business name, category and country."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Search for the business name and town.",
+        "Open Add a business and enter the required business details.",
+        "Add the business website and complete the remaining submission step."
+      ],
+      "tip": "Use consistent business details. The form includes website and social fields; claiming an existing listing gives you control of its information.",
+      "id": "brownbook",
+      "domain": "brownbook.net",
+      "dr": 80,
+      "monthly_visits": null,
+      "rank": 286,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Human or Not",
+      "url": "https://humanornot.co/",
+      "submit_url": "https://www.humanornot.co/submit-tool",
+      "category": "ai-directory",
+      "price_type": "free",
+      "price_note": "Free, live in 48 hours",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "AI tools only",
+          "hard": true
+        }
+      ],
+      "lede": "A directory of AI tools that publishes reviewed listings with a link.",
+      "requirements": {
+        "must": [
+          "The submitted tool must include AI features.",
+          "Provide a contact email and tool URL."
+        ],
+        "not_needed": []
+      },
+      "steps": [],
+      "tip": "The form advertises a free lifetime listing within 48 hours. Publication depends on meeting the AI-tool requirement.",
+      "id": "humanornot",
+      "domain": "humanornot.co",
+      "dr": 14,
+      "monthly_visits": null,
+      "rank": 304,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Business Software",
+      "url": "https://business-software.com/",
+      "submit_url": "https://www.business-software.com/add-your-product/",
+      "category": "saas-directory",
+      "price_type": "free",
+      "price_note": "Free",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "Business software listing site with an Add Your Product page. Approved products get a public page.",
+      "requirements": {
+        "must": [
+          "Provide your name, email, company name and product name.",
+          "Complete the CAPTCHA and agree to the publishing/marketing disclaimer."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Add Your Product.",
+        "Complete the required product and company fields.",
+        "Submit the form and watch for follow-up to complete the listing."
+      ],
+      "tip": "The team says it will contact you within two business days to finish the submission. Read the disclaimer covering publication and marketing use.",
+      "id": "business-software",
+      "domain": "business-software.com",
+      "dr": 49,
+      "monthly_visits": null,
+      "rank": 432,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "StartupTracker",
+      "url": "https://startuptracker.io/",
+      "submit_url": "https://startuptracker.io/crowdsourcing/",
+      "category": "launch-platform",
+      "price_type": "free",
+      "price_note": "Official crowdsourcing page states that startup listings are 100% free.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "Crowdsourced startup tracker. Added projects get a public page with a link to the site.",
+      "requirements": {
+        "must": [],
+        "not_needed": []
+      },
+      "steps": [
+        "Open the crowdsourcing page to verify an existing profile or begin a new one.",
+        "Enter the startup name without Inc/Ltd and the website URL.",
+        "Review any further requirements before submitting."
+      ],
+      "tip": "The crowdsourcing page now exposes startup-name and website-URL fields. Check for an existing profile before adding one; the later submission steps were not tested.",
+      "id": "startuptracker",
+      "domain": "startuptracker.io",
+      "dr": 43,
+      "monthly_visits": null,
+      "rank": 437,
+      "verified_at": "2026-10-17",
+      "updated_at": "2026-10-24T21:39:26.291Z"
+    },
+    {
+      "name": "TipSeason",
+      "url": "https://tipseason.com/",
+      "submit_url": "https://www.tipseason.com/ai-tools/submit-free",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free queue of 90+ days; Premium $49; Ultimate $99. Billing frequency is not stated.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "AI tool directory with a submission page. Approved tools get a public tool page with a link to the official site.",
+      "requirements": {
+        "must": [
+          "Provide email, tool name, descriptions, category, pricing model, use case and website."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Complete the free tool form or choose a paid plan.",
+        "Describe the tool and its main use case.",
+        "Submit for review and wait for the selected queue."
+      ],
+      "tip": "The free pricing card has a 90+ day queue despite also mentioning 24-48 hours. Treat the faster timing as paid priority and confirm it before buying.",
+      "id": "tipseason",
+      "domain": "tipseason.com",
+      "dr": 46,
+      "monthly_visits": null,
+      "rank": 459,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "DevPages",
+      "url": "https://devpages.io/",
+      "submit_url": "https://devpages.io/submit-a-tool",
+      "category": "saas-directory",
+      "price_type": "free",
+      "price_note": "Free, reviewed by hand",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "Tool directory for developers with a Submit a Tool page. Listed tools get a public page linking to the site.",
+      "requirements": {
+        "must": [
+          "Provide the developer tool name, description, website, category, pricing and contact email."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Submit a Tool.",
+        "Complete required product fields; add GitHub and tags if useful.",
+        "Submit the tool for review."
+      ],
+      "tip": "Explain the developer task the tool solves. DevPages says every submission is read by hand and uses your email to report the outcome.",
+      "id": "devpages",
+      "domain": "devpages.io",
+      "dr": 10,
+      "monthly_visits": null,
+      "rank": 460,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "The AI Library",
+      "url": "https://theailibrary.co/",
+      "submit_url": "https://www.theailibrary.co/submit-tool",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free submission queue; Premium £298 once; Platinum £499 once.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Sign in to submit",
+          "hard": true
+        },
+        {
+          "text": "Free submissions wait in a queue",
+          "hard": true
+        },
+        {
+          "text": "Paid launch packages are optional",
+          "hard": false
+        }
+      ],
+      "lede": "AI tool library where adding a tool requires signing in. Approved tools get a public tool page.",
+      "requirements": {
+        "must": [
+          "Sign in to submit an AI tool.",
+          "Choose the free queue or review a paid launch package."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Submit your Tool and sign in.",
+        "Add the tool details.",
+        "Choose the free queue or the paid package that matches your launch."
+      ],
+      "tip": "Free listings wait their turn. Current paid launch packages are £298 and £499 once; the older £49 price is not shown on the current page.",
+      "id": "theailibrary",
+      "domain": "theailibrary.co",
+      "dr": 29,
+      "monthly_visits": null,
+      "rank": 467,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "DropYourAI",
+      "url": "https://dropyourai.com/",
+      "submit_url": "https://www.dropyourai.com/submit-tool",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free submission; optional promotion costs $19 for one month or $39 for one year. Renewal type not stated.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "AI tool directory with a Submit Tool page. Approved tools get a public page linking to the site.",
+      "requirements": {
+        "must": [
+          "Provide product name, image, email, website, pricing and descriptions.",
+          "Choose an AI category and subcategory."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Complete the tool form.",
+        "Choose Submit For Free or review optional promotion.",
+        "Send it for editorial review."
+      ],
+      "tip": "Use Submit For Free for the regular review route. Optional homepage or Top Products promotion has a separate listing term and charge.",
+      "id": "dropyourai",
+      "domain": "dropyourai.com",
+      "dr": 19,
+      "monthly_visits": null,
+      "rank": 470,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Infrabase.ai",
+      "url": "https://infrabase.ai/",
+      "submit_url": "https://infrabase.ai/submit",
+      "category": "ai-directory",
+      "price_type": "freemium",
+      "price_note": "Free listing; optional Featured placement $49/month.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "AI infrastructure tool directory with a submission entry. Approved tools get a public page with a link.",
+      "requirements": {
+        "must": [
+          "Provide an AI infrastructure product name, URL and contact email."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Submit a product.",
+        "Enter the product name, website and contact email.",
+        "Add a short description if useful and submit."
+      ],
+      "tip": "The return-link checkbox is optional. The extended listing checkbox is an expression of interest, not a purchase; Featured placement costs $49/month.",
+      "id": "infrabase",
+      "domain": "infrabase.ai",
+      "dr": 28,
+      "monthly_visits": null,
+      "rank": 494,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Webflow",
+      "url": "https://webflow.io/",
+      "submit_url": "https://webflow.com/pricing",
+      "category": "blog-platform",
+      "price_type": "freemium",
+      "price_note": "Free Starter: webflow.io domain, 2 static pages, 1GB bandwidth and limited CMS. Paid plans add custom domains.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "Visual website builder with a free Starter site on a webflow.io address.",
+      "requirements": {
+        "must": [
+          "Create a Webflow account.",
+          "Keep a free Starter site within its page and bandwidth limits."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Create a site from a template or blank project.",
+        "Add your project content and website links.",
+        "Publish to the free webflow.io address."
+      ],
+      "tip": "The free plan is suitable for a small project site. Check page and CMS limits before building; custom-domain hosting requires a paid Site plan.",
+      "id": "webflow",
+      "domain": "webflow.io",
+      "dr": 92,
+      "monthly_visits": null,
+      "rank": 513,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "Carrd",
+      "url": "https://carrd.co/",
+      "submit_url": "https://carrd.co/build",
+      "category": "blog-platform",
+      "price_type": "freemium",
+      "price_note": "Free: 3 sites. Pro Lite $9/year; Pro Standard with custom domains $19/year.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "One-page website builder with a free plan for up to three sites.",
+      "requirements": {
+        "must": [
+          "Create a Carrd account to manage published sites."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Choose a template or blank page.",
+        "Add your content and website links.",
+        "Publish on a Carrd address or a supported paid custom domain."
+      ],
+      "tip": "Use the free Carrd address for a simple page. Custom domains and forms require an appropriate Pro plan.",
+      "id": "carrd",
+      "domain": "carrd.co",
+      "dr": 91,
+      "monthly_visits": null,
+      "rank": 514,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "nologin.tools",
+      "url": "https://nologin.tools/",
+      "submit_url": "https://nologin.tools/submit",
+      "category": "other",
+      "price_type": "free",
+      "price_note": "Basic listing is free. Adding the site badge gives priority review and a ranking boost.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "No-login tools only",
+          "hard": true
+        }
+      ],
+      "lede": "Directory of tools whose core features work without an account. Basic listings are free and reviewed.",
+      "requirements": {
+        "must": [
+          "The tool's core functionality must work without signing up or logging in.",
+          "Provide the tool URL and confirm it meets the rules."
+        ],
+        "not_needed": [
+          "Contact email is optional on the submission form."
+        ]
+      },
+      "steps": [
+        "Open the submission form and add the tool URL.",
+        "Confirm the no-login requirement and submit for review."
+      ],
+      "tip": "One submitter reported submitting on July 30 and seeing the listing live about 20 days later. They checked the listing URL directly because it was absent from the sitemap. Treat that as one experience, not the current review schedule. The official form now says the badge is optional and grants priority review.",
+      "id": "nologin",
+      "domain": "nologin.tools",
+      "dr": 41,
+      "monthly_visits": null,
+      "rank": 523,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-25T09:34:16.613Z"
+    },
+    {
+      "name": "Super Launch",
+      "url": "https://superlaunch.in/",
+      "submit_url": "https://superlaunch.in/submit",
+      "category": "launch-platform",
+      "price_type": "freemium",
+      "price_note": "Core submission and eligibility checks are free; optional sponsored promotion is separate.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [],
+      "lede": "Independent directory for DPIIT-recognised startups registered in India. Free submissions use automated evidence checks, with exceptions sent for human review.",
+      "requirements": {
+        "must": [
+          "Eligible India-registered entity with a matching DPIIT recognition certificate.",
+          "Provide legal identifiers, registration details, a live HTTPS website, startup details and submitter email.",
+          "Upload the recognition PDF (maximum 5 MB).",
+          "Submitter must be at least 18, authorised to represent the entity and permitted to share the submitted content."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Complete the startup, legal-entity and certificate fields.",
+        "Confirm authority, content permissions and the certificate-processing notice.",
+        "Complete email verification and submit for checks; matches may publish automatically, while exceptions receive human review."
+      ],
+      "tip": "The platform says matching certificate, legal identifiers, live HTTPS website and own-domain email verification can publish a listing automatically. Personal email addresses or scanned certificates receive manual review. Sponsorship does not buy approval or verification.",
+      "id": "superlaunch",
+      "domain": "superlaunch.in",
+      "dr": 26,
+      "monthly_visits": null,
+      "rank": 528,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-25T09:34:18.003Z"
+    },
+    {
+      "name": "Fundl",
+      "url": "https://fundl.us/",
+      "submit_url": "https://fundl.us/create-project",
+      "category": "launch-platform",
+      "price_type": "free",
+      "price_note": "A basic shareable traction page is advertised as free; crowdfunding terms are separate.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Free listing reported",
+          "hard": false
+        }
+      ],
+      "lede": "Project platform with free public traction pages and optional reward-based crowdfunding.",
+      "requirements": {
+        "must": [
+          "Sign in to create a project.",
+          "Provide a project name, description, image and link."
+        ],
+        "not_needed": []
+      },
+      "steps": [
+        "Open Create Project and sign in.",
+        "Add project details and connect relevant traction sources.",
+        "Review the public page before sharing it."
+      ],
+      "tip": "The current product focuses on project details and connected traction data. A free page does not prove that every submission is accepted without review.",
+      "id": "fundl",
+      "domain": "fundl.us",
+      "dr": 30,
+      "monthly_visits": null,
+      "rank": 535,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-18T03:59:15.481Z"
+    },
+    {
+      "name": "SmolLaunch",
+      "url": "https://smollaunch.com/",
+      "submit_url": "https://smollaunch.com/pricing",
+      "category": "launch-platform",
+      "price_type": "freemium",
+      "price_note": "Basic Free without badge; Free Verified with badge. Premium $19 or Premium+ $39 per launch.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Free paths: 3 eligible votes this week",
+          "hard": true
+        },
+        {
+          "text": "Badge for Free Verified only",
+          "hard": false
+        },
+        {
+          "text": "Limited weekly slots",
+          "hard": false
+        }
+      ],
+      "lede": "Weekly launch board for indie and SaaS products. Paid ads are marked as sponsored.",
+      "requirements": {
+        "must": [
+          "Free paths: vote on 3 eligible launches by other makers in the current voting week",
+          "Free launch is for a product's first launch only",
+          "Free Verified requires the site badge and has 50 slots per week",
+          "Basic Free has a separate cap and queue",
+          "Relaunches require a paid tier"
+        ],
+        "not_needed": [
+          "No badge for Basic Free or paid launch tiers",
+          "No preliminary votes for paid launch tiers"
+        ]
+      },
+      "steps": [
+        "Create an account and add your product.",
+        "Choose Basic Free, Free Verified or a paid launch.",
+        "For either free path, complete 3 qualifying votes; for Free Verified, also verify the site badge.",
+        "Complete the chosen tier's scheduling steps."
+      ],
+      "tip": "Both free paths require 3 qualifying votes on other makers' eligible launches during the current voting week. Basic Free is nofollow; Free Verified requires a site badge for a dofollow listing. Each path has its own cap and queue; Free Verified has 50 weekly slots. Free covers the first launch only; relaunches are paid. Paid launch tiers need neither badge nor preliminary votes. Featured Spot ads have sponsored links.",
+      "id": "smollaunch",
+      "domain": "smollaunch.com",
+      "dr": 76,
+      "monthly_visits": null,
+      "rank": 555,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-25T12:47:02.829Z"
+    },
+    {
+      "name": "ToolFound",
+      "url": "https://toolfound.com/",
+      "submit_url": "https://toolfound.com/submit",
+      "category": "launch-platform",
+      "price_type": "freemium",
+      "price_note": "Free permanent listing. Optional Priority Launch is $29 once; Plus is $99/year, billed annually. Currency displayed as $. Earlier dates and sponsor slots are subject to availability.",
+      "link_type": "dofollow",
+      "needs_badge": false,
+      "asks": [
+        {
+          "text": "Product URL and email",
+          "hard": true
+        },
+        {
+          "text": "Ownership verification before publication",
+          "hard": true
+        }
+      ],
+      "lede": "Software launch board with free permanent listings, ownership checks and a visible launch queue.",
+      "requirements": {
+        "must": [
+          "Provide the product URL and an email address.",
+          "Verify product ownership before publication.",
+          "Use a product-domain email, or a verified personal email plus a meta tag or DNS TXT record.",
+          "Optional logo: PNG, JPG, GIF or WebP up to 2MB; SVG is not supported."
+        ],
+        "not_needed": [
+          "Payment for a standard launch",
+          "Reciprocal badge",
+          "Marketing email opt-in",
+          "Logo upload (the site icon can be used)"
+        ]
+      },
+      "steps": [
+        "Submit the product URL and email; add a logo or use the site icon.",
+        "Review the drafted copy and requested launch date.",
+        "Verify ownership to confirm the reservation."
+      ],
+      "tip": "Badges are optional. Verify a product-domain email, or verify a personal email and prove website control with a meta tag or DNS TXT record. The launch date shown before verification is only an estimate.",
+      "id": "toolfound",
+      "domain": "toolfound.com",
+      "dr": 15,
+      "monthly_visits": null,
+      "rank": 610,
+      "verified_at": "2026-10-18",
+      "updated_at": "2026-10-25T18:33:24.768Z"
+    }
+  ]
+}

@@ -4,8 +4,8 @@
   "min_cpc": 0.01,
   "need_open_serp": true,
   "database": "us",
-  "max_terms": 110,
-  "max_spend_usd": 0.8,
+  "max_terms": 60,
+  "max_spend_usd": 0.5,
   "cache_days": 7,
   "serp_fetch": true,
   "serp_location_code": 2840,
@@ -14,5 +14,10 @@
   "check_allintitle": true,
   "need_small_sites": false,
   "small_sites_min": 5,
-  "tool_intent_bonus": 15
+  "tool_intent_bonus": 15,
+  "vacuum_enabled": true,
+  "vacuum_min_ratio": 0.7,
+  "vacuum_max_serp_checks": 18,
+  "check_domains": true,
+  "domain_tlds": ["com", "ai", "io", "org"]
 }

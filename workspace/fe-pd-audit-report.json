@@ -1,0 +1,435 @@
+{
+  "base": "https://frame-extractor.app",
+  "ssr": {
+    "uniqueTestids": 29,
+    "testidOccurrences": 29,
+    "uniqueList": [
+      "codec-compat-matrix",
+      "contact-sheet-cols-3",
+      "contact-sheet-cols-4",
+      "contact-sheet-cols-5",
+      "contact-sheet-watermark-toggle",
+      "copy-ffmpeg-cli",
+      "copy-ffmpeg-framemd5",
+      "copy-ffmpeg-remux",
+      "copy-share-link-btn",
+      "deselect-all-frames",
+      "download-verification-manifest-btn",
+      "download-zip-btn",
+      "engineering-verification-table",
+      "export-contact-sheet-btn",
+      "ffmpeg-cli-preview",
+      "grab-and-download-frame",
+      "grab-current-frame",
+      "grab-first-last-frame",
+      "micro-filmstrip-loupe",
+      "select-all-frames",
+      "ssr-workbench-controls",
+      "step-next-10ms",
+      "step-next-5-frames",
+      "step-next-frame",
+      "step-prev-10ms",
+      "step-prev-5-frames",
+      "step-prev-frame",
+      "trigger-burst-filmstrip",
+      "try-sample-video-btn"
+    ],
+    "geoHits": {
+      "requestVideoFrameCallback": true,
+      "metadata.mediaTime": true,
+      "metadata.presentedFrames": true,
+      "Laplacian": true,
+      "SHA-256": true,
+      "framemd5": true,
+      "showinfo": true,
+      "ffprobe": true,
+      "WebCodecs": true,
+      "SMPTE": true
+    },
+    "detailsCount": 11,
+    "detailsOpenDefault": 0,
+    "pdOpenInSSR": []
+  },
+  "viewports": {
+    "desktop": {
+      "size": {
+        "name": "desktop",
+        "width": 1280,
+        "height": 800
+      },
+      "collapsed": {
+        "state": "collapsed",
+        "horizontalOverflow": 0,
+        "stickyHeaderOpaque": true,
+        "nestedCards": 0,
+        "nestedCardSamples": [],
+        "drawers": [
+          {
+            "id": "ssr-workbench-controls",
+            "present": true,
+            "open": false,
+            "summary": {
+              "x": 145,
+              "w": 990,
+              "h": 40,
+              "y": 842.8
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 26
+          },
+          {
+            "id": "micro-filmstrip-loupe",
+            "present": true,
+            "open": false,
+            "summary": {
+              "x": 145,
+              "w": 990,
+              "h": 40,
+              "y": 924.8
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 12
+          },
+          {
+            "id": "engineering-verification-table",
+            "present": true,
+            "open": false,
+            "summary": {
+              "x": 145,
+              "w": 990,
+              "h": 40,
+              "y": 976.8
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 1
+          },
+          {
+            "id": "codec-compat-matrix",
+            "present": true,
+            "open": false,
+            "summary": {
+              "x": 145,
+              "w": 990,
+              "h": 40,
+              "y": 1028.8
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 1
+          }
+        ],
+        "ffmpeg": {
+          "present": true,
+          "open": false,
+          "summary": {
+            "x": 145,
+            "w": 990,
+            "h": 40
+          }
+        },
+        "uniqueTestidCount": 29,
+        "testidOccurrenceCount": 29
+      },
+      "expanded": {
+        "state": "expanded",
+        "horizontalOverflow": 0,
+        "stickyHeaderOpaque": true,
+        "nestedCards": 0,
+        "nestedCardSamples": [],
+        "drawers": [
+          {
+            "id": "ssr-workbench-controls",
+            "present": true,
+            "open": true,
+            "summary": {
+              "x": 145,
+              "w": 990,
+              "h": 40,
+              "y": 842.8
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 26
+          },
+          {
+            "id": "micro-filmstrip-loupe",
+            "present": true,
+            "open": true,
+            "summary": {
+              "x": 145,
+              "w": 990,
+              "h": 40,
+              "y": 1343.8
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 12
+          },
+          {
+            "id": "engineering-verification-table",
+            "present": true,
+            "open": true,
+            "summary": {
+              "x": 145,
+              "w": 990,
+              "h": 40,
+              "y": 1607.8
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 1
+          },
+          {
+            "id": "codec-compat-matrix",
+            "present": true,
+            "open": true,
+            "summary": {
+              "x": 145,
+              "w": 990,
+              "h": 40,
+              "y": 2067.3
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 1
+          }
+        ],
+        "ffmpeg": {
+          "present": true,
+          "open": true,
+          "summary": {
+            "x": 145,
+            "w": 990,
+            "h": 40
+          }
+        },
+        "uniqueTestidCount": 29,
+        "testidOccurrenceCount": 29
+      },
+      "summaryDrift": {
+        "ssr-workbench-controls": {
+          "dx": 0,
+          "dw": 0
+        },
+        "micro-filmstrip-loupe": {
+          "dx": 0,
+          "dw": 0
+        },
+        "engineering-verification-table": {
+          "dx": 0,
+          "dw": 0
+        },
+        "codec-compat-matrix": {
+          "dx": 0,
+          "dw": 0
+        },
+        "ffmpeg": {
+          "dx": 0,
+          "dw": 0
+        }
+      },
+      "screenshotCollapsed": "/workspace/fe-pd-desktop-1280x800.png"
+    },
+    "mobile": {
+      "size": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "collapsed": {
+        "state": "collapsed",
+        "horizontalOverflow": 0,
+        "stickyHeaderOpaque": true,
+        "nestedCards": 0,
+        "nestedCardSamples": [],
+        "drawers": [
+          {
+            "id": "ssr-workbench-controls",
+            "present": true,
+            "open": false,
+            "summary": {
+              "x": 17,
+              "w": 356,
+              "h": 40,
+              "y": 1070.5
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 26
+          },
+          {
+            "id": "micro-filmstrip-loupe",
+            "present": true,
+            "open": false,
+            "summary": {
+              "x": 17,
+              "w": 356,
+              "h": 40,
+              "y": 1152.5
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 12
+          },
+          {
+            "id": "engineering-verification-table",
+            "present": true,
+            "open": false,
+            "summary": {
+              "x": 17,
+              "w": 356,
+              "h": 40,
+              "y": 1204.5
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 1
+          },
+          {
+            "id": "codec-compat-matrix",
+            "present": true,
+            "open": false,
+            "summary": {
+              "x": 17,
+              "w": 356,
+              "h": 40,
+              "y": 1256.5
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 1
+          }
+        ],
+        "ffmpeg": {
+          "present": true,
+          "open": false,
+          "summary": {
+            "x": 17,
+            "w": 356,
+            "h": 40
+          }
+        },
+        "uniqueTestidCount": 29,
+        "testidOccurrenceCount": 29
+      },
+      "expanded": {
+        "state": "expanded",
+        "horizontalOverflow": 0,
+        "stickyHeaderOpaque": true,
+        "nestedCards": 0,
+        "nestedCardSamples": [],
+        "drawers": [
+          {
+            "id": "ssr-workbench-controls",
+            "present": true,
+            "open": true,
+            "summary": {
+              "x": 17,
+              "w": 356,
+              "h": 40,
+              "y": 1070.5
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 26
+          },
+          {
+            "id": "micro-filmstrip-loupe",
+            "present": true,
+            "open": true,
+            "summary": {
+              "x": 17,
+              "w": 356,
+              "h": 40,
+              "y": 2012.5
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 12
+          },
+          {
+            "id": "engineering-verification-table",
+            "present": true,
+            "open": true,
+            "summary": {
+              "x": 17,
+              "w": 356,
+              "h": 40,
+              "y": 2341.5
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 1
+          },
+          {
+            "id": "codec-compat-matrix",
+            "present": true,
+            "open": true,
+            "summary": {
+              "x": 17,
+              "w": 356,
+              "h": 40,
+              "y": 3022
+            },
+            "markerHidden": true,
+            "buttonHeightOk": true,
+            "stepTopDelta": 0,
+            "buttonCount": 1
+          }
+        ],
+        "ffmpeg": {
+          "present": true,
+          "open": true,
+          "summary": {
+            "x": 17,
+            "w": 356,
+            "h": 40
+          }
+        },
+        "uniqueTestidCount": 29,
+        "testidOccurrenceCount": 29
+      },
+      "summaryDrift": {
+        "ssr-workbench-controls": {
+          "dx": 0,
+          "dw": 0
+        },
+        "micro-filmstrip-loupe": {
+          "dx": 0,
+          "dw": 0
+        },
+        "engineering-verification-table": {
+          "dx": 0,
+          "dw": 0
+        },
+        "codec-compat-matrix": {
+          "dx": 0,
+          "dw": 0
+        },
+        "ffmpeg": {
+          "dx": 0,
+          "dw": 0
+        }
+      },
+      "screenshotCollapsed": "/workspace/fe-pd-mobile-390x844.png"
+    }
+  }
+}

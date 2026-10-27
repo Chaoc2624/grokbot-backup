@@ -1,0 +1,366 @@
+=== naixi
+### 银行开户 (1 条 / 1 人)
+> jack Bruce：资金去新加坡的银行账户，哪个加密货币交易所方便？
+
+### 零星消息
+> Jieee Jinnn：这东西要还吗 · 当年慈禧帮你还了
+
+~ 话题活跃成员：抛 瓦、𝓐𝓤、Calytrix、天海 九琉璃、裁缝、Calyx Hikari | TCC Bankruptcy Countdown
+
+=== haiwufang
+### 银行开户 (39 条 / 15 人)
+> avalon：美国嘉信又是券商又是银行 · kyc拉满了 · 可惜了我得用嘉信买股票
+> 海无方：@mymoneyyyyyy 你可以试试 Google fi 账单解c1啊
+> Ralap Richardson：还能有地址证明
+> 八方来财：？地址证明我能搞到啊 · 地址证明我等过几天sofi出账单不就有了
+> avalon：盈透你就买个100刀的国债
+> Soma：是的,最简单的就是入金-买国债-放7天-出金 · 包括换汇也是,ib换汇也很好用
+> avalon：ibkr换汇中间价抽0.03 · 也就众安1折能对着打了 · 众安一折是0.024 · 搞个ibkr没啥问题
+> Freeman X：我要弄个泰国盈透
+> avalon：就是每个月预先搞点买美股，cny买美股有自动换汇
+> 曹 尼玛：嗯 提前入金，嘉信和wise都一样也可以这样ACH Pull还对吧
+> night：中银来回
+> 海无方：我他妈现在开不了汇丰账户了
+> avalon：嘉信是真正正规券商+正规银行
+> xxoo：有机会能骗到一个实体银行checking的话 美卡出入金链路就圆满了 · 嘉信那个白卡可以整一下 · 看教程是改个邮寄地址 然后弄个地址证明就行 居住地不变没问题
+> Gahany：香港汇丰吗 · 来英国汇丰🌚
+> Oub：都能拿50万开hsbc us了
+> Zafkiel：汇丰不是只报eq和ex吗
+> sophnet：小心他给银行打电话。
+> avalon：嘉信只需要1000000usd
+> neco olivoa：前提你得有银行账单 证明
+
+### 美卡外卡 (22 条 / 13 人)
+> 海无方：@mymoneyyyyyy 你可以试试 Google fi 账单解c1啊
+> Ralap Richardson：还信用卡啊 · 还能有借记卡灰卡白卡
+> Spark：信用卡很多能还啊
+> Soma：单纯还信用卡用ib就行
+> CapeCake：说实话其实也就c1有点吃ip吧
+> 曹 尼玛：这个能做到长期稳定吗 前提得ib内交易活跃有一定资金才行吧。 不然券商判定你流水全是还信用卡 肯定风控的 · OKOK 也是直接在信用卡后台绑定 pull对吧
+> Freeman X：C1 · 信用卡绑定ibkr买美债？
+> night：c1 4天终于到了
+> avalon：但是只有visa debit
+> Victoria Camille：只要可以还c1信用卡就行
+> xxoo：那个卡还信用卡 比第一证券的野鸡卡稳 · 把汇丰刷起就能养信用了啊 你怎么还申c1这种野鸡 · 还是50万好，直接拿到实体checking和信用卡
+> Zafkiel：真是扫码了，一张c1，一张hsbc us，一张itin原件，要我660
+> neco olivoa：nubank 给了1100美金有itin和地址的都去试试
+> Victoria Camille：信用卡账单可以吗
+> 海无方：但是 nubank 的信用卡 大家再观望一下吧 · 目前还不上报信用局， 客服说法是只上报 eq
+
+### VPS (10 条 / 4 人)
+> Freeman X：兄弟们，有没有静态IP 推荐啊，我用的被封了 · 美国静态IP VPN推荐有吗 · 我自己用aws搭的免费服务器太卡了 · 机场的不要，万人骑的 · 自己用vps搭一个
+> CapeCake：说实话其实也就c1有点吃ip吧
+> avalon：https://resip.net/?r=DNP78Q · 这个是每个订阅都有一个独立的ip
+> Ralap Richardson：纯住宅ip · 自己用vps不也得用住宅ip
+
+### 羊毛链接 (14 条 / 6 人)
+> avalon：https://resip.net/?r=DNP78Q · 盈透你就买个100刀的国债 · 25000usd · 非大中华区100usd可开 · 大中华区1000000usd · 嘉信只需要1000000usd
+> Freeman X：我不喜欢用免费的 · 算了我去搞免费的升级一下
+> Ralap Richardson：45刀一个月
+> 八方来财：15刀20g够你用了吧
+> night：lemfi 很坑= =。一次只能回5u 30u起步 30u的羊毛懒的薅了
+> Zafkiel：兄弟们，扫码房东不让我自己打单，还有其他办法吗，给我报了100刀
+
+### SIM (2 条 / 2 人)
+> Freeman X：45刀那还不如用流量卡了
+> Ralap Richardson：那你就流量卡啊
+
+### 零星消息
+> 曹 尼玛：能过自己这一关就行，对老美无非是骗一次炮后再骗一次 · 完全不用 账号怎么保得住呢 · OK，等你们这样用个半年一年不出问题的话 直接抄作业
+> Ralap Richardson：你有不用他买股票
+> Freeman X：@avalon8320 来一个
+> Spark：schwab好像是0.15%
+> avalon：@tianwodediao 就是一直这么干的
+> night：之前搬砖出去开pulse 转回去被查水表 问我这些hkd是哪来的。。
+> xxoo：行 那也不是非ib不可了，另外两我都有 再试试申请一个ib看看给不给批 · 白色那个卡可以搞啊 合理合规的搞 · 灰色的那个只对ra开放的 骗到手也怕活不久 · 这是吹牛逼的 推上大把人搞到了白卡
+> Victoria Camille：第一证券不是可以开通现金账户吗 · 不规定全部是现金的，股票这些也算 · 从其他地方转个仓过来就可以了，我目前正在办 · 目前没法办到其他美国的checking
+> cool：postnet 这个商家是不能打单的
+> Zafkiel：能不能让他们寄到其他海淘平台的转运地址，再运回来
+> sophnet：群主一顿饭钱而已。
+> Oub：我都申请2个月了
+> 海无方：你怎么会那么久啊
+> neco olivoa：我12号申请的 20多号才可以申请
+
+~ 话题活跃成员：海无方、林先生、坠明、Xing Fan、Nathaniel、Ralap Richardson
+--- 核验
+- IBKR 自动换汇约 0.03%｜Interactive Brokers 官网 Spot Currencies 佣金页（2026-10-27 查阅）：auto currency conversion 会在适用汇率上加减 ==0.03%==（自行裁量），不另收佣金；手动 IDEALPRO 为 0.20 bps（约 ==0.002%==）且有订单最低收费 https://www.interactivebrokers.com/en/pricing/commissions-spot-currencies.php
+- 嘉信大中华区开户需 ==1000000== USD｜Charles Schwab International 开户页 / Pricing Guide（2026-10-27 查阅）：Schwab One International® Account 公开写明 ==$0== minimum deposit；未找到「大中华区零售最低 100 万美元」的官网条款 https://international.schwab.com/us-investing-brokerage-account https://www.schwab.com/legal/schwab-pricing-guide-for-individual-investors
+- Nubank 美区信用卡「只上报 Equifax」｜未找到 Nu/Nubank 美国官网写明信用局上报范围；社区整理文（huoke.me，2026-10-11）称开户申卡为 Equifax 软查询个案，非正式上报政策 https://blog.huoke.me/posts/nubank-us-account/ https://nu.com/us/en/legal-terms
+
+=== donni_hm
+### 银行开户 (15 条 / 5 人)
+> 华人出金U卡 | 柯南：Yonder，使用邀请链接 浏览器打开输入邮箱接收注册要求，App注册认证kyc（无需信用，uk的ip，手机号，地址），有信用的，地址证明都不需要； https://join.yondercard.com/nauxbki App内注意… · 寻找失主，开了yonder记得消费5笔 · 随便写的地址，那就不管了，啥时候关户 · zopa关户机器 · 开户好像是不用地址证明的
+> Vinv🇨🇳：zopa设置了怎么办 · 不激活就关户警告
+> 林先生：yonder我找客服给我补卡。。。上次没给我邮寄 · 现在monzo好像不收卡进不去了
+> Gahany：Monzo也没要我必须收卡就进了😁
+> LIN YU：yonder国内花风控严吗？ · 地址证明啊 · lemfi侥幸过关 · 你先把monzo拉起来 · 我算控制得好的，monzo没激活，但把户立起来了
+
+### 美卡外卡 (2 条 / 2 人)
+> Vinv🇨🇳：然后调用ap
+> LIN YU：哦哦，你们有ap
+
+### 羊毛链接 (2 条 / 1 人)
+> 华人出金U卡 | 柯南：结算完 马上可以拿返现的
+
+### VPS (1 条 / 1 人)
+> 华人出金U卡 | 柯南：Yonder，使用邀请链接 浏览器打开输入邮箱接收注册要求，App注册认证kyc（无需信用，uk的ip，手机号，地址），有信用的，地址证明都不需要； https://join.yondercard.com/nauxbki App内注意…
+
+### SIM (1 条 / 1 人)
+> Vinv🇨🇳：我就用流量点击就送了
+
+### 零星消息
+> 华人出金U卡 | 柯南：不强制收卡，不要设置pin码，有信用的可以弄 · 你也是老手了，还说这些 · 能不能进APP，都是55开概率 · cashi，明明不需要3000限额 确搞个选项 · 复审的项目是什么呢
+> Vinv🇨🇳：现在app pin都是灰的，点不了 · 没想到下虚拟卡了 · 你进了它还是寄卡 · 有留子朋友就是好
+> Gahany：能不能不激活实体卡 · 算了，我等英国早上了给留子讲声收卡吧 · 给客服说你搬家了，要重新填地址
+> 林先生：我还等着这几个卡呢，主要是好看
+> ALT GUI：要share code
+> Not now：跟sumup 一样 · 开了一半要这玩意
+> LIN YU：我记得我消费过几笔，就被复审了，现在不敢用alipayhk · 再不敢国内消费了 · 是，但他要复审的 · alipayHK · 目前用来中转加密 · 几乎没有怎么花冤枉钱 · 英区消费还是sumuppay · 不知道现在这条路还走不走得通，0费用建立信用地址😂
+> 口罩弟：这个我也刚开，说要联系客服，查看我的账户，乱填的英国地址。是不是要凉了呀 · 填哪里哦，都是云居民
+
+~ 话题活跃成员：Vinv🇨🇳、Da da、华人出金U卡 | 柯南、Sprint、Keil、林先生
+--- 核验
+- Yonder Full 借记卡开户材料｜Yonder 官网 Account Terms / How to Apply（2026-10-27 查阅）：申请需全名、出生日期、当前（有时含既往）住址、邮箱与手机、有效证件（护照或驾照）并完成 KYC；会员分 Free / Full，Full Debit 页标价约 ==£15==/月或 ==£160==/年；官网写 UK only https://www.yonder.com/docs/account-terms https://www.yonder.com/how-it-works/apply https://www.yonder.com/debit-cards/full-debit-card
+
+=== donni_jj
+### 银行开户与数字银行 (61 条 / 14 人)
+> Carey Mins：gia账户是不是中国税号可以开啊
+> 8848：我monzo只开了这个 · 会被要居留嘛？ · 反正我没被要居留，不知道是不是金额少
+> Vinv🇨🇳：为啥你这🐷和我开的zopa一毛一样
+> Carey Mins：开了max20试了没有 弹kyc了吗 · 弹过kyc吗
+> 8848：wise可以入金到pokepay的银行账户不，不会被风控吧
+> yuxi liu：我的kyc都一周了
+> William Sebastian：客服说不支持妈呀银行 · 然后要让我重新kyc
+> WHFWZ：maya完蛋 · 我主要税卡黑了 · 还给开户
+> J oy：提交银行端了
+> Vinv🇨🇳：那你们学校里面有没有us银行开 · 那这些老外都是开国内银行吗 · 他们总要转账吧
+> Ismail Smithson：老外开国内银行
+> WHFWZ：借记卡不用ssn或者itin · 我DCS账单啊 · DCS账单起码还能硬几个月
+> Carey Mins：还可以设置默认拒绝哪些护照 · 哪些银行
+> WHFWZ：其实也可以设置看到哪种护照直接过的吧 · 给人一种税卡还分体质的感觉 · 我刚拿到税卡的时候还横着走呢 · 不知道persona还认不认我的税卡
+> end 111555：中银香港在线客服用英文秒回复
+> WHFWZ：exa中国护照拍几次都不行 · 税卡可以
+> ice W：税卡
+> WHFWZ：我上次税卡拍完一次过 · 后来就进不去KYC界面了
+> Valerio（tz）：ifast，hk也能下卡啊
+> WHFWZ：其实我本来想着要是能帮我重置KYC我就不重开了 · uk要居留
+> J oy：下卡后然后要居留卡 · 没有就关户，老套路了
+> Carey Mins：hk随便下卡吗 · 不要居留？
+> Valerio（tz）：有没有注册ifast的，我给邀请码 · hk要毛线居留
+> Carey Mins：你有长期签证吗
+> J oy：没居留最终都是关户 · 怕个球 ifast 早晚都得关户 · 那天朝廷新闻社发个推文，ifast 瞬间就尿了
+> Vinv🇨🇳：我ifast就是cn · 这ifast卡好用吗
+> J oy：云开的反正都会关户
+> Carey Mins：有德区视频开户的 还没收到
+> Valerio（tz）：反正英卡福利也不多，不拿英镑来回转加密，ifast+pp够了
+> J oy：有可能电子 rmb 都不能进银行
+> Carey Mins：monzo你开户选了加密吗
+> J oy：放平心态你瞎搞弄关户，总比别人瞎搞弄关户，恶心到自己
+> Vinv🇨🇳：krak对账单
+> Carey Mins：我wise选了这个 · 和那个p居留有的一拼
+> 小梦 蚩：wise自雇好解释
+> 华人出金U卡 | 柯南：我是设置的bunq
+
+### VPS 与网络基建 (26 条 / 5 人)
+> Carey Mins：这是个牛魔家宽
+> WHFWZ：你在大陆能指望拿真正家宽？
+> Carey Mins：这就是机场啊
+> Vinv🇨🇳：比家宽强太多了
+> WHFWZ：我们校园网不止这一个IP
+> Carey Mins：你要整居民家宽权重高啊
+> ALT GUI：我就用的1。5刀的伪家宽
+> Carey Mins：不是有卖vps穿透出去的吗
+> Vinv🇨🇳：即便是国内ip
+> Carey Mins：这种都是机场
+> Vinv🇨🇳：你去美国能搞到家宽，可搞不到教育网 · 企业用什么机场 · 人家中外合办走机场
+> Carey Mins：搜一下居民家宽供应商 · 不用争 直接拿这个网去开一下甲骨文 看看是不是abc · 这俩不出问题就是真家宽级别 · 我告诉你我教育网没过甲骨文
+> Vinv🇨🇳：和ip没关系
+> Carey Mins：pro机场都可以 · 我那个pro用机场开的
+> Vinv🇨🇳：我连流量开的甲骨文
+> WHFWZ：之前我Claude敢用中国ip进去，虽然进不去就是了
+> Carey Mins：直接买个物理服务器插线 · 分一堆vps
+> ice W：又不是ip好就没问题
+> Carey Mins：校园网挂梯子都一堆
+
+### 美卡外卡 (19 条 / 6 人)
+> Vinv🇨🇳：那你们学生不是随便开美卡 · 开tm的，薅一堆美卡
+> Carey Mins：拿了美美开卡 · 学签开卡可顺利了 · 只给办itin吧 · ssn好像不是那么容易办 · 他就只有itin
+> Vinv🇨🇳：学生办ssn太简单了
+> WHFWZ：借记卡不用ssn或者itin · 信用卡还是需要ssn的 · 有些地方itin接受度低
+> WHFWZ：所以我现在没搞美卡
+> Carey Mins：他和群里学 为了开卡随便p地址随便换地区包黑的
+> Valerio（tz）：btgt现在也不怎么下卡
+> J oy：下卡后然后要居留卡
+> Carey Mins：hk随便下卡吗
+
+### U卡 (14 条 / 6 人)
+> 8848：wise可以入金到pokepay的银行账户不，不会被风控吧
+> J oy：pokepay 不能开了，资料储存审核是深圳的一家公司
+> Vinv🇨🇳：pokepay肯定是加密
+> WHFWZ：dtc都是加密pokepay当然加密
+> J oy：pokepay 这玩意用了小心被按头
+> yuxi liu：给新e卡发邮件了 · 这个新e卡
+> J oy：pokepay 美元账户开的这么费劲吗
+> Carey Mins：u卡都没必要搞
+> WHFWZ：u卡不少不给美国服务的
+> yuxi liu：像bitget这种
+> yuxi liu：bitget都直接说让国人伪造地址了
+> WHFWZ：但是依旧有人bgw的DCS卡被拒
+
+### 羊毛链接 (7 条 / 4 人)
+> Da da：1.5u哪里买的
+> Vinv🇨🇳：走链接送3u
+> Da da：免费前3000$ 6次
+
+### SIM (2 条 / 1 人)
+> Vinv🇨🇳：这校园网不比流量还强
+
+### 零星消息
+> Carey Mins：这是个牛魔家宽
+> WHFWZ：instant access可以的啊？
+> Aiden One：/summary@donney_card_bot
+> 华人出金U卡 | 柯南：cashi USD，发现凌晨过了
+> Aiden One：也是Lead Bank的账户，好多油卡开的Ach都是这家的
+> Kobe Bryant：cashi验证好随便，第一次没过，联系客服直接通过了 · gpt说我用的地址存在明显错误。
+> J oy：没有任何监管，所有人员都在深圳
+> ice W：就像你去国外工作。那总不能用国内卡吧
+> yuxi liu：要是没通过会有显示的吧
+> Vinv🇨🇳：到时候从ken申stanf
+> William Sebastian：@whfwz1438 有美国大学学位 不是随便出国工作吗 · @whfwz1438 你完全没必要云开啊 · @whfwz1438 美国的东西别乱搞
+> Carey Mins：ss三个就标记
+> WHFWZ：但是同样的平台同样的证件有人能过有人不能
+> Valerio（tz）：行啦。。。你开hk的拿了卡，最多改回大陆
+> 泼天的富贵：现在都还有哪些国人可开的卡
+> J oy：朝廷高管洗钱的多的是，总会有高人给你搞出新路子
+> WHFWZ：这个群里说的貌似基本都是可开的
+> J oy：🥹自从 n26 没了，我就无求所谓了，云开的全部瞎搞
+> LIN YU：抓紧搬砖，数字RMB要来了
+> Carey Mins：电子rmb真不是等价于u吗
+> J oy：无球所谓，关了就关了，最终目的就是让这些逼软件清退 cn 用户
+~ 话题活跃成员（近 7 天话题消息）：WHFWZ 485 · C酱です 483 · huo yan 406 · Valerio（tz） 386 · Vinv🇨🇳 357 · Da da 234
+--- 核验
+- Pokepay 可开美元/欧元/英镑同名账户｜未找到 Pokepay 官网对「三币种同名账户、开卡需签证」的公开产品页原文（已查公开搜索；群内为 bot/成员说法）：—
+- Bitget 卡支持中国身份证/护照开卡｜未核到 Bitget 官方帮助页写明「CN 身份证和护照直接开、无需地址证明」的现行条款（公开搜索未见对应官方文）：—
+
+=== inficheesy
+### VPS (16 条 / 10 人)
+> Jade Senn：两个号都还活着，被封一般不会是IP本身的原因
+> ikun(节点问题付费解决)：US的IP吗
+> 吾 🌐［建网防封指导］：家宽拼车找两个车友
+> 自由者：看了这么多被封，烂RN竟然没有一个被封的
+> 八戒：换IP就行了
+> 自由者：换个ip 要付3美元
+> Test：什么线路的 哪个服务商的VPS · 这这个能买吗 这是什么线路
+> Krakers Z Sosem：今天搬瓦工是服务器崩了还是啥 · 是不是搬瓦工崩了 · 换住宅ip会不会好一点啊 · 可以的话我就搭一个住宅ip
+> 吾 🌐［建网防封指导］：家宽不是线路机不能直连 需要中转来转发使用
+> 70/\/(：有钱买搬瓦工为啥不花点钱买流量卡
+> px li：你们梯子还在吗吗
+> TheJeeknd：4台reality没毛啊
+
+### 羊毛链接 (4 条 / 4 人)
+> MaryGrace：有有没有邀请码？你看看新人邀请还有没有活动？ @pggb17
+> NAXFORM：真的无语了去搞免费的
+> 吾 🌐［建网防封指导］：家宽拼车找两个车友
+> YUZhu He：20u？真不错
+
+### 银行开户 (2 条 / 2 人)
+> A-sao🍎：有 啊 找我 免佣金 免平台费 要有港卡
+> jack Bruce：资金去新加坡的银行账户，哪个加密货币交易所方便？
+
+### U卡 (3 条 / 3 人)
+> A-sao🍎：币安
+> jack Bruce：币安怎么弄？好像不支持SGD
+> 达瓦里希 乌拉：bybit
+
+### SIM (1 条 / 1 人)
+> 70/\/(：有钱买搬瓦工为啥不花点钱买流量卡
+
+### 零星消息
+> MaryGrace：提不了就花呗，本来也没打算用他提
+> u z：但花之前一定要确认够余额 · Q0TZP9XL
+> NAXFORM：服了我的板瓦被墙了 · 算了吧我加个跳板 从别的地方跳过去吧 · 哈哈哈 US 我被墙了 2 台
+> ikun(节点问题付费解决)：感觉大部分都是针对US · 终于赚到钱了 好几天没圈到了 · 哈哈哈 我搞个小号准备圈你点
+> 瀬戸環奈：那马上到你宿舍
+> Dan der：有推荐的能购买港股的平台吗
+> A-sao🍎：我的VPN 还是在成功的路上 · @wunian666666 要是不是美国的 还可以考虑用
+> ikun(节点问题付费解决)：可恶 这都不让我圈
+> 自由者：看来他在这方面做的不错 · 还是因为用他的少
+> cove88：连不上了？可能你被墙了 · 这两天墙的很厉害，很多人坠机
+> Krakers Z Sosem：早上还好着突然就超时了 · 我只是确定一下
+> 70/\/(：老中在创造需求这块遥遥领先
+
+~ 话题活跃成员（近 7 天话题消息）：Arion 83、InfiCheesy SC 81、自由者 74、JimmyC 73、Feng 66、猫e/acc 59
+
+=== hejushang
+### eSIM 与虚拟号 (4 条 / 3 人)
+> 口罩弟：反而 dito 啥验证码都行，也能注册
+> 何居上：我两个 saily 都是实体号 · 估计现在虚拟号比较多了
+> Yamada saki：Saily可以 註冊zalo 不能註冊Viber
+
+### 零星消息
+> Trump：关门了，这是港澳居民通行证
+> 口罩弟：我也不行，WhatsApp 都绑不了
+> Fizzy Chan：我问客服能给我换个号吗，他都给明牌了，说他们的号都是虚拟号换了也白换
+
+~ 话题活跃成员：爱吃香菜、何居上、yun zai、o.o、Jason、Valerio（tz）
+
+=== vps_jk
+### VPS (3 条 / 3 人)
+> 路边捡个垃圾桶：先用机场算了
+> winter：我准备套CDN
+> Leo_auto_cn：我是连得上，小火箭和其他软件，一直超时
+
+### 零星消息
+> 路边捡个垃圾桶：Dedione5开头的昨天被墙了
+> winter：平时我喜欢直连 · 我443端口 他也能墙？ 我还没试换端口呢 · ssh也连不上 · ssh能连估计换个端口就能用了 · 我是直接ssh都连不了
+> 喵 帕斯：草尼玛给我端口墙了
+> Free King：专家一天研究的就是怎么加墙
+> Jessica NEX：学信网开的检测VPN了，只要开了，就直接给你闪退
+> y z：我买了三台都没啥事
+
+~ 话题活跃成员：维多、D姐 | demonyins、Kane Harry、柚子、李艺、carry line
+
+=== jason_vps
+### VPS 故障与网络波动 (6 条 / 2 人)
+> Jumper：兄弟们，dmit是不是坠机了 · 我折腾了半天，换ip才上来 · 嗯，你换ip也不行吗？ · 为什么突然打击dmit啊 ，以前很稳的
+> Bin：你换了ip就没事了啊吗 · 搬瓦工也gg了
+
+### 零星消息
+> Bin：除了tg都不能用 · 大概一个小时前开始的我是pro · 我还没换。就尼玛离谱 · 为什么tg还能用 · 好多家都gg
+> Jumper：是昨天晚上开始的吗 · 吗的，我昨天晚上突然不行 · 最近是要开什么大会，还是咋了
+
+~ 话题活跃成员：Jumper（VPS4）、Bin（VPS4）
+
+=== loon0x00
+### VPS (2 条 / 2 人)
+> A Long：兄弟们，这是不是说明是节点的问题
+> a n：换节点试试呢
+
+### 羊毛链接 (1 条 / 1 人)
+> 润 之：https://🎈.com
+
+### 零星消息
+> A Long：奈飞出现这个问题一般怎么解决
+> Danny Hellen：就那个一键更新的按钮呗
+> 润 之：这个仓库还在用吗 · 你的github是不是没更新了 · 之前一直用的你的
+> arica zhang：我的证书提示有问题 哪位大佬知道怎么解决 我添加几次都这样
+> Mr. Dig：Ios为什么没有3.5.3的更新 · 能不能给个testflight名额
+> loong god：新手，哪来的 bug 找
+> 姥 舅：他不是提示你了吗
+> Danny Hellen：配置这块儿，慢慢来就上手了。
+> Sacr Y：B站开屏广告咋去的
+> make：找到问题原因了，我把rule里面的final，direct改成final，兜底后备策略就好了
+> 零食很忙：找谁申请，发邮件吗😅
+> 安 大：老哥们，协议搭配怎么最合适？
+
+~ 话题活跃成员：Tartarus、秦城二院彭医生｜夜勤病棟、姥 舅、🔔🐈、可莉🅥、Shane Lau
+
+=== nbvil
+### 银行开户 (1 条 / 1 人)
+> Dj：二哥，sofi申请被拒，有什么解决办法吗
+
+### 零星消息
+> Dj：@nbvil_sindri
+> Sindri：过段时间在申请
+
+~ 话题活跃成员：vtegn 25、O.0 12、丁GV🎭 俊辉 5、Fox Vv 4、有网赌PG来换米 3、Sindri 3

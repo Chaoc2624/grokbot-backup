@@ -1,43 +1,61 @@
-## 合并新词（2026-10-26）
+## 合并新词（2026-10-27）
 
-看板雷达：当天没有；书签X：2026-10-26 上午 书签X、2026-10-26 晚上 书签X；共 39 个词，两边重合 0 个。
+看板雷达：当天没有；书签X：2026-10-27 上午 书签X、2026-10-27 晚上 书签X；共 57 个词，两边重合 2 个。
 
-- **word atlas**〔GitHub〕designfuchen/word-atlas: 词光 · 一词一画，点亮雅思 — 7,298 IELTS words, each with an original illustration, UK/US audio, 14,596 exa [链接](https://github.com/designfuchen/word-atlas)
-- **stealmybitcoin poc**〔GitHub〕KillaBoi/StealMyBitcoin-PoC: A public release of the Steal My Bitcoin challenge [链接](https://github.com/KillaBoi/StealMyBitcoin-PoC)
-- **beautifulrust**〔GitHub〕morganlinton/BeautifulRust: Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a test [链接](https://github.com/morganlinton/BeautifulRust)
-- **android ad cleaner**〔GitHub〕rddmwmddr/android-ad-cleaner: 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 [链接](https://github.com/rddmwmddr/android-ad-cleaner)
-- **ex ussr kinship research**〔GitHub〕DenisSergeevitch/ex-ussr-kinship-research: Evidence-first genealogy skill for AI agents (Codex, Claude Code): church boo [链接](https://github.com/DenisSergeevitch/ex-ussr-kinship-research)
-- **ub mode**〔GitHub〕unclebob/ub-mode:  [链接](https://github.com/unclebob/ub-mode)
-- **aiframework**〔竞品站〕③ 竞品 5 处 (×3.4)
-- **mspbotsaiframework**〔竞品站〕③ 竞品 5 处 (×3.4)
-- **kanchingyg**〔竞品站〕③ 竞品 13 处 (×13.0)
-- **deploy103**〔竞品站〕③ 竞品 6 处 (×6.0)
-- **deploy103 afterhours**〔竞品站〕③ 竞品 6 处 (×6.0)
-- **eclipse technologies**〔竞品站〕③ 竞品 4 处 (×4.0)
-- **atlas**〔竞品站〕③ 竞品 7 处 (×3.3)
-- **io.github.maggat**〔竞品站〕③ 竞品 20 处 (×20.0)
-- **connectors io.github.maggat**〔竞品站〕③ 竞品 20 处 (×20.0)
-- **connectors io.usefulapi**〔竞品站〕③ 竞品 31 处 (×9.6)
-- **jonathanngiroux star**〔竞品站〕③ 竞品 9 处 (×9.0)
-- **io.github.corent1robert**〔竞品站〕③ 竞品 7 处 (×7.0)
-- **connectors io.github.corent1robert**〔竞品站〕③ 竞品 7 处 (×7.0)
-- **io.github.keith**〔竞品站〕③ 竞品 4 处 (×3.9)
-- **io.github.cyanheads**〔竞品站〕③ 竞品 6 处 (×3.6)
-- **garmin**〔竞品站〕③ 竞品 9 处 (×4.9)
-- **ipo**〔我们X〕@AnthropicAI: Anthropic has filed an S-1 registration statement with the SEC related to its pr
-- **s-1**〔我们X〕@AnthropicAI: Anthropic has filed an S-1 registration statement with the SEC related to its pr
-- **sec**〔我们X〕@AnthropicAI: Anthropic has filed an S-1 registration statement with the SEC related to its pr
-- **connectors io.github.keith**〔竞品站〕③ 竞品 4 处 (×3.9)
-- **connectors io.github.cyanheads**〔竞品站〕③ 竞品 6 处 (×3.6)
-- **gifts**〔竞品站〕③ 竞品 21 处 (×20.4)
-- **afterhours**〔竞品站〕③ 竞品 6 处 (×6.0)
-- **star**〔竞品站〕③ 竞品 10 处 (×5.8)
-- **parliament**〔竞品站〕③ 竞品 6 处 (×5.4)
-- **highlevel agency**〔竞品站〕③ 竞品 5 处 (×5.0)
-- **technologies llc**〔竞品站〕③ 竞品 4 处 (×4.0)
-- **shop**〔竞品站〕③ 竞品 6 处 (×3.9)
-- **sharpen blurry photos**〔ask〕r/wildlifephotography (883): Turtle head shot
-- **ai tools for research**〔ask〕r/PhD (1034): What is the best AI tool for research?
-- **MiniMax H3 社区加速更新**〔书签X〕MiniMax 公布 H3 社区贡献：8 步参考条件视频+音频、4 步蒸馏、稀疏注意力与参考 token 压缩等，并扩展更多运行位置。不是新模型 [链接](https://x.com/MiniMax_AI/status/2114504329499660419)
-- **d3-turbo**〔书签X〕27B多模态决策模型，每个问题支持高达128K的上下文。 [链接](https://x.com/ModelScope2022/status/2114658502807347341)
-- **BabelArena**〔书签X〕一个全新的开源多语言智能体评测基准，不是新模型。 [链接](https://x.com/ModelScope2022/status/2114565697133064199)
+- **gpt-6.1 terra**〔我们X / 书签X〕OpenAI 推出的具备快速计算机使用能力的新模型，支持跨应用操作与自然语言编写。 [链接](https://x.com/OpenAI/status/2114780711664398349)
+- **unlimited ocr 2**〔HF / 书签X〕整篇文档一次请求解析的 OCR 模型，多页/百页文档基准达到 SOTA。 [链接](https://x.com/ModelScope2022/status/2115051070384734675)
+- **qwen3.5-4b-3d-coder**〔我们X〕@TeksEdge: I'm excited about this. Local AI and small models are the future. A 2.71GB local
+- **gpt-6 astra openai**〔我们X〕@dotey: OpenAI 发布 GPT-6.1 Terra：Plus 及以上订阅直接可用、不另收费，API 降价一半，操作电脑追平 GPT-6 Astra OpenAI 发
+- **gpt-5.6 terra**〔我们X〕@dotey: OpenAI 发布 GPT-6.1 Terra：Plus 及以上订阅直接可用、不另收费，API 降价一半，操作电脑追平 GPT-6 Astra OpenAI 发
+- **microsoft ai**〔我们X〕@dotey: 微软向约 6 万名员工提供自愿离职补偿，约占全员四分之一，12 月初前决定 微软 10 月 26 日（周一）给美国、加拿大、英国和印度部分团队的员工发了一份“自
+- **eth**〔我们X〕@dotey: OpenAI 宣布 AI 推翻“指数时间假设”（ETH）的同一天，Anthropic 在 GitHub 上放出一篇论文，得出同样的结论，署名作者只有一个：Cla
+- **gear**〔HF〕WizardTY/GEAR (static, ♥54)
+- **digital human koubo**〔GitHub〕andyhuo520/digital-human-koubo: AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing  [链接](https://github.com/andyhuo520/digital-human-koubo)
+- **blaze**〔GitHub〕indexable-inc/blaze: Incremental rust builds up to 92x faster than cargo/rustc [链接](https://github.com/indexable-inc/blaze)
+- **tstack**〔GitHub〕t3dotgg/tstack: The agent skills I use every day. Works with Claude Code and Codex. [链接](https://github.com/t3dotgg/tstack)
+- **trulata**〔竞品站〕③ 竞品 3 处 (×3.0)
+- **chipp**〔竞品站〕③ 竞品 19 处 (×18.8)
+- **ai.chipp chipp**〔竞品站〕③ 竞品 19 处 (×18.8)
+- **w4rd0**〔竞品站〕③ 竞品 5 处 (×5.0)
+- **cloudcorprecords**〔竞品站〕③ 竞品 5 处 (×4.1)
+- **connectors ai.chipp**〔竞品站〕③ 竞品 19 处 (×18.6)
+- **genpark ctrip**〔竞品站〕③ 竞品 9 处 (×9.0)
+- **com.apify.mcp**〔竞品站〕③ 竞品 6 处 (×4.1)
+- **coreai**〔我们X〕@dotey: 微软向约 6 万名员工提供自愿离职补偿，约占全员四分之一，12 月初前决定 微软 10 月 26 日（周一）给美国、加拿大、英国和印度部分团队的员工发了一份“自
+- **building auditable ai**〔我们X〕@_akhaliq: Building Auditable AI Text Detectors with Sparse Autoencoders paper: https://t.c
+- **ai text detectors**〔我们X〕@_akhaliq: Building Auditable AI Text Detectors with Sparse Autoencoders paper: https://t.c
+- **ai native**〔我们X〕@dotey: 推荐阅读：《用 Manus 改造 Manus，AI Native 组织改造的实践和思考》https://t.co/0MEN86K7ow 来自 Manus 很好的
+- **qcd**〔我们X〕@dotey: OpenAI 称 AI 推翻计算机科学的“指数时间假设”，还证出杨-米尔斯理论存在，外部专家组开始核查 OpenAI 10 月 26 日宣布，内部模型在数学、计
+- **lm studio and**〔我们X〕@TeksEdge: I'm excited about this. Local AI and small models are the future. A 2.71GB local
+- **auditable ai text**〔我们X〕@_akhaliq: Building Auditable AI Text Detectors with Sparse Autoencoders paper: https://t.c
+- **self-training data-free self-improvement**〔我们X〕@_akhaliq: On-Policy Self-Training Data-Free Self-Improvement in Large Language Models pape
+- **rom**〔我们X〕@op7418: 装了几个热门的 DeepSeek Harness 插件，感觉这生态现在他妈的蓬勃发展 主要是 DeepSeek 太便宜，能力又中不溜的很强。 现在很多人就只用 
+- **on-policy self-training data-free**〔我们X〕@_akhaliq: On-Policy Self-Training Data-Free Self-Improvement in Large Language Models pape
+- **data-free self-improvement**〔我们X〕@_akhaliq: On-Policy Self-Training Data-Free Self-Improvement in Large Language Models pape
+- **lga 3647 cpu**〔我们X〕@TeksEdge: I'm excited about this. Local AI and small models are the future. A 2.71GB local
+- **eileen-chang-1969-radcliffe-zh-en**〔我们X〕@dotey: 哈佛大学图书馆的馆藏里有一盘拉德克利夫研究所研讨会的录音，可以公开收听。演讲人是张爱玲，用英文讲中文翻译，主持人报的题目是「一种文化影响的载体」。目录没有标日期
+- **led**〔我们X〕@higgsfield_ai: Which one would you learn electronics from? GPT-6.1 Terra vs Claude Opus 5.5: Fr
+- **2026-10-26**〔我们X〕@dotey: 微软向约 6 万名员工提供自愿离职补偿，约占全员四分之一，12 月初前决定 微软 10 月 26 日（周一）给美国、加拿大、英国和印度部分团队的员工发了一份“自
+- **io.github.chrisyau83**〔竞品站〕③ 竞品 10 处 (×10.0)
+- **io.github.maestro**〔竞品站〕③ 竞品 5 处 (×5.0)
+- **connectors com.apify.mcp**〔竞品站〕③ 竞品 6 处 (×4.1)
+- **jonathanngiroux**〔竞品站〕③ 竞品 4 处 (×3.6)
+- **io.github.pooriaarab**〔竞品站〕③ 竞品 4 处 (×3.3)
+- **connectors io.github.chrisyau83**〔竞品站〕③ 竞品 10 处 (×10.0)
+- **connectors io.github.maestrow4rd0**〔竞品站〕③ 竞品 5 处 (×5.0)
+- **registry verifier**〔竞品站〕③ 竞品 4 处 (×3.7)
+- **jonathanngiroux star**〔竞品站〕③ 竞品 4 处 (×3.6)
+- **connectors io.github.pooriaarab**〔竞品站〕③ 竞品 4 处 (×3.3)
+- **verifier target**〔竞品站〕③ 竞品 4 处 (×3.7)
+- **verifier**〔竞品站〕③ 竞品 6 处 (×3.3)
+- **collab**〔竞品站〕③ 竞品 6 处 (×3.3)
+- **now**〔竞品站〕③ 竞品 10 处 (×5.5)
+- **technologies**〔竞品站〕③ 竞品 9 处 (×4.9)
+- **records**〔竞品站〕③ 竞品 5 处 (×3.2)
+- **corp**〔竞品站〕③ 竞品 6 处 (×3.1)
+- **Claude for Nonprofits**〔书签X〕Claude 扩展非营利组织插件，集成筹款、营销与招聘技能。不是新模型 [链接](https://x.com/claudeai/status/2114780227465338985)
+- **Ling-3.1-flash-base**〔书签X〕蚂蚁集团发布的开源基座模型，560B 总参/25B 激活、1M 上下文，面向继续预训练与领域微调。 [链接](https://x.com/AntLingAGI/status/2115062200687878157)
+- **Atria Dawn**〔书签X〕开源研究与工程智能体模型，512K 上下文、MIT 协议上架 ModelScope，团队评测领先 AutomationBench。 [链接](https://x.com/ModelScope2022/status/2114990532992651756)
+- **Fibo 2.0 Dev**〔书签X〕Bria 开源 8B 图像模型，支持生成/编辑/微调，结构化 JSON 控制，提供完整非蒸馏检查点。 [链接](https://x.com/ModelScope2022/status/2114960341343871311)
+- **Hy-Nomas**〔书签X〕交互式视频世界模型，文本+镜头控制引导演化；8 步蒸馏、720×1280@24FPS。 [链接](https://x.com/ModelScope2022/status/2114905680171745321)
+- **Hy-SimulMT**〔书签X〕开源中英同声传译模型，随讲随译并输出文本与语音，侧重低延迟。 [链接](https://x.com/ModelScope2022/status/2115020889964089600)

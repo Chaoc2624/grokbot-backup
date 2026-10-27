@@ -6,7 +6,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 HERE = Path(__file__).resolve().parent
 XBM = Path("/workspace/xbm")
-KIND = {"x": "我们X", "hf": "HF", "breakout": "GitHub", "sitemap": "竞品站", "seller": "收款新站", "ask": "Reddit痛点", "revenue": "营收榜", "newsite": "新域名"}
+KIND = {"x": "我们X", "hf": "HF", "breakout": "GitHub", "sitemap": "竞品站", "seller": "收款新站", "builder": "构建器新站", "feed": "新品榜单", "money": "AdSense矩阵", "ask": "痛点求助", "revenue": "营收榜", "newsite": "新域名"}
 
 def norm(s):
     s = re.sub(r"[（(【\[].*?[）)】\]]", "", s or "")

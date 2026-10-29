@@ -1,14 +1,14 @@
-## 合并新词（2026-10-27）
+## 合并新词（2026-10-28）
 
-看板雷达：当天没有；书签X：2026-10-27 上午 书签X、2026-10-27 晚上 书签X；共 57 个词，两边重合 2 个。
+看板雷达：当天没有；书签X：2026-10-28 上午 书签X；共 54 个词，两边重合 0 个。
 
-- **gpt-6.1 terra**〔我们X / 书签X〕OpenAI 推出的具备快速计算机使用能力的新模型，支持跨应用操作与自然语言编写。 [链接](https://x.com/OpenAI/status/2114780711664398349)
-- **unlimited ocr 2**〔HF / 书签X〕整篇文档一次请求解析的 OCR 模型，多页/百页文档基准达到 SOTA。 [链接](https://x.com/ModelScope2022/status/2115051070384734675)
+- **gpt-6.1 terra**〔我们X〕@OpenAI: GPT-6.1 Terra: delivering fast and capable computer use at a lower price. GPT-6.
 - **qwen3.5-4b-3d-coder**〔我们X〕@TeksEdge: I'm excited about this. Local AI and small models are the future. A 2.71GB local
 - **gpt-6 astra openai**〔我们X〕@dotey: OpenAI 发布 GPT-6.1 Terra：Plus 及以上订阅直接可用、不另收费，API 降价一半，操作电脑追平 GPT-6 Astra OpenAI 发
 - **gpt-5.6 terra**〔我们X〕@dotey: OpenAI 发布 GPT-6.1 Terra：Plus 及以上订阅直接可用、不另收费，API 降价一半，操作电脑追平 GPT-6 Astra OpenAI 发
 - **microsoft ai**〔我们X〕@dotey: 微软向约 6 万名员工提供自愿离职补偿，约占全员四分之一，12 月初前决定 微软 10 月 26 日（周一）给美国、加拿大、英国和印度部分团队的员工发了一份“自
 - **eth**〔我们X〕@dotey: OpenAI 宣布 AI 推翻“指数时间假设”（ETH）的同一天，Anthropic 在 GitHub 上放出一篇论文，得出同样的结论，署名作者只有一个：Cla
+- **unlimited ocr 2**〔HF〕baidu/Unlimited-OCR-2 (image-text-to-text, ♥172)
 - **gear**〔HF〕WizardTY/GEAR (static, ♥54)
 - **digital human koubo**〔GitHub〕andyhuo520/digital-human-koubo: AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing  [链接](https://github.com/andyhuo520/digital-human-koubo)
 - **blaze**〔GitHub〕indexable-inc/blaze: Incremental rust builds up to 92x faster than cargo/rustc [链接](https://github.com/indexable-inc/blaze)
@@ -53,9 +53,6 @@
 - **technologies**〔竞品站〕③ 竞品 9 处 (×4.9)
 - **records**〔竞品站〕③ 竞品 5 处 (×3.2)
 - **corp**〔竞品站〕③ 竞品 6 处 (×3.1)
-- **Claude for Nonprofits**〔书签X〕Claude 扩展非营利组织插件，集成筹款、营销与招聘技能。不是新模型 [链接](https://x.com/claudeai/status/2114780227465338985)
-- **Ling-3.1-flash-base**〔书签X〕蚂蚁集团发布的开源基座模型，560B 总参/25B 激活、1M 上下文，面向继续预训练与领域微调。 [链接](https://x.com/AntLingAGI/status/2115062200687878157)
-- **Atria Dawn**〔书签X〕开源研究与工程智能体模型，512K 上下文、MIT 协议上架 ModelScope，团队评测领先 AutomationBench。 [链接](https://x.com/ModelScope2022/status/2114990532992651756)
-- **Fibo 2.0 Dev**〔书签X〕Bria 开源 8B 图像模型，支持生成/编辑/微调，结构化 JSON 控制，提供完整非蒸馏检查点。 [链接](https://x.com/ModelScope2022/status/2114960341343871311)
-- **Hy-Nomas**〔书签X〕交互式视频世界模型，文本+镜头控制引导演化；8 步蒸馏、720×1280@24FPS。 [链接](https://x.com/ModelScope2022/status/2114905680171745321)
-- **Hy-SimulMT**〔书签X〕开源中英同声传译模型，随讲随译并输出文本与语音，侧重低延迟。 [链接](https://x.com/ModelScope2022/status/2115020889964089600)
+- **Genie 4**〔书签X〕Google DeepMind 最新交互式世界模型，可用自然语言实时操控场景与音景。 [链接](https://x.com/GoogleDeepMind/status/2115114028338962672)
+- **LFM3**〔书签X〕Liquid AI 开源端侧基础模型系列（约 2B），含文本/视觉/音频/Omni 等 6 款。 [链接](https://x.com/liquidai/status/2115128329003303107)
+- **Claude OneGov**〔书签X〕Anthropic 与美国 GSA 扩大 OneGov 合作，政府机构用 Claude 享 40% 折扣。不是新模型 [链接](https://x.com/AnthropicAI/status/2115207004293853358)

@@ -9,7 +9,7 @@
 6. 建站热词 ≤3（宁缺勿滥）：从本档 kind=model/product（非 not_model 优先）挑：名字全新、views≥500000 或 bookmarks≥1000、明显搜索需求、通用词竞争小。给 keyword_rank/keyword/reason（含一句适合做什么页面）。不达标则 keywords=[]。
 7. 严格过滤商业营销/外链中介帖（DM's open、guest post、link farm 等）。
 8. 时间：created_at UTC 转北京时间（UTC+8）写成 first_seen。
-9. label 必须是「2026-10-27 上午 书签X」；run_at 用「2026-10-27 10:20」；window_start「2026-10-26 21:39」；window_end「2026-10-27 10:16」。
+9. label 必须是「2026-10-28 上午 书签X」；run_at 用「2026-10-28 10:20」；window_start「2026-10-27 21:37」；window_end「2026-10-28 10:12」。
 
 只输出一个 JSON 对象，不要 markdown 围栏，结构：
 {"label":"...","run_at":"...","window_start":"...","window_end":"...","empty":bool,"items":[...],"keywords":[...]}

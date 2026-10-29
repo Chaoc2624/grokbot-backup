@@ -1,0 +1,169 @@
+{
+  "tool": "daily-funnel-inspector",
+  "version": "1.0.0",
+  "generated_at": "2026-10-28T08:58:26.082973+08:00",
+  "timezone_note": "box clock = Asia/Shanghai (UTC+8)",
+  "url": "https://frame-extractor.app",
+  "domain": "https://frame-extractor.app",
+  "overall": "WARN",
+  "flags": [
+    "L1_drift_compare_WARN rc=2 err=usage: drift_compare.py [-h] [--skip-cwv] [--baseline-id BASELINE_ID] url\ndrift_compare.py: error: unrecognized arguments: --json\n"
+  ],
+  "layers": {
+    "L1_http": {
+      "layer": "L1_http",
+      "pass": true,
+      "flags": [],
+      "checks": {
+        "homepage": {
+          "ok": true,
+          "url": "https://frame-extractor.app/",
+          "status": 200,
+          "final_url": "https://frame-extractor.app/",
+          "content_type": "text/html; charset=utf-8",
+          "content_length": 102713,
+          "elapsed_ms": 167,
+          "error": null,
+          "pass": true
+        },
+        "llms_txt": {
+          "ok": true,
+          "url": "https://frame-extractor.app/llms.txt",
+          "status": 200,
+          "final_url": "https://frame-extractor.app/llms.txt",
+          "content_type": "text/plain; charset=utf-8",
+          "content_length": 4562,
+          "elapsed_ms": 161,
+          "error": null,
+          "pass": true
+        },
+        "robots_txt": {
+          "ok": true,
+          "url": "https://frame-extractor.app/robots.txt",
+          "status": 200,
+          "final_url": "https://frame-extractor.app/robots.txt",
+          "content_type": "text/plain; charset=utf-8",
+          "content_length": 2552,
+          "elapsed_ms": 190,
+          "error": null,
+          "pass": true
+        },
+        "sitemap_xml": {
+          "ok": true,
+          "url": "https://frame-extractor.app/sitemap.xml",
+          "status": 200,
+          "final_url": "https://frame-extractor.app/sitemap.xml",
+          "content_type": "application/xml",
+          "content_length": 37388,
+          "elapsed_ms": 195,
+          "error": null,
+          "pass": true
+        }
+      },
+      "sitemap_url_count": 43,
+      "sitemap_urls_sample": [
+        "https://frame-extractor.app/",
+        "https://frame-extractor.app/4k-video-frame-extractor",
+        "https://frame-extractor.app/ai-video-frame-extractor",
+        "https://frame-extractor.app/blog",
+        "https://frame-extractor.app/blog/best-free-online-video-frame-extractors-2026",
+        "https://frame-extractor.app/blog/extract-frames-from-video-iphone-mac-windows-capcut",
+        "https://frame-extractor.app/blog/frame-extractor-vs-vlc-vs-ffmpeg",
+        "https://frame-extractor.app/blog/how-to-extract-frames-from-a-video",
+        "https://frame-extractor.app/de",
+        "https://frame-extractor.app/de/blog"
+      ],
+      "llms_txt_preview": "# Frame Extractor Technical Overview\n\nFrame Extractor is a browser-based utility for precise video frame extraction. It uses the requestVideoFrameCallback API to synchronize UI playback with underlying media timestamps. The tool operates locally via URL.createObjectURL, meaning video data stays in browser memory and is not uploaded to a server. Performance depends on local hardware: 1080p and 4K60"
+    },
+    "L1_claude_seo": {
+      "layer": "L1_claude_seo",
+      "skipped": false,
+      "pass": true,
+      "flags": [
+        "L1_drift_compare_WARN rc=2 err=usage: drift_compare.py [-h] [--skip-cwv] [--baseline-id BASELINE_ID] url\ndrift_compare.py: error: unrecognized arguments: --json\n"
+      ],
+      "agentic_check": {
+        "ok": true,
+        "returncode": 0,
+        "stdout_tail": "ontent_type\": \"text/plain; charset=utf-8\",\n      \"bytes\": 4562,\n      \"llms_full_status\": 200,\n      \"lighthouse\": \"fail\",\n      \"errors\": [\n        \"contains no Markdown links\"\n      ],\n      \"notes\": [\n        \"no blockquote summary ('> ...') as llmstxt.org recommends\"\n      ]\n    },\n    \"markdown\": {\n      \"negotiation\": {\n        \"status\": 200,\n        \"content_type\": \"text/html; charset=utf-8\",\n        \"vary_accept\": true,\n        \"x_markdown_tokens\": null,\n        \"content_signal_header\": null\n      },\n      \"alternates\": [],\n      \"md_sibling\": {\n        \"url\": \"https://frame-extractor.app/index.md\",\n        \"status\": 404,\n        \"content_type\": \"text/html; charset=utf-8\",\n        \"ok\": false\n      }\n    },\n    \"ard\": {\n      \"catalog_url\": \"https://frame-extractor.app/.well-known/ai-catalog.json\",\n      \"signalled\": false,\n      \"status\": 404,\n      \"content_type\": \"text/html; charset=utf-8\"\n    },\n    \"well_known\": {\n      \"/.well-known/api-catalog\": {\n        \"status\": 404,\n        \"content_type\": \"text/html; charset=utf-8\"\n      },\n      \"/.well-known/oauth-protected-resource\": {\n        \"status\": 404,\n        \"content_type\": \"text/html; charset=utf-8\"\n      },\n      \"/.well-known/oauth-authorization-server\": {\n        \"status\": 404,\n        \"content_type\": \"text/html; charset=utf-8\"\n      },\n      \"/.well-known/agent-card.json\": {\n        \"status\": 404,\n        \"content_type\": \"text/html; charset=utf-8\"\n      },\n      \"/.well-known/ucp\": {\n        \"status\": 404,\n        \"content_type\": \"text/html; charset=utf-8\"\n      }\n    },\n    \"not_found\": {\n      \"probe_url\": \"https://frame-extractor.app/claude-seo-404-probe-964aa9c9\",\n      \"status\": 404,\n      \"content_type\": \"text/html; charset=utf-8\",\n      \"catch_all_200\": false\n    }\n  },\n  \"summary\": {\n    \"P0\": {\n      \"pass\": 3\n    },\n    \"P1\": {\n      \"fail\": 1,\n      \"warn\": 1,\n      \"info\": 1,\n      \"pass\": 2\n    },\n    \"P2\": {\n      \"info\": 1,\n      \"na\": 4\n    },\n    \"P3\": {\n      \"na\": 4\n    }\n  }\n}\n",
+        "stderr_tail": ""
+      },
+      "drift_compare": {
+        "ok": false,
+        "returncode": 2,
+        "stdout_tail": "",
+        "stderr_tail": "usage: drift_compare.py [-h] [--skip-cwv] [--baseline-id BASELINE_ID] url\ndrift_compare.py: error: unrecognized arguments: --json\n"
+      }
+    },
+    "L1.5_indexnow": {
+      "layer": "L1.5_indexnow",
+      "pass": true,
+      "flags": [],
+      "key_url": "https://frame-extractor.app/e9b5cbe548134dd38e985f7a354589ee.txt",
+      "key_check": {
+        "ok": true,
+        "url": "https://frame-extractor.app/e9b5cbe548134dd38e985f7a354589ee.txt",
+        "status": 200,
+        "final_url": "https://frame-extractor.app/e9b5cbe548134dd38e985f7a354589ee.txt",
+        "content_type": "text/plain; charset=utf-8",
+        "content_length": 32,
+        "elapsed_ms": 129,
+        "error": null,
+        "body_text": "e9b5cbe548134dd38e985f7a354589ee"
+      },
+      "push": null
+    },
+    "L1.8_backlinks": {
+      "layer": "L1.8_backlinks",
+      "pass": true,
+      "flags": [],
+      "ledger": {
+        "exists": true,
+        "bytes": 60791,
+        "lines": 237,
+        "live_markers": 84,
+        "pending_markers": 166
+      },
+      "recheck": {
+        "ok": true,
+        "returncode": 0,
+        "stdout_tail": ": \"aitoolnet.com\",\n    \"url\": \"https://aitoolnet.com\",\n    \"title\": \"Aitoolnet - Best AI Tools Directory & Search Engine (2026)\",\n    \"flags\": [\n     {\n      \"flag\": \"paid_follow\",\n      \"level\": \"caution\",\n      \"meaning\": \"It sells links or posts that pass ranking credit\",\n      \"evidence\": \"…30 days Basic tool submission Do-Follow SEO backlink POPULAR PRO $9.9 One-time payment No queue, listed within 24 hours…\",\n      \"policy\": \"Buying or selling links for ranking purposes\"\n     }\n    ],\n    \"metrics\": {\n     \"external_links\": 24,\n     \"qualified_share\": 1.0,\n     \"ids\": [\n      \"cloudflare:742e4add1fc846e09c81c59f3d046c1b\",\n      \"ga4:G-D7KF3ZPKH4\"\n     ],\n     \"first_seen\": \"\",\n     \"lang\": \"en\",\n     \"spam_score\": null\n    },\n    \"cost\": 0,\n    \"errors\": [],\n    \"reach\": \"\",\n    \"missing\": [],\n    \"grade\": \"ok\",\n    \"risk\": 1,\n    \"policy\": \"caution\",\n    \"value\": \"\",\n    \"action\": \"free only\",\n    \"action_reason\": \"never pay for a followed link\"\n   },\n   {\n    \"input\": \"launchingnext.com\",\n    \"domain\": \"launchingnext.com\",\n    \"url\": \"https://launchingnext.com\",\n    \"title\": \"Launching Next | New startups, startup ideas, great business ideas\",\n    \"flags\": [],\n    \"metrics\": {\n     \"external_links\": 4,\n     \"qualified_share\": 0.5,\n     \"ids\": [\n      \"cloudflare:d93299c957d846b885de72d10f4d314e\",\n      \"ga4:G-881Z2PJ2C4\"\n     ],\n     \"first_seen\": \"\",\n     \"lang\": \"en\",\n     \"spam_score\": null\n    },\n    \"cost\": 0,\n    \"errors\": [],\n    \"reach\": \"\",\n    \"missing\": [],\n    \"grade\": \"ok\",\n    \"risk\": 0,\n    \"policy\": \"clean\",\n    \"value\": \"\",\n    \"action\": \"look first\",\n    \"action_reason\": \"visits not checked\"\n   },\n   {\n    \"input\": \"startupstash.com\",\n    \"domain\": \"startupstash.com\",\n    \"url\": \"https://startupstash.com\",\n    \"title\": \"Startup Stash - A Curated Directory of Tools and Resources for Your Startup\",\n    \"flags\": [],\n    \"metrics\": {\n     \"external_links\": 4,\n     \"qualified_share\": 0.0,\n     \"ids\": [\n      \"gtm:GTM-M89T6T9\"\n     ],\n     \"first_seen\": \"\",\n     \"lang\": \"en-us\",\n     \"spam_score\": null\n    },\n    \"cost\": 0,\n    \"errors\": [],\n    \"reach\": \"\",\n    \"missing\": [],\n    \"grade\": \"ok\",\n    \"risk\": 0,\n    \"policy\": \"clean\",\n    \"value\": \"\",\n    \"action\": \"look first\",\n    \"action_reason\": \"visits not checked\"\n   },\n   {\n    \"input\": \"saashub.com\",\n    \"domain\": \"saashub.com\",\n    \"url\": \"https://saashub.com\",\n    \"title\": \"SaaSHub - Software Alternatives & Startups\",\n    \"flags\": [],\n    \"metrics\": {\n     \"external_links\": 27,\n     \"qualified_share\": 0.85,\n     \"ids\": [\n      \"ga4:G-NYMJ06T9B8\"\n     ],\n     \"first_seen\": \"\",\n     \"lang\": \"en\",\n     \"spam_score\": null\n    },\n    \"cost\": 0,\n    \"errors\": [],\n    \"reach\": \"\",\n    \"missing\": [],\n    \"grade\": \"ok\",\n    \"risk\": 0,\n    \"policy\": \"clean\",\n    \"value\": \"\",\n    \"action\": \"look first\",\n    \"action_reason\": \"visits not checked\"\n   }\n  ],\n  \"cost\": 0,\n  \"errors\": [],\n  \"networks\": [],\n  \"sources\": {\n   \"goanyapi\": false,\n   \"aisa\": false,\n   \"free\": true\n  }\n }\n}\n",
+        "stderr_tail": ""
+      }
+    },
+    "L2_L4_api_hooks": {
+      "layer": "L2_L4_api_hooks",
+      "pass": true,
+      "flags": [],
+      "available": {
+        "cloudflare": false,
+        "clarity": false,
+        "google_creds": false,
+        "ga4_property": false
+      },
+      "pulls": {},
+      "notes": [
+        "Cloudflare skipped (set CLOUDFLARE_API_TOKEN + CLOUDFLARE_ZONE_ID)",
+        "Clarity skipped (set CLARITY_API_TOKEN)",
+        "GSC/GA4 skipped (set GOOGLE_APPLICATION_CREDENTIALS)"
+      ]
+    },
+    "L4.5_efficacy_ledger": {
+      "layer": "L4.5_efficacy_ledger",
+      "pass": true,
+      "flags": [],
+      "ledger_path": "/workspace/seo-vault/SEO知识库/08-案例复盘/01-站点复盘/Frame-Extractor改动药效复盘账本（7天与14天可证伪性追踪）.md",
+      "rows_parsed": 13,
+      "due_7d": [],
+      "due_14d": [],
+      "today": "2026-10-28"
+    }
+  },
+  "v2_upgrades_checklist": {
+    "1_api_free_llm_inspector": true,
+    "2_l25_intent_velocity_fingerprint": "frontend: require architecture agent",
+    "3_l35_video_decode_error": "frontend: require architecture agent",
+    "4_l45_sample_video_share_hook": "frontend: require architecture agent",
+    "5_efficacy_ledger_7d_14d": true
+  }
+}

@@ -884,6 +884,7 @@
 
 ## 2026-10-19 14 点新增
 - `Biscuit`（Zopa 的活期账户名，群里说「Zopa」）
+- `Caffè Nero` — 英国连锁咖啡（Zopa Biscuit 每月免费饮品合作方；群友说「咖啡券」）
 - `Venmo`（美国 P2P 支付，群里写 venmo）
 - N1（斐讯 N1 盒子，群友用来放在房东家做家宽节点）
 - XHTTP（代理传输协议，群里写 xhttp）
@@ -1875,3 +1876,27 @@
 - `Eq` — 群友称买一刀试用可看三家信报的工具（海无方美卡 Zzzz「Eq买了一刀试用」），照原文。
 - `云海互联` — 群友机场名（Loon-0x00 OFF「云海互联机场」），照原文。
 - 成员续：海无方美卡 — CapeCake、Jensen、Sany、AiHua、Zzzz、不吃香菜；东逆海外基建 — StaNotFound、hypehype_mon、509；InfiCheesy — Visual、dorrin、NON、NAXFORM、Sunny Wang、K11（认准只有此号）、Joey-免费解决网络技术问题、ikun(节点问题付费解决)；东逆薅毛大队 — chou simon；Loon-0x00 — OFF、oxy；LoonCommunity — Dur1anx。
+
+## 2026-10-28 03 点新增
+- `CMLink eSIM` / esim.cmlink.com — 中国移动 CMLink 全球 eSIM 套餐站（群友写 cmlink；奶昔帖称 BNE 100G 装上后为 CMLink GDS）；与 `CMLink UK`/`cmuk`、`CMSG` 新加坡不同产品线。
+
+## 2026-10-28 04 点新增
+- `CloudFlareSub` / CloudflareSub — InfiCheesy 开源优选 IP 订阅生成器（GitHub InfiCheesy/cloudflaresub）；群友 罗杰 Logic 称 Workers 部署报 Error 1101 后迁 Pages 并提 PR #8。
+- Cloudflare Workers `Error 1101` — 官方文档：Worker 抛出未捕获 JS 异常或无法返回 Response。
+- 成员续：InfiCheesy — 罗杰 Logic（续）；Loon-0x00 — ezzy Y、𝑳𝒊𝒌𝒆 𝑳𝒊𝒌𝒆（续）、R JJ。
+
+## 2026-10-28 09 点新词
+- `皇家邮政` / `Royal Mail` Redirection — 英国邮件转寄（东逆薅毛大队 Gahany「皇家邮政的重定向到国内」）。
+- `IMSI` `23487` — Lebara UK 英国路径（奶昔 Kaka K「IMSI无损修改23487」；与 20404/nl 对照见公开排查文）。
+
+## 2026-10-28 10 点新词
+- `Binance Card`（台区 / Immersve Global Program）— 群友称台区币安可申请 Mastercard 虚拟卡（外卡交流频道 SZ外卡频道）；第三方测评称需完成 KYC 且 App 卡片页有 Apply。
+- `Loon 3.5.3 (1011)` / TF 1011 — LoonNews 称重构 http 解析引擎；群友反馈 MITM/插件异常，回退 1008 或重启 VPN（Loon-0x00）。
+- `假 DD` / fake DD — 群友称用 LemFi 等向 SoFi 做模拟入金/验证路径（海无方美卡）。
+- `ACH pull` — 数字银行从外部账户拉取资金（东逆海外基建谈 PokePay 约 1 刀费用）。
+- 成员续：海无方美卡 — Smiple jack、Nathaniel、cool、Spark、avalon、Shang O、K Carter、wu di；东逆海外基建 — S k2、Not now、Drift Silent、huo yan、xuanwoa、chou simon；InfiCheesy — vvvvvv、Hizskj、Rfv、三星德子、c；奶昔论坛 — kutoku k；Loon-0x00 — Seyune292、Robo、秦城二院彭医生｜夜勤病棟（续）、Tartarus（续）；VPS家宽AI群 — Jessica NEX、iahwjw sohssb、James Phil、Oudbiao；何居上跨境 — 汤 吉米；Nbvil交流群 — Cool Popsicle。
+
+## 2026-10-30 01 时增量
+- `Wovia` / wovia — 群友称免 KYC、邮箱即可开的 USDT 虚拟卡平台（东逆海外基建 Noo Way「wovia这个甚至都不要KYC」），照原文。
+- `unlil` / cloud.unlil.com — VPS 商家（VPS家宽AI群 Anenrok 贴西雅图 LXC 卖鸡链接），照原文。
+- `Kite`（kiteapp.xyz）— 群友讨论的扫码支付 / 法币换 U App（东逆薅毛大队称今日更新法币换 U；与流量卡「kite」别称并存时按上下文区分）。

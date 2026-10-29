@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-27T01:09:14.353096+00:00",
+  "checked_at": "2026-10-27T13:13:19.989448+00:00",
   "eligible": [],
   "needs_parameter_verification": [
     {
@@ -63,10 +63,6 @@
       "context_length": 262144
     },
     {
-      "id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "context_length": 262144
-    },
-    {
       "id": "openrouter/free",
       "context_length": 200000
     }
@@ -80,7 +76,6 @@
     "google/lyria-3-pro-preview",
     "liquid/lfm-2.5-2.6b:free",
     "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-    "nvidia/nemotron-3-super-120b-a12b:free",
     "nvidia/nemotron-3-ultra-550b-a55b:free",
     "nvidia/nemotron-3.5-content-safety:free",
     "nvidia/nemotron-3.5-lightning:free",
@@ -93,5 +88,5 @@
     "thinkingmachines/inkling:free",
     "xingchen-agi/xing4.0-29b-a4b:free"
   ],
-  "free_count": 20
+  "free_count": 19
 }

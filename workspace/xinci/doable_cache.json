@@ -1,149 +1,4 @@
 {
- "sky-001": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 0,
-  "kd_ok": true,
-  "kd": 0,
-  "day": "2026-10-21"
- },
- "mercury 3": {
-  "overview_ok": true,
-  "volume": 170,
-  "cpc": 0.0,
-  "comp": 0.11,
-  "results": 194,
-  "kd_ok": true,
-  "kd": 25,
-  "day": "2026-10-21"
- },
- "viggle jst-2": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "day": "2026-10-21"
- },
- "deepinfer": {
-  "overview_ok": true,
-  "volume": 10,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 0,
-  "kd_ok": true,
-  "kd": 0,
-  "day": "2026-10-21"
- },
- "llm-d": {
-  "overview_ok": true,
-  "volume": 1600,
-  "cpc": 7.4,
-  "comp": 0.01,
-  "results": 106,
-  "kd_ok": true,
-  "kd": 50,
-  "day": "2026-10-21",
-  "serp": {
-   "kinds": {
-    "article": 8,
-    "tool": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "people_also_ask",
-    "related_searches"
-   ],
-   "top": [
-    "github.com",
-    "llm-d.ai",
-    "redhat.com",
-    "llm-d.ai",
-    "github.com",
-    "llm-d.ai",
-    "cloud.google.com",
-    "docs.vllm.ai",
-    "coreweave.com"
-   ],
-   "source": "serp",
-   "soft_weak": 0
-  }
- },
- "flux 3 max": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "day": "2026-10-21"
- },
- "ornith-1.5-122b": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "day": "2026-10-21"
- },
- "voxtral 3": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "day": "2026-10-21"
- },
- "memt-1.0": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "day": "2026-10-21"
- },
- "sage-a1.5": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "day": "2026-10-21"
- },
- "spark-x2.6-4b": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "day": "2026-10-21"
- },
- "oxr-1.0": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "day": "2026-10-21"
- },
  "claude duet": {
   "overview_ok": true,
   "volume": 20,
@@ -243,2003 +98,6 @@
    "source": "serp",
    "soft_weak": 2
   }
- },
- "recursive flint": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "php 漏洞检测": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "free ai humanizer io": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "free ai humanizer uk": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "free ai humanizer org": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "free ai detector m": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "free ai detector uk": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "free ai detector owl": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "aerial tv free": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "sm100 smoke detector": {
-  "overview_ok": true,
-  "volume": 10,
-  "cpc": 1.1,
-  "comp": 0.99,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "sm100 ac smoke detector": {
-  "overview_ok": true,
-  "volume": 40,
-  "cpc": 1.12,
-  "comp": 1.0,
-  "results": 4110,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "claude duet vs dots": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "claude duet vs instinct": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "claude duet x": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "recursive flint model": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22",
-  "serp": {
-   "kinds": {
-    "article": 6,
-    "forum": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "discussions_and_forums",
-    "people_also_ask",
-    "video"
-   ],
-   "top": [
-    "aichatdaily.com",
-    "aiadoptionagency.com",
-    "models.dev",
-    "reddit.com",
-    "beri.net",
-    "promptea.me",
-    "asksurf.ai"
-   ],
-   "items": [
-    {
-     "domain": "aichatdaily.com",
-     "url": "https://www.aichatdaily.com/ai-models/recursive-releases-flint-open-weight-coding-model-runs-laptop",
-     "title": "Recursive releases Flint, an open-weight coding model ...",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "aiadoptionagency.com",
-     "url": "https://aiadoptionagency.com/recursive-si-flint/?srsltid=AYCX9vL5rqLn3iblpn0SsSN1iAmoiQlcDQianI3Z1bJera6056vqG00m",
-     "title": "Recursive SI Flint: Open Weight AI for Local Coding",
-     "position": 2,
-     "kind": "article"
-    },
-    {
-     "domain": "models.dev",
-     "url": "https://models.dev/labs/recursive",
-     "title": "Recursive models, providers, and specs",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/huggingface/comments/1xco4ej/ai_helped_build_this_ai_meet_recursives_new/",
-     "title": "Meet Recursive's New Coding Model, Flint : r/huggingface",
-     "position": 4,
-     "kind": "forum"
-    },
-    {
-     "domain": "beri.net",
-     "url": "https://www.beri.net/tools/recursive-flint",
-     "title": "Recursive Flint - Rajesh Beri",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "promptea.me",
-     "url": "https://www.promptea.me/en/blog/recursive-flint-open-weight-local-coding-model",
-     "title": "Recursive Flint: open-weight coding model for local agents",
-     "position": 6,
-     "kind": "article"
-    },
-    {
-     "domain": "asksurf.ai",
-     "url": "https://asksurf.ai/pulse/en/recursive-launches-flint-40b-moe",
-     "title": "Recursive Launches Flint 40B MoE Model for Coding Agents",
-     "position": 7,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  }
- },
- "recursive flint huggingface": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "recursive flint ai coding model": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "orchestra biomed": {
-  "overview_ok": true,
-  "volume": 590,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 0,
-  "kd_ok": true,
-  "kd": 35,
-  "day": "2026-10-22"
- },
- "orchestra bio ed": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "orchestra bio inc": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "eagle 44": {
-  "overview_ok": true,
-  "volume": 110,
-  "cpc": 1.71,
-  "comp": 0.03,
-  "results": 175,
-  "kd_ok": true,
-  "kd": 16,
-  "day": "2026-10-22"
- },
- "eagle 4x": {
-  "overview_ok": true,
-  "volume": 40,
-  "cpc": 0.25,
-  "comp": 0.96,
-  "results": 181,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "eagle 4x4": {
-  "overview_ok": true,
-  "volume": 70,
-  "cpc": 0.41,
-  "comp": 0.06,
-  "results": 182,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "aerial tv go": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "aerial tv hd": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "sm100 vs sm120": {
-  "overview_ok": true,
-  "volume": 10,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "dctn1 alk": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "dctn1 als": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": 0.0,
-  "comp": 0.0,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "dctn1 gen": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "insightful pipe alternative": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "insightful pipeline": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "insightful pipe mcp": {
-  "overview_ok": true,
-  "volume": 10,
-  "cpc": 0.0,
-  "comp": 0.09,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "muse from meta online": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "php vulnerability": {
-  "overview_ok": true,
-  "volume": 210,
-  "cpc": 0.0,
-  "comp": 0.09,
-  "results": 129,
-  "kd_ok": true,
-  "kd": 31,
-  "day": "2026-10-22",
-  "serp": {
-   "kinds": {
-    "article": 5,
-    "forum": 1,
-    "list": 1,
-    "video": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "people_also_ask",
-    "perspectives",
-    "related_searches"
-   ],
-   "top": [
-    "bbc.com",
-    "reddit.com",
-    "cloud.google.com",
-    "cert.europa.eu",
-    "en.wikipedia.org",
-    "nytimes.com",
-    "youtube.com",
-    "wired.com"
-   ],
-   "items": [
-    {
-     "domain": "bbc.com",
-     "url": "https://www.bbc.com/news/articles/c3qjnwye0ep5o",
-     "title": "PHP: What is it and why did it spark a global cyber security ...",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/OutOfTheLoop/comments/1xbo7bh/what_is_the_deal_with_this_php_vulnerability_how/",
-     "title": "What is the deal with this PHP vulnerability? How does it ...",
-     "position": 2,
-     "kind": "forum"
-    },
-    {
-     "domain": "cloud.google.com",
-     "url": "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619",
-     "title": "Responding to core PHP vulnerabilities CVE-2026-109618 ...",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "cert.europa.eu",
-     "url": "https://cert.europa.eu/publications/security-advisories/2026-018",
-     "title": "Critical Vulnerabilities in PHP - CERT-EU",
-     "position": 4,
-     "kind": "article"
-    },
-    {
-     "domain": "en.wikipedia.org",
-     "url": "https://en.wikipedia.org/wiki/PHP2Shell",
-     "title": "PHP2Shell",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "nytimes.com",
-     "url": "https://www.nytimes.com/wirecutter/news/php-security-flaw-20261023/",
-     "title": "The 5 Things You Need to Know About the PHP Security ...",
-     "position": 6,
-     "kind": "list"
-    },
-    {
-     "domain": "youtube.com",
-     "url": "https://www.youtube.com/watch?v=8iPKQpE40Es",
-     "title": "PHP vulnerability causing concern for companies worldwide ...",
-     "position": 7,
-     "kind": "video"
-    },
-    {
-     "domain": "wired.com",
-     "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/",
-     "title": "'This Is Not a Drill': Critical PHP Vulnerabilities Are Setting ...",
-     "position": 8,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 2
-  }
- },
- "grok bot online": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "sahara ray": {
-  "overview_ok": true,
-  "volume": 1000,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 109,
-  "kd_ok": true,
-  "kd": 29,
-  "day": "2026-10-22"
- },
- "muse from meta web version": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "san clemente fire": {
-  "overview_ok": true,
-  "volume": 480,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 155,
-  "kd_ok": true,
-  "kd": 25,
-  "day": "2026-10-22"
- },
- "muse from meta alternative": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "nebraska vs oregon": {
-  "overview_ok": true,
-  "volume": 1600,
-  "cpc": 0.59,
-  "comp": 0.21,
-  "results": 108,
-  "kd_ok": true,
-  "kd": 26,
-  "day": "2026-10-22",
-  "serp": {
-   "kinds": {
-    "list": 4,
-    "article": 2,
-    "forum": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "perspectives",
-    "related_searches",
-    "video"
-   ],
-   "top": [
-    "espn.com",
-    "goducks.com",
-    "huskers.com",
-    "huskermax.com",
-    "seatgeek.com",
-    "cornnation.com",
-    "espn.com"
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  },
-  "allintitle": 640
- },
- "grok bot web version": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "arial definition": {
-  "overview_ok": true,
-  "volume": 5400,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 110,
-  "kd_ok": true,
-  "kd": 39,
-  "day": "2026-10-22"
- },
- "grok bot alternative": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "php vulnerability 2026": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22",
-  "serp": {
-   "kinds": {
-    "article": 6,
-    "list": 1,
-    "video": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "related_searches",
-    "video"
-   ],
-   "top": [
-    "therecord.media",
-    "teamvoy.com",
-    "proarch.com",
-    "abc30.com",
-    "thestack.technology",
-    "cybrsecmedia.com",
-    "youtube.com",
-    "mashable.com"
-   ],
-   "items": [
-    {
-     "domain": "therecord.media",
-     "url": "https://therecord.media/php-script-vulnerabilities-warnings",
-     "title": "Hundreds of websites taken offline as concern grows over ...",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "teamvoy.com",
-     "url": "https://teamvoy.com/blog/php-vulnerability-2026/",
-     "title": "PHP Vulnerability 2026: Patch Now, Then Decide on ...",
-     "position": 2,
-     "kind": "article"
-    },
-    {
-     "domain": "proarch.com",
-     "url": "https://www.proarch.com/blog/threats-vulnerabilities/critical-php-vulnerabilities-cve-2026-109618-109619",
-     "title": "Critical PHP Vulnerabilities Require Immediate Action",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "abc30.com",
-     "url": "https://abc30.com/story/php-vulnerability-2026-websites-shut-down-globally-operators-address-ai-detected-flaw-web-programming-language/19968288/",
-     "title": "PHP vulnerability 2026: Websites shut down globally as ...",
-     "position": 4,
-     "kind": "article"
-    },
-    {
-     "domain": "thestack.technology",
-     "url": "https://www.thestack.technology/critical-php-vulnerabilities-poc-released-attacks-starting/",
-     "title": "Critical PHP vulnerabilities: POC released, attacks starting",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "cybrsecmedia.com",
-     "url": "https://www.cybrsecmedia.com/critical-php-rce-flaws-5-steps-to-take-now/",
-     "title": "Critical PHP RCE Flaws: 5 Steps to Take Now (Updated)",
-     "position": 6,
-     "kind": "list"
-    },
-    {
-     "domain": "youtube.com",
-     "url": "https://www.youtube.com/watch?v=up9B9_FcOXA",
-     "title": "PHP Vulnerability 2026: The 2-Year-Old Bug an AI Found ...",
-     "position": 7,
-     "kind": "video"
-    },
-    {
-     "domain": "mashable.com",
-     "url": "https://mashable.com/tech/php-vulnerability-security-update-explained",
-     "title": "PHP vulnerability: PHP security issues today explained",
-     "position": 8,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  }
- },
- "best laptop for work": {
-  "overview_ok": true,
-  "volume": 5400,
-  "cpc": 1.85,
-  "comp": 1.0,
-  "results": 185,
-  "kd_ok": true,
-  "kd": 60,
-  "day": "2026-10-22",
-  "serp": {
-   "kinds": {
-    "list": 7,
-    "forum": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "discussions_and_forums",
-    "people_also_ask",
-    "perspectives",
-    "popular_products",
-    "related_searches"
-   ],
-   "top": [
-    "laptopmag.com",
-    "itpro.com",
-    "reddit.com",
-    "techradar.com",
-    "lenovo.com",
-    "amazon.com",
-    "newegg.com",
-    "theverge.com"
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  },
-  "allintitle": 166
- },
- "wrest": {
-  "overview_ok": true,
-  "volume": 5400,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 133,
-  "kd_ok": true,
-  "kd": 46,
-  "day": "2026-10-22"
- },
- "amazon prime automatic refund eligibility": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "baby boomer steakhouse preferences yougov": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "universal facial recognition attraction lockers": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "best budget smartphone": {
-  "overview_ok": true,
-  "volume": 1600,
-  "cpc": 1.95,
-  "comp": 0.81,
-  "results": 186,
-  "kd_ok": true,
-  "kd": 56,
-  "day": "2026-10-22",
-  "serp": {
-   "kinds": {
-    "list": 7,
-    "video": 2
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "discussions_and_forums",
-    "people_also_ask",
-    "popular_products",
-    "related_searches"
-   ],
-   "top": [
-    "androidcentral.com",
-    "stuff.tv",
-    "metrobyt-mobile.com",
-    "theverge.com",
-    "youtube.com",
-    "engadget.com",
-    "techspot.com",
-    "forum.allinsider.net",
-    "youtube.com"
-   ],
-   "source": "serp",
-   "soft_weak": 2
-  },
-  "allintitle": 63
- },
- "iphone duo case": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "apple iphone duo": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "seo services pricing": {
-  "overview_ok": true,
-  "volume": 3600,
-  "cpc": 7.52,
-  "comp": 0.04,
-  "results": 135,
-  "kd_ok": true,
-  "kd": 49,
-  "day": "2026-10-22",
-  "serp": {
-   "kinds": {
-    "article": 6,
-    "forum": 1,
-    "list": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "discussions_and_forums",
-    "people_also_ask",
-    "related_searches"
-   ],
-   "top": [
-    "outerboxdesign.com",
-    "seo.com",
-    "pathfinderseo.com",
-    "authoritysolutions.com",
-    "backlinko.com",
-    "webfx.com",
-    "shopify.com",
-    "foxxr.com"
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  },
-  "allintitle": 17100
- },
- "iphone duo": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "annie andrews": {
-  "overview_ok": true,
-  "volume": 8100,
-  "cpc": 11.87,
-  "comp": 0.08,
-  "results": 11500000,
-  "kd_ok": true,
-  "kd": 37,
-  "day": "2026-10-22",
-  "serp": {
-   "kinds": {
-    "tool": 1,
-    "article": 5,
-    "forum": 2
-   },
-   "ads": false,
-   "features": [
-    "knowledge_graph",
-    "related_searches",
-    "top_stories",
-    "video"
-   ],
-   "top": [
-    "drannieandrews.com",
-    "en.wikipedia.org",
-    "drannieandrews.com",
-    "giffords.org",
-    "facebook.com",
-    "fec.gov",
-    "foxcarolina.com",
-    "x.com"
-   ],
-   "source": "serp",
-   "soft_weak": 2
-  },
-  "allintitle": 5160
- },
- "micah potter": {
-  "overview_ok": true,
-  "volume": 9900,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 129,
-  "kd_ok": true,
-  "kd": 52,
-  "day": "2026-10-22"
- },
- "claude duet free": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "playful rewards online": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 1.36,
-  "comp": 0.6,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "netflix game controller online": {
-  "overview_ok": true,
-  "volume": 40,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "nba online": {
-  "overview_ok": true,
-  "volume": 390,
-  "cpc": 1.09,
-  "comp": 0.12,
-  "results": 1230,
-  "kd_ok": true,
-  "kd": 100,
-  "day": "2026-10-22"
- },
- "free ai humanizer ace": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "prizepicks online": {
-  "overview_ok": true,
-  "volume": 70,
-  "cpc": 6.95,
-  "comp": 0.23,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "aliexpress online": {
-  "overview_ok": true,
-  "volume": 320,
-  "cpc": 0.93,
-  "comp": 0.64,
-  "results": 0,
-  "kd_ok": true,
-  "kd": 67,
-  "day": "2026-10-22"
- },
- "roku remote official online": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "chevron font": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "suno online": {
-  "overview_ok": true,
-  "volume": 90,
-  "cpc": 1.44,
-  "comp": 0.34,
-  "results": 105,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "ken kutaragi": {
-  "overview_ok": true,
-  "volume": 1600,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 28900,
-  "kd_ok": true,
-  "kd": 26,
-  "day": "2026-10-22"
- },
- "ebay online shopping selling online": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "cve-2026-109618": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "ebay online shopping selling web version": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "ebay online shopping selling alternative": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "horseshoe font": {
-  "overview_ok": true,
-  "volume": 70,
-  "cpc": 0.0,
-  "comp": 0.01,
-  "results": 103,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "claude duet vs muse": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "netshort online": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 0.0,
-  "comp": 0.01,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "playful rewards web version": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "is boruto canon": {
-  "overview_ok": true,
-  "volume": 720,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 193,
-  "kd_ok": true,
-  "kd": 25,
-  "day": "2026-10-22"
- },
- "playful rewards alternative": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "wolves vs heat": {
-  "overview_ok": true,
-  "volume": 320,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 290,
-  "kd_ok": true,
-  "kd": 33,
-  "day": "2026-10-22"
- },
- "netflix game controller web version": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "accounting software for small business": {
-  "overview_ok": true,
-  "volume": 9900,
-  "cpc": 16.96,
-  "comp": 0.46,
-  "results": 179,
-  "kd_ok": true,
-  "kd": 68,
-  "day": "2026-10-22",
-  "serp": {
-   "kinds": {
-    "list": 6,
-    "tool": 1,
-    "article": 1,
-    "video": 1
-   },
-   "ads": true,
-   "features": [
-    "ai_overview",
-    "people_also_ask",
-    "popular_products",
-    "related_searches"
-   ],
-   "top": [
-    "quickbooks.intuit.com",
-    "waveapps.com",
-    "xero.com",
-    "pcmag.com",
-    "lewis.cpa",
-    "online.jwu.edu",
-    "youtube.com",
-    "uschamber.com",
-    "usehaven.com"
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  },
-  "allintitle": 32
- },
- "netflix game controller alternative": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "apple duo": {
-  "overview_ok": true,
-  "volume": 90,
-  "cpc": 0.0,
-  "comp": 0.34,
-  "results": 175,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "nba web version": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "nba alternative": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "orchestra bio ceo": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "prizepicks web version": {
-  "overview_ok": true,
-  "volume": 140,
-  "cpc": 0.0,
-  "comp": 0.06,
-  "results": 122,
-  "kd_ok": true,
-  "kd": 41,
-  "day": "2026-10-22"
- },
- "prizepicks alternative": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 17.92,
-  "comp": 0.49,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "the voice the battles part 3": {
-  "overview_ok": true,
-  "volume": 390,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 119,
-  "kd_ok": true,
-  "kd": 28,
-  "day": "2026-10-22"
- },
- "aliexpress web version": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 0.0,
-  "comp": 0.02,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "brighton vs palace": {
-  "overview_ok": true,
-  "volume": 40,
-  "cpc": 0.0,
-  "comp": 0.02,
-  "results": 554,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-22"
- },
- "decisions api": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 16.77,
-  "comp": 0.37,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "agent skills": {
-  "overview_ok": true,
-  "volume": 5400,
-  "cpc": 4.15,
-  "comp": 0.09,
-  "results": 132,
-  "kd_ok": true,
-  "kd": 61,
-  "day": "2026-10-23",
-  "serp": {
-   "kinds": {
-    "article": 7,
-    "forum": 1,
-    "tool": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "related_searches"
-   ],
-   "top": [
-    "github.com",
-    "platform.claude.com",
-    "learn.microsoft.com",
-    "blogs.cisco.com",
-    "cloud.google.com",
-    "reddit.com",
-    "addyosmani.com",
-    "skills.addy.ie",
-    "dev.to"
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  },
-  "allintitle": 6750
- },
- "ling-3.0-flash-sante": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "agent skills free": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "vibeshort online": {
-  "overview_ok": true,
-  "volume": 10,
-  "cpc": 1.34,
-  "comp": 0.04,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "railway alternative": {
-  "overview_ok": true,
-  "volume": 70,
-  "cpc": 11.13,
-  "comp": 0.5,
-  "results": 93,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "ling-3.0-flash-sante-free": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "zeta online": {
-  "overview_ok": true,
-  "volume": 30,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "reylo online": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "alibaba.com b2b trade app online": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "oregon vs nebraska": {
-  "overview_ok": true,
-  "volume": 1600,
-  "cpc": 0.61,
-  "comp": 0.35,
-  "results": 120,
-  "kd_ok": true,
-  "kd": 27,
-  "day": "2026-10-23",
-  "serp": {
-   "kinds": {
-    "forum": 2,
-    "list": 4
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "people_also_ask",
-    "perspectives",
-    "related_searches",
-    "short_videos",
-    "video"
-   ],
-   "top": [
-    "huskermax.com",
-    "espn.com",
-    "winsipedia.com",
-    "reddit.com",
-    "espn.com",
-    "sports.yahoo.com"
-   ],
-   "source": "serp",
-   "soft_weak": 2
-  },
-  "allintitle": 683
- },
- "deepseek is free": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 0.0,
-  "comp": 0.03,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "klarna online": {
-  "overview_ok": true,
-  "volume": 170,
-  "cpc": 2.89,
-  "comp": 0.13,
-  "results": 127,
-  "kd_ok": true,
-  "kd": 49,
-  "day": "2026-10-23"
- },
- "deepseek free api": {
-  "overview_ok": true,
-  "volume": 480,
-  "cpc": 3.48,
-  "comp": 0.13,
-  "results": 135,
-  "kd_ok": true,
-  "kd": 66,
-  "day": "2026-10-23"
- },
- "vibeshort web version": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "deepseek free tier": {
-  "overview_ok": true,
-  "volume": 40,
-  "cpc": 0.0,
-  "comp": 0.01,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "vibeshort alternative": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": 0.0,
-  "comp": 0.02,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "alexa free": {
-  "overview_ok": true,
-  "volume": 320,
-  "cpc": 1.07,
-  "comp": 0.13,
-  "results": 107,
-  "kd_ok": true,
-  "kd": 50,
-  "day": "2026-10-23"
- },
- "zeta web version": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "alexa online": {
-  "overview_ok": true,
-  "volume": 590,
-  "cpc": 0.7,
-  "comp": 0.03,
-  "results": 0,
-  "kd_ok": true,
-  "kd": 53,
-  "day": "2026-10-23",
-  "serp": {
-   "kinds": {
-    "tool": 2,
-    "forum": 1,
-    "article": 4
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "people_also_ask",
-    "related_searches"
-   ],
-   "top": [
-    "alexa.amazon.com",
-    "amazon.com",
-    "reddit.com",
-    "play.google.com",
-    "amazon.com",
-    "aboutamazon.com",
-    "amazon.com"
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  },
-  "allintitle": 53
- },
- "zeta alternative": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 0.0,
-  "comp": 0.0,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "golden knights vs blues": {
-  "overview_ok": true,
-  "volume": 480,
-  "cpc": 0.0,
-  "comp": 0.01,
-  "results": 0,
-  "kd_ok": true,
-  "kd": 26,
-  "day": "2026-10-23"
- },
- "decisions api vs jev": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "alibaba.com b2b trade app web version": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "steam php": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "decisions api cost vs jev": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "alibaba.com b2b trade app alternative": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "shamonda virus": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "decisions api openai vs jev": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "klarna web version": {
-  "overview_ok": true,
-  "volume": 90,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 106,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "shy safari": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "agent skills vs mcp": {
-  "overview_ok": true,
-  "volume": 70,
-  "cpc": 6.63,
-  "comp": 0.04,
-  "results": 124,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "klarna alternative": {
-  "overview_ok": true,
-  "volume": 320,
-  "cpc": 5.16,
-  "comp": 0.63,
-  "results": 105,
-  "kd_ok": true,
-  "kd": 28,
-  "day": "2026-10-23"
- },
- "agent skills vs tools": {
-  "overview_ok": true,
-  "volume": 40,
-  "cpc": 0.0,
-  "comp": 0.05,
-  "results": 130,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "cybersecurity solutions for small business": {
-  "overview_ok": true,
-  "volume": 590,
-  "cpc": 42.4,
-  "comp": 0.05,
-  "results": 78,
-  "kd_ok": true,
-  "kd": 45,
-  "day": "2026-10-23",
-  "serp": {
-   "kinds": {
-    "article": 3,
-    "list": 5,
-    "forum": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "people_also_ask"
-   ],
-   "top": [
-    "web.uri.edu",
-    "sysgen.ca",
-    "ifeeltech.com",
-    "reddit.com",
-    "verizon.com",
-    "cybersecurityguide.org",
-    "signeasy.com",
-    "lkmethod.com",
-    "data-analytics-certification.hashnode.dev"
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  },
-  "allintitle": 8240
- },
- "reylo vk": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "reylo ai": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": 0.0,
-  "comp": 0.0,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "alexa vs echo": {
-  "overview_ok": true,
-  "volume": 320,
-  "cpc": 0.75,
-  "comp": 0.12,
-  "results": 170,
-  "kd_ok": true,
-  "kd": 36,
-  "day": "2026-10-23"
- },
- "wrest meaning": {
-  "overview_ok": true,
-  "volume": 1300,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 135,
-  "kd_ok": true,
-  "kd": 35,
-  "day": "2026-10-23"
- },
- "lemon squared paola": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "lemon squared bkara": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "lemon squared photos": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": 0.0,
-  "comp": 0.0,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "mspbots ai": {
-  "overview_ok": true,
-  "volume": 10,
-  "cpc": 12.54,
-  "comp": 0.39,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "mspbots inc": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "expectations ft chappell roan lyrics": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "mspbots api": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "writercom": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 0.0,
-  "comp": 0.86,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
- },
- "writercon": {
-  "overview_ok": true,
-  "volume": 50,
-  "cpc": 0.0,
-  "comp": 0.01,
-  "results": 106,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-23"
  },
  "net worth tracker": {
   "overview_ok": true,
@@ -7312,6 +5170,386 @@
   "microsoftofficealternati.org": {
    "available": true,
    "day": "2026-10-27"
+  },
+  "gemini4carbon.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "gemini4carbonai.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "trygemini.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "gemini4carbon.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "gemini4carbonai.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "gemini4carbon.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "gemini4carbonai.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "gemini4carbon.org": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "nemotron35transcribe.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "nemotron35transcribeai.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "nemotron35transcribe.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "nemotron35transcribeai.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "nemotron35transcribe.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "nemotron35transcribeai.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "nemotron35transcribe.org": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "brush.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "brushai.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "trybrush.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "brush.ai": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "brushai.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "brush.io": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "brushai.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "brush.org": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "lechonk.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "lechonkai.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "tryle.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "lechonk.ai": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "lechonkai.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "lechonk.io": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "lechonkai.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "lechonk.org": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "pikah3flex.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "pikah3flexai.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "trypika.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "pikah3flex.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "pikah3flexai.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "pikah3flex.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "pikah3flexai.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "pikah3flex.org": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "clovera3bpreview.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "clovera3bpreviewai.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "tryclover.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "clovera3bpreview.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "clovera3bpreviewai.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "clovera3bpreview.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "clovera3bpreviewai.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "clovera3bpreview.org": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "audio8ttsrealistic.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "audio8ttsrealisticai.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "tryaudio8.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "audio8ttsrealistic.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "audio8ttsrealisticai.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "audio8ttsrealistic.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "audio8ttsrealisticai.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "audio8ttsrealistic.org": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "wevisonevl.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "wevisonevlai.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "trywevisone.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "wevisonevl.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "wevisonevlai.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "wevisonevl.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "wevisonevlai.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "wevisonevl.org": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "matildaplatypus.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "matildaplatypusai.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "trymatilda.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "matildaplatypus.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "matildaplatypusai.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "matildaplatypus.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "matildaplatypusai.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "matildaplatypus.org": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "darlinkai.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "trydarlinkai.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "darlink.ai": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "darlinkai.ai": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "trydarlink.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "trydarlinkai.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "darlinkai.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "trydarlinkai.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "3dmakerpro.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "3dmakerproai.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "try3d.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "3dmakerpro.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "3dmakerproai.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "3dmakerpro.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "3dmakerproai.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "3dmakerpro.org": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "zerogpt.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "zerogptai.com": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "tryzerogpt.com": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "zerogpt.ai": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "zerogptai.ai": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "zerogpt.io": {
+   "available": false,
+   "day": "2026-10-30"
+  },
+  "zerogptai.io": {
+   "available": true,
+   "day": "2026-10-30"
+  },
+  "zerogpt.org": {
+   "available": false,
+   "day": "2026-10-30"
   }
  },
  "d3-turbo": {
@@ -12571,5 +10809,3048 @@
   "kd": null,
   "kd_skipped": true,
   "day": "2026-10-27"
+ },
+ "gemini 4 carbon": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "list": 8
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "perspectives",
+    "related_searches"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "blog.4sapi.com",
+    "cellcog.ai",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZAHrOzAV4N89UF0cKvt_JXvHRgH5r4WkWoPFOrkhvMOnBnJxNJzQfbmYINDCAjrU0prBTEuHYiXettrpHagFqwnOXWa36Z0ibkpAjrla3V-KnsSxyriH2-aqnD1yr7ujFnNESvI",
+     "title": "Gemini 4 Carbon: Google's new #1 model, explained",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESkQEB6zswFffdfAIueJSCqMIEvgdyWO8VZIWvuSbK_5QUiFiwmrS3E-XLOFnh71rXlG-zZNJ4I0ideljaIjTbungOl_rX6forpIfkeHGvU7e-Q3LibTg1spYP2PaNXNdorxF9k0Xs0KmKiGlwoWNUXtkIBy13hO_A2EOFvfifS83qk-qMdnuFOyE0TPtB3JaxY8aq",
+     "title": "Google unveils Gemini 4 Carbon, a cybersecurity-focused ...",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbAHrOzAVa0vbRIhfyczKa4nnlT2GG-m1qLCQZ-VPat-uDT1QuA78gD-cGrJd-HOGqUitFaRR6RERQQkelV-2Ipx5dNWAWWClUMnSyoeSaH3vcY7MQ1I6hvDNz7owbo8VWBa4XaiBtSceoKzx8A",
+     "title": "What Is Gemini 4 Carbon? Benchmarks, Features & Pricing",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESlAEB6zswFV2ykSOzBSi047XsTbPXZFkL71pG1JDZErLFxlLh9Q21GLaEaM6-ZEBKNujRB9NNE5coGL1fb3kWzVFC5zHg5DG-yBTN8TDSK8vE8uFIpDRcs_JmF-KhH-A3nMuOJTyc0cLlvZBmzR0PwqZlc8ok4yAOBtbv3-2zGggYkYfDDNhxciPpqWnmAPht2FoSqF2x",
+     "title": "Google's Gemini 4 Carbon Promises 'Significant Leap' In AI ...",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAV761q7t0VkEd3d1CxO2GOs4rG17tnrODiG3ckbwYxhlImMkBN12OH5O3Y9pCRhni3s6htA4kaNtraO-ejGjyLwqJ9cwn189sE1swDW57UE8acUJxus-iuQfjYWPjPReG4yA",
+     "title": "Google ANNOUNCES Gemini 4 Carbon",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "blog.4sapi.com",
+     "url": "https://blog.4sapi.com/blog/gemini-4-carbon-coding-update",
+     "title": "Gemini 4 Carbon Explained: Google Coding AI Upgrade",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "cellcog.ai",
+     "url": "https://cellcog.ai/blog/gemini-4-carbon/",
+     "title": "Gemini 4 Carbon: Benchmarks, Price and Access",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZwHrOzAVnsX-E1cKVcFy0lSFo5GrpEx86gq4n6ZGC93VttAIihcMmVRmC80_VuGoFdZ6Tmgc8OhlD37IKRxKs0B-nXzZfuTD48xHP4NFLJrSH_mMXGa3MWff-mDf9KQxZ3Zx50rF7oI",
+     "title": "Gemini 4 Carbon: Benchmarks, Price & Availability",
+     "position": 8,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "nemotron 3.5 transcribe": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 3,
+    "list": 4
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "perspectives",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "build.nvidia.com",
+    "google.com",
+    "google.com",
+    "sgl-project.github.io",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "build.nvidia.com",
+     "url": "https://build.nvidia.com/nvidia/nemotron-asr-streaming/modelcard",
+     "title": "nemotron-asr-streaming Model by NVIDIA",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScQHrOzAVU2eEa3fRKy7yscUxGkc588WB70s1_XfRBgLoMEKWoDS-pUSKA55NfMZYzpjUvevHZmiFXK7LqS68UoZqQRPd36QSuaaTIQURo7SEI1aGjq0d7BzdTmv7uxqLeJVMdswKvjNL6iXQoQLdgcel",
+     "title": "NVIDIA Nemotron 3.5 ASR | Model library",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESowEB6zswFQS1SH-wyt21__nKy5QdYkKsv5D1DS6kCZdMbvXG7lJjr_U06VM1DUJFSM6HuxvZ35FQdapbheP7GB68nb5kF8tVCIoE8rBMobvqFIssdfbe8slq4H9AcJ90FCOQUwY0qGpR0PwxZ_xei6bKH0zNpP5IBfkrClxBULnjj8FU-aN_wqvkj4U5227DzqZC_Y5f4z8etYkmgj7SLs9-VoTt",
+     "title": "NVIDIA's Nemotron 3.5 Transcribe Tops Open Speech ...",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "sgl-project.github.io",
+     "url": "https://sgl-project.github.io/sglang-omni/cookbook/nemotron_transcribe.html",
+     "title": "Nemotron Transcribe",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESigEB6zswFZ0PI-SkzN0pPuoE2ZeKaqCWWvx1kyfSmYaX_x_uTw_coe293WLr0SflAlBhhjjJfYkXoCB9xZ2VK9JxYwgh0kAqcTuQpFvenrcFrJCRIaA056CgnJEpVskPuXb572jfj6LrGqQYrG1aCJ9Jv3xIPNRMEo8Cyj1M6MlKyB3lvIdZ8fTXLzw",
+     "title": "What Is NVIDIA Nemotron 3.5 ASR? The Streaming ...",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEShgEB6zswFZOyil5aAzjc7TU0452BK9lR1xNV5qvcP5QDhjKnPLzgSsr4b1Vp4ZiXMODdS1HdggiyKMQrvPI3IF4DS_596FbG4qyjZwhsJ-_sunX5dFsekrhIjFOSZfmL8LgPu7Q93VFCU7v0xz8oAteFVj0QF3xcGy8iRcNT3vMd2TAsiEZP-g",
+     "title": "NVIDIA Nemotron 3.5 Transcribe 30B A4B",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESkgEB6zswFVg6u3Hs4F2_4SY8lh9yiHNIIylQHqb4VQM3BZQWf1l9Pt7sMMkSiDLk3EfX121xtRfLQ4DSYzOcoWwYI-Po8gFRy1WoRf5B___1R8j0Mm-q-6G6x5ivkvE_CNSaM35r8NRwJuqdw_2MpHTJ096JdHWv4qhxR9lTRhHM6cGJXScxHo0xCOZoAezifLFeiA",
+     "title": "AtomicChat/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B- ...",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "brush": {
+  "overview_ok": true,
+  "volume": 33100,
+  "cpc": 0.92,
+  "comp": 0.56,
+  "results": 192,
+  "kd_ok": true,
+  "kd": 22,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "list": 2,
+    "article": 5
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "images",
+    "people_also_ask",
+    "perspectives",
+    "popular_products",
+    "product_considerations",
+    "related_searches"
+   ],
+   "top": [
+    "google.com",
+    "thefreedictionary.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESlgEB6zswFd6-vUAEqGr-hoJblX08X_d9mKvsvSj_d_WnpaRve4HqQPM8X4aqTBMIzV5hpIEKK9DMGifESd5SlLYajTvRIwMzeU-X8Z_uaD5IsL15CgGIYL2d0OBRewpO_yO4d8ftj7FG2ZqYDHR18fTv60-DVbTaVgjuM85ksFUcGaXXAA5jJ7YKJajy1Ba2Yv8uhzKxrlk",
+     "title": "Can Wash Brush Wood Core 5 Gallon Pail | GM1",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "thefreedictionary.com",
+     "url": "https://www.thefreedictionary.com/brush",
+     "title": "Brush",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScwHrOzAV_e-ANRwCmoL92wZmf0t5YCSOTq4kQxtFlN6DD4AU32pZ_81sZzfhnMWJZ-nOJrJWl_0DENV2eXEzs12HQpyuOEqbl73hpADV8ZElBoiqNmunMWbXehe2JqFVzKH7J71giyN1ZRIJX8toszIRRic",
+     "title": "Brushes, Combs & Hair Picks - Hair Brush Sets",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESiwEB6zswFUmnUh1SYGQY61xuK5jaP6owMZ6kSMbcBlb-yERks487lxyrvn3Pmvaaog1f2PCTpiyXJdd6EwnYJ3Gt0JzeNHft0zmKYjrQfMzpVnpjZROwgh4rnwhmbHw8Be-uiL2JmfMF8qG1RC3INdWF4Aa7kj0VwKNrEMcIriIJNPs1DC0XcR5HpCZc",
+     "title": "Best Household Cleaning Brushes",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESqwEB6zswFSvd-NEnqpNNRUlxHk6RJOXLUvlAqlySol9hETpEOTG7omrye9c8o1eWYgOo7cmKJt564OuUjGp8K10zxfmBobtzuYw1yl_rKTp3h9Y5SfgAYkvgU79hBQpEV27k6E9vYJ72_lvBPAFUa22gLiWHxHeTWkXp0JYAuCjDYIgDLNjKLrDvhqT-fswciJby8a12hkKrGqZeKvE6q1aFyjVEr6rSEs39lrs",
+     "title": "Brushes",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZwHrOzAVB_gbv8WDZX-sbNaehJMPlEXAxS-Mlxer33nShvieSCURiKAUO41OXUni8bXtKYk1NlDUtffrwJ9KqfA48su9iJ01EgiFjIR2M-yhyLsdKEPf-SUGDiFYPP5YDm3MQqPTuOU",
+     "title": "Cleaning Brushes",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESqgEB6zswFUG1ZMFm2PnnVxtfL-wW5JwHqKj1m_Mtaz2EzKPPBI7QTe4O-vGIXdY1CEhKoRlMJnkRgXnINlUbNLqVP0eZAS0EcsUEwRM94tcMVP6LyQuXcmT0S4ZqYNOBawYhOQIyz4_RQ-O1DL5RrFiTVpUhXg3augJwVg1QEQ3mK9gadOV8UfVCcuE3boGwR8k7r45SbsOec20RlG9DT3Z84-kWmShkd_VfaQ",
+     "title": "BRUSHES",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  },
+  "allintitle": 51
+ },
+ "le chonk": {
+  "overview_ok": true,
+  "volume": 590,
+  "cpc": 0.0,
+  "comp": 0.12,
+  "results": 126,
+  "kd_ok": true,
+  "kd": 36,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "list": 1,
+    "article": 5
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "images",
+    "perspectives",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "medium.com",
+    "google.com",
+    "google.com",
+    "theregister.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/@adnanmasood/mistral-large-4-le-chonk-a-review-of-europes-trillion-parameter-model-and-its-open-weight-ea2fc59ae8c5",
+     "title": "Mistral Large 4 (Le Chonk): A Review of Europe's Trillion ...",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYwHrOzAVI9dxVqECY4joItY0MrISJIUSmf1tbU1klwZkz8dBbduWFmX3KM9O05_CcYhJSNfmqSfn-0IsdzcKxqZ4K6-iVM0oP_-P-4l0CWjQRNsnaPm-8E202rKsgjZLu_LLhg",
+     "title": "Mistral Large 4 (Le Chonk): Specs, Price, Benchmarks",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESkAEB6zswFUHsLXNpKk9YhaippD3VzB22DLocRFKCaeluEMH2uCdPfOxCjLYtsfEF8NcptjmZr4tx94tgWP6YVcfyvgn4jDgzWBOTCSwkl3lfAPF0yuFpP_dz1GC5LTS7hMsDPTmiJgbx6uucv7yeLZd0jH2qxvC9cCNDLK_8RuUcfVphasKjlFFdlWbZQikRfSA",
+     "title": "Le chonk official launch video : r/singularity",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "theregister.com",
+     "url": "https://www.theregister.com/ai-and-ml/2026/10/06/european-ai-flag-bearer-mistrals-new-open-weights-model-is-le-chonk/5301443",
+     "title": "European AI flag bearer Mistral's new open weights model ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVDZSV66WsoieMcA2IRxiF-oY9b9LeDvg0JXQyOhGVwCsUuP99SkLkkMpHo0rzTHBB36NNhjdzlP6BlLWJXcOMtY055UXVjKcek7ucw0c1GYboD5yig28LcfS2XVrwDdHLXA",
+     "title": "Meet Le Chonk: Mistral's 1T Parameter AI",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESfgHrOzAVa6uHhbedlxMpsSpV9vJLa7WxeFspzhR7i3VXWgizI43EFP2WZWnxZMtCqo_9SrhikgtTS_GqMkpPqo_eWvxrntNWqGbTBzhZ0LfGDWJ6xSsCM7w5kEiB44Vkr42UPsLIgMyKBZTH-Dj1_WowgPD3Z5ACJ8LjhoKMSg",
+     "title": "Mistral's Large 4 'Le Chonk' joins the West's open model ...",
+     "position": 6,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "pika h3 flex": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "tool": 1,
+    "list": 1,
+    "forum": 3,
+    "article": 4
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "pika.art",
+    "google.com",
+    "x.com",
+    "x.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "x.com"
+   ],
+   "items": [
+    {
+     "domain": "pika.art",
+     "url": "https://pika.art/",
+     "title": "Pika: AI Creative Tools for Video, Image & Audio",
+     "position": 1,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESdQHrOzAVWIK2TLkNQT4D9610V_ky-VN6jc_ciutTcNlRIua2qq-heqXB1zkD9TP3EWFGKEI_ZmFs1872NfYQIkVzUfhFDpWcNZm6t5dzR9LlR2ZKlUMpOhTV7UP_PP3tE16wRe9x_w_PaAGFYcGicfE4GOUGlQ",
+     "title": "Pika H3 Flex ranks at #7 in overall quality. We post-trained ...",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/NeoAIForecast/status/2115890027385557496",
+     "title": "Post",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/heyshrutimishra/status/2115882283039117379/video/1",
+     "title": "Pika just released Pika H3 Flex, a new video model post- ...",
+     "position": 4,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScwHrOzAVihYhsWxXdg6QvNbuibHRkvuBGuionGHllPAr1yRMgPsnZpfgk1IQIe0Axrw8o1X1P0VtsIAXenfgAx6AqHtSSZ9nrfmG42zKeHo8kHuK4VCrl6NRTUqy3V-Hv81mo7hxHOTDgqCOmylrwa_S3Zw",
+     "title": "\"オープンなPika H3 Flex出ました！and Comfy-Orgに差分 ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESlgEB6zswFcWhkq0y6-2fpJMdH-2S7LfDc1LEBDgEKJte55sTFsyMWRV1v45wWdzXuXmmMphtzpqLRHTYzjt9szDK0OnScmzigxRgOKm8PizeT9WR1wKZiA26yQhUApnB4KaYD4p7pb-LjqpbSAMV7-KB2xajl6RVtzvpLAnZw-d7_5LI3v1U2rLpmYVrktWe8E1-Tu9beGs",
+     "title": "Pika H3 Flex: Open Six-Step Video and Audio Model",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESeAHrOzAVI9gnzY6tLe1Hi1u5yxC8Te-xXa2Y3GFMjGhR1PCzQqloCn_5qLPpXDkV35ZYS_W-yVtRrEKSwCHtzs8hr7OQx7LrfFN8IEJOI6j3EOBmWujDkwsxg6p11diK0-OA2O-SSSy-zlLMmniRoTeycQvwHqlo6A",
+     "title": "Pika H3 Flex is built for people who don't settle for the first ...",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESdAHrOzAVBsnx6raZT1PZ6J_mWW-oxrNeUqmCmmfUjaufD7u6B_e6Jeae_5L8SLMwgNbACdxQxkI5Zr2ZaCNKubOrInv2fF42ZzDbkNNHQaBCIIpg3OL9psvCWp8LTgJzoEKTrMzzkhsBItwmH3ZXL7cRpxM6",
+     "title": "Been playing with Pika H3 Flex, and it's really nice for quickly ...",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/redp314/status/2115946890210447533",
+     "title": "\"Pika H3 Flex from @pika_labs just dropped as open weights, ...",
+     "position": 9,
+     "kind": "forum"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 3
+  }
+ },
+ "clover-35b-a3b-preview": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 7,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "perspectives",
+    "related_searches"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "x.com",
+    "google.com",
+    "huggingface.co",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESegHrOzAV7_Hsk4rUVMYHbC10rar_mUI7Z1GymrNlI6VWNkT7uBFXzIUKr4vnRVUsr5EEfWwo82ivqHKpZGZgOamsuxHmbFIEEqjWh--C6i0dH0SNb1C2Uy_DvwlbTvLIMlVo2NP67cjl26aJTqdXSqJxzZbcfok_l7s1",
+     "title": "How to Run Clover 35B-A3B, DiffuSpace's Diffusion ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESlAEB6zswFSZhttGCEqsmu_TqjkEGcD6KzgibQXzxIeZUolZ1k6AQdN4jgD1K49BrKmIlrIOgTxRSBZq8P6mGg85dN3O3Cvp7poSbOXDRoer4owmb4xAtTx0SbaCe00K-royJwljk2oPkS8-KckR2yL5AKE3xSyPrJFdCn6TLcnqVCJ-1cBFz2n1n7KG62qSMdxdVv1iD",
+     "title": "Diffuspace/Clover-35B-A3B-Preview at main",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/Xianbao_QIAN/status/2115460910886363509",
+     "title": "Post",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESoQEB6zswFVtFcrTWN4yg1V6r8ShX5ejH-HfyADs4wRE6rlF36-l8nM1kyhPj0U2vSQAgoBHD57vPu8j5O6VngilVSH7STvXCnQyf60iP522y89TwfNg4KNYfHu8H3zwJfZ9LhYR8SbSp0TsflKS4dX5KA4GfbYj8_Ko9exMKIfGHqMmHAfAQyMGGhr8rHUU3L-_lw43dZoFZQ0ZPEk6RImHONw",
+     "title": "Diffuspace/Clover-35B-A3B-Preview · Hugging Face",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "huggingface.co",
+     "url": "https://huggingface.co/models?other=base_model:finetune:Diffuspace/Clover-35B-A3B-Preview",
+     "title": "Fine-tuned Models for Diffuspace/Clover-35B-A3B-Preview",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESuQEB6zswFbxVid8m3lg3YhE0F5-n63q8ooPBHOTnyAp6IIP-8Ao61Si8Zx4R8ZRwhsVGelmBRtsCS9FNu-xlozBTq2lG1uYK799Ud-uMwzSgH8NznBHVXO64xDoT0_3aHVR_Y0ObIPs_8M75oeA8eXC_X6xwuhN_PZZxMrRR3P9XuFUuXg5uyBbnFoeQbn79kFDUySH6fof_N_atYHDAHR2vygmaYCqSgl_5ufOwbS0VRKN_8cWLc8bv-w",
+     "title": "DiffuSpace's Clover-35B-A3B-Preview (open-weight)",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbQHrOzAVALPJtG3MK32UIJbygqFej_0dL_Zl84Kb1q3HHtB0Yvfpowny2ITC8LL1qD8Ywpfgi2qGWXp6VdbPJu975CXG1a6b3MHfe3MWnYne8xvTDfTCwbcr_zfjjNVMxeK-ZPTAm8WH_ElgoS8",
+     "title": "Edge0/Edge0-35B-A3B-preview",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESpAEB6zswFTFf-TuEV5HPh9T-nhsQYSrfHJvqxFb63oslJ_2lMyWrhgRQxQ2QrAGBQ-P-7AArrzvByoqT2rRf3S23nx59hcTlqybmDyZSqHlEpi_7lMJZ6K3c7bJ00wR6xemTN_yJoaEcG8Gp68K9mup5jDKIezwnOH1gbP31RLACA6zp0UmRJs-H78BObLpWzgzziq7hCnIenKnVevfITB7DqgJ40g",
+     "title": "Commits · Diffuspace/Clover-35B-A3B-Preview",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "audio8-tts-realistic": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "tool": 1,
+    "video": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "youtube.com",
+    "sponge-theory.ai",
+    "google.com",
+    "deepinfra.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYQHrOzAVZkGjW2nw8LqFCf5fCDNuC5YSvoZjES2E4HaZYu1a-hQwmNLtfKqAjrlDGVBAPDZmGw_4UlPODcHH1YGGocQ_Muum2_a0CK7P0gWtxE_wWSmY6kgkXd7yD6DYH88",
+     "title": "Edge0-AI/Audio8_TTS: SOTA-Class TTS at Compact Scale",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbwHrOzAVD93AyBER30DdDlmCSmjlpSF3nirJQluKZXWu1XulflGlPKKTJjPr2E53kDFvVujdg5i4o8VH60h0ke2blisO6d1mBT8lyeOqe7JsaL1r0DSV1AZdqBZf6b7NLBaowLuNVaI8HcacIhioLA",
+     "title": "Edge0/Audio8-TTS-Preview-0.1b",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESiQEB6zswFSdOqWN1b9nQIZ2c69Zw5IwUpCRKYAr733jLxhKRCWdCQEaX_8tBE9w_1SJspo-hr7EHpdSe-KY6QGwTjyaWxE-KQXRmNBDyK2W9K7r6uyTm1HGVEW4NAJMZj4qUzhj7zS40FazGwvTkz84P952skCAuiPZrW353GP6gp5M3ObpdDLUZtg",
+     "title": "How Audio8 TTS 0.1B Brings Voice Cloning to Smaller GPUs",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYgHrOzAVpkY4M6sE4PsUqaF86ci9e5495LD_JnZfTjCUUjCJI9BJu8jl_ZJ01XIrlT50X_h3vvVxaHaAacsNmGQ05bmBd3ogmH7NE4vqUJVdt5tgf3Nb7RZzH5nkt3_Wjros",
+     "title": "Audio8 TTS Online: Try the Open-Source Model Free",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=PMT8jJ7sCFk",
+     "title": "Audio8 TTS 0.6B Local Install Guide | FREE Multilingual AI Text ...",
+     "position": 5,
+     "kind": "video"
+    },
+    {
+     "domain": "sponge-theory.ai",
+     "url": "https://sponge-theory.ai/en/blog/audio8-tts-preview-0-1b-zero-shot-voice-cloning-from-a-170m-parameter-model-self-hosted",
+     "title": "Audio8 TTS Preview 0.1B: zero-shot voice cloning from a ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESkwEB6zswFXrD29Vz0-u88EoBnZ7ReHJTmqkBd4pZV8wP8owbxUocNB9YYMLURBLmLuZGB4Q0dY9JbDyKPmpeLAlCDvwYQTaARRvY_hYz8oQ10RcBBsb8l62gv_SEDkslv5353hMrpE70q8-S8kQEt6yj4l34FBmHxfHS5aRl0YllM7r0J-C3DJFcdfcYaG2fRtgsh1I",
+     "title": "Audio8-TTS-Realistic Brings Open 0.6B Voice Cloning",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "deepinfra.com",
+     "url": "https://deepinfra.com/Audio8/Audio8-TTS-Preview-0.6b/voice",
+     "title": "Audio8 TTS Preview 0.6b API - Voice",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "wevisone-vl-4b": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 9
+   },
+   "ads": false,
+   "features": [
+    "ai_overview"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "huggingface.co",
+    "google.com",
+    "google.com",
+    "google.com",
+    "nocode.mba",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESXgHrOzAVY1I4e1z9sTD2NU2iUC2MdXpF6nU6v9xuzx_quKgYRPS-Lv7wdr5zn6fUMHxSQvDkvfF9aGAkw6lNqDJD_n3sNhE59XNZjalnKk9pdAUKsbV5QHPqRoLOZ3U",
+     "title": "WeVisOne-VL: Unified Visual Perceptionfrom Objects to ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScQHrOzAVMF6krLx9azhduiu6L3dPziGtBbyk_an5bJkAxQbHzMp3nD5weupXWbgUiOhbGjC2r90f40_trNHZ5lEdmGtWq0v_6uX62_Zbi57X20Ya5PwpgR1QxVFV-WdbyRzLF2vXdJFNTGptcBpTGEfF",
+     "title": "WeVisOne-VL - a tencent Collection",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "huggingface.co",
+     "url": "https://huggingface.co/OsGo/WeVisOne-VL-4B/tree/main",
+     "title": "OsGo/WeVisOne-VL-4B at main",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESeQHrOzAVze7wOPtlHuCVJBPTLR-Jpww3hPXu5F0guhiyS_vBwd-0rfkDAh-ed2_9AowyofI5Y7yp7A1haOOkwvvdXe2vdEVHIG2lgxyyxD8TfDcL8wvKgT9cnmIMRuQEFZOeZXSiXwGUWfePr2gACj-bI__nYQggh4k",
+     "title": "Hugging Models - Meet WeVisOne-VL-4B",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESlwEB6zswFdwj23TeWM48cBSt6rOfaJEKOHNwGXUWaG0JvlAkgP_m5I3YPKNaVdan_JGfDo1jrhKs2dt0nz45PxaXF5Pj-s9tOeTFDVWrkaBjiWpMnv1MuXWSbV7Gy1UysH4EE_p9kRb6ZHmJAddEDZfS0BO34owhaUrclQJCZ83si58egs6xdwNVsadcQk6uGjni8_w6_JZC",
+     "title": "tencent/WeVisOne-VL-4B · Hugging Face : r/LocalLLaMA",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESWwHrOzAVCbcRLm6ZIi4RX6uQQjb0wNB6NoIhvD_hCJnUKKKheVRYFC4O9KeEtrJqjChZ77uTW_tMk121__QVqhr3aMfULoXYK5fLOcdjM-2NSgtbwTgDEVvKcT0",
+     "title": "[2610.31329] WeVisOne-VL: Unified Visual Perception ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "nocode.mba",
+     "url": "https://www.nocode.mba/ai-release-tracker/releases/wevisone-vl",
+     "title": "WeVisOne-VL: Release Date, Access & What Changed",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESigEB6zswFen5zsqX0nJqe9T6prjCzBSnDp1bFarylqT_SgjCS7uEFFRnBaXePe322Tnko789hsaIydhkKv0ihVRapKHaJ8G8LoIHTB7IoX4gY6NV4E_X-PD1Btga2n7z3U3LwQDyIurOGWKXgYUrXiQWGFxxuyeIB4gHhesa0oGKIinmqgk0szAp2zA",
+     "title": "Quantized Models for tencent/WeVisOne-VL-4B",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESqgEB6zswFStuOCYWVHRbLMdK5OaWsoFzWuqusaij-2TGRMtP6J-FTuTWHh142ktL-9cWBs1wD2XJV5K_ic8YKYNSAC1hRQ5RRcQ0yT0ypT4t30EkQbFZvI_Ra7vTuI6h3if44kg95FePCgMlR7aKC428m8wInbWIyHHqCDhhHerksXMYpb5UkgCYJPUf0hA0GwTbHF2Ft9knkHaJV1Ow77u6V7qX7XIrGXLH7g",
+     "title": "(PDF) WeVisOne-VL: Unified Visual Perception from ...",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "matilda platypus": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "list": 2,
+    "video": 1,
+    "article": 5
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "short_videos"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "youtube.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZAHrOzAVuaHOd_Db1Kf82NpfkV58JMalJWiLh4WvpTnY-VB8IBWnV9QuaqezCgVDEPLU9458gOLS3OGx-OWvsOOq4L0EIEUEDRopWUiAGVFXLUZdXQfOCmYXAndMMVtl4QRwY-E",
+     "title": "A group of 10 platypus have been re-introduced into the wild for ...",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESqAEB6zswFSzbKB-yh4MQL3tRcCvcnUV_YQPuAUS4xWEzKGFHWbLh7OsJB78KuAx1h3r_TCSOuVKAjBGqc1GcVJgtPTBG9YOgtu9HdGhTrj1Y5GPr7SZmMGecAAhdVqTxaj0jx96NHTgN_j0GZW5rEWxDiw3-1Ov_aS9w7HWBQFtKrdMPl2hczftBGAtSNLvFHvzO2-a9JBjRi7XWN-1w1QiiECO8qU3cXCM",
+     "title": "10/10 would pet this platypus  ViralHog | UNILAD",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=D7R_VNnr_k0",
+     "title": "Adorable Baby Platypus Fights For Its Life After an Attack",
+     "position": 3,
+     "kind": "video"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESfAHrOzAVydVW9EU1nWQMFKVepJJNb10QUVNED4cGYQ1cWRJUoLqepYhaHyrW_EfLwehqlgMVkFk9iVrwRcovaaMtN2MtCEY9wD59HvGflef1vF_wdx-H3qyq-MmvYvFHSQbwvNMw0zvioE4A_18e1DagWw1TFses19EIGik",
+     "title": "Cute",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESawHrOzAVzUza-BAzzc0o2K2GfEvM4ejXkPttv88VjzkBsDVxBsT9Eg-CUfxViUgGxJeaRjH5xc-WxG1CZaQD7HTHbK_c7fp20gt4SY2kytNLE1Y0uf_U0w67PsXGU4jIHlADmdcYwH3alnBf",
+     "title": "Dyr Malerier",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESfAHrOzAVZ8NNrnfCq60pDLKTODI2V6N9KIFfTkW2v1vokn2hgfjaMQ-9Z7r3i7uftjI2TJdBFeXXfbf_zkDXHOoWp0emeoHYHPJCAxGFrXylyohjEJXifM4YisV_QPiUX7tnYMeYo-5lwPJr21cH3kBmSopItE1ITCF0SDo",
+     "title": "SHOCK revelation: So cute",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESqAEB6zswFa6jNtNlZvC1DN5g2p4m-s-8ba4i4KC5rx0m4qpm2dKl4BeseYeq0imh2AbqpJwPG2X8r9BWiw9m_uGcCf1pt6d1J4Fk-kDtss38871yEVi7-6rRyLGKABIHMsXjSDaL91aVBxAoxjVJV9d0h0zVfw9vHC6CrXLM-nx-YPP4zt8Vv3Q3uTWRG7pPWu2pAFzpJHy1Zh3RduZ-pgTe5XrlbT9hN0s",
+     "title": "Platypus found in Gold Coast hinterland",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbAHrOzAVivdpyEXkZ2CZIKhZMB9qmaL4cws4T4J6PS-lNsxH1f68MefogKEitZzyNRkWIRVk5K05w3Tz0Zpsjd8WsCsxIs7nnP-X5c82fP9Eh8wWsneaUhH1oiY6bCrx43GfJaeg2saq1gEB8g",
+     "title": "Great Mom Platypuses Laying Eggs And Cute ...",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "build your own llm from scratch": {
+  "overview_ok": true,
+  "volume": 40,
+  "cpc": 3.5,
+  "comp": 0.5,
+  "results": 109,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "video": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "discussions_and_forums",
+    "knowledge_graph",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "freecodecamp.org",
+    "youtube.com",
+    "dev.to",
+    "labs.lamatic.ai",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESkAEB6zswFXEEeht9uaYTBqar_fu_FT4ar7gPjBBuh0os_SAdRm6pseoXL9FYBCNR8L2F4K93w2cUQgaphhn1HEoHvoX9konyXFlihYF2nmb8zKzntz1eQ67vHQkBDWqgxqhVXMC21hqV-fORWJTjMCjsKEkIRmg7czVeRaa8CEeAtliiPjuRpynuHN-W8H-zvhY",
+     "title": "Building a Large Language Model from Scratch",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESqgEB6zswFWraeLSyvrVV2u1agWJ9koL12uZNZFFWLzpj7gi2dGIJDzZdaMr-dz8wxrhO2Z1__a_b5pfen5PdW4rYptnOvWemUtVzT_5Xeq9vEGKjSP3tzRUpdzwG3MDZSGm9YrcYPu3eF58gNqQmguz-WE0FNwosDFE1ht8-EjUwC25wLbeMddbzZ04Ve3x7dtUPh2c1momJ2zixEfn9jPLiENSfmC01vkY2WA",
+     "title": "Newbie asking how to build an LLM or generative AI for a ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "freecodecamp.org",
+     "url": "https://www.freecodecamp.org/news/code-an-llm-from-scratch-theory-to-rlhf/",
+     "title": "Code an LLM From Scratch – Theory to RLHF",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=YSAkgEarBGE",
+     "title": "Implementing a GPT model from Scratch To Generate Text",
+     "position": 4,
+     "kind": "video"
+    },
+    {
+     "domain": "dev.to",
+     "url": "https://dev.to/theaniketgiri/three-months-ago-i-wanted-to-train-my-own-llm-the-tutorials-were-a-mess-so-i-built-the-tool-i-3296",
+     "title": "Three months ago, I wanted to train my own LLM. The ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "labs.lamatic.ai",
+     "url": "https://labs.lamatic.ai/p/how-to-build-your-own-llm",
+     "title": "How to Build Your Own LLM From Scratch and Scale It Right",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESpAEB6zswFQrutUcKaieetdn5NHuXQcNOyFfZ_jDY2Eut9Z9dZIFB8eqfoaydfe8s2WLAyv2bmLc7rZTIdQ7b00I6TNvottqwsAoQDmEQxFHfU_54pXmMmekzKW4ldAK9SkTGXDuN-dgEFZhmNM9EPSrLPbJm7V4ge8PCxcUk9PLEFAAL2gqJNYtBr3JlnKyoxkJxv2oQZIohqQd0UwcxRLxELHllXw",
+     "title": "Build Large Language Models from Scratch",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "gemini 4 carbon benchmark": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "list": 6
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "perspectives",
+    "related_searches",
+    "short_videos",
+    "video"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESnwEB6zswFTLJjOZ16D2mLppgmJOOsqsX-IhvuuV-uWVfIXpVmDyL1DFMZup_U6Jat8Bq7FvHBcsfpRz5BIipfroyBaV8l253zpI_qAmos5bA1K65xw1Az-_g8Z19RClOA3OnFDmYygQU3BZkjdWYY-qj-P-PGuf3CqYjDD-IxWsI0xuRr6MgDNAaDa8VqY71d44BoOz_E9Xq4jJbkoSZBMk",
+     "title": "Gemini 4 Carbon: our next frontier model",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESgQEB6zswFa00_uOAbuLS0yY_E_099h6Z8NYk3iAcParNcTpAS72onpQCvdFA9BGnZTIw-GLCecaENvtfi7EZtrUfnnpjRgGXw9RaFnMLn5dBAdiCUUU3tdSB9GiU1Ud_-dibhLEvEDyOUasQbOEfiO6Qc6BpxGIFWCKYgW9J6-Cx1M0",
+     "title": "Gemini 4 Carbon : r/singularity",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbAHrOzAVGUX6uxzPX5YwvsGVimJCrcILnyzr1LdG40dF-kt79u_zYlCNDLut9j5SIUOi6y50JWvZ2W4ylmnB3txjy_cMD1SaWHRhanN2ZdtzkRVon_qO2RDu3_aps22LvzHMe7UubcpP8jcquQ",
+     "title": "Gemini 4 Carbon Benchmarks, Cost and Capabilities",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESfgHrOzAV020egJMX24b4shAJku3A5UHj8IYseLV8BmKi1t-pwchy_I-vpF0N_IBKQ7LQq_xykSL1l1K-WgN-1VMTvdwwpAoeWCImogfcFjsv0f0BKwiEpxXM5lYc3ev852m2bQspopStJVB439D2J1oZBgoKl62f9TOmOM8jxg",
+     "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis ...",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZAHrOzAVBY1jcmSND5UhlVLZAu3nZD9YfgBUlRX7_n8CPZRbwFvmsRWfj8NZJlYnP39HgNJQXsboTWc6cMajOx-wDJY4VDjJkfYcsCZLw2zsk0CWnN4JmYZ_oDUU5kozzCRApM4",
+     "title": "Gemini 4 Carbon Benchmarks, Pricing & Speed ...",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESyQEB6zswFR5_heX9RQ26tvPqpVrTlbTV9f0iIpi43nixV67IuzwzEfyjuPBwfHA9qNguwtaqi_bQvrYgI91KvISmv9GG-_mglNWl0p2hs8igg2Cb-GZJa1cyTG5zc7jEpG8aOPgWMadGhQdq8b6H3jwDPqD2sy1gN_IE5lR-2PykBuq5MlokAANh476bUiCVkqebKESYSLAtyF6xOCgP7yQmZWCeCVHIebKU-qmYKOCWWEs5JVKR9MNnMnoEtaKcSwZTuwFXF9OJ5Iw",
+     "title": "Google unveils Gemini 4 Carbon, retaking the world's no. 1 ...",
+     "position": 6,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "grok bot alternative": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "list": 8
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "agenta.ai",
+    "google.com",
+    "google.com",
+    "opensourcealternatives.to",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESXAHrOzAVtJPjMnuRrtdzZ4mJLIiWD3TulQ20y7IT9cQaq0cx1aVJwwabLUtt62TEAokMgswmGu7ljKX7X5YZ5W8neXwwehutu2KAtrnBw6BPyARUH7S53OqtbVv3",
+     "title": "elie222/rakazo: Open-source Grok Bot alternative. Choose ...",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESgwEB6zswFTx4eLpPIjYC3yX5HWiu_l7Nt4qzXJqTF-r133PIvyBtwHo6pf1f1SbTHNxuTRo9GllHu-jhoSw2waHzzFA1GUu-BanWny_JQF2aDQBfiIfuQ0qEkLJHkxslhRppBGoLtxonFu2GATVIRqmOwoPfgcDZNCIHL7VOoDvs6HSR5Q",
+     "title": "Grok bot alternative : r/opencode",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "agenta.ai",
+     "url": "https://agenta.ai/blog/best-grok-bot-alternatives",
+     "title": "8 Best Grok Bot Alternatives in 2026",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScAHrOzAV_BzFpZ0pU2_VEYe7wsTs8s4Mq_NWWi64GNhiwF6eX6NHGpL2cmqCBZTSx-TEW6HlgHYmOBMe0aeb2KerShYwADsvUW-48NQ2VAYnHNZGrZC5qHmO5FEs4C6lLvzUAPjiSJS5cy4LQN3OhHA",
+     "title": "10 Best Grok Bot Alternatives in 2026: Reviewed & Compared",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESaQHrOzAVYOji_RTYdesMNe3Zl4LSuZD_fUtQcZXOvCMJe_P20uOxTo30Z3Wp0JAwAIhT-m4cnFrphe0mAfvHsvx2pXKFeeDIumB511xRkhdxZU9SSJMmFww_1WjDZe8IahVnTDGf7OAWOQ",
+     "title": "grok-bot-alternative",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "opensourcealternatives.to",
+     "url": "https://www.opensourcealternatives.to/alternative-to/grok-bot",
+     "title": "8 Best Open Source Grok Bot Alternatives in 2026",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESgAEB6zswFXww0PL5IBKcCbb7EQKKJ6rimWQnKGVwkEmVKpKIO_VdFLP3eVpISUINrrD5kbmhOZ93JoAxDpH1lcrOZiEeTXgufiMdKVYJqP9x0MxSd-H8TUX4Se6SavIcdjv3iV6qKztEOhYpXJjtwSIj_qyTKZwY7acjqNnoLznspw",
+     "title": "Best Grok Bot Alternatives Compared",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYwHrOzAVxZilWGFjRm5Cv969Kl42jH2p9KT3J-UvBilImUkftUUVPmc3S1DOqUNciAkaqw8axomMXmfJ0ASj65XB1yWY5_-O4ge5mAWQjSLhURrh3Nsv64lH2cXW88_P1TXMjQ",
+     "title": "Open Source Grok Bot Alternative (Self-Hosted) - Rakazo",
+     "position": 8,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "va payment dates weekend rule": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "world series mcp": {
+  "overview_ok": true,
+  "volume": 90,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 438,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 4,
+    "list": 4
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "perspectives",
+    "product_considerations",
+    "related_searches"
+   ],
+   "top": [
+    "mlb.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "cbssports.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "mlb.com",
+     "url": "https://www.mlb.com/awards/postseason",
+     "title": "Postseason Award Winners | History",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESrwEB6zswFa49b07SqMcgha-Ju9k0LCczHwOBsk5ZTN9Eh-Dn2gEhTnfkXjg1Ahyq9MgESdSn2rq9gF-flyUuB5ClVosUglDFvVhtp_fyBgiDJEkpoRWmHc483kbgcD9i3dl38tGTvTw7gFlQcs-SKqQx_SLNUoltT1zNUbqZxeDCOhURFZ3G0mw0cNK3C7zDWtyAjTYIQbTVyzU0RjdvZ1Auj8858--e246woQ6lpPdz",
+     "title": "World Series MVP Emotional Moment for the Contreras Family",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESmwEB6zswFenOlev54PePVprBEwrx8A5z9lSUTT0a_Vuis27TESDgysVGpHdoc-CeRApAczDwc9fjgeNZeB9Wcdqx6BSbqUQqNSUxZ93YfszE-7pYRUOvkLM2EHgw4IvWlWxge-0zRo2198QHSnw150MzG0CCHsDwpRN1SrbSCJurlyQvSw8lOh8n3JQ9MPHbcBVWb7kGzCfMF7o9QQ",
+     "title": "Your 2026 World Series MVP, William Contreras! : r/baseball",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESpgEB6zswFTdUr_INMeN1sNCQjUPJt9CaroOYmgtcj_uYd1tq4jJyGWSsWJNgIvF-Wxp5RZ1UHLjdLKj9qqhDe94t935CZTi7cpZ1U6pS0ozVthRvJZhYJDRyw3IK1gzZxKUZWy40JKJHz4ENWUY22NQTlWQ4qRhXCJJLtdCBKKD2PEoDcEATh457sj9y4bCOlJo3f0afrEWGu3deu8jyEZI20lZhMXsv",
+     "title": "William Contreras Emotional 2026 World Series MVP Reaction",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "cbssports.com",
+     "url": "https://www.cbssports.com/mlb/news/world-series-mvp-pressing-questions-brewers-rays-game-4/",
+     "title": "Who's the World Series MVP frontrunner? Plus more ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVunEwM9Ku74S3qPApW8NAEabSwp4BhvlZiYkCfIp_ERvpu7rudBn7dDByTZru2cLwe2BbJDajD5Qs-B6IkHuD82X1khcrP6E1G_aCCO76RNADdJRIGtV6Ih1JAD8bW6ayWA",
+     "title": "2026 Milwaukee Brewers World Series Trophy Ceremony",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESiAEB6zswFeBLpt9nPqtoi8zTfA-Lr3ufTOctq3oLMFRUKlWp4si52IFNQ7lpovQHk5BdVrObL0XF64vmkrAkl9z8lhkylUYPBq1_V6wdWLHOaI2vhp6oIYcitodrvkkoIS-47CFMiKAoxjmiuhSpxXSPRCOqWJlMEtu-kC2t8QKLdfqY222JhPpQ",
+     "title": "Brewers' William Contreras wins World Series MVP ...",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESgQEB6zswFZ85Mhq2BUC1mqeshNk-Lljlsg0sPnDwOx-8BWyZMEjA8UTDL9LtqgMHGN2StZa8K5vENyjdGWpO8DxLcok_UWEqixSV_Gwlw6iSvJBfRAAUsazR4PduOmqnBhI0hIMTMAS-O7vt4YOTT-koNO0EJGr9p7fJkSYUaK3bbLM",
+     "title": "William Contreras is named 2026 World Series MVP",
+     "position": 8,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "gemini 4 carbon how to use": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "list": 5,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "perspectives",
+    "related_searches",
+    "top_stories",
+    "video"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "reddit.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESnwEB6zswFVok1hzswXF9E4VG7I2isfJeDF3RCS3xFYlS8shfNFI5d8LDlFacS2s3sdLOMDKZadelBTlvzwdDTr49RKfO6j9bRj5R9j5EbgzNKDanfYqrKopYQI23A5XpcKClIaq_Hnan7Sv0IxBmQRojQjm9Qsf2Dzwi-8--oPb52kuKeO0MNo8ktl9Ivq-H3UUEiUZhOsRO3ksjmCNIUZQ",
+     "title": "Gemini 4 Carbon: our next frontier model",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVL1zHdrRlZxf0F5AuawEP0CtD6B0mT5_F9zsziCbsAhVbckzc6-fYluLi3VIBvpLYH-k1dGeKZSfrOdtjaMFvFoyc7BvsP3GgkDNjrpPRLKFnSadarLSa-Wg_1xErVcEeDA",
+     "title": "Google Just Announced Gemini 4 Carbon (It Cooks)",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/singularity/comments/1xhtwjm/gemini_4_carbon/",
+     "title": "Gemini 4 Carbon : r/singularity",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESaAHrOzAV9fM5aFGUrVQ_gYlZznDPWrxljR2bKFNie-M6qn133dh3ThRE15yauxVXSeqiw60X9ffC-1a12pEFZz0wbERC8Gd3Z-bB0UXTSkHCyzBQf20tQddmZJQIaKwjwkLF51C6ywIO",
+     "title": "Gemini 4 Carbon",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESawHrOzAVuUqsNlE5jZtx581MkASr6ADwUrF-Vl-YpseFGhfKEz6ZevvQq0ASIvCKaN1uRIjN0pqg8DkdUuLZKc-oFoo1rYYmBscSNJRkp93HGLeIMutevtSOEj0Sfc5L5h-cpP1MweC2q_3_",
+     "title": "What Is Gemini 4 Carbon? Benchmarks, Features & Pricing",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESeQHrOzAVo5bgKAQhxMNiNyRJ4-2_NLdvpGLYawDbcOBLAntRrlYq7gTkpfOMx_fkZ1IDXlPd8SNOlU6nuOT5Kr_gcIzJJmnaslHkI5Fd3PfGyW5zDGTrdqiy_5UHW31MyW5f-w2awr4pyo0BHSAIxX-cxX58DcQVp4w",
+     "title": "Gemini 4 Carbon: Pricing, Rollout, and Cyber-First Access ...",
+     "position": 6,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "patrick stewart": {
+  "overview_ok": true,
+  "volume": 110000,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 112,
+  "kd_ok": true,
+  "kd": 72,
+  "day": "2026-10-30"
+ },
+ "llm sleep framework continual learning": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 8,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "discussions_and_forums",
+    "related_searches"
+   ],
+   "top": [
+    "google.com",
+    "arxiv.org",
+    "cameronrwolfe.substack.com",
+    "google.com",
+    "reddit.com",
+    "lesswrong.com",
+    "google.com",
+    "google.com",
+    "seangoedecke.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbAHrOzAV-kZzcRoAJdfKovRo8zxvtTpDAuFc4Cj5TOyjntcxZOJmnkojj-a4aaFIEyJYMjWLSSSoyB5R2cU9KwHfHUqyNeJEtQV-fLNI7BeUpkeOGs2wE65wMo05JWVN1v1TCqaplaCQygtFzw",
+     "title": "Google research sleep framework for LLMs to retain ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "arxiv.org",
+     "url": "https://arxiv.org/html/2603.14517v1",
+     "title": "Learning to Forget: Sleep-Inspired Memory Consolidation ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "cameronrwolfe.substack.com",
+     "url": "https://cameronrwolfe.substack.com/p/rl-continual-learning",
+     "title": "Continual Learning with RL for LLMs",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESXgHrOzAV5oNpyhnjzL4uNo5L0chNz1T-179xvQDKS1MYo_rumJ7Rbc2gfeLID9oX6FaXN9aVFz4-nfc8MkPkI7ddPSTw2YoIFsnfL2D71HLSyr_D2-C1bRqAEU7YNMg",
+     "title": "Continual Learning in Large Language Models",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/AIMemory/comments/1p7zm10/nested_learning_a_novel_framework_for_continual/",
+     "title": "Nested Learning: A Novel Framework for Continual ...",
+     "position": 5,
+     "kind": "forum"
+    },
+    {
+     "domain": "lesswrong.com",
+     "url": "https://www.lesswrong.com/posts/vQ6tirCJGEtQAEgNx/what-happens-when-llms-learn-new-things-and-continual",
+     "title": "What happens when LLMs learn new things? & Continual ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESswEB6zswFfaWd9saU9BG45FIl8Prz_J_pjHDIpqwxUbzzGxJxWa1Ex_wScmN9fY9POk44UxvKi_WCeJo56UsgyU_3fdUGKHkcfVompdCCHm90xKU1AqjiQ7KI3Djl6P3ap8vTKYvnDADvQS-x-ORUxBB_kWkiLdC7LFIACxbNZtKLiDu8rU0f3k_r4DvxKqRLjZKj6a9t1DYkDeP0YLYtDsca9ll6jt8YRjeCnF8acl36jKcgQ",
+     "title": "Lucene AI Nepal's Post - The sleep framework",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESpAEB6zswFYOG-HrOzuBn_6O2JaqGjyTe3DdKSfdSDa_tnqGqioun_yOKzBNkUpgPswFZZLaG3xZF8cM0GE_YruySlny9CFosx2zx9WUxqVbYgRYj2aCyfwkDzz335eTAF44qP7MMIVQjxmwyJzzi14mKWZlgHHagp8xwAgbzpjN2xZqPhUz34PFln0yJ3lcx0jvTzpP1xqjH9QpFeLCmHQ6pWNUzgA",
+     "title": "Continual Learning In LLMs: The Nested ...",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "seangoedecke.com",
+     "url": "https://www.seangoedecke.com/continuous-learning/",
+     "title": "What's so hard about continuous learning?",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "brush online": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.06,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "tool": 6,
+    "article": 2,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "popular_products",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "google.com",
+    "photopea.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "pictorx.com",
+    "mimicbrush.app",
+    "texturelabs.org",
+    "medibangpaint.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESewHrOzAVbN3mn87xWm7ROx855r02u00Y_BnrMSB4Yp_OS374PBzDWUCi14-1ivTaqxey7FdwJgvnB-DWydYN_qGsB2CeIAiDkrQ2y59k5FXdNvVBla7_u5Ww8L-PCeVXUrHa1wrc2y_ceDSKZcAtTx-1RTdIPaE0xr__yw",
+     "title": "Free Online Photo Editor | Add Paintbrush to Photo",
+     "position": 1,
+     "kind": "tool"
+    },
+    {
+     "domain": "photopea.com",
+     "url": "https://www.photopea.com/learn/brush-tools",
+     "title": "Brush Tools",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVgyPxMmhd3hvlJ3JUDNrhvlKkngIvs6PlxaPvJStdRhG9TzyWZWrqbZph2oVsQZC2R49joQDMJOL_UCdW7EXsbXu5mEmvEhn4FK2-QtpxD6aSXoCyyy7Dmvgwt6Qz-xjFvw",
+     "title": "The BRUSH Stroke You Need In Designer || Make Amazing ...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESkQEB6zswFbNaK-KDeCdIZwiFNm9HYqIE_MGipzngsfd63gt6ZRbti1J0bqbCGi625KocAQoIaEfYoZi3U5iigFDDVSFVx-bMb2tX967x9UR64GsWk9sSi1l9c8PwK24uRZ-xOoZq5B6DMFaohx1Q_ZcnQ_6LKxVRyhlClGP0WakTc8CEUV-zbhepkzPc6vIk1-r8",
+     "title": "Creative Brush Style Effect Tool",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbQHrOzAVxUQqpmqiRlZKFq2TkH8frcny2yfQdkQ0I1VhI7z8UcASMUIUj8Onjk8XT2epi3AcGdRdv0UDy0nnV1AdrUSHVRth_COZ0T_ykgT9mJ-0sp2xdbqm1wLNxi22Msb6KRxeE1wbT9g1wl4",
+     "title": "Brush Images - Free Download on ...",
+     "position": 5,
+     "kind": "tool"
+    },
+    {
+     "domain": "pictorx.com",
+     "url": "https://pictorx.com/effect-brush-tool",
+     "title": "Effect Brush Tool | Free Online Editor - Pictorx",
+     "position": 6,
+     "kind": "forum"
+    },
+    {
+     "domain": "mimicbrush.app",
+     "url": "https://mimicbrush.app/",
+     "title": "MimicBrush AI Free Online - Image Editing with Imitative Editing",
+     "position": 7,
+     "kind": "tool"
+    },
+    {
+     "domain": "texturelabs.org",
+     "url": "https://texturelabs.org/textures/inkpaint_269/",
+     "title": "Free Texture | Paint brush stroke",
+     "position": 8,
+     "kind": "tool"
+    },
+    {
+     "domain": "medibangpaint.com",
+     "url": "https://medibangpaint.com/en/material_kind/brush/",
+     "title": "Brush | Free material download",
+     "position": 9,
+     "kind": "tool"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "best laptops 2025": {
+  "overview_ok": true,
+  "volume": 33100,
+  "cpc": 1.22,
+  "comp": 0.19,
+  "results": 98,
+  "kd_ok": true,
+  "kd": 64,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "list": 8,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "rtings.com",
+    "reddit.com",
+    "theverge.com",
+    "google.com",
+    "google.com",
+    "cnn.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbwHrOzAVHotGiDq3XfhWwVfdw-xY4xvyyrAMaM0KsMP6mAk-mBMhkyg7p5enMBxUAwTwWB4adL-axlvTyiH9R7ZOEFq5F3dvsQXkFKtO5au-Ut7AAb0nycuekksM05K9GFXUV2KWOuZxBu0htK_nKg",
+     "title": "Best Laptop and Portable Lightweight Ultrabook in 2026",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScwHrOzAVoXUAWyAmAAAuo4MFVYo6cGvYn5vrdHY8HZa83H9sbzOYbf-GoCxqheez_5YLDhaiQi8pcKt5nfGBDne-XHGGrAYIRdklhWS6dTZP8SFDQtnfdPPDHZ2bETDFw9NJ37p_hp9e76i4upwW7m7752w",
+     "title": "Best Laptop 2026: Great laptops for creatives and gamers",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESggEB6zswFX46dhfo1xnUBM9KCmcOA5IquoQLHOk79eBjeYjivmEFv4m92oUfvhFgpOC5Z_3EjKlF6Cpr1w_b-66-L9a9JtEpc8tlN9skxQ52CEBHN3iFtuj6Tra_3VCPfqEIbcqcsGF_1fBRis3sNk9AZmY0Rllr_K4CvArnymElQazv",
+     "title": "The best laptops for every kind of user",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "rtings.com",
+     "url": "https://www.rtings.com/laptop/reviews/best/by-size/15-16-inch",
+     "title": "The 6 Best 15-16 Inch Laptops of 2026",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/amd_fundamentals/comments/1pvz0y0/2025_ranking_best_allaround_laptops_reviewed_by/",
+     "title": "Best all-around laptops reviewed by Notebookcheck : ...",
+     "position": 5,
+     "kind": "forum"
+    },
+    {
+     "domain": "theverge.com",
+     "url": "https://www.theverge.com/gadgets/931638/best-laptops-macbooks-windows-gaming-2026",
+     "title": "The best laptops that I recommend to just about anyone",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESWwHrOzAVU_qY-TreMg8AM1-_pJG21bp3xVIpfe2hQhOUeMmPL2H4-jpAy-RQ8gWX5f7YdelOIg6qpikEDX7TN_scaVfGv7dGvG1ucp8MI5vkHtr5wa4_rBr4RAA",
+     "title": "Best laptops 2026: Premium, budget, gaming, 2-in-1, and more",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAES1wEB6zswFWekjneGYvATpKX3jpyGKYHPG01w826uVjrYr5Im36BdH-Semx7DZQtu_cAjuvm7pAszusG3_cXim_M8YN_w2AOefxil66JAPlgu59aKE4CXEPTwH3zWh8-1ssy1Zbfo4xIem7OtLEQ1z66ot-Nsk0lMhSjTYCQL3Xx82w9oFstRiDs8_tl16tg4WDmdR5EzoQIzXRh3kEZuscFP3JUucB-fjp8NiXJs-77UKuzijwQ9jneGW13D87ERYs0fMWtDN5xUjPw7cbW8f0T8cFtuM-b7Ng",
+     "title": "Top-Rated Laptops",
+     "position": 8,
+     "kind": "list"
+    },
+    {
+     "domain": "cnn.com",
+     "url": "https://www.cnn.com/cnn-underscored/reviews/best-windows-laptop",
+     "title": "Best Windows laptop of 2026, tested by editors",
+     "position": 9,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "allintitle": 10
+ },
+ "llm as judge": {
+  "overview_ok": true,
+  "volume": 720,
+  "cpc": 4.11,
+  "comp": 0.27,
+  "results": 135,
+  "kd_ok": true,
+  "kd": 54,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 7,
+    "list": 2
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "iguazio.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "arxiv.org",
+    "unitxt.ai",
+    "medium.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYgHrOzAVHTcn-OeLEE5K3tWmO8oTJN-uKaTWb9Uu7m33HOpVNNS6RqyARf1LKHll5dk3_q6uIYdYEBO4I2Ju9wIyDskQ5f1CP7q-_6WCZ56PDmBBXK6s_SEr-ZEyJZDy6o1K",
+     "title": "What is LLM as a Judge? How to Use LLMs for Evaluation",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESggEB6zswFRhxQL2gmKieDQHYoXjZ8hKmU940iHdE3_7x5qG6HbTuYox9szj5rChi2JJmG5bCTbQUpz5aYgbbkhh__reur1ahNS6P8iLgtl8pQ7OLY9v2yZgkE0dgC-uYG87uHi5xdp4BkQGJsPcP05f31lCoEQynCZO1dDdt-VSayNb_",
+     "title": "Align an LLM as a Judge",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "iguazio.com",
+     "url": "https://www.iguazio.com/glossary/llm-as-a-judge/",
+     "title": "What is LLM as a Judge?",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAES2AEB6zswFSB-XxU3TjVPzcTnjQ_8XVMDkUOV65pWTWqFjIVqAdsUjPdq1xwPQBltUt-sXvvt5vBfNHUVlMWLngARpKEbW0Rb21V0to9yf5xDRuBkAB-ODs-ZoLoaRun4n738FqgcBcbGsfpro0ADgEGO5T-vtovnvQhAJo6gg4FqyVKz8uwWldCcx7klUoffN_18wtPUq20AxZ5wUtbwjxXXxrJJcOtXQdPDBPNsVcO3cmJq5bTC1tljFk4jckDm3B-lJl1-L17gUuc2GHL1syJjmIn31wHhGRA",
+     "title": "Evaluating AI Agents: Can LLM‑as‑a‑Judge ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVWs6TimR5OeSlqrDDzA42qHrCqQ1o-OX_P2U57ZibVybBZgwZy9jnnGUrZ2p7_5_hWwmO3mNm_stbDsarV0qBFwCC3Xnjj6ykYUklac_HteJylYLeZb-0o1kEUc4n8rRuoQ",
+     "title": "Learn LLM-as-a-Judge in 15 minutes",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESggEB6zswFeyF8hAq5DvGPghXx-pEiwfAdjn21AMW_57MhCplVl771s6S1VWBz4DQQFZ3FHuPPvaDiUV7xIezgaGwKgiiN46K7kCu2XqmiHLJyKcgCTSdYiOo9rIs6R168qHL9GnBBvIuXyDP3fAJg7DlkRyr5Kf8L0oSCy7QodAVaSSx",
+     "title": "Best Practices For Creating Your LLM-as-a-Judge",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "arxiv.org",
+     "url": "https://arxiv.org/abs/2502.02988",
+     "title": "Training an LLM-as-a-Judge Model: Pipeline, Insights, and ...",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "unitxt.ai",
+     "url": "https://www.unitxt.ai/en/latest/docs/llm_as_judge.html",
+     "title": "LLM as a Judge Metrics Guide",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/gaudiy-ai-lab/llm-as-a-judge-a-technique-for-evaluation-using-llms-032a47b0b017",
+     "title": "LLM-as-a-Judge: A Technique for Evaluation Using LLMs",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  },
+  "allintitle": 75
+ },
+ "brush alternative": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "list": 4,
+    "forum": 4
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "google.com",
+    "facebook.com",
+    "reddit.com",
+    "facebook.com",
+    "google.com",
+    "facebook.com",
+    "google.com",
+    "dickblick.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVhv04s1K8VREuv_K0w3y6M6dGcayG6266M1h0a7EAU7R02HnxyausrGvzRJr-frDxO5aIf0bqORJqEP7YynB7G1PYc8MorXPUfrzr-1EXMsJLnIo089B1_jXp5Mqc_3CXJQ",
+     "title": "The alternative to a regular brush. Get yours at envirobrush. ...",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/groups/eaviermetal/posts/2707626775968183/",
+     "title": "What are the best synthetic brush alternatives?",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/knittinghelp/comments/1iez3up/mohair_brush_substitute/",
+     "title": "Mohair Brush Substitute? : r/knittinghelp",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/groups/buynothingjunkjournals/posts/2745172102522211/",
+     "title": "Question? If you don't have a paddle brush, what else can ...",
+     "position": 4,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESjAEB6zswFYMk9GXTqMyLtWBQHHejn_-pU3vFgVGtxkeaddM35fESwlx_pKiiZ0j7zDxM3LkjVHKdfdMSmyfm2C7mXGDIXLT0kX4JjLOfcLza_9c-e7y-0hbEG01iTun13cZS_ijQICMX2bv49Gk6-4BZHwZRdQUV_qCseTFwAVuEPMXqne8Utl5jbjB-VQ",
+     "title": "5 things that can be used instead of a paint brush",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/groups/226043429672219/posts/1297203722556179/",
+     "title": "What are safe wash brush alternatives?",
+     "position": 6,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESgwEB6zswFfirSBjazGnaUFjqwwofoUHy9eP4EyIg-K1J-BNVuZ7L-4QBa-ztWJ7Dmd732Z1exGppDR7YCzSNlNeZlzNh7yHuOU2eDjvfL6SuKMOyEeu9-DMwlNoqexjKCm3AAiDdYQ_zSlQzOEUuyZDWPoODBcb_x0AtUwhnzqSMIvGZXA",
+     "title": "Low-cost 50.00 brush alternatives with unknown origin?",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "dickblick.com",
+     "url": "https://www.dickblick.com/items/art-alternatives-dusting-brush-10/?srsltid=AYCX9vKA_E1cvGUfkcyHvgWUpyKYWGS5QM7vLesnE0HfCWp9VsIQQNWm",
+     "title": "Art Alternatives Dusting Brush 10\"",
+     "position": 8,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 4
+  }
+ },
+ "survival llm": {
+  "overview_ok": true,
+  "volume": 10,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 7,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "perspectives",
+    "related_searches"
+   ],
+   "top": [
+    "google.com",
+    "x.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "medium.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESWwHrOzAVFeZvjJOLbX9I9QWqkZ68eoAbefXWJZYukEuX5cFS305aoni4fGQd0obt5YETabJY_UnsuKFvAYaKlXrmVFKDLT_fnM2cpEQ12Z70f1IiaKqbD2PIvVs",
+     "title": "Survival at Any Cost? LLMs and the Choice Between Self ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/alex_prompter/status/2035432638157140385",
+     "title": "Someone just open-sourced a full offline survival computer ...",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESfQHrOzAVXszy11n330khZofZ88NNqQStxtfY3U1lvHxbPthj7VJTWJFb5MRPhaw9-Hf3Pu5Q5bkY_sd1YMXtVlVsvOa9--AE-cITwpBXP4XW4B81Y3jxH-5dMc5uGZTlb8TH9xJ18OoVye5099Ty2Cd-SJ2_wj9ATlOcHIVj",
+     "title": "When the Internet Dies: Your Local AI Survival Kit - restless brain",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESlwEB6zswFZ6l9yPslNKR28bcZizPQXxuyHkeX3ZW_h1ZWW9MLtYkXJqX15mBCFOkNIZN7cTRWjkd5KNcnYo2b4o2FxN7-hXHsEdhjbhq9vy0j3Tg2CUp2yNSmG60b6kVUndspxMK2dlCkHNx91wuWN2yvJtOQnDZtRM0Z8txRc2hAiyfVwnaVw9TKyQ91dRo8wUCuD-hEYjy",
+     "title": "How to build offline AI for survival : r/CollapsePrep",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESWwHrOzAVLsnEN_RwpIqDocREFAwuGB60HExlkaDoLBek7ceNGL3h2W1mvWj9MrGsNLFJgYDggZsygO5giSNMi9WcIxi5whYvFhyp61JXZGJRbHRYDl9bfRpsy6U",
+     "title": "Multimodal Survival Analysis with Locally Deployable ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScgHrOzAVOVY-TM3Fz3qKXdetMqhZfpeFwRfVcaWqas4hXQ-VQW8xhsiXLfBR4o5N09g5dDLvZOq2A6AaMRjZYogBKzyp5ggVzPT3OQYYM-Fw89aSIVyojhD0IK9Qwiuqm4UUbNFF6vMZlCZR3kIDWo-tWA",
+     "title": "Scikit Survival by wu-yc — AI Skill for Any LLM",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESqgEB6zswFYwNmUqKroYCQsOIkNRO6Yk0PuYDX-jeFn3aIyuRdfYpAXp0JywJMC4y2lft7jTWDr7-BdZcVW76fob5LmjnkverzNI-LPtM-hgaIqFikKSuFeQRY_gTmayGhaPDfHx_h1U_j8q_ej9erX3Mx4YUm1Vo9Lzbbh3dfuxAAtNmpAORxJ2OzkUAB_ExJCPknu8Kw4VPvc-ebTGU_0XkMH-Xp_L2E309-w",
+     "title": "All | Search powered by Algolia",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/@pradeepsvln/the-small-llm-survival-guide-e9d95d3a9fc2",
+     "title": "the small llm survival guide",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "brush online game": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 4,
+    "tool": 4,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "play.google.com",
+    "tinytap.com",
+    "freetopgames.io",
+    "google.com",
+    "play.google.com",
+    "brushbattle.io",
+    "yandex.com",
+    "play.google.com",
+    "mortgagecalculator.org"
+   ],
+   "items": [
+    {
+     "domain": "play.google.com",
+     "url": "https://play.google.com/store/apps/details?id=jp.co.litalico.brushinghero&hl=en_IE",
+     "title": "Brushing Hero – Apps on Google Play",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "tinytap.com",
+     "url": "https://www.tinytap.com/activities/g2thc/play/magic-paint-brush?srsltid=AYCX9vKVo9ik-6KmN4XLU6-3QeEvktSpVTN3TGXqGTpwPosioXYnYhEd",
+     "title": "Magic Paint Brush Free Games | Activities | Puzzles",
+     "position": 2,
+     "kind": "tool"
+    },
+    {
+     "domain": "freetopgames.io",
+     "url": "https://freetopgames.io/brush-jjaemu",
+     "title": "Brush Jjaemu | Play Free Online on TopGames",
+     "position": 3,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESVgHrOzAVerDb0V34BQyMwBT6yGTN7eL2PDoiXNli7t0RX9nCUfC0Hu9xFDVMzRJaQspdwdrxCxN0pwHKkiYhtqMzmG26l_ZYtmcRN6K4LM2sqrwniXkY",
+     "title": "Play Drawing Games and Sketch, Guess & Create 🎨",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "play.google.com",
+     "url": "https://play.google.com/store/apps/details?id=com.puzzle.block.brush.color&hl=en_US",
+     "title": "Brush The Color - Apps on Google Play",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "brushbattle.io",
+     "url": "https://brushbattle.io/",
+     "title": "BrushBattle",
+     "position": 6,
+     "kind": "tool"
+    },
+    {
+     "domain": "yandex.com",
+     "url": "https://yandex.com/games/app/brush-duel-555052",
+     "title": "Brush Duel - play online for free on Yandex Games",
+     "position": 7,
+     "kind": "forum"
+    },
+    {
+     "domain": "play.google.com",
+     "url": "https://play.google.com/store/apps/details?id=io.brightspike.brushbattle&hl=en_US",
+     "title": "BrushBattle - Apps on Google Play",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "mortgagecalculator.org",
+     "url": "https://www.mortgagecalculator.org/money-games/brush-master/",
+     "title": "Brush Master Game: Free Online Painting Pattern Logic ...",
+     "position": 9,
+     "kind": "tool"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "llm council": {
+  "overview_ok": true,
+  "volume": 1900,
+  "cpc": 6.89,
+  "comp": 0.05,
+  "results": 120,
+  "kd_ok": true,
+  "kd": 40,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 8
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "levelup.gitconnected.com",
+    "sourceforge.net",
+    "google.com",
+    "instagram.com",
+    "google.com",
+    "google.com",
+    "solopreneurcode.substack.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "levelup.gitconnected.com",
+     "url": "https://levelup.gitconnected.com/the-llm-council-when-ai-models-debate-each-other-to-give-you-better-answers-42d41ca00b8e",
+     "title": "The LLM Council: When AI Models Debate Each Other to Give ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "sourceforge.net",
+     "url": "https://sourceforge.net/projects/llm-council.mirror/",
+     "title": "LLM Council download",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESXgHrOzAVRZD9fqUK8wDpI-EhhxF5O2WEy9jD7A4lLv-5v3kaErviScPKtVkLjSjAz01UqhEBfzyqapDxuQR1EoPskgR9qzKL5bkSW4LvbNYyF_GUCSQC328QMJeuKTo",
+     "title": "Language Model Council: Democratically Benchmarking ...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/DXqSBt0D0UE/?hl=en",
+     "title": "How to create a LLM council so you get 10x better answers ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYQHrOzAVWMuZ_0sihMLzdl9n1oJrGDC3QnQWd7L2-17vJmc8IeTRQxyfrhqE2xgENBqdoL340gWi3_5VVSqc55k9DvMvFhybGrBXiI_E_IJqMbVJYJTbfF6aHrGOhEiBqVw",
+     "title": "LLM Council - Multi-agent orchestration system for Claude ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESXgHrOzAV1XmSHrpOVP7EUVV3G8TkKVEj62oGlyCC_gRjKAU_dYt_9MtTgKRE7DtOARrDLUvJ9AR50GRKbqxQzZiKhrjielCd7YgLgqwF8ElS1TduiSEAnUHDeLX_zUw",
+     "title": "What is a model council?",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "solopreneurcode.substack.com",
+     "url": "https://solopreneurcode.substack.com/p/how-i-built-the-llm-council-inside",
+     "title": "How I Built the LLM Council Inside My Notion AI Agent (And ...",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESoAEB6zswFatP_-Tw3Wiu1aMbVHk-TS5ckAy7IhVSbJ4jPmCGztZ-6csnPYnXjNVcckofioy4RAq8O7FXyCGSaY0wVe5zYEVdAUzAT1cPMvqPKpTjCwRZgO1_xxEK5CyRT-UFzqAijbg98sn-LR33nhgtFg4GP8ffaMFy4qnVoPIaFyXvWRvrBxw17ShbCRRWdOEnzVtqVtuWXRTLv_N_gE5j",
+     "title": "The LLM Council — stop asking AI one question, ask it five ...",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  },
+  "allintitle": 65
+ },
+ "le chonk ai model": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "darlinkai": {
+  "overview_ok": true,
+  "volume": 2400,
+  "cpc": 2.11,
+  "comp": 0.1,
+  "results": 1930000,
+  "kd_ok": true,
+  "kd": 20,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "list": 8,
+    "forum": 1,
+    "article": 1
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "google.com",
+    "google.com",
+    "x.com",
+    "aisextinghub.com",
+    "lovulu.com",
+    "google.com",
+    "sweetnsfw.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZwHrOzAVibi8Z9zCDnJbuLP5s1QfkMSogekVVPUY_GYWgzKDvRaH6Pz4wFu4RxxRvisLjJ-fEi6O5WtmoIxrpoWeljglrJZam3b1xPHdYWP2foYGLZYINIrt7jdf79oNWXV5w2jEQJw",
+     "title": "Darlink AI Review 2026: Pros, Cons & Pricing",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbgHrOzAV1Bv2sbxag9299Zzlz4zomGLj3-uhi5RRZ0Vkl-4tp4IhqcW6e1tinjcHex_M9IYvV5miSaPsJMtkszqpf6JeH7i_yLyW2lvQlb5rhSyIoGbIH0Z9GHeZJxhQLYqtrlrSDJiVWHJWPgB-",
+     "title": "DarLink AI Review 2026: Deep Roleplay or Empty Hype?",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "x.com",
+     "url": "https://x.com/DarLinkAI?lang=en",
+     "title": "DarLink.AI - Realistic | Create your AI character",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "aisextinghub.com",
+     "url": "https://www.aisextinghub.com/tools/darlink-ai",
+     "title": "DarLink AI Review 2026",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "lovulu.com",
+     "url": "https://www.lovulu.com/us/darlink-ai/",
+     "title": "DarLink AI Review 2026: Pricing, Features & Verdict",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYAHrOzAVOVjaxl_De4HaMEgVQdJ5pFGRXB1p6xea0w-0_uMreijHe2Lho6gNKC-T0z5CmVAWEz2duKjrriRophb8HgjdZ42Ra-nRn25Bk9C7Jlg94QcMvmZms3kI1ByLQg",
+     "title": "Darlink AI Review: Features, Pricing & Is It Worth It? - Cyberliebe",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "sweetnsfw.com",
+     "url": "https://sweetnsfw.com/listing/darlink-ai/",
+     "title": "Darlink AI, Specs & Coupon Discounts and Alternatives",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVJKIvmgtbqP3r70QR3X-REXOXQ5NNkZzviBIv-vLflkOElnR2TH7lCzmU2keM3nthHvR4gjfIRsWjeW-orsOrR0yB2k--EwSuq9t8rbt7TP82EUs5tyb1QyhSX-mVKwVKXg",
+     "title": "Darlink AI Review 2026 — Worth It?",
+     "position": 8,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAV6ttmNih86VS20e9S58S2wP6w75BeUi0sRrw5yHBMv952GKaokbe-l0xPJOjQm3FcCAICCbJaCUTM6GgIY0kxu8kGlFb282zBIroZ0EZ69PEyarCTA41aKwKgKhaIzMWZwQ",
+     "title": "DarLink AI Review: Photoreal Images, Pushy Paywall - ScruTool",
+     "position": 9,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESaAHrOzAVUyVTDZmi1mdArQN_kQbMMfOJTtQAfHOiGTN7TEDEJjOrP3T7RaH8VDlrJ3WOPyREboOj0Wlj50O04v9bnehX91sGYacScoRsnDodEBRtVOpLOrYRoeaSbCHmv3FRoZeo9K9j",
+     "title": "DarLink Ai Profile: Features, Access and Unknowns",
+     "position": 10,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "allintitle": 316
+ },
+ "le chonk benchmark": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "outstanding tiny desk ai": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "le chonk open source": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "tiny desk ai": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "tiny desk ai video": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "3d maker": {
+  "overview_ok": true,
+  "volume": 2400,
+  "cpc": 1.98,
+  "comp": 0.66,
+  "results": 0,
+  "kd_ok": true,
+  "kd": 88,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 5,
+    "tool": 2,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "images",
+    "product_considerations",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "magic3d.io",
+    "makerworld.com",
+    "google.com",
+    "en.wikipedia.org",
+    "google.com",
+    "facebook.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESVAHrOzAV_pX7gayzgYGBKvn_x9rLh2bK0TVZAwTLxN4q_FvOWUHAne6VJ7NLZXr6yKswK3B5MObFBGtpSZa745ig0bnZ2TcBo4yn4ZMbphmU4B-e1A",
+     "title": "MakerWorld: Descarga Modelos 3D Gratuitos",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVDV0_wCmyGdzmi7RhoqwSR6lpiRSJ68BYB217T6Rb1CoPN1T9yLdHzGPB-F1qSFkmLl7ug4oJZrxqXBKa4mJ0l98qza1zELnaETMrs2TZI3zKBiOGqiTIEjzhf9d2LE0I1g",
+     "title": "MakerWorld: The Secret Weapon in My 3D Printing Workflow",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "magic3d.io",
+     "url": "https://www.magic3d.io/",
+     "title": "Free AI Creative Studio | 3D, Image & Video Generator ...",
+     "position": 3,
+     "kind": "tool"
+    },
+    {
+     "domain": "makerworld.com",
+     "url": "https://makerworld.com/en/@makerverse",
+     "title": "MakerVerse Designs | Home",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScQHrOzAV_-NovJeLl3rtYt9kAZYZHoJhrgnfHnqoC-IqkIjZUfnICde51VcFp0eF2eJGyWFaX8DLCUYDg1Ca6C7IWmRiTc2mRkGgGe1lLwtUq44L-24ma9W89OZSPfa_cuUcdU9eGJoaO4EROUq4FpBX",
+     "title": "3D Modeling and Printers",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "en.wikipedia.org",
+     "url": "https://en.wikipedia.org/wiki/3D_makeR_Technologies",
+     "title": "3D makeR Technologies",
+     "position": 6,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESlQEB6zswFf0fbO-CV4izf19PcyMdFbznK14NXca_dYxyHSVjETTJtKAgrDNYF-DvUPvJKmwFsc8hVFPsLmUKhzHP1UkWyT-ce22DXVpMWo8KXujQ50-wiI76oFWJMTJ8hJucHpgWoW8rMFpx1ksaZYM3mLQY9VbZyMpe4AZLHf57rPCYOsJ9Cz6qb2hGxhbBIV3SbHfwYg",
+     "title": "Gold-Certified Artec 3D Dealer | 3D Scanning & Printing | US ...",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/fb-answers/free-online-3d-model-maker/",
+     "title": "Free Online 3D Model Maker Options",
+     "position": 8,
+     "kind": "forum"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "allintitle": 65
+ },
+ "3d maker pro scanner": {
+  "overview_ok": true,
+  "volume": 140,
+  "cpc": 2.64,
+  "comp": 0.99,
+  "results": 188,
+  "kd_ok": true,
+  "kd": 28,
+  "day": "2026-10-30"
+ },
+ "gemini carbon": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.27,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "3d maker pro": {
+  "overview_ok": true,
+  "volume": 590,
+  "cpc": 2.02,
+  "comp": 1.0,
+  "results": 193,
+  "kd_ok": true,
+  "kd": 18,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 2,
+    "forum": 2,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "knowledge_graph",
+    "popular_products",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "google.com",
+    "reddit.com",
+    "3dmakerpro.com",
+    "facebook.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESmQEB6zswFVmutPX_rEAST_BghQHGUeu7mNOaviKC7zW4Hos0ZE7eev3Og51GnRiKQHyoU0GmtHesa5E_fWOHU3Ar0VPcV7gGy2mImOghCTGDwO8o2iRHhgJF4k96xmaMbhMHUK8BL12AeKKkP3GRc-T1MRt5jmhum7_ZkaTPSsQWn3tKLKb45f5x0ihWiTGBQbhv7tbBvLAl4Sg",
+     "title": "3DMakerpro: Portable 3D Scanners | Industrial 3D Printing",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/3DScanning/comments/1inu1ve/3dmakerpro_thoughts/",
+     "title": "3DMakerpro Thoughts? : r/3DScanning",
+     "position": 2,
+     "kind": "forum"
+    },
+    {
+     "domain": "3dmakerpro.com",
+     "url": "https://3dmakerpro.com/",
+     "title": "3DMakerpro",
+     "position": 3,
+     "kind": "tool"
+    },
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/3DMakerProCares/",
+     "title": "3DMakerpro (@3DMakerProCares)",
+     "position": 4,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESrgEB6zswFc8wYXEXPBULrgghlQh7FcHuyI-uAlvLmmWHTYJAlXtJD27icMsOQt18Of4EWOo4pPSwV9ruh1YYSvQ4jYlwxw5vRrvEQC82JmfpyQ4xK5x--vVdnyTgMuvadVYJmVgAcnDrfd2UNfoxHphTnnI42pKPy6YOkXV3kEJosqO7WoiECbx-UgiZQdlJX7OqhObkCqjlZ6yjW7QyLA9zOi8w2im7YIVh1e8P9wc",
+     "title": "3DMakerPro Scanner",
+     "position": 5,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  },
+  "allintitle": 57
+ },
+ "summrs ai": {
+  "overview_ok": true,
+  "volume": 480,
+  "cpc": 1.06,
+  "comp": 0.04,
+  "results": 0,
+  "kd_ok": true,
+  "kd": 20,
+  "day": "2026-10-30"
+ },
+ "cursor ide mcp": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "summrs": {
+  "overview_ok": true,
+  "volume": 9900,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 125,
+  "kd_ok": true,
+  "kd": 52,
+  "day": "2026-10-30"
+ },
+ "cursor ide online": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.39,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "darlink ai": {
+  "overview_ok": true,
+  "volume": 40500,
+  "cpc": 2.11,
+  "comp": 0.1,
+  "results": 0,
+  "kd_ok": true,
+  "kd": 36,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "tool": 3,
+    "list": 4,
+    "article": 2
+   },
+   "ads": false,
+   "features": [
+    "ai_overview"
+   ],
+   "top": [
+    "google.com",
+    "heavengirlfriend.com",
+    "aiinsightsnews.net",
+    "www-tokyo.darlin.ai",
+    "google.com",
+    "ai-dating24.com",
+    "google.com",
+    "darlink.cc",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESUQHrOzAVMOXxhyz0SBL3aJSt2N6Yw_QkgwX6tnX8h-KZyHoXKDmKftoIMc9hOCNVrYSG-dcgna5TnQxKENEVePm_tRKPO5nb7okm_Gboaibf8A",
+     "title": "AI Companion App for Gaming and Chat",
+     "position": 1,
+     "kind": "tool"
+    },
+    {
+     "domain": "heavengirlfriend.com",
+     "url": "https://heavengirlfriend.com/reviews/darlink-ai-review",
+     "title": "DarLink AI Review: The Pros and Cons in 2026",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "aiinsightsnews.net",
+     "url": "https://aiinsightsnews.net/darlink-ai/",
+     "title": "DarLink AI Review (2026): Is This Viral AI Partner Safe or a ...",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "www-tokyo.darlin.ai",
+     "url": "https://www-tokyo.darlin.ai/",
+     "title": "AI Companion App for Gaming and Chat",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESawHrOzAV8fag5TJF3aC0mc-FbXOc4qLDlPvB25a0YmSFLeT6OyrP43BXmjxGvxq8pBgXLvP7o8aWe7wTH5xQR1CxpiEmxsbZRb6JXxuPuG1cXtrtcaviI_JVjRhaVR8sbZvV8Us6SJWdP98M",
+     "title": "DarLink.AI",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "ai-dating24.com",
+     "url": "https://ai-dating24.com/darlink-ai/",
+     "title": "DarLink AI Review 2026: I Checked Features, Plans & Safety",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYgHrOzAVoyyeGpiYw_QqcW9Jl9oKeFyZaVuSfoW6mbICUoCmVRcWhfJWq1AtasAOhAGcYSYR1a5Zyy3ccKxyXUeepsmzQewGoCvJQOFermjc3Ofbd190smTAz2FNhfoiS4wz",
+     "title": "DarLink AI Review (2026): Hands-On With the All-in-One AI ...",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "darlink.cc",
+     "url": "https://darlink.cc/",
+     "title": "DarLink AI dating companion",
+     "position": 8,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESVAHrOzAVeonUolU34h5zJELboLyE4hvsp7kHXLhCf-mz9Atil50rr1w2DvtRCdoB4XGYkiczEcgg0USKIxbmkVQ4menKqg-FWZ3vgFHXrMfJOG5UkQ",
+     "title": "Darlink AI: Create Your AI Girlfriend or Companion",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  },
+  "allintitle": 27
+ },
+ "cursor ide ai free": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "ai agents": {
+  "overview_ok": true,
+  "volume": 27100,
+  "cpc": 10.06,
+  "comp": 0.46,
+  "results": 125,
+  "kd_ok": true,
+  "kd": 98,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 5,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "discussions_and_forums",
+    "perspectives",
+    "product_considerations",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "ibm.com",
+    "google.com",
+    "reddit.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "ibm.com",
+     "url": "https://www.ibm.com/think/topics/ai-agent-types",
+     "title": "Types of AI Agents | IBM",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAV7kSexLbrsLrzkp2luEIExW7Ioe4stjGP9T4GkCu-JRS0Hmw5wYpg_6tI1M9Z7J4i_TPnovucpvb16zQ5_NzptRkXrsNBLt5OtFjUArDQGDwGOxYgCW1CHbKNsY28Ke-VWQ",
+     "title": "How AI Agents Actually Work (Every Piece Explained & Built)",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/learnprogramming/comments/1s1sp9t/eli5_wtf_is_an_ai_agent/",
+     "title": "ELI5 wtf is an AI agent? : r/learnprogramming",
+     "position": 3,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESgQEB6zswFXMEt42_oLa0qWYBbuFtowfmP7bI14HxwwiTXAaMyjWf0Vhbr56wHDzeHN89bf3fOJMCOJXeZ7RK8QGYTInPeHydFJ2tca05ZJYU1bik47HNrqd2Ehof4jt5kQIs36IV7UAx2BAryo9kWmaGq_hiD2Y_jSTxPcFbcza8Duc",
+     "title": "AI Agents",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESdwHrOzAV7Cf6yI6T4_1Af6aiCjce6GNzpFRJikRiFDw3MqX-HVPQm5A1_x1kFi5ljB8Je4jFpKBUtpAfYR9Dl9CIgqN8kg4aTPczU8REFG21w91-vIUUX1tCzJnhbu6wE_iAdadDplZMAEgqk0EHnT_UZYS_Zf0-",
+     "title": "What Are AI Agents?",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbgHrOzAV28QPs_nLqimZnEXN7cWqLc1YBsYKUv-yW8jVkmuGfZuSHjiWxYnS12iw6Bp2gTmNwjozrfjjrqxANNdzpsjV8ekPwfw_66eav0xTDc3sIOaHC_WKEjLMhZSTG2wGePz8Ji-IrIQXIp2U",
+     "title": "AI Agent Use Cases",
+     "position": 6,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "allintitle": 47
+ },
+ "claude code vs api": {
+  "overview_ok": true,
+  "volume": 90,
+  "cpc": 0.0,
+  "comp": 0.04,
+  "results": 138,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "zerogpt": {
+  "overview_ok": true,
+  "volume": 135000,
+  "cpc": 0.32,
+  "comp": 0.17,
+  "results": 49100,
+  "kd_ok": true,
+  "kd": 24,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 1,
+    "tool": 4,
+    "list": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESUwHrOzAVgsF8xkqgWFJHi6PFLO6BG0LOM2OX1Oh_ZTPwzkiPSeSjjypFW-t_P4-hJx6xj1nbeFP_FgFVxhgV60U8WYede8v0ACWFgiksutaFdz6Q",
+     "title": "ZeroGPT",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESTgHrOzAVdKp10Y54W5ynfpTBecANK809GRBtE0X_p53OfTTJB5AJZipsV6Tm_sIoYfXpkEoVRpJ5JicXVraTrm69GU-ix4G3ysNVzn_SMA",
+     "title": "AI Detector - Free AI Checker for ChatGPT, GPT-6 & Gemini",
+     "position": 2,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESTwHrOzAVwjj1cdBPxzrb_6Xy2osaCC0yRknMki_NWx4m59H-1rV7wy5dSF3Qv7MGC1-78Xtxlt8l25Y09WN6U7H7NXOIlhaLzceWf140omY",
+     "title": "ZeroGPT: Free AI Detector — ChatGPT, Gemini & DeepSeek",
+     "position": 3,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESTwHrOzAVMzD1UavJk0Oe2HBcXjRAgzcsZJnqa-9QO9CWmnZcg6xzaaGkvWkvcPoPyCMvk78BwDO6aWLRsmA4vQUNiJhNQ_4Go4Xtlrjv3sY",
+     "title": "ZeroGPT: AI Detector Platform - AI Content Checker",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESeQHrOzAVxeYnC92g-nNvJHr4FOHtymYSP0L7xDZmK1KyAL4XsCFlhJ_qvO3deEkhs8tA3Y3-NidJcyBQIAdP99c6F-mQz6dsc8fzxgGO03-smu4ntcf_yDOg9t8p61uYKfkmCdi0eFpUImkx08iyFAHrEs2wM0eGGxA",
+     "title": "ZeroGPT AI Content Detector Review",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESUQHrOzAVMFj8QwIjFZvN5ofAJG1vGs5N8QTSx39dE0iRhKYJTKxaNlkHWIYQIC-UXzgrd4487RdfV2yXwSbjR1EWgl9siK91GWFtSUoUpsFshg",
+     "title": "ZeroGPT: Free ChatGPT Detector - AI Checker",
+     "position": 6,
+     "kind": "tool"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  },
+  "allintitle": 35
+ },
+ "claude code vs mcp": {
+  "overview_ok": true,
+  "volume": 40,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 121,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "common app essay prompts": {
+  "overview_ok": true,
+  "volume": 12100,
+  "cpc": 3.53,
+  "comp": 0.33,
+  "results": 95,
+  "kd_ok": true,
+  "kd": 47,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "list": 5,
+    "article": 3,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "questions_and_answers",
+    "related_searches"
+   ],
+   "top": [
+    "google.com",
+    "commonapp.org",
+    "coalitionforcollegeaccess.org",
+    "google.com",
+    "collegeessayguy.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESiAEB6zswFZypgY0jYLPo6MFsntHOSK44shGW-PiAznpeiYmiMRUtf691GTdgfTm5FqDBDcz5ZBPS0jDZGl4Vt1GmfsfGWY6rMmR4nDXarCdIRMPTNY4I9xUDqyK-e77_6PrRfm3dQSIqB6_3GeuD-VgWLhhuiq0obum_F8UrJLctlRREykYhomMQ",
+     "title": "Announcing the 2026–2027 Common App essay prompts",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "commonapp.org",
+     "url": "https://www.commonapp.org/blog/announcing-2025-2026-common-app-essay-prompts/",
+     "title": "Announcing the 2025–2026 Common App essay prompts",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "coalitionforcollegeaccess.org",
+     "url": "https://www.coalitionforcollegeaccess.org/essays",
+     "title": "Coalition Application Essay Prompts",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESlwEB6zswFXvv5SCKp2K8nG9H6tiBBhCiQG7BNS4A8f1qc3dg50dNTCCbcvOW_sQ60nolNAoh_Sy9qNuMXJDWeyKcfovX7xuJXOZZsPB0cNjqrozGa4rraga3lqFNnuGiCqj2NO88Ke_oyHDWKEMO34GGh86OwhPbLTIe6UC3uEsUaUnT2HYXzmK4p4Y0JL7oVHENfarRTesQ",
+     "title": "2026-27 Common Application Essay Prompts Guide",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "collegeessayguy.com",
+     "url": "https://www.collegeessayguy.com/blog/which-common-app-prompt-is-best",
+     "title": "Which Common App Prompt is Best?",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbwHrOzAVK6b1if9G6NYbZe-uuGzk3DNhR9aJvVQii7Bk-FeifvhKBWktGgQXc8AC_M6_AI3yXOnadmjKfjdyLhqStAu2fOaiRAWUyWeGi4x4Dg2qDMBM8SR2abuRIb49cFPFIcrOGUI-1q3RvxfRFg",
+     "title": "Application guide for first-year students",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESggEB6zswFZ0sZ0Idq75Ry8Hl-igqH6TzlDibqMR1wCTK8ni-Fy_YN8kLAOVgEub78JM6C2VuQ2s8d9v31yxp-We8IK-JizXuQ9vlPT1F1cNwPcaqUbZBJus7HHJnNezJJMERxK55oco4GICgaP9AKM95Fo-rxvMcqhcXk8bzEfojKcWO",
+     "title": "Popular Application Essay Topics | Apply",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVEGoQSBRm73N-G-M9gIcO0_Tcly8Z6K9j4ZH5hGFWWyJts17-ZJcbl3u74xm_EFxEvS08LZiONacFvgg0EBQTTqtDxQDOnJbnzRGuSIPeJA1-bDgZA9KAUkWRscItlft0tw",
+     "title": "Common App essay prompts explained | How to choose the ...",
+     "position": 8,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESeQHrOzAVsKKnwL7fuz5Kg6XiWC131mmUYWCobKFt-k5xggULqFrqDP2Mgnt9EHkPhQSppPJyKCKdedF_PmyOCF8XP6Hg2pEcJWrv23Knc344Vq0WCC8dglHNnMwTKgqLZqm3AHSCVsQo2LwQaXqkNWF6lV2lzYB0JwA",
+     "title": "2026-27 Common App Essay Prompts",
+     "position": 9,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  },
+  "allintitle": 67
+ },
+ "claude code vs free": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "kimi": {
+  "overview_ok": true,
+  "volume": 90500,
+  "cpc": 0.61,
+  "comp": 0.25,
+  "results": 0,
+  "kd_ok": true,
+  "kd": 42,
+  "day": "2026-10-30",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "perspectives",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "google.com",
+    "kimi.ai",
+    "google.com",
+    "reddit.com",
+    "google.com",
+    "play.google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESXgHrOzAVQ0tg7larCceDP4mF9V1CcMtnm60x_7_0dyzzjA3z6jbRdGnUXrSvHCE4lECo59uBv4faWYH4TOPaEUbvE-vVKp2uMIVEFaIK8uqi5WUwBckFOGJPEWjbH0c",
+     "title": "Kimi.ai (@Kimi_Moonshot) / X",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "kimi.ai",
+     "url": "https://www.kimi.ai/products/download",
+     "title": "Download Kimi AI | Desktop, Mobile & Kimi Code",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYgHrOzAVVfydOLwGuKASPE1jF3NHlifbjVHZzMHVtQGrUZi96aaZekRhrXW1eOAh-JPv1gPCzSs2k6WSMr86xOQVijY0J0Zkav8hP_Ssj5SRfuAp0p96SoIIT2pLvqbAQuT4",
+     "title": "Kimi K2.6 | Leading Open-Source Model in Coding & Agent",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/kimi/comments/1tow7nt/my_practical_take_on_kimi_ai_where_it_helps_where/",
+     "title": "My practical take on Kimi AI: where it helps, where it ...",
+     "position": 4,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESiAEB6zswFd-ghn-YESSCDmHQuOR8OqWYIu2mhEWOlEx8wXzWSTdwrMBCPsDaSA3zep9df4Y5ywPnG3J91S9OfP72g33ePSROhDU64wHqXvrkUmCrGtTNyL1hK_Z0Bd8mOqwSWEcBSh4Vk3fNZNgo6Anh1iEU1vdX1C5-8dtyX038qfK3CEPBCPeG",
+     "title": "What is China's Kimi K3 and why is the US so rattled by it?",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "play.google.com",
+     "url": "https://play.google.com/store/apps/details?id=com.moonshot.kimichat&hl=en_GB",
+     "title": "Kimi – Apps on Google Play",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScAHrOzAV4kyX_VDNSdkEc5gdCX3PJ0yKophsy3znOPtdWkBWK_ViPudcNVD5_G61KgN9_NO9VcSAcvSQuCi5q0mScnvBx_n6gwjX1CnlsMPO3rIRpMkaRhZc4YTxJq1u4ZyYepNdbvhcceVM7zvqZ7g",
+     "title": "Kimi K2 Tutorial: Complete Guide to Using Kimi.ai",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  },
+  "allintitle": 45
+ },
+ "idol maker": {
+  "overview_ok": true,
+  "volume": 880,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 167,
+  "kd_ok": true,
+  "kd": 49,
+  "day": "2026-10-30"
+ },
+ "idol online": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.01,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "idol alternative": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "gemini 4 carbon (high)": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "nx2apple github": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "totk pc recomp github": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "zero breach toolkit github": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
+ },
+ "day trader skill claude": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-10-30"
  }
 }

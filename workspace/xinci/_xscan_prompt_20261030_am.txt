@@ -1,0 +1,142 @@
+你是新词雷达 XSCAN 筛选器。根据候选帖生成严格 JSON 文件内容（不要 markdown 围栏，不要解释）。
+
+窗口: window_start=2026-10-28 10:12 (北京) / 2026-10-28T02:12:49Z ; window_end=2026-10-30 10:15 (北京) / 2026-10-30T02:15:49Z
+label: "2026-10-30 上午 书签X"
+run_at: "2026-10-30 10:20"
+
+规则:
+1. 只收真实首发（产品/模型首次发布）。合作/上架/功能更新/报告可收但 kind=not_model，desc 末尾加「不是新模型」。
+2. 招聘/活动/人事/营销转发不收。
+3. 已在 reported 的规范化名不收（下列 reported keys/names 禁止重复）:
+{"sagea15": "Sage-A1.5", "sparkx264b": "Spark-X2.6-4B", "oxr10": "OXR-1.0", "claudeduet": "Claude Duet", "recursiveflint": "Recursive Flint", "claudesecurity持续扫描": "Claude Security 持续扫描", "openai模型登陆googlecloud": "OpenAI 模型登陆 Google Cloud", "openai发现php严重漏洞codex检测技能": "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能", "gptrosalind药物发现线索": "GPT-Rosalind 药物发现线索", "mistralnvidia工业工程合作": "Mistral × NVIDIA 工业工程合作", "gemini在google地图carplay导航": "Gemini 在 Google 地图 CarPlay 导航", "mossimageedit": "Moss-Image-Edit", "pixtext": "PixText", "omnir2v": "Omni-R2V", "minimaxm31flash": "MiniMax M3.1 Flash", "ling30flashsante": "Ling-3.0-flash-Sante", "canvacraft": "Canva Craft", "claude登陆googlecloudga": "Claude 登陆 Google Cloud GA", "claude默认自动模式": "Claude 默认自动模式", "claude大规模形式化验证": "Claude 大规模形式化验证", "openaimetr嵌入式评估": "OpenAI × METR 嵌入式评估", "evaomni": "EvaOmni", "openaidecisionsapi正式ga": "OpenAI Decisions API", "agentskills捐给agenticaifoundation": "Agent Skills 捐给 Agentic AI Foundation", "geminiapicligeminiapi预览": "Gemini API CLI", "ling31flash1019": "Ling-3.1-flash-1019", "streameval": "StreamEval", "kimik31pro": "Kimi K3.1 Pro", "claudemcptaskselicitations": "Claude MCP Tasks / Elicitations", "openai训练环境离线化": "OpenAI 训练环境离线化", "openai发现brotli未认证rce": "OpenAI 发现 Brotli 未认证 RCE", "anthropicaisimythos5进一步分析": "Anthropic AISI Mythos 5 进一步分析", "dessa": "Dessa", "nemotron35bolte4b": "Nemotron 3.5 Bolt E4B", "nanbeige4333b": "Nanbeige4.3-33B", "minimaxh3社区加速更新": "MiniMax H3 社区加速更新", "d3turbo": "d3-turbo", "babelarena": "BabelArena", "gpt61terra": "GPT-6.1 Terra", "claudefornonprofits": "Claude for Nonprofits", "ling31flashbase": "Ling-3.1-flash-base", "atriadawn": "Atria Dawn", "fibo20dev": "Fibo 2.0 Dev", "unlimitedocr2": "Unlimited-OCR-2", "hynomas": "Hy-Nomas", "hysimulmt": "Hy-SimulMT", "genie4": "Genie 4", "lfm3": "LFM3", "claudeonegov": "Claude OneGov"}
+4. 本窗口之前首发但漏报的加 backfill:true，desc 前「【补报】」。本窗口内首发不要 backfill。
+5. 建站热词 ≤3，宁缺勿滥：优先 kind=model/product，views≥500000 或 bookmarks≥1000，名字全新。给 keyword_rank/keyword/reason（含「适合做什么页面」）。keywords[] 与有 keyword 的 items 对齐。
+6. items 字段: name, desc(中文一句), source(@账号), url, first_seen(北京 YYYY-MM-DD HH:MM), views, bookmarks, kind(model/product/not_model), 可选 keyword_rank/keyword/reason/backfill
+7. empty=false 若有 items；有错误才加 error。
+
+候选帖（已尽量找官方 URL）:
+[
+  {
+    "name_hint": "Gemini 4 Carbon",
+    "source": "@GoogleDeepMind",
+    "url": "https://x.com/GoogleDeepMind/status/2115489356437651654",
+    "first_seen": "2026-10-29 01:02",
+    "views": 1454443,
+    "bookmarks": 1392,
+    "text": "Gemini 4 Carbon is our next frontier model. It’s state-of-the-art across cybersecurity and long-horizon capabilities.",
+    "note": "Also announced by @Google / @GoogleAI same window; use DeepMind as primary."
+  },
+  {
+    "name_hint": "Brush",
+    "source": "@canva",
+    "url": "https://x.com/canva/status/2115885750013321704",
+    "first_seen": "2026-10-30 03:17",
+    "views": 541359,
+    "bookmarks": 781,
+    "text": "Introducing Brush: Our first vision-language model for design. Brush sees your design’s layout, layers and vibe the way you do, and edits alongside you."
+  },
+  {
+    "name_hint": "Le Chonk",
+    "source": "@MistralAI",
+    "url": "https://x.com/MistralAI/status/2115811242556137820",
+    "first_seen": "2026-10-29 22:21",
+    "views": 494888,
+    "bookmarks": 880,
+    "text": "Today, we release the weights of a new and improved Le Chonk, advancing the open frontier for agentic coding and cybersecurity. Ranks #1 on FrontierCode among open models."
+  },
+  {
+    "name_hint": "Nemotron 3.5 Transcribe",
+    "source": "@NVIDIAAI",
+    "url": "https://x.com/NVIDIAAI/status/2115462300241141882",
+    "first_seen": "2026-10-28 23:14",
+    "views": 856426,
+    "bookmarks": 6202,
+    "text": "Meet NVIDIA Nemotron 3.5 Transcribe. An open-weight, promptable 30B MoE model with ~4B active parameters: transcription in 40 languages, speaker attribution, translation."
+  },
+  {
+    "name_hint": "Clover-35B-A3B-Preview",
+    "source": "@DiffuSpace_Labs",
+    "url": "https://x.com/DiffuSpace_Labs/status/2115288124691820738",
+    "first_seen": "2026-10-28 11:42",
+    "views": 168496,
+    "bookmarks": 690,
+    "text": "Meet Clover-35B-A3B-Preview the first open-weight production diffusion language model (dLLM) with 35B total parameters capable of 680 tps."
+  },
+  {
+    "name_hint": "Pika H3 Flex",
+    "source": "@pika_labs",
+    "url": "https://x.com/pika_labs/status/2115860471215788262",
+    "first_seen": "2026-10-30 01:37",
+    "views": 323306,
+    "bookmarks": 593,
+    "text": "Meet Pika H3 Flex, debuting today as the #1 open weight model on DesignArena’s t2v board. Exportable audio stems, up to 4k, faster-than-realtime generation."
+  },
+  {
+    "name_hint": "Audio8-TTS-Realistic",
+    "source": "@Edge0_AI",
+    "url": "https://x.com/Edge0_AI/status/2115972048774398355",
+    "first_seen": "2026-10-30 09:00",
+    "views": 130,
+    "bookmarks": 2,
+    "text": "Audio8-TTS-Realistic: realistic zero-shot voice cloning in 0.6B parameters, #1 on Hugging Face TTS Arena. Open weights, 23 languages. (Founder amplify @SamuelZengML had ~26k views / 903 bookmarks; use official URL.)"
+  },
+  {
+    "name_hint": "Mistral Responses API",
+    "source": "@MistralAI",
+    "url": "https://x.com/MistralAI/status/2115443720371814478",
+    "first_seen": "2026-10-28 22:01",
+    "views": 48257,
+    "bookmarks": 113,
+    "text": "Today, we’re introducing the Responses API in public preview, made for building agents on Mistral.",
+    "likely_kind": "not_model"
+  },
+  {
+    "name_hint": "Google Connected Apps Platform",
+    "source": "@Google",
+    "url": "https://x.com/Google/status/2115562774231155045",
+    "first_seen": "2026-10-29 05:54",
+    "views": 177371,
+    "bookmarks": 241,
+    "text": "We’re launching a preview of our Connected Apps Platform, giving developers a single place to build and manage apps for Search and the Gemini app.",
+    "likely_kind": "not_model"
+  },
+  {
+    "name_hint": "Claude API 128MB request limit",
+    "source": "@ClaudeDevs",
+    "url": "https://x.com/ClaudeDevs/status/2115923971279614171",
+    "first_seen": "2026-10-30 05:49",
+    "views": 166702,
+    "bookmarks": 467,
+    "text": "We've raised the max request size for Messages and Token Counting on the Claude API from 32 MB to 128 MB.",
+    "likely_kind": "not_model"
+  },
+  {
+    "name_hint": "Claude self-assessment",
+    "source": "@AnthropicAI",
+    "url": "https://x.com/AnthropicAI/status/2115871889549865429",
+    "first_seen": "2026-10-30 02:22",
+    "views": 500661,
+    "bookmarks": 852,
+    "text": "We’ve trained Claude to flag potential misuse in conversations, a technique we call self-assessment.",
+    "likely_kind": "not_model"
+  },
+  {
+    "name_hint": "ChatGPT Pro/Business API credits $500",
+    "source": "@OpenAIDevs",
+    "url": "https://x.com/OpenAIDevs/status/2115583698074755078",
+    "first_seen": "2026-10-29 07:17",
+    "views": 1880738,
+    "bookmarks": 5677,
+    "text": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents.",
+    "likely_kind": "not_model"
+  }
+]
+
+跳过提示:
+["Claude for Legal gallery / mobile Duo layout: feature updates, optional skip if too minor", "OpenAI monitoring frontier models blog: report not product", "Anthropic AI for Science expansion: program not product", "ModelScope-only listings without official (OvisOCR3, Spark-X2.6-1.7B, Nanbeige GGUF, Ling on Novita): skip as 传闻/上架", "Already in reported: Nanbeige4.3-33B, Fibo 2.0, Moss-Image, LFM3, MiniMax M3.1 Flash, Hy-Nomas, Kimi K3.1 Pro, Ling-3.0-flash-Sante, Genie 4, etc.", "Filter marketing/link-broker posts"]
+
+建议收录优先级: Gemini 4 Carbon, Nemotron 3.5 Transcribe, Brush, Le Chonk, Pika H3 Flex, Clover-35B-A3B-Preview, Audio8-TTS-Realistic；not_model 可选收 Responses API、Connected Apps、Claude 128MB、self-assessment、API credits（高互动可收）。
+建站热词建议优先: Gemini 4 Carbon、Nemotron 3.5 Transcribe、Brush（或 Le Chonk）。
+
+输出唯一一个 JSON 对象，字段: label, run_at, window_start, window_end, empty, items, keywords
+window_start/window_end 用北京时间字符串 "2026-10-28 10:12" 和 "2026-10-30 10:15"。

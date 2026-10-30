@@ -1,491 +1,689 @@
 {
- "date": "2026-10-28",
+ "date": "2026-10-30",
  "board_runs": [],
  "xnew_runs": [
-  "2026-10-28 上午 书签X"
+  "2026-10-30 上午 书签X",
+  "2026-10-30 晚上 书签X"
  ],
  "our_x_failed": false,
  "terms": [
   {
-   "name": "gpt-6.1 terra",
-   "key": "gpt61terra",
+   "name": "3d make",
+   "key": "3dmake",
    "sources": [
     "我们X"
    ],
-   "desc": "@OpenAI: GPT-6.1 Terra: delivering fast and capable computer use at a lower price. GPT-6.",
+   "desc": "@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t",
    "url": "",
    "signals": [
-    "X 5 个账号 ♥28079",
-    "X 1 个账号 ♥152"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "qwen3.5-4b-3d-coder",
-   "key": "qwen354b3dcoder",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@TeksEdge: I'm excited about this. Local AI and small models are the future. A 2.71GB local",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥206"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "gpt-6 astra openai",
-   "key": "gpt6astraopenai",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: OpenAI 发布 GPT-6.1 Terra：Plus 及以上订阅直接可用、不另收费，API 降价一半，操作电脑追平 GPT-6 Astra OpenAI 发",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥152"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "gpt-5.6 terra",
-   "key": "gpt56terra",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: OpenAI 发布 GPT-6.1 Terra：Plus 及以上订阅直接可用、不另收费，API 降价一半，操作电脑追平 GPT-6 Astra OpenAI 发",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥152"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "microsoft ai",
-   "key": "microsoftai",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: 微软向约 6 万名员工提供自愿离职补偿，约占全员四分之一，12 月初前决定 微软 10 月 26 日（周一）给美国、加拿大、英国和印度部分团队的员工发了一份“自",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥271"
-   ],
-   "variants": [],
-   "named": 0.5
-  },
-  {
-   "name": "eth",
-   "key": "eth",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: OpenAI 宣布 AI 推翻“指数时间假设”（ETH）的同一天，Anthropic 在 GitHub 上放出一篇论文，得出同样的结论，署名作者只有一个：Cla",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥133"
-   ],
-   "variants": [],
-   "named": 0.5
-  },
-  {
-   "name": "unlimited ocr 2",
-   "key": "unlimitedocr2",
-   "sources": [
-    "HF"
-   ],
-   "desc": "baidu/Unlimited-OCR-2 (image-text-to-text, ♥172)",
-   "url": "",
-   "signals": [
-    "HF 新进榜第 28 名"
-   ],
-   "variants": [],
-   "named": 0.85
-  },
-  {
-   "name": "gear",
-   "key": "gear",
-   "sources": [
-    "HF"
-   ],
-   "desc": "WizardTY/GEAR (static, ♥54)",
-   "url": "",
-   "signals": [
-    "HF Spaces 新进榜第 21 名"
-   ],
-   "variants": [],
-   "named": 0.85
-  },
-  {
-   "name": "digital human koubo",
-   "key": "digitalhumankoubo",
-   "sources": [
-    "GitHub"
-   ],
-   "desc": "andyhuo520/digital-human-koubo: AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packag",
-   "url": "https://github.com/andyhuo520/digital-human-koubo",
-   "signals": [
-    "GitHub 爆发 andyhuo520/digital-human-koubo ★982(均 712/天,一天 +592)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "blaze",
-   "key": "blaze",
-   "sources": [
-    "GitHub"
-   ],
-   "desc": "indexable-inc/blaze: Incremental rust builds up to 92x faster than cargo/rustc",
-   "url": "https://github.com/indexable-inc/blaze",
-   "signals": [
-    "GitHub 爆发 indexable-inc/blaze ★1195(均 157/天,一天 +703)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "tstack",
-   "key": "tstack",
-   "sources": [
-    "GitHub"
-   ],
-   "desc": "t3dotgg/tstack: The agent skills I use every day. Works with Claude Code and Codex.",
-   "url": "https://github.com/t3dotgg/tstack",
-   "signals": [
-    "GitHub 爆发 t3dotgg/tstack ★1807(均 538/天,一天 +877)"
-   ],
-   "variants": [],
-   "named": 0.85
-  },
-  {
-   "name": "trulata",
-   "key": "trulata",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 3 处 (×3.0)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "chipp",
-   "key": "chipp",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 19 处 (×18.8)"
+    "X 2 个账号 ♥2524"
    ],
    "variants": [],
    "named": 0.7
   },
   {
-   "name": "ai.chipp chipp",
-   "key": "aichippchipp",
+   "name": "cursor ide",
+   "key": "cursoride",
    "sources": [
-    "竞品站"
+    "我们X"
    ],
-   "desc": "",
+   "desc": "@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten",
    "url": "",
    "signals": [
-    "③ 竞品 19 处 (×18.8)"
+    "X 1 个账号 ♥4478"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "claude code vs",
+   "key": "claudecodevs",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten",
+   "url": "",
+   "signals": [
+    "X 1 个账号 ♥4478"
    ],
    "variants": [],
    "named": 0.6
   },
   {
-   "name": "w4rd0",
-   "key": "w4rd0",
+   "name": "introducing 3d make",
+   "key": "introducing3dmake",
    "sources": [
-    "竞品站"
+    "我们X"
    ],
-   "desc": "",
+   "desc": "@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t",
    "url": "",
    "signals": [
-    "③ 竞品 5 处 (×5.0)"
+    "X 1 个账号 ♥2518"
    ],
    "variants": [],
    "named": 0.6
   },
   {
-   "name": "cloudcorprecords",
-   "key": "cloudcorprecords",
+   "name": "nothingbutnet",
+   "key": "nothingbutnet",
    "sources": [
-    "竞品站"
+    "我们X"
    ],
-   "desc": "",
+   "desc": "@swyx: excited for @Cloudflare's debut as a frontier lab #NothingButNET gang, assemble!",
    "url": "",
    "signals": [
-    "③ 竞品 5 处 (×4.1)"
-   ],
-   "variants": [],
-   "named": 0.6
-  },
-  {
-   "name": "connectors ai.chipp",
-   "key": "connectorsaichipp",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 19 处 (×18.6)"
+    "X 1 个账号 ♥146"
    ],
    "variants": [],
    "named": 0.5
   },
   {
-   "name": "genpark ctrip",
-   "key": "genparkctrip",
+   "name": "protectbirds",
+   "key": "protectbirds",
+   "sources": [
+    "HF"
+   ],
+   "desc": "AimeeBingmouQu/ProtectBirds (docker, ♥1144)",
+   "url": "",
+   "signals": [
+    "HF Spaces 新进榜第 34 名"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "harness lens",
+   "key": "harnesslens",
+   "sources": [
+    "HF"
+   ],
+   "desc": "harness-hub/harness-lens (docker, ♥40)",
+   "url": "",
+   "signals": [
+    "HF Spaces 新进榜第 43 名"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "idol",
+   "key": "idol",
+   "sources": [
+    "HF"
+   ],
+   "desc": "speridlabs/idol (gradio, ♥20)",
+   "url": "",
+   "signals": [
+    "HF Spaces 新进榜第 44 名"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "nx2apple",
+   "key": "nx2apple",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "LNPANDY/NX2Apple: Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Brin",
+   "url": "https://github.com/LNPANDY/NX2Apple",
+   "signals": [
+    "GitHub 爆发 LNPANDY/NX2Apple ★2165(均 221/天,一天 +1482)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "totk pc recomp",
+   "key": "totkpcrecomp",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "valentderah/totk-pc-recomp: Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game",
+   "url": "https://github.com/valentderah/totk-pc-recomp",
+   "signals": [
+    "GitHub 爆发 valentderah/totk-pc-recomp ★1030(均 985/天)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "zero breach toolkit",
+   "key": "zerobreachtoolkit",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "interplains/Zero-Breach-Toolkit: Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phon",
+   "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+   "signals": [
+    "GitHub 爆发 interplains/Zero-Breach-Toolkit ★3760(均 759/天)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "day trader skill",
+   "key": "daytraderskill",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "Jakeschincariol/day-trader-skill: 11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay e",
+   "url": "https://github.com/Jakeschincariol/day-trader-skill",
+   "signals": [
+    "GitHub 爆发 Jakeschincariol/day-trader-skill ★3463(均 347/天,一天 +1257)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "ai pose gallery zh",
+   "key": "aiposegalleryzh",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "anhao/ai-pose-gallery-zh: 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+   "url": "https://github.com/anhao/ai-pose-gallery-zh",
+   "signals": [
+    "GitHub 爆发 anhao/ai-pose-gallery-zh ★3786(均 1241/天)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "eclipse technologies",
+   "key": "eclipsetechnologies",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 9 处 (×9.0)"
+    "③ 竞品 10 处 (×8.9)"
    ],
    "variants": [],
    "named": 0.5
   },
   {
-   "name": "com.apify.mcp",
-   "key": "comapifymcp",
+   "name": "arsaze",
+   "key": "arsaze",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: Arsaze",
+   "url": "https://www.arsaze.com",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "speakon agent",
+   "key": "speakonagent",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: SpeakON Agent",
+   "url": "https://www.producthunt.com/products/speakon",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "overtone",
+   "key": "overtone",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: Overtone",
+   "url": "https://github.com/lonthq/overtone-captions",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "gpt-6.1 terra pro",
+   "key": "gpt61terrapro",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "OpenRouter: GPT-6.1 Terra Pro",
+   "url": "https://openrouter.ai/openai/gpt-6.1-terra-pro",
+   "signals": [
+    "OpenRouter 新上架",
+    "OpenRouter 新上架"
+   ],
+   "variants": [],
+   "named": 0.95
+  },
+  {
+   "name": "gpt-6.1 terra",
+   "key": "gpt61terra",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "OpenRouter: GPT-6.1 Terra",
+   "url": "https://openrouter.ai/openai/gpt-6.1-terra",
+   "signals": [
+    "OpenRouter 新上架",
+    "OpenRouter 新上架"
+   ],
+   "variants": [],
+   "named": 0.95
+  },
+  {
+   "name": "kimi k3.1 pro",
+   "key": "kimik31pro",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "OpenRouter: Kimi K3.1 Pro",
+   "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
+   "signals": [
+    "OpenRouter 新上架"
+   ],
+   "variants": [],
+   "named": 0.95
+  },
+  {
+   "name": "faylee",
+   "key": "faylee",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Faylee",
+   "url": "https://www.producthunt.com/products/faylee",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "canva brush",
+   "key": "canvabrush",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Canva Brush",
+   "url": "https://www.producthunt.com/products/canva",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "stepgrab",
+   "key": "stepgrab",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: StepGrab",
+   "url": "https://www.producthunt.com/products/stepgrab",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "fastbrowse",
+   "key": "fastbrowse",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: fastbrowse",
+   "url": "https://www.producthunt.com/products/fastbrowse",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "kestrix",
+   "key": "kestrix",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Kestrix",
+   "url": "https://www.producthunt.com/products/kestrix",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "nocto",
+   "key": "nocto",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Nocto",
+   "url": "https://www.producthunt.com/products/nocto",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "ilse",
+   "key": "ilse",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: ilse",
+   "url": "https://www.producthunt.com/products/ilse",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "isurge",
+   "key": "isurge",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: iSurge",
+   "url": "https://www.producthunt.com/products/isurge",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "axonnic",
+   "key": "axonnic",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Axonnic",
+   "url": "https://www.producthunt.com/products/axonnic",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "slidebyside",
+   "key": "slidebyside",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: SlideBySide",
+   "url": "https://slidebyside.com/",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "yavashark",
+   "key": "yavashark",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: Yavashark",
+   "url": "https://yavashark.dev/blog/announcing-yavashark/",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "lasm",
+   "key": "lasm",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: Lasm",
+   "url": "https://github.com/Millillion/lasm",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "particle-1",
+   "key": "particle1",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "OpenRouter: Particle-1",
+   "url": "https://openrouter.ai/particle-ai/particle-1",
+   "signals": [
+    "OpenRouter 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "uk farming simulator",
+   "key": "ukfarmingsimulator",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: UK Farming Simulator",
+   "url": "https://butterbean.farm/",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "code vs code",
+   "key": "codevscode",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten",
+   "url": "",
+   "signals": [
+    "X 1 个账号 ♥4478"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "introducing 3d",
+   "key": "introducing3d",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t",
+   "url": "",
+   "signals": [
+    "X 1 个账号 ♥2518"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "openclaw genpark",
+   "key": "openclawgenpark",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 6 处 (×4.1)"
-   ],
-   "variants": [],
-   "named": 0.5
-  },
-  {
-   "name": "coreai",
-   "key": "coreai",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: 微软向约 6 万名员工提供自愿离职补偿，约占全员四分之一，12 月初前决定 微软 10 月 26 日（周一）给美国、加拿大、英国和印度部分团队的员工发了一份“自",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥271"
+    "③ 竞品 19 处 (×19.0)"
    ],
    "variants": [],
    "named": 0.3
   },
   {
-   "name": "building auditable ai",
-   "key": "buildingauditableai",
+   "name": "alphaparkinc openclaw",
+   "key": "alphaparkincopenclaw",
    "sources": [
-    "我们X"
+    "竞品站"
    ],
-   "desc": "@_akhaliq: Building Auditable AI Text Detectors with Sparse Autoencoders paper: https://t.c",
+   "desc": "",
    "url": "",
    "signals": [
-    "X 1 个账号 ♥201"
+    "③ 竞品 17 处 (×17.0)"
    ],
    "variants": [],
    "named": 0.3
   },
   {
-   "name": "ai text detectors",
-   "key": "aitextdetectors",
+   "name": "technologies llc",
+   "key": "technologiesllc",
    "sources": [
-    "我们X"
+    "竞品站"
    ],
-   "desc": "@_akhaliq: Building Auditable AI Text Detectors with Sparse Autoencoders paper: https://t.c",
+   "desc": "",
    "url": "",
    "signals": [
-    "X 1 个账号 ♥201"
+    "③ 竞品 10 处 (×8.6)"
    ],
    "variants": [],
    "named": 0.3
   },
   {
-   "name": "ai native",
-   "key": "ainative",
+   "name": "llc eclipse",
+   "key": "llceclipse",
    "sources": [
-    "我们X"
+    "竞品站"
    ],
-   "desc": "@dotey: 推荐阅读：《用 Manus 改造 Manus，AI Native 组织改造的实践和思考》https://t.co/0MEN86K7ow 来自 Manus 很好的",
+   "desc": "",
    "url": "",
    "signals": [
-    "X 1 个账号 ♥201"
+    "③ 竞品 9 处 (×8.5)"
    ],
    "variants": [],
    "named": 0.3
   },
   {
-   "name": "qcd",
-   "key": "qcd",
+   "name": "cyan eclipse",
+   "key": "cyaneclipse",
    "sources": [
-    "我们X"
+    "竞品站"
    ],
-   "desc": "@dotey: OpenAI 称 AI 推翻计算机科学的“指数时间假设”，还证出杨-米尔斯理论存在，外部专家组开始核查 OpenAI 10 月 26 日宣布，内部模型在数学、计",
+   "desc": "",
    "url": "",
    "signals": [
-    "X 1 个账号 ♥214"
+    "③ 竞品 9 处 (×8.1)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "io.github.donniertf",
+   "key": "iogithubdonniertf",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 94 处 (×92.3)"
    ],
    "variants": [],
    "named": 0.2
   },
   {
-   "name": "lm studio and",
-   "key": "lmstudioand",
+   "name": "connectors io.github.donniertf",
+   "key": "connectorsiogithubdonniertf",
    "sources": [
-    "我们X"
+    "竞品站"
    ],
-   "desc": "@TeksEdge: I'm excited about this. Local AI and small models are the future. A 2.71GB local",
+   "desc": "",
    "url": "",
    "signals": [
-    "X 1 个账号 ♥206"
+    "③ 竞品 94 处 (×92.3)"
    ],
    "variants": [],
    "named": 0.2
   },
   {
-   "name": "auditable ai text",
-   "key": "auditableaitext",
+   "name": "io.github.donniertf hub",
+   "key": "iogithubdonniertfhub",
    "sources": [
-    "我们X"
+    "竞品站"
    ],
-   "desc": "@_akhaliq: Building Auditable AI Text Detectors with Sparse Autoencoders paper: https://t.c",
+   "desc": "",
    "url": "",
    "signals": [
-    "X 1 个账号 ♥201"
+    "③ 竞品 94 处 (×92.3)"
    ],
    "variants": [],
    "named": 0.2
   },
   {
-   "name": "self-training data-free self-improvement",
-   "key": "selftrainingdatafreeselfimprovement",
+   "name": "connectors io.github.kriton",
+   "key": "connectorsiogithubkriton",
    "sources": [
-    "我们X"
+    "竞品站"
    ],
-   "desc": "@_akhaliq: On-Policy Self-Training Data-Free Self-Improvement in Large Language Models pape",
+   "desc": "",
    "url": "",
    "signals": [
-    "X 1 个账号 ♥336"
+    "③ 竞品 12 处 (×12.0)"
    ],
    "variants": [],
-   "named": 0.15
+   "named": 0.2
   },
   {
-   "name": "rom",
-   "key": "rom",
+   "name": "io.github.kriton dev",
+   "key": "iogithubkritondev",
    "sources": [
-    "我们X"
+    "竞品站"
    ],
-   "desc": "@op7418: 装了几个热门的 DeepSeek Harness 插件，感觉这生态现在他妈的蓬勃发展 主要是 DeepSeek 太便宜，能力又中不溜的很强。 现在很多人就只用 ",
+   "desc": "",
    "url": "",
    "signals": [
-    "X 1 个账号 ♥729"
+    "③ 竞品 12 处 (×12.0)"
    ],
    "variants": [],
-   "named": 0.1
+   "named": 0.2
   },
   {
-   "name": "on-policy self-training data-free",
-   "key": "onpolicyselftrainingdatafree",
+   "name": "com.crakseo",
+   "key": "comcrakseo",
    "sources": [
-    "我们X"
+    "竞品站"
    ],
-   "desc": "@_akhaliq: On-Policy Self-Training Data-Free Self-Improvement in Large Language Models pape",
+   "desc": "",
    "url": "",
    "signals": [
-    "X 1 个账号 ♥336"
+    "③ 竞品 11 处 (×11.0)"
    ],
    "variants": [],
-   "named": 0.1
+   "named": 0.2
   },
   {
-   "name": "data-free self-improvement",
-   "key": "datafreeselfimprovement",
+   "name": "connectors com.crakseo",
+   "key": "connectorscomcrakseo",
    "sources": [
-    "我们X"
+    "竞品站"
    ],
-   "desc": "@_akhaliq: On-Policy Self-Training Data-Free Self-Improvement in Large Language Models pape",
+   "desc": "",
    "url": "",
    "signals": [
-    "X 1 个账号 ♥336"
+    "③ 竞品 11 处 (×11.0)"
    ],
    "variants": [],
-   "named": 0.1
+   "named": 0.2
   },
   {
-   "name": "lga 3647 cpu",
-   "key": "lga3647cpu",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@TeksEdge: I'm excited about this. Local AI and small models are the future. A 2.71GB local",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥206"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "eileen-chang-1969-radcliffe-zh-en",
-   "key": "eileenchang1969radcliffezhen",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: 哈佛大学图书馆的馆藏里有一盘拉德克利夫研究所研讨会的录音，可以公开收听。演讲人是张爱玲，用英文讲中文翻译，主持人报的题目是「一种文化影响的载体」。目录没有标日期",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥131"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "led",
-   "key": "led",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@higgsfield_ai: Which one would you learn electronics from? GPT-6.1 Terra vs Claude Opus 5.5: Fr",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥114"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "2026-10-26",
-   "key": "20261026",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: 微软向约 6 万名员工提供自愿离职补偿，约占全员四分之一，12 月初前决定 微软 10 月 26 日（周一）给美国、加拿大、英国和印度部分团队的员工发了一份“自",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥271"
-   ],
-   "variants": [],
-   "named": 0.0
-  },
-  {
-   "name": "io.github.chrisyau83",
-   "key": "iogithubchrisyau83",
+   "name": "genpark reasoning",
+   "key": "genparkreasoning",
    "sources": [
     "竞品站"
    ],
@@ -495,35 +693,49 @@
     "③ 竞品 10 处 (×10.0)"
    ],
    "variants": [],
-   "named": 0.4
+   "named": 0.2
   },
   {
-   "name": "io.github.maestro",
-   "key": "iogithubmaestro",
+   "name": "genpark embodied",
+   "key": "genparkembodied",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 5 处 (×5.0)"
+    "③ 竞品 8 处 (×8.0)"
    ],
    "variants": [],
-   "named": 0.4
+   "named": 0.2
   },
   {
-   "name": "connectors com.apify.mcp",
-   "key": "connectorscomapifymcp",
+   "name": "genpark quant",
+   "key": "genparkquant",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 6 处 (×4.1)"
+    "③ 竞品 8 处 (×8.0)"
    ],
    "variants": [],
-   "named": 0.4
+   "named": 0.2
+  },
+  {
+   "name": "essence",
+   "key": "essence",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 16 处 (×14.2)"
+   ],
+   "variants": [],
+   "named": 0.1
   },
   {
    "name": "jonathanngiroux",
@@ -534,66 +746,10 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 4 处 (×3.6)"
+    "③ 竞品 13 处 (×10.5)"
    ],
    "variants": [],
-   "named": 0.4
-  },
-  {
-   "name": "io.github.pooriaarab",
-   "key": "iogithubpooriaarab",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 4 处 (×3.3)"
-   ],
-   "variants": [],
-   "named": 0.4
-  },
-  {
-   "name": "connectors io.github.chrisyau83",
-   "key": "connectorsiogithubchrisyau83",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 10 处 (×10.0)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "connectors io.github.maestrow4rd0",
-   "key": "connectorsiogithubmaestrow4rd0",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 5 处 (×5.0)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "registry verifier",
-   "key": "registryverifier",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 4 处 (×3.7)"
-   ],
-   "variants": [],
-   "named": 0.3
+   "named": 0.1
   },
   {
    "name": "jonathanngiroux star",
@@ -604,10 +760,24 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 4 处 (×3.6)"
+    "③ 竞品 13 处 (×10.5)"
    ],
    "variants": [],
-   "named": 0.3
+   "named": 0.1
+  },
+  {
+   "name": "io.github.pooriaarab",
+   "key": "iogithubpooriaarab",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 13 处 (×9.1)"
+   ],
+   "variants": [],
+   "named": 0.1
   },
   {
    "name": "connectors io.github.pooriaarab",
@@ -618,150 +788,287 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 4 处 (×3.3)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "verifier target",
-   "key": "verifiertarget",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 4 处 (×3.7)"
-   ],
-   "variants": [],
-   "named": 0.2
-  },
-  {
-   "name": "verifier",
-   "key": "verifier",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 6 处 (×3.3)"
-   ],
-   "variants": [],
-   "named": 0.2
-  },
-  {
-   "name": "collab",
-   "key": "collab",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 6 处 (×3.3)"
+    "③ 竞品 13 处 (×9.1)"
    ],
    "variants": [],
    "named": 0.1
   },
   {
-   "name": "now",
-   "key": "now",
+   "name": "io.github.dancerdan15",
+   "key": "iogithubdancerdan15",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 10 处 (×5.5)"
+    "③ 竞品 9 处 (×9.0)"
    ],
    "variants": [],
-   "named": 0.0
+   "named": 0.1
   },
   {
-   "name": "technologies",
-   "key": "technologies",
+   "name": "connectors io.github.dancerdan15",
+   "key": "connectorsiogithubdancerdan15",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 9 处 (×4.9)"
+    "③ 竞品 9 处 (×9.0)"
    ],
    "variants": [],
-   "named": 0.0
+   "named": 0.1
   },
   {
-   "name": "records",
-   "key": "records",
+   "name": "connectors io.github.sumitrmardy",
+   "key": "connectorsiogithubsumitrmardy",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 5 处 (×3.2)"
+    "③ 竞品 10 处 (×8.7)"
    ],
    "variants": [],
-   "named": 0.0
+   "named": 0.1
   },
   {
-   "name": "corp",
-   "key": "corp",
+   "name": "alerts",
+   "key": "alerts",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 6 处 (×3.1)"
+    "③ 竞品 13 处 (×7.9)"
    ],
    "variants": [],
    "named": 0.0
   },
   {
-   "name": "Genie 4",
-   "key": "genie4",
+   "name": "auto dismiss mac os \"allow <app> to find devices on local networks?\"",
+   "key": "autodismissmacosallowapptofinddevicesonlocalnetworks",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
+   "url": "https://github.com/johncassil/dontallow",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "i turned doom into a transformer",
+   "key": "iturneddoomintoatransformer",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: I Turned DOOM into a Transformer",
+   "url": "https://github.com/mottopanikeiku/doomformer",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "a proof-of-concept formalization of the irs federal tax forms",
+   "key": "aproofofconceptformalizationoftheirsfederaltaxforms",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: A proof-of-concept formalization of the IRS federal tax forms",
+   "url": "https://github.com/emmilco/us-tax-model",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "Gemini 4 Carbon",
+   "key": "gemini4carbon",
    "sources": [
     "书签X"
    ],
-   "desc": "Google DeepMind 最新交互式世界模型，可用自然语言实时操控场景与音景。",
-   "url": "https://x.com/GoogleDeepMind/status/2115114028338962672",
+   "desc": "Google DeepMind 推出的下一代前沿模型，在网络安全和长跨度任务处理方面表现卓越。",
+   "url": "https://x.com/GoogleDeepMind/status/2115489356437651654",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-10-28 00:10"
+   "first_seen": "2026-10-29 01:02"
   },
   {
-   "name": "LFM3",
-   "key": "lfm3",
+   "name": "Nemotron 3.5 Transcribe",
+   "key": "nemotron35transcribe",
    "sources": [
     "书签X"
    ],
-   "desc": "Liquid AI 开源端侧基础模型系列（约 2B），含文本/视觉/音频/Omni 等 6 款。",
-   "url": "https://x.com/liquidai/status/2115128329003303107",
+   "desc": "NVIDIA 推出的 30B MoE 开放权重模型，支持 40 种语言的转录、说话人识别及翻译。",
+   "url": "https://x.com/NVIDIAAI/status/2115462300241141882",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-10-28 01:07"
+   "first_seen": "2026-10-28 23:14"
   },
   {
-   "name": "Claude OneGov",
-   "key": "claudeonegov",
+   "name": "Brush",
+   "key": "brush",
    "sources": [
     "书签X"
    ],
-   "desc": "Anthropic 与美国 GSA 扩大 OneGov 合作，政府机构用 Claude 享 40% 折扣。不是新模型",
-   "url": "https://x.com/AnthropicAI/status/2115207004293853358",
+   "desc": "Canva 推出的首个视觉语言模型，能够理解设计布局、图层和风格并进行辅助编辑。",
+   "url": "https://x.com/canva/status/2115885750013321704",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-10-30 03:17"
+  },
+  {
+   "name": "Le Chonk",
+   "key": "lechonk",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "Mistral AI 发布的新版开放权重模型，专注于智能体编码和网络安全领域。",
+   "url": "https://x.com/MistralAI/status/2115811242556137820",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-10-29 22:21"
+  },
+  {
+   "name": "Pika H3 Flex",
+   "key": "pikah3flex",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "Pika Labs 推出的开放权重视频生成模型，支持 4k 分辨率及导出音频轨道。",
+   "url": "https://x.com/pika_labs/status/2115860471215788262",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-10-30 01:37"
+  },
+  {
+   "name": "Clover-35B-A3B-Preview",
+   "key": "clover35ba3bpreview",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "首个 35B 参数的开放权重生产级扩散语言模型 (dLLM)，支持 680 tps 高吞吐。",
+   "url": "https://x.com/DiffuSpace_Labs/status/2115288124691820738",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-10-28 11:42"
+  },
+  {
+   "name": "Audio8-TTS-Realistic",
+   "key": "audio8ttsrealistic",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "支持 23 种语言的 0.6B 参数零样本语音克隆模型。",
+   "url": "https://x.com/Edge0_AI/status/2115972048774398355",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-10-30 09:00"
+  },
+  {
+   "name": "Mistral Responses API",
+   "key": "mistralresponsesapi",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "Mistral 推出的用于构建智能体的 API 公测版，不是新模型。",
+   "url": "https://x.com/MistralAI/status/2115443720371814478",
    "signals": [],
    "variants": [],
    "not_model": true,
-   "first_seen": "2026-10-28 06:20"
+   "first_seen": "2026-10-28 22:01"
+  },
+  {
+   "name": "Google Connected Apps Platform",
+   "key": "googleconnectedappsplatform",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "Google 推出的搜索与 Gemini 应用开发管理平台预览版，不是新模型。",
+   "url": "https://x.com/Google/status/2115562774231155045",
+   "signals": [],
+   "variants": [],
+   "not_model": true,
+   "first_seen": "2026-10-29 05:54"
+  },
+  {
+   "name": "Claude API 128MB request limit",
+   "key": "claudeapi128mbrequestlimit",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "Claude API 请求限制从 32MB 提升至 128MB，不是新模型。",
+   "url": "https://x.com/ClaudeDevs/status/2115923971279614171",
+   "signals": [],
+   "variants": [],
+   "not_model": true,
+   "first_seen": "2026-10-30 05:49"
+  },
+  {
+   "name": "Claude self-assessment",
+   "key": "claudeselfassessment",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "Anthropic 训练 Claude 识别对话中潜在滥用行为的技术，不是新模型。",
+   "url": "https://x.com/AnthropicAI/status/2115871889549865429",
+   "signals": [],
+   "variants": [],
+   "not_model": true,
+   "first_seen": "2026-10-30 02:22"
+  },
+  {
+   "name": "ChatGPT Pro/Business API credits $500",
+   "key": "chatgptprobusinessapicredits500",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "ChatGPT Pro 和 Business 订阅者每月可获 500 美元 API 额度，不是新模型。",
+   "url": "https://x.com/OpenAIDevs/status/2115583698074755078",
+   "signals": [],
+   "variants": [],
+   "not_model": true,
+   "first_seen": "2026-10-29 07:17"
+  },
+  {
+   "name": "WeVisOne-VL-4B",
+   "key": "wevisonevl4b",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "腾讯微信视觉基于 Qwen3-VL 推出的开源视觉感知模型，统一支持点、框、掩码与 Alpha 遮罩。",
+   "url": "https://x.com/ModelScope2022/status/2116112010153017746",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-10-30 18:16"
+  },
+  {
+   "name": "Matilda Platypus",
+   "key": "matildaplatypus",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "Maincode 推出的开源权重 LLM 系列，面向「4B 太小、8B 过大」的中间尺寸需求。",
+   "url": "https://x.com/MaincodeAU/status/2116031890524422148",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-10-30 12:58"
   }
  ],
  "dupes": [],
  "board_keywords": [
-  "Genie 4",
-  "LFM3"
+  "Gemini 4 Carbon",
+  "Nemotron 3.5 Transcribe",
+  "Brush"
  ]
 }

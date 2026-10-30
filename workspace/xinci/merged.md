@@ -1,58 +1,81 @@
-## 合并新词（2026-10-28）
+## 合并新词（2026-10-30）
 
-看板雷达：当天没有；书签X：2026-10-28 上午 书签X；共 54 个词，两边重合 0 个。
+看板雷达：当天没有；书签X：2026-10-30 上午 书签X、2026-10-30 晚上 书签X；共 77 个词，两边重合 0 个。
 
-- **gpt-6.1 terra**〔我们X〕@OpenAI: GPT-6.1 Terra: delivering fast and capable computer use at a lower price. GPT-6.
-- **qwen3.5-4b-3d-coder**〔我们X〕@TeksEdge: I'm excited about this. Local AI and small models are the future. A 2.71GB local
-- **gpt-6 astra openai**〔我们X〕@dotey: OpenAI 发布 GPT-6.1 Terra：Plus 及以上订阅直接可用、不另收费，API 降价一半，操作电脑追平 GPT-6 Astra OpenAI 发
-- **gpt-5.6 terra**〔我们X〕@dotey: OpenAI 发布 GPT-6.1 Terra：Plus 及以上订阅直接可用、不另收费，API 降价一半，操作电脑追平 GPT-6 Astra OpenAI 发
-- **microsoft ai**〔我们X〕@dotey: 微软向约 6 万名员工提供自愿离职补偿，约占全员四分之一，12 月初前决定 微软 10 月 26 日（周一）给美国、加拿大、英国和印度部分团队的员工发了一份“自
-- **eth**〔我们X〕@dotey: OpenAI 宣布 AI 推翻“指数时间假设”（ETH）的同一天，Anthropic 在 GitHub 上放出一篇论文，得出同样的结论，署名作者只有一个：Cla
-- **unlimited ocr 2**〔HF〕baidu/Unlimited-OCR-2 (image-text-to-text, ♥172)
-- **gear**〔HF〕WizardTY/GEAR (static, ♥54)
-- **digital human koubo**〔GitHub〕andyhuo520/digital-human-koubo: AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing  [链接](https://github.com/andyhuo520/digital-human-koubo)
-- **blaze**〔GitHub〕indexable-inc/blaze: Incremental rust builds up to 92x faster than cargo/rustc [链接](https://github.com/indexable-inc/blaze)
-- **tstack**〔GitHub〕t3dotgg/tstack: The agent skills I use every day. Works with Claude Code and Codex. [链接](https://github.com/t3dotgg/tstack)
-- **trulata**〔竞品站〕③ 竞品 3 处 (×3.0)
-- **chipp**〔竞品站〕③ 竞品 19 处 (×18.8)
-- **ai.chipp chipp**〔竞品站〕③ 竞品 19 处 (×18.8)
-- **w4rd0**〔竞品站〕③ 竞品 5 处 (×5.0)
-- **cloudcorprecords**〔竞品站〕③ 竞品 5 处 (×4.1)
-- **connectors ai.chipp**〔竞品站〕③ 竞品 19 处 (×18.6)
-- **genpark ctrip**〔竞品站〕③ 竞品 9 处 (×9.0)
-- **com.apify.mcp**〔竞品站〕③ 竞品 6 处 (×4.1)
-- **coreai**〔我们X〕@dotey: 微软向约 6 万名员工提供自愿离职补偿，约占全员四分之一，12 月初前决定 微软 10 月 26 日（周一）给美国、加拿大、英国和印度部分团队的员工发了一份“自
-- **building auditable ai**〔我们X〕@_akhaliq: Building Auditable AI Text Detectors with Sparse Autoencoders paper: https://t.c
-- **ai text detectors**〔我们X〕@_akhaliq: Building Auditable AI Text Detectors with Sparse Autoencoders paper: https://t.c
-- **ai native**〔我们X〕@dotey: 推荐阅读：《用 Manus 改造 Manus，AI Native 组织改造的实践和思考》https://t.co/0MEN86K7ow 来自 Manus 很好的
-- **qcd**〔我们X〕@dotey: OpenAI 称 AI 推翻计算机科学的“指数时间假设”，还证出杨-米尔斯理论存在，外部专家组开始核查 OpenAI 10 月 26 日宣布，内部模型在数学、计
-- **lm studio and**〔我们X〕@TeksEdge: I'm excited about this. Local AI and small models are the future. A 2.71GB local
-- **auditable ai text**〔我们X〕@_akhaliq: Building Auditable AI Text Detectors with Sparse Autoencoders paper: https://t.c
-- **self-training data-free self-improvement**〔我们X〕@_akhaliq: On-Policy Self-Training Data-Free Self-Improvement in Large Language Models pape
-- **rom**〔我们X〕@op7418: 装了几个热门的 DeepSeek Harness 插件，感觉这生态现在他妈的蓬勃发展 主要是 DeepSeek 太便宜，能力又中不溜的很强。 现在很多人就只用 
-- **on-policy self-training data-free**〔我们X〕@_akhaliq: On-Policy Self-Training Data-Free Self-Improvement in Large Language Models pape
-- **data-free self-improvement**〔我们X〕@_akhaliq: On-Policy Self-Training Data-Free Self-Improvement in Large Language Models pape
-- **lga 3647 cpu**〔我们X〕@TeksEdge: I'm excited about this. Local AI and small models are the future. A 2.71GB local
-- **eileen-chang-1969-radcliffe-zh-en**〔我们X〕@dotey: 哈佛大学图书馆的馆藏里有一盘拉德克利夫研究所研讨会的录音，可以公开收听。演讲人是张爱玲，用英文讲中文翻译，主持人报的题目是「一种文化影响的载体」。目录没有标日期
-- **led**〔我们X〕@higgsfield_ai: Which one would you learn electronics from? GPT-6.1 Terra vs Claude Opus 5.5: Fr
-- **2026-10-26**〔我们X〕@dotey: 微软向约 6 万名员工提供自愿离职补偿，约占全员四分之一，12 月初前决定 微软 10 月 26 日（周一）给美国、加拿大、英国和印度部分团队的员工发了一份“自
-- **io.github.chrisyau83**〔竞品站〕③ 竞品 10 处 (×10.0)
-- **io.github.maestro**〔竞品站〕③ 竞品 5 处 (×5.0)
-- **connectors com.apify.mcp**〔竞品站〕③ 竞品 6 处 (×4.1)
-- **jonathanngiroux**〔竞品站〕③ 竞品 4 处 (×3.6)
-- **io.github.pooriaarab**〔竞品站〕③ 竞品 4 处 (×3.3)
-- **connectors io.github.chrisyau83**〔竞品站〕③ 竞品 10 处 (×10.0)
-- **connectors io.github.maestrow4rd0**〔竞品站〕③ 竞品 5 处 (×5.0)
-- **registry verifier**〔竞品站〕③ 竞品 4 处 (×3.7)
-- **jonathanngiroux star**〔竞品站〕③ 竞品 4 处 (×3.6)
-- **connectors io.github.pooriaarab**〔竞品站〕③ 竞品 4 处 (×3.3)
-- **verifier target**〔竞品站〕③ 竞品 4 处 (×3.7)
-- **verifier**〔竞品站〕③ 竞品 6 处 (×3.3)
-- **collab**〔竞品站〕③ 竞品 6 处 (×3.3)
-- **now**〔竞品站〕③ 竞品 10 处 (×5.5)
-- **technologies**〔竞品站〕③ 竞品 9 处 (×4.9)
-- **records**〔竞品站〕③ 竞品 5 处 (×3.2)
-- **corp**〔竞品站〕③ 竞品 6 处 (×3.1)
-- **Genie 4**〔书签X〕Google DeepMind 最新交互式世界模型，可用自然语言实时操控场景与音景。 [链接](https://x.com/GoogleDeepMind/status/2115114028338962672)
-- **LFM3**〔书签X〕Liquid AI 开源端侧基础模型系列（约 2B），含文本/视觉/音频/Omni 等 6 款。 [链接](https://x.com/liquidai/status/2115128329003303107)
-- **Claude OneGov**〔书签X〕Anthropic 与美国 GSA 扩大 OneGov 合作，政府机构用 Claude 享 40% 折扣。不是新模型 [链接](https://x.com/AnthropicAI/status/2115207004293853358)
+- **3d make**〔我们X〕@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t
+- **cursor ide**〔我们X〕@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten
+- **claude code vs**〔我们X〕@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten
+- **introducing 3d make**〔我们X〕@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t
+- **nothingbutnet**〔我们X〕@swyx: excited for @Cloudflare's debut as a frontier lab #NothingButNET gang, assemble!
+- **protectbirds**〔HF〕AimeeBingmouQu/ProtectBirds (docker, ♥1144)
+- **harness lens**〔HF〕harness-hub/harness-lens (docker, ♥40)
+- **idol**〔HF〕speridlabs/idol (gradio, ♥20)
+- **nx2apple**〔GitHub〕LNPANDY/NX2Apple: Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图 [链接](https://github.com/LNPANDY/NX2Apple)
+- **totk pc recomp**〔GitHub〕valentderah/totk-pc-recomp: Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64,  [链接](https://github.com/valentderah/totk-pc-recomp)
+- **zero breach toolkit**〔GitHub〕interplains/Zero-Breach-Toolkit: Free, open-source, offline checks for traces of known mercenary spyware. Works on Windo [链接](https://github.com/interplains/Zero-Breach-Toolkit)
+- **day trader skill**〔GitHub〕Jakeschincariol/day-trader-skill: 11 Claude skills for day trading: scan thousands of charts, track breaking news, time  [链接](https://github.com/Jakeschincariol/day-trader-skill)
+- **ai pose gallery zh**〔GitHub〕anhao/ai-pose-gallery-zh: 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊 [链接](https://github.com/anhao/ai-pose-gallery-zh)
+- **eclipse technologies**〔竞品站〕③ 竞品 10 处 (×8.9)
+- **arsaze**〔新品榜单〕Show HN: Arsaze [链接](https://www.arsaze.com)
+- **speakon agent**〔新品榜单〕Product Hunt: SpeakON Agent [链接](https://www.producthunt.com/products/speakon)
+- **overtone**〔新品榜单〕Show HN: Overtone [链接](https://github.com/lonthq/overtone-captions)
+- **gpt-6.1 terra pro**〔新品榜单〕OpenRouter: GPT-6.1 Terra Pro [链接](https://openrouter.ai/openai/gpt-6.1-terra-pro)
+- **gpt-6.1 terra**〔新品榜单〕OpenRouter: GPT-6.1 Terra [链接](https://openrouter.ai/openai/gpt-6.1-terra)
+- **kimi k3.1 pro**〔新品榜单〕OpenRouter: Kimi K3.1 Pro [链接](https://openrouter.ai/moonshotai/kimi-k3.1-pro)
+- **faylee**〔新品榜单〕Product Hunt: Faylee [链接](https://www.producthunt.com/products/faylee)
+- **canva brush**〔新品榜单〕Product Hunt: Canva Brush [链接](https://www.producthunt.com/products/canva)
+- **stepgrab**〔新品榜单〕Product Hunt: StepGrab [链接](https://www.producthunt.com/products/stepgrab)
+- **fastbrowse**〔新品榜单〕Product Hunt: fastbrowse [链接](https://www.producthunt.com/products/fastbrowse)
+- **kestrix**〔新品榜单〕Product Hunt: Kestrix [链接](https://www.producthunt.com/products/kestrix)
+- **nocto**〔新品榜单〕Product Hunt: Nocto [链接](https://www.producthunt.com/products/nocto)
+- **ilse**〔新品榜单〕Product Hunt: ilse [链接](https://www.producthunt.com/products/ilse)
+- **isurge**〔新品榜单〕Product Hunt: iSurge [链接](https://www.producthunt.com/products/isurge)
+- **axonnic**〔新品榜单〕Product Hunt: Axonnic [链接](https://www.producthunt.com/products/axonnic)
+- **slidebyside**〔新品榜单〕Show HN: SlideBySide [链接](https://slidebyside.com/)
+- **yavashark**〔新品榜单〕Show HN: Yavashark [链接](https://yavashark.dev/blog/announcing-yavashark/)
+- **lasm**〔新品榜单〕Show HN: Lasm [链接](https://github.com/Millillion/lasm)
+- **particle-1**〔新品榜单〕OpenRouter: Particle-1 [链接](https://openrouter.ai/particle-ai/particle-1)
+- **uk farming simulator**〔新品榜单〕Show HN: UK Farming Simulator [链接](https://butterbean.farm/)
+- **code vs code**〔我们X〕@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten
+- **introducing 3d**〔我们X〕@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t
+- **openclaw genpark**〔竞品站〕③ 竞品 19 处 (×19.0)
+- **alphaparkinc openclaw**〔竞品站〕③ 竞品 17 处 (×17.0)
+- **technologies llc**〔竞品站〕③ 竞品 10 处 (×8.6)
+- **llc eclipse**〔竞品站〕③ 竞品 9 处 (×8.5)
+- **cyan eclipse**〔竞品站〕③ 竞品 9 处 (×8.1)
+- **io.github.donniertf**〔竞品站〕③ 竞品 94 处 (×92.3)
+- **connectors io.github.donniertf**〔竞品站〕③ 竞品 94 处 (×92.3)
+- **io.github.donniertf hub**〔竞品站〕③ 竞品 94 处 (×92.3)
+- **connectors io.github.kriton**〔竞品站〕③ 竞品 12 处 (×12.0)
+- **io.github.kriton dev**〔竞品站〕③ 竞品 12 处 (×12.0)
+- **com.crakseo**〔竞品站〕③ 竞品 11 处 (×11.0)
+- **connectors com.crakseo**〔竞品站〕③ 竞品 11 处 (×11.0)
+- **genpark reasoning**〔竞品站〕③ 竞品 10 处 (×10.0)
+- **genpark embodied**〔竞品站〕③ 竞品 8 处 (×8.0)
+- **genpark quant**〔竞品站〕③ 竞品 8 处 (×8.0)
+- **essence**〔竞品站〕③ 竞品 16 处 (×14.2)
+- **jonathanngiroux**〔竞品站〕③ 竞品 13 处 (×10.5)
+- **jonathanngiroux star**〔竞品站〕③ 竞品 13 处 (×10.5)
+- **io.github.pooriaarab**〔竞品站〕③ 竞品 13 处 (×9.1)
+- **connectors io.github.pooriaarab**〔竞品站〕③ 竞品 13 处 (×9.1)
+- **io.github.dancerdan15**〔竞品站〕③ 竞品 9 处 (×9.0)
+- **connectors io.github.dancerdan15**〔竞品站〕③ 竞品 9 处 (×9.0)
+- **connectors io.github.sumitrmardy**〔竞品站〕③ 竞品 10 处 (×8.7)
+- **alerts**〔竞品站〕③ 竞品 13 处 (×7.9)
+- **auto dismiss mac os "allow <app> to find devices on local networks?"**〔新品榜单〕Show HN: Auto Dismiss Mac OS "Allow <app> to find devices on local networks?" [链接](https://github.com/johncassil/dontallow)
+- **i turned doom into a transformer**〔新品榜单〕Show HN: I Turned DOOM into a Transformer [链接](https://github.com/mottopanikeiku/doomformer)
+- **a proof-of-concept formalization of the irs federal tax forms**〔新品榜单〕Show HN: A proof-of-concept formalization of the IRS federal tax forms [链接](https://github.com/emmilco/us-tax-model)
+- **Gemini 4 Carbon**〔书签X〕Google DeepMind 推出的下一代前沿模型，在网络安全和长跨度任务处理方面表现卓越。 [链接](https://x.com/GoogleDeepMind/status/2115489356437651654)
+- **Nemotron 3.5 Transcribe**〔书签X〕NVIDIA 推出的 30B MoE 开放权重模型，支持 40 种语言的转录、说话人识别及翻译。 [链接](https://x.com/NVIDIAAI/status/2115462300241141882)
+- **Brush**〔书签X〕Canva 推出的首个视觉语言模型，能够理解设计布局、图层和风格并进行辅助编辑。 [链接](https://x.com/canva/status/2115885750013321704)
+- **Le Chonk**〔书签X〕Mistral AI 发布的新版开放权重模型，专注于智能体编码和网络安全领域。 [链接](https://x.com/MistralAI/status/2115811242556137820)
+- **Pika H3 Flex**〔书签X〕Pika Labs 推出的开放权重视频生成模型，支持 4k 分辨率及导出音频轨道。 [链接](https://x.com/pika_labs/status/2115860471215788262)
+- **Clover-35B-A3B-Preview**〔书签X〕首个 35B 参数的开放权重生产级扩散语言模型 (dLLM)，支持 680 tps 高吞吐。 [链接](https://x.com/DiffuSpace_Labs/status/2115288124691820738)
+- **Audio8-TTS-Realistic**〔书签X〕支持 23 种语言的 0.6B 参数零样本语音克隆模型。 [链接](https://x.com/Edge0_AI/status/2115972048774398355)
+- **Mistral Responses API**〔书签X〕Mistral 推出的用于构建智能体的 API 公测版，不是新模型。 [链接](https://x.com/MistralAI/status/2115443720371814478)
+- **Google Connected Apps Platform**〔书签X〕Google 推出的搜索与 Gemini 应用开发管理平台预览版，不是新模型。 [链接](https://x.com/Google/status/2115562774231155045)
+- **Claude API 128MB request limit**〔书签X〕Claude API 请求限制从 32MB 提升至 128MB，不是新模型。 [链接](https://x.com/ClaudeDevs/status/2115923971279614171)
+- **Claude self-assessment**〔书签X〕Anthropic 训练 Claude 识别对话中潜在滥用行为的技术，不是新模型。 [链接](https://x.com/AnthropicAI/status/2115871889549865429)
+- **ChatGPT Pro/Business API credits $500**〔书签X〕ChatGPT Pro 和 Business 订阅者每月可获 500 美元 API 额度，不是新模型。 [链接](https://x.com/OpenAIDevs/status/2115583698074755078)
+- **WeVisOne-VL-4B**〔书签X〕腾讯微信视觉基于 Qwen3-VL 推出的开源视觉感知模型，统一支持点、框、掩码与 Alpha 遮罩。 [链接](https://x.com/ModelScope2022/status/2116112010153017746)
+- **Matilda Platypus**〔书签X〕Maincode 推出的开源权重 LLM 系列，面向「4B 太小、8B 过大」的中间尺寸需求。 [链接](https://x.com/MaincodeAU/status/2116031890524422148)

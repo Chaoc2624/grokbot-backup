@@ -13,6 +13,7 @@
 - （loc567 已于 2026-10-08 移出监控） · loon0x00 → Loon-0x00（Loon 代理 App 群，注意是两个 o） · loon_comm → LoonCommunity · nbvil → Nbvil交流群 · nbvil_notice → Nbvil通知群
 
 ## 电话卡 / eSIM / 运营商
+- `eSTK.me` / `estkme` — eSIM 工具/卡（群里称 estkme plus+）。
 - `giffgaff` — 英国 O2 网络的虚拟运营商（MVNO），群里用来保号。
 - `Ultra Mobile` — 美国 T-Mobile 网络的虚拟运营商。 · `Tello` — 美国 T-Mobile 网络虚拟运营商，群里说漫游易封、走 Wi-Fi Calling。 · `PAYG` — Tello Pay As You Go 预付余额（短信 ADD10PAYG→800 冲 ==$10==；网页最低 ==$20==；约 90 天有效）。
 - `Maxx` — 新加坡运营商品牌（群里称「Maxx打電話免費了」）；`Singtel`（新电信）、`StarHub`、`M1`、`cmsg`（中国移动新加坡）、`GOMO`（Singtel 子品牌）、`Singpass`（新加坡数字身份）。
@@ -39,7 +40,7 @@
 
 ## U 卡 / 交易所 / 稳定币
 - `MEXC`（抹茶）、`OKX`（欧易，OKX Money）、`Bybit`、`Bitget`（BGW = Bitget Wallet）、`Binance`（币安，巴林币安）、`Kraken`（海妖，Krak，母公司 Payward）、`Gate`。
-- U 卡：`Infini`（lite / pro）、`KAST`、`Plasma One`、`Ethena`（ena）、`ether.fi`、`Tuyo`、`RedotPay`、`SafePal`、`Morse`、`Pokepay`、`BlackCat`、`Rain`、`Lava`、`BiyaPay`、`Neverless`、`MiniPay`、`Bridge`（美元户底层）、`e卡` / `p卡` / `P1`（群里俗称，照原文）。
+- U 卡：`Infini`（lite / pro）、`KAST`、`Plasma One`、`Ethena`（ena）、`ether.fi`（群友亦写 eherfi）、`Tuyo`、`RedotPay`、`SafePal`、`Morse`、`Pokepay`、`BlackCat`、`Rain`、`Lava`、`BiyaPay`、`Neverless`、`MiniPay`、`Bridge`（美元户底层）、`e卡` / `p卡` / `P1`（群里俗称，照原文）。
 - `USDT`、`USDC`、`PYUSD`、`C2C`。
 - `Peer` — 群里说的去中心化法币—加密货币 P2P 出入金协议。
 
@@ -682,6 +683,7 @@
 - 成员：奶昔论坛 — 栓Q、法老-英国、一二三睦头人、A（续）；海无方美卡 — 唯一、OG（续）、Lune（续）；东逆薅毛大队 — Footless、Seaton、maluQxzh、Alex Yang（续）；东逆海外基建 — 曼珠沙华、DARKNESS、美娜 嘉、mojinxue xuan（续）；InfiCheesy — 雪、jacky chou（续）；何居上跨境 — 依妍 朱、Austin（续）、CeonHing Kei（续）；鱼哥和朋友们 — 哈哈 刘、Советский 🐻‍❄️Союз；VPS家宽AI群 — Henry Liu、喷火龙；LoonCommunity — Caelwin🐦‍🔥（续）；Nbvil — 天空之境。
 
 ## 2026-10-17 22 点新增
+- `Moomoo` / 富途牛牛国际 — 美股券商 App（群友称开户要签证或驾照）。
 - `SoFi` — 美国数字银行/券商（海无方美卡 海无方「sofi 也到了」，与 Nubank 信用卡并提）。
 - `anywhere` / Anyway — 群友问的一键客户端/机场 App（Loon-0x00 Qingu LiLi「anywhere，anyway？这是一键客户端机场」），照原文。
 - `企迈` — 群友问不能 MITM 的域名/商户（Loon-0x00 🤔「企迈有啥不能mimt的」），照原文。
@@ -1900,3 +1902,89 @@
 - `Wovia` / wovia — 群友称免 KYC、邮箱即可开的 USDT 虚拟卡平台（东逆海外基建 Noo Way「wovia这个甚至都不要KYC」），照原文。
 - `unlil` / cloud.unlil.com — VPS 商家（VPS家宽AI群 Anenrok 贴西雅图 LXC 卖鸡链接），照原文。
 - `Kite`（kiteapp.xyz）— 群友讨论的扫码支付 / 法币换 U App（东逆薅毛大队称今日更新法币换 U；与流量卡「kite」别称并存时按上下文区分）。
+
+### 2026-10-30 04
+- `可莉` / `iKeLee` / `hub.kelee.one` — 可莉的 Loon 插件中心与资源索引（GitHub `luestr/ProxyResource` 为索引库；插件走 hub.kelee.one）。本小时群友称「关库」对应频道宣布临时断开插件中心访问。
+- `DNS防泄露` / `Prevent_DNS_Leaks` — 非正常人类研究中心制作的 Loon DNS 防泄露插件（可莉插件中心分发）。
+- `非正常人类研究中心` — 上述 DNS 防泄露插件作者署名。
+- 成员：东逆海外基建 — hypehype_mon；Loon-0x00 — 深夜买醉、落够索够、rikka、胶水、🔔🐈（续）；LoonCommunity — 長樂無極。
+
+### 2026-10-30 05
+- `nextin` — 群友称换上该节点/上游后 timeout 恢复（Loon-0x00 Tuesday.「换nextin上来就好了」），具体所指未确认，照原文。
+- 成员：Loon-0x00 — Hua Yue、Tuesday.（续）、深夜买醉（续）、🔔🐈（续）；东逆海外基建 — X-ming（续）、skyboy（续）。
+
+### 2026-10-30 06
+- `BOA · Verizon` — hour06 waika
+- `Binance` — hour06 waika
+- `TD` — hour06 waika
+- `Kraken` — hour06 donni_jj
+- `e卡` — hour06 donni_jj
+- `Binance` — hour06 cardlink
+- `DMIT` — hour06 vps_jk
+- `可莉` — hour06 loon0x00
+- members: waika:For Freedom | waika:周树人 | waika:SSS | waika:K Mox 𝕏⁠⁠⁠⁠⁠ ⁧ | waika:btc78888 | donni_jj:jesuvery | donni_jj:zzkkxx | donni_jj:帝 文 | cardlink:Doto Win | vps_jk:imocone ice | loon0x00:🔔🐈 | loon0x00:William G
+
+## 2026-10-30 09 时新增
+- `CMLink` / `cmlink` — China Mobile 英国/跨境 MVNO（CMLink UK）；群里说激活/Wi-Fi Calling/漫游。
+
+## 2026-10-30 10 时新增
+- `中國電信香港` / `CTHK` — 电信香港预付/上台卡；群友称已支持实体转 eSIM，仅湾仔告士打道108号光大中心18楼门市（续 CTHK）。
+- `Easy+` / `Easy+ 2HKD/日卡` — 中国电信香港预付日卡类型（与大湾区储值卡并提可转 eSIM）。
+- `bettbox` — 群友安卓测延迟/节点工具名（VPS家宽AI群 jonah jh）。
+- `Golden Ticket` — iFAST Global Bank 限时推荐活动名（存 £1000 持仓 60 天双方各 £50）。
+- members: waika:アーミヤ | waika:June Park | waika:曼谷第一深情 | waika:Liu Sir | naixi:裁缝 | naixi:𝓐𝓤 | haiwufang:silence☁️💳 | haiwufang:马叉虫 | haiwufang:sophnet | donni_hm:rose derrick | donni_hm:xuanwoa | donni_jj:huo yan | donni_jj:Not now | donni_jj:Brckel | donni_jj:Artificial Intelli | inficheesy:Ben Le | inficheesy:Sunny Wang | inficheesy:Leonardo DiCaprio | inficheesy:自由者（低价稳定机场找我） | uk_card:Pancake | uk_card:T&C TYIP | vps_jk:zz yy | vps_jk:jonah jh | vps_jk:柚子 | loon0x00:068 carl | loon0x00:ba tm | loon0x00:Mat Dorling | loon0x00:chaoscard
+
+## 2026-10-30 11 点新增
+- `SAFU` — Binance Secure Asset Fund for Users（用户资产安全基金）；官方称约 ==$1B== 规模，本次安全事件声明将以 SAFU + 公司资金覆盖损失。
+- `Sparkle` / `kokoryh/Sparkle` — Loon 插件仓库（含 bilibili.lpx 等）；群友分享 raw.githubusercontent.com/kokoryh/Sparkle。
+- `chronos` / `kokoryh/chronos` — Loon 相关脚本/插件调用名（请求记录里搜 kokoryh/chronos）。
+- `ygkkk` / 勇哥一键脚本 — 群友提到的 VLESS 一键脚本作者/仓库俗称。
+
+## 2026-10-30 12 点新增
+- `DeCard` / `DCS` — DeCard 为 DCS（原 Diners Club Singapore）旗下稳定币消费卡；群友称 DeCard 账单即 DCS 本家账单，可作 Ethena 等地址证明（WHFWZ「Ethena我就是用DCS账单」）。与 Bitget Wallet Card 亚洲发卡方「DCS」同名语境并存时按上下文区分。
+- `OwnBank` / `Own Bank` — 菲律宾农村银行 App（OWN BANK, THE RURAL BANK OF CAVITE CITY）；群友报 iOS 打开闪退（续见 Own Bank）。
+- `奶思` — Loon 插件作者/规则来源之一（Ganlin「把可莉和奶思的结合起来」），照原文。
+- members: haiwufang:AiHua | haiwufang:Lune | donni_hm:2han9wen71an | donni_hm:skyboy | donni_hm:zmr zhuang | donni_jj:bitcoin is future | donni_jj:豆豆 王 | donni_jj:meta copper | donni_jj:clfss | donni_jj:night | donni_jj:Ly | inficheesy:Ye Tao | inficheesy:ethan | inficheesy:Suzuki | vps_jk:jimmy john | vps_jk:Ted Li | loon0x00:desire | loon0x00:Ischgl | loon0x00:cee Zw | loon0x00:Raye Nova | loon0x00:iFalseness | loon_comm:小枣 （休养生息） | naixi:Calytrix | jason_vps:Miyuki
+
+## 2026-10-30 13 点新增
+- `Mieru` — 代理协议名（群友在 Loon 群问何时支持）。
+
+## 本小时追加（2026-10-30 14）
+- `CP565`：PayPal/IRS 相关表单/证明（群友当地址证明）
+- `xmoney`：xMoney（群友提到开卡/羊毛）
+- `nosla`：Nosla VPS
+
+## 2026-10-30 17 点新增
+- `Ledger` — 硬件冷钱包品牌（奶昔 Calytrix / c c 讨论国内配送与是否购买）。
+- `OneKey` / `onekey` — 硬件冷钱包品牌（群友称体积偏大、对供应链存疑）。
+- `Trezor` / `Safe 7` — 硬件冷钱包；群友称 Safe 7 很小巧。
+- `airgap` / Airgap 二维码 — 群友称用二手 iPhone + 空气隙二维码作冷端（私钥不出设备）。
+- `eToro` / `etoro` — 券商/交易平台；群友称可开德国个人 IBAN，需护照与德国地址证明。
+- `隐云` — 群友机场名（InfiCheesy tomato ltsc「一个季度80多块钱的。隐云」），照原文。
+- `XTB` / `xtb` — 券商（东逆海外基建 VTS 与 eToro 并提）。
+- `212` — 群友开户/奖励平分对象（东逆薅毛大队 Ly「有人开212吗」；具体产品未确认），照原文。
+- members: naixi:• | naixi:留美 久 | haiwufang:owl | donni_jj:VTS | donni_jj:C酱です | inficheesy:Viceter Galahad | inficheesy:tomato ltsc | inficheesy:余 温 | inficheesy:刘美容 | uk_card:sakura | uk_card:Ramona Ciobanu | loon0x00:Matt Walker | loon0x00:cc白 | loon0x00:哑巴 | loon0x00:Gyou | loon0x00:zhu yuanzhang | loon0x00:Ding Davis | loon_comm:小桃子 | loon_comm:oo kk | loon_comm:Jason wu | hejushang:Yamada saki | vps_jk:wan zhao | vps_jk:Miyuki
+
+## 2026-10-30 21 点新增
+- `SGB` / `Singapore Gulf Bank` — 新加坡海湾银行（巴林持牌批发银行，官网 sgb.com）；FAQ：任意金额可激活，月均余额低于 ==USD 10,000== 收 ==USD 9.90== 月费（东逆海外基建 neighbor wang「sgb新加坡巴林银行…一万美金才免管理费」）。
+- `HSBC RedCoin` / `RCHKD` — 续：2026-10-23 起 PayMe 上线港元稳定币（奶昔 Calytrix「汇丰不是新发了个redcoin」）。
+- `Celcom` 苹果快速转移 — CelcomDigi 官方支持 iPhone eSIM Quick Transfer（外卡交流频道 ingat「Celcom居然可以苹果快速转移」）。
+- `Plasma` / Plasma One — 群友提的稳定币/链相关（奶昔 Calytrix「plasma又快又快」），照原文。
+- members: waika:ingat | waika:整点马克 | waika:星と青空 | naixi:抛 瓦 | naixi:Luke | naixi:shuke 张 | naixi:chatfish | naixi:Olivi | naixi:yun zai | naixi:秋阳 | naixi:サイバー ユーザー | haiwufang:chne kk | haiwufang:林先生 | haiwufang:八方来财 | haiwufang:AMI | donni_hm:zzkkxx | donni_jj:帝 文 | donni_jj:李逵背母千里喂虎 | donni_jj:One Meshchain.Ai | donni_jj:Ginlay | donni_jj:Valerio（tz） | donni_jj:幻月 芷 | donni_jj:neighbor wang | donni_jj:qv hv | donni_jj:Kevin Chan | donni_jj:Not now | donni_jj:Sprint | donni_jj:Celia John | donni_jj:Da da | donni_jj:WHFWZ | donni_jj:xuanwoa | vps_jk:小螃蟹 | loon0x00:Shimmer | loon0x00:姥 舅
+
+
+## 2026-10-30 22 点新增
+- `Umobile` / `U Mobile` — 马来西亚运营商（群友写 Umobile；称东马 5G 便宜，可与 CelcomDigi/My Maxis 双持）。
+- `My Maxis` — 马来西亚 Maxis 本家/旗下产品线（群友写 my maxis；称旗下有 Hotlink、另有本地 tourist eSIM）。
+- `amaysim` — 澳洲虚拟运营商（群友写 amaysim；称本地便宜、漫游贵）。
+- `英飞绫` — 群友对某类 eSIM 小白卡芯片/方案的叫法（照原文；称与东信、平和 firmware 相近）。
+- `Yes 5G` — 马来西亚 Yes 5G 运营商（群友写 Yes 5G）。
+- `JTTI` / `Jtti` — VPS 商家（群友写 JTTI；日本 CMIN2/优化线路；官网日本云系列有 Restocking）。
+
+## 2026-10-31 01 点新增
+- `NovixLink` / 诺联主机 — 家宽/住宅 IP VPS 商家。
+
+## 2026-10-31 02 点
+- `Kardpay` / kradpay — 群友拼写 kradpay，指 Kardpay 加密预付卡（东逆海外基建 J oy「kradpay」），官网 kardpay.app，照原文。
+- 哈基米 — 群友对 Gemini 的谐音写法（VPS家宽AI群 和泉 纱雾「我就拿开用个哈基米」），照原文。
+- `mmwx.unlil.com` — unlil 沪日专线页（VPS家宽AI群 Anenrok「沪日800M专线 50元/100GB」），对照既有 unlil / cloud.unlil.com。

@@ -1,0 +1,29 @@
+你是新词雷达 XSCAN 筛选器。根据候选帖生成严格 JSON（不要 markdown 围栏，不要解释）。
+
+窗口: window_start=2026-10-30 21:36 (北京) / 2026-10-30T13:36:00Z ; window_end=2026-10-31 10:12 (北京) / 2026-10-31T02:12:00Z
+label: "2026-10-31 上午 书签X"
+run_at: "2026-10-31 10:20"
+
+规则:
+1. 只收真实首发（产品/模型首次发布）。合作/上架/功能更新/报告/研究可收但 kind=not_model，desc 末尾加「不是新模型」。
+2. 招聘/活动/人事/营销转发不收。
+3. 已在 reported 的规范化名不收。本窗口前首发但漏报 → 收，加 "backfill":true，desc 前加「【补报】」。
+4. B 路非官方/创始人传闻不收（已过滤）。
+5. 建站热词 ≤3（宁缺勿滥）：优先 kind=model/product；views≥500000 或 bookmarks≥1000；名字全新；给 keyword_rank/keyword/reason。不达标则 keywords=[]。
+6. first_seen 用北京时间 YYYY-MM-DD HH:MM（UTC+8）。
+7. empty=false 若有 items，否则 true。
+
+禁止重复的 reported names（节选+全量 keys 已提供）: ["Sage-A1.5", "Spark-X2.6-4B", "OXR-1.0", "Claude Duet", "Recursive Flint", "Claude Security 持续扫描", "OpenAI 模型登陆 Google Cloud", "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能", "GPT-Rosalind 药物发现线索", "Mistral × NVIDIA 工业工程合作", "Gemini 在 Google 地图 CarPlay 导航", "Moss-Image-Edit", "PixText", "Omni-R2V", "MiniMax M3.1 Flash", "Ling-3.0-flash-Sante", "Canva Craft", "Claude 登陆 Google Cloud GA", "Claude 默认自动模式", "Claude 大规模形式化验证", "OpenAI × METR 嵌入式评估", "EvaOmni", "OpenAI Decisions API", "Agent Skills 捐给 Agentic AI Foundation", "Gemini API CLI", "Ling-3.1-flash-1019", "StreamEval", "Kimi K3.1 Pro", "Claude MCP Tasks / Elicitations", "OpenAI 训练环境离线化", "OpenAI 发现 Brotli 未认证 RCE", "Anthropic AISI Mythos 5 进一步分析", "Dessa", "Nemotron 3.5 Bolt E4B", "Nanbeige4.3-33B", "MiniMax H3 社区加速更新", "d3-turbo", "BabelArena", "GPT-6.1 Terra", "Claude for Nonprofits", "Ling-3.1-flash-base", "Atria Dawn", "Fibo 2.0 Dev", "Unlimited-OCR-2", "Hy-Nomas", "Hy-SimulMT", "Genie 4", "LFM3", "Claude OneGov", "Gemini 4 Carbon", "Nemotron 3.5 Transcribe", "Brush", "Le Chonk", "Pika H3 Flex", "Clover-35B-A3B-Preview", "Audio8-TTS-Realistic", "Mistral Responses API", "Google Connected Apps Platform", "Claude API 128MB request limit", "Claude self-assessment", "ChatGPT Pro/Business API credits $500", "WeVisOne-VL-4B", "Matilda Platypus"]
+
+候选官方帖（含 metrics）见附件 JSON。请重点考虑：
+- Mischief 1（创始人 AlexKsendzovsky 首发，高互动，补报）
+- SenseNova Loop-9B-Preview（SenseTime_AI 官方，补报）
+- SenseNova 6.8 Code2Video（官方低互动，可补报）
+- OpenAI Private Intelligence（窗内产品）
+- Claude Max→Ultra 改名+取消5小时限额（功能更新 not_model）
+- Anthropic 自动化误对齐研究（not_model）
+- Google 太空 TPU（not_model）
+跳过已报 Genie 4、Le Chonk、Pika H3 Flex、Beam 旧闻等。
+
+只输出一个 JSON 对象：
+{"label":"...","run_at":"...","window_start":"2026-10-30 21:36","window_end":"2026-10-31 10:12","empty":bool,"items":[...],"keywords":[...]}

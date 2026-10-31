@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30T13:05:48.187700+00:00",
+  "checked_at": "2026-10-31T13:08:13.253065+00:00",
   "eligible": [],
   "needs_parameter_verification": [
     {
@@ -31,16 +31,8 @@
       "context_length": 1048576
     },
     {
-      "id": "poolside/laguna-s-2.1:free",
-      "context_length": 262144
-    },
-    {
       "id": "thinkingmachines/inkling:free",
       "context_length": 1048576
-    },
-    {
-      "id": "poolside/laguna-xs-2.1:free",
-      "context_length": 262144
     },
     {
       "id": "cohere/north-mini-code:free",
@@ -81,12 +73,10 @@
     "nvidia/nemotron-3.5-lightning:free",
     "nvidia/nemotron-3.5-super-vl:free",
     "openrouter/free",
-    "poolside/laguna-s-2.1:free",
-    "poolside/laguna-xs-2.1:free",
     "recursive/flint-v1.0:free",
     "thinkingmachines/inkling-small:free",
     "thinkingmachines/inkling:free",
     "xingchen-agi/xing4.0-29b-a4b:free"
   ],
-  "free_count": 19
+  "free_count": 17
 }

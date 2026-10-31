@@ -33,6 +33,7 @@
 
 ## 银行 / 数字银行 / 汇款
 - 香港：`HSBC`/汇丰（One、Pulse 卡）、`中银香港`、`渣打`、`星展 DBS`、`恒生`、`招商永隆`、`ZA Bank`/众安、`Airstar`/天星（已更名）、`大象银行`/`EleBank`/`大象`（原天星/Airstar，2026-04 改象象、2026-08-13 改大象银行）、`Mox`、`蚂蚁银行`、`富融`、`livi`、`WeLab`、`FSM`（群里说「上午10点前提交, 当天3小时内 就到账」的香港平台，可能是 iFAST 旗下 FSMOne，未确认，照原文写 FSM）、`iFAST`（奕丰）、`BIT 证券`。
+- `HABC UK` — 群友写法（何居上跨境 鸭 吉吉「有人开过HABC UK吗？」）；公开资料未见同名独立产品，讨论常指向 `HSBC UK`；`Ant Bank`/`蚂蚁银行` 为港虚拟银行。照原文写 HABC UK。
 - 英国：`Monzo`、`Starling`、`小马`（群里对某英国银行的俗称，照原文）、`Lloyds`/劳埃德、`Barclays`、`Zopa`、`212`、`Kroo`、`Yonder`、`Zilch`、`Plum`、`LemFi`、`Revolut`。
 - 欧洲/其他：`N26`、`bunq`、`Wise`、`Paysend`、`Sendwave`、`WorldRemit`、`万里汇`（WorldFirst）、`PayPal`（群里简称 pp）、`Altery`、`Starryblu`（简称 stb）、`OCBC`。
 - 美国券商：`嘉信`（Charles Schwab）、`IBKR`/盈透、`SoFi`。 · 菲律宾：`Maya`、`GCash`、`PDAX`（交易所）、`BIR` 税卡 / `TIN`。 · 尼日利亚：`NIN`（身份号）、`BVN`。
@@ -48,7 +49,7 @@
 - `野草云`
 - `搬瓦工`（BandwagonHost）、`DMIT`、`RackNerd`、`Vultr`、`Linode`、`DigitalOcean`、`Hetzner`、`OVH`、`甲骨文`（Oracle Cloud）、`AWS Lightsail`、`Cloudflare`（CF）、`Airrail Networks`。
 - 线路：`CN2 GIA`、`IPLC`、`IEPL`、`9929`、`4837`、`CMI`、`BGP`；`家宽`（家庭宽带 IP）、`原生 IP`、`机场`（代理订阅服务）。
-- 论坛：`NodeSeek`（NS）、`HostLoc`、`LowEndTalk`（LET）、`V2EX`。 · 客户端：`Loon`、`Surge`、`Clash`、`Shadowrocket`（小火箭）、`Quantumult X`、`sing-box`、`Xray`/`Reality`、`Hysteria2`。
+- 论坛：`NodeSeek`（NS）、`HostLoc`、`LowEndTalk`（LET）、`V2EX`。 · 客户端：`Loon`、`Surge`、`Clash`、`Shadowrocket`（小火箭）、`BoxJS`、`Quantumult X`、`sing-box`、`Xray`/`Reality`、`Hysteria2`。
 
 ## 常见成员（按群，照 TG 显示名写）
 - 外卡交流频道：艺术家的爱也有保质期、苏 可乐（写作 苏可乐 亦可）、一隻北極熊、ƃuᴉduᴉſ ᴉX、Liu Sir、June Park、🐟、八方来财、ingat、SSS
@@ -1988,3 +1989,103 @@
 - `Kardpay` / kradpay — 群友拼写 kradpay，指 Kardpay 加密预付卡（东逆海外基建 J oy「kradpay」），官网 kardpay.app，照原文。
 - 哈基米 — 群友对 Gemini 的谐音写法（VPS家宽AI群 和泉 纱雾「我就拿开用个哈基米」），照原文。
 - `mmwx.unlil.com` — unlil 沪日专线页（VPS家宽AI群 Anenrok「沪日800M专线 50元/100GB」），对照既有 unlil / cloud.unlil.com。
+
+- `夸克` — 夸克 App/扫描导出（东逆海外基建 帝 文：截图让夸克扫描导出图像过 Wirex One），照原文。
+- 成员续（2026-10-31 03）：U美卡分享会 — Bangbang Jjj；海无方美卡 — Rainbow。
+
+- `StockBack x ZA Card` — ZA Bank / 众安用 ZA Card 消费换股票回赠的计划；条款写选定奖赏后须在 ==90== 个日历日内持有有效投资账户并开通对应交易服务，否则奖赏失效。
+
+## 2026-10-31 06 点
+- `永塔台` / 塔台 — 群友提到的手机端订阅/节点工具说法（InfiCheesy 𝓠𝓲𝓷𝓰𝓽𝓲𝓪𝓷「或者手机永塔台」「就叫塔台」），照原文。
+- `索隆云` / ZoroCloud — VPS 商家（VPS家宽AI群 AI查VPS机器人报 US-BGP-Mini ¥34.8）；商店 my.zorocloud.com。
+
+- `Zlich` — 群友对 `Zilch` 的写法（东逆海外基建 bitcoin is future「Zlich还能申请吗」，2026-10-31 07 点）。
+- `uqidc` — VPS 商家（VPS家宽AI群 Lion Lion「uqidc最便宜的」），照原文。
+- `miku` — 群友提到的台湾 VPS 商家（VPS家宽AI群 Lion Lion「miku的台湾VPS」），照原文。
+
+## 2026-10-31 10 点新增
+- Solid `EURO Virtual Account` / 个人欧元 IBAN — Solid 2026-10-29 博文宣布欧元 Virtual Account 自带 IBAN（东逆海外基建 爱吃香菜「solid card 支持个人iban了」），对照 https://www.solid.xyz/blog 。
+- `tcb`（海无方 不吃香菜「tcb也才200」语境）— 与乐天/$75、SoFi 奖励并提的开户奖励说法；与既有 TopCashback / Sofi DD / 银行名 TCB 条目并提，照原文。
+
+## 2026-10-31 11 点新增
+- `3UK` / `Three UK` — 英国 Three 运营商（奶昔 香港九龙「ee o2 3uk都有 · …可轉esim」），照原文。
+- `老农` — 群友对某张 Visa 信用卡的叫法（东逆海外基建 C酱「老农不给我批卡」「老农visa信用卡支持老马的ai10%返现」），照原文。
+- `Guise` — 群友提到的工具/服务名（东逆海外基建 qingyu「咋还用 Guise」），照原文。
+- members: haiwufang:Devin | donni_hm:el wink | donni_jj:WISHINGSEASON.FR | uk_card:Mr Ay | u_meika:Vi Tamin | u_meika:红蒜头 | plum:el wink | loon0x00:jecika zhang | loon0x00:Arthur Heisenberg | loon0x00:她 爸不如我 | loon0x00:美式 冰 | loon_comm:乌鸦 Queenie | nbvil:cabalfire HAO | inficheesy:全球KYC认证 悟空 悟空 | inficheesy:Feng Song | inficheesy:chengzi
+
+## 2026-10-31 12 点新增
+- `coinable` / Coinable — 群友称向 PayPal 充值后触发限制的加密入金相关服务名（海无方美卡 Lune「充值了一笔 coinable」；Devin「coinable是什么」），照原文。
+- `Churros` / `JPBGP Lite` — AI查VPS机器人报的日本低价 VPS 款（VPS家宽AI群：Churros ¥14.5 月付，库存 12；链接 churros.cloud），照机器人原文。
+- `AIStudio` — 群友对 Google AI Studio / 反代场景的写法（VPS家宽AI群 Vainglory「AIStudio 反代太吃资源了」），照原文。
+- `starrryblu` — 东逆 Bot 对 `Starryblu` 的拼写（多一个 r；「starrryblu · Starryblu  走邀请开 19.9刀的星球卡」），对照既有 Starryblu / 星球卡。
+
+## 2026-10-31 13 点新增
+- `Sygnum` / Sygnum Bank — 瑞士数字资产银行；官方新闻称与 Nu 合作为 Nu Global 提供 crypto/banking 与托管（东逆基建 jesuvery「Nu EU底层合作银行 是瑞士Sygnum Bank」），照原文。
+- `Nu EU` — 群友对 Nu / Nu Global 欧洲相关开户路径的说法（东逆基建 Valerio「NU global 邮件告诉我EU系统刚上线」；jesuvery「Nu EU底层…」），对照既有 Nu Global / Nu。
+- `ukip` / UKIP — 奶昔群友问卡激活时顺口提到「不要ukip？」（Nan Yi），具体产品未在本小时展开，照原文小写写法。
+- members: naixi:Fxx Koo | naixi:Nan Yi | haiwufang:神 战 | haiwufang:52 | haiwufang:Zzzz | haiwufang:林先生 | donni_jj:jesuvery | donni_jj:Golden West | donni_jj:C酱です | donni_hm:Sprint | hejushang:o.o | inficheesy:He Biao | inficheesy:Sunny Wang | loon0x00:姥 舅 | loon_comm:長樂無極
+
+## 2026-10-31 14 点新增
+
+- `Enthena` — 群友用作地址证明渠道的写法（东逆海外基建 Brckel「我拿驾照去Enthena当地址证明去了」），照原文。
+
+
+## 2026-10-31 15 点新增
+- `Bitget Fast24` — 群友列举的 U 卡之一（InfiCheesy 薯条🍟「Bybit EU、Bitget Fast24、Krak、DTCPay」），对照既有 Bitget。
+- `vps000` — 群友提到的家宽/抗通报 VPS（VPS家宽AI群 张子君「之前用过vps000，挺好的，抗通报…一个月30不限流量10Mbps」），照原文。
+- `9929` — 中国电信 CN2 9929 线路（VPS家宽AI群 张子君「再买个9929就行」），对照既有 CN2/CMI。
+- `芝麻` / 芝麻返现 — 群友称订阅 AI 有 50% 返现活动（海无方 Premier Rui「芝麻 50%返现是真的吗」），具体平台未在本小时展开，照原文。
+- members: waika:Autorität | waika:ingat | waika:June Park | haiwufang:Premier Rui | haiwufang:Ice Blue | haiwufang:We Y | haiwufang:Freeman X | haiwufang:冲浪屌鹰 | donni_hm:华人出金U卡 | 柯南 | donni_jj:WHFWZ | donni_jj:Shao Bo | donni_jj:8848 | donni_jj:帝 文 | donni_jj:Vinv🇨🇳 | donni_jj:ha ha | donni_jj:C酱です | inficheesy:L S | inficheesy:Excious God | inficheesy:薯条🍟 | inficheesy:Musk X | inficheesy:安 心 | inficheesy:abby w | inficheesy:kaka | inficheesy:dorrin | cardlink:zofoc Zofoc.001 | cardlink:MARK | cardlink:Evelpeu Vesuec | vps_jk:Vv | vps_jk:柚子 | vps_jk:Samir pter | loon0x00:chaoscard | loon0x00:Enough Good | loon0x00:😌 | loon0x00:rikka | loon0x00:Baby | loon0x00:Doro Doro | loon0x00:茶叶水 | loon0x00:勇敢锤锤，不怕挑战 | loon0x00:yomi | loon0x00:V字仇杀队 | loon0x00:MeiLinHost | nbvil:Su Xun
+
+## 2026-10-31 16 点新增
+- `Eskimo` — 新加坡旅行 eSIM；群友称新加坡 IP、新用户可领 1G 永久流量试用（InfiCheesy 薯条🍟）；对照 eskimo.travel / Triple-A 礼品码活动。
+- `兴业无界` / 无界卡 — 群友对兴业银行无界信用卡的叫法（海无方 sqzr74110「兴业我又搞了一张无界卡」），照原文。
+- `运通借记卡金卡` / 百夫长卡面 — 群友讨论的国内运通储蓄/借记金卡卡面说法（海无方 sqzr74110「运通的借记卡金卡」「储蓄卡带百夫长卡面的」），照原文。
+- `魔兽万事达联名` — 群友称中信近期联名卡（海无方 林先生「前阵中信出来个魔兽的万事达联名」），照原文。
+- `silence` 工具 — 群友称用于 Chase 网银开户的工具（海无方 avalon「chase网银用silence大佬的工具确实可开」）；与成员 silence☁️💳 区分。
+- `localDevVPN` / Loon 回环插件 — Loon 开发回环模块（Loon-0x00 D 贴 github ios151/Rewrite …/dev-loopback.lpx），照原文。
+- members: naixi:刘强东 | haiwufang:sqzr74110 | haiwufang:We Y | haiwufang:Spark | haiwufang:林先生 | haiwufang:avalon | haiwufang:Oub | haiwufang:Shang O | haiwufang:冲浪屌鹰 | haiwufang:唯一 | haiwufang:sophnet | donni_hm:ALT GUI | donni_hm:yuxi liu | donni_hm:华人出金U卡 | 柯南 | donni_hm:东逆 | donni_jj:X Bear | donni_jj:lai cai | donni_jj:WHFWZ | donni_jj:幻月 芷 | donni_jj:Frank Micro | donni_jj:bitcoin is future | donni_jj:Valerio（tz） | donni_jj:Da da | donni_jj:yuxi liu | donni_jj:LIN YU | donni_jj:Hi | donni_jj:Gahany | donni_jj:cool | donni_jj:C酱です | donni_jj:Vinv🇨🇳 | donni_jj:Felix John | donni_jj:Shao Bo | inficheesy:薯条🍟 | inficheesy:MuTX | inficheesy:L S | inficheesy:无限芝士 | inficheesy:自由者（低价稳定机场找我） | inficheesy:abby w | inficheesy:Longer Lee | inficheesy:风乎舞雩 | inficheesy:刘美容 | inficheesy:Xudong chan | inficheesy:星 星 | inficheesy:Hizskj | inficheesy:Excious God | inficheesy:Sunny Wang | inficheesy:好男人不止曾小贤〃 | hejushang:shuke 张 | hejushang:爱吃香菜 | u_card:fant xu | cardlink:zhou genhong | vps_jk:murray John | vps_jk:@ big | vps_jk:张子君 | loon0x00:rikka | loon0x00:Maxcn | loon0x00:Ken | loon0x00:D | loon0x00:Ellroy Rogers | loon0x00:天山 | loon0x00:Clover | loon0x00:゛K | loon0x00:多吃香菜再加醋 | loon0x00:Eric TaoL | loon_comm:Barbara | loon_comm:R Ryan | loon_comm:bing
+
+## 2026-10-31 17 时新增
+- `TransFi`（跨境 on-ramp/KYC，群里亦写 transfi；奶昔论坛 Ryoi Sern）
+
+## 2026-10-31 18 点新词
+- `ISIF` / ISIF Cloud — VPS 厂商名（VPS家宽AI群 kkk Leah 请 AI查VPS机器人测评；机器人回未收录），照原文。
+- `W-9` — 美国 IRS 纳税人身份表（海无方美卡 小兔叽分身/NIKOOOO 传 ITIN 扫描件语境），照原文。
+
+## 2026-10-31 19 点新增
+- `Gigaff` — 群友问是否还有人用的产品名（何居上跨境 Saury Kuo「Gigaff还有人用么」），具体品类未在本小时展开，照原文。
+- `bytevuirt` — 群友对 ByteVirt / 洛杉矶线路的拼写（VPS家宽AI群 Tang「都不如 bytevuirt，洛杉矶」），照原文。
+- `easePI` / easePI R1 — 软路由设备（VPS家宽AI群 D姐 | demonyins「我用的easePI R1」），照原文。
+- `酷友社` — 华硕官改固件相关团队（VPS家宽AI群 Kutnahola 评价 easePI 机子时提到），照原文。
+- `QuixoticHeart/rule-set` — Loon 规则集仓库（Loon-0x00 122 贴 github.com/QuixoticHeart/rule-set），照原文。
+- `magicrule.pages.dev` — Loon 配置页（Loon-0x00 Zoe 贴 https://magicrule.pages.dev/#/c/Loon），照原文。
+- `INF卡` — 群友与 E卡对比返佣时提到的 U 卡名（U卡交流 小阁老 三刀砍死老丈人），照原文。
+- members: naixi:覃 南江 | naixi:Phoebe | haiwufang:NIKOOOO | haiwufang:cool | haiwufang:Draven | haiwufang:sophnet | haiwufang:qv hv | haiwufang:Edison Michael | haiwufang:Pain4Din0 | haiwufang:Gahany | haiwufang:CapeCake | haiwufang:不吃香菜 | donni_hm:asdqwee123 | donni_hm:joe | donni_hm:yuxi liu | donni_hm:天 | donni_hm:Not now | donni_hm:ha ha | donni_hm:Sprint | donni_jj:neighbor wang | donni_jj:Ismail Smithson | donni_jj:J oy | donni_jj:可爱多/懒 | donni_jj:近渔 远 | donni_jj:幻月 芷 | donni_jj:sam | inficheesy:sara | inficheesy:Jing Li | inficheesy:刘美容 | inficheesy:Adrian Cole | inficheesy:Joey-免费解决网络技术问题 | inficheesy:Yvhooom.uk | inficheesy:涵涵_收费解决网络问题 | inficheesy:吾 🌐［建网防封指导］ | inficheesy:水箭龟 | inficheesy:dorrin | inficheesy:自由者（低价稳定机场找我） | hejushang:Yun | hejushang:Hunter | hejushang:Saury Kuo | u_card:小阁老 三刀砍死老丈人 | plum:wall wall | plum:Peter | vps_jk:rinxv | vps_jk:Kutnahola | vps_jk:Tang | vps_jk:维多 | vps_jk:剃刀 鲸🐳 | vps_jk:Kane Harry | vps_jk:D姐 | demonyins | vps_jk:James Phil | vps_jk:Carolyn | loon0x00:122 | loon0x00:工 工 | loon0x00:hinoka | loon0x00:Zoe | loon0x00:木真 铁 | loon0x00:02 game | loon0x00:wxjerry | loon0x00:姥 舅 | loon0x00:Daryl Dixon | loon0x00:Mikeal | loon0x00:Weather | loon0x00:反正我是超能力者 | nbvil:Danielle | nbvil:aisha ttte
+
+## 2026-10-31 20 点新增
+- `ClashBox` / clashbox — 群友称「冒牌 clash」相关客户端/跳转站点（Loon-0x00 张飞也是妃「clashbox吗」；可莉🅥 称对方要挟做跳转支持），照原文。
+- `hkip` / 纯 hkip — 月神卡 ICCID 段差异说法：898520726 开头群友称纯香港 IP、无分流（奶昔 𝑾𝒊𝒏𝒔 𝑻𝒚𝒏𝒆），照原文。
+- `898520723` / `898520726` — 月神/联通 eSIM ICCID 号段前缀（奶昔讨论分流有无），照原文。
+- members: naixi:𝑾𝒊𝒏𝒔 𝑻𝒚𝒏𝒆 | naixi:阅 兰 | naixi:Ryoi Sern | haiwufang:Miss Lam | donni_jj:dkskdk | donni_jj:小梦 蚩 | donni_jj:U I | donni_jj:Most | donni_jj:Y T | donni_jj:Ginlay | donni_jj:LONG FAI WONG | donni_jj:老练的金融市场从业者 | donni_jj:Keil | inficheesy:实 陈【华人社】 | inficheesy:Vi Ra | inficheesy:QAQ 别拿激光笔射我 | hejushang:Yamada saki | uk_card:Felix John | uk_card:MEN ZHE | vps_jk:Oudbiao | vps_jk:wan zhao | loon0x00:𝗥𝘂𝗵𝘂𝗮 🅥 | loon0x00:亦心 | loon0x00:Denny | loon0x00:ben | loon0x00:嘻嘻嘻 自行停 | loon0x00:张飞也是妃 | loon0x00:YEKINDAR | loon0x00:学校才有粉笔 | loon0x00:LP HJ | loon_comm:𝙎𝙩𝙖𝙧𝙗𝙤𝙮 | loon_comm:Jump | loon_comm:Sir Zzz | loon_comm:妹 搞
+
+## 2026-10-31 21 点新增
+- `Tello` — 美国 T-Mobile 系预付 MVNO；群友讨论 ==$5==/月 300 分钟+无限短信、流量另购；支持内置 eSIM（海无方美卡）。
+- `3eSIM` / 香港 3esim — 群友称香港号段 eSIM，讨论收验证码不稳（奶昔论坛）。
+- `esimcc` — 群友问大陆 100G 套餐流量制式的 eSIM 渠道（奶昔 Tony）。
+- `诺联` — VPS/线路商家名（VPS家宽AI群 Lamar「诺联能买吗」），照原文。
+- `艾云` / `ggboom` — 群友推荐的电信线路套餐：约 265–280 HKD / 800G / 500M（VPS家宽AI群 柚子），照原文。
+- `komari` — 群友称监控/面板类工具名（VPS家宽AI群 Oudbiao），照原文。
+- `Infini Max` — Infini 个人卡档位；官网标 0% FX + 基础 1.5% 返现（东逆海外基建 小梦 蚩对比语境）。
+- `Lloyds` — 英国劳埃德银行；群友称送信被退回/改地址（InfiCheesy Adrian Cole）。
+- members: naixi:北京海淀区公安分局 | naixi:Dorothy | naixi:Tony | naixi:yyyy | haiwufang:Dan der | haiwufang:Chong | haiwufang:Lune | haiwufang:啦啦啦 | haiwufang:自来也 | haiwufang:qv hv | haiwufang:T T | donni_jj:Feng | donni_jj:Lin Qi | donni_jj:Ronsey IG | donni_jj:枪王 | donni_jj:Mikey- | donni_jj:克 迈 | donni_jj:loong god | donni_jj:落花 流水 | donni_jj:Ramona Ciobanu | donni_jj:Kevin Chan | donni_jj:Ly | donni_jj:AFK_in_RL | donni_jj:ye han | inficheesy:六道 | inficheesy:Candies Sven | inficheesy:YUZhu He | inficheesy:あくあ 湊 | inficheesy:chengzi | inficheesy:K11（认准只有此号） | inficheesy:一 美元 | inficheesy:乖宝 | inficheesy:Jua Juanchi | plum:el wink | vps_jk:Lamar | vps_jk:carry line | vps_jk:kkk Leah | loon0x00:上楼府遍吃 | loon0x00:wu yifan | loon0x00:Wocaw | loon0x00:囖囖囖 | loon0x00:𝑨𝒍𝒆𝒙 | loon0x00:Hong Yan Li | loon0x00:黑 喵 | loon0x00:false hhhh
+- `RedotPay` 个人资金账户：RedotPay Personal Funding Account，可开 USD/GBP/EUR
+- `REGION_SPLITTER.lsr`：Loon 区域分流脚本（kelee.one）
+
+## 2026-10-31 23 点新增
+- `ReadyRoam Asia` — Singtel 亚洲漫游数据包（含中国等；群友对比 CMHK 内地体验），照原文。
+- `metaaivm.com` — Muse/AI 相关域名；Loon 群友求补进 AI 规则（Gyou）。
+- `Karen` — 群友与 Krak/Kraken 卡对比时的写法（东逆海外基建 U I「Karen不能绑定 krak能绑定能充值」），具体产品未公开确认，照原文。
+- `快乐鸡` — 群友称香港移动相关低价套餐/活动（InfiCheesy chengzi「今天还有一个香港移动快乐鸡」「一年6刀」），照原文。
+- members: waika:shameless | waika:qianlink | naixi:kyotai | naixi:OOL | naixi:Chingyim Lee | naixi:Olivi | naixi:国保党总支驻泰国 ais 革命委员会 | haiwufang:Freelf | haiwufang:M JH | haiwufang:J U | haiwufang:Bo Jer | haiwufang:Yu Yu | donni_jj:mnk | donni_jj:romanto yuoan | donni_jj:Alex | donni_jj:bitcoin is future | inficheesy:Eli | inficheesy:Jason huang | inficheesy:Zephyr Vane | inficheesy:君 莫笑 | inficheesy:AkiyoMiles | uk_card:di du | vps_jk:J1ANGGG | vps_jk:youxin | vps_jk:张子君 | loon0x00:Enough Good | loon0x00:诉南 | loon0x00:公共机构和 红果洗洗澡 | loon0x00:chaoscard | loon0x00:First Name Last Na | loon0x00:dou sha | loon0x00:离歌 | loon0x00:理想之城 | loon0x00:统统 起飞 | loon0x00:Maxcn | loon0x00:V字仇杀队 | loon0x00:Lion | loon0x00:𝗠𝗮𝗿𝗶𝘂𝘀 | loon0x00:Loon News
+

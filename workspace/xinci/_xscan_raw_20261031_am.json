@@ -1,0 +1,123 @@
+{
+  "window": {
+    "start_utc": "2026-10-30T13:36:00Z",
+    "end_utc": "2026-10-31T02:12:00Z",
+    "start_bj": "2026-10-30 21:36",
+    "end_bj": "2026-10-31 10:12"
+  },
+  "official_posts": [
+    {
+      "id": "2116153410101944352",
+      "username": "AlexKsendzovsky",
+      "role": "founder",
+      "company": "BioComputingCo",
+      "created_at": "2026-10-30T13:01:03.000Z",
+      "url": "https://x.com/AlexKsendzovsky/status/2116153410101944352",
+      "views": 1792766,
+      "bookmarks": 6500,
+      "likes": 8015,
+      "text": "today, we introduce a little mischief to the world. for four years, we've been brewing real brain cells on electrodes... mischief 1 is at least 5x faster than its base and the cheapest image-to-video model on fal and OpenRouter.",
+      "product_hint": "Mischief 1",
+      "before_window": true,
+      "note": "founder official launch; ~35min before last_scan → backfill"
+    },
+    {
+      "id": "2116151078219858346",
+      "username": "SenseTime_AI",
+      "role": "official",
+      "created_at": "2026-10-30T12:51:47.000Z",
+      "url": "https://x.com/SenseTime_AI/status/2116151078219858346",
+      "views": 42478,
+      "bookmarks": 532,
+      "likes": 785,
+      "text": "Introducing SenseNova Loop-9B-Preview, now open source! 9B Looped Transformer with mHC, 27B-class performance, beats Qwen3.5-27B on WorkBuddy/RaccoonPPT/AutomationBench. Apache 2.0. HF: sensenova/SenseNova-6.8-Loop-9B-Preview",
+      "product_hint": "SenseNova Loop-9B-Preview",
+      "before_window": true,
+      "note": "official; ~44min before last_scan → backfill"
+    },
+    {
+      "id": "2115445835068748044",
+      "username": "SenseTime_AI",
+      "role": "official",
+      "created_at": "2026-10-28T14:09:24.000Z",
+      "url": "https://x.com/SenseTime_AI/status/2115445835068748044",
+      "views": 1994,
+      "bookmarks": 14,
+      "likes": 28,
+      "text": "Introducing SenseNova 6.8 Code2Video, a lightweight open-source model that generates executable code to render video.",
+      "product_hint": "SenseNova 6.8 Code2Video",
+      "before_window": true,
+      "note": "missed by prior scans; low engagement; optional backfill"
+    },
+    {
+      "id": "2116186509384815084",
+      "username": "OpenAI",
+      "role": "official",
+      "created_at": "2026-10-30T15:12:35.000Z",
+      "url": "https://x.com/OpenAI/status/2116186509384815084",
+      "views": 283850,
+      "bookmarks": 439,
+      "likes": 2391,
+      "text": "OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models.",
+      "product_hint": "OpenAI Private Intelligence",
+      "before_window": false
+    },
+    {
+      "id": "2116220869479428500",
+      "username": "claudeai",
+      "role": "official",
+      "created_at": "2026-10-30T17:29:07.000Z",
+      "url": "https://x.com/claudeai/status/2116220869479428500",
+      "views": 3684946,
+      "bookmarks": 2998,
+      "likes": 25161,
+      "text": "We're renaming our Max plans: Max 5x → Max, Max 20x → Ultra. Also removing the 5-hour limit for verified Ultra accounts.",
+      "product_hint": "Claude Ultra / Max rename",
+      "before_window": false,
+      "note": "plan rename + limit change, not new model"
+    },
+    {
+      "id": "2116349211549843666",
+      "username": "AnthropicAI",
+      "role": "official",
+      "created_at": "2026-10-31T01:59:06.000Z",
+      "url": "https://x.com/AnthropicAI/status/2116349211549843666",
+      "views": 26165,
+      "bookmarks": 88,
+      "likes": 307,
+      "text": "New Anthropic research: Automating subtle emergent misalignment research. Thousands of Claude agents for red-teaming.",
+      "product_hint": "Anthropic automated misalignment research",
+      "before_window": false,
+      "note": "research paper, not new model"
+    },
+    {
+      "id": "2116244898269610456",
+      "username": "Google",
+      "role": "official",
+      "created_at": "2026-10-30T19:04:36.000Z",
+      "url": "https://x.com/Google/status/2116244898269610456",
+      "views": 110804,
+      "bookmarks": 93,
+      "likes": 1096,
+      "text": "Our TPUs just phoned home... from space. Four TPUs sent into orbit to test AI hardware in space.",
+      "product_hint": "Google TPU in space",
+      "before_window": false,
+      "note": "news/experiment, not new model"
+    }
+  ],
+  "skip_already_reported_in_window": [
+    {
+      "name": "Genie 4",
+      "url": "https://x.com/Google/status/2116237215026032872",
+      "reason": "already in reported as genie4"
+    }
+  ],
+  "keyword_posts_rumors_not_official": [
+    "Mistral Large 4 / Le Chonk open weights chatter (already reported as Le Chonk)",
+    "Pika H3 Flex license chatter (already reported)",
+    "Beam Reflection AI (weights dropped ~Oct 17, not first release this window)",
+    "Kimi K3.1 Pro open weights commentary (already reported)"
+  ],
+  "account_A_page1_count": 11,
+  "account_A_page2_count": 0
+}

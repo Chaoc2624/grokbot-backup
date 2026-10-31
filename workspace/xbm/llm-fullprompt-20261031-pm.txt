@@ -1,0 +1,101 @@
+你是 Halo Z 的推特书签简报助手。根据输入 JSON 里的 bookmarks，生成 JSON（只要 JSON，不要 markdown 围栏）。
+
+严格过滤（仅丢这些）：商业营销/外链中介软广（paid guest-post、DM's open for placements、Comment X and I'll DM you 导流、纯卖课无干货、无正文空壳 X Article）。只保留真实可执行内容与免费资源。
+重要：绝大多数书签都应保留。不要因为「不够完美」就丢掉。美卡开户教程、SEO/GEO 实操、工具用法、出海找需求、税号办理、Agent 工作流等都要保留。被过滤掉的不要进 items。
+
+输出 schema：
+{
+  "items": [
+    {
+      "id": "推文id",
+      "url": "https://x.com/.../status/...",
+      "title": "中文短标题（无标点结尾）",
+      "tag": "主题短标签（如 美卡/工具/AI/建站/增长/通讯/安全/出海 等）",
+      "need": "2-4句中文：谁说了什么、核心要点、为何值得收藏；关键链接写进 need",
+      "action": "一句可执行动作",
+      "deadline": null或短文案,
+      "due_date": null或YYYY-MM-DD,
+      "category": "urgent|todo|related|needs|ads",
+      "posted_at": "MM-DD HH:MM（北京时间，由 created_at +8 换算）"
+    }
+  ],
+  "summary": "一两句中文概括本档新增书签主题",
+  "brief_text": "给用户看的中文简报正文（不含 X 费用/看板/问题段）。格式：\n📌 推特书签简报 · 2026-10-31 晚上（22:00 档）\n\n账号 @Chaoc2624 · 新增 N 条书签。之前推过、看板上还没处理的还有 C 条，详情在看板。\n\n然后按 tag 分组，每组标题用合适 emoji + tag（N 条），组内每条：\n• 标题：摘要。原帖URL\n  • 关键链接（如有）\nN 用过滤后的条数；C 用输入里的 carried_count。"
+}
+
+category：urgent=限免/羊毛/即将截止；todo=待办实操；related=深度参考；needs=待补信息；ads=广告（尽量不要）。
+按紧急度排序 items：urgent > todo > related > needs > ads。
+保持 id/url 与输入一致；不要编造不存在的链接。目标：输入约 10 条时，输出应在 8–10 条左右（只丢掉真正的软广/空壳）。
+
+
+输入 JSON：
+{
+  "bookmarks": [
+    {
+      "id": "2116168531675074989",
+      "url": "https://x.com/Stephan_Talk/status/2116168531675074989",
+      "text": "《pstack 完全指南 pt.2》重点总结\n\n这篇解决两个问题：\n1. 如何与智能体对齐需求\n2. 如何进行有效的规划和设计\n\n如何与智能体对齐需求\n\nlauren 会组合使用以下四个技能：\n\n1. /how: 系统现在怎样运行？\n2. /why: 为什么这样设计，有什么历史约束？\n3. /recall: 过去的对话提供了什么背景上下文？\n4. /teach: 能否讲清机制与原因，让人检查理解？\n\n举例：\n> /recall 我过去 7 天修复虚拟化 bug 和性能问题的工作。使用 /how 和 /why 了解我们当前的虚拟化实现是如何工作的\n\n* 注意，/recall 能自动搜索你的 harness 的会话历史记录，但这并不是唯一方式。它的目的是为智能体扩充你的环境上下文，以便智能体能有更加全面的视角。所以我认为在这个阶段应该尽可能多的给智能体主动提供环境上下文，比如日志、数据库、外部依赖、外部文档等\n\n这样沟通的好处不仅限于让人类更能全面的理解当前现状和问题，更重要的是推动智能体掌握更全面的上下文，避免它们基于少量的信息匆忙得出片面的结论\n\n* 另外推荐一个我觉得很好的 skill: https://t.co/RsvuZtFbJQ ，当智能体长篇大论或不说人话时，我就会用这个 skill 帮我生成一个网页来理解\n\n如何进行有效的规划和设计\n\n第一，lauren 推荐一种 “逆向工作法” 叫 README 驱动开发 。具体来讲她会用 /technical-writing 技能，在规划阶段写出不同层次的用户教程，打磨好后的教程将成为智能体的行动目标\n\n把写用户文档作为打磨设计文档的手段，好处是可以站在 high-level 的视角逐层打磨设计文档，而不是事无巨细的 grill-me \n\n第二，她建议 “用代码来做规划”，她会使用 /poteto-mode 原型设计工作流 来进行快速原型开发，使用 /architect 技能扇出（Fan-out）多个并行智能体产出不同候选设计方案，最后综合成一份最优设计方案并进入实现\n\n多个并行智能体扇出的方式，有点像赛马机制。核心思想是利用不同家族的模型进行并行研究，以避免单一模型的局限性。然后从所有返回的内容中综合整合出最优方案（不是只选一个模型的结果）。这种机制在 pstack 的整体设计中会有多处体现\n\n这里需要注意，并行赛马比较的并不是最终实现，而是草图、类型定义、接口定义组成的一套接口规范层面的设计草案\n\nlauren 特别提到，她“从不费神去对抽象计划做对抗性评审”的原因就来自于此。如果用类似 grill-me 这类 skill，难免会陷入纸上谈兵的境地，既费人又容易过度设计。而让代码自己去竞争评审能更落地且节约人脑细胞\n\n补充说明一点：/architect 在 D 阶段人类确认后，会自动进入实际代码的实现阶段。这里如果你是比较大的任务，可以在人类确认后掐断（pstack 有提供其他的长周期任务工作流），举例如下：\n\n> /skill:poteto-mode 为 <功能> 制订实现计划。先用 architect with checkpoint 完成设计并暂停。本轮不要进入 Phase D，也不要实现功能逻辑。将设计方案转化为一份计划\n\n---\n\n以上是我在看了这篇文章以及相应 skill 源码后的一份总结，有趣的是我在总结过程中就已经会应用上以上提到的技能了。包括下面这张图的文稿也来自于 /teach 和 /technical-writing。所以大家如果有不懂的地方，非常推荐直接跟 pstack 对话，另外更推荐直接看它的 skill 实现，很多宝贵的设计思想\n\n/architect skill 流程图",
+      "created_at": "2026-10-30T14:01:09.000Z",
+      "author_username": "Stephan_Talk",
+      "author_name": "Stephan",
+      "lang": "zh"
+    },
+    {
+      "id": "2116432679285702691",
+      "url": "https://x.com/bailyLU/status/2116432679285702691",
+      "text": "没忍住还是上48个月的车了！\n\n现在65价格\n\nhttps://t.co/oQReRCcqJ9\n\n也没什么技巧\n\n1、注册个新的小号\n2、使用商家给你的优惠码\n3、我用c1的虚拟卡付款，也可以用U卡\n\n就这么3步就好了 https://t.co/rPGAhXnBEe",
+      "created_at": "2026-10-31T07:30:46.000Z",
+      "author_username": "bailyLU",
+      "author_name": "贝利Baily",
+      "lang": "zh"
+    },
+    {
+      "id": "2116368222048203206",
+      "url": "https://x.com/sino_go_global/status/2116368222048203206",
+      "text": "卧槽， 0 撸 48 月chagpt team 我上车了！😳\n\n直接用 okx 美区卡 Apple Pay 支付成功的！\n\n从论坛收的优惠码，然后打开 chatgpt 页面，我找了个脚本，自动化，出来长链链接，然后点支付就可以\n\n牛逼了。\n\n方法和脚本我放评论区\n\n#chatgpt #okx",
+      "created_at": "2026-10-31T03:14:39.000Z",
+      "author_username": "sino_go_global",
+      "author_name": "浪险 | 出海基建·港美卡·云居民",
+      "lang": "zh"
+    },
+    {
+      "id": "2116137815951991091",
+      "url": "https://x.com/vikingmute/status/2116137815951991091",
+      "text": "我最新 PUA grok bot 的方法： 你现在是一个 self imporvement 的 SEO 机器，我给了你大部分的权限， GSC 的数据，代码的权限，直接部署和查看线上 log 和回滚的权限，环境变量在 vault 中，现在你要通过不断的迭代提升 SEO 的水平，只需要在上线的时候通过 E2E 并且通知我一声，我希望给你两个月的时间，达到一个新的里程碑，如果达不到，自己看着办吧。\n看看这两个月它能把事情办的怎么样，我也可以体验一次老板的感觉。",
+      "created_at": "2026-10-30T11:59:05.000Z",
+      "author_username": "vikingmute",
+      "author_name": "Viking",
+      "lang": "zh"
+    },
+    {
+      "id": "2116386357752832091",
+      "url": "https://x.com/GoSailGlobal/status/2116386357752832091",
+      "text": "人在国内、没有 SSN，11 天把美国公司和开发者账号的申请走完了\n\n怀俄明 LLC、EIN、D-U-N-S、Mercury 开户，再到 Google Play 和苹果的组织开发者账号，到现在一共花了 277 美元\n\n每一步怎么填、哪里会卡，34 张截图都写清楚了\n\nX有截图35张上限，可以看我的博客完整配图：https://t.co/M81VCsm3JY",
+      "created_at": "2026-10-31T04:26:42.000Z",
+      "author_username": "GoSailGlobal",
+      "author_name": "Jason Zhu",
+      "lang": "zh"
+    },
+    {
+      "id": "2116470275143574000",
+      "url": "https://x.com/loki_yan_seo/status/2116470275143574000",
+      "text": "把你们公司Google Ads 和GSC 都连上Claude,\n\n问 什么关键字或者主题我放了很多预算在广告但是SEO很差。\n\n算出来的数字会让你老板要么开了做广告的，要么开了做SEO的。\n\n群里面前两天我分享了一个很大的网站，没有排到自己的产品。这个产品每个月百万级别搜索量，他在打广告。\n\n问：如果他排了自己的产品，每个月能省多少美金？",
+      "created_at": "2026-10-31T10:00:10.000Z",
+      "author_username": "loki_yan_seo",
+      "author_name": "Loki Yan SEO",
+      "lang": "zh"
+    },
+    {
+      "id": "2116379853414973764",
+      "url": "https://x.com/victor_UWer/status/2116379853414973764",
+      "text": "找词卡住的时候，别硬想，去 Google Trends 翻\"上升\"榜。\n\n贼简单：\n\n1. 输入一个大词，比如 pdf converter，地区选美国，时间选过去 12 个月\n\n2. 拉到页面底部，找到\"相关查询\"，默认显示\"热门\"，手动切成\"上升\"\n\n3. 标了\"飙升\"的词先记下来，基本都是刚冒头的\n\n4. 把候选词和一个你知道搜索量的老词放进\"比较\"，曲线在它上面还是下面，一眼就能判断值不值得做\n\n热门里全是大站占着的词，机会都在上升里。\n\n有些飙升词只火一两周，把时间拉到 5 年再看一眼，如果整条线只有一根尖刺，就别碰了。",
+      "created_at": "2026-10-31T04:00:52.000Z",
+      "author_username": "victor_UWer",
+      "author_name": "Victor在西雅图",
+      "lang": "zh"
+    }
+  ],
+  "carried_count": 230,
+  "label": "2026-10-31 晚上",
+  "run_slot": "22:00"
+}

@@ -1,130 +1,23 @@
 {
  "leads": [
   {
-   "term": "3d make",
+   "term": "webgl",
    "kinds": [
     "x"
    ],
    "signals": [
-    "X 2 个账号 ♥2524"
+    "X 1 个账号 ♥117"
    ],
    "examples": [
-    "@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t",
-    "@TeksEdge: Ah yes, the world you build can live on your PC using Kimi’s new 3D Make. LLMs u"
+    "@op7418: 这次给 Deepseek Harness 做的这个新插件 dsh-guizang-design，旧的 PPT Skill 也进行了很多优化。 如果你已经安装过其"
    ],
    "variants": [],
    "posts": [
     {
-     "account": "Kimi_Moonshot",
-     "text": "Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools to create models, assemble scenes, and develop games. Available now on https://t.co/Q150OaO4ww and Kimi Work. https://t.co/pwmv4Ccn00",
-     "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570",
-     "likes": 2518
-    },
-    {
-     "account": "TeksEdge",
-     "text": "Ah yes, the world you build can live on your PC using Kimi’s new 3D Make. LLMs use tools to build worlds, not code or framegen. Describe a scene, and Kimi can use code and tools to build it 🌀 Blender for geometry, materials and lighting 📐 CAD tools for dimensioned parts 🧊 3D generators for characters and complex assets 🎮 Game engines for scenes and gameplay With Kimi Work or Code, it can operate locally installed software and iterate on projects stored on your computer. Prompt → editable assets + code → your hardware renders the scene. This isn’t local Kimi inference. Creation and AI-assisted edits still depend on its service. Physics, believable motion and polished visuals still need work. But an editable project running on your hardware is a meaningful outcome. AI builds the world. Your machine runs it. https://t.co/eNm4qwkMfS",
-     "url": "https://x.com/TeksEdge/status/2116070097953624109",
-     "likes": 6
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "cursor ide",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥4478"
-   ],
-   "examples": [
-    "@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "cursor_ai",
-     "text": "We identified a security incident affecting a modified Claude Code VS Code extension accessed through our Cursor IDE extension marketplace, impacting at most 5,000 users. This malicious version of the extension was not developed by Anthropic. It does not impact other extensions downloaded from the https://t.co/sJRGX5jLXW, Grok Bot, Grok or our other SpaceXSI products. In response, we took down our extension marketplace this afternoon, worked with relevant providers to neutralize the malware, and have reinstated the marketplace after confirming there is no further risk. If affected, please review instructions in this blog post to understand how to find the malicious package and establish a path to mitigate any potential impact. We are asking all customers update to Claude Code for VS Code version 2.1.314: https://t.co/ESqf7YEtHZ",
-     "url": "https://x.com/cursor_ai/status/2116074289053175808",
-     "likes": 4478
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": "tutorial",
-   "named": 0.7
-  },
-  {
-   "term": "claude code vs",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥4478"
-   ],
-   "examples": [
-    "@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "cursor_ai",
-     "text": "We identified a security incident affecting a modified Claude Code VS Code extension accessed through our Cursor IDE extension marketplace, impacting at most 5,000 users. This malicious version of the extension was not developed by Anthropic. It does not impact other extensions downloaded from the https://t.co/sJRGX5jLXW, Grok Bot, Grok or our other SpaceXSI products. In response, we took down our extension marketplace this afternoon, worked with relevant providers to neutralize the malware, and have reinstated the marketplace after confirming there is no further risk. If affected, please review instructions in this blog post to understand how to find the malicious package and establish a path to mitigate any potential impact. We are asking all customers update to Claude Code for VS Code version 2.1.314: https://t.co/ESqf7YEtHZ",
-     "url": "https://x.com/cursor_ai/status/2116074289053175808",
-     "likes": 4478
-    }
-   ],
-   "known": "claude code",
-   "format": "text",
-   "one_click": "tutorial",
-   "named": 0.6
-  },
-  {
-   "term": "introducing 3d make",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥2518"
-   ],
-   "examples": [
-    "@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "Kimi_Moonshot",
-     "text": "Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools to create models, assemble scenes, and develop games. Available now on https://t.co/Q150OaO4ww and Kimi Work. https://t.co/pwmv4Ccn00",
-     "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570",
-     "likes": 2518
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.6
-  },
-  {
-   "term": "nothingbutnet",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥146"
-   ],
-   "examples": [
-    "@swyx: excited for @Cloudflare's debut as a frontier lab #NothingButNET gang, assemble!"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "swyx",
-     "text": "excited for @Cloudflare's debut as a frontier lab #NothingButNET gang, assemble!",
-     "url": "https://x.com/swyx/status/2115993441004036131",
-     "likes": 146
+     "account": "op7418",
+     "text": "这次给 Deepseek Harness 做的这个新插件 dsh-guizang-design，旧的 PPT Skill 也进行了很多优化。 如果你已经安装过其中的几个 Skill 的话，建议更新一下 这个插件内置的几个 Skill，比如 PPT Skill、社交媒体卡片 Skill 都获得了更新。 比如 PPT Skill 那个杂志风格的 WebGL 背景加回来了，而且大幅优化了性能，不会再因为这个东西变得卡顿发热了",
+     "url": "https://x.com/op7418/status/2116357353566302376",
+     "likes": 117
     }
    ],
    "known": "",
@@ -133,180 +26,259 @@
    "named": 0.5
   },
   {
-   "term": "protectbirds",
+   "term": "nvzhuang",
    "kinds": [
-    "hf"
+    "breakout"
    ],
    "signals": [
-    "HF Spaces 新进榜第 34 名"
+    "GitHub 爆发 paipiange/nvzhuang ★1550(均 672/天,一天 +663)"
    ],
    "examples": [
-    "AimeeBingmouQu/ProtectBirds (docker, ♥1144)"
+    "paipiange/nvzhuang: 1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang"
    ],
-   "variants": [],
+   "variants": [
+    "nvzhuang",
+    "paipiange nvzhuang"
+   ],
    "posts": [],
+   "repo": "paipiange/nvzhuang",
+   "known": "",
+   "format": "image",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "pixelfx",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 patch-gg/pixelfx ★806(均 629/天)"
+   ],
+   "examples": [
+    "patch-gg/pixelfx: 232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
+   ],
+   "variants": [
+    "pixelfx",
+    "patch-gg pixelfx"
+   ],
+   "posts": [],
+   "repo": "patch-gg/pixelfx",
+   "known": "",
+   "format": "image",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "mika",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 wangzan101/Mika ★2209(均 1130/天,一天 +1821)"
+   ],
+   "examples": [
+    "wangzan101/Mika: Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things don"
+   ],
+   "variants": [
+    "mika",
+    "wangzan101 mika",
+    "wangzan mika"
+   ],
+   "posts": [],
+   "repo": "wangzan101/Mika",
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "dsh go",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 ccch1mneyyy/dsh-Go ★3266(均 525/天,一天 +1431)"
+   ],
+   "examples": [
+    "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"
+   ],
+   "variants": [
+    "dsh go",
+    "ccch1mneyyy dsh go",
+    "chimney dsh go"
+   ],
+   "posts": [],
+   "repo": "ccch1mneyyy/dsh-Go",
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "unslop",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 heydamir/unslop ★2516(均 1319/天)"
+   ],
+   "examples": [
+    "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
+   ],
+   "variants": [
+    "unslop",
+    "heydamir unslop",
+    "damir unslop"
+   ],
+   "posts": [],
+   "repo": "heydamir/unslop",
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.8
   },
   {
-   "term": "harness lens",
+   "term": "florilegium",
    "kinds": [
-    "hf"
+    "breakout"
    ],
    "signals": [
-    "HF Spaces 新进榜第 43 名"
+    "GitHub 爆发 kevinraymond/florilegium ★988(均 799/天)"
    ],
    "examples": [
-    "harness-hub/harness-lens (docker, ♥40)"
+    "kevinraymond/florilegium: Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua"
    ],
-   "variants": [],
+   "variants": [
+    "florilegium",
+    "kevinraymond florilegium"
+   ],
    "posts": [],
+   "repo": "kevinraymond/florilegium",
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.8
   },
   {
-   "term": "idol",
-   "kinds": [
-    "hf"
-   ],
-   "signals": [
-    "HF Spaces 新进榜第 44 名"
-   ],
-   "examples": [
-    "speridlabs/idol (gradio, ♥20)"
-   ],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "nx2apple",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 LNPANDY/NX2Apple ★2165(均 221/天,一天 +1482)"
-   ],
-   "examples": [
-    "LNPANDY/NX2Apple: Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Brin"
-   ],
-   "variants": [
-    "nx2apple",
-    "lnpandy nx2apple",
-    "lnp nx2apple"
-   ],
-   "posts": [],
-   "repo": "LNPANDY/NX2Apple",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "totk pc recomp",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 valentderah/totk-pc-recomp ★1030(均 985/天)"
-   ],
-   "examples": [
-    "valentderah/totk-pc-recomp: Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game"
-   ],
-   "variants": [
-    "totk pc recomp",
-    "valentderah totk pc recomp",
-    "valiantsin totk pc recomp"
-   ],
-   "posts": [],
-   "repo": "valentderah/totk-pc-recomp",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "zero breach toolkit",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 interplains/Zero-Breach-Toolkit ★3760(均 759/天)"
-   ],
-   "examples": [
-    "interplains/Zero-Breach-Toolkit: Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phon"
-   ],
-   "variants": [
-    "zero breach toolkit",
-    "interplains zero breach toolkit",
-    "archivegenocide zero breach toolkit"
-   ],
-   "posts": [],
-   "repo": "interplains/Zero-Breach-Toolkit",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "day trader skill",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 Jakeschincariol/day-trader-skill ★3463(均 347/天,一天 +1257)"
-   ],
-   "examples": [
-    "Jakeschincariol/day-trader-skill: 11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay e"
-   ],
-   "variants": [
-    "day trader skill",
-    "jakeschincariol day trader skill",
-    "jake day trader skill"
-   ],
-   "posts": [],
-   "repo": "Jakeschincariol/day-trader-skill",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "ai pose gallery zh",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 anhao/ai-pose-gallery-zh ★3786(均 1241/天)"
-   ],
-   "examples": [
-    "anhao/ai-pose-gallery-zh: 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
-   ],
-   "variants": [
-    "ai pose gallery zh",
-    "anhao ai pose gallery zh"
-   ],
-   "posts": [],
-   "repo": "anhao/ai-pose-gallery-zh",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "eclipse technologies",
+   "term": "hybridforgelab",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 10 处 (×8.9)"
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "ottonic",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "io.github.nada",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 5 处 (×4.8)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "io.github.changzhiai",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "io.usefulapi",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 59 处 (×16.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "io.github.theguysaccount",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 15 处 (×14.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "io.github.kriton",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 14 处 (×13.2)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "connectors io.usefulapi",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 59 处 (×16.9)"
    ],
    "examples": [],
    "variants": [],
@@ -317,546 +289,12 @@
    "named": 0.5
   },
   {
-   "term": "arsaze",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Arsaze"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.arsaze.com",
-    "Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)"
-   ],
-   "known": "",
-   "format": "video",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "speakon agent",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: SpeakON Agent"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/speakon",
-    "Turn natural speech into real work for an agent to complete Discussion | Link"
-   ],
-   "known": "",
-   "format": "voice",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "overtone",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Overtone"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://github.com/lonthq/overtone-captions",
-    "Show HN: Overtone – Transcribe, correct and cut captions for any screen shape"
-   ],
-   "known": "",
-   "format": "voice",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "gpt-6.1 terra pro",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "OpenRouter 新上架"
-   ],
-   "examples": [
-    "OpenRouter: GPT-6.1 Terra Pro"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://openrouter.ai/openai/gpt-6.1-terra-pro",
-    "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. "
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.95
-  },
-  {
-   "term": "gpt-6.1 terra pro (batch)",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "OpenRouter 新上架"
-   ],
-   "examples": [
-    "OpenRouter: GPT-6.1 Terra Pro (batch)"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://openrouter.ai/openai/gpt-6.1-terra-pro:batch",
-    "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. "
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.95
-  },
-  {
-   "term": "gpt-6.1 terra",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "OpenRouter 新上架"
-   ],
-   "examples": [
-    "OpenRouter: GPT-6.1 Terra"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://openrouter.ai/openai/gpt-6.1-terra",
-    "GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screensho"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.95
-  },
-  {
-   "term": "gpt-6.1 terra (batch)",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "OpenRouter 新上架"
-   ],
-   "examples": [
-    "OpenRouter: GPT-6.1 Terra (batch)"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://openrouter.ai/openai/gpt-6.1-terra:batch",
-    "GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screensho"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.95
-  },
-  {
-   "term": "kimi k3.1 pro",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "OpenRouter 新上架"
-   ],
-   "examples": [
-    "OpenRouter: Kimi K3.1 Pro"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
-    "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D..."
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.95
-  },
-  {
-   "term": "faylee",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Faylee"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/faylee",
-    "Bug reports your coding agent can fix from one link Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "canva brush",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Canva Brush"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/canva",
-    "Canva Brush: a vision-language model that edits your designs Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "stepgrab",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: StepGrab"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/stepgrab",
-    "Now on Windows, with redaction and a real editor Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "fastbrowse",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: fastbrowse"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/fastbrowse",
-    "Fastest open source browser agent Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "kestrix",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Kestrix"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/kestrix",
-    "Repo-agnostic CI control plane with DAG-based triggers. Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "nocto",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Nocto"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/nocto",
-    "Your MacBook notch, finally useful Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "ilse",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: ilse"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/ilse",
-    "Point at your app and your AI agent changes the code Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "isurge",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: iSurge"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/isurge",
-    "An activity monitor, at your notch. Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "axonnic",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Axonnic"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/axonnic",
-    "Muscle-sensing sleeves for robot training Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "slidebyside",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: SlideBySide"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://slidebyside.com/",
-    "Show HN: SlideBySide – Present slides without sharing your screen"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "yavashark",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Yavashark"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://yavashark.dev/blog/announcing-yavashark/",
-    "Show HN: Yavashark: I've Built a JavaScript Engine Every Day for 950 Days"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "lasm",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Lasm"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://github.com/Millillion/lasm",
-    "Show HN: Lasm – Write formally verified webapps in Lean for Node/serverless/edge"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "particle-1",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "OpenRouter 新上架"
-   ],
-   "examples": [
-    "OpenRouter: Particle-1"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://openrouter.ai/particle-ai/particle-1",
-    "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "uk farming simulator",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: UK Farming Simulator"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://butterbean.farm/",
-    "Show HN: UK Farming Simulator"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "code vs code",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥4478"
-   ],
-   "examples": [
-    "@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "cursor_ai",
-     "text": "We identified a security incident affecting a modified Claude Code VS Code extension accessed through our Cursor IDE extension marketplace, impacting at most 5,000 users. This malicious version of the extension was not developed by Anthropic. It does not impact other extensions downloaded from the https://t.co/sJRGX5jLXW, Grok Bot, Grok or our other SpaceXSI products. In response, we took down our extension marketplace this afternoon, worked with relevant providers to neutralize the malware, and have reinstated the marketplace after confirming there is no further risk. If affected, please review instructions in this blog post to understand how to find the malicious package and establish a path to mitigate any potential impact. We are asking all customers update to Claude Code for VS Code version 2.1.314: https://t.co/ESqf7YEtHZ",
-     "url": "https://x.com/cursor_ai/status/2116074289053175808",
-     "likes": 4478
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": "tutorial",
-   "named": 0.3
-  },
-  {
-   "term": "introducing 3d",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥2518"
-   ],
-   "examples": [
-    "@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "Kimi_Moonshot",
-     "text": "Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools to create models, assemble scenes, and develop games. Available now on https://t.co/Q150OaO4ww and Kimi Work. https://t.co/pwmv4Ccn00",
-     "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570",
-     "likes": 2518
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "openclaw genpark",
+   "term": "connectors io.github.theguysaccount",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 19 处 (×19.0)"
+    "③ 竞品 15 处 (×14.9)"
    ],
    "examples": [],
    "variants": [],
@@ -864,119 +302,7 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "alphaparkinc openclaw",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 17 处 (×17.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "technologies llc",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 10 处 (×8.6)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "llc eclipse",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 9 处 (×8.5)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "cyan eclipse",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 9 处 (×8.1)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "io.github.donniertf",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 94 处 (×92.3)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.2
-  },
-  {
-   "term": "connectors io.github.donniertf",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 94 处 (×92.3)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.2
-  },
-  {
-   "term": "io.github.donniertf hub",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 94 处 (×92.3)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.2
+   "named": 0.5
   },
   {
    "term": "connectors io.github.kriton",
@@ -984,7 +310,7 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 12 处 (×12.0)"
+    "③ 竞品 14 处 (×13.2)"
    ],
    "examples": [],
    "variants": [],
@@ -992,7 +318,7 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.2
+   "named": 0.5
   },
   {
    "term": "io.github.kriton dev",
@@ -1000,7 +326,7 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 12 处 (×12.0)"
+    "③ 竞品 14 处 (×13.2)"
    ],
    "examples": [],
    "variants": [],
@@ -1008,10 +334,10 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.2
+   "named": 0.5
   },
   {
-   "term": "com.crakseo",
+   "term": "connectors io.github.finddatatechnology",
    "kinds": [
     "sitemap"
    ],
@@ -1024,10 +350,419 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.2
+   "named": 0.5
   },
   {
-   "term": "connectors com.crakseo",
+   "term": "connectors io.github.nadaho",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 5 处 (×4.8)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.5
+  },
+  {
+   "term": "youcam makeup: face editor",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: YouCam Makeup: Face Editor"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/youcam-makeup-face-editor/id863844475?uo=2",
+    "*All images on this page were enhanced with AI YouCam Makeup is your all-in-one face editor, makeup app, and beauty cam. Retouch photos and videos with makeup, face, hair, and body tools, from daily l"
+   ],
+   "known": "",
+   "format": "video",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "ai mirror: ai photo editor",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: AI Mirror: AI Photo Editor"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/ai-mirror-ai-photo-editor/id6444888896?uo=2",
+    "AI Mirror — the best AI photo editor and video creator. Transform your photos and videos with hundreds of AI filters, trending style effects, and powerful editing tools. NEW: AI Better — your personal"
+   ],
+   "known": "",
+   "format": "video",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "kemo",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: Kemo"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/kemo/id1484584645?uo=2",
+    "- Easy to set up your devices in the Kemo App. - Get instant messages when visitors press the doorbell or trigger the PIR motion sensors. - Monitor your home in high definition video. See, hear, and s"
+   ],
+   "known": "",
+   "format": "video",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "ai video generator & ai editor",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: AI Video Generator & AI Editor"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/ai-video-generator-ai-editor/id6779853381?uo=2",
+    "Create stunning videos in minutes with AI Video Generator & Video AI. Turn text into video, transform photos into animated clips, and bring your creative ideas to life with an intuitive all-in-one vid"
+   ],
+   "known": "",
+   "format": "video",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "ski",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: SKI"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/ski",
+    "Voice-first coding harness Discussion | Link"
+   ],
+   "known": "",
+   "format": "voice",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "awaitio",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: AwaitIO"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/awaitio",
+    "Write a TypeScript function, get an admin screen Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "godwit",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Godwit"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/godwit",
+    "An open-source, AI-native email client Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "pluto door",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Pluto Door"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/pluto-door",
+    "SSH client with an AI agent and a desktop for every server Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "agnos",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Agnos"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/agnos",
+    "Clean documents for AI, and see what was removed Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "hemmed",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Hemmed"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/hemmed",
+    "Hide Mac menu bar clutter and pin individual actions Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "specsight",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Specsight"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/specsight",
+    "Product observability for teams shipping fast with AI Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "secret key",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Secret Key"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/secret-key",
+    "Let your family unlock your passwords if you can't Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "mo",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Mo"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/mo-5",
+    "A little character on your Mac who does 232 tasks for you Discussion | Link"
+   ],
+   "known": "remotion",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "cubbypad",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: CubbyPad"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/cubbypad",
+    "Launchpad is back on macOS 26, and it's smarter Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "sketch stadium",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: Sketch Stadium"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://sketch.wakeshift.ai/games/q5ucru",
+    "Show HN: Sketch Stadium – watch your agent play Pictionary"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "flyer maker + poster maker",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: Flyer Maker + Poster Maker"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/flyer-maker-poster-maker/id1337666644?uo=2",
+    "Create a flyer in minutes with flyer maker. 35000+ flyer templates. No design skills required. Quick & easy to use. • Need stunning promotional flyers but lack design skills? • Struggling with expensi"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "ppt skill",
+   "kinds": [
+    "x"
+   ],
+   "signals": [
+    "X 1 个账号 ♥117"
+   ],
+   "examples": [
+    "@op7418: 这次给 Deepseek Harness 做的这个新插件 dsh-guizang-design，旧的 PPT Skill 也进行了很多优化。 如果你已经安装过其"
+   ],
+   "variants": [],
+   "posts": [
+    {
+     "account": "op7418",
+     "text": "这次给 Deepseek Harness 做的这个新插件 dsh-guizang-design，旧的 PPT Skill 也进行了很多优化。 如果你已经安装过其中的几个 Skill 的话，建议更新一下 这个插件内置的几个 Skill，比如 PPT Skill、社交媒体卡片 Skill 都获得了更新。 比如 PPT Skill 那个杂志风格的 WebGL 背景加回来了，而且大幅优化了性能，不会再因为这个东西变得卡顿发热了",
+     "url": "https://x.com/op7418/status/2116357353566302376",
+     "likes": 117
+    }
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "cloudcorprecords",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 30 处 (×25.7)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.4
+  },
+  {
+   "term": "io.github.find",
    "kinds": [
     "sitemap"
    ],
@@ -1040,15 +775,95 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.2
+   "named": 0.4
   },
   {
-   "term": "genpark reasoning",
+   "term": "connectors io.github.changzhiai",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 10 处 (×10.0)"
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.4
+  },
+  {
+   "term": "connectors za.co.aiagenttools",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.4
+  },
+  {
+   "term": "genpark personal",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 18 处 (×15.2)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "macedo",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "gillmacedo",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "cloud",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 33 处 (×7.2)"
    ],
    "examples": [],
    "variants": [],
@@ -1059,183 +874,115 @@
    "named": 0.2
   },
   {
-   "term": "genpark embodied",
+   "term": "records",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 8 处 (×8.0)"
+    "③ 竞品 30 处 (×22.7)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
+   "one_click": null,
+   "named": 0.1
+  },
+  {
+   "term": "corp",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 30 处 (×20.3)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.1
+  },
+  {
+   "term": "personal",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 23 处 (×9.2)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.1
+  },
+  {
+   "term": "technology",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 12 处 (×9.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.1
+  },
+  {
+   "term": "ai video - ai video generator",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: AI Video - AI Video Generator"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/ai-video-ai-video-generator/id6478868302?uo=2",
+    "Create eye-catching videos in seconds with AI Video Generator. Turn your ideas, text, and photos into dynamic AI-generated videos with just a few taps. Upload a photo, enter your idea, or choose a sty"
+   ],
+   "known": "",
+   "format": "video",
    "one_click": null,
    "named": 0.2
   },
   {
-   "term": "genpark quant",
+   "term": "dancehit: ai dance generator",
    "kinds": [
-    "sitemap"
+    "feed"
    ],
    "signals": [
-    "③ 竞品 8 处 (×8.0)"
+    "App Store 新上架"
    ],
-   "examples": [],
+   "examples": [
+    "App Store: DanceHit: AI Dance Generator"
+   ],
    "variants": [],
    "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/dancehit-ai-dance-generator/id6761751034?uo=2",
+    "Turn a photo into an AI dance video with DanceHit. Upload a picture, choose an available dance style, and create an animated video. Explore playful dance effects using selfies, portraits, or pet photo"
+   ],
    "known": "",
-   "format": "text",
+   "format": "video",
    "one_click": null,
    "named": 0.2
   },
   {
-   "term": "essence",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 16 处 (×14.2)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "jonathanngiroux",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 13 处 (×10.5)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "jonathanngiroux star",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 13 处 (×10.5)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "io.github.pooriaarab",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 13 处 (×9.1)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "connectors io.github.pooriaarab",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 13 处 (×9.1)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "io.github.dancerdan15",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 9 处 (×9.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "connectors io.github.dancerdan15",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 9 处 (×9.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "connectors io.github.sumitrmardy",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 10 处 (×8.7)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "alerts",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 13 处 (×7.9)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.0
-  },
-  {
-   "term": "auto dismiss mac os \"allow <app> to find devices on local networks?\"",
+   "term": "a working nintendo in ~1gb of qwen weights",
    "kinds": [
     "feed"
    ],
@@ -1243,21 +990,21 @@
     "Show HN 新上架"
    ],
    "examples": [
-    "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\""
+    "Show HN: A working Nintendo in ~1GB of Qwen weights"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://github.com/johncassil/dontallow",
-    "Show HN: Auto Dismiss Mac OS \"Allow to find devices on local networks?\""
+    "https://github.com/dbreunig/nesformer",
+    "Show HN: A working Nintendo in ~1GB of Qwen weights"
    ],
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.1
+   "named": 0.3
   },
   {
-   "term": "i turned doom into a transformer",
+   "term": "i rebuilt kubernetes for esp32 microcontrollers",
    "kinds": [
     "feed"
    ],
@@ -1265,21 +1012,21 @@
     "Show HN 新上架"
    ],
    "examples": [
-    "Show HN: I Turned DOOM into a Transformer"
+    "Show HN: I rebuilt Kubernetes for ESP32 microcontrollers"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://github.com/mottopanikeiku/doomformer",
-    "Show HN: I Turned DOOM into a Transformer"
+    "https://github.com/arterialist/kube32",
+    "Show HN: I rebuilt Kubernetes for ESP32 microcontrollers"
    ],
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.1
+   "named": 0.3
   },
   {
-   "term": "a proof-of-concept formalization of the irs federal tax forms",
+   "term": "to honor sir patrick stewart, enjoy the tng episode guessing game",
    "kinds": [
     "feed"
    ],
@@ -1287,13 +1034,35 @@
     "Show HN 新上架"
    ],
    "examples": [
-    "Show HN: A proof-of-concept formalization of the IRS federal tax forms"
+    "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://github.com/emmilco/us-tax-model",
-    "Show HN: A proof-of-concept formalization of the IRS federal tax forms"
+    "https://tng.episodle.com/",
+    "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.1
+  },
+  {
+   "term": "i built a multiplayer game where you're an aerial fighter cat",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: I built a multiplayer game where you're an aerial fighter cat"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://catcopter.com",
+    "Show HN: I built a multiplayer game where you're an aerial fighter cat"
    ],
    "known": "",
    "format": "text",
@@ -1309,193 +1078,54 @@
   "first_run": false,
   "terms": [
    {
-    "term": "3d make",
+    "term": "ppt skill",
     "sources": [
-     "Kimi_Moonshot",
-     "TeksEdge"
+     "op7418"
     ],
-    "likes": 2524,
+    "likes": 117,
     "examples": [
-     "@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t",
-     "@TeksEdge: Ah yes, the world you build can live on your PC using Kimi’s new 3D Make. LLMs u"
+     "@op7418: 这次给 Deepseek Harness 做的这个新插件 dsh-guizang-design，旧的 PPT Skill 也进行了很多优化。 如果你已经安装过其"
     ],
     "posts": [
      {
-      "account": "Kimi_Moonshot",
-      "text": "Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools to create models, assemble scenes, and develop games. Available now on https://t.co/Q150OaO4ww and Kimi Work. https://t.co/pwmv4Ccn00",
-      "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570",
-      "likes": 2518
-     },
-     {
-      "account": "TeksEdge",
-      "text": "Ah yes, the world you build can live on your PC using Kimi’s new 3D Make. LLMs use tools to build worlds, not code or framegen. Describe a scene, and Kimi can use code and tools to build it 🌀 Blender for geometry, materials and lighting 📐 CAD tools for dimensioned parts 🧊 3D generators for characters and complex assets 🎮 Game engines for scenes and gameplay With Kimi Work or Code, it can operate locally installed software and iterate on projects stored on your computer. Prompt → editable assets + code → your hardware renders the scene. This isn’t local Kimi inference. Creation and AI-assisted edits still depend on its service. Physics, believable motion and polished visuals still need work. But an editable project running on your hardware is a meaningful outcome. AI builds the world. Your machine runs it. https://t.co/eNm4qwkMfS",
-      "url": "https://x.com/TeksEdge/status/2116070097953624109",
-      "likes": 6
-     }
-    ],
-    "recent": 2,
-    "note": "X 2 个账号 ♥2524"
-   },
-   {
-    "term": "claude code vs",
-    "sources": [
-     "cursor_ai"
-    ],
-    "likes": 4478,
-    "examples": [
-     "@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten"
-    ],
-    "posts": [
-     {
-      "account": "cursor_ai",
-      "text": "We identified a security incident affecting a modified Claude Code VS Code extension accessed through our Cursor IDE extension marketplace, impacting at most 5,000 users. This malicious version of the extension was not developed by Anthropic. It does not impact other extensions downloaded from the https://t.co/sJRGX5jLXW, Grok Bot, Grok or our other SpaceXSI products. In response, we took down our extension marketplace this afternoon, worked with relevant providers to neutralize the malware, and have reinstated the marketplace after confirming there is no further risk. If affected, please review instructions in this blog post to understand how to find the malicious package and establish a path to mitigate any potential impact. We are asking all customers update to Claude Code for VS Code version 2.1.314: https://t.co/ESqf7YEtHZ",
-      "url": "https://x.com/cursor_ai/status/2116074289053175808",
-      "likes": 4478
+      "account": "op7418",
+      "text": "这次给 Deepseek Harness 做的这个新插件 dsh-guizang-design，旧的 PPT Skill 也进行了很多优化。 如果你已经安装过其中的几个 Skill 的话，建议更新一下 这个插件内置的几个 Skill，比如 PPT Skill、社交媒体卡片 Skill 都获得了更新。 比如 PPT Skill 那个杂志风格的 WebGL 背景加回来了，而且大幅优化了性能，不会再因为这个东西变得卡顿发热了",
+      "url": "https://x.com/op7418/status/2116357353566302376",
+      "likes": 117
      }
     ],
     "recent": 1,
-    "note": "X 1 个账号 ♥4478"
+    "note": "X 1 个账号 ♥117"
    },
    {
-    "term": "code vs code",
+    "term": "webgl",
     "sources": [
-     "cursor_ai"
+     "op7418"
     ],
-    "likes": 4478,
+    "likes": 117,
     "examples": [
-     "@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten"
+     "@op7418: 这次给 Deepseek Harness 做的这个新插件 dsh-guizang-design，旧的 PPT Skill 也进行了很多优化。 如果你已经安装过其"
     ],
     "posts": [
      {
-      "account": "cursor_ai",
-      "text": "We identified a security incident affecting a modified Claude Code VS Code extension accessed through our Cursor IDE extension marketplace, impacting at most 5,000 users. This malicious version of the extension was not developed by Anthropic. It does not impact other extensions downloaded from the https://t.co/sJRGX5jLXW, Grok Bot, Grok or our other SpaceXSI products. In response, we took down our extension marketplace this afternoon, worked with relevant providers to neutralize the malware, and have reinstated the marketplace after confirming there is no further risk. If affected, please review instructions in this blog post to understand how to find the malicious package and establish a path to mitigate any potential impact. We are asking all customers update to Claude Code for VS Code version 2.1.314: https://t.co/ESqf7YEtHZ",
-      "url": "https://x.com/cursor_ai/status/2116074289053175808",
-      "likes": 4478
+      "account": "op7418",
+      "text": "这次给 Deepseek Harness 做的这个新插件 dsh-guizang-design，旧的 PPT Skill 也进行了很多优化。 如果你已经安装过其中的几个 Skill 的话，建议更新一下 这个插件内置的几个 Skill，比如 PPT Skill、社交媒体卡片 Skill 都获得了更新。 比如 PPT Skill 那个杂志风格的 WebGL 背景加回来了，而且大幅优化了性能，不会再因为这个东西变得卡顿发热了",
+      "url": "https://x.com/op7418/status/2116357353566302376",
+      "likes": 117
      }
     ],
     "recent": 1,
-    "note": "X 1 个账号 ♥4478"
-   },
-   {
-    "term": "cursor ide",
-    "sources": [
-     "cursor_ai"
-    ],
-    "likes": 4478,
-    "examples": [
-     "@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten"
-    ],
-    "posts": [
-     {
-      "account": "cursor_ai",
-      "text": "We identified a security incident affecting a modified Claude Code VS Code extension accessed through our Cursor IDE extension marketplace, impacting at most 5,000 users. This malicious version of the extension was not developed by Anthropic. It does not impact other extensions downloaded from the https://t.co/sJRGX5jLXW, Grok Bot, Grok or our other SpaceXSI products. In response, we took down our extension marketplace this afternoon, worked with relevant providers to neutralize the malware, and have reinstated the marketplace after confirming there is no further risk. If affected, please review instructions in this blog post to understand how to find the malicious package and establish a path to mitigate any potential impact. We are asking all customers update to Claude Code for VS Code version 2.1.314: https://t.co/ESqf7YEtHZ",
-      "url": "https://x.com/cursor_ai/status/2116074289053175808",
-      "likes": 4478
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥4478"
-   },
-   {
-    "term": "introducing 3d make",
-    "sources": [
-     "Kimi_Moonshot"
-    ],
-    "likes": 2518,
-    "examples": [
-     "@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t"
-    ],
-    "posts": [
-     {
-      "account": "Kimi_Moonshot",
-      "text": "Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools to create models, assemble scenes, and develop games. Available now on https://t.co/Q150OaO4ww and Kimi Work. https://t.co/pwmv4Ccn00",
-      "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570",
-      "likes": 2518
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥2518"
-   },
-   {
-    "term": "introducing 3d",
-    "sources": [
-     "Kimi_Moonshot"
-    ],
-    "likes": 2518,
-    "examples": [
-     "@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t"
-    ],
-    "posts": [
-     {
-      "account": "Kimi_Moonshot",
-      "text": "Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools to create models, assemble scenes, and develop games. Available now on https://t.co/Q150OaO4ww and Kimi Work. https://t.co/pwmv4Ccn00",
-      "url": "https://x.com/Kimi_Moonshot/status/2116005725814280570",
-      "likes": 2518
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥2518"
-   },
-   {
-    "term": "nothingbutnet",
-    "sources": [
-     "swyx"
-    ],
-    "likes": 146,
-    "examples": [
-     "@swyx: excited for @Cloudflare's debut as a frontier lab #NothingButNET gang, assemble!"
-    ],
-    "posts": [
-     {
-      "account": "swyx",
-      "text": "excited for @Cloudflare's debut as a frontier lab #NothingButNET gang, assemble!",
-      "url": "https://x.com/swyx/status/2115993441004036131",
-      "likes": 146
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥146"
+    "note": "X 1 个账号 ♥117"
    }
   ],
-  "seconds": 42
+  "seconds": 35
  },
  "hf": {
   "first_run": false,
-  "terms": [
-   {
-    "term": "protectbirds",
-    "rank": 34,
-    "copies": 1,
-    "examples": [
-     "AimeeBingmouQu/ProtectBirds (docker, ♥1144)"
-    ],
-    "recent": 1,
-    "note": "HF Spaces 新进榜第 34 名"
-   },
-   {
-    "term": "harness lens",
-    "rank": 43,
-    "copies": 1,
-    "examples": [
-     "harness-hub/harness-lens (docker, ♥40)"
-    ],
-    "recent": 1,
-    "note": "HF Spaces 新进榜第 43 名"
-   },
-   {
-    "term": "idol",
-    "rank": 44,
-    "copies": 1,
-    "examples": [
-     "speridlabs/idol (gradio, ♥20)"
-    ],
-    "recent": 1,
-    "note": "HF Spaces 新进榜第 44 名"
-   }
-  ],
+  "terms": [],
   "models": 100,
   "spaces": 100,
-  "seconds": 0
+  "seconds": 1
  },
  "breakout": {
   "searched": 200,
@@ -1505,296 +1135,311 @@
     "repo": "Gathin23/cleanyourtv",
     "owner": "Gathin23",
     "name": "cleanyourtv",
-    "stars": 46173,
-    "velocity": 3491,
-    "delta": 5435,
-    "age_days": 13.2,
+    "stars": 47406,
+    "velocity": 3334,
+    "delta": 1233,
+    "age_days": 14.2,
     "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
     "new": false
    },
    {
-    "repo": "unclebob/ub-mode",
-    "owner": "unclebob",
-    "name": "ub-mode",
-    "stars": 5179,
-    "velocity": 1057,
-    "delta": 3520,
-    "age_days": 4.9,
-    "description": "",
-    "new": false
-   },
-   {
-    "repo": "Zagitta/gpu-unlock",
-    "owner": "Zagitta",
-    "name": "gpu-unlock",
-    "stars": 13344,
-    "velocity": 1067,
-    "delta": 2604,
-    "age_days": 12.5,
-    "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughp",
-    "new": false
-   },
-   {
-    "repo": "rddmwmddr/android-ad-cleaner",
-    "owner": "rddmwmddr",
-    "name": "android-ad-cleaner",
-    "stars": 4975,
-    "velocity": 785,
-    "delta": 2043,
-    "age_days": 6.3,
-    "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
-    "new": false
-   },
-   {
-    "repo": "deepseek-ai/DeepInfer",
-    "owner": "deepseek-ai",
-    "name": "DeepInfer",
-    "stars": 24426,
-    "velocity": 1715,
-    "delta": 1128,
-    "age_days": 14.2,
-    "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-    "new": false
-   },
-   {
-    "repo": "amosblomqvist/learnharness",
-    "owner": "amosblomqvist",
-    "name": "learnharness",
-    "stars": 4167,
-    "velocity": 303,
-    "delta": 1486,
-    "age_days": 13.8,
-    "description": "Agent harness for learning difficult things.",
-    "new": false
-   },
-   {
-    "repo": "LNPANDY/NX2Apple",
-    "owner": "LNPANDY",
-    "name": "NX2Apple",
-    "stars": 2165,
-    "velocity": 221,
-    "delta": 1482,
-    "age_days": 9.8,
-    "description": "Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Brin",
+    "repo": "wangzan101/Mika",
+    "owner": "wangzan101",
+    "name": "Mika",
+    "stars": 2209,
+    "velocity": 1130,
+    "delta": 1821,
+    "age_days": 2.0,
+    "description": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things don",
     "new": true,
     "variants": [
-     "nx2apple",
-     "lnpandy nx2apple",
-     "lnp nx2apple"
+     "mika",
+     "wangzan101 mika",
+     "wangzan mika"
     ]
    },
    {
-    "repo": "pengchujin/aerial-tv",
-    "owner": "pengchujin",
-    "name": "aerial-tv",
-    "stars": 7970,
-    "velocity": 783,
-    "delta": 1386,
-    "age_days": 10.2,
-    "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-    "new": false
-   },
-   {
-    "repo": "Jakeschincariol/day-trader-skill",
-    "owner": "Jakeschincariol",
-    "name": "day-trader-skill",
-    "stars": 3463,
-    "velocity": 347,
-    "delta": 1257,
-    "age_days": 10.0,
-    "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay e",
+    "repo": "ccch1mneyyy/dsh-Go",
+    "owner": "ccch1mneyyy",
+    "name": "dsh-Go",
+    "stars": 3266,
+    "velocity": 525,
+    "delta": 1431,
+    "age_days": 6.2,
+    "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
     "new": true,
     "variants": [
-     "day trader skill",
-     "jakeschincariol day trader skill",
-     "jake day trader skill"
+     "dsh go",
+     "ccch1mneyyy dsh go",
+     "chimney dsh go"
     ]
    },
    {
-    "repo": "xiaoyang111222/cn-math-taxonomy",
-    "owner": "xiaoyang111222",
-    "name": "cn-math-taxonomy",
-    "stars": 5443,
-    "velocity": 447,
-    "delta": 1252,
-    "age_days": 12.2,
-    "description": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
+    "repo": "heydamir/unslop",
+    "owner": "heydamir",
+    "name": "unslop",
+    "stars": 2516,
+    "velocity": 1319,
+    "delta": null,
+    "age_days": 1.9,
+    "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+    "new": true,
+    "variants": [
+     "unslop",
+     "heydamir unslop",
+     "damir unslop"
+    ]
+   },
+   {
+    "repo": "valentderah/totk-pc-recomp",
+    "owner": "valentderah",
+    "name": "totk-pc-recomp",
+    "stars": 2145,
+    "velocity": 1052,
+    "delta": 1115,
+    "age_days": 2.0,
+    "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game",
     "new": false
    },
    {
     "repo": "anhao/ai-pose-gallery-zh",
     "owner": "anhao",
     "name": "ai-pose-gallery-zh",
-    "stars": 3786,
-    "velocity": 1241,
-    "delta": null,
-    "age_days": 3.1,
+    "stars": 4447,
+    "velocity": 1099,
+    "delta": 661,
+    "age_days": 4.0,
     "description": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
-    "new": true,
-    "variants": [
-     "ai pose gallery zh",
-     "anhao ai pose gallery zh"
-    ]
-   },
-   {
-    "repo": "designfuchen/word-atlas",
-    "owner": "designfuchen",
-    "name": "word-atlas",
-    "stars": 3323,
-    "velocity": 637,
-    "delta": 1080,
-    "age_days": 5.2,
-    "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.",
     "new": false
    },
    {
-    "repo": "valentderah/totk-pc-recomp",
-    "owner": "valentderah",
-    "name": "totk-pc-recomp",
-    "stars": 1030,
-    "velocity": 985,
+    "repo": "Zagitta/gpu-unlock",
+    "owner": "Zagitta",
+    "name": "gpu-unlock",
+    "stars": 13668,
+    "velocity": 1012,
+    "delta": 324,
+    "age_days": 13.5,
+    "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughp",
+    "new": false
+   },
+   {
+    "repo": "unclebob/ub-mode",
+    "owner": "unclebob",
+    "name": "ub-mode",
+    "stars": 5530,
+    "velocity": 939,
+    "delta": 351,
+    "age_days": 5.9,
+    "description": "",
+    "new": false
+   },
+   {
+    "repo": "kevinraymond/florilegium",
+    "owner": "kevinraymond",
+    "name": "florilegium",
+    "stars": 988,
+    "velocity": 799,
     "delta": null,
-    "age_days": 1.0,
-    "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game",
+    "age_days": 1.2,
+    "description": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua",
     "new": true,
     "variants": [
-     "totk pc recomp",
-     "valentderah totk pc recomp",
-     "valiantsin totk pc recomp"
+     "florilegium",
+     "kevinraymond florilegium"
+    ]
+   },
+   {
+    "repo": "pengchujin/aerial-tv",
+    "owner": "pengchujin",
+    "name": "aerial-tv",
+    "stars": 8241,
+    "velocity": 737,
+    "delta": 271,
+    "age_days": 11.2,
+    "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+    "new": false
+   },
+   {
+    "repo": "rddmwmddr/android-ad-cleaner",
+    "owner": "rddmwmddr",
+    "name": "android-ad-cleaner",
+    "stars": 5275,
+    "velocity": 720,
+    "delta": 300,
+    "age_days": 7.3,
+    "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+    "new": false
+   },
+   {
+    "repo": "paipiange/nvzhuang",
+    "owner": "paipiange",
+    "name": "nvzhuang",
+    "stars": 1550,
+    "velocity": 672,
+    "delta": 663,
+    "age_days": 2.3,
+    "description": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+    "new": true,
+    "variants": [
+     "nvzhuang",
+     "paipiange nvzhuang"
     ]
    },
    {
     "repo": "interplains/Zero-Breach-Toolkit",
     "owner": "interplains",
     "name": "Zero-Breach-Toolkit",
-    "stars": 3760,
-    "velocity": 759,
-    "delta": null,
-    "age_days": 5.0,
+    "stars": 3949,
+    "velocity": 664,
+    "delta": 189,
+    "age_days": 5.9,
     "description": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phon",
+    "new": false
+   },
+   {
+    "repo": "patch-gg/pixelfx",
+    "owner": "patch-gg",
+    "name": "pixelfx",
+    "stars": 806,
+    "velocity": 629,
+    "delta": null,
+    "age_days": 1.3,
+    "description": "232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
     "new": true,
     "variants": [
-     "zero breach toolkit",
-     "interplains zero breach toolkit",
-     "archivegenocide zero breach toolkit"
+     "pixelfx",
+     "patch-gg pixelfx"
     ]
    },
    {
     "repo": "JustAResearcher/gpu-unlock-ada",
     "owner": "JustAResearcher",
     "name": "gpu-unlock-ada",
-    "stars": 4560,
-    "velocity": 681,
-    "delta": 439,
-    "age_days": 6.7,
+    "stars": 4608,
+    "velocity": 600,
+    "delta": 48,
+    "age_days": 7.7,
     "description": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
     "new": false
    }
   ],
   "terms": [
    {
-    "term": "nx2apple",
+    "term": "mika",
     "recent": 1,
     "variants": [
-     "nx2apple",
-     "lnpandy nx2apple",
-     "lnp nx2apple"
+     "mika",
+     "wangzan101 mika",
+     "wangzan mika"
     ],
-    "repo": "LNPANDY/NX2Apple",
-    "note": "GitHub 爆发 LNPANDY/NX2Apple ★2165(均 221/天,一天 +1482)",
+    "repo": "wangzan101/Mika",
+    "note": "GitHub 爆发 wangzan101/Mika ★2209(均 1130/天,一天 +1821)",
     "examples": [
-     "LNPANDY/NX2Apple: Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Brin"
+     "wangzan101/Mika: Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things don"
     ]
    },
    {
-    "term": "day trader skill",
+    "term": "dsh go",
     "recent": 1,
     "variants": [
-     "day trader skill",
-     "jakeschincariol day trader skill",
-     "jake day trader skill"
+     "dsh go",
+     "ccch1mneyyy dsh go",
+     "chimney dsh go"
     ],
-    "repo": "Jakeschincariol/day-trader-skill",
-    "note": "GitHub 爆发 Jakeschincariol/day-trader-skill ★3463(均 347/天,一天 +1257)",
+    "repo": "ccch1mneyyy/dsh-Go",
+    "note": "GitHub 爆发 ccch1mneyyy/dsh-Go ★3266(均 525/天,一天 +1431)",
     "examples": [
-     "Jakeschincariol/day-trader-skill: 11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay e"
+     "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"
     ]
    },
    {
-    "term": "ai pose gallery zh",
+    "term": "unslop",
     "recent": 1,
     "variants": [
-     "ai pose gallery zh",
-     "anhao ai pose gallery zh"
+     "unslop",
+     "heydamir unslop",
+     "damir unslop"
     ],
-    "repo": "anhao/ai-pose-gallery-zh",
-    "note": "GitHub 爆发 anhao/ai-pose-gallery-zh ★3786(均 1241/天)",
+    "repo": "heydamir/unslop",
+    "note": "GitHub 爆发 heydamir/unslop ★2516(均 1319/天)",
     "examples": [
-     "anhao/ai-pose-gallery-zh: 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
+     "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
     ]
    },
    {
-    "term": "totk pc recomp",
+    "term": "florilegium",
     "recent": 1,
     "variants": [
-     "totk pc recomp",
-     "valentderah totk pc recomp",
-     "valiantsin totk pc recomp"
+     "florilegium",
+     "kevinraymond florilegium"
     ],
-    "repo": "valentderah/totk-pc-recomp",
-    "note": "GitHub 爆发 valentderah/totk-pc-recomp ★1030(均 985/天)",
+    "repo": "kevinraymond/florilegium",
+    "note": "GitHub 爆发 kevinraymond/florilegium ★988(均 799/天)",
     "examples": [
-     "valentderah/totk-pc-recomp: Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game"
+     "kevinraymond/florilegium: Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua"
     ]
    },
    {
-    "term": "zero breach toolkit",
+    "term": "nvzhuang",
     "recent": 1,
     "variants": [
-     "zero breach toolkit",
-     "interplains zero breach toolkit",
-     "archivegenocide zero breach toolkit"
+     "nvzhuang",
+     "paipiange nvzhuang"
     ],
-    "repo": "interplains/Zero-Breach-Toolkit",
-    "note": "GitHub 爆发 interplains/Zero-Breach-Toolkit ★3760(均 759/天)",
+    "repo": "paipiange/nvzhuang",
+    "note": "GitHub 爆发 paipiange/nvzhuang ★1550(均 672/天,一天 +663)",
     "examples": [
-     "interplains/Zero-Breach-Toolkit: Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phon"
+     "paipiange/nvzhuang: 1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang"
+    ]
+   },
+   {
+    "term": "pixelfx",
+    "recent": 1,
+    "variants": [
+     "pixelfx",
+     "patch-gg pixelfx"
+    ],
+    "repo": "patch-gg/pixelfx",
+    "note": "GitHub 爆发 patch-gg/pixelfx ★806(均 629/天)",
+    "examples": [
+     "patch-gg/pixelfx: 232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
     ]
    }
   ],
   "window_days": 14,
-  "seconds": 17
+  "seconds": 6
  },
  "sitemap": {
   "sites": {
    "glama": {
-    "urls": 150318,
-    "new": 3536,
+    "urls": 151283,
+    "new": 1000,
     "first_run": false,
     "sample": [
-     "https://glama.ai/mcp/connectors/.run.mcpize.bintu-web-reader/bintu-web-context",
-     "https://glama.ai/mcp/connectors/actor.apify.hexadatalabs--business-validation-tools-mcp/hexadata-tools",
-     "https://glama.ai/mcp/connectors/ai.ad8.app/ad8",
-     "https://glama.ai/mcp/connectors/ai.aeoengine/best-ai-search-agency-aeo-report",
-     "https://glama.ai/mcp/connectors/ai.aiphotoanimator/ai-photo-animator",
-     "https://glama.ai/mcp/connectors/ai.aiphotoanimator/photo-animator",
-     "https://glama.ai/mcp/connectors/ai.aisma/aisma",
-     "https://glama.ai/mcp/connectors/ai.akaphone/akaphone"
+     "https://glama.ai/mcp/connectors/agency.thirdhemisphere/ai-authority-index",
+     "https://glama.ai/mcp/connectors/ai.agentplaybooks/agent-playbooks",
+     "https://glama.ai/mcp/connectors/ai.agentplaybooks/agentplaybooks",
+     "https://glama.ai/mcp/connectors/ai.ahel/ahel",
+     "https://glama.ai/mcp/connectors/ai.aldro/tax",
+     "https://glama.ai/mcp/connectors/ai.alvinsclub.studio/seo",
+     "https://glama.ai/mcp/connectors/ai.artil.mcp/artil-email-sms-and-messaging-for-ai-agents",
+     "https://glama.ai/mcp/connectors/ai.artil/artil"
     ]
    },
    "mcp.so": {
-    "urls": 19762,
-    "new": 56,
+    "urls": 19781,
+    "new": 28,
     "first_run": false,
     "sample": [
-     "https://mcp.so/agents/ai-rap-videos",
-     "https://mcp.so/agents/pixquill",
-     "https://mcp.so/clients/vaiz-mcp-server-98827e",
-     "https://mcp.so/servers/aguasto-research",
-     "https://mcp.so/servers/ahasend-email-api-smtp-relay",
-     "https://mcp.so/servers/anry",
-     "https://mcp.so/servers/backlane",
-     "https://mcp.so/servers/best-ai-search-agency-aeo-report"
+     "https://mcp.so/servers/aident-skill",
+     "https://mcp.so/servers/artil-email-sms-messaging-for-ai-agents",
+     "https://mcp.so/servers/ball-ranks-fantasy-sports-7b79af",
+     "https://mcp.so/servers/data-market",
+     "https://mcp.so/servers/datetime-mcp-server",
+     "https://mcp.so/servers/fastsocial-instagram-data",
+     "https://mcp.so/servers/ghostedit",
+     "https://mcp.so/servers/google-custom-search-mcp"
     ]
    },
    "lobehub-mcp": {
@@ -1823,38 +1468,31 @@
    },
    "ai-bot.cn": {
     "urls": 5068,
-    "new": 17,
+    "new": 4,
     "first_run": false,
     "sample": [
-     "https://ai-bot.cn/buddy-one/",
-     "https://ai-bot.cn/cindy/",
-     "https://ai-bot.cn/dbwork-infinite-canvas-review/",
-     "https://ai-bot.cn/gemini-4-carbon/",
-     "https://ai-bot.cn/genie-4/",
-     "https://ai-bot.cn/genspark-media-studio/",
-     "https://ai-bot.cn/ielts-writing-practice/",
-     "https://ai-bot.cn/kimi-k3-1-pro-benchmark-comparison/"
+     "https://ai-bot.cn/go-3-preview/",
+     "https://ai-bot.cn/helixharness/",
+     "https://ai-bot.cn/sites/88796.html",
+     "https://ai-bot.cn/thinkrail/"
     ]
    },
    "opentools": {
-    "urls": 7010,
-    "new": 0,
-    "first_run": false,
-    "sample": []
-   },
-   "dang": {
-    "urls": 7837,
-    "new": 22,
+    "urls": 7012,
+    "new": 2,
     "first_run": false,
     "sample": [
-     "https://dang.ai/tool/adlabs-ppc",
-     "https://dang.ai/tool/call-your-girlfriend-ai-girlfriend-app-reviews",
-     "https://dang.ai/tool/canary-speech",
-     "https://dang.ai/tool/canny",
-     "https://dang.ai/tool/chong-zhen-chatgpt-recharge-plus-pro-chatgpt-plus-pro-recharge-service",
-     "https://dang.ai/tool/convertlyft-web-analytics-with-ai-insights",
-     "https://dang.ai/tool/doremi-text-to-music-ai",
-     "https://dang.ai/tool/hi3d"
+     "https://opentools.ai/tools/adgentek-ad-server",
+     "https://opentools.ai/tools/ai-companion-matcher-quiz"
+    ]
+   },
+   "dang": {
+    "urls": 7820,
+    "new": 2,
+    "first_run": false,
+    "sample": [
+     "https://dang.ai/tool/musicmv-ai-music-video-generator",
+     "https://dang.ai/tool/telewizard-ai-phone-agent"
     ]
    },
    "clipfly": {
@@ -1864,182 +1502,176 @@
     "sample": []
    },
    "aitoptools": {
-    "urls": 11869,
-    "new": 14,
+    "urls": 11871,
+    "new": 4,
     "first_run": false,
     "sample": [
-     "https://aitoptools.com/ai-blog/10-leading-vendors-for-ai-powered-software-factories/",
-     "https://aitoptools.com/ai-blog/5-best-omnichannel-ai-customer-service-agents-in-2026/",
-     "https://aitoptools.com/ai-blog/6-tools-for-validating-ai-generated-code-before-it-reaches-production/",
-     "https://aitoptools.com/ai-blog/9-best-akamai-cdn-alternatives-for-2026/",
-     "https://aitoptools.com/tool/chat-bots-compared/",
-     "https://aitoptools.com/tool/cleansmart/",
-     "https://aitoptools.com/tool/clickme-porn/",
-     "https://aitoptools.com/tool/clonecut/"
+     "https://aitoptools.com/tool/ai-trainer-guide/",
+     "https://aitoptools.com/tool/hot-muses-universe/",
+     "https://aitoptools.com/tool/kurodyne/",
+     "https://aitoptools.com/tool/seedance-2-5-4/"
     ]
    },
    "futurepedia": {
     "urls": 2499,
-    "new": 1,
+    "new": 0,
     "first_run": false,
-    "sample": [
-     "https://www.futurepedia.io/tool/continuas"
-    ]
+    "sample": []
    }
   },
   "terms": [
    {
-    "term": "io.github.donniertf",
-    "recent": 94,
+    "term": "cloudcorprecords",
+    "recent": 30,
+    "baseline": 33,
+    "lift": 25.7
+   },
+   {
+    "term": "records",
+    "recent": 30,
+    "baseline": 64,
+    "lift": 22.7
+   },
+   {
+    "term": "corp",
+    "recent": 30,
+    "baseline": 95,
+    "lift": 20.3
+   },
+   {
+    "term": "io.usefulapi",
+    "recent": 59,
+    "baseline": 495,
+    "lift": 16.9
+   },
+   {
+    "term": "connectors io.usefulapi",
+    "recent": 59,
+    "baseline": 495,
+    "lift": 16.9
+   },
+   {
+    "term": "genpark personal",
+    "recent": 18,
+    "baseline": 37,
+    "lift": 15.2
+   },
+   {
+    "term": "io.github.theguysaccount",
+    "recent": 15,
     "baseline": 1,
-    "lift": 92.3
+    "lift": 14.9
    },
    {
-    "term": "connectors io.github.donniertf",
-    "recent": 94,
+    "term": "connectors io.github.theguysaccount",
+    "recent": 15,
     "baseline": 1,
-    "lift": 92.3
+    "lift": 14.9
    },
    {
-    "term": "io.github.donniertf hub",
-    "recent": 94,
-    "baseline": 1,
-    "lift": 92.3
-   },
-   {
-    "term": "openclaw genpark",
-    "recent": 19,
-    "baseline": 0,
-    "lift": 19.0
-   },
-   {
-    "term": "alphaparkinc openclaw",
-    "recent": 17,
-    "baseline": 0,
-    "lift": 17.0
-   },
-   {
-    "term": "essence",
-    "recent": 16,
-    "baseline": 7,
-    "lift": 14.2
+    "term": "io.github.kriton",
+    "recent": 14,
+    "baseline": 12,
+    "lift": 13.2
    },
    {
     "term": "connectors io.github.kriton",
-    "recent": 12,
-    "baseline": 0,
-    "lift": 12.0
+    "recent": 14,
+    "baseline": 12,
+    "lift": 13.2
    },
    {
     "term": "io.github.kriton dev",
+    "recent": 14,
+    "baseline": 12,
+    "lift": 13.2
+   },
+   {
+    "term": "connectors io.github.finddatatechnology",
+    "recent": 11,
+    "baseline": 0,
+    "lift": 11.0
+   },
+   {
+    "term": "io.github.find",
+    "recent": 11,
+    "baseline": 0,
+    "lift": 11.0
+   },
+   {
+    "term": "personal",
+    "recent": 23,
+    "baseline": 299,
+    "lift": 9.2
+   },
+   {
+    "term": "technology",
     "recent": 12,
-    "baseline": 0,
-    "lift": 12.0
-   },
-   {
-    "term": "com.crakseo",
-    "recent": 11,
-    "baseline": 0,
-    "lift": 11.0
-   },
-   {
-    "term": "connectors com.crakseo",
-    "recent": 11,
-    "baseline": 0,
-    "lift": 11.0
-   },
-   {
-    "term": "jonathanngiroux",
-    "recent": 13,
-    "baseline": 13,
-    "lift": 10.5
-   },
-   {
-    "term": "jonathanngiroux star",
-    "recent": 13,
-    "baseline": 13,
-    "lift": 10.5
-   },
-   {
-    "term": "genpark reasoning",
-    "recent": 10,
-    "baseline": 0,
-    "lift": 10.0
-   },
-   {
-    "term": "io.github.pooriaarab",
-    "recent": 13,
-    "baseline": 24,
-    "lift": 9.1
-   },
-   {
-    "term": "connectors io.github.pooriaarab",
-    "recent": 13,
-    "baseline": 24,
-    "lift": 9.1
-   },
-   {
-    "term": "io.github.dancerdan15",
-    "recent": 9,
-    "baseline": 0,
+    "baseline": 66,
     "lift": 9.0
    },
    {
-    "term": "connectors io.github.dancerdan15",
-    "recent": 9,
-    "baseline": 0,
-    "lift": 9.0
+    "term": "cloud",
+    "recent": 33,
+    "baseline": 713,
+    "lift": 7.2
    },
    {
-    "term": "eclipse technologies",
-    "recent": 10,
+    "term": "connectors io.github.nadaho",
+    "recent": 5,
     "baseline": 7,
-    "lift": 8.9
+    "lift": 4.8
    },
    {
-    "term": "connectors io.github.sumitrmardy",
-    "recent": 10,
-    "baseline": 8,
-    "lift": 8.7
+    "term": "io.github.nada",
+    "recent": 5,
+    "baseline": 7,
+    "lift": 4.8
    },
    {
-    "term": "technologies llc",
-    "recent": 10,
-    "baseline": 9,
-    "lift": 8.6
-   },
-   {
-    "term": "llc eclipse",
-    "recent": 9,
-    "baseline": 3,
-    "lift": 8.5
-   },
-   {
-    "term": "cyan eclipse",
-    "recent": 9,
-    "baseline": 6,
-    "lift": 8.1
-   },
-   {
-    "term": "genpark embodied",
-    "recent": 8,
+    "term": "io.github.changzhiai",
+    "recent": 4,
     "baseline": 0,
-    "lift": 8.0
+    "lift": 4.0
    },
    {
-    "term": "genpark quant",
-    "recent": 8,
+    "term": "connectors io.github.changzhiai",
+    "recent": 4,
     "baseline": 0,
-    "lift": 8.0
+    "lift": 4.0
    },
    {
-    "term": "alerts",
-    "recent": 13,
-    "baseline": 36,
-    "lift": 7.9
+    "term": "connectors za.co.aiagenttools",
+    "recent": 4,
+    "baseline": 0,
+    "lift": 4.0
+   },
+   {
+    "term": "macedo",
+    "recent": 4,
+    "baseline": 0,
+    "lift": 4.0
+   },
+   {
+    "term": "gillmacedo",
+    "recent": 4,
+    "baseline": 0,
+    "lift": 4.0
+   },
+   {
+    "term": "hybridforgelab",
+    "recent": 4,
+    "baseline": 0,
+    "lift": 4.0
+   },
+   {
+    "term": "ottonic",
+    "recent": 4,
+    "baseline": 0,
+    "lift": 4.0
    }
   ],
-  "seconds": 307
+  "seconds": 259
  },
  "newsite": {
   "skipped": true
@@ -2059,517 +1691,445 @@
  "feed": {
   "read": {
    "producthunt": 50,
-   "hn": 9,
-   "openrouter": 6,
+   "hn": 10,
+   "openrouter": 5,
    "appstore": 200,
    "awesome": 4634
   },
   "new": {
    "producthunt": [
     {
-     "key": "https://www.producthunt.com/products/faylee",
-     "name": "Faylee",
-     "url": "https://www.producthunt.com/products/faylee",
-     "about": "Bug reports your coding agent can fix from one link Discussion | Link",
+     "key": "https://www.producthunt.com/products/ski",
+     "name": "SKI",
+     "url": "https://www.producthunt.com/products/ski",
+     "about": "Voice-first coding harness Discussion | Link",
      "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/canva",
-     "name": "Canva Brush",
-     "url": "https://www.producthunt.com/products/canva",
-     "about": "Canva Brush: a vision-language model that edits your designs Discussion | Link",
+     "key": "https://www.producthunt.com/products/awaitio",
+     "name": "AwaitIO",
+     "url": "https://www.producthunt.com/products/awaitio",
+     "about": "Write a TypeScript function, get an admin screen Discussion | Link",
      "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/stepgrab",
-     "name": "StepGrab",
-     "url": "https://www.producthunt.com/products/stepgrab",
-     "about": "Now on Windows, with redaction and a real editor Discussion | Link",
+     "key": "https://www.producthunt.com/products/godwit",
+     "name": "Godwit",
+     "url": "https://www.producthunt.com/products/godwit",
+     "about": "An open-source, AI-native email client Discussion | Link",
      "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/fastbrowse",
-     "name": "fastbrowse",
-     "url": "https://www.producthunt.com/products/fastbrowse",
-     "about": "Fastest open source browser agent Discussion | Link",
+     "key": "https://www.producthunt.com/products/pluto-door",
+     "name": "Pluto Door",
+     "url": "https://www.producthunt.com/products/pluto-door",
+     "about": "SSH client with an AI agent and a desktop for every server Discussion | Link",
      "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/kestrix",
-     "name": "Kestrix",
-     "url": "https://www.producthunt.com/products/kestrix",
-     "about": "Repo-agnostic CI control plane with DAG-based triggers. Discussion | Link",
+     "key": "https://www.producthunt.com/products/agnos",
+     "name": "Agnos",
+     "url": "https://www.producthunt.com/products/agnos",
+     "about": "Clean documents for AI, and see what was removed Discussion | Link",
      "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/nocto",
-     "name": "Nocto",
-     "url": "https://www.producthunt.com/products/nocto",
-     "about": "Your MacBook notch, finally useful Discussion | Link",
+     "key": "https://www.producthunt.com/products/hemmed",
+     "name": "Hemmed",
+     "url": "https://www.producthunt.com/products/hemmed",
+     "about": "Hide Mac menu bar clutter and pin individual actions Discussion | Link",
      "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/speakon",
-     "name": "SpeakON Agent",
-     "url": "https://www.producthunt.com/products/speakon",
-     "about": "Turn natural speech into real work for an agent to complete Discussion | Link",
+     "key": "https://www.producthunt.com/products/specsight",
+     "name": "Specsight",
+     "url": "https://www.producthunt.com/products/specsight",
+     "about": "Product observability for teams shipping fast with AI Discussion | Link",
+     "fresh": false
+    },
+    {
+     "key": "https://www.producthunt.com/products/secret-key",
+     "name": "Secret Key",
+     "url": "https://www.producthunt.com/products/secret-key",
+     "about": "Let your family unlock your passwords if you can't Discussion | Link",
      "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/ilse",
-     "name": "ilse",
-     "url": "https://www.producthunt.com/products/ilse",
-     "about": "Point at your app and your AI agent changes the code Discussion | Link",
-     "fresh": true
+     "key": "https://www.producthunt.com/products/mo-5",
+     "name": "Mo",
+     "url": "https://www.producthunt.com/products/mo-5",
+     "about": "A little character on your Mac who does 232 tasks for you Discussion | Link",
+     "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/isurge",
-     "name": "iSurge",
-     "url": "https://www.producthunt.com/products/isurge",
-     "about": "An activity monitor, at your notch. Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/axonnic",
-     "name": "Axonnic",
-     "url": "https://www.producthunt.com/products/axonnic",
-     "about": "Muscle-sensing sleeves for robot training Discussion | Link",
-     "fresh": true
+     "key": "https://www.producthunt.com/products/cubbypad",
+     "name": "CubbyPad",
+     "url": "https://www.producthunt.com/products/cubbypad",
+     "about": "Launchpad is back on macOS 26, and it's smarter Discussion | Link",
+     "fresh": false
     }
    ],
    "hn": [
     {
-     "key": "50294506",
-     "name": "Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
-     "url": "https://github.com/johncassil/dontallow",
-     "about": "Show HN: Auto Dismiss Mac OS \"Allow to find devices on local networks?\"",
-     "score": 146,
+     "key": "50306442",
+     "name": "A working Nintendo in ~1GB of Qwen weights",
+     "url": "https://github.com/dbreunig/nesformer",
+     "about": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+     "score": 265,
      "fresh": true
     },
     {
-     "key": "50297697",
-     "name": "I Turned DOOM into a Transformer",
-     "url": "https://github.com/mottopanikeiku/doomformer",
-     "about": "Show HN: I Turned DOOM into a Transformer",
-     "score": 111,
+     "key": "50311686",
+     "name": "To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+     "url": "https://tng.episodle.com/",
+     "about": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+     "score": 204,
      "fresh": true
     },
     {
-     "key": "50276883",
-     "name": "SlideBySide",
-     "url": "https://slidebyside.com/",
-     "about": "Show HN: SlideBySide – Present slides without sharing your screen",
+     "key": "50305320",
+     "name": "I built a multiplayer game where you're an aerial fighter cat",
+     "url": "https://catcopter.com",
+     "about": "Show HN: I built a multiplayer game where you're an aerial fighter cat",
      "score": 81,
      "fresh": true
     },
     {
-     "key": "50278678",
-     "name": "A proof-of-concept formalization of the IRS federal tax forms",
-     "url": "https://github.com/emmilco/us-tax-model",
-     "about": "Show HN: A proof-of-concept formalization of the IRS federal tax forms",
-     "score": 78,
+     "key": "50291812",
+     "name": "I rebuilt Kubernetes for ESP32 microcontrollers",
+     "url": "https://github.com/arterialist/kube32",
+     "about": "Show HN: I rebuilt Kubernetes for ESP32 microcontrollers",
+     "score": 46,
      "fresh": true
     },
     {
-     "key": "50300618",
-     "name": "Arsaze",
-     "url": "https://www.arsaze.com",
-     "about": "Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)",
-     "score": 60,
-     "fresh": true
-    },
-    {
-     "key": "50287255",
-     "name": "UK Farming Simulator",
-     "url": "https://butterbean.farm/",
-     "about": "Show HN: UK Farming Simulator",
-     "score": 42,
-     "fresh": true
-    },
-    {
-     "key": "50293115",
-     "name": "Overtone",
-     "url": "https://github.com/lonthq/overtone-captions",
-     "about": "Show HN: Overtone – Transcribe, correct and cut captions for any screen shape",
-     "score": 41,
-     "fresh": true
-    },
-    {
-     "key": "50274300",
-     "name": "Yavashark",
-     "url": "https://yavashark.dev/blog/announcing-yavashark/",
-     "about": "Show HN: Yavashark: I've Built a JavaScript Engine Every Day for 950 Days",
-     "score": 38,
-     "fresh": true
-    },
-    {
-     "key": "50299004",
-     "name": "Lasm",
-     "url": "https://github.com/Millillion/lasm",
-     "about": "Show HN: Lasm – Write formally verified webapps in Lean for Node/serverless/edge",
-     "score": 33,
+     "key": "50305218",
+     "name": "Sketch Stadium",
+     "url": "https://sketch.wakeshift.ai/games/q5ucru",
+     "about": "Show HN: Sketch Stadium – watch your agent play Pictionary",
+     "score": 35,
      "fresh": true
     }
    ],
-   "openrouter": [
+   "openrouter": [],
+   "appstore": [
     {
-     "key": "particle-ai/particle-1",
-     "name": "Particle-1",
-     "url": "https://openrouter.ai/particle-ai/particle-1",
-     "about": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and",
-     "fresh": true
+     "key": "6478868302",
+     "name": "AI Video - AI Video Generator",
+     "url": "https://apps.apple.com/us/app/ai-video-ai-video-generator/id6478868302?uo=2",
+     "about": "Create eye-catching videos in seconds with AI Video Generator. Turn your ideas, text, and photos into dynamic AI-generated videos with just a few taps. Upload a photo, enter your idea, or choose a sty"
     },
     {
-     "key": "openai/gpt-6.1-terra-pro",
-     "name": "GPT-6.1 Terra Pro",
-     "url": "https://openrouter.ai/openai/gpt-6.1-terra-pro",
-     "about": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. ",
-     "fresh": true
+     "key": "6761751034",
+     "name": "DanceHit: AI Dance Generator",
+     "url": "https://apps.apple.com/us/app/dancehit-ai-dance-generator/id6761751034?uo=2",
+     "about": "Turn a photo into an AI dance video with DanceHit. Upload a picture, choose an available dance style, and create an animated video. Explore playful dance effects using selfies, portraits, or pet photo"
     },
     {
-     "key": "openai/gpt-6.1-terra-pro:batch",
-     "name": "GPT-6.1 Terra Pro (batch)",
-     "url": "https://openrouter.ai/openai/gpt-6.1-terra-pro:batch",
-     "about": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. ",
-     "fresh": true
+     "key": "863844475",
+     "name": "YouCam Makeup: Face Editor",
+     "url": "https://apps.apple.com/us/app/youcam-makeup-face-editor/id863844475?uo=2",
+     "about": "*All images on this page were enhanced with AI YouCam Makeup is your all-in-one face editor, makeup app, and beauty cam. Retouch photos and videos with makeup, face, hair, and body tools, from daily l"
     },
     {
-     "key": "openai/gpt-6.1-terra",
-     "name": "GPT-6.1 Terra",
-     "url": "https://openrouter.ai/openai/gpt-6.1-terra",
-     "about": "GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screensho",
-     "fresh": true
+     "key": "6444888896",
+     "name": "AI Mirror: AI Photo Editor",
+     "url": "https://apps.apple.com/us/app/ai-mirror-ai-photo-editor/id6444888896?uo=2",
+     "about": "AI Mirror — the best AI photo editor and video creator. Transform your photos and videos with hundreds of AI filters, trending style effects, and powerful editing tools. NEW: AI Better — your personal"
     },
     {
-     "key": "openai/gpt-6.1-terra:batch",
-     "name": "GPT-6.1 Terra (batch)",
-     "url": "https://openrouter.ai/openai/gpt-6.1-terra:batch",
-     "about": "GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screensho",
-     "fresh": true
+     "key": "1337666644",
+     "name": "Flyer Maker + Poster Maker",
+     "url": "https://apps.apple.com/us/app/flyer-maker-poster-maker/id1337666644?uo=2",
+     "about": "Create a flyer in minutes with flyer maker. 35000+ flyer templates. No design skills required. Quick & easy to use. • Need stunning promotional flyers but lack design skills? • Struggling with expensi"
     },
     {
-     "key": "moonshotai/kimi-k3.1-pro",
-     "name": "Kimi K3.1 Pro",
-     "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
-     "about": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D...",
-     "fresh": true
+     "key": "6779853381",
+     "name": "AI Video Generator & AI Editor",
+     "url": "https://apps.apple.com/us/app/ai-video-generator-ai-editor/id6779853381?uo=2",
+     "about": "Create stunning videos in minutes with AI Video Generator & Video AI. Turn text into video, transform photos into animated clips, and bring your creative ideas to life with an intuitive all-in-one vid"
+    },
+    {
+     "key": "1484584645",
+     "name": "Kemo",
+     "url": "https://apps.apple.com/us/app/kemo/id1484584645?uo=2",
+     "about": "- Easy to set up your devices in the Kemo App. - Get instant messages when visitors press the doorbell or trigger the PIR motion sensors. - Monitor your home in high definition video. See, hear, and s"
     }
-   ]
+   ],
+   "awesome": []
   },
-  "first_run": [
-   "producthunt",
-   "hn",
-   "openrouter",
-   "appstore",
-   "awesome"
-  ],
+  "first_run": [],
   "errors": [
-   "trending: HTTP 400: {\"error\":{\"code\":\"invalid_arguments\",\"details\":{\"reason\":\"unknown argument /country_code\",\"session_guidance\":\""
+   "trending: HTTP 400: {\"error\":{\"code\":\"invalid_arguments\",\"details\":{\"reason\":\"unknown argument /time_range\",\"session_guidance\":\"Re"
   ],
   "cost_micros": 0,
   "terms": [
    {
-    "term": "faylee",
+    "term": "ski",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/faylee",
-     "Bug reports your coding agent can fix from one link Discussion | Link"
+     "https://www.producthunt.com/products/ski",
+     "Voice-first coding harness Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Faylee"
+     "Product Hunt: SKI"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "canva brush",
+    "term": "awaitio",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/canva",
-     "Canva Brush: a vision-language model that edits your designs Discussion | Link"
+     "https://www.producthunt.com/products/awaitio",
+     "Write a TypeScript function, get an admin screen Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Canva Brush"
+     "Product Hunt: AwaitIO"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "stepgrab",
+    "term": "godwit",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/stepgrab",
-     "Now on Windows, with redaction and a real editor Discussion | Link"
+     "https://www.producthunt.com/products/godwit",
+     "An open-source, AI-native email client Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: StepGrab"
+     "Product Hunt: Godwit"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "fastbrowse",
+    "term": "pluto door",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/fastbrowse",
-     "Fastest open source browser agent Discussion | Link"
+     "https://www.producthunt.com/products/pluto-door",
+     "SSH client with an AI agent and a desktop for every server Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: fastbrowse"
+     "Product Hunt: Pluto Door"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "kestrix",
+    "term": "agnos",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/kestrix",
-     "Repo-agnostic CI control plane with DAG-based triggers. Discussion | Link"
+     "https://www.producthunt.com/products/agnos",
+     "Clean documents for AI, and see what was removed Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Kestrix"
+     "Product Hunt: Agnos"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "nocto",
+    "term": "hemmed",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/nocto",
-     "Your MacBook notch, finally useful Discussion | Link"
+     "https://www.producthunt.com/products/hemmed",
+     "Hide Mac menu bar clutter and pin individual actions Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Nocto"
+     "Product Hunt: Hemmed"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "speakon agent",
+    "term": "specsight",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/speakon",
-     "Turn natural speech into real work for an agent to complete Discussion | Link"
+     "https://www.producthunt.com/products/specsight",
+     "Product observability for teams shipping fast with AI Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: SpeakON Agent"
+     "Product Hunt: Specsight"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "ilse",
+    "term": "secret key",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/ilse",
-     "Point at your app and your AI agent changes the code Discussion | Link"
+     "https://www.producthunt.com/products/secret-key",
+     "Let your family unlock your passwords if you can't Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: ilse"
+     "Product Hunt: Secret Key"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "isurge",
+    "term": "mo",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/isurge",
-     "An activity monitor, at your notch. Discussion | Link"
+     "https://www.producthunt.com/products/mo-5",
+     "A little character on your Mac who does 232 tasks for you Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: iSurge"
+     "Product Hunt: Mo"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "axonnic",
+    "term": "cubbypad",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/axonnic",
-     "Muscle-sensing sleeves for robot training Discussion | Link"
+     "https://www.producthunt.com/products/cubbypad",
+     "Launchpad is back on macOS 26, and it's smarter Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Axonnic"
+     "Product Hunt: CubbyPad"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "auto dismiss mac os \"allow <app> to find devices on local networks?\"",
+    "term": "a working nintendo in ~1gb of qwen weights",
     "recent": 1,
     "about": [
-     "https://github.com/johncassil/dontallow",
-     "Show HN: Auto Dismiss Mac OS \"Allow to find devices on local networks?\""
+     "https://github.com/dbreunig/nesformer",
+     "Show HN: A working Nintendo in ~1GB of Qwen weights"
     ],
     "examples": [
-     "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\""
+     "Show HN: A working Nintendo in ~1GB of Qwen weights"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "i turned doom into a transformer",
+    "term": "to honor sir patrick stewart, enjoy the tng episode guessing game",
     "recent": 1,
     "about": [
-     "https://github.com/mottopanikeiku/doomformer",
-     "Show HN: I Turned DOOM into a Transformer"
+     "https://tng.episodle.com/",
+     "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game"
     ],
     "examples": [
-     "Show HN: I Turned DOOM into a Transformer"
+     "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "slidebyside",
+    "term": "i built a multiplayer game where you're an aerial fighter cat",
     "recent": 1,
     "about": [
-     "https://slidebyside.com/",
-     "Show HN: SlideBySide – Present slides without sharing your screen"
+     "https://catcopter.com",
+     "Show HN: I built a multiplayer game where you're an aerial fighter cat"
     ],
     "examples": [
-     "Show HN: SlideBySide"
+     "Show HN: I built a multiplayer game where you're an aerial fighter cat"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "a proof-of-concept formalization of the irs federal tax forms",
+    "term": "i rebuilt kubernetes for esp32 microcontrollers",
     "recent": 1,
     "about": [
-     "https://github.com/emmilco/us-tax-model",
-     "Show HN: A proof-of-concept formalization of the IRS federal tax forms"
+     "https://github.com/arterialist/kube32",
+     "Show HN: I rebuilt Kubernetes for ESP32 microcontrollers"
     ],
     "examples": [
-     "Show HN: A proof-of-concept formalization of the IRS federal tax forms"
+     "Show HN: I rebuilt Kubernetes for ESP32 microcontrollers"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "arsaze",
+    "term": "sketch stadium",
     "recent": 1,
     "about": [
-     "https://www.arsaze.com",
-     "Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)"
+     "https://sketch.wakeshift.ai/games/q5ucru",
+     "Show HN: Sketch Stadium – watch your agent play Pictionary"
     ],
     "examples": [
-     "Show HN: Arsaze"
+     "Show HN: Sketch Stadium"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "uk farming simulator",
+    "term": "ai video - ai video generator",
     "recent": 1,
     "about": [
-     "https://butterbean.farm/",
-     "Show HN: UK Farming Simulator"
+     "https://apps.apple.com/us/app/ai-video-ai-video-generator/id6478868302?uo=2",
+     "Create eye-catching videos in seconds with AI Video Generator. Turn your ideas, text, and photos into dynamic AI-generated videos with just a few taps. Upload a photo, enter your idea, or choose a sty"
     ],
     "examples": [
-     "Show HN: UK Farming Simulator"
+     "App Store: AI Video - AI Video Generator"
     ],
-    "note": "Show HN 新上架"
+    "note": "App Store 新上架"
    },
    {
-    "term": "overtone",
+    "term": "dancehit: ai dance generator",
     "recent": 1,
     "about": [
-     "https://github.com/lonthq/overtone-captions",
-     "Show HN: Overtone – Transcribe, correct and cut captions for any screen shape"
+     "https://apps.apple.com/us/app/dancehit-ai-dance-generator/id6761751034?uo=2",
+     "Turn a photo into an AI dance video with DanceHit. Upload a picture, choose an available dance style, and create an animated video. Explore playful dance effects using selfies, portraits, or pet photo"
     ],
     "examples": [
-     "Show HN: Overtone"
+     "App Store: DanceHit: AI Dance Generator"
     ],
-    "note": "Show HN 新上架"
+    "note": "App Store 新上架"
    },
    {
-    "term": "yavashark",
+    "term": "youcam makeup: face editor",
     "recent": 1,
     "about": [
-     "https://yavashark.dev/blog/announcing-yavashark/",
-     "Show HN: Yavashark: I've Built a JavaScript Engine Every Day for 950 Days"
+     "https://apps.apple.com/us/app/youcam-makeup-face-editor/id863844475?uo=2",
+     "*All images on this page were enhanced with AI YouCam Makeup is your all-in-one face editor, makeup app, and beauty cam. Retouch photos and videos with makeup, face, hair, and body tools, from daily l"
     ],
     "examples": [
-     "Show HN: Yavashark"
+     "App Store: YouCam Makeup: Face Editor"
     ],
-    "note": "Show HN 新上架"
+    "note": "App Store 新上架"
    },
    {
-    "term": "lasm",
+    "term": "ai mirror: ai photo editor",
     "recent": 1,
     "about": [
-     "https://github.com/Millillion/lasm",
-     "Show HN: Lasm – Write formally verified webapps in Lean for Node/serverless/edge"
+     "https://apps.apple.com/us/app/ai-mirror-ai-photo-editor/id6444888896?uo=2",
+     "AI Mirror — the best AI photo editor and video creator. Transform your photos and videos with hundreds of AI filters, trending style effects, and powerful editing tools. NEW: AI Better — your personal"
     ],
     "examples": [
-     "Show HN: Lasm"
+     "App Store: AI Mirror: AI Photo Editor"
     ],
-    "note": "Show HN 新上架"
+    "note": "App Store 新上架"
    },
    {
-    "term": "particle-1",
+    "term": "flyer maker + poster maker",
     "recent": 1,
     "about": [
-     "https://openrouter.ai/particle-ai/particle-1",
-     "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and"
+     "https://apps.apple.com/us/app/flyer-maker-poster-maker/id1337666644?uo=2",
+     "Create a flyer in minutes with flyer maker. 35000+ flyer templates. No design skills required. Quick & easy to use. • Need stunning promotional flyers but lack design skills? • Struggling with expensi"
     ],
     "examples": [
-     "OpenRouter: Particle-1"
+     "App Store: Flyer Maker + Poster Maker"
     ],
-    "note": "OpenRouter 新上架"
+    "note": "App Store 新上架"
    },
    {
-    "term": "gpt-6.1 terra pro",
+    "term": "ai video generator & ai editor",
     "recent": 1,
     "about": [
-     "https://openrouter.ai/openai/gpt-6.1-terra-pro",
-     "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. "
+     "https://apps.apple.com/us/app/ai-video-generator-ai-editor/id6779853381?uo=2",
+     "Create stunning videos in minutes with AI Video Generator & Video AI. Turn text into video, transform photos into animated clips, and bring your creative ideas to life with an intuitive all-in-one vid"
     ],
     "examples": [
-     "OpenRouter: GPT-6.1 Terra Pro"
+     "App Store: AI Video Generator & AI Editor"
     ],
-    "note": "OpenRouter 新上架"
+    "note": "App Store 新上架"
    },
    {
-    "term": "gpt-6.1 terra pro (batch)",
+    "term": "kemo",
     "recent": 1,
     "about": [
-     "https://openrouter.ai/openai/gpt-6.1-terra-pro:batch",
-     "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. "
+     "https://apps.apple.com/us/app/kemo/id1484584645?uo=2",
+     "- Easy to set up your devices in the Kemo App. - Get instant messages when visitors press the doorbell or trigger the PIR motion sensors. - Monitor your home in high definition video. See, hear, and s"
     ],
     "examples": [
-     "OpenRouter: GPT-6.1 Terra Pro (batch)"
+     "App Store: Kemo"
     ],
-    "note": "OpenRouter 新上架"
-   },
-   {
-    "term": "gpt-6.1 terra",
-    "recent": 1,
-    "about": [
-     "https://openrouter.ai/openai/gpt-6.1-terra",
-     "GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screensho"
-    ],
-    "examples": [
-     "OpenRouter: GPT-6.1 Terra"
-    ],
-    "note": "OpenRouter 新上架"
-   },
-   {
-    "term": "gpt-6.1 terra (batch)",
-    "recent": 1,
-    "about": [
-     "https://openrouter.ai/openai/gpt-6.1-terra:batch",
-     "GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screensho"
-    ],
-    "examples": [
-     "OpenRouter: GPT-6.1 Terra (batch)"
-    ],
-    "note": "OpenRouter 新上架"
-   },
-   {
-    "term": "kimi k3.1 pro",
-    "recent": 1,
-    "about": [
-     "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
-     "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D..."
-    ],
-    "examples": [
-     "OpenRouter: Kimi K3.1 Pro"
-    ],
-    "note": "OpenRouter 新上架"
+    "note": "App Store 新上架"
    }
   ],
-  "seconds": 4
+  "seconds": 6
  },
  "money": {
   "skipped": true
@@ -2581,34 +2141,34 @@
  "review": {
   "checked": [
    {
-    "term": "anatomy",
+    "term": "craft launcher",
     "first_seen": "2026-10-15",
     "verdict": "hit",
-    "lead_days": -3
+    "lead_days": -23
    },
    {
-    "term": "artex",
-    "first_seen": "2026-10-15",
-    "verdict": "hit",
-    "lead_days": -11
-   },
-   {
-    "term": "brutal",
-    "first_seen": "2026-10-15",
-    "verdict": "miss",
-    "lead_days": null
-   },
-   {
-    "term": "cadcraft",
+    "term": "d2r mobile",
     "first_seen": "2026-10-15",
     "verdict": "hit",
     "lead_days": -2
    },
    {
-    "term": "ccbaga",
+    "term": "digup",
+    "first_seen": "2026-10-15",
+    "verdict": "miss",
+    "lead_days": null
+   },
+   {
+    "term": "esp32 iphone agent",
     "first_seen": "2026-10-15",
     "verdict": "hit",
-    "lead_days": -3
+    "lead_days": 11
+   },
+   {
+    "term": "everything",
+    "first_seen": "2026-10-15",
+    "verdict": "hit",
+    "lead_days": 0
    }
   ],
   "cost_micros": 16800,
@@ -2618,936 +2178,17 @@
  "summary": {
   "by_signal": {
    "breakout": {
-    "checked": 5,
-    "hit": 4,
-    "median_lead": -3.0
+    "checked": 10,
+    "hit": 8,
+    "median_lead": -2.5
    }
   },
-  "pending": 358,
+  "pending": 380,
   "window_days": 60,
   "seconds": 0
  },
  "keywords": {
-  "names": [
-   "protectbirds",
-   "harness lens",
-   "nx2apple",
-   "totk pc recomp",
-   "zero breach toolkit"
-  ],
-  "rows": [
-   {
-    "phrase": "spyware scanner iphone",
-    "evidence": "Works on Windows, Mac, Linux, Android, and iPhone backups. Fully offline, read-only, no admin rights, never writes to disk.",
-    "brand": true,
-    "source": "model",
-    "relevance": 0.8,
-    "is_name": false,
-    "established": false,
-    "term": "spyware scanner iphone",
-    "kind": "generic",
-    "names": [
-     "zero breach toolkit"
-    ],
-    "volume": 260,
-    "month": "2026-09",
-    "months": [
-     [
-      "2025-10",
-      210
-     ],
-     [
-      "2025-11",
-      210
-     ],
-     [
-      "2025-12",
-      170
-     ],
-     [
-      "2026-01",
-      260
-     ],
-     [
-      "2026-02",
-      320
-     ],
-     [
-      "2026-03",
-      320
-     ],
-     [
-      "2026-04",
-      320
-     ],
-     [
-      "2026-05",
-      260
-     ],
-     [
-      "2026-06",
-      260
-     ],
-     [
-      "2026-07",
-      210
-     ],
-     [
-      "2026-08",
-      210
-     ],
-     [
-      "2026-09",
-      110
-     ]
-    ],
-    "no_data": true,
-    "peak_vs": 0,
-    "bench_level": 66.0,
-    "decision": "watch",
-    "age": {
-     "first_seen": null,
-     "is_new": false,
-     "since_start": false,
-     "no_data": true
-    },
-    "is_new": false,
-    "markets": {
-     "by": {
-      "US": {
-       "volume": 260,
-       "kd": 6
-      },
-      "DE": {
-       "volume": 50,
-       "kd": 0
-      },
-      "FR": {
-       "volume": 10,
-       "kd": null
-      },
-      "JP": {
-       "volume": 10,
-       "kd": null
-      }
-     },
-     "best": "US",
-     "top_region": null
-    },
-    "competition": {
-     "verdict": "open",
-     "weak": null,
-     "kd": 6,
-     "ads": false,
-     "eased": false,
-     "location_code": 2840,
-     "results": [
-      {
-       "domain": "avast.com",
-       "url": "https://www.avast.com/c-spyware-removal-tool",
-       "title": "Free Anti-Spyware Scanner and Remover",
-       "position": 1,
-       "kind": "tool",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESZwHrOzAV25OWjDdvApm9QkdKf4ZegpSIQvqlMFKtQftCxkoKHWtUm7Wf3nU3gxXWeqEB3c0RkAOGUaK8cqayguBLTQtVFdLcM3-vTq-pRIvsBbYupKE_nIIqs6_A6Z6v4PI6LDG3WTI",
-       "title": "Spyware on an iPhone: How to detect and remove it",
-       "position": 2,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "discussions.apple.com",
-       "url": "https://discussions.apple.com/thread/255676732",
-       "title": "How to scan my phone for malware?",
-       "position": 3,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "apps.apple.com",
-       "url": "https://apps.apple.com/us/app/clario-antispy/id1663473665",
-       "title": "Clario AntiSpy - App Store - Apple",
-       "position": 4,
-       "kind": "tool",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESZgHrOzAVUhPl1Tsi2PJW03v8E2lMELIlS72iGc__O8x5TCjx7USvezgtZcIAbGs5gBrS25wzcbJSu0aAtjFaZyJm2kwYJtWbJ9RSBhQjACTuucvgcWJZIlb0FhL0XTdQQ6L8Ap4CNw",
-       "title": "How to Scan Your iPhone for Viruses and Remove Them?",
-       "position": 5,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESaQHrOzAVX88uMUct2nbJXj35j7jQtcZjkaheDDQf3M4zDr8MNIA-Kh217s5RBKVM-INNUbMHeakUGFahfWz4gE1WW_-Pt5GtVTnZyANwtLH_p_pIgllcXfW7RLumXJ1HAAL5PUlTofXxyg",
-       "title": "How to scan my iPhone for virus",
-       "position": 6,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESnwEB6zswFaVEiFpnVGrhnvOP8q_Ht1y2SdlQ1eALUrm3gjLebNX9txONUsruskIh8FVhBlnSv3SyIO2oUGq-SqJnuECqClvBewC2iNJY3Dgwx7em4aQy5QvGz3zyjdAaBUQ2uZru2Ia5cUPUi65M7hRD_npWcIcf5A-b4QyO3uZWEGoJA6KTCxIqy6pbAOHBIsB7RaVSy9rx9zj3fGIftqg",
-       "title": "Question How do I check for malware on a iPhone?",
-       "position": 7,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESgwEB6zswFaXdNwweu69fXVfVBkcRFsZuy5Wyf2b0Jiw3Yf7PX5bzU1WRsD-uDYnBMHueXY8GNayMo0YYJ7wlAbIVDwc6Qi571uSWiUvI6mxtg9QoHdoScEPGZBUbi6v9_NaYUk1Ka5KqSjJ8-b-mXYBqyI5rrBgaw8AbY8txh9hKwGFqLw",
-       "title": "Is there a free malware scanner for iPhone?",
-       "position": 8,
-       "kind": "tool",
-       "dr": null
-      }
-     ],
-     "kinds": {
-      "tool": 3,
-      "article": 5
-     },
-     "features": [
-      "ai_overview",
-      "people_also_ask",
-      "related_searches",
-      "video"
-     ],
-     "forums": [],
-     "weakest": null,
-     "tools": [
-      {
-       "domain": "avast.com",
-       "dr": null
-      },
-      {
-       "domain": "apps.apple.com",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "dr": null
-      }
-     ]
-    },
-    "page_age": {
-     "dated": 8,
-     "young": 0,
-     "young_sites": [],
-     "newest": "1997-10-06",
-     "entered": {
-      "since": "",
-      "urls": []
-     }
-    },
-    "year": {
-     "spark": "▆▆▅▇███▇▇▆▆▃",
-     "first": "2025-10",
-     "last": "2026-09",
-     "c3": -58,
-     "c6": -66,
-     "label": "falling"
-    },
-    "yours": {
-     "serp": null,
-     "console": null,
-     "action": "new"
-    }
-   },
-   {
-    "phrase": "pegasus spyware detector",
-    "evidence": "You can now check your own phone for Pegasus, for free. Zero Breach Toolkit looks for traces of known government-grade spyware, including Pegasus, Predator, Gra",
-    "brand": true,
-    "source": "model",
-    "relevance": 0.85,
-    "is_name": false,
-    "established": false,
-    "term": "pegasus spyware detector",
-    "kind": "generic",
-    "names": [
-     "zero breach toolkit"
-    ],
-    "volume": 170,
-    "month": "2026-09",
-    "months": [
-     [
-      "2025-10",
-      1000
-     ],
-     [
-      "2025-11",
-      90
-     ],
-     [
-      "2025-12",
-      20
-     ],
-     [
-      "2026-01",
-      20
-     ],
-     [
-      "2026-02",
-      10
-     ],
-     [
-      "2026-03",
-      20
-     ],
-     [
-      "2026-04",
-      10
-     ],
-     [
-      "2026-05",
-      40
-     ],
-     [
-      "2026-06",
-      40
-     ],
-     [
-      "2026-07",
-      90
-     ],
-     [
-      "2026-08",
-      90
-     ],
-     [
-      "2026-09",
-      320
-     ]
-    ],
-    "no_data": true,
-    "peak_vs": 0,
-    "bench_level": 65.9,
-    "decision": "watch",
-    "age": {
-     "first_seen": null,
-     "is_new": false,
-     "since_start": false,
-     "no_data": true
-    },
-    "is_new": false,
-    "markets": {
-     "by": {
-      "US": {
-       "volume": 170,
-       "kd": 18
-      },
-      "DE": {
-       "volume": 10,
-       "kd": null
-      },
-      "FR": {
-       "volume": 10,
-       "kd": null
-      },
-      "JP": {
-       "volume": 0,
-       "kd": null
-      }
-     },
-     "best": "US",
-     "top_region": null
-    },
-    "competition": {
-     "verdict": "open",
-     "weak": null,
-     "kd": 18,
-     "ads": false,
-     "eased": false,
-     "location_code": 2840,
-     "results": [
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESegHrOzAVGfJM9HBNzMtj6TUJqKVCrt4QqwtFk0cDSSXJJ0OMrstotlMSyxYsq_XCTktOOyBGRM7K_lIoNNtKfPK3q1rZApQ-j_4ii6xn5aL6s_BL5B-7fPNkpGSL10cZ9MP1YwQ8-lGT0vewfBAeLe6XsPu7bSzzxdJy",
-       "title": "Pegasus Malware: Analysis, Detection, Removal",
-       "position": 1,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "reddit.com",
-       "url": "https://www.reddit.com/r/privacytoolsIO/comments/onajeo/how_can_i_detect_if_im_infected_with_project/",
-       "title": "How can I detect if I'm infected with project Pegasus hack?",
-       "position": 2,
-       "kind": "forum",
-       "dr": null
-      },
-      {
-       "domain": "blog.rsisecurity.com",
-       "url": "https://blog.rsisecurity.com/how-to-detect-pegasus-spyware/",
-       "title": "Detect Pegasus Spyware on iPhone & Android",
-       "position": 3,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESdgHrOzAVfgfLKvCK-Ps4bJg1sZWGnF_Ghi0XtKyF01Nj0APqNEWmnaniXqG0fCnkaDG1aVd61wIww_6qvNIN2p8dWo1htsxa1VIeOUG3IHprbvXfwdmo6h6KEx7hBCVRAgjY-qY5T-vOulLmEeqD94rpX0Y9dOk",
-       "title": "What is Pegasus spyware, and how to detect and remove it",
-       "position": 4,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "imazing.com",
-       "url": "https://imazing.com/guides/detect-pegasus-and-other-spyware-on-iphone",
-       "title": "How To Detect Pegasus and Other Spyware on iPhone ...",
-       "position": 5,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAEScAHrOzAVobSAx_AAPNSHAFFP0iduUMCDE-4nTPn6L06eNY712ZdEO9V8r8yAFHLyjmoBjooG-AHvXc_mhQvrb0CBpnFwxZNBHysJas76dZwBbC76ibjSIF2eV96E0lbtxcERHqt8RrtB_kKitC5CFGY",
-       "title": "What Is Pegasus Spyware? Risks, Detection, & Protection",
-       "position": 6,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESeAHrOzAVlUMQS95WGWRURdDzwhwD8HY-GEbidvMSFreKpO0Ar7wj-dvf-MCo2cB8xVd3UJNFaQD4Y5zCH1oRHw5or9xiYsAVkJctPeYDLDw-3pez1vglSVS5aMGIJF1zBHllmwzGvClwiX9j0byAlU68wsxWLNLaBQ",
-       "title": "Pegasus Spyware: How to Detect, Prevent and Remove It",
-       "position": 7,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESZgHrOzAV38Jhtp5WrlqARCYLY9hjOSQuzcDS7Jt4yfNT95jXEx-lgStEDOc9X2zkZt-pDITMJ24UR6h2gLdpWDp43HCYW8sggGf8F1MC5CbtzYQUzASLQm_xAgRk7y6aA3Y7JgbdoA",
-       "title": "Detect Pegasus and Other Spyware on iPhone | iMazing Tutorial",
-       "position": 8,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESqgEB6zswFX2_dG624BEWO0qduuf498KmJMjKJN5JKQOLKQx2KmsJTK8FG1IXtusYzWcakddMj3pbjd0yG0_v067sIpgD38tGUKEuEzWLYL7uALWa3JQ7rVSqJr2W-kSJV_x-rlNinJEVzL7Ud8erVoeTlv1pnCtiYPnIOg1dybtPgRZWZNkNVqr-p6yWGB_laU4cxkITf3_GVm-bd6NQD37MHSsE2OrY95EsRA",
-       "title": "Forensic Methodology Report: How to catch NSO Group's ...",
-       "position": 9,
-       "kind": "article",
-       "dr": null
-      }
-     ],
-     "kinds": {
-      "article": 8,
-      "forum": 1
-     },
-     "features": [
-      "ai_overview",
-      "people_also_ask",
-      "related_searches"
-     ],
-     "forums": [
-      {
-       "url": "https://www.reddit.com/r/privacytoolsIO/comments/onajeo/how_can_i_detect_if_im_infected_with_project/",
-       "title": "How can I detect if I'm infected with project Pegasus hack?",
-       "domain": "reddit.com"
-      }
-     ],
-     "weakest": null,
-     "tools": []
-    },
-    "page_age": {
-     "dated": 9,
-     "young": 0,
-     "young_sites": [],
-     "newest": "2012-08-10",
-     "entered": {
-      "since": "",
-      "urls": []
-     }
-    },
-    "year": {
-     "spark": "█▂▁▁▁▁▁▁▁▂▂▃",
-     "first": "2025-10",
-     "last": "2026-09",
-     "c3": 700,
-     "c6": 1500,
-     "label": "spiked",
-     "peak": "2025-10",
-     "from_peak": -68
-    },
-    "yours": {
-     "serp": null,
-     "console": null,
-     "action": "new"
-    }
-   },
-   {
-    "term": "protectbirds",
-    "phrase": "protectbirds",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": true,
-    "peak_vs": 0,
-    "bench_level": 64.6,
-    "decision": "watch",
-    "age": {
-     "first_seen": null,
-     "is_new": false,
-     "since_start": false,
-     "no_data": true
-    },
-    "is_new": false,
-    "markets": {
-     "by": {
-      "US": {
-       "volume": 0,
-       "kd": null
-      },
-      "DE": {
-       "volume": 0,
-       "kd": null
-      },
-      "FR": {
-       "volume": 0,
-       "kd": null
-      },
-      "JP": {
-       "volume": 0,
-       "kd": null
-      }
-     },
-     "best": null,
-     "top_region": null
-    },
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "eased": false,
-     "location_code": 2840,
-     "results": [],
-     "kinds": {},
-     "features": [],
-     "forums": [],
-     "weakest": null,
-     "tools": []
-    },
-    "page_age": {
-     "dated": 0,
-     "young": 0,
-     "young_sites": [],
-     "newest": "",
-     "entered": {
-      "since": "",
-      "urls": []
-     }
-    },
-    "yours": {
-     "serp": null,
-     "console": null,
-     "action": "new"
-    }
-   },
-   {
-    "term": "totk pc recomp",
-    "phrase": "totk pc recomp",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": false,
-    "base": 0,
-    "peak": 100,
-    "peak_day": "2026-10-20",
-    "rose": true,
-    "new": true,
-    "momentum": 2.1,
-    "started": "2026-10-20",
-    "now": "holding",
-    "peak_vs": 2,
-    "bench_level": 53.8,
-    "decision": "watch",
-    "age": {
-     "first_seen": "2026-10-18",
-     "since_start": false,
-     "no_data": false,
-     "is_new": true
-    },
-    "is_new": true,
-    "markets": {
-     "by": {
-      "US": {
-       "volume": 0,
-       "kd": null
-      },
-      "DE": {
-       "volume": 0,
-       "kd": null
-      },
-      "FR": {
-       "volume": 0,
-       "kd": null
-      },
-      "JP": {
-       "volume": 0,
-       "kd": null
-      }
-     },
-     "best": null,
-     "top_region": null
-    },
-    "competition": {
-     "verdict": "mixed",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "eased": true,
-     "location_code": 2840,
-     "results": [
-      {
-       "domain": "reddit.com",
-       "url": "https://www.reddit.com/r/decomps/top/",
-       "title": "r/decomps",
-       "position": 1,
-       "kind": "forum",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESrwEB6zswFdYWy2t5NyPoAL8be-mQ5j0Rvwmd3tL6vFDtQWJviLBvTBCs7S_l7b9ifVBvs38LKPam9b88InK_7k3zQPN8ykX0JuMSc3u3ims37zkfp5dTzxaFwBBMJF-4KJZycwXpcVwlFUMzTM2bT9dH2IZUq6s423mbeBS9fEJk-WcFoYNGGas-9JNkPeTAbOUoKof0NndJNLVur8OPx1txgdMi4t0FyhKZjMfU0o_K",
-       "title": "Modder releases unofficial native PC port of Zelda",
-       "position": 2,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "youtube.com",
-       "url": "https://www.youtube.com/watch?v=9DYmkGvAs3Q",
-       "title": "Zelda: Tears of the Kingdom Recomp Is Coming to PC! (60 FPS ...",
-       "position": 3,
-       "kind": "video",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESqQEB6zswFV4bVcIydR0nUSCTuOBNJYKZvh71G69cI0Ek1HNNE5ro8TDW6qPbpmOf4cZmfGbVz4gEFxKRBoxxarYR5zUqF16QpyqzTmewLhYRfGik2uqR5AEB_Pkdmgx6XXZiFlz6vkATtFQt0KFEXXHBbUrabRGdWVgXFimZNKvqgU1GDV04FO8HYMq6QqIkRcD0M3GFCVgY7duM0VuvYKt6E3nHKgq9734m",
-       "title": "Zelda: Tears of the Kingdom's Unofficial Native PC Port Still ...",
-       "position": 4,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESXwHrOzAVrwYbnuSAvyNKx5MlZMcjDUCcubapX1t4dK9aO_zf3A-e2jaMYtRRjkyUxiTy3cE4yWPD3_ucT2Gsa-BZ5vVMaypCBsCR3zbt-aN3uN1F9Nmn5zGJgYtI8V_C",
-       "title": "Static recompilation of Link's Awakening (Switch) to native ...",
-       "position": 5,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESYwHrOzAVSsTSFsYml9NdMQdOASk43sCqwjXflh__se2lQ0K4jn8dRv11higt5ZSlaxIwEF0U0PvWE0f3sOQtBlbmCCl3_K7XPHv9ZT3KjzozT42IR38zJX76ZOdJxKBL2y8-aA",
-       "title": "r/decomps",
-       "position": 6,
-       "kind": "article",
-       "dr": null
-      }
-     ],
-     "kinds": {
-      "forum": 1,
-      "article": 4,
-      "video": 1
-     },
-     "features": [
-      "ai_overview",
-      "people_also_ask",
-      "perspectives",
-      "popular_products",
-      "related_searches",
-      "top_stories",
-      "video"
-     ],
-     "forums": [
-      {
-       "url": "https://www.reddit.com/r/decomps/top/",
-       "title": "r/decomps",
-       "domain": "reddit.com"
-      }
-     ],
-     "weakest": null,
-     "tools": []
-    },
-    "page_age": {
-     "dated": 6,
-     "young": 0,
-     "young_sites": [],
-     "newest": "2005-04-29",
-     "entered": {
-      "since": "",
-      "urls": []
-     }
-    },
-    "yours": {
-     "serp": null,
-     "console": null,
-     "action": "new"
-    }
-   },
-   {
-    "phrase": "tears of the kingdom pc",
-    "evidence": "TotK PC Recomp vient de rendre son dépôt GitHub public, et une première bêta est déjà disponible ! Il s'agit d'une recompilation statique native pour PC",
-    "brand": true,
-    "source": "model",
-    "relevance": 0.95,
-    "is_name": false,
-    "established": false,
-    "term": "tears of the kingdom pc",
-    "kind": "generic",
-    "names": [
-     "totk pc recomp"
-    ],
-    "volume": 140,
-    "month": "2026-09",
-    "months": [
-     [
-      "2025-10",
-      110
-     ],
-     [
-      "2025-11",
-      170
-     ],
-     [
-      "2025-12",
-      170
-     ],
-     [
-      "2026-01",
-      170
-     ],
-     [
-      "2026-02",
-      140
-     ],
-     [
-      "2026-03",
-      210
-     ],
-     [
-      "2026-04",
-      140
-     ],
-     [
-      "2026-05",
-      170
-     ],
-     [
-      "2026-06",
-      170
-     ],
-     [
-      "2026-07",
-      110
-     ],
-     [
-      "2026-08",
-      110
-     ],
-     [
-      "2026-09",
-      140
-     ]
-    ],
-    "no_data": false,
-    "base": 7.9,
-    "peak": 14,
-    "peak_day": "2026-10-24",
-    "rose": false,
-    "new": false,
-    "momentum": 1.6,
-    "now": "flat",
-    "peak_vs": 26,
-    "bench_level": 66.7,
-    "per_day": 6,
-    "decision": "skip",
-    "year": {
-     "spark": "▅▇▇▇▆█▆▇▇▅▅▆",
-     "first": "2025-10",
-     "last": "2026-09",
-     "c3": -18,
-     "c6": -33,
-     "label": "steady"
-    }
-   },
-   {
-    "phrase": "offline malware scanner",
-    "evidence": "It never connects to the internet... No network requests during a scan. It never looks up spyware addresses and has no upload feature.",
-    "brand": false,
-    "source": "model",
-    "relevance": 0.65,
-    "is_name": false,
-    "established": false,
-    "term": "offline malware scanner",
-    "kind": "generic",
-    "names": [
-     "zero breach toolkit"
-    ],
-    "volume": 70,
-    "month": "2026-09",
-    "months": [
-     [
-      "2025-10",
-      50
-     ],
-     [
-      "2025-11",
-      50
-     ],
-     [
-      "2025-12",
-      40
-     ],
-     [
-      "2026-01",
-      30
-     ],
-     [
-      "2026-02",
-      40
-     ],
-     [
-      "2026-03",
-      40
-     ],
-     [
-      "2026-04",
-      70
-     ],
-     [
-      "2026-05",
-      40
-     ],
-     [
-      "2026-06",
-      50
-     ],
-     [
-      "2026-07",
-      90
-     ],
-     [
-      "2026-08",
-      260
-     ],
-     [
-      "2026-09",
-      110
-     ]
-    ],
-    "no_data": false,
-    "base": 2.1,
-    "peak": 0,
-    "peak_day": "2026-10-27",
-    "rose": false,
-    "new": false,
-    "momentum": null,
-    "now": "flat",
-    "peak_vs": 1,
-    "bench_level": 63,
-    "per_day": 0,
-    "decision": "skip",
-    "year": {
-     "spark": "▂▂▂▂▂▂▃▂▂▃█▄",
-     "first": "2025-10",
-     "last": "2026-09",
-     "c3": 120,
-     "c6": 175,
-     "label": "rising"
-    }
-   },
-   {
-    "term": "harness lens",
-    "phrase": "harness lens",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": false,
-    "base": 8.8,
-    "peak": 100,
-    "peak_day": "2026-10-19",
-    "rose": true,
-    "new": true,
-    "momentum": 0.3,
-    "started": "2026-10-19",
-    "now": "fading",
-    "peak_vs": 2,
-    "bench_level": 59.8,
-    "decision": "skip"
-   },
-   {
-    "term": "nx2apple",
-    "phrase": "nx2apple",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": false,
-    "base": 0,
-    "peak": 100,
-    "peak_day": "2026-10-27",
-    "rose": false,
-    "new": false,
-    "momentum": null,
-    "now": "flat",
-    "peak_vs": 11,
-    "bench_level": 62.9,
-    "decision": "skip"
-   },
-   {
-    "term": "zero breach toolkit",
-    "phrase": "zero breach toolkit",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": false,
-    "base": 0,
-    "peak": 100,
-    "peak_day": "2026-10-27",
-    "rose": false,
-    "new": false,
-    "momentum": null,
-    "now": "flat",
-    "peak_vs": 2,
-    "bench_level": 62.3,
-    "decision": "skip"
-   }
-  ],
-  "proposed": 17,
-  "relevant": 14,
-  "kept": 4,
-  "benchmark": "gpts",
-  "bench_daily": null,
-  "volume_month": "2026-09",
-  "no_evidence": [
-   "protectbirds",
-   "harness lens"
-  ],
-  "posts_error": "",
-  "related": false,
-  "tails": {},
-  "cosearch": [],
-  "related_errors": [],
-  "geo": "US",
-  "country_errors": [],
-  "competition_errors": [],
-  "extra_errors": [],
-  "cost_micros": 557900,
-  "seconds": 161
+  "error": "AisaError: HTTP 402: {\"error\":{\"message\":\"insufficient wallet balance\",\"type\":\"invalid_request_error\"},\"organization_name\":\"Halo Z\"}",
+  "seconds": 82
  }
 }

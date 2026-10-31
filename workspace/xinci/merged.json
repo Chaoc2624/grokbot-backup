@@ -1,629 +1,235 @@
 {
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "board_runs": [],
  "xnew_runs": [
-  "2026-10-30 上午 书签X",
-  "2026-10-30 晚上 书签X"
+  "2026-10-31 上午 书签X",
+  "2026-10-31 晚上 书签X"
  ],
  "our_x_failed": false,
  "terms": [
   {
-   "name": "3d make",
-   "key": "3dmake",
+   "name": "webgl",
+   "key": "webgl",
    "sources": [
     "我们X"
    ],
-   "desc": "@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t",
+   "desc": "@op7418: 这次给 Deepseek Harness 做的这个新插件 dsh-guizang-design，旧的 PPT Skill 也进行了很多优化。 如果你已经安装过其",
    "url": "",
    "signals": [
-    "X 2 个账号 ♥2524"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "cursor ide",
-   "key": "cursoride",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥4478"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "claude code vs",
-   "key": "claudecodevs",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥4478"
-   ],
-   "variants": [],
-   "named": 0.6
-  },
-  {
-   "name": "introducing 3d make",
-   "key": "introducing3dmake",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥2518"
-   ],
-   "variants": [],
-   "named": 0.6
-  },
-  {
-   "name": "nothingbutnet",
-   "key": "nothingbutnet",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@swyx: excited for @Cloudflare's debut as a frontier lab #NothingButNET gang, assemble!",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥146"
+    "X 1 个账号 ♥117"
    ],
    "variants": [],
    "named": 0.5
   },
   {
-   "name": "protectbirds",
-   "key": "protectbirds",
+   "name": "nvzhuang",
+   "key": "nvzhuang",
    "sources": [
-    "HF"
+    "GitHub"
    ],
-   "desc": "AimeeBingmouQu/ProtectBirds (docker, ♥1144)",
-   "url": "",
+   "desc": "paipiange/nvzhuang: 1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+   "url": "https://github.com/paipiange/nvzhuang",
    "signals": [
-    "HF Spaces 新进榜第 34 名"
+    "GitHub 爆发 paipiange/nvzhuang ★1550(均 672/天,一天 +663)"
    ],
    "variants": [],
    "named": 0.8
   },
   {
-   "name": "harness lens",
-   "key": "harnesslens",
+   "name": "pixelfx",
+   "key": "pixelfx",
    "sources": [
-    "HF"
+    "GitHub"
    ],
-   "desc": "harness-hub/harness-lens (docker, ♥40)",
-   "url": "",
+   "desc": "patch-gg/pixelfx: 232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+   "url": "https://github.com/patch-gg/pixelfx",
    "signals": [
-    "HF Spaces 新进榜第 43 名"
+    "GitHub 爆发 patch-gg/pixelfx ★806(均 629/天)"
    ],
    "variants": [],
    "named": 0.8
   },
   {
-   "name": "idol",
-   "key": "idol",
-   "sources": [
-    "HF"
-   ],
-   "desc": "speridlabs/idol (gradio, ♥20)",
-   "url": "",
-   "signals": [
-    "HF Spaces 新进榜第 44 名"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "nx2apple",
-   "key": "nx2apple",
+   "name": "mika",
+   "key": "mika",
    "sources": [
     "GitHub"
    ],
-   "desc": "LNPANDY/NX2Apple: Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Brin",
-   "url": "https://github.com/LNPANDY/NX2Apple",
+   "desc": "wangzan101/Mika: Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things don",
+   "url": "https://github.com/wangzan101/Mika",
    "signals": [
-    "GitHub 爆发 LNPANDY/NX2Apple ★2165(均 221/天,一天 +1482)"
+    "GitHub 爆发 wangzan101/Mika ★2209(均 1130/天,一天 +1821)"
    ],
    "variants": [],
    "named": 0.9
   },
   {
-   "name": "totk pc recomp",
-   "key": "totkpcrecomp",
+   "name": "dsh go",
+   "key": "dshgo",
    "sources": [
     "GitHub"
    ],
-   "desc": "valentderah/totk-pc-recomp: Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game",
-   "url": "https://github.com/valentderah/totk-pc-recomp",
+   "desc": "ccch1mneyyy/dsh-Go: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+   "url": "https://github.com/ccch1mneyyy/dsh-Go",
    "signals": [
-    "GitHub 爆发 valentderah/totk-pc-recomp ★1030(均 985/天)"
+    "GitHub 爆发 ccch1mneyyy/dsh-Go ★3266(均 525/天,一天 +1431)"
    ],
    "variants": [],
    "named": 0.9
   },
   {
-   "name": "zero breach toolkit",
-   "key": "zerobreachtoolkit",
+   "name": "unslop",
+   "key": "unslop",
    "sources": [
     "GitHub"
    ],
-   "desc": "interplains/Zero-Breach-Toolkit: Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phon",
-   "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+   "desc": "heydamir/unslop: A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+   "url": "https://github.com/heydamir/unslop",
    "signals": [
-    "GitHub 爆发 interplains/Zero-Breach-Toolkit ★3760(均 759/天)"
+    "GitHub 爆发 heydamir/unslop ★2516(均 1319/天)"
    ],
    "variants": [],
-   "named": 0.9
+   "named": 0.8
   },
   {
-   "name": "day trader skill",
-   "key": "daytraderskill",
+   "name": "florilegium",
+   "key": "florilegium",
    "sources": [
     "GitHub"
    ],
-   "desc": "Jakeschincariol/day-trader-skill: 11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay e",
-   "url": "https://github.com/Jakeschincariol/day-trader-skill",
+   "desc": "kevinraymond/florilegium: Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua",
+   "url": "https://github.com/kevinraymond/florilegium",
    "signals": [
-    "GitHub 爆发 Jakeschincariol/day-trader-skill ★3463(均 347/天,一天 +1257)"
+    "GitHub 爆发 kevinraymond/florilegium ★988(均 799/天)"
    ],
    "variants": [],
-   "named": 0.7
+   "named": 0.8
   },
   {
-   "name": "ai pose gallery zh",
-   "key": "aiposegalleryzh",
-   "sources": [
-    "GitHub"
-   ],
-   "desc": "anhao/ai-pose-gallery-zh: 中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
-   "url": "https://github.com/anhao/ai-pose-gallery-zh",
-   "signals": [
-    "GitHub 爆发 anhao/ai-pose-gallery-zh ★3786(均 1241/天)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "eclipse technologies",
-   "key": "eclipsetechnologies",
+   "name": "hybridforgelab",
+   "key": "hybridforgelab",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 10 处 (×8.9)"
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "ottonic",
+   "key": "ottonic",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "io.github.nada",
+   "key": "iogithubnada",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 5 处 (×4.8)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "io.github.changzhiai",
+   "key": "iogithubchangzhiai",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "io.usefulapi",
+   "key": "iousefulapi",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 59 处 (×16.9)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "io.github.theguysaccount",
+   "key": "iogithubtheguysaccount",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 15 处 (×14.9)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "io.github.kriton",
+   "key": "iogithubkriton",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 14 处 (×13.2)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "connectors io.usefulapi",
+   "key": "connectorsiousefulapi",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 59 处 (×16.9)"
    ],
    "variants": [],
    "named": 0.5
   },
   {
-   "name": "arsaze",
-   "key": "arsaze",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: Arsaze",
-   "url": "https://www.arsaze.com",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "speakon agent",
-   "key": "speakonagent",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: SpeakON Agent",
-   "url": "https://www.producthunt.com/products/speakon",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "overtone",
-   "key": "overtone",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: Overtone",
-   "url": "https://github.com/lonthq/overtone-captions",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "gpt-6.1 terra pro",
-   "key": "gpt61terrapro",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "OpenRouter: GPT-6.1 Terra Pro",
-   "url": "https://openrouter.ai/openai/gpt-6.1-terra-pro",
-   "signals": [
-    "OpenRouter 新上架",
-    "OpenRouter 新上架"
-   ],
-   "variants": [],
-   "named": 0.95
-  },
-  {
-   "name": "gpt-6.1 terra",
-   "key": "gpt61terra",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "OpenRouter: GPT-6.1 Terra",
-   "url": "https://openrouter.ai/openai/gpt-6.1-terra",
-   "signals": [
-    "OpenRouter 新上架",
-    "OpenRouter 新上架"
-   ],
-   "variants": [],
-   "named": 0.95
-  },
-  {
-   "name": "kimi k3.1 pro",
-   "key": "kimik31pro",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "OpenRouter: Kimi K3.1 Pro",
-   "url": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
-   "signals": [
-    "OpenRouter 新上架"
-   ],
-   "variants": [],
-   "named": 0.95
-  },
-  {
-   "name": "faylee",
-   "key": "faylee",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: Faylee",
-   "url": "https://www.producthunt.com/products/faylee",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "canva brush",
-   "key": "canvabrush",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: Canva Brush",
-   "url": "https://www.producthunt.com/products/canva",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "stepgrab",
-   "key": "stepgrab",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: StepGrab",
-   "url": "https://www.producthunt.com/products/stepgrab",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "fastbrowse",
-   "key": "fastbrowse",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: fastbrowse",
-   "url": "https://www.producthunt.com/products/fastbrowse",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "kestrix",
-   "key": "kestrix",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: Kestrix",
-   "url": "https://www.producthunt.com/products/kestrix",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "nocto",
-   "key": "nocto",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: Nocto",
-   "url": "https://www.producthunt.com/products/nocto",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "ilse",
-   "key": "ilse",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: ilse",
-   "url": "https://www.producthunt.com/products/ilse",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "isurge",
-   "key": "isurge",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: iSurge",
-   "url": "https://www.producthunt.com/products/isurge",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "axonnic",
-   "key": "axonnic",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: Axonnic",
-   "url": "https://www.producthunt.com/products/axonnic",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "slidebyside",
-   "key": "slidebyside",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: SlideBySide",
-   "url": "https://slidebyside.com/",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "yavashark",
-   "key": "yavashark",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: Yavashark",
-   "url": "https://yavashark.dev/blog/announcing-yavashark/",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "lasm",
-   "key": "lasm",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: Lasm",
-   "url": "https://github.com/Millillion/lasm",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "particle-1",
-   "key": "particle1",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "OpenRouter: Particle-1",
-   "url": "https://openrouter.ai/particle-ai/particle-1",
-   "signals": [
-    "OpenRouter 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "uk farming simulator",
-   "key": "ukfarmingsimulator",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: UK Farming Simulator",
-   "url": "https://butterbean.farm/",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "code vs code",
-   "key": "codevscode",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@cursor_ai: We identified a security incident affecting a modified Claude Code VS Code exten",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥4478"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "introducing 3d",
-   "key": "introducing3d",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@Kimi_Moonshot: Introducing 3D Make in Kimi. Kimi connects to tools like Blender and CAD tools t",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥2518"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "openclaw genpark",
-   "key": "openclawgenpark",
+   "name": "connectors io.github.theguysaccount",
+   "key": "connectorsiogithubtheguysaccount",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 19 处 (×19.0)"
+    "③ 竞品 15 处 (×14.9)"
    ],
    "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "alphaparkinc openclaw",
-   "key": "alphaparkincopenclaw",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 17 处 (×17.0)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "technologies llc",
-   "key": "technologiesllc",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 10 处 (×8.6)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "llc eclipse",
-   "key": "llceclipse",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 9 处 (×8.5)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "cyan eclipse",
-   "key": "cyaneclipse",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 9 处 (×8.1)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "io.github.donniertf",
-   "key": "iogithubdonniertf",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 94 处 (×92.3)"
-   ],
-   "variants": [],
-   "named": 0.2
-  },
-  {
-   "name": "connectors io.github.donniertf",
-   "key": "connectorsiogithubdonniertf",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 94 处 (×92.3)"
-   ],
-   "variants": [],
-   "named": 0.2
-  },
-  {
-   "name": "io.github.donniertf hub",
-   "key": "iogithubdonniertfhub",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 94 处 (×92.3)"
-   ],
-   "variants": [],
-   "named": 0.2
+   "named": 0.5
   },
   {
    "name": "connectors io.github.kriton",
@@ -634,10 +240,10 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 12 处 (×12.0)"
+    "③ 竞品 14 处 (×13.2)"
    ],
    "variants": [],
-   "named": 0.2
+   "named": 0.5
   },
   {
    "name": "io.github.kriton dev",
@@ -648,14 +254,14 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 12 处 (×12.0)"
+    "③ 竞品 14 处 (×13.2)"
    ],
    "variants": [],
-   "named": 0.2
+   "named": 0.5
   },
   {
-   "name": "com.crakseo",
-   "key": "comcrakseo",
+   "name": "connectors io.github.finddatatechnology",
+   "key": "connectorsiogithubfinddatatechnology",
    "sources": [
     "竞品站"
    ],
@@ -665,11 +271,277 @@
     "③ 竞品 11 处 (×11.0)"
    ],
    "variants": [],
-   "named": 0.2
+   "named": 0.5
   },
   {
-   "name": "connectors com.crakseo",
-   "key": "connectorscomcrakseo",
+   "name": "connectors io.github.nadaho",
+   "key": "connectorsiogithubnadaho",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 5 处 (×4.8)"
+   ],
+   "variants": [],
+   "named": 0.5
+  },
+  {
+   "name": "youcam makeup: face editor",
+   "key": "youcammakeupfaceeditor",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: YouCam Makeup: Face Editor",
+   "url": "https://apps.apple.com/us/app/youcam-makeup-face-editor/id863844475?uo=2",
+   "signals": [
+    "App Store 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "ai mirror: ai photo editor",
+   "key": "aimirroraiphotoeditor",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: AI Mirror: AI Photo Editor",
+   "url": "https://apps.apple.com/us/app/ai-mirror-ai-photo-editor/id6444888896?uo=2",
+   "signals": [
+    "App Store 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "kemo",
+   "key": "kemo",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: Kemo",
+   "url": "https://apps.apple.com/us/app/kemo/id1484584645?uo=2",
+   "signals": [
+    "App Store 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "ai video generator & ai editor",
+   "key": "aivideogeneratoraieditor",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: AI Video Generator & AI Editor",
+   "url": "https://apps.apple.com/us/app/ai-video-generator-ai-editor/id6779853381?uo=2",
+   "signals": [
+    "App Store 新上架"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "ski",
+   "key": "ski",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: SKI",
+   "url": "https://www.producthunt.com/products/ski",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "awaitio",
+   "key": "awaitio",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: AwaitIO",
+   "url": "https://www.producthunt.com/products/awaitio",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "godwit",
+   "key": "godwit",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Godwit",
+   "url": "https://www.producthunt.com/products/godwit",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "pluto door",
+   "key": "plutodoor",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Pluto Door",
+   "url": "https://www.producthunt.com/products/pluto-door",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "agnos",
+   "key": "agnos",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Agnos",
+   "url": "https://www.producthunt.com/products/agnos",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "hemmed",
+   "key": "hemmed",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Hemmed",
+   "url": "https://www.producthunt.com/products/hemmed",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "specsight",
+   "key": "specsight",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Specsight",
+   "url": "https://www.producthunt.com/products/specsight",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "secret key",
+   "key": "secretkey",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Secret Key",
+   "url": "https://www.producthunt.com/products/secret-key",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "mo",
+   "key": "mo",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Mo",
+   "url": "https://www.producthunt.com/products/mo-5",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "cubbypad",
+   "key": "cubbypad",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: CubbyPad",
+   "url": "https://www.producthunt.com/products/cubbypad",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "sketch stadium",
+   "key": "sketchstadium",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: Sketch Stadium",
+   "url": "https://sketch.wakeshift.ai/games/q5ucru",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "flyer maker + poster maker",
+   "key": "flyermakerpostermaker",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: Flyer Maker + Poster Maker",
+   "url": "https://apps.apple.com/us/app/flyer-maker-poster-maker/id1337666644?uo=2",
+   "signals": [
+    "App Store 新上架"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "ppt skill",
+   "key": "pptskill",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@op7418: 这次给 Deepseek Harness 做的这个新插件 dsh-guizang-design，旧的 PPT Skill 也进行了很多优化。 如果你已经安装过其",
+   "url": "",
+   "signals": [
+    "X 1 个账号 ♥117"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "cloudcorprecords",
+   "key": "cloudcorprecords",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 30 处 (×25.7)"
+   ],
+   "variants": [],
+   "named": 0.4
+  },
+  {
+   "name": "io.github.find",
+   "key": "iogithubfind",
    "sources": [
     "竞品站"
    ],
@@ -679,184 +551,212 @@
     "③ 竞品 11 处 (×11.0)"
    ],
    "variants": [],
-   "named": 0.2
+   "named": 0.4
   },
   {
-   "name": "genpark reasoning",
-   "key": "genparkreasoning",
+   "name": "connectors io.github.changzhiai",
+   "key": "connectorsiogithubchangzhiai",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 10 处 (×10.0)"
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "variants": [],
+   "named": 0.4
+  },
+  {
+   "name": "connectors za.co.aiagenttools",
+   "key": "connectorszacoaiagenttools",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "variants": [],
+   "named": 0.4
+  },
+  {
+   "name": "genpark personal",
+   "key": "genparkpersonal",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 18 处 (×15.2)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "macedo",
+   "key": "macedo",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "gillmacedo",
+   "key": "gillmacedo",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "cloud",
+   "key": "cloud",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 33 处 (×7.2)"
    ],
    "variants": [],
    "named": 0.2
   },
   {
-   "name": "genpark embodied",
-   "key": "genparkembodied",
+   "name": "records",
+   "key": "records",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 8 处 (×8.0)"
-   ],
-   "variants": [],
-   "named": 0.2
-  },
-  {
-   "name": "genpark quant",
-   "key": "genparkquant",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 8 处 (×8.0)"
-   ],
-   "variants": [],
-   "named": 0.2
-  },
-  {
-   "name": "essence",
-   "key": "essence",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 16 处 (×14.2)"
+    "③ 竞品 30 处 (×22.7)"
    ],
    "variants": [],
    "named": 0.1
   },
   {
-   "name": "jonathanngiroux",
-   "key": "jonathanngiroux",
+   "name": "corp",
+   "key": "corp",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 13 处 (×10.5)"
+    "③ 竞品 30 处 (×20.3)"
    ],
    "variants": [],
    "named": 0.1
   },
   {
-   "name": "jonathanngiroux star",
-   "key": "jonathanngirouxstar",
+   "name": "personal",
+   "key": "personal",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 13 处 (×10.5)"
+    "③ 竞品 23 处 (×9.2)"
    ],
    "variants": [],
    "named": 0.1
   },
   {
-   "name": "io.github.pooriaarab",
-   "key": "iogithubpooriaarab",
+   "name": "technology",
+   "key": "technology",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 13 处 (×9.1)"
+    "③ 竞品 12 处 (×9.0)"
    ],
    "variants": [],
    "named": 0.1
   },
   {
-   "name": "connectors io.github.pooriaarab",
-   "key": "connectorsiogithubpooriaarab",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 13 处 (×9.1)"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "io.github.dancerdan15",
-   "key": "iogithubdancerdan15",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 9 处 (×9.0)"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "connectors io.github.dancerdan15",
-   "key": "connectorsiogithubdancerdan15",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 9 处 (×9.0)"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "connectors io.github.sumitrmardy",
-   "key": "connectorsiogithubsumitrmardy",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 10 处 (×8.7)"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "alerts",
-   "key": "alerts",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 13 处 (×7.9)"
-   ],
-   "variants": [],
-   "named": 0.0
-  },
-  {
-   "name": "auto dismiss mac os \"allow <app> to find devices on local networks?\"",
-   "key": "autodismissmacosallowapptofinddevicesonlocalnetworks",
+   "name": "ai video - ai video generator",
+   "key": "aivideoaivideogenerator",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
-   "url": "https://github.com/johncassil/dontallow",
+   "desc": "App Store: AI Video - AI Video Generator",
+   "url": "https://apps.apple.com/us/app/ai-video-ai-video-generator/id6478868302?uo=2",
+   "signals": [
+    "App Store 新上架"
+   ],
+   "variants": [],
+   "named": 0.2
+  },
+  {
+   "name": "dancehit: ai dance generator",
+   "key": "dancehitaidancegenerator",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: DanceHit: AI Dance Generator",
+   "url": "https://apps.apple.com/us/app/dancehit-ai-dance-generator/id6761751034?uo=2",
+   "signals": [
+    "App Store 新上架"
+   ],
+   "variants": [],
+   "named": 0.2
+  },
+  {
+   "name": "a working nintendo in ~1gb of qwen weights",
+   "key": "aworkingnintendoin1gbofqwenweights",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+   "url": "https://github.com/dbreunig/nesformer",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "i rebuilt kubernetes for esp32 microcontrollers",
+   "key": "irebuiltkubernetesforesp32microcontrollers",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: I rebuilt Kubernetes for ESP32 microcontrollers",
+   "url": "https://github.com/arterialist/kube32",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "to honor sir patrick stewart, enjoy the tng episode guessing game",
+   "key": "tohonorsirpatrickstewartenjoythetngepisodeguessinggame",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+   "url": "https://tng.episodle.com/",
    "signals": [
     "Show HN 新上架"
    ],
@@ -864,13 +764,13 @@
    "named": 0.1
   },
   {
-   "name": "i turned doom into a transformer",
-   "key": "iturneddoomintoatransformer",
+   "name": "i built a multiplayer game where you're an aerial fighter cat",
+   "key": "ibuiltamultiplayergamewhereyoureanaerialfightercat",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Show HN: I Turned DOOM into a Transformer",
-   "url": "https://github.com/mottopanikeiku/doomformer",
+   "desc": "Show HN: I built a multiplayer game where you're an aerial fighter cat",
+   "url": "https://catcopter.com",
    "signals": [
     "Show HN 新上架"
    ],
@@ -878,197 +778,119 @@
    "named": 0.1
   },
   {
-   "name": "a proof-of-concept formalization of the irs federal tax forms",
-   "key": "aproofofconceptformalizationoftheirsfederaltaxforms",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: A proof-of-concept formalization of the IRS federal tax forms",
-   "url": "https://github.com/emmilco/us-tax-model",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "Gemini 4 Carbon",
-   "key": "gemini4carbon",
+   "name": "Mischief 1",
+   "key": "mischief1",
    "sources": [
     "书签X"
    ],
-   "desc": "Google DeepMind 推出的下一代前沿模型，在网络安全和长跨度任务处理方面表现卓越。",
-   "url": "https://x.com/GoogleDeepMind/status/2115489356437651654",
+   "desc": "【补报】The Biological Computing Co. 创始人发布的图生视频模型，号称比基座快 5 倍、半美分/秒起。",
+   "url": "https://x.com/AlexKsendzovsky/status/2116153410101944352",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-10-29 01:02"
+   "first_seen": "2026-10-30 21:01"
   },
   {
-   "name": "Nemotron 3.5 Transcribe",
-   "key": "nemotron35transcribe",
+   "name": "SenseNova Loop-9B-Preview",
+   "key": "sensenovaloop9bpreview",
    "sources": [
     "书签X"
    ],
-   "desc": "NVIDIA 推出的 30B MoE 开放权重模型，支持 40 种语言的转录、说话人识别及翻译。",
-   "url": "https://x.com/NVIDIAAI/status/2115462300241141882",
+   "desc": "【补报】商汤开源 9B Looped Transformer，参数共享循环 + mHC，宣称达 27B 级表现。",
+   "url": "https://x.com/SenseTime_AI/status/2116151078219858346",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-10-28 23:14"
+   "first_seen": "2026-10-30 20:51"
   },
   {
-   "name": "Brush",
-   "key": "brush",
+   "name": "SenseNova 6.8 Code2Video",
+   "key": "sensenova68code2video",
    "sources": [
     "书签X"
    ],
-   "desc": "Canva 推出的首个视觉语言模型，能够理解设计布局、图层和风格并进行辅助编辑。",
-   "url": "https://x.com/canva/status/2115885750013321704",
+   "desc": "【补报】商汤开源轻量模型：用可执行代码渲染视频。",
+   "url": "https://x.com/SenseTime_AI/status/2115445835068748044",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-10-30 03:17"
+   "first_seen": "2026-10-28 22:09"
   },
   {
-   "name": "Le Chonk",
-   "key": "lechonk",
+   "name": "OpenAI Private Intelligence",
+   "key": "openaiprivateintelligence",
    "sources": [
     "书签X"
    ],
-   "desc": "Mistral AI 发布的新版开放权重模型，专注于智能体编码和网络安全领域。",
-   "url": "https://x.com/MistralAI/status/2115811242556137820",
+   "desc": "OpenAI 面向企业推出的更强数据控制与隐私保护能力。",
+   "url": "https://x.com/OpenAI/status/2116186509384815084",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-10-29 22:21"
+   "first_seen": "2026-10-30 23:12"
   },
   {
-   "name": "Pika H3 Flex",
-   "key": "pikah3flex",
+   "name": "Claude Ultra",
+   "key": "claudeultra",
    "sources": [
     "书签X"
    ],
-   "desc": "Pika Labs 推出的开放权重视频生成模型，支持 4k 分辨率及导出音频轨道。",
-   "url": "https://x.com/pika_labs/status/2115860471215788262",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-10-30 01:37"
-  },
-  {
-   "name": "Clover-35B-A3B-Preview",
-   "key": "clover35ba3bpreview",
-   "sources": [
-    "书签X"
-   ],
-   "desc": "首个 35B 参数的开放权重生产级扩散语言模型 (dLLM)，支持 680 tps 高吞吐。",
-   "url": "https://x.com/DiffuSpace_Labs/status/2115288124691820738",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-10-28 11:42"
-  },
-  {
-   "name": "Audio8-TTS-Realistic",
-   "key": "audio8ttsrealistic",
-   "sources": [
-    "书签X"
-   ],
-   "desc": "支持 23 种语言的 0.6B 参数零样本语音克隆模型。",
-   "url": "https://x.com/Edge0_AI/status/2115972048774398355",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-10-30 09:00"
-  },
-  {
-   "name": "Mistral Responses API",
-   "key": "mistralresponsesapi",
-   "sources": [
-    "书签X"
-   ],
-   "desc": "Mistral 推出的用于构建智能体的 API 公测版，不是新模型。",
-   "url": "https://x.com/MistralAI/status/2115443720371814478",
+   "desc": "Claude Max 20x 改名 Ultra，已验证账号取消 5 小时限额。不是新模型",
+   "url": "https://x.com/claudeai/status/2116220869479428500",
    "signals": [],
    "variants": [],
    "not_model": true,
-   "first_seen": "2026-10-28 22:01"
+   "first_seen": "2026-10-31 01:29"
   },
   {
-   "name": "Google Connected Apps Platform",
-   "key": "googleconnectedappsplatform",
+   "name": "Anthropic 自动化误对齐研究",
+   "key": "anthropic自动化误对齐研究",
    "sources": [
     "书签X"
    ],
-   "desc": "Google 推出的搜索与 Gemini 应用开发管理平台预览版，不是新模型。",
-   "url": "https://x.com/Google/status/2115562774231155045",
+   "desc": "Anthropic 用大量 Claude agent 自动化 subtle emergent misalignment 红队研究。不是新模型",
+   "url": "https://x.com/AnthropicAI/status/2116349211549843666",
    "signals": [],
    "variants": [],
    "not_model": true,
-   "first_seen": "2026-10-29 05:54"
+   "first_seen": "2026-10-31 09:59"
   },
   {
-   "name": "Claude API 128MB request limit",
-   "key": "claudeapi128mbrequestlimit",
+   "name": "Google 太空 TPU",
+   "key": "google太空tpu",
    "sources": [
     "书签X"
    ],
-   "desc": "Claude API 请求限制从 32MB 提升至 128MB，不是新模型。",
-   "url": "https://x.com/ClaudeDevs/status/2115923971279614171",
+   "desc": "Google 将 4 颗 TPU 送入轨道，验证太空 AI 硬件可运行。不是新模型",
+   "url": "https://x.com/Google/status/2116244898269610456",
    "signals": [],
    "variants": [],
    "not_model": true,
-   "first_seen": "2026-10-30 05:49"
+   "first_seen": "2026-10-31 03:04"
   },
   {
-   "name": "Claude self-assessment",
-   "key": "claudeselfassessment",
+   "name": "PlanAssist",
+   "key": "planassist",
    "sources": [
     "书签X"
    ],
-   "desc": "Anthropic 训练 Claude 识别对话中潜在滥用行为的技术，不是新模型。",
-   "url": "https://x.com/AnthropicAI/status/2115871889549865429",
+   "desc": "Google DeepMind 面向英国政府规划官员的 Gemini 规划助手，可缩短房屋申请评估时间约 58%，已向 12 个地方推广。",
+   "url": "https://x.com/GoogleDeepMind/status/2116524000977285321",
    "signals": [],
    "variants": [],
-   "not_model": true,
-   "first_seen": "2026-10-30 02:22"
+   "first_seen": "2026-10-31 21:33"
   },
   {
-   "name": "ChatGPT Pro/Business API credits $500",
-   "key": "chatgptprobusinessapicredits500",
+   "name": "Panda Orchestrator",
+   "key": "pandaorchestrator",
    "sources": [
     "书签X"
    ],
-   "desc": "ChatGPT Pro 和 Business 订阅者每月可获 500 美元 API 额度，不是新模型。",
-   "url": "https://x.com/OpenAIDevs/status/2115583698074755078",
+   "desc": "@aicodeking 发布的开源权重模型编排器，按专长路由任务，宣称可省约 78% 费用、30% 时间。",
+   "url": "https://x.com/aicodeking/status/2116364785554002093",
    "signals": [],
    "variants": [],
-   "not_model": true,
-   "first_seen": "2026-10-29 07:17"
-  },
-  {
-   "name": "WeVisOne-VL-4B",
-   "key": "wevisonevl4b",
-   "sources": [
-    "书签X"
-   ],
-   "desc": "腾讯微信视觉基于 Qwen3-VL 推出的开源视觉感知模型，统一支持点、框、掩码与 Alpha 遮罩。",
-   "url": "https://x.com/ModelScope2022/status/2116112010153017746",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-10-30 18:16"
-  },
-  {
-   "name": "Matilda Platypus",
-   "key": "matildaplatypus",
-   "sources": [
-    "书签X"
-   ],
-   "desc": "Maincode 推出的开源权重 LLM 系列，面向「4B 太小、8B 过大」的中间尺寸需求。",
-   "url": "https://x.com/MaincodeAU/status/2116031890524422148",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-10-30 12:58"
+   "first_seen": "2026-10-31 11:00"
   }
  ],
  "dupes": [],
  "board_keywords": [
-  "Gemini 4 Carbon",
-  "Nemotron 3.5 Transcribe",
-  "Brush"
+  "Mischief 1"
  ]
 }

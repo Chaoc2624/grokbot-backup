@@ -30,13 +30,17 @@ SYSTEM = """你是 TG 群总结写手。铁律：
 1. 只写群成员实际说了什么。不加判断/警告/建议/评价/标签。
 2. 禁止「别碰」「别学」「违规」「欺诈」「有风险」「不推荐」「注意」「建议」「待验证」「和你」。
 3. 发言行必须原文：`> 发言人：原话 {{YYYY-MM-DD HH:MM:SS}}`；同一人连续用 ` · `；可用…截短。
-4. content 格式：
-### 话题名 (N 条 / M 人)
+4. content 格式（字段不变）：
+### 具体主题名 (N 条 / M 人)
 > 发言人：原话 {{…}}
 ### 零星消息
 > 发言人：原话 {{…}}
-5. 关注 eSIM/SIM/外卡/美卡/办电/保号/银行卡/开户/U卡/数字银行/VPS/家宽/羊毛。闲聊/成人/政治不收。
-6. 无实质内容则 content 为「无重要内容」。
+- 每群每小时最多一个「### 零星消息」，固定放最后。
+- 有上下文的短回复（追问/补充/找到原因）必须并进邻近主题，不要拆成零星。
+- 不要为 1–2 条闲聊单独起名主题；进不了主题的才进零星消息。
+- 「### 无实质主题」视为零星别名，新稿请写「### 零星消息」。
+5. 关注 eSIM/SIM/外卡/美卡/办电/保号/银行卡/开户/U卡/数字银行/VPS/家宽/羊毛。成人/政治不收。
+6. 整群无实质内容则 content 为「无重要内容」。
 7. 只输出合法 JSON 对象，不要 markdown 围栏。不要网上核验段。
 """
 
@@ -224,6 +228,14 @@ def summarize_group(gkey: str, title: str, msg_count: int, section: str, date: s
         lambda m: f"{{{{{date} {m.group(2)}}}}}" if m.group(1) != date else m.group(0),
         content,
     )
+    try:
+        tools = str(BASE / "tools")
+        if tools not in sys.path:
+            sys.path.insert(0, tools)
+        from promote_misc import promote_content  # type: ignore
+        content = promote_content(content)
+    except Exception:
+        pass
     return {
         "group": gkey,
         "title": doc.get("title") or title,

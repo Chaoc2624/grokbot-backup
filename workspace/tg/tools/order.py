@@ -2,7 +2,7 @@
 """Ordering + 「涉及商家」 chips for chat-format digest content (shared by mkfrag / addtimes / tg_merge6h /
 tg_digest_push / xbm tg_pull_summary). Rules (user, 2026-10-09):
   * newest first: hour sections ('**HH:MM–HH:MM**') newest first; inside an hour (or a daily '## 大类') topics
-    newest first by their latest speech-line time; '### 零星消息' stays last; untimed topics after timed ones.
+    newest first by their latest speech-line time; '### 零星消息' / '### 无实质主题' stay last; untimed topics after timed ones.
   * inside a topic: speech lines oldest first (by the {{time}} token; lines without a token keep their slot).
   * right under each topic heading: '~ 涉及商家：A · B · C' = merchants / platforms / banks / carriers / cards named
     in that topic's speech lines, in order of first mention (lexicon = glossary.md backticked names + a small
@@ -24,7 +24,7 @@ VH = re.compile(r'^#{1,4}\s+.*网上核验')
 SPEECH = re.compile(r'^>\s*([^：:\n]{1,40}?)\s*[：:]\s*(.*)$')
 CHIP = re.compile(r'^~\s*涉及商家[：:]')
 ACTIVE = re.compile(r'^~\s*话题活跃成员')
-ZERO = re.compile(r'^###\s+零星消息')
+ZERO = re.compile(r'^###\s+(?:零星消息|无实质主题)')
 
 # ---------------- time keys ----------------
 def tkey(line):

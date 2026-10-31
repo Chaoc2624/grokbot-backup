@@ -2,7 +2,7 @@
 
 Content / spec line types (one per line):
   **18:00–19:00**                 hour divider (added by tg_merge6h.py; don't write it in specs)
-  ### 话题名 (11 条 / 4 人)        topic heading; counts optional; '### 零星消息' = the cold single-message list
+  ### 话题名 (11 条 / 4 人)        topic heading; counts optional; '### 无实质主题' (alias '### 零星消息') = chitchat / no extractable theme
   > 发言人：原话                    speech line, verbatim; several messages of the same person joined by ' · ';
                                    '…' marks trimmed text; ==关键词== marks a keyword (rendered as highlight)
   ~ 话题活跃成员（近 7 天话题消息）：A 34 · B 18      small muted meta line

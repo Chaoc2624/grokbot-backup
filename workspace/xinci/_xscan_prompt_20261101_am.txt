@@ -1,0 +1,355 @@
+你是新词雷达 XSCAN 筛选器。根据候选帖生成严格 JSON（不要 markdown 围栏，不要解释）。
+
+窗口: window_start=2026-10-31 21:36 (北京) / 2026-10-31T13:36:00Z ; window_end=2026-11-01 10:14 (北京) / 2026-11-01T02:14:09Z
+label: "2026-11-01 上午 书签X"
+run_at: "2026-11-01 10:15"
+
+规则:
+1. 只收真实首发（产品/模型首次发布）。合作/上架/功能更新/报告/研究可收但 kind=not_model，desc 末尾加「不是新模型」。
+2. 招聘/活动/人事/营销转发/玩笑梗/NFT/币圈质押不收。
+3. 已在 reported 的规范化名不收（含 Le Chonk / Mistral Large 4、Pika H3 Flex、Nemotron 3.5 Transcribe、Kimi K3.1 Pro、LFM3、GPT-6.1 Terra、PlanAssist、Panda Orchestrator 等）。本窗口前首发但漏报 → 收，加 "backfill":true，desc 前加「【补报】」。
+4. B 路非官方/创始人传闻不收。STARDUST Flash-01 若仅小账号自宣且无主流官方证实、互动极低 → 不收。Reflection Beam / LFM2.5 若首发早于本窗口且已非新 → 不收或仅在漏报时补报。
+5. 建站热词 ≤3（宁缺勿滥）：优先 kind=model/product；views≥500000 或 bookmarks≥1000；名字全新；给 keyword_rank/keyword/reason。不达标则 keywords=[]。
+6. first_seen 用北京时间 YYYY-MM-DD HH:MM（UTC+8）。
+7. empty=true 若无合格 items。
+8. source 写成 @username；url 用帖子 url。
+9. 输出字段: label, run_at, window_start, window_end, empty, items[], keywords[]。
+
+已报 names（勿重复）: ["Sage-A1.5", "Spark-X2.6-4B", "OXR-1.0", "Claude Duet", "Recursive Flint", "Claude Security 持续扫描", "OpenAI 模型登陆 Google Cloud", "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能", "GPT-Rosalind 药物发现线索", "Mistral × NVIDIA 工业工程合作", "Gemini 在 Google 地图 CarPlay 导航", "Moss-Image-Edit", "PixText", "Omni-R2V", "MiniMax M3.1 Flash", "Ling-3.0-flash-Sante", "Canva Craft", "Claude 登陆 Google Cloud GA", "Claude 默认自动模式", "Claude 大规模形式化验证", "OpenAI × METR 嵌入式评估", "EvaOmni", "OpenAI Decisions API", "Agent Skills 捐给 Agentic AI Foundation", "Gemini API CLI", "Ling-3.1-flash-1019", "StreamEval", "Kimi K3.1 Pro", "Claude MCP Tasks / Elicitations", "OpenAI 训练环境离线化", "OpenAI 发现 Brotli 未认证 RCE", "Anthropic AISI Mythos 5 进一步分析", "Dessa", "Nemotron 3.5 Bolt E4B", "Nanbeige4.3-33B", "MiniMax H3 社区加速更新", "d3-turbo", "BabelArena", "GPT-6.1 Terra", "Claude for Nonprofits", "Ling-3.1-flash-base", "Atria Dawn", "Fibo 2.0 Dev", "Unlimited-OCR-2", "Hy-Nomas", "Hy-SimulMT", "Genie 4", "LFM3", "Claude OneGov", "Gemini 4 Carbon", "Nemotron 3.5 Transcribe", "Brush", "Le Chonk", "Pika H3 Flex", "Clover-35B-A3B-Preview", "Audio8-TTS-Realistic", "Mistral Responses API", "Google Connected Apps Platform", "Claude API 128MB request limit", "Claude self-assessment", "ChatGPT Pro/Business API credits $500", "WeVisOne-VL-4B", "Matilda Platypus", "Mischief 1", "SenseNova Loop-9B-Preview", "SenseNova 6.8 Code2Video", "OpenAI Private Intelligence", "Claude Ultra", "Anthropic 自动化误对齐研究", "Google 太空 TPU", "PlanAssist", "Panda Orchestrator"]
+
+官方帖 official_posts: []
+（本窗口重点账号搜索结果为 0）
+
+关键词候选（已含 metrics；无一 likes≥500；非官方需谨慎）:
+[
+  {
+    "id": "2116525310258946247",
+    "username": "Venkat969789360",
+    "text": "🌍 The future of InterLink is being shaped by genuine people, trusted connections, and meaningful contributions! With the ITLG KYC Portal expected to open in the coming days, every Linker should understand the opportunities and responsibilities ahead. 🚀\n\nInterLink is working https://t.co/0E5YAniXg3",
+    "url": "https://x.com/Venkat969789360/status/2116525310258946247",
+    "created_at": "2026-10-31T13:38:51.000Z",
+    "first_seen_bj": "2026-10-31 21:38",
+    "views": 155,
+    "bookmarks": 1,
+    "likes": 15
+  },
+  {
+    "id": "2116595749425197491",
+    "username": "UP_SHIFTED",
+    "text": "A Chinese AI lab made its own model worse at hacking. On purpose. Then scheduled it to be given away.\n\nMoonshot’s Kimi K3.1 Pro goes open-weight by November 4. Anyone will be able to download it.\n\nBefore that, they cut cyberattack data out of its training.\n\nTheir own test, https://t.co/CLh93Nhb5E",
+    "url": "https://x.com/UP_SHIFTED/status/2116595749425197491",
+    "created_at": "2026-10-31T18:18:45.000Z",
+    "first_seen_bj": "2026-11-01 02:18",
+    "views": 177,
+    "bookmarks": 0,
+    "likes": 9
+  },
+  {
+    "id": "2116544358485020863",
+    "username": "gonzalaga",
+    "text": "Support your local open source/open weights model. https://t.co/eLmt2JmNz7",
+    "url": "https://x.com/gonzalaga/status/2116544358485020863",
+    "created_at": "2026-10-31T14:54:33.000Z",
+    "first_seen_bj": "2026-10-31 22:54",
+    "views": 216,
+    "bookmarks": 0,
+    "likes": 5
+  },
+  {
+    "id": "2116525414109634673",
+    "username": "DavidHarket",
+    "text": "Introducing TO SEE, a customizable LMS that you can vibe code any feature into.\n\nThe future of enterprise software is neither the traditional saas model, nor vibecoding alone. Its a mix of both. https://t.co/bOZm3QdJCC",
+    "url": "https://x.com/DavidHarket/status/2116525414109634673",
+    "created_at": "2026-10-31T13:39:16.000Z",
+    "first_seen_bj": "2026-10-31 21:39",
+    "views": 138,
+    "bookmarks": 0,
+    "likes": 5
+  },
+  {
+    "id": "2116531729255240136",
+    "username": "afinancesummit",
+    "text": "When the trader is an agent, who answers for the trade?\n\nAt Agentic Finance Singapore, leaders from @TheoriqAI, @liquidtrading, @Kleros_io, @trylimitless and Bitcoin Japan examined execution, risk and accountability in autonomous trading, moderated by @VulsightSec .\n\nOne https://t.co/Sp6neZdWNk",
+    "url": "https://x.com/afinancesummit/status/2116531729255240136",
+    "created_at": "2026-10-31T14:04:22.000Z",
+    "first_seen_bj": "2026-10-31 22:04",
+    "views": 210,
+    "bookmarks": 0,
+    "likes": 4
+  },
+  {
+    "id": "2116552770975130012",
+    "username": "AIWorkfloway",
+    "text": "🚨 AI UPDATES YOU NEED TO KNOW — Oct 31\n\nGOOGLE 🚀:\n\n- Antigravity is now integrated into Android Studio.\n- Google is testing a new Running tab in Antigravity for managing background tasks (via testingcatalog).\n- Varun Mohan hinted at a major week of upcoming Antigravity",
+    "url": "https://x.com/AIWorkfloway/status/2116552770975130012",
+    "created_at": "2026-10-31T15:27:58.000Z",
+    "first_seen_bj": "2026-10-31 23:27",
+    "views": 116,
+    "bookmarks": 0,
+    "likes": 2
+  },
+  {
+    "id": "2116530015982490086",
+    "username": "Tom091102",
+    "text": "Another reward opportunity for the PTAH community\n\n@Ptahtrade has launched the $IAO airdrop for POA holders, and the claim is now available\n\n🔗https://t.co/oq0uNEh8J4\n\n&gt;&gt; FCFS allocation: 44,444\n\n• Click Airdrop \n• Post on X and Submit your post \n• Wait and refresh page \n•",
+    "url": "https://x.com/Tom091102/status/2116530015982490086",
+    "created_at": "2026-10-31T13:57:33.000Z",
+    "first_seen_bj": "2026-10-31 21:57",
+    "views": 54,
+    "bookmarks": 0,
+    "likes": 2
+  },
+  {
+    "id": "2116528967566184555",
+    "username": "Un0bs3rvd",
+    "text": "If @Zai_org can implement the tech in the latest version of DSV4.1 Flash they will have the best open weight model on the planet.\n\nWho knows what’s to come with GLM 5.5",
+    "url": "https://x.com/Un0bs3rvd/status/2116528967566184555",
+    "created_at": "2026-10-31T13:53:23.000Z",
+    "first_seen_bj": "2026-10-31 21:53",
+    "views": 38,
+    "bookmarks": 0,
+    "likes": 2
+  },
+  {
+    "id": "2116531046544035967",
+    "username": "UpHonestReal",
+    "text": "🎃 https://t.co/wuabgjwn71 — TONIGHT, THE WORLD BELONGS TO HALLOWEEN. BUT WHO WILL OWN THE BUSINESS BEHIND IT? 👻\n\nOCTOBER 31. HALLOWEEN NIGHT.\n\nThe costumes are on.\n\nThe pumpkins are glowing.\n\nThe haunted houses are open.\n\nThe streets are filling with monsters, witches, https://t.co/a641yGa89y",
+    "url": "https://x.com/UpHonestReal/status/2116531046544035967",
+    "created_at": "2026-10-31T14:01:39.000Z",
+    "first_seen_bj": "2026-10-31 22:01",
+    "views": 255,
+    "bookmarks": 0,
+    "likes": 1
+  },
+  {
+    "id": "2116532418941419600",
+    "username": "BasicProtein26",
+    "text": "I keep hearing open weights mean anyone can run frontier AI. Mistral dropping a trillion-parameter model, Le Chonk, plus a 1-bit version from Unsloth, tests that claim in public.\nA trillion parameters is not a laptop model. Even squeezed to 1 bit, you still need serious hardware, https://t.co/VqvKM8UfOD",
+    "url": "https://x.com/BasicProtein26/status/2116532418941419600",
+    "created_at": "2026-10-31T14:07:06.000Z",
+    "first_seen_bj": "2026-10-31 22:07",
+    "views": 47,
+    "bookmarks": 0,
+    "likes": 1
+  },
+  {
+    "id": "2116655218205008342",
+    "username": "aidaily24h",
+    "text": "Pika just released open weights for its new video model. Pika H3 Flex can make a 15-sec clip in as little as 7 sec of compute, takes up to 12 references, exports 5 separate audio stems and finishes up to 4K. Pika says it's the top-ranked open-weight video model. #AIVideo https://t.co/gNuXRRKFQj",
+    "url": "https://x.com/aidaily24h/status/2116655218205008342",
+    "created_at": "2026-10-31T22:15:04.000Z",
+    "first_seen_bj": "2026-11-01 06:15",
+    "views": 43,
+    "bookmarks": 0,
+    "likes": 1
+  },
+  {
+    "id": "2116703846227747225",
+    "username": "nxtday",
+    "text": "🛡 Moonshot says it cut cyber attack skills in Kimi K3.1 Pro ahead of a Nov 4 open weights drop.\n\nMoonshot AI makes the Kimi models. Open weights are model files others can download and run. Moonshot's blog says it scrubbed cyber training data and filtered cyber tasks from https://t.co/twV5V6y6Le",
+    "url": "https://x.com/nxtday/status/2116703846227747225",
+    "created_at": "2026-11-01T01:28:18.000Z",
+    "first_seen_bj": "2026-11-01 09:28",
+    "views": 40,
+    "bookmarks": 0,
+    "likes": 1
+  },
+  {
+    "id": "2116565914485129537",
+    "username": "TacticaLJes",
+    "text": "Pika put out an open weights video model and the license says you can't use it in the US.  Or the EU, the UK or Korea.  So it's open weights for everybody except most of the people downloading it.  Ya, ok.",
+    "url": "https://x.com/TacticaLJes/status/2116565914485129537",
+    "created_at": "2026-10-31T16:20:12.000Z",
+    "first_seen_bj": "2026-11-01 00:20",
+    "views": 22,
+    "bookmarks": 0,
+    "likes": 1
+  },
+  {
+    "id": "2116621238793891918",
+    "username": "paulnugent92159",
+    "text": "Liquid AI has released LFM2.5-24B-A2B: a 24-billion-parameter reasoning model with just 2 billion active parameters, built for fast, private AI agents that run entirely on-device. Open weights, available today on Hugging Face.\n\nThe sparse-MoE design is the headline. Because only https://t.co/EXrB49gAzL",
+    "url": "https://x.com/paulnugent92159/status/2116621238793891918",
+    "created_at": "2026-10-31T20:00:02.000Z",
+    "first_seen_bj": "2026-11-01 04:00",
+    "views": 11,
+    "bookmarks": 0,
+    "likes": 1
+  },
+  {
+    "id": "2116707438317703263",
+    "username": "ThreeRouter1",
+    "text": "DeepSeek Unveils Super-Agent Architecture, V4.1-Flash-1017 Open Weights and Search API https://t.co/l74YPxVTTR",
+    "url": "https://x.com/ThreeRouter1/status/2116707438317703263",
+    "created_at": "2026-11-01T01:42:34.000Z",
+    "first_seen_bj": "2026-11-01 09:42",
+    "views": 4,
+    "bookmarks": 0,
+    "likes": 1
+  },
+  {
+    "id": "2116546235519943069",
+    "username": "koltregaskes2",
+    "text": "AI News Digest covering 29 October (late again)\n\nMistral put the weights of Large 4 online, OpenAI rewrote its Model Spec around five values, and a security firm said Z. AI's GLM-5.3 finished three multi-stage cyberattack scenarios in tests. Google also let Gemini users edit https://t.co/XzXUlwdhdF",
+    "url": "https://x.com/koltregaskes2/status/2116546235519943069",
+    "created_at": "2026-10-31T15:02:00.000Z",
+    "first_seen_bj": "2026-10-31 23:02",
+    "views": 163,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2116530636655665467",
+    "username": "yvessandfort",
+    "text": "A vendor's security test this week: an open-weight model reached for an outside cloud bucket. Why is disputed, the replay needed a heavy prefill. What isn't: nothing left, because the sandbox had no way out.\nEgress closed by default. Exceptions on a list. https://t.co/7J3CEHhMwj",
+    "url": "https://x.com/yvessandfort/status/2116530636655665467",
+    "created_at": "2026-10-31T14:00:01.000Z",
+    "first_seen_bj": "2026-10-31 22:00",
+    "views": 55,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2116531939754566118",
+    "username": "Kostiantyn14954",
+    "text": "A 1-trillion-parameter model just went open weight, and each word it writes wakes up only about 5% of it.\n\nMistral released the weights of Mistral Large 4, nicknamed \"Le Chonk\", on Oct 29.\n\nThe architecture:\n• ~1T total parameters, 49B active per token (52B with embeddings)\n• https://t.co/LaTuVZeFTY",
+    "url": "https://x.com/Kostiantyn14954/status/2116531939754566118",
+    "created_at": "2026-10-31T14:05:12.000Z",
+    "first_seen_bj": "2026-10-31 22:05",
+    "views": 51,
+    "bookmarks": 1,
+    "likes": 0
+  },
+  {
+    "id": "2116524593997324691",
+    "username": "e_etini",
+    "text": "🔥 What if you could run MiniMax M3.1 Flash at HALF the usual cost?\n\nhttps://t.co/pYAlxg1hlI has a limited time offer for developers, AI enthusiasts and anyone looking to get more value from their AI usage.\n\nMiniMax M3.1 Flash (Space Bunny) from @MiniMax_AI is now available with https://t.co/pge6gKdotu https://t.co/8fcDtsrDvU",
+    "url": "https://x.com/e_etini/status/2116524593997324691",
+    "created_at": "2026-10-31T13:36:00.000Z",
+    "first_seen_bj": "2026-10-31 21:36",
+    "views": 43,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2116526533296738723",
+    "username": "milloni0",
+    "text": "There's a full on cyberpunk warfare being fought as we speak\n\nthe point is you can do all this stuff with an open weights model. Even if the model is RL'd against cyber, with enough resources you can RL those restrictions away https://t.co/d7IXwEBmDd",
+    "url": "https://x.com/milloni0/status/2116526533296738723",
+    "created_at": "2026-10-31T13:43:43.000Z",
+    "first_seen_bj": "2026-10-31 21:43",
+    "views": 31,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2116580980005748874",
+    "username": "aidaily24h",
+    "text": "Mistral just put a 1-trillion-parameter model on Hugging Face. Mistral Large 4 \"Le Chonk\": 49B active params, 1M context, text + image input, open weights. Mistral calls it the best open-weight model for coding. API: $0.70/$2.10 per M tokens. #OpenWeights https://t.co/I6CGFzo5K7",
+    "url": "https://x.com/aidaily24h/status/2116580980005748874",
+    "created_at": "2026-10-31T17:20:04.000Z",
+    "first_seen_bj": "2026-11-01 01:20",
+    "views": 26,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2116556461749031067",
+    "username": "theagenticdaily",
+    "text": "Mistral released Large 4 as open weights: a ~1 trillion-parameter model (about 52B active at once) under a modified MIT license, free to use, fine-tune, and commercialize outside of resale-as-a-service. API pricing is $0.70 per million input tokens and $2.10 per million output https://t.co/7BWCd6wv7b",
+    "url": "https://x.com/theagenticdaily/status/2116556461749031067",
+    "created_at": "2026-10-31T15:42:38.000Z",
+    "first_seen_bj": "2026-10-31 23:42",
+    "views": 25,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2116698150471971231",
+    "username": "gadflyrebel",
+    "text": "A trillion-parameter model built for cybersecurity, with open weights. Publish it and arm everyone, or gate it and arm only the labs? Open is fast. Who should get fast first?",
+    "url": "https://x.com/gadflyrebel/status/2116698150471971231",
+    "created_at": "2026-11-01T01:05:40.000Z",
+    "first_seen_bj": "2026-11-01 09:05",
+    "views": 19,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2116705727859552597",
+    "username": "subhankarP",
+    "text": "The week agentic AI's bill came due: an open-weight model turned Firefox patches into working exploits for $1,000 a version, one operator ran 200-plus agent intrusions, and a personal Claude agent sat in a Pentagon network for two months. Ledger: https://t.co/v4n4dMlMIJ",
+    "url": "https://x.com/subhankarP/status/2116705727859552597",
+    "created_at": "2026-11-01T01:35:46.000Z",
+    "first_seen_bj": "2026-11-01 09:35",
+    "views": 14,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2116532125893525700",
+    "username": "ChadWTech",
+    "text": "Pika just released open weights for H3 Flex, a video model that generates clips with synced audio.\n\nRead the fine print first:\n• ~210 GB of base files plus 5.5 GB of adapters\n• Pika tested it on an 80 GB H100\n• Local output tops out at 768p; 4K and audio stems stay on Pika's",
+    "url": "https://x.com/ChadWTech/status/2116532125893525700",
+    "created_at": "2026-10-31T14:05:56.000Z",
+    "first_seen_bj": "2026-10-31 22:05",
+    "views": 7,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2116531330188259764",
+    "username": "FloRyRy410",
+    "text": "Mistral just posted a trillion parameter model as open weights, tuned to find and fix software vulnerabilities. The pitch: the model guarding your code should sit on your hardware, not behind a rented API. Weights are live on Hugging Face now.",
+    "url": "https://x.com/FloRyRy410/status/2116531330188259764",
+    "created_at": "2026-10-31T14:02:47.000Z",
+    "first_seen_bj": "2026-10-31 22:02",
+    "views": 7,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2116531637634879646",
+    "username": "ihm185",
+    "text": "Epoch AI had GLM 5.3, an open weight model, turn published Firefox fixes into working exploits before users got the update. Six releases, about $1,000 in model fees each, the fastest in 12 hours. The time between a public fix and a patched user is now the attack window.",
+    "url": "https://x.com/ihm185/status/2116531637634879646",
+    "created_at": "2026-10-31T14:04:00.000Z",
+    "first_seen_bj": "2026-10-31 22:04",
+    "views": 6,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2116705095790518698",
+    "username": "ven_ai_lab",
+    "text": "nvidia just open sourced nemotron 3.5 transcribe. one model does transcription in 40 languages and labels up to 8 speakers, with only about 4b of its 30b params active. open weights that do all that is insane",
+    "url": "https://x.com/ven_ai_lab/status/2116705095790518698",
+    "created_at": "2026-11-01T01:33:15.000Z",
+    "first_seen_bj": "2026-11-01 09:33",
+    "views": 5,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2116599041521750419",
+    "username": "engrbilalwaris",
+    "text": "Pika releases H3 Flex, an open-weight AI video model 🎬\n\n• 15-sec clips with synced audio in ~7 sec of compute\n• Up to 12 references, 5 separate audio stems\n• Native 768p, upscale to 4K via API\n• #1 open-weights model on DesignArena text-to-video\n\nComing to Pika's app Nov 2. https://t.co/laVKhCcWrO",
+    "url": "https://x.com/engrbilalwaris/status/2116599041521750419",
+    "created_at": "2026-10-31T18:31:50.000Z",
+    "first_seen_bj": "2026-11-01 02:31",
+    "views": 4,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2116684269896778144",
+    "username": "warrior_naruto",
+    "text": "Mistral's 1-trillion-parameter flagship is now open weight. Mistral Large 4 'Le Chonk' leads open models on Cognition's FrontierCode 2.0 and Terminal-Bench 4.0, and ties the best open model on the Coding Agent Index with 47% fewer tokens per task: https://t.co/GH7807IhEs https://t.co/9eUzjqb8tb",
+    "url": "https://x.com/warrior_naruto/status/2116684269896778144",
+    "created_at": "2026-11-01T00:10:30.000Z",
+    "first_seen_bj": "2026-11-01 08:10",
+    "views": 4,
+    "bookmarks": 0,
+    "likes": 0
+  }
+]

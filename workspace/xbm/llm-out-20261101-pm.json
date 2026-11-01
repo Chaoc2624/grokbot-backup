@@ -1,0 +1,88 @@
+{
+ "items": [
+  {
+   "id": "2116768926080340263",
+   "url": "https://x.com/loki_yan_seo/status/2116768926080340263",
+   "title": "Google-Extended屏蔽会导致Gemini不展示",
+   "tag": "SEO",
+   "need": "Loki 指出 Google-Extended 新细则：若在 robots.txt 屏蔽 Google-Extended，站点将无法在 Gemini Apps 经 Grounding 展现并获得点击。此前屏蔽主要是阻止训练数据抓取，现在会直接影响 Gemini 端可见性；AI Overview/AI Mode 与 Gemini App 不同。作者还观察到阿里与知乎已屏蔽。SEO/GEO 站长需重新审视 robots 策略。",
+   "action": "检查自有站点 robots.txt 是否误屏蔽 Google-Extended，并按是否希望出现在 Gemini 调整",
+   "deadline": null,
+   "due_date": null,
+   "category": "todo",
+   "posted_at": "11-01 13:46"
+  },
+  {
+   "id": "2116090587409748249",
+   "url": "https://x.com/bit_sister/status/2116090587409748249",
+   "title": "Grok Bot省Token六招降Cache Reads",
+   "tag": "工具",
+   "need": "bit_sister 实测 75%–90% Token 消耗来自 Cache Reads，给出六招：导出 Usage CSV 找大户、砍高频 Routine、任务前做变化检查、一任务一聊天并沉淀短文件/Skill、用 Director+Connector 协作、先暂停无用 Routine。核心是少唤醒、少重读历史，而非少思考。",
+   "action": "导出本周 Usage CSV 看 Cache Reads，暂停不看的 Routine 并给高频任务加 no-change 早停",
+   "deadline": null,
+   "due_date": null,
+   "category": "todo",
+   "posted_at": "10-30 16:51"
+  },
+  {
+   "id": "2116727112745029820",
+   "url": "https://x.com/MY0OZ/status/2116727112745029820",
+   "title": "斯里兰卡Dialog eSIM线上保号约每月2元",
+   "tag": "通讯",
+   "need": "MY0OZ 详解 Dialog Prepaid eSIM：护照全程线上申请，选号选 Other Number 不选 777，KYC 后邮箱收二维码。保号约每 30 天充 Rs50（约 ¥2）；余额充足时大陆漫游或可走联通 4G。官网入口 dialog.lk。同日 @artistd4qu 有几乎同内容复述帖，以本帖流程为准。",
+   "action": "若需备用境外号，按帖内步骤在 Dialog 官网申请并验证保号/漫游政策",
+   "deadline": null,
+   "due_date": null,
+   "category": "todo",
+   "posted_at": "11-01 11:00"
+  },
+  {
+   "id": "2116384290565128653",
+   "url": "https://x.com/bylixing/status/2116384290565128653",
+   "title": "Spond式AI-Native组织与自愈Agent舰队",
+   "tag": "增长",
+   "need": "bylixing 解读 Spond：10 人团队月烧约 320 万美元 token，Agents First、全量上下文存档、15 分钟全测+回滚、删除 PR 通信瓶颈，构建自愈软件；人类决策收缩到品味与野心，并用历史决策训裁判过滤。可复制要点：建 Loop、敢让 agent 进生产并控爆炸半径、按 Context 而非仿人组织搭 Agent。",
+   "action": "对照自身多 Bot 协作，检查 Loop 瓶颈与生产权限边界，沉淀决策记录供 Agent 复用",
+   "deadline": null,
+   "due_date": null,
+   "category": "related",
+   "posted_at": "10-31 12:18"
+  },
+  {
+   "id": "2116396441455542351",
+   "url": "https://x.com/dashiAIxz/status/2116396441455542351",
+   "title": "Variant用审美能力补模型设计短板",
+   "tag": "AI",
+   "need": "大狮推荐 Variant：专门弥补模型审美短板，免费额度多，作者认为审美多样性常优于 Claude Design。适合做 UI/落地页视觉探索时作补充工具。",
+   "action": "下次做界面视觉方案时试用 Variant 并与 Claude Design 对比出图多样性",
+   "deadline": null,
+   "due_date": null,
+   "category": "related",
+   "posted_at": "10-31 13:06"
+  },
+  {
+   "id": "2108171726412464173",
+   "url": "https://x.com/0xMorlex/status/2108171726412464173",
+   "title": "用Claude Opus在Grok Bot搭整队AI工作流",
+   "tag": "AI",
+   "need": "0xMorlex 称 Grok Bot 接入 Claude Opus 5.5 后，单 Bot 可串起研究、写代码、用工具、验收并交付；文中给 10 步搭建方法（X Article）。适合想把多角色 AI 团队收敛到一个 Bot 的参考。",
+   "action": "打开原帖 X Article，按 10 步核对是否可迁移到现有 Bot 分工",
+   "deadline": null,
+   "due_date": null,
+   "category": "related",
+   "posted_at": "10-08 20:24"
+  }
+ ],
+ "summary": "本期新增书签覆盖 Google-Extended 与 Gemini 可见性、Grok Bot 省 Token、Dialog eSIM 保号、AI-Native 组织复盘、Variant 审美工具及 Opus 工作流搭建。",
+ "brief_text": "📌 推特书签简报 · 2026-11-01 晚上（22:00 档）\n\n账号 @Chaoc2624 · 新增 6 条书签。之前推过、看板上还没处理的还有 241 条，详情在看板。\n\n📈 SEO（1 条）\n• Google-Extended屏蔽会导致Gemini不展示：Loki 指出 Google-Extended 新细则：若在 robots.txt 屏蔽 Google-Extended，站点将无法在 Gemini Apps 经 Grounding 展现并获得点击。此前屏蔽主要是阻止训练数据抓取，现在会直接影响 Gemini 端可见性；AI Overview/AI Mode 与 Gemini App 不同。作者还观察… [原帖](https://x.com/loki_yan_seo/status/2116768926080340263)\n\n🛠 工具（1 条）\n• Grok Bot省Token六招降Cache Reads：bit_sister 实测 75%–90% Token 消耗来自 Cache Reads，给出六招：导出 Usage CSV 找大户、砍高频 Routine、任务前做变化检查、一任务一聊天并沉淀短文件/Skill、用 Director+Connector 协作、先暂停无用 Routine。核心是少唤醒、少重读历史，而非少思考。 [原帖](https://x.com/bit_sister/status/2116090587409748249)\n\n📱 通讯（1 条）\n• 斯里兰卡Dialog eSIM线上保号约每月2元：MY0OZ 详解 Dialog Prepaid eSIM：护照全程线上申请，选号选 Other Number 不选 777，KYC 后邮箱收二维码。保号约每 30 天充 Rs50（约 ¥2）；余额充足时大陆漫游或可走联通 4G。官网入口 dialog.lk。同日 @artistd4qu 有几乎同内容复述帖，以本帖流程为准。 [原帖](https://x.com/MY0OZ/status/2116727112745029820)\n\n🚀 增长（1 条）\n• Spond式AI-Native组织与自愈Agent舰队：bylixing 解读 Spond：10 人团队月烧约 320 万美元 token，Agents First、全量上下文存档、15 分钟全测+回滚、删除 PR 通信瓶颈，构建自愈软件；人类决策收缩到品味与野心，并用历史决策训裁判过滤。可复制要点：建 Loop、敢让 agent 进生产并控爆炸半径、按 Context 而非仿人组织搭 Agent。 [原帖](https://x.com/bylixing/status/2116384290565128653)\n\n🤖 AI（2 条）\n• Variant用审美能力补模型设计短板：大狮推荐 Variant：专门弥补模型审美短板，免费额度多，作者认为审美多样性常优于 Claude Design。适合做 UI/落地页视觉探索时作补充工具。 [原帖](https://x.com/dashiAIxz/status/2116396441455542351)\n• 用Claude Opus在Grok Bot搭整队AI工作流：0xMorlex 称 Grok Bot 接入 Claude Opus 5.5 后，单 Bot 可串起研究、写代码、用工具、验收并交付；文中给 10 步搭建方法（X Article）。适合想把多角色 AI 团队收敛到一个 Bot 的参考。 [原帖](https://x.com/0xMorlex/status/2108171726412464173)\n",
+ "filtered": [
+  {
+   "id": "2116658933930815563",
+   "reason": "directory backlink soft-ad / link farm"
+  },
+  {
+   "id": "2116753177617879304",
+   "reason": "duplicate Dialog eSIM of MY0OZ"
+  }
+ ]
+}

@@ -2089,3 +2089,57 @@
 - `快乐鸡` — 群友称香港移动相关低价套餐/活动（InfiCheesy chengzi「今天还有一个香港移动快乐鸡」「一年6刀」），照原文。
 - members: waika:shameless | waika:qianlink | naixi:kyotai | naixi:OOL | naixi:Chingyim Lee | naixi:Olivi | naixi:国保党总支驻泰国 ais 革命委员会 | haiwufang:Freelf | haiwufang:M JH | haiwufang:J U | haiwufang:Bo Jer | haiwufang:Yu Yu | donni_jj:mnk | donni_jj:romanto yuoan | donni_jj:Alex | donni_jj:bitcoin is future | inficheesy:Eli | inficheesy:Jason huang | inficheesy:Zephyr Vane | inficheesy:君 莫笑 | inficheesy:AkiyoMiles | uk_card:di du | vps_jk:J1ANGGG | vps_jk:youxin | vps_jk:张子君 | loon0x00:Enough Good | loon0x00:诉南 | loon0x00:公共机构和 红果洗洗澡 | loon0x00:chaoscard | loon0x00:First Name Last Na | loon0x00:dou sha | loon0x00:离歌 | loon0x00:理想之城 | loon0x00:统统 起飞 | loon0x00:Maxcn | loon0x00:V字仇杀队 | loon0x00:Lion | loon0x00:𝗠𝗮𝗿𝗶𝘂𝘀 | loon0x00:Loon News
 
+- 2026-11-01 03 点新词：`HKDAP` / `HKD At Par` — Anchorpoint（渣打香港子公司）发行的港元稳定币；渣打为银行分销方（东逆海外基建 Feng「渣打搞了一个hkdap」）。 · `Anchorpoint` — HKDAP 发行方（HKMA 稳定币牌照 FRS01）。 · `渣打 Smart` / `Smart Visa` — 渣打香港 Smart 信用卡，官网写外币零售签账豁免 1.95%（Feng「那个smart visa免1.95货币转换费」）。 · `HashKey × 上海商业银行` / `HashKey Visa Signature` — 联名信用卡；海外外币签账约 4% 自选 Crypto 回赠，须香港居民身份证（J oy「办 HashKey 联名上海商业银行信用卡」）。 · `red chill` — 群友对汇丰 Red 卡/礼遇的叫法（Feng「感觉比red chill香」），照原文。 · `pl` — 群友对汇丰 Pulse 的简称（壹贰叁「red和pl能一起申请吗」），照原文。
+
+- 2026-11-01 04 点新词：`Monz` / `Rev` — 群友对 `Monzo` / `Revolut` 的缩写（东逆薅毛大队 华人出金U卡 | 柯南「Monz 和Rev 地址证明毫无含金量」）。 · `MCP` — 群友讨论是否有望加入 Loon 的功能名（Loon-0x00 八 天王「mcp功能有望在loon中看到吗」；语境似 Model Context Protocol）。 · Codex 手动重置卡 — InfiCheesy 猫e/acc「注意到: Codex 发了一张手动重置卡」，具体产品未公开确认，照原文。
+
+## 2026-11-01 05 点新增
+- `雷霆汇率` — 群友问抹茶/MEXC 刷卡汇率时的叫法（东逆海外基建 幻月 芷「抹茶什么雷霆汇率」；回复「正常汇率」「直接+1%」），照原文；与 Simba「雷霆限速」不同语境。
+- `MEXC 黑卡` — 群友/东逆 Bot 相对「全球黑金卡」的另一档 MEXC Card（APAC）叫法；Bot 称全球黑金卡已不能申请、现只能申请黑卡。
+- members: donni_jj:r r | loon0x00:𝒮𝒾𝓁𝓋𝑒𝓇 𝓁𝒾𝓃𝒾𝓃𝑔 | nbvil:Abigail Faye Navarro
+
+## 2026-11-01 6 点新增
+- `tls-profile` / `client-fingerprint` — Loon 配置 Hysteria2 TLS 握手指纹字段（default/chrome/ios18/ios26；Sub-Store/折腾啥频道写可用 client-fingerprint 自动转换）。
+- 成员续：东逆海外基建 — 幻月 芷、jj w（续）；InfiCheesy — Angela、Love Struck；Loon-0x00 — 勇敢锤锤，不怕挑战、美式 冰、Allen（续）；LoonCommunity — Allen（续）。
+
+## 2026-11-01 07 点新增
+- `Hako` — 基于 mihomo 的 Apple 平台代理内核；群友称 2026-09-02 开源 Hako 内核与 XCFramework SDK、遵循 GPL-3.0（Loon-0x00 勇敢锤锤，不怕挑战；pkg.go.dev TokenPLS/Hako）。
+- `TokenPLS/Hako` — Hako 历史 GitHub 仓库（后迁 ProjectClash；华润赢/群友链接 huarun.win）。
+- `开盒` — 群友问美卡/券商开户后被关时「开盒咋收费」（海无方美卡 damien），照原文。
+- members: haiwufang:no name | haiwufang:damien | donni_jj:珊珊 | inficheesy:Riyhyways Jo | loon0x00:𝑅𝑜𝑎𝑦𝑐 | loon0x00:hinoka | loon0x00:Dolby nuke | loon_comm:浩 | loon_comm:John Hill
+
+- （2026-11-01 08 点）`Clash Plus` — 群友提到的 Clash 系客户端（Loon-0x00 里个浪 浪「还有个clash plus 谁用过」），照原文。 · `ScriptHub` / `Script Hub` — 续（秦城二院彭医生｜夜勤病棟「明明用scripthub就能解决」）。 · 枪王地址证明 / 邀请码网站 — 群友说法（东逆海外基建 polplay），照原文。 · 成员续：奶昔论坛 — 抛 瓦（续）；海无方美卡 — 观澜、hktrainerp、888 李老穷、Ralap Richardson（续）；东逆薅毛大队 — Keil、xuanwoa、yuxi liu（续）、Ralap Richardson；东逆海外基建 — polplay、近渔 远、帝 文（续）、Kortney Mez；何居上跨境 — 何居上（续）；Loon-0x00 — 秦城二院彭医生｜夜勤病棟（续）、可莉🅥（续）、Enough Good、勇敢锤锤，不怕挑战、Saang Sam、hinoka、木真 铁、里个浪 浪、𝑳𝒊𝒌𝒆 𝑳𝒊𝒌𝒆；LoonCommunity — 麻瓜ʕ̡̢̡ʘ̅͟͜͡ʘ̲̅ʔ̢̡̢° 张。
+
+## 2026-11-01 09 点新词
+- `香港联通` — 中国联通香港；群友讨论 App 实名显示汉语拼音、内地号绑六大行，照原文。
+- 兴区 — 群友对 Kraken 新加坡区的叫法（相对 US），照原文。
+
+## 2026-11-01 11 点新增
+- `OrangeVPS`：VPS 商家（群友讨论日本线路）
+- `LABARA`：群友写法，通常指 Lebara
+- `Acivi`：群友提到的卡/品牌写法（对照 Lava）
+- `Blackcatcard`：同 Blackcat
+
+## 其他工具/规则
+`SystemOTA` — blackmatrix7 Loon 规则列表（屏蔽系统更新）；群里常贴 raw.githubusercontent.com/.../SystemOTA.list
+
+## 2026-11-01 13 点新增
+- `Biliverse` / `Biliverse.Enhanced` — Loon 哔哩哔哩增强插件（Loon Community 贴 GitHub releases）。
+- `联通叁佰卡` — 群友推广的联通套餐说法（约 39 元/月、300G+300 分钟），照原文。
+- `荣军卡` — 群友称全国联通改套餐写法（约 99 元/300GB/500 分钟/宽带/副卡），照原文。
+- `snell` — 代理协议；群友称 Surge 客户端常用、色鸡（Surge）侧有逆向相关讨论。
+- `唱歌盒子` — 群友对某代理服务端的叫法（对照 snell/Surge），照原文。
+- `Sofi Crypto` / SoFi 加密 — SoFi 加密账户产品（相对 SoFi 银行户）；群友讨论 W-8 / US ID。
+- `Kite` — 返现/奖励产品（东逆薅毛大队「kite吞奖励」），既有条目续见本小时。
+- `.lpxe` — Loon 群内所称自有插件打包格式（公开文档多见 `.lpx`）
+- `ZCHF` — ether.fi Vault 内与瑞士法郎挂钩的稳定币
+
+## 2026-11-01 15 点新增
+- `一卡三号` — CTMO/中国电信澳门学生套餐常见说法：+853/+86 一卡两号，香港 +852 可另费加开成一卡三号（外卡交流频道）。
+- `CTMO 学生套餐` — 中国电信澳门学生上台计划；需学生证/录取通知书，合约约 18 个月，三地通话流量共用（照群友/公开文）。
+- `无界卡` — 海无方美卡群友提到的实体卡到卡说法（sqzr74110「无界卡也到了」「透明的卡」），照原文。
+- `wodeclaude` — VPS家宽AI群 Samir pter「解封了 wodeclaude」，照原文。
+
+- `lease.nranote.com` — 海无方美卡 Spark 分享的租赁/地址相关链接写法（照原文）。
+
+- （2026-11-01 17 点）`NANRUT2411` — 奶昔论坛 诉南 自称的 Saily ==7== 刀优惠码，照原文；公开页未核实。 · `etherfi` — 海无方 Spark「试试etherfi」，已有 ether.fi/etherfi 条目。 · `Tuyo` / `lemfi` / `OKX US` — 本小时继续讨论，写法照原文。

@@ -1,0 +1,117 @@
+你是 Halo Z 的推特书签简报助手。根据输入 JSON 里的 bookmarks，生成 JSON（只要 JSON，不要 markdown 围栏）。
+
+严格过滤（仅丢这些）：商业营销/外链中介软广（paid guest-post、DM's open for placements、Comment X and I'll DM you 导流、纯卖课无干货、无正文空壳 X Article）。只保留真实可执行内容与免费资源。
+重要：绝大多数书签都应保留。不要因为「不够完美」就丢掉。美卡开户教程、SEO/GEO 实操、工具用法、出海找需求、税号办理、Agent 工作流等都要保留。被过滤掉的不要进 items。
+
+输出 schema：
+{
+  "items": [
+    {
+      "id": "推文id",
+      "url": "https://x.com/.../status/...",
+      "title": "中文短标题（无标点结尾）",
+      "tag": "主题短标签（如 美卡/工具/AI/建站/增长/通讯/安全/出海 等）",
+      "need": "2-4句中文：谁说了什么、核心要点、为何值得收藏；关键链接写进 need",
+      "action": "一句可执行动作",
+      "deadline": null或短文案,
+      "due_date": null或YYYY-MM-DD,
+      "category": "urgent|todo|related|needs|ads",
+      "posted_at": "MM-DD HH:MM（北京时间，由 created_at +8 换算）"
+    }
+  ],
+  "summary": "一两句中文概括本档新增书签主题",
+  "brief_text": "给用户看的中文简报正文（不含 X 费用/看板/问题段）。格式：\n📌 推特书签简报 · 2026-11-01 晚上（22:00 档）\n\n账号 @Chaoc2624 · 新增 N 条书签。之前推过、看板上还没处理的还有 C 条，详情在看板。\n\n然后按 tag 分组，每组标题用合适 emoji + tag（N 条），组内每条：\n• 标题：摘要。原帖URL\n  • 关键链接（如有）\nN 用过滤后的条数；C 用输入里的 carried_count。"
+}
+
+category：urgent=限免/羊毛/即将截止；todo=待办实操；related=深度参考；needs=待补信息；ads=广告（尽量不要）。
+按紧急度排序 items：urgent > todo > related > needs > ads。
+保持 id/url 与输入一致；不要编造不存在的链接。目标：输入约 10 条时，输出应在 8–10 条左右（只丢掉真正的软广/空壳）。
+
+
+输入 JSON：
+{
+ "bookmarks": [
+  {
+   "id": "2116768926080340263",
+   "url": "https://x.com/loki_yan_seo/status/2116768926080340263",
+   "text": "关于谷歌最新的新闻：\n\nGoogle-Extended 这一块更新了一个非常重要的细节：\n\n\"Websites that specifically allow Google-Extended are eligible to appear in responses and receive clicks via grounding in Gemini Apps.\"\n\n如果你在robots.txt里，屏蔽 Google-Extended，原本只是不让 Google 拿你的内容训练 AI，但是现在你的网站在 Gemini 里也不会出现。\n\n有另外一个关键点：AI Overview/AI Mode 和Gemini 不同。这里的gemini 只的是gemini 的app/llm 那些。我感觉基于gemini开发的东西也算吧。\n\n我刚才看了一眼，alibaba 和zhihu 都把google-extended 给屏蔽了。\n\nhttps://t.co/FbA4HuGt2w",
+   "created_at": "2026-11-01T05:46:54.000Z",
+   "author_username": "loki_yan_seo",
+   "author_name": "Loki Yan SEO",
+   "lang": "zh"
+  },
+  {
+   "id": "2116658933930815563",
+   "url": "https://x.com/2whazzuup/status/2116658933930815563",
+   "text": "30 HIGH-DR directory backlink opportunities.\n\nSorted by Domain Rating (DR 100 → DR 71).\n\nMost have free or conditional listing options.\n\nSave this list 👇\n\nGoogle Business Profile — DR 100\n    https://t.co/DDMvZoqc8n\nBetter Business Bureau — DR 93\n    https://t.co/tOVO0jNsMb\nGartner — DR 92\n    https://t.co/0sxUqu5IXi\nProvenExpert — DR 91\n    https://t.co/TSsQfNKppO\nYellow Pages — DR 89\n    https://t.co/o1LOgW6F6H\nManta — DR 86\n    https://t.co/uMBHYxTSQs\nSoftpedia — DR 86\n    https://t.co/ltQJcmNTi6\nStartup Fame — DR 85\n    https://t.co/SROo2hsYb6\nFazier — DR 84\n    https://t.co/mFK0R6D2Hc\nTech in Asia — DR 83\n    https://t.co/80W32nTPIu\nSaaSHub — DR 81\n    https://t.co/J1PerfJydD\nBrownbook — DR 80\n    https://t.co/3Hf8aLtIpJ\nEZlocal — DR 80\n    https://t.co/0cTtVRbjcy\nEU-Startups — DR 79\n    https://t.co/veu9hZe16a\nPitchWall — DR 78\n    https://t.co/R1wTnoHqTH\nTechBehemoths — DR 78\n    https://t.co/GKjFk9gQmn\nFindstack — DR 77\n    https://t.co/egnP1aIqZD\nAllTop — DR 75\n    https://t.co/RTryxNJV0z\nCybo — DR 75\n    https://t.co/WaBQtLROEU\nGust — DR 75\n    https://t.co/tGzkK7Tx95\nLaunch Llama Tools — DR 74\n    https://t.co/ZtXpFqGTyV\nSelectHub — DR 74\n    https://t.co/CiBvtdMTPW\nStartup Fast — DR 74\n    https://t.co/7VBuuTn9TA\nStartupBlink — DR 74\n    https://t.co/uj53cYCv27\nTinyLaunch — DR 74\n    https://t.co/iLC2nOEotR\nActive Search Results — DR 73\n    https://t.co/wrJF3wNAqK\nCompareCamp — DR 72\n    https://t.co/gy3nPdm3n7\nViesearch — DR 72\n    https://t.co/6ftUoyQUji\nEcomm Design — DR 71\n    https://t.co/v473jdqOw5\nLinkCentre — DR 71\n    https://t.co/AJZIDAnkm3\n\nNot all directories accept every website. Some require a real business, software product, approval, or a reciprocal badge. DR doesn’t guarantee a followed backlink or ranking improvement.\n\nWant hundreds more backlink opportunities?\n\nI built a free backlink directory you can explore.\n\nhttps://t.co/BL1yp1LJqR\n\nBookmark this for your next backlink-building session.",
+   "created_at": "2026-10-31T22:29:50.000Z",
+   "author_username": "2whazzuup",
+   "author_name": "Grant O",
+   "lang": "en",
+   "expanded_urls": [
+    "https://business.google.com",
+    "https://bbb.org"
+   ]
+  },
+  {
+   "id": "2116090587409748249",
+   "url": "https://x.com/bit_sister/status/2116090587409748249",
+   "text": "Grok Bot 省 Token 实操手册：6 个技巧降低周额度消耗 🧵\n\n你的 Token 可能不是花在思考上，而是花在反复读取旧聊天记录上。\n实测：75%–90% 用户的 Token 消耗来自 Cache Reads。\n\n核心公式：周消耗 ≈ 唤醒次数 × 每次重读的历史长度\n参考 @GrokBotRadar 分享的思路整理，结合实际使用做了实操补充，以下 6 个方法，帮你减少无效消耗。\n\n1/  导出 CSV，找到消耗大户\n打开 https://t.co/KPwWQJaFjh → Usage → Export CSV。\n重点查看 Cache Reads 占比，并让 Bot 分析：\n- 哪些 Routine 最耗额度？\n- 哪些任务运行过于频繁？\n- 哪些可以降频或暂停？\n\n2/ 砍掉高频 Routine\n一周唤醒次数对比：\n- 每 15 分钟：672 次\n- 每小时：168 次\n- 工作日每天 3 次：15 次\n\n建议：\n- 不看的 Routine 直接暂停。\n- 非实时任务降低运行频率。\n- 能用事件触发的，不要定时轮询。\n\n3/ 增加变化检查\n完整任务执行前，先检查：\n- 最新 Commit\n- 状态字段\n- 数据数量\n- 更新时间\n\n与上次记录对比：\n- 没变化：记录 `no change`，立即停止。\n- 有变化：再执行完整任务。\n没变化不继续读，有变化才深入处理。\n\n4/ 一个任务一个聊天\n聊天越长，重复读取的历史内容可能越多。\n\n建议：\n- 不同任务使用独立聊天。\n- 结束后将结果保存成 10 行以内的短文件。\n- 下次从文件读取，不要重翻历史。\n- 重复工作沉淀成 Skill。\n\n5/ 优化 Bot 协作方式\n- 群聊改成单一 Director Bot 调度。\n- 不需要独立 Routine 的 Bot 转成 Skill。\n- 优先使用 Connector，减少浏览器操作。\n- 提供具体 ID，避免反复搜索。\n- 过夜任务明确设置 Allow 或 Draft。\n- 关闭 Auto Top-up。\n\n6/ 今晚先做两件事\n✅ 导出 CSV，检查 Cache Reads 占比。\n✅ 暂停所有不看、不需要的 Routine。\n\n省 Token 的关键不是让 AI 少思考，而是让它少唤醒、少重复读取。",
+   "created_at": "2026-10-30T08:51:25.000Z",
+   "author_username": "bit_sister",
+   "author_name": "比特小师妹｜KiKi",
+   "lang": "zh"
+  },
+  {
+   "id": "2116727112745029820",
+   "url": "https://x.com/MY0OZ/status/2116727112745029820",
+   "text": "斯里兰卡🇱🇰 Dialog eSIM，保号低至每月 ¥2 左右\n兰卡地区的卡确实也比较不常见\n\n✅全程线上申请，无需前往当地 持护照即可\n\n官网申请入口：\nhttps://t.co/8eeeIl40xv\n\n简单讲下，申请流程：\n\n1️⃣进入官网，选择 Prepaid，下滑点击 SELECT\n\n2️⃣选择 Foreigner，填写护照号码 点击 Continue\n\n3️⃣按页面要求填写联系电话，输入图片验证码\n\n4️⃣选号时选择 Other Number，不选 777 Number。号码池最多刷新三次。\n\n5️⃣选择 eSIM + 最低套餐，确认订单\n\n6️⃣完成 KYC 实名、上传护照、自拍 填写姓名及邮箱并完成验证\n\n7️⃣按要求提交地址资料 签署姓名拼音 等待审核\n\n✅审核通过后，通常约10分钟至2小时通过邮箱发送 eSIM 二维码（耐心等待）\n\n推友们比较关心的保号及漫游：\n\n✅每30天充值 Rs50，约合人民币 2块左右\n\n✅余额超过 Rs50，在中国大陆漫游可接入联通4G，否则可能仅有2G（上网测速什么的留给推友们研究实测）\n\n注：保号及漫游规则 具体以 Dialog 最新政策为准\n\n适合有长期备用境外号码需求的推友们研究，比那些被万人骑的UK卡省心多了",
+   "created_at": "2026-11-01T03:00:45.000Z",
+   "author_username": "MY0OZ",
+   "author_name": "所長",
+   "lang": "zh",
+   "expanded_urls": [
+    "https://dialog.lk/buy/new-connection/gsm"
+   ]
+  },
+  {
+   "id": "2116753177617879304",
+   "url": "https://x.com/artistd4qu/status/2116753177617879304",
+   "text": "🇱🇰 斯里兰卡 Dialog eSIM，保号成本低至每月 ¥2！\n\n斯里兰卡的手机卡平时确实比较少见，这次发现一张还挺有意思的：Dialog。\n\n支持全程线上申请，无需前往当地营业厅，持护照即可办理，直接开通 eSIM。\n\n简单说一下申请流程：\n\n1️⃣ 进入 Dialog 官网，选择 Prepaid，下滑点击 SELECT。\n\n2️⃣ 选择 Foreigner，填写护照号码，点击 Continue。\n\n3️⃣ 按要求填写联系电话，并完成图片验证码。\n\n4️⃣ 选号时选择 Other Number，不要选 777 Number，号码池最多可以刷新三次。\n\n5️⃣ 选择 eSIM 和最低档套餐，确认订单。\n\n6️⃣ 完成 KYC 实名认证，上传护照和自拍，填写姓名、邮箱并完成验证。\n\n7️⃣ 按要求提交资料，签署姓名拼音，等待审核。\n\n审核通过后，通常 10 分钟至 2 小时左右，就会通过邮箱收到 eSIM 二维码。\n\n重点说一下保号和国内漫游：\n\n✅ 每 30 天充值 Rs50，折合人民币约 2 元左右。\n\n✅ 据反馈，余额超过 Rs50 时，在中国大陆漫游可以接入中国联通 4G；余额不足时，可能只能使用 2G。\n\n具体漫游网络、上网能力以及保号规则，以 Dialog 最新政策和实际测试为准。\n\n这张卡适合喜欢折腾海外号码、需要长期持有备用境外号码的朋友。\n\n相比一些保号成本越来越高的 UK 卡，Dialog 这个价格确实有点香。🇱🇰",
+   "created_at": "2026-11-01T04:44:19.000Z",
+   "author_username": "artistd4qu",
+   "author_name": "淡寫",
+   "lang": "zh"
+  },
+  {
+   "id": "2116396441455542351",
+   "url": "https://x.com/dashiAIxz/status/2116396441455542351",
+   "text": "这么火的产品发现很多人居然不知道\n拿来弥补模型的审美能力非常牛逼\n而且白嫖额度非常多\n\n目前除了 Claude design\n基本没有什么模型的审美能力能超过这个了\n甚至很多时候\n我会觉得 Claude design 的审美多样性还是不如 Variant https://t.co/A8Ns2AKsQh",
+   "created_at": "2026-10-31T05:06:47.000Z",
+   "author_username": "dashiAIxz",
+   "author_name": "大师的AI小灶",
+   "lang": "zh"
+  },
+  {
+   "id": "2116384290565128653",
+   "url": "https://x.com/bylixing/status/2116384290565128653",
+   "text": "年度好文，在 openAI 和 Anthropic 之外直观展现新时代 AI-Native 的组织形式。\n\n小团队+大量 Agents，Agents First，充分的 context & Loop。\n\n- Spond 是一个大规模多人在线游戏创作平台，团队只有10 个人，但每月 token 支出是 320万美金，Anthropic 的大客户之一。\n\n- Day one 就有充分的 context 意识，所有录音、代码全部存档，等待 agent 能力足够强的时候使用。\n\n- 在 fable5 推出之前，整个长期在线的 agents 舰队（fleet） 是无法实现的。：苦涩的教训再次出现，模型够强碾压一切工程补丁\n\nastra 过度谨慎、grok 不够聪明、gemini 长程任务能力差。anthropic 系列模型不够有野心。\n\n- 非常激进的策略。通过删除 Pr 来消除智能体通信瓶颈\n\n原因：智能体不像人类那样专业化分工，它们对整个系统有深入理解，因此通信没有实际意义。\n\n通过 15 分钟一次的全量测试+充分的回滚能力+分级控制（付款等敏感操作额外处理），来平衡生产稳定性和开发速度。\n\n过去一年 12 万次改动，只回滚了 0.9%\n\n- 构建了自愈式软件系统\n\n传统流程中，智能体在测试机上运行并等待人类反馈漏洞信息，形成巨大瓶颈\n\n新的方案：问题在影响玩家 8 分钟后被检测到，1 分钟内被命名归类，又过了 11 分钟后完成修复，平台随后稳定运行 4 小时\n\n- 瓶颈转移，进一步解构 ceo 的职责。\n\n其他环节太快了，导致问题产生的速度超过了 ceo 决策的速度。\n\n早上醒来竟然有七百个问题等待回答。\n\n好在之前有充分的决策记录，所以干脆让 agent 基于历史材料训练一个裁判，过滤出哪些决策真的需要人类做，哪些可以直接基于经验直接回答。要决策的案例直接下降了一个数量级。\n\n- 关于人类决策的重新定位：品味和野心。\n\n工程能力廉价，需求也繁荣，但知道什么时候 say no 还是很难。\n\n充分的野心去想象一切可能，不要 2% 的改进，我要一百倍的提升。我不管，怎么做是你 claude 的事情：）https://t.co/kJHKWjasCG ，和前阵子 claude 工程主管的帖子完美印证。\n\n- 为什么这套体系很难被大公司复制，换言之，怎样复制这套体系：\n\n1. 必须构建 Loop ，人类的重要工作是消除 Agent loop 中的瓶颈。\n\n2. 愿意承受风险。敢不敢让 agent 进生产环境还能控制住爆炸半径?\n\n3. 基于 agent 去设计组织架构，而不是直接复制人类的组织架构：也就是前几天说的基于 Context 去组织 Agent，而不是意淫什么三省六部。。。\n\n---\nhttps://t.co/UWegSXTHYt\n\n这是我前两天写的文章，讲的是在构建组织的过程中，怎样基于 Context & Loop 让组织吃到模型能力变强的红利？\n\n但是因为物理世界还是有很多限制，所以我能实践的实际上是一个二流方案；而在软件行业，实际上可以直接去做一个一流方案。\n\n很开心能看到这种真实一线的一流方案案例。",
+   "created_at": "2026-10-31T04:18:30.000Z",
+   "author_username": "bylixing",
+   "author_name": "张立行",
+   "lang": "zh"
+  },
+  {
+   "id": "2108171726412464173",
+   "url": "https://x.com/0xMorlex/status/2108171726412464173",
+   "text": "Grok Bot just got a serious brain upgrade\n\nWith Claude Opus 5.5 entering the stack, one Bot could run an entire AI team that researches, writes code, uses tools, verifies results, and delivers finished work\n\nHere's how to build it in 10 steps: https://t.co/SysbtXuqoJ",
+   "created_at": "2026-10-08T12:24:42.000Z",
+   "author_username": "0xMorlex",
+   "author_name": "Morlex",
+   "lang": "en"
+  }
+ ],
+ "carried_count": 241,
+ "label": "2026-11-01 晚上",
+ "run_slot": "22:00"
+}

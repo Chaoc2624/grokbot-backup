@@ -1,0 +1,62 @@
+=== naixi
+### 零星消息
+> Jason：明年这个价格就不香了
+~ 话题活跃成员（近 7 天话题消息）：抛 瓦 68（银行开户/U卡/羊毛链接）、c c 46（银行开户/U卡/羊毛链接）、Calytrix 41（U卡/银行开户/羊毛链接）、裁缝 37（U卡/银行开户/SIM）、yun zai 25（银行开户/U卡/SIM）、Calyx Hikari | TCC Bankruptcy Countdown 25（SIM/羊毛链接/VPS）
+
+=== donni_jj
+### 汇丰 / 渣打 / redcoin (20 条 / 3 人)
+> Feng：原来 我看汇丰现在搞一个什么redcoin · 我不敢用汇丰碰 我都是众安碰 · 汇丰变会封 · 一个汇丰 · 一个渣打 · 又好像不是渣打 · 渣打搞了一个hkdap 汇丰搞了一个redcoin
+> J oy：汇丰这个傻 b · 汇丰想做加密币，又不敢放开， · 汇丰这倒霉孩子，太老实 · 踏实用渣打就行 · 合规交易所公户出金到渣打
+> qv hv：你别用汇丰汇丰真鸟玩意儿，被加密坑死了 · 汇丰已经无语了 · 这玩意儿碰不了加密
+> Feng：然后在转去做定期啥的 · ai中心都不在香港搞新加坡去了 · 香港给两个虚拟牌照
+> J oy：占着茅坑不拉屎 · 每天都是自己内部在研究占坑位
+> qv hv：加拿大友人一次火币
+### HashKey 开户 / KYC (14 条 / 4 人)
+> Milo andm：hashkey是不是大陆人开不了啊？ · 有美国旅游签能开吗
+> Feng：好像要有海外签证 · 好像要长期签证 · 没太了解 你可以问问群友 · 我是直接开的 · hashkey么
+> qv hv：这肯定是要居留 · 这个是真的能查得到 · 这个是造不了假的
+> J oy：他是真会查各个国家的签证长什么样子，发行的是居留卡还是电子签还是贴纸签等等 · 反正当初要了我工资证明/录用证明/银行账单/居留卡/谷歌地图定位街景/水电账单其中一种 · 他会看你拍的街景是不是和谷歌地图上的一样 · 😂当时我都以为他们要实地考察面签 · 非 hk id 太难了 · 只限 hk id · 不知道不是hk id没资格申请
+### 渣打 Smart / HashKey 联名卡 (10 条 / 4 人)
+> 美娜 嘉：咋不一样😂这玩意还是预付卡要先充值
+> Feng：我刚刚去看渣打信用卡 · 那个smart visa免1.95货币转换费 · 看那个渣打smart感觉真不错旅游免货币转换 · 感觉比red chill香 · 那个有那么好么 · 有我就去申请看看 · 主要不能Applepay算了不搞了 · 1.95免掉回内地消费都不用 到时候red下不来就去研究一下
+> J oy：办 HashKey 联名上海商业银行信用卡 · 那个 4% 返现
+> 壹贰叁：red和pl能一起申请吗
+### 零星消息
+> Chen：stb越来越抠门了 · 消费券1毛都来了
+~ 话题活跃成员（近 7 天话题消息）：WHFWZ 703（银行开户/U卡/美卡外卡）、Vinv🇨🇳 499（银行开户/U卡/美卡外卡）、Valerio（tz） 385（银行开户/U卡/美卡外卡）、C酱です 370（银行开户/U卡/美卡外卡）、Da da 279（银行开户/U卡/羊毛链接）、小梦 蚩 229（U卡/银行开户/羊毛链接）
+
+--- 核验
+- 汇丰 RedCoin｜HSBC 香港官网 / About HSBC（2026-10-23 起 / 2026-11-01 查阅）：HSBC RedCoin（RCHKD）为港元稳定币，经 HKMA 发牌，先在 PayMe 向逾 330 万用户提供 P2P/P2M；官网写将陆续上线 HSBC HK App 及代币化投资认购 https://www.about.hsbc.com.hk/news-and-media/hsbc-redcoin-launches-today https://www.hsbc.com.hk/stablecoins/
+- 渣打 HKDAP｜Standard Chartered 新闻稿（2026-08-24 / 2026-11-01 查阅）：渣打香港成为 Anchorpoint HKDAP（HKD At Par）首家银行分销方；HKDAP 由渣打子公司 Anchorpoint 发行（HKMA 稳定币牌照 FRS01），初期面向机构用例 https://www.sc.com/en/press-release/standard-chartered-becomes-first-bank-distributor-of-hkdap-to-unlock-real-economy-benefits-of-hkd-stablecoins/
+- 渣打 Smart Visa 免 1.95% 货币转换费｜渣打香港 Smart 信用卡页（2026-11-01 查阅）：写明 Waive 1.95% fee on foreign currency retail transaction；中文页亦写海外签账/外币交易豁免 1.95% https://www.sc.com/hk/credit-cards/smart/ https://www.sc.com/hk/zh/credit-cards/smart/
+- HashKey × 上海商业银行联名卡 海外 4% / 须香港居民身份证｜上商官网 FAQ + 手机开户要求 PDF / HashKey 产品页（2026-11-01 查阅）：海外以外币结算签账最高约 4% 自选 Crypto 回赠、本地约 2%；申请人须年满 18 岁香港居民并持有效香港身份证及 HashKey 账户；公开产品页未见 Apple Pay 支持说明 https://www.shacombank.com.hk/sch/personal/cards/type/cobranded/hashkey.html https://www.shacombank.com.hk/tch/personal/cards/type/cobranded/images/hashkey_rao_tc.pdf https://www.hashkey.com/zh-CN/shacom-credit-card
+- RackNerd IP/线路投诉｜公开资料（2026-11-01 查阅）：群友称延迟高/IP 不可用；LowEndTalk / Reddit 等长期有类似讨论，属个案体验，未见当日官方大范围故障公告 —
+
+
+=== inficheesy
+### RackNerd / IP 质量 (4 条 / 3 人)
+> 涵涵_收费解决网络问题：这个点了还有racknerd受害者吗 或者ip不能用 延迟高网速慢的
+> 舜生 李：racknerd线路怎么样 · 有点好奇GFW是封ip还是封什么，如果我直接访问YT或者X的ip能不能开
+> Kasane Teto：而且ip质量是机房里的机房
+### 零星消息
+> 好男人不止曾小贤〃：muse成品号
+~ 话题活跃成员（近 7 天话题消息）：Sunny Wang 80（VPS/银行开户/SIM）、自由者（低价稳定机场找我） 71（VPS/羊毛链接/SIM）、水箭龟 66（VPS/银行开户/美卡外卡）、Lucky 49（银行开户/U卡/SIM）、刘美容 48（VPS/SIM/羊毛链接）、吾 🌐［建网防封指导］ 48（VPS/SIM/羊毛链接）
+
+=== uk_card
+### 卡审核 (1 条 / 1 人)
+> lu12926：卡审核卡死了
+~ 话题活跃成员（近 7 天话题消息）：MEN ZHE 31（银行开户/羊毛链接/SIM）、kk fm 29（SIM/银行开户/羊毛链接）、Y 10（SIM/银行开户/VPS）、Ramona Ciobanu 8（羊毛链接/银行开户）、天 7（SIM/银行开户）、Xing Fan 7（SIM/羊毛链接/银行开户）
+
+=== vps_jk
+### 零星消息
+> AI制导炸弹：/vps 美国大流量，中国大陆优化
+~ 话题活跃成员（近 7 天话题消息）：维多 59（VPS/羊毛链接/SIM）、D姐 | demonyins 41（VPS/SIM/羊毛链接）、James Phil 35（VPS/羊毛链接/美卡外卡）、张子君 29（VPS/SIM/羊毛链接）、Anenrok 23（VPS/羊毛链接/SIM）、Kane Harry 20（VPS/羊毛链接）
+
+=== loon0x00
+### Surge 6 UI / 配色 (14 条 / 3 人)
+> 𝑳𝒊𝒌𝒆 𝑳𝒊𝒌𝒆：是不是眼前一亮 · 不可以自定义配色 · 一言难尽啊啊 · 我决定退回5了 · 5 可以调背景色 · 6取消了这个选项 · 我也用loon吧
+> michae1：有点幽默这ui · 像10年前的php网站
+> DeepSleep𓎩𓆡：不过应该可以自定义配色的吧 · 这个配色实在是…… · 选了这么不知道怎么形容的配色 · 其实还有那个app内各模块的圆角 · 算了反正咱也不买就不过多评价了 · 最后再评一句 一个app内怎么能做那么多种不同的圆角和页面风格 · 好了 接下来我还会继续全力监督loon
+### 零星消息
+> 𝓥𝓮𝓷𝓪𝓽：老大，想申请一下小红书屏蔽一下底下的市集能实现吗
+~ 话题活跃成员（近 7 天话题消息）：Tartarus 131（VPS/羊毛链接/美卡外卡）、秦城二院彭医生｜夜勤病棟 81（VPS/SIM）、🔔🐈 66（VPS/羊毛链接/SIM）、姥 舅 49（VPS/羊毛链接/SIM）、Qingu LiLi 47（VPS/羊毛链接/SIM）、可莉🅥 41（VPS/羊毛链接/SIM）

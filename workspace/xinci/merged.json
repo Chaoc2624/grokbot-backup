@@ -1,207 +1,151 @@
 {
- "date": "2026-11-01",
+ "date": "2026-11-02",
  "board_runs": [],
  "xnew_runs": [
-  "2026-11-01 上午 书签X",
-  "2026-11-01 晚上 书签X"
+  "2026-11-02 上午 书签X",
+  "2026-11-02 晚上 书签X"
  ],
- "our_x_failed": true,
+ "our_x_failed": false,
  "terms": [
   {
-   "name": "dsh superagent prototype",
-   "key": "dshsuperagentprototype",
+   "name": "lfm2.5-24b-a2b q4_k_m",
+   "key": "lfm2524ba2bq4km",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@TeksEdge: Custom inference engines are on the rise. Here's a new one. Pithos is a C infere",
+   "url": "",
+   "signals": [
+    "X 1 个账号 ♥131"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "intel i5-10500h",
+   "key": "inteli510500h",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@TeksEdge: Custom inference engines are on the rise. Here's a new one. Pithos is a C infere",
+   "url": "",
+   "signals": [
+    "X 1 个账号 ♥131"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "hackertube longs",
+   "key": "hackertubelongs",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@karpathy: Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had ",
+   "url": "",
+   "signals": [
+    "X 1 个账号 ♥43034"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "scf",
+   "key": "scf",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@MistralAI: We asked Mistral Large 4 to show what happens when you break a molecule. ⚛️ With",
+   "url": "",
+   "signals": [
+    "X 1 个账号 ♥459"
+   ],
+   "variants": [],
+   "named": 0.5
+  },
+  {
+   "name": "audio8 tts realistic air",
+   "key": "audio8ttsrealisticair",
+   "sources": [
+    "HF"
+   ],
+   "desc": "Edge0/Audio8-TTS-Realistic-Air (text-to-speech, ♥232)",
+   "url": "",
+   "signals": [
+    "HF 新进榜第 17 名"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "h3",
+   "key": "h3",
+   "sources": [
+    "HF"
+   ],
+   "desc": "ppxxyy/H3-Turbo-Lora (gradio, ♥31)",
+   "url": "",
+   "signals": [
+    "HF Spaces 新进榜第 50 名"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "stack diagram",
+   "key": "stackdiagram",
    "sources": [
     "GitHub"
    ],
-   "desc": "deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System",
-   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "desc": "caru-ini/stack-diagram: Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+   "url": "https://github.com/caru-ini/stack-diagram",
    "signals": [
-    "GitHub 爆发 deepseek-ai/dsh-superagent-prototype ★5604(均 4800/天)"
+    "GitHub 爆发 caru-ini/stack-diagram ★901(均 676/天)"
    ],
    "variants": [],
-   "named": null
+   "named": 0.7
   },
   {
-   "name": "eglantine",
-   "key": "eglantine",
+   "name": "craft anything",
+   "key": "craftanything",
    "sources": [
     "GitHub"
    ],
-   "desc": "Djihads80/Eglantine: VERY experimental Nintendo Switch 2 emulator",
-   "url": "https://github.com/Djihads80/Eglantine",
+   "desc": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
+   "url": "https://github.com/storytold/craft-anything",
    "signals": [
-    "GitHub 爆发 Djihads80/Eglantine ★1616(均 456/天,一天 +799)"
+    "GitHub 爆发 storytold/craft-anything ★2544(均 1306/天,一天 +2095)"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "openidea",
-   "key": "openidea",
-   "sources": [
-    "GitHub"
-   ],
-   "desc": "l0ng-ai/openidea: The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: ",
-   "url": "https://github.com/l0ng-ai/openidea",
-   "signals": [
-    "GitHub 爆发 l0ng-ai/openidea ★2529(均 229/天,一天 +749)"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "floorplan",
-   "key": "floorplan",
-   "sources": [
-    "GitHub"
-   ],
-   "desc": "haydenschmitty/floorplan: See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
-   "url": "https://github.com/haydenschmitty/floorplan",
-   "signals": [
-    "GitHub 爆发 haydenschmitty/floorplan ★1193(均 236/天,一天 +669)"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "sepehr071",
-   "key": "sepehr071",
+   "name": "connectors ai.wondel",
+   "key": "connectorsaiwondel",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 34 处 (×28.3)"
+    "③ 竞品 27 处 (×27.0)"
    ],
    "variants": [],
-   "named": null
+   "named": 0.7
   },
   {
-   "name": "llc cyan",
-   "key": "llccyan",
+   "name": "connectors co.civai.nova",
+   "key": "connectorscocivainova",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 23 处 (×23.0)"
+    "③ 竞品 28 处 (×24.3)"
    ],
    "variants": [],
-   "named": null
-  },
-  {
-   "name": "io.github.bumiatlas",
-   "key": "iogithubbumiatlas",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 24 处 (×22.8)"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "connectors io.github.bumiatlas",
-   "key": "connectorsiogithubbumiatlas",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 24 处 (×22.8)"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "io.github.bumi",
-   "key": "iogithubbumi",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 24 处 (×22.8)"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "cyan eclipse",
-   "key": "cyaneclipse",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 23 处 (×21.1)"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "eclipse technologies",
-   "key": "eclipsetechnologies",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 23 处 (×20.9)"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "technologies llc",
-   "key": "technologiesllc",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 23 处 (×20.7)"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "parcels",
-   "key": "parcels",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 17 处 (×16.9)"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "zovo",
-   "key": "zovo",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 16 处 (×15.5)"
-   ],
-   "variants": [],
-   "named": null
+   "named": 0.7
   },
   {
    "name": "connectors io.usefulapi",
@@ -212,80 +156,38 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 59 处 (×13.8)"
+    "③ 竞品 107 处 (×21.3)"
    ],
    "variants": [],
-   "named": null
+   "named": 0.7
   },
   {
-   "name": "land",
-   "key": "land",
+   "name": "connectors io.github.theluckystrike",
+   "key": "connectorsiogithubtheluckystrike",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 16 处 (×13.2)"
+    "③ 竞品 20 处 (×9.6)"
    ],
    "variants": [],
-   "named": null
+   "named": 0.7
   },
   {
-   "name": "llc",
-   "key": "llc",
+   "name": "app.tuper",
+   "key": "apptuper",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 24 处 (×12.7)"
+    "③ 竞品 7 处 (×7.0)"
    ],
    "variants": [],
-   "named": null
-  },
-  {
-   "name": "atlas",
-   "key": "atlas",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 28 处 (×11.8)"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "land parcels",
-   "key": "landparcels",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 11 处 (×11.0)"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "records",
-   "key": "records",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 17 处 (×10.9)"
-   ],
-   "variants": [],
-   "named": null
+   "named": 0.7
   },
   {
    "name": "cloudcorprecords",
@@ -296,52 +198,10 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 15 处 (×10.9)"
+    "③ 竞品 113 处 (×74.8)"
    ],
    "variants": [],
-   "named": null
-  },
-  {
-   "name": "tech.noahsarch",
-   "key": "technoahsarch",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 9 处 (×9.0)"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "connectors tech.noahsarch",
-   "key": "connectorstechnoahsarch",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 9 处 (×9.0)"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "corp",
-   "key": "corp",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 15 处 (×8.6)"
-   ],
-   "variants": [],
-   "named": null
+   "named": 0.6
   },
   {
    "name": "genpark personal",
@@ -352,332 +212,1515 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 11 处 (×8.3)"
+    "③ 竞品 33 处 (×23.0)"
    ],
    "variants": [],
-   "named": null
+   "named": 0.6
   },
   {
-   "name": "cadastral parcels",
-   "key": "cadastralparcels",
+   "name": "bgpt",
+   "key": "bgpt",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 6 处 (×6.0)"
+    "③ 竞品 12 处 (×11.6)"
    ],
    "variants": [],
-   "named": null
+   "named": 0.6
   },
   {
-   "name": "lannes",
-   "key": "lannes",
+   "name": "theluckystrike",
+   "key": "theluckystrike",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 6 处 (×5.9)"
+    "③ 竞品 12 处 (×10.9)"
    ],
    "variants": [],
-   "named": null
+   "named": 0.6
   },
   {
-   "name": "thiagojacoblannes",
-   "key": "thiagojacoblannes",
+   "name": "alpha park",
+   "key": "alphapark",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 6 处 (×5.9)"
+    "③ 竞品 16 处 (×5.2)"
    ],
    "variants": [],
-   "named": null
+   "named": 0.6
   },
   {
-   "name": "thiago",
-   "key": "thiago",
+   "name": "alphaparkinc genpark",
+   "key": "alphaparkincgenpark",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 6 处 (×5.8)"
+    "③ 竞品 17 处 (×5.1)"
    ],
    "variants": [],
-   "named": null
+   "named": 0.5
   },
   {
-   "name": "photogrid: video collage maker",
-   "key": "photogridvideocollagemaker",
+   "name": "ai.wondel google",
+   "key": "aiwondelgoogle",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 5 处 (×5.0)"
+   ],
+   "variants": [],
+   "named": 0.5
+  },
+  {
+   "name": "hailuo",
+   "key": "hailuo",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "ai-hailuo.com · 296 keywords",
+   "url": "",
+   "signals": [
+    "新站 ai-hailuo.com(注册 2026-08-09,约 2147 访问/月,296 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "dolai",
+   "key": "dolai",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "dolai.video · 76 keywords",
+   "url": "",
+   "signals": [
+    "新站 dolai.video(注册 2026-08-06,约 31334 访问/月,76 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "cyqlerhikqjw",
+   "key": "cyqlerhikqjw",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "cyqlerhikqjw.video · 629 keywords",
+   "url": "",
+   "signals": [
+    "新站 cyqlerhikqjw.video(注册 2026-08-23,约 12042 访问/月,629 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "samehadaku",
+   "key": "samehadaku",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "samehadaku.video · 53 keywords",
+   "url": "",
+   "signals": [
+    "新站 samehadaku.video(注册 2026-09-13,约 11644 访问/月,53 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "rgtoqnaarynz",
+   "key": "rgtoqnaarynz",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "rgtoqnaarynz.video · 463 keywords",
+   "url": "",
+   "signals": [
+    "新站 rgtoqnaarynz.video(注册 2026-08-26,约 10471 访问/月,463 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "wlojauujugkz",
+   "key": "wlojauujugkz",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "wlojauujugkz.video · 684 keywords",
+   "url": "",
+   "signals": [
+    "新站 wlojauujugkz.video(注册 2026-08-27,约 9505 访问/月,684 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "alqccaintejn",
+   "key": "alqccaintejn",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "alqccaintejn.video · 1216 keywords",
+   "url": "",
+   "signals": [
+    "新站 alqccaintejn.video(注册 2026-08-27,约 8188 访问/月,1216 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "sbjqjichfviy",
+   "key": "sbjqjichfviy",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "sbjqjichfviy.video · 240 keywords",
+   "url": "",
+   "signals": [
+    "新站 sbjqjichfviy.video(注册 2026-08-26,约 7339 访问/月,240 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "tnijfilkfwoz",
+   "key": "tnijfilkfwoz",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "tnijfilkfwoz.video · 173 keywords",
+   "url": "",
+   "signals": [
+    "新站 tnijfilkfwoz.video(注册 2026-08-24,约 6866 访问/月,173 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "vtgbujiethez",
+   "key": "vtgbujiethez",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "vtgbujiethez.video · 502 keywords",
+   "url": "",
+   "signals": [
+    "新站 vtgbujiethez.video(注册 2026-08-23,约 6647 访问/月,502 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "bsazvmtrxpli",
+   "key": "bsazvmtrxpli",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "bsazvmtrxpli.video · 779 keywords",
+   "url": "",
+   "signals": [
+    "新站 bsazvmtrxpli.video(注册 2026-08-26,约 6557 访问/月,779 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "anichin",
+   "key": "anichin",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "anichin.video · 117 keywords",
+   "url": "",
+   "signals": [
+    "新站 anichin.video(注册 2026-09-05,约 5932 访问/月,117 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "downvideo",
+   "key": "downvideo",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "downvideo.app · 451 keywords",
+   "url": "",
+   "signals": [
+    "新站 downvideo.app(注册 2026-08-27,约 8704 访问/月,451 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "bdviralvideo",
+   "key": "bdviralvideo",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "bdviralvideo.info · 98 keywords",
+   "url": "",
+   "signals": [
+    "新站 bdviralvideo.info(注册 2026-08-11,约 7514 访问/月,98 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "downloadvideo",
+   "key": "downloadvideo",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "downloadvideo.to · 634 keywords",
+   "url": "",
+   "signals": [
+    "新站 downloadvideo.to(注册 2026-08-28,约 5087 访问/月,634 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "twivideo",
+   "key": "twivideo",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "twivideo.app · 55 keywords",
+   "url": "",
+   "signals": [
+    "新站 twivideo.app(注册 2026-09-13,约 5016 访问/月,55 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "typingtest",
+   "key": "typingtest",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "ai-typingtest.com · 722 keywords",
+   "url": "",
+   "signals": [
+    "新站 ai-typingtest.com(注册 2026-08-11,约 4008 访问/月,722 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "talkie",
+   "key": "talkie",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "talkie-ai-chat.com · 45 keywords",
+   "url": "",
+   "signals": [
+    "新站 talkie-ai-chat.com(注册 2026-08-20,约 2185 访问/月,45 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "facebookvideodownload",
+   "key": "facebookvideodownload",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "facebookvideodownload.org · 255 keywords",
+   "url": "",
+   "signals": [
+    "新站 facebookvideodownload.org(注册 2026-08-12,约 243555 访问/月,255 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "koooravideo",
+   "key": "koooravideo",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "koooravideo.com · 244 keywords",
+   "url": "",
+   "signals": [
+    "新站 koooravideo.com(注册 2026-09-05,约 119500 访问/月,244 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "ytvideoo",
+   "key": "ytvideoo",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "ytvideoo.com · 942 keywords",
+   "url": "",
+   "signals": [
+    "新站 ytvideoo.com(注册 2026-09-07,约 23446 访问/月,942 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "snapvideo",
+   "key": "snapvideo",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "snapvideo.to · 290 keywords",
+   "url": "",
+   "signals": [
+    "新站 snapvideo.to(注册 2026-09-21,约 22484 访问/月,290 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "tokvideosave",
+   "key": "tokvideosave",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "tokvideosave.com · 579 keywords",
+   "url": "",
+   "signals": [
+    "新站 tokvideosave.com(注册 2026-08-26,约 22217 访问/月,579 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "savevideo",
+   "key": "savevideo",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "savevideo.tech · 2915 keywords",
+   "url": "",
+   "signals": [
+    "新站 savevideo.tech(注册 2026-08-07,约 16285 访问/月,2915 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "videollan",
+   "key": "videollan",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "videollan.org · 462 keywords",
+   "url": "",
+   "signals": [
+    "新站 videollan.org(注册 2026-08-28,约 14706 访问/月,462 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "hd9video",
+   "key": "hd9video",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "hd9video.org · 913 keywords",
+   "url": "",
+   "signals": [
+    "新站 hd9video.org(注册 2026-08-24,约 9632 访问/月,913 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "instavideodownload",
+   "key": "instavideodownload",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "instavideodownload.in · 144 keywords",
+   "url": "",
+   "signals": [
+    "新站 instavideodownload.in(注册 2026-08-10,约 9423 访问/月,144 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "livestreamingvideo",
+   "key": "livestreamingvideo",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "livestreamingvideo.site · 143 keywords",
+   "url": "",
+   "signals": [
+    "新站 livestreamingvideo.site(注册 2026-09-05,约 9028 访问/月,143 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "videocall",
+   "key": "videocall",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "videocall.cam · 1423 keywords",
+   "url": "",
+   "signals": [
+    "新站 videocall.cam(注册 2026-08-06,约 7498 访问/月,1423 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "aiagentslisting",
+   "key": "aiagentslisting",
+   "sources": [
+    "收款新站"
+   ],
+   "desc": "aiagentslisting.com · Polar",
+   "url": "https://aiagentslisting.com/",
+   "signals": [
+    "开始收钱(AI / 软件):2026-11-01 第一次挂 Polar 收款链接"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "movilitas",
+   "key": "movilitas",
+   "sources": [
+    "收款新站"
+   ],
+   "desc": "www.movilitas.cloud · Lemon Squeezy",
+   "url": "https://www.movilitas.cloud/",
+   "signals": [
+    "开始收钱(AI / 软件):2026-11-02 第一次挂 Lemon Squeezy 收款链接"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "soon enough",
+   "key": "soonenough",
+   "sources": [
+    "收款新站"
+   ],
+   "desc": "soonenough.app · Polar",
+   "url": "https://soonenough.app/",
+   "signals": [
+    "开始收钱(AI / 软件):2026-11-01 第一次挂 Polar 收款链接"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "supercmd",
+   "key": "supercmd",
+   "sources": [
+    "收款新站"
+   ],
+   "desc": "supercmd.sh · Polar",
+   "url": "https://supercmd.sh/",
+   "signals": [
+    "开始收钱(AI / 软件):2026-11-01 第一次挂 Polar 收款链接"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "zens",
+   "key": "zens",
+   "sources": [
+    "收款新站"
+   ],
+   "desc": "zens.ink · Polar",
+   "url": "https://zens.ink/",
+   "signals": [
+    "开始收钱(AI / 软件):2026-11-01 第一次挂 Polar 收款链接"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "apexpdf",
+   "key": "apexpdf",
+   "sources": [
+    "收款新站"
+   ],
+   "desc": "apexpdf.com · Polar",
+   "url": "https://apexpdf.com/",
+   "signals": [
+    "开始收钱(AI / 软件):2026-11-02 第一次挂 Polar 收款链接"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "nexyy",
+   "key": "nexyy",
+   "sources": [
+    "收款新站"
+   ],
+   "desc": "nexyy.com · Gumroad",
+   "url": "https://nexyy.com/",
+   "signals": [
+    "开始收钱(AI / 软件):2026-11-02 第一次挂 Gumroad 收款链接"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "caleyna",
+   "key": "caleyna",
+   "sources": [
+    "收款新站"
+   ],
+   "desc": "caleyna.com · Polar",
+   "url": "https://caleyna.com/",
+   "signals": [
+    "开始收钱(AI / 软件):2026-11-02 第一次挂 Polar 收款链接"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "zest",
+   "key": "zest",
+   "sources": [
+    "收款新站"
+   ],
+   "desc": "zest.dashovia.app · Dodo Payments",
+   "url": "https://zest.dashovia.app/",
+   "signals": [
+    "开始收钱(AI / 软件):2026-11-01 第一次挂 Dodo Payments 收款链接"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "vyuh drift",
+   "key": "vyuhdrift",
+   "sources": [
+    "收款新站"
+   ],
+   "desc": "drift.vyuhmatrix.com · Dodo Payments",
+   "url": "https://drift.vyuhmatrix.com/",
+   "signals": [
+    "开始收钱(AI / 软件):2026-11-01 第一次挂 Dodo Payments 收款链接"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "flightops hub",
+   "key": "flightopshub",
+   "sources": [
+    "收款新站"
+   ],
+   "desc": "opossumdev.com · Creem",
+   "url": "https://opossumdev.com/",
+   "signals": [
+    "开始收钱(AI / 软件):2026-11-01 第一次挂 Creem 收款链接"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "ondeck ai workflows",
+   "key": "ondeckaiworkflows",
+   "sources": [
+    "构建器新站"
+   ],
+   "desc": "ondeckai.lovable.app · Lovable",
+   "url": "https://ondeckai.lovable.app/",
+   "signals": [
+    "2026-11-02 出现的 Lovable 作品"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "quizneon",
+   "key": "quizneon",
+   "sources": [
+    "构建器新站"
+   ],
+   "desc": "soportetecnico.lovable.app · Lovable",
+   "url": "https://soportetecnico.lovable.app/",
+   "signals": [
+    "2026-11-02 出现的 Lovable 作品"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "captiongenie",
+   "key": "captiongenie",
+   "sources": [
+    "构建器新站"
+   ],
+   "desc": "genie-caption-maker.lovable.app · Lovable",
+   "url": "https://genie-caption-maker.lovable.app/",
+   "signals": [
+    "2026-11-02 出现的 Lovable 作品"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "meu citroen app",
+   "key": "meucitroenapp",
+   "sources": [
+    "构建器新站"
+   ],
+   "desc": "meucitroen.lovable.app · Lovable",
+   "url": "https://meucitroen.lovable.app/",
+   "signals": [
+    "2026-11-02 出现的 Lovable 作品"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "trinity fit",
+   "key": "trinityfit",
+   "sources": [
+    "构建器新站"
+   ],
+   "desc": "trinityptschedule.lovable.app · Lovable",
+   "url": "https://trinityptschedule.lovable.app/",
+   "signals": [
+    "2026-11-02 出现的 Lovable 作品"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "vendespil",
+   "key": "vendespil",
+   "sources": [
+    "构建器新站"
+   ],
+   "desc": "mission-matematik-vendespil.lovable.app · Lovable",
+   "url": "https://mission-matematik-vendespil.lovable.app/",
+   "signals": [
+    "2026-11-02 出现的 Lovable 作品"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "clayzo",
+   "key": "clayzo",
    "sources": [
     "新品榜单"
    ],
-   "desc": "App Store: PhotoGrid: Video Collage Maker",
-   "url": "https://apps.apple.com/us/app/photogrid-video-collage-maker/id543577420?uo=2",
+   "desc": "Product Hunt: Clayzo",
+   "url": "https://www.producthunt.com/products/clayzo",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "bigvu teleprompter captions ai",
+   "key": "bigvutelepromptercaptionsai",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: BIGVU Teleprompter Captions AI",
+   "url": "https://apps.apple.com/us/app/bigvu-teleprompter-captions-ai/id1124958568?uo=2",
    "signals": [
     "App Store 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "screen studio 4.0",
-   "key": "screenstudio40",
+   "name": "mematic - the meme maker",
+   "key": "mematicthemememaker",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Product Hunt: Screen Studio 4.0",
-   "url": "https://www.producthunt.com/products/screen-studio",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": null
-  },
-  {
-   "name": "chatbot ai assistant - genie",
-   "key": "chatbotaiassistantgenie",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "App Store: Chatbot AI Assistant - Genie",
-   "url": "https://apps.apple.com/us/app/chatbot-ai-assistant-genie/id1658377526?uo=2",
+   "desc": "App Store: Mematic - The Meme Maker",
+   "url": "https://apps.apple.com/us/app/mematic-the-meme-maker/id491076730?uo=2",
    "signals": [
     "App Store 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "body editor.",
-   "key": "bodyeditor",
+   "name": "cleaner neat: clean up storage",
+   "key": "cleanerneatcleanupstorage",
    "sources": [
     "新品榜单"
    ],
-   "desc": "App Store: Body Editor.",
-   "url": "https://apps.apple.com/us/app/body-editor/id1473047769?uo=2",
+   "desc": "App Store: Cleaner Neat: Clean Up Storage",
+   "url": "https://apps.apple.com/us/app/cleaner-neat-clean-up-storage/id1463756032?uo=2",
    "signals": [
     "App Store 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.8
   },
   {
-   "name": "artcoach:learn to draw & paint",
-   "key": "artcoachlearntodrawpaint",
+   "name": "frame to gif & mp4",
+   "key": "frametogifmp4",
    "sources": [
     "新品榜单"
    ],
-   "desc": "App Store: ArtCoach:Learn to Draw & Paint",
-   "url": "https://apps.apple.com/us/app/artcoach-learn-to-draw-paint/id6756040750?uo=2",
+   "desc": "Google, new this week · figma.com/community/plugin: Frame to GIF & MP4",
+   "url": "https://google.com/goto?url=CAEShgEB6zswFXAos0dYzBGMLUrd7pzKT0eJxYiAI4wFYensM-_ajxUAy2R48zCiTP33JqI_oCYdTqhmSLSicOUZFUlMIFBLjG8lu4N9C4dPdA9DYSWPKelurwxZBKCLw9tYzb9wBc6wqnZVKbvxy34RpE3USukc0bzpXgvRxQEMQOb5E0jAozHxvw&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
+   "signals": [
+    "Google, new this week 新上架"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "vimeo",
+   "key": "vimeo",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: Vimeo",
+   "url": "https://apps.apple.com/us/app/vimeo/id425194759?uo=2",
    "signals": [
     "App Store 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.5
   },
   {
-   "name": "usage for claude + chatgpt 4.0",
-   "key": "usageforclaudechatgpt40",
+   "name": "sinqlo",
+   "key": "sinqlo",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Product Hunt: Usage for Claude + ChatGPT 4.0",
-   "url": "https://www.producthunt.com/products/usage-for-claude",
+   "desc": "Google, new this week · figma.com/community/plugin: Sinqlo",
+   "url": "https://google.com/goto?url=CAESkAEB6zswFchAD-PesYo8MhrS1raYZGjwE5sc5GbsmB_iXEhBURH7YpPyUrm65paXdxDW8dATlOWGsDeUWZQXpBnoJShb6AqyRUV7OyGP6s8FiiAF2XSLMqFahQjwwG2HkNNhZEUpEEEgsCz7z1rL0bou7ucjZh4NYjxa2BUpaycSTG6WxosmhCRWITc1KiBWvhk&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
+   "signals": [
+    "Google, new this week 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "display 1.0",
+   "key": "display10",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Display 1.0",
+   "url": "https://www.producthunt.com/products/display-dev",
    "signals": [
     "Product Hunt 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "agentmash",
-   "key": "agentmash",
+   "name": "unleashx",
+   "key": "unleashx",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Product Hunt: agentmash",
-   "url": "https://www.producthunt.com/products/agentmash",
+   "desc": "Product Hunt: UnleashX",
+   "url": "https://www.producthunt.com/products/unleashx",
    "signals": [
     "Product Hunt 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "click",
-   "key": "click",
+   "name": "xmind 2027",
+   "key": "xmind2027",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Product Hunt: Click",
-   "url": "https://www.producthunt.com/products/click-6",
+   "desc": "Product Hunt: Xmind 2027",
+   "url": "https://www.producthunt.com/products/xmind",
    "signals": [
     "Product Hunt 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "yuzu sync",
-   "key": "yuzusync",
+   "name": "cedric ai for meetings",
+   "key": "cedricaiformeetings",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Product Hunt: Yuzu Sync",
-   "url": "https://www.producthunt.com/products/yuzu-sync",
+   "desc": "Product Hunt: Cedric AI for Meetings",
+   "url": "https://www.producthunt.com/products/cedric",
    "signals": [
     "Product Hunt 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "raah.dev",
-   "key": "raahdev",
+   "name": "agent inbox",
+   "key": "agentinbox",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Product Hunt: Raah.dev",
-   "url": "https://www.producthunt.com/products/raah-dev",
+   "desc": "Product Hunt: Agent Inbox",
+   "url": "https://www.producthunt.com/products/agent-inbox",
    "signals": [
     "Product Hunt 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "hamdori",
-   "key": "hamdori",
+   "name": "self-growing websites by greta.sh",
+   "key": "selfgrowingwebsitesbygretash",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Product Hunt: Hamdori",
-   "url": "https://www.producthunt.com/products/hamdori",
+   "desc": "Product Hunt: Self-Growing Websites by Greta.sh",
+   "url": "https://www.producthunt.com/products/gretabyquestera",
    "signals": [
     "Product Hunt 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "clawsgo science",
-   "key": "clawsgoscience",
+   "name": "redu.cloud",
+   "key": "reducloud",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Product Hunt: ClawsGO Science",
-   "url": "https://www.producthunt.com/products/clawsgo-science",
+   "desc": "Product Hunt: redu.cloud",
+   "url": "https://www.producthunt.com/products/redu-cloud",
    "signals": [
     "Product Hunt 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "ernd",
-   "key": "ernd",
+   "name": "linkly ai clipper",
+   "key": "linklyaiclipper",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Product Hunt: ernd",
-   "url": "https://www.producthunt.com/products/ernd",
+   "desc": "Product Hunt: Linkly AI Clipper",
+   "url": "https://www.producthunt.com/products/linkly-ai-clipper",
    "signals": [
     "Product Hunt 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "precise edit by ideogram",
-   "key": "preciseeditbyideogram",
+   "name": "diff-tour",
+   "key": "difftour",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Product Hunt: Precise Edit by Ideogram",
-   "url": "https://www.producthunt.com/products/ideogram",
+   "desc": "Product Hunt: diff-tour",
+   "url": "https://www.producthunt.com/products/diff-tour",
    "signals": [
     "Product Hunt 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "a language model that lives in a boot sector",
-   "key": "alanguagemodelthatlivesinabootsector",
+   "name": "hackerbooks",
+   "key": "hackerbooks",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Show HN: A language model that lives in a boot sector",
-   "url": "https://github.com/kerlenton/bootgpt",
+   "desc": "Show HN: HackerBooks",
+   "url": "https://hackerbooks.org",
    "signals": [
     "Show HN 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "nes contra (1987) port (asm –> c and then c –> webassembly)",
-   "key": "nescontraport",
+   "name": "wikihack",
+   "key": "wikihack",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Show HN: NES Contra (1987) port (ASM –> C and then C –> WebAssembly)",
-   "url": "https://epoyraz.github.io/nes-contra-us/",
+   "desc": "Show HN: Wikihack",
+   "url": "https://wikihack.netlify.app",
    "signals": [
     "Show HN 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "a usb-c lte modem that gives my computer a phone line",
-   "key": "ausbcltemodemthatgivesmycomputeraphoneline",
+   "name": "omnidiff",
+   "key": "omnidiff",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Show HN: A USB-C LTE modem that gives my computer a phone line",
-   "url": "https://github.com/Koppar-AI/koppar-lte-modem",
+   "desc": "Show HN: OmniDiff",
+   "url": "https://github.com/ivankovic/omnidiff",
    "signals": [
     "Show HN 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "bbrouter",
-   "key": "bbrouter",
+   "name": "hackerhack",
+   "key": "hackerhack",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Show HN: BBRouter",
-   "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+   "desc": "Show HN: HackerHack",
+   "url": "https://news.ycombinator.com/",
    "signals": [
     "Show HN 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
   },
   {
-   "name": "cartv - m3u iptv player & cast",
-   "key": "cartvm3uiptvplayercast",
+   "name": "ai home design - ruma",
+   "key": "aihomedesignruma",
    "sources": [
     "新品榜单"
    ],
-   "desc": "App Store: CarTV - M3U IPTV Player & Cast",
-   "url": "https://apps.apple.com/us/app/cartv-m3u-iptv-player-cast/id6800211040?uo=2",
+   "desc": "App Store: AI Home Design - Ruma",
+   "url": "https://apps.apple.com/us/app/ai-home-design-ruma/id6742654523?uo=2",
    "signals": [
     "App Store 新上架"
    ],
    "variants": [],
-   "named": null
+   "named": 0.9
+  },
+  {
+   "name": "figsmith",
+   "key": "figsmith",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Google, new this week · figma.com/community/plugin: FigSmith",
+   "url": "https://google.com/goto?url=CAESmgEB6zswFTGn09A0ntTeyKCmg37rtzBcIqFiga6Gu-Mmb4Tr9-IFpfoju17eEvFJ3Aiyk1qMe8lb0POQsRKEfZB_jUdarIPIIvP4HtJFZ5XBgdPJQJBpDvwiTKAiJ6BQAboWFlfVdjCLrzEv1eV8SvTrbfkkVjxdQFLN-HpoRiU1R1ext8PYE8n3FpFwNcDogE0o9K46AbomUl2N&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
+   "signals": [
+    "Google, new this week 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "linterly: lint & fix tokens, styles, contrast",
+   "key": "linterlylintfixtokensstylescontrast",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Google, new this week · figma.com/community/plugin: Linterly: Lint & Fix Tokens, Styles, Contrast",
+   "url": "https://google.com/goto?url=CAESngEB6zswFYZDZMYDQEWKcmdE9MuwN1pi2so2hrFHslWcRbmJzqxpaLvfICmpcG7M2_3qjmgGYXt8r-YfOO0Yr8McsupmLz5_iSiyX6w0_j_N3622MbMU-mWxu56F7crfGvqoT9df1TKZvJ2bUqdsKNN8n4h46OSIp5h_6le0UWBuxwWb3OPRdhPsC_YqJ-JJLjH5K7rT0GuQvVqDAoSANw&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
+   "signals": [
+    "Google, new this week 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "apex kit",
+   "key": "apexkit",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Google, new this week · figma.com/community/plugin: Apex Kit",
+   "url": "https://google.com/goto?url=CAESlAEB6zswFZ7G4MxyIBo7a4_D7AxTSYcxGSCvER_mR1p3lIBVHFD8dO_g6FG60SJ406aaIvTxGYdrGiTqVzTtzqlrT9b5dOmZwYM_xFImZPFBDCInjoo2pPlwsXJKo3dmCXjrBpaDW7Bpf3ynyipXHY105HJoSFX-2-v60kw_7CM6xqy9HIhq0qgnO80JlBUghWPr6tvz&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
+   "signals": [
+    "Google, new this week 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "korobium italic & bold for any font",
+   "key": "korobiumitalicboldforanyfont",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Google, new this week · figma.com/community/plugin: Korobium Italic & Bold for Any Font",
+   "url": "https://google.com/goto?url=CAESlwEB6zswFU0CdAdGQBwTU4fhDajF0b9xy7vM33xWvXJTrZuniw7T92qz9D6O067nmo70vv8_zFo2irv4bz3J3Io8deKRhJWMgiOEp6MnP6TunmcDnq6_cYfTpS10aDRjjoKEdyjWFJN6TvEc61Pn1AppwqxLjZUsO70mw8b-WIHJVvUZwz57ABv-Ybgvf6HPvNi5Ztj5nIsR&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
+   "signals": [
+    "Google, new this week 新上架"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "unity ui toolkit connector",
+   "key": "unityuitoolkitconnector",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Google, new this week · figma.com/community/plugin: Unity UI Toolkit Connector",
+   "url": "https://google.com/goto?url=CAESkAEB6zswFSIbKLtQ0hO1ef92ouRmPYoJFqUInZQBblCa88TWL0VOJruCb_5tiPkjkyABTahZiu--Ki95UI-wD4YhjbRi4aOmxHl1mgZbxuJJ5FcTE5B2f-aclPxM4uNNR2rgla7tUIWMOfD9cNYFHAwrYa65DURZ_1fsIaHAQc_VBxVz2ANvX89CIX1q93BM6yg&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
+   "signals": [
+    "Google, new this week 新上架"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "pixel maps by amcharts",
+   "key": "pixelmapsbyamcharts",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Google, new this week · figma.com/community/plugin: Pixel maps by amCharts",
+   "url": "https://www.figma.com/community/plugin/1572983978396878578/pixel-maps-by-amcharts",
+   "signals": [
+    "Google, new this week 新上架"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "pptx to figma pro max · keynote, slides & export",
+   "key": "pptxtofigmapromaxkeynoteslidesexport",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Google, new this week · figma.com/community/plugin: PPTX TO FIGMA PRO MAX · Keynote, Slides & Export",
+   "url": "https://google.com/goto?url=CAESoQEB6zswFbK5nnkmFSSG0Bs-TFTCdVvUBjHAV8nI16zOBmvOTUSIEcCjj3ysHaGsp0yCPrSN4CwnUt5sOPHxQBj8Vm2q4cnv3yRhWgzeIugE4y3mX-Wzp5Hh2ykpo03dsSDY7Ers1RAK7N0kHu4KVP25kE4DWXRot2-zdkXPGCwnsaY-AaMubgzTB-c_yOL8bp8c7cBK4MAFJ2FlSMCtkKAVQg&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
+   "signals": [
+    "Google, new this week 新上架"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "html & web to figma design",
+   "key": "htmlwebtofigmadesign",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Google, new this week · figma.com/community/plugin: HTML & Web to Figma Design",
+   "url": "https://www.figma.com/community/plugin/1688631795096371886/html-web-to-figma-design",
+   "signals": [
+    "Google, new this week 新上架"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "jackjin1997/markindex",
+   "key": "jackjin1997markindex",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "awesome list: jackjin1997/markindex",
+   "url": "https://github.com/jackjin1997/markindex",
+   "signals": [
+    "awesome list 新上架"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "google cloud ui",
+   "key": "googlecloudui",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@karpathy: Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had ",
+   "url": "",
+   "signals": [
+    "X 1 个账号 ♥43034"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "4gb vram reported",
+   "key": "4gbvramreported",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@TeksEdge: Custom inference engines are on the rise. Here's a new one. Pithos is a C infere",
+   "url": "",
+   "signals": [
+    "X 1 个账号 ♥131"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "io.github.nero engine",
+   "key": "iogithubneroengine",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 10 处 (×6.9)"
+   ],
+   "variants": [],
+   "named": 0.4
+  },
+  {
+   "name": "connectors app.tuper",
+   "key": "connectorsapptuper",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 7 处 (×7.0)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "connectors io.github.nero",
+   "key": "connectorsiogithubnero",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 10 处 (×6.9)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "park genpark",
+   "key": "parkgenpark",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 16 处 (×5.2)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "records",
+   "key": "records",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 113 处 (×65.4)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "corp",
+   "key": "corp",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 113 处 (×58.9)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "cloud",
+   "key": "cloud",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 115 处 (×19.1)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "loan",
+   "key": "loan",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 15 处 (×13.6)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "loans",
+   "key": "loans",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 12 处 (×11.8)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "product catalog",
+   "key": "productcatalog",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 12 处 (×11.5)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "calculator",
+   "key": "calculator",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 17 处 (×7.8)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "port",
+   "key": "port",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 11 处 (×7.8)"
+   ],
+   "variants": [],
+   "named": 0.0
+  },
+  {
+   "name": "catalog",
+   "key": "catalog",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 14 处 (×5.3)"
+   ],
+   "variants": [],
+   "named": 0.0
+  },
+  {
+   "name": "text",
+   "key": "text",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "ai-text-guard.com · 29 keywords",
+   "url": "",
+   "signals": [
+    "新站 ai-text-guard.com(注册 2026-09-17,约 1009 访问/月,29 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "guard",
+   "key": "guard",
+   "sources": [
+    "新域名"
+   ],
+   "desc": "ai-text-guard.com · 29 keywords",
+   "url": "",
+   "signals": [
+    "新站 ai-text-guard.com(注册 2026-09-17,约 1009 访问/月,29 个排名词)"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "share notes app",
+   "key": "sharenotesapp",
+   "sources": [
+    "痛点求助"
+   ],
+   "desc": "X (31): Is there an app that I can share my notes with everyone to read❓️Cuz I have a lot of ideas",
+   "url": "",
+   "signals": [
+    "Reddit:被问 1 次(X)"
+   ],
+   "variants": [],
+   "named": 0.2
+  },
+  {
+   "name": "social media management service",
+   "key": "socialmediamanagementservice",
+   "sources": [
+    "痛点求助"
+   ],
+   "desc": "Freelancer (22): Comprehensive Social Media Management",
+   "url": "",
+   "signals": [
+    "Reddit:被问 1 次(Freelancer)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "free ecard maker",
+   "key": "freeecardmaker",
+   "sources": [
+    "收款新站"
+   ],
+   "desc": "www.instantecard.com · Dodo Payments",
+   "url": "https://www.instantecard.com/",
+   "signals": [
+    "开始收钱(AI / 软件):2026-11-01 第一次挂 Dodo Payments 收款链接"
+   ],
+   "variants": [],
+   "named": 0.2
+  },
+  {
+   "name": "logga in",
+   "key": "loggain",
+   "sources": [
+    "构建器新站"
+   ],
+   "desc": "meatlist.lovable.app · Lovable",
+   "url": "https://meatlist.lovable.app/",
+   "signals": [
+    "2026-11-02 出现的 Lovable 作品"
+   ],
+   "variants": [],
+   "named": 0.0
+  },
+  {
+   "name": "cmms & cafm software",
+   "key": "cmmscafmsoftware",
+   "sources": [
+    "构建器新站"
+   ],
+   "desc": "tabsfm.lovable.app · Lovable",
+   "url": "https://tabsfm.lovable.app/",
+   "signals": [
+    "2026-11-02 出现的 Lovable 作品"
+   ],
+   "variants": [],
+   "named": 0.0
+  },
+  {
+   "name": "i've updated my linux system call website and api",
+   "key": "iveupdatedmylinuxsystemcallwebsiteandapi",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: I've updated my Linux System Call website and API",
+   "url": "https://syscall.sh/",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.0
+  },
+  {
+   "name": "Qwenputer",
+   "key": "qwenputer",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "将计算机制嵌入 LLM 权重的研究项目，源自 Qwen3.5。不是新模型",
+   "url": "https://x.com/ModelScope2022/status/2117240635304616250",
+   "signals": [],
+   "variants": [],
+   "not_model": true,
+   "first_seen": "2026-11-02 21:01"
+  },
+  {
+   "name": "PiVo-1.4M",
+   "key": "pivo14m",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "1.4M 参数的离线英语 TTS 模型，支持 CPU 运行。",
+   "url": "https://x.com/ModelScope2022/status/2117195229203730936",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-02 18:00"
+  },
+  {
+   "name": "Hydrogen-1.0",
+   "key": "hydrogen10",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "基于 GLM-5.3 的科学推理模型，具备 1M 上下文，专注于化学与生命科学。",
+   "url": "https://x.com/ModelScope2022/status/2117164818880696417",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-02 16:00"
+  },
+  {
+   "name": "Krea 2 OpenCast LoRA",
+   "key": "krea2opencastlora",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "基于 Krea-2-Raw 的角色生成 LoRA 适配器。",
+   "url": "https://x.com/ModelScope2022/status/2117095944407667182",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-02 11:26"
   }
  ],
  "dupes": [],

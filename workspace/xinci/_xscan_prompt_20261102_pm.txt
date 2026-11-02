@@ -1,0 +1,291 @@
+你是新词雷达 XSCAN 筛选器。根据候选帖生成严格 JSON（不要 markdown 围栏，不要解释）。
+
+窗口: window_start=2026-11-02 10:12 (北京) / 2026-11-02T02:12:46Z ; window_end=2026-11-02 21:33 (北京) / 2026-11-02T13:33:42Z
+label: "2026-11-02 晚上 书签X"
+run_at: "2026-11-02 21:33"
+
+规则:
+1. 只收真实首发（产品/模型首次发布）。合作/上架/功能更新/报告/研究可收但 kind=not_model，desc 末尾加「不是新模型」。
+2. 招聘/活动/人事/营销转发/社区感谢/用户案例展示/玩笑梗不收。
+3. 已在 reported 的规范化名不收。本窗口前首发但漏报 → 收，加 "backfill":true，desc 前加「【补报】」。
+4. B 路非官方/创始人传闻不收。官方账号列表含 ModelScope2022 / MistralAI / AntLingAGI 等；ModelScope「Introducing X」可收为上架展示。Mage-VL-Cowork / LongCat-2.5 无官方帖=传闻不收。Le Chonk / Mistral Large 4 / SenseNova Loop-9B-Preview / Ling-3.1-flash-1019 / Pika H3 Flex / Kimi K3.1 Pro / LFM3 已报不收。
+5. 建站热词 ≤3（宁缺勿滥）：优先 kind=model/product；views≥500000 或 bookmarks≥1000；名字全新；给 keyword_rank/keyword/reason。不达标则 keywords=[]。
+6. first_seen 用北京时间 YYYY-MM-DD HH:MM（UTC+8）。
+7. empty=true 若无合格 items。
+8. source 写成 @username；url 用帖子 url。
+9. 输出字段: label, run_at, window_start, window_end, empty, items[], keywords[]。
+   window_start 用「2026-11-02 10:12」；window_end 用「2026-11-02 21:33」。
+
+已报 names（勿重复）: ["Agent Skills 捐给 Agentic AI Foundation", "Anthropic AISI Mythos 5 进一步分析", "Anthropic 自动化误对齐研究", "Atria Dawn", "Audio8-TTS-Realistic", "BabelArena", "Brush", "Canva Craft", "ChatGPT Pro/Business API credits $500", "Claude API 128MB request limit", "Claude Duet", "Claude MCP Tasks / Elicitations", "Claude OneGov", "Claude Security 持续扫描", "Claude Ultra", "Claude for Nonprofits", "Claude self-assessment", "Claude 大规模形式化验证", "Claude 登陆 Google Cloud GA", "Claude 默认自动模式", "Clover-35B-A3B-Preview", "Dessa", "EvaOmni", "Fibo 2.0 Dev", "GPT-6.1 Terra", "GPT-Rosalind 药物发现线索", "Gemini 4 Carbon", "Gemini API CLI", "Gemini 在 Google 地图 CarPlay 导航", "Genie 4", "Google Connected Apps Platform", "Google 太空 TPU", "Hy-Nomas", "Hy-SimulMT", "Kimi K3.1 Pro", "LFM3", "Le Chonk", "Ling-3.0-flash-Sante", "Ling-3.1-flash-1019", "Ling-3.1-flash-base", "Matilda Platypus", "MiniMax H3 社区加速更新", "MiniMax M3.1 Flash", "Mischief 1", "Mistral Responses API", "Mistral × NVIDIA 工业工程合作", "Moss-Image-Edit", "Nanbeige4.3-33B", "Nemotron 3.5 Bolt E4B", "Nemotron 3.5 Transcribe", "OXR-1.0", "Omni-R2V", "OpenAI Decisions API", "OpenAI Private Intelligence", "OpenAI × METR 嵌入式评估", "OpenAI 发现 Brotli 未认证 RCE", "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能", "OpenAI 模型登陆 Google Cloud", "OpenAI 训练环境离线化", "Panda Orchestrator", "Pika H3 Flex", "PixText", "PlanAssist", "Recursive Flint", "Sage-A1.5", "SenseNova 6.8 Code2Video", "SenseNova Loop-9B-Preview", "Spark-X2.6-4B", "StreamEval", "Unlimited-OCR-2", "WeVisOne-VL-4B", "d3-turbo"]
+
+官方帖 official_posts:
+[
+  {
+    "id": "2117240635304616250",
+    "username": "ModelScope2022",
+    "text": "Qwenputer explores a fascinating idea: embedding computational machinery directly into LLM weights, without retraining the original language model.\n\nDeveloped by @divagr1925 , the project has evolved from a RISC-V CPU inside Qwen3.5 into a family of models exploring new ways to https://t.co/X2buLC91Do",
+    "url": "https://x.com/ModelScope2022/status/2117240635304616250",
+    "created_at": "2026-11-02T13:01:18.000Z",
+    "first_seen_bj": "2026-11-02 21:01",
+    "views": 431,
+    "bookmarks": 2,
+    "likes": 5
+  },
+  {
+    "id": "2117229259425038344",
+    "username": "MistralAI",
+    "text": "We asked Mistral Large 4 to show what happens when you break a molecule. ⚛️\n\nWith a short prompt, it wrote a quantum chemistry SCF solver from scratch, validated its output, and built a 3D view around it. \n\nLe Chonk also understand chemistry enough to independently choose how to https://t.co/0PmK8QJTGQ",
+    "url": "https://x.com/MistralAI/status/2117229259425038344",
+    "created_at": "2026-11-02T12:16:06.000Z",
+    "first_seen_bj": "2026-11-02 20:16",
+    "views": 15327,
+    "bookmarks": 57,
+    "likes": 458
+  },
+  {
+    "id": "2117195229203730936",
+    "username": "ModelScope2022",
+    "text": "English TTS in just 1.4M parameters, vocoder included. PiVo-1.4M runs offline on a CPU with NumPy and ONNX Runtime, without PyTorch.\n🤖 https://t.co/Z8zAemh2CQ\n\n🪶 1.4M parameters, vocoder included: Generates 16 kHz mono speech with a compact acoustic model and FARGAN-derived https://t.co/TST4D0880U",
+    "url": "https://x.com/ModelScope2022/status/2117195229203730936",
+    "created_at": "2026-11-02T10:00:52.000Z",
+    "first_seen_bj": "2026-11-02 18:00",
+    "views": 1052,
+    "bookmarks": 5,
+    "likes": 6
+  },
+  {
+    "id": "2117164818880696417",
+    "username": "ModelScope2022",
+    "text": "Scientific reasoning shaped by laboratory experience. Hydrogen-1.0 is an open-weight model from Deep Principle, built on GLM-5.3 with 1M context for chemistry, materials science, and life sciences. 🤖 https://t.co/o79t85ueKN\n\n🏆 Stronger scientific reasoning: Outperforms GPT-6",
+    "url": "https://x.com/ModelScope2022/status/2117164818880696417",
+    "created_at": "2026-11-02T08:00:02.000Z",
+    "first_seen_bj": "2026-11-02 16:00",
+    "views": 1587,
+    "bookmarks": 8,
+    "likes": 22
+  },
+  {
+    "id": "2117139176168759353",
+    "username": "ModelScope2022",
+    "text": "Introducing SenseNova-Loop-9B-Preview: a 9B open-weight multimodal model with 256K context for document understanding, coding, and agent workflows. 📜 Apache-2.0 License. \n🤖https://t.co/zPnYvIIEEv\n\n• Leads six of eight tasks in the team’s reported comparison: Scores 71.38 on https://t.co/FF4hF2DRax",
+    "url": "https://x.com/ModelScope2022/status/2117139176168759353",
+    "created_at": "2026-11-02T06:18:08.000Z",
+    "first_seen_bj": "2026-11-02 14:18",
+    "views": 10695,
+    "bookmarks": 110,
+    "likes": 157
+  },
+  {
+    "id": "2117096799706169672",
+    "username": "AntLingAGI",
+    "text": "Ming-3.0 gives @aijoey’s local home assistant its ears and voice, with DeepSeek handling the reasoning. 🏠 Thanks for sharing, Joey! Great to see open models working together in everyday life. Looking forward to the repo! https://t.co/hrctPdNvW5",
+    "url": "https://x.com/AntLingAGI/status/2117096799706169672",
+    "created_at": "2026-11-02T03:29:45.000Z",
+    "first_seen_bj": "2026-11-02 11:29",
+    "views": 1611,
+    "bookmarks": 17,
+    "likes": 21
+  },
+  {
+    "id": "2117095944407667182",
+    "username": "ModelScope2022",
+    "text": "Beyond ordinary faces. Krea 2 OpenCast LoRA is an open-weight adapter by Akatz Labs based on Krea-2-Raw, creating fictional characters with exaggerated features, sculptural hair, and lifelike skin and clothing.\n🤖 https://t.co/lC5rSGwPmU\n\n🎭 Design an original cast: Describe https://t.co/ElU3ZYDgvM",
+    "url": "https://x.com/ModelScope2022/status/2117095944407667182",
+    "created_at": "2026-11-02T03:26:21.000Z",
+    "first_seen_bj": "2026-11-02 11:26",
+    "views": 3940,
+    "bookmarks": 64,
+    "likes": 50
+  },
+  {
+    "id": "2117095432526700766",
+    "username": "AntLingAGI",
+    "text": "Great to see Ming-3.0-tts-0.5B running locally on an RTX 3090! In @ItsmeAjayKV’s test, a 5-second sample of his own voice was enough for cloning—even with fan noise in the recording. 🫶 Thanks for sharing, AJ! We’d love to see what you build next. https://t.co/OzJG3mFJeo",
+    "url": "https://x.com/AntLingAGI/status/2117095432526700766",
+    "created_at": "2026-11-02T03:24:19.000Z",
+    "first_seen_bj": "2026-11-02 11:24",
+    "views": 3363,
+    "bookmarks": 25,
+    "likes": 48
+  },
+  {
+    "id": "2117091510412075375",
+    "username": "AntLingAGI",
+    "text": "Thanks @CommandCodeAI for bringing Ling-3.1-flash-1019 to your community! 🫶 Give it a try on your next coding or agentic task. We’d love to hear what you build and how we can make Ling better. https://t.co/9ikAESZpq6",
+    "url": "https://x.com/AntLingAGI/status/2117091510412075375",
+    "created_at": "2026-11-02T03:08:44.000Z",
+    "first_seen_bj": "2026-11-02 11:08",
+    "views": 2066,
+    "bookmarks": 1,
+    "likes": 34
+  }
+]
+
+关键词候选 keyword_posts（无一 likes≥500；非官方需谨慎；多数为已报产品传闻）:
+[
+  {
+    "id": "2117164809984921631",
+    "username": "cutetoxicguy",
+    "text": "🚀 Mistral has released the open weights of its 1-trillion-parameter AI model, Le Chonk. And its coding performance has improved significantly.\n\nThe updated Mistral Large 4 is now available for self-hosting, fine-tuning and custom deployments.\n\nThe numbers:\n\n▪️ ~1 trillion total https://t.co/dpBiIThYSq",
+    "url": "https://x.com/cutetoxicguy/status/2117164809984921631",
+    "created_at": "2026-11-02T08:00:00.000Z",
+    "first_seen_bj": "2026-11-02 16:00",
+    "views": 67,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2117080690961379778",
+    "username": "saveliiapps",
+    "text": "New model from Pika 🇺🇸: Pika H3 Flex, open weights, 15-second clips with audio in about 7 seconds. #1 open-weight model on DesignArena's text-to-video board. Watching and testing 👀",
+    "url": "https://x.com/saveliiapps/status/2117080690961379778",
+    "created_at": "2026-11-02T02:25:44.000Z",
+    "first_seen_bj": "2026-11-02 10:25",
+    "views": 59,
+    "bookmarks": 0,
+    "likes": 1
+  },
+  {
+    "id": "2117217766780350476",
+    "username": "LeapfrogAgentic",
+    "text": "Artificial Analysis rebuilt its index on 27 October. The open-weight gap went from 3 points to 12 — no open model got worse, the benchmark did. The best model you can download now scores 32; the leader is 58. 'Near-frontier open weights' now expires with a revision.",
+    "url": "https://x.com/LeapfrogAgentic/status/2117217766780350476",
+    "created_at": "2026-11-02T11:30:26.000Z",
+    "first_seen_bj": "2026-11-02 19:30",
+    "views": 4,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2117158274352943428",
+    "username": "sybx11",
+    "text": "The best open-weight model on Earth is about to be downloadable — and it's Chinese.\n\n&gt; Moonshot promised Kimi K3.1 Pro's full weights by Nov 4. Artificial Analysis ranks it 4th globally out of 215 models, 3 points off the lead — the moment the weights drop, it becomes the",
+    "url": "https://x.com/sybx11/status/2117158274352943428",
+    "created_at": "2026-11-02T07:34:02.000Z",
+    "first_seen_bj": "2026-11-02 15:34",
+    "views": 29,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2117180924009882024",
+    "username": "benjamin_c15838",
+    "text": "Mistral released the weights of Mistral Large 4. It is a 1T-parameter model with native multimodal input and three reasoning modes.\n\nThe license is the Mistral Ecosystem Open-Weight license, which Mistral calls a modified MIT license. You can use, modify, fine-tune, and use it",
+    "url": "https://x.com/benjamin_c15838/status/2117180924009882024",
+    "created_at": "2026-11-02T09:04:02.000Z",
+    "first_seen_bj": "2026-11-02 17:04",
+    "views": 10,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2117231893649424687",
+    "username": "ChinaTechFlux",
+    "text": "Someone offered a security researcher money to turn an open model into a weapon. He said no. The part that should worry you is that someone else won't.\n\nJun Song says an anonymous black-hat group reached out with a proposition: they hold a huge corpus of real attack data. Take an https://t.co/h2Cb3ZhJlq",
+    "url": "https://x.com/ChinaTechFlux/status/2117231893649424687",
+    "created_at": "2026-11-02T12:26:34.000Z",
+    "first_seen_bj": "2026-11-02 20:26",
+    "views": 4,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2117171474700341751",
+    "username": "mnemosyne_oos",
+    "text": "The 5-test gate I run before any open-weight model touches my agent\nI run every new open-weight model through a 5-test gate before it touches my agent stack. Reflection is reportedly next in line.\n\nOpen weights change the memory math. When the model runs on your own box, the KV",
+    "url": "https://x.com/mnemosyne_oos/status/2117171474700341751",
+    "created_at": "2026-11-02T08:26:29.000Z",
+    "first_seen_bj": "2026-11-02 16:26",
+    "views": 4,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2117170302425973176",
+    "username": "lunkertw",
+    "text": "AI &amp; Open Source Developments: Supply Chain Alerts &amp; Frontier Weights\n\nCursor warned of malicious Anthropic extensions in its marketplace; Mistral and OpenMOSS published weights for 1T MoE and layout-aware image generation. On GitHub, image upscaler Upscayl and spatial vision",
+    "url": "https://x.com/lunkertw/status/2117170302425973176",
+    "created_at": "2026-11-02T08:21:49.000Z",
+    "first_seen_bj": "2026-11-02 16:21",
+    "views": 101,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2117095184936694089",
+    "username": "pawel7",
+    "text": "🤖 AI DAILY REPORT | November 1, 2026 🤖\n\nThe signal within the noise. Your daily briefing on breakthroughs, models, and industry shifts.\n\n───\n\n🚀 MODEL WATCH: The Capability Gap Narrows\n\n• Open-Weights vs. Frontier: The gap is hitting single digits. Zhipu AI’s GLM-5.2 (753B",
+    "url": "https://x.com/pawel7/status/2117095184936694089",
+    "created_at": "2026-11-02T03:23:20.000Z",
+    "first_seen_bj": "2026-11-02 11:23",
+    "views": 73,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2117132858934661578",
+    "username": "ajeetkrup401",
+    "text": "Introducing embeddinggemma2-decision-router — a System-One multimodal decision and routing model built on Google's EmbeddingGemma 2 (740M frozen backbone + 3.55M Set-Equivariant Decision Head).\n\nInstead of slow LLM-as-a-judge calls or brittle cosine thresholds, it routes Text, https://t.co/p5hjCTNbkN",
+    "url": "https://x.com/ajeetkrup401/status/2117132858934661578",
+    "created_at": "2026-11-02T05:53:02.000Z",
+    "first_seen_bj": "2026-11-02 13:53",
+    "views": 58,
+    "bookmarks": 0,
+    "likes": 2
+  },
+  {
+    "id": "2117139176168759353",
+    "username": "ModelScope2022",
+    "text": "Introducing SenseNova-Loop-9B-Preview: a 9B open-weight multimodal model with 256K context for document understanding, coding, and agent workflows. 📜 Apache-2.0 License. \n🤖https://t.co/zPnYvIIEEv\n\n• Leads six of eight tasks in the team’s reported comparison: Scores 71.38 on https://t.co/FF4hF2DRax",
+    "url": "https://x.com/ModelScope2022/status/2117139176168759353",
+    "created_at": "2026-11-02T06:18:08.000Z",
+    "first_seen_bj": "2026-11-02 14:18",
+    "views": 10695,
+    "bookmarks": 110,
+    "likes": 157
+  },
+  {
+    "id": "2117114345876337124",
+    "username": "myinkora",
+    "text": "First look: Meituan's LongCat-2.5, a 1.6T-param multimodal model built for agentic and visual coding. API: $0.30/M input, $1.20/M output.\n\nFor devs after a cheap agent model. Catch: that price is limited-time, and open weights aren't out yet.\n\nhttps://t.co/yQYEos1T0j #AI",
+    "url": "https://x.com/myinkora/status/2117114345876337124",
+    "created_at": "2026-11-02T04:39:28.000Z",
+    "first_seen_bj": "2026-11-02 12:39",
+    "views": 31,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2117244378607694269",
+    "username": "CordovalAIOffic",
+    "text": "Meituan just released LongCat-2.5, a 1.6 trillion parameter AI agent model it says was trained entirely on Chinese chips.\n\nBy its own benchmarks it sits between Claude Opus 4.8 and Opus 5 on most tests. Open weights are promised but undated.\n\nhttps://t.co/pxul6Mt4v0",
+    "url": "https://x.com/CordovalAIOffic/status/2117244378607694269",
+    "created_at": "2026-11-02T13:16:11.000Z",
+    "first_seen_bj": "2026-11-02 21:16",
+    "views": 3,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2117216108251926832",
+    "username": "saiitoshii",
+    "text": "A 9B model beating Qwen3.5-27B on office and agent benchmarks?? SenseTime's Loop-9B just runs its middle layers twice instead of adding more. Open weights, Apache 2.0, fits in 16GB once quantized.\n\nIs looping the new scaling?\n\n#OpenSource #LLM #AIAgents",
+    "url": "https://x.com/saiitoshii/status/2117216108251926832",
+    "created_at": "2026-11-02T11:23:50.000Z",
+    "first_seen_bj": "2026-11-02 19:23",
+    "views": 11,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2117175932079444288",
+    "username": "LatentDispatch",
+    "text": "Your next AI agent might not need the cloud.\n\nLiquid AI's LFM3-1.7B has open weights, tool calling and a 256K context window. Its 4-bit weights are ~1GB.\n\nNot a frontier-model replacement. But for everyday tasks, would you rather run it locally?",
+    "url": "https://x.com/LatentDispatch/status/2117175932079444288",
+    "created_at": "2026-11-02T08:44:12.000Z",
+    "first_seen_bj": "2026-11-02 16:44",
+    "views": 2,
+    "bookmarks": 0,
+    "likes": 1
+  }
+]

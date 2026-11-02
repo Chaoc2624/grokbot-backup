@@ -1,53 +1,127 @@
-## 合并新词（2026-11-01）
+## 合并新词（2026-11-02）
 
-看板雷达：当天没有；书签X：2026-11-01 上午 书签X、2026-11-01 晚上 书签X；共 48 个词，两边重合 0 个。
-⚠ 我们的 X 源今晚失败，X 部分只有看板雷达的词。
+看板雷达：当天没有；书签X：2026-11-02 上午 书签X、2026-11-02 晚上 书签X；共 123 个词，两边重合 0 个。
 
-- **dsh superagent prototype**〔GitHub〕deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System [链接](https://github.com/deepseek-ai/dsh-superagent-prototype)
-- **eglantine**〔GitHub〕Djihads80/Eglantine: VERY experimental Nintendo Switch 2 emulator [链接](https://github.com/Djihads80/Eglantine)
-- **openidea**〔GitHub〕l0ng-ai/openidea: The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a [链接](https://github.com/l0ng-ai/openidea)
-- **floorplan**〔GitHub〕haydenschmitty/floorplan: See how your app actually fits together. An interactive, plain-English map of your codebase, d [链接](https://github.com/haydenschmitty/floorplan)
-- **sepehr071**〔竞品站〕③ 竞品 34 处 (×28.3)
-- **llc cyan**〔竞品站〕③ 竞品 23 处 (×23.0)
-- **io.github.bumiatlas**〔竞品站〕③ 竞品 24 处 (×22.8)
-- **connectors io.github.bumiatlas**〔竞品站〕③ 竞品 24 处 (×22.8)
-- **io.github.bumi**〔竞品站〕③ 竞品 24 处 (×22.8)
-- **cyan eclipse**〔竞品站〕③ 竞品 23 处 (×21.1)
-- **eclipse technologies**〔竞品站〕③ 竞品 23 处 (×20.9)
-- **technologies llc**〔竞品站〕③ 竞品 23 处 (×20.7)
-- **parcels**〔竞品站〕③ 竞品 17 处 (×16.9)
-- **zovo**〔竞品站〕③ 竞品 16 处 (×15.5)
-- **connectors io.usefulapi**〔竞品站〕③ 竞品 59 处 (×13.8)
-- **land**〔竞品站〕③ 竞品 16 处 (×13.2)
-- **llc**〔竞品站〕③ 竞品 24 处 (×12.7)
-- **atlas**〔竞品站〕③ 竞品 28 处 (×11.8)
-- **land parcels**〔竞品站〕③ 竞品 11 处 (×11.0)
-- **records**〔竞品站〕③ 竞品 17 处 (×10.9)
-- **cloudcorprecords**〔竞品站〕③ 竞品 15 处 (×10.9)
-- **tech.noahsarch**〔竞品站〕③ 竞品 9 处 (×9.0)
-- **connectors tech.noahsarch**〔竞品站〕③ 竞品 9 处 (×9.0)
-- **corp**〔竞品站〕③ 竞品 15 处 (×8.6)
-- **genpark personal**〔竞品站〕③ 竞品 11 处 (×8.3)
-- **cadastral parcels**〔竞品站〕③ 竞品 6 处 (×6.0)
-- **lannes**〔竞品站〕③ 竞品 6 处 (×5.9)
-- **thiagojacoblannes**〔竞品站〕③ 竞品 6 处 (×5.9)
-- **thiago**〔竞品站〕③ 竞品 6 处 (×5.8)
-- **photogrid: video collage maker**〔新品榜单〕App Store: PhotoGrid: Video Collage Maker [链接](https://apps.apple.com/us/app/photogrid-video-collage-maker/id543577420?uo=2)
-- **screen studio 4.0**〔新品榜单〕Product Hunt: Screen Studio 4.0 [链接](https://www.producthunt.com/products/screen-studio)
-- **chatbot ai assistant - genie**〔新品榜单〕App Store: Chatbot AI Assistant - Genie [链接](https://apps.apple.com/us/app/chatbot-ai-assistant-genie/id1658377526?uo=2)
-- **body editor.**〔新品榜单〕App Store: Body Editor. [链接](https://apps.apple.com/us/app/body-editor/id1473047769?uo=2)
-- **artcoach:learn to draw & paint**〔新品榜单〕App Store: ArtCoach:Learn to Draw & Paint [链接](https://apps.apple.com/us/app/artcoach-learn-to-draw-paint/id6756040750?uo=2)
-- **usage for claude + chatgpt 4.0**〔新品榜单〕Product Hunt: Usage for Claude + ChatGPT 4.0 [链接](https://www.producthunt.com/products/usage-for-claude)
-- **agentmash**〔新品榜单〕Product Hunt: agentmash [链接](https://www.producthunt.com/products/agentmash)
-- **click**〔新品榜单〕Product Hunt: Click [链接](https://www.producthunt.com/products/click-6)
-- **yuzu sync**〔新品榜单〕Product Hunt: Yuzu Sync [链接](https://www.producthunt.com/products/yuzu-sync)
-- **raah.dev**〔新品榜单〕Product Hunt: Raah.dev [链接](https://www.producthunt.com/products/raah-dev)
-- **hamdori**〔新品榜单〕Product Hunt: Hamdori [链接](https://www.producthunt.com/products/hamdori)
-- **clawsgo science**〔新品榜单〕Product Hunt: ClawsGO Science [链接](https://www.producthunt.com/products/clawsgo-science)
-- **ernd**〔新品榜单〕Product Hunt: ernd [链接](https://www.producthunt.com/products/ernd)
-- **precise edit by ideogram**〔新品榜单〕Product Hunt: Precise Edit by Ideogram [链接](https://www.producthunt.com/products/ideogram)
-- **a language model that lives in a boot sector**〔新品榜单〕Show HN: A language model that lives in a boot sector [链接](https://github.com/kerlenton/bootgpt)
-- **nes contra (1987) port (asm –> c and then c –> webassembly)**〔新品榜单〕Show HN: NES Contra (1987) port (ASM –> C and then C –> WebAssembly) [链接](https://epoyraz.github.io/nes-contra-us/)
-- **a usb-c lte modem that gives my computer a phone line**〔新品榜单〕Show HN: A USB-C LTE modem that gives my computer a phone line [链接](https://github.com/Koppar-AI/koppar-lte-modem)
-- **bbrouter**〔新品榜单〕Show HN: BBRouter [链接](https://bbrouter.com/bbrouter/ben-eater-sap-1)
-- **cartv - m3u iptv player & cast**〔新品榜单〕App Store: CarTV - M3U IPTV Player & Cast [链接](https://apps.apple.com/us/app/cartv-m3u-iptv-player-cast/id6800211040?uo=2)
+- **lfm2.5-24b-a2b q4_k_m**〔我们X〕@TeksEdge: Custom inference engines are on the rise. Here's a new one. Pithos is a C infere
+- **intel i5-10500h**〔我们X〕@TeksEdge: Custom inference engines are on the rise. Here's a new one. Pithos is a C infere
+- **hackertube longs**〔我们X〕@karpathy: Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had 
+- **scf**〔我们X〕@MistralAI: We asked Mistral Large 4 to show what happens when you break a molecule. ⚛️ With
+- **audio8 tts realistic air**〔HF〕Edge0/Audio8-TTS-Realistic-Air (text-to-speech, ♥232)
+- **h3**〔HF〕ppxxyy/H3-Turbo-Lora (gradio, ♥31)
+- **stack diagram**〔GitHub〕caru-ini/stack-diagram: Agent skill: describe your stack in a sentence, get an architecture diagram with official logos [链接](https://github.com/caru-ini/stack-diagram)
+- **craft anything**〔GitHub〕storytold/craft-anything: Craft Anything: understand how any software works, and craft your own. [链接](https://github.com/storytold/craft-anything)
+- **connectors ai.wondel**〔竞品站〕③ 竞品 27 处 (×27.0)
+- **connectors co.civai.nova**〔竞品站〕③ 竞品 28 处 (×24.3)
+- **connectors io.usefulapi**〔竞品站〕③ 竞品 107 处 (×21.3)
+- **connectors io.github.theluckystrike**〔竞品站〕③ 竞品 20 处 (×9.6)
+- **app.tuper**〔竞品站〕③ 竞品 7 处 (×7.0)
+- **cloudcorprecords**〔竞品站〕③ 竞品 113 处 (×74.8)
+- **genpark personal**〔竞品站〕③ 竞品 33 处 (×23.0)
+- **bgpt**〔竞品站〕③ 竞品 12 处 (×11.6)
+- **theluckystrike**〔竞品站〕③ 竞品 12 处 (×10.9)
+- **alpha park**〔竞品站〕③ 竞品 16 处 (×5.2)
+- **alphaparkinc genpark**〔竞品站〕③ 竞品 17 处 (×5.1)
+- **ai.wondel google**〔竞品站〕③ 竞品 5 处 (×5.0)
+- **hailuo**〔新域名〕ai-hailuo.com · 296 keywords
+- **dolai**〔新域名〕dolai.video · 76 keywords
+- **cyqlerhikqjw**〔新域名〕cyqlerhikqjw.video · 629 keywords
+- **samehadaku**〔新域名〕samehadaku.video · 53 keywords
+- **rgtoqnaarynz**〔新域名〕rgtoqnaarynz.video · 463 keywords
+- **wlojauujugkz**〔新域名〕wlojauujugkz.video · 684 keywords
+- **alqccaintejn**〔新域名〕alqccaintejn.video · 1216 keywords
+- **sbjqjichfviy**〔新域名〕sbjqjichfviy.video · 240 keywords
+- **tnijfilkfwoz**〔新域名〕tnijfilkfwoz.video · 173 keywords
+- **vtgbujiethez**〔新域名〕vtgbujiethez.video · 502 keywords
+- **bsazvmtrxpli**〔新域名〕bsazvmtrxpli.video · 779 keywords
+- **anichin**〔新域名〕anichin.video · 117 keywords
+- **downvideo**〔新域名〕downvideo.app · 451 keywords
+- **bdviralvideo**〔新域名〕bdviralvideo.info · 98 keywords
+- **downloadvideo**〔新域名〕downloadvideo.to · 634 keywords
+- **twivideo**〔新域名〕twivideo.app · 55 keywords
+- **typingtest**〔新域名〕ai-typingtest.com · 722 keywords
+- **talkie**〔新域名〕talkie-ai-chat.com · 45 keywords
+- **facebookvideodownload**〔新域名〕facebookvideodownload.org · 255 keywords
+- **koooravideo**〔新域名〕koooravideo.com · 244 keywords
+- **ytvideoo**〔新域名〕ytvideoo.com · 942 keywords
+- **snapvideo**〔新域名〕snapvideo.to · 290 keywords
+- **tokvideosave**〔新域名〕tokvideosave.com · 579 keywords
+- **savevideo**〔新域名〕savevideo.tech · 2915 keywords
+- **videollan**〔新域名〕videollan.org · 462 keywords
+- **hd9video**〔新域名〕hd9video.org · 913 keywords
+- **instavideodownload**〔新域名〕instavideodownload.in · 144 keywords
+- **livestreamingvideo**〔新域名〕livestreamingvideo.site · 143 keywords
+- **videocall**〔新域名〕videocall.cam · 1423 keywords
+- **aiagentslisting**〔收款新站〕aiagentslisting.com · Polar [链接](https://aiagentslisting.com/)
+- **movilitas**〔收款新站〕www.movilitas.cloud · Lemon Squeezy [链接](https://www.movilitas.cloud/)
+- **soon enough**〔收款新站〕soonenough.app · Polar [链接](https://soonenough.app/)
+- **supercmd**〔收款新站〕supercmd.sh · Polar [链接](https://supercmd.sh/)
+- **zens**〔收款新站〕zens.ink · Polar [链接](https://zens.ink/)
+- **apexpdf**〔收款新站〕apexpdf.com · Polar [链接](https://apexpdf.com/)
+- **nexyy**〔收款新站〕nexyy.com · Gumroad [链接](https://nexyy.com/)
+- **caleyna**〔收款新站〕caleyna.com · Polar [链接](https://caleyna.com/)
+- **zest**〔收款新站〕zest.dashovia.app · Dodo Payments [链接](https://zest.dashovia.app/)
+- **vyuh drift**〔收款新站〕drift.vyuhmatrix.com · Dodo Payments [链接](https://drift.vyuhmatrix.com/)
+- **flightops hub**〔收款新站〕opossumdev.com · Creem [链接](https://opossumdev.com/)
+- **ondeck ai workflows**〔构建器新站〕ondeckai.lovable.app · Lovable [链接](https://ondeckai.lovable.app/)
+- **quizneon**〔构建器新站〕soportetecnico.lovable.app · Lovable [链接](https://soportetecnico.lovable.app/)
+- **captiongenie**〔构建器新站〕genie-caption-maker.lovable.app · Lovable [链接](https://genie-caption-maker.lovable.app/)
+- **meu citroen app**〔构建器新站〕meucitroen.lovable.app · Lovable [链接](https://meucitroen.lovable.app/)
+- **trinity fit**〔构建器新站〕trinityptschedule.lovable.app · Lovable [链接](https://trinityptschedule.lovable.app/)
+- **vendespil**〔构建器新站〕mission-matematik-vendespil.lovable.app · Lovable [链接](https://mission-matematik-vendespil.lovable.app/)
+- **clayzo**〔新品榜单〕Product Hunt: Clayzo [链接](https://www.producthunt.com/products/clayzo)
+- **bigvu teleprompter captions ai**〔新品榜单〕App Store: BIGVU Teleprompter Captions AI [链接](https://apps.apple.com/us/app/bigvu-teleprompter-captions-ai/id1124958568?uo=2)
+- **mematic - the meme maker**〔新品榜单〕App Store: Mematic - The Meme Maker [链接](https://apps.apple.com/us/app/mematic-the-meme-maker/id491076730?uo=2)
+- **cleaner neat: clean up storage**〔新品榜单〕App Store: Cleaner Neat: Clean Up Storage [链接](https://apps.apple.com/us/app/cleaner-neat-clean-up-storage/id1463756032?uo=2)
+- **frame to gif & mp4**〔新品榜单〕Google, new this week · figma.com/community/plugin: Frame to GIF & MP4 [链接](https://google.com/goto?url=CAEShgEB6zswFXAos0dYzBGMLUrd7pzKT0eJxYiAI4wFYensM-_ajxUAy2R48zCiTP33JqI_oCYdTqhmSLSicOUZFUlMIFBLjG8lu4N9C4dPdA9DYSWPKelurwxZBKCLw9tYzb9wBc6wqnZVKbvxy34RpE3USukc0bzpXgvRxQEMQOb5E0jAozHxvw&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg)
+- **vimeo**〔新品榜单〕App Store: Vimeo [链接](https://apps.apple.com/us/app/vimeo/id425194759?uo=2)
+- **sinqlo**〔新品榜单〕Google, new this week · figma.com/community/plugin: Sinqlo [链接](https://google.com/goto?url=CAESkAEB6zswFchAD-PesYo8MhrS1raYZGjwE5sc5GbsmB_iXEhBURH7YpPyUrm65paXdxDW8dATlOWGsDeUWZQXpBnoJShb6AqyRUV7OyGP6s8FiiAF2XSLMqFahQjwwG2HkNNhZEUpEEEgsCz7z1rL0bou7ucjZh4NYjxa2BUpaycSTG6WxosmhCRWITc1KiBWvhk&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg)
+- **display 1.0**〔新品榜单〕Product Hunt: Display 1.0 [链接](https://www.producthunt.com/products/display-dev)
+- **unleashx**〔新品榜单〕Product Hunt: UnleashX [链接](https://www.producthunt.com/products/unleashx)
+- **xmind 2027**〔新品榜单〕Product Hunt: Xmind 2027 [链接](https://www.producthunt.com/products/xmind)
+- **cedric ai for meetings**〔新品榜单〕Product Hunt: Cedric AI for Meetings [链接](https://www.producthunt.com/products/cedric)
+- **agent inbox**〔新品榜单〕Product Hunt: Agent Inbox [链接](https://www.producthunt.com/products/agent-inbox)
+- **self-growing websites by greta.sh**〔新品榜单〕Product Hunt: Self-Growing Websites by Greta.sh [链接](https://www.producthunt.com/products/gretabyquestera)
+- **redu.cloud**〔新品榜单〕Product Hunt: redu.cloud [链接](https://www.producthunt.com/products/redu-cloud)
+- **linkly ai clipper**〔新品榜单〕Product Hunt: Linkly AI Clipper [链接](https://www.producthunt.com/products/linkly-ai-clipper)
+- **diff-tour**〔新品榜单〕Product Hunt: diff-tour [链接](https://www.producthunt.com/products/diff-tour)
+- **hackerbooks**〔新品榜单〕Show HN: HackerBooks [链接](https://hackerbooks.org)
+- **wikihack**〔新品榜单〕Show HN: Wikihack [链接](https://wikihack.netlify.app)
+- **omnidiff**〔新品榜单〕Show HN: OmniDiff [链接](https://github.com/ivankovic/omnidiff)
+- **hackerhack**〔新品榜单〕Show HN: HackerHack [链接](https://news.ycombinator.com/)
+- **ai home design - ruma**〔新品榜单〕App Store: AI Home Design - Ruma [链接](https://apps.apple.com/us/app/ai-home-design-ruma/id6742654523?uo=2)
+- **figsmith**〔新品榜单〕Google, new this week · figma.com/community/plugin: FigSmith [链接](https://google.com/goto?url=CAESmgEB6zswFTGn09A0ntTeyKCmg37rtzBcIqFiga6Gu-Mmb4Tr9-IFpfoju17eEvFJ3Aiyk1qMe8lb0POQsRKEfZB_jUdarIPIIvP4HtJFZ5XBgdPJQJBpDvwiTKAiJ6BQAboWFlfVdjCLrzEv1eV8SvTrbfkkVjxdQFLN-HpoRiU1R1ext8PYE8n3FpFwNcDogE0o9K46AbomUl2N&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg)
+- **linterly: lint & fix tokens, styles, contrast**〔新品榜单〕Google, new this week · figma.com/community/plugin: Linterly: Lint & Fix Tokens, Styles, Contrast [链接](https://google.com/goto?url=CAESngEB6zswFYZDZMYDQEWKcmdE9MuwN1pi2so2hrFHslWcRbmJzqxpaLvfICmpcG7M2_3qjmgGYXt8r-YfOO0Yr8McsupmLz5_iSiyX6w0_j_N3622MbMU-mWxu56F7crfGvqoT9df1TKZvJ2bUqdsKNN8n4h46OSIp5h_6le0UWBuxwWb3OPRdhPsC_YqJ-JJLjH5K7rT0GuQvVqDAoSANw&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg)
+- **apex kit**〔新品榜单〕Google, new this week · figma.com/community/plugin: Apex Kit [链接](https://google.com/goto?url=CAESlAEB6zswFZ7G4MxyIBo7a4_D7AxTSYcxGSCvER_mR1p3lIBVHFD8dO_g6FG60SJ406aaIvTxGYdrGiTqVzTtzqlrT9b5dOmZwYM_xFImZPFBDCInjoo2pPlwsXJKo3dmCXjrBpaDW7Bpf3ynyipXHY105HJoSFX-2-v60kw_7CM6xqy9HIhq0qgnO80JlBUghWPr6tvz&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg)
+- **korobium italic & bold for any font**〔新品榜单〕Google, new this week · figma.com/community/plugin: Korobium Italic & Bold for Any Font [链接](https://google.com/goto?url=CAESlwEB6zswFU0CdAdGQBwTU4fhDajF0b9xy7vM33xWvXJTrZuniw7T92qz9D6O067nmo70vv8_zFo2irv4bz3J3Io8deKRhJWMgiOEp6MnP6TunmcDnq6_cYfTpS10aDRjjoKEdyjWFJN6TvEc61Pn1AppwqxLjZUsO70mw8b-WIHJVvUZwz57ABv-Ybgvf6HPvNi5Ztj5nIsR&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg)
+- **unity ui toolkit connector**〔新品榜单〕Google, new this week · figma.com/community/plugin: Unity UI Toolkit Connector [链接](https://google.com/goto?url=CAESkAEB6zswFSIbKLtQ0hO1ef92ouRmPYoJFqUInZQBblCa88TWL0VOJruCb_5tiPkjkyABTahZiu--Ki95UI-wD4YhjbRi4aOmxHl1mgZbxuJJ5FcTE5B2f-aclPxM4uNNR2rgla7tUIWMOfD9cNYFHAwrYa65DURZ_1fsIaHAQc_VBxVz2ANvX89CIX1q93BM6yg&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg)
+- **pixel maps by amcharts**〔新品榜单〕Google, new this week · figma.com/community/plugin: Pixel maps by amCharts [链接](https://www.figma.com/community/plugin/1572983978396878578/pixel-maps-by-amcharts)
+- **pptx to figma pro max · keynote, slides & export**〔新品榜单〕Google, new this week · figma.com/community/plugin: PPTX TO FIGMA PRO MAX · Keynote, Slides & Export [链接](https://google.com/goto?url=CAESoQEB6zswFbK5nnkmFSSG0Bs-TFTCdVvUBjHAV8nI16zOBmvOTUSIEcCjj3ysHaGsp0yCPrSN4CwnUt5sOPHxQBj8Vm2q4cnv3yRhWgzeIugE4y3mX-Wzp5Hh2ykpo03dsSDY7Ers1RAK7N0kHu4KVP25kE4DWXRot2-zdkXPGCwnsaY-AaMubgzTB-c_yOL8bp8c7cBK4MAFJ2FlSMCtkKAVQg&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg)
+- **html & web to figma design**〔新品榜单〕Google, new this week · figma.com/community/plugin: HTML & Web to Figma Design [链接](https://www.figma.com/community/plugin/1688631795096371886/html-web-to-figma-design)
+- **jackjin1997/markindex**〔新品榜单〕awesome list: jackjin1997/markindex [链接](https://github.com/jackjin1997/markindex)
+- **google cloud ui**〔我们X〕@karpathy: Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had 
+- **4gb vram reported**〔我们X〕@TeksEdge: Custom inference engines are on the rise. Here's a new one. Pithos is a C infere
+- **io.github.nero engine**〔竞品站〕③ 竞品 10 处 (×6.9)
+- **connectors app.tuper**〔竞品站〕③ 竞品 7 处 (×7.0)
+- **connectors io.github.nero**〔竞品站〕③ 竞品 10 处 (×6.9)
+- **park genpark**〔竞品站〕③ 竞品 16 处 (×5.2)
+- **records**〔竞品站〕③ 竞品 113 处 (×65.4)
+- **corp**〔竞品站〕③ 竞品 113 处 (×58.9)
+- **cloud**〔竞品站〕③ 竞品 115 处 (×19.1)
+- **loan**〔竞品站〕③ 竞品 15 处 (×13.6)
+- **loans**〔竞品站〕③ 竞品 12 处 (×11.8)
+- **product catalog**〔竞品站〕③ 竞品 12 处 (×11.5)
+- **calculator**〔竞品站〕③ 竞品 17 处 (×7.8)
+- **port**〔竞品站〕③ 竞品 11 处 (×7.8)
+- **catalog**〔竞品站〕③ 竞品 14 处 (×5.3)
+- **text**〔新域名〕ai-text-guard.com · 29 keywords
+- **guard**〔新域名〕ai-text-guard.com · 29 keywords
+- **share notes app**〔痛点求助〕X (31): Is there an app that I can share my notes with everyone to read❓️Cuz I have a lot of ideas
+- **social media management service**〔痛点求助〕Freelancer (22): Comprehensive Social Media Management
+- **free ecard maker**〔收款新站〕www.instantecard.com · Dodo Payments [链接](https://www.instantecard.com/)
+- **logga in**〔构建器新站〕meatlist.lovable.app · Lovable [链接](https://meatlist.lovable.app/)
+- **cmms & cafm software**〔构建器新站〕tabsfm.lovable.app · Lovable [链接](https://tabsfm.lovable.app/)
+- **i've updated my linux system call website and api**〔新品榜单〕Show HN: I've updated my Linux System Call website and API [链接](https://syscall.sh/)
+- **Qwenputer**〔书签X〕将计算机制嵌入 LLM 权重的研究项目，源自 Qwen3.5。不是新模型 [链接](https://x.com/ModelScope2022/status/2117240635304616250)
+- **PiVo-1.4M**〔书签X〕1.4M 参数的离线英语 TTS 模型，支持 CPU 运行。 [链接](https://x.com/ModelScope2022/status/2117195229203730936)
+- **Hydrogen-1.0**〔书签X〕基于 GLM-5.3 的科学推理模型，具备 1M 上下文，专注于化学与生命科学。 [链接](https://x.com/ModelScope2022/status/2117164818880696417)
+- **Krea 2 OpenCast LoRA**〔书签X〕基于 Krea-2-Raw 的角色生成 LoRA 适配器。 [链接](https://x.com/ModelScope2022/status/2117095944407667182)

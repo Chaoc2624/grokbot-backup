@@ -1,0 +1,16 @@
+﻿优先级,问题,抓取证据,改法,验收标准
+P0,/blog 4 篇全是 ShipAny 模板演示文，含字面占位符 What is YourAppName,抓 /blog：作者 ShipAny Team / shiponce Team / Admin，日期 2024-05~2026-05，首页 From the blog 区块在推这几篇,"删除或加 noindex,follow 并从 sitemap 移除；首页博客区块下线",site: 查不到 ShipAny/TanStack 类标题
+P0,ja/de/fr/es/it/pl/nl-NL/zh-hant 首页 TDK+H1 是模板默认英文，正文也基本是英文,抓 /ja 与 /es：title「The headless engine for your next SaaS.」、H1 同句、只有 Precios/料金プラン 被翻,先只开放 en+zh 两版索引，其余 8 个 noindex 并从 hreflang 与 sitemap 移除，真翻译完再放开,每个可索引语言页 title 含该语言核心词
+P0,页头 Get Started 指向 /settings，而 robots.txt 屏蔽 /settings,robots.txt Disallow: /settings；/ai/video-generator 链接 href=/settings,CTA 改到 /pricing 或注册页，/settings 只留在登录后,首屏 CTA 目标不在屏蔽名单
+P0,/ai/video-generator 只有 258 字符正文，title 与首页同抢 ai ugc video generator,抓取：title「AI UGC Video Generator」、H1「AI Studio」、正文仅模型选择器,noindex 并移出 sitemap，或改 title 为 AI Studio 类并补正文,全站只有一个页面打该词
+P1,首页 title=H1 同字、无品牌；description 与首屏第一段一字不差,首页 head 与正文抓取对比,title 加卖点+品牌（≤60 字符），H1 留核心词，description 重写,title 与 H1 不同且含品牌
+P1,FAQ 12 条只抓到问题、抓不到答案，且无 FAQPage 结构化数据,首页与 /es 正文抓取均只有问题文本,答案改为服务端渲染进首屏 HTML，并加 FAQPage JSON-LD,抓首页能看到答案正文
+P1,全站无 og:/twitter: 标签、无 JSON-LD,/privacy-policy 完整 head 只有 title/description/icon/hreflang/canonical,加 og:title/og:image/twitter:card + SoftwareApplication/Offer,分享链接有图有标题
+P1,/pricing 用占位 TDK：title「Pricing」、desc「Choose the plan that works for you.」,抓 /pricing head,写成含 6 credits、免费额度、pay as you go 的商业 TDK,title 含价格与免费额度卖点
+P1,sitemap 只有 20 个 loc 且全英文，9 个语言版本只作 hreflang alternate,sitemap.xml：loc 全为英文 URL，语言 URL 只在 xhtml:link,每个语言版本作为独立 loc（至少已翻译的 /zh 全页面），补 lastmod,sitemap loc 数与实际页面数一致
+P1,/ai/ 下三个工具页站内无入口（导航只到 /ai）,首页与 /ai/video-generator 的链接清单,保留就加进导航与页脚，删除就从 sitemap 拿掉,三页从首页一次点击可达
+P1,博客内容与 UGC 赛道无关，缺长尾落地页,/blog 仅 4 篇框架文,换成 UGC 主题：ai ugc ads、ugc video specs for Meta、ai ugc vs real creator,每个长尾词对应一个页面
+P2,每页 head 预加载 50+ modulepreload，含 admin_*/settings_*/common_sign_* 文案包,/privacy-policy 源码 head,按路由懒加载，访客页面不 preload 后台模块,首页 modulepreload ≤15
+P2,robots.txt Disallow: /*?* 屏蔽所有带查询参数的 URL,robots.txt 第 6 行,改为只屏蔽已知筛选参数,带 utm 的落地页可被抓取
+P2,meta keywords 仍在所有页面,首页与 /zh head,删除,页面无 keywords 标签
+P2,/updates 与空置模板页占用 sitemap 名额,sitemap 20 个 loc 中有 /updates、/feedback,空置页移出 sitemap，有内容再提交,sitemap 无空置页

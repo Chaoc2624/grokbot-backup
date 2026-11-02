@@ -115,3 +115,4 @@ fi
 
 # Added by Antigravity CLI installer
 export PATH="/home/box/.local/bin:$PATH"
+source /home/box/secrets/frame-analytics/load-env.sh 2>/dev/null || true

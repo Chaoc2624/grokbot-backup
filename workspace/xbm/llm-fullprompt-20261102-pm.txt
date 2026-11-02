@@ -1,0 +1,110 @@
+你是 Halo Z 的推特书签简报分类助手。根据输入 JSON 的 bookmarks，对每条输出分类结果（只要 JSON，不要 markdown 围栏）。
+
+严格过滤（仅丢这些，keep=false）：商业营销/外链中介软广（paid guest-post、DM's open for placements、Comment X and I'll DM you 导流、HIGH-DR directory 外链农场、纯卖课无干货、无正文空壳、纯重复搬运）。只保留真实可执行内容与免费资源。
+重要：绝大多数书签都应保留。美卡开户、羊毛、SEO/GEO、工具、出海、基建、设计等都要保留（羊毛/美卡 keep=true，tag 标清，category 可用 related 或 todo）。
+
+输出 schema：
+{
+  "items": [
+    {
+      "id": "推文id",
+      "url": "原url",
+      "keep": true或false,
+      "title": "中文短标题（无标点结尾；丢弃时也可给短标题）",
+      "tag": "SEO/增长/工具/AI/设计/通讯/美卡/羊毛/基建/出海/其他 等",
+      "need": "2-4句中文摘要（谁说了什么、要点、为何值得收藏）",
+      "action": "一句可执行动作",
+      "category": "todo|related|ads",
+      "filter_reason": "若 keep=false 写原因，否则 null",
+      "posted_at": "MM-DD HH:MM（北京时间，由 created_at UTC+8）"
+    }
+  ],
+  "summary": "一两句中文概括本档新增主题"
+}
+
+规则：
+- 保持 id/url 与输入一致；不要编造链接。
+- 输入有几条就输出几条（含 keep=false）。
+- category：todo=待办实操；related=深度参考/羊毛美卡资讯；ads=广告（尽量不要用于 keep=true）。
+- 邀请码羊毛帖（如带个人邀请码的 LemFi）若仍有可复用操作路径可 keep=true 标羊毛；若纯拉新软广可 keep=false。
+
+
+输入：
+{
+  "bookmarks": [
+    {
+      "id": "2116726197111648426",
+      "url": "https://x.com/kkkeric_ai/status/2116726197111648426",
+      "author": "kkkeric_ai",
+      "name": "KKKK",
+      "text": "grok bot真的是出海增长神器\n\n这篇文章希望对于在做AI产品和出海增长的朋友都有所帮助\n\n文末附了可以一键复用的skill https://t.co/XogmB1LKhj",
+      "created_at": "2026-11-01T02:57:06.000Z",
+      "article_title": {
+        "title": "Grok Bot 出海增长实战｜一个人 + 22 个 Bot，跑通20+社媒渠道、SEO/AEO、外链、视频、竞品调研"
+      }
+    },
+    {
+      "id": "2117185971724976556",
+      "url": "https://x.com/itsrealyutian/status/2117185971724976556",
+      "author": "itsrealyutian",
+      "name": "卡萨布兰卡不下雨🌤️",
+      "text": "fakessn大法成功注册TransUnion app账号\n\n下一步准备开始dispute https://t.co/7z5rWdiJiX",
+      "created_at": "2026-11-02T09:24:05.000Z",
+      "article_title": null
+    },
+    {
+      "id": "2116832877027402125",
+      "url": "https://x.com/victor_UWer/status/2116832877027402125",
+      "author": "victor_UWer",
+      "name": "Victor在西雅图",
+      "text": "出海收款，注册 Stripe 有个字段别随手填：账单描述符 (statement descriptor)。\n\n用户刷完卡，银行账单上显示的就是这几个字。\n\n如果你填的是公司注册名，或者一串看不懂的缩写，用户过几天翻账单，认不出来，第一反应就是被盗刷，直接找银行拒付。\n\n一笔拒付，钱被扣回，还得倒贴争议费。",
+      "created_at": "2026-11-01T10:01:01.000Z",
+      "article_title": null
+    },
+    {
+      "id": "2116917689088393654",
+      "url": "https://x.com/Kubai087/status/2116917689088393654",
+      "author": "Kubai087",
+      "name": "枯白啃设计",
+      "text": "感谢提问，我的理解是这样的：\n\n从目前接到的需求来看，开发者/品牌方对 Icon 的诉求大致分为几类：\n\n1. 强调工具属性：直观展现基础元素，比如你说的爱心、地图。好处是用户一眼就知道产品是干什么的，不用绕弯。\n\n2. https://t.co/suv9ZcMecD https://t.co/ruqauFiCqx",
+      "created_at": "2026-11-01T15:38:02.000Z",
+      "article_title": null
+    },
+    {
+      "id": "2117104628131070388",
+      "url": "https://x.com/victor_UWer/status/2117104628131070388",
+      "author": "victor_UWer",
+      "name": "Victor在西雅图",
+      "text": "做出海工具站，别死磕大词，换个切法：在大词后面挂一个职业。\n\n比如 invoice generator 竞争太狠，但 invoice generator for contractors、for photographers、for tutors 这类词，往往没几个人认真做。\n\n操作贼简单：\n\n1. Google 搜大词，后面加 for 再空一格，看下拉框蹦出哪些人群\n\n2.",
+      "created_at": "2026-11-02T04:00:51.000Z",
+      "article_title": null
+    },
+    {
+      "id": "2116735683859800394",
+      "url": "https://x.com/iwishuagain/status/2116735683859800394",
+      "author": "iwishuagain",
+      "name": "Falitata",
+      "text": "⚠️兴业跨境电汇规则变了！兴业官网消息从11月20日开始，跨境电汇的费用承担方式OUR汇款人承担不再是几十块钱到大几百的随机收，而是固定200元，也就是说，无论你汇款多少都会固定收200，而且是汇款的时候一并收了，这对于稍大额、追求全额到账的朋友是一个巨大打击！看图：我现在就是汇款0.01也要付200 https://t.co/UjDzUq25Ya https://t.co/1b519Eh3t0",
+      "created_at": "2026-11-01T03:34:48.000Z",
+      "article_title": null
+    },
+    {
+      "id": "2116854093138592002",
+      "url": "https://x.com/KOF97AI/status/2116854093138592002",
+      "author": "KOF97AI",
+      "name": "Nathan AI Lab（互fo, CD后马上回）",
+      "text": "甲骨文云（Oracle Cloud）永久免费的 4 核 24G ARM 实例（VM.Standard.A1.Flex）可以说是公认性价比最高的小鸡，但常年缺货、放货毫无规律，纯靠人肉刷新控制台根本抢不到。\n\n推荐一个开源自动蹲守神器：oracle-snatch。\n它的核心设计非常干净利落：\n1. 原生 API 轮询：直接调用官方 OCI API https://t.co/726Kfdgigj",
+      "created_at": "2026-11-01T11:25:19.000Z",
+      "article_title": null
+    },
+    {
+      "id": "2117048177983664485",
+      "url": "https://x.com/yaohongan2025/status/2117048177983664485",
+      "author": "yaohongan2025",
+      "name": "虹安",
+      "text": "用 Cloudflare 这么久，也就是买域名、部署网站，其他菜单基本没点开过。\n\n这篇万字长文把 Cloudflare 能干的事按用途讲了一遍：域名邮箱、发验证码、存图片、防刷，每块怎么配都写清楚了，还附了丢给 Claude Code 就能用的提示词。\n\n我最想马上弄的是 https://t.co/sKWgPfEPfs",
+      "created_at": "2026-11-02T00:16:33.000Z",
+      "article_title": null
+    }
+  ]
+}

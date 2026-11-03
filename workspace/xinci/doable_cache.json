@@ -1475,2342 +1475,195 @@
   "googlealternative.org": {
    "available": true,
    "day": "2026-11-02"
-  }
- },
- "gpt-6.1 terra": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "list": 5,
-    "forum": 2
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "people_also_ask",
-    "perspectives",
-    "related_searches",
-    "video"
-   ],
-   "top": [
-    "openai.com",
-    "reddit.com",
-    "news.ycombinator.com",
-    "openrouter.ai",
-    "simonwillison.net",
-    "linkedin.com",
-    "artificialanalysis.ai"
-   ],
-   "items": [
-    {
-     "domain": "openai.com",
-     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-     "title": "Introducing GPT-6.1 Terra",
-     "position": 1,
-     "kind": "list"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/codex/comments/1xg4eqq/introducing_gpt61_terra/",
-     "title": "Introducing GPT6.1 Terra : r/codex",
-     "position": 2,
-     "kind": "forum"
-    },
-    {
-     "domain": "news.ycombinator.com",
-     "url": "https://news.ycombinator.com/item?id=50248124",
-     "title": "GPT-6.1 Terra",
-     "position": 3,
-     "kind": "forum"
-    },
-    {
-     "domain": "openrouter.ai",
-     "url": "https://openrouter.ai/openai/gpt-6.1-terra",
-     "title": "OpenAI: GPT-6.1 Terra - API Pricing & Benchmarks",
-     "position": 4,
-     "kind": "list"
-    },
-    {
-     "domain": "simonwillison.net",
-     "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
-     "title": "GPT-6.1 Terra",
-     "position": 5,
-     "kind": "list"
-    },
-    {
-     "domain": "linkedin.com",
-     "url": "https://www.linkedin.com/posts/openai_gpt-61-terra-is-now-in-orbit-activity-7520547421580365824-mfvq",
-     "title": "GPT-6.1 Terra is now in orbit. | OpenAI | 134 comments",
-     "position": 6,
-     "kind": "list"
-    },
-    {
-     "domain": "artificialanalysis.ai",
-     "url": "https://artificialanalysis.ai/models/releases/comparisons/gpt-6-1-sol-vs-gpt-5-6-terra",
-     "title": "GPT-6.1 Sol vs GPT-5.6 Terra: Release Comparison",
-     "position": 7,
-     "kind": "list"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 2
-  }
- },
- "ling-3.1-flash-base": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "list": 6,
-    "video": 1,
-    "article": 2
-   },
-   "ads": false,
-   "features": [
-    "ai_overview"
-   ],
-   "top": [
-    "agentsky.dev",
-    "infron.ai",
-    "youtube.com",
-    "huggingface.co",
-    "techtickertimes.com",
-    "riverx.app",
-    "deepmind.google",
-    "techbytes.app",
-    "justsimple.chat"
-   ],
-   "items": [
-    {
-     "domain": "agentsky.dev",
-     "url": "https://agentsky.dev/models/inclusionai/ling-3.1-flash",
-     "title": "Ling 3.1 Flash - AgentSky",
-     "position": 1,
-     "kind": "list"
-    },
-    {
-     "domain": "infron.ai",
-     "url": "https://infron.ai/models/inclusionai/ling-3.1-flash:free/api-reference",
-     "title": "Ling 3.1 Flash (Free) API Reference",
-     "position": 2,
-     "kind": "list"
-    },
-    {
-     "domain": "youtube.com",
-     "url": "https://www.youtube.com/watch?v=pMrvt7soUPA",
-     "title": "560B PARAMETERS?! Ling 3.1 Flash Is an AI CODING ...",
-     "position": 3,
-     "kind": "video"
-    },
-    {
-     "domain": "huggingface.co",
-     "url": "https://huggingface.co/models?apps=lmstudio&other=base_model:quantized:inclusionAI/Ling-3.1-flash",
-     "title": "Models",
-     "position": 4,
-     "kind": "article"
-    },
-    {
-     "domain": "techtickertimes.com",
-     "url": "https://www.techtickertimes.com/news/inclusionai-ling-3-1-flash-hugging-face",
-     "title": "InclusionAI drops Ling-3.1-flash with 1M-token context and ...",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "riverx.app",
-     "url": "https://www.riverx.app/models/inclusionai-ling-3-1-flash--aW5jbHVzaW9uYWkvbGluZy0zLjEtZmxhc2g",
-     "title": "inclusionAI: Ling 3.1 Flash — pricing and capabilities - RiverX",
-     "position": 6,
-     "kind": "list"
-    },
-    {
-     "domain": "deepmind.google",
-     "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/",
-     "title": "Gemini 3.1 Flash-Lite - Model Card",
-     "position": 7,
-     "kind": "list"
-    },
-    {
-     "domain": "techbytes.app",
-     "url": "https://techbytes.app/posts/ling-31-flash-is-now-available-on-ai-gateway/",
-     "title": "Ling 3.1 Flash is now available on AI Gateway",
-     "position": 8,
-     "kind": "list"
-    },
-    {
-     "domain": "justsimple.chat",
-     "url": "https://justsimple.chat/models/openrouter/inclusionai/ling-3.1-flash",
-     "title": "Ling 3.1 Flash - InclusionAI",
-     "position": 9,
-     "kind": "list"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  }
- },
- "atria dawn": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "tool": 1,
-    "list": 1,
-    "article": 5,
-    "video": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "local_pack",
-    "related_searches",
-    "video"
-   ],
-   "top": [
-    "api.atria-asi.ai",
-    "bestofai.io",
-    "benchlm.ai",
-    "miraflow.ai",
-    "api.atria-asi.ai",
-    "youtube.com",
-    "huggingface.co",
-    "gradually.ai"
-   ],
-   "items": [
-    {
-     "domain": "api.atria-asi.ai",
-     "url": "https://api.atria-asi.ai/",
-     "title": "Atria Dawn — 模型API",
-     "position": 1,
-     "kind": "tool"
-    },
-    {
-     "domain": "bestofai.io",
-     "url": "https://bestofai.io/models/atria-dawn-preview/",
-     "title": "Atria Dawn Preview — Reasoning AI Model - Best of AI",
-     "position": 2,
-     "kind": "list"
-    },
-    {
-     "domain": "benchlm.ai",
-     "url": "https://benchlm.ai/models/atria-dawn-preview",
-     "title": "Atria Dawn Preview Benchmarks & Context (October 2026)",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "miraflow.ai",
-     "url": "https://miraflow.ai/blog/atria-dawn-preview-shanghai-ai-lab-744b-agentic-moe-2026",
-     "title": "Atria Dawn Preview Explained: Shanghai AI Lab's 744B ...",
-     "position": 4,
-     "kind": "article"
-    },
-    {
-     "domain": "api.atria-asi.ai",
-     "url": "https://api.atria-asi.ai/docs",
-     "title": "模型API - Atria Dawn",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "youtube.com",
-     "url": "https://www.youtube.com/watch?v=k-2Jh9bOs2o",
-     "title": "NEW Atria Dawn Preview 700B is Crazy Good!",
-     "position": 6,
-     "kind": "video"
-    },
-    {
-     "domain": "huggingface.co",
-     "url": "https://huggingface.co/collections/internlm/atria-dawn",
-     "title": "Atria-Dawn - a internlm Collection",
-     "position": 7,
-     "kind": "article"
-    },
-    {
-     "domain": "gradually.ai",
-     "url": "https://www.gradually.ai/en/ai-models/atria-dawn-preview/",
-     "title": "Atria Dawn Preview: Specifications & Sources",
-     "position": 8,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  }
- },
- "fibo 2.0 dev": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "list": 1,
-    "article": 4,
-    "forum": 4
-   },
-   "ads": false,
-   "features": [
-    "ai_overview"
-   ],
-   "top": [
-    "wiki.liutyi.info",
-    "huggingface.co",
-    "huggingface.co",
-    "reddit.com",
-    "reddit.com",
-    "huggingface.co",
-    "reddit.com",
-    "reddit.com",
-    "play.google.com"
-   ],
-   "items": [
-    {
-     "domain": "wiki.liutyi.info",
-     "url": "https://wiki.liutyi.info/display/AI/FIBO+2.0+Dev",
-     "title": "FIBO 2.0 Dev - Oleksandr Liutyi",
-     "position": 1,
-     "kind": "list"
-    },
-    {
-     "domain": "huggingface.co",
-     "url": "https://huggingface.co/akhaliq/Fibo-2.0-ComfyUI/commits/01f4ad33c175c824232321e511623fc91d056567/fibo2_native/__init__.py",
-     "title": "Commits · akhaliq/Fibo-2.0-ComfyUI",
-     "position": 2,
-     "kind": "article"
-    },
-    {
-     "domain": "huggingface.co",
-     "url": "https://huggingface.co/Winnougan/Fibo-2.0-w6a8-convrot/commits/main",
-     "title": "Commits · Winnougan/Fibo-2.0-w6a8-convrot",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbtrpl/thoughts_on_fibo20/?tl=hr",
-     "title": "Što mislite o Fibo-2.0? : r/StableDiffusion",
-     "position": 4,
-     "kind": "forum"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbtrpl/thoughts_on_fibo20/?tl=ro",
-     "title": "Ce părere ai despre Fibo-2.0? : r/StableDiffusion",
-     "position": 5,
-     "kind": "forum"
-    },
-    {
-     "domain": "huggingface.co",
-     "url": "https://huggingface.co/akhaliq/Fibo-2.0-8step-dmd/commits/main/.gitattributes",
-     "title": "Commits · akhaliq/Fibo-2.0-8step-dmd",
-     "position": 6,
-     "kind": "article"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbtrpl/thoughts_on_fibo20/?tl=fa",
-     "title": "نظرتون دربارهٔ Fibo-2.0 چیه؟ : r/StableDiffusion",
-     "position": 7,
-     "kind": "forum"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/StableDiffusion/comments/1xbjies/some_simple_fibo_20_workflows_dev_edit_turbo_with/?tl=el",
-     "title": "Ορισμένα απλά workflows Fibo 2.0 (Dev + Edit Turbo, με και ...",
-     "position": 8,
-     "kind": "forum"
-    },
-    {
-     "domain": "play.google.com",
-     "url": "https://play.google.com/store/apps/developer?id=FIBO+Group+Ltd.&hl=en_US",
-     "title": "Android Apps by FIBO Group Ltd. on Google Play",
-     "position": 9,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 4
-  }
- },
- "unlimited-ocr-2": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "article": 5,
-    "forum": 3
-   },
-   "ads": false,
-   "features": [
-    "perspectives",
-    "video"
-   ],
-   "top": [
-    "github.com",
-    "medium.com",
-    "reddit.com",
-    "huggingface.co",
-    "mixpeek.com",
-    "reddit.com",
-    "explainx.ai",
-    "reddit.com"
-   ],
-   "items": [
-    {
-     "domain": "github.com",
-     "url": "https://github.com/baidu/Unlimited-OCR/commits/main/",
-     "title": "https://github.com/baidu/Unlimited-OCR/commits/main/",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "medium.com",
-     "url": "https://medium.com/codetodeploy/baidus-unlimited-ocr-the-ai-that-can-parse-entire-books-in-one-pass-b4deac3eb29d",
-     "title": "Baidu's Unlimited OCR: The AI That Can Parse Entire ...",
-     "position": 2,
-     "kind": "article"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/OpenSourceeAI/comments/1uf1fai/baidu_releases_unlimited_ocr_a_3b_model_that/",
-     "title": "Baidu Releases Unlimited OCR, a 3B Model That Keeps ...",
-     "position": 3,
-     "kind": "forum"
-    },
-    {
-     "domain": "huggingface.co",
-     "url": "https://huggingface.co/ApertureQA/Unlimited-OCR/blob/main/Unlimited-OCR.pdf",
-     "title": "Unlimited-OCR.pdf · ApertureQA/Unlimited-OCR at main",
-     "position": 4,
-     "kind": "article"
-    },
-    {
-     "domain": "mixpeek.com",
-     "url": "https://mixpeek.com/research/unlimited-ocr",
-     "title": "Baidu's Unlimited-OCR: The Model Whose Memory Never ...",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/LovingAIAgents/comments/1w6y1hz/unlimitedocr_is_a_baidu_model_and_code_release/",
-     "title": "Unlimited-OCR is a Baidu model and code release for ...",
-     "position": 6,
-     "kind": "forum"
-    },
-    {
-     "domain": "explainx.ai",
-     "url": "https://explainx.ai/llms/unlimited-ocr",
-     "title": "Unlimited OCR Works — LLM listing",
-     "position": 7,
-     "kind": "article"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/LovingAIAgents/comments/1uec3du/baidu_were_opensourcing_unlimited_ocr_built_to/",
-     "title": "Baidu \"We're open-sourcing Unlimited OCR — built to read ...",
-     "position": 8,
-     "kind": "forum"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 3
-  }
- },
- "hy-nomas": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "article": 8,
-    "tool": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview"
-   ],
-   "top": [
-    "instagram.com",
-    "nomaarizona.org",
-    "instagram.com",
-    "ubcnomas.org",
-    "noma.net",
-    "instagram.com",
-    "noma.net",
-    "spanishdict.com",
-    "instagram.com"
-   ],
-   "items": [
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/nomasusc/",
-     "title": "NOMAS @USC (@nomasusc)",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "nomaarizona.org",
-     "url": "https://nomaarizona.org/about/",
-     "title": "About",
-     "position": 2,
-     "kind": "article"
-    },
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/nomas_nd/",
-     "title": "NOMAS Notre Dame (@nomas_nd)",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "ubcnomas.org",
-     "url": "https://www.ubcnomas.org/",
-     "title": "UBC NOMAS | Diversity Matters",
-     "position": 4,
-     "kind": "tool"
-    },
-    {
-     "domain": "noma.net",
-     "url": "https://www.noma.net/spotlight/spotlight-hnoma/",
-     "title": "SPOTLIGHT - HNOMA",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/nomas.cu.denver/",
-     "title": "nomas.cu.denver",
-     "position": 6,
-     "kind": "article"
-    },
-    {
-     "domain": "noma.net",
-     "url": "https://www.noma.net/events/",
-     "title": "Events",
-     "position": 7,
-     "kind": "article"
-    },
-    {
-     "domain": "spanishdict.com",
-     "url": "https://www.spanishdict.com/pronunciation/ah%C3%AD%20nom%C3%A1s",
-     "title": "Ahí nomás | Spanish Pronunciation",
-     "position": 8,
-     "kind": "article"
-    },
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/nomas_uofu/",
-     "title": "NOMAS U of U (@nomas_uofu)",
-     "position": 9,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 0
-  }
- },
- "hy-simulmt": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "article": 8,
-    "list": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview"
-   ],
-   "top": [
-    "arxiv.org",
-    "github.com",
-    "iwslt.org",
-    "alta2024.alta.asn.au",
-    "gandhipedia150.in",
-    "ui.adsabs.harvard.edu",
-    "europe.naverlabs.com",
-    "dblp.org",
-    "hai.stanford.edu"
-   ],
-   "items": [
-    {
-     "domain": "arxiv.org",
-     "url": "https://arxiv.org/html/2204.03783v3",
-     "title": "Does Simultaneous Speech Translation need ...",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "github.com",
-     "url": "https://github.com/jiamingkong/LLM_based_simulMT",
-     "title": "jiamingkong/LLM_based_simulMT: Experiments to turn ...",
-     "position": 2,
-     "kind": "article"
-    },
-    {
-     "domain": "iwslt.org",
-     "url": "https://iwslt.org/2021/simultaneous",
-     "title": "Simultaneous Speech Translation",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "alta2024.alta.asn.au",
-     "url": "https://alta2024.alta.asn.au/assets/papers/33.pdf",
-     "title": "Simultaneous Machine Translation with Large ...",
-     "position": 4,
-     "kind": "article"
-    },
-    {
-     "domain": "gandhipedia150.in",
-     "url": "http://gandhipedia150.in:5001/paper/2025.iwslt-1.8",
-     "title": "Conversational SimulMT",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "ui.adsabs.harvard.edu",
-     "url": "https://ui.adsabs.harvard.edu/abs/arXiv:2512.24092",
-     "title": "HY-MT1.5 Technical Report - ADS",
-     "position": 6,
-     "kind": "list"
-    },
-    {
-     "domain": "europe.naverlabs.com",
-     "url": "https://europe.naverlabs.com/research/natural-language-processing/efficient-multilingual-machine-translation-2/",
-     "title": "Efficient multilingual machine translation",
-     "position": 7,
-     "kind": "article"
-    },
-    {
-     "domain": "dblp.org",
-     "url": "https://dblp.org/rec/conf/acl/ChanN08",
-     "title": "https://dblp.org/rec/conf/acl/ChanN08",
-     "position": 8,
-     "kind": "article"
-    },
-    {
-     "domain": "hai.stanford.edu",
-     "url": "https://hai.stanford.edu/news/large-language-models-drift",
-     "title": "Stanford HAI",
-     "position": 9,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 0
-  }
- },
- "time capsule llm": {
-  "overview_ok": true,
-  "volume": 40,
-  "cpc": 0.0,
-  "comp": 0.33,
-  "results": 160,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "article": 9
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "related_searches"
-   ],
-   "top": [
-    "popsci.com",
-    "threads.com",
-    "llmcapsule.ai",
-    "medium.com",
-    "tom-doerr.github.io",
-    "lablab.ai",
-    "arxiv.org",
-    "arstechnica.com",
-    "github.com"
-   ],
-   "items": [
-    {
-     "domain": "popsci.com",
-     "url": "https://www.popsci.com/technology/this-ai-thinks-its-the-1800s/",
-     "title": "This AI thinks it's the 1800s",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "threads.com",
-     "url": "https://www.threads.com/@githubprojects/post/DehvsdUkv7g/explore-it-here/",
-     "title": "Explore it here: https://osp.fyi/timecapsulellm?src=x",
-     "position": 2,
-     "kind": "article"
-    },
-    {
-     "domain": "llmcapsule.ai",
-     "url": "https://llmcapsule.ai/resources/learn/",
-     "title": "Learn: Enterprise AI enablement articles",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "medium.com",
-     "url": "https://medium.com/pelagios/introducing-timecapsule-3468a281438b",
-     "title": "Introducing: TimeCapsule",
-     "position": 4,
-     "kind": "article"
-    },
-    {
-     "domain": "tom-doerr.github.io",
-     "url": "https://tom-doerr.github.io/repo_posts/2025/08/22/haykgrigo3-TimeCapsuleLLM.html",
-     "title": "Haykgrigo3 Timecapsulellm | MAGI//ARCHIVE",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "lablab.ai",
-     "url": "https://lablab.ai/ai-hackathons/fall-in-love-with-deepseek/happynow/time-capsule",
-     "title": "Time Capsule for Fall in Love with Deepseek",
-     "position": 6,
-     "kind": "article"
-    },
-    {
-     "domain": "arxiv.org",
-     "url": "https://arxiv.org/html/2504.12721v3",
-     "title": "Solving the Jigsaw Puzzle of Long-Term Time Series ...",
-     "position": 7,
-     "kind": "article"
-    },
-    {
-     "domain": "arstechnica.com",
-     "url": "https://arstechnica.com/information-technology/2025/08/ai-built-from-1800s-texts-surprises-creator-by-mentioning-real-1834-london-protests/",
-     "title": "College student's “time travel” AI experiment accidentally ...",
-     "position": 8,
-     "kind": "article"
-    },
-    {
-     "domain": "github.com",
-     "url": "https://github.com/aamirmalik85/TimeCapsule",
-     "title": "aamirmalik85/TimeCapsule",
-     "position": 9,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 0
-  }
- },
- "atria dawn ai model": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "article": 8
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "related_searches",
-    "video"
-   ],
-   "top": [
-    "aiweekly.co",
-    "linkedin.com",
-    "api.atria-asi.ai",
-    "llmgateway.io",
-    "gitlab.scnet.cn",
-    "enterprisedna.co",
-    "instagram.com",
-    "llmgateway.io"
-   ],
-   "items": [
-    {
-     "domain": "aiweekly.co",
-     "url": "https://aiweekly.co/alerts/shanghai-ai-lab-ships-atria-dawn-preview-a-744b-agentic-moe",
-     "title": "Shanghai AI Lab Ships Atria Dawn Preview, a 744B ...",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "linkedin.com",
-     "url": "https://www.linkedin.com/posts/sourcesignal_home-source-signal-activity-7506016227102851073-bg9l",
-     "title": "Shanghai AI Lab Releases Atria Dawn Model Under MIT ...",
-     "position": 2,
-     "kind": "article"
-    },
-    {
-     "domain": "api.atria-asi.ai",
-     "url": "https://api.atria-asi.ai/docs",
-     "title": "模型API - Atria Dawn",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "llmgateway.io",
-     "url": "https://llmgateway.io/providers/atria",
-     "title": "Atria API — Models & Pricing",
-     "position": 4,
-     "kind": "article"
-    },
-    {
-     "domain": "gitlab.scnet.cn",
-     "url": "https://gitlab.scnet.cn:9002/model/icszy_zs_ai/Atria-Dawn/-/blob/22f83d76ed39d7735451c1c0bce7062b357a71a2/README_en.md",
-     "title": "Model / icszy_zs_ai / Atria-Dawn · JiHu GitLab",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "enterprisedna.co",
-     "url": "https://enterprisedna.co/resources/news/atria-dawn-preview-744b-open-source-agent-enterprise-2026/",
-     "title": "Open-Source 744B AI Agent Hits Frontier Benchmarks",
-     "position": 6,
-     "kind": "article"
-    },
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/p/DdTsqr2lF_p/",
-     "title": "September 15, 2026) - ATRIA released Atria Dawn Preview ...",
-     "position": 7,
-     "kind": "article"
-    },
-    {
-     "domain": "llmgateway.io",
-     "url": "https://llmgateway.io/models/atria-dawn-preview",
-     "title": "Atria Dawn Preview — Pricing, Providers & Benchmarks",
-     "position": 8,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 0
-  }
- },
- "claude cowork alternative": {
-  "overview_ok": true,
-  "volume": 170,
-  "cpc": 25.42,
-  "comp": 0.44,
-  "results": 96,
-  "kd_ok": true,
-  "kd": 19,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "video": 1,
-    "forum": 2,
-    "list": 4
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "discussions_and_forums",
-    "related_searches",
-    "video"
-   ],
-   "top": [
-    "youtube.com",
-    "reddit.com",
-    "coworks.dev",
-    "medium.com",
-    "news.ycombinator.com",
-    "nexos.ai",
-    "juliangoldie.com"
-   ],
-   "items": [
-    {
-     "domain": "youtube.com",
-     "url": "https://www.youtube.com/watch?v=Dp36oWFbN3U",
-     "title": "The Free Open-Source Claude Cowork Alternative (OpenWork ...",
-     "position": 1,
-     "kind": "video"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/ClaudeAI/comments/1vu3vbz/im_working_on_an_opensource_claude_cowork/",
-     "title": "I'm working on an open-source Claude Cowork alternative, ...",
-     "position": 2,
-     "kind": "forum"
-    },
-    {
-     "domain": "coworks.dev",
-     "url": "https://www.coworks.dev/docs/comparison",
-     "title": "Claude Cowork vs. Competitors",
-     "position": 3,
-     "kind": "list"
-    },
-    {
-     "domain": "medium.com",
-     "url": "https://medium.com/codex/the-open-source-powered-alternative-to-claude-cowork-is-here-and-it-is-mind-blowing-3e81607d1ce8",
-     "title": "The Open Source Powered Alternative to Claude Cowork ...",
-     "position": 4,
-     "kind": "list"
-    },
-    {
-     "domain": "news.ycombinator.com",
-     "url": "https://news.ycombinator.com/item?id=48761096",
-     "title": "I built an open-source alternative to Claude Cowork",
-     "position": 5,
-     "kind": "forum"
-    },
-    {
-     "domain": "nexos.ai",
-     "url": "https://nexos.ai/blog/claude-alternatives/",
-     "title": "Best Claude alternatives in 2026: Chat, code, and agent tools",
-     "position": 6,
-     "kind": "list"
-    },
-    {
-     "domain": "juliangoldie.com",
-     "url": "https://juliangoldie.com/openwork-vs-claude-co-work/",
-     "title": "OpenWork vs Claude Co-work: The Free AI Agent ...",
-     "position": 7,
-     "kind": "list"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 3
-  }
- },
- "monarch money mcp": {
-  "overview_ok": true,
-  "volume": 140,
-  "cpc": 4.79,
-  "comp": 0.07,
-  "results": 176,
-  "kd_ok": true,
-  "kd": 11,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "list": 1,
-    "article": 7,
-    "forum": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "related_searches"
-   ],
-   "top": [
-    "truthifi.com",
-    "mcpmarket.com",
-    "lobehub.com",
-    "mcpmarket.com",
-    "reddit.com",
-    "github.com",
-    "pulsemcp.com",
-    "skywork.ai",
-    "lib.rs"
-   ],
-   "items": [
-    {
-     "domain": "truthifi.com",
-     "url": "https://truthifi.com/education/financial-mcp-comparison",
-     "title": "Which financial MCP is built for you? 2026 comparison",
-     "position": 1,
-     "kind": "list"
-    },
-    {
-     "domain": "mcpmarket.com",
-     "url": "https://mcpmarket.com/server/monarch-money-1",
-     "title": "Monarch Money MCP: Personal Finance Data & Budget ...",
-     "position": 2,
-     "kind": "article"
-    },
-    {
-     "domain": "lobehub.com",
-     "url": "https://lobehub.com/mcp/jamiew-monarch-mcp",
-     "title": "Monarch Money MCP Server",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "mcpmarket.com",
-     "url": "https://mcpmarket.com/server/monarch-money-4",
-     "title": "Monarch Money MCP: AI Personal Finance for Claude ...",
-     "position": 4,
-     "kind": "article"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/mcp/comments/1x6cu01/monarchmcp_comprehensive_monarch_money/",
-     "title": "Comprehensive Monarch Money integration with read and ...",
-     "position": 5,
-     "kind": "forum"
-    },
-    {
-     "domain": "github.com",
-     "url": "https://github.com/colvint/monarch-money-mcp/blob/master/README.md",
-     "title": "README.md - Monarch Money MCP Server",
-     "position": 6,
-     "kind": "article"
-    },
-    {
-     "domain": "pulsemcp.com",
-     "url": "https://www.pulsemcp.com/servers/colvint-monarch-money",
-     "title": "Monarch Money MCP Server by colvint",
-     "position": 7,
-     "kind": "article"
-    },
-    {
-     "domain": "skywork.ai",
-     "url": "https://skywork.ai/skypage/en/unlocking-finances-monarch-money/1981585457704701952",
-     "title": "Unlocking Your Finances with the Monarch Money MCP ...",
-     "position": 8,
-     "kind": "article"
-    },
-    {
-     "domain": "lib.rs",
-     "url": "https://lib.rs/crates/monarch-mcp",
-     "title": "monarch-mcp",
-     "position": 9,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  }
- },
- "atria dawn benchmark": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "list": 6,
-    "article": 2,
-    "video": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "related_searches"
-   ],
-   "top": [
-    "benchlm.ai",
-    "github.com",
-    "enterprisedna.co",
-    "benchlm.ai",
-    "benchlm.ai",
-    "benchlm.ai",
-    "youtube.com",
-    "benchlm.ai",
-    "benchlm.ai"
-   ],
-   "items": [
-    {
-     "domain": "benchlm.ai",
-     "url": "https://benchlm.ai/compare/atria-dawn-preview-vs-liquid-d1",
-     "title": "Atria Dawn Preview vs d1: Benchmarks & Cost",
-     "position": 1,
-     "kind": "list"
-    },
-    {
-     "domain": "github.com",
-     "url": "https://github.com/atria-asi/Atria-Dawn",
-     "title": "atria-asi/Atria-Dawn",
-     "position": 2,
-     "kind": "article"
-    },
-    {
-     "domain": "enterprisedna.co",
-     "url": "https://enterprisedna.co/resources/news/atria-dawn-preview-744b-open-source-agent-enterprise-2026/",
-     "title": "Open-Source 744B AI Agent Hits Frontier Benchmarks",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "benchlm.ai",
-     "url": "https://benchlm.ai/compare/atria-dawn-preview-vs-standardone-8b",
-     "title": "Atria Dawn Preview vs Standard One 8B: Benchmarks & Cost",
-     "position": 4,
-     "kind": "list"
-    },
-    {
-     "domain": "benchlm.ai",
-     "url": "https://benchlm.ai/compare/atria-dawn-preview-vs-djev",
-     "title": "Atria Dawn Preview vs djev: Benchmarks & Cost",
-     "position": 5,
-     "kind": "list"
-    },
-    {
-     "domain": "benchlm.ai",
-     "url": "https://benchlm.ai/compare/atria-dawn-preview-vs-lfm2-5-2-6b",
-     "title": "Atria Dawn Preview vs LFM2.5-2.6B: Benchmarks & Cost",
-     "position": 6,
-     "kind": "list"
-    },
-    {
-     "domain": "youtube.com",
-     "url": "https://www.youtube.com/watch?v=5u5cMf-21Ns",
-     "title": "Testing Continuous Environmental Understanding in Real Tasks",
-     "position": 7,
-     "kind": "video"
-    },
-    {
-     "domain": "benchlm.ai",
-     "url": "https://benchlm.ai/compare/atria-dawn-preview-vs-holo3-122b-a10b",
-     "title": "Atria Dawn Preview vs Holo3-122B-A10B",
-     "position": 8,
-     "kind": "list"
-    },
-    {
-     "domain": "benchlm.ai",
-     "url": "https://benchlm.ai/compare/atria-dawn-preview-vs-semif-qwen3-5-4b",
-     "title": "Atria Dawn Preview vs SemIf Qwen3.5-4B",
-     "position": 9,
-     "kind": "list"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  }
- },
- "anthropic ai agent": {
-  "overview_ok": true,
-  "volume": 260,
-  "cpc": 5.63,
-  "comp": 0.14,
-  "results": 109,
-  "kd_ok": true,
-  "kd": 40,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "article": 5,
-    "video": 2
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "people_also_ask",
-    "people_also_search",
-    "perspectives",
-    "related_searches",
-    "video"
-   ],
-   "top": [
-    "mindstudio.ai",
-    "medium.com",
-    "youtube.com",
-    "medium.com",
-    "marketcalls.in",
-    "youtube.com",
-    "sartechlabs.com"
-   ],
-   "items": [
-    {
-     "domain": "mindstudio.ai",
-     "url": "https://www.mindstudio.ai/blog/what-is-anthropic-managed-agents",
-     "title": "Anthropic Managed Agents: A Hosted Runtime for Claude ...",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "medium.com",
-     "url": "https://medium.com/ai-software-engineer/anthropic-launches-claude-managed-agents-that-make-agentic-ai-workflows-real-91134b6f2b56",
-     "title": "Anthropic Launches Claude Managed Agents (That Make ...",
-     "position": 2,
-     "kind": "article"
-    },
-    {
-     "domain": "youtube.com",
-     "url": "https://www.youtube.com/watch?v=KQrZWI8K934",
-     "title": "How Anthropic's NEW Tool Let's You Create a 100+ AI Agent ...",
-     "position": 3,
-     "kind": "video"
-    },
-    {
-     "domain": "medium.com",
-     "url": "https://medium.com/@mcunningham1440/anthropic-ai-agents-can-now-search-the-internet-59181589cab6",
-     "title": "Anthropic AI agents can now search the internet",
-     "position": 4,
-     "kind": "article"
-    },
-    {
-     "domain": "marketcalls.in",
-     "url": "https://www.marketcalls.in/machine-learning/how-to-build-ai-agents-lessons-from-anthropic.html",
-     "title": "How to Build AI Agents: Lessons from Anthropic",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "youtube.com",
-     "url": "https://www.youtube.com/watch?v=5z1EX77_3po",
-     "title": "Anthropic drops Claude Managed Agents",
-     "position": 6,
-     "kind": "video"
-    },
-    {
-     "domain": "sartechlabs.com",
-     "url": "https://www.sartechlabs.com/blog/building-ai-agents-with-anthropic",
-     "title": "and it's a must-read for anyone working on multi-agent ...",
-     "position": 7,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 2
-  }
- },
- "atria dawn preview benchmark": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "list": 6,
-    "forum": 1,
-    "article": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "video"
-   ],
-   "top": [
-    "benchlm.ai",
-    "reddit.com",
-    "enterprisedna.co",
-    "benchlm.ai",
-    "benchlm.ai",
-    "benchlm.ai",
-    "benchlm.ai",
-    "benchlm.ai"
-   ],
-   "items": [
-    {
-     "domain": "benchlm.ai",
-     "url": "https://benchlm.ai/compare/atria-dawn-preview-vs-decision-index-0-3-verdict",
-     "title": "Atria Dawn Preview vs Verdict: Benchmarks & Cost",
-     "position": 1,
-     "kind": "list"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/opencodeCLI/comments/1wh59nh/100m_atria_dawn_preview_api_tokens_for_free_very/",
-     "title": "100M Atria Dawn Preview API Tokens for Free (very ...",
-     "position": 2,
-     "kind": "forum"
-    },
-    {
-     "domain": "enterprisedna.co",
-     "url": "https://enterprisedna.co/resources/news/atria-dawn-preview-744b-open-source-agent-enterprise-2026/",
-     "title": "Open-Source 744B AI Agent Hits Frontier Benchmarks",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "benchlm.ai",
-     "url": "https://benchlm.ai/compare/atria-dawn-preview-vs-holo3-35b-a3b",
-     "title": "Atria Dawn Preview vs Holo3-35B-A3B: Benchmarks & Cost",
-     "position": 4,
-     "kind": "list"
-    },
-    {
-     "domain": "benchlm.ai",
-     "url": "https://benchlm.ai/compare/atria-dawn-preview-vs-ming-3-0-asr-tiny",
-     "title": "Atria Dawn Preview vs Ming-3.0-asr-tiny: Benchmarks & Cost",
-     "position": 5,
-     "kind": "list"
-    },
-    {
-     "domain": "benchlm.ai",
-     "url": "https://benchlm.ai/compare/atria-dawn-preview-vs-baichuan-audio",
-     "title": "Atria Dawn Preview vs Baichuan-Audio: Benchmarks & Cost",
-     "position": 6,
-     "kind": "list"
-    },
-    {
-     "domain": "benchlm.ai",
-     "url": "https://benchlm.ai/compare/atria-dawn-preview-vs-decision-index-0-3-neohorse-jev-4b",
-     "title": "Atria Dawn Preview vs NeoHorse-Jev-4B",
-     "position": 7,
-     "kind": "list"
-    },
-    {
-     "domain": "benchlm.ai",
-     "url": "https://benchlm.ai/compare/atria-dawn-preview-vs-gpt-oss-20b",
-     "title": "Atria Dawn Preview vs GPT-OSS 20B: Benchmarks & Cost",
-     "position": 8,
-     "kind": "list"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  }
- },
- "xbox windows 11 handheld dispute": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "uncensored llm leaderboard": {
-  "overview_ok": true,
-  "volume": 480,
-  "cpc": 0.0,
-  "comp": 0.01,
-  "results": 97,
-  "kd_ok": true,
-  "kd": 19,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "article": 6,
-    "list": 2,
-    "forum": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "related_searches"
-   ],
-   "top": [
-    "huggingface.co",
-    "huggingface.co",
-    "labs.scale.com",
-    "reddit.com",
-    "jarvislabs.ai",
-    "huggingface.co",
-    "huggingface.co",
-    "wiro.ai",
-    "gorilla.cs.berkeley.edu"
-   ],
-   "items": [
-    {
-     "domain": "huggingface.co",
-     "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
-     "title": "Open LLM Leaderboard Archived",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "huggingface.co",
-     "url": "https://huggingface.co/collections/open-llm-leaderboard/open-llm-leaderboard-best-models",
-     "title": "Open LLM Leaderboard best models ❤️‍🔥",
-     "position": 2,
-     "kind": "list"
-    },
-    {
-     "domain": "labs.scale.com",
-     "url": "https://labs.scale.com/leaderboard",
-     "title": "AI Model Leaderboards & Benchmarks",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1d5il4c/is_there_an_unbiased_leaderboard_for_all/",
-     "title": "Is there an unbiased leaderboard for all available Large ...",
-     "position": 4,
-     "kind": "forum"
-    },
-    {
-     "domain": "jarvislabs.ai",
-     "url": "https://jarvislabs.ai/blog/llm_uncensored",
-     "title": "Uncensored LLM Models: A Complete Guide to Unfiltered ...",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "huggingface.co",
-     "url": "https://huggingface.co/docs/leaderboards/en/index",
-     "title": "Leaderboards and Evaluations",
-     "position": 6,
-     "kind": "article"
-    },
-    {
-     "domain": "huggingface.co",
-     "url": "https://huggingface.co/spaces/ArtificialAnalysis/LLM-Performance-Leaderboard",
-     "title": "LLM Performance Leaderboard - a Hugging Face Space ...",
-     "position": 7,
-     "kind": "article"
-    },
-    {
-     "domain": "wiro.ai",
-     "url": "https://wiro.ai/blog/uncensored-llm/",
-     "title": "Uncensored LLM API: 4 Models That Refuse Less",
-     "position": 8,
-     "kind": "list"
-    },
-    {
-     "domain": "gorilla.cs.berkeley.edu",
-     "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
-     "title": "Berkeley Function Calling Leaderboard (BFCL) V4 - Gorilla",
-     "position": 9,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  }
- },
- "claude duet how to use": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "forum": 2,
-    "article": 6
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "people_also_ask",
-    "video"
-   ],
-   "top": [
-    "x.com",
-    "duet.so",
-    "arte.itlibra.com",
-    "nexscope.ai",
-    "linkedin.com",
-    "beevaults.com",
-    "facebook.com",
-    "athryx.tech"
-   ],
-   "items": [
-    {
-     "domain": "x.com",
-     "url": "https://x.com/EugenioFierro3/status/2113199058827247935/video/1",
-     "title": "Claude Duet: the AI agent that messages you first ...",
-     "position": 1,
-     "kind": "forum"
-    },
-    {
-     "domain": "duet.so",
-     "url": "https://duet.so/guides/duet-ai-for-founders",
-     "title": "Duet AI for Founders: Run Founder Mode at Any Size - Duet.so",
-     "position": 2,
-     "kind": "article"
-    },
-    {
-     "domain": "arte.itlibra.com",
-     "url": "https://arte.itlibra.com/en/articles/what-is-claude-duet",
-     "title": "Claude Duet: Features, Pricing, Availability, and dot Differences",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "nexscope.ai",
-     "url": "https://www.nexscope.ai/blog/what-is-claude-duet-and-how-can-it-help-your-business",
-     "title": "What Is Claude Duet and How Can It Help Your Business?",
-     "position": 4,
-     "kind": "article"
-    },
-    {
-     "domain": "linkedin.com",
-     "url": "https://www.linkedin.com/posts/laura-belmont_get-started-with-claude-duet-claude-help-activity-7519018447465394176-GMnC",
-     "title": "Laura Belmont - Get started with Claude Duet",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "beevaults.com",
-     "url": "https://beevaults.com/claude-duet-ai-agent/",
-     "title": "Claude Duet Explained: What Anthropic's AI Agent Can Do ...",
-     "position": 6,
-     "kind": "article"
-    },
-    {
-     "domain": "facebook.com",
-     "url": "https://www.facebook.com/olegxyz/videos/claude-can-now-text-you-first-yeah-were-at-that-stage-of-ai-meet-claude-duet-the/1791784055435492/",
-     "title": "Claude Duet AI Now Texts You First: Inbox Assistant Update",
-     "position": 7,
-     "kind": "forum"
-    },
-    {
-     "domain": "athryx.tech",
-     "url": "https://www.athryx.tech/blog/what-is-claude-duet",
-     "title": "What is Claude Duet? Features, access, limits",
-     "position": 8,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 2
-  }
- },
- "microsoft office alternative": {
-  "overview_ok": true,
-  "volume": 720,
-  "cpc": 4.43,
-  "comp": 0.27,
-  "results": 115,
-  "kd_ok": true,
-  "kd": 41,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "list": 4,
-    "forum": 3
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "discussions_and_forums",
-    "people_also_ask",
-    "related_searches",
-    "video"
-   ],
-   "top": [
-    "xda-developers.com",
-    "xda-developers.com",
-    "quora.com",
-    "facebook.com",
-    "techradar.com",
-    "reddit.com",
-    "pctips.com"
-   ],
-   "items": [
-    {
-     "domain": "xda-developers.com",
-     "url": "https://www.xda-developers.com/my-favorite-alternative-to-office-365-isnt-libreoffice-its-something-way-cooler/",
-     "title": "My favorite alternative to Office 365 isn't LibreOffice",
-     "position": 1,
-     "kind": "list"
-    },
-    {
-     "domain": "xda-developers.com",
-     "url": "https://www.xda-developers.com/i-tried-this-microsoft-office-alternative-and-it-blew-my-mind/",
-     "title": "I tried this Microsoft Office alternative and it blew my mind",
-     "position": 2,
-     "kind": "list"
-    },
-    {
-     "domain": "quora.com",
-     "url": "https://www.quora.com/What-are-alternative-office-software-options-you-could-use-to-replace-Word-Excel-and-PowerPoint-to-enhance-your-privacy-and-security",
-     "title": "What are alternative office software options you could use ...",
-     "position": 3,
-     "kind": "forum"
-    },
-    {
-     "domain": "facebook.com",
-     "url": "https://www.facebook.com/SetupSpawn/videos/great-alternatives-for-office-work-microsoft-excel-worklife/242402428065628/",
-     "title": "Great alternatives for office work! #Microsoft #Excel #worklife",
-     "position": 4,
-     "kind": "forum"
-    },
-    {
-     "domain": "techradar.com",
-     "url": "https://www.techradar.com/best/free-office-software",
-     "title": "Best free office software of 2026",
-     "position": 5,
-     "kind": "list"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/degoogle/comments/1r5m49a/looking_for_solid_nonmicrosoft_alternatives_for/",
-     "title": "Looking for solid non-Microsoft alternatives for Word and ...",
-     "position": 6,
-     "kind": "forum"
-    },
-    {
-     "domain": "pctips.com",
-     "url": "https://www.pctips.com/office-alternatives/",
-     "title": "15 Best Free Microsoft Office Alternatives",
-     "position": 7,
-     "kind": "list"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 3
   },
-  "allintitle": 59
- },
- "anbernic handheld 3ds emulator dispute": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "article": 4,
-    "forum": 1,
-    "video": 1,
-    "list": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "people_also_ask",
-    "perspectives",
-    "related_searches",
-    "video"
-   ],
-   "top": [
-    "retrododo.com",
-    "reddit.com",
-    "retrohandhelds.gg",
-    "youtube.com",
-    "anbernic.com",
-    "sundayguardianlive.com",
-    "timeextension.com"
-   ],
-   "items": [
-    {
-     "domain": "retrododo.com",
-     "url": "https://retrododo.com/uh-oh-azahar-3ds-emulator-will-no-longer-support-anbernic-devices/",
-     "title": "Uh-oh... Azahar 3DS Emulator Will No Longer Support ...",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/ANBERNIC/comments/1xg1np6/uhoh_azahar_3ds_emulator_will_no_longer_support/",
-     "title": "r/ANBERNIC - Uh-oh... Azahar 3DS Emulator Will No ...",
-     "position": 2,
-     "kind": "forum"
-    },
-    {
-     "domain": "retrohandhelds.gg",
-     "url": "https://retrohandhelds.gg/azahar-the-de-facto-3ds-emulator-will-no-longer-support-anbernic-handhelds/",
-     "title": "Azahar, the De Facto 3DS Emulator, Will No Longer ...",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "youtube.com",
-     "url": "https://www.youtube.com/watch?v=RsK6ekxutTc",
-     "title": "Anbernic RGDDS – A Nintendo 3DS XL for 2026?",
-     "position": 4,
-     "kind": "video"
-    },
-    {
-     "domain": "anbernic.com",
-     "url": "https://anbernic.com/",
-     "title": "Anbernic | The best retro game console",
-     "position": 5,
-     "kind": "list"
-    },
-    {
-     "domain": "sundayguardianlive.com",
-     "url": "https://sundayguardianlive.com/tech-news/anbernic-handheld-3ds-emulator-dispute-azahar-3ds-emulator-developers-sever-support-for-anbernic-devices-following-unofficial-fork-dispute-312495/",
-     "title": "Azahar 3DS Emulator Developers Sever Support For ...",
-     "position": 6,
-     "kind": "article"
-    },
-    {
-     "domain": "timeextension.com",
-     "url": "https://www.timeextension.com/news/2026/10/anbernic-is-cloning-the-nintendo-3ds-next-minus-the-3d",
-     "title": "Anbernic Is Cloning the Nintendo 3DS Next, Minus the 3D",
-     "position": 7,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 2
+  "longcat25.com": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "longcat25ai.com": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "trylongcat.com": {
+   "available": false,
+   "day": "2026-11-03"
+  },
+  "longcat25.ai": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "longcat25ai.ai": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "longcat25.io": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "longcat25ai.io": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "longcat25.org": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "ml4.com": {
+   "available": false,
+   "day": "2026-11-03"
+  },
+  "ml4ai.com": {
+   "available": false,
+   "day": "2026-11-03"
+  },
+  "tryml4.com": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "ml4.ai": {
+   "available": false,
+   "day": "2026-11-03"
+  },
+  "ml4ai.ai": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "ml4.io": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "ml4ai.io": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "ml4.org": {
+   "available": false,
+   "day": "2026-11-03"
+  },
+  "chefnmr2.com": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "chefnmr2ai.com": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "trychefnmr2.com": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "chefnmr2.ai": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "chefnmr2ai.ai": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "chefnmr2.io": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "chefnmr2ai.io": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "chefnmr2.org": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "fireflash.com": {
+   "available": false,
+   "day": "2026-11-03"
+  },
+  "fireflashai.com": {
+   "available": false,
+   "day": "2026-11-03"
+  },
+  "tryfireflash.com": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "fireflash.ai": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "fireflashai.ai": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "fireflash.io": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "fireflashai.io": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "fireflash.org": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "reuse.com": {
+   "available": false,
+   "day": "2026-11-03"
+  },
+  "reuseai.com": {
+   "available": false,
+   "day": "2026-11-03"
+  },
+  "tryre.com": {
+   "available": false,
+   "day": "2026-11-03"
+  },
+  "reuse.ai": {
+   "available": false,
+   "day": "2026-11-03"
+  },
+  "reuseai.ai": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "reuse.io": {
+   "available": false,
+   "day": "2026-11-03"
+  },
+  "reuseai.io": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "reuse.org": {
+   "available": false,
+   "day": "2026-11-03"
+  },
+  "audio8ttsrealisticair.com": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "audio8ttsrealisticairai.com": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "audio8ttsrealisticair.ai": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "audio8ttsrealisticairai.ai": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "audio8ttsrealisticair.io": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "audio8ttsrealisticairai.io": {
+   "available": true,
+   "day": "2026-11-03"
+  },
+  "audio8ttsrealisticair.org": {
+   "available": true,
+   "day": "2026-11-03"
   }
- },
- "aws ai bug fixing tool": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "article": 5,
-    "video": 2,
-    "list": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "video"
-   ],
-   "top": [
-    "techradar.com",
-    "builder.aws.com",
-    "youtube.com",
-    "slashdot.org",
-    "computerweekly.com",
-    "youtube.com",
-    "gbhackers.com",
-    "linkedin.com"
-   ],
-   "items": [
-    {
-     "domain": "techradar.com",
-     "url": "https://www.techradar.com/pro/hacker-adds-potentially-catastrophic-prompt-to-amazons-ai-coding-service-to-prove-a-point",
-     "title": "Hacker adds potentially catastrophic prompt to Amazon's AI ...",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "builder.aws.com",
-     "url": "https://builder.aws.com/content/3KVfTuivzCutPao2GFXf6yGGpLB/aws-incident-buddy-building-an-ai-powered-aws-troubleshooting-agent",
-     "title": "Building an AI-Powered AWS Troubleshooting Agent",
-     "position": 2,
-     "kind": "article"
-    },
-    {
-     "domain": "youtube.com",
-     "url": "https://www.youtube.com/watch?v=DyUntsf__YA",
-     "title": "AI based code remediation for security vulnerabilities",
-     "position": 3,
-     "kind": "video"
-    },
-    {
-     "domain": "slashdot.org",
-     "url": "https://slashdot.org/software/bug-tracking/for-amazon-web-services-aws/",
-     "title": "Best Bug Tracking Software for Amazon Web Services (AWS)",
-     "position": 4,
-     "kind": "list"
-    },
-    {
-     "domain": "computerweekly.com",
-     "url": "https://www.computerweekly.com/news/366627572/AWS-bolsters-security-tools-to-help-customers-manage-AI-risks",
-     "title": "AWS bolsters security tools to help customers manage AI ...",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "youtube.com",
-     "url": "https://www.youtube.com/watch?v=o9WwPxFwrQQ",
-     "title": "Breaking AI Agents: Exploiting Managed Prompt Templates to ...",
-     "position": 6,
-     "kind": "video"
-    },
-    {
-     "domain": "gbhackers.com",
-     "url": "https://gbhackers.com/hackers-inject-destructive-commands-amazons/",
-     "title": "Hackers Inject Destructive Commands into Amazon's AI ...",
-     "position": 7,
-     "kind": "article"
-    },
-    {
-     "domain": "linkedin.com",
-     "url": "https://www.linkedin.com/pulse/self-healing-ai-assistant-aws-troubleshoot-fix-network-kamal-kishore-hse0c",
-     "title": "Self-Healing AI Assistant on AWS to Troubleshoot and Fix ...",
-     "position": 8,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 2
-  }
- },
- "office alternative": {
-  "overview_ok": true,
-  "volume": 390,
-  "cpc": 2.13,
-  "comp": 0.1,
-  "results": 115,
-  "kd_ok": true,
-  "kd": 40,
-  "day": "2026-10-27"
- },
- "liquid brun": {
-  "overview_ok": true,
-  "volume": 33100,
-  "cpc": 0.24,
-  "comp": 1.0,
-  "results": 96,
-  "kd_ok": true,
-  "kd": 44,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "forum": 1,
-    "list": 3,
-    "article": 3,
-    "video": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "people_also_ask",
-    "perspectives",
-    "product_considerations",
-    "related_searches"
-   ],
-   "top": [
-    "reddit.com",
-    "jeansmellgood.com",
-    "ebay.com",
-    "fragrantica.com",
-    "perfumesandrea.com",
-    "youtube.com",
-    "parfumo.com",
-    "jomashop.com"
-   ],
-   "items": [
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/fragranceclones/comments/1fq7wz9/my_experience_with_liquid_brun/",
-     "title": "My experience with liquid brun : r/fragranceclones",
-     "position": 1,
-     "kind": "forum"
-    },
-    {
-     "domain": "jeansmellgood.com",
-     "url": "https://www.jeansmellgood.com/products/french-avenue-liquid-brun-eau-de-parfum-3-4-oz?srsltid=AYCX9vJM_v6UZxobE0IVpDsr9BNN7bMtZSLqZdJanurVFCLtf7D2FfNO",
-     "title": "French Avenue Liquid Brun eau de Parfum 3.4 oz",
-     "position": 2,
-     "kind": "list"
-    },
-    {
-     "domain": "ebay.com",
-     "url": "https://www.ebay.com/itm/398001850608",
-     "title": "French Avenue Liquid Brun Eau de Parfum Spray Regular ...",
-     "position": 3,
-     "kind": "article"
-    },
-    {
-     "domain": "fragrantica.com",
-     "url": "https://www.fragrantica.com/news/Liquid-Brun-French-Avenue-24279.html",
-     "title": "Liquid Brun French Avenue ~ Fragrance Reviews",
-     "position": 4,
-     "kind": "list"
-    },
-    {
-     "domain": "perfumesandrea.com",
-     "url": "https://perfumesandrea.com/products/liquid-brun-by-french-avenue-3-4oz-m-edp-spray?srsltid=AYCX9vKqS0EkbdhvO53mG3Pqj5UPWOww_XY33xCuUrkapOpL_1Y1gHhZ",
-     "title": "Liquid Brun By French Avenue 3.4oz M EDP Spray",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "youtube.com",
-     "url": "https://www.youtube.com/watch?v=yANlOWbyUuQ",
-     "title": "Fragrance World Liquid Brun | Is it Worth the Hype?",
-     "position": 6,
-     "kind": "video"
-    },
-    {
-     "domain": "parfumo.com",
-     "url": "https://www.parfumo.com/Perfumes/french-avenue/liquid-brun",
-     "title": "Liquid Brun by French Avenue » Reviews & Perfume Facts",
-     "position": 7,
-     "kind": "list"
-    },
-    {
-     "domain": "jomashop.com",
-     "url": "https://www.jomashop.com/blog/articles/french-avenue-liquid-brun-the-cult-favorite-vanilla-amber-that-smells-like-luxury-without-the-luxury-price?srsltid=AYCX9vKlVHHGF_BEQUitb9qMvXgwXSaxGiY3KSC-Zi9bt50wYbGeR8zA",
-     "title": "French Avenue Liquid Brun: The Cult-Favorite Vanilla– ...",
-     "position": 8,
-     "kind": "article"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 2
-  },
-  "allintitle": 47
- },
- "gpt-5.6 terra api": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": 0.0,
-  "comp": 0.06,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "lg smart tv software support lifespan": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "pavo ai": {
-  "overview_ok": true,
-  "volume": 50,
-  "cpc": 5.53,
-  "comp": 0.2,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "gpt-5.6 terra api key": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "chai app": {
-  "overview_ok": true,
-  "volume": 3600,
-  "cpc": 1.63,
-  "comp": 0.12,
-  "results": 155,
-  "kd_ok": true,
-  "kd": 80,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "article": 3,
-    "forum": 1,
-    "list": 1,
-    "tool": 4
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "knowledge_graph",
-    "people_also_ask",
-    "perspectives",
-    "related_searches"
-   ],
-   "top": [
-    "webcatalog.io",
-    "reddit.com",
-    "fritz.ai",
-    "play.google.com",
-    "chai.en.aptoide.com",
-    "apps.apple.com",
-    "instagram.com",
-    "chai-chat-with-ai-friends.en.softonic.com",
-    "easyfun.gg"
-   ],
-   "items": [
-    {
-     "domain": "webcatalog.io",
-     "url": "https://webcatalog.io/en/apps/chai-ai",
-     "title": "CHAI AI for Mac, Windows, and Linux",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "reddit.com",
-     "url": "https://www.reddit.com/r/ChaiApp/comments/11wpt5t/chai_ai_website/",
-     "title": "Chai Ai Website : r/ChaiApp",
-     "position": 2,
-     "kind": "forum"
-    },
-    {
-     "domain": "fritz.ai",
-     "url": "https://fritz.ai/chai-ai-review/",
-     "title": "Chai AI Review: Is This Chatbot App Worth Your Time?",
-     "position": 3,
-     "kind": "list"
-    },
-    {
-     "domain": "play.google.com",
-     "url": "https://play.google.com/store/apps/details?id=com.Beauchamp.Messenger.external&hl=es_MX",
-     "title": "Chai: Chat AI Platform - Apps en Google Play",
-     "position": 4,
-     "kind": "article"
-    },
-    {
-     "domain": "chai.en.aptoide.com",
-     "url": "https://chai.en.aptoide.com/app",
-     "title": "Chai - APK Download for Android",
-     "position": 5,
-     "kind": "article"
-    },
-    {
-     "domain": "apps.apple.com",
-     "url": "https://apps.apple.com/cl/app/chai-social-ai-platform-chat/id1544750895?l=en-GB",
-     "title": "CHAI: Social AI Platform- Chat - App Store",
-     "position": 6,
-     "kind": "tool"
-    },
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/popular/chai-app-new-update/?hl=en",
-     "title": "Chai App New Update",
-     "position": 7,
-     "kind": "tool"
-    },
-    {
-     "domain": "chai-chat-with-ai-friends.en.softonic.com",
-     "url": "https://chai-chat-with-ai-friends.en.softonic.com/android/download",
-     "title": "Download Chai - Chat with AI Friends APK for Android - Free",
-     "position": 8,
-     "kind": "tool"
-    },
-    {
-     "domain": "easyfun.gg",
-     "url": "https://www.easyfun.gg/cloud-games/chai-chat-ai-platform-cloud-online.html",
-     "title": "Play Chai: Chat AI Platform Online on PC & Mobile",
-     "position": 9,
-     "kind": "tool"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 1
-  },
-  "allintitle": 45
- },
- "microsoft ai free": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 1.52,
-  "comp": 0.21,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "microsoft ai agent": {
-  "overview_ok": true,
-  "volume": 480,
-  "cpc": 5.96,
-  "comp": 0.19,
-  "results": 108,
-  "kd_ok": true,
-  "kd": 79,
-  "day": "2026-10-27"
- },
- "microsoft ai voice": {
-  "overview_ok": true,
-  "volume": 70,
-  "cpc": 2.43,
-  "comp": 0.08,
-  "results": 109,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "eth online": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": 0.0,
-  "comp": 0.0,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "eth online 2026": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "eth online legit": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "gear online": {
-  "overview_ok": true,
-  "volume": 90,
-  "cpc": 1.9,
-  "comp": 0.08,
-  "results": 169,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "gear generator": {
-  "overview_ok": true,
-  "volume": 1600,
-  "cpc": 2.5,
-  "comp": 0.03,
-  "results": 126,
-  "kd_ok": true,
-  "kd": 32,
-  "day": "2026-10-27",
-  "serp": {
-   "kinds": {
-    "article": 1,
-    "tool": 6,
-    "video": 1,
-    "forum": 1
-   },
-   "ads": false,
-   "features": [
-    "ai_overview",
-    "related_searches"
-   ],
-   "top": [
-    "evolventdesign.com",
-    "makerworld.com",
-    "discourse.shapr3d.com",
-    "thespoollist.com",
-    "youtube.com",
-    "manufacturingtomorrow.com",
-    "makerworld.com",
-    "vectosolve.com",
-    "sidefx.com"
-   ],
-   "items": [
-    {
-     "domain": "evolventdesign.com",
-     "url": "https://evolventdesign.com/pages/calculators?srsltid=AYCX9vJl5dMIKkHh948mPORkAc6fPDpEf21bytE91WLma-JvK945Shmf",
-     "title": "Spur Gear Calculator Hub",
-     "position": 1,
-     "kind": "article"
-    },
-    {
-     "domain": "makerworld.com",
-     "url": "https://makerworld.com/uk/models/1049303-gear-generator-parametric-gears-racks",
-     "title": "Parametric Gears & Racks - Free 3D Print Model",
-     "position": 2,
-     "kind": "tool"
-    },
-    {
-     "domain": "discourse.shapr3d.com",
-     "url": "https://discourse.shapr3d.com/t/gear-generation-tool/36044",
-     "title": "Gear Generation Tool - Feature requests",
-     "position": 3,
-     "kind": "tool"
-    },
-    {
-     "domain": "thespoollist.com",
-     "url": "https://thespoollist.com/tools/gear-generator?srsltid=AYCX9vJ6fBxP60vSIJUPzCwdMpOi53TPfretiJzxoeFiWQB7Ft9Due8B",
-     "title": "Spur Gear Generator: Free Involute Gear SVG",
-     "position": 4,
-     "kind": "tool"
-    },
-    {
-     "domain": "youtube.com",
-     "url": "https://www.youtube.com/watch?v=UO4fpezbfJs",
-     "title": "How to make gears for 3D printing using GearGenerator.com",
-     "position": 5,
-     "kind": "video"
-    },
-    {
-     "domain": "manufacturingtomorrow.com",
-     "url": "https://www.manufacturingtomorrow.com/story/2015/04/gear-generator/5814/",
-     "title": "Gear Generator | ManufacturingTomorrow",
-     "position": 6,
-     "kind": "tool"
-    },
-    {
-     "domain": "makerworld.com",
-     "url": "https://makerworld.com/hu/models/498199-gear-generator-customised",
-     "title": "Gear Generator Customised - Free 3D Print Model",
-     "position": 7,
-     "kind": "tool"
-    },
-    {
-     "domain": "vectosolve.com",
-     "url": "https://vectosolve.com/gear-generator",
-     "title": "Free Involute Gear Generator | Spur Gear SVG & DXF Maker",
-     "position": 8,
-     "kind": "tool"
-    },
-    {
-     "domain": "sidefx.com",
-     "url": "https://www.sidefx.com/forum/topic/70256/",
-     "title": "Gear Generator | Forums",
-     "position": 9,
-     "kind": "forum"
-    }
-   ],
-   "source": "serp",
-   "soft_weak": 2
-  },
-  "allintitle": 67
- },
- "gear online game": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "blaze online": {
-  "overview_ok": true,
-  "volume": 30,
-  "cpc": 0.0,
-  "comp": 0.03,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "blaze ice maker": {
-  "overview_ok": true,
-  "volume": 210,
-  "cpc": 1.22,
-  "comp": 1.0,
-  "results": 173,
-  "kd_ok": true,
-  "kd": 8,
-  "day": "2026-10-27"
- },
- "blaze alternative": {
-  "overview_ok": true,
-  "volume": 20,
-  "cpc": 0.0,
-  "comp": 0.14,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "chippenham alternative market": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "claude duet ai": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "gpt-5.6 terra max": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": 0.0,
-  "comp": 0.02,
-  "results": 0,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
- },
- "chipp ai": {
-  "overview_ok": true,
-  "volume": 170,
-  "cpc": 12.88,
-  "comp": 0.05,
-  "results": 104,
-  "kd_ok": true,
-  "kd": 27,
-  "day": "2026-10-27"
- },
- "chipp ai fargo": {
-  "overview_ok": true,
-  "volume": 0,
-  "cpc": null,
-  "comp": null,
-  "nodata": true,
-  "kd_ok": true,
-  "kd": null,
-  "kd_skipped": true,
-  "day": "2026-10-27"
  },
  "gemini 4 carbon": {
   "overview_ok": true,
@@ -10459,5 +8312,2180 @@
   "kd": null,
   "kd_skipped": true,
   "day": "2026-11-02"
+ },
+ "longcat-2.5": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "list": 4,
+    "article": 3
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "perspectives",
+    "video"
+   ],
+   "top": [
+    "ai-sdk.dev",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "ai-sdk.dev",
+     "url": "https://ai-sdk.dev/playground/meituan:LongCat-2.5-Preview",
+     "title": "LongCat 2.5 Preview",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESkgEB6zswFQYgY_bdw4qyy80IEBab5_3zexpEHG5DM-tMWVGvzueGzFWGhi0wWnKZaEIl3-9UwJYPHq-xROlur4paz0vupAbwHYu-DjrK-JAYTwcS-5TYuahP_1HHyiA7u_J5Wc5PbS6bxid994biiAWFs8GcDVKdF99-irdAWdD6_iJb9ryTlJVTIezNku-2LKyLgw",
+     "title": "Longcat 2.5 Preview Free - Lagging out : r/opencode",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScQHrOzAV8MTTznXevtcfulWHn7pbo5K6f2DxW4Td1GayOMYSc_4oZd_mUGqHPaO8xAHFVuXB0TK_re5hzRxeVQN5T2Di1Py_aWZC411SqaWYNhPRRwF9vj3Xn4iQR_HKpd8kVnJAXmkYoKIhp4D6kdqB",
+     "title": "【LongCat-2.5-Preview】Possibilities for Multimodal ...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESaQHrOzAVq-6ha0BBDtsRlHvahXcLu7fBsSawn8QrV3EOZhS4Ag7xmSmTkEganKRkH8VQyYJoAj-1-2MGChBPS-d--zt-nq0AVo8lq0x1a7TYRWyIvqWdZbcALihPmLcdxIrjjPEaoWLyoA",
+     "title": "meituan-longcat/LongCat-2.0",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYQHrOzAV4-dAGev7jwBbDGQGKcpwgq4wLFYblUi_BkGjzDSNDpcKmz7-GBMZXz9fxj3lYZ2wyxiZCYa6E_YF9ekOahS5JARyjhrI26hvLp4HUmhLy0qvKr5ehDwiYHDxaGg",
+     "title": "meituan-longcat (LongCat)",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESmgEB6zswFc7ycqyWlLIRpHE-9RIoBHyFGbxQmaxsw8zUvHu-fXWb22hT4V15Rbqakrex5TK9LcVHJmX3ESF2ZRn_2_b2QPmeiMGL0YBthb7kcoFvBWu3buoGurKLtoi12DI8Ij-0Ign7Pq-if_XdN_hSM9X-TKA51WnzHjkf_5OrbORna7GStsdXs0su_-K0Qj3M6W41vHD660yd",
+     "title": "LongCat-2.5-Preview vs Llama 4 Maverick 17B Instruct",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScwHrOzAVOTkK374jrHI5JZdpVUkx81l6YXV3uW5ewAszq0Ba8t7uN8Rqg9kZO2hwjWc1ELu71DeaHP7IGNj7TUSS5WTg8Doev8eGZ8OcEZVQutX6f-J3Omse6Cynv0hUIMMHUzzN4Tp1fgoIQLhrOJ44bAM",
+     "title": "LongCat 2.5 Preview | AI Model",
+     "position": 7,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "ml4": {
+  "overview_ok": true,
+  "volume": 260,
+  "cpc": 0.0,
+  "comp": 0.01,
+  "results": 111,
+  "kd_ok": true,
+  "kd": 29,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "article": 8
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "images",
+    "people_also_ask"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "orphandiseasecenter.squarespace.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZAHrOzAVRDvUql7x8FepCZHpzT09rI3iZB3OozTp5sprR81U9gDeSzEOlk8ugy3HAe1sb7HNaACghRKbo-G5L_32HIZxIATg_HIqn9-ZkI_fOarrvHXRJxMZPHmUmKN4pqjb1no",
+     "title": "Mucolipidosis type IV (Concept Id: C0238286)",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESaAHrOzAV8yJwPSgnRxYHvCmODIq6w8K2UuwPuDPXtDkJ8zjrw6omDQsk0lvzrWekpJSUE_-sqrxKSwK4Sm59EGFqJqBScY-NPdgsVTflCKsnpxUbOKbOYIgicO1_cQ_TmqAe2hAhckEq",
+     "title": "Stretch Your Dollars for MLIV – ML4",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESdgHrOzAVQgdIU58DwkiWIbcBO5GKa9_uWOO1iKnWNq9CnoPpAnRrzRZRt3d7ffHl4sHH_w8ecCcOPtc_i8i3tfZi319lwA4YbIQTbPsQVcU-ThFEIR2WGvn1BqTPLoN3RDwR6tc4J3RsTjVaRlQbYSQoWWrYN4A",
+     "title": "Mucolipidosis IV Genetic Testing | Foresight® Carrier Screen",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYwHrOzAVGt0wJvOZ90McKh0erJ7QxBqQWB0MxYlup5Jaa_Z2igs6MPmG0ZB9UYvNZ8TvLB1pUvDhHVwdzJQjtUFoyHWNiJ07aHpPAS3KozAHIp7OMyINQ2ZQWKCuA5_KieIBgA",
+     "title": "A mild variant of mucolipidosis type 4 (ML4)",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZwHrOzAVAkuQWyigzwy13Bsuf0IbtEvZ6iVx4o0A948Z5lSW8e97Ud8GZ1NiFRMeLxd0sVHFLRCQ5oNAfZkxsd8vIuy3vA-yYcJb8d25BftzircGnq3W-FwmD-GneQWlE9XfThO6gRA",
+     "title": "Family Fundraising for MLIV",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESoAEB6zswFW3i0CxIGKlJRpGdS8QZakfFW8yprIaqI0o195EhKUFz2dHbNvjZuTLWhzvlkRZc7ZdQwPmpbgiG4gan-74CA11jYFSbRDt2mTDvNdSYICOQJbrD8_ALSM1mmNFVakLptk12kMrFEzPd7JDkX1twY850Xfg8tbBhy4hlQXhc2ZDCSiX8fFCl58Ix-GaZlv3ELSnn_8aI11GumQlU",
+     "title": "In Child-Crippling Mucolipidosis IV, Drug Shows Hope ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESfwHrOzAVfq58Pw0UR-Dg0xRhosgLuRlxJBWgjzz4nVPBOtCZqv69CG6W5uHS6wtmD33Ab6qrNOF70EAdHCPPKqkkbkRyYwaxE62UYQeZQjVNJdTPhE4Ts1L1dRAjddEav2CVpGAIh8X1nEyQbT8idpXmPzCJaBz7xQDeVXQ_7e0",
+     "title": "Mucolipidosis Type IV (ML4) Foundation",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "orphandiseasecenter.squarespace.com",
+     "url": "https://orphandiseasecenter.squarespace.com/s/ml4-2022-MDBR-RFA.pdf",
+     "title": "Mucolipidosis Type IV (ML4)",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "chefnmr2": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "forum": 1,
+    "article": 6,
+    "list": 2
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "reddit.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "mr2heaven.com",
+    "caranddriver.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "reddit.com",
+     "url": "https://www.reddit.com/r/mr2/comments/1jfc04j/the_az_historic_plate_is_chefs_kiss/",
+     "title": "The AZ historic plate is *chef's kiss* : r/mr2",
+     "position": 1,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZQHrOzAVEK-qtxoB57K1jJgwViT4gXDKE1R9l27Zf0yy-H2DDT7QU-sTsOJxRYmWMMN1zGbcfDFAKANVyW-VVi5H3Ixjv3VmKp8KdwJF0O6co0aCi3LvZg2gDUDLNwj2L4vqOOw9",
+     "title": "FH5 Car Chef Joke Funny Game Video Toyota MR2 SC 1989 ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYwHrOzAVkrj3YEghOLixmlKFFgbegviEq3KY3YCIJF8CvDZDI30VjP9OhdO2PF_No4o2DhQxY51ZUJuxF7vvHeOEMg2SFxxJezZT2G5o6ARrqNZ04FHVE6GfCsAleRQCO9y26A",
+     "title": "Toyota MR2",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESggEB6zswFZCeMtsxBwfQsKHrnm-GeBMG-RbgyS4T5rOfuVsJdr97sbXPUwsvl85LAIkf_VwDuVCgihXNRRgbiNOI_pgO7nsY-BcykLcV62bxBlmBx94aLMzBc5Vcu8ZKZYbs7BMTsquTg9iQoCJwxMxsProXYQdEPknmuuB8MixetBeM",
+     "title": "Restoring my 1991 Toyota MR2 Turbo",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "mr2heaven.com",
+     "url": "https://mr2heaven.com/?srsltid=AYCX9vK_ZiHFfbi_AS8UqrVvu3R7IKzCEwOHxejHoR2JkidwYgJhA2S4",
+     "title": "MR2Heaven – MR2 Heaven",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "caranddriver.com",
+     "url": "https://www.caranddriver.com/toyota/gr-mr2",
+     "title": "2029 Toyota GR MR2: What We Know So Far",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESvwEB6zswFValwzs4u__HGfQhnt-peg6EVcs-rLu2C1dBIO6yyMwlMlHtjhIs2VLa2G89YCjv1YHlqgEf8r-kOKiJsLEZqt7Pjy0LyhAnArkzSDu4sHoyJV4oSStIG3lJRC2-fvKFUFimTECKLpHQXFkPKb4yyFyQV5UjmVZHBa99PxrI0Isqg4iTQzcTgbV-mSuQlU7tLvlZn97yLh-n4J8xl4rMTWIZEuSMsZTd_QrpWvLugDYLbjScQasfD9eayQ",
+     "title": "1000-MR2-1 - Mobile Refrigerated Cart",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESvgEB6zswFVCXvCR9S1ihsWtan9OpnQIVqESMHlkIFlPkcg8wie1vW-gnGvbSCE0FoLwmB9AzWlAjrIJ1q5XovZn1U7SyrKHQTKTbiFtPd9PDDtqmOOSHrQUxMUUnd9ptbvXe-EFfoahZGYj1lIPzWbkaFxufc-x7Ik-6a53IVeKp1qOVzxhZXIND41mhtsK1QgcfXofG9YCIysc7zU06uEFPe32vmsLlISmtCOGzABuFdH8Sz3uKZonu0jhgTrU6",
+     "title": "Toyota MR2 Generations Explained: Poor Man's Ferrari 2.0L ...",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVPeHCpblnWki6Cg5Uko-LizD19SshbRmsf0_GDoeCmKhv3QWq1LxgNkbf1kXzr9TB6nNOmx4fCAuBXcMakAtvjgegcvl5VJSYWxArc-P54ExbO7Dg5cCgKygRxNhAxTQpnw",
+     "title": "Toyota MR2 - NFS World Wiki - Fandom",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "fireflash": {
+  "overview_ok": true,
+  "volume": 1300,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 105,
+  "kd_ok": true,
+  "kd": 26,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "video": 1,
+    "article": 6,
+    "list": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "knowledge_graph",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "youtube.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "ebay.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "youtube.com",
+     "url": "https://www.youtube.com/watch?v=6hhY96vYtJg",
+     "title": "FireFlash = FUN | Swift F.7",
+     "position": 1,
+     "kind": "video"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESewHrOzAVh73LzmzQbD-z-h9zPyFjQIPVTTcbj6YzJk5abO4DdjD3UCwATxGcnZo4yGvu9WPAOlYLUPsZDgUeRmYvNViGfr9JCI_YGzFMsfIAlhYX42sgsD2NlxeiGe3pov1xPyknOXe4e1ucQlRl4Z8aRSy83wyRaM_0Sg",
+     "title": "Fireflash - Thunderbirds Wiki - Fandom",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESpAEB6zswFaWWVEAvDMlS7VC_lVnkO671Ch5tMOYOHh91T7K1BdMnpKe-LZnXStyfl_KcxUvZP4Pq4GG3w0kNLFzAzwnQXWz9MgwELXK79uc87V3_DPKM4UYSJ8EY1FZfCpIdcyQdhQmQawPvgT7svxbPUj-mNqt8Mg74oxdGh5LIFnPhnGn4X3-2cog4VfFVtks4cRVQOsQnA69fgsebG-XCQCUeUw",
+     "title": "I cannot figure out how to use fireflash missiles for the life of ...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESawHrOzAV-yo1RSKO9WITrOA3t2XpH3POq0NSP0qOuZEz1EqicsxxW2_pWmpqNZfF9VPB6ls-CZEGADmjrdlyFsWcnSlwWwEQu_MIBpfAJN6lFxUWdhP8QYvRFj9QOJuFnBYMBeNpCccZCKY-",
+     "title": "Fireflash 3 - Thunderbirds Wiki - Fandom",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "ebay.com",
+     "url": "https://www.ebay.com/itm/375672627225",
+     "title": "1956 Press Photo British Fairey Fireflash Guided Missiles ...",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESigEB6zswFewASE5avd_aw06c09bMHZEcSHxB-0XCn5rw65C1wpcCLGrP3Iw1YNVSc7lILOOf89wX3Z_SrVAgOaP099yHOqHblJ48a_cZav8aDhLcZDsP9xGJcL8vK2jQUaY7yo1hXsKkHxyTwmTwlIVZHPfvcwfPymuOwrkcNnH2hx76ienky4V0dlU",
+     "title": "Fireflash utterly useless : r/Warthunder",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVNCyJEH6GM9htLVh9CIzR_HfXqlMTfNHvdiQZGMKsv6p2x1IAipMuRU5S6iVI0tg9NG3x5Uv7XfyJA87S2XVTC2qaNZUklHOiiklzX1nn2B8xuMdD62mwu4K8P17cPlW5ZA",
+     "title": "FIREFLASH - AIP THUNDERBIRDS CLASSIC",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESawHrOzAV1u09Fdc3e0EtGv5s1R2P96LnFIWGvFcCxuxjW1J8siOC51fbvXHubqd7DvEUUxhUkhrYf9tNjizVOjgbjDXbMfMvARsrQmikpnT5Eu03-mCJ6qOxOfSyRpGS8v-lnGmm29eGg_Zl",
+     "title": "Fireflash 5 - Thunderbirds Wiki - Fandom",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "re-use": {
+  "overview_ok": true,
+  "volume": 320,
+  "cpc": 2.51,
+  "comp": 0.02,
+  "results": 134,
+  "kd_ok": true,
+  "kd": 44,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "forum": 1,
+    "article": 5,
+    "list": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "knowledge_graph",
+    "people_also_ask",
+    "perspectives",
+    "product_considerations",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "facebook.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "justserve.org"
+   ],
+   "items": [
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/ReuseOregon/",
+     "title": "Reuse Oregon (@ReuseOregon)",
+     "position": 1,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYQHrOzAVHwcs-cABwyEdOq4hfZglczlChLFMgp1_xlRPPZpqFZQtN8YRwePxypBlXxBA4AjXTVuwMiyaaXfgRx60ph6UiWWB2MI_h3s1PfZYIDjIBS50ht-Osxi_jzjRD40",
+     "title": "Reusing Definition & Meaning",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESVQHrOzAVj80f5uZMWlq7_nU9R14w0qc10xmPHIWyMMPEbS4XANbSU_bzH8V6Bw_CQ1_I8Qa3k6uoaxGi-hPq7VoBtSgr2XHYnjenx0fzMFJUbgVyJVA",
+     "title": "Reuse Minnesota - Donate",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEShAEB6zswFbo84_jeG2q32aNrLO81XgKVzSF_jPo7toL9Voqy9zLdz0qiZNOmK_xmXzUJxTaBIn5c5anhOEGfqv9BE-AjrpLQoCZDpuDO9xgGD1Wltw0Vq8bfbLXVbqm_tGbJe38QTOY_bjOYqXTf3zEEiYOP4COs5C0t4aF2p2m720tRVDc",
+     "title": "How do I reuse things and make the best use of them?",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESXgHrOzAVeg9GOSxoda9aeP46EpTNbtxk9OOIoSocJusFLfpHptlUr5DBVBrNZuago5kD_kdXS3ajFy1_qtQwrt98qGCNx-xyrHDsP1M8UJolwq3vUDzcQv5ml4wNkMc",
+     "title": "anong meaning ng reuse?",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESaAHrOzAVlBLYORO3F4V2Na28QZDXwp8tTSOfjGasBeAiJnN5XJ-19V0FRwYm_bH7jKG4m-Q9UzXsZcW7uC7jMwomxPCiDfdWUYRbUuxP6p8HNzbsaAmaAjY7INWK3ZGXYznSfjAz9P2D",
+     "title": "CREATIVE REUSE - Updated October 2026",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "justserve.org",
+     "url": "https://www.justserve.org/CincinnatiRecyclingReuseHub",
+     "title": "Cincinnati Recycling & Reuse Hub",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "audio8-tts-realistic-air": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "article": 7,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "video"
+   ],
+   "top": [
+    "latgenhub.com",
+    "google.com",
+    "google.com",
+    "the-ai.news",
+    "google.com",
+    "google.com",
+    "google.com",
+    "thecrunch.io"
+   ],
+   "items": [
+    {
+     "domain": "latgenhub.com",
+     "url": "https://www.latgenhub.com/model/audio8-tts-realistic-0-6b/",
+     "title": "Audio8 TTS Realistic 0.6b by Edge0 - LatgenHub",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVZfvqPzOD9O1obQjbhuzPc3jNPNGc9RywK9f_WznHbG52c4DSER672BCv4NHHOhh9fcU_RSeWIfS9QstaH9C2cRT06iCfPdckFCrrZqWpKTAgMvsTYIy8A9iXFPiKhpo8Jg",
+     "title": "AI Voice Clones to Text To Speech Voices | Eleven Labs Chat",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESoQEB6zswFbj01_XZc_wV0-PgZA8SHaqACgfNaXL64x7PyX-mz8FYSOqz2r0cITHN1pr0aa4XN68oJU_5CXq2BAGKz_hRTfjcsQkc3dYiMgD2P3h5M51X8oc_FLNY9iebSV_iHy_zzbVqxLmlGxnchx24XJzmTvgbtvK_w_b8w1QkRLP-I2hhGa5y47j6jYv5EPXaI0svKEXVig2dXiymX0Ti7Q",
+     "title": "What is the most realistic voice ai I can find. : r/TextToSpeech",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "the-ai.news",
+     "url": "https://www.the-ai.news/en/edge0-launches-audio8-tts-realistic-voice-cloning-model/",
+     "title": "Edge0 launches Audio8-TTS-Realistic, a 0.6-billion-parameter ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYwHrOzAVOoTDuIGmIxW3yWbzVsDQiwlJuFqstBHFT_JmC4RFwtUzspMuFL6beN_MRnQLzw_JH8CUUU5V8RE-_jbMn8rBnaVTrI5Jsk7tB4Ns4nS4Xv5yLQHr3kuj0k0jMXoKiA",
+     "title": "AI Voice Generator | Design, Clone & Transform",
+     "position": 5,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESowEB6zswFV8eWgxFx04CKAqzEaaurgo8iYubuBN-ST2eIumIjlRqjsXFiKDazqxjyJuXmPGsWw9R2JBJ2RM_WI39USjZ_9_kKIwOrVpiIJgRmSYBwsmk_VKdtASo7VZO_mQzPspJssL2zjtp9uM7BFC5kEgf8hxIJqyJNZ5NlzkW0iIZjvvCNCq2ityphzyfkjtS8cKr4pHgvIehtTnYK5ybNadf",
+     "title": "Where can I find the non-realistic Ai voices?",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbwHrOzAVXNZA7a7pTToK-_8kYdhmX8gqsMhkJYJ5UVQI0D1Ob-2XWeVVQl4fZ2_O_35UX3rGCCBGYEESYNbQ2zuvc1U9IqvW7_N-GiWymM9yz-AvCrwhvFvvdMFstQ1CYnkZmi0aVhsoSXE100c3tg",
+     "title": "How to Generate Realistic AI Voice",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "thecrunch.io",
+     "url": "https://thecrunch.io/most-realistic-ai-voice/",
+     "title": "Most Realistic AI Voice Tools That Sound Human (2026)",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "llm can natively read and write": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "list": 1
+   },
+   "ads": false,
+   "features": [
+    "discussions_and_forums",
+    "perspectives",
+    "related_searches",
+    "top_stories"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "bigattichouse.medium.com",
+    "google.com",
+    "google.com",
+    "medium.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESiAEB6zswFYhhchqnVUCUoLMkdRi0EsPF5oQfeV09PPqm7Ik3LPj--8RSIcInBPfZxq0103mSeTLV4wNKgjcMHXiYC34DsHZ4f17EG8Z0LkZPibVF_ZFaJph7XrhWYIrPop2ey9vooxOBe3ozwIFLvrnxxLpKwvQa5LUu6PxIMU8skfgucn3FnPNn",
+     "title": "What Does It Mean to Give an LLM “Memory”? - Medium",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEStwEB6zswFRxuC6uK_iX7wCao2PPNcRrdyY2sCqxwZAFIWpT9vdz4UBjdSzOtO5gzHkmmxPH3ajp8do7vR_tLHZY1bzOqJ6NxP5hC3LLiklVHchBFmzwU3FM1XO1gnGEf2aYWTQRDXo4i1nxWLrvObY9LLVMoMK2Myu7tTS_ZAeFEkSYtzyzZ5AQ-PRH2LSrAbTweeIyu0MvmAzoZWxwVIvng2BlesueplxdEnLUHjWUOrJkC6Yl-2Io",
+     "title": "Can LLMs Generalize Beyond Their Pretraining Data?",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "bigattichouse.medium.com",
+     "url": "https://bigattichouse.medium.com/shape-of-thought-part-2-llm-coding-assistance-speeding-up-scientific-exploration-94fddd9ce633",
+     "title": "LLM coding assistance speeding up scientific exploration.",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESeAHrOzAVMqYM3Nqw4-l9vkctd51pxxSkRXLjFf0OobXrMMEJkK-q1SWxXmP-PIcV1fN5-j-ViSTSBAge9LblA7HWTJ66SEiQtn0ICxFSukK7ZkNF22QUZJo9hLRqbmFKsID9zLXu4m5ELu7gzGtxml2Jz71G9J1sEQ",
+     "title": "9 Papers You Should Know About",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESXgHrOzAVK35G930Xly6kILz2-AzoKVtafPB6rXxJPW72mBsl0snWefRyobGBSzVgVc_ruaJQItpCLm7PKkBz8q6Azejmn0DXThYSpQNuNztpVFXOko-GyWIQhHd2yBc",
+     "title": "How Do Humans Write Code? Large Models Do It ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/mit-initiative-on-the-digital-economy/lets-set-the-record-straight-on-llm-capabilities-5d4a467404a6",
+     "title": "Let's Set the Record Straight on LLM Capabilities",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESswEB6zswFf3zOoU4cMW1fzASttGza_dvZeTwDJnC9JQpYBjsAlCeiaG90IwozJC5OKOUZ4BuOSg2gy180F_cLSWGOycoS29SpPpHDtmz4PDnFH9pnxmvrKqu6fOcaXodnXzDizFOzZFm1T8OKECFPAs85Qr9O7Hf-R7CtsQBP8i_fJiG8VU1ooT2fnPcbu15AR-MJBYLkKDa2VvRUY5WOSiSx_4ba1JMSSuXhw5ZDAJhzNznwg",
+     "title": "Beyond the Vector: Unlocking the Inner Secrets of LLMs (Your ...",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "ml4 benchmark": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "article": 6,
+    "list": 2,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "vals.ai",
+    "google.com",
+    "google.com",
+    "google.com",
+    "facebook.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVU4xaLMEP5x37e7re_utL6em9fkzcG2QVxlAR5uyi2lmShg-1nIuSLn4QxWVBmbefDcfFU6VTHtOgmpbr7TrVICtPZxW2tbdE63yu9NFVQY_J--6tfO4G2VFlKHwuYeu0ng",
+     "title": "Mistral Large 4: This AI Model Totally Disappointed Me",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbAHrOzAV68qQhqVMQOA8ONXRSSVLT3-d6YUBl0LayMv7qGOw91jdfpw-sBstlyWvyAT9Ji5NyqhZRC_NdIA1Gw2O2ecvjw9y_1AzlXyynD6IoFnnTaHhA6avDA7-vD_7hM6BMq85jc5gp1Exrw",
+     "title": "Mistral Small 4 Benchmarks, Pricing & Context Window",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYAHrOzAVyYtFovF8GWDXQC9OojLg7WzsEc4eLQ2oSGFIptorhEGsOiM7CAxcQc_xqabupEyLMJFhMqIGtguDyDpqqb6ukaFwnkKE-GSMpB1ggN2iScxBLPBZOcSclHnzqg",
+     "title": "LLM Leaderboard - Vellum",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "vals.ai",
+     "url": "https://www.vals.ai/comparison",
+     "title": "Compare AI Models Across Real-World Benchmarks",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScAHrOzAV6IK45U_BSJn8ViIEgsheHMiqF7bd6Ae33nXME4dKeJF14yYj4C9aqn_pEAC0ag7GV1ANGXU-kUjJOHLftJqj48uQ6pZ4QI7nNLw0de1VatfKR-C3w2jWghh1yAB7IN9Si2fXt3nZTCFnmKA",
+     "title": "Overview | NVIDIA NIM Benchmarking Documentation",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESsQEB6zswFbPpIJtrjFlVL2dgxq75LzOT-ZhDcdwer6ZzAiYwteHxhWdE_rjNTX2buG0FVJIhhVF3b9WRRExm2S739lJYRuBk9GEbqzGkpFmEWuNB5eKQMkgEP6xthXHs9Mafw5UZYy3MmdhHnjOGbB9Fd6D-YQUsRb1r4ZwNHrTqg9H4MPRYbHUi4putLVNVlaudtZTIf2SbH-KwFi4wfi2_nA_xx1JdGG7A8smluImQOcQ",
+     "title": "Mistral Large 4: The EU's LLM behemoth aims to catch up ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESVwHrOzAVNkgQV-CIQNl3cNQXLUOFApMZ2aFRy_5rQv1VFO4cJXjNJfs3SIiHes8IziMlPKOOJEoDM92RdNmN9Z8BA7JLg9D8_zz6nMupkh_iVTf9pWJZiA",
+     "title": "LLM models and benchmark evidence — October 2026",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/groups/aifire.co/posts/1429952794276692/",
+     "title": "Mistral AI ranks second to GPT-4 on MMLU benchmark",
+     "position": 8,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESWwHrOzAVePCFUKxXz91kgm9J_ATe2fDBHjijB_2zSnqPc_Bda7bL2T7bqF688iySayvOxiVdwjkR37uQoylqJM9kfkn3avCjef2SOWBg8z3OcOCsxKce-3oOoYI",
+     "title": "LLM Leaderboard - AI Model Rankings, Benchmarks & ...",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "git alternative": {
+  "overview_ok": true,
+  "volume": 90,
+  "cpc": 5.43,
+  "comp": 0.26,
+  "results": 128,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "list": 5,
+    "forum": 2,
+    "article": 2
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "news.ycombinator.com",
+    "google.com",
+    "google.com",
+    "cyberciti.biz",
+    "quora.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESaQHrOzAVNXHL9lgd9dyKc2b4ucKDDimPLIdUeX0oq36tO8knGlQyQUXieAuSW_zJrYT18RAXuvOhpjgAx4mpkL33lSI2TeaGh2UWAxYBHAMTcmMfaS_ajZp3tVy5T5uynkztkbh0gm_MBg",
+     "title": "Best Git Client - for Mac and Windows in 2026",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESaAHrOzAVecmVgrHhL_lUhjd4yNAJ6bYngQNHGQF4Y_fZKFteWLVHnZNKyZjlsERERhCBPciF9iIfulzlE_m1I--SYK-xmAMtpZSpYhCqoRdp1UWdbYMW1ClHkdtZZtDMyP4-lD_7WDLP",
+     "title": "7 best GitHub alternatives in 2026 (we tested them)",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESlwEB6zswFYwsLgQwFlRAngK6qmcuAkuoTpoySPtYVO8256643jiYn4ctxjoiUsectZZ4aI5v46-rsr3R674DtlRYt-6_jgpDzFpkoVF95NDSLUEUoUDl143w9i6DL4yAATd4xoXgNe4P4zc5CkRFtts0W43Mey0fYzOZFWvVT9z0x57PZGUhfYz0uZazf1HDq_Aq0rFIYaT1",
+     "title": "what is a good alternative to github that will not use my ...",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScwHrOzAV3vbIgdTGkF6wbn_JnL6pqCFVe9IATPlw1ScPYgDVHAEOkgXBIdf21-94NYqRgnF1m-tZyKMBb6ZsuOWq0MFXeK3Pr-YWQH7lSSP9uhusfVmcc-T6fKd-ipZSSr0v1lr4NGIJsF_R5RGN8jALuGI",
+     "title": "Top 10 Git Alternatives & Competitors in 2026",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "news.ycombinator.com",
+     "url": "https://news.ycombinator.com/item?id=23670757",
+     "title": "Ask HN: Git alternatives that aren't so complicated?",
+     "position": 5,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYAHrOzAV4XNVzqXH1QyQxrBkLuwvnZWnb3aIdkdZEkkzi3Xb4-AFgJrCEP6ck78YJ6WTfDeKLgBmbEeMCJ5FJHUWqgNUp_r9_uwMlzjBEEpQmpsEVEkYrkVwVeSMIjbfhQ",
+     "title": "dictcp/awesome-git: A curated list of amazingly ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbAHrOzAVU687a7u2yM52V5p25YI4WWLphGvXShbQlxSPxpVMgmkvvxSWqEAiiU8uewN0OjM7wv-ccAo8I71yXus3unLQfWTbuktRFrmVktFXMh3ztMgOyv0kZ5ouR3KvujkDDIdBVzSvJALhuw",
+     "title": "Is anything better than Git?",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "cyberciti.biz",
+     "url": "https://www.cyberciti.biz/open-source/github-alternatives-open-source-seflt-hosted/",
+     "title": "6 Github alternatives that are open source and self-hosted",
+     "position": 8,
+     "kind": "list"
+    },
+    {
+     "domain": "quora.com",
+     "url": "https://www.quora.com/What-is-a-suggested-Git-alternative-for-a-non-programmer",
+     "title": "What is a suggested Git alternative for a non-programmer?",
+     "position": 9,
+     "kind": "forum"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 2
+  }
+ },
+ "wells fargo ai agent revocation": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "article": 9
+   },
+   "ads": false,
+   "features": [
+    "ai_overview"
+   ],
+   "top": [
+    "finance.yahoo.com",
+    "google.com",
+    "linkedin.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "finance.yahoo.com",
+    "wisevoter.com"
+   ],
+   "items": [
+    {
+     "domain": "finance.yahoo.com",
+     "url": "https://finance.yahoo.com/technology/ai/articles/same-banks-writing-rules-ai-171507341.html",
+     "title": "The Same Banks Writing the Rules for AI Agents Are ...",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESggEB6zswFWMzNOrC5Iqzl4wQ4J-NamTAhkgJv6IdR-XoOBtT40GcQVy68JmTBZbDd9LYxE7xgTKYJXlzLWBXW4lnMnqf4r7t95NkPSoIaG1yOihCNEVM-VQhd_-ve8G7K57kz59Rx6hZ-xh1Rlyo19y6Y6NU-Ot6VpNWmFmigI5rHgRO",
+     "title": "What Wells Fargo's Upcoming AI Agent Terms Say ... - Keel",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "linkedin.com",
+     "url": "https://www.linkedin.com/posts/vokoriginals_vok-vokoriginals-artificialintelligence-activity-7519099065494806529-sMSP",
+     "title": "Unauthorized AI agents accessing US bank accounts",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYwHrOzAVI4d6pBhsv1j1f-1lGRog1jckvoNuFP7hKeBZgAtC2fk4uWW1dT5E7Hd_fbZ2egWnEasnHWLcS0pPdxba4wwO5oQA8uBAfEreOF0bUIUrx_g3q0qcgUJSMDvm8UJRNg",
+     "title": "\"Wells Fargo wrote AI agent liability into its consumer terms ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESrwEB6zswFZ1ejJwZIOpPRkP8TWqsvdGZ37DQwL_x6FwGIdGaQdC1TSnouj-Rb_raYLbhgrQ60iPWCjPFYghOyfkr89PPeoz9xHSVzwDe_1DXYYaaR5Q_-MUdb7CafF5plArowQNDT7EUoP53dHTAKt8Sq_KRsqqW9ccCV0KxTEFB7inF_vXU7iS-k2aQ5rOGa1PO1j5lkP7f4FfHSdlFvqKNIZvLyKW2sgalffMj9Ii0",
+     "title": "Wells Fargo Warns of Liability for Agent Actions, Fails to ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESagHrOzAVJ1C2DM-EY-av9zW-wMRcVBbzaeAzBlK2PfSdCXoSAWfKC4A8IzhoidGbCFqo_tDSJ1Ma1vLdhbjkXhOepcjPN3sQXCog_8lS0MbZXIMNRDb8-rTCCpugxrRg9QOW1EHbI9-fuOA",
+     "title": "Wells Fargo Sets Customer Responsibility Terms for AI Agent ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEStwEB6zswFdkYX-oDV3CREufK467DRWS5SDDrcxI6l3Gjg34FS-ZthwswgWJb-7_M-LcinqKJiConOMS51_qLzyowopJb6m1rzYMNLf1yA5bc1f2azCtnm3pvR3wqrlOgPSUc3VpqQbtST7VECIQDH_O5hVbLSfFg3uEZBwux7oubvu0o9LiPkZ2WtodGFxGpspvG2kSl2l2HymIJEnsdel4iKDo8vFT64JgmnVojTDEvLgO5i0UsR4Q",
+     "title": "US Banks Restrict AI Agents Over Unauthorized Access ...",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "finance.yahoo.com",
+     "url": "https://finance.yahoo.com/news/wells-fargo-rolling-company-wide-140500118.html",
+     "title": "Wells Fargo is rolling out company wide AI. It says ...",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "wisevoter.com",
+     "url": "https://wisevoter.com/world/us/2026/10/25/wells-fargo-update-ai-banking-terms",
+     "title": "Wells Fargo to Update AI Banking Terms in November",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "ml4 converter": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": 0.42,
+  "comp": 0.02,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "tool": 6,
+    "list": 2,
+    "article": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "related_searches"
+   ],
+   "top": [
+    "google.com",
+    "products.aspose.app",
+    "google.com",
+    "google.com",
+    "mp4.to",
+    "google.com",
+    "google.com",
+    "amoyshare.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYwHrOzAVaVahITPmUOwT6yQJjaNGHMdV6HsFh_u9L8oKDCUQmusj3M6hEReUSYbZ-rgqEHz8Y-vJ8WdMAibqZUclcVzjXqVKIeOU5LqE5UjOauBh92Uy_ccchCA5Cu8R4EP5ng",
+     "title": "Free Video Converter — Convert Video Online (MP4, MOV, ...",
+     "position": 1,
+     "kind": "tool"
+    },
+    {
+     "domain": "products.aspose.app",
+     "url": "https://products.aspose.app/video/conversion/mp4-to-mp4",
+     "title": "Convert MP4 To MP4 Online Free App - Aspose Products",
+     "position": 2,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbwHrOzAVumbAoLTUF4_e8FIOj1HKV2WY5TZqR1F_tIJrmwpQDz31SYQpzG1cKU7NaEj-XDwmOwmWxyJgISWqUt3WxpHKTjHplkrNA97Vd8p7zX3jRvn1X9iQS-GI8reHVqYRDFYzEKlaN8A4sgr96Q",
+     "title": "Download Free Mp4 Converter - Best Software & Apps",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScAHrOzAVLtOREiagNIwj4_GFN5zxR4gwneirpJ2KejWYXp31OzZFdO9YakfOdhkXAEJY0j5441Fk_cUJqbNh2IZLwUmQqHHRYtIZdAwifhcqhpQVsaSUmnVHNSe--8Ytv-W4P7L0am-tO_dSmznE6DA",
+     "title": "MP4 Converter -- MP4 to MP4",
+     "position": 4,
+     "kind": "tool"
+    },
+    {
+     "domain": "mp4.to",
+     "url": "https://mp4.to/mp4/",
+     "title": "MP4 Tools – Compress, Trim, Merge, Resize & Convert Video",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZAHrOzAVMAiTJ8SW66MC5bJVU7WcIckmoa3YpQ4kQkL6tuXLaW5ecqdDsbL2KsKzu429sjPQDJmTX4sSHH1o7DrFwyZLL00COwYeYWzTTlHQUqAkcIMR7uiFDEKXfwu8lPb-Dfg",
+     "title": "Convert Video to MP4 Format Online - Free & Fast",
+     "position": 6,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESfQHrOzAVmjr-WE8ZdysI-9WSE1spK9nlT3C5Ux_V-QvvBPeelGuTI3n_VxBLez1OWEFDnWYmSHqVrsAaRscBGFint-ftIDAmyRsBq8vABDbDNR5UwoD_GacPR5ZQnTt_7SRgOJJkW_Lt4hgbq4ibT4ar7N_fGf6L8VEx_Kwh",
+     "title": "4 Ways to Convert Video to MP4 (Online & Free)",
+     "position": 7,
+     "kind": "list"
+    },
+    {
+     "domain": "amoyshare.com",
+     "url": "https://www.amoyshare.com/url-to-mp4-1/",
+     "title": "🚀 Fast URL to MP4 Converter - Convert Video Link to MP4",
+     "position": 8,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScAHrOzAVJU9cq-8xSFs94iONsNefayOoDFqBTDAZHHWU638XoJfthPoqKnpg0_LmkvT2E9WMHw4ofQOyqoH6GvCIi3zSc8evpWbMRoDEqKzz8TmxU0r8tTD80ksEm3XEMc8x6AAaMF_Ji2iJWpI74GQ",
+     "title": "Converta vídeos para MP4 online e grátis",
+     "position": 9,
+     "kind": "tool"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "elevenlabs alternative": {
+  "overview_ok": true,
+  "volume": 480,
+  "cpc": 3.38,
+  "comp": 0.42,
+  "results": 115,
+  "kd_ok": true,
+  "kd": 20,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "list": 7
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "discussions_and_forums",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "respeecher.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "rosssimmonds.com",
+    "g2.com",
+    "medium.com"
+   ],
+   "items": [
+    {
+     "domain": "respeecher.com",
+     "url": "https://www.respeecher.com/blog/exploring-the-best-alternatives-to-elevenlabs-a-comprehensive-guide",
+     "title": "Exploring the Best Alternatives to ElevenLabs",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbgHrOzAV3fQFJvDiln7m4e7PH-swTH5ITq8kibt4vRkqX7DwaKGSr91VdipGiIDt_3_TiTxjL7GhFe1ZUez792W6q_ot677R2U3WANk2NPjAxnwy7XMW5K3mSnmqRMI-mHFdsMqjH7NuOlaSqWsy",
+     "title": "3 FREE Elevenlabs AI Alternatives (Best AI Speech Text to Voice)",
+     "position": 2,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESawHrOzAVj0rZpobkeghBrU9o1vEBx8QS3O39MOKoBf8Mne6bWvx8YTEJy0wuZgHxuLP8PeEdOc9Ia1entFKkHP08gu2ZDO23LgcEw04U_oC0yEOya2aUQJ__LTQIqay11elRwKNkJthEB87J",
+     "title": "Top 3 ElevenLabs Alternatives",
+     "position": 3,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbAHrOzAVUOHrvdqNfIzglo8u2u9mfTw3LwGq0hfx4vjfgSxgd8WrEKHak7xBMAVJMrhUoH-0c8EXkuzEp93O1ancc4jBCYb8j0Lv4byqTC0_ChaB6vchLVSK1wm7CQku3xqJL67o8bnhPPZ34A",
+     "title": "RIP ELEVENLABS! Here's The BEST TTS AI Voices LOCALLY ...",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "rosssimmonds.com",
+     "url": "https://rosssimmonds.com/blog/elevenlabs-alternatives/",
+     "title": "ElevenLabs Alternatives for Audio AI in 2025 [The Best]",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "g2.com",
+     "url": "https://www.g2.com/products/elevenlabsio/competitors/alternatives",
+     "title": "Top 10 ElevenLabs Alternatives & Competitors in 2026",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "medium.com",
+     "url": "https://medium.com/gptcommands/best-elevenlabs-alternatives-for-ai-voiceovers-in-2026-fbd0a6a3c3eb",
+     "title": "Best ElevenLabs Alternatives for AI Voiceovers in 2026",
+     "position": 7,
+     "kind": "list"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "yonna ai video": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "article": 8,
+    "tool": 2
+   },
+   "ads": false,
+   "features": [],
+   "top": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "erome.com",
+    "google.com",
+    "xxbrits.com",
+    "xxbrits.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVgTFq_hghDE0F70XCVAa1Lx8sfSwx48v7DTsMcTauco18WDHvqLPIm-sR80j2IkXSQrrRIr_ASYGtlix_cPjXdhM6TwA9UvecI7pW7iW2ZLHVLibGI-_U74zW-sP0SaRl7w",
+     "title": "Yonna Knows What She Was Doing",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVbwv0MaWN8Pg9jV5MtBZclu6VSZOdkl28SAb729mDVKUCymT6J4MQy_9RRgBn_dfBXUbjnleBS-mSR40zinGUYOMLuOVlL82xtTGASkCz0HvpR06JPUikWz5tp7G_1aQodA",
+     "title": "Yonna x Silky - Ain't it Fun",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVuKVzFMbi408bZaU_gfGT_dYhu7y3rzfnZhiUCROy_0eRBdv0l3dA-ZPDqIFXwCwiLBMeyxb2F4XmTYlhf_FwXQPLKlP4iLgBs3DNfz67z8Rt3M8T2dmtP4FY9sCSXr_FRA",
+     "title": "This Yonna Jay Hate Has Gone Too Far... 🤦‍♂️ | Reaction",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZQHrOzAVE-RBZjZbw7S_whBBTBnJOvD1XNzPaVpX9MrNHCRnWykQMdGaL77Pea0K0UFcJP9skHDNUGHw2aHVBAtaK-xXSo_Y1Y5z3YNU5gi6df64_kxly76dbZInchVEHlzcpDgi",
+     "title": "yonnajay on #Twitch | YONNA",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScwHrOzAVeSqzWYj3p-l52XUStJa2e7Cp_pPtQ7jueblMzzTMtYQxU0b1epiD-IFAhVG2BIbU2TCkNCMuVu5-CbFcpqkrd-gR-cJqAlI7wXSGKn_m5MLb5tw5NoX_b4-QBNJ7l9kFQaGXZU9B7LMj7o9CyLU",
+     "title": "#yonna - Search / X",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "erome.com",
+     "url": "https://www.erome.com/a/0kvxALFC",
+     "title": "Yonna - Porn Videos & Photos",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZQHrOzAV36kwqylO4mOIosgST7wHt8vbA6Jk6-nean72UD0DZTqQTzS5iaDw-dcUHSztZZKI3cqY6HYBh4DoB2415lmrSIN1wpe_WZY571C7ysoGnrg-FbVFv-dQBwqzm5X-CpI0",
+     "title": "that was scary #streamer #yonna #crashed",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "xxbrits.com",
+     "url": "https://www.xxbrits.com/search/Yonna-ai-nudes/",
+     "title": "Free Yonna ai nudes Porn Videos (6000)",
+     "position": 8,
+     "kind": "tool"
+    },
+    {
+     "domain": "xxbrits.com",
+     "url": "https://www.xxbrits.com/search/yonna-jay-ai-cdcacc/",
+     "title": "Free yonna jay ai cdcacc Porn Videos (23)",
+     "position": 9,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbQHrOzAVQpRYAEslJKFdVnz25m9Bp1PeQiG02TOFSMd_LWoIacYmSRJnDnkMUKifyVMjBQPieZRy1SP94KN8cw4zpNfI9-RZE1prDsd1iVYh_UYzOtqYt27Hu95Y_HEsPeoHCCCxwx2V2eAkxAE",
+     "title": "Girls Please Girls on X: \"Yonna Jay\" / X",
+     "position": 10,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "ml4 online quiz": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "list": 2,
+    "article": 7
+   },
+   "ads": false,
+   "features": [
+    "ai_overview"
+   ],
+   "top": [
+    "studocu.com",
+    "learningcenter.ecnl.org",
+    "google.com",
+    "google.com",
+    "google.com",
+    "coursehero.com",
+    "google.com",
+    "sirugue.shinyapps.io",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "studocu.com",
+     "url": "https://www.studocu.com/en-us/quiz/ml4t-exam-1-readings-summary/8975134",
+     "title": "Quiz: ML4T exam 1 readings summary - CS 7646",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "learningcenter.ecnl.org",
+     "url": "https://learningcenter.ecnl.org/quiz/21",
+     "title": "AI LP4 - ECNL learning center",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESrQEB6zswFTF8FlTdd2At_y0YRFGs-yWPTCXC51wmxkwBhyxR90hs1BQB6TA4LzWAATQP_Qj2NQECigM5BWBM_rE8satf69u8WVsBFK_O51UY3oxwrH4ZWLSTmQVHEGF97f-oESN-Aq9rzaUPlIZhHbtWCngS0UgzctuVYUMv4pIm-Kw2H7Mg_wVQDmRmI5cvVv8IsbiLxdjzdz0B_IFJn_ga4b04zuNwqeBpsWAZrw",
+     "title": "https://gemsedu-my.sharepoint.com/:v:/p/maidangshr...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESeQHrOzAVmsMjHFIHNgUReo7y4kID9WRsmDyjG-ILSyacBwsDsBmJVy8W633Fu826LpW0z5gnqH7MkLNERaiorVHnmSuQqw08_3epkE76ae0dbun5NMWWFOZL-FIQYNDGRX_PrACEBsR7PZyTFU2INzHfOW9t3pycxXk",
+     "title": "https://unt.instructure.com/courses/131467/assignm...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScQHrOzAVmiFPMyOJaGcZulNQQHj8ceYx_uDHR4o-OktwuZWSLfgs-OS3IVl43jDQ_EhTmxMP2Y4bzsGRfErU6XTS1QSbYugloxfvT40OJ3VDtfYIUYDgpZD7GHVIi_d8aBDhb6DjihUdP6Qh83bERrrt",
+     "title": "M2L4 Quiz: FIN 420: WC Summer 2020 1 of 7 Due Jul 12 at",
+     "position": 5,
+     "kind": "list"
+    },
+    {
+     "domain": "coursehero.com",
+     "url": "https://www.coursehero.com/file/135940693/6-Prescriptive-Analytics-Practice-Quiz-W4-mid-quizdocx/",
+     "title": "6. Prescriptive Analytics Practice Quiz-W4 mid quiz.docx",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAV0d96cfedhKq-NkOYdBdmwah83yjYN-jAviqd58-D28Xjbe5BLdt7A5-yuc9nn5RQRc1gl1JqtTohVoVIOmmoAwWccklQPUjU6HxczSg5b5OgyyxzXZ77ff-Hjcq8myPk9g",
+     "title": "HARDEST ML QUIZ EVER! • CAN YOU ANSWER THEM ALL?",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "sirugue.shinyapps.io",
+     "url": "https://sirugue.shinyapps.io/quiz4/",
+     "title": "Quiz 4",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScgHrOzAVJOeHFEIKV3zB6kTLWiF57tSowuX16NxSNcafNvJbd6o1AcsTBNqBLmNdi0rreK3a-5umSENZJ78-YI1psfr3T9vmdLRg4icBhCP0HtL6zrWV8EZQzX3OHyKBYIhMa3J7NT_xg1Tbix8adaeNQA",
+     "title": "IM Exercise 4 - MalayOnlineTuition Interactive Classroom",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "uc san diego high cholesterol study": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "article": 7,
+    "list": 1,
+    "forum": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "top": [
+    "clinicaltrials.ucsd.edu",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "clinicaltrials.ucsd.edu",
+    "google.com",
+    "facebook.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "clinicaltrials.ucsd.edu",
+     "url": "https://clinicaltrials.ucsd.edu/elevated-lp-a",
+     "title": "UCSD Elevated Lp(a) Clinical Trials for 2026 — San Diego",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESnQEB6zswFQXkWWLKu_tXIcnEoW1NJt8RryYEOfDQ-2kyDSMS-EEpxfNd2u7NS_9CenPJFFdiUvYaq-r5S5W2ZqUYdKwQbe0t4ej8U-ugzyp_YZIDVF2BiLUeBYBZoTBd1T-cWguj_p28YChOKk7YbAKjriuptW2Kq3Z_9mQ_X7Xvi8kvlsV2kSxp5oMonGlg53Juq3B3Lmaupl7nnFv5",
+     "title": "UC San Diego Study Finds Lipoprotein(a) Testing Rare ...",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESlgEB6zswFVlTFzCQhpRT7-yvEIca2MeIm8IQNtrqmMWQ4pNPZc1crwj2RqwiTkbuzjcav9hQ06xiVlfCirjYbSdYpzC6k4IhYDmBWs6n7riYZ2X7BVue-frNuRE9oJyw7nhFbOmgRM7Ma446hWGxg6RLVYY7XGzaDcPyWN0sbU--8fNJPjrI8L6jMAdfLr4G6fzA7HTOOx0",
+     "title": "University of California, San Diego Statin Study",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEShAEB6zswFZftjIZPVUZvIrZU1Cg8sksJXxYzc4TvdW9TQTzJcYZ7U6TKNgOw1-F6UYXOYab1UDp-rDr3ZGllumLsm3okxMsATOD_1esgSf6szQ7y86lhDBcC186_IEeyN1uoTr7szsvaV6rqasBoDqZGDDoyv1bHoLRmGDT4YgbPBFgaAQs",
+     "title": "News - Division of Cardiovascular Medicine",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbAHrOzAVfrTP-WJ-OXST_84r-PZXqkN-NFqRsiAXTrYr9fx6JbZS2aP2GuFwA2M7QmawUhOyWI_H8b6eBOHlgMZ_qsEzWEZqjzfr2CMGcIOQAytE3f3SadRIaKWV5AJHNuZNdB8AP7UA_fN7wA",
+     "title": "LDL-C Optimization Using Inclisiran in Patients in Which Drug ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "clinicaltrials.ucsd.edu",
+     "url": "https://clinicaltrials.ucsd.edu/browse/",
+     "title": "Browse 1088 types of clinical trials at UCSD",
+     "position": 6,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESkwEB6zswFanYF0SPo62iGC2qluKz4IBdLftXG14YAEsfB58me6x849nAUbIBLNHDEkea9D91qibwJAnbOfFgA07M-XcH3ea5KOkUDHWGC17-5arEFxHNJ4vj7Wp-Lm-E-ZSTofBAzn0Hn-xlDAP05TnFknQVYRjnv8n48dJO065lfamE7JkFcIDas1JqU2cHfEZcnSU",
+     "title": "New Center Focused on Lp(a) Established in UC San Diego",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/groups/39847120173/posts/10170073529500174/",
+     "title": "Rosuvastatin Clinical Trial at UCSD for Cholesterol ...",
+     "position": 8,
+     "kind": "forum"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESbAHrOzAV9xr0iqFDtndNk-Bj2EA5213sXu04DR8Q1g1KGiZZnJH9rFjZS3fQyH8sNZGeUx1YmtrP-4HywVPsgCPEXsvOwV5O48O9YZ2fGFzo6w7tdAXP7R3gCIKKj1Mhie7DLTn-D5NnkHkNyw",
+     "title": "Lepodisiran on the Reduction of Major Adverse ...",
+     "position": 9,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 1
+  }
+ },
+ "fireflash model": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "list": 2,
+    "article": 5
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "images",
+    "popular_products",
+    "related_searches",
+    "video"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "scalemates.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVtxs4S7wqAsuzPo_LGiZ1jOHfHtCtx2B60fm2DjuzUsMNTqKNAYoqaZxTHKLDWAt4Ah5_4MgzNrWFIYTiE3VS42hrw1B2DbTwnaivanOjM3GZhdrzw-tZOCcMVnK9gKhzHw",
+     "title": "This Model Broke Me - Aoshima 1/350 Fireflash Atomic Airliner ...",
+     "position": 1,
+     "kind": "list"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEShgEB6zswFcMNSCW2qaVEmyNY5oC8d4fu2oCzl50Wsd0RUzCNkFQbyWgBTQLxKr5UbwBsXC0v_KQXqGijmt_HfNVKR4KGMgZEeNZIzYmztx1M4OjHSNtceV2_bm0yLjB0nVvDkqu1FpBUVaxLp0dIit8P2j9ltyrnsen9MfTmJ6LgCkH8TJ1ekA",
+     "title": "AiP Fireflash model : r/Thunderbirds",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESfwHrOzAV4tDuL8LsSp_8mdLPazj_nhQ_-uS1wwCWPi7_HKmo-Np5M66ryHJgvPGMD0296GazloO8E5oBDsvkJFAngAPn_7Ufw1VAfuHnS1jLWheEN9t6tFwZKTxsqr5wKWZg9_ajSQfA6m6cbQTmWJs6LMlH0zSCm8aWMbvqLsQ",
+     "title": "Thunderbirds 'Fireflash' | Scale model built by Colin Higton",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESuAEB6zswFarnSuYYr34o8BAnRwzvocAtNRXEVBna5cYv-nFK3zcOsmtJZdFJFoqZTXnzHTEbuIsj8DBIJmEjuQFofkZpsBBPqNMvj4bQ5juMxq7XWOpJ4i6lZ0BVTP8Kjc4iGT93Y7C8L8UYX0_WYBG52PdBmb1fbR7q0hcYB3eBKUJ7sW5ox1ypRXZhbupEAEgZkOjW3cHHIVrzo2CmMf_TxT28jHj2hQRPD6BQ1ABWoHvW9YrCTzAJ",
+     "title": "1/350 Fireflash futuristic airliner from the TV series ' ...",
+     "position": 4,
+     "kind": "list"
+    },
+    {
+     "domain": "scalemates.com",
+     "url": "https://www.scalemates.com/kits/aip-aip10006-fireflash--1339347",
+     "title": "Fireflash, AiP AiP10006 (2020)",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYgHrOzAVycOPZF4rE07029UsV8E0DLesmUkc3W1RqwqK92I_wAnAOMAYCsuUw0fwt59AR97E9kzgASYZO9gn_5PAZ-hpj9fftkclHDbjUq-c_jyig4tNQoZ_hM4YgAC-hlxB",
+     "title": "Adventures In Plastic Thunderbirds Fireflash 1:350 ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESYAHrOzAVH_S6cIG9YB9cFDhZ63nSjpBYTaIS_7PzmVLm2coSoRDDECR3fvFoAUCU-DPGaxDUXwkCOemzX1p03Zv-1KcT5L2QCy5HiKAlUHiy6ZKc4-hGIPwBhhNj4LRsUA",
+     "title": "Thunderbird Fireflash Spacecraft Mahogany Kiln Dry ...",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "senator chris murphy hospitalized": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "article": 8
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "video"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESewHrOzAVkNYcdt46yB6GsYa1qOyKYokhjmlarLueSxNsLlYPprm7yi7A5w1fea5A001rnWy_mjTMXf6n6WT5gmlu5PCOEPqNrqtuMG2ct0-Nfo5V1iZzyepbH96Xi3YlY18BEeTcZSIHl6ByF0RuURLAqM84SQZbvBCE0g",
+     "title": "Connecticut Sen. Chris Murphy hospitalized with a stroke",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESmQEB6zswFSYvwh3q8a2SlREDJydy-_tRtZRQAcRbLVks-CB2VGBP5atoeiGPIiNIVyzmdAQnG76PeLUlI40dgZ6ThMHaJqSTwxmeP1yBhOBg0GPsb2tRKfTTfWv3UBj_Xi7sJDfDrbsDY9XO29XzliI5uj60FKMNPmS4EOprnfS8CVaJP_xlVb2CkaB5Qm19RhiysYeT0KjAomM",
+     "title": "Sen. Chris Murphy hospitalized after stroke",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESpQEB6zswFY2x2ng_e4cLDXDCfwRCQIXgzJ2qb-VCyf1_s8Ey7ud6CqofvzuJhWahchjJx9UisXQqA1f9avljc0iA3zXXoddobzW9pM4Ynk-oK-MwVkGabka61IqQWt68bUVqkrTict8y95LdbXQa-W5NEQzms6ThQaYwoBmyl0Jq-5UcgcMIf_bTAiJUVErNfpev4svtLpqufIK3CRO7P-Iy0GCuC_8",
+     "title": "Sen. Chris Murphy hospitalized after suffering a stroke ...",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESpwEB6zswFd-kGfDa-MpIzfW1t-xmTfzxoJizCyFViHdm4TEM_urYEozOB-4o2Lg2dzQmlKN_YYdsba08aeEGDB8CNwk8Huo_w5LYnFt9axhdm7XEFQP06ImSP3nMx-d8b39JFCEhDbAxomisRyKLMOvKyHS3wfdVD3_1oyokoi59VXM2C6EqdPgVDkKT5xKzjrZ5DKrfN2LycU9-tWxMDZr2sR_Sn2ppmg",
+     "title": "Senator Chris Murphy is in the hospital after suffering a stroke ...",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESjQEB6zswFRwsoV5JihhJVN_U2iU25sO8VuLSsZx-rdMyc7AMU2UsHJ2bElqmr1LJzQ-MRF9F9Jw_4Qsl4tGq_j3-cQANkVVmaCDPJl-uNgdACOIQz8-ds1Gp0F6FlkNnpDk1vb8DondEp9DzAGuNXIW8JBOq58UkEj6U-yMTlMJrWE6sUne9yVXNfbKatMo",
+     "title": "Chris Murphy is hospitalized after stroke",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESggEB6zswFcBnCCe3btIOsxk9fNkjLAAFpz7w_buUHKxjcQvHWzlFq9l0okwkecFEv_MB-nyEamOBbVjgNpL1M8Ee4VOU4B80bnUMiePZ_II3VWczDf7T0G1uRm5j-4kQt_w5e72RV9_o4O5I_jmfe5El4l-kY_ojsLLr2WUkOAJBd2Mi",
+     "title": "Senator Chris Murphy Is 'Awake and Alert' After Suffering a ...",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESwwEB6zswFeBDpN0oszxuMlhH978FnbWyqtYnsfLtACsizpx_OWRwuJ4UzZiSS0eOIqKlHS8n4W3q2Aooy9IwtDd8_wzT9Txm5w2Kba7oD8VzJfp5jeyFwQNbtmZiIZse545FZZQzh3OO9GGJOxCpeSbRgYRzvqNo6S4f1jeX-DUYSIVO53h4xUK1rEO3OTGCLDy5KcihM_cEP3ldnkouJaLyol45thCycShLOGS2UEAEIhnb56F7bAzklj333prc7S2ohZE",
+     "title": "Sen. Chris Murphy has been hospitalized after suffering a ...",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAVJQAvi9SHlNHCqdfB4nAcx4EMuOtu5Gg4QdkyVgFUrfjghyqbHu9DF83d-6NMKzwCvJG_zMmqKnm7shRB4wIOkLVrtedSsPbPSD1MmZ7-g65Y3yqsR1xsAmRvYaVAugZ0zQ",
+     "title": "Democratic Sen. Chris Murphy hospitalized after suffering stroke",
+     "position": 8,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "fireflash 3d model": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "article": 8,
+    "tool": 1
+   },
+   "ads": false,
+   "features": [
+    "ai_overview"
+   ],
+   "top": [
+    "google.com",
+    "google.com",
+    "uk.pinterest.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESfwHrOzAVSKxHPt8rbBpWRBenSNOkLt98A-hvVDrFPji6B-_VWrjdLt9BcdFxnqu-L-iXbwPA_ZttueMWBNICxTPe82GTxwHSX4DLHFRF6IUQlAjYNNvsaXZfhJL4EhXDjWbK4yRAaXiSxWa5obWR4sT4Z8d_e40AUkj1LPEtFnA",
+     "title": "Thunderbirds 'Fireflash' | Scale model built by Colin Higton",
+     "position": 1,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEShgEB6zswFVd6V-0rlJaV5n2sIROqKIcioyzCyBMj-OyMyc8andFUriKYFxASHCsTj-P6UY--kv50RDizUzZzsN0QpsprRqKkZ0Zy_Nu4HixklV9AqT4ZOHNTzGafbETq9U6Au1v4TExlmgarzXoBMOBZmQggQaPdIUbAXLu7fONRoVwYvjJ1iQ",
+     "title": "AiP Fireflash model : r/Thunderbirds",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "uk.pinterest.com",
+     "url": "https://uk.pinterest.com/pin/thunderbirds-fireflash-by-arthurtwosheds-on-deviantart--508625351684208305/",
+     "title": "Thunderbirds Fireflash by ArthurTwosheds on DeviantArt",
+     "position": 3,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESkwEB6zswFUCbAHQx4XmKBXBylxHY1t5gIRsyEA-Bbv4tI-DSYFemkzIE_qeVhHgiw77OzccbTOiNzWSUOURcIkg7aPPuzJXbD4FM-HBfs8BqQ65YxhUzL_s7AuBig4gvccuQKS4NdeqfMKBbXHGwO-ZuFbm6VNGK1lGfCKT0ERwpb9puIUyekatd2m-_mTegY1DibIc",
+     "title": "fire - A 3D model collection by blingblingboi699",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESiAEB6zswFQmW92Q4_efSjyr8z-OWZjVhKW1OJWifNSvmp-2JOlWsnYzNOA4C3JAS5v5idipnxWxUn4xaQ-n-FYKC33Mv9ft4rwHo_o0WeMcPM4WfdOBKV546U31E2eVcAitfIOIspg13VF__wVX8YvX2tGWd0-ke0kZPsrIbJw_s-ENdR1Z4QJda",
+     "title": "Fire Hydrant - 3D model by Marcel Schanz (@mschanz) ...",
+     "position": 5,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESjQEB6zswFd1HbLyVG1c4mzmcK_zWjB0vMLxQ6JqkotirZOuZVPaMT9Ejo5PiTZfWSjtFgydeS52S7Mhrn9UzZJISqz5FCamIuZjpo8dfHhMy1PP8qWQ0p3SugrwleFk2Phz-M8EjQoGgPE0k168AMcf8NWDcgLcO7vyZjLeUYnTKtNaOcp8ACr2OKrNCeMo",
+     "title": "fire - A 3D model collection by skycrne007",
+     "position": 6,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEShQEB6zswFZNYlKyn3L5krElQVss2CRpvXh91UUah5yyw2ePEZkJtM0B6h5VbsUDtGflydVAXt858jg9DF1u4DmOawEilBbWr3-ZpJtaL2lQQtqLR5hsKj5cNST3hNzZQ214GY42kUqem2CxaUIaT09_2vLtVeAPqTXpe8zRNdcB2pA365At8",
+     "title": "Fire Bird - 3D model by Miguel Valverde (@miguelvalverde)",
+     "position": 7,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESXwHrOzAVsl_RFzM1ir0-nhXJU6h6rZsrvGh-DIeA5-XYqfV6h1RGlEmDgBGVUfXrzx7hBKJ2wsD9kxacBTtAfBZTb8eSG5CFnWWMNvUKrpceXMtarChMKfVfC_5IAJWd",
+     "title": "Pulsefire 3D models",
+     "position": 8,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEShgEB6zswFQY6IUHf6Wv52pPAZo2Zg5f1QSb2-K3Eui_Q2EgjJZ3sg6hcAZMw45C32_XQosNwSf8f_oE0tqLnj_pqsYDj9_xzoK72mG7eMu5nH_E4DMWuJ-qrVmo7sqcz0NyFLGjPcw1kRPjX5iuOWZv9No9NKqDHPvKcHaQzlQUlzpopGiTMPg",
+     "title": "Fire Torch - Download Free 3D model by bodassabry",
+     "position": 9,
+     "kind": "tool"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  }
+ },
+ "airplane crash palm beach": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.0,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "pando online": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "joyce dewitt john ritter last meeting": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "pandora online uk": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "juan atkins techno": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "pandora free music": {
+  "overview_ok": true,
+  "volume": 6600,
+  "cpc": 0.37,
+  "comp": 0.1,
+  "results": 0,
+  "kd_ok": true,
+  "kd": 50,
+  "day": "2026-11-03",
+  "serp": {
+   "kinds": {
+    "tool": 4,
+    "article": 3
+   },
+   "ads": false,
+   "features": [
+    "ai_overview",
+    "people_also_ask",
+    "related_searches"
+   ],
+   "top": [
+    "google.com",
+    "play.google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com",
+    "google.com"
+   ],
+   "items": [
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESUwHrOzAVryqYNU8yOdPHbY0PQuYh3OEztnSLQWVdKZmPH-TfhbJ--5Qo12nQWV06_fDrMeCsei6zO783Y7asrIuKrnj91K5SBzC5ZLAazn35zWWf",
+     "title": "Pandora: Music and Podcasts, Free and On-Demand",
+     "position": 1,
+     "kind": "tool"
+    },
+    {
+     "domain": "play.google.com",
+     "url": "https://play.google.com/store/apps/details?id=com.pandora.android&hl=en_US",
+     "title": "Pandora - Music & Podcasts - Apps on Google Play",
+     "position": 2,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESfwHrOzAV1aeuBwFZBwnhzXo5qHtMdfdWZgbR_slib1SoU78q8RrsEV4SRcuRnyrkeH0qkijY4k24Ddn9_vlmI6mPDxKXGJs5eegKxMUsVfC3R8B5t9wQxq3f11F4q6VQXOEdIznhyPUbrupP2wD917U0hUh0_56jx-pBWUtezTI",
+     "title": "Pandora: Personalized Music - App Store - Apple",
+     "position": 3,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAEScgHrOzAVDqax_2o9QWXqCgHn5CtC-59FmtEgd1B9U9J8skncNTZ26-Xhq5NERD3AMktMWTvxxlPxDSpR_YJVI_X8nCN9WBEApKyxrSN3sS3CakDe0KQ6YW4g4hekQ5aJwFAbyBN4rXslUIt852TjFhzgLA",
+     "title": "Pandora Music",
+     "position": 4,
+     "kind": "article"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESXwHrOzAVeD21A5-7bRinh6NggufnTVJKyYCox56ORtmk6VulkHixW0SF_gS_O0xEpdEjFjhlvW7x_K0WzRxLhINxCXbchCypQE-KfhaeWbKrdW7WjjCCwjBhRW6zsvpi",
+     "title": "Pandora - Listen to Free Radio Stations",
+     "position": 5,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESZgHrOzAV9kkKbjnnAVrjYWYTw9a-qspp545qEtrtJcLDsgl1ysVCGzsS8AHgirajmuWm_o_QJmCty1YJfm_spHucF81EHv53FRg8QD8ZzTbiomWqJBgwucE_rt_HsEDMdyJQfvldrw",
+     "title": "How to Use Pandora - Free Music Streaming App",
+     "position": 6,
+     "kind": "tool"
+    },
+    {
+     "domain": "google.com",
+     "url": "https://google.com/goto?url=CAESXwHrOzAVBNzc00GSPQSRvp-hAAUjKuZTaBCumTduuH7j96FznvPUGMqL_3PpmYsowg0w01Fzf32dUxaeDvZjP_M_deS8BmkmzkSOyf_jKaG2ZQVye1r94UvgSHBHm8XV",
+     "title": "Pandora",
+     "position": 7,
+     "kind": "article"
+    }
+   ],
+   "source": "serp",
+   "soft_weak": 0
+  },
+  "allintitle": 69
+ },
+ "hotplot ai app": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "gemma 3 270m online": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "nyc marathon race": {
+  "overview_ok": true,
+  "volume": 50,
+  "cpc": 0.0,
+  "comp": 0.03,
+  "results": 233,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "gemma 3 270m benchmark": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "penn rumi ai writing tool": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "gemma 3 270m playground": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "mit csail online courses": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.79,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "git online": {
+  "overview_ok": true,
+  "volume": 30,
+  "cpc": 0.0,
+  "comp": 0.04,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "git online game": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "git online login": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": 0.0,
+  "comp": 0.0,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "noir online": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "noir free music": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "noir alternative": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.05,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "run online": {
+  "overview_ok": true,
+  "volume": 170,
+  "cpc": 1.09,
+  "comp": 0.04,
+  "results": 111,
+  "kd_ok": true,
+  "kd": 57,
+  "day": "2026-11-03"
+ },
+ "run online adp": {
+  "overview_ok": true,
+  "volume": 90,
+  "cpc": 0.0,
+  "comp": 0.02,
+  "results": 86,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "run alternative": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": 0.0,
+  "comp": 0.1,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "longcat-2.5-preview": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "longcat-2.5-preview benchmarks": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "fireflash music": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "re-use multilingual universal speech enhancement": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "claude duet vs grok bot": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "anthropic residency reddit": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "anthropic residency program": {
+  "overview_ok": true,
+  "volume": 50,
+  "cpc": 0.0,
+  "comp": 0.33,
+  "results": 105,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "anthropic residency interview": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "mit csail ai": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 8.28,
+  "comp": 0.66,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "mit csail agents": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "studio labs ai": {
+  "overview_ok": true,
+  "volume": 20,
+  "cpc": 0.0,
+  "comp": 0.18,
+  "results": 0,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "studio labs gemini": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "studio labs ai google": {
+  "overview_ok": true,
+  "volume": 0,
+  "cpc": null,
+  "comp": null,
+  "nodata": true,
+  "kd_ok": true,
+  "kd": null,
+  "kd_skipped": true,
+  "day": "2026-11-03"
+ },
+ "ai agent benchmark": {
+  "overview_ok": true,
+  "volume": 110,
+  "cpc": 6.94,
+  "comp": 0.54,
+  "results": 37700,
+  "kd_ok": true,
+  "kd": 33,
+  "day": "2026-11-03"
  }
 }

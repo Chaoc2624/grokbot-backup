@@ -1,0 +1,137 @@
+{
+  "items": [
+    {
+      "id": "2117454417058578459",
+      "url": "https://x.com/CoderJeffLee/status/2117454417058578459",
+      "keep": true,
+      "title": "SEO竞品研究技巧：重点看外链少DR低的页面",
+      "tag": "SEO",
+      "need": "作者指出做竞品研究时应重点分析外链少、DR低却有流量的页面，这些页面往往靠内容质量获取排名，更易复制借鉴。",
+      "action": "用Ahrefs或GSC筛选竞品低DR高流量页面，拆解其内容结构与关键词布局。",
+      "category": "todo",
+      "filter_reason": null,
+      "posted_at": "11-03 11:10"
+    },
+    {
+      "id": "2117581961011011781",
+      "url": "https://x.com/geektao0319/status/2117581961011011781",
+      "keep": true,
+      "title": "谷歌吃教程ChatGPT吃工具：双引擎流量实操五步骤",
+      "tag": "SEO/增长",
+      "need": "作者照哥飞方法同时优化Google和ChatGPT流量，10月ChatGPT访问量翻3倍，发现教程页谷歌多、工具页ChatGPT多的规律，整理五步骤教程并附数据。",
+      "action": "阅读原推图片教程，按五步骤在站点部署工具页与教程页，监控双引擎流量变化。",
+      "category": "todo",
+      "filter_reason": null,
+      "posted_at": "11-03 19:37"
+    },
+    {
+      "id": "2117611811021132174",
+      "url": "https://x.com/GoSailGlobal/status/2117611811021132174",
+      "keep": true,
+      "title": "美国公司创业额度清单：Cloudflare AWS Azure GCP Supabase等",
+      "tag": "基建/出海",
+      "need": "列出开美国公司后可领的创业额度：Cloudflare $10k、AWS $5k、Azure $5k、GCP $2k、Supabase $300，另附ElevenLabs、Notion、Linear、Google Workspace、QuickBooks等软件免费期折扣。",
+      "action": "按清单逐个申请启动包，优先领取Cloudflare和AWS额度，再申请软件折扣。",
+      "category": "todo",
+      "filter_reason": null,
+      "posted_at": "11-03 21:36"
+    },
+    {
+      "id": "2117591239931339207",
+      "url": "https://x.com/donniy520/status/2117591239931339207",
+      "keep": true,
+      "title": "Hyperbeat虚拟美卡0费无限开卡护照+英国地址秒过",
+      "tag": "美卡/羊毛",
+      "need": "分享Hyperbeat虚拟卡：0开卡费、免费无限开美国虚拟卡、护照+英国地址秒过认证，适合海外订阅支付，曾冷门现抢手。",
+      "action": "注册Hyperbeat申请虚拟卡，绑定支付OpenAI、Midjourney等海外服务。",
+      "category": "related",
+      "filter_reason": null,
+      "posted_at": "11-03 20:14"
+    },
+    {
+      "id": "2117195080687644684",
+      "url": "https://x.com/geektao0319/status/2117195080687644684",
+      "keep": true,
+      "title": "验证TAAFT付费外链策略：新站4天获52点击老站曝光翻倍",
+      "tag": "SEO/增长",
+      "need": "作者验证赫兹大佬TAAFT付费文章策略：新站上架4天站内搜索曝光5390点击52次，老站曝光从1500涨到2800，数据与GA4吻合，建议支持大佬付费内容。",
+      "action": "参考大佬付费文章优化TAAFT列表页，或直接购买付费内容学习完整流程。",
+      "category": "related",
+      "filter_reason": null,
+      "posted_at": "11-02 18:00"
+    },
+    {
+      "id": "2099295295565955568",
+      "url": "https://x.com/hezhiyan7/status/2099295295565955568",
+      "keep": true,
+      "title": "TAAFT外链投入$1229获利$16065复盘含避坑指南",
+      "tag": "SEO/增长",
+      "need": "作者分享通过TAAFT外链投入$1229获得$16065收益的复盘，含购买套餐细节、类目选择、转化注意事项，完整内容在公众号付费阅读。",
+      "action": "关注公众号阅读付费文章，或自行测试TAAFT基础套餐验证效果。",
+      "category": "related",
+      "filter_reason": null,
+      "posted_at": "09-14 08:32"
+    },
+    {
+      "id": "2117439058133876918",
+      "url": "https://x.com/cc6pazpo/status/2117439058133876918",
+      "keep": true,
+      "title": "自建节点真实IP泄露三大口子：自动测速订阅链接证书透明度",
+      "tag": "基建/工具",
+      "need": "作者被GFW封IP后排查日志，发现三大泄露口子：客户端自动测速组直连真实IP、订阅链接直接指向VPS IP、证书透明日志暴露域名解析IP，附自查清单。",
+      "action": "检查Clash/sing-box配置，关闭自动测速组、将订阅链接走CDN、启用证书透明度监控。",
+      "category": "todo",
+      "filter_reason": null,
+      "posted_at": "11-03 10:09"
+    },
+    {
+      "id": "2117287021756506296",
+      "url": "https://x.com/unlimitedcodex/status/2117287021756506296",
+      "keep": true,
+      "title": "GSC正则筛选8词以上长尾查询挖掘ChatGPT式提问",
+      "tag": "SEO",
+      "need": "分享GSC正则 `^(?:\\S+\\s+){7,}\\S+$` 筛选8词以上查询，这些是用户问ChatGPT式的具体长尾问题，极具内容切入价值。",
+      "action": "在GSC性能报告应用该正则，导出长尾词列表规划内容生产。",
+      "category": "todo",
+      "filter_reason": null,
+      "posted_at": "11-03 00:05"
+    },
+    {
+      "id": "2117501077415395534",
+      "url": "https://x.com/HaiWaiYunJuMin/status/2117501077415395534",
+      "keep": false,
+      "title": "Remitly新用户首汇40美元减20美元推广码",
+      "tag": "其他",
+      "need": "付费广告推广：Remitly新用户首汇$40减$20，优惠码RELY3K3，属商业营销内容。",
+      "action": "无（广告已过滤）。",
+      "category": "ads",
+      "filter_reason": "付费推广/广告",
+      "posted_at": "11-03 14:16"
+    },
+    {
+      "id": "2117445061709545689",
+      "url": "https://x.com/artistd4qu/status/2117445061709545689",
+      "keep": true,
+      "title": "马来西亚TNG eWallet Visa卡支持中国护照申请境外返现5%",
+      "tag": "美卡/羊毛",
+      "need": "介绍马来西亚TNG eWallet Visa卡：中国护照+马来手机号可申请，境外消费最高5%返现（活动已过期），支持虚拟卡、绑定支付宝微信、多种入金方式。",
+      "action": "准备马来西亚手机号下载TNG eWallet申请实体卡，关注最新返现活动。",
+      "category": "related",
+      "filter_reason": null,
+      "posted_at": "11-03 10:33"
+    },
+    {
+      "id": "2117390816494997865",
+      "url": "https://x.com/muihbb/status/2117390816494997865",
+      "keep": true,
+      "title": "OpenAI Team 48个月0元羊毛卡头537872六号截止",
+      "tag": "羊毛/AI",
+      "need": "分享OpenAI Team订阅48个月0元薅羊毛方法，卡头537872，截止11月6日，附操作链接。",
+      "action": "使用卡头537872的虚拟卡在6号前开通OpenAI Team订阅。",
+      "category": "todo",
+      "filter_reason": null,
+      "posted_at": "11-03 06:58"
+    }
+  ],
+  "summary": "本档新增主题涵盖SEO竞品研究与长尾词挖掘、双引擎流量（Google+ChatGPT）实操、创业云额度领取清单、美卡/虚拟卡羊毛、TAAFT外链变现案例、自建节点IP泄露排查、马来西亚TNG卡申请指南及OpenAI Team免费订阅薅羊毛。"
+}

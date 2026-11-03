@@ -1,207 +1,549 @@
 {
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "board_runs": [],
  "xnew_runs": [
-  "2026-11-02 上午 书签X",
-  "2026-11-02 晚上 书签X"
+  "2026-11-03 上午 书签X",
+  "2026-11-03 晚上 书签X"
  ],
  "our_x_failed": false,
  "terms": [
   {
-   "name": "lfm2.5-24b-a2b q4_k_m",
-   "key": "lfm2524ba2bq4km",
+   "name": "pando",
+   "key": "pando",
+   "sources": [
+    "我们X",
+    "书签X"
+   ],
+   "desc": "OpenAI自研Git后端Pando服务Monorepo与Agent，推送延迟降低约80%，不是新模型。",
+   "url": "https://x.com/OpenAIDevs/status/2117408792346509663",
+   "signals": [
+    "X 2 个账号 ♥5457"
+   ],
+   "variants": [],
+   "named": 0.9,
+   "not_model": true,
+   "first_seen": "2026-11-03 08:09"
+  },
+  {
+   "name": "lifeval",
+   "key": "lifeval",
+   "sources": [
+    "我们X",
+    "书签X"
+   ],
+   "desc": "OpenAI发布个人助理评测基准LifeVal，基于大量ChatGPT用户反馈构建，不是新模型。",
+   "url": "https://x.com/OpenAI/status/2117307611338997846",
+   "signals": [
+    "X 1 个账号 ♥6071"
+   ],
+   "variants": [],
+   "named": 0.8,
+   "not_model": true,
+   "first_seen": "2026-11-03 01:27"
+  },
+  {
+   "name": "qwen3.5-0.8b 0.016",
+   "key": "qwen3508b0016",
    "sources": [
     "我们X"
    ],
-   "desc": "@TeksEdge: Custom inference engines are on the rise. Here's a new one. Pithos is a C infere",
+   "desc": "@dotey: 不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7.",
    "url": "",
    "signals": [
-    "X 1 个账号 ♥131"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "intel i5-10500h",
-   "key": "inteli510500h",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@TeksEdge: Custom inference engines are on the rise. Here's a new one. Pithos is a C infere",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥131"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "hackertube longs",
-   "key": "hackertubelongs",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@karpathy: Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had ",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥43034"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "scf",
-   "key": "scf",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@MistralAI: We asked Mistral Large 4 to show what happens when you break a molecule. ⚛️ With",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥459"
-   ],
-   "variants": [],
-   "named": 0.5
-  },
-  {
-   "name": "audio8 tts realistic air",
-   "key": "audio8ttsrealisticair",
-   "sources": [
-    "HF"
-   ],
-   "desc": "Edge0/Audio8-TTS-Realistic-Air (text-to-speech, ♥232)",
-   "url": "",
-   "signals": [
-    "HF 新进榜第 17 名"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "h3",
-   "key": "h3",
-   "sources": [
-    "HF"
-   ],
-   "desc": "ppxxyy/H3-Turbo-Lora (gradio, ♥31)",
-   "url": "",
-   "signals": [
-    "HF Spaces 新进榜第 50 名"
+    "X 1 个账号 ♥285"
    ],
    "variants": [],
    "named": 0.8
   },
   {
-   "name": "stack diagram",
-   "key": "stackdiagram",
+   "name": "gemma 3 270m",
+   "key": "gemma3270m",
    "sources": [
-    "GitHub"
+    "我们X"
    ],
-   "desc": "caru-ini/stack-diagram: Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
-   "url": "https://github.com/caru-ini/stack-diagram",
+   "desc": "@dotey: 不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7.",
+   "url": "",
    "signals": [
-    "GitHub 爆发 caru-ini/stack-diagram ★901(均 676/天)"
+    "X 1 个账号 ♥285"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "anthropic residency",
+   "key": "anthropicresidency",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@AnthropicAI: Applications are now open for the Anthropic Residency, a paid, fixed-term resear",
+   "url": "",
+   "signals": [
+    "X 2 个账号 ♥30524"
    ],
    "variants": [],
    "named": 0.7
   },
   {
-   "name": "craft anything",
-   "key": "craftanything",
+   "name": "mit csail",
+   "key": "mitcsail",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@dotey: 不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7.",
+   "url": "",
+   "signals": [
+    "X 2 个账号 ♥358"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "git",
+   "key": "git",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@OpenAIDevs: We built Pando, a new Git backend for our monorepo, to handle more pushes and fe",
+   "url": "",
+   "signals": [
+    "X 2 个账号 ♥5457"
+   ],
+   "variants": [],
+   "named": 0.5
+  },
+  {
+   "name": "anymodelbot",
+   "key": "anymodelbot",
    "sources": [
     "GitHub"
    ],
-   "desc": "storytold/craft-anything: Craft Anything: understand how any software works, and craft your own.",
-   "url": "https://github.com/storytold/craft-anything",
+   "desc": "modelflare-ai/AnyModelBot: 🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Cla",
+   "url": "https://github.com/modelflare-ai/AnyModelBot",
    "signals": [
-    "GitHub 爆发 storytold/craft-anything ★2544(均 1306/天,一天 +2095)"
+    "GitHub 爆发 modelflare-ai/AnyModelBot ★2181(均 303/天,一天 +916)"
    ],
    "variants": [],
    "named": 0.9
   },
   {
-   "name": "connectors ai.wondel",
-   "key": "connectorsaiwondel",
+   "name": "noir",
+   "key": "noir",
    "sources": [
-    "竞品站"
+    "GitHub"
    ],
-   "desc": "",
-   "url": "",
+   "desc": "Verlintas/NOIR: 手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, revers",
+   "url": "https://github.com/Verlintas/NOIR",
    "signals": [
-    "③ 竞品 27 处 (×27.0)"
+    "GitHub 爆发 Verlintas/NOIR ★1669(均 627/天,一天 +726)"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "run",
+   "key": "run",
+   "sources": [
+    "GitHub"
+   ],
+   "desc": "BryceYuuu/RUN: RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）",
+   "url": "https://github.com/BryceYuuu/RUN",
+   "signals": [
+    "GitHub 爆发 BryceYuuu/RUN ★2674(均 526/天,一天 +1246)"
    ],
    "variants": [],
    "named": 0.7
   },
   {
-   "name": "connectors co.civai.nova",
-   "key": "connectorscocivainova",
+   "name": "com.clawhard",
+   "key": "comclawhard",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 28 处 (×24.3)"
+    "③ 竞品 12 处 (×11.9)"
    ],
    "variants": [],
    "named": 0.7
   },
   {
-   "name": "connectors io.usefulapi",
-   "key": "connectorsiousefulapi",
+   "name": "connectors com.clawhard",
+   "key": "connectorscomclawhard",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 107 处 (×21.3)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "connectors io.github.theluckystrike",
-   "key": "connectorsiogithubtheluckystrike",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 20 处 (×9.6)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "app.tuper",
-   "key": "apptuper",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 7 处 (×7.0)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "cloudcorprecords",
-   "key": "cloudcorprecords",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 113 处 (×74.8)"
+    "③ 竞品 12 处 (×11.9)"
    ],
    "variants": [],
    "named": 0.6
+  },
+  {
+   "name": "chat.conecto",
+   "key": "chatconecto",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 10 处 (×9.9)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "studio labs",
+   "key": "studiolabs",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 10 处 (×9.6)"
+   ],
+   "variants": [],
+   "named": 0.6
+  },
+  {
+   "name": "connectors chat.conecto",
+   "key": "connectorschatconecto",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 10 处 (×9.9)"
+   ],
+   "variants": [],
+   "named": 0.5
+  },
+  {
+   "name": "sogni: ai image, video & music",
+   "key": "sogniaiimagevideomusic",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: Sogni: AI Image, Video & Music",
+   "url": "https://apps.apple.com/us/app/sogni-ai-image-video-music/id6450021857?uo=2",
+   "signals": [
+    "App Store 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "glm 5.3 flashx legal",
+   "key": "glm53flashxlegal",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "OpenRouter: GLM 5.3 FlashX Legal",
+   "url": "https://openrouter.ai/z-ai/glm-5.3-flashx-legal",
+   "signals": [
+    "OpenRouter 新上架"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "sun web & api",
+   "key": "sunwebapi",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: SUN Web & API",
+   "url": "https://www.producthunt.com/products/sun-ai",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "revreel: ai car edits",
+   "key": "revreelaicaredits",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: RevReel: AI Car Edits",
+   "url": "https://apps.apple.com/us/app/revreel-ai-car-edits/id6800568794?uo=2",
+   "signals": [
+    "App Store 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "photocut - ai photo editor",
+   "key": "photocutaiphotoeditor",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: PhotoCut - AI Photo Editor",
+   "url": "https://apps.apple.com/us/app/photocut-ai-photo-editor/id6444792863?uo=2",
+   "signals": [
+    "App Store 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "teamily ai",
+   "key": "teamilyai",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Teamily AI",
+   "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "agentkit (by scalekit)",
+   "key": "agentkit",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: AgentKit (by Scalekit)",
+   "url": "https://www.producthunt.com/products/scalekit",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "machinemail",
+   "key": "machinemail",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: MachineMail",
+   "url": "https://www.producthunt.com/products/machinemail",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "beamfy",
+   "key": "beamfy",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Beamfy",
+   "url": "https://www.producthunt.com/products/beamfy",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "iq",
+   "key": "iq",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: IQ",
+   "url": "https://www.producthunt.com/products/iq-code",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "remote gaze",
+   "key": "remotegaze",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Remote Gaze",
+   "url": "https://www.producthunt.com/products/remote-gaze",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "peji",
+   "key": "peji",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Peji",
+   "url": "https://www.producthunt.com/products/peji",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "testera",
+   "key": "testera",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Testera",
+   "url": "https://www.producthunt.com/products/testera-3",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "calendarly",
+   "key": "calendarly",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Calendarly",
+   "url": "https://www.producthunt.com/products/calendarly-calendar-on-lock-screen",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "subvocal",
+   "key": "subvocal",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: Subvocal",
+   "url": "https://news.ycombinator.com/item?id=50340088",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "appclose",
+   "key": "appclose",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: AppClose",
+   "url": "https://apps.apple.com/us/app/appclose/id1019290876?uo=2",
+   "signals": [
+    "App Store 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "hushed: us second phone number",
+   "key": "hushedussecondphonenumber",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: Hushed: US Second Phone Number",
+   "url": "https://apps.apple.com/us/app/hushed-us-second-phone-number/id600520752?uo=2",
+   "signals": [
+    "App Store 新上架"
+   ],
+   "variants": [],
+   "named": 0.9
+  },
+  {
+   "name": "sociallite-block reels&shorts",
+   "key": "socialliteblockreelsshorts",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: SocialLite-Block Reels&Shorts",
+   "url": "https://apps.apple.com/us/app/sociallite-block-reels-shorts/id6757661674?uo=2",
+   "signals": [
+    "App Store 新上架"
+   ],
+   "variants": [],
+   "named": 0.8
+  },
+  {
+   "name": "hacker times, a new york times-inspired version of hacker news",
+   "key": "hackertimesanewyorktimesinspiredversionofhackernews",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+   "url": "https://hackertimes.ca/",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.7
+  },
+  {
+   "name": "jascha sohl-dickstein",
+   "key": "jaschasohldickstein",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@dotey: Anthropic 招驻留研究员：教授、技术创始人、资深工程师可转行做 AI 安全，不要求机器学习背景，年薪折合 35 万到 50 万美元，11 月 22 日截",
+   "url": "",
+   "signals": [
+    "X 1 个账号 ♥149"
+   ],
+   "variants": [],
+   "named": 0.4
+  },
+  {
+   "name": "no ml",
+   "key": "noml",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@AnthropicAI: Applications are now open for the Anthropic Residency, a paid, fixed-term resear",
+   "url": "",
+   "signals": [
+    "X 1 个账号 ♥30375"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "for agi",
+   "key": "foragi",
+   "sources": [
+    "我们X"
+   ],
+   "desc": "@OpenAI: For AGI to benefit all of humanity, it should help people with the everyday task",
+   "url": "",
+   "signals": [
+    "X 1 个账号 ♥6071"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "george22",
+   "key": "george22",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 12 处 (×11.6)"
+   ],
+   "variants": [],
+   "named": 0.4
   },
   {
    "name": "genpark personal",
@@ -212,52 +554,38 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 33 处 (×23.0)"
+    "③ 竞品 118 处 (×60.1)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": 0.3
   },
   {
-   "name": "bgpt",
-   "key": "bgpt",
+   "name": "cloudcorprecords",
+   "key": "cloudcorprecords",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 12 处 (×11.6)"
+    "③ 竞品 90 处 (×31.5)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": 0.3
   },
   {
-   "name": "theluckystrike",
-   "key": "theluckystrike",
+   "name": "ocular",
+   "key": "ocular",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 12 处 (×10.9)"
+    "③ 竞品 14 处 (×13.2)"
    ],
    "variants": [],
-   "named": 0.6
-  },
-  {
-   "name": "alpha park",
-   "key": "alphapark",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 16 处 (×5.2)"
-   ],
-   "variants": [],
-   "named": 0.6
+   "named": 0.3
   },
   {
    "name": "alphaparkinc genpark",
@@ -268,1155 +596,21 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 17 处 (×5.1)"
-   ],
-   "variants": [],
-   "named": 0.5
-  },
-  {
-   "name": "ai.wondel google",
-   "key": "aiwondelgoogle",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 5 处 (×5.0)"
-   ],
-   "variants": [],
-   "named": 0.5
-  },
-  {
-   "name": "hailuo",
-   "key": "hailuo",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "ai-hailuo.com · 296 keywords",
-   "url": "",
-   "signals": [
-    "新站 ai-hailuo.com(注册 2026-08-09,约 2147 访问/月,296 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "dolai",
-   "key": "dolai",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "dolai.video · 76 keywords",
-   "url": "",
-   "signals": [
-    "新站 dolai.video(注册 2026-08-06,约 31334 访问/月,76 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "cyqlerhikqjw",
-   "key": "cyqlerhikqjw",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "cyqlerhikqjw.video · 629 keywords",
-   "url": "",
-   "signals": [
-    "新站 cyqlerhikqjw.video(注册 2026-08-23,约 12042 访问/月,629 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "samehadaku",
-   "key": "samehadaku",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "samehadaku.video · 53 keywords",
-   "url": "",
-   "signals": [
-    "新站 samehadaku.video(注册 2026-09-13,约 11644 访问/月,53 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "rgtoqnaarynz",
-   "key": "rgtoqnaarynz",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "rgtoqnaarynz.video · 463 keywords",
-   "url": "",
-   "signals": [
-    "新站 rgtoqnaarynz.video(注册 2026-08-26,约 10471 访问/月,463 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "wlojauujugkz",
-   "key": "wlojauujugkz",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "wlojauujugkz.video · 684 keywords",
-   "url": "",
-   "signals": [
-    "新站 wlojauujugkz.video(注册 2026-08-27,约 9505 访问/月,684 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "alqccaintejn",
-   "key": "alqccaintejn",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "alqccaintejn.video · 1216 keywords",
-   "url": "",
-   "signals": [
-    "新站 alqccaintejn.video(注册 2026-08-27,约 8188 访问/月,1216 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "sbjqjichfviy",
-   "key": "sbjqjichfviy",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "sbjqjichfviy.video · 240 keywords",
-   "url": "",
-   "signals": [
-    "新站 sbjqjichfviy.video(注册 2026-08-26,约 7339 访问/月,240 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "tnijfilkfwoz",
-   "key": "tnijfilkfwoz",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "tnijfilkfwoz.video · 173 keywords",
-   "url": "",
-   "signals": [
-    "新站 tnijfilkfwoz.video(注册 2026-08-24,约 6866 访问/月,173 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "vtgbujiethez",
-   "key": "vtgbujiethez",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "vtgbujiethez.video · 502 keywords",
-   "url": "",
-   "signals": [
-    "新站 vtgbujiethez.video(注册 2026-08-23,约 6647 访问/月,502 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "bsazvmtrxpli",
-   "key": "bsazvmtrxpli",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "bsazvmtrxpli.video · 779 keywords",
-   "url": "",
-   "signals": [
-    "新站 bsazvmtrxpli.video(注册 2026-08-26,约 6557 访问/月,779 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "anichin",
-   "key": "anichin",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "anichin.video · 117 keywords",
-   "url": "",
-   "signals": [
-    "新站 anichin.video(注册 2026-09-05,约 5932 访问/月,117 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "downvideo",
-   "key": "downvideo",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "downvideo.app · 451 keywords",
-   "url": "",
-   "signals": [
-    "新站 downvideo.app(注册 2026-08-27,约 8704 访问/月,451 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "bdviralvideo",
-   "key": "bdviralvideo",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "bdviralvideo.info · 98 keywords",
-   "url": "",
-   "signals": [
-    "新站 bdviralvideo.info(注册 2026-08-11,约 7514 访问/月,98 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "downloadvideo",
-   "key": "downloadvideo",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "downloadvideo.to · 634 keywords",
-   "url": "",
-   "signals": [
-    "新站 downloadvideo.to(注册 2026-08-28,约 5087 访问/月,634 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "twivideo",
-   "key": "twivideo",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "twivideo.app · 55 keywords",
-   "url": "",
-   "signals": [
-    "新站 twivideo.app(注册 2026-09-13,约 5016 访问/月,55 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "typingtest",
-   "key": "typingtest",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "ai-typingtest.com · 722 keywords",
-   "url": "",
-   "signals": [
-    "新站 ai-typingtest.com(注册 2026-08-11,约 4008 访问/月,722 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "talkie",
-   "key": "talkie",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "talkie-ai-chat.com · 45 keywords",
-   "url": "",
-   "signals": [
-    "新站 talkie-ai-chat.com(注册 2026-08-20,约 2185 访问/月,45 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "facebookvideodownload",
-   "key": "facebookvideodownload",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "facebookvideodownload.org · 255 keywords",
-   "url": "",
-   "signals": [
-    "新站 facebookvideodownload.org(注册 2026-08-12,约 243555 访问/月,255 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "koooravideo",
-   "key": "koooravideo",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "koooravideo.com · 244 keywords",
-   "url": "",
-   "signals": [
-    "新站 koooravideo.com(注册 2026-09-05,约 119500 访问/月,244 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "ytvideoo",
-   "key": "ytvideoo",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "ytvideoo.com · 942 keywords",
-   "url": "",
-   "signals": [
-    "新站 ytvideoo.com(注册 2026-09-07,约 23446 访问/月,942 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "snapvideo",
-   "key": "snapvideo",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "snapvideo.to · 290 keywords",
-   "url": "",
-   "signals": [
-    "新站 snapvideo.to(注册 2026-09-21,约 22484 访问/月,290 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "tokvideosave",
-   "key": "tokvideosave",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "tokvideosave.com · 579 keywords",
-   "url": "",
-   "signals": [
-    "新站 tokvideosave.com(注册 2026-08-26,约 22217 访问/月,579 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "savevideo",
-   "key": "savevideo",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "savevideo.tech · 2915 keywords",
-   "url": "",
-   "signals": [
-    "新站 savevideo.tech(注册 2026-08-07,约 16285 访问/月,2915 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "videollan",
-   "key": "videollan",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "videollan.org · 462 keywords",
-   "url": "",
-   "signals": [
-    "新站 videollan.org(注册 2026-08-28,约 14706 访问/月,462 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "hd9video",
-   "key": "hd9video",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "hd9video.org · 913 keywords",
-   "url": "",
-   "signals": [
-    "新站 hd9video.org(注册 2026-08-24,约 9632 访问/月,913 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "instavideodownload",
-   "key": "instavideodownload",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "instavideodownload.in · 144 keywords",
-   "url": "",
-   "signals": [
-    "新站 instavideodownload.in(注册 2026-08-10,约 9423 访问/月,144 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "livestreamingvideo",
-   "key": "livestreamingvideo",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "livestreamingvideo.site · 143 keywords",
-   "url": "",
-   "signals": [
-    "新站 livestreamingvideo.site(注册 2026-09-05,约 9028 访问/月,143 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "videocall",
-   "key": "videocall",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "videocall.cam · 1423 keywords",
-   "url": "",
-   "signals": [
-    "新站 videocall.cam(注册 2026-08-06,约 7498 访问/月,1423 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "aiagentslisting",
-   "key": "aiagentslisting",
-   "sources": [
-    "收款新站"
-   ],
-   "desc": "aiagentslisting.com · Polar",
-   "url": "https://aiagentslisting.com/",
-   "signals": [
-    "开始收钱(AI / 软件):2026-11-01 第一次挂 Polar 收款链接"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "movilitas",
-   "key": "movilitas",
-   "sources": [
-    "收款新站"
-   ],
-   "desc": "www.movilitas.cloud · Lemon Squeezy",
-   "url": "https://www.movilitas.cloud/",
-   "signals": [
-    "开始收钱(AI / 软件):2026-11-02 第一次挂 Lemon Squeezy 收款链接"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "soon enough",
-   "key": "soonenough",
-   "sources": [
-    "收款新站"
-   ],
-   "desc": "soonenough.app · Polar",
-   "url": "https://soonenough.app/",
-   "signals": [
-    "开始收钱(AI / 软件):2026-11-01 第一次挂 Polar 收款链接"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "supercmd",
-   "key": "supercmd",
-   "sources": [
-    "收款新站"
-   ],
-   "desc": "supercmd.sh · Polar",
-   "url": "https://supercmd.sh/",
-   "signals": [
-    "开始收钱(AI / 软件):2026-11-01 第一次挂 Polar 收款链接"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "zens",
-   "key": "zens",
-   "sources": [
-    "收款新站"
-   ],
-   "desc": "zens.ink · Polar",
-   "url": "https://zens.ink/",
-   "signals": [
-    "开始收钱(AI / 软件):2026-11-01 第一次挂 Polar 收款链接"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "apexpdf",
-   "key": "apexpdf",
-   "sources": [
-    "收款新站"
-   ],
-   "desc": "apexpdf.com · Polar",
-   "url": "https://apexpdf.com/",
-   "signals": [
-    "开始收钱(AI / 软件):2026-11-02 第一次挂 Polar 收款链接"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "nexyy",
-   "key": "nexyy",
-   "sources": [
-    "收款新站"
-   ],
-   "desc": "nexyy.com · Gumroad",
-   "url": "https://nexyy.com/",
-   "signals": [
-    "开始收钱(AI / 软件):2026-11-02 第一次挂 Gumroad 收款链接"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "caleyna",
-   "key": "caleyna",
-   "sources": [
-    "收款新站"
-   ],
-   "desc": "caleyna.com · Polar",
-   "url": "https://caleyna.com/",
-   "signals": [
-    "开始收钱(AI / 软件):2026-11-02 第一次挂 Polar 收款链接"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "zest",
-   "key": "zest",
-   "sources": [
-    "收款新站"
-   ],
-   "desc": "zest.dashovia.app · Dodo Payments",
-   "url": "https://zest.dashovia.app/",
-   "signals": [
-    "开始收钱(AI / 软件):2026-11-01 第一次挂 Dodo Payments 收款链接"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "vyuh drift",
-   "key": "vyuhdrift",
-   "sources": [
-    "收款新站"
-   ],
-   "desc": "drift.vyuhmatrix.com · Dodo Payments",
-   "url": "https://drift.vyuhmatrix.com/",
-   "signals": [
-    "开始收钱(AI / 软件):2026-11-01 第一次挂 Dodo Payments 收款链接"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "flightops hub",
-   "key": "flightopshub",
-   "sources": [
-    "收款新站"
-   ],
-   "desc": "opossumdev.com · Creem",
-   "url": "https://opossumdev.com/",
-   "signals": [
-    "开始收钱(AI / 软件):2026-11-01 第一次挂 Creem 收款链接"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "ondeck ai workflows",
-   "key": "ondeckaiworkflows",
-   "sources": [
-    "构建器新站"
-   ],
-   "desc": "ondeckai.lovable.app · Lovable",
-   "url": "https://ondeckai.lovable.app/",
-   "signals": [
-    "2026-11-02 出现的 Lovable 作品"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "quizneon",
-   "key": "quizneon",
-   "sources": [
-    "构建器新站"
-   ],
-   "desc": "soportetecnico.lovable.app · Lovable",
-   "url": "https://soportetecnico.lovable.app/",
-   "signals": [
-    "2026-11-02 出现的 Lovable 作品"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "captiongenie",
-   "key": "captiongenie",
-   "sources": [
-    "构建器新站"
-   ],
-   "desc": "genie-caption-maker.lovable.app · Lovable",
-   "url": "https://genie-caption-maker.lovable.app/",
-   "signals": [
-    "2026-11-02 出现的 Lovable 作品"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "meu citroen app",
-   "key": "meucitroenapp",
-   "sources": [
-    "构建器新站"
-   ],
-   "desc": "meucitroen.lovable.app · Lovable",
-   "url": "https://meucitroen.lovable.app/",
-   "signals": [
-    "2026-11-02 出现的 Lovable 作品"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "trinity fit",
-   "key": "trinityfit",
-   "sources": [
-    "构建器新站"
-   ],
-   "desc": "trinityptschedule.lovable.app · Lovable",
-   "url": "https://trinityptschedule.lovable.app/",
-   "signals": [
-    "2026-11-02 出现的 Lovable 作品"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "vendespil",
-   "key": "vendespil",
-   "sources": [
-    "构建器新站"
-   ],
-   "desc": "mission-matematik-vendespil.lovable.app · Lovable",
-   "url": "https://mission-matematik-vendespil.lovable.app/",
-   "signals": [
-    "2026-11-02 出现的 Lovable 作品"
-   ],
-   "variants": [],
-   "named": 0.6
-  },
-  {
-   "name": "clayzo",
-   "key": "clayzo",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: Clayzo",
-   "url": "https://www.producthunt.com/products/clayzo",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "bigvu teleprompter captions ai",
-   "key": "bigvutelepromptercaptionsai",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "App Store: BIGVU Teleprompter Captions AI",
-   "url": "https://apps.apple.com/us/app/bigvu-teleprompter-captions-ai/id1124958568?uo=2",
-   "signals": [
-    "App Store 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "mematic - the meme maker",
-   "key": "mematicthemememaker",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "App Store: Mematic - The Meme Maker",
-   "url": "https://apps.apple.com/us/app/mematic-the-meme-maker/id491076730?uo=2",
-   "signals": [
-    "App Store 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "cleaner neat: clean up storage",
-   "key": "cleanerneatcleanupstorage",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "App Store: Cleaner Neat: Clean Up Storage",
-   "url": "https://apps.apple.com/us/app/cleaner-neat-clean-up-storage/id1463756032?uo=2",
-   "signals": [
-    "App Store 新上架"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "frame to gif & mp4",
-   "key": "frametogifmp4",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Google, new this week · figma.com/community/plugin: Frame to GIF & MP4",
-   "url": "https://google.com/goto?url=CAEShgEB6zswFXAos0dYzBGMLUrd7pzKT0eJxYiAI4wFYensM-_ajxUAy2R48zCiTP33JqI_oCYdTqhmSLSicOUZFUlMIFBLjG8lu4N9C4dPdA9DYSWPKelurwxZBKCLw9tYzb9wBc6wqnZVKbvxy34RpE3USukc0bzpXgvRxQEMQOb5E0jAozHxvw&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
-   "signals": [
-    "Google, new this week 新上架"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "vimeo",
-   "key": "vimeo",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "App Store: Vimeo",
-   "url": "https://apps.apple.com/us/app/vimeo/id425194759?uo=2",
-   "signals": [
-    "App Store 新上架"
-   ],
-   "variants": [],
-   "named": 0.5
-  },
-  {
-   "name": "sinqlo",
-   "key": "sinqlo",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Google, new this week · figma.com/community/plugin: Sinqlo",
-   "url": "https://google.com/goto?url=CAESkAEB6zswFchAD-PesYo8MhrS1raYZGjwE5sc5GbsmB_iXEhBURH7YpPyUrm65paXdxDW8dATlOWGsDeUWZQXpBnoJShb6AqyRUV7OyGP6s8FiiAF2XSLMqFahQjwwG2HkNNhZEUpEEEgsCz7z1rL0bou7ucjZh4NYjxa2BUpaycSTG6WxosmhCRWITc1KiBWvhk&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
-   "signals": [
-    "Google, new this week 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "display 1.0",
-   "key": "display10",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: Display 1.0",
-   "url": "https://www.producthunt.com/products/display-dev",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "unleashx",
-   "key": "unleashx",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: UnleashX",
-   "url": "https://www.producthunt.com/products/unleashx",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "xmind 2027",
-   "key": "xmind2027",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: Xmind 2027",
-   "url": "https://www.producthunt.com/products/xmind",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "cedric ai for meetings",
-   "key": "cedricaiformeetings",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: Cedric AI for Meetings",
-   "url": "https://www.producthunt.com/products/cedric",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "agent inbox",
-   "key": "agentinbox",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: Agent Inbox",
-   "url": "https://www.producthunt.com/products/agent-inbox",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "self-growing websites by greta.sh",
-   "key": "selfgrowingwebsitesbygretash",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: Self-Growing Websites by Greta.sh",
-   "url": "https://www.producthunt.com/products/gretabyquestera",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "redu.cloud",
-   "key": "reducloud",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: redu.cloud",
-   "url": "https://www.producthunt.com/products/redu-cloud",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "linkly ai clipper",
-   "key": "linklyaiclipper",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: Linkly AI Clipper",
-   "url": "https://www.producthunt.com/products/linkly-ai-clipper",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "diff-tour",
-   "key": "difftour",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Product Hunt: diff-tour",
-   "url": "https://www.producthunt.com/products/diff-tour",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "hackerbooks",
-   "key": "hackerbooks",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: HackerBooks",
-   "url": "https://hackerbooks.org",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "wikihack",
-   "key": "wikihack",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: Wikihack",
-   "url": "https://wikihack.netlify.app",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "omnidiff",
-   "key": "omnidiff",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: OmniDiff",
-   "url": "https://github.com/ivankovic/omnidiff",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "hackerhack",
-   "key": "hackerhack",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: HackerHack",
-   "url": "https://news.ycombinator.com/",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "ai home design - ruma",
-   "key": "aihomedesignruma",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "App Store: AI Home Design - Ruma",
-   "url": "https://apps.apple.com/us/app/ai-home-design-ruma/id6742654523?uo=2",
-   "signals": [
-    "App Store 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "figsmith",
-   "key": "figsmith",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Google, new this week · figma.com/community/plugin: FigSmith",
-   "url": "https://google.com/goto?url=CAESmgEB6zswFTGn09A0ntTeyKCmg37rtzBcIqFiga6Gu-Mmb4Tr9-IFpfoju17eEvFJ3Aiyk1qMe8lb0POQsRKEfZB_jUdarIPIIvP4HtJFZ5XBgdPJQJBpDvwiTKAiJ6BQAboWFlfVdjCLrzEv1eV8SvTrbfkkVjxdQFLN-HpoRiU1R1ext8PYE8n3FpFwNcDogE0o9K46AbomUl2N&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
-   "signals": [
-    "Google, new this week 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "linterly: lint & fix tokens, styles, contrast",
-   "key": "linterlylintfixtokensstylescontrast",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Google, new this week · figma.com/community/plugin: Linterly: Lint & Fix Tokens, Styles, Contrast",
-   "url": "https://google.com/goto?url=CAESngEB6zswFYZDZMYDQEWKcmdE9MuwN1pi2so2hrFHslWcRbmJzqxpaLvfICmpcG7M2_3qjmgGYXt8r-YfOO0Yr8McsupmLz5_iSiyX6w0_j_N3622MbMU-mWxu56F7crfGvqoT9df1TKZvJ2bUqdsKNN8n4h46OSIp5h_6le0UWBuxwWb3OPRdhPsC_YqJ-JJLjH5K7rT0GuQvVqDAoSANw&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
-   "signals": [
-    "Google, new this week 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "apex kit",
-   "key": "apexkit",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Google, new this week · figma.com/community/plugin: Apex Kit",
-   "url": "https://google.com/goto?url=CAESlAEB6zswFZ7G4MxyIBo7a4_D7AxTSYcxGSCvER_mR1p3lIBVHFD8dO_g6FG60SJ406aaIvTxGYdrGiTqVzTtzqlrT9b5dOmZwYM_xFImZPFBDCInjoo2pPlwsXJKo3dmCXjrBpaDW7Bpf3ynyipXHY105HJoSFX-2-v60kw_7CM6xqy9HIhq0qgnO80JlBUghWPr6tvz&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
-   "signals": [
-    "Google, new this week 新上架"
-   ],
-   "variants": [],
-   "named": 0.9
-  },
-  {
-   "name": "korobium italic & bold for any font",
-   "key": "korobiumitalicboldforanyfont",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Google, new this week · figma.com/community/plugin: Korobium Italic & Bold for Any Font",
-   "url": "https://google.com/goto?url=CAESlwEB6zswFU0CdAdGQBwTU4fhDajF0b9xy7vM33xWvXJTrZuniw7T92qz9D6O067nmo70vv8_zFo2irv4bz3J3Io8deKRhJWMgiOEp6MnP6TunmcDnq6_cYfTpS10aDRjjoKEdyjWFJN6TvEc61Pn1AppwqxLjZUsO70mw8b-WIHJVvUZwz57ABv-Ybgvf6HPvNi5Ztj5nIsR&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
-   "signals": [
-    "Google, new this week 新上架"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "unity ui toolkit connector",
-   "key": "unityuitoolkitconnector",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Google, new this week · figma.com/community/plugin: Unity UI Toolkit Connector",
-   "url": "https://google.com/goto?url=CAESkAEB6zswFSIbKLtQ0hO1ef92ouRmPYoJFqUInZQBblCa88TWL0VOJruCb_5tiPkjkyABTahZiu--Ki95UI-wD4YhjbRi4aOmxHl1mgZbxuJJ5FcTE5B2f-aclPxM4uNNR2rgla7tUIWMOfD9cNYFHAwrYa65DURZ_1fsIaHAQc_VBxVz2ANvX89CIX1q93BM6yg&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
-   "signals": [
-    "Google, new this week 新上架"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "pixel maps by amcharts",
-   "key": "pixelmapsbyamcharts",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Google, new this week · figma.com/community/plugin: Pixel maps by amCharts",
-   "url": "https://www.figma.com/community/plugin/1572983978396878578/pixel-maps-by-amcharts",
-   "signals": [
-    "Google, new this week 新上架"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "pptx to figma pro max · keynote, slides & export",
-   "key": "pptxtofigmapromaxkeynoteslidesexport",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Google, new this week · figma.com/community/plugin: PPTX TO FIGMA PRO MAX · Keynote, Slides & Export",
-   "url": "https://google.com/goto?url=CAESoQEB6zswFbK5nnkmFSSG0Bs-TFTCdVvUBjHAV8nI16zOBmvOTUSIEcCjj3ysHaGsp0yCPrSN4CwnUt5sOPHxQBj8Vm2q4cnv3yRhWgzeIugE4y3mX-Wzp5Hh2ykpo03dsSDY7Ers1RAK7N0kHu4KVP25kE4DWXRot2-zdkXPGCwnsaY-AaMubgzTB-c_yOL8bp8c7cBK4MAFJ2FlSMCtkKAVQg&gsessionid=5TBpj4Lnj_w3N7oyX7PNYlC8pqri5NrjyYX080krMunh0HzzFdOASg",
-   "signals": [
-    "Google, new this week 新上架"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "html & web to figma design",
-   "key": "htmlwebtofigmadesign",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Google, new this week · figma.com/community/plugin: HTML & Web to Figma Design",
-   "url": "https://www.figma.com/community/plugin/1688631795096371886/html-web-to-figma-design",
-   "signals": [
-    "Google, new this week 新上架"
-   ],
-   "variants": [],
-   "named": 0.8
-  },
-  {
-   "name": "jackjin1997/markindex",
-   "key": "jackjin1997markindex",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "awesome list: jackjin1997/markindex",
-   "url": "https://github.com/jackjin1997/markindex",
-   "signals": [
-    "awesome list 新上架"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "google cloud ui",
-   "key": "googlecloudui",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@karpathy: Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had ",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥43034"
+    "③ 竞品 57 处 (×12.3)"
    ],
    "variants": [],
    "named": 0.3
   },
   {
-   "name": "4gb vram reported",
-   "key": "4gbvramreported",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@TeksEdge: Custom inference engines are on the rise. Here's a new one. Pithos is a C infere",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥131"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "io.github.nero engine",
-   "key": "iogithubneroengine",
+   "name": "r1",
+   "key": "r1",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 10 处 (×6.9)"
-   ],
-   "variants": [],
-   "named": 0.4
-  },
-  {
-   "name": "connectors app.tuper",
-   "key": "connectorsapptuper",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 7 处 (×7.0)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "connectors io.github.nero",
-   "key": "connectorsiogithubnero",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 10 处 (×6.9)"
+    "③ 竞品 10 处 (×8.1)"
    ],
    "variants": [],
    "named": 0.3
@@ -1430,10 +624,24 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 16 处 (×5.2)"
+    "③ 竞品 61 处 (×14.5)"
    ],
    "variants": [],
-   "named": 0.3
+   "named": 0.2
+  },
+  {
+   "name": "alpha park",
+   "key": "alphapark",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 61 处 (×14.4)"
+   ],
+   "variants": [],
+   "named": 0.2
   },
   {
    "name": "records",
@@ -1444,7 +652,21 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 113 处 (×65.4)"
+    "③ 竞品 94 处 (×29.6)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "personal",
+   "key": "personal",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 121 处 (×26.5)"
    ],
    "variants": [],
    "named": 0.1
@@ -1458,10 +680,80 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 113 处 (×58.9)"
+    "③ 竞品 90 处 (×26.0)"
    ],
    "variants": [],
    "named": 0.1
+  },
+  {
+   "name": "tutorials deepseek",
+   "key": "tutorialsdeepseek",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 14 处 (×13.6)"
+   ],
+   "variants": [],
+   "named": 0.1
+  },
+  {
+   "name": "cutaneous",
+   "key": "cutaneous",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 18 处 (×17.7)"
+   ],
+   "variants": [],
+   "named": 0.0
+  },
+  {
+   "name": "cardiac",
+   "key": "cardiac",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 11 处 (×11.0)"
+   ],
+   "variants": [],
+   "named": 0.0
+  },
+  {
+   "name": "pulmonary",
+   "key": "pulmonary",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 11 处 (×11.0)"
+   ],
+   "variants": [],
+   "named": 0.0
+  },
+  {
+   "name": "tutorials",
+   "key": "tutorials",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 25 处 (×9.8)"
+   ],
+   "variants": [],
+   "named": 0.0
   },
   {
    "name": "cloud",
@@ -1472,201 +764,75 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 115 处 (×19.1)"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "loan",
-   "key": "loan",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 15 处 (×13.6)"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "loans",
-   "key": "loans",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 12 处 (×11.8)"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "product catalog",
-   "key": "productcatalog",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 12 处 (×11.5)"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "calculator",
-   "key": "calculator",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 17 处 (×7.8)"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "port",
-   "key": "port",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 11 处 (×7.8)"
+    "③ 竞品 92 处 (×9.6)"
    ],
    "variants": [],
    "named": 0.0
   },
   {
-   "name": "catalog",
-   "key": "catalog",
+   "name": "acoustic",
+   "key": "acoustic",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 14 处 (×5.3)"
+    "③ 竞品 10 处 (×9.4)"
    ],
    "variants": [],
    "named": 0.0
   },
   {
-   "name": "text",
-   "key": "text",
+   "name": "cerebral",
+   "key": "cerebral",
    "sources": [
-    "新域名"
+    "竞品站"
    ],
-   "desc": "ai-text-guard.com · 29 keywords",
+   "desc": "",
    "url": "",
    "signals": [
-    "新站 ai-text-guard.com(注册 2026-09-17,约 1009 访问/月,29 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "guard",
-   "key": "guard",
-   "sources": [
-    "新域名"
-   ],
-   "desc": "ai-text-guard.com · 29 keywords",
-   "url": "",
-   "signals": [
-    "新站 ai-text-guard.com(注册 2026-09-17,约 1009 访问/月,29 个排名词)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "share notes app",
-   "key": "sharenotesapp",
-   "sources": [
-    "痛点求助"
-   ],
-   "desc": "X (31): Is there an app that I can share my notes with everyone to read❓️Cuz I have a lot of ideas",
-   "url": "",
-   "signals": [
-    "Reddit:被问 1 次(X)"
-   ],
-   "variants": [],
-   "named": 0.2
-  },
-  {
-   "name": "social media management service",
-   "key": "socialmediamanagementservice",
-   "sources": [
-    "痛点求助"
-   ],
-   "desc": "Freelancer (22): Comprehensive Social Media Management",
-   "url": "",
-   "signals": [
-    "Reddit:被问 1 次(Freelancer)"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "free ecard maker",
-   "key": "freeecardmaker",
-   "sources": [
-    "收款新站"
-   ],
-   "desc": "www.instantecard.com · Dodo Payments",
-   "url": "https://www.instantecard.com/",
-   "signals": [
-    "开始收钱(AI / 软件):2026-11-01 第一次挂 Dodo Payments 收款链接"
-   ],
-   "variants": [],
-   "named": 0.2
-  },
-  {
-   "name": "logga in",
-   "key": "loggain",
-   "sources": [
-    "构建器新站"
-   ],
-   "desc": "meatlist.lovable.app · Lovable",
-   "url": "https://meatlist.lovable.app/",
-   "signals": [
-    "2026-11-02 出现的 Lovable 作品"
+    "③ 竞品 9 处 (×8.9)"
    ],
    "variants": [],
    "named": 0.0
   },
   {
-   "name": "cmms & cafm software",
-   "key": "cmmscafmsoftware",
+   "name": "reflex",
+   "key": "reflex",
    "sources": [
-    "构建器新站"
+    "竞品站"
    ],
-   "desc": "tabsfm.lovable.app · Lovable",
-   "url": "https://tabsfm.lovable.app/",
+   "desc": "",
+   "url": "",
    "signals": [
-    "2026-11-02 出现的 Lovable 作品"
+    "③ 竞品 10 处 (×8.8)"
    ],
    "variants": [],
    "named": 0.0
   },
   {
-   "name": "i've updated my linux system call website and api",
-   "key": "iveupdatedmylinuxsystemcallwebsiteandapi",
+   "name": "warsaw in voxels",
+   "key": "warsawinvoxels",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Show HN: I've updated my Linux System Call website and API",
-   "url": "https://syscall.sh/",
+   "desc": "Show HN: Warsaw in voxels",
+   "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "variants": [],
+   "named": 0.3
+  },
+  {
+   "name": "i built a little browser game to practice vim commands",
+   "key": "ibuiltalittlebrowsergametopracticevimcommands",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Show HN: I built a little browser game to practice Vim commands",
+   "url": "https://hjkl.duy.run",
    "signals": [
     "Show HN 新上架"
    ],
@@ -1674,55 +840,132 @@
    "named": 0.0
   },
   {
-   "name": "Qwenputer",
-   "key": "qwenputer",
+   "name": "LongCat-2.5",
+   "key": "longcat25",
    "sources": [
     "书签X"
    ],
-   "desc": "将计算机制嵌入 LLM 权重的研究项目，源自 Qwen3.5。不是新模型",
-   "url": "https://x.com/ModelScope2022/status/2117240635304616250",
+   "desc": "美团发布原生多模态智能体模型，1.6T总参数/48B激活，面向长程Agent与视觉编程，API已开放。",
+   "url": "https://x.com/Meituan_LongCat/status/2117264311714537633",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-02 22:35"
+  },
+  {
+   "name": "ML4",
+   "key": "ml4",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "Mistral开源ML4模型，代码与网络安全能力更强且更紧凑，附技术报告。",
+   "url": "https://x.com/PierreStock/status/2117293394238013698",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-03 00:30"
+  },
+  {
+   "name": "ChefNMR2",
+   "key": "chefnmr2",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "与普林斯顿合作的 NMR 分子结构发现模型，已纳入 Kosmos；2031 个分子 top-1 准确率 82%。",
+   "url": "https://x.com/SGRodriques/status/2117359453330956289",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-03 04:53"
+  },
+  {
+   "name": "FireFlash",
+   "key": "fireflash",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "长程编码Agent，在Terminal-Bench 4.0达46.2%，成本远低于Fable 5 Max。",
+   "url": "https://x.com/gordonhu608/status/2117387472720347320",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-03 06:44"
+  },
+  {
+   "name": "Messages API 消息线程",
+   "key": "messagesapi消息线程",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "Anthropic推出Messages API消息线程公开Beta，支持服务端对话缓存，不是新模型。",
+   "url": "https://x.com/ClaudeDevs/status/2117332449382510884",
    "signals": [],
    "variants": [],
    "not_model": true,
-   "first_seen": "2026-11-02 21:01"
+   "first_seen": "2026-11-03 03:06"
   },
   {
-   "name": "PiVo-1.4M",
-   "key": "pivo14m",
+   "name": "Orbital Trace",
+   "key": "orbitaltrace",
    "sources": [
     "书签X"
    ],
-   "desc": "1.4M 参数的离线英语 TTS 模型，支持 CPU 运行。",
-   "url": "https://x.com/ModelScope2022/status/2117195229203730936",
+   "desc": "Mistral Large 4 演示：实时 3D 卫星/碎片追踪应用 Orbital Trace。不是新模型",
+   "url": "https://x.com/MistralAI/status/2117574509179900410",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-02 18:00"
+   "not_model": true,
+   "first_seen": "2026-11-03 19:08"
   },
   {
-   "name": "Hydrogen-1.0",
-   "key": "hydrogen10",
+   "name": "RE-USE",
+   "key": "reuse",
    "sources": [
     "书签X"
    ],
-   "desc": "基于 GLM-5.3 的科学推理模型，具备 1M 上下文，专注于化学与生命科学。",
-   "url": "https://x.com/ModelScope2022/status/2117164818880696417",
+   "desc": "NVIDIA NemotronLabs 9.6M 语音复原模型上架 ModelScope，处理噪声/混响/丢包等。",
+   "url": "https://x.com/ModelScope2022/status/2117542329007399246",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-02 16:00"
+   "first_seen": "2026-11-03 17:00"
   },
   {
-   "name": "Krea 2 OpenCast LoRA",
-   "key": "krea2opencastlora",
+   "name": "Audio8-TTS-Realistic-Air",
+   "key": "audio8ttsrealisticair",
    "sources": [
     "书签X"
    ],
-   "desc": "基于 Krea-2-Raw 的角色生成 LoRA 适配器。",
-   "url": "https://x.com/ModelScope2022/status/2117095944407667182",
+   "desc": "Audio8 TTS 更新版：0.6B、23 语、零样本克隆，更自然。",
+   "url": "https://x.com/ModelScope2022/status/2117514399468667067",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-02 11:26"
+   "first_seen": "2026-11-03 15:09"
+  },
+  {
+   "name": "OpenAI × Cathedral Systems 安全冲刺",
+   "key": "openaicathedralsystems安全冲刺",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "OpenAI 与 Cathedral Systems 合作开展下一轮内部安全冲刺。不是新模型",
+   "url": "https://x.com/OpenAI/status/2117444048227123277",
+   "signals": [],
+   "variants": [],
+   "not_model": true,
+   "first_seen": "2026-11-03 10:29"
   }
  ],
- "dupes": [],
+ "dupes": [
+  {
+   "name": "LifeVal",
+   "matched": "lifeval",
+   "ours": [
+    "我们X"
+   ]
+  },
+  {
+   "name": "Pando",
+   "matched": "pando",
+   "ours": [
+    "我们X"
+   ]
+  }
+ ],
  "board_keywords": []
 }

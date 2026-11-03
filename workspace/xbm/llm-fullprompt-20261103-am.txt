@@ -1,0 +1,67 @@
+你是 Halo Z 的推特书签简报分类助手。根据
+
+输入：
+{
+  "bookmarks": [
+    {
+      "id": "2117231911835988140",
+      "url": "https://x.com/bozhou_ai/status/2117231911835988140",
+      "author": "bozhou_ai",
+      "created_at": "2026-11-02T12:26:38.000Z",
+      "text": "Claude Code 省钱两大秘诀。\n\n1. 给 Claude 找个顾问：/advisor\n\n平时让便宜的 Sonnet 干活，只在关键时刻请 Opus 出主意，比如定方案之前、同一个错误反复出现时、宣布完成之前。\n\n/advisor opus\n\nOpus 只在这几个决策点出场，所以比全程用 Opus 便宜得多。关闭用 /advisor off。\n\n2. 提前压缩上下文：/autocompact\n\n1M 上下文的模型，默认要到大约 967K 才自动压缩。上下文越长，每次请求消耗的 token 越多，模型也越容易犯糊涂。我是设置在400K：\n\n/autocompact 400k\n\nAnthropic 的 Claude Code 团队成员 Lydia Hallie 推荐的就是 400K，宝玉自己用的是 300K。压缩就是把前面的对话精简成一段摘要再继续干活，原始会话还留在本地文件里，不会丢。",
+      "article_title": null
+    },
+    {
+      "id": "2117252418295738383",
+      "url": "https://x.com/bketck/status/2117252418295738383",
+      "author": "bketck",
+      "created_at": "2026-11-02T13:48:07.000Z",
+      "text": "https://t.co/LIT0JtjkOK",
+      "article_title": {
+        "title": "云居民 BOA 押金卡申请攻略：四张卡怎么选、谁能申、押金怎么交、多久能转正"
+      }
+    },
+    {
+      "id": "2117285992625508394",
+      "url": "https://x.com/kkkeric_ai/status/2117285992625508394",
+      "author": "kkkeric_ai",
+      "created_at": "2026-11-02T16:01:32.000Z",
+      "text": "free tool 是SEO起量最快的策略之一\n\n当你围绕某一个垂类场景产品去做增长时\n\nSEO带量的一个很有用的策略是free tool page，好处是：\n\n1、这种免费工具往往可以带来非常大的流量\n\n2、这种免费工具页能给你的站点提供不错的页面和SEO交互数据，比如停留时长等等\n\n3、这种免费工具容易引起用户在社媒上的自传播，这种传播和转发带来的就是外链和站外营销\n\n但是注意，这样的流量转化率奇低无比，只能作为策略之一给你的产品带一些流量和一些页面SEO数据\n\n图片、音频、视频和剪辑领域都有各种格式转化和细分功能的工具，他们的搜索量都很大而且是持续很大\n\n虽然转化率差但是是引流的一个利器",
+      "article_title": null
+    },
+    {
+      "id": "2117157830784659672",
+      "url": "https://x.com/WeiYi88890/status/2117157830784659672",
+      "author": "WeiYi88890",
+      "created_at": "2026-11-02T07:32:16.000Z",
+      "text": "我发现Starryblu也可以ACH入金美区PayPal\n\n而且还不需要手续费\n\n之前用Wise通过ACH入金PayPal最低都要1.13美元的手续费 https://t.co/zofIucE12c",
+      "article_title": null
+    },
+    {
+      "id": "2117241077367517628",
+      "url": "https://x.com/zynqorw/status/2117241077367517628",
+      "author": "zynqorw",
+      "created_at": "2026-11-02T13:03:03.000Z",
+      "text": "折腾了一下还是给拿下了，整个过程几分钟左右\n\nElios u卡的卡BIN 44136980，归属美国卡，支持绑定Apple Pay，kyc 通过后，卡和个人美元户同时下\n\nkyc 走的还是Sumsub，Elios u卡背后显示的发卡行居然是Rain，Rain 发行的一些卡都很权威啊\n\nElios 的个人美元银行账户背后的银行居然不是Lead Bank了，是SSB Bank，账户类型属于Checking\n\n现在使用国内护照甚至身份证就可以拿下，居住地址选择美国，填写美国地址，不需要提供地址证明\n\n整个过程最好保持ip 一致，准备好一个可以填写的美国地址，Rain 发行的卡趁着审核宽松，很有必要拿下",
+      "article_title": null
+    },
+    {
+      "id": "2117194945668714566",
+      "url": "https://x.com/NicholasDulait/status/2117194945668714566",
+      "author": "NicholasDulait",
+      "created_at": "2026-11-02T09:59:45.000Z",
+      "text": "https://t.co/LX7KKGlZ2d",
+      "article_title": {
+        "title": "Claude SEO Second Brain: The Complete Guide"
+      }
+    },
+    {
+      "id": "2117241567660704001",
+      "url": "https://x.com/wquguru/status/2117241567660704001",
+      "author": "wquguru",
+      "created_at": "2026-11-02T13:05:00.000Z",
+      "text": "没想到，注册和维护一家美国公司，比在国内开公司方便太多，费用甚至还更低。\n\n完整教程 + 给 Muse / Grok 的一键提示词，放评论区了。\n\n先说重点：\n\n1. 注册成本：首年全下来约 1800 元（公司注册 $153 + 苹果开发者组织账号 $99）\n2. 维护成本：约 1300 元/年，但有个大坑：每年必须按时提交信息申报，漏一次罚款 25000 美金起\n3. 实体地址：不需要，注册代理提供美国地址\n4. 国内手机号、国内住址：都能用，住址只填在私密材料里\n5. 隐私性：姓名、地址、电话都不进美国政府公开记录\n6. 税费：公司在美国层面 0 所得税，只有申报义务；利润转回国内，正常交 20% 个税\n\n适合做 App 出海、要美元收款、想用英文公司名当卖家的人。",
+      "article_title": null
+    }
+  ]
+}

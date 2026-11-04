@@ -1,7 +1,11 @@
 {
-  "checked_at": "2026-11-03T01:02:52.579412+00:00",
+  "checked_at": "2026-11-04T01:09:24.857057+00:00",
   "eligible": [],
   "needs_parameter_verification": [
+    {
+      "id": "stealth/crouton-alpha",
+      "context_length": 1048576
+    },
     {
       "id": "recursive/flint-v1.0:free",
       "context_length": 262144
@@ -74,9 +78,10 @@
     "nvidia/nemotron-3.5-super-vl:free",
     "openrouter/free",
     "recursive/flint-v1.0:free",
+    "stealth/crouton-alpha",
     "thinkingmachines/inkling-small:free",
     "thinkingmachines/inkling:free",
     "xingchen-agi/xing4.0-29b-a4b:free"
   ],
-  "free_count": 17
+  "free_count": 18
 }

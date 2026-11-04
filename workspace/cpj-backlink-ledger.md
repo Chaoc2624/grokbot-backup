@@ -1,0 +1,71 @@
+# China Private Journeys · 外链/目录台账
+
+站点：https://chinaprivatejourneys.com  
+**站规（2026-11-04 Halo/Grok总管 · 修订）**：目录/外链提交 **禁止个人 Gmail** / **禁止 `contact@`**。对外注册邮箱：`submit@chinaprivatejourneys.com`（CF Email Routing → `frame-submit@agentmail.to` 临时共用 Frame 隔离箱；验证信不进主 Gmail）。读信查 AgentMail `frame-submit@agentmail.to`，按 To/主题筛 CPJ。`cpj-submit@agentmail.to` 仍满额未开，有空位再拆独立箱。  
+规则：Live ≠ 提交成功；NEED_BROWSER / 付费墙 / 仅 Pending 确认信不算 Live。出处：`增长知识库/04-内容与外链/02-外链/目录站提交质量门控与证据账本（flaqai-backlink_skills）.md` · site-growth-operator Isolation email
+
+| ID | 日期 (Asia/Taipei) | 渠道 | URL/入口 | 动作 | 状态 | 证据 | 备注 |
+|---|---|---|---|---|---|---|---|
+| 1 | 2026-11-04 17:43 | Active Search Results | https://www.activesearchresults.com/addwebsite.php | POST（误用已删 submit@→Gmail） | **Void / 不计** | `daily-runs/2026-11-04/asr-submit.html` | 站规事后作废；保留证据 |
+| 2 | 2026-11-04 17:44 | Viesearch | https://viesearch.com/submit | POST（误用已删 submit@）→`/plan` | **Void / 不计** | `viesearch-submit.html` | 同上；付费墙边缘未付款 |
+| 3 | 2026-11-04 | ExactSeek | https://www.exactseek.com/add.html | 未交 | **NEED_BROWSER** | captcha | **邮已就绪** `submit@`；等人手过验证码 | → email verified Pending 2026-11-04 22:54 Asia/Taipei
+| 4 | 2026-11-04 | Brownbook | https://www.brownbook.net/business/56072163/china-private-journeys | Claim | **Live · Claimed** | claim-completed + Claimed badge | submit@；未点 Blinx；未付费 |
+| 5 | 2026-11-04 17:xx | PeerPush | https://peerpush.com/submit | 早先探测 522 | Failed/Down（历史） | HTTP 522 | 保留；见 ID 10 复测 |
+| 6 | 2026-11-04 | Startup88 | https://startup88.typeform.com/to/CRjWqM | POST Typeform | **Pending**（已提交，无 Live URL） | startup88-confirmation.png | submit@；拒 $9.95 express；拒 ML5HVF upsell |
+| 7 | 2026-11-04 | ASEAN Now | https://aseannow.com/register/ | Sign up + email OK | **Awaiting staff approval** | «Your email has been confirmed» | mid=387122；Vault 2983675；非传统目录 Live |
+| 8 | 2026-11-04 | IndexNow | api.indexnow.org | POST 9 URLs | Submitted | HTTP 202 | 不涉及邮箱；保留有效 |
+| 9 | 2026-11-04 22:52 | Active Search Results | https://www.activesearchresults.com/addwebsite.php | POST 合规邮重交：url=`https://chinaprivatejourneys.com/` email=`submit@chinaprivatejourneys.com` | **Pending**（等确认信） | `daily-runs/2026-11-04/asr-resubmit-submit-at.html` → `urladdedconfirm.php`「Thank you for adding…」 | **禁止标 Live**；读信查 `frame-submit@agentmail.to` |
+| 10 | 2026-11-04 22:52 | PeerPush | https://peerpush.com/submit | 复测可达（未提交） | **NEED_BROWSER** / 可访问 | HTTP 200 · `#submit-url` | 不再 522；字段见 manual-dirs；**勿买 Sponsored**；邮已就绪 |
+| — | 2026-11-04 22:52 | （政策） | — | — | 🟢 隔离邮就绪 | CF `submit@` → AgentMail `frame-submit@` | 目录可恢复手动/浏览器交 |
+
+**今日有效 Live = 1（Brownbook Claimed）** · ASR 合规重交 = **Pending** · 待外部：ExactSeek/ASR/Startup88 Pending；ASEAN Awaiting Approval；PeerPush Queued#10080；Brownbook Claimed
+
+## ExactSeek verify 2026-11-04 22:54 Asia/Taipei
+- Form submitted with submit@chinaprivatejourneys.com
+- Confirm mail arrived at frame-submit@agentmail.to (To: submit@)
+- Clicked https://www.exactseek.com/cgi-bin/everify.cgi?m=932268&c=IZB90y → **You have already verified.**
+- Status: **Pending** (email verified; not Live until listing appears)
+- Evidence: /workspace/gsc-china-private-journeys/daily-runs/2026-11-04/exactseek-verify2.html
+
+## PeerPush 2026-11-04 22:59 Asia/Taipei
+- Email: submit@chinaprivatejourneys.com (signed in as submit5918)
+- Standard free queue only; declined $23.40 Sponsored upsell
+- Queue #10080 · wait ~3 months 11 days · Coming soon (not Live / not crawlable while queued)
+- Listing: https://peerpush.com/p/china-private-journeys
+- Status: **Queued** (not Live)
+
+## Brownbook 2026-11-04 23:06 Asia/Taipei
+- Email verified for submit@chinaprivatejourneys.com
+- businessId 56072163
+- Public: https://www.brownbook.net/business/56072163/china-private-journeys
+- Status: **Live (Unclaimed)** — claim pending login with submit@
+- Category submitted as Travel Agencies (directory taxonomy; platform is enquiry-routing)
+- Login secrets: /home/box/secrets/china-private-journeys-analytics/brownbook-login.txt
+
+## Brownbook claim 2026-11-04 23:11 Asia/Taipei
+- Claimed businessId 56072163 with submit@chinaprivatejourneys.com
+- Confirmation: https://www.brownbook.net/business/56072163/56072163/claim-completed («Claim Complete»)
+- Listing: https://www.brownbook.net/business/56072163/china-private-journeys — green **Claimed** badge; Claimed by: China Private Journeys
+- Declined «Get your Blinx Page» trial ($5/mo after 30d); stayed on basic page; no card / no upgrade
+- Evidence screenshots: claim-complete + claimed-listing under agent assets store
+
+## Startup88 2026-11-04 23:16 Asia/Taipei
+- Submitted free Typeform https://startup88.typeform.com/to/CRjWqM with submit@chinaprivatejourneys.com
+- Confirmation on same URL: «You made it :) Thanks very much for submitting your Startup.»
+- Declined $9.95 express review and post-submit https://startup88.typeform.com/to/ML5HVF upsell
+- No separate listing URL; no email-verify step shown
+- Founder name = China Private Journeys; «Are you the founder?» = Yes (skipped personal name); Twitter blank; City Guangzhou, China; Capital raised None; image upload skipped
+- Evidence: /workspace/startup88-confirmation.png
+
+## ASEAN Now 2026-11-04 23:31 Asia/Taipei
+- Registered Display Name «CPJ Submit» with submit@chinaprivatejourneys.com
+- Awaiting Validation URL: https://aseannow.com/register/?do=validating
+- Confirm mail: «You must validate your account to continue» (mid=387122)
+- Vault login: ASEAN Now CPJ submit (id 2983675)
+- Email validation click in progress
+
+## ASEAN Now validate 2026-11-04 23:32 Asia/Taipei
+- Clicked validate link from support@aseannow.com → flash «Your email has been confirmed»
+- Settled: Awaiting Approval — staff must approve before member use; approval mail → submit@
+- Not usable member yet; no profile/listing URL; no forum post
+

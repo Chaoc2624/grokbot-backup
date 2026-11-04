@@ -1,880 +1,120 @@
 {
  "leads": [
   {
-   "term": "pando",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 2 个账号 ♥5457"
-   ],
-   "examples": [
-    "@OpenAIDevs: We built Pando, a new Git backend for our monorepo, to handle more pushes and fe",
-    "@dotey: AI 写的代码太多，Git 扛不住了：OpenAI 保留 Git 只换服务器，Anthropic 自己做了一套新系统 OpenAI 11 月 2 日发文介绍 P"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "OpenAIDevs",
-     "text": "We built Pando, a new Git backend for our monorepo, to handle more pushes and fetches without changing how our engineers and agents use Git. Pando cut push latency by ~80% and now serves nearly a petabyte of Git data a day. We can grow Git capacity alongside agent usage. https://t.co/4c0YXOfKqK",
-     "url": "https://x.com/OpenAIDevs/status/2117408792346509663",
-     "likes": 5386
-    },
-    {
-     "account": "dotey",
-     "text": "AI 写的代码太多，Git 扛不住了：OpenAI 保留 Git 只换服务器，Anthropic 自己做了一套新系统 OpenAI 11 月 2 日发文介绍 Pando，一套自研的 Git 服务器后端。上个月 13 日，Anthropic 也发文介绍了自研的源代码管理系统 Scion。 两家碰到的是同一个问题：AI agent 写代码太快，管代码的系统成了整个公司开发速度的瓶颈。两家的解法方向相反。 先交代一下 Git：它是程序员管理代码版本的工具。每次改动存成一个“提交”，推送（push）到公司服务器，同事再从服务器拉取（fetch）。“分支”是同一份代码的平行草稿，各改各的，改好再合并进主线。两家都把全公司的代码放在同一个大仓库里，业内叫 monorepo。 OpenAI 的路线是改造 Git。 工程师和 agent 还是敲 git push、git pull，只把服务器换成 Pando。推送代码的中位等待时间缩短近 80%，每天往外分发近 1PB（约 100 万 GB）代码数据。 Anthropic 的路线是替换 Git。 Scion 有自己的客户端和服务器，提交、合并都在服务器上完成，配套的代码审查、代码搜索工具也是自己写的。CI（每次改动后自动构建和测试的流程）拉代码从几分钟变成几秒，服务器占用的 CPU 和内存只有原来那套的 1/200。 两套系统都不对外提供。 OpenAI 说正在研究怎么把 Pando 的技术提供给用户，过程中给 Git 修的问题已经提交给 Git 官方，有几项进了正式版。 Anthropic 说 Scion 只适合巨型代码仓库，用它得把代码审查、搜索、CI 全部换掉，别的公司很难直接用，所以只分享设计思路，希望 GitHub、GitLab 和开源社区吸收其中有用的部分。 如果你的团队用 GitHub 或 GitLab，OpenAI 这条路离你更近：改进直接进 Git，工具链不用换。两家都认为别的公司迟早会碰到同样的问题，Anthropic 预计未来 6 到 12 个月这类问题会更常见。 【Git 为什么扛不住】 提交量涨得太快。以 2024 年第一季度为基准，OpenAI 合入主线的提交数到 2026 年第三季度涨到近 15 倍，第四季度预计约 25 倍。Anthropic 每天合入的改动，5 月约 2500 个，9 月超过 3 万个，4 个月变成原来的 12 倍多。 压力会叠加：一个工程师同时有好几个改动等着测试，每推送一次，又有好几个测试任务去拉同一份代码。 OpenAI 从去年年底开始拉代码、推代码都变慢，合并经常失败，可靠性一度低于 90%，相当于每 10 次操作有超过 1 次出问题。 Anthropic 的主线历史接近 100GB，压缩后的工作副本超过 25GB，光 CI 每天就要拉约 2500 万次代码，全量下载的话每天超过 600PB。它最多时开了几百台 Git 镜像服务器分担压力，越来越难维护。 Anthropic 总结了根本原因：Git 的设计假设每个人都离线工作，所以每人手里都要有一份完整仓库。现在拉代码的大多是 agent 和自动任务，它们一直联网，背着整个仓库跑反而成了负担。 【写代码：别让所有人排一条队】 多人同时推送时，服务器要保证每个分支“现在指向哪个提交”的指针（Git 里叫 ref，可以理解成书签）不被改乱。 OpenAI 评估过两种常见做法，都要让整个仓库的改动排成一条队。 一种是三阶段提交（3PC）：几台服务器各存一份完整仓库，每次推送要过半数服务器同意，分三轮来回确认，推送量一大，各台服务器的硬盘先忙不过来。 另一种是预写日志（WAL）：所有改动先记进一本共享的流水账，再照着执行，不管改哪个分支都要抢着往同一本账上写，账记得太快，服务器又来不及照着更新，别人拉到新代码要等更久。 Pando 的办法是每个分支各管各的。 推 A 分支和推 B 分支互不等待，只有两个人同时推同一个分支才会冲突。代价是同时看好几个分支，看到的可能是各自不同时刻的状态。OpenAI 说，人和 agent 实际只关心单个分支的前后顺序。 Anthropic 走得更远：提交直接在服务器上生成，没有推送这一步，每次提交只记哪些文件变了。 Scion 尽量少用分支，主线和发布分支之外基本不用，因为所有服务器都要对分支状态达成一致，规模一大就是麻烦。两家最后都把移动书签简化成一次“比较并替换”操作，Pando 改的是一个键，Scion 改的是数据库里的一行。 Anthropic 还取消了合并前的全局排队。传统做法是合并时锁住仓库，一个个测完再放行。Anthropic 说测试还没跑完，已经有成百上千个改动合进去了，排队没法做，于是改成合并后、上线前再自动测试。同时合入的改动可能冲突，Claude 修冲突的速度通常比人发现冲突还快。 【拉代码：别给每个人现场打包】 传统 Git 服务器给每个来拉代码的人现场算一个专属压缩包（packfile，Git 把一批文件压在一起的格式，相似文件只存差异），只装对方缺的部分。来的人一多，CPU 和硬盘就扛不住。两家都绕开了这一步，方法相反。 Pando 像发统一包装的快递箱：推送者上传的压缩包原样存起来，谁要就发谁，服务器几乎不用计算。 为了让包人人能用，推送时只让客户端对照主干打包：主干上已有的内容一律不装，包里只有这个分支改过的文件、对应的目录清单和提交记录，压缩后中位数不到 20KB。 后台再把小包逐级合并成大包，免得落后几天的人要下几万个小文件。代价是客户端偶尔会多下一些已有的内容。 Scion 像超市自取：完全不用压缩包，客户端缺哪个文件就要哪个文件。 每个文件按内容算出一个编号，内容一变编号就变，同一编号的文件永远不变，所以任何一层缓存都能直接回答，不用跟其他服务器核对。 客户端还可以只取自己需要的目录，或者等真读到某个文件时再下载。 两家的缓存命中率都超过 99%。 【结果，以及谁做出来的】 OpenAI：推送中位等待时间缩短近 80%，用少量 CPU 核心每天分发近 1PB，最高一小时发出 57TB。用普通云服务器测试，拉代码能跑满 10Gbps 的网络带宽。 Anthropic：服务器 CPU 和内存占用是原来 Git 镜像的 1/200，CI 和研究任务拉代码快了两个数量级（约 100 倍），光 CI 就省下 25% 的 CPU。 两套系统都是 AI 写的。 Pando 从立项到上线用了 10 周，核心设计出自一名工程师，代码主要由 Codex 驱动的 agent 写，几名工程师负责部署，今年 4 月开始承接生产流量。 Scion 由 7 个人用 5 个月做完，同期还做了代码审查工具 Antique 和另外五六个系统，并完成整体迁移。 Anthropic 原先手写了一版把 Git 数据导入 Scion 的程序，交给内部早期版本的 Claude Mythos Preview 重写，内存占用降到 1/20，速度快了 4 倍。 Anthropic 的工程师说，Claude 写代码已经比他们强，他们的价值在于把握系统设计和取舍，很多时候是对 Claude 说“不”：agent 会为了套用某种做法而违反系统的核心约束，也会为了假想的风险堆太多防御代码。 原文： OpenAI《Scaling Git at OpenAI》https://t.co/TvB0c9mX62 Anthropic《Redesigning source control at Anthropic》https://t.co/pUtmrzacH8 OpenAI 官方推文：https://t.co/01sNVoCzBp https://t.co/ml9zXEPt0j",
-     "url": "https://x.com/dotey/status/2117484277277286623",
-     "likes": 71
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "lifeval",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥6071"
-   ],
-   "examples": [
-    "@OpenAI: For AGI to benefit all of humanity, it should help people with the everyday task"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "OpenAI",
-     "text": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services to managing personal finances. Over the past year, we’ve used LifeVal to measure and improve how well our models handle these everyday tasks. https://t.co/GlUjixzEM0",
-     "url": "https://x.com/OpenAI/status/2117307611338997846",
-     "likes": 6071
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "qwen3.5-0.8b 0.016",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥285"
-   ],
-   "examples": [
-    "@dotey: 不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7."
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "dotey",
-     "text": "不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7.9% 涨到 48.1%，约 6 倍。 这是 MIT CSAIL 四位研究者 11 月 2 日发的博客，他们把这叫“在权重空间里编程”：前沿大模型可以像读写代码一样，直接读懂、修改、甚至从零写出神经网络的权重。 过去的常识是，权重是训练出来的，人看不懂也没法手改，想改模型只能再训练。这项工作把原始权重直接交给通用大模型，让它自己读、自己改。 几个实验： 只看权重，不给游戏名、不给工具，Astra 认出了四个结构完全相同的游戏网络：打砖块、乒乓、吃豆人、过马路。 一辆训练了 10 亿步、256 次全失败的仿真小车，Astra 看了权重和一次失败录像，一次回复改了 3.5% 的权重，之后 1,024 次全部成功。 从零写打砖块网络，没有数据、不能试玩，一次写成，得分 517.4，是训练 5 亿步的强化学习网络（25.3）的约 20 倍。另外两个游戏没超过训练 5 亿步的版本。 Qwen 的 6 倍有几个条件： 原模型开思考模式后容易陷入重复循环，93% 的回答一直输出到长度上限，起点很低。Astra 找到第 15、19 层里引起循环的一个方向，把它删掉。 这要允许 Astra 拿练习题试跑 50 次。只试 10 次或 25 次，循环基本没消失。 换成很少循环的 Gemma 3 270M，同样的方法没带来提升。作者的结论是：改权重能去掉挡住能力的障碍，加不出模型本来没有的能力。 和“AI 改进 AI”的关系：现在的自我改进，大多是让 AI 生成数据、写训练代码，最后还是靠训练。作者把“模型检查并改进自己或下一代的权重”列为后续方向之一。 Chandan Singh 也公开了类似实验：Claude 在加法、排序等 10 个算法任务上直接写出小模型权重，最多 3 次就全部 100% 正确。他的报告也记录了，有一个任务里 Claude 用测试集数据做了拟合，违反规则，那个结果被判无效。 目前结果都由作者自己报告，还没有独立复现。 原文：https://t.co/4rLY5FHftN",
-     "url": "https://x.com/dotey/status/2117408133773705525",
-     "likes": 285
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "gemma 3 270m",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥285"
-   ],
-   "examples": [
-    "@dotey: 不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7."
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "dotey",
-     "text": "不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7.9% 涨到 48.1%，约 6 倍。 这是 MIT CSAIL 四位研究者 11 月 2 日发的博客，他们把这叫“在权重空间里编程”：前沿大模型可以像读写代码一样，直接读懂、修改、甚至从零写出神经网络的权重。 过去的常识是，权重是训练出来的，人看不懂也没法手改，想改模型只能再训练。这项工作把原始权重直接交给通用大模型，让它自己读、自己改。 几个实验： 只看权重，不给游戏名、不给工具，Astra 认出了四个结构完全相同的游戏网络：打砖块、乒乓、吃豆人、过马路。 一辆训练了 10 亿步、256 次全失败的仿真小车，Astra 看了权重和一次失败录像，一次回复改了 3.5% 的权重，之后 1,024 次全部成功。 从零写打砖块网络，没有数据、不能试玩，一次写成，得分 517.4，是训练 5 亿步的强化学习网络（25.3）的约 20 倍。另外两个游戏没超过训练 5 亿步的版本。 Qwen 的 6 倍有几个条件： 原模型开思考模式后容易陷入重复循环，93% 的回答一直输出到长度上限，起点很低。Astra 找到第 15、19 层里引起循环的一个方向，把它删掉。 这要允许 Astra 拿练习题试跑 50 次。只试 10 次或 25 次，循环基本没消失。 换成很少循环的 Gemma 3 270M，同样的方法没带来提升。作者的结论是：改权重能去掉挡住能力的障碍，加不出模型本来没有的能力。 和“AI 改进 AI”的关系：现在的自我改进，大多是让 AI 生成数据、写训练代码，最后还是靠训练。作者把“模型检查并改进自己或下一代的权重”列为后续方向之一。 Chandan Singh 也公开了类似实验：Claude 在加法、排序等 10 个算法任务上直接写出小模型权重，最多 3 次就全部 100% 正确。他的报告也记录了，有一个任务里 Claude 用测试集数据做了拟合，违反规则，那个结果被判无效。 目前结果都由作者自己报告，还没有独立复现。 原文：https://t.co/4rLY5FHftN",
-     "url": "https://x.com/dotey/status/2117408133773705525",
-     "likes": 285
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "anthropic residency",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 2 个账号 ♥30524"
-   ],
-   "examples": [
-    "@AnthropicAI: Applications are now open for the Anthropic Residency, a paid, fixed-term resear",
-    "@dotey: Anthropic 招驻留研究员：教授、技术创始人、资深工程师可转行做 AI 安全，不要求机器学习背景，年薪折合 35 万到 50 万美元，11 月 22 日截"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "AnthropicAI",
-     "text": "Applications are now open for the Anthropic Residency, a paid, fixed-term research program for academics, technical founders, and staff-level engineers who want to make AI safe and beneficial for everyone. No ML background is required. Apply by November 22: https://t.co/uhcXhKTgnO",
-     "url": "https://x.com/AnthropicAI/status/2117343929960112486",
-     "likes": 30375
-    },
-    {
-     "account": "dotey",
-     "text": "Anthropic 招驻留研究员：教授、技术创始人、资深工程师可转行做 AI 安全，不要求机器学习背景，年薪折合 35 万到 50 万美元，11 月 22 日截止 Anthropic 今天开放了 Anthropic Residency（驻留研究项目）的申请。这是一个付费、有固定期限的全职研究项目，分六周、三个月、六个月三档，招的是在别的技术领域已经做出成绩、想转行全职做 AI 安全研究的人。不要求机器学习背景。 【谁适合申请】 官方点名三类人：定量学科（数学、物理、统计这类靠数字和模型做研究的学科）的教授、技术型创始人、Staff 级工程师（大厂里比高级工程师再高一级、能主导大型项目的那一层）。官方写明，不需要博士学位、机器学习经验或论文发表记录。 招聘页列的加分项是：写过机器学习、自然语言处理或 AI 安全方向的论文，或者有大模型、强化学习、Kubernetes 集群和大型共享代码库的经验。 Anthropic 给的理由是，机器学习还是个年轻领域，现在很多资深研究员（包括 Anthropic 自己的）原本是物理学家、数学家、神经科学家或软件工程师。模型越强，研究里越重要的是定研究方向、判断什么值得做，其他领域的资深人士往往已经擅长这些，缺的是对前沿 AI 的了解。 这个项目是照着 Anthropic Fellows 项目改的。Fellows 面向新入行的研究者，出过“潜意识学习”（模型通过看似无关的数据把行为倾向传给另一个模型）、Petri 模型审计工具、人格向量等研究。Residency 把同样的模式用在有资历的技术负责人身上。 【去了做什么】 每人配一位 Anthropic 研究员当导师，定期一对一指导，课题由 Anthropic 研究员提出、按个人兴趣和背景匹配。项目留出自学时间，配讲座和辅导，帮人补上现代机器学习和 AI 安全的基础；可以用前沿模型，课题有专门的算力预算。 研究方向分三块。 第一块是 AI 安全与对齐，比如模型在某些领域超过人类之后怎么监督它、拆开模型看内部怎么运作、AI 福祉。 第二块是 AI 安全攻防和前沿红队测试，专门摸清模型在网络安全、机器人、密码学等领域到底能做到什么程度。 第三块是模型训练和背后的基础设施，从模型架构、优化器、训练数据，到加速器模拟器、硬件后端和强化学习训练环境。 官方列了 9 位可能的导师，包括对齐科学团队负责人 Ethan Perez、模型心理学团队负责人 Jack Lindsey、前 Google Brain 首席科学家 Jascha Sohl-Dickstein、研究对抗机器学习和 AI 安全的 Nicholas Carlini。 【待遇和地点】 美国岗年薪折合 35 万到 50 万美元，英国岗 26.5 万到 37.5 万英镑，按实际时长折算，另有福利。按比例算，做满六个月是 17.5 万到 25 万美元。 Anthropic 希望大家在旧金山办公室工作，但也能远程，短期项目尤其如此。远程的人必须身在 Anthropic 能合法雇人的国家，官方没列具体是哪些国家。三个月及以上可以办签证，六周的鼓励远程参加。英国岗默认在英国远程，可以去伦敦办公室。 Anthropic 说，目标是让每个人结束后都能继续全职做 AI 研究，去 Anthropic 或别处都可以。它同时提到，Anthropic 大多数全职研究岗要求搬到旧金山。 【怎么申请】 招聘页分美国岗（地点写的是旧金山、纽约）和英国岗（伦敦）两个入口。截止时间是太平洋时间 11 月 22 日晚 11:59，也就是北京时间 11 月 23 日下午 3:59。流程是提交申请、招聘官初筛、技术评估、研究讨论、背景调查，预计 2027 年 1 月发录用通知。申请人也可能被一并考虑进 Fellows 项目。 项目介绍：https://t.co/jF1d5ZWVf7 美国岗申请：https://t.co/ZfXvoJwZhw 英国岗申请：https://t.co/y3f9xipFaQ",
-     "url": "https://x.com/dotey/status/2117361528504496318",
-     "likes": 149
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "mit csail",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 2 个账号 ♥358"
-   ],
-   "examples": [
-    "@dotey: 不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7.",
-    "@op7418: 昨晚推上 AI 圈最热门的研究： 我们可能可以像编程一样，让 AI 编写 AI 模型的模型权重文件了。 MIT CSAIL 团队团队用 GPT-6 Astra "
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "dotey",
-     "text": "不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7.9% 涨到 48.1%，约 6 倍。 这是 MIT CSAIL 四位研究者 11 月 2 日发的博客，他们把这叫“在权重空间里编程”：前沿大模型可以像读写代码一样，直接读懂、修改、甚至从零写出神经网络的权重。 过去的常识是，权重是训练出来的，人看不懂也没法手改，想改模型只能再训练。这项工作把原始权重直接交给通用大模型，让它自己读、自己改。 几个实验： 只看权重，不给游戏名、不给工具，Astra 认出了四个结构完全相同的游戏网络：打砖块、乒乓、吃豆人、过马路。 一辆训练了 10 亿步、256 次全失败的仿真小车，Astra 看了权重和一次失败录像，一次回复改了 3.5% 的权重，之后 1,024 次全部成功。 从零写打砖块网络，没有数据、不能试玩，一次写成，得分 517.4，是训练 5 亿步的强化学习网络（25.3）的约 20 倍。另外两个游戏没超过训练 5 亿步的版本。 Qwen 的 6 倍有几个条件： 原模型开思考模式后容易陷入重复循环，93% 的回答一直输出到长度上限，起点很低。Astra 找到第 15、19 层里引起循环的一个方向，把它删掉。 这要允许 Astra 拿练习题试跑 50 次。只试 10 次或 25 次，循环基本没消失。 换成很少循环的 Gemma 3 270M，同样的方法没带来提升。作者的结论是：改权重能去掉挡住能力的障碍，加不出模型本来没有的能力。 和“AI 改进 AI”的关系：现在的自我改进，大多是让 AI 生成数据、写训练代码，最后还是靠训练。作者把“模型检查并改进自己或下一代的权重”列为后续方向之一。 Chandan Singh 也公开了类似实验：Claude 在加法、排序等 10 个算法任务上直接写出小模型权重，最多 3 次就全部 100% 正确。他的报告也记录了，有一个任务里 Claude 用测试集数据做了拟合，违反规则，那个结果被判无效。 目前结果都由作者自己报告，还没有独立复现。 原文：https://t.co/4rLY5FHftN",
-     "url": "https://x.com/dotey/status/2117408133773705525",
-     "likes": 285
-    },
-    {
-     "account": "op7418",
-     "text": "昨晚推上 AI 圈最热门的研究： 我们可能可以像编程一样，让 AI 编写 AI 模型的模型权重文件了。 MIT CSAIL 团队团队用 GPT-6 Astra 直接编辑了 Qwen 0.8B 模型的权重，大幅提升了它的数学能力。 他们仅更改了 0.016% 权重的情况下，将数学能力提高了 6 倍，指令跟随能力提高了 3 倍。 没有进行重新训练，也没有进行后训练和强化学习，只是直接更改了它的参数。 这带来了一个非常新的范式，对模型的可解释性有了大幅提升，也就是说我们可能可以不通过训练，直接提高模型能力。 特别大的模型由于参数量太大，可能会比较麻烦，但小模型在未来一段时间内能力会大幅提升。 具体有这么几个方向： 释放它已有的能力，比如实验里改善的千问 0.8B 出现重复推理、频繁触及思考长度上限的问题。 将某种控制策略直接移植到模型里面去。模型的控制和对齐是非常难的事，现在可以直接硬性控制它。 重新组织计算。用更有效的计算路径，替换模型训练出来的低效策略。 相当于给模型训练和控制做了一套编程体系，这个想象力太大了。",
-     "url": "https://x.com/op7418/status/2117459252721971606",
-     "likes": 73
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.6
-  },
-  {
-   "term": "git",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 2 个账号 ♥5457"
-   ],
-   "examples": [
-    "@OpenAIDevs: We built Pando, a new Git backend for our monorepo, to handle more pushes and fe",
-    "@dotey: AI 写的代码太多，Git 扛不住了：OpenAI 保留 Git 只换服务器，Anthropic 自己做了一套新系统 OpenAI 11 月 2 日发文介绍 P"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "OpenAIDevs",
-     "text": "We built Pando, a new Git backend for our monorepo, to handle more pushes and fetches without changing how our engineers and agents use Git. Pando cut push latency by ~80% and now serves nearly a petabyte of Git data a day. We can grow Git capacity alongside agent usage. https://t.co/4c0YXOfKqK",
-     "url": "https://x.com/OpenAIDevs/status/2117408792346509663",
-     "likes": 5386
-    },
-    {
-     "account": "dotey",
-     "text": "AI 写的代码太多，Git 扛不住了：OpenAI 保留 Git 只换服务器，Anthropic 自己做了一套新系统 OpenAI 11 月 2 日发文介绍 Pando，一套自研的 Git 服务器后端。上个月 13 日，Anthropic 也发文介绍了自研的源代码管理系统 Scion。 两家碰到的是同一个问题：AI agent 写代码太快，管代码的系统成了整个公司开发速度的瓶颈。两家的解法方向相反。 先交代一下 Git：它是程序员管理代码版本的工具。每次改动存成一个“提交”，推送（push）到公司服务器，同事再从服务器拉取（fetch）。“分支”是同一份代码的平行草稿，各改各的，改好再合并进主线。两家都把全公司的代码放在同一个大仓库里，业内叫 monorepo。 OpenAI 的路线是改造 Git。 工程师和 agent 还是敲 git push、git pull，只把服务器换成 Pando。推送代码的中位等待时间缩短近 80%，每天往外分发近 1PB（约 100 万 GB）代码数据。 Anthropic 的路线是替换 Git。 Scion 有自己的客户端和服务器，提交、合并都在服务器上完成，配套的代码审查、代码搜索工具也是自己写的。CI（每次改动后自动构建和测试的流程）拉代码从几分钟变成几秒，服务器占用的 CPU 和内存只有原来那套的 1/200。 两套系统都不对外提供。 OpenAI 说正在研究怎么把 Pando 的技术提供给用户，过程中给 Git 修的问题已经提交给 Git 官方，有几项进了正式版。 Anthropic 说 Scion 只适合巨型代码仓库，用它得把代码审查、搜索、CI 全部换掉，别的公司很难直接用，所以只分享设计思路，希望 GitHub、GitLab 和开源社区吸收其中有用的部分。 如果你的团队用 GitHub 或 GitLab，OpenAI 这条路离你更近：改进直接进 Git，工具链不用换。两家都认为别的公司迟早会碰到同样的问题，Anthropic 预计未来 6 到 12 个月这类问题会更常见。 【Git 为什么扛不住】 提交量涨得太快。以 2024 年第一季度为基准，OpenAI 合入主线的提交数到 2026 年第三季度涨到近 15 倍，第四季度预计约 25 倍。Anthropic 每天合入的改动，5 月约 2500 个，9 月超过 3 万个，4 个月变成原来的 12 倍多。 压力会叠加：一个工程师同时有好几个改动等着测试，每推送一次，又有好几个测试任务去拉同一份代码。 OpenAI 从去年年底开始拉代码、推代码都变慢，合并经常失败，可靠性一度低于 90%，相当于每 10 次操作有超过 1 次出问题。 Anthropic 的主线历史接近 100GB，压缩后的工作副本超过 25GB，光 CI 每天就要拉约 2500 万次代码，全量下载的话每天超过 600PB。它最多时开了几百台 Git 镜像服务器分担压力，越来越难维护。 Anthropic 总结了根本原因：Git 的设计假设每个人都离线工作，所以每人手里都要有一份完整仓库。现在拉代码的大多是 agent 和自动任务，它们一直联网，背着整个仓库跑反而成了负担。 【写代码：别让所有人排一条队】 多人同时推送时，服务器要保证每个分支“现在指向哪个提交”的指针（Git 里叫 ref，可以理解成书签）不被改乱。 OpenAI 评估过两种常见做法，都要让整个仓库的改动排成一条队。 一种是三阶段提交（3PC）：几台服务器各存一份完整仓库，每次推送要过半数服务器同意，分三轮来回确认，推送量一大，各台服务器的硬盘先忙不过来。 另一种是预写日志（WAL）：所有改动先记进一本共享的流水账，再照着执行，不管改哪个分支都要抢着往同一本账上写，账记得太快，服务器又来不及照着更新，别人拉到新代码要等更久。 Pando 的办法是每个分支各管各的。 推 A 分支和推 B 分支互不等待，只有两个人同时推同一个分支才会冲突。代价是同时看好几个分支，看到的可能是各自不同时刻的状态。OpenAI 说，人和 agent 实际只关心单个分支的前后顺序。 Anthropic 走得更远：提交直接在服务器上生成，没有推送这一步，每次提交只记哪些文件变了。 Scion 尽量少用分支，主线和发布分支之外基本不用，因为所有服务器都要对分支状态达成一致，规模一大就是麻烦。两家最后都把移动书签简化成一次“比较并替换”操作，Pando 改的是一个键，Scion 改的是数据库里的一行。 Anthropic 还取消了合并前的全局排队。传统做法是合并时锁住仓库，一个个测完再放行。Anthropic 说测试还没跑完，已经有成百上千个改动合进去了，排队没法做，于是改成合并后、上线前再自动测试。同时合入的改动可能冲突，Claude 修冲突的速度通常比人发现冲突还快。 【拉代码：别给每个人现场打包】 传统 Git 服务器给每个来拉代码的人现场算一个专属压缩包（packfile，Git 把一批文件压在一起的格式，相似文件只存差异），只装对方缺的部分。来的人一多，CPU 和硬盘就扛不住。两家都绕开了这一步，方法相反。 Pando 像发统一包装的快递箱：推送者上传的压缩包原样存起来，谁要就发谁，服务器几乎不用计算。 为了让包人人能用，推送时只让客户端对照主干打包：主干上已有的内容一律不装，包里只有这个分支改过的文件、对应的目录清单和提交记录，压缩后中位数不到 20KB。 后台再把小包逐级合并成大包，免得落后几天的人要下几万个小文件。代价是客户端偶尔会多下一些已有的内容。 Scion 像超市自取：完全不用压缩包，客户端缺哪个文件就要哪个文件。 每个文件按内容算出一个编号，内容一变编号就变，同一编号的文件永远不变，所以任何一层缓存都能直接回答，不用跟其他服务器核对。 客户端还可以只取自己需要的目录，或者等真读到某个文件时再下载。 两家的缓存命中率都超过 99%。 【结果，以及谁做出来的】 OpenAI：推送中位等待时间缩短近 80%，用少量 CPU 核心每天分发近 1PB，最高一小时发出 57TB。用普通云服务器测试，拉代码能跑满 10Gbps 的网络带宽。 Anthropic：服务器 CPU 和内存占用是原来 Git 镜像的 1/200，CI 和研究任务拉代码快了两个数量级（约 100 倍），光 CI 就省下 25% 的 CPU。 两套系统都是 AI 写的。 Pando 从立项到上线用了 10 周，核心设计出自一名工程师，代码主要由 Codex 驱动的 agent 写，几名工程师负责部署，今年 4 月开始承接生产流量。 Scion 由 7 个人用 5 个月做完，同期还做了代码审查工具 Antique 和另外五六个系统，并完成整体迁移。 Anthropic 原先手写了一版把 Git 数据导入 Scion 的程序，交给内部早期版本的 Claude Mythos Preview 重写，内存占用降到 1/20，速度快了 4 倍。 Anthropic 的工程师说，Claude 写代码已经比他们强，他们的价值在于把握系统设计和取舍，很多时候是对 Claude 说“不”：agent 会为了套用某种做法而违反系统的核心约束，也会为了假想的风险堆太多防御代码。 原文： OpenAI《Scaling Git at OpenAI》https://t.co/TvB0c9mX62 Anthropic《Redesigning source control at Anthropic》https://t.co/pUtmrzacH8 OpenAI 官方推文：https://t.co/01sNVoCzBp https://t.co/ml9zXEPt0j",
-     "url": "https://x.com/dotey/status/2117484277277286623",
-     "likes": 71
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.5
-  },
-  {
-   "term": "anymodelbot",
+   "term": "pika h3 flex",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 modelflare-ai/AnyModelBot ★2181(均 303/天,一天 +916)"
+    "GitHub 爆发 Pika-Labs/Pika-H3-Flex ★1567(均 268/天,一天 +839)"
    ],
    "examples": [
-    "modelflare-ai/AnyModelBot: 🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Cla"
+    "Pika-Labs/Pika-H3-Flex: Pika H3 Flex: video and audio generation inference"
    ],
    "variants": [
-    "anymodelbot",
-    "modelflare-ai anymodelbot",
-    "modelflare anymodelbot"
+    "pika h3 flex",
+    "pika-labs pika h3 flex",
+    "pika pika h3 flex"
    ],
    "posts": [],
-   "repo": "modelflare-ai/AnyModelBot",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "noir",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 Verlintas/NOIR ★1669(均 627/天,一天 +726)"
-   ],
-   "examples": [
-    "Verlintas/NOIR: 手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, revers"
-   ],
-   "variants": [
-    "noir",
-    "verlintas noir"
-   ],
-   "posts": [],
-   "repo": "Verlintas/NOIR",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "run",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 BryceYuuu/RUN ★2674(均 526/天,一天 +1246)"
-   ],
-   "examples": [
-    "BryceYuuu/RUN: RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）"
-   ],
-   "variants": [
-    "run",
-    "bryceyuuu run",
-    "bryce run"
-   ],
-   "posts": [],
-   "repo": "BryceYuuu/RUN",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "com.clawhard",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 12 处 (×11.9)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "connectors com.clawhard",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 12 处 (×11.9)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.6
-  },
-  {
-   "term": "chat.conecto",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 10 处 (×9.9)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.6
-  },
-  {
-   "term": "studio labs",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 10 处 (×9.6)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.6
-  },
-  {
-   "term": "connectors chat.conecto",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 10 处 (×9.9)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.5
-  },
-  {
-   "term": "sogni: ai image, video & music",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: Sogni: AI Image, Video & Music"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/sogni-ai-image-video-music/id6450021857?uo=2",
-    "Sogni Pocket is a creative studio for iPhone and iPad that brings images, video, and music into one powerful workspace. With the new Sogni Assistant, you can describe what you want, work from referenc"
-   ],
+   "repo": "Pika-Labs/Pika-H3-Flex",
    "known": "",
    "format": "video",
    "one_click": null,
-   "named": 0.9
+   "named": 0.95
   },
   {
-   "term": "glm 5.3 flashx legal",
+   "term": "agent autoloop",
    "kinds": [
-    "feed"
+    "breakout"
    ],
    "signals": [
-    "OpenRouter 新上架"
+    "GitHub 爆发 KKKKhazix/agent-autoloop ★2045(均 1657/天)"
    ],
    "examples": [
-    "OpenRouter: GLM 5.3 FlashX Legal"
+    "KKKKhazix/agent-autoloop: 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。"
    ],
-   "variants": [],
+   "variants": [
+    "agent autoloop",
+    "kkkkhazix agent autoloop",
+    "khazix agent autoloop"
+   ],
    "posts": [],
-   "about": [
-    "https://openrouter.ai/z-ai/glm-5.3-flashx-legal",
-    "GLM-5.3-FlashX-Legal (GLM-Legal) is Z.ai's legal-domain variant of GLM-5.3-FlashX, a native multimodal model that accepts text, image, and video input and produces text. It adds legal-domain mid-train"
-   ],
-   "known": "",
-   "format": "video",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "sun web & api",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: SUN Web & API"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/sun-ai",
-    "Turn prompts and PDFs into audio, on the web or via API Discussion | Link"
-   ],
-   "known": "",
-   "format": "voice",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "revreel: ai car edits",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: RevReel: AI Car Edits"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/revreel-ai-car-edits/id6800568794?uo=2",
-    "RevReel takes photos of the car you already own and puts it in the shot you couldn't take yourself — a rain-slick downtown street at midnight, a white studio cove, the surface of the Moon — then bring"
-   ],
-   "known": "",
-   "format": "image",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "photocut - ai photo editor",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: PhotoCut - AI Photo Editor"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/photocut-ai-photo-editor/id6444792863?uo=2",
-    "Discover a professional photo editor with AI! PhotoCut is designed to make your photos look great instantly and efficiently. MAIN FUNCTIONS: BACKGROUND ERASER Remove backgrounds automatically or manua"
-   ],
-   "known": "",
-   "format": "image",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "teamily ai",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Teamily AI"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/teamily-ai-human-ai-social-network",
-    "Your personal agent, agent teams & people in one messenger Discussion | Link"
-   ],
+   "repo": "KKKKhazix/agent-autoloop",
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.9
   },
   {
-   "term": "agentkit (by scalekit)",
+   "term": "terminal mac",
    "kinds": [
-    "feed"
+    "breakout"
    ],
    "signals": [
-    "Product Hunt 新上架"
+    "GitHub 爆发 govijr/terminal-mac ★1036(均 726/天)"
    ],
    "examples": [
-    "Product Hunt: AgentKit (by Scalekit)"
+    "govijr/terminal-mac: Entire MacOS running in your terminal."
    ],
-   "variants": [],
+   "variants": [
+    "terminal mac",
+    "govijr terminal mac"
+   ],
    "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/scalekit",
-    "MCP gateway for production agents that acts on your behalf Discussion | Link"
-   ],
+   "repo": "govijr/terminal-mac",
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.9
   },
   {
-   "term": "machinemail",
+   "term": "nabuxai",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Product Hunt 新上架"
+    "③ 竞品 11 处 (×11.0)"
    ],
-   "examples": [
-    "Product Hunt: MachineMail"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/machinemail",
-    "Real inboxes for AI agents, with trust built in Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "beamfy",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Beamfy"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/beamfy",
-    "AI vision assistant for blind people, live in 74 languages Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "iq",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: IQ"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/iq-code",
-    "The dashboard for your team's AI use Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "remote gaze",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Remote Gaze"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/remote-gaze",
-    "Your Mac on your iPad and iPhone with no in-between server Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "peji",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Peji"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/peji",
-    "An AI chat with a real browser you control Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "testera",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Testera"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/testera-3",
-    "AI-driven API testing Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "calendarly",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Calendarly"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/calendarly-calendar-on-lock-screen",
-    "Your calendar and tasks, right on your iPhone Lock Screen Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "subvocal",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Subvocal"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://news.ycombinator.com/item?id=50340088",
-    "Show HN: Subvocal – Talk to your computer without making noise"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "appclose",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: AppClose"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/appclose/id1019290876?uo=2",
-    "WE KNOW CO-PARENTING And that is why AppClose is the most downloaded co-parenting app in the world, with more than 3.1M downloads, and has more daily and monthly active users than any other co-parenti"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "hushed: us second phone number",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: Hushed: US Second Phone Number"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/hushed-us-second-phone-number/id600520752?uo=2",
-    "CALL AND TEXT ON A SECOND PHONE NUMBER WITH A 3-DAY TRIAL SUBSCRIPTION Hushed gives you a second phone number you can use for online dating, travel, shopping, moving, selling items, and more. Choose f"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "sociallite-block reels&shorts",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: SocialLite-Block Reels&Shorts"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/sociallite-block-reels-shorts/id6757661674?uo=2",
-    "SocialLite blocks shorts from Instagram, shorts from YouTube and other short form content from other platforms. It is the app for people who want to use social media without losing hours to endless sc"
-   ],
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.8
   },
   {
-   "term": "hacker times, a new york times-inspired version of hacker news",
+   "term": "nabux",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Show HN 新上架"
+    "③ 竞品 11 处 (×11.0)"
    ],
-   "examples": [
-    "Show HN: Hacker Times, a New York Times-inspired version of Hacker News"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://hackertimes.ca/",
-    "Show HN: Hacker Times, a New York Times-inspired version of Hacker News"
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "connectors uk.co.reliness",
+   "kinds": [
+    "sitemap"
    ],
+   "signals": [
+    "③ 竞品 30 处 (×30.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.7
-  },
-  {
-   "term": "jascha sohl-dickstein",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥149"
-   ],
-   "examples": [
-    "@dotey: Anthropic 招驻留研究员：教授、技术创始人、资深工程师可转行做 AI 安全，不要求机器学习背景，年薪折合 35 万到 50 万美元，11 月 22 日截"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "dotey",
-     "text": "Anthropic 招驻留研究员：教授、技术创始人、资深工程师可转行做 AI 安全，不要求机器学习背景，年薪折合 35 万到 50 万美元，11 月 22 日截止 Anthropic 今天开放了 Anthropic Residency（驻留研究项目）的申请。这是一个付费、有固定期限的全职研究项目，分六周、三个月、六个月三档，招的是在别的技术领域已经做出成绩、想转行全职做 AI 安全研究的人。不要求机器学习背景。 【谁适合申请】 官方点名三类人：定量学科（数学、物理、统计这类靠数字和模型做研究的学科）的教授、技术型创始人、Staff 级工程师（大厂里比高级工程师再高一级、能主导大型项目的那一层）。官方写明，不需要博士学位、机器学习经验或论文发表记录。 招聘页列的加分项是：写过机器学习、自然语言处理或 AI 安全方向的论文，或者有大模型、强化学习、Kubernetes 集群和大型共享代码库的经验。 Anthropic 给的理由是，机器学习还是个年轻领域，现在很多资深研究员（包括 Anthropic 自己的）原本是物理学家、数学家、神经科学家或软件工程师。模型越强，研究里越重要的是定研究方向、判断什么值得做，其他领域的资深人士往往已经擅长这些，缺的是对前沿 AI 的了解。 这个项目是照着 Anthropic Fellows 项目改的。Fellows 面向新入行的研究者，出过“潜意识学习”（模型通过看似无关的数据把行为倾向传给另一个模型）、Petri 模型审计工具、人格向量等研究。Residency 把同样的模式用在有资历的技术负责人身上。 【去了做什么】 每人配一位 Anthropic 研究员当导师，定期一对一指导，课题由 Anthropic 研究员提出、按个人兴趣和背景匹配。项目留出自学时间，配讲座和辅导，帮人补上现代机器学习和 AI 安全的基础；可以用前沿模型，课题有专门的算力预算。 研究方向分三块。 第一块是 AI 安全与对齐，比如模型在某些领域超过人类之后怎么监督它、拆开模型看内部怎么运作、AI 福祉。 第二块是 AI 安全攻防和前沿红队测试，专门摸清模型在网络安全、机器人、密码学等领域到底能做到什么程度。 第三块是模型训练和背后的基础设施，从模型架构、优化器、训练数据，到加速器模拟器、硬件后端和强化学习训练环境。 官方列了 9 位可能的导师，包括对齐科学团队负责人 Ethan Perez、模型心理学团队负责人 Jack Lindsey、前 Google Brain 首席科学家 Jascha Sohl-Dickstein、研究对抗机器学习和 AI 安全的 Nicholas Carlini。 【待遇和地点】 美国岗年薪折合 35 万到 50 万美元，英国岗 26.5 万到 37.5 万英镑，按实际时长折算，另有福利。按比例算，做满六个月是 17.5 万到 25 万美元。 Anthropic 希望大家在旧金山办公室工作，但也能远程，短期项目尤其如此。远程的人必须身在 Anthropic 能合法雇人的国家，官方没列具体是哪些国家。三个月及以上可以办签证，六周的鼓励远程参加。英国岗默认在英国远程，可以去伦敦办公室。 Anthropic 说，目标是让每个人结束后都能继续全职做 AI 研究，去 Anthropic 或别处都可以。它同时提到，Anthropic 大多数全职研究岗要求搬到旧金山。 【怎么申请】 招聘页分美国岗（地点写的是旧金山、纽约）和英国岗（伦敦）两个入口。截止时间是太平洋时间 11 月 22 日晚 11:59，也就是北京时间 11 月 23 日下午 3:59。流程是提交申请、招聘官初筛、技术评估、研究讨论、背景调查，预计 2027 年 1 月发录用通知。申请人也可能被一并考虑进 Fellows 项目。 项目介绍：https://t.co/jF1d5ZWVf7 美国岗申请：https://t.co/ZfXvoJwZhw 英国岗申请：https://t.co/y3f9xipFaQ",
-     "url": "https://x.com/dotey/status/2117361528504496318",
-     "likes": 149
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.4
-  },
-  {
-   "term": "no ml",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥30375"
-   ],
-   "examples": [
-    "@AnthropicAI: Applications are now open for the Anthropic Residency, a paid, fixed-term resear"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "AnthropicAI",
-     "text": "Applications are now open for the Anthropic Residency, a paid, fixed-term research program for academics, technical founders, and staff-level engineers who want to make AI safe and beneficial for everyone. No ML background is required. Apply by November 22: https://t.co/uhcXhKTgnO",
-     "url": "https://x.com/AnthropicAI/status/2117343929960112486",
-     "likes": 30375
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "for agi",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥6071"
-   ],
-   "examples": [
-    "@OpenAI: For AGI to benefit all of humanity, it should help people with the everyday task"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "OpenAI",
-     "text": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services to managing personal finances. Over the past year, we’ve used LifeVal to measure and improve how well our models handle these everyday tasks. https://t.co/GlUjixzEM0",
-     "url": "https://x.com/OpenAI/status/2117307611338997846",
-     "likes": 6071
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "george22",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 12 处 (×11.6)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.4
-  },
-  {
-   "term": "genpark personal",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 118 处 (×60.1)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
   },
   {
    "term": "cloudcorprecords",
@@ -882,119 +122,800 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 90 处 (×31.5)"
+    "③ 竞品 59 处 (×16.3)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "com.forevenza.services",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 12 处 (×12.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "connectors com.forevenza.services",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 12 处 (×12.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "connectors com.pagespool",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×7.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "io.github.lewisororke l50",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 6 处 (×6.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "connectors io.github.lewisororke",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 6 处 (×6.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "io.webz",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 6 处 (×5.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "connectors io.webz",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 6 处 (×5.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "llc cyan",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×5.6)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "cyan eclipse",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×5.2)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "eclipse technologies",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×5.1)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.5
+  },
+  {
+   "term": "bazaart ai photo editor design",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: Bazaart AI Photo Editor Design"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/bazaart-ai-photo-editor-design/id515094775?uo=2",
+    "Bazaart is an easy-to-use AI photo editor, video editor, and design app. No design background needed. Create fast for online selling, digital marketing, and social media. Get your design superpowers t"
+   ],
+   "known": "",
+   "format": "video",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "vids ai - reels video editor",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: Vids AI - Reels Video Editor"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/vids-ai-reels-video-editor/id1634361180?uo=2",
+    "VIDS combines powerful AI with thousands of ready-made templates so you can make trending content in just a few taps. Start with an AI template or style — the app instantly syncs your clips with music"
+   ],
+   "known": "",
+   "format": "video",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "rungle",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Rungle"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/rungle",
+    "Turn your running photos and clips into share-ready Reels Discussion | Link"
+   ],
+   "known": "",
+   "format": "video",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "eyecon",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Eyecon"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/eyecon-auto-pause-video",
+    "Auto pause video when you look away Discussion | Link"
+   ],
+   "known": "",
+   "format": "video",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "hackertv",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: HackerTV"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://hackertv.org",
+    "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels"
+   ],
+   "known": "",
+   "format": "video",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "ai video generator + creator",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: AI Video Generator + Creator"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/ai-video-generator-creator/id6446647507?uo=2",
+    "AI Video Generator lets you turn your ideas into AI Videos using advanced artificial intelligence. Our AI Video Generator tool provides high-quality AI Videos - make AI Videos with AI Video Generator."
+   ],
+   "known": "",
+   "format": "video",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "word swag - cool fonts",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: Word Swag - Cool Fonts"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/word-swag-cool-fonts/id645746786?uo=2",
+    "Congrats on finding the original Word Swag™ - the easiest and most beautiful graphic design editor. INTRODUCING REALFONTS Make your words irresistible with unbelievably fun RealFonts! With never-befor"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "render sandboxes",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Render Sandboxes"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/render",
+    "A computer for every agent Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "kosa8",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: kosa8"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/kosa8",
+    "Air-gapped microVM sandboxes for enterprise AI agents Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "orphex mcp",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Orphex MCP"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing",
+    "Run your entire digital marketing stack via one unified MCP Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "fileforensics",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: fileForensics"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/fileai-ai-ocr",
+    "Real or not? Check files before your AI trusts them. Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "sendu",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Sendu"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/sendu",
+    "Drop files easily across your local network Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "datashake mcp",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Datashake MCP"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/datashake-hub",
+    "Plug review and social data straight into your AI assistant Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "pasteguard for mac",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: PasteGuard for Mac"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/pasteguard-2",
+    "Keep secrets and personal data out of AI chats Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "kairos",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: Kairos"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://github.com/finic-ai/kairos",
+    "Show HN: Kairos – Open-source risk and fraud decisioning platform"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "hackerchurn",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: HackerChurn"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://hissingkitty.com/hacker-churn",
+    "Show HN: HackerChurn – which SaaS tools HN wants to cancel"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "hy4",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "OpenRouter 新上架"
+   ],
+   "examples": [
+    "OpenRouter: Hy4"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://openrouter.ai/tencent/hy4",
+    "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-hor"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "crouton alpha",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "OpenRouter 新上架"
+   ],
+   "examples": [
+    "OpenRouter: Crouton Alpha"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://openrouter.ai/stealth/crouton-alpha",
+    "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated "
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "country filter for x",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Country Filter for X"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/country-filter-for-x-2",
+    "Hide posts from chosen countries in your X For You feed Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "uncracked city, detective game where you question llm suspects that lie",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: Uncracked City, detective game where you question LLM suspects that lie"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://uncracked.city",
+    "Show HN: Uncracked City, detective game where you question LLM suspects that lie"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "pywolf3d, a wolfenstein3d clone written from scratch in python",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: PyWolf3D, a wolfenstein3D clone written from scratch in Python"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://github.com/atifcodesalot/pyWolf3D",
+    "Show HN: PyWolf3D, a wolfenstein3D clone written from scratch in Python"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "smart cleaner: free up storage",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: Smart Cleaner: Free Up Storage"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/smart-cleaner-free-up-storage/id6448222268?uo=2",
+    "LET'S MAKE SPACE: CLEANING YOUR PHONE'S STORAGE HAS NEVER BEEN SMARTER! Smart Cleaner isn't just an app; it's a solution that turns storage cleanup into a quick, fun, and secure task. FAST & DEEP CLEA"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "chatbot app: ai assistant",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: Chatbot App: AI Assistant"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/chatbot-app-ai-assistant/id6711347033?uo=2",
+    "Chatbot App brings advanced AI models together in one intuitive app for writing, learning, coding, creativity, and productivity. Built on OpenAI GPT-6, Google Gemini 3.8 Flash, Anthropic Claude Fable "
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "tv remote control · universal",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: TV Remote Control · Universal"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/tv-remote-control-universal/id6757016336?uo=2",
+    "Introducing TV Remote Control · Universal – the simplest and fastest way to control your TV directly from your iPhone. Turn your phone into a smart, reliable TV remote you can use anytime, anywhere. •"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.6
+  },
+  {
+   "term": "90x",
+   "kinds": [
+    "x"
+   ],
+   "signals": [
+    "X 1 个账号 ♥503"
+   ],
+   "examples": [
+    "@MistralAI: Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We teste"
+   ],
+   "variants": [],
+   "posts": [
+    {
+     "account": "MistralAI",
+     "text": "Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We tested it on a recent Django CVE. 133 agents map the code, hunt for flaws, test attack scenarios and confirm the bug. Then Le Chonk patches it. Triage, repro, patch. Shown at 90x speed. https://t.co/NTtZvTQE38",
+     "url": "https://x.com/MistralAI/status/2117925908572991748",
+     "likes": 503
+    }
+   ],
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.3
   },
   {
-   "term": "ocular",
+   "term": "django cve",
    "kinds": [
-    "sitemap"
+    "x"
    ],
    "signals": [
-    "③ 竞品 14 处 (×13.2)"
+    "X 1 个账号 ♥503"
    ],
-   "examples": [],
+   "examples": [
+    "@MistralAI: Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We teste"
+   ],
    "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "alphaparkinc genpark",
-   "kinds": [
-    "sitemap"
+   "posts": [
+    {
+     "account": "MistralAI",
+     "text": "Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We tested it on a recent Django CVE. 133 agents map the code, hunt for flaws, test attack scenarios and confirm the bug. Then Le Chonk patches it. Triage, repro, patch. Shown at 90x speed. https://t.co/NTtZvTQE38",
+     "url": "https://x.com/MistralAI/status/2117925908572991748",
+     "likes": 503
+    }
    ],
-   "signals": [
-    "③ 竞品 57 处 (×12.3)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "r1",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 10 处 (×8.1)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "park genpark",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 61 处 (×14.5)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.2
-  },
-  {
-   "term": "alpha park",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 61 处 (×14.4)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.2
-  },
-  {
-   "term": "records",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 94 处 (×29.6)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.1
   },
   {
-   "term": "personal",
+   "term": "skills",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 benjitaylor/skills ★1745(均 187/天,一天 +564)"
+   ],
+   "examples": [
+    "benjitaylor/skills: Skills for AI coding agents."
+   ],
+   "variants": [
+    "skills",
+    "benjitaylor skills",
+    "benji skills"
+   ],
+   "posts": [],
+   "repo": "benjitaylor/skills",
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.4
+  },
+  {
+   "term": "art search",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 121 处 (×26.5)"
+    "③ 竞品 8 处 (×7.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "image",
+   "one_click": null,
+   "named": 0.1
+  },
+  {
+   "term": "com.agentfirststack",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 5 处 (×5.0)"
    ],
    "examples": [],
    "variants": [],
@@ -1002,7 +923,87 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.1
+   "named": 0.4
+  },
+  {
+   "term": "l50",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×7.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "technologies llc",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×5.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "connectors com.agentfirststack",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 5 处 (×5.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "dev.workers.manhliemcn4euwlu.llmrt",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 5 处 (×5.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
+  },
+  {
+   "term": "connectors dev.workers.manhliemcn4euwlu.llmrt",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 5 处 (×5.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.3
   },
   {
    "term": "corp",
@@ -1010,7 +1011,7 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 90 处 (×26.0)"
+    "③ 竞品 60 处 (×14.3)"
    ],
    "examples": [],
    "variants": [],
@@ -1019,86 +1020,6 @@
    "format": "text",
    "one_click": null,
    "named": 0.1
-  },
-  {
-   "term": "tutorials deepseek",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 14 处 (×13.6)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "cutaneous",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 18 处 (×17.7)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.0
-  },
-  {
-   "term": "cardiac",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 11 处 (×11.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.0
-  },
-  {
-   "term": "pulmonary",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 11 处 (×11.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.0
-  },
-  {
-   "term": "tutorials",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 25 处 (×9.8)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.0
   },
   {
    "term": "cloud",
@@ -1106,7 +1027,7 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 92 处 (×9.6)"
+    "③ 竞品 63 处 (×6.2)"
    ],
    "examples": [],
    "variants": [],
@@ -1114,15 +1035,15 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.0
+   "named": 0.1
   },
   {
-   "term": "acoustic",
+   "term": "sites",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 10 处 (×9.4)"
+    "③ 竞品 691 处 (×573.1)"
    ],
    "examples": [],
    "variants": [],
@@ -1133,12 +1054,12 @@
    "named": 0.0
   },
   {
-   "term": "cerebral",
+   "term": "records",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 9 处 (×8.9)"
+    "③ 竞品 59 处 (×14.8)"
    ],
    "examples": [],
    "variants": [],
@@ -1149,23 +1070,7 @@
    "named": 0.0
   },
   {
-   "term": "reflex",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 10 处 (×8.8)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.0
-  },
-  {
-   "term": "warsaw in voxels",
+   "term": "interactive notes on rlhf, attention, lora and llm evals",
    "kinds": [
     "feed"
    ],
@@ -1173,283 +1078,69 @@
     "Show HN 新上架"
    ],
    "examples": [
-    "Show HN: Warsaw in voxels"
+    "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://p.migdal.pl/warsaw-vibe-voxel/",
-    "Show HN: Warsaw in voxels – An interactive 3D map of the city centre"
+    "https://concepts.laxmena.com/",
+    "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals"
    ],
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "i built a little browser game to practice vim commands",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: I built a little browser game to practice Vim commands"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://hjkl.duy.run",
-    "Show HN: I built a little browser game to practice Vim commands"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.0
+   "named": 0.4
   }
  ],
  "x": {
   "accounts": 35,
   "answered": 35,
-  "posts": 659,
-  "cost_micros": 99150,
+  "posts": 657,
+  "cost_micros": 98850,
   "first_run": false,
   "terms": [
    {
-    "term": "anthropic residency",
+    "term": "django cve",
     "sources": [
-     "AnthropicAI",
-     "dotey"
+     "MistralAI"
     ],
-    "likes": 30524,
+    "likes": 503,
     "examples": [
-     "@AnthropicAI: Applications are now open for the Anthropic Residency, a paid, fixed-term resear",
-     "@dotey: Anthropic 招驻留研究员：教授、技术创始人、资深工程师可转行做 AI 安全，不要求机器学习背景，年薪折合 35 万到 50 万美元，11 月 22 日截"
+     "@MistralAI: Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We teste"
     ],
     "posts": [
      {
-      "account": "AnthropicAI",
-      "text": "Applications are now open for the Anthropic Residency, a paid, fixed-term research program for academics, technical founders, and staff-level engineers who want to make AI safe and beneficial for everyone. No ML background is required. Apply by November 22: https://t.co/uhcXhKTgnO",
-      "url": "https://x.com/AnthropicAI/status/2117343929960112486",
-      "likes": 30375
-     },
-     {
-      "account": "dotey",
-      "text": "Anthropic 招驻留研究员：教授、技术创始人、资深工程师可转行做 AI 安全，不要求机器学习背景，年薪折合 35 万到 50 万美元，11 月 22 日截止 Anthropic 今天开放了 Anthropic Residency（驻留研究项目）的申请。这是一个付费、有固定期限的全职研究项目，分六周、三个月、六个月三档，招的是在别的技术领域已经做出成绩、想转行全职做 AI 安全研究的人。不要求机器学习背景。 【谁适合申请】 官方点名三类人：定量学科（数学、物理、统计这类靠数字和模型做研究的学科）的教授、技术型创始人、Staff 级工程师（大厂里比高级工程师再高一级、能主导大型项目的那一层）。官方写明，不需要博士学位、机器学习经验或论文发表记录。 招聘页列的加分项是：写过机器学习、自然语言处理或 AI 安全方向的论文，或者有大模型、强化学习、Kubernetes 集群和大型共享代码库的经验。 Anthropic 给的理由是，机器学习还是个年轻领域，现在很多资深研究员（包括 Anthropic 自己的）原本是物理学家、数学家、神经科学家或软件工程师。模型越强，研究里越重要的是定研究方向、判断什么值得做，其他领域的资深人士往往已经擅长这些，缺的是对前沿 AI 的了解。 这个项目是照着 Anthropic Fellows 项目改的。Fellows 面向新入行的研究者，出过“潜意识学习”（模型通过看似无关的数据把行为倾向传给另一个模型）、Petri 模型审计工具、人格向量等研究。Residency 把同样的模式用在有资历的技术负责人身上。 【去了做什么】 每人配一位 Anthropic 研究员当导师，定期一对一指导，课题由 Anthropic 研究员提出、按个人兴趣和背景匹配。项目留出自学时间，配讲座和辅导，帮人补上现代机器学习和 AI 安全的基础；可以用前沿模型，课题有专门的算力预算。 研究方向分三块。 第一块是 AI 安全与对齐，比如模型在某些领域超过人类之后怎么监督它、拆开模型看内部怎么运作、AI 福祉。 第二块是 AI 安全攻防和前沿红队测试，专门摸清模型在网络安全、机器人、密码学等领域到底能做到什么程度。 第三块是模型训练和背后的基础设施，从模型架构、优化器、训练数据，到加速器模拟器、硬件后端和强化学习训练环境。 官方列了 9 位可能的导师，包括对齐科学团队负责人 Ethan Perez、模型心理学团队负责人 Jack Lindsey、前 Google Brain 首席科学家 Jascha Sohl-Dickstein、研究对抗机器学习和 AI 安全的 Nicholas Carlini。 【待遇和地点】 美国岗年薪折合 35 万到 50 万美元，英国岗 26.5 万到 37.5 万英镑，按实际时长折算，另有福利。按比例算，做满六个月是 17.5 万到 25 万美元。 Anthropic 希望大家在旧金山办公室工作，但也能远程，短期项目尤其如此。远程的人必须身在 Anthropic 能合法雇人的国家，官方没列具体是哪些国家。三个月及以上可以办签证，六周的鼓励远程参加。英国岗默认在英国远程，可以去伦敦办公室。 Anthropic 说，目标是让每个人结束后都能继续全职做 AI 研究，去 Anthropic 或别处都可以。它同时提到，Anthropic 大多数全职研究岗要求搬到旧金山。 【怎么申请】 招聘页分美国岗（地点写的是旧金山、纽约）和英国岗（伦敦）两个入口。截止时间是太平洋时间 11 月 22 日晚 11:59，也就是北京时间 11 月 23 日下午 3:59。流程是提交申请、招聘官初筛、技术评估、研究讨论、背景调查，预计 2027 年 1 月发录用通知。申请人也可能被一并考虑进 Fellows 项目。 项目介绍：https://t.co/jF1d5ZWVf7 美国岗申请：https://t.co/ZfXvoJwZhw 英国岗申请：https://t.co/y3f9xipFaQ",
-      "url": "https://x.com/dotey/status/2117361528504496318",
-      "likes": 149
-     }
-    ],
-    "recent": 2,
-    "note": "X 2 个账号 ♥30524"
-   },
-   {
-    "term": "pando",
-    "sources": [
-     "OpenAIDevs",
-     "dotey"
-    ],
-    "likes": 5457,
-    "examples": [
-     "@OpenAIDevs: We built Pando, a new Git backend for our monorepo, to handle more pushes and fe",
-     "@dotey: AI 写的代码太多，Git 扛不住了：OpenAI 保留 Git 只换服务器，Anthropic 自己做了一套新系统 OpenAI 11 月 2 日发文介绍 P"
-    ],
-    "posts": [
-     {
-      "account": "OpenAIDevs",
-      "text": "We built Pando, a new Git backend for our monorepo, to handle more pushes and fetches without changing how our engineers and agents use Git. Pando cut push latency by ~80% and now serves nearly a petabyte of Git data a day. We can grow Git capacity alongside agent usage. https://t.co/4c0YXOfKqK",
-      "url": "https://x.com/OpenAIDevs/status/2117408792346509663",
-      "likes": 5386
-     },
-     {
-      "account": "dotey",
-      "text": "AI 写的代码太多，Git 扛不住了：OpenAI 保留 Git 只换服务器，Anthropic 自己做了一套新系统 OpenAI 11 月 2 日发文介绍 Pando，一套自研的 Git 服务器后端。上个月 13 日，Anthropic 也发文介绍了自研的源代码管理系统 Scion。 两家碰到的是同一个问题：AI agent 写代码太快，管代码的系统成了整个公司开发速度的瓶颈。两家的解法方向相反。 先交代一下 Git：它是程序员管理代码版本的工具。每次改动存成一个“提交”，推送（push）到公司服务器，同事再从服务器拉取（fetch）。“分支”是同一份代码的平行草稿，各改各的，改好再合并进主线。两家都把全公司的代码放在同一个大仓库里，业内叫 monorepo。 OpenAI 的路线是改造 Git。 工程师和 agent 还是敲 git push、git pull，只把服务器换成 Pando。推送代码的中位等待时间缩短近 80%，每天往外分发近 1PB（约 100 万 GB）代码数据。 Anthropic 的路线是替换 Git。 Scion 有自己的客户端和服务器，提交、合并都在服务器上完成，配套的代码审查、代码搜索工具也是自己写的。CI（每次改动后自动构建和测试的流程）拉代码从几分钟变成几秒，服务器占用的 CPU 和内存只有原来那套的 1/200。 两套系统都不对外提供。 OpenAI 说正在研究怎么把 Pando 的技术提供给用户，过程中给 Git 修的问题已经提交给 Git 官方，有几项进了正式版。 Anthropic 说 Scion 只适合巨型代码仓库，用它得把代码审查、搜索、CI 全部换掉，别的公司很难直接用，所以只分享设计思路，希望 GitHub、GitLab 和开源社区吸收其中有用的部分。 如果你的团队用 GitHub 或 GitLab，OpenAI 这条路离你更近：改进直接进 Git，工具链不用换。两家都认为别的公司迟早会碰到同样的问题，Anthropic 预计未来 6 到 12 个月这类问题会更常见。 【Git 为什么扛不住】 提交量涨得太快。以 2024 年第一季度为基准，OpenAI 合入主线的提交数到 2026 年第三季度涨到近 15 倍，第四季度预计约 25 倍。Anthropic 每天合入的改动，5 月约 2500 个，9 月超过 3 万个，4 个月变成原来的 12 倍多。 压力会叠加：一个工程师同时有好几个改动等着测试，每推送一次，又有好几个测试任务去拉同一份代码。 OpenAI 从去年年底开始拉代码、推代码都变慢，合并经常失败，可靠性一度低于 90%，相当于每 10 次操作有超过 1 次出问题。 Anthropic 的主线历史接近 100GB，压缩后的工作副本超过 25GB，光 CI 每天就要拉约 2500 万次代码，全量下载的话每天超过 600PB。它最多时开了几百台 Git 镜像服务器分担压力，越来越难维护。 Anthropic 总结了根本原因：Git 的设计假设每个人都离线工作，所以每人手里都要有一份完整仓库。现在拉代码的大多是 agent 和自动任务，它们一直联网，背着整个仓库跑反而成了负担。 【写代码：别让所有人排一条队】 多人同时推送时，服务器要保证每个分支“现在指向哪个提交”的指针（Git 里叫 ref，可以理解成书签）不被改乱。 OpenAI 评估过两种常见做法，都要让整个仓库的改动排成一条队。 一种是三阶段提交（3PC）：几台服务器各存一份完整仓库，每次推送要过半数服务器同意，分三轮来回确认，推送量一大，各台服务器的硬盘先忙不过来。 另一种是预写日志（WAL）：所有改动先记进一本共享的流水账，再照着执行，不管改哪个分支都要抢着往同一本账上写，账记得太快，服务器又来不及照着更新，别人拉到新代码要等更久。 Pando 的办法是每个分支各管各的。 推 A 分支和推 B 分支互不等待，只有两个人同时推同一个分支才会冲突。代价是同时看好几个分支，看到的可能是各自不同时刻的状态。OpenAI 说，人和 agent 实际只关心单个分支的前后顺序。 Anthropic 走得更远：提交直接在服务器上生成，没有推送这一步，每次提交只记哪些文件变了。 Scion 尽量少用分支，主线和发布分支之外基本不用，因为所有服务器都要对分支状态达成一致，规模一大就是麻烦。两家最后都把移动书签简化成一次“比较并替换”操作，Pando 改的是一个键，Scion 改的是数据库里的一行。 Anthropic 还取消了合并前的全局排队。传统做法是合并时锁住仓库，一个个测完再放行。Anthropic 说测试还没跑完，已经有成百上千个改动合进去了，排队没法做，于是改成合并后、上线前再自动测试。同时合入的改动可能冲突，Claude 修冲突的速度通常比人发现冲突还快。 【拉代码：别给每个人现场打包】 传统 Git 服务器给每个来拉代码的人现场算一个专属压缩包（packfile，Git 把一批文件压在一起的格式，相似文件只存差异），只装对方缺的部分。来的人一多，CPU 和硬盘就扛不住。两家都绕开了这一步，方法相反。 Pando 像发统一包装的快递箱：推送者上传的压缩包原样存起来，谁要就发谁，服务器几乎不用计算。 为了让包人人能用，推送时只让客户端对照主干打包：主干上已有的内容一律不装，包里只有这个分支改过的文件、对应的目录清单和提交记录，压缩后中位数不到 20KB。 后台再把小包逐级合并成大包，免得落后几天的人要下几万个小文件。代价是客户端偶尔会多下一些已有的内容。 Scion 像超市自取：完全不用压缩包，客户端缺哪个文件就要哪个文件。 每个文件按内容算出一个编号，内容一变编号就变，同一编号的文件永远不变，所以任何一层缓存都能直接回答，不用跟其他服务器核对。 客户端还可以只取自己需要的目录，或者等真读到某个文件时再下载。 两家的缓存命中率都超过 99%。 【结果，以及谁做出来的】 OpenAI：推送中位等待时间缩短近 80%，用少量 CPU 核心每天分发近 1PB，最高一小时发出 57TB。用普通云服务器测试，拉代码能跑满 10Gbps 的网络带宽。 Anthropic：服务器 CPU 和内存占用是原来 Git 镜像的 1/200，CI 和研究任务拉代码快了两个数量级（约 100 倍），光 CI 就省下 25% 的 CPU。 两套系统都是 AI 写的。 Pando 从立项到上线用了 10 周，核心设计出自一名工程师，代码主要由 Codex 驱动的 agent 写，几名工程师负责部署，今年 4 月开始承接生产流量。 Scion 由 7 个人用 5 个月做完，同期还做了代码审查工具 Antique 和另外五六个系统，并完成整体迁移。 Anthropic 原先手写了一版把 Git 数据导入 Scion 的程序，交给内部早期版本的 Claude Mythos Preview 重写，内存占用降到 1/20，速度快了 4 倍。 Anthropic 的工程师说，Claude 写代码已经比他们强，他们的价值在于把握系统设计和取舍，很多时候是对 Claude 说“不”：agent 会为了套用某种做法而违反系统的核心约束，也会为了假想的风险堆太多防御代码。 原文： OpenAI《Scaling Git at OpenAI》https://t.co/TvB0c9mX62 Anthropic《Redesigning source control at Anthropic》https://t.co/pUtmrzacH8 OpenAI 官方推文：https://t.co/01sNVoCzBp https://t.co/ml9zXEPt0j",
-      "url": "https://x.com/dotey/status/2117484277277286623",
-      "likes": 71
-     }
-    ],
-    "recent": 2,
-    "note": "X 2 个账号 ♥5457"
-   },
-   {
-    "term": "git",
-    "sources": [
-     "OpenAIDevs",
-     "dotey"
-    ],
-    "likes": 5457,
-    "examples": [
-     "@OpenAIDevs: We built Pando, a new Git backend for our monorepo, to handle more pushes and fe",
-     "@dotey: AI 写的代码太多，Git 扛不住了：OpenAI 保留 Git 只换服务器，Anthropic 自己做了一套新系统 OpenAI 11 月 2 日发文介绍 P"
-    ],
-    "posts": [
-     {
-      "account": "OpenAIDevs",
-      "text": "We built Pando, a new Git backend for our monorepo, to handle more pushes and fetches without changing how our engineers and agents use Git. Pando cut push latency by ~80% and now serves nearly a petabyte of Git data a day. We can grow Git capacity alongside agent usage. https://t.co/4c0YXOfKqK",
-      "url": "https://x.com/OpenAIDevs/status/2117408792346509663",
-      "likes": 5386
-     },
-     {
-      "account": "dotey",
-      "text": "AI 写的代码太多，Git 扛不住了：OpenAI 保留 Git 只换服务器，Anthropic 自己做了一套新系统 OpenAI 11 月 2 日发文介绍 Pando，一套自研的 Git 服务器后端。上个月 13 日，Anthropic 也发文介绍了自研的源代码管理系统 Scion。 两家碰到的是同一个问题：AI agent 写代码太快，管代码的系统成了整个公司开发速度的瓶颈。两家的解法方向相反。 先交代一下 Git：它是程序员管理代码版本的工具。每次改动存成一个“提交”，推送（push）到公司服务器，同事再从服务器拉取（fetch）。“分支”是同一份代码的平行草稿，各改各的，改好再合并进主线。两家都把全公司的代码放在同一个大仓库里，业内叫 monorepo。 OpenAI 的路线是改造 Git。 工程师和 agent 还是敲 git push、git pull，只把服务器换成 Pando。推送代码的中位等待时间缩短近 80%，每天往外分发近 1PB（约 100 万 GB）代码数据。 Anthropic 的路线是替换 Git。 Scion 有自己的客户端和服务器，提交、合并都在服务器上完成，配套的代码审查、代码搜索工具也是自己写的。CI（每次改动后自动构建和测试的流程）拉代码从几分钟变成几秒，服务器占用的 CPU 和内存只有原来那套的 1/200。 两套系统都不对外提供。 OpenAI 说正在研究怎么把 Pando 的技术提供给用户，过程中给 Git 修的问题已经提交给 Git 官方，有几项进了正式版。 Anthropic 说 Scion 只适合巨型代码仓库，用它得把代码审查、搜索、CI 全部换掉，别的公司很难直接用，所以只分享设计思路，希望 GitHub、GitLab 和开源社区吸收其中有用的部分。 如果你的团队用 GitHub 或 GitLab，OpenAI 这条路离你更近：改进直接进 Git，工具链不用换。两家都认为别的公司迟早会碰到同样的问题，Anthropic 预计未来 6 到 12 个月这类问题会更常见。 【Git 为什么扛不住】 提交量涨得太快。以 2024 年第一季度为基准，OpenAI 合入主线的提交数到 2026 年第三季度涨到近 15 倍，第四季度预计约 25 倍。Anthropic 每天合入的改动，5 月约 2500 个，9 月超过 3 万个，4 个月变成原来的 12 倍多。 压力会叠加：一个工程师同时有好几个改动等着测试，每推送一次，又有好几个测试任务去拉同一份代码。 OpenAI 从去年年底开始拉代码、推代码都变慢，合并经常失败，可靠性一度低于 90%，相当于每 10 次操作有超过 1 次出问题。 Anthropic 的主线历史接近 100GB，压缩后的工作副本超过 25GB，光 CI 每天就要拉约 2500 万次代码，全量下载的话每天超过 600PB。它最多时开了几百台 Git 镜像服务器分担压力，越来越难维护。 Anthropic 总结了根本原因：Git 的设计假设每个人都离线工作，所以每人手里都要有一份完整仓库。现在拉代码的大多是 agent 和自动任务，它们一直联网，背着整个仓库跑反而成了负担。 【写代码：别让所有人排一条队】 多人同时推送时，服务器要保证每个分支“现在指向哪个提交”的指针（Git 里叫 ref，可以理解成书签）不被改乱。 OpenAI 评估过两种常见做法，都要让整个仓库的改动排成一条队。 一种是三阶段提交（3PC）：几台服务器各存一份完整仓库，每次推送要过半数服务器同意，分三轮来回确认，推送量一大，各台服务器的硬盘先忙不过来。 另一种是预写日志（WAL）：所有改动先记进一本共享的流水账，再照着执行，不管改哪个分支都要抢着往同一本账上写，账记得太快，服务器又来不及照着更新，别人拉到新代码要等更久。 Pando 的办法是每个分支各管各的。 推 A 分支和推 B 分支互不等待，只有两个人同时推同一个分支才会冲突。代价是同时看好几个分支，看到的可能是各自不同时刻的状态。OpenAI 说，人和 agent 实际只关心单个分支的前后顺序。 Anthropic 走得更远：提交直接在服务器上生成，没有推送这一步，每次提交只记哪些文件变了。 Scion 尽量少用分支，主线和发布分支之外基本不用，因为所有服务器都要对分支状态达成一致，规模一大就是麻烦。两家最后都把移动书签简化成一次“比较并替换”操作，Pando 改的是一个键，Scion 改的是数据库里的一行。 Anthropic 还取消了合并前的全局排队。传统做法是合并时锁住仓库，一个个测完再放行。Anthropic 说测试还没跑完，已经有成百上千个改动合进去了，排队没法做，于是改成合并后、上线前再自动测试。同时合入的改动可能冲突，Claude 修冲突的速度通常比人发现冲突还快。 【拉代码：别给每个人现场打包】 传统 Git 服务器给每个来拉代码的人现场算一个专属压缩包（packfile，Git 把一批文件压在一起的格式，相似文件只存差异），只装对方缺的部分。来的人一多，CPU 和硬盘就扛不住。两家都绕开了这一步，方法相反。 Pando 像发统一包装的快递箱：推送者上传的压缩包原样存起来，谁要就发谁，服务器几乎不用计算。 为了让包人人能用，推送时只让客户端对照主干打包：主干上已有的内容一律不装，包里只有这个分支改过的文件、对应的目录清单和提交记录，压缩后中位数不到 20KB。 后台再把小包逐级合并成大包，免得落后几天的人要下几万个小文件。代价是客户端偶尔会多下一些已有的内容。 Scion 像超市自取：完全不用压缩包，客户端缺哪个文件就要哪个文件。 每个文件按内容算出一个编号，内容一变编号就变，同一编号的文件永远不变，所以任何一层缓存都能直接回答，不用跟其他服务器核对。 客户端还可以只取自己需要的目录，或者等真读到某个文件时再下载。 两家的缓存命中率都超过 99%。 【结果，以及谁做出来的】 OpenAI：推送中位等待时间缩短近 80%，用少量 CPU 核心每天分发近 1PB，最高一小时发出 57TB。用普通云服务器测试，拉代码能跑满 10Gbps 的网络带宽。 Anthropic：服务器 CPU 和内存占用是原来 Git 镜像的 1/200，CI 和研究任务拉代码快了两个数量级（约 100 倍），光 CI 就省下 25% 的 CPU。 两套系统都是 AI 写的。 Pando 从立项到上线用了 10 周，核心设计出自一名工程师，代码主要由 Codex 驱动的 agent 写，几名工程师负责部署，今年 4 月开始承接生产流量。 Scion 由 7 个人用 5 个月做完，同期还做了代码审查工具 Antique 和另外五六个系统，并完成整体迁移。 Anthropic 原先手写了一版把 Git 数据导入 Scion 的程序，交给内部早期版本的 Claude Mythos Preview 重写，内存占用降到 1/20，速度快了 4 倍。 Anthropic 的工程师说，Claude 写代码已经比他们强，他们的价值在于把握系统设计和取舍，很多时候是对 Claude 说“不”：agent 会为了套用某种做法而违反系统的核心约束，也会为了假想的风险堆太多防御代码。 原文： OpenAI《Scaling Git at OpenAI》https://t.co/TvB0c9mX62 Anthropic《Redesigning source control at Anthropic》https://t.co/pUtmrzacH8 OpenAI 官方推文：https://t.co/01sNVoCzBp https://t.co/ml9zXEPt0j",
-      "url": "https://x.com/dotey/status/2117484277277286623",
-      "likes": 71
-     }
-    ],
-    "recent": 2,
-    "note": "X 2 个账号 ♥5457"
-   },
-   {
-    "term": "mit csail",
-    "sources": [
-     "dotey",
-     "op7418"
-    ],
-    "likes": 358,
-    "examples": [
-     "@dotey: 不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7.",
-     "@op7418: 昨晚推上 AI 圈最热门的研究： 我们可能可以像编程一样，让 AI 编写 AI 模型的模型权重文件了。 MIT CSAIL 团队团队用 GPT-6 Astra "
-    ],
-    "posts": [
-     {
-      "account": "dotey",
-      "text": "不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7.9% 涨到 48.1%，约 6 倍。 这是 MIT CSAIL 四位研究者 11 月 2 日发的博客，他们把这叫“在权重空间里编程”：前沿大模型可以像读写代码一样，直接读懂、修改、甚至从零写出神经网络的权重。 过去的常识是，权重是训练出来的，人看不懂也没法手改，想改模型只能再训练。这项工作把原始权重直接交给通用大模型，让它自己读、自己改。 几个实验： 只看权重，不给游戏名、不给工具，Astra 认出了四个结构完全相同的游戏网络：打砖块、乒乓、吃豆人、过马路。 一辆训练了 10 亿步、256 次全失败的仿真小车，Astra 看了权重和一次失败录像，一次回复改了 3.5% 的权重，之后 1,024 次全部成功。 从零写打砖块网络，没有数据、不能试玩，一次写成，得分 517.4，是训练 5 亿步的强化学习网络（25.3）的约 20 倍。另外两个游戏没超过训练 5 亿步的版本。 Qwen 的 6 倍有几个条件： 原模型开思考模式后容易陷入重复循环，93% 的回答一直输出到长度上限，起点很低。Astra 找到第 15、19 层里引起循环的一个方向，把它删掉。 这要允许 Astra 拿练习题试跑 50 次。只试 10 次或 25 次，循环基本没消失。 换成很少循环的 Gemma 3 270M，同样的方法没带来提升。作者的结论是：改权重能去掉挡住能力的障碍，加不出模型本来没有的能力。 和“AI 改进 AI”的关系：现在的自我改进，大多是让 AI 生成数据、写训练代码，最后还是靠训练。作者把“模型检查并改进自己或下一代的权重”列为后续方向之一。 Chandan Singh 也公开了类似实验：Claude 在加法、排序等 10 个算法任务上直接写出小模型权重，最多 3 次就全部 100% 正确。他的报告也记录了，有一个任务里 Claude 用测试集数据做了拟合，违反规则，那个结果被判无效。 目前结果都由作者自己报告，还没有独立复现。 原文：https://t.co/4rLY5FHftN",
-      "url": "https://x.com/dotey/status/2117408133773705525",
-      "likes": 285
-     },
-     {
-      "account": "op7418",
-      "text": "昨晚推上 AI 圈最热门的研究： 我们可能可以像编程一样，让 AI 编写 AI 模型的模型权重文件了。 MIT CSAIL 团队团队用 GPT-6 Astra 直接编辑了 Qwen 0.8B 模型的权重，大幅提升了它的数学能力。 他们仅更改了 0.016% 权重的情况下，将数学能力提高了 6 倍，指令跟随能力提高了 3 倍。 没有进行重新训练，也没有进行后训练和强化学习，只是直接更改了它的参数。 这带来了一个非常新的范式，对模型的可解释性有了大幅提升，也就是说我们可能可以不通过训练，直接提高模型能力。 特别大的模型由于参数量太大，可能会比较麻烦，但小模型在未来一段时间内能力会大幅提升。 具体有这么几个方向： 释放它已有的能力，比如实验里改善的千问 0.8B 出现重复推理、频繁触及思考长度上限的问题。 将某种控制策略直接移植到模型里面去。模型的控制和对齐是非常难的事，现在可以直接硬性控制它。 重新组织计算。用更有效的计算路径，替换模型训练出来的低效策略。 相当于给模型训练和控制做了一套编程体系，这个想象力太大了。",
-      "url": "https://x.com/op7418/status/2117459252721971606",
-      "likes": 73
-     }
-    ],
-    "recent": 2,
-    "note": "X 2 个账号 ♥358"
-   },
-   {
-    "term": "no ml",
-    "sources": [
-     "AnthropicAI"
-    ],
-    "likes": 30375,
-    "examples": [
-     "@AnthropicAI: Applications are now open for the Anthropic Residency, a paid, fixed-term resear"
-    ],
-    "posts": [
-     {
-      "account": "AnthropicAI",
-      "text": "Applications are now open for the Anthropic Residency, a paid, fixed-term research program for academics, technical founders, and staff-level engineers who want to make AI safe and beneficial for everyone. No ML background is required. Apply by November 22: https://t.co/uhcXhKTgnO",
-      "url": "https://x.com/AnthropicAI/status/2117343929960112486",
-      "likes": 30375
+      "account": "MistralAI",
+      "text": "Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We tested it on a recent Django CVE. 133 agents map the code, hunt for flaws, test attack scenarios and confirm the bug. Then Le Chonk patches it. Triage, repro, patch. Shown at 90x speed. https://t.co/NTtZvTQE38",
+      "url": "https://x.com/MistralAI/status/2117925908572991748",
+      "likes": 503
      }
     ],
     "recent": 1,
-    "note": "X 1 个账号 ♥30375"
+    "note": "X 1 个账号 ♥503"
    },
    {
-    "term": "for agi",
+    "term": "90x",
     "sources": [
-     "OpenAI"
+     "MistralAI"
     ],
-    "likes": 6071,
+    "likes": 503,
     "examples": [
-     "@OpenAI: For AGI to benefit all of humanity, it should help people with the everyday task"
+     "@MistralAI: Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We teste"
     ],
     "posts": [
      {
-      "account": "OpenAI",
-      "text": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services to managing personal finances. Over the past year, we’ve used LifeVal to measure and improve how well our models handle these everyday tasks. https://t.co/GlUjixzEM0",
-      "url": "https://x.com/OpenAI/status/2117307611338997846",
-      "likes": 6071
+      "account": "MistralAI",
+      "text": "Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We tested it on a recent Django CVE. 133 agents map the code, hunt for flaws, test attack scenarios and confirm the bug. Then Le Chonk patches it. Triage, repro, patch. Shown at 90x speed. https://t.co/NTtZvTQE38",
+      "url": "https://x.com/MistralAI/status/2117925908572991748",
+      "likes": 503
      }
     ],
     "recent": 1,
-    "note": "X 1 个账号 ♥6071"
-   },
-   {
-    "term": "lifeval",
-    "sources": [
-     "OpenAI"
-    ],
-    "likes": 6071,
-    "examples": [
-     "@OpenAI: For AGI to benefit all of humanity, it should help people with the everyday task"
-    ],
-    "posts": [
-     {
-      "account": "OpenAI",
-      "text": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services to managing personal finances. Over the past year, we’ve used LifeVal to measure and improve how well our models handle these everyday tasks. https://t.co/GlUjixzEM0",
-      "url": "https://x.com/OpenAI/status/2117307611338997846",
-      "likes": 6071
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥6071"
-   },
-   {
-    "term": "qwen3.5-0.8b 0.016",
-    "sources": [
-     "dotey"
-    ],
-    "likes": 285,
-    "examples": [
-     "@dotey: 不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7."
-    ],
-    "posts": [
-     {
-      "account": "dotey",
-      "text": "不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7.9% 涨到 48.1%，约 6 倍。 这是 MIT CSAIL 四位研究者 11 月 2 日发的博客，他们把这叫“在权重空间里编程”：前沿大模型可以像读写代码一样，直接读懂、修改、甚至从零写出神经网络的权重。 过去的常识是，权重是训练出来的，人看不懂也没法手改，想改模型只能再训练。这项工作把原始权重直接交给通用大模型，让它自己读、自己改。 几个实验： 只看权重，不给游戏名、不给工具，Astra 认出了四个结构完全相同的游戏网络：打砖块、乒乓、吃豆人、过马路。 一辆训练了 10 亿步、256 次全失败的仿真小车，Astra 看了权重和一次失败录像，一次回复改了 3.5% 的权重，之后 1,024 次全部成功。 从零写打砖块网络，没有数据、不能试玩，一次写成，得分 517.4，是训练 5 亿步的强化学习网络（25.3）的约 20 倍。另外两个游戏没超过训练 5 亿步的版本。 Qwen 的 6 倍有几个条件： 原模型开思考模式后容易陷入重复循环，93% 的回答一直输出到长度上限，起点很低。Astra 找到第 15、19 层里引起循环的一个方向，把它删掉。 这要允许 Astra 拿练习题试跑 50 次。只试 10 次或 25 次，循环基本没消失。 换成很少循环的 Gemma 3 270M，同样的方法没带来提升。作者的结论是：改权重能去掉挡住能力的障碍，加不出模型本来没有的能力。 和“AI 改进 AI”的关系：现在的自我改进，大多是让 AI 生成数据、写训练代码，最后还是靠训练。作者把“模型检查并改进自己或下一代的权重”列为后续方向之一。 Chandan Singh 也公开了类似实验：Claude 在加法、排序等 10 个算法任务上直接写出小模型权重，最多 3 次就全部 100% 正确。他的报告也记录了，有一个任务里 Claude 用测试集数据做了拟合，违反规则，那个结果被判无效。 目前结果都由作者自己报告，还没有独立复现。 原文：https://t.co/4rLY5FHftN",
-      "url": "https://x.com/dotey/status/2117408133773705525",
-      "likes": 285
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥285"
-   },
-   {
-    "term": "gemma 3 270m",
-    "sources": [
-     "dotey"
-    ],
-    "likes": 285,
-    "examples": [
-     "@dotey: 不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7."
-    ],
-    "posts": [
-     {
-      "account": "dotey",
-      "text": "不训练、不算梯度，GPT-6 Astra 直接改了另一个模型的权重：只动了 Qwen3.5-0.8B 0.016% 的权重，MATH-500 数学正确率从 7.9% 涨到 48.1%，约 6 倍。 这是 MIT CSAIL 四位研究者 11 月 2 日发的博客，他们把这叫“在权重空间里编程”：前沿大模型可以像读写代码一样，直接读懂、修改、甚至从零写出神经网络的权重。 过去的常识是，权重是训练出来的，人看不懂也没法手改，想改模型只能再训练。这项工作把原始权重直接交给通用大模型，让它自己读、自己改。 几个实验： 只看权重，不给游戏名、不给工具，Astra 认出了四个结构完全相同的游戏网络：打砖块、乒乓、吃豆人、过马路。 一辆训练了 10 亿步、256 次全失败的仿真小车，Astra 看了权重和一次失败录像，一次回复改了 3.5% 的权重，之后 1,024 次全部成功。 从零写打砖块网络，没有数据、不能试玩，一次写成，得分 517.4，是训练 5 亿步的强化学习网络（25.3）的约 20 倍。另外两个游戏没超过训练 5 亿步的版本。 Qwen 的 6 倍有几个条件： 原模型开思考模式后容易陷入重复循环，93% 的回答一直输出到长度上限，起点很低。Astra 找到第 15、19 层里引起循环的一个方向，把它删掉。 这要允许 Astra 拿练习题试跑 50 次。只试 10 次或 25 次，循环基本没消失。 换成很少循环的 Gemma 3 270M，同样的方法没带来提升。作者的结论是：改权重能去掉挡住能力的障碍，加不出模型本来没有的能力。 和“AI 改进 AI”的关系：现在的自我改进，大多是让 AI 生成数据、写训练代码，最后还是靠训练。作者把“模型检查并改进自己或下一代的权重”列为后续方向之一。 Chandan Singh 也公开了类似实验：Claude 在加法、排序等 10 个算法任务上直接写出小模型权重，最多 3 次就全部 100% 正确。他的报告也记录了，有一个任务里 Claude 用测试集数据做了拟合，违反规则，那个结果被判无效。 目前结果都由作者自己报告，还没有独立复现。 原文：https://t.co/4rLY5FHftN",
-      "url": "https://x.com/dotey/status/2117408133773705525",
-      "likes": 285
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥285"
-   },
-   {
-    "term": "jascha sohl-dickstein",
-    "sources": [
-     "dotey"
-    ],
-    "likes": 149,
-    "examples": [
-     "@dotey: Anthropic 招驻留研究员：教授、技术创始人、资深工程师可转行做 AI 安全，不要求机器学习背景，年薪折合 35 万到 50 万美元，11 月 22 日截"
-    ],
-    "posts": [
-     {
-      "account": "dotey",
-      "text": "Anthropic 招驻留研究员：教授、技术创始人、资深工程师可转行做 AI 安全，不要求机器学习背景，年薪折合 35 万到 50 万美元，11 月 22 日截止 Anthropic 今天开放了 Anthropic Residency（驻留研究项目）的申请。这是一个付费、有固定期限的全职研究项目，分六周、三个月、六个月三档，招的是在别的技术领域已经做出成绩、想转行全职做 AI 安全研究的人。不要求机器学习背景。 【谁适合申请】 官方点名三类人：定量学科（数学、物理、统计这类靠数字和模型做研究的学科）的教授、技术型创始人、Staff 级工程师（大厂里比高级工程师再高一级、能主导大型项目的那一层）。官方写明，不需要博士学位、机器学习经验或论文发表记录。 招聘页列的加分项是：写过机器学习、自然语言处理或 AI 安全方向的论文，或者有大模型、强化学习、Kubernetes 集群和大型共享代码库的经验。 Anthropic 给的理由是，机器学习还是个年轻领域，现在很多资深研究员（包括 Anthropic 自己的）原本是物理学家、数学家、神经科学家或软件工程师。模型越强，研究里越重要的是定研究方向、判断什么值得做，其他领域的资深人士往往已经擅长这些，缺的是对前沿 AI 的了解。 这个项目是照着 Anthropic Fellows 项目改的。Fellows 面向新入行的研究者，出过“潜意识学习”（模型通过看似无关的数据把行为倾向传给另一个模型）、Petri 模型审计工具、人格向量等研究。Residency 把同样的模式用在有资历的技术负责人身上。 【去了做什么】 每人配一位 Anthropic 研究员当导师，定期一对一指导，课题由 Anthropic 研究员提出、按个人兴趣和背景匹配。项目留出自学时间，配讲座和辅导，帮人补上现代机器学习和 AI 安全的基础；可以用前沿模型，课题有专门的算力预算。 研究方向分三块。 第一块是 AI 安全与对齐，比如模型在某些领域超过人类之后怎么监督它、拆开模型看内部怎么运作、AI 福祉。 第二块是 AI 安全攻防和前沿红队测试，专门摸清模型在网络安全、机器人、密码学等领域到底能做到什么程度。 第三块是模型训练和背后的基础设施，从模型架构、优化器、训练数据，到加速器模拟器、硬件后端和强化学习训练环境。 官方列了 9 位可能的导师，包括对齐科学团队负责人 Ethan Perez、模型心理学团队负责人 Jack Lindsey、前 Google Brain 首席科学家 Jascha Sohl-Dickstein、研究对抗机器学习和 AI 安全的 Nicholas Carlini。 【待遇和地点】 美国岗年薪折合 35 万到 50 万美元，英国岗 26.5 万到 37.5 万英镑，按实际时长折算，另有福利。按比例算，做满六个月是 17.5 万到 25 万美元。 Anthropic 希望大家在旧金山办公室工作，但也能远程，短期项目尤其如此。远程的人必须身在 Anthropic 能合法雇人的国家，官方没列具体是哪些国家。三个月及以上可以办签证，六周的鼓励远程参加。英国岗默认在英国远程，可以去伦敦办公室。 Anthropic 说，目标是让每个人结束后都能继续全职做 AI 研究，去 Anthropic 或别处都可以。它同时提到，Anthropic 大多数全职研究岗要求搬到旧金山。 【怎么申请】 招聘页分美国岗（地点写的是旧金山、纽约）和英国岗（伦敦）两个入口。截止时间是太平洋时间 11 月 22 日晚 11:59，也就是北京时间 11 月 23 日下午 3:59。流程是提交申请、招聘官初筛、技术评估、研究讨论、背景调查，预计 2027 年 1 月发录用通知。申请人也可能被一并考虑进 Fellows 项目。 项目介绍：https://t.co/jF1d5ZWVf7 美国岗申请：https://t.co/ZfXvoJwZhw 英国岗申请：https://t.co/y3f9xipFaQ",
-      "url": "https://x.com/dotey/status/2117361528504496318",
-      "likes": 149
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥149"
+    "note": "X 1 个账号 ♥503"
    }
   ],
-  "seconds": 29
+  "seconds": 28
  },
  "hf": {
   "first_run": false,
@@ -1466,10 +1157,10 @@
     "repo": "deepseek-ai/dsh-superagent-prototype",
     "owner": "deepseek-ai",
     "name": "dsh-superagent-prototype",
-    "stars": 15720,
-    "velocity": 4968,
-    "delta": 4158,
-    "age_days": 3.2,
+    "stars": 18230,
+    "velocity": 4371,
+    "delta": 2510,
+    "age_days": 4.2,
     "description": "Towards a More Autonomous Agent System",
     "new": false
    },
@@ -1477,108 +1168,108 @@
     "repo": "storytold/craft-anything",
     "owner": "storytold",
     "name": "craft-anything",
-    "stars": 6405,
-    "velocity": 2176,
-    "delta": 3861,
-    "age_days": 2.9,
+    "stars": 10136,
+    "velocity": 2566,
+    "delta": 3731,
+    "age_days": 4.0,
     "description": "Craft Anything: understand how any software works, and craft your own.",
-    "new": false
-   },
-   {
-    "repo": "heydamir/unslop",
-    "owner": "heydamir",
-    "name": "unslop",
-    "stars": 6986,
-    "velocity": 1423,
-    "delta": 1429,
-    "age_days": 4.9,
-    "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
     "new": false
    },
    {
     "repo": "ccch1mneyyy/dsh-Go",
     "owner": "ccch1mneyyy",
     "name": "dsh-Go",
-    "stars": 6841,
-    "velocity": 742,
-    "delta": 1330,
-    "age_days": 9.2,
+    "stars": 8908,
+    "velocity": 871,
+    "delta": 2067,
+    "age_days": 10.2,
     "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
     "new": false
    },
    {
-    "repo": "BryceYuuu/RUN",
-    "owner": "BryceYuuu",
-    "name": "RUN",
-    "stars": 2674,
-    "velocity": 526,
-    "delta": 1246,
-    "age_days": 5.1,
-    "description": "RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）",
+    "repo": "KKKKhazix/agent-autoloop",
+    "owner": "KKKKhazix",
+    "name": "agent-autoloop",
+    "stars": 2045,
+    "velocity": 1657,
+    "delta": null,
+    "age_days": 1.2,
+    "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
     "new": true,
     "variants": [
-     "run",
-     "bryceyuuu run",
-     "bryce run"
+     "agent autoloop",
+     "kkkkhazix agent autoloop",
+     "khazix agent autoloop"
     ]
+   },
+   {
+    "repo": "heydamir/unslop",
+    "owner": "heydamir",
+    "name": "unslop",
+    "stars": 8103,
+    "velocity": 1370,
+    "delta": 1117,
+    "age_days": 5.9,
+    "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+    "new": false
    },
    {
     "repo": "wangzan101/Mika",
     "owner": "wangzan101",
     "name": "Mika",
-    "stars": 5894,
-    "velocity": 1189,
-    "delta": 955,
-    "age_days": 5.0,
+    "stars": 6434,
+    "velocity": 1079,
+    "delta": 540,
+    "age_days": 6.0,
     "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-    "new": false
-   },
-   {
-    "repo": "modelflare-ai/AnyModelBot",
-    "owner": "modelflare-ai",
-    "name": "AnyModelBot",
-    "stars": 2181,
-    "velocity": 303,
-    "delta": 916,
-    "age_days": 7.2,
-    "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Cla",
-    "new": true,
-    "variants": [
-     "anymodelbot",
-     "modelflare-ai anymodelbot",
-     "modelflare anymodelbot"
-    ]
-   },
-   {
-    "repo": "l0ng-ai/openidea",
-    "owner": "l0ng-ai",
-    "name": "openidea",
-    "stars": 5463,
-    "velocity": 419,
-    "delta": 910,
-    "age_days": 13.0,
-    "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: ",
     "new": false
    },
    {
     "repo": "patch-gg/pixelfx",
     "owner": "patch-gg",
     "name": "pixelfx",
-    "stars": 3885,
-    "velocity": 907,
-    "delta": 653,
-    "age_days": 4.3,
+    "stars": 4511,
+    "velocity": 853,
+    "delta": 626,
+    "age_days": 5.3,
     "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
     "new": false
+   },
+   {
+    "repo": "BryceYuuu/RUN",
+    "owner": "BryceYuuu",
+    "name": "RUN",
+    "stars": 3519,
+    "velocity": 578,
+    "delta": 845,
+    "age_days": 6.1,
+    "description": "RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）",
+    "new": false
+   },
+   {
+    "repo": "Pika-Labs/Pika-H3-Flex",
+    "owner": "Pika-Labs",
+    "name": "Pika-H3-Flex",
+    "stars": 1567,
+    "velocity": 268,
+    "delta": 839,
+    "age_days": 5.9,
+    "description": "Pika H3 Flex: video and audio generation inference",
+    "new": true,
+    "variants": [
+     "pika h3 flex",
+     "pika-labs pika h3 flex",
+     "pika pika h3 flex"
+    ]
    },
    {
     "repo": "valentderah/totk-pc-recomp",
     "owner": "valentderah",
     "name": "totk-pc-recomp",
-    "stars": 4323,
-    "velocity": 858,
-    "delta": 685,
-    "age_days": 5.0,
+    "stars": 4706,
+    "velocity": 778,
+    "delta": 383,
+    "age_days": 6.0,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan rend",
     "new": false
    },
@@ -1586,138 +1277,157 @@
     "repo": "anhao/ai-pose-gallery-zh",
     "owner": "anhao",
     "name": "ai-pose-gallery-zh",
-    "stars": 5730,
-    "velocity": 813,
-    "delta": 307,
-    "age_days": 7.0,
+    "stars": 5891,
+    "velocity": 732,
+    "delta": 161,
+    "age_days": 8.1,
     "description": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
     "new": false
+   },
+   {
+    "repo": "govijr/terminal-mac",
+    "owner": "govijr",
+    "name": "terminal-mac",
+    "stars": 1036,
+    "velocity": 726,
+    "delta": null,
+    "age_days": 1.4,
+    "description": "Entire MacOS running in your terminal.",
+    "new": true,
+    "variants": [
+     "terminal mac",
+     "govijr terminal mac"
+    ]
    },
    {
     "repo": "unclebob/ub-mode",
     "owner": "unclebob",
     "name": "ub-mode",
-    "stars": 6715,
-    "velocity": 755,
-    "delta": 252,
-    "age_days": 8.9,
+    "stars": 6891,
+    "velocity": 696,
+    "delta": 176,
+    "age_days": 9.9,
     "description": "",
     "new": false
    },
    {
-    "repo": "Verlintas/NOIR",
-    "owner": "Verlintas",
-    "name": "NOIR",
-    "stars": 1669,
-    "velocity": 627,
-    "delta": 726,
-    "age_days": 2.7,
-    "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, revers",
+    "repo": "benjitaylor/skills",
+    "owner": "benjitaylor",
+    "name": "skills",
+    "stars": 1745,
+    "velocity": 187,
+    "delta": 564,
+    "age_days": 9.3,
+    "description": "Skills for AI coding agents.",
     "new": true,
     "variants": [
-     "noir",
-     "verlintas noir"
+     "skills",
+     "benjitaylor skills",
+     "benji skills"
     ]
    },
    {
-    "repo": "pengchujin/aerial-tv",
-    "owner": "pengchujin",
-    "name": "aerial-tv",
-    "stars": 9255,
-    "velocity": 653,
-    "delta": 302,
-    "age_days": 14.2,
-    "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-    "new": false
-   },
-   {
-    "repo": "caru-ini/stack-diagram",
-    "owner": "caru-ini",
-    "name": "stack-diagram",
-    "stars": 1395,
-    "velocity": 599,
-    "delta": 494,
-    "age_days": 2.3,
-    "description": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+    "repo": "rddmwmddr/android-ad-cleaner",
+    "owner": "rddmwmddr",
+    "name": "android-ad-cleaner",
+    "stars": 6253,
+    "velocity": 552,
+    "delta": 226,
+    "age_days": 11.3,
+    "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
     "new": false
    }
   ],
   "terms": [
    {
-    "term": "run",
+    "term": "agent autoloop",
     "recent": 1,
     "variants": [
-     "run",
-     "bryceyuuu run",
-     "bryce run"
+     "agent autoloop",
+     "kkkkhazix agent autoloop",
+     "khazix agent autoloop"
     ],
-    "repo": "BryceYuuu/RUN",
-    "note": "GitHub 爆发 BryceYuuu/RUN ★2674(均 526/天,一天 +1246)",
+    "repo": "KKKKhazix/agent-autoloop",
+    "note": "GitHub 爆发 KKKKhazix/agent-autoloop ★2045(均 1657/天)",
     "examples": [
-     "BryceYuuu/RUN: RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）"
+     "KKKKhazix/agent-autoloop: 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。"
     ]
    },
    {
-    "term": "anymodelbot",
+    "term": "pika h3 flex",
     "recent": 1,
     "variants": [
-     "anymodelbot",
-     "modelflare-ai anymodelbot",
-     "modelflare anymodelbot"
+     "pika h3 flex",
+     "pika-labs pika h3 flex",
+     "pika pika h3 flex"
     ],
-    "repo": "modelflare-ai/AnyModelBot",
-    "note": "GitHub 爆发 modelflare-ai/AnyModelBot ★2181(均 303/天,一天 +916)",
+    "repo": "Pika-Labs/Pika-H3-Flex",
+    "note": "GitHub 爆发 Pika-Labs/Pika-H3-Flex ★1567(均 268/天,一天 +839)",
     "examples": [
-     "modelflare-ai/AnyModelBot: 🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Cla"
+     "Pika-Labs/Pika-H3-Flex: Pika H3 Flex: video and audio generation inference"
     ]
    },
    {
-    "term": "noir",
+    "term": "terminal mac",
     "recent": 1,
     "variants": [
-     "noir",
-     "verlintas noir"
+     "terminal mac",
+     "govijr terminal mac"
     ],
-    "repo": "Verlintas/NOIR",
-    "note": "GitHub 爆发 Verlintas/NOIR ★1669(均 627/天,一天 +726)",
+    "repo": "govijr/terminal-mac",
+    "note": "GitHub 爆发 govijr/terminal-mac ★1036(均 726/天)",
     "examples": [
-     "Verlintas/NOIR: 手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, revers"
+     "govijr/terminal-mac: Entire MacOS running in your terminal."
+    ]
+   },
+   {
+    "term": "skills",
+    "recent": 1,
+    "variants": [
+     "skills",
+     "benjitaylor skills",
+     "benji skills"
+    ],
+    "repo": "benjitaylor/skills",
+    "note": "GitHub 爆发 benjitaylor/skills ★1745(均 187/天,一天 +564)",
+    "examples": [
+     "benjitaylor/skills: Skills for AI coding agents."
     ]
    }
   ],
   "window_days": 14,
-  "seconds": 11
+  "seconds": 13
  },
  "sitemap": {
   "sites": {
    "glama": {
-    "urls": 154775,
-    "new": 1320,
+    "urls": 155954,
+    "new": 1230,
     "first_run": false,
     "sample": [
-     "https://glama.ai/mcp/connectors/ad.pantheon/mcp",
-     "https://glama.ai/mcp/connectors/ai.a1lane/a1lane",
-     "https://glama.ai/mcp/connectors/ai.agilex.service/docs",
-     "https://glama.ai/mcp/connectors/ai.aibotoffice/bot-office",
-     "https://glama.ai/mcp/connectors/ai.aigamedev/aigamedev",
-     "https://glama.ai/mcp/connectors/ai.bluebed.property/new-launches",
-     "https://glama.ai/mcp/connectors/ai.bobwork/emailwarmup",
-     "https://glama.ai/mcp/connectors/ai.botappetit/bot-appetit"
+     "https://glama.ai/mcp/connectors/ad.apogee/apogee",
+     "https://glama.ai/mcp/connectors/ad.tide/mcp",
+     "https://glama.ai/mcp/connectors/africa.lomi/mcp",
+     "https://glama.ai/mcp/connectors/ai.agentasy/cronjob",
+     "https://glama.ai/mcp/connectors/ai.agentblueprint/agent-blueprint",
+     "https://glama.ai/mcp/connectors/ai.agentcv/registry",
+     "https://glama.ai/mcp/connectors/ai.anyreach.api/anyreach",
+     "https://glama.ai/mcp/connectors/ai.bidbetter/collector-car-values"
     ]
    },
    "mcp.so": {
-    "urls": 19813,
-    "new": 8,
+    "urls": 19841,
+    "new": 31,
     "first_run": false,
     "sample": [
-     "https://mcp.so/servers/green-screen-memes",
-     "https://mcp.so/servers/jaybird-digital",
-     "https://mcp.so/servers/mcp-n8n-server",
-     "https://mcp.so/servers/mcp-server-n8n",
-     "https://mcp.so/servers/paperjoy-01f7bf",
-     "https://mcp.so/servers/sheetsfinance",
-     "https://mcp.so/servers/snapex-pay-259399",
-     "https://mcp.so/servers/wisepim-commerce-reference"
+     "https://mcp.so/agents/orinyx-mcp",
+     "https://mcp.so/agents/seedance-2-5",
+     "https://mcp.so/servers/angelcam",
+     "https://mcp.so/servers/apixo-ai-05d20d",
+     "https://mcp.so/servers/assign2me-mcp",
+     "https://mcp.so/servers/careerproof-claude-skills",
+     "https://mcp.so/servers/cookieyes",
+     "https://mcp.so/servers/cuehq"
     ]
    },
    "lobehub-mcp": {
@@ -1746,17 +1456,17 @@
    },
    "ai-bot.cn": {
     "urls": 5068,
-    "new": 693,
+    "new": 697,
     "first_run": false,
     "sample": [
-     "https://ai-bot.cn/2pr/",
-     "https://ai-bot.cn/3fs/",
-     "https://ai-bot.cn/a0-dev/",
-     "https://ai-bot.cn/ace-plus/",
-     "https://ai-bot.cn/agent-tars/",
-     "https://ai-bot.cn/agentic-reasoning/",
-     "https://ai-bot.cn/agentrefine/",
-     "https://ai-bot.cn/agentsociety/"
+     "https://ai-bot.cn/evaomni/",
+     "https://ai-bot.cn/flashprove/",
+     "https://ai-bot.cn/hy4/",
+     "https://ai-bot.cn/looogen/",
+     "https://ai-bot.cn/mv-buddy/",
+     "https://ai-bot.cn/qovest/",
+     "https://ai-bot.cn/sites/1338.html",
+     "https://ai-bot.cn/sites/46429.html"
     ]
    },
    "opentools": {
@@ -1766,18 +1476,17 @@
     "sample": []
    },
    "dang": {
-    "urls": 7806,
-    "new": 10,
+    "urls": 7803,
+    "new": 7,
     "first_run": false,
     "sample": [
-     "https://dang.ai/tool/bulin-47-ai-videos-photo-to-video-ai",
-     "https://dang.ai/tool/burning-bridges-trend-photo-to-video-ai",
-     "https://dang.ai/tool/checksub",
-     "https://dang.ai/tool/dubverse-ai",
-     "https://dang.ai/tool/hotel-lobby-video-ai-image-to-video-ai",
-     "https://dang.ai/tool/neuralverge-ai-data-layer",
-     "https://dang.ai/tool/proxycoupons-proxy-coupon-codes",
-     "https://dang.ai/tool/sandcastles"
+     "https://dang.ai/tool/alook-multi-agent-collaboration",
+     "https://dang.ai/tool/cosupport-ai",
+     "https://dang.ai/tool/crownai-ai-poker-decision-support",
+     "https://dang.ai/tool/dessi-app-ai-image-generator",
+     "https://dang.ai/tool/elevenlabs",
+     "https://dang.ai/tool/getsolved-ai-ai-writing-assistant",
+     "https://dang.ai/tool/kindroid"
     ]
    },
    "clipfly": {
@@ -1787,184 +1496,182 @@
     "sample": []
    },
    "aitoptools": {
-    "urls": 11881,
-    "new": 5,
+    "urls": 11885,
+    "new": 4,
     "first_run": false,
     "sample": [
-     "https://aitoptools.com/ai-blog/9-best-akamai-cdn-alternatives-for-2026/",
-     "https://aitoptools.com/ai-blog/budget-categories-a-pennyguard-starter-list-of-10/",
-     "https://aitoptools.com/tool/empacer/",
-     "https://aitoptools.com/tool/getsolved/",
-     "https://aitoptools.com/tool/nano-banana-ai-5/"
+     "https://aitoptools.com/tool/batchdata/",
+     "https://aitoptools.com/tool/fashion-diffusion/",
+     "https://aitoptools.com/tool/getplus-ai/",
+     "https://aitoptools.com/tool/signalvan/"
     ]
    },
    "futurepedia": {
     "urls": 2499,
-    "new": 6,
+    "new": 5,
     "first_run": false,
     "sample": [
-     "https://www.futurepedia.io/tool/adaptive-planning",
-     "https://www.futurepedia.io/tool/axion",
-     "https://www.futurepedia.io/tool/dzine",
-     "https://www.futurepedia.io/tool/onyx",
-     "https://www.futurepedia.io/tool/prisma-airs",
-     "https://www.futurepedia.io/tool/vozo"
+     "https://www.futurepedia.io/tool/heroguide",
+     "https://www.futurepedia.io/tool/nanomaker-ai",
+     "https://www.futurepedia.io/tool/textlayer",
+     "https://www.futurepedia.io/tool/zawa",
+     "https://www.futurepedia.io/tool/zentor"
     ]
    }
   },
   "terms": [
    {
-    "term": "genpark personal",
-    "recent": 118,
-    "baseline": 99,
-    "lift": 60.1
+    "term": "sites",
+    "recent": 691,
+    "baseline": 22,
+    "lift": 573.1
+   },
+   {
+    "term": "connectors uk.co.reliness",
+    "recent": 30,
+    "baseline": 0,
+    "lift": 30.0
    },
    {
     "term": "cloudcorprecords",
-    "recent": 90,
-    "baseline": 191,
-    "lift": 31.5
+    "recent": 59,
+    "baseline": 281,
+    "lift": 16.3
    },
    {
     "term": "records",
-    "recent": 94,
-    "baseline": 224,
-    "lift": 29.6
-   },
-   {
-    "term": "personal",
-    "recent": 121,
-    "baseline": 366,
-    "lift": 26.5
+    "recent": 59,
+    "baseline": 318,
+    "lift": 14.8
    },
    {
     "term": "corp",
-    "recent": 90,
-    "baseline": 253,
-    "lift": 26.0
+    "recent": 60,
+    "baseline": 343,
+    "lift": 14.3
    },
    {
-    "term": "cutaneous",
-    "recent": 18,
+    "term": "com.forevenza.services",
+    "recent": 12,
+    "baseline": 0,
+    "lift": 12.0
+   },
+   {
+    "term": "connectors com.forevenza.services",
+    "recent": 12,
+    "baseline": 0,
+    "lift": 12.0
+   },
+   {
+    "term": "nabuxai",
+    "recent": 11,
+    "baseline": 0,
+    "lift": 11.0
+   },
+   {
+    "term": "nabux",
+    "recent": 11,
+    "baseline": 0,
+    "lift": 11.0
+   },
+   {
+    "term": "art search",
+    "recent": 8,
     "baseline": 2,
-    "lift": 17.7
+    "lift": 7.9
    },
    {
-    "term": "park genpark",
-    "recent": 61,
-    "baseline": 329,
-    "lift": 14.5
-   },
-   {
-    "term": "alpha park",
-    "recent": 61,
-    "baseline": 333,
-    "lift": 14.4
-   },
-   {
-    "term": "tutorials deepseek",
-    "recent": 14,
-    "baseline": 3,
-    "lift": 13.6
-   },
-   {
-    "term": "ocular",
-    "recent": 14,
-    "baseline": 6,
-    "lift": 13.2
-   },
-   {
-    "term": "alphaparkinc genpark",
-    "recent": 57,
-    "baseline": 374,
-    "lift": 12.3
-   },
-   {
-    "term": "com.clawhard",
-    "recent": 12,
-    "baseline": 1,
-    "lift": 11.9
-   },
-   {
-    "term": "connectors com.clawhard",
-    "recent": 12,
-    "baseline": 1,
-    "lift": 11.9
-   },
-   {
-    "term": "george22",
-    "recent": 12,
-    "baseline": 4,
-    "lift": 11.6
-   },
-   {
-    "term": "cardiac",
-    "recent": 11,
+    "term": "l50",
+    "recent": 7,
     "baseline": 0,
-    "lift": 11.0
+    "lift": 7.0
    },
    {
-    "term": "pulmonary",
-    "recent": 11,
+    "term": "connectors com.pagespool",
+    "recent": 7,
     "baseline": 0,
-    "lift": 11.0
-   },
-   {
-    "term": "chat.conecto",
-    "recent": 10,
-    "baseline": 1,
-    "lift": 9.9
-   },
-   {
-    "term": "connectors chat.conecto",
-    "recent": 10,
-    "baseline": 1,
-    "lift": 9.9
-   },
-   {
-    "term": "tutorials",
-    "recent": 25,
-    "baseline": 159,
-    "lift": 9.8
+    "lift": 7.0
    },
    {
     "term": "cloud",
-    "recent": 92,
-    "baseline": 879,
-    "lift": 9.6
+    "recent": 63,
+    "baseline": 971,
+    "lift": 6.2
    },
    {
-    "term": "studio labs",
-    "recent": 10,
-    "baseline": 4,
-    "lift": 9.6
+    "term": "io.github.lewisororke l50",
+    "recent": 6,
+    "baseline": 0,
+    "lift": 6.0
    },
    {
-    "term": "acoustic",
-    "recent": 10,
-    "baseline": 6,
-    "lift": 9.4
+    "term": "connectors io.github.lewisororke",
+    "recent": 6,
+    "baseline": 0,
+    "lift": 6.0
    },
    {
-    "term": "cerebral",
-    "recent": 9,
+    "term": "io.webz",
+    "recent": 6,
     "baseline": 1,
-    "lift": 8.9
+    "lift": 5.9
    },
    {
-    "term": "reflex",
-    "recent": 10,
-    "baseline": 14,
-    "lift": 8.8
+    "term": "connectors io.webz",
+    "recent": 6,
+    "baseline": 1,
+    "lift": 5.9
    },
    {
-    "term": "r1",
-    "recent": 10,
-    "baseline": 24,
-    "lift": 8.1
+    "term": "llc cyan",
+    "recent": 7,
+    "baseline": 26,
+    "lift": 5.6
+   },
+   {
+    "term": "cyan eclipse",
+    "recent": 7,
+    "baseline": 38,
+    "lift": 5.2
+   },
+   {
+    "term": "eclipse technologies",
+    "recent": 7,
+    "baseline": 40,
+    "lift": 5.1
+   },
+   {
+    "term": "technologies llc",
+    "recent": 7,
+    "baseline": 42,
+    "lift": 5.0
+   },
+   {
+    "term": "com.agentfirststack",
+    "recent": 5,
+    "baseline": 0,
+    "lift": 5.0
+   },
+   {
+    "term": "connectors com.agentfirststack",
+    "recent": 5,
+    "baseline": 0,
+    "lift": 5.0
+   },
+   {
+    "term": "dev.workers.manhliemcn4euwlu.llmrt",
+    "recent": 5,
+    "baseline": 1,
+    "lift": 5.0
+   },
+   {
+    "term": "connectors dev.workers.manhliemcn4euwlu.llmrt",
+    "recent": 5,
+    "baseline": 1,
+    "lift": 5.0
    }
   ],
-  "seconds": 248
+  "seconds": 256
  },
  "newsite": {
   "skipped": true
@@ -1984,163 +1691,192 @@
  "feed": {
   "read": {
    "producthunt": 50,
-   "hn": 8,
-   "openrouter": 2,
+   "hn": 10,
+   "openrouter": 4,
    "appstore": 200,
    "awesome": 4635
   },
   "new": {
    "producthunt": [
     {
-     "key": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network",
-     "name": "Teamily AI",
-     "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network",
-     "about": "Your personal agent, agent teams & people in one messenger Discussion | Link",
+     "key": "https://www.producthunt.com/products/render",
+     "name": "Render Sandboxes",
+     "url": "https://www.producthunt.com/products/render",
+     "about": "A computer for every agent Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/scalekit",
-     "name": "AgentKit (by Scalekit)",
-     "url": "https://www.producthunt.com/products/scalekit",
-     "about": "MCP gateway for production agents that acts on your behalf Discussion | Link",
+     "key": "https://www.producthunt.com/products/kosa8",
+     "name": "kosa8",
+     "url": "https://www.producthunt.com/products/kosa8",
+     "about": "Air-gapped microVM sandboxes for enterprise AI agents Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/machinemail",
-     "name": "MachineMail",
-     "url": "https://www.producthunt.com/products/machinemail",
-     "about": "Real inboxes for AI agents, with trust built in Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/sun-ai",
-     "name": "SUN Web & API",
-     "url": "https://www.producthunt.com/products/sun-ai",
-     "about": "Turn prompts and PDFs into audio, on the web or via API Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/beamfy",
-     "name": "Beamfy",
-     "url": "https://www.producthunt.com/products/beamfy",
-     "about": "AI vision assistant for blind people, live in 74 languages Discussion | Link",
+     "key": "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing",
+     "name": "Orphex MCP",
+     "url": "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing",
+     "about": "Run your entire digital marketing stack via one unified MCP Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/iq-code",
-     "name": "IQ",
-     "url": "https://www.producthunt.com/products/iq-code",
-     "about": "The dashboard for your team's AI use Discussion | Link",
+     "key": "https://www.producthunt.com/products/fileai-ai-ocr",
+     "name": "fileForensics",
+     "url": "https://www.producthunt.com/products/fileai-ai-ocr",
+     "about": "Real or not? Check files before your AI trusts them. Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/remote-gaze",
-     "name": "Remote Gaze",
-     "url": "https://www.producthunt.com/products/remote-gaze",
-     "about": "Your Mac on your iPad and iPhone with no in-between server Discussion | Link",
+     "key": "https://www.producthunt.com/products/rungle",
+     "name": "Rungle",
+     "url": "https://www.producthunt.com/products/rungle",
+     "about": "Turn your running photos and clips into share-ready Reels Discussion | Link",
      "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/peji",
-     "name": "Peji",
-     "url": "https://www.producthunt.com/products/peji",
-     "about": "An AI chat with a real browser you control Discussion | Link",
+     "key": "https://www.producthunt.com/products/eyecon-auto-pause-video",
+     "name": "Eyecon",
+     "url": "https://www.producthunt.com/products/eyecon-auto-pause-video",
+     "about": "Auto pause video when you look away Discussion | Link",
+     "fresh": false
+    },
+    {
+     "key": "https://www.producthunt.com/products/country-filter-for-x-2",
+     "name": "Country Filter for X",
+     "url": "https://www.producthunt.com/products/country-filter-for-x-2",
+     "about": "Hide posts from chosen countries in your X For You feed Discussion | Link",
      "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/testera-3",
-     "name": "Testera",
-     "url": "https://www.producthunt.com/products/testera-3",
-     "about": "AI-driven API testing Discussion | Link",
+     "key": "https://www.producthunt.com/products/sendu",
+     "name": "Sendu",
+     "url": "https://www.producthunt.com/products/sendu",
+     "about": "Drop files easily across your local network Discussion | Link",
      "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/calendarly-calendar-on-lock-screen",
-     "name": "Calendarly",
-     "url": "https://www.producthunt.com/products/calendarly-calendar-on-lock-screen",
-     "about": "Your calendar and tasks, right on your iPhone Lock Screen Discussion | Link",
+     "key": "https://www.producthunt.com/products/datashake-hub",
+     "name": "Datashake MCP",
+     "url": "https://www.producthunt.com/products/datashake-hub",
+     "about": "Plug review and social data straight into your AI assistant Discussion | Link",
+     "fresh": true
+    },
+    {
+     "key": "https://www.producthunt.com/products/pasteguard-2",
+     "name": "PasteGuard for Mac",
+     "url": "https://www.producthunt.com/products/pasteguard-2",
+     "about": "Keep secrets and personal data out of AI chats Discussion | Link",
      "fresh": true
     }
    ],
    "hn": [
     {
-     "key": "50340088",
-     "name": "Subvocal",
-     "url": "https://news.ycombinator.com/item?id=50340088",
-     "about": "Show HN: Subvocal – Talk to your computer without making noise",
-     "score": 747,
+     "key": "50346755",
+     "name": "HackerTV",
+     "url": "https://hackertv.org",
+     "about": "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels",
+     "score": 369,
      "fresh": true
     },
     {
-     "key": "50346981",
-     "name": "Hacker Times, a New York Times-inspired version of Hacker News",
-     "url": "https://hackertimes.ca/",
-     "about": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
-     "score": 346,
+     "key": "50358314",
+     "name": "Kairos",
+     "url": "https://github.com/finic-ai/kairos",
+     "about": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+     "score": 98,
      "fresh": true
     },
     {
-     "key": "50339221",
-     "name": "Warsaw in voxels",
-     "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
-     "about": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
-     "score": 295,
+     "key": "50358352",
+     "name": "Uncracked City, detective game where you question LLM suspects that lie",
+     "url": "https://uncracked.city",
+     "about": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+     "score": 87,
      "fresh": true
     },
     {
-     "key": "50347552",
-     "name": "I built a little browser game to practice Vim commands",
-     "url": "https://hjkl.duy.run",
-     "about": "Show HN: I built a little browser game to practice Vim commands",
-     "score": 49,
+     "key": "50353386",
+     "name": "HackerChurn",
+     "url": "https://hissingkitty.com/hacker-churn",
+     "about": "Show HN: HackerChurn – which SaaS tools HN wants to cancel",
+     "score": 71,
+     "fresh": true
+    },
+    {
+     "key": "50353468",
+     "name": "Interactive notes on RLHF, attention, LoRA and LLM evals",
+     "url": "https://concepts.laxmena.com/",
+     "about": "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals",
+     "score": 41,
+     "fresh": true
+    },
+    {
+     "key": "50338891",
+     "name": "PyWolf3D, a wolfenstein3D clone written from scratch in Python",
+     "url": "https://github.com/atifcodesalot/pyWolf3D",
+     "about": "Show HN: PyWolf3D, a wolfenstein3D clone written from scratch in Python",
+     "score": 31,
      "fresh": true
     }
    ],
    "openrouter": [
     {
-     "key": "z-ai/glm-5.3-flashx-legal",
-     "name": "GLM 5.3 FlashX Legal",
-     "url": "https://openrouter.ai/z-ai/glm-5.3-flashx-legal",
-     "about": "GLM-5.3-FlashX-Legal (GLM-Legal) is Z.ai's legal-domain variant of GLM-5.3-FlashX, a native multimodal model that accepts text, image, and video input and produces text. It adds legal-domain mid-train",
+     "key": "tencent/hy4",
+     "name": "Hy4",
+     "url": "https://openrouter.ai/tencent/hy4",
+     "about": "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-hor",
+     "fresh": true
+    },
+    {
+     "key": "stealth/crouton-alpha",
+     "name": "Crouton Alpha",
+     "url": "https://openrouter.ai/stealth/crouton-alpha",
+     "about": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated ",
      "fresh": true
     }
    ],
    "appstore": [
     {
-     "key": "6757661674",
-     "name": "SocialLite-Block Reels&Shorts",
-     "url": "https://apps.apple.com/us/app/sociallite-block-reels-shorts/id6757661674?uo=2",
-     "about": "SocialLite blocks shorts from Instagram, shorts from YouTube and other short form content from other platforms. It is the app for people who want to use social media without losing hours to endless sc"
+     "key": "6711347033",
+     "name": "Chatbot App: AI Assistant",
+     "url": "https://apps.apple.com/us/app/chatbot-app-ai-assistant/id6711347033?uo=2",
+     "about": "Chatbot App brings advanced AI models together in one intuitive app for writing, learning, coding, creativity, and productivity. Built on OpenAI GPT-6, Google Gemini 3.8 Flash, Anthropic Claude Fable "
     },
     {
-     "key": "1019290876",
-     "name": "AppClose",
-     "url": "https://apps.apple.com/us/app/appclose/id1019290876?uo=2",
-     "about": "WE KNOW CO-PARENTING And that is why AppClose is the most downloaded co-parenting app in the world, with more than 3.1M downloads, and has more daily and monthly active users than any other co-parenti"
+     "key": "515094775",
+     "name": "Bazaart AI Photo Editor Design",
+     "url": "https://apps.apple.com/us/app/bazaart-ai-photo-editor-design/id515094775?uo=2",
+     "about": "Bazaart is an easy-to-use AI photo editor, video editor, and design app. No design background needed. Create fast for online selling, digital marketing, and social media. Get your design superpowers t"
     },
     {
-     "key": "6450021857",
-     "name": "Sogni: AI Image, Video & Music",
-     "url": "https://apps.apple.com/us/app/sogni-ai-image-video-music/id6450021857?uo=2",
-     "about": "Sogni Pocket is a creative studio for iPhone and iPad that brings images, video, and music into one powerful workspace. With the new Sogni Assistant, you can describe what you want, work from referenc"
+     "key": "1634361180",
+     "name": "Vids AI - Reels Video Editor",
+     "url": "https://apps.apple.com/us/app/vids-ai-reels-video-editor/id1634361180?uo=2",
+     "about": "VIDS combines powerful AI with thousands of ready-made templates so you can make trending content in just a few taps. Start with an AI template or style — the app instantly syncs your clips with music"
     },
     {
-     "key": "6800568794",
-     "name": "RevReel: AI Car Edits",
-     "url": "https://apps.apple.com/us/app/revreel-ai-car-edits/id6800568794?uo=2",
-     "about": "RevReel takes photos of the car you already own and puts it in the shot you couldn't take yourself — a rain-slick downtown street at midnight, a white studio cove, the surface of the Moon — then bring"
+     "key": "6446647507",
+     "name": "AI Video Generator + Creator",
+     "url": "https://apps.apple.com/us/app/ai-video-generator-creator/id6446647507?uo=2",
+     "about": "AI Video Generator lets you turn your ideas into AI Videos using advanced artificial intelligence. Our AI Video Generator tool provides high-quality AI Videos - make AI Videos with AI Video Generator."
     },
     {
-     "key": "6444792863",
-     "name": "PhotoCut - AI Photo Editor",
-     "url": "https://apps.apple.com/us/app/photocut-ai-photo-editor/id6444792863?uo=2",
-     "about": "Discover a professional photo editor with AI! PhotoCut is designed to make your photos look great instantly and efficiently. MAIN FUNCTIONS: BACKGROUND ERASER Remove backgrounds automatically or manua"
+     "key": "645746786",
+     "name": "Word Swag - Cool Fonts",
+     "url": "https://apps.apple.com/us/app/word-swag-cool-fonts/id645746786?uo=2",
+     "about": "Congrats on finding the original Word Swag™ - the easiest and most beautiful graphic design editor. INTRODUCING REALFONTS Make your words irresistible with unbelievably fun RealFonts! With never-befor"
     },
     {
-     "key": "600520752",
-     "name": "Hushed: US Second Phone Number",
-     "url": "https://apps.apple.com/us/app/hushed-us-second-phone-number/id600520752?uo=2",
-     "about": "CALL AND TEXT ON A SECOND PHONE NUMBER WITH A 3-DAY TRIAL SUBSCRIPTION Hushed gives you a second phone number you can use for online dating, travel, shopping, moving, selling items, and more. Choose f"
+     "key": "6757016336",
+     "name": "TV Remote Control · Universal",
+     "url": "https://apps.apple.com/us/app/tv-remote-control-universal/id6757016336?uo=2",
+     "about": "Introducing TV Remote Control · Universal – the simplest and fastest way to control your TV directly from your iPhone. Turn your phone into a smart, reliable TV remote you can use anytime, anywhere. •"
+    },
+    {
+     "key": "6448222268",
+     "name": "Smart Cleaner: Free Up Storage",
+     "url": "https://apps.apple.com/us/app/smart-cleaner-free-up-storage/id6448222268?uo=2",
+     "about": "LET'S MAKE SPACE: CLEANING YOUR PHONE'S STORAGE HAS NEVER BEEN SMARTER! Smart Cleaner isn't just an app; it's a solution that turns storage cleanup into a quick, fun, and secure task. FAST & DEEP CLEA"
     }
    ],
    "awesome": []
@@ -2152,259 +1888,307 @@
   "cost_micros": 0,
   "terms": [
    {
-    "term": "teamily ai",
+    "term": "render sandboxes",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/teamily-ai-human-ai-social-network",
-     "Your personal agent, agent teams & people in one messenger Discussion | Link"
+     "https://www.producthunt.com/products/render",
+     "A computer for every agent Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Teamily AI"
+     "Product Hunt: Render Sandboxes"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "agentkit (by scalekit)",
+    "term": "kosa8",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/scalekit",
-     "MCP gateway for production agents that acts on your behalf Discussion | Link"
+     "https://www.producthunt.com/products/kosa8",
+     "Air-gapped microVM sandboxes for enterprise AI agents Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: AgentKit (by Scalekit)"
+     "Product Hunt: kosa8"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "machinemail",
+    "term": "orphex mcp",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/machinemail",
-     "Real inboxes for AI agents, with trust built in Discussion | Link"
+     "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing",
+     "Run your entire digital marketing stack via one unified MCP Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: MachineMail"
+     "Product Hunt: Orphex MCP"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "sun web & api",
+    "term": "fileforensics",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/sun-ai",
-     "Turn prompts and PDFs into audio, on the web or via API Discussion | Link"
+     "https://www.producthunt.com/products/fileai-ai-ocr",
+     "Real or not? Check files before your AI trusts them. Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: SUN Web & API"
+     "Product Hunt: fileForensics"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "beamfy",
+    "term": "rungle",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/beamfy",
-     "AI vision assistant for blind people, live in 74 languages Discussion | Link"
+     "https://www.producthunt.com/products/rungle",
+     "Turn your running photos and clips into share-ready Reels Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Beamfy"
+     "Product Hunt: Rungle"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "iq",
+    "term": "eyecon",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/iq-code",
-     "The dashboard for your team's AI use Discussion | Link"
+     "https://www.producthunt.com/products/eyecon-auto-pause-video",
+     "Auto pause video when you look away Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: IQ"
+     "Product Hunt: Eyecon"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "remote gaze",
+    "term": "country filter for x",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/remote-gaze",
-     "Your Mac on your iPad and iPhone with no in-between server Discussion | Link"
+     "https://www.producthunt.com/products/country-filter-for-x-2",
+     "Hide posts from chosen countries in your X For You feed Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Remote Gaze"
+     "Product Hunt: Country Filter for X"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "peji",
+    "term": "sendu",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/peji",
-     "An AI chat with a real browser you control Discussion | Link"
+     "https://www.producthunt.com/products/sendu",
+     "Drop files easily across your local network Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Peji"
+     "Product Hunt: Sendu"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "testera",
+    "term": "datashake mcp",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/testera-3",
-     "AI-driven API testing Discussion | Link"
+     "https://www.producthunt.com/products/datashake-hub",
+     "Plug review and social data straight into your AI assistant Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Testera"
+     "Product Hunt: Datashake MCP"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "calendarly",
+    "term": "pasteguard for mac",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/calendarly-calendar-on-lock-screen",
-     "Your calendar and tasks, right on your iPhone Lock Screen Discussion | Link"
+     "https://www.producthunt.com/products/pasteguard-2",
+     "Keep secrets and personal data out of AI chats Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Calendarly"
+     "Product Hunt: PasteGuard for Mac"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "subvocal",
+    "term": "hackertv",
     "recent": 1,
     "about": [
-     "https://news.ycombinator.com/item?id=50340088",
-     "Show HN: Subvocal – Talk to your computer without making noise"
+     "https://hackertv.org",
+     "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels"
     ],
     "examples": [
-     "Show HN: Subvocal"
+     "Show HN: HackerTV"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "hacker times, a new york times-inspired version of hacker news",
+    "term": "kairos",
     "recent": 1,
     "about": [
-     "https://hackertimes.ca/",
-     "Show HN: Hacker Times, a New York Times-inspired version of Hacker News"
+     "https://github.com/finic-ai/kairos",
+     "Show HN: Kairos – Open-source risk and fraud decisioning platform"
     ],
     "examples": [
-     "Show HN: Hacker Times, a New York Times-inspired version of Hacker News"
+     "Show HN: Kairos"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "warsaw in voxels",
+    "term": "uncracked city, detective game where you question llm suspects that lie",
     "recent": 1,
     "about": [
-     "https://p.migdal.pl/warsaw-vibe-voxel/",
-     "Show HN: Warsaw in voxels – An interactive 3D map of the city centre"
+     "https://uncracked.city",
+     "Show HN: Uncracked City, detective game where you question LLM suspects that lie"
     ],
     "examples": [
-     "Show HN: Warsaw in voxels"
+     "Show HN: Uncracked City, detective game where you question LLM suspects that lie"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "i built a little browser game to practice vim commands",
+    "term": "hackerchurn",
     "recent": 1,
     "about": [
-     "https://hjkl.duy.run",
-     "Show HN: I built a little browser game to practice Vim commands"
+     "https://hissingkitty.com/hacker-churn",
+     "Show HN: HackerChurn – which SaaS tools HN wants to cancel"
     ],
     "examples": [
-     "Show HN: I built a little browser game to practice Vim commands"
+     "Show HN: HackerChurn"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "glm 5.3 flashx legal",
+    "term": "interactive notes on rlhf, attention, lora and llm evals",
     "recent": 1,
     "about": [
-     "https://openrouter.ai/z-ai/glm-5.3-flashx-legal",
-     "GLM-5.3-FlashX-Legal (GLM-Legal) is Z.ai's legal-domain variant of GLM-5.3-FlashX, a native multimodal model that accepts text, image, and video input and produces text. It adds legal-domain mid-train"
+     "https://concepts.laxmena.com/",
+     "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals"
     ],
     "examples": [
-     "OpenRouter: GLM 5.3 FlashX Legal"
+     "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals"
+    ],
+    "note": "Show HN 新上架"
+   },
+   {
+    "term": "pywolf3d, a wolfenstein3d clone written from scratch in python",
+    "recent": 1,
+    "about": [
+     "https://github.com/atifcodesalot/pyWolf3D",
+     "Show HN: PyWolf3D, a wolfenstein3D clone written from scratch in Python"
+    ],
+    "examples": [
+     "Show HN: PyWolf3D, a wolfenstein3D clone written from scratch in Python"
+    ],
+    "note": "Show HN 新上架"
+   },
+   {
+    "term": "hy4",
+    "recent": 1,
+    "about": [
+     "https://openrouter.ai/tencent/hy4",
+     "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-hor"
+    ],
+    "examples": [
+     "OpenRouter: Hy4"
     ],
     "note": "OpenRouter 新上架"
    },
    {
-    "term": "sociallite-block reels&shorts",
+    "term": "crouton alpha",
     "recent": 1,
     "about": [
-     "https://apps.apple.com/us/app/sociallite-block-reels-shorts/id6757661674?uo=2",
-     "SocialLite blocks shorts from Instagram, shorts from YouTube and other short form content from other platforms. It is the app for people who want to use social media without losing hours to endless sc"
+     "https://openrouter.ai/stealth/crouton-alpha",
+     "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated "
     ],
     "examples": [
-     "App Store: SocialLite-Block Reels&Shorts"
+     "OpenRouter: Crouton Alpha"
+    ],
+    "note": "OpenRouter 新上架"
+   },
+   {
+    "term": "chatbot app: ai assistant",
+    "recent": 1,
+    "about": [
+     "https://apps.apple.com/us/app/chatbot-app-ai-assistant/id6711347033?uo=2",
+     "Chatbot App brings advanced AI models together in one intuitive app for writing, learning, coding, creativity, and productivity. Built on OpenAI GPT-6, Google Gemini 3.8 Flash, Anthropic Claude Fable "
+    ],
+    "examples": [
+     "App Store: Chatbot App: AI Assistant"
     ],
     "note": "App Store 新上架"
    },
    {
-    "term": "appclose",
+    "term": "bazaart ai photo editor design",
     "recent": 1,
     "about": [
-     "https://apps.apple.com/us/app/appclose/id1019290876?uo=2",
-     "WE KNOW CO-PARENTING And that is why AppClose is the most downloaded co-parenting app in the world, with more than 3.1M downloads, and has more daily and monthly active users than any other co-parenti"
+     "https://apps.apple.com/us/app/bazaart-ai-photo-editor-design/id515094775?uo=2",
+     "Bazaart is an easy-to-use AI photo editor, video editor, and design app. No design background needed. Create fast for online selling, digital marketing, and social media. Get your design superpowers t"
     ],
     "examples": [
-     "App Store: AppClose"
+     "App Store: Bazaart AI Photo Editor Design"
     ],
     "note": "App Store 新上架"
    },
    {
-    "term": "sogni: ai image, video & music",
+    "term": "vids ai - reels video editor",
     "recent": 1,
     "about": [
-     "https://apps.apple.com/us/app/sogni-ai-image-video-music/id6450021857?uo=2",
-     "Sogni Pocket is a creative studio for iPhone and iPad that brings images, video, and music into one powerful workspace. With the new Sogni Assistant, you can describe what you want, work from referenc"
+     "https://apps.apple.com/us/app/vids-ai-reels-video-editor/id1634361180?uo=2",
+     "VIDS combines powerful AI with thousands of ready-made templates so you can make trending content in just a few taps. Start with an AI template or style — the app instantly syncs your clips with music"
     ],
     "examples": [
-     "App Store: Sogni: AI Image, Video & Music"
+     "App Store: Vids AI - Reels Video Editor"
     ],
     "note": "App Store 新上架"
    },
    {
-    "term": "revreel: ai car edits",
+    "term": "ai video generator + creator",
     "recent": 1,
     "about": [
-     "https://apps.apple.com/us/app/revreel-ai-car-edits/id6800568794?uo=2",
-     "RevReel takes photos of the car you already own and puts it in the shot you couldn't take yourself — a rain-slick downtown street at midnight, a white studio cove, the surface of the Moon — then bring"
+     "https://apps.apple.com/us/app/ai-video-generator-creator/id6446647507?uo=2",
+     "AI Video Generator lets you turn your ideas into AI Videos using advanced artificial intelligence. Our AI Video Generator tool provides high-quality AI Videos - make AI Videos with AI Video Generator."
     ],
     "examples": [
-     "App Store: RevReel: AI Car Edits"
+     "App Store: AI Video Generator + Creator"
     ],
     "note": "App Store 新上架"
    },
    {
-    "term": "photocut - ai photo editor",
+    "term": "word swag - cool fonts",
     "recent": 1,
     "about": [
-     "https://apps.apple.com/us/app/photocut-ai-photo-editor/id6444792863?uo=2",
-     "Discover a professional photo editor with AI! PhotoCut is designed to make your photos look great instantly and efficiently. MAIN FUNCTIONS: BACKGROUND ERASER Remove backgrounds automatically or manua"
+     "https://apps.apple.com/us/app/word-swag-cool-fonts/id645746786?uo=2",
+     "Congrats on finding the original Word Swag™ - the easiest and most beautiful graphic design editor. INTRODUCING REALFONTS Make your words irresistible with unbelievably fun RealFonts! With never-befor"
     ],
     "examples": [
-     "App Store: PhotoCut - AI Photo Editor"
+     "App Store: Word Swag - Cool Fonts"
     ],
     "note": "App Store 新上架"
    },
    {
-    "term": "hushed: us second phone number",
+    "term": "tv remote control · universal",
     "recent": 1,
     "about": [
-     "https://apps.apple.com/us/app/hushed-us-second-phone-number/id600520752?uo=2",
-     "CALL AND TEXT ON A SECOND PHONE NUMBER WITH A 3-DAY TRIAL SUBSCRIPTION Hushed gives you a second phone number you can use for online dating, travel, shopping, moving, selling items, and more. Choose f"
+     "https://apps.apple.com/us/app/tv-remote-control-universal/id6757016336?uo=2",
+     "Introducing TV Remote Control · Universal – the simplest and fastest way to control your TV directly from your iPhone. Turn your phone into a smart, reliable TV remote you can use anytime, anywhere. •"
     ],
     "examples": [
-     "App Store: Hushed: US Second Phone Number"
+     "App Store: TV Remote Control · Universal"
+    ],
+    "note": "App Store 新上架"
+   },
+   {
+    "term": "smart cleaner: free up storage",
+    "recent": 1,
+    "about": [
+     "https://apps.apple.com/us/app/smart-cleaner-free-up-storage/id6448222268?uo=2",
+     "LET'S MAKE SPACE: CLEANING YOUR PHONE'S STORAGE HAS NEVER BEEN SMARTER! Smart Cleaner isn't just an app; it's a solution that turns storage cleanup into a quick, fun, and secure task. FAST & DEEP CLEA"
+    ],
+    "examples": [
+     "App Store: Smart Cleaner: Free Up Storage"
     ],
     "note": "App Store 新上架"
    }
   ],
-  "seconds": 6
+  "seconds": 5
  },
  "money": {
   "skipped": true
@@ -2416,112 +2200,122 @@
  "review": {
   "checked": [
    {
-    "term": "aiframework",
+    "term": "excalidraw architect",
     "first_seen": "2026-10-16",
     "verdict": "no_data",
     "lead_days": null
    },
    {
-    "term": "aki",
-    "first_seen": "2026-10-16",
-    "verdict": "miss",
-    "lead_days": null
-   },
-   {
-    "term": "aurelio finance",
-    "first_seen": "2026-10-16",
-    "verdict": "miss",
-    "lead_days": null
-   },
-   {
-    "term": "cloakbrowser",
+    "term": "flux 3 image klein",
     "first_seen": "2026-10-16",
     "verdict": "hit",
-    "lead_days": -25
+    "lead_days": -1
    },
    {
-    "term": "connectors io.github.ukraine",
+    "term": "flux 3 image klein comfy",
     "first_seen": "2026-10-16",
-    "verdict": "no_data",
+    "verdict": "hit",
+    "lead_days": 0
+   },
+   {
+    "term": "git ai",
+    "first_seen": "2026-10-16",
+    "verdict": "hit",
+    "lead_days": -3
+   },
+   {
+    "term": "gpt image",
+    "first_seen": "2026-10-16",
+    "verdict": "miss",
     "lead_days": null
    }
   ],
   "cost_micros": 8400,
   "after_days": 14,
-  "seconds": 8
+  "seconds": 16
  },
  "summary": {
   "by_signal": {
    "breakout": {
-    "checked": 16,
-    "hit": 12,
-    "median_lead": -3.0
+    "checked": 17,
+    "hit": 13,
+    "median_lead": -3
+   },
+   "x": {
+    "checked": 1,
+    "hit": 0,
+    "median_lead": null
+   },
+   "hf": {
+    "checked": 2,
+    "hit": 2,
+    "median_lead": -0.5
    },
    "sitemap": {
-    "checked": 4,
+    "checked": 5,
     "hit": 1,
     "median_lead": -25
    }
   },
-  "pending": 432,
+  "pending": 451,
   "window_days": 60,
   "seconds": 0
  },
  "keywords": {
   "names": [
-   "pando",
-   "lifeval",
-   "qwen3.5-0.8b 0.016",
-   "gemma 3 270m",
-   "anymodelbot"
+   "pika h3 flex",
+   "agent autoloop",
+   "terminal mac",
+   "earshot",
+   "deepinfer"
   ],
   "rows": [
    {
-    "term": "lifeval",
-    "phrase": "lifeval",
+    "term": "pika h3 flex",
+    "phrase": "pika h3 flex",
     "kind": "name",
     "names": [],
     "brand": true,
     "evidence": "",
     "no_data": false,
-    "base": 5.1,
+    "base": 0,
     "peak": 100,
-    "peak_day": "2026-10-30",
+    "peak_day": "2026-10-31",
     "rose": true,
     "new": true,
     "momentum": null,
     "started": "2026-10-30",
     "now": "rising",
-    "peak_vs": 0,
-    "bench_level": 55.1,
+    "peak_vs": 29,
+    "bench_level": 56.3,
     "decision": "watch",
     "age": {
-     "first_seen": null,
-     "is_new": false,
+     "first_seen": "2026-10-25",
      "since_start": false,
-     "no_data": true
+     "no_data": false,
+     "is_new": true
     },
-    "is_new": false,
+    "is_new": true,
     "markets": {
      "by": {
       "US": {
-       "volume": 10,
+       "volume": 0,
        "kd": null
       },
       "DE": {
-       "volume": 10,
+       "volume": 0,
        "kd": null
       },
       "FR": {
-       "volume": 10,
+       "volume": 0,
        "kd": null
       },
       "JP": {
-       "volume": 90,
+       "volume": 0,
        "kd": null
       }
      },
-     "best": "JP",
+     "best": null,
      "top_region": {
       "id": "JP",
       "name": "Japan",
@@ -2529,77 +2323,84 @@
      }
     },
     "competition": {
-     "verdict": "crowded",
+     "verdict": "mixed",
      "weak": null,
      "kd": null,
      "ads": false,
-     "eased": false,
+     "eased": true,
      "location_code": 2840,
      "results": [
       {
-       "domain": "instagram.com",
-       "url": "https://www.instagram.com/reel/CVJkhf0Agrb/",
-       "title": "LifeVac is as simple as place push and pull. ...",
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESfwHrOzAVQx8sSA4X7J8AhuX1p_RnUQXDm_LhNAN85iipkwrjGZXhKzBSzI6bAtRupTor-TVJ6fW1CDcNJ-8PLKGqNsUVqvjS_rN-PWjgOeYINGEpmp0xb_4tUtnvk5R4RjVqNa7LDGj32c-zp5qVxzv1n1qSPilUPm_JFSW0Q58",
+       "title": "Commits · Pika-Labs/Pika-H3-Flex",
        "position": 1,
        "kind": "article",
        "dr": null
       },
       {
-       "domain": "lifevac.life",
-       "url": "https://lifevac.life/ikea-lifevac-2/",
-       "title": "ikea-lifevac",
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESzgEB6zswFQj4JSlxBhkUZ2IRTzz2NAd4NSv2zmSZvwhXHYKvS8E7r8TpCNB5iiXEBLp0BO2gbyFvxTp76lZGRj8Jts8yi7LpM0mvOalsKVsp0aQ4_ejQOc5RcI-qdHSHcmC7WYrYemvv7NCF6tkcU9_TD_kfTcKlB6tB0t-QYikC68y-5tl1FbV4ai5wHnPxfQUXs3moX5ZfoSxZ7osS8pkeEWYom3vsmbsllnJ9PkoU92VsjKTqFH7vvY82AAGtfmvrP3Foy_DFYm_ZOXvGOQ",
+       "title": "Pika Brings Multi-Reference H3 Flex Video Creation to Its ...",
        "position": 2,
        "kind": "article",
        "dr": null
       },
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESaQHrOzAV9fUuzTVzlEjcb9rMUZ56qLXx8IN24X0xoF1DbOOQnUSZIwPYACaR70vYqkNDFJa7_b_Q8CMiRoaIknvciPL43JomqeNBbfiO0K93V32-QP9iNPQ9j_vCVjPRisEdO95_ktUKyQ",
-       "title": "LIFEVAC A patented life-saving device proven to be the ...",
+       "url": "https://google.com/goto?url=CAESYAHrOzAVswywiLeI-QrY5k-YDCYScMEA1GUB_6QAizaqwgaY7wRcDyAPAmcarNHkx0FFV-dplpHK7fKiPgEBbUn-ruSjhT_hfCRJVT0atl1lTiXU_G9au97ECKVCDk7WJg",
+       "title": "Pika H3 Flex Review: Speed, Audio Stems, Pricing and Limits",
        "position": 3,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "lifevac.eu",
-       "url": "https://lifevac.eu/en-gr?srsltid=AYCX9vIhp5qhaFgHxsgFyJKlaRA5qb4dOoC3xWMH77jVjIsDFU5rRIj7",
-       "title": "Choking Rescue Device - LifeVac",
-       "position": 4,
-       "kind": "article",
+       "kind": "list",
        "dr": null
       },
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESvQEB6zswFQ_-0Qw5UvpaJXVwL1o9pWxpu_9zwdCcmNA3zoXBOFcSNwN4uyo7rQ-OB0dzS7IQWVW1HjnPZtjpHcjKZVNgg99AEuAHf10cY8UrU69oLVoDpDjNOEYdodf8LJTVgQIq57M1wzcpKy9qsugP6LjsWQl9iv9jIer4Kq-bhZniRd7n8SNP1gOe18_uQNPQ_nlE9BC0oMATsryNt1EfrCs8itOo4cHn1zLE3Sl5Akf-j4R3qfa8_dOcX1I",
-       "title": "Don't be fooled by counterfeits. Only genuine LifeVa'cs save lives.",
+       "url": "https://google.com/goto?url=CAESuAEB6zswFZ_CESxJVb2z7k4AxU7OcrPsODtrEiCV0otlLRGLm-908TlvhZX8SCouVh08vzjuGeFSodF3oMQppwp1WYiSRKWezLSPKItDD114Y3rKVSskvrsWN1l5ZbWwRxEHyeRPAZ_fe0g_gYB7FyjguAG3kFxAHqm883Qwle82PmDLBrCcNPS-zyLmV7LyaJFvXRU03vebweBcvMzaME8Z_Hjp7Z939gmE9GbD4Pqit7KHxF6bfOAM",
+       "title": "Pika H3 Flex: Open Video Model, 6 Steps, #7 DesignArena",
+       "position": 4,
+       "kind": "list",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESbwHrOzAVO5ysb9L7ZkWWTyBOGkTsB8mVs5jCpwkmP2A4ajg0sEQB4QpmL6kKQMElVHqbIjUeuQnH5ic330M_sbXBQwRfGzKz1vzYJms-IyTdx8Jy_azZSotKIZGqEI2RMR_vs4hGNnk6kJF57vUX_w",
+       "title": "Pika H3 Flex: Pika's Open 6-Step MiniMax H3 Video Model",
        "position": 5,
        "kind": "article",
        "dr": null
       },
       {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESWAHrOzAVp9KKRKu1juQIswy02ftuH7OBO44JpPxK4FZXPG43P15ghS8RkhWJopwWBy22Mbc-Y86dklUo_8rnufodoXof7u39cDj_CLVMOIg7V5TEJJgy_PA",
-       "title": "Contact",
+       "domain": "huggingface.co",
+       "url": "https://huggingface.co/Woovee/pika-h3-flex-runpod/tree/main",
+       "title": "Woovee/pika-h3-flex-runpod at main",
        "position": 6,
        "kind": "article",
        "dr": null
       },
       {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESUwHrOzAVSOZJyJGsnjem3Xe0TDljkWLU98N-c4MxmK-zBfu4nmTOSuTnzqYOSNf2QY1AD2IVDUtS3h6eXS_1cJHOpPDT8racPLJfloYbha6VRv47",
-       "title": "LifeLeaf | See it working",
+       "domain": "grainzilla.com",
+       "url": "https://grainzilla.com/pika-h3-flex-is-an-open-weights-ai-video-model-with-native-audio-and-six-step-generation-but-it-wants-an-h100-and-comes-with-a-license/",
+       "title": "Pika H3 Flex: Open-Weights AI Video With Native Audio",
        "position": 7,
+       "kind": "article",
+       "dr": null
+      },
+      {
+       "domain": "huggingface.co",
+       "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex/commits/main/ref2va",
+       "title": "Commits · Pika-Labs/Pika-H3-Flex",
+       "position": 8,
        "kind": "article",
        "dr": null
       }
      ],
      "kinds": {
-      "article": 7
+      "article": 6,
+      "list": 2
      },
      "features": [
       "ai_overview",
-      "images",
-      "people_also_ask",
       "video"
      ],
      "forums": [],
@@ -2610,7 +2411,7 @@
      "dated": 6,
      "young": 0,
      "young_sites": [],
-     "newest": "2017-03-28",
+     "newest": "2013-11-29",
      "entered": {
       "since": "",
       "urls": []
@@ -2623,64 +2424,142 @@
     }
    },
    {
-    "term": "qwen3.5-0.8b 0.016",
-    "phrase": "qwen3.5-0.8b 0.016",
+    "term": "earshot",
+    "phrase": "earshot",
     "kind": "name",
     "names": [],
     "brand": true,
     "evidence": "",
-    "no_data": true,
-    "peak_vs": 0,
-    "bench_level": 63.9,
+    "no_data": false,
+    "base": 19.8,
+    "peak": 100,
+    "peak_day": "2026-11-01",
+    "rose": true,
+    "new": false,
+    "momentum": 1.6,
+    "started": "2026-10-27",
+    "now": "rising",
+    "peak_vs": 41,
+    "bench_level": 67.2,
     "decision": "watch",
     "age": {
-     "first_seen": null,
-     "is_new": false,
-     "since_start": false,
-     "no_data": true
+     "first_seen": "2021-11-07",
+     "since_start": true,
+     "no_data": false,
+     "is_new": false
     },
     "is_new": false,
     "markets": {
      "by": {
       "US": {
-       "volume": 0,
-       "kd": null
+       "volume": 3600,
+       "kd": 21
       },
       "DE": {
-       "volume": 0,
-       "kd": null
+       "volume": 170,
+       "kd": 26
       },
       "FR": {
-       "volume": 0,
-       "kd": null
+       "volume": 90,
+       "kd": 12
       },
       "JP": {
-       "volume": 0,
-       "kd": null
+       "volume": 210,
+       "kd": 3
       }
      },
-     "best": null,
-     "top_region": null
+     "best": "US",
+     "top_region": {
+      "id": "CA",
+      "name": "Canada",
+      "value": 55
+     }
     },
     "competition": {
-     "verdict": "crowded",
+     "verdict": "mixed",
      "weak": null,
-     "kd": null,
+     "kd": 21,
      "ads": false,
      "eased": false,
      "location_code": 2840,
-     "results": [],
-     "kinds": {},
-     "features": [],
+     "results": [
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAEShwEB6zswFaNb4v_o0dIOdzOavWky-2jma9cfhBVPZ4-LI5CYsGo9639UC8wJwZPaLSqV61Llcut7aOZvzV5DSct6FKzY9Hv_ST9RvT5Jzo2y_TuNPh6BWXK7MXp3BsxSoE_IKVWN1yJ198xlA1xU_I3B_lBUkZHfmwIxjack2OsUf6nHwkqIKPU",
+       "title": "Anyone listen to Earshot? : r/numetal",
+       "position": 1,
+       "kind": "article",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESUgHrOzAVhkBXxjbb9JR2gS7UVrYtW4o5erGvK2wKmi60YbS6nwf7O8VYkV3olij46_e7F6wFwvwebBlLf1j35uPjX7Gyg8RWI9cJ3RzxZ9uo2Kw",
+       "title": "Earshot — On-device live captions for iPhone",
+       "position": 2,
+       "kind": "article",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESZwHrOzAVyWma-0znjHUkFe7uYRBj01zrBTjake3qJUUyi-kOk9lcOzLQWLBWRxYDeRAOpm2C1sChKZvA_UdNT3QWyTJA5hBDmfVHZNdsPhrTArhdYA8Drjbm7qmZZ3dO34mJ2Dl6iyM",
+       "title": "EARSHOT - Been A Long Time - (Official Music Video)",
+       "position": 3,
+       "kind": "article",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESZAHrOzAVhZQNXeZv78l0SuF3IbbEXtRYERhfu7eBoFQJpVAhvQ5L2FK0CnOibt0j7nrD9BqpcuUNvil5NtwuVUSnEumaQ_Md8Jvs8gXeP1xA6rbDXyM6ZhP5Z1rW2EJT_nrD9mQ",
+       "title": "earshot, n. meanings, etymology and more",
+       "position": 4,
+       "kind": "article",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESbAHrOzAVa2T4NucnFSVjJsCHMPyyJ90HzoHKtgSu3bCXJPwIOruTCxw_4inXwwheNa9NPJzGB6AMpt9JtFftf7DjN0A8YyZOlGyLj_9nRssW-Er-_HjjHStNLc7bUBMf-ATX-UNaRPNCQsMSRw",
+       "title": "Earshot",
+       "position": 5,
+       "kind": "article",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESZAHrOzAVvx9M9R7yf8BBqR-WnvpQ3CcEV0LAAIA0WleqnV05AVeW6HqaiNgCSBS747R9_nwHKzVUXBtHtJtCnaxLpkOQX41bj2qOXO-_hTBkFjZ-_1XZcnV760ODVU7euhe-k8E",
+       "title": "Earshot Songs",
+       "position": 6,
+       "kind": "article",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESywEB6zswFap8y0ehCJMNGapqmt-h8oDcWDyMpCDo67kzXBLPgvZh5TI5e_A2OrjaZaLvE7kJ3uV5qnonlbwBlxSzsAPfEH4w5CoM5ugARtzSCJ5cXKE0pqgbD_-8VXD0tl9MDsUWoYkR1zdYG5tEGonMWwZDUDo5_66hH_pcWOt-5iGA_tZsM-aSzPVSdK6-eefzQuy-iSPAV0rIAvQnafR8JQgHXe3EpXAJxhviIxDjrGhoWSnXI9sHrfYj5itD01BmycvtONgkh0Bo4Q",
+       "title": "EARSHOT: THE MISSING LINK LOST BETWEEN TWO ...",
+       "position": 7,
+       "kind": "article",
+       "dr": null
+      }
+     ],
+     "kinds": {
+      "article": 7
+     },
+     "features": [
+      "ai_overview",
+      "knowledge_graph",
+      "people_also_ask",
+      "perspectives",
+      "related_searches",
+      "video"
+     ],
      "forums": [],
      "weakest": null,
      "tools": []
     },
     "page_age": {
-     "dated": 0,
+     "dated": 7,
      "young": 0,
      "young_sites": [],
-     "newest": "",
+     "newest": "1997-09-15",
      "entered": {
       "since": "",
       "urls": []
@@ -2693,21 +2572,29 @@
     }
    },
    {
-    "term": "anymodelbot",
-    "phrase": "anymodelbot",
+    "term": "deepinfer",
+    "phrase": "deepinfer",
     "kind": "name",
     "names": [],
     "brand": true,
     "evidence": "",
-    "no_data": true,
-    "peak_vs": 0,
-    "bench_level": 44.4,
+    "no_data": false,
+    "base": 0,
+    "peak": 100,
+    "peak_day": "2026-10-21",
+    "rose": true,
+    "new": true,
+    "momentum": 0.6,
+    "started": "2026-10-20",
+    "now": "holding",
+    "peak_vs": 100,
+    "bench_level": 36.6,
     "decision": "watch",
     "age": {
-     "first_seen": null,
-     "is_new": false,
+     "first_seen": "2022-04-03",
      "since_start": false,
-     "no_data": true
+     "no_data": false,
+     "is_new": false
     },
     "is_new": false,
     "markets": {
@@ -2742,94 +2629,85 @@
      "results": [
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESnQEB6zswFchwzJgHV-a4FjDwW2VwdulcMctI40USyW1XTm_exY6XpBo4y4RGZ9XNNfAj3HjiGABb4BQavIVXIsgYhPrB2sizxvw1xTijevCllNHhLv7RvtlNvVUFDVsJY3YC6c4-zv3-rrg_4RLReSGiAdTJqOKh7Eb0OKfFEI6IJ95kZzUKN42esV2ZBdEdiXhnOr3709HOSytPVEml",
-       "title": "AskAnyModel Gives You Access to 50+ AI Models for Life ...",
+       "url": "https://google.com/goto?url=CAESZQHrOzAVSp9NKLy2T68RU9zXhNRvqLm4hIRWqQ1fneCRF3LSTEfzi5g0Q6YkSwIqRIi4yHDtr-z3M1ILhkLG7WThTaFyEi9ys-bScoVsmn7gWbS3-DWlhE_C_cp4au8E70Tsq7Po",
+       "title": "DeepInfer: High-performance, large-scale inference ...",
        "position": 1,
        "kind": "article",
        "dr": null
       },
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESdAHrOzAVsrdxyMFyrwiAgYQVDJGbNSAPENLQ_uXvcPtxoZHJGHO8U_Upp7YhJ1JDyYdYnjw3HU8Gc8UMFtGfZ7LhCoiU6cWaCzmzZH2GuYe5ZK67vvZb_VqDNFAFaqbnsiVhq5fEX9jgc_jQbVB6vUd49wND",
-       "title": "AnyModel | Reviews, Pricing & Demos - SoftwareAdvice GB",
+       "url": "https://google.com/goto?url=CAESmgEB6zswFcamE0rh3DoLQBxbYSmTfcYSGdEoy4oJvoHYIdnSy_SWd0YG7VnlT7aqRbHf4eQR5PEtys1vOrGuVoTcKxtLQ5meXYrpB9Ok9C2aSaeqveac6hitJl-63MgtALcS3Q5b3kSKgYccJr1afyi3269F8PuiZUAlveWPUE2nSInwOuJvkOqB83bEJeKgMJx1moFATYrioUTX",
+       "title": "Deepseek released DeepInfer - Open Source high- ...",
        "position": 2,
-       "kind": "list",
+       "kind": "article",
        "dr": null
       },
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESbgHrOzAVzXHGUxxlT7kB4uPaucK9FT_kUXM8J6iIVd49OxlwjefBnDUYIdKK1TEs4_eM_AOk1ImQdWIfmJ4mPFP3N77Z4AaTB_w4bP_pQQPA8EsLvbkC3c7Wri-IZXA7KKP0-mWwed8rBuARmYf8",
-       "title": "Use Any Ai Model",
+       "url": "https://google.com/goto?url=CAESWQHrOzAVMeHt5S2LcqCy-84jm06LLI20o2Uc1n8YcpxDTMbPsKpxsB4anLU1Zuq0thf7B7UYAJWSartH-6BqdCWOzK_bW0lKnswJFs8cqc0c0xbmXcKRWEUK",
+       "title": "DeepInfer",
        "position": 3,
        "kind": "article",
        "dr": null
       },
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESjgEB6zswFcP3g2a_CnF-uX8LICD3pzb6wfZD1psoT9BDdGz4xIYFNqsyjjBX0NSXJ6NpNFHVgp1FrJHV0Udo6bxYeUrKMTnqZMYe7iAvkdQTGRLgop4ej5en9YyfCDvnsXjl8TsQ0uCbkTuWACA2jEYTOHN5c5oymAvxLF5FhEYVCVZ-v9LDmPfwj8aBonXE",
-       "title": "Pay $39.99 Once to Put 50+ AI Models in One Workspace",
+       "url": "https://google.com/goto?url=CAESygEB6zswFeJdUF0-D9RJ_v2CcpdvBAXu70Jj-pIpb2FUzP-xAAQhDQJUzEkxzdI0k5XN1aelSo-XY6ZYq41Y8ZphCPjKgXZlP0B3d1KaL9d-ZFMzT2XRwIupKeXUP03EYbKrDEskP9QBNjbj_eOYD9Hes7tM22b8omZvNlqxsd1uvCb0i1nB9yAEp43smuljM6Yed69iN2-YJ5T9ae3MXkGZiw8zVPpoxI_USaqDxHx9sEE4I7_ZaF6snvVoRb98U0yuBu1PrVawcVqF",
+       "title": "What is DeepSeek DeepInfer? The Inference Engine ...",
        "position": 4,
-       "kind": "list",
-       "dr": null
-      },
-      {
-       "domain": "github.com",
-       "url": "https://github.com/MiliLab/Any2Any",
-       "title": "MiliLab/Any2Any: Official repo for [ICML 2026] \" ...",
-       "position": 5,
        "kind": "article",
        "dr": null
       },
       {
+       "domain": "x.com",
+       "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+       "title": "DeepSeek",
+       "position": 5,
+       "kind": "forum",
+       "dr": null
+      },
+      {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESdgHrOzAVQyyY83cSCKpEMqHoOu1LiObhCInu2qaJizGUvT9yYvtnz1jlnpADyBwKcFK2KphQjdD4_RwSN8CwqBiG23krcRscdJTutu2UoNZtF2CLiWotng2AKn8XKhDkIj_jtRsGlooW8v-UaWjJJM_Lz30Z4Aw",
-       "title": "The AnyBody Modeling System",
+       "url": "https://google.com/goto?url=CAEShwEB6zswFSv3lpPZcmnOW8BAj8tJYDdfiTg3ImQIrByjx06-1WxoMSBGG76-d-5Xx5r5Q5gEmYm-K7SPe9s82ZTgVhQCFKzH0hbfOmBS6OP1KOHZJIcRc5mktTgvYV8VxZ3SI45QCvvk0Le2fYi4Mh_Yz770Goi4ZigC6ONZOMxuoXe3xkhksAw",
+       "title": "DeepSeek open-sources DeepInfer software for running its AI ...",
        "position": 6,
        "kind": "article",
        "dr": null
       },
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESZwHrOzAVQPsV3hDiwVOOvTXicugm86R15WrI-z4nBoMDGc_s5G-EjV3lPuGbguErA4gkCHakIGss57hD-SUMGZL-bHtVP6sN5p4lQc2_H5dEWW-w2U89Y82rvt3VfxQfw5dUhp16Sho",
-       "title": "AnyModel Review, Features, Pricing & Alternatives (2026)",
+       "url": "https://google.com/goto?url=CAESjgEB6zswFTnh2OMH0C98jT839xSklhvGiYLlwO5l1ab07V3u9siGpfoFQogpXQ7ePzclgQ0KOQIDauelKMe0KLLtlQUiQo0nfy_nu6j0qFV-5AhFxeWPbxD0MiuCnuxumE3-lOrICYlPJpR_nz2_2stzmEpfDG70-Q-Me5jv3wc5lva8gf8raZrOxbrx1E4E",
+       "title": "DeepSeek Open-Sources DeepInfer, Powers V4.1-Flash [2026]",
        "position": 7,
-       "kind": "list",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESXgHrOzAVChNyKmawjIzb5dsiVxF63WtCbVY9K1m4jQp3f70WjDcaeeMsUS58RpGMKpPVp3jmVyrYYCC0oTCzfZhp5uFb_gtXR6F_DCrtqvdS7L5YmbzBoJYtFvX4VwU",
-       "title": "[NeurIPS '26] Official Repo for AnyMo: Geometry-Aware ...",
-       "position": 8,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "huggingface.co",
-       "url": "https://huggingface.co/collections/Susant-Achary/any-to-any-multimodal-models",
-       "title": "🌀 Any-to-Any Multimodal Models - a Susant-Achary ...",
-       "position": 9,
        "kind": "article",
        "dr": null
       }
      ],
      "kinds": {
       "article": 6,
-      "list": 3
+      "forum": 1
      },
      "features": [
       "ai_overview",
-      "related_searches"
+      "related_searches",
+      "video"
      ],
-     "forums": [],
+     "forums": [
+      {
+       "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+       "title": "DeepSeek",
+       "domain": "x.com"
+      }
+     ],
      "weakest": null,
      "tools": []
     },
     "page_age": {
-     "dated": 8,
+     "dated": 7,
      "young": 0,
      "young_sites": [],
-     "newest": "2007-10-09",
+     "newest": "1997-09-15",
      "entered": {
       "since": "",
       "urls": []
@@ -2842,138 +2720,51 @@
     }
    },
    {
-    "phrase": "ai agent benchmark",
-    "evidence": "LifeVal, a benchmark testing whether AI models can finish everyday errands for people",
-    "brand": false,
-    "source": "model",
-    "relevance": 0.7,
-    "is_name": false,
-    "established": false,
-    "term": "ai agent benchmark",
-    "kind": "generic",
-    "names": [
-     "lifeval"
-    ],
-    "volume": 170,
-    "month": "2026-09",
-    "months": [
-     [
-      "2025-10",
-      260
-     ],
-     [
-      "2025-11",
-      260
-     ],
-     [
-      "2025-12",
-      210
-     ],
-     [
-      "2026-01",
-      210
-     ],
-     [
-      "2026-02",
-      140
-     ],
-     [
-      "2026-03",
-      140
-     ],
-     [
-      "2026-04",
-      140
-     ],
-     [
-      "2026-05",
-      140
-     ],
-     [
-      "2026-06",
-      140
-     ],
-     [
-      "2026-07",
-      140
-     ],
-     [
-      "2026-08",
-      210
-     ],
-     [
-      "2026-09",
-      260
-     ]
-    ],
-    "no_data": false,
-    "base": 11.9,
-    "peak": 100,
-    "peak_day": "2026-10-25",
-    "rose": true,
-    "new": false,
-    "momentum": 3.9,
-    "started": "2026-10-25",
-    "now": "fading",
-    "peak_vs": 2,
-    "bench_level": 59.1,
-    "per_day": 19,
-    "decision": "skip",
-    "year": {
-     "spark": "██▇▇▅▅▅▅▅▅▇█",
-     "first": "2025-10",
-     "last": "2026-09",
-     "c3": 86,
-     "c6": 86,
-     "label": "rising"
-    }
-   },
-   {
-    "term": "pando",
-    "phrase": "pando",
+    "term": "agent autoloop",
+    "phrase": "agent autoloop",
     "kind": "name",
     "names": [],
     "brand": true,
     "evidence": "",
     "no_data": false,
-    "base": 41.8,
-    "peak": 88,
-    "peak_day": "2026-10-15",
-    "rose": false,
-    "new": false,
-    "momentum": 0.8,
-    "now": "flat",
-    "peak_vs": 55,
-    "bench_level": 63.4,
+    "base": 0,
+    "peak": 100,
+    "peak_day": "2026-10-07",
+    "rose": true,
+    "new": true,
+    "momentum": null,
+    "started": "2026-10-07",
+    "now": "fading",
+    "peak_vs": 0,
+    "bench_level": 65.0,
     "decision": "skip"
    },
    {
-    "term": "gemma 3 270m",
-    "phrase": "gemma 3 270m",
+    "term": "terminal mac",
+    "phrase": "terminal mac",
     "kind": "name",
     "names": [],
     "brand": true,
     "evidence": "",
     "no_data": false,
-    "base": 0.1,
-    "peak": 100,
-    "peak_day": "2026-10-28",
-    "rose": true,
-    "new": true,
-    "momentum": 0.9,
-    "started": "2026-10-28",
-    "now": "fading",
-    "peak_vs": 3,
-    "bench_level": 66.3,
+    "base": 77.1,
+    "peak": 89,
+    "peak_day": "2026-10-26",
+    "rose": false,
+    "new": false,
+    "momentum": 1.0,
+    "now": "flat",
+    "peak_vs": 89,
+    "bench_level": 26.8,
     "decision": "skip"
    }
   ],
-  "proposed": 16,
-  "relevant": 9,
-  "kept": 1,
+  "proposed": 23,
+  "relevant": 13,
+  "kept": 0,
   "benchmark": "gpts",
   "bench_daily": null,
-  "volume_month": "2026-09",
+  "volume_month": "",
   "no_evidence": [],
   "posts_error": "",
   "related": false,
@@ -2984,7 +2775,7 @@
   "country_errors": [],
   "competition_errors": [],
   "extra_errors": [],
-  "cost_micros": 546900,
-  "seconds": 129
+  "cost_micros": 549000,
+  "seconds": 156
  }
 }

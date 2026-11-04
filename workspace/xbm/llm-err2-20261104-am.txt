@@ -1,0 +1,21 @@
+[free-llm] try 1/10 openrouter:openrouter/google/gemma-3-27b-it:free
+[free-llm] fail HTTP 400: {'message': 'openrouter/google/gemma-3-27b-it:free is not a valid model ID', 'code': 400} (1.28s) → cascade
+[free-llm] try 2/10 google:gemini-3.5-flash-lite
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.21s) → cascade
+[free-llm] try 3/10 google:gemini-3.1-flash-lite-preview
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.19s) → cascade
+[free-llm] try 4/10 google:gemini-3.1-flash-lite
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.25s) → cascade
+[free-llm] try 5/10 google:gemini-flash-lite-latest
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.26s) → cascade
+[free-llm] try 6/10 google:gemini-3.5-flash
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.23s) → cascade
+[free-llm] try 7/10 google:gemini-3.6-flash
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.24s) → cascade
+[free-llm] try 8/10 google:gemini-3-flash-preview
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.21s) → cascade
+[free-llm] try 9/10 google:gemini-3.7-flash
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.24s) → cascade
+[free-llm] try 10/10 google:gemini-3.8-flash
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.25s) → cascade
+[free-llm] ERROR: all providers failed. last=HTTP 400: User location is not supported for the API use.

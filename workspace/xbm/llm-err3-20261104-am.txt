@@ -1,0 +1,21 @@
+[free-llm] try 1/10 openrouter:nvidia/nemotron-3-ultra-550b-a55b:free
+[free-llm] fail HTTP 0: The read operation timed out (35.07s) → cascade
+[free-llm] try 2/10 google:gemini-3.5-flash-lite
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.23s) → cascade
+[free-llm] try 3/10 google:gemini-3.1-flash-lite-preview
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.19s) → cascade
+[free-llm] try 4/10 google:gemini-3.1-flash-lite
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.24s) → cascade
+[free-llm] try 5/10 google:gemini-flash-lite-latest
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.21s) → cascade
+[free-llm] try 6/10 google:gemini-3.5-flash
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.17s) → cascade
+[free-llm] try 7/10 google:gemini-3.6-flash
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.18s) → cascade
+[free-llm] try 8/10 google:gemini-3-flash-preview
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.23s) → cascade
+[free-llm] try 9/10 google:gemini-3.7-flash
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.22s) → cascade
+[free-llm] try 10/10 google:gemini-3.8-flash
+[free-llm] fail HTTP 400: User location is not supported for the API use. (0.23s) → cascade
+[free-llm] ERROR: all providers failed. last=HTTP 400: User location is not supported for the API use.

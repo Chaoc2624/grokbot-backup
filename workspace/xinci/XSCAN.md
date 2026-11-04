@@ -28,3 +28,44 @@ B 里发现的新品，作者不是官方/创始人时，再用 `"<产品名>" (
 写成功后：`last_scan`=end，把本档所有 items 加进 `reported`。保留 30 天内的 reported。
 ## 7. 之后
 运行 `python3 merge_board.py`（会读 xnew-*.json，来源标「书签X」，建站热词进 board_keywords.json）。摘要里 AI 新品一节列 name / 一句话 / 链接 / 首发时间 / 来源。
+
+---
+
+## 8. 双轨补源（游戏轨 + AI工具轨）
+
+详细设计见 [`TRACKS.md`](./TRACKS.md)。本档 XSCAN 只列 **X 查询**（用免费 `x` MCP）；公开网页源由 `track_scan.py` 自抓。
+
+**例程插入点：** 写完 `xnew-*.json` 之后、跑 `merge_board.py` 之前：
+
+```bash
+cd /workspace/xinci
+# 可选：把下面查询的结果整理成 JSON 后 --x-input 喂入
+python3 track_scan.py --mode am   # 或 pm
+python3 merge_board.py
+```
+
+### 8.1 游戏轨 — X 查询（例程执行，不在 Shell）
+
+用 `CallDynamicTool namespace="x"` → `search_posts_all`（`sort_order=Recency`，`max_results`≤100，`-is:retweet`）。窗口同 §1。
+
+1. `(Roblox OR "roblox game" OR "steal a" OR survivors OR poki OR "unblocked games" OR itch.io) (viral OR trending OR "new game" OR exploded OR 爆款 OR 新游) -is:retweet lang:en OR lang:zh`
+2. `("steam charts" OR "steam top" OR "new on steam" OR "steam next fest") (game OR play) -is:retweet lang:en`
+3. `(游戏站 OR unblocked OR "在线玩" OR "网页游戏" OR Poki OR Roblox) (新词 OR 热词 OR 爆了 OR 日pv OR 建站) -is:retweet lang:zh`
+
+收成 `{name, desc, url, source, first_seen}` 列表，写入临时 JSON 的 `game` 数组。公开源（无需 X）：Steam charts JSON、Roblox explore API、Poki `/en/g/` — 已由 `track_scan.py` 自动抓。
+
+### 8.2 AI工具轨 — X 查询
+
+1. `("new ai tool" OR "ai tool launch" OR "just launched" OR "product hunt") (ai OR generator OR agent) -is:retweet lang:en min_faves:50`
+2. `(Toolify OR Futurepedia OR Aixploria OR "ai directory") (new OR added OR growth OR 增长) -is:retweet`
+3. `(AI工具站 OR "ai generator" OR "ai alternative" OR Toolify) (新上 OR 增长榜 OR 挖词 OR 热词) -is:retweet lang:zh`
+
+写入同一 JSON 的 `ai_tools` 数组后：
+
+```bash
+python3 track_scan.py --mode pm --x-input /tmp/tracks_x_fill.json
+```
+
+公开源（无需 X）：Toolify / Futurepedia / Aixploria **sitemap 增量**（`track_state/` 快照）、Product Hunt Atom feed、HN `AI tool` RSS。
+
+**注意：** 首次跑 sitemap 只建快照、`new=0`；第二次起才出导航站新工具名。doable 门槛不变（KD≤31 等）。

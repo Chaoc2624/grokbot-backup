@@ -192,6 +192,8 @@ def collect(report: dict, extra: list, cap: int, report_day: str, filtered_out: 
                 t.get("is_vacuum_candidate")
                 or "书签" in src
                 or "看板" in src
+                or "游戏轨" in src
+                or "AI工具轨" in src
                 or "Trends AI飙升" in src
                 or "Google 补全" in src
                 or "Hacker News" in src

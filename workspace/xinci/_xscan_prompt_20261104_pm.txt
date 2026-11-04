@@ -1,0 +1,112 @@
+你是新词雷达 XSCAN 筛选器。根据候选帖生成严格 JSON（不要 markdown 围栏，不要解释）。
+
+窗口: window_start=2026-11-04 10:14 (北京) / 2026-11-04T02:14:12Z ; window_end=2026-11-04 21:36 (北京) / 2026-11-04T13:36:56Z
+label: "2026-11-04 晚上 书签X"
+run_at: "2026-11-04 21:36"
+
+规则:
+1. 只收真实首发（产品/模型首次发布）。合作/上架/功能更新/报告/研究/演示可收但 kind=not_model，desc 末尾加「不是新模型」。
+2. 招聘/活动/人事/营销转发/社区感谢/用户案例展示/玩笑梗不收。
+3. 已在 reported 的规范化名不收。本窗口前首发但漏报 → 收，加 "backfill":true，desc 前加「【补报】」。
+4. B 路非官方/创始人传闻不收。官方账号列表含 ModelScope2022 / MistralAI / AntLingAGI / OpenAI / TencentHunyuan / TencentGlobal 等；ModelScope「Introducing X」可收为上架展示。Sarvam Prism / Le Chonk / Mistral Large 4 / FlashProve / Claude 插件自动连接 / Hindsight Models 已报不收。
+5. 建站热词 ≤3（宁缺勿滥）：优先 kind=model/product；views≥500000 或 bookmarks≥1000；名字全新；给 keyword_rank/keyword/reason。不达标则 keywords=[]。
+6. first_seen 用北京时间 YYYY-MM-DD HH:MM（UTC+8）。
+7. empty=true 若无合格 items。
+8. source 写成 @username；url 用帖子 url。
+9. 输出字段: label, run_at, window_start, window_end, empty, items[], keywords[]。
+   window_start 用「2026-11-04 10:14」；window_end 用「2026-11-04 21:36」。
+10. Hy4 以 @TencentHunyuan 首发帖作 url（选 views 最高的那条）；Qwen3.5-4B-3D-Coder 以 ModelScope 上架帖可收；MarathonDocBench 是评测基准可收 kind=not_model；Mistral Django CVE 演示是已有产品演示可跳过或不收。
+
+已报 names（勿重复）: ["Agent Skills 捐给 Agentic AI Foundation", "Anthropic AISI Mythos 5 进一步分析", "Anthropic 自动化误对齐研究", "Atria Dawn", "Audio8-TTS-Realistic", "Audio8-TTS-Realistic-Air", "BabelArena", "Brush", "Canva Craft", "ChatGPT Pro/Business API credits $500", "ChefNMR2", "Claude API 128MB request limit", "Claude Duet", "Claude MCP Tasks / Elicitations", "Claude OneGov", "Claude Security 持续扫描", "Claude Ultra", "Claude for Nonprofits", "Claude self-assessment", "Claude 大规模形式化验证", "Claude 插件自动连接", "Claude 登陆 Google Cloud GA", "Claude 默认自动模式", "Clover-35B-A3B-Preview", "Dessa", "EvaOmni", "Fibo 2.0 Dev", "FireFlash", "FlashProve", "GPT-6.1 Terra", "GPT-Rosalind 药物发现线索", "Gemini 4 Carbon", "Gemini API CLI", "Gemini 在 Google 地图 CarPlay 导航", "Genie 4", "Google Connected Apps Platform", "Google 太空 TPU", "Hindsight Models", "Hy-Nomas", "Hy-SimulMT", "Hydrogen-1.0", "Kimi K3.1 Pro", "Krea 2 OpenCast LoRA", "LFM3", "Le Chonk", "LifeVal", "Ling-3.0-flash-Sante", "Ling-3.1-flash-1019", "Ling-3.1-flash-base", "LongCat-2.5", "ML4", "Matilda Platypus", "Messages API 消息线程", "MiniMax H3 社区加速更新", "MiniMax M3.1 Flash", "Mischief 1", "Mistral Large 4 登陆 Open Math OS", "Mistral Responses API", "Mistral × NVIDIA 工业工程合作", "Moss-Image-Edit", "Nanbeige4.3-33B", "Nemotron 3.5 Bolt E4B", "Nemotron 3.5 Transcribe", "OXR-1.0", "Omni-R2V", "OpenAI Decisions API", "OpenAI Private Intelligence", "OpenAI × Cathedral Systems 安全冲刺", "OpenAI × METR 嵌入式评估", "OpenAI 发现 Brotli 未认证 RCE", "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能", "OpenAI 模型登陆 Google Cloud", "OpenAI 训练环境离线化", "Orbital Trace", "Panda Orchestrator", "Pando", "PiVo-1.4M", "Pika H3 Flex", "PixText", "PlanAssist", "Qwenputer", "RE-USE", "Recursive Flint", "Sage-A1.5", "Sarvam Prism", "SenseNova 6.8 Code2Video", "SenseNova Loop-9B-Preview", "Spark-X2.6-4B", "StreamEval", "Unlimited-OCR-2", "WeVisOne-VL-4B", "d3-turbo"]
+
+官方帖 official_posts:
+[
+  {
+    "id": "2117964430558601526",
+    "username": "TencentGlobal",
+    "text": "Hy4 is now available on @TencentCloud and @OpenRouter. It adds vision and computer use for the first time, with stronger instruction following and long-context understanding. https://t.co/XT9L382NxB https://t.co/pxai1tLYm4",
+    "url": "https://x.com/TencentGlobal/status/2117964430558601526",
+    "created_at": "2026-11-04T12:57:24.000Z",
+    "first_seen_bj": "2026-11-04 20:57",
+    "views": 402,
+    "bookmarks": 0,
+    "likes": 6
+  },
+  {
+    "id": "2117960142511813062",
+    "username": "ModelScope2022",
+    "text": "Baidu's MarathonDocBench evaluates the parsing of 100–300-page Chinese and English documents, including cross-page text, tables, and document structure. 🤖https://t.co/wwFo3qL8na\n\n📚 Hundred-page scale: 100 documents, approximately 18,000 pages, and 205,000 annotated layout https://t.co/9Kj9wDdiBD",
+    "url": "https://x.com/ModelScope2022/status/2117960142511813062",
+    "created_at": "2026-11-04T12:40:22.000Z",
+    "first_seen_bj": "2026-11-04 20:40",
+    "views": 376,
+    "bookmarks": 0,
+    "likes": 0
+  },
+  {
+    "id": "2117925908572991748",
+    "username": "MistralAI",
+    "text": "Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We tested it on a recent Django CVE.\n\n133 agents map the code, hunt for flaws, test attack scenarios and confirm the bug. Then Le Chonk patches it.\n\nTriage, repro, patch. Shown at 90x speed. https://t.co/NTtZvTQE38",
+    "url": "https://x.com/MistralAI/status/2117925908572991748",
+    "created_at": "2026-11-04T10:24:20.000Z",
+    "first_seen_bj": "2026-11-04 18:24",
+    "views": 18856,
+    "bookmarks": 72,
+    "likes": 501
+  },
+  {
+    "id": "2117892816370307200",
+    "username": "ModelScope2022",
+    "text": "Describe a scene, then build it in Three.js. Qwen3.5-4B-3D-Coder is CCORE's open-weight fine-tune of Qwen3.5-4B for interactive 3D scene generation, available as an early preview.\n🤖 https://t.co/1CUv13B2AW\n\n🧊 Generate scene code: Create editable HTML and JavaScript for https://t.co/n4Ioa19QVZ",
+    "url": "https://x.com/ModelScope2022/status/2117892816370307200",
+    "created_at": "2026-11-04T08:12:50.000Z",
+    "first_seen_bj": "2026-11-04 16:12",
+    "views": 1082,
+    "bookmarks": 8,
+    "likes": 15
+  },
+  {
+    "id": "2117887087815139440",
+    "username": "TencentHunyuan",
+    "text": "Introducing Hy4 https://t.co/4mcX5jiUDH https://t.co/MdBwtx8m52",
+    "url": "https://x.com/TencentHunyuan/status/2117887087815139440",
+    "created_at": "2026-11-04T07:50:04.000Z",
+    "first_seen_bj": "2026-11-04 15:50",
+    "views": 24808,
+    "bookmarks": 135,
+    "likes": 665
+  },
+  {
+    "id": "2117870250838630539",
+    "username": "TencentHunyuan",
+    "text": "👋Hy4 is here, new with vision.\nFirmly among the leading open models.\nMore productive everywhere: finance, frontend, game, officework, research…\nBuilt responsibly, with cyber/biosecurity in mind.\nTry it out and let us know!\n🔗：https://t.co/ZzL4DtgH3h https://t.co/xceRxN6ueT",
+    "url": "https://x.com/TencentHunyuan/status/2117870250838630539",
+    "created_at": "2026-11-04T06:43:10.000Z",
+    "first_seen_bj": "2026-11-04 14:43",
+    "views": 246285,
+    "bookmarks": 389,
+    "likes": 2076
+  }
+]
+
+B路高信号参考（非官方，不得作 url）:
+[
+  {
+    "username": "testingcatalog",
+    "text": "Tencent released Hy4, its new flagship model with performance among the top open models on benchmarks. \n\nHy4 is now available on Tencent Cloud, OpenRouter, CodeBuddy, WorkBuddy, and Hy AI Studio. Open weights are coming soon. \n\n&gt; \"Tencent plans to open-source Hy4’s model weigh",
+    "url": "https://x.com/testingcatalog/status/2117885727354548370",
+    "likes": 83,
+    "views": 7214,
+    "note": "非官方，仅供参考；不得作 url"
+  },
+  {
+    "username": "testingcatalog",
+    "text": "DAILY AI BRIEF 🗞 — Nov 4\n\nAPPLE 🔥:\n- Apple opened Siri AI to all developers via an App Intents developer preview in the iOS and macOS 27.3 betas.\n\nTENCENT 🔥:\n- Tencent launched Hy4 with vision and computer use on Tencent Cloud and OpenRouter, with open weights coming soon. https:",
+    "url": "https://x.com/testingcatalog/status/2117921199879532604",
+    "likes": 76,
+    "views": 8166,
+    "note": "非官方，仅供参考；不得作 url"
+  }
+]
+
+只输出一个 JSON 对象。

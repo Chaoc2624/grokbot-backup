@@ -1,0 +1,37 @@
+{
+  "label": "2026-11-04 晚上 书签X",
+  "run_at": "2026-11-04 21:36",
+  "window_start": "2026-11-04 10:14",
+  "window_end": "2026-11-04 21:36",
+  "empty": false,
+  "items": [
+    {
+      "name": "Hy4",
+      "kind": "model",
+      "desc": "腾讯混元发布新一代旗舰模型 Hy4，新增视觉与计算机使用能力，指令跟随与长上下文理解更强，开放权重即将发布。",
+      "first_seen": "2026-11-04 14:43",
+      "source": "@TencentHunyuan",
+      "url": "https://x.com/TencentHunyuan/status/2117870250838630539",
+      "backfill": false
+    },
+    {
+      "name": "MarathonDocBench",
+      "kind": "not_model",
+      "desc": "ModelScope 发布 MarathonDocBench 评测基准，评估 100-300 页中英文文档解析，含跨页文本、表格与文档结构，共 100 文档约 1.8 万页、20.5 万标注版面。不是新模型",
+      "first_seen": "2026-11-04 20:40",
+      "source": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2117960142511813062",
+      "backfill": false
+    },
+    {
+      "name": "Qwen3.5-4B-3D-Coder",
+      "kind": "model",
+      "desc": "CCORE 基于 Qwen3.5-4B 微调的开放权重模型，面向交互式 3D 场景生成，可生成可编辑的 HTML 与 JavaScript 代码，ModelScope 提供早期预览。",
+      "first_seen": "2026-11-04 16:12",
+      "source": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2117892816370307200",
+      "backfill": false
+    }
+  ],
+  "keywords": []
+}

@@ -1,7 +1,11 @@
 {
-  "checked_at": "2026-11-03T13:10:54.824557+00:00",
+  "checked_at": "2026-11-04T13:09:44.873485+00:00",
   "eligible": [],
   "needs_parameter_verification": [
+    {
+      "id": "stealth/crouton-alpha",
+      "context_length": 1048576
+    },
     {
       "id": "recursive/flint-v1.0:free",
       "context_length": 262144
@@ -25,14 +29,6 @@
     {
       "id": "nvidia/nemotron-3.5-lightning:free",
       "context_length": 1000000
-    },
-    {
-      "id": "thinkingmachines/inkling-small:free",
-      "context_length": 1048576
-    },
-    {
-      "id": "thinkingmachines/inkling:free",
-      "context_length": 1048576
     },
     {
       "id": "cohere/north-mini-code:free",
@@ -74,9 +70,8 @@
     "nvidia/nemotron-3.5-super-vl:free",
     "openrouter/free",
     "recursive/flint-v1.0:free",
-    "thinkingmachines/inkling-small:free",
-    "thinkingmachines/inkling:free",
+    "stealth/crouton-alpha",
     "xingchen-agi/xing4.0-29b-a4b:free"
   ],
-  "free_count": 17
+  "free_count": 16
 }

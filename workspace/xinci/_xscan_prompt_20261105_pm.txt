@@ -1,0 +1,112 @@
+你是新词雷达 XSCAN 筛选器。根据候选帖生成严格 JSON（不要 markdown 围栏，不要解释）。
+
+窗口: window_start=2026-11-05 10:21 (北京) / 2026-11-05T02:21:55Z ; window_end=2026-11-05 21:28 (北京) / 2026-11-05T13:28:00Z
+label: "2026-11-05 晚上 书签X"
+run_at: "2026-11-05 21:28"
+
+规则:
+1. 只收真实首发（产品/模型首次发布）。合作/上架/功能更新/报告/研究/演示可收但 kind=not_model，desc 末尾加「不是新模型」。
+2. 招聘/活动/人事/营销转发/社区感谢/用户案例展示/玩笑梗/Office Hours/livestream 预告不收。
+3. 已在 reported 的规范化名不收。本窗口前首发但漏报 → 收，加 "backfill":true，desc 前加「【补报】」。
+4. B 路非官方/创始人传闻不收。已核实官方：@BaiduResearch / @Baidu_Inc ERNIE 5.5 Flash Base（优先用 BaiduResearch 开源主帖）；@orvenaAI Orvena 4B；@ModelScope2022 转载的 AgentScope Piccolo、EMLab KnowLine 可作为平台首发源（若无原厂号）。
+5. 建站热词 ≤3（宁缺勿滥）：优先 kind=model/product；views≥500000 或 bookmarks≥1000；名字全新；给 keyword_rank/keyword/reason。不达标则 keywords=[]。
+6. first_seen 用北京时间 YYYY-MM-DD HH:MM（UTC+8）。
+7. empty=true 若无合格 items。
+8. source 写成 @username；url 用帖子 url。同一产品多帖只收首发/最权威一条（ERNIE 用 @BaiduResearch 主帖 https://x.com/BaiduResearch/status/2118249227939967424）。
+9. 输出字段: label, run_at, window_start, window_end, empty, items[], keywords[]。
+   window_start「2026-11-05 10:21」；window_end「2026-11-05 21:28」。
+10. Kimi K3.1 Pro / Ripple-65B / Hy4 / ChatGPT Images 2.6 / SWE-2 Flash 等已报不收。
+
+已报 names（勿重复）: ["Agent Skills 捐给 Agentic AI Foundation", "Anthropic AISI Mythos 5 进一步分析", "Anthropic 自动化误对齐研究", "Atria Dawn", "Audio8-TTS-Realistic", "Audio8-TTS-Realistic-Air", "BabelArena", "Brush", "Canva Craft", "ChatGPT Images 2.6", "ChatGPT Pro/Business API credits $500", "ChefNMR2", "Claude API 128MB request limit", "Claude Duet", "Claude MCP Tasks / Elicitations", "Claude OneGov", "Claude Security 持续扫描", "Claude Ultra", "Claude for Nonprofits", "Claude self-assessment", "Claude 大规模形式化验证", "Claude 插件自动连接", "Claude 登陆 Google Cloud GA", "Claude 默认自动模式", "Clover-35B-A3B-Preview", "Dessa", "EvaOmni", "Fibo 2.0 Dev", "FireFlash", "FlashProve", "GPT-6.1 Terra", "GPT-Image-2.6", "GPT-Rosalind 药物发现线索", "Gemini 4 Carbon", "Gemini API CLI", "Gemini 在 Google 地图 CarPlay 导航", "Genie 4", "Google Connected Apps Platform", "Google 太空 TPU", "Hindsight Models", "Hy-Nomas", "Hy-SimulMT", "Hy4", "Hydrogen-1.0", "IOTA Decide 4B", "Kimi K3.1 Pro", "Krea 2 OpenCast LoRA", "LFM3", "Le Chonk", "LifeVal", "Ling-3.0-flash-Sante", "Ling-3.1-flash-1019", "Ling-3.1-flash-base", "LongCat-2.5", "ML4", "MarathonDocBench", "Matilda Platypus", "Messages API 消息线程", "MiniMax H3 社区加速更新", "MiniMax M3.1 Flash", "Mischief 1", "Mistral Large 4 登陆 Open Math OS", "Mistral Responses API", "Mistral × NVIDIA 工业工程合作", "Moss-Image-Edit", "Nanbeige4.3-33B", "Nemotron 3.5 Bolt E4B", "Nemotron 3.5 Transcribe", "OXR-1.0", "Omni-R2V", "OpenAI Decisions API", "OpenAI Private Intelligence", "OpenAI × Cathedral Systems 安全冲刺", "OpenAI × METR 嵌入式评估", "OpenAI 发现 Brotli 未认证 RCE", "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能", "OpenAI 模型登陆 Google Cloud", "OpenAI 训练环境离线化", "Orbital Trace", "Panda Orchestrator", "Pando", "PiVo-1.4M", "Pika H3 Flex", "PixText", "PlanAssist", "Qwen3.5-4B-3D-Coder", "Qwenputer", "RE-USE", "Recursive Flint", "Ripple-65B Preview", "SWE-2 Flash", "Sage-A1.5", "Sarvam Prism", "SenseNova 6.8 Code2Video", "SenseNova Loop-9B-Preview", "Spark-X2.6-4B", "StreamEval", "Unlimited-OCR-2", "Verne V0.5", "Viggle Remake", "WeVisOne-VL-4B", "d3-turbo"]
+
+候选帖 candidates:
+[
+  {
+    "username": "ModelScope2022",
+    "text": "Baidu is opening ERNIE-5.5-Flash-Base straight out of pre-training: an open-weight foundation for domain adaptation, instruction tuning, and RL research.\n🤖 https://t.co/oeSKrx3QaR\n\n• 280B total parameters; 14B activated per token\n• Pre-trained on 33.5T tokens, with training https://t.co/nrXw79pyR3",
+    "url": "https://x.com/ModelScope2022/status/2118327219076673865",
+    "created_at": "2026-11-05T12:59:00.000Z",
+    "first_seen_bj": "2026-11-05 20:59",
+    "views": 376,
+    "bookmarks": 0,
+    "likes": 3,
+    "lane": "A1"
+  },
+  {
+    "username": "ModelScope2022",
+    "text": "EMLab's KnowLine offers seven open-weight decision models for RAG, agent harnesses, and enterprise workflows, spanning dense models from 0.8B to 31B plus two MoE options. 🤖https://t.co/wnqLZaHZG1\n\n🏆 SOTA on private decision tests: KnowLine-31B-Gen1 achieves 71.86 on Jev https://t.co/u9xl8DLYS6",
+    "url": "https://x.com/ModelScope2022/status/2118311247867490749",
+    "created_at": "2026-11-05T11:55:32.000Z",
+    "first_seen_bj": "2026-11-05 19:55",
+    "views": 459,
+    "bookmarks": 4,
+    "likes": 2,
+    "lane": "A1"
+  },
+  {
+    "username": "ModelScope2022",
+    "text": "AgentScope introduces Piccolo: open-weight decision models in 27B, 9B, and 4B sizes for agent and data workflows. Piccolo evaluates candidate options in context and returns structured decisions with probabilities.\n🤖 https://t.co/zd0kPA3YvZ\n🌐 Explore Piccolo: https://t.co/TNtLGcnLqH",
+    "url": "https://x.com/ModelScope2022/status/2118284596521644522",
+    "created_at": "2026-11-05T10:09:38.000Z",
+    "first_seen_bj": "2026-11-05 18:09",
+    "views": 1060,
+    "bookmarks": 9,
+    "likes": 16,
+    "lane": "A1"
+  },
+  {
+    "username": "orvenaAI",
+    "text": "1/ Introducing Orvena 4B: a 4B model we trained for one job: being the assistant inside Orvena, on the iPhone itself. \nCalendar, alarms, places and travel times, web, and MCP connections like Notion or Linear, often several in one request, in 30 languages. \nOpen weights, Apache https://t.co/ItL1psHI0V",
+    "url": "https://x.com/orvenaAI/status/2118321172420960536",
+    "created_at": "2026-11-05T12:34:58.000Z",
+    "first_seen_bj": "2026-11-05 20:34",
+    "views": 15,
+    "bookmarks": 1,
+    "likes": 1,
+    "lane": "B"
+  },
+  {
+    "username": "ItsmeAjayKV",
+    "text": "New open weight drop !\n\nBaidu released ERNIE 5.5 Flash Base weights.\n\n- 280B total parameters\n- 14B activated per token \n- Pre-trained on 33.5T tokens \n- Up to 1M-token context for fine-tuning and inference \n- FP8 and BF16 weights\n\n\"..by releasing the weights at the end of https://t.co/3wpph5aE7J https://t.co/ARxpklMVrM",
+    "url": "https://x.com/ItsmeAjayKV/status/2118282905008865693",
+    "created_at": "2026-11-05T10:02:55.000Z",
+    "first_seen_bj": "2026-11-05 18:02",
+    "views": 1885,
+    "bookmarks": 14,
+    "likes": 33,
+    "lane": "ERNIE"
+  },
+  {
+    "username": "ShuohuanWang",
+    "text": "We’ve released ERNIE 5.5 Flash Base, a 280B-parameter MoE model with 14B active parameters per token. We pretrained it from scratch on 33.5T tokens.\n\nWhen we designed the model, we wanted people to be able to keep training it on their own data and run it efficiently on long https://t.co/HYV0bcjFnw",
+    "url": "https://x.com/ShuohuanWang/status/2118278089474261306",
+    "created_at": "2026-11-05T09:43:46.000Z",
+    "first_seen_bj": "2026-11-05 17:43",
+    "views": 169,
+    "bookmarks": 1,
+    "likes": 14,
+    "lane": "ERNIE"
+  },
+  {
+    "username": "Baidu_Inc",
+    "text": "ERNIE 5.5 Flash Base just dropped! Time to open that project folder. 🚀\n\nOur efficient sparse MoE language model draws on data spanning multiple domains and languages, achieving SOTA on multiple benchmarks among similarly sized base models. Its architecture and training system https://t.co/pksev9jR8j",
+    "url": "https://x.com/Baidu_Inc/status/2118265920665587935",
+    "created_at": "2026-11-05T08:55:25.000Z",
+    "first_seen_bj": "2026-11-05 16:55",
+    "views": 58372,
+    "bookmarks": 30,
+    "likes": 161,
+    "lane": "ERNIE"
+  },
+  {
+    "username": "BaiduResearch",
+    "text": "ERNIE 5.5 Flash Base is now open source — a 280B-parameter model with 14B active per token, and it already matches SOTA at its size!\nAnd this is just the start — the full ERNIE 5.5 Flash is on its way. 👀 https://t.co/9xEsbyfgWt",
+    "url": "https://x.com/BaiduResearch/status/2118249227939967424",
+    "created_at": "2026-11-05T07:49:05.000Z",
+    "first_seen_bj": "2026-11-05 15:49",
+    "views": 36026,
+    "bookmarks": 135,
+    "likes": 637,
+    "lane": "ERNIE"
+  }
+]

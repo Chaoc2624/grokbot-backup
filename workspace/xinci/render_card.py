@@ -4,10 +4,10 @@ render_card.py — 新词雷达图文卡片生成器 (1600px Retina PNG)
 
 支持两种模式：
   1) --mode am (或 morning): 渲染 10:20 上午扫描卡片
-     读取: xnew-YYYYMMDD-am.json + sources-YYYYMMDD-am.log (及 radar.db)
+     读取: xnew-YYYYMMDD-am.json + tracks-YYYYMMDD-am.json + sources-YYYYMMDD-am.log (及 radar.db)
      输出: /workspace/xinci/card-am.png 与 /workspace/xinci/card-YYYYMMDD-am.png
   2) --mode pm (或 daily, 默认): 渲染 21:20 晚间日报卡片
-     读取: merged.json / report.json, doable.json, finders.json, xnew-YYYYMMDD-{am,pm}.json, board_payload.json
+     读取: merged.json / report.json, doable.json, finders.json, xnew/tracks-YYYYMMDD-{am,pm}.json, board_payload.json
      输出: /workspace/xinci/card-pm.png 与 /workspace/xinci/card-YYYYMMDD-pm.png
 
 设计遵循 kaoda-ui v0.1.5 规范与 Halo Board 视觉风格：
@@ -286,6 +286,495 @@ def collect_xnew_data(date_str: str, mode: str) -> dict[str, Any]:
         "window_note": window_note,
         "pm_empty_fallback": pm_empty_fallback,
     }
+
+
+
+DERIVED_SUFFIXES = (
+    " unblocked",
+    " online",
+    " play",
+    " ai",
+    " alternative",
+)
+
+EVERGREEN_STEAM = {
+    "apex legends", "overwatch", "overwatch 2", "pubg", "pubg: battlegrounds",
+    "call of duty", "call of duty: modern warfare", "call of duty: modern warfare 4",
+    "elden ring", "counter-strike 2", "cs2", "dota 2", "team fortress 2",
+    "grand theft auto v", "gta v", "gta 5", "destiny 2", "warframe",
+    "final fantasy xiv online", "final fantasy xiv", "final fantasy xiv: evercold",
+    "final fantasy resonance", "football manager 27", "football manager",
+    "nba 2k", "fifa", "ea sports fc", "rust", "ark", "terraria",
+    "helldivers 2", "black myth: wukong", "monster hunter", "cyberpunk 2077",
+    "escape from tarkov", "delta force", "yu-gi-oh! master duel", "war thunder",
+    "rocket league", "dead by daylight", "rust",
+}
+
+NON_GAME_STEAM = {
+    "steam deck", "steam controller", "steam link", "steamvr", "steam workshop",
+}
+
+
+def _is_derived_keyword(name: str) -> bool:
+    low = (name or "").strip().lower()
+    return any(low.endswith(suf) for suf in DERIVED_SUFFIXES)
+
+
+def _base_name(name: str) -> str:
+    low = (name or "").strip()
+    for suf in DERIVED_SUFFIXES:
+        if low.lower().endswith(suf):
+            return low[: -len(suf)].strip()
+    return low.strip()
+
+
+def _source_chip(source: str, platform: str = "") -> str:
+    s = (source or "").strip()
+    p = (platform or "").strip().lower()
+    sl = s.lower()
+    if p == "x" or s.startswith("@"):
+        return s if s.startswith("@") else "X"
+    if "roblox" in sl or p == "roblox":
+        if "up-and-coming" in sl:
+            return "Roblox·新秀"
+        if "playing" in sl:
+            return "Roblox·在玩"
+        return "Roblox"
+    if "poki" in sl or p == "poki":
+        return "Poki"
+    if "product hunt" in sl or p == "producthunt":
+        return "PH"
+    if "hacker news" in sl or p == "hn" or sl.startswith("hn"):
+        return "HN"
+    if "sitemap" in sl or "toolify" in sl or "futurepedia" in sl or "aixploria" in sl:
+        return "导航增量"
+    if "steam" in sl or p == "steam":
+        if "新热" in s:
+            return "Steam·新热"
+        if "全球" in s:
+            return "Steam·全球"
+        return "Steam"
+    return truncate_zh(s or p or "来源", 12)
+
+
+def _track_priority(item: dict[str, Any], track_key: str) -> tuple:
+    """越小越靠前：X/Roblox/Poki/PH/HN/sitemap-new 优先，常青 Steam AAA 靠后。"""
+    name = (item.get("name") or "").strip()
+    source = (item.get("source") or "").strip()
+    platform = (item.get("platform") or "").strip().lower()
+    sl = source.lower()
+    is_new = bool(item.get("is_new"))
+    evergreen = name.lower() in EVERGREEN_STEAM or any(
+        name.lower().startswith(e) for e in (
+            "call of duty", "final fantasy", "football manager", "nba 2k", "ea sports",
+        )
+    )
+
+    if platform == "x" or source.startswith("@"):
+        tier = 0
+    elif platform == "roblox" or "roblox" in sl:
+        tier = 1
+    elif platform == "poki" or "poki" in sl:
+        tier = 2
+    elif platform in ("producthunt", "hn") or "product hunt" in sl or "hacker news" in sl:
+        tier = 3
+    elif "sitemap" in sl or platform in ("aixploria", "toolify", "futurepedia"):
+        tier = 4 if is_new else 5
+    elif platform == "steam" or "steam" in sl:
+        # 允许少量 Steam 新面孔；畅销新面孔优先于新热回流 3A
+        name_l = name.lower()
+        if name_l in NON_GAME_STEAM or name_l.startswith("steam "):
+            tier = 9
+        elif evergreen:
+            tier = 8
+        elif "畅销" in source and "全球" not in source:
+            tier = 5
+        elif "新热" in source:
+            tier = 6
+        elif "全球" in source:
+            tier = 7 if is_new else 8
+        else:
+            tier = 7
+    else:
+        tier = 5
+
+    # 游戏轨再抬一点 Up-and-Coming / is_new
+    boost = 0
+    if track_key == "game" and "up-and-coming" in sl:
+        boost = -1
+    if is_new and tier <= 5:
+        boost -= 1
+
+    return (tier + boost, 0 if is_new else 1, name.lower())
+
+
+def _pick_track_rows(
+    items: list[dict[str, Any]],
+    keywords: list[dict[str, Any]],
+    track_key: str,
+    limit: int = 7,
+) -> list[dict[str, Any]]:
+    """选唯一主名行：跳过 unblocked/online/play/ai/alternative 派生词。"""
+    reason_by_base: dict[str, str] = {}
+    for kw in keywords or []:
+        phrase = (kw.get("keyword") or "").strip()
+        if not phrase or _is_derived_keyword(phrase):
+            continue
+        base = _base_name(phrase).lower()
+        if base and base not in reason_by_base:
+            reason_by_base[base] = (kw.get("reason") or "").strip()
+
+    # 先按 items 去重（主名），附上 keyword reason
+    # items 常是主名（含品牌尾缀 AI）；unblocked/online/play/alternative 才归一到 base
+    best: dict[str, dict[str, Any]] = {}
+    for it in items or []:
+        name = (it.get("name") or "").strip()
+        if not name:
+            continue
+        low = name.lower()
+        if low.endswith((" unblocked", " online", " play", " alternative")):
+            base = _base_name(name)
+        else:
+            base = name
+        key = base.lower()
+        if not key:
+            continue
+        row = {
+            "name": base,
+            "desc": (it.get("desc") or "").strip(),
+            "url": (it.get("url") or "").strip(),
+            "source": (it.get("source") or "").strip(),
+            "platform": (it.get("platform") or "").strip(),
+            "is_new": bool(it.get("is_new")),
+            "first_seen": (it.get("first_seen") or "").strip(),
+            "kind": it.get("kind") or track_key,
+            "reason": reason_by_base.get(key, ""),
+        }
+        prev = best.get(key)
+        if prev is None or _track_priority(row, track_key) < _track_priority(prev, track_key):
+            best[key] = row
+
+    # keyword 里有、items 没盖到的主名也补上
+    for kw in keywords or []:
+        phrase = (kw.get("keyword") or "").strip()
+        if not phrase or _is_derived_keyword(phrase):
+            continue
+        base = _base_name(phrase)
+        key = base.lower()
+        if key in best:
+            if not best[key].get("reason"):
+                best[key]["reason"] = (kw.get("reason") or "").strip()
+            continue
+        best[key] = {
+            "name": base,
+            "desc": "",
+            "url": "",
+            "source": "建站词",
+            "platform": "",
+            "is_new": False,
+            "first_seen": "",
+            "kind": track_key,
+            "reason": (kw.get("reason") or "").strip(),
+        }
+
+    ranked = sorted(best.values(), key=lambda r: _track_priority(r, track_key))
+
+    def _is_steam(row: dict[str, Any]) -> bool:
+        plat = (row.get("platform") or "").lower()
+        src = (row.get("source") or "").lower()
+        return plat == "steam" or "steam" in src
+
+    def _is_evergreen(row: dict[str, Any]) -> bool:
+        name_l = row["name"].lower()
+        return name_l in EVERGREEN_STEAM or any(
+            name_l.startswith(e) for e in (
+                "call of duty", "final fantasy", "football manager", "nba 2k", "ea sports",
+            )
+        )
+
+    # 游戏轨：先填非 Steam 优先源，再按畅销榜顺序塞最多 2 个 Steam 新面孔
+    if track_key == "game":
+        primary = [r for r in ranked if not _is_steam(r)]
+        # 按 items 原始顺序挑 Steam 畅销/新热（跳过常青与硬件）
+        steam_faces: list[dict[str, Any]] = []
+        seen_s: set[str] = set()
+        for it in items or []:
+            name = (it.get("name") or "").strip()
+            if not name or _is_derived_keyword(name):
+                continue
+            base = _base_name(name)
+            key = base.lower()
+            row = best.get(key)
+            if not row or not _is_steam(row) or _is_evergreen(row):
+                continue
+            if key in NON_GAME_STEAM or key.startswith("steam "):
+                continue
+            src = (row.get("source") or "")
+            if "全球" in src and "畅销" in src:
+                # 全球畅销作候补，先收集榜单畅销/新热
+                continue
+            if key in seen_s:
+                continue
+            seen_s.add(key)
+            steam_faces.append(row)
+        # 不够再补全球畅销非常青
+        if len(steam_faces) < 2:
+            for it in items or []:
+                name = (it.get("name") or "").strip()
+                if not name or _is_derived_keyword(name):
+                    continue
+                key = _base_name(name).lower()
+                row = best.get(key)
+                if not row or key in seen_s or not _is_steam(row) or _is_evergreen(row):
+                    continue
+                if key in NON_GAME_STEAM or key.startswith("steam "):
+                    continue
+                seen_s.add(key)
+                steam_faces.append(row)
+                if len(steam_faces) >= 2:
+                    break
+
+        out = primary[: max(0, limit - 2)]
+        for row in steam_faces:
+            if len(out) >= limit:
+                break
+            if row["name"].lower() in {x["name"].lower() for x in out}:
+                continue
+            out.append(row)
+            if sum(1 for x in out if _is_steam(x)) >= 2:
+                break
+        for row in primary:
+            if len(out) >= limit:
+                break
+            if row["name"].lower() in {x["name"].lower() for x in out}:
+                continue
+            out.append(row)
+        out.sort(key=lambda r: _track_priority(r, track_key))
+        return out[:limit]
+
+    # AI工具轨：保留最多 2 条导航增量(is_new)，其余按 X/PH/HN 优先
+    if track_key == "ai_tools":
+        def _is_sitemap(row: dict[str, Any]) -> bool:
+            src = (row.get("source") or "").lower()
+            plat = (row.get("platform") or "").lower()
+            return "sitemap" in src or plat in ("aixploria", "toolify", "futurepedia")
+
+        primary = [r for r in ranked if not _is_sitemap(r)]
+        smaps = [r for r in ranked if _is_sitemap(r) and r.get("is_new")]
+        if not smaps:
+            smaps = [r for r in ranked if _is_sitemap(r)]
+        out = primary[: max(0, limit - 2)]
+        for row in smaps:
+            if len(out) >= limit:
+                break
+            if row["name"].lower() in {x["name"].lower() for x in out}:
+                continue
+            out.append(row)
+            if sum(1 for x in out if _is_sitemap(x)) >= 2:
+                break
+        for row in primary:
+            if len(out) >= limit:
+                break
+            if row["name"].lower() in {x["name"].lower() for x in out}:
+                continue
+            out.append(row)
+        out.sort(key=lambda r: _track_priority(r, track_key))
+        return out[:limit]
+
+    return ranked[:limit]
+
+
+def collect_tracks_data(date_str: str, mode: str) -> dict[str, Any]:
+    """读取 tracks-YYYYMMDD-{am,pm}.json；PM 合并两档（同 xnew）。"""
+    ymd = date_str.replace("-", "")
+    am_data = load_json(ROOT / f"tracks-{ymd}-am.json", {}) or {}
+    pm_data = load_json(ROOT / f"tracks-{ymd}-pm.json", {}) or {}
+
+    def _empty_track() -> dict[str, Any]:
+        return {"items": [], "keywords": []}
+
+    def _merge_track(parts: list[dict[str, Any]]) -> dict[str, Any]:
+        seen_item: set[str] = set()
+        seen_kw: set[str] = set()
+        items: list[dict[str, Any]] = []
+        keywords: list[dict[str, Any]] = []
+        for part in parts:
+            for it in part.get("items") or []:
+                key = (it.get("name") or "").strip().lower()
+                if not key or key in seen_item:
+                    continue
+                seen_item.add(key)
+                items.append(dict(it))
+            for kw in part.get("keywords") or []:
+                key = (kw.get("keyword") or "").strip().lower()
+                if not key or key in seen_kw:
+                    continue
+                seen_kw.add(key)
+                keywords.append(dict(kw))
+        return {"items": items, "keywords": keywords}
+
+    if mode == "am":
+        tracks = (am_data.get("tracks") or {}) if isinstance(am_data, dict) else {}
+        game = tracks.get("game") or _empty_track()
+        ai_tools = tracks.get("ai_tools") or _empty_track()
+        window_note = f"{date_str} 上午档 · Steam/Roblox/Poki + 导航增量"
+        pm_empty_fallback = False
+    else:
+        am_tracks = (am_data.get("tracks") or {}) if isinstance(am_data, dict) else {}
+        pm_tracks = (pm_data.get("tracks") or {}) if isinstance(pm_data, dict) else {}
+        am_game = am_tracks.get("game") or _empty_track()
+        pm_game = pm_tracks.get("game") or _empty_track()
+        am_ai = am_tracks.get("ai_tools") or _empty_track()
+        pm_ai = pm_tracks.get("ai_tools") or _empty_track()
+        pm_empty_fallback = (
+            not (pm_game.get("items") or pm_game.get("keywords"))
+            and not (pm_ai.get("items") or pm_ai.get("keywords"))
+            and bool(am_game.get("items") or am_ai.get("items") or am_game.get("keywords") or am_ai.get("keywords"))
+        )
+        # PM 优先：先 pm 后 am
+        game = _merge_track([pm_game, am_game])
+        ai_tools = _merge_track([pm_ai, am_ai])
+        window_note = f"{date_str} 全天汇总（含 10:20 与 21:20 两档）"
+        if pm_empty_fallback:
+            window_note = "晚间轨无新扫 · 以下为今日上午档"
+
+    game_rows = _pick_track_rows(game.get("items") or [], game.get("keywords") or [], "game", limit=8)
+    ai_rows = _pick_track_rows(ai_tools.get("items") or [], ai_tools.get("keywords") or [], "ai_tools", limit=8)
+
+    return {
+        "game_items": game.get("items") or [],
+        "game_keywords": game.get("keywords") or [],
+        "ai_items": ai_tools.get("items") or [],
+        "ai_keywords": ai_tools.get("keywords") or [],
+        "game_rows": game_rows,
+        "ai_rows": ai_rows,
+        "game_item_count": len(game.get("items") or []),
+        "game_kw_count": len(game.get("keywords") or []),
+        "ai_item_count": len(ai_tools.get("items") or []),
+        "ai_kw_count": len(ai_tools.get("keywords") or []),
+        "window_note": window_note,
+        "pm_empty_fallback": pm_empty_fallback,
+        "has_data": bool(game_rows or ai_rows or game.get("items") or ai_tools.get("items")),
+    }
+
+
+def _track_row_html(row: dict[str, Any], track_key: str) -> str:
+    name = row.get("name") or ""
+    url = (row.get("url") or "").strip()
+    chip = _source_chip(row.get("source") or "", row.get("platform") or "")
+    reason = (row.get("reason") or "").strip()
+    desc = (row.get("desc") or "").strip()
+    # reason 优先；否则用 desc；再兜底
+    line = reason or desc
+    if not line:
+        if track_key == "game":
+            line = f"{chip} 热门可做游戏站 / unblocked 词"
+        else:
+            line = f"{chip} 热门可做工具站 / alternative 词"
+    line = truncate_zh(line, 52)
+
+    if url:
+        name_html = f'<a class="item-name" href="{esc(url)}" style="color:#111827;text-decoration:none;">{esc(name)}</a>'
+    else:
+        name_html = f'<span class="item-name">{esc(name)}</span>'
+
+    pill_cls = "pill-indigo" if track_key == "game" else "pill-purple"
+    pill_label = "🎮 游戏" if track_key == "game" else "🛠️ 工具"
+    new_badge = '<span class="pill pill-emerald">新</span>' if row.get("is_new") else ""
+    first_seen = esc((row.get("first_seen") or "")[-11:])
+    meta_bits = [esc(chip)]
+    if first_seen:
+        meta_bits.append(first_seen)
+
+    return f"""
+        <div class="item-row">
+          <div class="row-top">
+            <div class="row-left">
+              <span class="pill {pill_cls}">{pill_label}</span>
+              {name_html}
+              <span class="pill pill-gray">{esc(chip)}</span>
+              {new_badge}
+            </div>
+            <div class="row-right">
+              <span class="meta-text">{" · ".join(meta_bits)}</span>
+            </div>
+          </div>
+          <div class="item-desc">{esc(line)}</div>
+        </div>
+        """
+
+
+def build_tracks_section_html(tracks: dict[str, Any], mode: str) -> str:
+    """双轨分区：游戏轨 + AI工具轨（各约 6–8 条唯一主名）。"""
+    if not tracks or not tracks.get("has_data"):
+        return f"""
+    <div class="section">
+      <div class="sec-head">
+        <div class="sec-title-wrap">
+          <span class="sec-title">🎮🛠️ 游戏轨 &amp; AI工具轨</span>
+          <span class="sec-count">暂无数据</span>
+        </div>
+        <div class="sec-note">{esc(tracks.get("window_note") if tracks else "")}</div>
+      </div>
+      <div class="item-list">
+        <div class="item-row">
+          <div class="item-desc" style="color:#6b7280;">本档尚未扫到 tracks-*.json（Steam/Roblox/Poki / 导航增量）。</div>
+        </div>
+      </div>
+    </div>
+    """
+
+    game_rows = tracks.get("game_rows") or []
+    ai_rows = tracks.get("ai_rows") or []
+    sec_note = tracks.get("window_note") or ""
+    if mode == "pm" and tracks.get("pm_empty_fallback"):
+        sec_note = "晚间轨无新扫 · 以下为今日上午档"
+
+    game_html = "".join(_track_row_html(r, "game") for r in game_rows)
+    if not game_html:
+        game_html = """
+        <div class="item-row">
+          <div class="item-desc" style="color:#6b7280;">本档游戏轨无可用主名。</div>
+        </div>
+        """
+    ai_html = "".join(_track_row_html(r, "ai_tools") for r in ai_rows)
+    if not ai_html:
+        ai_html = """
+        <div class="item-row">
+          <div class="item-desc" style="color:#6b7280;">本档 AI 工具轨无可用主名。</div>
+        </div>
+        """
+
+    g_items = tracks.get("game_item_count", 0)
+    g_kw = tracks.get("game_kw_count", 0)
+    a_items = tracks.get("ai_item_count", 0)
+    a_kw = tracks.get("ai_kw_count", 0)
+
+    return f"""
+    <div class="section">
+      <div class="sec-head">
+        <div class="sec-title-wrap">
+          <span class="sec-title">🎮🛠️ 游戏轨 &amp; AI工具轨</span>
+          <span class="sec-count">游戏 {g_items}/{g_kw} · 工具 {a_items}/{a_kw}</span>
+        </div>
+        <div class="sec-note">{esc(sec_note)}</div>
+      </div>
+      <div class="sec-subhead">
+        <span>🎮 游戏轨 · 展示 {len(game_rows)} 条（优先 X / Roblox / Poki，Steam 新面孔≤2）</span>
+        <span class="meta-text">适合游戏站 / unblocked</span>
+      </div>
+      <div class="item-list">
+        {game_html}
+      </div>
+      <div class="sec-subhead">
+        <span>🛠️ AI工具轨 · 展示 {len(ai_rows)} 条（优先 X / PH / HN / 导航增量）</span>
+        <span class="meta-text">适合工具站 / alternative</span>
+      </div>
+      <div class="item-list">
+        {ai_html}
+      </div>
+    </div>
+    """
 
 
 def estimate_pm_spend_and_board(date_str: str, report: dict, finders: dict) -> tuple[str, str]:
@@ -1355,11 +1844,16 @@ def build_am_sources_section_html(src_info: dict[str, Any]) -> str:
 def render_html(mode: str, date_str: str, balance_str: str | None = None) -> str:
     notes_map = load_custom_notes()
     xnew = collect_xnew_data(date_str, mode)
+    tracks = collect_tracks_data(date_str, mode)
     kw_count = len(xnew["kw_items"])
     model_count = kw_count + len(xnew["models"])
     not_model_count = len(xnew["not_models"])
 
     kw_names = "、".join(it.get("name", "") for it in xnew["kw_items"]) or "本档无达标"
+    game_stat = f'{tracks.get("game_item_count", 0)}/{tracks.get("game_kw_count", 0)}'
+    ai_stat = f'{tracks.get("ai_item_count", 0)}/{tracks.get("ai_kw_count", 0)}'
+    game_preview = "、".join(r.get("name", "") for r in (tracks.get("game_rows") or [])[:2]) or "—"
+    ai_preview = "、".join(r.get("name", "") for r in (tracks.get("ai_rows") or [])[:2]) or "—"
 
     if mode == "am":
         src_info = parse_sources_am(date_str, notes_map)
@@ -1373,7 +1867,7 @@ def render_html(mode: str, date_str: str, balance_str: str | None = None) -> str
               <div class="brand-dot"></div>
               <div>
                 <div class="brand-title">新词雷达 · 上午扫描简报</div>
-                <div class="brand-sub">书签X AI 新品首发 + 建站热词 + X / Hugging Face 源头新名</div>
+                <div class="brand-sub">书签X AI 新品 + 建站热词 · 游戏轨 / AI工具轨 · X / HF 源头</div>
               </div>
             </div>
             <div class="shift-badge shift-am">☀️ {esc(date_str)} · 10:20 上午档</div>
@@ -1390,14 +1884,14 @@ def render_html(mode: str, date_str: str, balance_str: str | None = None) -> str
               <div class="stat-sub">另有非模型动态 {not_model_count} 条</div>
             </div>
             <div class="stat-cell">
-              <div class="stat-label">📡 源头高分新名</div>
-              <div class="stat-val">{len(src_info['primary'])} 个</div>
-              <div class="stat-sub">HF 新上榜 {src_info['hf_count']} 个</div>
+              <div class="stat-label">🎮 游戏轨</div>
+              <div class="stat-val accent-emerald">{esc(game_stat)}</div>
+              <div class="stat-sub">{esc(truncate_zh(game_preview, 16))}</div>
             </div>
             <div class="stat-cell">
-              <div class="stat-label">🎯 真空期 &amp; 筛词</div>
-              <div class="stat-val">21:20 汇总</div>
-              <div class="stat-sub">晚报查 SERP + 域名</div>
+              <div class="stat-label">🛠️ AI工具轨</div>
+              <div class="stat-val">{esc(ai_stat)}</div>
+              <div class="stat-sub">{esc(truncate_zh(ai_preview, 16))}</div>
             </div>
             <div class="stat-cell">
               <div class="stat-label">💰 本轮 AIsa 花费</div>
@@ -1409,8 +1903,9 @@ def render_html(mode: str, date_str: str, balance_str: str | None = None) -> str
         """
 
         sec1 = build_xnew_section_html(xnew, mode="am")
+        sec_tracks = build_tracks_section_html(tracks, mode="am")
         sec2 = build_am_sources_section_html(src_info)
-        body_sections = sec1 + sec2
+        body_sections = sec1 + sec_tracks + sec2
         footer_left = "💡 提示：图中首发帖与仓库的可点击链接已附在随图短消息中"
         footer_right = f"新词雷达 · 北京时间 {date_str} 10:20 (UTC+8)"
 
@@ -1433,7 +1928,7 @@ def render_html(mode: str, date_str: str, balance_str: str | None = None) -> str
               <div class="brand-dot"></div>
               <div>
                 <div class="brand-title">新词雷达 · 晚间合并日报</div>
-                <div class="brand-sub">AI 新品与建站热词 · SERP 真空期与 RDAP 域名 · Semrush KDROI 筛词</div>
+                <div class="brand-sub">AI 新品与建站热词 · 游戏轨 / AI工具轨 · SERP 真空与 KDROI</div>
               </div>
             </div>
             <div class="shift-badge shift-pm">🌙 {esc(date_str)} · 21:20 晚报</div>
@@ -1455,9 +1950,9 @@ def render_html(mode: str, date_str: str, balance_str: str | None = None) -> str
               <div class="stat-sub">净筛 {len(all_doable_rows)} 词 · 滤噪 {filtered_cnt}</div>
             </div>
             <div class="stat-cell">
-              <div class="stat-label">📌 看板同步状态</div>
-              <div class="stat-val">{esc(board_str)}</div>
-              <div class="stat-sub">标签 {esc(date_str)} 新词雷达</div>
+              <div class="stat-label">🎮🛠️ 双轨建站词</div>
+              <div class="stat-val">{esc(game_stat)} · {esc(ai_stat)}</div>
+              <div class="stat-sub">看板 {esc(board_str)}</div>
             </div>
             <div class="stat-cell">
               <div class="stat-label">💰 本轮 AIsa 花费</div>
@@ -1469,9 +1964,10 @@ def render_html(mode: str, date_str: str, balance_str: str | None = None) -> str
         """
 
         sec1 = build_xnew_section_html(xnew, mode="pm", doable=doable)
+        sec_tracks = build_tracks_section_html(tracks, mode="pm")
         sec2 = build_doable_section_html(doable)
         sec3 = build_pm_signals_section_html(report, finders, notes_map)
-        body_sections = sec1 + sec2 + sec3
+        body_sections = sec1 + sec_tracks + sec2 + sec3
         footer_left = "💡 提示：全流程只读（RDAP 仅查可注册状态，绝不自动买域名/发帖）"
         footer_right = f"新词雷达 · 北京时间 {date_str} 21:20 (UTC+8)"
 
@@ -1499,7 +1995,8 @@ def render_png(html_str: str, out_paths: list[pathlib.Path]) -> tuple[int, int]:
     from playwright.sync_api import sync_playwright
     from PIL import Image
 
-    tmp_html = ROOT / ".tmp_card_render.html"
+    import time
+    tmp_html = ROOT / f".tmp_card_render-{os.getpid()}-{int(time.time()*1000)}.html"
     tmp_html.write_text(html_str, encoding="utf-8")
 
     primary_out = out_paths[0]

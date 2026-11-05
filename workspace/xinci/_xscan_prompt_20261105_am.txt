@@ -1,0 +1,202 @@
+你是新词雷达 XSCAN 筛选器。根据候选帖生成严格 JSON（不要 markdown 围栏，不要解释）。
+
+窗口: window_start=2026-11-04 21:36 (北京) / 2026-11-04T13:36:56Z ; window_end=2026-11-05 10:20 (北京) / 2026-11-05T02:20:00Z
+label: "2026-11-05 上午 书签X"
+run_at: "2026-11-05 10:20"
+
+规则:
+1. 只收真实首发（产品/模型首次发布）。合作/上架/功能更新/报告/研究/演示可收但 kind=not_model，desc 末尾加「不是新模型」。
+2. 招聘/活动/人事/营销转发/社区感谢/用户案例展示/玩笑梗/Office Hours 预告不收。
+3. 已在 reported 的规范化名不收。本窗口前首发但漏报 → 收，加 "backfill":true，desc 前加「【补报】」。
+4. B 路非官方/创始人传闻不收。官方已核实：@OpenAI ChatGPT Images 2.6；@OpenAIDevs GPT-Image-2.6 / Image-2.6 Flare & Sunburst；@RicursiveAI Ripple-65B Preview；@cognition SWE-2 Flash；@ViggleAI Viggle Remake；@MacrocosmosAI IOTA Decide 4B；@VerneRobotics V0.5。Kimi K3.1 Pro / Hy4 / Hydrogen-1.0 / Mistral Large 4 已报不收。
+5. 建站热词 ≤3（宁缺勿滥）：优先 kind=model/product；views≥500000 或 bookmarks≥1000；名字全新；给 keyword_rank/keyword/reason（含一句适合做什么页面）。不达标则 keywords=[]。ChatGPT Images 2.6 若达标可进热词；Claude Code 后台子代理用量优化是功能更新非新品名。
+6. first_seen 用北京时间 YYYY-MM-DD HH:MM（UTC+8）。
+7. empty=true 若无合格 items。
+8. source 写成 @username；url 用帖子 url。同一产品多帖只收首发/最权威一条（如 Images 2.6 用 @OpenAI 主帖；GPT-Image-2.6 API 可用 @OpenAIDevs 作单独 product 或并入 Images 2.6 描述，二选一勿重复）。
+9. 输出字段: label, run_at, window_start, window_end, empty, items[], keywords[]。
+   window_start 用「2026-11-04 21:36」；window_end 用「2026-11-05 10:20」。
+10. OpenAI 内核漏洞自主发现流水线、Anthropic vault 生物学研究、HF RoboColosseum、_akhaliq 论文、Gemini Voice Remixing 功能更新：可收 kind=not_model 或跳过（宁缺）。优先收真新品。
+
+已报 names（勿重复）: ["Agent Skills 捐给 Agentic AI Foundation", "Anthropic AISI Mythos 5 进一步分析", "Anthropic 自动化误对齐研究", "Atria Dawn", "Audio8-TTS-Realistic", "Audio8-TTS-Realistic-Air", "BabelArena", "Brush", "Canva Craft", "ChatGPT Pro/Business API credits $500", "ChefNMR2", "Claude API 128MB request limit", "Claude Duet", "Claude MCP Tasks / Elicitations", "Claude OneGov", "Claude Security 持续扫描", "Claude Ultra", "Claude for Nonprofits", "Claude self-assessment", "Claude 大规模形式化验证", "Claude 插件自动连接", "Claude 登陆 Google Cloud GA", "Claude 默认自动模式", "Clover-35B-A3B-Preview", "Dessa", "EvaOmni", "Fibo 2.0 Dev", "FireFlash", "FlashProve", "GPT-6.1 Terra", "GPT-Rosalind 药物发现线索", "Gemini 4 Carbon", "Gemini API CLI", "Gemini 在 Google 地图 CarPlay 导航", "Genie 4", "Google Connected Apps Platform", "Google 太空 TPU", "Hindsight Models", "Hy-Nomas", "Hy-SimulMT", "Hy4", "Hydrogen-1.0", "Kimi K3.1 Pro", "Krea 2 OpenCast LoRA", "LFM3", "Le Chonk", "LifeVal", "Ling-3.0-flash-Sante", "Ling-3.1-flash-1019", "Ling-3.1-flash-base", "LongCat-2.5", "ML4", "MarathonDocBench", "Matilda Platypus", "Messages API 消息线程", "MiniMax H3 社区加速更新", "MiniMax M3.1 Flash", "Mischief 1", "Mistral Large 4 登陆 Open Math OS", "Mistral Responses API", "Mistral × NVIDIA 工业工程合作", "Moss-Image-Edit", "Nanbeige4.3-33B", "Nemotron 3.5 Bolt E4B", "Nemotron 3.5 Transcribe", "OXR-1.0", "Omni-R2V", "OpenAI Decisions API", "OpenAI Private Intelligence", "OpenAI × Cathedral Systems 安全冲刺", "OpenAI × METR 嵌入式评估", "OpenAI 发现 Brotli 未认证 RCE", "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能", "OpenAI 模型登陆 Google Cloud", "OpenAI 训练环境离线化", "Orbital Trace", "Panda Orchestrator", "Pando", "PiVo-1.4M", "Pika H3 Flex", "PixText", "PlanAssist", "Qwen3.5-4B-3D-Coder", "Qwenputer", "RE-USE", "Recursive Flint", "Sage-A1.5", "Sarvam Prism", "SenseNova 6.8 Code2Video", "SenseNova Loop-9B-Preview", "Spark-X2.6-4B", "StreamEval", "Unlimited-OCR-2", "WeVisOne-VL-4B", "d3-turbo"]
+
+候选帖 candidates:
+[
+  {
+    "username": "OpenAI",
+    "text": "Images, upgraded—introducing ChatGPT Images 2.6.\n\nNow with GIFs and reference images.\n\nPlus, two new models are coming to the API with 50% faster image generation. https://t.co/kcuOhTipYR",
+    "url": "https://x.com/OpenAI/status/2118124944928432327",
+    "created_at": "2026-11-04T23:35:14.000Z",
+    "first_seen_bj": "2026-11-05 07:35",
+    "views": 640137,
+    "bookmarks": 1957,
+    "likes": 10018,
+    "lane": "A"
+  },
+  {
+    "username": "OpenAIDevs",
+    "text": "Today, we’re bringing GPT-Image-2.6 to Codex and the API.\n\nImage-2.6 Flare and Sunburst, our two new API image models, generate images 50% faster than before.\n\nAt medium or high quality, Sunburst keeps details more consistent from one edit to the next. https://t.co/iNhtjqKueJ",
+    "url": "https://x.com/OpenAIDevs/status/2118124753340756055",
+    "created_at": "2026-11-04T23:34:28.000Z",
+    "first_seen_bj": "2026-11-05 07:34",
+    "views": 133771,
+    "bookmarks": 346,
+    "likes": 1793,
+    "lane": "A"
+  },
+  {
+    "username": "OpenAI",
+    "text": "Our security researchers built an autonomous cyber vulnerability discovery, exploitation, and patching pipeline.\n\nIn a single run with an upcoming cyber model, it validated and generated patches for 948 local privilege escalation vulnerabilities in the Linux kernel at a total API https://t.co/Nu2I0n2ayI",
+    "url": "https://x.com/OpenAI/status/2118119451401048497",
+    "created_at": "2026-11-04T23:13:24.000Z",
+    "first_seen_bj": "2026-11-05 07:13",
+    "views": 473607,
+    "bookmarks": 1335,
+    "likes": 4218,
+    "lane": "A"
+  },
+  {
+    "username": "OpenAIDevs",
+    "text": "https://t.co/ZVTHMjAKzE",
+    "url": "https://x.com/OpenAIDevs/status/2118083933233357132",
+    "created_at": "2026-11-04T20:52:16.000Z",
+    "first_seen_bj": "2026-11-05 04:52",
+    "views": 45670,
+    "bookmarks": 111,
+    "likes": 367,
+    "lane": "A"
+  },
+  {
+    "username": "_akhaliq",
+    "text": "Think Less, Locally\n\nLocal Preference Learning for Reasoning Compression\n\npaper: https://t.co/Dms3zqSFtJ https://t.co/uOaTRp9eVw",
+    "url": "https://x.com/_akhaliq/status/2118079011159195882",
+    "created_at": "2026-11-04T20:32:42.000Z",
+    "first_seen_bj": "2026-11-05 04:32",
+    "views": 6603,
+    "bookmarks": 23,
+    "likes": 28,
+    "lane": "A"
+  },
+  {
+    "username": "AnthropicAI",
+    "text": "We’re sharing how our biology research team worked with Claude to map the first 3D structure of a vault particle from bacterial life.\n\nVault particles are a longstanding mystery. They are barrel-shaped objects, among the largest protein structures found in our cells. They were",
+    "url": "https://x.com/AnthropicAI/status/2118073665296228863",
+    "created_at": "2026-11-04T20:11:28.000Z",
+    "first_seen_bj": "2026-11-05 04:11",
+    "views": 287022,
+    "bookmarks": 725,
+    "likes": 2947,
+    "lane": "A"
+  },
+  {
+    "username": "ClaudeDevs",
+    "text": "Background subagents in Claude Code now use less of your usage limit.\n\nA running subagent updates its status line every 30 seconds, and each update used to re-read its whole conversation. Now Haiku 5.5 writes it from short notes instead, so each update costs about 99% less. https://t.co/u4maCuWq6A",
+    "url": "https://x.com/ClaudeDevs/status/2118063143167693011",
+    "created_at": "2026-11-04T19:29:39.000Z",
+    "first_seen_bj": "2026-11-05 03:29",
+    "views": 946096,
+    "bookmarks": 3349,
+    "likes": 14682,
+    "lane": "A"
+  },
+  {
+    "username": "_akhaliq",
+    "text": "kimi k3.1 pro 3D worlds\n\nhttps://t.co/2la7MARiOA https://t.co/BAfP2C0rjC",
+    "url": "https://x.com/_akhaliq/status/2118059786944369107",
+    "created_at": "2026-11-04T19:16:19.000Z",
+    "first_seen_bj": "2026-11-05 03:16",
+    "views": 8117,
+    "bookmarks": 11,
+    "likes": 15,
+    "lane": "A"
+  },
+  {
+    "username": "MistralAI",
+    "text": "🔴 LIVE TOMORROW\n\nOffice Hours are back. We’re talking Studio and Vibe, with a guest from the Studio team.\n\nDrop your questions below 👇 or just come hang out.\n📅 Nov 5\n⏰ 6PM CET / 12PM EST\n📍 YouTube: https://t.co/ZXAnJFpKuv\n📍 Discord: https://t.co/tme0aLlnKG https://t.co/FVqFuqWZxj",
+    "url": "https://x.com/MistralAI/status/2118051904899166279",
+    "created_at": "2026-11-04T18:45:00.000Z",
+    "first_seen_bj": "2026-11-05 02:45",
+    "views": 13341,
+    "bookmarks": 26,
+    "likes": 267,
+    "lane": "A"
+  },
+  {
+    "username": "Google",
+    "text": "Voice Remixing for Gemini 3.8 Flash TTS is now live in @GoogleAIStudio and the Gemini API.\n\nStart with a preset from our library of 2,000+ voices or a custom-designed voice, and use prompts to fine-tune timbre, pitch, pace, and accent, like \"add a subtle Southern U.S. accent\" or https://t.co/IixWu8wZV6",
+    "url": "https://x.com/Google/status/2118027058794148099",
+    "created_at": "2026-11-04T17:06:16.000Z",
+    "first_seen_bj": "2026-11-05 01:06",
+    "views": 141161,
+    "bookmarks": 210,
+    "likes": 677,
+    "lane": "A"
+  },
+  {
+    "username": "huggingface",
+    "text": "Evaluating robot models in the real world is hard, but solvable. That's why we're a founding partner of RoboColosseum 🤗\n\n100+ real robots, 140+ in-the-wild scenes, and every rollout, failures included, open on the Hub. https://t.co/Mo2nO6Y3kJ",
+    "url": "https://x.com/huggingface/status/2118004921597665638",
+    "created_at": "2026-11-04T15:38:18.000Z",
+    "first_seen_bj": "2026-11-04 23:38",
+    "views": 19654,
+    "bookmarks": 45,
+    "likes": 195,
+    "lane": "A"
+  },
+  {
+    "username": "ViggleAI",
+    "text": "Introducing Viggle Remake.\n\nThe most powerful video transformation agent. And we’re releasing the weights today.\n\n→ recast every character in a scene, and they stay consistent across cuts\n→ swap objects, change the background, restyle or add VFX\n→ up to 2 minutes\n→ keep https://t.co/XJmQiDCBvs",
+    "url": "https://x.com/ViggleAI/status/2118012913793290414",
+    "created_at": "2026-11-04T16:10:04.000Z",
+    "first_seen_bj": "2026-11-05 00:10",
+    "views": 280763,
+    "bookmarks": 311,
+    "likes": 423,
+    "lane": "B-official"
+  },
+  {
+    "username": "MacrocosmosAI",
+    "text": "Introducing IOTA Decide 4B, our first public model.\n\nPareto optimal. Built different.\nTrained across globally distributed GPUs with our SDK.\n\nOpen weights, Apache-2.0.\n\n🤗 https://t.co/NtQwYk5DJr https://t.co/YB412UDYlY",
+    "url": "https://x.com/MacrocosmosAI/status/2118028289813971098",
+    "created_at": "2026-11-04T17:11:10.000Z",
+    "first_seen_bj": "2026-11-05 01:11",
+    "views": 44494,
+    "bookmarks": 26,
+    "likes": 191,
+    "lane": "B-official"
+  },
+  {
+    "username": "VerneRobotics",
+    "text": "Introducing V0.5, Verne’s open-weight world action model for industrial robots.\n\nWe believe democratizing robotics starts with making frontier foundation models open to everyone.\n\nBringing robots to every industry will take many teams, building on shared progress across many https://t.co/cCtKVj2llc",
+    "url": "https://x.com/VerneRobotics/status/2118029255804129448",
+    "created_at": "2026-11-04T17:15:00.000Z",
+    "first_seen_bj": "2026-11-05 01:15",
+    "views": 23976,
+    "bookmarks": 110,
+    "likes": 368,
+    "lane": "B-official"
+  },
+  {
+    "username": "RicursiveAI",
+    "text": "Today we release Ripple-65B Preview, our 65B dense LLM we pretrained from scratch.\n\nRipple sets a new state-of-the-art for U.S. open-weight models in agentic coding tasks, surpassing significantly larger models including Muse Spark Open-816B, Beam-501B, Inkling-975B, and Nemotron https://t.co/0Dwh57Rr0J",
+    "url": "https://x.com/RicursiveAI/status/2118046765857546733",
+    "created_at": "2026-11-04T18:24:35.000Z",
+    "first_seen_bj": "2026-11-05 02:24",
+    "views": 375070,
+    "bookmarks": 1590,
+    "likes": 2960,
+    "lane": "B-official-lookup"
+  },
+  {
+    "username": "cognition",
+    "text": "Introducing SWE-2 Flash, our new fast &amp; efficient coding model.\n\nOn leading evals, it outperforms all American open-weight models, even ones 3x larger.\n\nTo balance transparency and cyber risks, we are building a program to securely share the weights with partners &amp; researchers. https://t.co/MJQ2c1HKIi",
+    "url": "https://x.com/cognition/status/2118069614521241739",
+    "created_at": "2026-11-04T19:55:22.000Z",
+    "first_seen_bj": "2026-11-05 03:55",
+    "views": 180772,
+    "bookmarks": 359,
+    "likes": 1558,
+    "lane": "B-official-lookup"
+  }
+]
+
+只输出一个 JSON 对象。

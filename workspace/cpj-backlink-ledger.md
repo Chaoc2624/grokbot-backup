@@ -69,3 +69,21 @@
 - Settled: Awaiting Approval — staff must approve before member use; approval mail → submit@
 - Not usable member yet; no profile/listing URL; no forum post
 
+
+## 2026-11-05 09:05 Asia/Singapore · 例程 cpj-gsc 复检
+
+| ID | 渠道 | 状态更新 | 证据 |
+|---|---|---|---|
+| 4 | Brownbook | **Live · Claimed** 维持；`backlink-guard verify` bot **HTTP 403 unreadable**（勿改 Lost）；curl UA mention=2 | `daily-runs/2026-11-05/bg-verify-brownbook.json` + `backlink-recheck.tsv` |
+| 10 | PeerPush | **Queued / Coming soon** 维持；页面有 `Visit site` follow 链到 apex+utm，但仍标 Coming soon → **禁止 Live** | `bg-verify-peerpush.json` |
+| 3 | ExactSeek | **Pending** 维持；今日无新信 | AgentMail frame-submit |
+| 9 | ASR 合规重交 | **Pending** 维持；无 `chinaprivatejourneys.com` ASR 确认信 | AgentMail search |
+| 6 | Startup88 | **Pending** 维持 | — |
+| 7 | ASEAN Now | **Member ready**（邮件 «Your registration is complete!» 2026-11-04 17:14Z）→ 可登录；**仍无公开 listing URL，不计 Live** | messageId `<A5SIIwBqSgG9FVFRcgpkBA@geopod-ismtpd-3>` |
+| 8 | IndexNow | 今日再 POST 9 URL → **HTTP 200** | `indexnow-post.json` |
+
+**今日新增 Live = 0** · 有效 Live 累计 = **1（Brownbook）** · 今日新自动目录交 = **0**（自动化 run 无密码/验证码填表能力；旅行向目录 → NEED_BROWSER 排队）
+
+## 2026-11-05 14:00 Asia/Shanghai · 例程 cpj-14 手动目录清单
+
+推送老板 7 条 NEED_BROWSER（F6S / Touristlink / Cybo / Hotfrog / TinyLaunch / Addon Biz / SideProjectors）。跳过已 Live/Pending/Queued/付费墙。完整表：`daily-runs/2026-11-05/manual-dirs.md`。本轮**未代交**（例程只出清单）。

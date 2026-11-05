@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-04T01:09:24.857057+00:00",
+  "checked_at": "2026-11-05T01:07:22.040321+00:00",
   "eligible": [],
   "needs_parameter_verification": [
     {
@@ -29,14 +29,6 @@
     {
       "id": "nvidia/nemotron-3.5-lightning:free",
       "context_length": 1000000
-    },
-    {
-      "id": "thinkingmachines/inkling-small:free",
-      "context_length": 1048576
-    },
-    {
-      "id": "thinkingmachines/inkling:free",
-      "context_length": 1048576
     },
     {
       "id": "cohere/north-mini-code:free",
@@ -79,9 +71,7 @@
     "openrouter/free",
     "recursive/flint-v1.0:free",
     "stealth/crouton-alpha",
-    "thinkingmachines/inkling-small:free",
-    "thinkingmachines/inkling:free",
     "xingchen-agi/xing4.0-29b-a4b:free"
   ],
-  "free_count": 18
+  "free_count": 16
 }

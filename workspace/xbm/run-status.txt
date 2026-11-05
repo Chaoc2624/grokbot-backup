@@ -1,16 +1,18 @@
 STATUS: SUCCESS
-new: 11
-ingested: 10
-filtered: 1
-fetched_page: 50
-newest_fetched_id: 2117454417058578459
-seen_count: 335
+new: 6
+ingested: 6
+filtered: 0
+fetched_page: 99
+newest_fetched_id: 2118264109879923122
+seen_count: 357
 board_ingest: ok
 board_brief: ok
 radar: skipped
-growth: 5 (handoff SendToAgent)
-carryover: 272
-run_at: 2026-11-03 22:08 Asia/Shanghai
-label: 2026-11-03 晚上
+growth: 2 (handoff file ready; parent must SendToAgent — executor has no tool)
+carryover: 296
+run_at: 2026-11-05 22:03 Asia/Shanghai
+label: 2026-11-05 晚上
 api_balance: $12.73 free (expires ~2027-10-06 20:22 Beijing)
-api_calls_this_slot: 1 bookmarks + 1 usage
+api_calls_this_slot: 1 bookmarks + 1 usage (+me)
+fixes: nemotron model id invalid (double openrouter prefix) → cascaded to gemini-3.1-flash-lite-preview; 0 soft-ads; 0 thin/article enrich needed; SendToAgent unavailable in executor cursor namespace
+growth_sent: yes (parent SendToAgent priority to 增长大师)

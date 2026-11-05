@@ -11,7 +11,7 @@ python3 track_scan.py --mode am   # 或 pm；10:20 / 21:20
 python3 merge_board.py            # 会吃 tracks-YYYYMMDD-*.json
 ```
 
-产出：`tracks-YYYYMMDD-{am|pm}.json` → 经 merge 进 `board_keywords.json` / `merged.json`，晚上 doable（KD≤31）照常打分。卡片渲染不改；有词就会进看板合并列表。
+产出：`tracks-YYYYMMDD-{am|pm}.json` → 经 merge 进 `board_keywords.json` / `merged.json`，晚上 doable（KD≤31）照常打分。卡片 `render_card.py` 早晚都会画出游戏轨/AI工具轨分区；有词也会进看板合并列表。
 
 ---
 

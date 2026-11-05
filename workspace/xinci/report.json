@@ -1,120 +1,137 @@
 {
  "leads": [
   {
-   "term": "pika h3 flex",
+   "term": "relion",
+   "kinds": [
+    "x"
+   ],
+   "signals": [
+    "X 1 个账号 ♥142"
+   ],
+   "examples": [
+    "@dotey: 40 年前在人体细胞里发现的巨型蛋白“桶”，至今没人知道它干什么用。Anthropic 用 Claude 在细菌里找到了它的同类 科学家 40 年前就在我们的细"
+   ],
+   "variants": [],
+   "posts": [
+    {
+     "account": "dotey",
+     "text": "40 年前在人体细胞里发现的巨型蛋白“桶”，至今没人知道它干什么用。Anthropic 用 Claude 在细菌里找到了它的同类 科学家 40 年前就在我们的细胞里发现了一种巨大的空心蛋白“桶”，叫穹窿体（vault），到现在还不知道它是干什么的。 Anthropic 生物研究团队 11 月 4 日发文，介绍他们用 Claude 研究穹窿体的进展： • 第一次证明细菌和噬菌体（专门感染细菌的病毒）里的同类蛋白也能拼成穹窿体 • 分离这些颗粒的实验从约 3 天缩到 90 分钟 • 解出其中一个的 3D 结构，34 小时出第一版模型 细菌长得快、好操作，在细菌里研究穹窿体，科学家更有希望弄清它的用途，将来还可能把它改造成运送酶的纳米胶囊。 【穹窿体是什么，为什么值得找】 穹窿体是一种空心的蛋白质“桶”，人体几乎每个细胞里都有，是已知最大的细胞内分子结构之一。1986 年 Leonard Rome 和 Nancy Kedersha 在电子显微镜下发现它，觉得它带肋条的外壳像教堂的拱顶，就起了这个名字。 科学家猜过它负责运输分子、帮细胞抵抗抗癌药这类毒物、参与免疫，都没被证实。天生缺穹窿体的小鼠也照样正常活着。 难研究的一个原因是，生物学家最常用的实验生物，酵母、果蝇、线虫，恰好都没有穹窿体。以前只在动物、植物这类复杂生物里见过完整的穹窿体。细菌里找到过相似的蛋白，但没人证明它们真能拼成桶。 这条路以前走通过：人类的好几种免疫机制，就是先在细菌里找到“远亲”，才弄清了来源。 【Claude 干了什么，快了多少】 整个项目用了不到 4 个月。团队成员以前没做过这么大的蛋白质组装体，结构生物学经验也有限。分工是研究员拿主意，Claude 执行并提建议。 第一步，找亲戚。Claude 在约 150 亿条预测蛋白序列里搜穹窿体蛋白的同类，发现它们分布很广，出现在 29 个细菌门和 4 个古菌门里，但很稀少，在有基因组测序的物种里不到 1%。 第二步，把蛋白造出来。研究员挑了 44 个候选，Claude 把每个蛋白序列转成适合宿主细胞的 DNA 设计，加好控制开关，准备好下单。最后有 15 种在大肠杆菌里产出了可用的蛋白。 第三步，把颗粒分离出来。传统方法要约 3 天。团队想改用一种按颗粒大小筛分的柱子，Claude 一开始反对，理由是折叠坏掉的蛋白团块会和穹窿体一起流出来。 团队坚持要试，Claude 就推荐了具体的柱子和检验办法。接着 Claude 提议，把细胞破碎后的“原汤”不经提纯直接倒进柱子。 研究员起初犹豫，因为这种柱子很贵，原汤可能把它堵住或污染，结果试成了。从细胞到电镜样品，时间缩到约 90 分钟。15 种蛋白里有 7 种拼成了像穹窿体的颗粒，冷冻电镜确认了其中 4 种，2 种来自噬菌体，2 种来自细菌。 第四步，解结构。冷冻电镜是把大量颗粒速冻，用电子束拍照，再把成千上万张照片合成一个 3D 模型。这一步人工通常要几周到几个月，靠专业软件一点点调。 这次 Claude 在 Anthropic 内部的多 agent 系统里自己装好开源软件 RELION，跑完每一步，研究员只在关键的分析决策上给意见。 34 小时出了第一版完整模型，开始处理后约一周出了最终结果。推文里说的“几周到几个月缩到几天”，指的就是这一步。 【发现了什么】 解出结构的是一种噬菌体蛋白，团队叫它 L05。噬菌体借细菌的身体造蛋白，所以这个桶是在细菌细胞里组装的。 它由 96 个相同的蛋白拼成，上下两半各 48 个，人的穹窿体是 78 个。它更矮更胖，长约 54 纳米、宽约 45 纳米（人的是 67 和 40），内部空间反而大了约 25%。这是在细菌这类简单生物里找到的最大蛋白质外壳之一。 团队还做了两组改造。改动蛋白之间的接触点，有的只改一处，桶就封不上口，变成敞开的花环状。把蛋白里重复 7 次的那段“墙砖”多复制两段，变成和人一样的 9 段，桶就变得更大，内部空间又多了约 20%。这说明穹窿体可能是靠复制自己的墙砖在进化中变大的，将来也可以改造成运送酶的纳米胶囊。 功能还是没找到，但有一条线索：每个蛋白的一个小口袋里都卡着一个认不出来的小分子。Claude 发现它的形状像辅酶 A，一种细胞用来搬运化学基团的常见“帮手分子”。如果真是它，就是关于功能的第一个提示。 发现者之一的 Rome 是这个项目的顾问。他看过结构后说，弄清穹窿体的功能仍然极其困难，这次发现的范围这么广，说明它的功能可能很复杂。 【Claude 犯了什么错，怎么改的】 文章列了两个错。一个是 Claude 写的实验方案里，培养基加了一种会妨碍把 DNA 送进细胞的添加剂，项目因此倒退两周。另一个发生在冷冻电镜处理早期，Claude 跳过了一个标准步骤，做出的 3D 图把结构和它的镜像混在了一起，就像左手和右手的照片叠成一张。研究员让它别再即兴发挥，原话是“除非常规做法不管用，否则我们就按常规来”。 团队把实验记录交给训练 Claude 的机器学习研究员，让他们看模型错在哪里，用来调整 Claude 学习的数据。研究员说，项目期间新模型陆续上线，Claude 设计 DNA 的错误看起来少了，也更会提前指出实验里的坑。在团队熟悉的领域，错误很快被发现；在不熟的领域，错误就要花更多时间才找得到。团队的结论是利远大于弊。 【普通实验室能照着做吗】 Anthropic 说，这次的大部分工作，一般实验室用现有的 Claude 产品就能做。唯一的例外是冷冻电镜分析，这次为了省时间用了几百块 GPU 并行，超出一般高校的算力条件。 这些穹窿体目前只在大肠杆菌里造出来过，在它们原本所在的细菌和噬菌体里会不会形成，还没验证。论文是预印本，已投 bioRxiv，还没经过同行评审。Rome 拿 Anthropic 的顾问费。 原文：https://t.co/9y7HDslIQq 预印本：https://t.co/U7JswXqrn0 https://t.co/ARxvUMnzhL",
+     "url": "https://x.com/dotey/status/2118243086589476995",
+     "likes": 142
+    }
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "biorxiv",
+   "kinds": [
+    "x"
+   ],
+   "signals": [
+    "X 1 个账号 ♥142"
+   ],
+   "examples": [
+    "@dotey: 40 年前在人体细胞里发现的巨型蛋白“桶”，至今没人知道它干什么用。Anthropic 用 Claude 在细菌里找到了它的同类 科学家 40 年前就在我们的细"
+   ],
+   "variants": [],
+   "posts": [
+    {
+     "account": "dotey",
+     "text": "40 年前在人体细胞里发现的巨型蛋白“桶”，至今没人知道它干什么用。Anthropic 用 Claude 在细菌里找到了它的同类 科学家 40 年前就在我们的细胞里发现了一种巨大的空心蛋白“桶”，叫穹窿体（vault），到现在还不知道它是干什么的。 Anthropic 生物研究团队 11 月 4 日发文，介绍他们用 Claude 研究穹窿体的进展： • 第一次证明细菌和噬菌体（专门感染细菌的病毒）里的同类蛋白也能拼成穹窿体 • 分离这些颗粒的实验从约 3 天缩到 90 分钟 • 解出其中一个的 3D 结构，34 小时出第一版模型 细菌长得快、好操作，在细菌里研究穹窿体，科学家更有希望弄清它的用途，将来还可能把它改造成运送酶的纳米胶囊。 【穹窿体是什么，为什么值得找】 穹窿体是一种空心的蛋白质“桶”，人体几乎每个细胞里都有，是已知最大的细胞内分子结构之一。1986 年 Leonard Rome 和 Nancy Kedersha 在电子显微镜下发现它，觉得它带肋条的外壳像教堂的拱顶，就起了这个名字。 科学家猜过它负责运输分子、帮细胞抵抗抗癌药这类毒物、参与免疫，都没被证实。天生缺穹窿体的小鼠也照样正常活着。 难研究的一个原因是，生物学家最常用的实验生物，酵母、果蝇、线虫，恰好都没有穹窿体。以前只在动物、植物这类复杂生物里见过完整的穹窿体。细菌里找到过相似的蛋白，但没人证明它们真能拼成桶。 这条路以前走通过：人类的好几种免疫机制，就是先在细菌里找到“远亲”，才弄清了来源。 【Claude 干了什么，快了多少】 整个项目用了不到 4 个月。团队成员以前没做过这么大的蛋白质组装体，结构生物学经验也有限。分工是研究员拿主意，Claude 执行并提建议。 第一步，找亲戚。Claude 在约 150 亿条预测蛋白序列里搜穹窿体蛋白的同类，发现它们分布很广，出现在 29 个细菌门和 4 个古菌门里，但很稀少，在有基因组测序的物种里不到 1%。 第二步，把蛋白造出来。研究员挑了 44 个候选，Claude 把每个蛋白序列转成适合宿主细胞的 DNA 设计，加好控制开关，准备好下单。最后有 15 种在大肠杆菌里产出了可用的蛋白。 第三步，把颗粒分离出来。传统方法要约 3 天。团队想改用一种按颗粒大小筛分的柱子，Claude 一开始反对，理由是折叠坏掉的蛋白团块会和穹窿体一起流出来。 团队坚持要试，Claude 就推荐了具体的柱子和检验办法。接着 Claude 提议，把细胞破碎后的“原汤”不经提纯直接倒进柱子。 研究员起初犹豫，因为这种柱子很贵，原汤可能把它堵住或污染，结果试成了。从细胞到电镜样品，时间缩到约 90 分钟。15 种蛋白里有 7 种拼成了像穹窿体的颗粒，冷冻电镜确认了其中 4 种，2 种来自噬菌体，2 种来自细菌。 第四步，解结构。冷冻电镜是把大量颗粒速冻，用电子束拍照，再把成千上万张照片合成一个 3D 模型。这一步人工通常要几周到几个月，靠专业软件一点点调。 这次 Claude 在 Anthropic 内部的多 agent 系统里自己装好开源软件 RELION，跑完每一步，研究员只在关键的分析决策上给意见。 34 小时出了第一版完整模型，开始处理后约一周出了最终结果。推文里说的“几周到几个月缩到几天”，指的就是这一步。 【发现了什么】 解出结构的是一种噬菌体蛋白，团队叫它 L05。噬菌体借细菌的身体造蛋白，所以这个桶是在细菌细胞里组装的。 它由 96 个相同的蛋白拼成，上下两半各 48 个，人的穹窿体是 78 个。它更矮更胖，长约 54 纳米、宽约 45 纳米（人的是 67 和 40），内部空间反而大了约 25%。这是在细菌这类简单生物里找到的最大蛋白质外壳之一。 团队还做了两组改造。改动蛋白之间的接触点，有的只改一处，桶就封不上口，变成敞开的花环状。把蛋白里重复 7 次的那段“墙砖”多复制两段，变成和人一样的 9 段，桶就变得更大，内部空间又多了约 20%。这说明穹窿体可能是靠复制自己的墙砖在进化中变大的，将来也可以改造成运送酶的纳米胶囊。 功能还是没找到，但有一条线索：每个蛋白的一个小口袋里都卡着一个认不出来的小分子。Claude 发现它的形状像辅酶 A，一种细胞用来搬运化学基团的常见“帮手分子”。如果真是它，就是关于功能的第一个提示。 发现者之一的 Rome 是这个项目的顾问。他看过结构后说，弄清穹窿体的功能仍然极其困难，这次发现的范围这么广，说明它的功能可能很复杂。 【Claude 犯了什么错，怎么改的】 文章列了两个错。一个是 Claude 写的实验方案里，培养基加了一种会妨碍把 DNA 送进细胞的添加剂，项目因此倒退两周。另一个发生在冷冻电镜处理早期，Claude 跳过了一个标准步骤，做出的 3D 图把结构和它的镜像混在了一起，就像左手和右手的照片叠成一张。研究员让它别再即兴发挥，原话是“除非常规做法不管用，否则我们就按常规来”。 团队把实验记录交给训练 Claude 的机器学习研究员，让他们看模型错在哪里，用来调整 Claude 学习的数据。研究员说，项目期间新模型陆续上线，Claude 设计 DNA 的错误看起来少了，也更会提前指出实验里的坑。在团队熟悉的领域，错误很快被发现；在不熟的领域，错误就要花更多时间才找得到。团队的结论是利远大于弊。 【普通实验室能照着做吗】 Anthropic 说，这次的大部分工作，一般实验室用现有的 Claude 产品就能做。唯一的例外是冷冻电镜分析，这次为了省时间用了几百块 GPU 并行，超出一般高校的算力条件。 这些穹窿体目前只在大肠杆菌里造出来过，在它们原本所在的细菌和噬菌体里会不会形成，还没验证。论文是预印本，已投 bioRxiv，还没经过同行评审。Rome 拿 Anthropic 的顾问费。 原文：https://t.co/9y7HDslIQq 预印本：https://t.co/U7JswXqrn0 https://t.co/ARxvUMnzhL",
+     "url": "https://x.com/dotey/status/2118243086589476995",
+     "likes": 142
+    }
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.5
+  },
+  {
+   "term": "rea video",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 Pika-Labs/Pika-H3-Flex ★1567(均 268/天,一天 +839)"
+    "GitHub 爆发 JuneYaooo/rea-video ★1740(均 253/天,一天 +1358)"
    ],
    "examples": [
-    "Pika-Labs/Pika-H3-Flex: Pika H3 Flex: video and audio generation inference"
+    "JuneYaooo/rea-video: Reverse-engineer any video, shot by shot: tells whether each shot was filmed, AI-generated or coded, how the captions, c"
    ],
    "variants": [
-    "pika h3 flex",
-    "pika-labs pika h3 flex",
-    "pika pika h3 flex"
+    "rea video",
+    "juneyaooo rea video"
    ],
    "posts": [],
-   "repo": "Pika-Labs/Pika-H3-Flex",
+   "repo": "JuneYaooo/rea-video",
    "known": "",
    "format": "video",
    "one_click": null,
-   "named": 0.95
+   "named": 0.8
   },
   {
-   "term": "agent autoloop",
+   "term": "lichii",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 KKKKhazix/agent-autoloop ★2045(均 1657/天)"
+    "GitHub 爆发 zortos293/Lichii ★1446(均 291/天,一天 +797)"
    ],
    "examples": [
-    "KKKKhazix/agent-autoloop: 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。"
+    "zortos293/Lichii: VERY experimental Nintendo Switch 2 emulator"
    ],
    "variants": [
-    "agent autoloop",
-    "kkkkhazix agent autoloop",
-    "khazix agent autoloop"
+    "lichii",
+    "zortos293 lichii",
+    "zortos lichii"
    ],
    "posts": [],
-   "repo": "KKKKhazix/agent-autoloop",
+   "repo": "zortos293/Lichii",
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.9
   },
   {
-   "term": "terminal mac",
+   "term": "google ai pro 2year zerocost auto",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 govijr/terminal-mac ★1036(均 726/天)"
+    "GitHub 爆发 worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto ★1665(均 1665/天)"
    ],
    "examples": [
-    "govijr/terminal-mac: Entire MacOS running in your terminal."
+    "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto: Google_AI_Pro_2Year_ZeroCost_Auto"
    ],
    "variants": [
-    "terminal mac",
-    "govijr terminal mac"
+    "google ai pro 2year zerocost auto",
+    "worldonlyu google ai pro 2year zerocost auto"
    ],
    "posts": [],
-   "repo": "govijr/terminal-mac",
+   "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "piratex",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 3 处 (×3.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
    "known": "",
    "format": "text",
    "one_click": null,
    "named": 0.9
-  },
-  {
-   "term": "nabuxai",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 11 处 (×11.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "nabux",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 11 处 (×11.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "connectors uk.co.reliness",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 30 处 (×30.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
   },
   {
    "term": "cloudcorprecords",
@@ -122,7 +139,7 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 59 处 (×16.3)"
+    "③ 竞品 33 处 (×12.1)"
    ],
    "examples": [],
    "variants": [],
@@ -133,55 +150,7 @@
    "named": 0.7
   },
   {
-   "term": "com.forevenza.services",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 12 处 (×12.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "connectors com.forevenza.services",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 12 处 (×12.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "connectors com.pagespool",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 7 处 (×7.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "io.github.lewisororke l50",
+   "term": "com.quarralabs",
    "kinds": [
     "sitemap"
    ],
@@ -197,7 +166,7 @@
    "named": 0.7
   },
   {
-   "term": "connectors io.github.lewisororke",
+   "term": "connectors com.quarralabs",
    "kinds": [
     "sitemap"
    ],
@@ -213,12 +182,12 @@
    "named": 0.7
   },
   {
-   "term": "io.webz",
+   "term": "click.myagents",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 6 处 (×5.9)"
+    "③ 竞品 6 处 (×5.7)"
    ],
    "examples": [],
    "variants": [],
@@ -229,12 +198,12 @@
    "named": 0.7
   },
   {
-   "term": "connectors io.webz",
+   "term": "connectors click.myagents",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 6 处 (×5.9)"
+    "③ 竞品 6 处 (×5.7)"
    ],
    "examples": [],
    "variants": [],
@@ -245,12 +214,12 @@
    "named": 0.7
   },
   {
-   "term": "llc cyan",
+   "term": "com.realmarketlabs.tools",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 7 处 (×5.6)"
+    "③ 竞品 5 处 (×5.0)"
    ],
    "examples": [],
    "variants": [],
@@ -258,15 +227,15 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.6
+   "named": 0.7
   },
   {
-   "term": "cyan eclipse",
+   "term": "connectors com.realmarketlabs.tools",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 7 处 (×5.2)"
+    "③ 竞品 5 处 (×5.0)"
    ],
    "examples": [],
    "variants": [],
@@ -274,15 +243,15 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.6
+   "named": 0.7
   },
   {
-   "term": "eclipse technologies",
+   "term": "io.github.allooloo",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 7 处 (×5.1)"
+    "③ 竞品 4 处 (×3.9)"
    ],
    "examples": [],
    "variants": [],
@@ -290,648 +259,569 @@
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.5
-  },
-  {
-   "term": "bazaart ai photo editor design",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: Bazaart AI Photo Editor Design"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/bazaart-ai-photo-editor-design/id515094775?uo=2",
-    "Bazaart is an easy-to-use AI photo editor, video editor, and design app. No design background needed. Create fast for online selling, digital marketing, and social media. Get your design superpowers t"
-   ],
-   "known": "",
-   "format": "video",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "vids ai - reels video editor",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: Vids AI - Reels Video Editor"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/vids-ai-reels-video-editor/id1634361180?uo=2",
-    "VIDS combines powerful AI with thousands of ready-made templates so you can make trending content in just a few taps. Start with an AI template or style — the app instantly syncs your clips with music"
-   ],
-   "known": "",
-   "format": "video",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "rungle",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Rungle"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/rungle",
-    "Turn your running photos and clips into share-ready Reels Discussion | Link"
-   ],
-   "known": "",
-   "format": "video",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "eyecon",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Eyecon"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/eyecon-auto-pause-video",
-    "Auto pause video when you look away Discussion | Link"
-   ],
-   "known": "",
-   "format": "video",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "hackertv",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: HackerTV"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://hackertv.org",
-    "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels"
-   ],
-   "known": "",
-   "format": "video",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "ai video generator + creator",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: AI Video Generator + Creator"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/ai-video-generator-creator/id6446647507?uo=2",
-    "AI Video Generator lets you turn your ideas into AI Videos using advanced artificial intelligence. Our AI Video Generator tool provides high-quality AI Videos - make AI Videos with AI Video Generator."
-   ],
-   "known": "",
-   "format": "video",
-   "one_click": null,
    "named": 0.7
   },
   {
-   "term": "word swag - cool fonts",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: Word Swag - Cool Fonts"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/word-swag-cool-fonts/id645746786?uo=2",
-    "Congrats on finding the original Word Swag™ - the easiest and most beautiful graphic design editor. INTRODUCING REALFONTS Make your words irresistible with unbelievably fun RealFonts! With never-befor"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.9
-  },
-  {
-   "term": "render sandboxes",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Render Sandboxes"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/render",
-    "A computer for every agent Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "kosa8",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: kosa8"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/kosa8",
-    "Air-gapped microVM sandboxes for enterprise AI agents Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "orphex mcp",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Orphex MCP"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing",
-    "Run your entire digital marketing stack via one unified MCP Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "fileforensics",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: fileForensics"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/fileai-ai-ocr",
-    "Real or not? Check files before your AI trusts them. Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "sendu",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Sendu"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/sendu",
-    "Drop files easily across your local network Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "datashake mcp",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Datashake MCP"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/datashake-hub",
-    "Plug review and social data straight into your AI assistant Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "pasteguard for mac",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: PasteGuard for Mac"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/pasteguard-2",
-    "Keep secrets and personal data out of AI chats Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "kairos",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Kairos"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://github.com/finic-ai/kairos",
-    "Show HN: Kairos – Open-source risk and fraud decisioning platform"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "hackerchurn",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: HackerChurn"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://hissingkitty.com/hacker-churn",
-    "Show HN: HackerChurn – which SaaS tools HN wants to cancel"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "hy4",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "OpenRouter 新上架"
-   ],
-   "examples": [
-    "OpenRouter: Hy4"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://openrouter.ai/tencent/hy4",
-    "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-hor"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "crouton alpha",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "OpenRouter 新上架"
-   ],
-   "examples": [
-    "OpenRouter: Crouton Alpha"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://openrouter.ai/stealth/crouton-alpha",
-    "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated "
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "country filter for x",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Country Filter for X"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/country-filter-for-x-2",
-    "Hide posts from chosen countries in your X For You feed Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "uncracked city, detective game where you question llm suspects that lie",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Uncracked City, detective game where you question LLM suspects that lie"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://uncracked.city",
-    "Show HN: Uncracked City, detective game where you question LLM suspects that lie"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "pywolf3d, a wolfenstein3d clone written from scratch in python",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: PyWolf3D, a wolfenstein3D clone written from scratch in Python"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://github.com/atifcodesalot/pyWolf3D",
-    "Show HN: PyWolf3D, a wolfenstein3D clone written from scratch in Python"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "smart cleaner: free up storage",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: Smart Cleaner: Free Up Storage"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/smart-cleaner-free-up-storage/id6448222268?uo=2",
-    "LET'S MAKE SPACE: CLEANING YOUR PHONE'S STORAGE HAS NEVER BEEN SMARTER! Smart Cleaner isn't just an app; it's a solution that turns storage cleanup into a quick, fun, and secure task. FAST & DEEP CLEA"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "chatbot app: ai assistant",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: Chatbot App: AI Assistant"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/chatbot-app-ai-assistant/id6711347033?uo=2",
-    "Chatbot App brings advanced AI models together in one intuitive app for writing, learning, coding, creativity, and productivity. Built on OpenAI GPT-6, Google Gemini 3.8 Flash, Anthropic Claude Fable "
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.6
-  },
-  {
-   "term": "tv remote control · universal",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: TV Remote Control · Universal"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/tv-remote-control-universal/id6757016336?uo=2",
-    "Introducing TV Remote Control · Universal – the simplest and fastest way to control your TV directly from your iPhone. Turn your phone into a smart, reliable TV remote you can use anytime, anywhere. •"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.6
-  },
-  {
-   "term": "90x",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥503"
-   ],
-   "examples": [
-    "@MistralAI: Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We teste"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "MistralAI",
-     "text": "Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We tested it on a recent Django CVE. 133 agents map the code, hunt for flaws, test attack scenarios and confirm the bug. Then Le Chonk patches it. Triage, repro, patch. Shown at 90x speed. https://t.co/NTtZvTQE38",
-     "url": "https://x.com/MistralAI/status/2117925908572991748",
-     "likes": 503
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "django cve",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥503"
-   ],
-   "examples": [
-    "@MistralAI: Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We teste"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "MistralAI",
-     "text": "Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We tested it on a recent Django CVE. 133 agents map the code, hunt for flaws, test attack scenarios and confirm the bug. Then Le Chonk patches it. Triage, repro, patch. Shown at 90x speed. https://t.co/NTtZvTQE38",
-     "url": "https://x.com/MistralAI/status/2117925908572991748",
-     "likes": 503
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "skills",
-   "kinds": [
-    "breakout"
-   ],
-   "signals": [
-    "GitHub 爆发 benjitaylor/skills ★1745(均 187/天,一天 +564)"
-   ],
-   "examples": [
-    "benjitaylor/skills: Skills for AI coding agents."
-   ],
-   "variants": [
-    "skills",
-    "benjitaylor skills",
-    "benji skills"
-   ],
-   "posts": [],
-   "repo": "benjitaylor/skills",
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.4
-  },
-  {
-   "term": "art search",
+   "term": "connectors io.github.allooloo",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 8 处 (×7.9)"
+    "③ 竞品 4 处 (×3.9)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "connectors com.metaintro",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 3 处 (×3.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "com.printags",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 3 处 (×3.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "connectors com.printags",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 3 处 (×3.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "connectors io.github.youtube",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 3 处 (×3.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "wallpics - live wallpapers 4k",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: WallPics - Live Wallpapers 4K"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/wallpics-live-wallpapers-4k/id6446832902?uo=2",
+    "Transform your iPhone into a personal masterpiece with Wallpics, the ultimate destination for stunning live wallpapers, DIY wallpaper maker, charging animations, photo widgets, and true 4K quality bac"
+   ],
+   "known": "",
+   "format": "video",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "cardash: video player for cars",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: CarDash: Video Player for Cars"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/cardash-video-player-for-cars/id6797764175?uo=2",
+    "Watch your videos while parked. Score your drives. Review where you have been. CarDash brings Cast, Drive, Widgets and Sounds together in one app. Play your own media on compatible CarPlay displays, r"
+   ],
+   "known": "",
+   "format": "video",
+   "one_click": null,
+   "named": 0.8
+  },
+  {
+   "term": "photo recovery: deleted files",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: Photo Recovery: Deleted Files"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/photo-recovery-deleted-files/id1482562954?uo=2",
+    "Ever lost a treasured photo, a memory so precious you believed it was gone forever? Welcome to a world where such nightmares are no more – introducing ‘Photo Recovery’. Whether you’re a professional p"
+   ],
    "known": "",
    "format": "image",
    "one_click": null,
+   "named": 0.7
+  },
+  {
+   "term": "zerg client",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Zerg Client"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/zerg",
+    "The coding agent harness that drives its own terminal panes Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "living brain",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Living Brain"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/chatandbuild",
+    "Interoperable, efficient memory layer for agentic AI Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "glasshand",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Glasshand"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/glasshand",
+    "Give your agent a real iPhone and Mac Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "cc auto review",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: CC Auto Review"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/cc-auto-review",
+    "macOS app that reviews GitHub PRs w/ your local Claude Code Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "seamcult",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Seamcult"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/seamcult",
+    "A pattern design tool for the LLM era ('paper' for patterns) Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "rerun",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Rerun"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/rerun-2",
+    "Turn your AI subscriptions into a team of coworkers Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "pushary for teams",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Pushary for Teams"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/pushary",
+    "See who said yes to your team’s AI agents Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "stitch.ai",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Stitch.ai"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/stitch-ai",
+    "Your AI workspace for mail, calendar, notes, tasks and more Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "textkit",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: TextKit"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/textkit-2",
+    "Send + receive texts in the US and Canada with a simple API Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "paws",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Paws"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/paws",
+    "Meet strangers through their cats, behind frosted glass Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "codemap",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: Codemap"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://github.com/peterretief/codemap",
+    "Show HN: Codemap – one-page interactive map of any Go repository"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "gauge",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: Gauge"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://github.com/gauge-sh/gauge-cli",
+    "Show HN: Gauge – Open-Source CLI to recursively improve your docs"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "ricursiveai/ripple-65b-preview",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "OpenRouter 新上架"
+   ],
+   "examples": [
+    "OpenRouter: ricursiveAI/Ripple-65B-Preview"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://openrouter.ai/ricursiveai/ripple-65b-preview",
+    "Ripple-65B-Preview by ricursiveAI, a 65B model with native tool calling, served in BF16."
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "auto code",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "OpenRouter 新上架"
+   ],
+   "examples": [
+    "OpenRouter: Auto Code"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://openrouter.ai/openrouter/auto-code",
+    "Auto Code is OpenRouter’s router built specifically for coding agents and harnesses. It uses the same routing engine as the [Auto Router](https://openrouter.ai/openrouter/auto), with every request tre"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.9
+  },
+  {
+   "term": "same on frontiercode",
+   "kinds": [
+    "x"
+   ],
+   "signals": [
+    "X 1 个账号 ♥159"
+   ],
+   "examples": [
+    "@swyx: uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2 this is distill"
+   ],
+   "variants": [],
+   "posts": [
+    {
+     "account": "swyx",
+     "text": "uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2 this is distillation without tradeoffs. i think @thinkymachines inkling is one of the most underrated base models in the world. expect to see a TON more of these esp on US pretrained models",
+     "url": "https://x.com/swyx/status/2118208851506036989",
+     "likes": 159
+    }
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
    "named": 0.1
   },
   {
-   "term": "com.agentfirststack",
+   "term": "on frontiercode 2",
    "kinds": [
-    "sitemap"
+    "x"
    ],
    "signals": [
-    "③ 竞品 5 处 (×5.0)"
+    "X 1 个账号 ♥159"
    ],
-   "examples": [],
+   "examples": [
+    "@swyx: uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2 this is distill"
+   ],
    "variants": [],
-   "posts": [],
+   "posts": [
+    {
+     "account": "swyx",
+     "text": "uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2 this is distillation without tradeoffs. i think @thinkymachines inkling is one of the most underrated base models in the world. expect to see a TON more of these esp on US pretrained models",
+     "url": "https://x.com/swyx/status/2118208851506036989",
+     "likes": 159
+    }
+   ],
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.4
+   "named": 0.1
   },
   {
-   "term": "l50",
+   "term": "on frontiercode",
+   "kinds": [
+    "x"
+   ],
+   "signals": [
+    "X 1 个账号 ♥159"
+   ],
+   "examples": [
+    "@swyx: uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2 this is distill"
+   ],
+   "variants": [],
+   "posts": [
+    {
+     "account": "swyx",
+     "text": "uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2 this is distillation without tradeoffs. i think @thinkymachines inkling is one of the most underrated base models in the world. expect to see a TON more of these esp on US pretrained models",
+     "url": "https://x.com/swyx/status/2118208851506036989",
+     "likes": 159
+    }
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.1
+  },
+  {
+   "term": "l05",
+   "kinds": [
+    "x"
+   ],
+   "signals": [
+    "X 1 个账号 ♥142"
+   ],
+   "examples": [
+    "@dotey: 40 年前在人体细胞里发现的巨型蛋白“桶”，至今没人知道它干什么用。Anthropic 用 Claude 在细菌里找到了它的同类 科学家 40 年前就在我们的细"
+   ],
+   "variants": [],
+   "posts": [
+    {
+     "account": "dotey",
+     "text": "40 年前在人体细胞里发现的巨型蛋白“桶”，至今没人知道它干什么用。Anthropic 用 Claude 在细菌里找到了它的同类 科学家 40 年前就在我们的细胞里发现了一种巨大的空心蛋白“桶”，叫穹窿体（vault），到现在还不知道它是干什么的。 Anthropic 生物研究团队 11 月 4 日发文，介绍他们用 Claude 研究穹窿体的进展： • 第一次证明细菌和噬菌体（专门感染细菌的病毒）里的同类蛋白也能拼成穹窿体 • 分离这些颗粒的实验从约 3 天缩到 90 分钟 • 解出其中一个的 3D 结构，34 小时出第一版模型 细菌长得快、好操作，在细菌里研究穹窿体，科学家更有希望弄清它的用途，将来还可能把它改造成运送酶的纳米胶囊。 【穹窿体是什么，为什么值得找】 穹窿体是一种空心的蛋白质“桶”，人体几乎每个细胞里都有，是已知最大的细胞内分子结构之一。1986 年 Leonard Rome 和 Nancy Kedersha 在电子显微镜下发现它，觉得它带肋条的外壳像教堂的拱顶，就起了这个名字。 科学家猜过它负责运输分子、帮细胞抵抗抗癌药这类毒物、参与免疫，都没被证实。天生缺穹窿体的小鼠也照样正常活着。 难研究的一个原因是，生物学家最常用的实验生物，酵母、果蝇、线虫，恰好都没有穹窿体。以前只在动物、植物这类复杂生物里见过完整的穹窿体。细菌里找到过相似的蛋白，但没人证明它们真能拼成桶。 这条路以前走通过：人类的好几种免疫机制，就是先在细菌里找到“远亲”，才弄清了来源。 【Claude 干了什么，快了多少】 整个项目用了不到 4 个月。团队成员以前没做过这么大的蛋白质组装体，结构生物学经验也有限。分工是研究员拿主意，Claude 执行并提建议。 第一步，找亲戚。Claude 在约 150 亿条预测蛋白序列里搜穹窿体蛋白的同类，发现它们分布很广，出现在 29 个细菌门和 4 个古菌门里，但很稀少，在有基因组测序的物种里不到 1%。 第二步，把蛋白造出来。研究员挑了 44 个候选，Claude 把每个蛋白序列转成适合宿主细胞的 DNA 设计，加好控制开关，准备好下单。最后有 15 种在大肠杆菌里产出了可用的蛋白。 第三步，把颗粒分离出来。传统方法要约 3 天。团队想改用一种按颗粒大小筛分的柱子，Claude 一开始反对，理由是折叠坏掉的蛋白团块会和穹窿体一起流出来。 团队坚持要试，Claude 就推荐了具体的柱子和检验办法。接着 Claude 提议，把细胞破碎后的“原汤”不经提纯直接倒进柱子。 研究员起初犹豫，因为这种柱子很贵，原汤可能把它堵住或污染，结果试成了。从细胞到电镜样品，时间缩到约 90 分钟。15 种蛋白里有 7 种拼成了像穹窿体的颗粒，冷冻电镜确认了其中 4 种，2 种来自噬菌体，2 种来自细菌。 第四步，解结构。冷冻电镜是把大量颗粒速冻，用电子束拍照，再把成千上万张照片合成一个 3D 模型。这一步人工通常要几周到几个月，靠专业软件一点点调。 这次 Claude 在 Anthropic 内部的多 agent 系统里自己装好开源软件 RELION，跑完每一步，研究员只在关键的分析决策上给意见。 34 小时出了第一版完整模型，开始处理后约一周出了最终结果。推文里说的“几周到几个月缩到几天”，指的就是这一步。 【发现了什么】 解出结构的是一种噬菌体蛋白，团队叫它 L05。噬菌体借细菌的身体造蛋白，所以这个桶是在细菌细胞里组装的。 它由 96 个相同的蛋白拼成，上下两半各 48 个，人的穹窿体是 78 个。它更矮更胖，长约 54 纳米、宽约 45 纳米（人的是 67 和 40），内部空间反而大了约 25%。这是在细菌这类简单生物里找到的最大蛋白质外壳之一。 团队还做了两组改造。改动蛋白之间的接触点，有的只改一处，桶就封不上口，变成敞开的花环状。把蛋白里重复 7 次的那段“墙砖”多复制两段，变成和人一样的 9 段，桶就变得更大，内部空间又多了约 20%。这说明穹窿体可能是靠复制自己的墙砖在进化中变大的，将来也可以改造成运送酶的纳米胶囊。 功能还是没找到，但有一条线索：每个蛋白的一个小口袋里都卡着一个认不出来的小分子。Claude 发现它的形状像辅酶 A，一种细胞用来搬运化学基团的常见“帮手分子”。如果真是它，就是关于功能的第一个提示。 发现者之一的 Rome 是这个项目的顾问。他看过结构后说，弄清穹窿体的功能仍然极其困难，这次发现的范围这么广，说明它的功能可能很复杂。 【Claude 犯了什么错，怎么改的】 文章列了两个错。一个是 Claude 写的实验方案里，培养基加了一种会妨碍把 DNA 送进细胞的添加剂，项目因此倒退两周。另一个发生在冷冻电镜处理早期，Claude 跳过了一个标准步骤，做出的 3D 图把结构和它的镜像混在了一起，就像左手和右手的照片叠成一张。研究员让它别再即兴发挥，原话是“除非常规做法不管用，否则我们就按常规来”。 团队把实验记录交给训练 Claude 的机器学习研究员，让他们看模型错在哪里，用来调整 Claude 学习的数据。研究员说，项目期间新模型陆续上线，Claude 设计 DNA 的错误看起来少了，也更会提前指出实验里的坑。在团队熟悉的领域，错误很快被发现；在不熟的领域，错误就要花更多时间才找得到。团队的结论是利远大于弊。 【普通实验室能照着做吗】 Anthropic 说，这次的大部分工作，一般实验室用现有的 Claude 产品就能做。唯一的例外是冷冻电镜分析，这次为了省时间用了几百块 GPU 并行，超出一般高校的算力条件。 这些穹窿体目前只在大肠杆菌里造出来过，在它们原本所在的细菌和噬菌体里会不会形成，还没验证。论文是预印本，已投 bioRxiv，还没经过同行评审。Rome 拿 Anthropic 的顾问费。 原文：https://t.co/9y7HDslIQq 预印本：https://t.co/U7JswXqrn0 https://t.co/ARxvUMnzhL",
+     "url": "https://x.com/dotey/status/2118243086589476995",
+     "likes": 142
+    }
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.1
+  },
+  {
+   "term": "council csoai",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 7 处 (×7.0)"
+    "③ 竞品 7 处 (×6.9)"
    ],
    "examples": [],
    "variants": [],
@@ -942,12 +832,12 @@
    "named": 0.3
   },
   {
-   "term": "technologies llc",
+   "term": "org csoai",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 7 处 (×5.0)"
+    "③ 竞品 6 处 (×5.4)"
    ],
    "examples": [],
    "variants": [],
@@ -958,12 +848,12 @@
    "named": 0.3
   },
   {
-   "term": "connectors com.agentfirststack",
+   "term": "santiagotoscanini",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 5 处 (×5.0)"
+    "③ 竞品 4 处 (×4.0)"
    ],
    "examples": [],
    "variants": [],
@@ -974,44 +864,12 @@
    "named": 0.3
   },
   {
-   "term": "dev.workers.manhliemcn4euwlu.llmrt",
+   "term": "scraper",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 5 处 (×5.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "connectors dev.workers.manhliemcn4euwlu.llmrt",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 5 处 (×5.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "corp",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 60 处 (×14.3)"
+    "③ 竞品 7 处 (×3.1)"
    ],
    "examples": [],
    "variants": [],
@@ -1022,12 +880,12 @@
    "named": 0.1
   },
   {
-   "term": "cloud",
+   "term": "downloader",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 63 处 (×6.2)"
+    "③ 竞品 4 处 (×3.1)"
    ],
    "examples": [],
    "variants": [],
@@ -1036,22 +894,6 @@
    "format": "text",
    "one_click": null,
    "named": 0.1
-  },
-  {
-   "term": "sites",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 691 处 (×573.1)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.0
   },
   {
    "term": "records",
@@ -1059,7 +901,7 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 59 处 (×14.8)"
+    "③ 竞品 33 处 (×11.4)"
    ],
    "examples": [],
    "variants": [],
@@ -1070,7 +912,87 @@
    "named": 0.0
   },
   {
-   "term": "interactive notes on rlhf, attention, lora and llm evals",
+   "term": "corp",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 34 处 (×11.2)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.0
+  },
+  {
+   "term": "shop",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 11 处 (×6.8)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.0
+  },
+  {
+   "term": "cloud",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 39 处 (×6.3)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.0
+  },
+  {
+   "term": "jobs",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 9 处 (×3.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.0
+  },
+  {
+   "term": "life",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 4 处 (×3.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.0
+  },
+  {
+   "term": "after a decade of reversing, i got co-op working in dos wing commander",
    "kinds": [
     "feed"
    ],
@@ -1078,66 +1000,168 @@
     "Show HN 新上架"
    ],
    "examples": [
-    "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals"
+    "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://concepts.laxmena.com/",
-    "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals"
+    "https://fireflyk64.github.io/wcmulti/",
+    "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander"
    ],
    "known": "",
    "format": "text",
    "one_click": null,
-   "named": 0.4
+   "named": 0.0
+  },
+  {
+   "term": "i built a tool that prices a pre-built pc part by part",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: I built a tool that prices a pre-built PC part by part"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://pcdealcheck.com/",
+    "Show HN: I built a tool that prices a pre-built PC part by part"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null,
+   "named": 0.0
   }
  ],
  "x": {
   "accounts": 35,
   "answered": 35,
-  "posts": 657,
-  "cost_micros": 98850,
+  "posts": 660,
+  "cost_micros": 99300,
   "first_run": false,
   "terms": [
    {
-    "term": "django cve",
+    "term": "same on frontiercode",
     "sources": [
-     "MistralAI"
+     "swyx"
     ],
-    "likes": 503,
+    "likes": 159,
     "examples": [
-     "@MistralAI: Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We teste"
+     "@swyx: uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2 this is distill"
     ],
     "posts": [
      {
-      "account": "MistralAI",
-      "text": "Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We tested it on a recent Django CVE. 133 agents map the code, hunt for flaws, test attack scenarios and confirm the bug. Then Le Chonk patches it. Triage, repro, patch. Shown at 90x speed. https://t.co/NTtZvTQE38",
-      "url": "https://x.com/MistralAI/status/2117925908572991748",
-      "likes": 503
+      "account": "swyx",
+      "text": "uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2 this is distillation without tradeoffs. i think @thinkymachines inkling is one of the most underrated base models in the world. expect to see a TON more of these esp on US pretrained models",
+      "url": "https://x.com/swyx/status/2118208851506036989",
+      "likes": 159
      }
     ],
     "recent": 1,
-    "note": "X 1 个账号 ♥503"
+    "note": "X 1 个账号 ♥159"
    },
    {
-    "term": "90x",
+    "term": "on frontiercode 2",
     "sources": [
-     "MistralAI"
+     "swyx"
     ],
-    "likes": 503,
+    "likes": 159,
     "examples": [
-     "@MistralAI: Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We teste"
+     "@swyx: uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2 this is distill"
     ],
     "posts": [
      {
-      "account": "MistralAI",
-      "text": "Can Mistral Large 4 find a critical vulnerability, prove it and fix it? We tested it on a recent Django CVE. 133 agents map the code, hunt for flaws, test attack scenarios and confirm the bug. Then Le Chonk patches it. Triage, repro, patch. Shown at 90x speed. https://t.co/NTtZvTQE38",
-      "url": "https://x.com/MistralAI/status/2117925908572991748",
-      "likes": 503
+      "account": "swyx",
+      "text": "uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2 this is distillation without tradeoffs. i think @thinkymachines inkling is one of the most underrated base models in the world. expect to see a TON more of these esp on US pretrained models",
+      "url": "https://x.com/swyx/status/2118208851506036989",
+      "likes": 159
      }
     ],
     "recent": 1,
-    "note": "X 1 个账号 ♥503"
+    "note": "X 1 个账号 ♥159"
+   },
+   {
+    "term": "on frontiercode",
+    "sources": [
+     "swyx"
+    ],
+    "likes": 159,
+    "examples": [
+     "@swyx: uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2 this is distill"
+    ],
+    "posts": [
+     {
+      "account": "swyx",
+      "text": "uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2 this is distillation without tradeoffs. i think @thinkymachines inkling is one of the most underrated base models in the world. expect to see a TON more of these esp on US pretrained models",
+      "url": "https://x.com/swyx/status/2118208851506036989",
+      "likes": 159
+     }
+    ],
+    "recent": 1,
+    "note": "X 1 个账号 ♥159"
+   },
+   {
+    "term": "biorxiv",
+    "sources": [
+     "dotey"
+    ],
+    "likes": 142,
+    "examples": [
+     "@dotey: 40 年前在人体细胞里发现的巨型蛋白“桶”，至今没人知道它干什么用。Anthropic 用 Claude 在细菌里找到了它的同类 科学家 40 年前就在我们的细"
+    ],
+    "posts": [
+     {
+      "account": "dotey",
+      "text": "40 年前在人体细胞里发现的巨型蛋白“桶”，至今没人知道它干什么用。Anthropic 用 Claude 在细菌里找到了它的同类 科学家 40 年前就在我们的细胞里发现了一种巨大的空心蛋白“桶”，叫穹窿体（vault），到现在还不知道它是干什么的。 Anthropic 生物研究团队 11 月 4 日发文，介绍他们用 Claude 研究穹窿体的进展： • 第一次证明细菌和噬菌体（专门感染细菌的病毒）里的同类蛋白也能拼成穹窿体 • 分离这些颗粒的实验从约 3 天缩到 90 分钟 • 解出其中一个的 3D 结构，34 小时出第一版模型 细菌长得快、好操作，在细菌里研究穹窿体，科学家更有希望弄清它的用途，将来还可能把它改造成运送酶的纳米胶囊。 【穹窿体是什么，为什么值得找】 穹窿体是一种空心的蛋白质“桶”，人体几乎每个细胞里都有，是已知最大的细胞内分子结构之一。1986 年 Leonard Rome 和 Nancy Kedersha 在电子显微镜下发现它，觉得它带肋条的外壳像教堂的拱顶，就起了这个名字。 科学家猜过它负责运输分子、帮细胞抵抗抗癌药这类毒物、参与免疫，都没被证实。天生缺穹窿体的小鼠也照样正常活着。 难研究的一个原因是，生物学家最常用的实验生物，酵母、果蝇、线虫，恰好都没有穹窿体。以前只在动物、植物这类复杂生物里见过完整的穹窿体。细菌里找到过相似的蛋白，但没人证明它们真能拼成桶。 这条路以前走通过：人类的好几种免疫机制，就是先在细菌里找到“远亲”，才弄清了来源。 【Claude 干了什么，快了多少】 整个项目用了不到 4 个月。团队成员以前没做过这么大的蛋白质组装体，结构生物学经验也有限。分工是研究员拿主意，Claude 执行并提建议。 第一步，找亲戚。Claude 在约 150 亿条预测蛋白序列里搜穹窿体蛋白的同类，发现它们分布很广，出现在 29 个细菌门和 4 个古菌门里，但很稀少，在有基因组测序的物种里不到 1%。 第二步，把蛋白造出来。研究员挑了 44 个候选，Claude 把每个蛋白序列转成适合宿主细胞的 DNA 设计，加好控制开关，准备好下单。最后有 15 种在大肠杆菌里产出了可用的蛋白。 第三步，把颗粒分离出来。传统方法要约 3 天。团队想改用一种按颗粒大小筛分的柱子，Claude 一开始反对，理由是折叠坏掉的蛋白团块会和穹窿体一起流出来。 团队坚持要试，Claude 就推荐了具体的柱子和检验办法。接着 Claude 提议，把细胞破碎后的“原汤”不经提纯直接倒进柱子。 研究员起初犹豫，因为这种柱子很贵，原汤可能把它堵住或污染，结果试成了。从细胞到电镜样品，时间缩到约 90 分钟。15 种蛋白里有 7 种拼成了像穹窿体的颗粒，冷冻电镜确认了其中 4 种，2 种来自噬菌体，2 种来自细菌。 第四步，解结构。冷冻电镜是把大量颗粒速冻，用电子束拍照，再把成千上万张照片合成一个 3D 模型。这一步人工通常要几周到几个月，靠专业软件一点点调。 这次 Claude 在 Anthropic 内部的多 agent 系统里自己装好开源软件 RELION，跑完每一步，研究员只在关键的分析决策上给意见。 34 小时出了第一版完整模型，开始处理后约一周出了最终结果。推文里说的“几周到几个月缩到几天”，指的就是这一步。 【发现了什么】 解出结构的是一种噬菌体蛋白，团队叫它 L05。噬菌体借细菌的身体造蛋白，所以这个桶是在细菌细胞里组装的。 它由 96 个相同的蛋白拼成，上下两半各 48 个，人的穹窿体是 78 个。它更矮更胖，长约 54 纳米、宽约 45 纳米（人的是 67 和 40），内部空间反而大了约 25%。这是在细菌这类简单生物里找到的最大蛋白质外壳之一。 团队还做了两组改造。改动蛋白之间的接触点，有的只改一处，桶就封不上口，变成敞开的花环状。把蛋白里重复 7 次的那段“墙砖”多复制两段，变成和人一样的 9 段，桶就变得更大，内部空间又多了约 20%。这说明穹窿体可能是靠复制自己的墙砖在进化中变大的，将来也可以改造成运送酶的纳米胶囊。 功能还是没找到，但有一条线索：每个蛋白的一个小口袋里都卡着一个认不出来的小分子。Claude 发现它的形状像辅酶 A，一种细胞用来搬运化学基团的常见“帮手分子”。如果真是它，就是关于功能的第一个提示。 发现者之一的 Rome 是这个项目的顾问。他看过结构后说，弄清穹窿体的功能仍然极其困难，这次发现的范围这么广，说明它的功能可能很复杂。 【Claude 犯了什么错，怎么改的】 文章列了两个错。一个是 Claude 写的实验方案里，培养基加了一种会妨碍把 DNA 送进细胞的添加剂，项目因此倒退两周。另一个发生在冷冻电镜处理早期，Claude 跳过了一个标准步骤，做出的 3D 图把结构和它的镜像混在了一起，就像左手和右手的照片叠成一张。研究员让它别再即兴发挥，原话是“除非常规做法不管用，否则我们就按常规来”。 团队把实验记录交给训练 Claude 的机器学习研究员，让他们看模型错在哪里，用来调整 Claude 学习的数据。研究员说，项目期间新模型陆续上线，Claude 设计 DNA 的错误看起来少了，也更会提前指出实验里的坑。在团队熟悉的领域，错误很快被发现；在不熟的领域，错误就要花更多时间才找得到。团队的结论是利远大于弊。 【普通实验室能照着做吗】 Anthropic 说，这次的大部分工作，一般实验室用现有的 Claude 产品就能做。唯一的例外是冷冻电镜分析，这次为了省时间用了几百块 GPU 并行，超出一般高校的算力条件。 这些穹窿体目前只在大肠杆菌里造出来过，在它们原本所在的细菌和噬菌体里会不会形成，还没验证。论文是预印本，已投 bioRxiv，还没经过同行评审。Rome 拿 Anthropic 的顾问费。 原文：https://t.co/9y7HDslIQq 预印本：https://t.co/U7JswXqrn0 https://t.co/ARxvUMnzhL",
+      "url": "https://x.com/dotey/status/2118243086589476995",
+      "likes": 142
+     }
+    ],
+    "recent": 1,
+    "note": "X 1 个账号 ♥142"
+   },
+   {
+    "term": "relion",
+    "sources": [
+     "dotey"
+    ],
+    "likes": 142,
+    "examples": [
+     "@dotey: 40 年前在人体细胞里发现的巨型蛋白“桶”，至今没人知道它干什么用。Anthropic 用 Claude 在细菌里找到了它的同类 科学家 40 年前就在我们的细"
+    ],
+    "posts": [
+     {
+      "account": "dotey",
+      "text": "40 年前在人体细胞里发现的巨型蛋白“桶”，至今没人知道它干什么用。Anthropic 用 Claude 在细菌里找到了它的同类 科学家 40 年前就在我们的细胞里发现了一种巨大的空心蛋白“桶”，叫穹窿体（vault），到现在还不知道它是干什么的。 Anthropic 生物研究团队 11 月 4 日发文，介绍他们用 Claude 研究穹窿体的进展： • 第一次证明细菌和噬菌体（专门感染细菌的病毒）里的同类蛋白也能拼成穹窿体 • 分离这些颗粒的实验从约 3 天缩到 90 分钟 • 解出其中一个的 3D 结构，34 小时出第一版模型 细菌长得快、好操作，在细菌里研究穹窿体，科学家更有希望弄清它的用途，将来还可能把它改造成运送酶的纳米胶囊。 【穹窿体是什么，为什么值得找】 穹窿体是一种空心的蛋白质“桶”，人体几乎每个细胞里都有，是已知最大的细胞内分子结构之一。1986 年 Leonard Rome 和 Nancy Kedersha 在电子显微镜下发现它，觉得它带肋条的外壳像教堂的拱顶，就起了这个名字。 科学家猜过它负责运输分子、帮细胞抵抗抗癌药这类毒物、参与免疫，都没被证实。天生缺穹窿体的小鼠也照样正常活着。 难研究的一个原因是，生物学家最常用的实验生物，酵母、果蝇、线虫，恰好都没有穹窿体。以前只在动物、植物这类复杂生物里见过完整的穹窿体。细菌里找到过相似的蛋白，但没人证明它们真能拼成桶。 这条路以前走通过：人类的好几种免疫机制，就是先在细菌里找到“远亲”，才弄清了来源。 【Claude 干了什么，快了多少】 整个项目用了不到 4 个月。团队成员以前没做过这么大的蛋白质组装体，结构生物学经验也有限。分工是研究员拿主意，Claude 执行并提建议。 第一步，找亲戚。Claude 在约 150 亿条预测蛋白序列里搜穹窿体蛋白的同类，发现它们分布很广，出现在 29 个细菌门和 4 个古菌门里，但很稀少，在有基因组测序的物种里不到 1%。 第二步，把蛋白造出来。研究员挑了 44 个候选，Claude 把每个蛋白序列转成适合宿主细胞的 DNA 设计，加好控制开关，准备好下单。最后有 15 种在大肠杆菌里产出了可用的蛋白。 第三步，把颗粒分离出来。传统方法要约 3 天。团队想改用一种按颗粒大小筛分的柱子，Claude 一开始反对，理由是折叠坏掉的蛋白团块会和穹窿体一起流出来。 团队坚持要试，Claude 就推荐了具体的柱子和检验办法。接着 Claude 提议，把细胞破碎后的“原汤”不经提纯直接倒进柱子。 研究员起初犹豫，因为这种柱子很贵，原汤可能把它堵住或污染，结果试成了。从细胞到电镜样品，时间缩到约 90 分钟。15 种蛋白里有 7 种拼成了像穹窿体的颗粒，冷冻电镜确认了其中 4 种，2 种来自噬菌体，2 种来自细菌。 第四步，解结构。冷冻电镜是把大量颗粒速冻，用电子束拍照，再把成千上万张照片合成一个 3D 模型。这一步人工通常要几周到几个月，靠专业软件一点点调。 这次 Claude 在 Anthropic 内部的多 agent 系统里自己装好开源软件 RELION，跑完每一步，研究员只在关键的分析决策上给意见。 34 小时出了第一版完整模型，开始处理后约一周出了最终结果。推文里说的“几周到几个月缩到几天”，指的就是这一步。 【发现了什么】 解出结构的是一种噬菌体蛋白，团队叫它 L05。噬菌体借细菌的身体造蛋白，所以这个桶是在细菌细胞里组装的。 它由 96 个相同的蛋白拼成，上下两半各 48 个，人的穹窿体是 78 个。它更矮更胖，长约 54 纳米、宽约 45 纳米（人的是 67 和 40），内部空间反而大了约 25%。这是在细菌这类简单生物里找到的最大蛋白质外壳之一。 团队还做了两组改造。改动蛋白之间的接触点，有的只改一处，桶就封不上口，变成敞开的花环状。把蛋白里重复 7 次的那段“墙砖”多复制两段，变成和人一样的 9 段，桶就变得更大，内部空间又多了约 20%。这说明穹窿体可能是靠复制自己的墙砖在进化中变大的，将来也可以改造成运送酶的纳米胶囊。 功能还是没找到，但有一条线索：每个蛋白的一个小口袋里都卡着一个认不出来的小分子。Claude 发现它的形状像辅酶 A，一种细胞用来搬运化学基团的常见“帮手分子”。如果真是它，就是关于功能的第一个提示。 发现者之一的 Rome 是这个项目的顾问。他看过结构后说，弄清穹窿体的功能仍然极其困难，这次发现的范围这么广，说明它的功能可能很复杂。 【Claude 犯了什么错，怎么改的】 文章列了两个错。一个是 Claude 写的实验方案里，培养基加了一种会妨碍把 DNA 送进细胞的添加剂，项目因此倒退两周。另一个发生在冷冻电镜处理早期，Claude 跳过了一个标准步骤，做出的 3D 图把结构和它的镜像混在了一起，就像左手和右手的照片叠成一张。研究员让它别再即兴发挥，原话是“除非常规做法不管用，否则我们就按常规来”。 团队把实验记录交给训练 Claude 的机器学习研究员，让他们看模型错在哪里，用来调整 Claude 学习的数据。研究员说，项目期间新模型陆续上线，Claude 设计 DNA 的错误看起来少了，也更会提前指出实验里的坑。在团队熟悉的领域，错误很快被发现；在不熟的领域，错误就要花更多时间才找得到。团队的结论是利远大于弊。 【普通实验室能照着做吗】 Anthropic 说，这次的大部分工作，一般实验室用现有的 Claude 产品就能做。唯一的例外是冷冻电镜分析，这次为了省时间用了几百块 GPU 并行，超出一般高校的算力条件。 这些穹窿体目前只在大肠杆菌里造出来过，在它们原本所在的细菌和噬菌体里会不会形成，还没验证。论文是预印本，已投 bioRxiv，还没经过同行评审。Rome 拿 Anthropic 的顾问费。 原文：https://t.co/9y7HDslIQq 预印本：https://t.co/U7JswXqrn0 https://t.co/ARxvUMnzhL",
+      "url": "https://x.com/dotey/status/2118243086589476995",
+      "likes": 142
+     }
+    ],
+    "recent": 1,
+    "note": "X 1 个账号 ♥142"
+   },
+   {
+    "term": "l05",
+    "sources": [
+     "dotey"
+    ],
+    "likes": 142,
+    "examples": [
+     "@dotey: 40 年前在人体细胞里发现的巨型蛋白“桶”，至今没人知道它干什么用。Anthropic 用 Claude 在细菌里找到了它的同类 科学家 40 年前就在我们的细"
+    ],
+    "posts": [
+     {
+      "account": "dotey",
+      "text": "40 年前在人体细胞里发现的巨型蛋白“桶”，至今没人知道它干什么用。Anthropic 用 Claude 在细菌里找到了它的同类 科学家 40 年前就在我们的细胞里发现了一种巨大的空心蛋白“桶”，叫穹窿体（vault），到现在还不知道它是干什么的。 Anthropic 生物研究团队 11 月 4 日发文，介绍他们用 Claude 研究穹窿体的进展： • 第一次证明细菌和噬菌体（专门感染细菌的病毒）里的同类蛋白也能拼成穹窿体 • 分离这些颗粒的实验从约 3 天缩到 90 分钟 • 解出其中一个的 3D 结构，34 小时出第一版模型 细菌长得快、好操作，在细菌里研究穹窿体，科学家更有希望弄清它的用途，将来还可能把它改造成运送酶的纳米胶囊。 【穹窿体是什么，为什么值得找】 穹窿体是一种空心的蛋白质“桶”，人体几乎每个细胞里都有，是已知最大的细胞内分子结构之一。1986 年 Leonard Rome 和 Nancy Kedersha 在电子显微镜下发现它，觉得它带肋条的外壳像教堂的拱顶，就起了这个名字。 科学家猜过它负责运输分子、帮细胞抵抗抗癌药这类毒物、参与免疫，都没被证实。天生缺穹窿体的小鼠也照样正常活着。 难研究的一个原因是，生物学家最常用的实验生物，酵母、果蝇、线虫，恰好都没有穹窿体。以前只在动物、植物这类复杂生物里见过完整的穹窿体。细菌里找到过相似的蛋白，但没人证明它们真能拼成桶。 这条路以前走通过：人类的好几种免疫机制，就是先在细菌里找到“远亲”，才弄清了来源。 【Claude 干了什么，快了多少】 整个项目用了不到 4 个月。团队成员以前没做过这么大的蛋白质组装体，结构生物学经验也有限。分工是研究员拿主意，Claude 执行并提建议。 第一步，找亲戚。Claude 在约 150 亿条预测蛋白序列里搜穹窿体蛋白的同类，发现它们分布很广，出现在 29 个细菌门和 4 个古菌门里，但很稀少，在有基因组测序的物种里不到 1%。 第二步，把蛋白造出来。研究员挑了 44 个候选，Claude 把每个蛋白序列转成适合宿主细胞的 DNA 设计，加好控制开关，准备好下单。最后有 15 种在大肠杆菌里产出了可用的蛋白。 第三步，把颗粒分离出来。传统方法要约 3 天。团队想改用一种按颗粒大小筛分的柱子，Claude 一开始反对，理由是折叠坏掉的蛋白团块会和穹窿体一起流出来。 团队坚持要试，Claude 就推荐了具体的柱子和检验办法。接着 Claude 提议，把细胞破碎后的“原汤”不经提纯直接倒进柱子。 研究员起初犹豫，因为这种柱子很贵，原汤可能把它堵住或污染，结果试成了。从细胞到电镜样品，时间缩到约 90 分钟。15 种蛋白里有 7 种拼成了像穹窿体的颗粒，冷冻电镜确认了其中 4 种，2 种来自噬菌体，2 种来自细菌。 第四步，解结构。冷冻电镜是把大量颗粒速冻，用电子束拍照，再把成千上万张照片合成一个 3D 模型。这一步人工通常要几周到几个月，靠专业软件一点点调。 这次 Claude 在 Anthropic 内部的多 agent 系统里自己装好开源软件 RELION，跑完每一步，研究员只在关键的分析决策上给意见。 34 小时出了第一版完整模型，开始处理后约一周出了最终结果。推文里说的“几周到几个月缩到几天”，指的就是这一步。 【发现了什么】 解出结构的是一种噬菌体蛋白，团队叫它 L05。噬菌体借细菌的身体造蛋白，所以这个桶是在细菌细胞里组装的。 它由 96 个相同的蛋白拼成，上下两半各 48 个，人的穹窿体是 78 个。它更矮更胖，长约 54 纳米、宽约 45 纳米（人的是 67 和 40），内部空间反而大了约 25%。这是在细菌这类简单生物里找到的最大蛋白质外壳之一。 团队还做了两组改造。改动蛋白之间的接触点，有的只改一处，桶就封不上口，变成敞开的花环状。把蛋白里重复 7 次的那段“墙砖”多复制两段，变成和人一样的 9 段，桶就变得更大，内部空间又多了约 20%。这说明穹窿体可能是靠复制自己的墙砖在进化中变大的，将来也可以改造成运送酶的纳米胶囊。 功能还是没找到，但有一条线索：每个蛋白的一个小口袋里都卡着一个认不出来的小分子。Claude 发现它的形状像辅酶 A，一种细胞用来搬运化学基团的常见“帮手分子”。如果真是它，就是关于功能的第一个提示。 发现者之一的 Rome 是这个项目的顾问。他看过结构后说，弄清穹窿体的功能仍然极其困难，这次发现的范围这么广，说明它的功能可能很复杂。 【Claude 犯了什么错，怎么改的】 文章列了两个错。一个是 Claude 写的实验方案里，培养基加了一种会妨碍把 DNA 送进细胞的添加剂，项目因此倒退两周。另一个发生在冷冻电镜处理早期，Claude 跳过了一个标准步骤，做出的 3D 图把结构和它的镜像混在了一起，就像左手和右手的照片叠成一张。研究员让它别再即兴发挥，原话是“除非常规做法不管用，否则我们就按常规来”。 团队把实验记录交给训练 Claude 的机器学习研究员，让他们看模型错在哪里，用来调整 Claude 学习的数据。研究员说，项目期间新模型陆续上线，Claude 设计 DNA 的错误看起来少了，也更会提前指出实验里的坑。在团队熟悉的领域，错误很快被发现；在不熟的领域，错误就要花更多时间才找得到。团队的结论是利远大于弊。 【普通实验室能照着做吗】 Anthropic 说，这次的大部分工作，一般实验室用现有的 Claude 产品就能做。唯一的例外是冷冻电镜分析，这次为了省时间用了几百块 GPU 并行，超出一般高校的算力条件。 这些穹窿体目前只在大肠杆菌里造出来过，在它们原本所在的细菌和噬菌体里会不会形成，还没验证。论文是预印本，已投 bioRxiv，还没经过同行评审。Rome 拿 Anthropic 的顾问费。 原文：https://t.co/9y7HDslIQq 预印本：https://t.co/U7JswXqrn0 https://t.co/ARxvUMnzhL",
+      "url": "https://x.com/dotey/status/2118243086589476995",
+      "likes": 142
+     }
+    ],
+    "recent": 1,
+    "note": "X 1 个账号 ♥142"
    }
   ],
   "seconds": 28
@@ -1154,62 +1178,87 @@
   "first_run": false,
   "repos": [
    {
-    "repo": "deepseek-ai/dsh-superagent-prototype",
-    "owner": "deepseek-ai",
-    "name": "dsh-superagent-prototype",
-    "stars": 18230,
-    "velocity": 4371,
-    "delta": 2510,
-    "age_days": 4.2,
-    "description": "Towards a More Autonomous Agent System",
-    "new": false
-   },
-   {
     "repo": "storytold/craft-anything",
     "owner": "storytold",
     "name": "craft-anything",
-    "stars": 10136,
-    "velocity": 2566,
-    "delta": 3731,
-    "age_days": 4.0,
+    "stars": 13959,
+    "velocity": 2823,
+    "delta": 3823,
+    "age_days": 4.9,
     "description": "Craft Anything: understand how any software works, and craft your own.",
+    "new": false
+   },
+   {
+    "repo": "deepseek-ai/dsh-superagent-prototype",
+    "owner": "deepseek-ai",
+    "name": "dsh-superagent-prototype",
+    "stars": 19230,
+    "velocity": 3723,
+    "delta": 1000,
+    "age_days": 5.2,
+    "description": "Towards a More Autonomous Agent System",
     "new": false
    },
    {
     "repo": "ccch1mneyyy/dsh-Go",
     "owner": "ccch1mneyyy",
     "name": "dsh-Go",
-    "stars": 8908,
-    "velocity": 871,
-    "delta": 2067,
-    "age_days": 10.2,
+    "stars": 10933,
+    "velocity": 974,
+    "delta": 2025,
+    "age_days": 11.2,
     "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
     "new": false
+   },
+   {
+    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+    "owner": "worldonlyu",
+    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
+    "stars": 1665,
+    "velocity": 1665,
+    "delta": null,
+    "age_days": 1.0,
+    "description": "Google_AI_Pro_2Year_ZeroCost_Auto",
+    "new": true,
+    "variants": [
+     "google ai pro 2year zerocost auto",
+     "worldonlyu google ai pro 2year zerocost auto"
+    ]
    },
    {
     "repo": "KKKKhazix/agent-autoloop",
     "owner": "KKKKhazix",
     "name": "agent-autoloop",
-    "stars": 2045,
-    "velocity": 1657,
-    "delta": null,
-    "age_days": 1.2,
+    "stars": 3068,
+    "velocity": 1377,
+    "delta": 1023,
+    "age_days": 2.2,
     "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+    "new": false
+   },
+   {
+    "repo": "JuneYaooo/rea-video",
+    "owner": "JuneYaooo",
+    "name": "rea-video",
+    "stars": 1740,
+    "velocity": 253,
+    "delta": 1358,
+    "age_days": 6.9,
+    "description": "Reverse-engineer any video, shot by shot: tells whether each shot was filmed, AI-generated or coded, how the captions, c",
     "new": true,
     "variants": [
-     "agent autoloop",
-     "kkkkhazix agent autoloop",
-     "khazix agent autoloop"
+     "rea video",
+     "juneyaooo rea video"
     ]
    },
    {
     "repo": "heydamir/unslop",
     "owner": "heydamir",
     "name": "unslop",
-    "stars": 8103,
-    "velocity": 1370,
-    "delta": 1117,
-    "age_days": 5.9,
+    "stars": 9225,
+    "velocity": 1335,
+    "delta": 1122,
+    "age_days": 6.9,
     "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
     "new": false
    },
@@ -1217,10 +1266,10 @@
     "repo": "wangzan101/Mika",
     "owner": "wangzan101",
     "name": "Mika",
-    "stars": 6434,
-    "velocity": 1079,
-    "delta": 540,
-    "age_days": 6.0,
+    "stars": 6967,
+    "velocity": 1002,
+    "delta": 533,
+    "age_days": 7.0,
     "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
     "new": false
    },
@@ -1228,48 +1277,59 @@
     "repo": "patch-gg/pixelfx",
     "owner": "patch-gg",
     "name": "pixelfx",
-    "stars": 4511,
-    "velocity": 853,
-    "delta": 626,
-    "age_days": 5.3,
+    "stars": 5111,
+    "velocity": 814,
+    "delta": 600,
+    "age_days": 6.3,
     "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
     "new": false
    },
    {
-    "repo": "BryceYuuu/RUN",
-    "owner": "BryceYuuu",
-    "name": "RUN",
-    "stars": 3519,
-    "velocity": 578,
-    "delta": 845,
-    "age_days": 6.1,
-    "description": "RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）",
+    "repo": "zortos293/Lichii",
+    "owner": "zortos293",
+    "name": "Lichii",
+    "stars": 1446,
+    "velocity": 291,
+    "delta": 797,
+    "age_days": 5.0,
+    "description": "VERY experimental Nintendo Switch 2 emulator",
+    "new": true,
+    "variants": [
+     "lichii",
+     "zortos293 lichii",
+     "zortos lichii"
+    ]
+   },
+   {
+    "repo": "govijr/terminal-mac",
+    "owner": "govijr",
+    "name": "terminal-mac",
+    "stars": 1798,
+    "velocity": 743,
+    "delta": 762,
+    "age_days": 2.4,
+    "description": "Entire MacOS running in your terminal.",
     "new": false
    },
    {
-    "repo": "Pika-Labs/Pika-H3-Flex",
-    "owner": "Pika-Labs",
-    "name": "Pika-H3-Flex",
-    "stars": 1567,
-    "velocity": 268,
-    "delta": 839,
-    "age_days": 5.9,
-    "description": "Pika H3 Flex: video and audio generation inference",
-    "new": true,
-    "variants": [
-     "pika h3 flex",
-     "pika-labs pika h3 flex",
-     "pika pika h3 flex"
-    ]
+    "repo": "Djihads80/Eglantine",
+    "owner": "Djihads80",
+    "name": "Eglantine",
+    "stars": 4083,
+    "velocity": 541,
+    "delta": 755,
+    "age_days": 7.5,
+    "description": "VERY experimental Nintendo Switch 2 emulator",
+    "new": false
    },
    {
     "repo": "valentderah/totk-pc-recomp",
     "owner": "valentderah",
     "name": "totk-pc-recomp",
-    "stars": 4706,
-    "velocity": 778,
-    "delta": 383,
-    "age_days": 6.0,
+    "stars": 5025,
+    "velocity": 714,
+    "delta": 319,
+    "age_days": 7.0,
     "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan rend",
     "new": false
    },
@@ -1277,157 +1337,100 @@
     "repo": "anhao/ai-pose-gallery-zh",
     "owner": "anhao",
     "name": "ai-pose-gallery-zh",
-    "stars": 5891,
-    "velocity": 732,
-    "delta": 161,
-    "age_days": 8.1,
+    "stars": 6045,
+    "velocity": 668,
+    "delta": 154,
+    "age_days": 9.0,
     "description": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
     "new": false
-   },
-   {
-    "repo": "govijr/terminal-mac",
-    "owner": "govijr",
-    "name": "terminal-mac",
-    "stars": 1036,
-    "velocity": 726,
-    "delta": null,
-    "age_days": 1.4,
-    "description": "Entire MacOS running in your terminal.",
-    "new": true,
-    "variants": [
-     "terminal mac",
-     "govijr terminal mac"
-    ]
    },
    {
     "repo": "unclebob/ub-mode",
     "owner": "unclebob",
     "name": "ub-mode",
-    "stars": 6891,
-    "velocity": 696,
-    "delta": 176,
-    "age_days": 9.9,
+    "stars": 7058,
+    "velocity": 648,
+    "delta": 167,
+    "age_days": 10.9,
     "description": "",
-    "new": false
-   },
-   {
-    "repo": "benjitaylor/skills",
-    "owner": "benjitaylor",
-    "name": "skills",
-    "stars": 1745,
-    "velocity": 187,
-    "delta": 564,
-    "age_days": 9.3,
-    "description": "Skills for AI coding agents.",
-    "new": true,
-    "variants": [
-     "skills",
-     "benjitaylor skills",
-     "benji skills"
-    ]
-   },
-   {
-    "repo": "rddmwmddr/android-ad-cleaner",
-    "owner": "rddmwmddr",
-    "name": "android-ad-cleaner",
-    "stars": 6253,
-    "velocity": 552,
-    "delta": 226,
-    "age_days": 11.3,
-    "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
     "new": false
    }
   ],
   "terms": [
    {
-    "term": "agent autoloop",
+    "term": "google ai pro 2year zerocost auto",
     "recent": 1,
     "variants": [
-     "agent autoloop",
-     "kkkkhazix agent autoloop",
-     "khazix agent autoloop"
+     "google ai pro 2year zerocost auto",
+     "worldonlyu google ai pro 2year zerocost auto"
     ],
-    "repo": "KKKKhazix/agent-autoloop",
-    "note": "GitHub 爆发 KKKKhazix/agent-autoloop ★2045(均 1657/天)",
+    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+    "note": "GitHub 爆发 worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto ★1665(均 1665/天)",
     "examples": [
-     "KKKKhazix/agent-autoloop: 让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。"
+     "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto: Google_AI_Pro_2Year_ZeroCost_Auto"
     ]
    },
    {
-    "term": "pika h3 flex",
+    "term": "rea video",
     "recent": 1,
     "variants": [
-     "pika h3 flex",
-     "pika-labs pika h3 flex",
-     "pika pika h3 flex"
+     "rea video",
+     "juneyaooo rea video"
     ],
-    "repo": "Pika-Labs/Pika-H3-Flex",
-    "note": "GitHub 爆发 Pika-Labs/Pika-H3-Flex ★1567(均 268/天,一天 +839)",
+    "repo": "JuneYaooo/rea-video",
+    "note": "GitHub 爆发 JuneYaooo/rea-video ★1740(均 253/天,一天 +1358)",
     "examples": [
-     "Pika-Labs/Pika-H3-Flex: Pika H3 Flex: video and audio generation inference"
+     "JuneYaooo/rea-video: Reverse-engineer any video, shot by shot: tells whether each shot was filmed, AI-generated or coded, how the captions, c"
     ]
    },
    {
-    "term": "terminal mac",
+    "term": "lichii",
     "recent": 1,
     "variants": [
-     "terminal mac",
-     "govijr terminal mac"
+     "lichii",
+     "zortos293 lichii",
+     "zortos lichii"
     ],
-    "repo": "govijr/terminal-mac",
-    "note": "GitHub 爆发 govijr/terminal-mac ★1036(均 726/天)",
+    "repo": "zortos293/Lichii",
+    "note": "GitHub 爆发 zortos293/Lichii ★1446(均 291/天,一天 +797)",
     "examples": [
-     "govijr/terminal-mac: Entire MacOS running in your terminal."
-    ]
-   },
-   {
-    "term": "skills",
-    "recent": 1,
-    "variants": [
-     "skills",
-     "benjitaylor skills",
-     "benji skills"
-    ],
-    "repo": "benjitaylor/skills",
-    "note": "GitHub 爆发 benjitaylor/skills ★1745(均 187/天,一天 +564)",
-    "examples": [
-     "benjitaylor/skills: Skills for AI coding agents."
+     "zortos293/Lichii: VERY experimental Nintendo Switch 2 emulator"
     ]
    }
   ],
   "window_days": 14,
-  "seconds": 13
+  "seconds": 18
  },
  "sitemap": {
   "sites": {
    "glama": {
-    "urls": 155954,
-    "new": 1230,
+    "urls": 156917,
+    "new": 1029,
     "first_run": false,
     "sample": [
-     "https://glama.ai/mcp/connectors/ad.apogee/apogee",
-     "https://glama.ai/mcp/connectors/ad.tide/mcp",
-     "https://glama.ai/mcp/connectors/africa.lomi/mcp",
-     "https://glama.ai/mcp/connectors/ai.agentasy/cronjob",
-     "https://glama.ai/mcp/connectors/ai.agentblueprint/agent-blueprint",
-     "https://glama.ai/mcp/connectors/ai.agentcv/registry",
-     "https://glama.ai/mcp/connectors/ai.anyreach.api/anyreach",
-     "https://glama.ai/mcp/connectors/ai.bidbetter/collector-car-values"
+     "https://glama.ai/mcp/connectors/actor.apify.aadstra--deepsift-search/deep-sift-search",
+     "https://glama.ai/mcp/connectors/ai.algoriq/mcp",
+     "https://glama.ai/mcp/connectors/ai.ankidecks/ankidecks",
+     "https://glama.ai/mcp/connectors/ai.bananabread/bananabread",
+     "https://glama.ai/mcp/connectors/ai.boltclaw/docs",
+     "https://glama.ai/mcp/connectors/ai.easydeploy/easydeploy-ai-mcp",
+     "https://glama.ai/mcp/connectors/ai.egonex/marketplace",
+     "https://glama.ai/mcp/connectors/ai.evermont/evermont"
     ]
    },
    "mcp.so": {
-    "urls": 19841,
-    "new": 31,
+    "urls": 19845,
+    "new": 11,
     "first_run": false,
     "sample": [
-     "https://mcp.so/agents/orinyx-mcp",
-     "https://mcp.so/agents/seedance-2-5",
-     "https://mcp.so/servers/angelcam",
-     "https://mcp.so/servers/apixo-ai-05d20d",
-     "https://mcp.so/servers/assign2me-mcp",
-     "https://mcp.so/servers/careerproof-claude-skills",
-     "https://mcp.so/servers/cookieyes",
-     "https://mcp.so/servers/cuehq"
+     "https://mcp.so/agents/xpomelo",
+     "https://mcp.so/clients/mel-the-agentic-terminal",
+     "https://mcp.so/servers/actora-mcp",
+     "https://mcp.so/servers/agents-galleria",
+     "https://mcp.so/servers/airport-pickups-london",
+     "https://mcp.so/servers/arsen-mcp",
+     "https://mcp.so/servers/circles-personal-whatsapp-for-ai-agents",
+     "https://mcp.so/servers/filingrail-mcp"
     ]
    },
    "lobehub-mcp": {
@@ -1449,24 +1452,27 @@
     "sample": []
    },
    "aixploria": {
-    "urls": 613,
-    "new": 0,
+    "urls": 615,
+    "new": 2,
     "first_run": false,
-    "sample": []
+    "sample": [
+     "https://www.aixploria.com/claude-duet/",
+     "https://www.aixploria.com/mvflow-ai/"
+    ]
    },
    "ai-bot.cn": {
     "urls": 5068,
-    "new": 697,
+    "new": 10,
     "first_run": false,
     "sample": [
-     "https://ai-bot.cn/evaomni/",
-     "https://ai-bot.cn/flashprove/",
-     "https://ai-bot.cn/hy4/",
-     "https://ai-bot.cn/looogen/",
-     "https://ai-bot.cn/mv-buddy/",
-     "https://ai-bot.cn/qovest/",
-     "https://ai-bot.cn/sites/1338.html",
-     "https://ai-bot.cn/sites/46429.html"
+     "https://ai-bot.cn/baoyu-design/",
+     "https://ai-bot.cn/gpt-images-2-6/",
+     "https://ai-bot.cn/kimi-hosted-agents/",
+     "https://ai-bot.cn/omniedu/",
+     "https://ai-bot.cn/oxr/",
+     "https://ai-bot.cn/piccolo/",
+     "https://ai-bot.cn/sites/89266.html",
+     "https://ai-bot.cn/sites/89335.html"
     ]
    },
    "opentools": {
@@ -1476,17 +1482,18 @@
     "sample": []
    },
    "dang": {
-    "urls": 7803,
-    "new": 7,
+    "urls": 7809,
+    "new": 13,
     "first_run": false,
     "sample": [
-     "https://dang.ai/tool/alook-multi-agent-collaboration",
-     "https://dang.ai/tool/cosupport-ai",
-     "https://dang.ai/tool/crownai-ai-poker-decision-support",
-     "https://dang.ai/tool/dessi-app-ai-image-generator",
-     "https://dang.ai/tool/elevenlabs",
-     "https://dang.ai/tool/getsolved-ai-ai-writing-assistant",
-     "https://dang.ai/tool/kindroid"
+     "https://dang.ai/tool/actseal-ai-agent-audit-receipts",
+     "https://dang.ai/tool/aeo-action-ai-seo-visibility-optimization",
+     "https://dang.ai/tool/ai-clothes-changer",
+     "https://dang.ai/tool/chep-loi-vietnamese-speech-to-text",
+     "https://dang.ai/tool/detectgpt-ai-text-detector",
+     "https://dang.ai/tool/dime-dime-baby-ai-photo-to-video-ai",
+     "https://dang.ai/tool/gleeday",
+     "https://dang.ai/tool/hireflow-ats-resume-checker"
     ]
    },
    "clipfly": {
@@ -1496,182 +1503,180 @@
     "sample": []
    },
    "aitoptools": {
-    "urls": 11885,
+    "urls": 11889,
     "new": 4,
     "first_run": false,
     "sample": [
-     "https://aitoptools.com/tool/batchdata/",
-     "https://aitoptools.com/tool/fashion-diffusion/",
-     "https://aitoptools.com/tool/getplus-ai/",
-     "https://aitoptools.com/tool/signalvan/"
+     "https://aitoptools.com/ai-blog/what-ai-image-upscaling-really-does-and-how-to-judge-an-upscaler/",
+     "https://aitoptools.com/tool/aeo-action/",
+     "https://aitoptools.com/tool/ai-smut-writer-io/",
+     "https://aitoptools.com/tool/detectgpt-2/"
     ]
    },
    "futurepedia": {
-    "urls": 2499,
-    "new": 5,
+    "urls": 2497,
+    "new": 3,
     "first_run": false,
     "sample": [
-     "https://www.futurepedia.io/tool/heroguide",
-     "https://www.futurepedia.io/tool/nanomaker-ai",
-     "https://www.futurepedia.io/tool/textlayer",
-     "https://www.futurepedia.io/tool/zawa",
-     "https://www.futurepedia.io/tool/zentor"
+     "https://www.futurepedia.io/tool/better-analyst",
+     "https://www.futurepedia.io/tool/stitch",
+     "https://www.futurepedia.io/tool/vanceai"
     ]
    }
   },
   "terms": [
    {
-    "term": "sites",
-    "recent": 691,
-    "baseline": 22,
-    "lift": 573.1
-   },
-   {
-    "term": "connectors uk.co.reliness",
-    "recent": 30,
-    "baseline": 0,
-    "lift": 30.0
-   },
-   {
     "term": "cloudcorprecords",
-    "recent": 59,
-    "baseline": 281,
-    "lift": 16.3
+    "recent": 33,
+    "baseline": 340,
+    "lift": 12.1
    },
    {
     "term": "records",
-    "recent": 59,
-    "baseline": 318,
-    "lift": 14.8
+    "recent": 33,
+    "baseline": 377,
+    "lift": 11.4
    },
    {
     "term": "corp",
-    "recent": 60,
-    "baseline": 343,
-    "lift": 14.3
+    "recent": 34,
+    "baseline": 403,
+    "lift": 11.2
    },
    {
-    "term": "com.forevenza.services",
-    "recent": 12,
-    "baseline": 0,
-    "lift": 12.0
-   },
-   {
-    "term": "connectors com.forevenza.services",
-    "recent": 12,
-    "baseline": 0,
-    "lift": 12.0
-   },
-   {
-    "term": "nabuxai",
-    "recent": 11,
-    "baseline": 0,
-    "lift": 11.0
-   },
-   {
-    "term": "nabux",
-    "recent": 11,
-    "baseline": 0,
-    "lift": 11.0
-   },
-   {
-    "term": "art search",
-    "recent": 8,
+    "term": "council csoai",
+    "recent": 7,
     "baseline": 2,
-    "lift": 7.9
+    "lift": 6.9
    },
    {
-    "term": "l50",
-    "recent": 7,
-    "baseline": 0,
-    "lift": 7.0
-   },
-   {
-    "term": "connectors com.pagespool",
-    "recent": 7,
-    "baseline": 0,
-    "lift": 7.0
+    "term": "shop",
+    "recent": 11,
+    "baseline": 122,
+    "lift": 6.8
    },
    {
     "term": "cloud",
-    "recent": 63,
-    "baseline": 971,
-    "lift": 6.2
+    "recent": 39,
+    "baseline": 1034,
+    "lift": 6.3
    },
    {
-    "term": "io.github.lewisororke l50",
+    "term": "com.quarralabs",
     "recent": 6,
     "baseline": 0,
     "lift": 6.0
    },
    {
-    "term": "connectors io.github.lewisororke",
+    "term": "connectors com.quarralabs",
     "recent": 6,
     "baseline": 0,
     "lift": 6.0
    },
    {
-    "term": "io.webz",
+    "term": "click.myagents",
     "recent": 6,
-    "baseline": 1,
-    "lift": 5.9
+    "baseline": 12,
+    "lift": 5.7
    },
    {
-    "term": "connectors io.webz",
+    "term": "connectors click.myagents",
     "recent": 6,
-    "baseline": 1,
-    "lift": 5.9
+    "baseline": 12,
+    "lift": 5.7
    },
    {
-    "term": "llc cyan",
-    "recent": 7,
-    "baseline": 26,
-    "lift": 5.6
+    "term": "org csoai",
+    "recent": 6,
+    "baseline": 24,
+    "lift": 5.4
    },
    {
-    "term": "cyan eclipse",
-    "recent": 7,
-    "baseline": 38,
-    "lift": 5.2
-   },
-   {
-    "term": "eclipse technologies",
-    "recent": 7,
-    "baseline": 40,
-    "lift": 5.1
-   },
-   {
-    "term": "technologies llc",
-    "recent": 7,
-    "baseline": 42,
-    "lift": 5.0
-   },
-   {
-    "term": "com.agentfirststack",
+    "term": "com.realmarketlabs.tools",
     "recent": 5,
     "baseline": 0,
     "lift": 5.0
    },
    {
-    "term": "connectors com.agentfirststack",
+    "term": "connectors com.realmarketlabs.tools",
     "recent": 5,
     "baseline": 0,
     "lift": 5.0
    },
    {
-    "term": "dev.workers.manhliemcn4euwlu.llmrt",
-    "recent": 5,
+    "term": "santiagotoscanini",
+    "recent": 4,
     "baseline": 1,
-    "lift": 5.0
+    "lift": 4.0
    },
    {
-    "term": "connectors dev.workers.manhliemcn4euwlu.llmrt",
-    "recent": 5,
+    "term": "jobs",
+    "recent": 9,
+    "baseline": 256,
+    "lift": 3.9
+   },
+   {
+    "term": "io.github.allooloo",
+    "recent": 4,
+    "baseline": 7,
+    "lift": 3.9
+   },
+   {
+    "term": "connectors io.github.allooloo",
+    "recent": 4,
+    "baseline": 7,
+    "lift": 3.9
+   },
+   {
+    "term": "scraper",
+    "recent": 7,
+    "baseline": 247,
+    "lift": 3.1
+   },
+   {
+    "term": "downloader",
+    "recent": 4,
+    "baseline": 57,
+    "lift": 3.1
+   },
+   {
+    "term": "life",
+    "recent": 4,
+    "baseline": 65,
+    "lift": 3.0
+   },
+   {
+    "term": "piratex",
+    "recent": 3,
+    "baseline": 0,
+    "lift": 3.0
+   },
+   {
+    "term": "connectors com.metaintro",
+    "recent": 3,
+    "baseline": 0,
+    "lift": 3.0
+   },
+   {
+    "term": "com.printags",
+    "recent": 3,
+    "baseline": 0,
+    "lift": 3.0
+   },
+   {
+    "term": "connectors com.printags",
+    "recent": 3,
+    "baseline": 0,
+    "lift": 3.0
+   },
+   {
+    "term": "connectors io.github.youtube",
+    "recent": 3,
     "baseline": 1,
-    "lift": 5.0
+    "lift": 3.0
    }
   ],
-  "seconds": 256
+  "seconds": 308
  },
  "newsite": {
   "skipped": true
@@ -1691,192 +1696,152 @@
  "feed": {
   "read": {
    "producthunt": 50,
-   "hn": 10,
-   "openrouter": 4,
+   "hn": 8,
+   "openrouter": 5,
    "appstore": 200,
    "awesome": 4635
   },
   "new": {
    "producthunt": [
     {
-     "key": "https://www.producthunt.com/products/render",
-     "name": "Render Sandboxes",
-     "url": "https://www.producthunt.com/products/render",
-     "about": "A computer for every agent Discussion | Link",
+     "key": "https://www.producthunt.com/products/zerg",
+     "name": "Zerg Client",
+     "url": "https://www.producthunt.com/products/zerg",
+     "about": "The coding agent harness that drives its own terminal panes Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/kosa8",
-     "name": "kosa8",
-     "url": "https://www.producthunt.com/products/kosa8",
-     "about": "Air-gapped microVM sandboxes for enterprise AI agents Discussion | Link",
+     "key": "https://www.producthunt.com/products/chatandbuild",
+     "name": "Living Brain",
+     "url": "https://www.producthunt.com/products/chatandbuild",
+     "about": "Interoperable, efficient memory layer for agentic AI Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing",
-     "name": "Orphex MCP",
-     "url": "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing",
-     "about": "Run your entire digital marketing stack via one unified MCP Discussion | Link",
+     "key": "https://www.producthunt.com/products/glasshand",
+     "name": "Glasshand",
+     "url": "https://www.producthunt.com/products/glasshand",
+     "about": "Give your agent a real iPhone and Mac Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/fileai-ai-ocr",
-     "name": "fileForensics",
-     "url": "https://www.producthunt.com/products/fileai-ai-ocr",
-     "about": "Real or not? Check files before your AI trusts them. Discussion | Link",
+     "key": "https://www.producthunt.com/products/cc-auto-review",
+     "name": "CC Auto Review",
+     "url": "https://www.producthunt.com/products/cc-auto-review",
+     "about": "macOS app that reviews GitHub PRs w/ your local Claude Code Discussion | Link",
+     "fresh": true
+    },
+    {
+     "key": "https://www.producthunt.com/products/seamcult",
+     "name": "Seamcult",
+     "url": "https://www.producthunt.com/products/seamcult",
+     "about": "A pattern design tool for the LLM era ('paper' for patterns) Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/rungle",
-     "name": "Rungle",
-     "url": "https://www.producthunt.com/products/rungle",
-     "about": "Turn your running photos and clips into share-ready Reels Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/eyecon-auto-pause-video",
-     "name": "Eyecon",
-     "url": "https://www.producthunt.com/products/eyecon-auto-pause-video",
-     "about": "Auto pause video when you look away Discussion | Link",
+     "key": "https://www.producthunt.com/products/rerun-2",
+     "name": "Rerun",
+     "url": "https://www.producthunt.com/products/rerun-2",
+     "about": "Turn your AI subscriptions into a team of coworkers Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/country-filter-for-x-2",
-     "name": "Country Filter for X",
-     "url": "https://www.producthunt.com/products/country-filter-for-x-2",
-     "about": "Hide posts from chosen countries in your X For You feed Discussion | Link",
+     "key": "https://www.producthunt.com/products/pushary",
+     "name": "Pushary for Teams",
+     "url": "https://www.producthunt.com/products/pushary",
+     "about": "See who said yes to your team’s AI agents Discussion | Link",
+     "fresh": false
+    },
+    {
+     "key": "https://www.producthunt.com/products/stitch-ai",
+     "name": "Stitch.ai",
+     "url": "https://www.producthunt.com/products/stitch-ai",
+     "about": "Your AI workspace for mail, calendar, notes, tasks and more Discussion | Link",
+     "fresh": false
+    },
+    {
+     "key": "https://www.producthunt.com/products/textkit-2",
+     "name": "TextKit",
+     "url": "https://www.producthunt.com/products/textkit-2",
+     "about": "Send + receive texts in the US and Canada with a simple API Discussion | Link",
      "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/sendu",
-     "name": "Sendu",
-     "url": "https://www.producthunt.com/products/sendu",
-     "about": "Drop files easily across your local network Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/datashake-hub",
-     "name": "Datashake MCP",
-     "url": "https://www.producthunt.com/products/datashake-hub",
-     "about": "Plug review and social data straight into your AI assistant Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/pasteguard-2",
-     "name": "PasteGuard for Mac",
-     "url": "https://www.producthunt.com/products/pasteguard-2",
-     "about": "Keep secrets and personal data out of AI chats Discussion | Link",
-     "fresh": true
+     "key": "https://www.producthunt.com/products/paws",
+     "name": "Paws",
+     "url": "https://www.producthunt.com/products/paws",
+     "about": "Meet strangers through their cats, behind frosted glass Discussion | Link",
+     "fresh": false
     }
    ],
    "hn": [
     {
-     "key": "50346755",
-     "name": "HackerTV",
-     "url": "https://hackertv.org",
-     "about": "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels",
-     "score": 369,
+     "key": "50369895",
+     "name": "After a decade of reversing, I got co-op working in DOS Wing Commander",
+     "url": "https://fireflyk64.github.io/wcmulti/",
+     "about": "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander",
+     "score": 219,
      "fresh": true
     },
     {
-     "key": "50358314",
-     "name": "Kairos",
-     "url": "https://github.com/finic-ai/kairos",
-     "about": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
-     "score": 98,
+     "key": "50366929",
+     "name": "I built a tool that prices a pre-built PC part by part",
+     "url": "https://pcdealcheck.com/",
+     "about": "Show HN: I built a tool that prices a pre-built PC part by part",
+     "score": 107,
      "fresh": true
     },
     {
-     "key": "50358352",
-     "name": "Uncracked City, detective game where you question LLM suspects that lie",
-     "url": "https://uncracked.city",
-     "about": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
-     "score": 87,
+     "key": "50366811",
+     "name": "Codemap",
+     "url": "https://github.com/peterretief/codemap",
+     "about": "Show HN: Codemap – one-page interactive map of any Go repository",
+     "score": 43,
      "fresh": true
     },
     {
-     "key": "50353386",
-     "name": "HackerChurn",
-     "url": "https://hissingkitty.com/hacker-churn",
-     "about": "Show HN: HackerChurn – which SaaS tools HN wants to cancel",
-     "score": 71,
-     "fresh": true
-    },
-    {
-     "key": "50353468",
-     "name": "Interactive notes on RLHF, attention, LoRA and LLM evals",
-     "url": "https://concepts.laxmena.com/",
-     "about": "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals",
-     "score": 41,
-     "fresh": true
-    },
-    {
-     "key": "50338891",
-     "name": "PyWolf3D, a wolfenstein3D clone written from scratch in Python",
-     "url": "https://github.com/atifcodesalot/pyWolf3D",
-     "about": "Show HN: PyWolf3D, a wolfenstein3D clone written from scratch in Python",
-     "score": 31,
+     "key": "50371090",
+     "name": "Gauge",
+     "url": "https://github.com/gauge-sh/gauge-cli",
+     "about": "Show HN: Gauge – Open-Source CLI to recursively improve your docs",
+     "score": 35,
      "fresh": true
     }
    ],
    "openrouter": [
     {
-     "key": "tencent/hy4",
-     "name": "Hy4",
-     "url": "https://openrouter.ai/tencent/hy4",
-     "about": "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-hor",
+     "key": "ricursiveai/ripple-65b-preview",
+     "name": "ricursiveAI/Ripple-65B-Preview",
+     "url": "https://openrouter.ai/ricursiveai/ripple-65b-preview",
+     "about": "Ripple-65B-Preview by ricursiveAI, a 65B model with native tool calling, served in BF16.",
      "fresh": true
     },
     {
-     "key": "stealth/crouton-alpha",
-     "name": "Crouton Alpha",
-     "url": "https://openrouter.ai/stealth/crouton-alpha",
-     "about": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated ",
+     "key": "openrouter/auto-code",
+     "name": "Auto Code",
+     "url": "https://openrouter.ai/openrouter/auto-code",
+     "about": "Auto Code is OpenRouter’s router built specifically for coding agents and harnesses. It uses the same routing engine as the [Auto Router](https://openrouter.ai/openrouter/auto), with every request tre",
      "fresh": true
     }
    ],
    "appstore": [
     {
-     "key": "6711347033",
-     "name": "Chatbot App: AI Assistant",
-     "url": "https://apps.apple.com/us/app/chatbot-app-ai-assistant/id6711347033?uo=2",
-     "about": "Chatbot App brings advanced AI models together in one intuitive app for writing, learning, coding, creativity, and productivity. Built on OpenAI GPT-6, Google Gemini 3.8 Flash, Anthropic Claude Fable "
+     "key": "1482562954",
+     "name": "Photo Recovery: Deleted Files",
+     "url": "https://apps.apple.com/us/app/photo-recovery-deleted-files/id1482562954?uo=2",
+     "about": "Ever lost a treasured photo, a memory so precious you believed it was gone forever? Welcome to a world where such nightmares are no more – introducing ‘Photo Recovery’. Whether you’re a professional p"
     },
     {
-     "key": "515094775",
-     "name": "Bazaart AI Photo Editor Design",
-     "url": "https://apps.apple.com/us/app/bazaart-ai-photo-editor-design/id515094775?uo=2",
-     "about": "Bazaart is an easy-to-use AI photo editor, video editor, and design app. No design background needed. Create fast for online selling, digital marketing, and social media. Get your design superpowers t"
+     "key": "6446832902",
+     "name": "WallPics - Live Wallpapers 4K",
+     "url": "https://apps.apple.com/us/app/wallpics-live-wallpapers-4k/id6446832902?uo=2",
+     "about": "Transform your iPhone into a personal masterpiece with Wallpics, the ultimate destination for stunning live wallpapers, DIY wallpaper maker, charging animations, photo widgets, and true 4K quality bac"
     },
     {
-     "key": "1634361180",
-     "name": "Vids AI - Reels Video Editor",
-     "url": "https://apps.apple.com/us/app/vids-ai-reels-video-editor/id1634361180?uo=2",
-     "about": "VIDS combines powerful AI with thousands of ready-made templates so you can make trending content in just a few taps. Start with an AI template or style — the app instantly syncs your clips with music"
-    },
-    {
-     "key": "6446647507",
-     "name": "AI Video Generator + Creator",
-     "url": "https://apps.apple.com/us/app/ai-video-generator-creator/id6446647507?uo=2",
-     "about": "AI Video Generator lets you turn your ideas into AI Videos using advanced artificial intelligence. Our AI Video Generator tool provides high-quality AI Videos - make AI Videos with AI Video Generator."
-    },
-    {
-     "key": "645746786",
-     "name": "Word Swag - Cool Fonts",
-     "url": "https://apps.apple.com/us/app/word-swag-cool-fonts/id645746786?uo=2",
-     "about": "Congrats on finding the original Word Swag™ - the easiest and most beautiful graphic design editor. INTRODUCING REALFONTS Make your words irresistible with unbelievably fun RealFonts! With never-befor"
-    },
-    {
-     "key": "6757016336",
-     "name": "TV Remote Control · Universal",
-     "url": "https://apps.apple.com/us/app/tv-remote-control-universal/id6757016336?uo=2",
-     "about": "Introducing TV Remote Control · Universal – the simplest and fastest way to control your TV directly from your iPhone. Turn your phone into a smart, reliable TV remote you can use anytime, anywhere. •"
-    },
-    {
-     "key": "6448222268",
-     "name": "Smart Cleaner: Free Up Storage",
-     "url": "https://apps.apple.com/us/app/smart-cleaner-free-up-storage/id6448222268?uo=2",
-     "about": "LET'S MAKE SPACE: CLEANING YOUR PHONE'S STORAGE HAS NEVER BEEN SMARTER! Smart Cleaner isn't just an app; it's a solution that turns storage cleanup into a quick, fun, and secure task. FAST & DEEP CLEA"
+     "key": "6797764175",
+     "name": "CarDash: Video Player for Cars",
+     "url": "https://apps.apple.com/us/app/cardash-video-player-for-cars/id6797764175?uo=2",
+     "about": "Watch your videos while parked. Score your drives. Review where you have been. CarDash brings Cast, Drive, Widgets and Sounds together in one app. Play your own media on compatible CarPlay displays, r"
     }
    ],
    "awesome": []
@@ -1888,307 +1853,235 @@
   "cost_micros": 0,
   "terms": [
    {
-    "term": "render sandboxes",
+    "term": "zerg client",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/render",
-     "A computer for every agent Discussion | Link"
+     "https://www.producthunt.com/products/zerg",
+     "The coding agent harness that drives its own terminal panes Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Render Sandboxes"
+     "Product Hunt: Zerg Client"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "kosa8",
+    "term": "living brain",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/kosa8",
-     "Air-gapped microVM sandboxes for enterprise AI agents Discussion | Link"
+     "https://www.producthunt.com/products/chatandbuild",
+     "Interoperable, efficient memory layer for agentic AI Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: kosa8"
+     "Product Hunt: Living Brain"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "orphex mcp",
+    "term": "glasshand",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/orphex-mcp-let-s-do-agentic-marketing",
-     "Run your entire digital marketing stack via one unified MCP Discussion | Link"
+     "https://www.producthunt.com/products/glasshand",
+     "Give your agent a real iPhone and Mac Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Orphex MCP"
+     "Product Hunt: Glasshand"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "fileforensics",
+    "term": "cc auto review",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/fileai-ai-ocr",
-     "Real or not? Check files before your AI trusts them. Discussion | Link"
+     "https://www.producthunt.com/products/cc-auto-review",
+     "macOS app that reviews GitHub PRs w/ your local Claude Code Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: fileForensics"
+     "Product Hunt: CC Auto Review"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "rungle",
+    "term": "seamcult",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/rungle",
-     "Turn your running photos and clips into share-ready Reels Discussion | Link"
+     "https://www.producthunt.com/products/seamcult",
+     "A pattern design tool for the LLM era ('paper' for patterns) Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Rungle"
+     "Product Hunt: Seamcult"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "eyecon",
+    "term": "rerun",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/eyecon-auto-pause-video",
-     "Auto pause video when you look away Discussion | Link"
+     "https://www.producthunt.com/products/rerun-2",
+     "Turn your AI subscriptions into a team of coworkers Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Eyecon"
+     "Product Hunt: Rerun"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "country filter for x",
+    "term": "pushary for teams",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/country-filter-for-x-2",
-     "Hide posts from chosen countries in your X For You feed Discussion | Link"
+     "https://www.producthunt.com/products/pushary",
+     "See who said yes to your team’s AI agents Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Country Filter for X"
+     "Product Hunt: Pushary for Teams"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "sendu",
+    "term": "stitch.ai",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/sendu",
-     "Drop files easily across your local network Discussion | Link"
+     "https://www.producthunt.com/products/stitch-ai",
+     "Your AI workspace for mail, calendar, notes, tasks and more Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Sendu"
+     "Product Hunt: Stitch.ai"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "datashake mcp",
+    "term": "textkit",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/datashake-hub",
-     "Plug review and social data straight into your AI assistant Discussion | Link"
+     "https://www.producthunt.com/products/textkit-2",
+     "Send + receive texts in the US and Canada with a simple API Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Datashake MCP"
+     "Product Hunt: TextKit"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "pasteguard for mac",
+    "term": "paws",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/pasteguard-2",
-     "Keep secrets and personal data out of AI chats Discussion | Link"
+     "https://www.producthunt.com/products/paws",
+     "Meet strangers through their cats, behind frosted glass Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: PasteGuard for Mac"
+     "Product Hunt: Paws"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "hackertv",
+    "term": "after a decade of reversing, i got co-op working in dos wing commander",
     "recent": 1,
     "about": [
-     "https://hackertv.org",
-     "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels"
+     "https://fireflyk64.github.io/wcmulti/",
+     "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander"
     ],
     "examples": [
-     "Show HN: HackerTV"
+     "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "kairos",
+    "term": "i built a tool that prices a pre-built pc part by part",
     "recent": 1,
     "about": [
-     "https://github.com/finic-ai/kairos",
-     "Show HN: Kairos – Open-source risk and fraud decisioning platform"
+     "https://pcdealcheck.com/",
+     "Show HN: I built a tool that prices a pre-built PC part by part"
     ],
     "examples": [
-     "Show HN: Kairos"
+     "Show HN: I built a tool that prices a pre-built PC part by part"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "uncracked city, detective game where you question llm suspects that lie",
+    "term": "codemap",
     "recent": 1,
     "about": [
-     "https://uncracked.city",
-     "Show HN: Uncracked City, detective game where you question LLM suspects that lie"
+     "https://github.com/peterretief/codemap",
+     "Show HN: Codemap – one-page interactive map of any Go repository"
     ],
     "examples": [
-     "Show HN: Uncracked City, detective game where you question LLM suspects that lie"
+     "Show HN: Codemap"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "hackerchurn",
+    "term": "gauge",
     "recent": 1,
     "about": [
-     "https://hissingkitty.com/hacker-churn",
-     "Show HN: HackerChurn – which SaaS tools HN wants to cancel"
+     "https://github.com/gauge-sh/gauge-cli",
+     "Show HN: Gauge – Open-Source CLI to recursively improve your docs"
     ],
     "examples": [
-     "Show HN: HackerChurn"
+     "Show HN: Gauge"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "interactive notes on rlhf, attention, lora and llm evals",
+    "term": "ricursiveai/ripple-65b-preview",
     "recent": 1,
     "about": [
-     "https://concepts.laxmena.com/",
-     "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals"
+     "https://openrouter.ai/ricursiveai/ripple-65b-preview",
+     "Ripple-65B-Preview by ricursiveAI, a 65B model with native tool calling, served in BF16."
     ],
     "examples": [
-     "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "pywolf3d, a wolfenstein3d clone written from scratch in python",
-    "recent": 1,
-    "about": [
-     "https://github.com/atifcodesalot/pyWolf3D",
-     "Show HN: PyWolf3D, a wolfenstein3D clone written from scratch in Python"
-    ],
-    "examples": [
-     "Show HN: PyWolf3D, a wolfenstein3D clone written from scratch in Python"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "hy4",
-    "recent": 1,
-    "about": [
-     "https://openrouter.ai/tencent/hy4",
-     "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-hor"
-    ],
-    "examples": [
-     "OpenRouter: Hy4"
+     "OpenRouter: ricursiveAI/Ripple-65B-Preview"
     ],
     "note": "OpenRouter 新上架"
    },
    {
-    "term": "crouton alpha",
+    "term": "auto code",
     "recent": 1,
     "about": [
-     "https://openrouter.ai/stealth/crouton-alpha",
-     "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated "
+     "https://openrouter.ai/openrouter/auto-code",
+     "Auto Code is OpenRouter’s router built specifically for coding agents and harnesses. It uses the same routing engine as the [Auto Router](https://openrouter.ai/openrouter/auto), with every request tre"
     ],
     "examples": [
-     "OpenRouter: Crouton Alpha"
+     "OpenRouter: Auto Code"
     ],
     "note": "OpenRouter 新上架"
    },
    {
-    "term": "chatbot app: ai assistant",
+    "term": "photo recovery: deleted files",
     "recent": 1,
     "about": [
-     "https://apps.apple.com/us/app/chatbot-app-ai-assistant/id6711347033?uo=2",
-     "Chatbot App brings advanced AI models together in one intuitive app for writing, learning, coding, creativity, and productivity. Built on OpenAI GPT-6, Google Gemini 3.8 Flash, Anthropic Claude Fable "
+     "https://apps.apple.com/us/app/photo-recovery-deleted-files/id1482562954?uo=2",
+     "Ever lost a treasured photo, a memory so precious you believed it was gone forever? Welcome to a world where such nightmares are no more – introducing ‘Photo Recovery’. Whether you’re a professional p"
     ],
     "examples": [
-     "App Store: Chatbot App: AI Assistant"
+     "App Store: Photo Recovery: Deleted Files"
     ],
     "note": "App Store 新上架"
    },
    {
-    "term": "bazaart ai photo editor design",
+    "term": "wallpics - live wallpapers 4k",
     "recent": 1,
     "about": [
-     "https://apps.apple.com/us/app/bazaart-ai-photo-editor-design/id515094775?uo=2",
-     "Bazaart is an easy-to-use AI photo editor, video editor, and design app. No design background needed. Create fast for online selling, digital marketing, and social media. Get your design superpowers t"
+     "https://apps.apple.com/us/app/wallpics-live-wallpapers-4k/id6446832902?uo=2",
+     "Transform your iPhone into a personal masterpiece with Wallpics, the ultimate destination for stunning live wallpapers, DIY wallpaper maker, charging animations, photo widgets, and true 4K quality bac"
     ],
     "examples": [
-     "App Store: Bazaart AI Photo Editor Design"
+     "App Store: WallPics - Live Wallpapers 4K"
     ],
     "note": "App Store 新上架"
    },
    {
-    "term": "vids ai - reels video editor",
+    "term": "cardash: video player for cars",
     "recent": 1,
     "about": [
-     "https://apps.apple.com/us/app/vids-ai-reels-video-editor/id1634361180?uo=2",
-     "VIDS combines powerful AI with thousands of ready-made templates so you can make trending content in just a few taps. Start with an AI template or style — the app instantly syncs your clips with music"
+     "https://apps.apple.com/us/app/cardash-video-player-for-cars/id6797764175?uo=2",
+     "Watch your videos while parked. Score your drives. Review where you have been. CarDash brings Cast, Drive, Widgets and Sounds together in one app. Play your own media on compatible CarPlay displays, r"
     ],
     "examples": [
-     "App Store: Vids AI - Reels Video Editor"
-    ],
-    "note": "App Store 新上架"
-   },
-   {
-    "term": "ai video generator + creator",
-    "recent": 1,
-    "about": [
-     "https://apps.apple.com/us/app/ai-video-generator-creator/id6446647507?uo=2",
-     "AI Video Generator lets you turn your ideas into AI Videos using advanced artificial intelligence. Our AI Video Generator tool provides high-quality AI Videos - make AI Videos with AI Video Generator."
-    ],
-    "examples": [
-     "App Store: AI Video Generator + Creator"
-    ],
-    "note": "App Store 新上架"
-   },
-   {
-    "term": "word swag - cool fonts",
-    "recent": 1,
-    "about": [
-     "https://apps.apple.com/us/app/word-swag-cool-fonts/id645746786?uo=2",
-     "Congrats on finding the original Word Swag™ - the easiest and most beautiful graphic design editor. INTRODUCING REALFONTS Make your words irresistible with unbelievably fun RealFonts! With never-befor"
-    ],
-    "examples": [
-     "App Store: Word Swag - Cool Fonts"
-    ],
-    "note": "App Store 新上架"
-   },
-   {
-    "term": "tv remote control · universal",
-    "recent": 1,
-    "about": [
-     "https://apps.apple.com/us/app/tv-remote-control-universal/id6757016336?uo=2",
-     "Introducing TV Remote Control · Universal – the simplest and fastest way to control your TV directly from your iPhone. Turn your phone into a smart, reliable TV remote you can use anytime, anywhere. •"
-    ],
-    "examples": [
-     "App Store: TV Remote Control · Universal"
-    ],
-    "note": "App Store 新上架"
-   },
-   {
-    "term": "smart cleaner: free up storage",
-    "recent": 1,
-    "about": [
-     "https://apps.apple.com/us/app/smart-cleaner-free-up-storage/id6448222268?uo=2",
-     "LET'S MAKE SPACE: CLEANING YOUR PHONE'S STORAGE HAS NEVER BEEN SMARTER! Smart Cleaner isn't just an app; it's a solution that turns storage cleanup into a quick, fun, and secure task. FAST & DEEP CLEA"
-    ],
-    "examples": [
-     "App Store: Smart Cleaner: Free Up Storage"
+     "App Store: CarDash: Video Player for Cars"
     ],
     "note": "App Store 新上架"
    }
   ],
-  "seconds": 5
+  "seconds": 6
  },
  "money": {
   "skipped": true
@@ -2200,51 +2093,51 @@
  "review": {
   "checked": [
    {
-    "term": "excalidraw architect",
+    "term": "gpt image 2.5",
     "first_seen": "2026-10-16",
-    "verdict": "no_data",
+    "verdict": "miss",
     "lead_days": null
    },
    {
-    "term": "flux 3 image klein",
+    "term": "gpt-live-1.1",
     "first_seen": "2026-10-16",
     "verdict": "hit",
     "lead_days": -1
    },
    {
-    "term": "flux 3 image klein comfy",
+    "term": "gpt-rosalind",
     "first_seen": "2026-10-16",
     "verdict": "hit",
-    "lead_days": 0
+    "lead_days": -6
    },
    {
-    "term": "git ai",
+    "term": "handwired",
     "first_seen": "2026-10-16",
     "verdict": "hit",
-    "lead_days": -3
+    "lead_days": -26
    },
    {
-    "term": "gpt image",
+    "term": "idapro",
     "first_seen": "2026-10-16",
-    "verdict": "miss",
-    "lead_days": null
+    "verdict": "hit",
+    "lead_days": 3
    }
   ],
   "cost_micros": 8400,
   "after_days": 14,
-  "seconds": 16
+  "seconds": 8
  },
  "summary": {
   "by_signal": {
    "breakout": {
-    "checked": 17,
-    "hit": 13,
-    "median_lead": -3
+    "checked": 18,
+    "hit": 14,
+    "median_lead": -3.0
    },
    "x": {
-    "checked": 1,
-    "hit": 0,
-    "median_lead": null
+    "checked": 4,
+    "hit": 2,
+    "median_lead": -3.5
    },
    "hf": {
     "checked": 2,
@@ -2252,199 +2145,36 @@
     "median_lead": -0.5
    },
    "sitemap": {
-    "checked": 5,
-    "hit": 1,
-    "median_lead": -25
+    "checked": 6,
+    "hit": 2,
+    "median_lead": -11.0
    }
   },
-  "pending": 451,
+  "pending": 480,
   "window_days": 60,
   "seconds": 0
  },
  "keywords": {
   "names": [
-   "pika h3 flex",
-   "agent autoloop",
-   "terminal mac",
-   "earshot",
-   "deepinfer"
+   "relion",
+   "rea video",
+   "lichii",
+   "google ai pro 2year zerocost auto",
+   "cleanyourtv"
   ],
   "rows": [
    {
-    "term": "pika h3 flex",
-    "phrase": "pika h3 flex",
+    "term": "lichii",
+    "phrase": "lichii",
     "kind": "name",
     "names": [],
     "brand": true,
     "evidence": "",
-    "no_data": false,
-    "base": 0,
-    "peak": 100,
-    "peak_day": "2026-10-31",
-    "rose": true,
-    "new": true,
-    "momentum": null,
-    "started": "2026-10-30",
-    "now": "rising",
-    "peak_vs": 29,
-    "bench_level": 56.3,
+    "no_data": true,
     "decision": "watch",
     "age": {
-     "first_seen": "2026-10-25",
+     "first_seen": "2022-10-30",
      "since_start": false,
-     "no_data": false,
-     "is_new": true
-    },
-    "is_new": true,
-    "markets": {
-     "by": {
-      "US": {
-       "volume": 0,
-       "kd": null
-      },
-      "DE": {
-       "volume": 0,
-       "kd": null
-      },
-      "FR": {
-       "volume": 0,
-       "kd": null
-      },
-      "JP": {
-       "volume": 0,
-       "kd": null
-      }
-     },
-     "best": null,
-     "top_region": {
-      "id": "JP",
-      "name": "Japan",
-      "value": 100
-     }
-    },
-    "competition": {
-     "verdict": "mixed",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "eased": true,
-     "location_code": 2840,
-     "results": [
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESfwHrOzAVQx8sSA4X7J8AhuX1p_RnUQXDm_LhNAN85iipkwrjGZXhKzBSzI6bAtRupTor-TVJ6fW1CDcNJ-8PLKGqNsUVqvjS_rN-PWjgOeYINGEpmp0xb_4tUtnvk5R4RjVqNa7LDGj32c-zp5qVxzv1n1qSPilUPm_JFSW0Q58",
-       "title": "Commits · Pika-Labs/Pika-H3-Flex",
-       "position": 1,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESzgEB6zswFQj4JSlxBhkUZ2IRTzz2NAd4NSv2zmSZvwhXHYKvS8E7r8TpCNB5iiXEBLp0BO2gbyFvxTp76lZGRj8Jts8yi7LpM0mvOalsKVsp0aQ4_ejQOc5RcI-qdHSHcmC7WYrYemvv7NCF6tkcU9_TD_kfTcKlB6tB0t-QYikC68y-5tl1FbV4ai5wHnPxfQUXs3moX5ZfoSxZ7osS8pkeEWYom3vsmbsllnJ9PkoU92VsjKTqFH7vvY82AAGtfmvrP3Foy_DFYm_ZOXvGOQ",
-       "title": "Pika Brings Multi-Reference H3 Flex Video Creation to Its ...",
-       "position": 2,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESYAHrOzAVswywiLeI-QrY5k-YDCYScMEA1GUB_6QAizaqwgaY7wRcDyAPAmcarNHkx0FFV-dplpHK7fKiPgEBbUn-ruSjhT_hfCRJVT0atl1lTiXU_G9au97ECKVCDk7WJg",
-       "title": "Pika H3 Flex Review: Speed, Audio Stems, Pricing and Limits",
-       "position": 3,
-       "kind": "list",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESuAEB6zswFZ_CESxJVb2z7k4AxU7OcrPsODtrEiCV0otlLRGLm-908TlvhZX8SCouVh08vzjuGeFSodF3oMQppwp1WYiSRKWezLSPKItDD114Y3rKVSskvrsWN1l5ZbWwRxEHyeRPAZ_fe0g_gYB7FyjguAG3kFxAHqm883Qwle82PmDLBrCcNPS-zyLmV7LyaJFvXRU03vebweBcvMzaME8Z_Hjp7Z939gmE9GbD4Pqit7KHxF6bfOAM",
-       "title": "Pika H3 Flex: Open Video Model, 6 Steps, #7 DesignArena",
-       "position": 4,
-       "kind": "list",
-       "dr": null
-      },
-      {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESbwHrOzAVO5ysb9L7ZkWWTyBOGkTsB8mVs5jCpwkmP2A4ajg0sEQB4QpmL6kKQMElVHqbIjUeuQnH5ic330M_sbXBQwRfGzKz1vzYJms-IyTdx8Jy_azZSotKIZGqEI2RMR_vs4hGNnk6kJF57vUX_w",
-       "title": "Pika H3 Flex: Pika's Open 6-Step MiniMax H3 Video Model",
-       "position": 5,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "huggingface.co",
-       "url": "https://huggingface.co/Woovee/pika-h3-flex-runpod/tree/main",
-       "title": "Woovee/pika-h3-flex-runpod at main",
-       "position": 6,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "grainzilla.com",
-       "url": "https://grainzilla.com/pika-h3-flex-is-an-open-weights-ai-video-model-with-native-audio-and-six-step-generation-but-it-wants-an-h100-and-comes-with-a-license/",
-       "title": "Pika H3 Flex: Open-Weights AI Video With Native Audio",
-       "position": 7,
-       "kind": "article",
-       "dr": null
-      },
-      {
-       "domain": "huggingface.co",
-       "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex/commits/main/ref2va",
-       "title": "Commits · Pika-Labs/Pika-H3-Flex",
-       "position": 8,
-       "kind": "article",
-       "dr": null
-      }
-     ],
-     "kinds": {
-      "article": 6,
-      "list": 2
-     },
-     "features": [
-      "ai_overview",
-      "video"
-     ],
-     "forums": [],
-     "weakest": null,
-     "tools": []
-    },
-    "page_age": {
-     "dated": 6,
-     "young": 0,
-     "young_sites": [],
-     "newest": "2013-11-29",
-     "entered": {
-      "since": "",
-      "urls": []
-     }
-    },
-    "yours": {
-     "serp": null,
-     "console": null,
-     "action": "new"
-    }
-   },
-   {
-    "term": "earshot",
-    "phrase": "earshot",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": false,
-    "base": 19.8,
-    "peak": 100,
-    "peak_day": "2026-11-01",
-    "rose": true,
-    "new": false,
-    "momentum": 1.6,
-    "started": "2026-10-27",
-    "now": "rising",
-    "peak_vs": 41,
-    "bench_level": 67.2,
-    "decision": "watch",
-    "age": {
-     "first_seen": "2021-11-07",
-     "since_start": true,
      "no_data": false,
      "is_new": false
     },
@@ -2452,114 +2182,137 @@
     "markets": {
      "by": {
       "US": {
-       "volume": 3600,
-       "kd": 21
+       "volume": 50,
+       "kd": null
       },
       "DE": {
-       "volume": 170,
-       "kd": 26
+       "volume": 40,
+       "kd": 23
       },
       "FR": {
-       "volume": 90,
-       "kd": 12
+       "volume": 20,
+       "kd": null
       },
       "JP": {
-       "volume": 210,
-       "kd": 3
+       "volume": 10,
+       "kd": null
       }
      },
      "best": "US",
      "top_region": {
-      "id": "CA",
-      "name": "Canada",
-      "value": 55
+      "id": "NL",
+      "name": "Netherlands",
+      "value": 100
      }
     },
     "competition": {
-     "verdict": "mixed",
+     "verdict": "crowded",
      "weak": null,
-     "kd": 21,
+     "kd": null,
      "ads": false,
      "eased": false,
      "location_code": 2840,
      "results": [
       {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAEShwEB6zswFaNb4v_o0dIOdzOavWky-2jma9cfhBVPZ4-LI5CYsGo9639UC8wJwZPaLSqV61Llcut7aOZvzV5DSct6FKzY9Hv_ST9RvT5Jzo2y_TuNPh6BWXK7MXp3BsxSoE_IKVWN1yJ198xlA1xU_I3B_lBUkZHfmwIxjack2OsUf6nHwkqIKPU",
-       "title": "Anyone listen to Earshot? : r/numetal",
+       "domain": "x.com",
+       "url": "https://x.com/Zortosdev/status/2117395180613496832",
+       "title": "Post",
        "position": 1,
-       "kind": "article",
+       "kind": "forum",
        "dr": null
       },
       {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESUgHrOzAVhkBXxjbb9JR2gS7UVrYtW4o5erGvK2wKmi60YbS6nwf7O8VYkV3olij46_e7F6wFwvwebBlLf1j35uPjX7Gyg8RWI9cJ3RzxZ9uo2Kw",
-       "title": "Earshot — On-device live captions for iPhone",
+       "domain": "soundcloud.com",
+       "url": "https://soundcloud.com/iamlichii",
+       "title": "Lichii",
        "position": 2,
        "kind": "article",
        "dr": null
       },
       {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESZwHrOzAVyWma-0znjHUkFe7uYRBj01zrBTjake3qJUUyi-kOk9lcOzLQWLBWRxYDeRAOpm2C1sChKZvA_UdNT3QWyTJA5hBDmfVHZNdsPhrTArhdYA8Drjbm7qmZZ3dO34mJ2Dl6iyM",
-       "title": "EARSHOT - Been A Long Time - (Official Music Video)",
+       "domain": "instagram.com",
+       "url": "https://www.instagram.com/lichii.app/",
+       "title": "lichi (@lichii.app) · Anchorage, AK - meal planner",
        "position": 3,
-       "kind": "article",
+       "kind": "tool",
        "dr": null
       },
       {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESZAHrOzAVhZQNXeZv78l0SuF3IbbEXtRYERhfu7eBoFQJpVAhvQ5L2FK0CnOibt0j7nrD9BqpcuUNvil5NtwuVUSnEumaQ_Md8Jvs8gXeP1xA6rbDXyM6ZhP5Z1rW2EJT_nrD9mQ",
-       "title": "earshot, n. meanings, etymology and more",
+       "domain": "x.com",
+       "url": "https://x.com/PixelCNinja/status/2117628448248094743",
+       "title": "Post",
        "position": 4,
-       "kind": "article",
+       "kind": "forum",
        "dr": null
       },
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESbAHrOzAVa2T4NucnFSVjJsCHMPyyJ90HzoHKtgSu3bCXJPwIOruTCxw_4inXwwheNa9NPJzGB6AMpt9JtFftf7DjN0A8YyZOlGyLj_9nRssW-Er-_HjjHStNLc7bUBMf-ATX-UNaRPNCQsMSRw",
-       "title": "Earshot",
+       "url": "https://google.com/goto?url=CAESWgHEIkXXTfitp84adGo2JEa-39AJvcm_Cygh8la_N1z2f84Tk05Bilz48gVgmAsrkVuTIF7ox5BVGQxSRTv6DV9782rXjivlL5OUFcVkvEMIjE_Si0E-Ar01xQ",
+       "title": "Stream lichii music | Listen to songs, albums, playlists for ...",
        "position": 5,
        "kind": "article",
        "dr": null
       },
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESZAHrOzAVvx9M9R7yf8BBqR-WnvpQ3CcEV0LAAIA0WleqnV05AVeW6HqaiNgCSBS747R9_nwHKzVUXBtHtJtCnaxLpkOQX41bj2qOXO-_hTBkFjZ-_1XZcnV760ODVU7euhe-k8E",
-       "title": "Earshot Songs",
+       "url": "https://google.com/goto?url=CAESoQEBxCJF1w6s0qZ9m3RQrzCUhKG2H6uGV-p32trtayuEmcJIeLEuV1eQqXS_1OFxEo3S5RoOe6zCFgdJ7--vR5k58RzRCXS3uRFnPeFcrhJcW7-80OKjFM1Hxm6RpUdFe0JUSQqKWIC-m7fFQoQ6YETBUbmNwudW06_ghBj54hC_S4J53kKy5iap3PzmfTcX8elj3DHqF8e6uLdqQxiRl4bdLA",
+       "title": "The Legend of Zelda - Emulador Switch 2 Eglantine Lichii 76",
        "position": 6,
+       "kind": "list",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESaAHEIkXXT4Pp1EdbhYNCc_i0oqyMN2Zds4kDKZnFTIHXx1rrgLvP0KyYHYtB6bjNmWAhbXsodv38wIuBhNjemgD3qamFHlYlsSDxz2-cfOiq607kvAQ-_C4mOSmtUG4SrBLGZPr5h7Y8",
+       "title": "Lichii Salinas (@x.lichii.x) • Instagram photos and videos",
+       "position": 7,
        "kind": "article",
        "dr": null
       },
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESywEB6zswFap8y0ehCJMNGapqmt-h8oDcWDyMpCDo67kzXBLPgvZh5TI5e_A2OrjaZaLvE7kJ3uV5qnonlbwBlxSzsAPfEH4w5CoM5ugARtzSCJ5cXKE0pqgbD_-8VXD0tl9MDsUWoYkR1zdYG5tEGonMWwZDUDo5_66hH_pcWOt-5iGA_tZsM-aSzPVSdK6-eefzQuy-iSPAV0rIAvQnafR8JQgHXe3EpXAJxhviIxDjrGhoWSnXI9sHrfYj5itD01BmycvtONgkh0Bo4Q",
-       "title": "EARSHOT: THE MISSING LINK LOST BETWEEN TWO ...",
-       "position": 7,
+       "url": "https://google.com/goto?url=CAESXgHEIkXXnpCRNVx5k6NbOu4jUJ3bn_ne1yqK3kuhZIIu5bJScbVCZmD-Lvr2yQWMGPxWY68CbmmeGOrYibBFAOUUkikfduufghrsaBVojZokzIZf6x-t8-YioWirUdA",
+       "title": "Lisa (@lichii) • Instagram photos and videos",
+       "position": 8,
        "kind": "article",
        "dr": null
       }
      ],
      "kinds": {
-      "article": 7
+      "forum": 2,
+      "article": 4,
+      "tool": 1,
+      "list": 1
      },
      "features": [
-      "ai_overview",
-      "knowledge_graph",
-      "people_also_ask",
-      "perspectives",
-      "related_searches",
-      "video"
+      "images",
+      "perspectives"
      ],
-     "forums": [],
+     "forums": [
+      {
+       "url": "https://x.com/Zortosdev/status/2117395180613496832",
+       "title": "Post",
+       "domain": "x.com"
+      },
+      {
+       "url": "https://x.com/PixelCNinja/status/2117628448248094743",
+       "title": "Post",
+       "domain": "x.com"
+      }
+     ],
      "weakest": null,
-     "tools": []
+     "tools": [
+      {
+       "domain": "instagram.com",
+       "dr": null
+      }
+     ]
     },
     "page_age": {
-     "dated": 7,
+     "dated": 8,
      "young": 0,
      "young_sites": [],
-     "newest": "1997-09-15",
+     "newest": "2005-07-25",
      "entered": {
       "since": "",
       "urls": []
@@ -2572,29 +2325,19 @@
     }
    },
    {
-    "term": "deepinfer",
-    "phrase": "deepinfer",
+    "term": "google ai pro 2year zerocost auto",
+    "phrase": "google ai pro 2year zerocost auto",
     "kind": "name",
     "names": [],
     "brand": true,
     "evidence": "",
-    "no_data": false,
-    "base": 0,
-    "peak": 100,
-    "peak_day": "2026-10-21",
-    "rose": true,
-    "new": true,
-    "momentum": 0.6,
-    "started": "2026-10-20",
-    "now": "holding",
-    "peak_vs": 100,
-    "bench_level": 36.6,
+    "no_data": true,
     "decision": "watch",
     "age": {
-     "first_seen": "2022-04-03",
+     "first_seen": null,
+     "is_new": false,
      "since_start": false,
-     "no_data": false,
-     "is_new": false
+     "no_data": true
     },
     "is_new": false,
     "markets": {
@@ -2629,85 +2372,96 @@
      "results": [
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESZQHrOzAVSp9NKLy2T68RU9zXhNRvqLm4hIRWqQ1fneCRF3LSTEfzi5g0Q6YkSwIqRIi4yHDtr-z3M1ILhkLG7WThTaFyEi9ys-bScoVsmn7gWbS3-DWlhE_C_cp4au8E70Tsq7Po",
-       "title": "DeepInfer: High-performance, large-scale inference ...",
+       "url": "https://google.com/goto?url=CAESlwEBxCJF1_PMnYAmO40MgyStUcFJY3xCutTDcr9kUZRPOQWkjhgG-iRmVNhB8zAkxNlAPSyQSYCESMna4F48XwR1FV25brySPPxdQRzfmAtxwX4a0-7ErQ6J563rWBMwgiMv9e41j4lReQdBrmHWe_M48-oJ3bY0xdbxixcTdTZiNnhDyNc9iastg65u2XagMFekz00KVDUc",
+       "title": "A trick to get Google one AI pro for cheap : r/Bard",
        "position": 1,
        "kind": "article",
        "dr": null
       },
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESmgEB6zswFcamE0rh3DoLQBxbYSmTfcYSGdEoy4oJvoHYIdnSy_SWd0YG7VnlT7aqRbHf4eQR5PEtys1vOrGuVoTcKxtLQ5meXYrpB9Ok9C2aSaeqveac6hitJl-63MgtALcS3Q5b3kSKgYccJr1afyi3269F8PuiZUAlveWPUE2nSInwOuJvkOqB83bEJeKgMJx1moFATYrioUTX",
-       "title": "Deepseek released DeepInfer - Open Source high- ...",
+       "url": "https://google.com/goto?url=CAESaAHEIkXXNgs0dw7uK7ugZk2RY-YdATQkWEr3xmqp-NrYCDDf8PY-_3yoau9yztA1PZwaXxU-9TjZvsPoniKuFwi-EEaDI1DEVm6Wf5sITGv9lFJhhmtExelh85cMmBsPKbEdLZAjH6Pd",
+       "title": "Google One AI Pro: Is It Worth It? Complete Overview",
        "position": 2,
        "kind": "article",
        "dr": null
       },
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESWQHrOzAVMeHt5S2LcqCy-84jm06LLI20o2Uc1n8YcpxDTMbPsKpxsB4anLU1Zuq0thf7B7UYAJWSartH-6BqdCWOzK_bW0lKnswJFs8cqc0c0xbmXcKRWEUK",
-       "title": "DeepInfer",
+       "url": "https://google.com/goto?url=CAESaAHEIkXXMRzSjcivfhBqx_XZUzwNXNOLDJtgpQv2GXOYDRFCp6WA7-qhx4eTAcnlVb5sqdSlMGTmKt1b0GJQoe9AKhIqQoA35nx02SvF0REfvxX_GeXCtJ64lp1mIDplPYtBFVT8lzLw",
+       "title": "How to Get Google AI Pro FREE for 1 Year trail ?",
        "position": 3,
-       "kind": "article",
+       "kind": "list",
        "dr": null
       },
       {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESygEB6zswFeJdUF0-D9RJ_v2CcpdvBAXu70Jj-pIpb2FUzP-xAAQhDQJUzEkxzdI0k5XN1aelSo-XY6ZYq41Y8ZphCPjKgXZlP0B3d1KaL9d-ZFMzT2XRwIupKeXUP03EYbKrDEskP9QBNjbj_eOYD9Hes7tM22b8omZvNlqxsd1uvCb0i1nB9yAEp43smuljM6Yed69iN2-YJ5T9ae3MXkGZiw8zVPpoxI_USaqDxHx9sEE4I7_ZaF6snvVoRb98U0yuBu1PrVawcVqF",
-       "title": "What is DeepSeek DeepInfer? The Inference Engine ...",
+       "domain": "tech.yahoo.com",
+       "url": "https://tech.yahoo.com/ai/gemini/articles/google-100-ai-ultra-plan-174500169.html",
+       "title": "Google's new $100 AI Ultra plan just changed the AI race",
        "position": 4,
-       "kind": "article",
+       "kind": "list",
        "dr": null
       },
       {
-       "domain": "x.com",
-       "url": "https://x.com/deepseek_ai/status/2112476496283775135",
-       "title": "DeepSeek",
+       "domain": "gamsgo.com",
+       "url": "https://www.gamsgo.com/blog/gemini-pro-discount",
+       "title": "How to Get Gemini Pro for Less in 2026 (7 Proven Ways)",
        "position": 5,
-       "kind": "forum",
+       "kind": "list",
        "dr": null
       },
       {
        "domain": "google.com",
-       "url": "https://google.com/goto?url=CAEShwEB6zswFSv3lpPZcmnOW8BAj8tJYDdfiTg3ImQIrByjx06-1WxoMSBGG76-d-5Xx5r5Q5gEmYm-K7SPe9s82ZTgVhQCFKzH0hbfOmBS6OP1KOHZJIcRc5mktTgvYV8VxZ3SI45QCvvk0Le2fYi4Mh_Yz770Goi4ZigC6ONZOMxuoXe3xkhksAw",
-       "title": "DeepSeek open-sources DeepInfer software for running its AI ...",
+       "url": "https://google.com/goto?url=CAEScwHEIkXXtJBMQpKCUlRHJ7hYU5yXWyUsR7ViAHXXc8iF825H3IT6hzdyyUbB5HQRwwlpIGJRqonao6limGHEusmKRSEwIodP2GULG0G8_3-M6P9K4PyZInV6kdBuT5NV_OU0fYTzEeOW_WsFQiZt8Ts3xgo",
+       "title": "Google announces 'AI Pro' and new $250/month 'Ultra' ...",
        "position": 6,
        "kind": "article",
        "dr": null
       },
       {
-       "domain": "google.com",
-       "url": "https://google.com/goto?url=CAESjgEB6zswFTnh2OMH0C98jT839xSklhvGiYLlwO5l1ab07V3u9siGpfoFQogpXQ7ePzclgQ0KOQIDauelKMe0KLLtlQUiQo0nfy_nu6j0qFV-5AhFxeWPbxD0MiuCnuxumE3-lOrICYlPJpR_nz2_2stzmEpfDG70-Q-Me5jv3wc5lva8gf8raZrOxbrx1E4E",
-       "title": "DeepSeek Open-Sources DeepInfer, Powers V4.1-Flash [2026]",
+       "domain": "jaideepass.com",
+       "url": "https://www.jaideepass.com/guides/google-ai-pro-pricing?srsltid=AYCX9vIcXHZ1PzGTVlPID21Qe-X-JKVZusHyvRd6uL1ZPhWpbGU8xMKI",
+       "title": "Google AI Pro Pricing 2026 | Save 71% on 12 Months",
        "position": 7,
+       "kind": "list",
+       "dr": null
+      },
+      {
+       "domain": "youtube.com",
+       "url": "https://www.youtube.com/watch?v=oysFYxetYL4",
+       "title": "How to get 1 Month FREE subscription to Google AI pro",
+       "position": 8,
+       "kind": "video",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESlgEBxCJF16KGMpjNbuV_Hi93jFIP5NNaf-MFLt6fH21tG0A7rLnkhO6CkODDusmnxJYSisfr2BJ7cDYwfpgoOArk0kJCO3jGXnVNN1cGmO6I0ZmUYVsoh2U2DJQbutYZXoiNa_G6bVUVcl_DEQgE5sHvOeDCpF0D3gWC0bgWAzkJt1VfqEs5-HJQBGX7wCRIWa4S9A2wjY4",
+       "title": "Google AI Pro Price 2026: $19.99/Month Explained",
+       "position": 9,
        "kind": "article",
        "dr": null
       }
      ],
      "kinds": {
-      "article": 6,
-      "forum": 1
+      "article": 4,
+      "list": 4,
+      "video": 1
      },
      "features": [
       "ai_overview",
-      "related_searches",
-      "video"
+      "people_also_ask",
+      "related_searches"
      ],
-     "forums": [
-      {
-       "url": "https://x.com/deepseek_ai/status/2112476496283775135",
-       "title": "DeepSeek",
-       "domain": "x.com"
-      }
-     ],
+     "forums": [],
      "weakest": null,
      "tools": []
     },
     "page_age": {
-     "dated": 7,
+     "dated": 9,
      "young": 0,
      "young_sites": [],
-     "newest": "1997-09-15",
+     "newest": "2025-03-28",
      "entered": {
       "since": "",
       "urls": []
@@ -2720,51 +2474,560 @@
     }
    },
    {
-    "term": "agent autoloop",
-    "phrase": "agent autoloop",
+    "term": "cleanyourtv",
+    "phrase": "cleanyourtv",
     "kind": "name",
     "names": [],
     "brand": true,
     "evidence": "",
+    "no_data": true,
+    "decision": "watch",
+    "age": {
+     "first_seen": "2022-05-22",
+     "since_start": false,
+     "no_data": false,
+     "is_new": false
+    },
+    "is_new": false,
+    "markets": {
+     "by": {
+      "US": {
+       "volume": 0,
+       "kd": null
+      },
+      "DE": {
+       "volume": 0,
+       "kd": null
+      },
+      "FR": {
+       "volume": 0,
+       "kd": null
+      },
+      "JP": {
+       "volume": 0,
+       "kd": null
+      }
+     },
+     "best": null,
+     "top_region": {
+      "id": "NL",
+      "name": "Netherlands",
+      "value": 24
+     }
+    },
+    "competition": {
+     "verdict": "crowded",
+     "weak": null,
+     "kd": null,
+     "ads": false,
+     "eased": false,
+     "location_code": 2840,
+     "results": [
+      {
+       "domain": "youtube.com",
+       "url": "https://www.youtube.com/watch?v=BhguEwXKOyE&vl=en",
+       "title": "CleanYourTV: 22K Stars Insane Apple TV Hack [2026]",
+       "position": 1,
+       "kind": "video",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESZwHEIkXXyy58IhPD-6rQNbnJnpkot3CRx7rBQvZojxC9K4ZjRU-pjGGk49rXyh9yCeXj97Y4LKMBkNAaPRPFMjiogprASCUSdqTXpShrqjuBWrJe5ZuwFXpN4xuvTrX2MVpn4Coi9U8",
+       "title": "CleanYourTV Strips Ads From 54 Smart TVs Free #Shorts",
+       "position": 2,
+       "kind": "list",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESXQHEIkXXqjkD6g1zNUqMPxKdCq0mg4KAISJ96BEE_wvmjplbk4u1k8_RJ6_TEk0TBtWQtFk_PHq2OVzhhCPWRuOhkdd7PRQKQ3CoAkYcE8TJHjfz-XMzJ4fE1X6Xzg",
+       "title": "Community-built phone app for Clean Your TV",
+       "position": 3,
+       "kind": "tool",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESaAHEIkXXllnsgwnxUNftZ25UM7wD5CDb1Ih7m7EVset4SjtVRnvQXOroDAKURazZ0546XPquPkLjmbVGmO_yARzS881tGOMHTAZVvMGmU_Zgp1erw5LDkFPiezke1fvHxyWoYEuNAsCS",
+       "title": "Your Smart TV is smart enough. So why are you dealing with ...",
+       "position": 4,
+       "kind": "article",
+       "dr": null
+      },
+      {
+       "domain": "reddit.com",
+       "url": "https://www.reddit.com/r/Tizen/comments/1xak62o/cleanyourtv_question/",
+       "title": "CleanyourTV question : r/Tizen",
+       "position": 5,
+       "kind": "forum",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "url": "https://google.com/goto?url=CAESjQEBxCJF13-1gTyzEg5gedii4SFrAIjj9me6Rq8qt0G5E826YEmwR3sTCeJmAp7IDpzG1ByZWnZUjN_9T4RykbKLbnUNxpzxyCimrXFyMfoiZLiBjbjfzEfwF3foMqCoi8gqu8vRPj1-wUHQ2crsmCZEh3839VLa37HrrVMJs-L8aeua7O7QbqvBcqTJ3ys",
+       "title": "How to Download CleanYourTV App for Android",
+       "position": 6,
+       "kind": "tool",
+       "dr": null
+      },
+      {
+       "domain": "blog.daviddh.dev",
+       "url": "https://blog.daviddh.dev/posts/cleanyourtv-debloats-android-tv-and-replaces-its-home-screen/",
+       "title": "cleanyourtv Debloats Android TV and Replaces Its Home ...",
+       "position": 7,
+       "kind": "article",
+       "dr": null
+      },
+      {
+       "domain": "vocus.cc",
+       "url": "https://vocus.cc/article/6ad814e1fd89780001ca9516",
+       "title": "告別煩人廣告！用CleanYourTV 把你的Android TV 變成 ...",
+       "position": 8,
+       "kind": "article",
+       "dr": null
+      }
+     ],
+     "kinds": {
+      "video": 1,
+      "list": 1,
+      "tool": 2,
+      "article": 3,
+      "forum": 1
+     },
+     "features": [
+      "ai_overview",
+      "video"
+     ],
+     "forums": [
+      {
+       "url": "https://www.reddit.com/r/Tizen/comments/1xak62o/cleanyourtv_question/",
+       "title": "CleanyourTV question : r/Tizen",
+       "domain": "reddit.com"
+      }
+     ],
+     "weakest": null,
+     "tools": [
+      {
+       "domain": "google.com",
+       "dr": null
+      },
+      {
+       "domain": "google.com",
+       "dr": null
+      }
+     ]
+    },
+    "page_age": {
+     "dated": 8,
+     "young": 0,
+     "young_sites": [],
+     "newest": "2024-10-09",
+     "entered": {
+      "since": "",
+      "urls": []
+     }
+    },
+    "yours": {
+     "serp": null,
+     "console": null,
+     "action": "new"
+    }
+   },
+   {
+    "phrase": "nintendo switch emulator",
+    "evidence": "Lichii es un emulador experimental de código abierto de Nintendo Switch y Switch 2 escrito en C++",
+    "brand": true,
+    "source": "model",
+    "relevance": 0.88,
+    "is_name": false,
+    "established": false,
+    "term": "nintendo switch emulator",
+    "kind": "generic",
+    "names": [
+     "lichii"
+    ],
+    "volume": 18100,
+    "month": "2026-09",
+    "months": [
+     [
+      "2025-10",
+      22200
+     ],
+     [
+      "2025-11",
+      14800
+     ],
+     [
+      "2025-12",
+      14800
+     ],
+     [
+      "2026-01",
+      14800
+     ],
+     [
+      "2026-02",
+      12100
+     ],
+     [
+      "2026-03",
+      14800
+     ],
+     [
+      "2026-04",
+      33100
+     ],
+     [
+      "2026-05",
+      22200
+     ],
+     [
+      "2026-06",
+      18100
+     ],
+     [
+      "2026-07",
+      27100
+     ],
+     [
+      "2026-08",
+      14800
+     ],
+     [
+      "2026-09",
+      12100
+     ]
+    ],
     "no_data": false,
-    "base": 0,
+    "base": 20.4,
     "peak": 100,
-    "peak_day": "2026-10-07",
+    "peak_day": "2026-10-24",
+    "rose": true,
+    "new": false,
+    "momentum": 1.1,
+    "started": "2026-10-24",
+    "now": "fading",
+    "peak_vs": 100,
+    "bench_level": 49.9,
+    "per_day": 1139,
+    "decision": "skip",
+    "year": {
+     "spark": "▆▄▄▄▄▄█▆▅▇▄▄",
+     "first": "2025-10",
+     "last": "2026-09",
+     "c3": -33,
+     "c6": -18,
+     "label": "spiked",
+     "peak": "2026-04",
+     "from_peak": -63
+    }
+   },
+   {
+    "phrase": "switch emulator mac",
+    "evidence": "Mac: up to 4x FPS",
+    "brand": true,
+    "source": "model",
+    "relevance": 0.78,
+    "is_name": false,
+    "established": false,
+    "term": "switch emulator mac",
+    "kind": "generic",
+    "names": [
+     "lichii"
+    ],
+    "volume": 880,
+    "month": "2026-09",
+    "months": [
+     [
+      "2025-10",
+      880
+     ],
+     [
+      "2025-11",
+      480
+     ],
+     [
+      "2025-12",
+      590
+     ],
+     [
+      "2026-01",
+      590
+     ],
+     [
+      "2026-02",
+      480
+     ],
+     [
+      "2026-03",
+      880
+     ],
+     [
+      "2026-04",
+      1900
+     ],
+     [
+      "2026-05",
+      1000
+     ],
+     [
+      "2026-06",
+      720
+     ],
+     [
+      "2026-07",
+      590
+     ],
+     [
+      "2026-08",
+      590
+     ],
+     [
+      "2026-09",
+      720
+     ]
+    ],
+    "no_data": false,
+    "base": 1.3,
+    "peak": 100,
+    "peak_day": "2026-10-29",
     "rose": true,
     "new": true,
     "momentum": null,
-    "started": "2026-10-07",
+    "started": "2026-10-29",
     "now": "fading",
-    "peak_vs": 0,
-    "bench_level": 65.0,
-    "decision": "skip"
+    "peak_vs": 16,
+    "bench_level": 69.0,
+    "per_day": 386,
+    "decision": "skip",
+    "year": {
+     "spark": "▄▃▃▃▃▄█▅▄▃▃▄",
+     "first": "2025-10",
+     "last": "2026-09",
+     "c3": 0,
+     "c6": -18,
+     "label": "spiked",
+     "peak": "2026-04",
+     "from_peak": -62
+    }
    },
    {
-    "term": "terminal mac",
-    "phrase": "terminal mac",
+    "phrase": "android tv custom launcher",
+    "evidence": "A lightweight launcher under 500KB... replaces the default TV launcher with a clean interface",
+    "brand": true,
+    "source": "model",
+    "relevance": 0.7,
+    "is_name": false,
+    "established": false,
+    "term": "android tv custom launcher",
+    "kind": "generic",
+    "names": [
+     "cleanyourtv"
+    ],
+    "volume": 70,
+    "month": "2026-09",
+    "months": [
+     [
+      "2025-10",
+      30
+     ],
+     [
+      "2025-11",
+      70
+     ],
+     [
+      "2025-12",
+      50
+     ],
+     [
+      "2026-01",
+      70
+     ],
+     [
+      "2026-02",
+      70
+     ],
+     [
+      "2026-03",
+      50
+     ],
+     [
+      "2026-04",
+      70
+     ],
+     [
+      "2026-05",
+      110
+     ],
+     [
+      "2026-06",
+      70
+     ],
+     [
+      "2026-07",
+      50
+     ],
+     [
+      "2026-08",
+      50
+     ],
+     [
+      "2026-09",
+      90
+     ]
+    ],
+    "no_data": false,
+    "base": 0,
+    "peak": 100,
+    "peak_day": "2026-10-13",
+    "rose": true,
+    "new": true,
+    "momentum": null,
+    "started": "2026-10-13",
+    "now": "fading",
+    "peak_vs": 1,
+    "bench_level": 67.3,
+    "per_day": 5,
+    "decision": "skip",
+    "year": {
+     "spark": "▃▅▄▅▅▄▅█▅▄▄▇",
+     "first": "2025-10",
+     "last": "2026-09",
+     "c3": 29,
+     "c6": 80,
+     "label": "steady"
+    }
+   },
+   {
+    "phrase": "google tv screensaver",
+    "evidence": "the screensaver just makes the whole TV look brand new... a news screensaver add-on",
+    "brand": true,
+    "source": "model",
+    "relevance": 0.6,
+    "is_name": false,
+    "established": false,
+    "term": "google tv screensaver",
+    "kind": "generic",
+    "names": [
+     "cleanyourtv"
+    ],
+    "volume": 880,
+    "month": "2026-09",
+    "months": [
+     [
+      "2025-10",
+      720
+     ],
+     [
+      "2025-11",
+      880
+     ],
+     [
+      "2025-12",
+      880
+     ],
+     [
+      "2026-01",
+      880
+     ],
+     [
+      "2026-02",
+      880
+     ],
+     [
+      "2026-03",
+      880
+     ],
+     [
+      "2026-04",
+      880
+     ],
+     [
+      "2026-05",
+      1000
+     ],
+     [
+      "2026-06",
+      880
+     ],
+     [
+      "2026-07",
+      1000
+     ],
+     [
+      "2026-08",
+      1300
+     ],
+     [
+      "2026-09",
+      1000
+     ]
+    ],
+    "no_data": false,
+    "base": 0.2,
+    "peak": 100,
+    "peak_day": "2026-10-11",
+    "rose": true,
+    "new": true,
+    "momentum": null,
+    "started": "2026-10-10",
+    "now": "fading",
+    "peak_vs": 4,
+    "bench_level": 55.7,
+    "per_day": 0,
+    "decision": "skip",
+    "year": {
+     "spark": "▅▆▆▆▆▆▆▆▆▆█▆",
+     "first": "2025-10",
+     "last": "2026-09",
+     "c3": 14,
+     "c6": 14,
+     "label": "steady"
+    }
+   },
+   {
+    "term": "relion",
+    "phrase": "relion",
     "kind": "name",
     "names": [],
     "brand": true,
     "evidence": "",
     "no_data": false,
-    "base": 77.1,
-    "peak": 89,
-    "peak_day": "2026-10-26",
+    "base": 12.2,
+    "peak": 34,
+    "peak_day": "2026-10-09",
+    "rose": true,
+    "new": false,
+    "momentum": 0.9,
+    "started": "2026-10-08",
+    "now": "fading",
+    "decision": "skip"
+   },
+   {
+    "term": "rea video",
+    "phrase": "rea video",
+    "kind": "name",
+    "names": [],
+    "brand": true,
+    "evidence": "",
+    "no_data": false,
+    "base": 7.9,
+    "peak": 37,
+    "peak_day": "2026-10-10",
     "rose": false,
     "new": false,
-    "momentum": 1.0,
+    "momentum": null,
     "now": "flat",
-    "peak_vs": 89,
-    "bench_level": 26.8,
     "decision": "skip"
    }
   ],
-  "proposed": 23,
-  "relevant": 13,
-  "kept": 0,
+  "proposed": 17,
+  "relevant": 16,
+  "kept": 4,
   "benchmark": "gpts",
-  "bench_daily": null,
-  "volume_month": "",
+  "bench_daily": 753,
+  "volume_month": "2026-09",
   "no_evidence": [],
   "posts_error": "",
   "related": false,
@@ -2775,7 +3038,7 @@
   "country_errors": [],
   "competition_errors": [],
   "extra_errors": [],
-  "cost_micros": 549000,
-  "seconds": 156
+  "cost_micros": 550590,
+  "seconds": 300
  }
 }

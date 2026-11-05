@@ -1,0 +1,45 @@
+## 推特书签简报 · 2026-11-05 晚上
+
+新增 **6** 条（过滤 0），看板收录 **6**，carryover **296**。
+
+本档新增无投流查 Ads 搜索量（哥飞 Agent）、Cloudflare Zaraz 性能埋点、Discover 微信支付返现实测、开源会议纪要知了/Cicada、ITIN 养信 Kikoff，以及 RunningHub 古代监控视频制作。
+
+### SEO
+- [无投流用哥飞Agent查Ads关键词搜索量](https://x.com/hezhiyan7/status/2118264109879923122)
+  - hezhiyan7 指出：未开投流时 Google Ads 关键词规划工具看不到具体搜索量，但可用内置同数据源的哥飞 Agent 曲线查询，结果与 Ads 规划工具对齐。附工具入口。
+  - 动作：用哥飞 Agent 查目标词搜索量，对照自有站关键词规划
+
+### 工具/站内优化
+- [Cloudflare Zaraz 服务端托管第三方脚本](https://x.com/jonvolio/status/2118127003576500413)
+  - jonvolio 介绍 Cloudflare Zaraz：把 GA4、像素等第三方脚本改到边缘侧托管加载，减少前端 JS、提升性能并统一追踪配置，适合站内性能与埋点审计。
+  - 动作：在 Cloudflare 控制台评估 Zaraz 替代现有第三方脚本
+
+### 工具
+- [开源会议纪要同传软件知了Cicada](https://x.com/wquguru/status/2117574590075691483)
+  - wquguru 开源知了/Cicada（Apache-2.0）：Mac 可用，含实时字幕翻译、飞书级会议纪要（约 45 秒更新、议题鱼骨图、结论溯源）、同声传译；可白嫖支付宝家每月约 50 小时额度。
+  - 动作：Mac 用户可 clone 试用会议纪要/同传，评估自用或二次开发
+
+### 美卡
+- [Discover it 绑微信支付仍拿餐饮5%返现](https://x.com/LZRationalnvest/status/2118164214779122127)
+  - LZRationalnvest 实测 Discover it 绑定国内微信支付后，国内餐厅微信付款仍被识别为 Dining，正常拿 5% cash back；提醒激活本季（2026 Q4）餐饮/娱乐/公用事业 5% 类目。
+  - 动作：已持卡者激活 Q4 5% 类目并验证微信绑定识别
+- [ITIN首卡被拒可先用Kikoff养信再申Discover](https://x.com/WeiYi88890/status/2118244521444253905)
+  - WeiYi88890 建议：906 新 ITIN 用户若 Capital One 首卡被控、Discover 押金卡预审不过，可先注册 Kikoff 建信约一个月后再申 Discover；Kikoff 亦可预审信用卡且无软查，可每日尝试。
+  - 动作：ITIN 新用户评估 Kikoff 养信路径后再冲 Discover
+
+### AI
+- [用RunningHub做司马光砸缸监控录像](https://x.com/0xmomonifty/status/2118162217447403703)
+  - 0xmomonifty 分享用 RunningHub 上 MiniMax H3（ComfyUI）做「司马光砸缸」古代监控视频：先出人物庭院参考图，再分段生成落水/砸缸/救人，固定机位；时间戳可用 VCR OSD Mono + GNU Unifont 点阵再轻微模糊。
+  - 动作：若跟风古代监控视频，按分段+固定机位流程在 RunningHub 复现
+
+### 看板
+- [x.omnitools.cc](https://x.omnitools.cc)（📰 每日简报、待办书签已同步）
+
+### X API
+- 本档调用：bookmarks 1 + usage 1（+me）；无 posts_by_ids
+- 余额：**$12.73** free（约 2027-10-06 20:22 北京时间到期），prepaid $0
+
+### 增长批
+- 2 条已 priority 转增长大师
+  - [无投流用哥飞Agent查Ads关键词搜索量](https://x.com/hezhiyan7/status/2118264109879923122)
+  - [Cloudflare Zaraz 服务端托管第三方脚本](https://x.com/jonvolio/status/2118127003576500413)

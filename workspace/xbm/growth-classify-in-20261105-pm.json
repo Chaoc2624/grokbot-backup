@@ -1,0 +1,58 @@
+{
+  "candidates": [
+    {
+      "id": "2118264109879923122",
+      "url": "https://x.com/hezhiyan7/status/2118264109879923122",
+      "title": "无投流查看搜索量技巧",
+      "tag": "SEO",
+      "need": "在没有投放广告的情况下，无法直接查看搜索量。作者建议使用内置关键词规划工具的 Agent 进行查询，数据与 Google Ads 官方工具一致。",
+      "action": "使用哥飞Agent查询关键词搜索量",
+      "category": "todo"
+    },
+    {
+      "id": "2118127003576500413",
+      "url": "https://x.com/jonvolio/status/2118127003576500413",
+      "title": "Cloudflare Zaraz 优化网站性能",
+      "tag": "工具",
+      "need": "Zaraz 允许在 Cloudflare 端管理第三方脚本（如GA4、Pixel），实现服务端追踪。能减少前端JS加载，提升网站速度并增强数据控制，每月有100万次免费事件额度。",
+      "action": "在Cloudflare后台配置Zaraz管理第三方标签",
+      "category": "todo"
+    },
+    {
+      "id": "2118164214779122127",
+      "url": "https://x.com/LZRationalnvest/status/2118164214779122127",
+      "title": "Discover信用卡国内微信支付返现测试",
+      "tag": "美卡",
+      "need": "实测发现Discover it绑定微信支付在部分餐厅消费可识别为Dining并获得5%返现。需注意美团等交易可能被识别为普通商品，不享受餐饮返现。",
+      "action": "在微信支付时确认商户类别或小额测试",
+      "category": "related"
+    },
+    {
+      "id": "2117574590075691483",
+      "url": "https://x.com/wquguru/status/2117574590075691483",
+      "title": "开源会议纪要工具知了",
+      "tag": "工具",
+      "need": "知了（Cicada）是一款开源的会议纪要与同声传译软件，支持实时字幕、自动总结及音色克隆。通过接入Ling开放平台API，每月可免费使用50小时。",
+      "action": "下载知了并配置Ling API Key",
+      "category": "todo"
+    },
+    {
+      "id": "2118244521444253905",
+      "url": "https://x.com/WeiYi88890/status/2118244521444253905",
+      "title": "ITIN首卡申请建议",
+      "tag": "美卡",
+      "need": "针对ITIN用户申请信用卡被封控或拒批的情况，建议先通过Kikoff建立信用记录，积累一个月后再申请Discover等入门卡，提高通过率。",
+      "action": "注册Kikoff积累信用记录",
+      "category": "related"
+    },
+    {
+      "id": "2118162217447403703",
+      "url": "https://x.com/0xmomonifty/status/2118162217447403703",
+      "title": "AI生成复古监控视频教程",
+      "tag": "AI",
+      "need": "作者分享了使用MiniMax H3生成复古监控视频的流程，包括分段生成、固定机位描述以及利用FFmpeg叠加OSD时间戳模拟老旧质感。",
+      "action": "尝试使用ComfyUI和FFmpeg制作复古视频",
+      "category": "todo"
+    }
+  ]
+}

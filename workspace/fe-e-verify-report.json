@@ -1,0 +1,1214 @@
+{
+  "base": "https://frame-extractor.app",
+  "kex": "0.2.3",
+  "viewports": {
+    "desktop": {
+      "size": {
+        "name": "desktop",
+        "width": 1280,
+        "height": 800,
+        "shot": "/workspace/fe-pd-next-desktop-1280x800.png"
+      },
+      "emptyCollapsed": {
+        "state": "empty-collapsed",
+        "horizontalOverflow": 0,
+        "stickyHeaderOpaque": true,
+        "nestedCards": 0,
+        "nestedCardSamples": [],
+        "aboveFoldClickables": [
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "frame.extractor",
+            "href": "/"
+          },
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "blog",
+            "href": "/blog"
+          },
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "feedback",
+            "href": "/feedback"
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "🇺🇸English",
+            "href": null
+          }
+        ],
+        "aboveFoldClickableCount": 5,
+        "workbenchPreview": {
+          "open": false,
+          "staticChips": 27,
+          "enabledButtons": 0,
+          "grabChipIsSpan": true
+        },
+        "batchInfo": null,
+        "nextInfo": null,
+        "solidGrabStyles": [],
+        "testidsPresent": {
+          "batch": false,
+          "next": false,
+          "workbench": true,
+          "sample": true,
+          "filmstrip": true,
+          "engTable": true,
+          "codec": true
+        },
+        "techLineOk": {
+          "hasUnderline": false,
+          "cursor": "default",
+          "colorAccentish": false,
+          "muted": true
+        },
+        "uniqueTestidCount": 29
+      },
+      "emptyExpandedWorkbench": {
+        "state": "empty-expanded-workbench",
+        "horizontalOverflow": 0,
+        "stickyHeaderOpaque": true,
+        "nestedCards": 0,
+        "nestedCardSamples": [],
+        "aboveFoldClickables": [
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "frame.extractor",
+            "href": "/"
+          },
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "blog",
+            "href": "/blog"
+          },
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "feedback",
+            "href": "/feedback"
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "🇺🇸English",
+            "href": null
+          }
+        ],
+        "aboveFoldClickableCount": 5,
+        "workbenchPreview": {
+          "open": true,
+          "staticChips": 27,
+          "enabledButtons": 0,
+          "grabChipIsSpan": true
+        },
+        "batchInfo": null,
+        "nextInfo": null,
+        "solidGrabStyles": [],
+        "testidsPresent": {
+          "batch": false,
+          "next": false,
+          "workbench": true,
+          "sample": true,
+          "filmstrip": true,
+          "engTable": true,
+          "codec": true
+        },
+        "techLineOk": {
+          "hasUnderline": false,
+          "cursor": "default",
+          "colorAccentish": false,
+          "muted": true
+        },
+        "uniqueTestidCount": 29
+      },
+      "activeBeforeGrab": {
+        "state": "active-before-grab",
+        "horizontalOverflow": 0,
+        "stickyHeaderOpaque": true,
+        "nestedCards": 0,
+        "nestedCardSamples": [],
+        "aboveFoldClickables": [
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "frame.extractor",
+            "href": "/"
+          },
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "blog",
+            "href": "/blog"
+          },
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "feedback",
+            "href": "/feedback"
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "🇺🇸English",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-prev-5-frames",
+            "text": "-5f",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-prev-frame",
+            "text": "-1 Frame",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-prev-10ms",
+            "text": "-10ms",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-next-10ms",
+            "text": "+10ms",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-next-frame",
+            "text": "+1 Frame",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-next-5-frames",
+            "text": "+5f",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "24",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "25",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "30",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "60",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "grab-current-frame",
+            "text": "Grab Current Frame",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "grab-and-download-frame",
+            "text": "Grab & Download",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "grab-first-last-frame",
+            "text": "Grab First & Last Frame",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "PNG",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "JPEG",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "WebP",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "▸ Extract frames",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "deselect-all-frames",
+            "text": "Deselect All",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "copy-share-link-btn",
+            "text": "Copy Share Link",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "download-verification-manifest-btn",
+            "text": "Download Verification Manifest (SHA-256 + PTS JS",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "download-zip-btn",
+            "text": "Download Selected (ZIP)",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "contact-sheet-cols-3",
+            "text": "3 Columns",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "contact-sheet-cols-4",
+            "text": "4 Columns",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "contact-sheet-cols-5",
+            "text": "5 Columns",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "export-contact-sheet-btn",
+            "text": "Export Contact Sheet",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "frame-select-checkbox",
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "frame-select-checkbox",
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "frame-select-checkbox",
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "frame-select-checkbox",
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "frame-select-checkbox",
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          }
+        ],
+        "aboveFoldClickableCount": 45,
+        "workbenchPreview": null,
+        "batchInfo": {
+          "open": false,
+          "summaryText": "Batch ZIP · Contact Sheet · Verification▾",
+          "summaryH": 40
+        },
+        "nextInfo": {
+          "title": "What's next?",
+          "buttons": [
+            {
+              "text": "Grab First & Last Frame",
+              "variantGuess": "outlineish",
+              "h": 32
+            },
+            {
+              "text": "Export Contact Sheet",
+              "variantGuess": "outlineish",
+              "h": 32
+            }
+          ],
+          "links": [
+            "/video-to-png",
+            "/mp4-frame-extractor",
+            "/first-last-frame-extractor",
+            "/feedback"
+          ],
+          "nestedCardish": false
+        },
+        "solidGrabStyles": [
+          {
+            "bg": "oklch(0.704 0.19 47.6)",
+            "h": 32,
+            "text": "Grab & Download"
+          }
+        ],
+        "testidsPresent": {
+          "batch": true,
+          "next": true,
+          "workbench": false,
+          "sample": false,
+          "filmstrip": true,
+          "engTable": true,
+          "codec": true
+        },
+        "techLineOk": null,
+        "uniqueTestidCount": 31
+      },
+      "activeAfterGrab": {
+        "state": "active-after-grab",
+        "horizontalOverflow": 0,
+        "stickyHeaderOpaque": true,
+        "nestedCards": 0,
+        "nestedCardSamples": [],
+        "aboveFoldClickables": [
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "frame.extractor",
+            "href": "/"
+          },
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "blog",
+            "href": "/blog"
+          },
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "feedback",
+            "href": "/feedback"
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "🇺🇸English",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-prev-5-frames",
+            "text": "-5f",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-prev-frame",
+            "text": "-1 Frame",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-prev-10ms",
+            "text": "-10ms",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-next-10ms",
+            "text": "+10ms",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-next-frame",
+            "text": "+1 Frame",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-next-5-frames",
+            "text": "+5f",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "24",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "25",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "30",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "60",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "grab-current-frame",
+            "text": "Grab Current Frame",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "grab-and-download-frame",
+            "text": "Grab & Download",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "grab-first-last-frame",
+            "text": "Grab First & Last Frame",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "copy-ffmpeg-cli",
+            "text": "Copy CLI",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "PNG",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "JPEG",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "WebP",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "▸ Extract frames",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "select-all-frames",
+            "text": "Select All",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "deselect-all-frames",
+            "text": "Deselect All",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "copy-share-link-btn",
+            "text": "Copy Share Link",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "download-verification-manifest-btn",
+            "text": "Download Verification Manifest (SHA-256 + PTS JS",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "download-zip-btn",
+            "text": "Download Selected (ZIP)",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "contact-sheet-cols-3",
+            "text": "3 Columns",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "contact-sheet-cols-4",
+            "text": "4 Columns",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "contact-sheet-cols-5",
+            "text": "5 Columns",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "export-contact-sheet-btn",
+            "text": "Export Contact Sheet",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "frame-select-checkbox",
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "frame-select-checkbox",
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "frame-select-checkbox",
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "frame-select-checkbox",
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "frame-select-checkbox",
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          }
+        ],
+        "aboveFoldClickableCount": 47,
+        "workbenchPreview": null,
+        "batchInfo": {
+          "open": false,
+          "summaryText": "Batch ZIP · Contact Sheet · Verification▾",
+          "summaryH": 40
+        },
+        "nextInfo": {
+          "title": "What's next?",
+          "buttons": [
+            {
+              "text": "Grab First & Last Frame",
+              "variantGuess": "outlineish",
+              "h": 32
+            },
+            {
+              "text": "Export Contact Sheet",
+              "variantGuess": "outlineish",
+              "h": 32
+            }
+          ],
+          "links": [
+            "/video-to-png",
+            "/mp4-frame-extractor",
+            "/first-last-frame-extractor",
+            "/feedback"
+          ],
+          "nestedCardish": false
+        },
+        "solidGrabStyles": [
+          {
+            "bg": "oklab(0.704 0.128117 0.140307 / 0.9)",
+            "h": 32,
+            "text": "Grab & Download"
+          }
+        ],
+        "testidsPresent": {
+          "batch": true,
+          "next": true,
+          "workbench": false,
+          "sample": false,
+          "filmstrip": true,
+          "engTable": true,
+          "codec": true
+        },
+        "techLineOk": null,
+        "uniqueTestidCount": 31
+      },
+      "screenshots": {
+        "nextFocus": "/workspace/fe-pd-next-desktop-1280x800.png",
+        "empty": "/workspace/fe-pd-next-desktop-empty-1280x800.png"
+      }
+    },
+    "mobile": {
+      "size": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "shot": "/workspace/fe-pd-next-mobile-390x844.png"
+      },
+      "emptyCollapsed": {
+        "state": "empty-collapsed",
+        "horizontalOverflow": 0,
+        "stickyHeaderOpaque": true,
+        "nestedCards": 0,
+        "nestedCardSamples": [],
+        "aboveFoldClickables": [
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "frame.extractor",
+            "href": "/"
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          }
+        ],
+        "aboveFoldClickableCount": 2,
+        "workbenchPreview": {
+          "open": false,
+          "staticChips": 27,
+          "enabledButtons": 0,
+          "grabChipIsSpan": true
+        },
+        "batchInfo": null,
+        "nextInfo": null,
+        "solidGrabStyles": [],
+        "testidsPresent": {
+          "batch": false,
+          "next": false,
+          "workbench": true,
+          "sample": true,
+          "filmstrip": true,
+          "engTable": true,
+          "codec": true
+        },
+        "techLineOk": {
+          "hasUnderline": false,
+          "cursor": "default",
+          "colorAccentish": false,
+          "muted": true
+        },
+        "uniqueTestidCount": 29
+      },
+      "emptyExpandedWorkbench": {
+        "state": "empty-expanded-workbench",
+        "horizontalOverflow": 0,
+        "stickyHeaderOpaque": true,
+        "nestedCards": 0,
+        "nestedCardSamples": [],
+        "aboveFoldClickables": [
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "frame.extractor",
+            "href": "/"
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          }
+        ],
+        "aboveFoldClickableCount": 2,
+        "workbenchPreview": {
+          "open": true,
+          "staticChips": 27,
+          "enabledButtons": 0,
+          "grabChipIsSpan": true
+        },
+        "batchInfo": null,
+        "nextInfo": null,
+        "solidGrabStyles": [],
+        "testidsPresent": {
+          "batch": false,
+          "next": false,
+          "workbench": true,
+          "sample": true,
+          "filmstrip": true,
+          "engTable": true,
+          "codec": true
+        },
+        "techLineOk": {
+          "hasUnderline": false,
+          "cursor": "default",
+          "colorAccentish": false,
+          "muted": true
+        },
+        "uniqueTestidCount": 29
+      },
+      "activeBeforeGrab": {
+        "state": "active-before-grab",
+        "horizontalOverflow": 0,
+        "stickyHeaderOpaque": true,
+        "nestedCards": 0,
+        "nestedCardSamples": [],
+        "aboveFoldClickables": [
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "frame.extractor",
+            "href": "/"
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "Every N seconds",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "Every N frames",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "Fixed count",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "Current frame",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "PNG",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "JPEG",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "WebP",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "▸ Extract frames",
+            "href": null
+          }
+        ],
+        "aboveFoldClickableCount": 10,
+        "workbenchPreview": null,
+        "batchInfo": {
+          "open": false,
+          "summaryText": "Batch ZIP · Contact Sheet · Verification▾",
+          "summaryH": 40
+        },
+        "nextInfo": {
+          "title": "What's next?",
+          "buttons": [
+            {
+              "text": "Grab First & Last Frame",
+              "variantGuess": "outlineish",
+              "h": 32
+            },
+            {
+              "text": "Export Contact Sheet",
+              "variantGuess": "outlineish",
+              "h": 32
+            }
+          ],
+          "links": [
+            "/video-to-png",
+            "/mp4-frame-extractor",
+            "/first-last-frame-extractor",
+            "/feedback"
+          ],
+          "nestedCardish": false
+        },
+        "solidGrabStyles": [
+          {
+            "bg": "oklch(0.704 0.19 47.6)",
+            "h": 32,
+            "text": "Grab & Download"
+          }
+        ],
+        "testidsPresent": {
+          "batch": true,
+          "next": true,
+          "workbench": false,
+          "sample": false,
+          "filmstrip": true,
+          "engTable": true,
+          "codec": true
+        },
+        "techLineOk": null,
+        "uniqueTestidCount": 31
+      },
+      "activeAfterGrab": {
+        "state": "active-after-grab",
+        "horizontalOverflow": 0,
+        "stickyHeaderOpaque": true,
+        "nestedCards": 0,
+        "nestedCardSamples": [],
+        "aboveFoldClickables": [
+          {
+            "tag": "A",
+            "testid": null,
+            "text": "frame.extractor",
+            "href": "/"
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "Clear",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-prev-5-frames",
+            "text": "-5f",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-prev-frame",
+            "text": "-1 Frame",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-prev-10ms",
+            "text": "-10ms",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-next-10ms",
+            "text": "+10ms",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-next-frame",
+            "text": "+1 Frame",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "step-next-5-frames",
+            "text": "+5f",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "24",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "25",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "30",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "60",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "grab-current-frame",
+            "text": "Grab Current Frame",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "grab-and-download-frame",
+            "text": "Grab & Download",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "grab-first-last-frame",
+            "text": "Grab First & Last Frame",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": "copy-ffmpeg-cli",
+            "text": "Copy CLI",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "Every N seconds",
+            "href": null
+          },
+          {
+            "tag": "BUTTON",
+            "testid": null,
+            "text": "Every N frames",
+            "href": null
+          }
+        ],
+        "aboveFoldClickableCount": 19,
+        "workbenchPreview": null,
+        "batchInfo": {
+          "open": false,
+          "summaryText": "Batch ZIP · Contact Sheet · Verification▾",
+          "summaryH": 40
+        },
+        "nextInfo": {
+          "title": "What's next?",
+          "buttons": [
+            {
+              "text": "Grab First & Last Frame",
+              "variantGuess": "outlineish",
+              "h": 32
+            },
+            {
+              "text": "Export Contact Sheet",
+              "variantGuess": "outlineish",
+              "h": 32
+            }
+          ],
+          "links": [
+            "/video-to-png",
+            "/mp4-frame-extractor",
+            "/first-last-frame-extractor",
+            "/feedback"
+          ],
+          "nestedCardish": false
+        },
+        "solidGrabStyles": [
+          {
+            "bg": "oklab(0.704 0.128117 0.140307 / 0.9)",
+            "h": 32,
+            "text": "Grab & Download"
+          }
+        ],
+        "testidsPresent": {
+          "batch": true,
+          "next": true,
+          "workbench": false,
+          "sample": false,
+          "filmstrip": true,
+          "engTable": true,
+          "codec": true
+        },
+        "techLineOk": null,
+        "uniqueTestidCount": 31
+      },
+      "screenshots": {
+        "nextFocus": "/workspace/fe-pd-next-mobile-390x844.png",
+        "empty": "/workspace/fe-pd-next-mobile-empty-390x844.png"
+      }
+    }
+  },
+  "tdh": {
+    "title": "Video Frame Extractor - Free Online Video Frame Grabber",
+    "h1": "Free Video Frame Extractor & Video Frame Grabber",
+    "meta": "Extract frames free — no upload, runs local in your browser. Video frame extractor & grabber for MP4, WebM, MOV, AVI; PNG/JPG stills, no watermark, no signup."
+  },
+  "summary": {
+    "pass": true,
+    "fails": [],
+    "notes": []
+  }
+}

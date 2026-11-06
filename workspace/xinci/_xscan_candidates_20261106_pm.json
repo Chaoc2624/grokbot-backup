@@ -1,0 +1,80 @@
+{
+  "label_target": "2026-11-06 晚上 书签X",
+  "run_at_beijing": "2026-11-06 21:58",
+  "window_start_beijing": "2026-11-06 10:22",
+  "window_end_beijing": "2026-11-06 21:57",
+  "reported_keys_sample_note": "AM empty due to 503; backfill allowed for launches in AM window not in reported",
+  "already_reported_relevant": [
+    "kimik31pro",
+    "ernie55flashbase"
+  ],
+  "candidates": [
+    {
+      "name_hint": "Inkling 2 Small",
+      "kind_hint": "model",
+      "source": "@thinkymachines",
+      "url": "https://x.com/thinkymachines/status/2118489527362912566",
+      "created_at": "2026-11-05T23:43:57.000Z",
+      "text": "Introducing Inkling 2 Small. Scoring 31 on the AA Intelligence Index... available for fine-tuning and inference on Tinker today, with full weight release planned soon.",
+      "views": 892645,
+      "bookmarks": 2010,
+      "backfill_candidate": true
+    },
+    {
+      "name_hint": "GPT-6 Cyber",
+      "kind_hint": "model",
+      "source": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2118390190246879554",
+      "created_at": "2026-11-05T17:09:13.000Z",
+      "text": "Introducing GPT‑6 Cyber: a major advance in security research that pairs stronger capabilities with better model alignment.",
+      "views": 3048713,
+      "bookmarks": 3598,
+      "backfill_candidate": true
+    },
+    {
+      "name_hint": "Gemini Omni 1.2 Flash",
+      "kind_hint": "not_model",
+      "source": "@GoogleAI",
+      "url": "https://x.com/GoogleAI/status/2118389961426874879",
+      "created_at": "2026-11-05T17:08:19.000Z",
+      "text": "Meet Gemini Omni 1.2 Flash — more cost-effective, video generation/editing up to 15s, character speech upgrade.",
+      "views": 220248,
+      "bookmarks": 612,
+      "backfill_candidate": true
+    },
+    {
+      "name_hint": "VFlash",
+      "kind_hint": "model",
+      "source": "@DrJimFan",
+      "url": "https://x.com/DrJimFan/status/2118380813498892301",
+      "created_at": "2026-11-05T16:31:58.000Z",
+      "text": "Introducing VFlash: parsing the visual world in parallel at unmatched speeds for Physical AI. System One Vision Model.",
+      "views": 53598,
+      "bookmarks": 698,
+      "backfill_candidate": true
+    },
+    {
+      "name_hint": "TailSteer",
+      "kind_hint": "not_model",
+      "source": "@_akhaliq",
+      "url": "https://x.com/_akhaliq/status/2118636009311404525",
+      "created_at": "2026-11-06T09:26:01.000Z",
+      "text": "TailSteer — Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing (paper+app)",
+      "views": 6339,
+      "bookmarks": 23,
+      "backfill_candidate": false
+    },
+    {
+      "name_hint": "Qwen becoming teaser",
+      "kind_hint": "skip_teaser",
+      "source": "@Alibaba_Qwen",
+      "url": "https://x.com/Alibaba_Qwen/status/2118674834632978755",
+      "created_at": "2026-11-06T12:00:18.000Z",
+      "text": "The becoming begins. (teaser poster 北冥有鱼 其名为 _ — product name not revealed)",
+      "views": 325803,
+      "bookmarks": 426,
+      "backfill_candidate": false
+    }
+  ],
+  "rules": "Follow XSCAN §3-§5. Skip teasers without product name. Backfill with backfill:true and 【补报】 prefix. keywords ≤3 only if views≥500000 or bookmarks≥1000 and searchable niche name. Output ONLY valid JSON for xnew file."
+}

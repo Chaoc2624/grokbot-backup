@@ -445,3 +445,10 @@
 | 314 | 2026-11-03 09:16:59 | 博客评论 | `stylelovely.com` | **73** | `https://stylelovely.com/diybalamoda/2014/01/diy-pinta-un-bolso#comment-2451046` | `https://frame-extractor.app/mp4-frame-extractor` | `MP4 Frame Extractor` | **`★ 正文 WP 换行 Dofollow`** / 正文 `<a>` | ⏳ 待审核 (Pending) | 待复核 | Track B 2026-11-03；作者 `Ravi Patel`；锚文本 `MP4 Frame Extractor` → `https://frame-extractor.app/mp4-frame-extractor`；cid=2451046；verify=cid-in-location-not-public；WP REST/未在公开页见链 → 不计 Live（非仅凭302） | email=frame-submit@agentmail.to |
 | 320 | 2026-11-04 14:52 | 目录站 | `exactseek.com` | **73** | `http://www.exactseek.com/cgi-bin/v.cgi?e=frame-submit@agentmail.to&v=ebPgg5` | `https://frame-extractor.app` | `Frame Extractor` | Directory | ✅ Verified (site added; public listing ≤60d) | 待复核 | Grok总管 proactive：打开 AgentMail Nov1 ExactSeek verify 信并 GET 验证链接；页面回「Your site has been added.」；非 Live 公开 listing；勿再同日刷 add.html Captcha。 | email=frame-submit@agentmail.to |
 | 321 | 2026-11-04 18:37 | 目录站 | `activesearchresults.com` | **48** | `https://www.activesearchresults.com/ac20.php?…` (AgentMail confirm) | `https://frame-extractor.app` | `Frame Extractor` | Directory | ✅ Confirmed (membership activated) | 待复核 | Grok总管 proactive：打开 unread ASR 确认信 thread `17f603d9-…`；GET confirm 200；页面「membership is now activated / submissions confirmed」；更新台账 #316；不计 Live。 | email=frame-submit@agentmail.to |
+
+## Toolfound ownership verify completed (2026-11-06 14:50 Asia/Taipei) [Grok总管 proactive]
+- Live homepage already had matching `<meta name="toolfound-verify" content="7b671ec1905c95d129321921144229d67358a57746e82a03">`.
+- Completed mailbox + site POST `/api/verify` (no Priority / Plus).
+- API: `{"ok":true,"productSlug":"frame-extractor","status":"queued","queue":{"position":699,"estimatedDate":"2027-03-25"}}`.
+- Evidence note: `/workspace/frame-toolfound-verified-2026-11-06.md`.
+- Status update: email+site verified → **Queued** (not Live yet; free launch ~2027-03-25). Do not resubmit; ignore paid upsell mails.

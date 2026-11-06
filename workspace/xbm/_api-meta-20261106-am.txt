@@ -1,0 +1,29 @@
+api_calls_this_slot: bookmarks 1 + usage 1 (+me) + posts_by_ids 1 (thin enrich)
+balance: python3 <<'PY'
+import json
+enrich={
+  "id":"2117664712532123680",
+  "username":"thedankoe",
+  "url":"https://x.com/thedankoe/status/2117664712532123680",
+  "article_title":"The most lucrative AI business to start in 2027",
+  "summary_zh":"Dan Koe 长文：注意力捕获是最赚钱技能；倡议一人创意团队（品牌策略+内容策略+写作）；推销 Eden 工具与 $49 newsletter workshop；含冷启动客户的 Permissionless Apprentice 策略。偏个人品牌/内容获客方法论，但夹带 Eden 与 workshop 软广。",
+  "soft_ad_risk":True,
+  "links":["https://eden.so/workshop","https://eden.so/"]
+}
+open('/workspace/xbm/enrich-2117664712532123680.json','w').write(json.dumps(enrich,ensure_ascii=False,indent=1))
+# also patch new-bookmarks
+items=json.load(open('/workspace/xbm/new-bookmarks-20261106-am.json'))
+for it in items:
+  if it['id']=='2117664712532123680':
+    it['text']=enrich['article_title']+'\n'+enrich['summary_zh']
+    it['article_title']=enrich['article_title']
+    it['soft_ad_risk']=True
+open('/workspace/xbm/new-bookmarks-20261106-am.json','w').write(json.dumps(items,ensure_ascii=False,indent=1))
+print('enrich saved')
+PY
+# leave a note for executor about API calls for brief
+cat > /workspace/xbm/_api-meta-20261106-am.txt <<EOF
+api_calls_this_slot: bookmarks 1 + usage 1 (+me) + posts_by_ids 1 (thin enrich)
+balance: $12.73 free (expires ~2027-10-06 20:22 Beijing), prepaid $0
+EOF
+2.73 free (expires ~2027-10-06 20:22 Beijing), prepaid --

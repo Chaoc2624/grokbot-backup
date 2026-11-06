@@ -1,0 +1,79 @@
+{
+  "label": "2026-11-06 晚上 书签X",
+  "run_at": "2026-11-06 21:58",
+  "window_start": "2026-11-06 10:22",
+  "window_end": "2026-11-06 21:57",
+  "empty": false,
+  "keywords": [
+    {
+      "keyword": "Inkling 2 Small",
+      "reason": "首发594B MoE开源模型，热度和书签极高"
+    },
+    {
+      "keyword": "GPT-6 Cyber",
+      "reason": "OpenAI重磅安全研究模型首发，浏览量超300万"
+    }
+  ],
+  "items": [
+    {
+      "name": "Inkling 2 Small",
+      "desc": "【补报】594B MoE开源模型，支持Tinker可微调。",
+      "source": "@thinkymachines",
+      "url": "https://x.com/thinkymachines/status/2118489527362912566",
+      "first_seen": "2026-11-06 07:43",
+      "views": 892645,
+      "bookmarks": 2010,
+      "kind": "model",
+      "backfill": true,
+      "keyword_rank": 1,
+      "keyword": "Inkling 2 Small",
+      "reason": "首发594B MoE开源模型，热度和书签极高；适合做产品评测/落地页"
+    },
+    {
+      "name": "GPT-6 Cyber",
+      "desc": "【补报】OpenAI推出的全新安全研究模型。",
+      "source": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2118390190246879554",
+      "first_seen": "2026-11-06 01:09",
+      "views": 3048713,
+      "bookmarks": 3598,
+      "kind": "model",
+      "backfill": true,
+      "keyword_rank": 2,
+      "keyword": "GPT-6 Cyber",
+      "reason": "OpenAI重磅安全研究模型首发，浏览量超300万；适合做产品评测/落地页"
+    },
+    {
+      "name": "Gemini Omni 1.2 Flash",
+      "desc": "【补报】视频生成升级到15秒等功能更新，不是新模型。",
+      "source": "@GoogleAI",
+      "url": "https://x.com/GoogleAI/status/2118389961426874879",
+      "first_seen": "2026-11-06 01:08",
+      "views": 220248,
+      "bookmarks": 612,
+      "kind": "not_model",
+      "backfill": true
+    },
+    {
+      "name": "VFlash",
+      "desc": "【补报】Physical AI 并行视觉模型首发。",
+      "source": "@DrJimFan",
+      "url": "https://x.com/DrJimFan/status/2118380813498892301",
+      "first_seen": "2026-11-06 00:31",
+      "views": 53598,
+      "bookmarks": 698,
+      "kind": "model",
+      "backfill": true
+    },
+    {
+      "name": "TailSteer",
+      "desc": "多轮图像编辑科研成果，不是新模型。",
+      "source": "@_akhaliq",
+      "url": "https://x.com/_akhaliq/status/2118636009311404525",
+      "first_seen": "2026-11-06 17:26",
+      "views": 6339,
+      "bookmarks": 0,
+      "kind": "not_model"
+    }
+  ]
+}

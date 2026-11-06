@@ -1,0 +1,62 @@
+你是增长知识库分拣助手。从 candidates 里挑出「增长类」书签。
+收录主题：SEO/GEO/ASO/外链/关键词/建站获客/流量渠道/内容策略/AdSense·变现/出海增长复盘/站内优化/工具与审计。
+排除：纯羊毛、美卡/身份、生活琐事、软广带货、营销私信广告、目录外链农场软广（HIGH-DR directory backlink list、DM placements 等）、通讯保号、纯 AI 产品安利且无增长方法论、纯支付/开卡/银行操作、纯公司注册手续教程（无获客增长方法论）。
+一件代发货源汇总若仅是供应商链接清单、无获客/SEO/渠道方法论，排除。
+输出只要 JSON：{"growth":[{"id","title","points","url","tags":[...]}],"rejected":[{"id","reason"}]}
+points 用一两句中文要点。title 中文短标题。
+
+输入：
+{
+ "candidates": [
+  {
+   "id": "2118492981636592102",
+   "url": "https://x.com/ShuaiMaLong/status/2118492981636592102",
+   "author": "ShuaiMaLong",
+   "text": "🚨 11月6日 AI 羊毛日报｜商家清退改名、Claude 大面积 KYC、48Team 额度缩水，建议先收藏\n\n昨晚到今早各平台的重点都在这了👇\n\n🔥 今日羊毛\n\n1️⃣ ChatGPT 新羊毛：15 美元 credit\nLinux DO 有帖，条件看原帖\n🔗 https://t.co/Lq1xCDanCS\n\n2️⃣ OpenAI 的 API 赠金扩围了\nPro 和 Team 都能领，通过 Google Play 订阅的、Google Pay 付的现在都可以\n🔗 https://t.co/hCvgPYZEbK\n🔗 https://t.co/xMkOOJB12k\n\n3️⃣ DeepSeek V4.1 Flash 无审查版 API 限时免费\nNodeLoc 有帖，手快有手慢无\n🔗 https://t.co/kVLZweItjM\n\n4️⃣ Qoder 国际版送 2000 分\n有效期只有 3 天，要领趁早\n🔗 https://t.co/cJIHaiFqYT\n\n5️⃣ Daytona 额度别被标题骗\n标 200 美元，实测是 100 免卡 + 100 绑卡\n🔗 https://t.co/lgJfqza2bQ\n\n6️⃣ WorkBuddy 邀请活动\n能领一台免费腾讯云服务器，2核2G 用一个月\n🔗 https://t.co/grE0M2aase\n\n7️⃣ Devin 原付费功能转免费了\n🔗 https://t.co/9gw8wdngrB\n\n8️⃣ Fanatical 免费送游戏\n《单词斗恶龙》重置版，地区限定，有账户就能领\n🔗 https://t.co/w4bWsfn8kf\n\n9️⃣ 有人发了白嫖东京 VPS 的方法帖\n方法没核实，自己掂量\n🔗 https://t.co/sZ7wxkufOZ\n🔗 https://t.co/0EWGAKfpyn\n\n🔟 零碎：两个抽奖、免费澳洲家宽、PayPal 5 折 ChatGPT 的标题消息（存疑，无原帖链接）\n🔗 https://t.co/Yc46VESSop\n🔗 https://t.co/7M3Nhcc4K2\n🔗 https://t.co/FIF7vuRFdL\n\n⚠️ 风控 & 防坑\n\n1️⃣ HKCloudX 走完了：清退 + 改名\n从背刺老用户、群解散，到凌晨宣布清退、群禁言，再更名「奔驰云」。有机器在他家的走清退通道，新名字还是同一家，别再上车\n🔗 https://t.co/2shV3uvAYH\n🔗 https://t.co/ynlDtepY4B\n🔗 https://t.co/wtQLNrcAE7\n\n2️⃣ 48Team 额度疑似缩到约 1/12\n多名用户反馈 5 小时额度大幅缩水，正价用户也有中招，也有人说正常；另有消息称已经翻车。清算期里别碰相关码\n🔗 https://t.co/bUXtqmphUs\n🔗 https://t.co/LechSpmNre\n\n3️⃣ Claude 这轮是全面收紧\nPro 被要求 KYC、注册秒弹、iOS 订阅封控，有人一周被封 9 个 Pro + 1 个 Max，Claude Code 也有突然要求重新登录疑似封号的\n🔗 https://t.co/PHm2WO6GiF\n🔗 https://t.co/AShhLTxhR6\n\n4️⃣ 成品号继续爆雷\n3 个 Claude 成品 KYC 号全秒封；muse 的成品号被解绑、新号注册还要 Facebook 登录。成品号这条线最近非常不稳\n🔗 https://t.co/Uy2QZ8PJK9\n🔗 https://t.co/MocZsE2zkW",
+   "title": "11月6日AI羊毛与风控日报",
+   "tag": "羊毛",
+   "need": "博主马龙汇总了最新的AI羊毛与避雷指南，包含ChatGPT、OpenAI API赠金、DeepSeek限免等多个免费福利，并警示了HKCloudX清退、Claude KYC收紧及成品号爆雷等风险。原帖内含详细链接：https://t.co/Lq1xCDanCS",
+   "article_title": null
+  },
+  {
+   "id": "2118677911679185025",
+   "url": "https://x.com/LZRationalnvest/status/2118677911679185025",
+   "author": "LZRationalnvest",
+   "text": "分享一个朋友最近申请 Chase 信用卡的真实案例，挺有意思的，可以说是 argue 成功的典范😂\n\n最近 Chase Freedom Flex（CFF）有个 $250 的开卡奖励活动，我朋友看着不错，就去申请了一张。结果他直接被拒了。\n\n但他没有就这么算了，而是直接打电话给 Chase，要求重新审核申请。他直接问客服，说为啥这张卡不给批？\n\n客服给他解释了一堆原因，包括存款账户余额偏低、现有的 chase 信用卡欠款较多。\n\n他自己猜测，可能还跟去年信用分不高的时候，连续申请过好几次 Chase 信用卡有关，系统里留下了记录。\n\n但他并没有放弃，而是继续跟客服沟通，最后说了一句：\n\n“我还是希望你们能重新考虑一下我的申请。”\n\n结果客服转了好几个部门，内部沟通了一番。\n\n等了几分钟，居然真的给他批准了！\n\n从最开始的直接拒绝，到最后电话申诉成功，整个过程可以说是相当戏剧性。\n\n如果你认为自己的信用状况符合要求，或者本身就有良好的银行往来记录，可以尝试拨打银行的信用卡申请复议电话，要求人工重新审核。\n\n当然，Argue 并不保证一定成功，最终还是取决于银行的审核结果。\n\n但至少这个案例说明，系统拒绝之后，确实还存在通过人工复议获批的可能。\n\n所以以后申请 Chase 信用卡，如果被拒了，也别急着放弃，可以先问问银行能不能重新审核。",
+   "title": "Chase信用卡被拒电话复议成功案例",
+   "tag": "美卡",
+   "need": "李志分享了朋友申请CFF被拒后通过电话人工Argue、成功逆转获批的真实案例。说明系统拒绝后仍有通过人工复议获批的可能，值得参考。原帖链接：https://x.com/LZRationalnvest/status/2118677911679185025",
+   "article_title": null
+  },
+  {
+   "id": "2118550145826693572",
+   "url": "https://x.com/Hanbaoge_/status/2118550145826693572",
+   "author": "Hanbaoge_",
+   "text": "https://t.co/MCizpJyYxL",
+   "title": "欧洲顶级实体手机号免费开卡与保号教程",
+   "tag": "通讯",
+   "need": "汉堡哥全网首发了欧洲顶级实体手机号的获取攻略，支持免费开卡、0月租且终身免保号，附带保姆级开卡教程。原帖及文章链接：https://x.com/i/article/2115648957078724608",
+   "article_title": "全网首发！欧洲顶级实体手机号！免费开卡，0月租，终身免保号！（附保姆级开卡教程）"
+  },
+  {
+   "id": "2118502372981022917",
+   "url": "https://x.com/alleywu270684/status/2118502372981022917",
+   "author": "alleywu270684",
+   "text": "【一个号开出俩无5小时限制的48team，这下怎么定价？】\n\n卧槽，今天上班摸鱼又搞出事情了！😂\n\n一个账号里面，搞乌龙开出来两个48team工作区！\n\n关键是这两个空间，居然全都是无5小时限制的！\n\n这下尴尬了，两个空间都能用，Token还都是满的，这号到底该怎么定价啊啊啊！\n\n属于是幸福的烦恼了。\n\n按照现在48team的行情，普通号能活多久都不好说，更别说这种双工作区、双无5小时限制的号了。\n\n这号要是真能扛到一个月，价格估计得起飞！\n\n现在有点纠结：\n\n有缘的兄弟愿意出个好价，我就卖了。\n\n没人买，我就自己留着赌一把！\n\n反正都是意外之喜，单车变摩托的机会可不多啊！😂\n\n兄弟们，你们觉得这种号能卖多少钱？还是留着自己赌一个月？",
+   "title": "单号开出双无限制48team工作区技巧",
+   "tag": "工具",
+   "need": "alley wu 分享了摸鱼时意外在一个账号内开出两个无5小时限制的48team工作区的趣事与行情讨论。对于研究该平台账号机制很有参考价值。原帖链接：https://x.com/alleywu270684/status/2118502372981022917",
+   "article_title": null
+  },
+  {
+   "id": "2118477137191833703",
+   "url": "https://x.com/bailyLU/status/2118477137191833703",
+   "author": "bailyLU",
+   "text": "秒了毕业了🎉🎉\nchase大学再见\n明年🥹12个月riz🌰见了 https://t.co/Ftk2PVzlKP https://t.co/7PSRy2co9u",
+   "title": "庆祝Chase大学系列卡毕业",
+   "tag": "美卡",
+   "need": "贝利分享了自己成功从 Chase 大学系列信用卡毕业的喜悦，并计划明年迎接 12 个月 Ritz 卡。为美卡玩家提供了进度参考。原帖链接：https://x.com/bailyLU/status/2118477137191833703",
+   "article_title": null
+  }
+ ]
+}

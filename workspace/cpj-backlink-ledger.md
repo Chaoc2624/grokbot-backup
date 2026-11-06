@@ -87,3 +87,32 @@
 ## 2026-11-05 14:00 Asia/Shanghai · 例程 cpj-14 手动目录清单
 
 推送老板 7 条 NEED_BROWSER（F6S / Touristlink / Cybo / Hotfrog / TinyLaunch / Addon Biz / SideProjectors）。跳过已 Live/Pending/Queued/付费墙。完整表：`daily-runs/2026-11-05/manual-dirs.md`。本轮**未代交**（例程只出清单）。
+
+
+## ASR membership activate 2026-11-06 08:09 Asia/Taipei
+- Welcome/confirm mail arrived 2026-11-05 20:49 Asia/Taipei (To: submit@chinaprivatejourneys.com → frame-submit)
+- Confirm URL resolved to: **Your membership has already been activated.**
+- Status: **Confirmed / Membership activated** (still **not Live** until public listing URL appears; do not re-submit)
+- Evidence: `/workspace/gsc-china-private-journeys/daily-runs/2026-11-06/asr-confirmed.html` + WebFetch same message
+
+## 2026-11-06 08:56 Asia/Taipei · 例程 daily backlink quota
+
+| ID | 渠道 | 状态更新 | 证据 |
+|---|---|---|---|
+| 4 | Brownbook | **Live · Claimed** 维持；curl UA mention chinaprivatejourneys=13 + Claimed；`backlink-guard verify` **HTTP 403 unreadable**（勿改 Lost） | `daily-runs/2026-11-06/brownbook.html` + `bg-verify-brownbook.json` |
+| 10 | PeerPush | **Queued / Coming soon** 维持；verify 有 followed `Visit site` → apex+utm，但仍 Coming soon → **禁止 Live** | `bg-verify-peerpush.json` |
+| 3 | ExactSeek | **Pending** 维持；今日无新信 / 搜索页无 listing | AgentMail + exactseek-search 404 |
+| 9 | ASR | **Confirmed / Membership activated**（今早 08:09）仍 **非 Live**（无公开 listing URL） | `asr-confirmed.html`；AgentMail welcome 2026-11-05 20:49 Taipei |
+| 6 | Startup88 | **Pending** 维持；新信 «We got your startup submission»（2026-11-05 23:17 Taipei）称 wait >6 months；**拒** $9.99 express | AgentMail thread `1dc9d2b1-…` |
+| 7 | ASEAN Now | **Member ready** 维持；无公开 listing → 不计 Live | — |
+| 11 | **Jayde**（新） | POST `https://www.jayde.com/submit` → landing «Your site has been added…»；邮=`submit@`；行业 Aerospace/Travel；honeypot 空。**Pending**（尚无公开 listing URL；Jayde listing 信未到）→ **禁止标 Live** | `jayde-result.html` / `jayde-result-snippet.txt` |
+| 8 | IndexNow | 再 POST **10 URL**（含 terms-of-service / refund-policy；跳过 404 `/terms` `/refund`）→ **HTTP 200** | `indexnow-post.json` |
+
+**今日新增 Live = 0** · 有效 Live 累计 = **1（Brownbook）** · 今日新自动目录交 = **1（Jayde → Pending）**  
+**NEED_BROWSER（未代交）**: F6S / Touristlink / Cybo / Hotfrog / TinyLaunch / Addon Biz / SideProjectors  
+工件：`daily-runs/2026-11-06/backlink-summary.json`
+
+
+## 2026-11-06 14:00 Asia/Shanghai · 例程 cpj-14 手动目录清单
+
+推送老板 7 条 NEED_BROWSER（F6S / Touristlink / Hotfrog / Crunchbase / Travellerspoint / ShowMySites / Cybo）。相对 11-05 轮换：TinyLaunch / Addon Biz / SideProjectors → 备选。跳过已 Live/Pending/Queued/付费墙。完整表：`daily-runs/2026-11-06/manual-dirs.md`。本轮**未代交**（例程只出清单）。

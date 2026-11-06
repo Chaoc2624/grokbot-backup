@@ -1,0 +1,18 @@
+STATUS: SUCCESS
+new: 7
+ingested: 6
+filtered: 1
+fetched_page: 99
+newest_fetched_id: 2118355780474937831
+seen_count: 364
+board_ingest: ok
+board_brief: ok
+radar: skipped
+growth: 4 (handoff file ready; parent must SendToAgent — executor has no tool)
+carryover: 302
+run_at: 2026-11-06 10:06 Asia/Shanghai
+label: 2026-11-06 上午
+api_balance: $12.73 free (expires ~2027-10-06 20:22 Beijing)
+api_calls_this_slot: 1 bookmarks + 1 usage (+me) + 1 posts_by_ids (thin enrich)
+fixes: dankoe thin tweet enriched via parent enrich-2117664712532123680.json then soft-ad filtered; GCS typo normalized to GSC in brief/handoff; free-llm gemini-3.5-flash-lite OK first try; SendToAgent unavailable in executor
+growth_sent: yes (parent SendToAgent priority to 增长大师)

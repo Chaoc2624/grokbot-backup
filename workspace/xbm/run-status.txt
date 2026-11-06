@@ -1,18 +1,18 @@
 STATUS: SUCCESS
 new: 6
-ingested: 6
-filtered: 0
+ingested: 5
+filtered: 1
 fetched_page: 99
-newest_fetched_id: 2118264109879923122
-seen_count: 357
+newest_fetched_id: 2118677911679185025
+seen_count: 370
 board_ingest: ok
 board_brief: ok
 radar: skipped
-growth: 2 (handoff file ready; parent must SendToAgent — executor has no tool)
-carryover: 296
-run_at: 2026-11-05 22:03 Asia/Shanghai
-label: 2026-11-05 晚上
+growth: 0 (NONE; wool/美卡/通讯/工具技巧 — no SEO/GEO handoff)
+carryover: 308
+run_at: 2026-11-06 22:12 Asia/Shanghai
+label: 2026-11-06 晚上
 api_balance: $12.73 free (expires ~2027-10-06 20:22 Beijing)
 api_calls_this_slot: 1 bookmarks + 1 usage (+me)
-fixes: nemotron model id invalid (double openrouter prefix) → cascaded to gemini-3.1-flash-lite-preview; 0 soft-ads; 0 thin/article enrich needed; SendToAgent unavailable in executor cursor namespace
-growth_sent: yes (parent SendToAgent priority to 增长大师)
+fixes: first LLM pass over-filtered 2 keepable items (48Team tip + Chase graduation); re-ran with stronger keep rules → 5 kept / 1 soft-ad filtered; SendToAgent unavailable in executor
+growth_sent: pending parent (0 items — SKIP SendToAgent)

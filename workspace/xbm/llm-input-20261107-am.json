@@ -1,0 +1,48 @@
+{
+  "bookmarks": [
+    {
+      "id": "2117904936717480387",
+      "url": "https://x.com/mason0x_/status/2117904936717480387",
+      "author": "mason0x_",
+      "author_name": "Mason",
+      "posted_at": "11-04 17:01",
+      "created_at": "2026-11-04T09:01:00.000Z",
+      "text": "地址证明别再找人做了！！！\n\n去泰国或者菲律宾旅居一个月，租个房\n\n搞个租房合同，顺带还能搞个宽带、水电账单\n\n菲律宾还能多拿本驾照 https://t.co/9GhoPIeeX9",
+      "urls": [],
+      "soft_ad_risk": false,
+      "soft_signals": []
+    },
+    {
+      "id": "2118718402172993771",
+      "url": "https://x.com/bailyLU/status/2118718402172993771",
+      "author": "bailyLU",
+      "author_name": "贝利Baily",
+      "posted_at": "11-06 22:53",
+      "created_at": "2026-11-06T14:53:25.000Z",
+      "text": "接短信验证码：https://t.co/0ng667MHoT 注册搜virginred 接码即可，需要充值3刀大概可以注册15个账号。\n\n在https://t.co/jN653ttSJ6\n跳转到ebay英国网站随便买个1刀电子壁纸（关键词：Digital Image）或者买个1刀的欧洲火车票https://t.co/vIXF8V9gAC （需要下APP）完成交易即可获得返利，并且获得6000维珍积分，可以换一张500英里的短途机票啦！",
+      "urls": [
+        "https://www.dogesms.com/r/esimbing",
+        "https://www.virgin.com/virgin-red/earn-virgin-points/-269207",
+        "https://www.virgin.com/virgin-red/earn-virgin-points/earn-triple-virgin-points-on-any-train-ticket-9pdqrdv22c"
+      ],
+      "soft_ad_risk": false,
+      "soft_signals": []
+    },
+    {
+      "id": "2118554140020187618",
+      "url": "https://x.com/victor_UWer/status/2118554140020187618",
+      "author": "victor_UWer",
+      "author_name": "Victor在西雅图",
+      "posted_at": "11-06 12:00",
+      "created_at": "2026-11-06T04:00:42.000Z",
+      "text": "出海 SaaS 有一笔钱，大部分人没去捞：\n\n进了付款页，却没付钱的人。\n\n这批人已经注册了，也知道价格，离成交只差一脚。我的做法是给他们补一封邮件：\n\n1. Stripe 后台 Webhooks 里监听 checkout.session.expired\n\n2. 触发后，用 Resend 或别的邮件工具，给这个用户发一封短信，只写一句话：你刚才选的套餐还留着\n\n3. 在 Stripe 里建一个 8 折的 Coupon，限单次使用，48 小时过期，把优惠码放进邮件\n\n4. 付款后自动停发，别让已经买了的人收到催单，很蠢\n\n几个细节：\n\n- 邮件别超过 3 行，别写成营销长文\n- 发送时间放在放弃后 1 到 2 小时，隔天再发效果就差了\n- 折扣别一上来就给太狠，8 折够了，不然老用户会学会\"先不买，等邮件\"\n\n这套半天就能搭完，之后全自动跑。",
+      "urls": [],
+      "soft_ad_risk": true,
+      "soft_signals": [
+        "优惠码"
+      ]
+    }
+  ],
+  "carried_count": "CARRIED_COUNT_PLACEHOLDER",
+  "label": "2026-11-07 上午"
+}

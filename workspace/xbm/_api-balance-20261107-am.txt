@@ -1,0 +1,47 @@
+python3 << 'PY'
+import json
+# check entities for the t.co expand
+raw=json.load(open('/workspace/xbm/bookmarks-raw-20261107-am-clean.json'))
+for p in raw['data']:
+    if p['id']=='2117904936717480387':
+        ents=(p.get('note_tweet') or {}).get('entities') or p.get('entities') or {}
+        print('urls entities:', json.dumps(ents.get('urls'), ensure_ascii=False, indent=2))
+        print('text:', p.get('text'))
+        print('note:', (p.get('note_tweet') or {}).get('text','')[:300])
+# also author name
+users={u['id']:u for u in raw.get('includes',{}).get('users',[])}
+for p in raw['data']:
+    if p['id'] in ('2117904936717480387','2118718402172993771','2118554140020187618'):
+        u=users.get(p.get('author_id'),{})
+        print(p['id'], u.get('username'), u.get('name'))
+PY
+
+# Fix brief: remove "在西雅图" hallucination; try expand t.co if we have expanded_url
+python3 << 'PY'
+from pathlib import Path
+p=Path('/workspace/xbm/user-brief-20261107-am.md')
+t=p.read_text()
+t=t.replace('Victor在西雅图 介绍','Victor 介绍')
+# also fix ingest need
+import json
+ing=json.load(open('/workspace/xbm/ingest-20261107-am.json'))
+for it in ing['items']:
+    if it['id']=='2118554140020187618':
+        it['need']=it['need'].replace('Victor在西雅图 介绍','Victor 介绍')
+json.dump(ing, open('/workspace/xbm/ingest-20261107-am.json','w'), ensure_ascii=False, indent=1)
+# Note: board already ingested with old need - minor, not worth re-ingest for cosmetic
+for f in ['user-brief-20261107-am.md','brief-20261107-am.txt','brief-delivery-20261107-am.txt']:
+    Path('/workspace/xbm/'+f).write_text(t)
+print('fixed')
+print(t)
+PY
+
+echo "$12.73 free" > /workspace/xbm/_api-balance-20261107-am.txt
+cat > /workspace/xbm/_api-meta-20261107-am.txt << 'EOF'
+calls: get_users_me + get_users_bookmarks(page1,99) + get_usage_credits
+balance: $12.73 free / prepaid $0 / total $12.73
+free_grant_expires_at_utc: 2027-10-06T12:22:17.000Z (= 2027-10-06 20:22 Asia/Shanghai)
+EOF
+wc -l /workspace/xbm/seen.txt
+tail -5 /workspace/xbm/seen.txt
+2.73 free

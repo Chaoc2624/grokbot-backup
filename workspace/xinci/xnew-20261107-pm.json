@@ -1,0 +1,56 @@
+{
+  "label": "2026-11-07 晚上 书签X",
+  "run_at": "2026-11-07 21:30",
+  "window_start": "2026-11-07 10:18",
+  "window_end": "2026-11-07 21:30",
+  "empty": false,
+  "items": [
+    {
+      "name": "Underdog Woof",
+      "desc": "Underdog AI 发布 31.7MB 开源权重 TTS 模型，可在浏览器/手机离线跑，宣称 WER 优于千倍大模型。",
+      "source": "@UnderdogAI",
+      "url": "https://x.com/UnderdogAI/status/2118921155713372212",
+      "first_seen": "2026-11-07 12:19",
+      "kind": "model",
+      "views": 33076,
+      "bookmarks": 769
+    },
+    {
+      "name": "OpenCode Browse",
+      "desc": "OpenCode 推出 Browse：让编程代理控制你真实浏览器的标签、登录态与扩展；不是新模型。",
+      "source": "@opencode",
+      "url": "https://x.com/opencode/status/2118895128152621153",
+      "first_seen": "2026-11-07 10:35",
+      "kind": "not_model",
+      "views": 160702,
+      "bookmarks": 1370,
+      "keyword_rank": 2,
+      "keyword": "OpenCode Browse",
+      "reason": "bookmarks≥1000；适合做「OpenCode Browse」功能页 / agent browser 对比页"
+    },
+    {
+      "name": "Arete-27B",
+      "desc": "【补报】Nous Research 发布 Arete-27B：基于 Qwen3.8-27B 后训练强化西方价值观，权重与评测数据开源。",
+      "source": "@NousResearch",
+      "url": "https://x.com/NousResearch/status/2118822925445050435",
+      "first_seen": "2026-11-07 05:48",
+      "kind": "model",
+      "views": 844201,
+      "bookmarks": 5219,
+      "backfill": true,
+      "keyword_rank": 1,
+      "keyword": "Arete-27B",
+      "reason": "views≥50万且 bookmarks≥1000；适合做 Arete-27B 模型介绍/下载/评测页"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Arete-27B",
+      "reason": "views≥50万且 bookmarks≥1000；适合做 Arete-27B 模型介绍/下载/评测页"
+    },
+    {
+      "keyword": "OpenCode Browse",
+      "reason": "bookmarks≥1000；适合做 agent 浏览器控制/OpenCode Browse 功能页"
+    }
+  ]
+}

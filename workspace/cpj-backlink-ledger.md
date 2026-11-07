@@ -116,3 +116,91 @@
 ## 2026-11-06 14:00 Asia/Shanghai · 例程 cpj-14 手动目录清单
 
 推送老板 7 条 NEED_BROWSER（F6S / Touristlink / Hotfrog / Crunchbase / Travellerspoint / ShowMySites / Cybo）。相对 11-05 轮换：TinyLaunch / Addon Biz / SideProjectors → 备选。跳过已 Live/Pending/Queued/付费墙。完整表：`daily-runs/2026-11-06/manual-dirs.md`。本轮**未代交**（例程只出清单）。
+
+
+## 2026-11-07 08:58 Asia/Taipei · 例程 daily backlink quota
+
+| ID | 渠道 | 状态更新 | 证据 |
+|---|---|---|---|
+| 4 | Brownbook | **Live · Claimed** 维持；curl UA mention + Claimed；`backlink-guard verify` **HTTP 403 unreadable**（勿改 Lost） | `daily-runs/2026-11-07/brownbook.html` + `bg-verify-brownbook.json` |
+| 10 | PeerPush | **Queued / Coming soon** 维持；verify 有 followed `Visit site` → apex+utm，页面仍 Coming soon → **禁止 Live** | `bg-verify-peerpush.json` + `peerpush.html` |
+| 3 | ExactSeek | **Pending** 维持；搜索页无真实 listing 链；今日无新信 | AgentMail + `exactseek-search.html` |
+| 9 | ASR | Membership activated；**非 Live**；今日无新信 | AgentMail |
+| 6 | Startup88 | **Pending** 维持；无新信 | — |
+| 7 | ASEAN Now | Member ready；无 listing → 不计 Live | — |
+| 11 | Jayde | **Pending** 维持；无 listing 信；Jayde 搜索无 domain 命中 | AgentMail + `jayde-search.html` |
+| 12 | **Addon Biz**（新） | curl 免 captcha 建号 `submit4` + Tour & Travel 提交 → 公开页 **Live**；`backlink-guard verify` = **qualified link**（`rel=nofollow` sidebar） | listing `https://www.addonbiz.com/listing/guangzhou-china-china-private-journeys/` · `addonbiz-listing.html` + `bg-verify-addonbiz.json` · job_id 608455 |
+
+**今日新增 Live = 1（Addon Biz）** · 有效 Live 累计 = **2（Brownbook + Addon Biz）** · Lost = **0** · 今日新自动目录交 = **1（Addon Biz → Live）**  
+**Pending**: ExactSeek · ASR（activated 非 Live）· Startup88 · Jayde  
+**Queued**: PeerPush Coming soon  
+**NEED_BROWSER（未代交）**: F6S / Touristlink / Cybo / Hotfrog / TinyLaunch / SideProjectors / Crunchbase / Travellerspoint / ShowMySites / Toolfio / DodoDirectory  
+AgentMail `frame-submit@`：2026-11-06 后 **无新** CPJ To=`submit@` 验证/确认信（Jayde listing 信仍未到）。  
+工件：`daily-runs/2026-11-07/backlink-summary.json`
+
+
+## 2026-11-07 14:00 Asia/Shanghai · 例程 cpj-14 手动目录清单
+
+推送老板 7 条 NEED_BROWSER（F6S / Touristlink / TinyLaunch / SideProjectors / Toolfio / DodoDirectory / Crunchbase）。相对 11-06 轮换：Hotfrog / Cybo / ShowMySites / Travellerspoint → 备选；**跳过 Addon Biz（今日已 Live）**。完整表：`daily-runs/2026-11-07/manual-dirs.md`。本轮**未代交**（例程只出清单）。
+
+
+## 2026-11-07 Asia/Singapore · 下午实际代交进度（更新；保留上方历史）
+
+以下为本轮实际结果，取代 14:00 待办清单对这些站点的当前状态；不将账号注册或表单准备计为提交/Live。
+
+| 渠道 | 实际结果 | 当前状态 / 限制 |
+|---|---|---|
+| DodoDirectory | 免费档要求永久挂徽章；无徽章档 $9.99 | **Skipped**；未提交、未付款 |
+| Toolfio | 要求 DR20+ 及永久徽章，工具/SaaS 品类匹配弱 | **Skipped**；未提交 |
+| Touristlink | 隔离邮箱 submit@chinaprivatejourneys.com 被拒，提示 “Email Address is blocked” | **Blocked / 未注册、未提交**；Vault 条目仅预备，不是可用账号；未换个人邮箱 |
+| TinyLaunch | 账号邮箱已验证并登录；maker profile = Halo，handle = chinaprivatejourneys；Travel & Tourism 表单已准备 | **历史状态（已被下方 14:51 更新取代）**：当时 NOT submitted，暂停于必填官方 logo 上传；现已免费提交，Pending review，非 Live |
+
+**有效 Live 累计仍为 2：Brownbook + Addon Biz。本轮上述四站新增 Live = 0。**
+
+### TinyLaunch 官方 logo 资产准备（仅公开 HTTP 读取；未上传）
+- 首页 https://chinaprivatejourneys.com/ 的 Organization JSON-LD `logo` 明确指向 https://chinaprivatejourneys.com/logo.svg；公开配置 `app_logo` 同为 `/logo.svg`。
+- 已下载原始官方 logo：`/workspace/cpj-directory-assets/cpj-official-logo.svg`。
+- SVG `viewBox="0 0 64 64"`，正方形 64×64 坐标画布（无固定像素 width/height）；酒红底、浅金图形，aria-label = China Private Journeys。
+- 这是官网明确声明的 **logo**，不是仅 favicon 回退；未生成或修改品牌，未栅格化。
+- 另存首页证据 `/workspace/cpj-directory-assets/homepage.html`；favicon 备份 `/workspace/cpj-directory-assets/cpj-official-favicon.svg`，来源 https://chinaprivatejourneys.com/favicon.svg。
+- 本步骤没有上传、提交 TinyLaunch、改网站或 git push。后续可用上述原始 SVG 完成已授权免费提交。
+
+
+## 2026-11-07 14:51 Asia/Singapore · TinyLaunch 免费提交成功
+- **Submitted / Pending review（非公开、非 Live）**：免费 **Standard Launch**，ID **30842**。
+- 确认页：https://www.tinylaunch.com/dashboard/launches/30842/success
+- 已上传现有官方 CPJ logo；此前“等待 logo / NOT submitted”为历史状态，现已解除。
+- 网站提示审核通常 **少于 24 小时**（平台预计，非保证）。
+- 已排定最早免费档期：**2026-12-07**（平台日期，未提供时区/具体时间）。
+- **无付费附加项、未自投票（no self-upvote）**。
+- **有效 Live 仍为 2（Brownbook + Addon Biz）**；TinyLaunch 不计 Live，待公开 listing 后另行核验。
+- 本次仅更新本地台账；无 git push、无网站修改。
+
+
+## 2026-11-07 14:55 Asia/Singapore · SideProjectors 注册受阻
+- 普通注册入口：https://www.sideprojectors.com/auth/register
+- 两次均提示 **“Please type a valid password”**；分别使用 Vault 生成的 16 位、12 位凭据，均含小写、大写、数字、符号；安全字段已填写并失焦（blur）。不记录密码内容。
+- **Blocked — form password validation**；原因未确认，不认定为网站 bug；**停止重试**。
+- **未创建账号、未进行验证、未提交 showcase**；非 Live。
+- Vault 预备条目 **3497248** 不是已注册成功的可用账号。
+- **有效 Live 累计仍为 2（Brownbook + Addon Biz）**。
+- 本次仅追加本地台账并保留历史；无 git push、无网站修改。
+
+
+## 2026-11-07 15:04 Asia/Singapore · F6S 公开公司页已创建
+- F6S 账号已验证并登录；已创建 **公开、非 stealth** 公司 listing。
+- **Live**：https://www.f6s.com/china-private-journeys
+- 官网字段：https://chinaprivatejourneys.com
+- 使用现有官方 logo、**Travel** 标签、准确的询盘路由平台描述；联系人 **Halo Z**。未付款。
+- 正确注册路线：从 F6S 首页 https://www.f6s.com/ 进入 signup；`https://www.f6s.com/register` 返回 **404**，不要沿用该旧入口。
+- **当前有效 Live 累计 = 3（Brownbook + Addon Biz + F6S）**；上方 Live = 2 为此前历史状态。
+- TinyLaunch #30842 已于 17:40 Asia/Taipei **Rejected**（非 SaaS）；见下方专节；**不是 Live**，不纳入累计。
+- 本次仅追加本地台账、保留历史；无 git push、无网站修改。
+
+## 2026-11-07 17:40 Asia/Taipei · TinyLaunch CPJ 被拒（AgentMail）
+- 原提交：免费 Standard Launch ID **30842**，曾排 **2026-12-07**（Pending review）
+- 结果：❌ Rejected — “does not align… mostly looking for digital products in the SaaS niche.”
+- 来信：Chris from TinyLaunch → submit@chinaprivatejourneys.com（CF→frame-submit）；thread 78134f7e-3d62-4725-8bdc-bb2811d7cdbe
+- **勿再交 TinyLaunch**（旅行询盘路由平台不匹配 SaaS 目录定位）；12/7 档空出但不回填 CPJ
+- 有效 Live 累计仍为 **3**（Brownbook + Addon Biz + F6S）；TinyLaunch 不计
+- 本次仅追加本地台账；无 git push、无网站修改、无回复邮件

@@ -1,7 +1,11 @@
 {
-  "checked_at": "2026-11-06T13:03:49.740517+00:00",
+  "checked_at": "2026-11-07T13:10:35.343052+00:00",
   "eligible": [],
   "needs_parameter_verification": [
+    {
+      "id": "liquid/lfm-3-1.7b:free",
+      "context_length": 262144
+    },
     {
       "id": "stealth/crouton-alpha",
       "context_length": 1048576
@@ -63,6 +67,7 @@
     "google/lyria-3-clip-preview",
     "google/lyria-3-pro-preview",
     "liquid/lfm-2.5-2.6b:free",
+    "liquid/lfm-3-1.7b:free",
     "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "nvidia/nemotron-3-ultra-550b-a55b:free",
     "nvidia/nemotron-3.5-lightning:free",
@@ -72,5 +77,5 @@
     "stealth/crouton-alpha",
     "xingchen-agi/xing4.0-29b-a4b:free"
   ],
-  "free_count": 15
+  "free_count": 16
 }

@@ -1,0 +1,68 @@
+{
+  "summary": "2026年11月8日晚间书签精选共收录10条推文，内容涵盖B站插件音乐工具、开源eSIM远程网关、嘉信理财Visa借记卡、Monese开户受阻、AI拼贴B-roll视频生成、SEO流量增长复盘、Agent开发工具选型、ITIN查美信教程以及iOS开屏广告跳过工具等前沿技术与海外生活实用资讯。",
+  "items": [
+    {
+      "id": "2118893685505159640",
+      "author": "st7evechou",
+      "title": "B站插件实现本地听歌：MyGo云音乐已安静下线",
+      "category": "效率工具 / 娱乐",
+      "content": "博主分享B站插件玩法，配合MyGo云音乐（https://music.egoist.dev）可在一定程度上替代传统音乐App。由于网易云音乐来函，该项目已安静下线。博主感慨插件体验出色。"
+    },
+    {
+      "id": "2119031354482704632",
+      "author": "wlzh",
+      "title": "eSIM-Matrix：基于安卓备用机的远程eSIM切卡与短信网关",
+      "category": "开源项目 / 通信",
+      "content": "开源项目 eSIM-Matrix（https://github.com/hg552/eSIM-Matrix）基于 NekokoLPA2 二次开发（MIT开源）。它将闲置安卓机和可插拔 eUICC 芯片（如 9eSIM、ESTKme、SakuraSIM 等）结合，实现秒级远程切卡、收发短信并转发至 Telegram。同时支持切卡时联动 FlClash 节点与 GPS 定位，解决风控问题。作者提示该项目尚处于早期（v1.4.1），仅限个人合法管理使用。"
+    },
+    {
+      "id": "2118870155908587831",
+      "author": "UncleJohnnyMe",
+      "title": "嘉信理财 Visa Debit Card 申请进展与账户功能",
+      "category": "美股理财 / 海外账户",
+      "content": "博主分享申请嘉信 Visa Debit Card 的经历：10月19日申请后等待约20天，账户后台已显示 Visa 借记卡信息，并附带 Routing Number、Checking Account Number 及支票功能（Checkwriting），目前实体卡寄送状态待确认。"
+    },
+    {
+      "id": "2119058033372541156",
+      "author": "WeiYi88890",
+      "title": "Monese 银行开户受阻",
+      "category": "海外账户",
+      "content": "博主提及此前 N26 未关门时对 Monese 银行不屑一顾，如今想要开户却发现已经无法注册。"
+    },
+    {
+      "id": "2119030071302426753",
+      "author": "gkxspace",
+      "title": "使用 Image 2.6 实现零成本 AI 拼贴 B-roll 视频生成教程",
+      "category": "AI 视频 / 工作流",
+      "content": "开源教程（https://github.com/pyang5166/gbro-collage-broll）分享了利用 Codex Image 2.6 制作半调纸拼贴 B-roll 的全流程：将隐喻转化为画面要素、用案例图参数化风格、按物理顺序描述动作让模型生成静帧/GIF，最后通过 ffmpeg 转为 MP4 导入剪映，省去调用昂贵视频模型 API 的成本。"
+    },
+    {
+      "id": "2119089991217262884",
+      "author": "margatix",
+      "title": "利用精准匹配域名与 LLM 优化在10天内实现7位数估值的复盘",
+      "category": "增长黑客 / SEO",
+      "content": "博主分享了一起通过精准匹配域名（Exact Match Domains）、优化词汇邻近性内容及清晰实体映射，在 Google 和 LLM 搜索中快速排到第一名的增长案例。上线10天即获得域名租赁及7位数买断报价，属于高价值利基市场的成功复盘。"
+    },
+    {
+      "id": "2119118276089245782",
+      "author": "jilaiqian",
+      "title": "Agent 开发工具选型体验：从 Herdr 到 T3 Codes",
+      "category": "开发工具 / Agent",
+      "content": "博主对比了多款 Agent 开发与交互工具：Herdr 类似 agent 版 tmux 但缺手机端；Orca 功能全面但略显笨重；herdr-app 尚在早期且远程 SSH 有bug；最终选择功能精简且打磨完善的 T3 Codes（@t3dotcodes），支持手机连接、SSH、终端与 diff 视图。"
+    },
+    {
+      "id": "2106308341119193221",
+      "author": "CardAndMiles",
+      "title": "ITIN 持有者查询美国信用分完整教程：myEquifax ＋ myFICO",
+      "category": "美卡攻略 / 征信",
+      "content": "针对持有 ITIN、美国地址与门号的海外玩家：myEquifax 可通过 X 官方文字客服完成身份验证避开电话；myFICO 免费版（Equifax FICO Score 8）则必须通过电话验证；由于 ITIN 无法通过另两局验证，myFICO 付费版不建议开通，建议直接通过 Equifax 付费方案按需查阅。"
+    },
+    {
+      "id": "2119282919839850633",
+      "author": "sino_go_global",
+      "title": "iOS 平台应用开屏广告自动跳过工具 Swiplet 发布",
+      "category": "iOS 工具 / 效率",
+      "content": "博主转发了为 Swipt 平台开发的第一个 Swiplet（项目站 https://swipt.io），利用无障碍树精准识别并跳过国内应用开屏广告。开发者通过逆向国区热门应用并预置常见广告 SDK 规则，实现事件驱动的快速跳过。"
+    }
+  ]
+}

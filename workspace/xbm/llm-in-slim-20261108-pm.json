@@ -1,0 +1,199 @@
+[
+  {
+    "id": "2118893685505159640",
+    "url": "https://x.com/st7evechou/status/2118893685505159640",
+    "author": "st7evechou",
+    "author_name": "𝗦𝘁𝗲𝘃𝗲 𝕏",
+    "posted_at": "11-07 10:29",
+    "created_at": "2026-11-07T02:29:56.000Z",
+    "text": "我宣布可以卸载各大音乐app了，bilibili 插件杀死比赛 https://t.co/Ak0FaUAwZr\n\n【引用 @】\n新版 MyGo 音乐已上线\n\nhttps://t.co/pRycckDFIw https://t.co/DpUcaMXuRv",
+    "urls": [
+      {
+        "expanded_url": "https://twitter.com/localhost_4173/status/2118707516939087975",
+        "title": null,
+        "description": ""
+      },
+      {
+        "expanded_url": "https://music.egoist.dev",
+        "title": "MyGo 云音乐 — 原生地，安静地下线。",
+        "description": "网易云音乐来函，请本站立即下线。启动快，下线更快。",
+        "from": "quoted"
+      }
+    ],
+    "soft_ad_risk": false,
+    "soft_signals": [],
+    "has_screenshot": false
+  },
+  {
+    "id": "2119031354482704632",
+    "url": "https://x.com/wlzh/status/2119031354482704632",
+    "author": "wlzh",
+    "author_name": "M.",
+    "posted_at": "11-07 19:36",
+    "created_at": "2026-11-07T11:36:59.000Z",
+    "text": "太猛了，又一个能远程收短信、切 eSIM 卡的开源项目\n\n思路是把一台闲置安卓备用机变成无人值守的接码和保号网关，叫 eSIM-Matrix\n\n前提是你得有一张可插拔的 eUICC 芯片，9eSIM、ESTKme、https://t.co/h0RrvtG906、SakuraSIM 这些都支持，插进备用机，再装个 APK 就能跑。\n\n它最核心的玩法是三维联动，切卡的时候 SIM、代理和虚拟定位一起动，SIM 切到哪个国家，FlClash 的节点就切到对应的海外落地节点，GPS 也跟着伪装到那个国家的城市。\n\n这样做是为了解决一个老问题，平台风控会同时对出网 IP、SIM 归属地和 GPS 定位，只换卡不换另外两样，很容易被判定异地高危。\n\n切卡本身也很快，不用拔插卡，秒级远程切换，还能设 5 分钟临时接码，倒计时一到就自动切回默认主卡，不用你盯着。\n\n短信和验证码直接推到 Telegram，验证码 4 到 8 位数字和 G 开头的都能智能提取，点一下就能复制，下面还挂着一个切回主卡的快捷按钮。\n\n远程下卡也挺方便，直接在 Telegram 里发一张 eSIM 二维码图片，或者粘贴激活码，就能远程写卡。\n\n还有定时保号，按 90 天或者 180 天自动切卡漫游驻网 3 分钟再切回来。\n\n管起来也不只靠 Telegram，还有一个暗色 Web 控制台和完整的 REST API，局域网或者 Tailscale 都能访问，一键切卡、看短信收件箱都行。\n\n得说清楚两点，这个项目刚出来没几天，11 月 6 日才建的仓库，现在只有 21 个 star，版本是 v1.4.1，还在早期。\n\n另外它自己也在 README 里写了，只供个人管理自己合法的 eSIM，严禁非法接码和未授权设备监控，这条线别碰。\n\n它是基于 NekokoLPA2 二次开发的，MIT 开源，第三方独立维护，不是官方产品。\n\n项目链接：https://t.co/szmCYCAM2K\n\n【引用 @wlzh】\n卧槽，看完 @GCSAHK 这条⬇️\n\n好家伙 AI 和 Web3 的新威胁越来越密了\n\n不过跨域联防这个思路是对的：研究侧和港大共建 AI 与网络安全研究中心\n\n产品侧把威胁情报、资产测绘、AI 审计、边缘防护做成模块化矩阵\n\n全球用户 3.8 亿+，GCSA Agent 在 CyberGym Level 1 打出 91.3%。\n\n值得翻翻 👉 https://t.co/a9dHnJfdMz",
+    "urls": [
+      {
+        "expanded_url": "https://esim.gg",
+        "title": "eSIM.GG – Global eSIM Plans from €0.88/GB",
+        "description": "Activate affordable global eSIM plans in minutes with eSIM.GG. Stay connected worldwide with transparent pricing, instant setup, and reliable coverage in 180+ destinations."
+      },
+      {
+        "expanded_url": "https://twitter.com/wlzh/status/2118858517474099347",
+        "title": null,
+        "description": ""
+      },
+      {
+        "expanded_url": "https://twitter.com/GCSAHK/status/2118722622053818607",
+        "title": null,
+        "description": "",
+        "from": "quoted"
+      },
+      {
+        "expanded_url": "https://github.com/hg552/eSIM-Matrix",
+        "title": "eSIM-Matrix",
+        "description": "基于 Android 备用机的远程 eSIM 切卡与短信网关"
+      }
+    ],
+    "soft_ad_risk": false,
+    "soft_signals": [],
+    "has_screenshot": true
+  },
+  {
+    "id": "2118870155908587831",
+    "url": "https://x.com/UncleJohnnyMe/status/2118870155908587831",
+    "author": "UncleJohnnyMe",
+    "author_name": "Uncle Johnny",
+    "posted_at": "11-07 08:56",
+    "created_at": "2026-11-07T00:56:26.000Z",
+    "text": "😂 嘉信，你背着我偷偷干了多少事？！\n\n10月19日申请的 Visa Debit Card，\n等了快20天，连封 Email 都没有……\n\n今天忍不住登录账户看一眼，结果惊喜了！🤣\n\n💳 Visa Debit Card 已经显示！\n\n🇺🇸 Routing Number + Checking Account Number 都有了！\n\n✅ 连 Checkwriting 支票功能也安排上了！\n\n本来只是想申请张免境外ATM手续费的借记卡，没想到证券账户还自带美国本土银行支付功能😂\n\n现在就差最后一步了……\n\n📦 嘉信大哥，卡到底寄没寄啊？！🤣🙏\n\n有申请过嘉信 Visa 卡的朋友吗？\n你们等了多久才收到？\n\n#嘉信理财 #Schwab #美股投资 #VisaDebitCard\n\n【引用 @UncleJohnnyMe】\n不是吧？嘉信这张传说中的Visa 借记卡，现在居然还能申请？😂💳\n\n刚回到公司，随手点进嘉信官网逛了逛，没想到真让我找到了申请入口。\n\n下载表格一看，流程似乎比想象中简单多了。\n\n说实话，申请这张卡倒不是为了取现，\n纯粹是觉得它长得太好看了！🤣\n\n作为一个海外普通小散户，账户里也没多少资产，不知道能不能顺利通过审核，更不知道能不能真的寄到手里。\n\n反正先试试看，万一成功了呢？😂\n\n希望过段时间能来晒个开箱照！\n\n有没有海外嘉信用户成功申请过这张卡的？求分享经验！👀\n\n#CharlesSchwab #VisaDebit",
+    "urls": [
+      {
+        "expanded_url": "https://twitter.com/unclejohnnyme/status/2112049598810456230",
+        "title": null,
+        "description": ""
+      }
+    ],
+    "soft_ad_risk": false,
+    "soft_signals": [],
+    "has_screenshot": true
+  },
+  {
+    "id": "2119058033372541156",
+    "url": "https://x.com/WeiYi88890/status/2119058033372541156",
+    "author": "WeiYi88890",
+    "author_name": "维易",
+    "posted_at": "11-07 21:23",
+    "created_at": "2026-11-07T13:23:00.000Z",
+    "text": "之前N26还没关门的时候都看不上Monese银行，现在来开又开不了了 https://t.co/FBCTFuP7CI",
+    "urls": [],
+    "soft_ad_risk": false,
+    "soft_signals": [],
+    "has_screenshot": true
+  },
+  {
+    "id": "2119030071302426753",
+    "url": "https://x.com/gkxspace/status/2119030071302426753",
+    "author": "gkxspace",
+    "author_name": "余温",
+    "posted_at": "11-07 19:31",
+    "created_at": "2026-11-07T11:31:53.000Z",
+    "text": "这绝对是把 Image 2.6 榨得最干的教程，拼贴 B-roll 成本真要被干到 0 了！\n\n之前要做这种有质感的拼贴动效，必须去调视频模型 API，现在只需要：\nhttps://t.co/j9m8Dm3pxV\n\n原来 Image 2.6 就能直接搞定\n\n1、先让 AI 翻译成画面要素（比如把\"经验消耗\"变成\"时钟胶片裁切\"）\n\n2、给一张案例图，比如把纸纤维、黑白半调、纯色背景参数化。千万别直接让模型一步出 GIF！\n\n3、从空场拼起，比如动作描述就按物理顺序来：什么纸片先落下、剪刀怎么滑入、最后定格并退场。\n\n4、一行 ffmpeg 转成 MP4 进剪映\n\n【引用 @】\nhttps://t.co/5HDPlbHK75",
+    "urls": [
+      {
+        "expanded_url": "https://github.com/pyang5166/gbro-collage-broll",
+        "title": "GitHub - pyang5166/gbro-collage-broll: 半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill",
+        "description": "半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill - pyang5166/gbro-collage-broll"
+      },
+      {
+        "expanded_url": "https://twitter.com/gbroai/status/2118589683819262346",
+        "title": null,
+        "description": ""
+      },
+      {
+        "expanded_url": "https://x.com/i/article/2118584998299414528",
+        "title": null,
+        "description": "",
+        "from": "quoted"
+      }
+    ],
+    "soft_ad_risk": false,
+    "soft_signals": [],
+    "has_screenshot": true
+  },
+  {
+    "id": "2119089991217262884",
+    "url": "https://x.com/margatix/status/2119089991217262884",
+    "author": "margatix",
+    "author_name": "Margatix",
+    "posted_at": "11-07 23:29",
+    "created_at": "2026-11-07T15:29:59.000Z",
+    "text": "we were able to rank number 1 on Google + LLMs and go from 0 to 7 figures in just 10 days\n\nand all we did was - use exact match domains for search terms like:\n\n\"best data labs\"\n\"best ai data labs\"\n\"best data labelling\"\n\"best data labelling for ai\"\n\"best data labelling platform\"\n\"best data labelling software\"\n\"best data labelling tools\"\n\"best data brokers\"\n\"best enterprise fine tuning services\"\n\nwe noticed the massive amounts of $ flowing into the \"sell your data\" space from the likes of @mercor and @micro1_ai \n\nand immediately knew that the traffic and visibility in this space for keywords like \"best data labs\" is highly valuable\n\neveryone is racing to either sell or acquire data, but the toughest challenge for these parties is to find one another\n\n1) data sellers want a counterparty that is trustworthy and reliable\n\n2) data buyers want to get their hands on as much data as possible (various data types & counterparties)\n\nthese transactions come with high urgency and high avg. ticket sizes\n\nthe combination of all these make it the perfect niche to secure positioning in!\n\nso we got to work and:\n\n1) secured highly valuable exact match domains (they match the search intent keywords 1:1)\n\n2) deployed highly relevant, carefully architected content that induces lexical proximity to the keywords of interest (convincing the search engines + LLMs that our information on the topic is rich and relevant)\n\n3) focused on clean and functional entity mapping that consistently and coherently links our entity to the desired keywords\n\n4) waited for 10 days\n\nand now we rank for all these high value keywords and search intent!\n\nwe have since received offers by neolabs to rent the space on these domains and a 7 figure offer for acquiring these assets outright\n\nwhen we asked why, they explained that securing just one highly relevant lead from this type of positioning can yield an asymmetric return and more than offset the costs\n\nwhat a wild time to be alive!",
+    "urls": [],
+    "soft_ad_risk": false,
+    "soft_signals": [],
+    "has_screenshot": true
+  },
+  {
+    "id": "2119118276089245782",
+    "url": "https://x.com/jilaiqian/status/2119118276089245782",
+    "author": "jilaiqian",
+    "author_name": "Laiqian Ji",
+    "posted_at": "11-08 01:22",
+    "created_at": "2026-11-07T17:22:22.000Z",
+    "text": "En lo que va de semana, he pasado de herdr a Orca, después a herdr-app y, finalmente, me he quedado con T3 Codes.\n\nOs explico lo que me ha gustado de cada uno, lo que no y por qué me he quedado con el último:\n\nHerdr @herdrdev \nComo tmux, pero para agentes. Es minimalista, muy rápida, personalizable y cumple muy bien con el fin para el que está hecho. \nLo malo es que no tiene features que se están haciendo populares como conectarse por el móvil y estás limitado a lo que te dé el harness de CC o Codex.\n\nOrca @orca_build \nSe está haciendo muy famosa rápidamente, tiene un montón de features desde visualización de artifacts, alternar entre subscripciones, conexión desde donde estés con el móvil, conexión con GitHub, Linear y otros para ver issues, automations y una larga lista. \nEntiendo el hype que hay actualmente, pero en mi opinión y con mi manera de trabajar, creo que es demasiado tosco hasta el punto de que me llega a agobiar. Habrá gente que le guste tener una navaja suiza, pero personalmente soy de herramientas más sencillas. Eso sí, funciona muy pero que muy bien.\n\nHerdr-app\nHace nada sacaron la versión en app de herdr y le añadía algunas features como poder customizarte el layout y generarte plugins para añadirte componentes como un reloj, un diff, un explorador de archivos o incluso un kanban para ver los agentes. \nYo de hecho he hecho un pequeño plugin para tener un panel con algunas funcionalidades relacionadas con git como una vista de grafo con el historial de commits, un panel de unstaged y staged changes, e iconos para que sea un poco más estético. (link: https://t.co/ItnuTAFXnA)\nLo que no mola es que aún está muy verde, las conexiones a entornos remotos por SSH están un poco buggy y que carece de features al igual que su versión TUI. Es más bonito, pero no mejora.\n\nT3 Code @t3dotcodes \nSi no has escuchado hablar sobre T3 es que vives debajo de una piedra. La verdad es que el hype era brutal y decidí que era el momento de comprobar si era merecido, y puedo confirmar que lo es. \nTiene las funcionalidades justas y necesarias (conexión con el móvil, alternar entre suscripciones, conexión a entornos remotos por SSH, vistas de terminal, navegador y diffs integrados, etc.), y encima están muy bien pulidas.\nLa única queja que más de uno le pondrá es que no es vista de TUI, si no más bien de chat, como la app de Claude Code. Yo que tampoco soy de usarlo me he acabado acostumbrando e incluso me parece más agradable visualmente.\n\nAsí que nada, espero que, si estás en este rabbit hole como yo y no paras de probar uno y otro, esta información te ayude a decidirte un poco (por lo menos, hasta que me de por probar otros como https://t.co/H7DvojDgvq, https://t.co/93XR93Z9r8 o alguna parida nueva.",
+    "urls": [],
+    "soft_ad_risk": false,
+    "soft_signals": [],
+    "has_screenshot": true
+  },
+  {
+    "id": "2106308341119193221",
+    "url": "https://x.com/CardAndMiles/status/2106308341119193221",
+    "author": "CardAndMiles",
+    "author_name": "旅遊卡路哩",
+    "posted_at": "10-03 17:00",
+    "created_at": "2026-10-03T09:00:16.000Z",
+    "text": "https://t.co/4WYDPr6gQi\n\n【X Article】ITIN 也能查美國信用分：myEquifax ＋ myFICO 申請教程\n適用對象：持 ITIN、有美國地址與美國門號、已有美卡紀錄的海外玩家\n結論先講：myEquifax 可以靠 X 文字客服搞定；myFICO 免費版要打電話；myFICO 付費版基本上不用試了。\n為什麼兩個都要申請？\nmyEquifax：Equifax 官方帳戶，免費版可看 Equifax 本家的信用報告與 VantageScore 分數。\nmyFICO：免費版提供 Equifax 版的 FICO Score 8。多數發卡行審核看的是 FICO，比 VantageScore 更有參考價值。\n兩者互補：myEquifax 看報告細節，myFICO 看發卡行實際在用的分數。\n一、myEquifax 申請\n步驟\n到 myEquifax 官網註冊帳號（Email＋密碼）。\n填寫個人資料：英文姓名、美國地址、生日、美國門號，SSN 欄位填 ITIN。\n系統會嘗試線上驗證身分。ITIN 用戶通常卡在這一步，被要求打電話認證。\n不用打電話的解法：X（Twitter）文字客服\n到 Equifax 在 X 的官方客服帳號私訊（DM）。\n說明你在註冊 myEquifax 時被要求電話驗證，因一些理由不便打電話（例如長時間派駐海外，時區不同），請求協助完成身分驗證。\n依客服要求提供資料，通常幾輪對話就能開通。\n✅ 好處：不用處理時差和國際電話，文字紀錄也方便回查。\n二、myFICO 申請（免費版）\n步驟\n到 myFICO 官網，選擇免費方案（Free Account，提供 Equifax FICO Score 8）。\n填寫資料，SSN 欄位一樣填 ITIN。\n大多數 ITIN 用戶會被要求打電話給 myFICO 客服驗證。這一關目前沒有文字客服可以代替。\n打電話小提醒\n客服是美國上班時間，台灣通常要在晚上到凌晨撥打，撥打前先查官網的客服時段。\n用美國門號或網路電話撥打，準備好註冊時填的地址、生日、ITIN，資料要跟信用報告一致。\n英文不必很好，對方主要是核對個人資料（姓名、生日、地址）跟現在持有的信用卡相關資訊（有幾個信用卡帳戶、開戶時間、授信方、目前總額度及本期帳上金額）。\n先註冊Equifax看到信報細節資料後再來註冊MyFico的重點就在於問的內容可以依照信報內容回復，因為對方也是看你的信報內容確認你回復正確性。\n三、注意事項（重點！）\n1. Equifax 付費方案不用一直訂\n付費方案除了 Equifax 本家，還能看到 Experian、TransUnion 兩局的分數。\n但前提是那兩局要能抓到你的資料，抓不到就無法正常顯示。\n另外兩局分數是一年才更新一次，訂一個月看完就可以取消，持續訂閱沒有意義。記得在續訂日前取消。\n可以考慮半年後再去訂閱一次，高機率會重新pull當下另外兩局的信報及分數。\n2. myFICO 驗證極為嚴謹\n就算免費版已經透過電話驗證，升級訂閱另外兩局的付費方案時，還會再要求一次電話驗證。\n前一次驗證通過不代表之後都不會再驗。\n3. myFICO 付費方案原則上無法通過驗證\n實測下來，付費方案的驗證幾乎都失敗。\n推測原因：FICO 本身不是信用局。調閱 Experian、TransUnion 資料時，由這兩局負責驗證身分，而它們要求驗證 SSN。這兩局不記錄 ITIN，所以 ITIN 無法驗證成功。\n信用資歷夠厚的人，或許能在不填 ITIN 的情況下通過驗證，但大多數人應該都會失敗 。\n建議：不要浪費時間跟訂閱費。想看 EX/TU 分數，就用 Equifax 付費方案訂一個月。",
+    "urls": [
+      {
+        "expanded_url": "https://x.com/i/article/2106305503429263360",
+        "title": null,
+        "description": ""
+      }
+    ],
+    "soft_ad_risk": false,
+    "soft_signals": [],
+    "has_screenshot": false
+  },
+  {
+    "id": "2119282919839850633",
+    "url": "https://x.com/sino_go_global/status/2119282919839850633",
+    "author": "sino_go_global",
+    "author_name": "浪险 | 出海基建·港美卡·云居民",
+    "posted_at": "11-08 12:16",
+    "created_at": "2026-11-08T04:16:37.000Z",
+    "text": "Σ(°ロ°)，好东西！\n\n跳过开屏广告是刚需！\n\niOS 终于等到 https://t.co/NoOMzUIrur https://t.co/0PPmZbwRg0\n\n【引用 @】\n向您介绍我为 Swipt 开发的第一个 Swiplet：\n\n跳过（中国流氓应用的开屏）广告，iOS 终于有这个了 👀\n\n多亏了不可思议的 ipatool 和 unfairplay，我用 Opus 5.5 下载和逆向了国区所有热门应用，并制作了这个。\n\n它预先兼容了热门应用，并且可以通过无障碍树精确识别常见广告 SDK，并且学习；下次出现广告时，可以尽可能快地跳过它。\n\n即使它的设计目标是事件驱动和尽可能快，但许多流氓应用（如 Bilibili）为跳过按钮设置了延迟（看起来接近半秒之后才关闭），所以它只能比您点的更快 🤡\n\nhttps://t.co/hWYeilq3bf",
+    "urls": [
+      {
+        "expanded_url": "https://twitter.com/nek0hasekai/status/2118666707380412482",
+        "title": null,
+        "description": ""
+      },
+      {
+        "expanded_url": "https://twitter.com/nek0hasekai/status/2118639675057512597",
+        "title": null,
+        "description": "",
+        "from": "quoted"
+      },
+      {
+        "expanded_url": "https://swipt.io",
+        "title": "Swipt",
+        "description": "iOS on-device agent/Swiplet 平台"
+      }
+    ],
+    "soft_ad_risk": false,
+    "soft_signals": [],
+    "has_screenshot": true
+  }
+]

@@ -1,0 +1,235 @@
+你是新词雷达晚间简报撰写员。请根据下面提供的【唯一信源】写一篇简体中文用户简报，写入你的全部输出。不要输出 JSON、不要解释过程、不要写标题以外的前言。
+
+【必须遵守的文风与结构】（与今早简报一致，并按下列章节输出）
+- 开头先写一段很短的状态段：写明窗口（北京 2026-11-08 10:16–21:36）、XSCAN 结果（检索成功还是采集失败；有几条、什么类型）、双轨抓取数量、radar daily 是否成功、看板是否推送成功。
+- 然后严格使用这些章节标题：
+【书签X / XSCAN 重点】
+【建站热词】
+【游戏轨】
+【AI工具轨】
+【可做词】
+【看板】
+- 每个重点词必须用一句话说清「是什么、做什么」。
+- 游戏：必须写类型/玩法 + 已核实平台；若尚未发售或仍在开发，写明未发售/计划平台。信源没写玩法就写「玩法细节本轮信源未细述」，不要猜。
+- AI 工具：必须写具体功能。AI 信号要区分「新模型 / 产品功能 / 评测基准」；绝不要把所有名字都叫成新模型。
+- 保留信源链接。若功能不清楚，写「用途待核实」，且不要把它当重点推荐。
+- 不要根据名字脑补用途。
+- 要区分「采集失败」和「成功过滤后没有新词」。本次 XSCAN、双轨、radar 都是采集成功，不是失败。双轨 sitemap 记录的是 urls 已拉到但 new=0（快照无新增），不是抓取失败。
+- 每节只挑少数亮点，不要把名单刷完。老牌大作（如 Apex Legends、Blox Fruits、Counter-Strike 2、Dota 2）不要当成新词重点。
+- 不要写 PNG、不要写卡片、不要提 render_card。
+- 全文最后一行必须是：https://x.omnitools.cc/radar/new
+- 只使用下面信源里出现过的名字和描述。禁止发明信源没有的产品/游戏/模型名，禁止添加信源没有的功能细节。
+- 「Chars Land」与 "Char's Land" 是同一款游戏（书签X原文是 Char's Land，词表规范化成 Chars Land），写的时候可用 Char's Land，并保留原帖链接。
+- 建站热词门槛：views≥50万 或 bookmarks≥1000。本次 Shizuku-Duplex 的 bookmarks=1548，达到门槛，应写入【建站热词】。
+- Product Hunt 上只有名字、没有功能说明的条目（如 Agent Clan、Archie、AXL、Capnot、ChatGPT Images 2.6、GPT‑6 Cyber 等）一律「用途待核实」，不要写成新模型，也不要当重点。
+- Directionally Local 帖文称其提供 GPT-6 Luna 与 DeepSeek V4.1 Flash 的每周免费 tokens：这是该工具帖里的说法，不要把 GPT-6 Luna / DeepSeek V4.1 Flash 单独写成今晚新发布的模型。
+- Kiro、Teammates、Core Studio、Kinference、Wings Chess、Lumina Resume Agent 都是产品/工具，不是新模型。
+- Shizuku-Duplex 在 XSCAN 里 kind=model，可以按全双工语音对话模型来写（不要扩写成信源没有的能力）。
+
+【今早简报，仅作文风参考，不要复述今早内容当成本晚新发现】
+新词雷达 2026-11-08 上午：书签X窗口（北京 11-07 21:30–11-08 10:16）官方账号本窗无原创（检索成功，不是采集失败），关键词路收录 2 条（新模型 0、产品 1、非模型补报 1）。双轨抓取成功（游戏 139 项 / 40 词，AI工具 33 项 / 40 词），radar sources 成功抽出 3 个新名字，看板已推送。
+
+【书签X / XSCAN 重点】
+Momentum：跨模型 AI Agent 记忆层，可在 Claude、Codex、Grok 等 30 多个工具之间共享记忆，切换时不用重新交代上下文；产品账号 @tacticoai。https://x.com/tacticoai/status/2119175149534712178
+Beam（补报，不是新模型）：Reflection AI 发布其首款模型 Beam 的技术报告，介绍团队如何在内部完成端到端训练；模型本身已于 10 月 16 日发布。https://x.com/reflection_ai/status/2118751723565002758
+
+【建站热词】本档无（互动未达 views≥50万或 bookmarks≥1000）。
+
+【游戏轨（平台已核实；有信源才写玩法）】
+Find The Needle：Steam 抢先体验的第一人称模拟 / 增量 / 工厂自动化游戏，由波兰 Szczeci 的独立团队 Needless Games 用 Godot 开发，11 月 6 日上线。https://x.com/JohnWilliaobii/status/2119200659195183124
+……（示例到此为止，不要照抄进今晚简报）
+
+【本晚唯一信源】
+
+1) XSCAN / 书签X（窗口北京 10:16–21:36，检索成功）
+{
+  "label": "2026-11-08 晚上 书签X",
+  "run_at": "2026-11-08 21:20",
+  "window_start": "2026-11-08 10:16",
+  "window_end": "2026-11-08 21:36",
+  "empty": false,
+  "items": [
+    {
+      "name": "Shizuku-Duplex",
+      "desc": "Shizuku AI 推出的面向 AI 角色与日语 VTuber 的全双工语音合成与对话模型，支持边听边说、约 80ms tick、后台异步工具调用及 Live2D 表情动作控制。",
+      "source": "@ShizukuAILabs",
+      "url": "https://x.com/ShizukuAILabs/status/2119266216040898635",
+      "first_seen": "2026-11-08 11:10",
+      "views": 252649,
+      "bookmarks": 1548,
+      "kind": "model"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword_rank": 1,
+      "keyword": "Shizuku-Duplex",
+      "reason": "Shizuku AI 发布的全球首款面向 AI 角色的全双工语音对话模型，具备边听边说、80ms tick 与后台工具调用能力，适合做该语音交互模型的介绍与体验测评页。"
+    }
+  ]
+}
+
+
+2) 双轨 X 提炼（LLM 从 X 搜索结果抽出，已写入 _tracks_x_20261108_pm.json）
+{
+  "game": [
+    {
+      "name": "Char's Land",
+      "desc": "一款在 Roblox 平台上制作中的合作地牢探索（coop dungeon delver）新游戏。",
+      "url": "https://x.com/slashie_/status/2119286915505549326",
+      "source": "@slashie_",
+      "first_seen": "2026-11-08 04:32"
+    },
+    {
+      "name": "99 Day Survival Guide",
+      "desc": "一款即将上线 Steam 平台的生存指南类游戏。",
+      "url": "https://x.com/DarkStudioIndie/status/2119285903231500545",
+      "source": "@DarkStudioIndie",
+      "first_seen": "2026-11-08 04:28"
+    }
+  ],
+  "ai_tools": [
+    {
+      "name": "Directionally Local",
+      "desc": "一款在本地运行的免费开源 AI 编码代理工具，提供 GPT-6 Luna 和 DeepSeek V4.1 Flash 的每周 50M 免费 tokens。",
+      "url": "https://x.com/MATKA_r/status/2119421206663225703",
+      "source": "@MATKA_r",
+      "first_seen": "2026-11-08 21:26"
+    },
+    {
+      "name": "Core Studio",
+      "desc": "一款由 imCore 推出的 AI 影视制作平台，内置 24 个 AI 虚拟演职人员代理，支持从剧本到调色的全流程制作及成本追踪。",
+      "url": "https://x.com/romeaifest/status/2119403309765165475",
+      "source": "@romeaifest",
+      "first_seen": "2026-11-08 20:15"
+    },
+    {
+      "name": "Teammates",
+      "desc": "Perplexity 推出的常驻 AI 代理工具，可加入 Slack 并连接 GitHub 与 Gmail 以接管长期项目。",
+      "url": "https://x.com/DeepthiConnects/status/2119404905597440482",
+      "source": "@DeepthiConnects",
+      "first_seen": "2026-11-08 20:21"
+    },
+    {
+      "name": "Kiro",
+      "desc": "AWS 推出的售价 20 美元/座位的 AI 编码代理工具，可读取并记住完整的代码库，根据项目模式编写代码。",
+      "url": "https://x.com/Vivek_khudaniya/status/2119309632888033387",
+      "source": "@Vivek_khudaniya",
+      "first_seen": "2026-11-08 14:02"
+    },
+    {
+      "name": "Kinference",
+      "desc": "Buoyant 推出的开源控制平面工具，用于 Kubernetes 上的 vLLM，通过 KV 缓存感知路由将流量导向预缓存的 GPU。",
+      "url": "https://x.com/ShwetaTechNova/status/2119378083472150909",
+      "source": "@ShwetaTechNova",
+      "first_seen": "2026-11-08 18:34"
+    },
+    {
+      "name": "Wings Chess",
+      "desc": "一款免费的 AI 教练国际象棋应用，能指出每步棋的好坏并提供模仿真人犯错的机器人。",
+      "url": "https://x.com/TheTechOkunola/status/2119416751951597749",
+      "source": "@TheTechOkunola",
+      "first_seen": "2026-11-08 21:08"
+    },
+    {
+      "name": "Lumina Resume Agent",
+      "desc": "一款实时的 AI 驱动简历构建器与作品集优化工具，采用 React + TS 开发，支持分屏预览与内联编辑。",
+      "url": "https://x.com/IrumNavid/status/2119377299116331154",
+      "source": "@IrumNavid",
+      "first_seen": "2026-11-08 18:31"
+    }
+  ]
+}
+
+
+3) 双轨扫描汇总 tracks-20261108-pm.json（抓取成功）
+- label: 2026-11-08 晚上 双轨；run_at: 2026-11-08 21:41
+- 游戏轨：items=136，keywords=40
+- AI工具轨：items=37，keywords=40
+- errors（不是抓取失败，而是 sitemap 已拉取、对比快照 new=0）：
+  sitemap toolify: urls=12927 new=0
+  sitemap futurepedia: urls=2497 new=0
+  sitemap aixploria: urls=24 new=0
+- 游戏来源计数：Poki 30、Steam 畅销 25、Roblox Top Trending 25、Roblox Top Playing Now 20、Roblox Up-and-Coming 15、Steam 全球畅销 12、Steam 新热 7、X 新词 2（Char's Land / 99 Day Survival Guide）
+
+游戏轨 X 新词（优先写）：
+- Char's Land / Chars Land：Roblox 上制作中的合作地牢探索（coop dungeon delver），尚未发售，计划平台 Roblox。https://x.com/slashie_/status/2119286915505549326
+- 99 Day Survival Guide：即将上线 Steam 的生存指南类游戏（尚未发售，计划平台 Steam）。https://x.com/DarkStudioIndie/status/2119285903231500545
+
+Roblox Up-and-Coming（平台已核实为 Roblox；玩法未细述就不要编）：
+- DONT SPLASH · 100375 playing · https://www.roblox.com/games/119958473240233
+- Sweep The Moon · 40903 playing · https://www.roblox.com/games/109576450376407
+- Depth Incremental · 30378 playing · https://www.roblox.com/games/119101118479978
+- 30 Floors Up · 21185 playing · https://www.roblox.com/games/124063493943486
+- Unstable SMP FFA · 20765 playing · https://www.roblox.com/games/76870565041704
+- Net a Fish! · 20200 playing · https://www.roblox.com/games/93898234979111
+- Scare Your Neighbor · 19099 playing · https://www.roblox.com/games/124710677460732
+- FERAL Animal Survival · 16825 playing · https://www.roblox.com/games/108901361810209
+- Ragdoll Wars! · 13259 playing · https://www.roblox.com/games/123701727018513
+- Monster Maker · 12258 playing · https://www.roblox.com/games/137036689378411
+- Ragdoll Realism · 7164 playing · https://www.roblox.com/games/81315647087659
+- Impact Lab: Extreme Physics! · 5455 playing · https://www.roblox.com/games/109607724765529
+- Revolver Arena · 1521 playing · https://www.roblox.com/games/108419873026523
+
+Roblox Top Trending 摘录（老牌可略过，不要当新词）：
+- +1 Venom Evolution · 47988 playing · https://www.roblox.com/games/116448925875915
+- +1 Spider Arm 也在今晚词表（Roblox Top Trending）
+- 13 Days to Escape · Roblox Top Trending
+- 1M Clicks To Escape · 8866 playing
+- MOUSE · 18204 playing
+
+游戏词表基础名：99 Day Survival Guide, Chars Land, Impact Lab: Extreme Physics!, MOUSE, Ragdoll Realism, +1 Spider Arm, +1 Venom Evolution, 13 Days to Escape, 1M Clicks To Escape, 30 Floors Up
+
+AI工具轨 X 新词（优先写，都有功能描述）：
+- Directionally Local：本地免费开源 AI 编码代理，帖文称提供 GPT-6 Luna 和 DeepSeek V4.1 Flash 每周 50M 免费 tokens。https://x.com/MATKA_r/status/2119421206663225703
+- Core Studio：imCore 的 AI 影视制作平台，内置 24 个 AI 虚拟演职人员代理，支持从剧本到调色及成本追踪。https://x.com/romeaifest/status/2119403309765165475
+- Teammates：Perplexity 常驻 AI 代理，可加入 Slack 并连接 GitHub 与 Gmail 接管长期项目。https://x.com/DeepthiConnects/status/2119404905597440482
+- Kiro：AWS 的 AI 编码代理（$20/座位），可读取并记住完整代码库、按项目模式写代码。https://x.com/Vivek_khudaniya/status/2119309632888033387
+- Kinference：Buoyant 开源控制平面，用于 Kubernetes 上的 vLLM，按 KV 缓存感知路由把流量导向预缓存 GPU。https://x.com/ShwetaTechNova/status/2119378083472150909
+- Wings Chess：免费 AI 教练国际象棋应用，能指出每步好坏并提供会模仿真人犯错的机器人。https://x.com/TheTechOkunola/status/2119416751951597749
+- Lumina Resume Agent：实时 AI 简历构建器与作品集优化工具，React + TS，支持分屏预览与内联编辑。https://x.com/IrumNavid/status/2119377299116331154
+
+Product Hunt 仅有名字、无功能说明（用途待核实，不要当重点）：Agent Clan, GPT‑6 Cyber, Archie, AXL, Capnot, ChatGPT Images 2.6, Deal Pilot, Deduplication, Dino Kids, DocsAlot for customer support, Duly, Exa Monitors v2, Fleeep, Frameboy by World Labs, Google Omni 1.2 Flash, Inkling 2 Small, Instagram Edits for Desktop, kayet, Keypause, LiveReview, Memorias, Muse Realtime Avatar, NoMac, NotchIsland, NotchX, outages.live, PacerTrip, Quest, Rex, Sage2 by Levanto Labs
+
+4) radar daily：成功。报告写于 2026-11-08 21:46（Asia/Taipei）。用时约 8 分钟（sitemap 4 min、usecases 2 min）。 tonight 读了名字 cinecode, hookshot, satmux, nx2navi, php2shell bypass aslr exp。
+- cinecode：GitHub 爆发 sarpstar/cinecode，简介 “Films made with code. Short films, long YouTube videos, ads”
+- hookshot：GitHub 爆发 NotRexed/Hookshot，Native Recompilation Of The Legend of Zelda: Ocarina of Time
+- satmux：GitHub 爆发 Th0rgal/satmux，Accelerate high-latency GEO
+- nx2navi：GitHub 爆发 tangerineturtle1/NX2navi；对应通用词说明是 Switch 2 版 Zelda Ocarina of Time 的静态重编译 PC 移植
+这些 radar 名字可在开头状态段用一句话带过（抽出了哪些新名字），不必单开章节，也不要编造更多功能。
+
+5) 可做词（doable.md 原文）：
+## 可做的词 & SERP 真空期机会（2026-11-08）
+
+规则：常规通道：月搜 ≥ 500、KD ≤ 31、CPC 有值、首页竞争「能进」、allintitle < 10,000；真空期通道（免月搜门槛）：Google 前 10 自然结果中论坛/社交/代码仓/视频/资讯占比 ≥ 70% 且无独立产品站占坑。共查 60 个干净候选词（前置语义预筛已自动剔除 275 个球赛/八卦/非网页交付噪音词）。
+
+### 🔥 真空期可抢（免月搜门槛 · SERP 社媒/代码仓 ≥70% 且无独立站）（0）
+
+今天没有触发 SERP 真空期的词。
+
+### 全过门槛的词（0）
+
+今天没有词全过 Semrush 常规门槛。
+
+### 差一点就过的词（0）
+
+没有只差一项的词。
+
+其余（两项以上没过）：bodycam online（月搜 10，KDROI 0.0，KD —，CPC $0.00；卡在 月搜、CPC、首页竞争、KD没数据、allintitle没数据）；captive 3000 online（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、首页竞争、KD没数据、allintitle没数据）；feral animal survival online（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、首页竞争、KD没数据、allintitle没数据）；monster ranch online（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、首页竞争、KD没数据、allintitle没数据）；net a fish! online（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、KD没数据、首页竞争没数据、allintitle没数据）；revolver arena online（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、KD没数据、首页竞争没数据、allintitle没数据）；wardogs online（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、KD没数据、首页竞争没数据、allintitle没数据）；+1 spider arm online（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、KD没数据、首页竞争没数据、allintitle没数据）；+1 venom evolution online（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、KD没数据、首页竞争没数据、allintitle没数据）；13 days to escape online（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、首页竞争、KD没数据、allintitle没数据）；era ai alternative（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、KD没数据、首页竞争没数据、allintitle没数据）；filmlume alternative（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、KD没数据、首页竞争没数据、allintitle没数据）；turnstone alternative（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、KD没数据、首页竞争没数据、allintitle没数据）；gpt‑6 cyber alternative（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、KD没数据、首页竞争没数据、allintitle没数据）；tobira site agent alternative（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、KD没数据、首页竞争没数据、allintitle没数据）；any video to text alternative（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、KD没数据、首页竞争没数据、allintitle没数据）；momentum（月搜 74,000，KDROI 200,540.0，KD —，CPC $2.71；卡在 首页竞争、KD没数据、allintitle没数据）；bodycam（月搜 33,100，KDROI 18,205.0，KD —，CPC $0.55；卡在 首页竞争、KD没数据、allintitle没数据）；era ai（月搜 110，KDROI 1,399.2，KD —，CPC $12.72；卡在 月搜、KD没数据、首页竞争没数据、allintitle没数据）；shizuku-duplex（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、首页竞争、KD没数据、allintitle没数据）；bodycam unblocked（月搜 40，KDROI 0.0，KD —，CPC $0.00；卡在 月搜、CPC、首页竞争、KD没数据、allintitle没数据）；bodycam play（月搜 20，KDROI 0.0，KD —，CPC $0.00；卡在 月搜、CPC、首页竞争、KD没数据、allintitle没数据）；captive 3000（月搜 10，KDROI 0.0，KD —，CPC $0.00；卡在 月搜、CPC、首页竞争、KD没数据、allintitle没数据）；captive 3000 unblocked（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、首页竞争、KD没数据、allintitle没数据）；captive 3000 play（月搜 0，KDROI —，KD —，CPC —；卡在 月搜、CPC、首页竞争、KD没数据、allintitle没数据）
+
+前置语义预筛拦截（共 275 个）：`io.github.theluckystrike`（含义不明/包名碎片）、`connectors io.github.theluckystrike`（含义不明/包名碎片）、`io.github.itsryanarmani`（含义不明/包名碎片）、`connectors io.github.itsryanarmani`（含义不明/包名碎片）、`connectors io.usefulapi`（含义不明/包名碎片）、`io.github.bumiatlas`（含义不明/包名碎片）、`connectors io.github.bumiatlas`（含义不明/包名碎片）、`io.github.bumi`（含义不明/包名碎片）、`io.github.miradero`（含义不明/包名碎片）、`connectors io.github.miradero`（含义不明/包名碎片）、`com.yazilimkocu`（含义不明/包名碎片）、`coldframe a honeypot that poses as a supermarket fridge controller`（长度异常或为空）、`io.github.bumiatlas thua`（含义不明/包名碎片）、`connectors io.github.justiceua`（含义不明/包名碎片）、`io.github.justice`（含义不明/包名碎片）、`io.github.theluckystrike pdf`（含义不明/包名碎片）、`we compressed a 31b video+audio diffusion model to 14b 6 steps int8`（长度异常或为空）、`an offline desktop companion to help maintain a healthy blink rhythm`（长度异常或为空）
+
+花费：本次 AIsa 约 $0.008（上限 $0.50），3 个词用了 7 天内缓存没再付费。
+注：KD 用的是 Semrush 指数；域名状态通过官方 RDAP 只读查询（.com Verisign / .ai & .io IdentityDigital / .org PIR），全程只读不自动注册。
+
+
+6) 看板推送结果：
+- 成功（PUSH_EXIT=0）
+- 标签：「2026-11-08 新词雷达」（覆盖今早同一标签）
+- items=256，keywords=40
+- 接口返回：{"id": 41, "items": 256, "keywords": 40, "empty": false}
+- 40 个关键词构成：书签X 1（Shizuku-Duplex）+ 游戏轨 18 + AI工具轨 21
+- keywords 前 15 个：Shizuku-Duplex, Bodycam, Captive 3000, FERAL Animal Survival, Monster Ranch, Net a Fish!, Revolver Arena, THE VAULT HEIST: KEEP OUT!, WARDOGS, +1 Spider Arm, +1 Venom Evolution, 13 Days to Escape, 99 Day Survival Guide, Chars Land, Impact Lab: Extreme Physics!
+- Bodycam / WARDOGS 在词表里的证据是 “Steam 全球畅销”，没有玩法说明；THE VAULT HEIST: KEEP OUT! 与 Monster Ranch / Captive 3000 来自今早双轨沿用（今晚合并进同一日标签）。若你提到它们，只能用已给描述：THE VAULT HEIST: KEEP OUT! 是 Roblox 平台开发中的建造陷阱迷宫、互偷金币游戏（尚未发售）；Monster Ranch 是开发者自称新上线的 Roblox 游戏、玩法类型待核实；Captive 3000 已登录 Steam、类型待核实。没有更多细节就不要展开。
+
+现在直接写今晚简报正文。

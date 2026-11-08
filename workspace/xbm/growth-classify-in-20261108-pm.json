@@ -1,0 +1,76 @@
+{
+  "candidates": [
+    {
+      "id": "2119031354482704632",
+      "url": "https://x.com/wlzh/status/2119031354482704632",
+      "title": "开源 eSIM-Matrix 把安卓备用机做成远程切卡接码网关",
+      "tag": "通讯",
+      "need": "M.（@wlzh）介绍开源项目 eSIM-Matrix：把闲置安卓备用机做成无人值守的接码和保号网关，需自备可插拔 eUICC 芯片（9eSIM、ESTKme、eSIM.gg、SakuraSIM 等）。切卡时可让 SIM、FlClash 代理节点和虚拟定位一起切换，降低只换卡被判异地高危的风险；支持秒级远程切卡、5 分钟临时接码后自动切回、短信验证码推 Telegram、在 Telegram 里发 eSIM 二维码远程写卡，以及 90/180 天定时保号。也提供 Web 控制台和 REST API。基于 NekokoLPA2 二次开发，MIT 开源，作者称仓库 2026-11-06 新建、当时约 21 个 star、版本 v1.4.1，仍早期；并写明只供个人管理自己合法的 eSIM，严禁非法接码。仓库：[hg552/eSIM-Matrix](https://github.com/hg552/eSIM-Matrix)",
+      "text": "太猛了，又一个能远程收短信、切 eSIM 卡的开源项目\n\n思路是把一台闲置安卓备用机变成无人值守的接码和保号网关，叫 eSIM-Matrix\n\n前提是你得有一张可插拔的 eUICC 芯片，9eSIM、ESTKme、https://t.co/h0RrvtG906、SakuraSIM 这些都支持，插进备用机，再装个 APK 就能跑。\n\n它最核心的玩法是三维联动，切卡的时候 SIM、代理和虚拟定位一起动，SIM 切到哪个国家，FlClash 的节点就切到对应的海外落地节点，GPS 也跟着伪装到那个国家的城市。\n\n这样做是为了解决一个老问题，平台风控会同时对出网 IP、SIM 归属地和 GPS 定位，只换卡不换另外两样，很容易被判定异地高危。\n\n切卡本身也很快，不用拔插卡，秒级远程切换，还能设 5 分钟临时接码，倒计时一到就自动切回默认主卡，不用你盯着。\n\n短信和验证码直接推到 Telegram，验证码 4 到 8 位数字和 G 开头的都能智能提取，点一下就能复制，下面还挂着一个切回主卡的快捷按钮。\n\n远程下卡也挺方便，直接在 Telegram 里发一张 eSIM 二维码图片，或者粘贴激活码，就能远程写卡。\n\n还有定时保号，按 90 天或者 180 天自动切卡漫游驻网 3 分钟再切回来。\n\n管起来也不只靠 Telegram，还有一个暗色 Web 控制台和完整的 REST API，局域网或者 Tailscale 都能访问，一键切卡、看短信收件箱都行。\n\n得说清楚两点，这个项目刚出来没几天，11 月 6 日才建的仓库，现在只有 21 个 star，版本是 v1.4.1，还在早期。\n\n另外它自己也在 README 里写了，只供个人管理自己合法的 eSIM，严禁非法接码和未授权设备监控，这条线别碰。\n\n它是基于 NekokoLPA2 二次开发的，MIT 开源，第三方独立维护，不是官方产品。\n\n项目链接：https://t.co/szmCYCAM2K"
+    },
+    {
+      "id": "2106308341119193221",
+      "url": "https://x.com/CardAndMiles/status/2106308341119193221",
+      "title": "ITIN 查美国信用分：myEquifax 走 X 客服、myFICO 免费版要打电话",
+      "tag": "身份",
+      "need": "旅遊卡路哩（@CardAndMiles）的 X Article《ITIN 也能查美國信用分：myEquifax ＋ myFICO 申請教程》面向已有 ITIN、美国地址、美国门号和美卡纪录的人。结论：myEquifax 可看 Equifax 报告和 VantageScore，ITIN 用户线上验证常卡住，可用 Equifax 官方 X 文字客服完成认证、不必打电话；myFICO 免费版提供发卡行更常看的 Equifax FICO Score 8，但必须在美国客服时段打电话验证；myFICO 付费版调 Experian/TransUnion 时 ITIN 通常过不了验证，作者建议改用 Equifax 付费方案订一个月看完另两局就取消（另两局分数一年才更新一次）。原帖：[X Article](https://x.com/i/article/2106305503429263360)",
+      "text": "https://t.co/4WYDPr6gQi"
+    },
+    {
+      "id": "2118870155908587831",
+      "url": "https://x.com/UncleJohnnyMe/status/2118870155908587831",
+      "title": "嘉信 Visa 借记卡申请约 20 天后账户已显示卡号与支票功能",
+      "tag": "美卡",
+      "need": "Uncle Johnny（@UncleJohnnyMe）说 10 月 19 日申请嘉信 Visa Debit Card，等了快 20 天没有邮件通知；登录后发现账户里已经显示 Visa Debit Card，并有 Routing Number、Checking Account Number 和 Checkwriting 支票功能。他原本只想申请免境外 ATM 手续费的借记卡，现在还差确认实体卡有没有寄出，并向其他申请人打听收卡周期。",
+      "text": "😂 嘉信，你背着我偷偷干了多少事？！\n\n10月19日申请的 Visa Debit Card，\n等了快20天，连封 Email 都没有……\n\n今天忍不住登录账户看一眼，结果惊喜了！🤣\n\n💳 Visa Debit Card 已经显示！\n\n🇺🇸 Routing Number + Checking Account Number 都有了！\n\n✅ 连 Checkwriting 支票功能也安排上了！\n\n本来只是想申请张免境外ATM手续费的借记卡，没想到证券账户还自带美国本土银行支付功能😂\n\n现在就差最后一步了……\n\n📦 嘉信大哥，卡到底寄没寄啊？！🤣🙏\n\n有申请过嘉信 Visa 卡的朋友吗？\n你们等了多久才收到？\n\n#嘉信理财 #Schwab #美股投资 #VisaDebitCard"
+    },
+    {
+      "id": "2119058033372541156",
+      "url": "https://x.com/WeiYi88890/status/2119058033372541156",
+      "title": "Monese 现在开不了户",
+      "tag": "支付",
+      "need": "维易（@WeiYi88890）写：之前 N26 还没关门时都看不上 Monese，现在想开却开不了了。配图未做文字识别，帖内没有说明具体报错或关闭原因。",
+      "text": "之前N26还没关门的时候都看不上Monese银行，现在来开又开不了了 https://t.co/FBCTFuP7CI"
+    },
+    {
+      "id": "2119089991217262884",
+      "url": "https://x.com/margatix/status/2119089991217262884",
+      "title": "用精确匹配域名加实体映射 10 天登上 Google 与 LLM 第一",
+      "tag": "增长",
+      "need": "Margatix（@margatix）复盘：在「sell your data」赛道抢下 best data labs、best data labelling、best data labelling platform 等精确匹配域名，部署与关键词词面接近的内容，并做清晰的实体映射，称 10 天内在 Google 和 LLMs 排到第 1，随后接到域名出租和七位数买断报价。判断逻辑是买卖双方找彼此难、客单价高、决策急，占住这些词价值很大。这是增长方法论复盘，不是让读者去买他们的域名。",
+      "text": "we were able to rank number 1 on Google + LLMs and go from 0 to 7 figures in just 10 days\n\nand all we did was - use exact match domains for search terms like:\n\n\"best data labs\"\n\"best ai data labs\"\n\"best data labelling\"\n\"best data labelling for ai\"\n\"best data labelling platform\"\n\"best data labelling software\"\n\"best data labelling tools\"\n\"best data brokers\"\n\"best enterprise fine tuning services\"\n\nwe noticed the massive amounts of $ flowing into the \"sell your data\" space from the likes of @mercor and @micro1_ai \n\nand immediately knew that the traffic and visibility in this space for keywords like \"best data labs\" is highly valuable\n\neveryone is racing to either sell or acquire data, but the toughest challenge for these parties is to find one another\n\n1) data sellers want a counterparty that is trustworthy and reliable\n\n2) data buyers want to get their hands on as much data as possible (various data types & counterparties)\n\nthese transactions come with high urgency and high avg. ticket sizes\n\nthe combination of all these make it the perfect niche to secure positioning in!\n\nso we got to work and:\n\n1) secured highly valuable exact match domains (they match the search intent keywords 1:1)\n\n2) deployed highly relevant, carefully architected content that induces lexical proximity to the keywords of interest (convincing the search engines + LLMs that our information on the topic is rich and relevant)\n\n3) focused on clean and functional entity mapping that consistently and coherently links our entity to the desired keywords\n\n4) waited for 10 days\n\nand now we rank for all these high value keywords and search intent!\n\nwe have since received offers by neolabs to rent the space on these domains and a 7 figure offer for acquiring these assets outright\n\nwhen we asked why, they explained that securing just one highly relevant lead from this type of positioning can yield an asymmetric return and more than offset the costs\n\nwhat a wild time to be alive!"
+    },
+    {
+      "id": "2119030071302426753",
+      "url": "https://x.com/gkxspace/status/2119030071302426753",
+      "title": "用 Codex Image 2.6 做拼贴 B-roll 不必另接视频模型 API",
+      "tag": "AI",
+      "need": "余温（@gkxspace）转发狗哥笔记（@gbroai）的教程：用 Codex 的 Image 2.6 做半调纸拼贴风 B-roll，走订阅额度、不再按条调用视频模型 API。流程是先把口播译成视觉隐喻并确认，再用案例图把风格参数化后出静帧，按纸片落下、剪刀滑入等物理顺序描述动作出 GIF，最后一行 ffmpeg 转成 MP4 进剪映。作者强调不要让模型一步出 GIF。仓库：[pyang5166/gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll)",
+      "text": "这绝对是把 Image 2.6 榨得最干的教程，拼贴 B-roll 成本真要被干到 0 了！\n\n之前要做这种有质感的拼贴动效，必须去调视频模型 API，现在只需要：\nhttps://t.co/j9m8Dm3pxV\n\n原来 Image 2.6 就能直接搞定\n\n1、先让 AI 翻译成画面要素（比如把\"经验消耗\"变成\"时钟胶片裁切\"）\n\n2、给一张案例图，比如把纸纤维、黑白半调、纯色背景参数化。千万别直接让模型一步出 GIF！\n\n3、从空场拼起，比如动作描述就按物理顺序来：什么纸片先落下、剪刀怎么滑入、最后定格并退场。\n\n4、一行 ffmpeg 转成 MP4 进剪映"
+    },
+    {
+      "id": "2119282919839850633",
+      "url": "https://x.com/sino_go_global/status/2119282919839850633",
+      "title": "Swipt 上的 Swiplet 可跳过 iOS 国区应用开屏广告",
+      "tag": "工具",
+      "need": "浪险（@sino_go_global）转发世界（@nek0hasekai）为 Swipt 做的第一个 Swiplet：在 iOS 上跳过国内应用开屏广告，通过无障碍树识别常见广告 SDK 并学习，下次更快跳过。作者称用 ipatool 和 unfairplay 下载并逆向了国区热门应用；也提到不少应用会给跳过按钮加约半秒延迟，所以它只能比手动点更快。项目站：[swipt.io](https://swipt.io)。这不是 App Store 官方应用。",
+      "text": "Σ(°ロ°)，好东西！\n\n跳过开屏广告是刚需！\n\niOS 终于等到 https://t.co/NoOMzUIrur https://t.co/0PPmZbwRg0"
+    },
+    {
+      "id": "2119118276089245782",
+      "url": "https://x.com/jilaiqian/status/2119118276089245782",
+      "title": "对比 Herdr、Orca 与 T3 Codes 后留下 T3 Codes",
+      "tag": "工具",
+      "need": "Laiqian Ji（@jilaiqian）用西语复盘一周试用：Herdr 像给 Agent 用的 tmux，快、可定制，但缺手机连接，也受限于 Claude Code/Codex 的 harness；Orca 功能很多（产物可视化、切换订阅、手机连接、GitHub/Linear），作者觉得过于笨重；herdr-app 更漂亮还能加插件，但还早、远程 SSH 有 bug。最终留下 T3 Codes（@t3dotcodes）：手机连接、切换订阅、SSH 远程环境、终端/浏览器/diff 都有，而且打磨更好；界面更像聊天而非 TUI，作者已适应。",
+      "text": "En lo que va de semana, he pasado de herdr a Orca, después a herdr-app y, finalmente, me he quedado con T3 Codes.\n\nOs explico lo que me ha gustado de cada uno, lo que no y por qué me he quedado con el último:\n\nHerdr @herdrdev \nComo tmux, pero para agentes. Es minimalista, muy rápida, personalizable y cumple muy bien con el fin para el que está hecho. \nLo malo es que no tiene features que se están haciendo populares como conectarse por el móvil y estás limitado a lo que te dé el harness de CC o Codex.\n\nOrca @orca_build \nSe está haciendo muy famosa rápidamente, tiene un montón de features desde visualización de artifacts, alternar entre subscripciones, conexión desde donde estés con el móvil, conexión con GitHub, Linear y otros para ver issues, automations y una larga lista. \nEntiendo el hype que hay actualmente, pero en mi opinión y con mi manera de trabajar, creo que es demasiado tosco hasta el punto de que me llega a agobiar. Habrá gente que le guste tener una navaja suiza, pero personalmente soy de herramientas más sencillas. Eso sí, funciona muy pero que muy bien.\n\nHerdr-app\nHace nada sacaron la versión en app de herdr y le añadía algunas features como poder customizarte el layout y generarte plugins para añadirte componentes como un reloj, un diff, un explorador de archivos o incluso un kanban para ver los agentes. \nYo de hecho he hecho un pequeño plugin para tener un panel con algunas funcionalidades relacionadas con git como una vista de grafo con el historial de commits, un panel de unstaged y staged changes, e iconos para que sea un poco más estético. (link: https://t.co/ItnuTAFXnA)\nLo que no mola es que aún está muy verde, las conexiones a entornos remotos por SSH están un poco buggy y que carece de features al igual que su versión TUI. Es más bonito, pero no mejora.\n\nT3 Code @t3dotcodes \nSi no has escuchado hablar sobre T3 es que vives debajo de una piedra. La verdad es que el hype era brutal y decidí que era el momento de comprobar si era merecido, y puedo confirmar que lo es. \nTiene las funcionalidades justas y necesarias (conexión con el móvil, alternar entre suscripciones, conexión a entornos remotos por SSH, vistas de terminal, navegador y diffs integrados, etc.), y encima están muy bien pulidas.\nLa única queja que más de uno le pondrá es que no es vista de TUI, si no más bien de chat, como la app de Claude Code. Yo que tampoco soy de usarlo me he acabado acostumbrando e incluso me parece más agradable visualmente.\n\nAsí que nada, espero que, si estás en este rabbit hole como yo y no paras de probar uno y otro, esta información te ayude a decidirte un poco (por lo menos, hasta que me de por probar otros como https://t.co/H7DvojDgvq, https://t.co/93XR93Z9r8 o alguna parida nueva."
+    },
+    {
+      "id": "2118893685505159640",
+      "url": "https://x.com/st7evechou/status/2118893685505159640",
+      "title": "MyGo 云音乐因网易云来函下线，作者称 B 站插件已能替代音乐 App",
+      "tag": "工具",
+      "need": "𝗦𝘁𝗲𝘃𝗲 𝕏（@st7evechou）引用低空飞行（@localhost_4173）的帖子说「可以卸载各大音乐 app 了，bilibili 插件杀死比赛」。被引用站点 [MyGo 云音乐](https://music.egoist.dev) 标题是「原生地，安静地下线。」，描述写着网易云音乐来函、请本站立即下线。作者没有给出所谓 B 站插件的名称或安装方式。",
+      "text": "我宣布可以卸载各大音乐app了，bilibili 插件杀死比赛 https://t.co/Ak0FaUAwZr"
+    }
+  ]
+}

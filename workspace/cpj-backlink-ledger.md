@@ -167,7 +167,7 @@ AgentMail `frame-submit@`：2026-11-06 后 **无新** CPJ To=`submit@` 验证/�
 
 
 ## 2026-11-07 14:51 Asia/Singapore · TinyLaunch 免费提交成功
-- **Submitted / Pending review（非公开、非 Live）**：免费 **Standard Launch**，ID **30842**。
+- **历史：Submitted / Pending review（已被 2026-11-07 拒信取代，当前 Rejected）**：免费 **Standard Launch**，ID **30842**。
 - 确认页：https://www.tinylaunch.com/dashboard/launches/30842/success
 - 已上传现有官方 CPJ logo；此前“等待 logo / NOT submitted”为历史状态，现已解除。
 - 网站提示审核通常 **少于 24 小时**（平台预计，非保证）。
@@ -204,3 +204,86 @@ AgentMail `frame-submit@`：2026-11-06 后 **无新** CPJ To=`submit@` 验证/�
 - **勿再交 TinyLaunch**（旅行询盘路由平台不匹配 SaaS 目录定位）；12/7 档空出但不回填 CPJ
 - 有效 Live 累计仍为 **3**（Brownbook + Addon Biz + F6S）；TinyLaunch 不计
 - 本次仅追加本地台账；无 git push、无网站修改、无回复邮件
+
+
+## 2026-11-08 09:09 Asia/Taipei · 例程 daily backlink quota
+
+以 11-07 下午台账为当前真相后复验（Live 已是 3：Brownbook + Addon Biz + F6S；TinyLaunch #30842 Rejected 勿再交；Touristlink / SideProjectors Blocked；Toolfio / DodoDirectory Skipped）。
+
+| ID | 渠道 | 状态更新 | 证据 |
+|---|---|---|---|
+| 4 | Brownbook | **Live · Claimed** 维持；curl UA HTTP 200，Claimed×2 + `chinaprivatejourneys.com`×13；`backlink-guard verify` **HTTP 403 unreadable**（勿改 Lost） | `/workspace/cpj-daily-2026-11-08/brownbook.html` + `bg-verify-brownbook.json` |
+| 12 | Addon Biz | **Live** 维持；HTTP 200，域名提及 3；`backlink-guard` = **qualified link**（`rel=nofollow` sidebar） | `https://www.addonbiz.com/listing/guangzhou-china-china-private-journeys/` · `addonbiz-listing.html` + `bg-verify-addonbiz.json` |
+| 13 | F6S | **Live** 维持（11-07 下午已建公开公司页）。今日 curl HTTP 200 但正文是验证码拦截页「Checking your browser」；WebFetch 403；guard 在挑战 HTML 上 not found —— **不改 Lost** | `https://www.f6s.com/china-private-journeys` · `f6s.html` + `bg-verify-f6s.json` |
+| 10 | PeerPush | **Queued / Coming soon** 维持（未重抓；禁止 Live） | 沿用既有状态 |
+| 3 | ExactSeek | **Pending** 维持；今日无新信 | AgentMail `frame-submit` |
+| 9 | ASR | Membership activated；**非 Live**；今日无新信 | AgentMail |
+| 6 | Startup88 | **Pending** 维持；无新信 | AgentMail |
+| 7 | ASEAN Now | Member ready；无 listing → 不计 Live | — |
+| 11 | Jayde | **Pending** 维持；无 listing 信 | AgentMail |
+| — | TinyLaunch | **Rejected** 维持（#30842，非 SaaS）；AgentMail 拒信已在 11-07 17:40 入账；**勿再交** | thread `78134f7e-3d62-4725-8bdc-bb2811d7cdbe` |
+| 8 | IndexNow | 再 POST **10 URL** → **HTTP 200** | `indexnow-post.json` / `indexnow-resp.txt` |
+
+**今日新增 Live = 0** · 有效 Live 累计 = **3（Brownbook + Addon Biz + F6S）** · Lost = **0** · 今日新自动目录交 = **0**（未发现剩余可 curl/API、免费、无验证码、无互挂徽章的目录；ShowMySites `/submit` 需登录；Cybo/Hotfrog/Crunchbase/Travellerspoint 仍属浏览器项）  
+**Pending**: ExactSeek · ASR（activated 非 Live）· Startup88 · Jayde  
+**Queued**: PeerPush Coming soon  
+**Blocked**: Touristlink（`submit@` 被拒）· SideProjectors（密码校验失败，停止重试）  
+**Skipped**: Toolfio · DodoDirectory  
+**Rejected**: TinyLaunch  
+**NEED_BROWSER（留给 14:00；已剔除拒/拦/跳过/已 Live 项）**: Crunchbase / Cybo / Hotfrog / Travellerspoint / ShowMySites  
+AgentMail `frame-submit@`：11-07 17:40 之后 **无新** CPJ listing/验证信。共享箱噪声：TipSeason 通讯（2026-11-08 00:07 Taipei）；Frame Extractor 的 TinyLaunch 通过信也落到 `submit@`（不是 CPJ listing）。  
+工件：`/workspace/cpj-daily-2026-11-08/backlink-summary.json`
+
+## 2026-11-08 14:06 Asia/Shanghai · 例程 cpj-14 筛站交主聊天代交
+
+本轮未找到可 curl/API、免验证码、免登录的免费目录。AgentMail `frame-submit` 自 11-07 17:40 后无新 CPJ 验证/listing 信（共享箱噪声：TipSeason 通讯、Frame 的 TinyLaunch 通过信）。
+已筛下一站交给主聊天继续浏览器代交（本自动化 run 无法安全填充密码/已存登录）：**Crunchbase（优先）** → Travellerspoint → Hotfrog → Cybo（地址必填且需选自动补全，占位街道慎用）→ ShowMySites（需登录，软件向，末位）。
+跳过：Live Brownbook / Addon Biz / F6S；Pending ExactSeek / ASR / Startup88 / Jayde；Queued PeerPush；Blocked Touristlink / SideProjectors；Skipped Toolfio / DodoDirectory；Rejected TinyLaunch 勿再交。
+今日新增提交 = 0 · 新增 Live = 0 · Live 累计 = 3
+工件：`daily-runs/2026-11-08/cpj-14-handoff.md`
+
+
+## 2026-11-08 Asia/Taipei · TinyLaunch 拒信全文复核（当前状态）
+- **China Private Journeys / #30842：Rejected，非 Pending / Scheduled；不重交，不计 Live。** 保留上方提交及排期历史；原 2026-12-07 排期不再作为当前有效排期。
+- 来源：AgentMail `get_message` 全文（非预览）；隔离箱 `frame-submit@agentmail.to`，To `submit@chinaprivatejourneys.com`。
+- 来信时间：**2026-11-07 17:40:39 Asia/Taipei (UTC+8)**。
+- From：Chris from TinyLaunch <chris@updates.tinylaunch.com>；Subject：**Update on your TinyLaunch submission**。
+- Message ID：`<010001a1b561ab84-62a4ae8a-de62-4056-b653-65af09317e3f-000000@email.amazonses.com>`
+- Thread ID：`78134f7e-3d62-4725-8bdc-bb2811d7cdbe`。
+- 原因原文："Your product does not align with the kind of products we're looking to showcase on TinyLaunch. We're mostly looking for digital products in the SaaS niche."
+- 全文明确点名 **China Private Journeys** 并拒绝提交；拒信本身没有产品 URL 或 launch ID，#30842 关联沿用此前提交确认记录；未把同箱 Frame Extractor 的通过/排期信当作 CPJ。
+- 拒信无安全产品 URL；既有提交确认入口（非公开 listing）：https://www.tinylaunch.com/dashboard/launches/30842/success
+- 有效 Live 累计保持 **3（Brownbook + Addon Biz + F6S）**；无新增 Live。
+- 仅更新两份本地账本；未联系任何人、未改网站、未 git push。
+
+
+## 2026-11-08 Asia/Taipei · Travellerspoint 暂缓（公司资料允许范围待明确）
+- 来源：主聊天本轮 computerUse 操作回报；本记录步骤未另开浏览器。
+- 注册入口：https://www.travellerspoint.com/signup/?ref=home
+- 表单：公司账号 checkbox、Email、Username（最多 15 字符）、Password（未显示规则）、Terms、hCaptcha。
+- computerUse 尝试 hCaptcha checkbox 后遇未解决的 puzzle；**未输入邮箱或密码，未创建账号、profile，未提交推广内容**。
+- Terms：https://www.travellerspoint.com/terms.htm；包含禁止 “advertise or offer to sell any goods or services for any commercial purpose”。
+- **Deferred / Unsuitable pending clear allowed company-profile scope**：存在公司账号 checkbox，不能据此断言全部公司 profile 都被禁止；须先明确公司资料允许范围，当前不做推广发帖或以此渠道继续注册。
+- 品类/规则适配尚不确定，**不请 Halo 代解验证码**。此前候选清单保留为历史，本节取代 Travellerspoint 的当前待交状态。
+- 新增账号 / profile / 提交 / Live 均为 **0**；有效 Live 仍为 **3（Brownbook + Addon Biz + F6S）**。
+- Hotfrog 由主聊天另行推进，本条不代表 Hotfrog 已处理；无 git push、无网站修改。
+
+
+## 2026-11-08 Asia/Taipei · Travellerspoint / Hotfrog 官方公开证据资格复核
+本轮仅公开研究：3 次搜索、5 页读取；无浏览器、注册、邮箱填写、账号/profile 变更或对外联系。以下更新此前暂缓判断，旧记录保留。
+
+### Travellerspoint — 有限允许 profile URL，不是即交即 Live 的目录
+- 已读官方 Terms：https://www.travellerspoint.com/terms.htm （标示 last updated June 2, 2023），第 5 节仍禁止 “advertise or offer to sell any goods or services for any commercial purpose”。不能据此推断所有公司账号或 profile 被禁止。
+- 已读官方 FAQ：https://www.travellerspoint.com/faq.cfm ，Q51 明确：“To promote your site, you can add your website to your profile.” 同时说明只有论坛参与足够或有照片被精选后，链接才显示。**网站字段允许 ≠ 新账号即有公开外链**。
+- FAQ Q79 明确允许 travel agent / tour company 用其创建客户行程；这不是对 CPJ 公司介绍文案或商业广告的全面许可。结合此前公司账号 checkbox，不能标为“公司一律禁止”；FAQ 未明确逐项定义仅含官网的 travel-business profile 范围，但一般 profile 官网字段已有肯定证据。
+- 已读官方论坛规则：https://www.travellerspoint.com/forum_rules.cfm ：禁止促销帖、销售帖；规则 8 “NO AI. These forums are for genuine humans only.” **不以 AI 发论坛内容或灌水解锁链接**，不把论坛规则等同于全面禁止 profile URL。
+- 当前：**Deferred / low priority — profile URL generally permitted, visibility gated; company promotional scope not fully verified**。非一概 Unsuitable；无账号/profile/提交，不请求 Halo 解验证码，不做推广帖子。
+
+### Hotfrog — 中国专站已证实；无需继续假设只能用 US
+- 已读官方中国站公开注册页：https://www.hotfrog.cn/register ，标题 Hotfrog CN，正文“中国最新鲜的当地商业指南”，有“添加您的商户”；支持中国专站存在。仅此不能证明 US 注册可列 Guangzhou。
+- 已读官方支持 FAQ：https://support.hotfrog.com/frequently-asked-questions/ ：“A Hotfrog profile is absolutely free.” AdVantage 为可选升级，无义务购买。**仅证实一般免费 profile，不证明中国所有流程或无地址/电话条件**。
+- CN 页可见姓名、电子邮件、密码、确认密码、条款、产品营销订阅文案；读取结果还含 human-check 错误提示，不视为浏览器全站无法使用的证据。
+- US https://www.hotfrog.com/register 的字段及 /admin/add 登录门槛来自主聊天此前 browser report，非本轮独立验证；US 站是否允许 Guangzhou、CN 新建商户是否须真实街道/电话、可否仅网站运营平台列名，**均未证实，不得从未找到推断不允许**。
+- 当前：**Deferred / email gate — CN country fit confirmed; listing field requirements unverified**。OfferEmailAddress 边界要求例行注册停在邮箱 gate；**未输入邮箱、未注册，不向 Halo 索取注册或验证码操作**。不可为看后台要求而先建号，不使用占位地址/电话。
+
+**有效 Live 仍为 3（Brownbook + Addon Biz + F6S）；本轮新增提交/Live = 0。** 仅双写本地账本；无 git push、无网站修改。必要阻碍是当前邮箱 gate 及未核实的 listing 必填/适用范围，不把 US/中国覆盖或所有公司禁止当作阻碍。

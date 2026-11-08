@@ -1,0 +1,53 @@
+{
+  "summary": "2026年11月8日晚间，社群讨论涵盖了开源 eSIM 管理工具、音乐代理网站下线、嘉信理财 Visa Debit 卡进度、AI 拼贴 B-roll 生成流程、SEO 增长复盘、多款 AI Agent 终端工具对比、ITIN 查美卡信用分教程，以及 iOS 端开屏广告跳过插件。",
+  "highlights": [
+    {
+      "category": "开源工具与硬件",
+      "title": "eSIM-Matrix：基于安卓备用机的开源 eSIM 切卡与短信网关",
+      "description": "作者 @wlzh 推荐了开源项目 eSIM-Matrix（仓库 `hg552/eSIM-Matrix`），基于 NekokoLPA2 二次开发（MIT）。它将闲置安卓机和可插拔 eUICC 芯片（如 9eSIM、ESTKme、SakuraSIM 等）结合，实现远程切卡、收短信、联动代理和虚拟定位等功能。项目目前在早期（v1.4.1，约 21 star），作者提示仅供个人合法管理 eSIM 使用。",
+      "link": "https://github.com/hg552/eSIM-Matrix"
+    },
+    {
+      "category": "数字生活",
+      "title": "MyGo 云音乐网站下线与 bilibili 插件讨论",
+      "description": "用户 @st7evechou 转发了 MyGo 云音乐（`music.egoist.dev`），该站因收到网易云音乐来函已宣布安静下线。同时讨论了配合 bilibili 插件的使用体验。",
+      "link": "https://x.com/st7evechou/status/2118893685505159640"
+    },
+    {
+      "category": "海外金融",
+      "title": "嘉信理财 Visa Debit Card 申请进度与 Monese 现状",
+      "description": "用户 @UncleJohnnyMe 分享了 10 月 19 日申请嘉信 Visa Debit Card 的进展，等待近 20 天后账户已显示卡片信息及 Routing/Checking 账号，但实体卡寄送状态未定。另一用户 @WeiYi88890 提到目前 Monese 开户受阻。",
+      "link": "https://x.com/UncleJohnnyMe/status/2118870155908587831"
+    },
+    {
+      "category": "AI 与视频生成",
+      "title": "Image 2.6 / Codex 拼贴 B-roll 0 成本生成教程",
+      "description": "用户 @gkxspace 分享了利用 Image 2.6 / Codex 生成半调纸拼贴 B-roll 的工作流（项目 `pyang5166/gbro-collage-broll`）：先确立视觉隐喻、用案例图参数化风格、按物理顺序描述动作输出 GIF，最后通过 ffmpeg 转 MP4 导入剪映，省去直接调用视频模型 API 的成本。",
+      "link": "https://github.com/pyang5166/gbro-collage-broll"
+    },
+    {
+      "category": "增长与 SEO",
+      "title": "精准匹配域名与 LLM 时代搜索排名的增长复盘",
+      "description": "用户 @margatix 分享了一次 10 天内通过 exact match domains（精确匹配域名）、词汇邻近性内容设计及实体映射，在 Google 与 LLM 中迅速获得高排名的实战经验，并收到了域名出租和七位数买断报价。",
+      "link": "https://x.com/margatix/status/2119089991217262884"
+    },
+    {
+      "category": "AI Agent 工具",
+      "title": "多款 AI Agent 终端工具对比：最终选择 T3 Codes",
+      "description": "用户 @jilaiqian 对比了一周内尝试的多款 Agent 工具，包括 Herdr（类似 tmux）、Orca（功能多但显笨重）、herdr-app（尚在早期且有 SSH bug），最终认为 T3 Codes 功能适中且打磨完善（支持手机连接、SSH、终端和 diff 视图），成为首选。",
+      "link": "https://x.com/jilaiqian/status/2119118276089245782"
+    },
+    {
+      "category": "海外金融/信用",
+      "title": "ITIN 查美卡信用分教程：myEquifax 与 myFICO 实操要点",
+      "description": "用户 @CardAndMiles 总结了持 ITIN 查美卡信用分的完整经验：myEquifax 可通过官方 X 文字客服绕过电话验证；myFICO 免费版（Equifax FICO Score 8）需电话验证；而 myFICO 付费版因涉及 Experian/TransUnion 对 SSN 的要求，ITIN 用户通常无法通过，建议直接订阅 Equifax 付费方案查看另两局。",
+      "link": "https://x.com/CardAndMiles/status/2106308341119193221"
+    },
+    {
+      "category": "iOS 工具",
+      "title": "基于 Swipt 平台的开屏广告跳过插件 Swiplet",
+      "description": "用户 @sino_go_global 转发了针对 iOS 的开屏广告跳过工具。该工具作为 Swipt 平台的第一个 Swiplet（项目站 `swipt.io`），通过无障碍树精准识别并跳过应用开屏广告。",
+      "link": "https://swipt.io"
+    }
+  ]
+}

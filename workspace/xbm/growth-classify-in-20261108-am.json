@@ -1,0 +1,28 @@
+{
+  "candidates": [
+    {
+      "id": "2119026669386371187",
+      "url": "https://x.com/sino_go_global/status/2119026669386371187",
+      "title": "八达通新户撸 150 港币奖励",
+      "tag": "羊毛",
+      "need": "浪险分享八达通新客活动：下载 App 注册开卡、活动登记、在淘宝/拼多多消费即可得 HK$150 及自选卡面。推广期至 2027-01-03，名额有限。关键链接：https://www.octopuscards.com/onlineform/promotion/general/registration/tc/step1.jsp?promotionRegRefCode=202611MO",
+      "text": "羊毛：八达通新户撸 150 港币奖励\n\n经典活动又来了\n\n名额有限，有需求速撸\n\n刚出来，我已上车\n\nhttps://t.co/czTloB967r\n\n温馨提示，操作步骤：\n\n1、下载八达通 app 注册、开新卡\n2、活动登记\n3、八达通消费，可以在淘宝、pdd上使用的\n\n#八达通"
+    },
+    {
+      "id": "2119080693233754506",
+      "url": "https://x.com/Pluvio9yte/status/2119080693233754506",
+      "title": "Vercel 开源 agent-desktop 让 Agent 直接操控电脑",
+      "tag": "工具",
+      "need": "雪踏乌云实测 Vercel Labs 开源的 agent-desktop：通过无障碍树而非截图让 Claude Code、Codex 等 Agent 后台操作桌面 App（点按、填表、读界面），不抢前台焦点，跨平台、无模型绑定、60 个命令。安装：npm i -g agent-desktop 并按引导开权限。仓库：https://github.com/vercel-labs/agent-desktop",
+      "text": "全体起立，Vercel推出的agent-desktop现在才是Agent操控电脑的真神。\n\n它是 Vercel Labs 的开源项目，Apache-2.0 协议，GitHub 已经有 1.8 万 star，仓库地址在下面\n\n它是一个命令行工具，让 Claude Code、Codex 这类 Agent 直接操作你电脑上的 App：点按钮、填表单、打字、切菜单、读界面。\n\n之前大部分 Computer Use 的做法是截图，再让模型猜该点哪个坐标。慢，还容易点歪。\n\nagent-desktop 不截图。它直接读系统的无障碍树（就是读屏软件用的那套接口），给界面上每个按钮、输入框编一个号，Agent 按编号去点、去输入。\n\n最关键的一点：它默认不动你的鼠标，也不把窗口切到前台。\n\nAgent 在后台操作电脑的时候，你可以照常刷微信、写东西，两边互不干扰。真要用物理鼠标键盘时，再加 --headed。\n\n我在自己的 Mac 上实测了一轮：\n\n- 打开系统设置，读完整个界面 0.3 秒左右\n- 点击「蓝牙」0.17 秒，页面切过去了，设备列表也读出来了\n- 给不在前台的文本编辑输入一段中英文加数字，0.15 秒，读回来一字不差\n- Electron 写的 App 也能读，侧栏、对话列表的文字都拿得到\n- 整个过程我一直在用微信，前台一次都没被抢\n\n我原来用 LCU，它要借 ChatGPT 桌面端里面的运行时，ChatGPT 一更新就可能坏，也卡过。今天卸了，换成 agent-desktop。\n\n几个让我决定换的点：\n\n1. 不依赖任何 App，npm 一装就能用\n2. macOS（Intel 和 M 芯片）、Windows、Linux 都支持\n3. 自己不带模型，任何能跑命令的 Agent 都能用，也可以当 MCP 服务接进去\n4. 60 个命令，窗口管理、剪贴板、通知、菜单栏都包了\n\n安装就两步：\n\nnpm install -g agent-desktop\nagent-desktop permissions --guide\n\n第二条在 Mac 上会一步步引导你打开辅助功能权限。\n\n然后在 AGENTS.md 或 CLAUDE.md 里加一句：\n\nUse `agent-desktop` to see and operate desktop apps. Before the first use, run\n`agent-desktop skills get desktop` and `agent-desktop skills get platform`, and follow them.\n\n你的 Agent 就会用了。\n\n仓库：https://t.co/LqimXMvIZ6\n\n实测截图👇"
+    },
+    {
+      "id": "2119005839654887533",
+      "url": "https://x.com/Nico69Oliveira/status/2119005839654887533",
+      "title": "Wise 账户被限制并将于 2027-02-05 关闭",
+      "tag": "支付",
+      "need": "Nico爱分享收到 Wise 通知：账户已被限制，将于 2027-02-05 关闭，目前无法收发资金或用卡。作者表示不在乎、替代软件很多但未点名具体产品。配图显示红色提示及小额余额截图。",
+      "text": "谢了城里。wise关户 不过我并不在乎。可以替代软件太多了。 https://t.co/lU7L2oGUdz"
+    }
+  ]
+}

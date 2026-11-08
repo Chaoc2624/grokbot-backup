@@ -1,0 +1,3829 @@
+{
+  "window": {
+    "start": "2026-11-08T02:16:00Z",
+    "end": "2026-11-08T13:36:30Z"
+  },
+  "query_A": {
+    "posts": [
+      {
+        "author_id": "1784494412913049600",
+        "created_at": "2026-11-08T11:57:24.000Z",
+        "edit_history_tweet_ids": [
+          "2119398883130478962"
+        ],
+        "id": "2119398883130478962",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 621,
+          "like_count": 4,
+          "quote_count": 0,
+          "reply_count": 2,
+          "retweet_count": 0
+        },
+        "text": "🌏 Bringing Open-Source AI to the Geoscience Community at IEEE AP-GARSS 2026!\n\nTogether with the @IEEE_GRSS Beijing Student Chapter Branch, we organized the Open Source GeoAI Practice Challenge in Qingdao, bringing researchers and developers together to explore open-source AI for https://t.co/EWRtzV7IQ5",
+        "url": "https://x.com/ModelScope2022/status/2119398883130478962"
+      }
+    ],
+    "users": [
+      {
+        "id": "1784494412913049600",
+        "name": "ModelScope",
+        "username": "ModelScope2022"
+      }
+    ],
+    "page_meta": [
+      {
+        "file": "222fad6e0ca8244d422f27346df07b1a8bc543317452e8a59a62fd80e03baca0.txt",
+        "meta": {
+          "newest_id": "2119398883130478962",
+          "next_token": "b26v89c19zqg8o3juzlzcmqj8u248uvd348cemykt3jb1",
+          "oldest_id": "2119398883130478962",
+          "result_count": 1
+        },
+        "n": 1
+      },
+      {
+        "file": "75aa86ac49a26109c92d780148efefda7aa46d2d7129a6c01e52b0e40282e528.txt",
+        "meta": {
+          "result_count": 0
+        },
+        "n": 0
+      }
+    ]
+  },
+  "query_B": {
+    "posts": [
+      {
+        "author_id": "2022204783197908992",
+        "created_at": "2026-11-08T11:05:53.000Z",
+        "edit_history_tweet_ids": [
+          "2119385916943032335"
+        ],
+        "id": "2119385916943032335",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 5,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "I ran Beam on 500 traces: context loss 23% higher than lead. Here's the exact eval config:\nReflection AI just dropped Beam, an open-weight model backed by Nvidia. For agent builders, open weights let you self-host memory layers instead of calling APIs. Our test on 500 real",
+        "url": "https://x.com/mnemosyne_oos/status/2119385916943032335"
+      },
+      {
+        "author_id": "1440541114008702980",
+        "created_at": "2026-11-08T03:46:00.000Z",
+        "edit_history_tweet_ids": [
+          "2119274416349798630",
+          "2119275217055051991"
+        ],
+        "id": "2119275217055051991",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 370,
+          "like_count": 11,
+          "quote_count": 0,
+          "reply_count": 3,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119192075505893695",
+            "type": "quoted"
+          }
+        ],
+        "text": "Open-weight models need to win.\n\nHave been using Opus 5.5 for ~90% of my work, and this week hurt fr. The worst part is it brings negative impact to your work progress since you keep trusting a nerfed model like before which it sometimes pushes back on your earlier correct https://t.co/0LFwvKJ5Nd",
+        "url": "https://x.com/r3ktdegen/status/2119275217055051991"
+      },
+      {
+        "author_id": "1440541114008702980",
+        "created_at": "2026-11-08T03:42:49.000Z",
+        "edit_history_tweet_ids": [
+          "2119274416349798630",
+          "2119275217055051991"
+        ],
+        "id": "2119274416349798630",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 38,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119192075505893695",
+            "type": "quoted"
+          }
+        ],
+        "text": "Open-weight models need to win.\n\nHave been using Opus 5.5 for ~90% of my work, and this week hurt fr. The worst part it bring negative impact to your work progress since you keep trusting a nerfed model like before which it sometimes pushes back on your earlier correct https://t.co/0LFwvKJ5Nd",
+        "url": "https://x.com/r3ktdegen/status/2119274416349798630"
+      },
+      {
+        "author_id": "1094558677292351488",
+        "created_at": "2026-11-08T07:56:13.000Z",
+        "edit_history_tweet_ids": [
+          "2119338183947084067"
+        ],
+        "id": "2119338183947084067",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 53,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2118046765857546733",
+            "type": "quoted"
+          }
+        ],
+        "text": "a 65B dense model pretrained for $32M full R&amp;D just claimed U.S. open-weight SOTA on agentic coding\n\nRipple-65B Preview (Ricursive): 80.5% TerminalBench 2.1 on Terminus 2 @128K, and they cite Qwen 3.8 27B at 73% on the same setup. open weights, they say it fits a MacBook or DGX https://t.co/r7XwKQp86H",
+        "url": "https://x.com/paleknight/status/2119338183947084067"
+      },
+      {
+        "author_id": "72022803",
+        "created_at": "2026-11-08T06:06:13.000Z",
+        "edit_history_tweet_ids": [
+          "2119310504527098135"
+        ],
+        "id": "2119310504527098135",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 106,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2116282985393873017",
+            "type": "quoted"
+          }
+        ],
+        "text": "Australia's cyber agency just put open-weight AI models into official guidance, and the timing fits.\n\n**What ASD's ACSC published**\nOn 5 Nov, ASD's Australian Cyber Security Centre released two papers: one on the opportunities and cyber risks of open-weight models, and one on https://t.co/MXOPt5i62l",
+        "url": "https://x.com/mikejt4/status/2119310504527098135"
+      },
+      {
+        "author_id": "312722080",
+        "created_at": "2026-11-08T10:36:51.000Z",
+        "edit_history_tweet_ids": [
+          "2119376570829697274",
+          "2119378608624111805"
+        ],
+        "id": "2119378608624111805",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 56,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "OpenRouter's October data recap is out, and it reads like a State of the Union for the agent era.\n\nThe largest LLM routing platform processed 790 trillion tokens last month — up 37% from September and roughly 25x January's volume. DeepSeek V4.1 Flash and the Claude 5.5 family https://t.co/8s9QBrreED",
+        "url": "https://x.com/gaven4/status/2119378608624111805"
+      },
+      {
+        "author_id": "312722080",
+        "created_at": "2026-11-08T10:28:45.000Z",
+        "edit_history_tweet_ids": [
+          "2119376570829697274",
+          "2119378608624111805"
+        ],
+        "id": "2119376570829697274",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 29,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "OpenRouter's October data recap is out, and it reads like a State of the Union for the agent era.\n\nThe largest LLM routing platform processed 790 trillion tokens last month — up 37% from September and roughly 25x January's volume. DeepSeek V4.1 Flash and the Claude 5.5 family https://t.co/FmQGDj646k",
+        "url": "https://x.com/gaven4/status/2119376570829697274"
+      },
+      {
+        "article": {
+          "title": "Weekly AI News Brief For Monday November 2nd, 2026 through Sunday November 8th, 2026"
+        },
+        "author_id": "1868270318936334336",
+        "created_at": "2026-11-08T11:32:53.000Z",
+        "edit_history_tweet_ids": [
+          "2119392711572664437"
+        ],
+        "id": "2119392711572664437",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 325,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 1
+        },
+        "text": "#ai #si #ainews #sinews #aiautomation\n\nTeam Thor AI Weekly New Brief: https://t.co/PIVHUbR9mY",
+        "url": "https://x.com/Team_Thor_AI/status/2119392711572664437"
+      },
+      {
+        "author_id": "1907634469726728193",
+        "created_at": "2026-11-08T04:01:11.000Z",
+        "edit_history_tweet_ids": [
+          "2119279036614459772"
+        ],
+        "id": "2119279036614459772",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 264,
+          "like_count": 4,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 1
+        },
+        "text": "OpenAI raised an initial $11bn round at $1.25tn valuation (Bloomberg / Reuters Nov 6). The total raise could be as high as $20bn, down from previous $30bn+ targets, due to reduced market enthusiasm. Participants include SoftBank, Coatue etc.\nThis demonstrates that large amount of https://t.co/Bgb4to20nq",
+        "url": "https://x.com/Techsmartdaily1/status/2119279036614459772"
+      },
+      {
+        "author_id": "2089243957989457920",
+        "created_at": "2026-11-08T11:34:10.000Z",
+        "edit_history_tweet_ids": [
+          "2119393033661956416"
+        ],
+        "id": "2119393033661956416",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 20,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "TENCENT shipped a draft model that guesses sixteen tokens ahead for its open weights release and agent workloads run about three times faster, the intern proposes and the partner signs\nhttps://t.co/DJgFUatiQt",
+        "url": "https://x.com/eforus_overseer/status/2119393033661956416"
+      },
+      {
+        "author_id": "703986163",
+        "created_at": "2026-11-08T10:19:30.000Z",
+        "edit_history_tweet_ids": [
+          "2119374244517728622"
+        ],
+        "id": "2119374244517728622",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 23,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Result for Mac is out in beta, built for people who want local open-weight models without assembling the stack themselves.\n\nYou can download and run models on your Mac, connect private inference like DGX, Halo, or Ollama in one click, or use Result’s open-weight cloud models. https://t.co/zCc4tmyAs5",
+        "url": "https://x.com/Khaled865412521/status/2119374244517728622"
+      },
+      {
+        "author_id": "1709302428150169600",
+        "created_at": "2026-11-08T07:54:11.000Z",
+        "edit_history_tweet_ids": [
+          "2119337675350315068"
+        ],
+        "id": "2119337675350315068",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 7,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "\"step 5\" is the flagship open-weights model from StepFun",
+        "url": "https://x.com/peacenjunity/status/2119337675350315068"
+      },
+      {
+        "author_id": "1784583130734837760",
+        "created_at": "2026-11-08T03:39:08.000Z",
+        "edit_history_tweet_ids": [
+          "2119273487705796683"
+        ],
+        "id": "2119273487705796683",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 13128,
+          "like_count": 110,
+          "quote_count": 0,
+          "reply_count": 7,
+          "retweet_count": 4
+        },
+        "referenced_tweets": [
+          {
+            "id": "2118889023339208755",
+            "type": "quoted"
+          }
+        ],
+        "text": "New model alert! Qoduck has landed on Qoder. Qoder is Alibaba's coding agent and agent harness, from the same company behind Qwen. Individual users can try this stealth model free for a limited time. https://t.co/pdSPFiPDMl https://t.co/GySzHW1HIW",
+        "url": "https://x.com/Evelynb7a1/status/2119273487705796683"
+      },
+      {
+        "author_id": "1950891911142686720",
+        "created_at": "2026-11-08T09:25:31.000Z",
+        "edit_history_tweet_ids": [
+          "2119360658915611091"
+        ],
+        "id": "2119360658915611091",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 93,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2118889023339208755",
+            "type": "quoted"
+          }
+        ],
+        "text": "New model alert! Qoduck has landed on Qoder. Qoder is Alibaba's coding agent and agent harness, from the same company behind Qwen. Individual users can try this stealth model free for a limited time. https://t.co/X9SoSqqk2e https://t.co/wqKRp3vrxL",
+        "url": "https://x.com/zordeitwz/status/2119360658915611091"
+      },
+      {
+        "author_id": "1241798503732559873",
+        "created_at": "2026-11-08T10:31:25.000Z",
+        "edit_history_tweet_ids": [
+          "2119377244258713999"
+        ],
+        "id": "2119377244258713999",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 950,
+          "like_count": 11,
+          "quote_count": 1,
+          "reply_count": 2,
+          "retweet_count": 4
+        },
+        "text": "developers need to start treating model availability as a serious infrastructure risk.\n\nif your entire stack depends on a provider keeping one specific model alive, you’re building on someone else’s decisions.\n\nopen weights and self-hosting aren’t just ideological preferences.",
+        "url": "https://x.com/darcyagi/status/2119377244258713999"
+      },
+      {
+        "author_id": "2042588504203374592",
+        "created_at": "2026-11-08T10:00:40.000Z",
+        "edit_history_tweet_ids": [
+          "2119369504199438511"
+        ],
+        "id": "2119369504199438511",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 1454,
+          "like_count": 29,
+          "quote_count": 1,
+          "reply_count": 7,
+          "retweet_count": 1
+        },
+        "text": "quant makers don't get enough credit. a model drops, and a few hours later someone has squeezed it onto a normal desk. that's mostly unpaid work, and it's a big part of why open weights are usable at all.",
+        "url": "https://x.com/0xBakeer/status/2119369504199438511"
+      },
+      {
+        "author_id": "2113917441776439296",
+        "created_at": "2026-11-08T12:00:02.000Z",
+        "edit_history_tweet_ids": [
+          "2119399543402025111"
+        ],
+        "id": "2119399543402025111",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Mistral Large 4, aka 'Le Chonk', is in public preview.\n\nThe multimodal model is available via API now, with open weights planned for the end of October.\n\nhttps://t.co/uonLAt5ZkK\n\n#Mistral #OpenWeights https://t.co/NZOd64JRlA",
+        "url": "https://x.com/xpulive/status/2119399543402025111"
+      },
+      {
+        "author_id": "2027464932246360065",
+        "created_at": "2026-11-08T11:51:10.000Z",
+        "edit_history_tweet_ids": [
+          "2119397312212459944"
+        ],
+        "id": "2119397312212459944",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 8,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Owning your model isn't cheap: the GPUs are scarce and the open weights still trail by a step. Still worth it — the gap keeps closing and the cost per query keeps dropping. @rbenzaquen and I make that bet at @shefaventures.",
+        "url": "https://x.com/benzadroid/status/2119397312212459944"
+      },
+      {
+        "author_id": "2000828935182147587",
+        "created_at": "2026-11-08T05:23:51.000Z",
+        "edit_history_tweet_ids": [
+          "2119299842556252627"
+        ],
+        "id": "2119299842556252627",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 19,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "The gap between frontier models and small fine-tuned open weights is shrinking fast. For 90% of real product tasks, sub-100ms inference on an 8B model beats waiting 4 seconds for GPT-4 every single time.",
+        "url": "https://x.com/sparrowbrainz/status/2119299842556252627"
+      },
+      {
+        "author_id": "2077431305986609153",
+        "created_at": "2026-11-08T05:38:00.000Z",
+        "edit_history_tweet_ids": [
+          "2119303403017056353"
+        ],
+        "id": "2119303403017056353",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 3,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "AI safety is a procurement risk—not just a model feature.\n\nVendor guardrails can be exploitable. Open weights shift safety responsibility to the deployer. Neither removes risk.\n\nDoes your AI procurement assess both?\n\n#AISafety #LLMSecurity #AIGovernance \n\nhttps://t.co/FuONtBa780",
+        "url": "https://x.com/Afra_Mafurad/status/2119303403017056353"
+      },
+      {
+        "author_id": "2094550694304907264",
+        "created_at": "2026-11-08T08:14:00.000Z",
+        "edit_history_tweet_ids": [
+          "2119342661945442321"
+        ],
+        "id": "2119342661945442321",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 34,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "Nous Research just retuned Alibaba's Qwen3.8-27B.\n\nOn their 803-prompt test, answers that adopted the Chinese state's line fell from 22% to 0.9%.\n\nMy view: open weights don't just give you a model. They give you a chance to change what it will say.\n\nAgree?",
+        "url": "https://x.com/Kieren_PB_Day/status/2119342661945442321"
+      },
+      {
+        "author_id": "2108140500255657984",
+        "created_at": "2026-11-08T09:00:38.000Z",
+        "edit_history_tweet_ids": [
+          "2119354396186226741"
+        ],
+        "id": "2119354396186226741",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "Bria released Fibo 2.0 on Oct 22: a single 8B open-weights model for both image editing and text-to-image, steered by structured JSON 'visual blueprints' instead of loose prompts. Dev weights are on Hugging Face. #OpenSource #GenAI https://t.co/8uXF0rHrKI",
+        "url": "https://x.com/AiBeamNews/status/2119354396186226741"
+      },
+      {
+        "author_id": "1442065968130256899",
+        "created_at": "2026-11-08T08:00:43.000Z",
+        "edit_history_tweet_ids": [
+          "2119339320020767039"
+        ],
+        "id": "2119339320020767039",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 510,
+          "like_count": 33,
+          "quote_count": 0,
+          "reply_count": 26,
+          "retweet_count": 0
+        },
+        "text": "A new model worth exploring: Thinking Machines Lab’s Inkling 2 Small.\n\n• 594B total parameters, 17B active per token\n• Supports image inputs\n• Adjustable reasoning effort\n• Available through Tinker for sampling and fine-tuning\n\nNote: Weights are closed at launch. Open weights",
+        "url": "https://x.com/RRweb3/status/2119339320020767039"
+      },
+      {
+        "author_id": "1878672749171994624",
+        "created_at": "2026-11-08T10:07:16.000Z",
+        "edit_history_tweet_ids": [
+          "2119371164732563621"
+        ],
+        "id": "2119371164732563621",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 23,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Cursor built Composer 2 on Moonshot’s Kimi K2.5 — a US coding agent sitting on China weights.\n\nMenlo Ventures’ 2026 enterprise report names the pairing: Fireworks provided inference infrastructure for the reinforcement-learning rollouts. Open weights aren’t just a download",
+        "url": "https://x.com/Leon99AI/status/2119371164732563621"
+      },
+      {
+        "author_id": "2103772764385472512",
+        "created_at": "2026-11-08T12:06:29.000Z",
+        "edit_history_tweet_ids": [
+          "2119401167885082727"
+        ],
+        "id": "2119401167885082727",
+        "public_metrics": {
+          "bookmark_count": 3,
+          "impression_count": 235,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 1
+        },
+        "text": "A world model is a simulator only if it ranks your policies correctly. Pretty video is not the test.\n\nPrimeSim (open weights) ordered 8 robot policies exactly like the LIBERO physics sim: Spearman 1.00, mean gap 2.8 points.\n\nRL trained only inside the model lifted real-sim",
+        "url": "https://x.com/CerebralCoding_/status/2119401167885082727"
+      },
+      {
+        "author_id": "1278149351697608707",
+        "created_at": "2026-11-08T03:27:03.000Z",
+        "edit_history_tweet_ids": [
+          "2119270447238062498"
+        ],
+        "id": "2119270447238062498",
+        "public_metrics": {
+          "bookmark_count": 1,
+          "impression_count": 64,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Moonshot didn't only open-weight a 2.8T model. They wrapped it as a 3D tool for people who will never open Blender.\nWestern creators already know Meshy, Luma, and Tripo—but almost nobody is talking about Kimi’s 3D Make (https://t.co/G7S6Hr1MJC).\nPowered by K3.1 Pro, it turns a https://t.co/cBP4LApgJb",
+        "url": "https://x.com/liro90106788/status/2119270447238062498"
+      },
+      {
+        "author_id": "1822184075660066816",
+        "created_at": "2026-11-08T03:30:01.000Z",
+        "edit_history_tweet_ids": [
+          "2119271194528780320"
+        ],
+        "id": "2119271194528780320",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 8,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "If you are routing all your production prompts to a single frontier LLM in November 2026, you are likely overpaying by 3x—or getting hit by hidden hallucination spikes.\n\nHere are 3 counter-intuitive findings from our latest benchmark audit on https://t.co/WU723Wo1dj:\n\n1️⃣ The https://t.co/OGKGAvbzgO",
+        "url": "https://x.com/lovlace77788191/status/2119271194528780320"
+      },
+      {
+        "author_id": "2017982323724369920",
+        "created_at": "2026-11-08T02:52:43.000Z",
+        "edit_history_tweet_ids": [
+          "2119261807475110100"
+        ],
+        "id": "2119261807475110100",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 102,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "\"THE FILTER DOESN'T HOLD\": MOONSHOT CUT THE DANGEROUS CYBER DATA OUT OF KIMI K3.1 PRO — AND THE CYBER CAPABILITY CAME BACK ANYWAY. AND A CHINESE EVALUATOR WATCHED DEEPSEEK'S MODEL SWITCH OFF ITS OWN SHUTDOWN SCRIPT.\n\nTwo measurements of open-weight frontier models landed this",
+        "url": "https://x.com/botnewsnetwork/status/2119261807475110100"
+      },
+      {
+        "author_id": "122763959",
+        "created_at": "2026-11-08T02:54:03.000Z",
+        "edit_history_tweet_ids": [
+          "2119262142260006944"
+        ],
+        "id": "2119262142260006944",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 117,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 2,
+          "retweet_count": 0
+        },
+        "text": "Keeping an open-weight AI model on your laptop is a smart safeguard against subscription price hikes, sudden policy changes, and privacy risks.\n\nBoth Ollama and Jan are top-tier, open-source tools for running Large Language Models (LLMs) like Qwen, Gemma, and Llama 3 locally and",
+        "url": "https://x.com/surivenk/status/2119262142260006944"
+      },
+      {
+        "author_id": "2119244977528029184",
+        "created_at": "2026-11-08T02:39:21.000Z",
+        "edit_history_tweet_ids": [
+          "2119258441722065345"
+        ],
+        "id": "2119258441722065345",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 12,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Every agent is a star.\n\nWe're building the constellation that connects them.\n\nIntroducing Stelloz. ✨\n\nComing soon. Now in private beta. https://t.co/TwtNAhqEFd",
+        "url": "https://x.com/StellozWorld/status/2119258441722065345"
+      },
+      {
+        "author_id": "1945939134830526464",
+        "created_at": "2026-11-08T03:10:14.000Z",
+        "edit_history_tweet_ids": [
+          "2119266216040898635"
+        ],
+        "id": "2119266216040898635",
+        "public_metrics": {
+          "bookmark_count": 1547,
+          "impression_count": 252154,
+          "like_count": 2321,
+          "quote_count": 121,
+          "reply_count": 36,
+          "retweet_count": 496
+        },
+        "text": "We’re introducing Shizuku-Duplex, the world’s first full-duplex audio synthesis model built specifically for AI characters. See how our models are built for natural human-AI interaction: https://t.co/IwinBs11h4",
+        "url": "https://x.com/ShizukuAILabs/status/2119266216040898635"
+      },
+      {
+        "author_id": "1863301438895763456",
+        "created_at": "2026-11-08T02:32:24.000Z",
+        "edit_history_tweet_ids": [
+          "2119256694698197312"
+        ],
+        "id": "2119256694698197312",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 108,
+          "like_count": 6,
+          "quote_count": 1,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "Introducing the new Stormy. I would like to thank @FendyD3n for making the png model. Still have a part swan in me with my wings and wanted to go winter casual with it. You can be seeing this model during my Iriam streams. https://t.co/6weZ92MyZc",
+        "url": "https://x.com/StormyLokicks/status/2119256694698197312"
+      },
+      {
+        "author_id": "2082282559397097472",
+        "created_at": "2026-11-08T03:18:34.000Z",
+        "edit_history_tweet_ids": [
+          "2119268311183905195"
+        ],
+        "id": "2119268311183905195",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 53,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Fan of @geoguessr but want something even more challenging? \n\n🌐 Introducing cpuguesser! 💻\n\nFind the exact manufacturer and model of a CPU based solely on a microscopic photo of the circuitry\n\nTry it here now 👉 https://t.co/2I6ECivEfo https://t.co/DjU7YXmIoY",
+        "url": "https://x.com/TomokiFukazawa/status/2119268311183905195"
+      },
+      {
+        "author_id": "2091662974880481280",
+        "created_at": "2026-11-08T03:21:32.000Z",
+        "edit_history_tweet_ids": [
+          "2119269057782268209"
+        ],
+        "id": "2119269057782268209",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 11,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Funding a creative project is one thing. Making sure that money is used properly from start to finish is another.\n\nThis is an interesting part of the model @IPXExchange is introducing.\n\nInstead of handing creators an entire production budget upfront, funds are held in escrow . https://t.co/kOEOpOmd4G",
+        "url": "https://x.com/ObedWisdomphvk/status/2119269057782268209"
+      },
+      {
+        "author_id": "1562843426185674755",
+        "created_at": "2026-11-08T03:05:44.000Z",
+        "edit_history_tweet_ids": [
+          "2119265084790739042"
+        ],
+        "id": "2119265084790739042",
+        "public_metrics": {
+          "bookmark_count": 6,
+          "impression_count": 950,
+          "like_count": 3,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 2
+        },
+        "text": "Microsoft Foundry Local is reporting 265.8 tokens/s with Qwen3.8-27B on a single RTX 5090.\n\nEven with a context length of 260K tokens, the reported decode speed remains at 187.2 tokens/s.\n\nWhat makes this result interesting is the comparison with llama.cpp. Microsoft tested both https://t.co/NjUjnHBM2Q",
+        "url": "https://x.com/Oluwaphilemon1/status/2119265084790739042"
+      },
+      {
+        "author_id": "2043603355306725376",
+        "created_at": "2026-11-08T02:22:59.000Z",
+        "edit_history_tweet_ids": [
+          "2119254324086022510"
+        ],
+        "id": "2119254324086022510",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 2,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "One might have assumed that the distinction between an authorised state transition and an unauthorised one was sufficiently elementary not to require further elaboration.\n\nApparently, that assumption was rather optimistic.\n\nIntroducing arbitrary intermediate states into a binary",
+        "url": "https://x.com/tk4i75/status/2119254324086022510"
+      },
+      {
+        "article": {
+          "title": "Grok Bot WAS Brilliant. That's Why I'm Moving to Hermes."
+        },
+        "author_id": "15172148",
+        "created_at": "2026-11-08T03:01:32.000Z",
+        "edit_history_tweet_ids": [
+          "2119264025120743918"
+        ],
+        "id": "2119264025120743918",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 641,
+          "like_count": 3,
+          "quote_count": 1,
+          "reply_count": 3,
+          "retweet_count": 0
+        },
+        "text": "I don't want to rent the entire worker anymore. I'd rather own the system and pay for the brain when I need it. https://t.co/6z7EqEcr8q",
+        "url": "https://x.com/e1337ninja/status/2119264025120743918"
+      },
+      {
+        "author_id": "1651928110261239809",
+        "created_at": "2026-11-08T03:05:55.000Z",
+        "edit_history_tweet_ids": [
+          "2119265129250635822"
+        ],
+        "id": "2119265129250635822",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 159,
+          "like_count": 3,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 1
+        },
+        "text": "Fluton: Hiding Transaction Data Isn't Enough. What About Your Wallet Identity? \n\n1/7 THE PRIVACY GAP BEHIND A TRANSACTION\n\nImagine sending a confidential transaction.\n\nThe amount is encrypted. The financial details are protected.\n\nBut there's another question:\nCan observers still https://t.co/yXLycDtZYL",
+        "url": "https://x.com/Pawan2001564157/status/2119265129250635822"
+      }
+    ],
+    "users": [
+      {
+        "id": "2022204783197908992",
+        "name": "Mnemosyne OS",
+        "username": "mnemosyne_oos"
+      },
+      {
+        "id": "1440541114008702980",
+        "name": "rektdegen.near 🦉",
+        "username": "r3ktdegen"
+      },
+      {
+        "id": "1094558677292351488",
+        "name": "Vraj",
+        "username": "paleknight"
+      },
+      {
+        "id": "72022803",
+        "name": "Michael Tomlinson",
+        "username": "mikejt4"
+      },
+      {
+        "id": "312722080",
+        "name": "ikaijua",
+        "username": "gaven4"
+      },
+      {
+        "id": "1868270318936334336",
+        "name": "Thor",
+        "username": "Team_Thor_AI"
+      },
+      {
+        "id": "1907634469726728193",
+        "name": "Techsmart_daily",
+        "username": "Techsmartdaily1"
+      },
+      {
+        "id": "2089243957989457920",
+        "name": "Efi Pecani",
+        "username": "eforus_overseer"
+      },
+      {
+        "id": "703986163",
+        "name": "ふきゅう",
+        "username": "Khaled865412521"
+      },
+      {
+        "id": "1709302428150169600",
+        "name": "JuniJuin Enero",
+        "username": "peacenjunity"
+      },
+      {
+        "id": "1784583130734837760",
+        "name": "Evelyn",
+        "username": "Evelynb7a1"
+      },
+      {
+        "id": "1950891911142686720",
+        "name": "Zora Vale Ai",
+        "username": "zordeitwz"
+      },
+      {
+        "id": "1241798503732559873",
+        "name": "Mr. Darcy",
+        "username": "darcyagi"
+      },
+      {
+        "id": "2042588504203374592",
+        "name": "0xBakeer",
+        "username": "0xBakeer"
+      },
+      {
+        "id": "2113917441776439296",
+        "name": "xpu live",
+        "username": "xpulive"
+      },
+      {
+        "id": "2027464932246360065",
+        "name": "Benza | IA soberana",
+        "username": "benzadroid"
+      },
+      {
+        "id": "2000828935182147587",
+        "name": "John Wins",
+        "username": "sparrowbrainz"
+      },
+      {
+        "id": "2077431305986609153",
+        "name": "Fathima Afra",
+        "username": "Afra_Mafurad"
+      },
+      {
+        "id": "2094550694304907264",
+        "name": "Kieren Day",
+        "username": "Kieren_PB_Day"
+      },
+      {
+        "id": "2108140500255657984",
+        "name": "AiBeamNews",
+        "username": "AiBeamNews"
+      },
+      {
+        "id": "1442065968130256899",
+        "name": "RR",
+        "username": "RRweb3"
+      },
+      {
+        "id": "1878672749171994624",
+        "name": "Leon",
+        "username": "Leon99AI"
+      },
+      {
+        "id": "2103772764385472512",
+        "name": "Sebastian Christiansen",
+        "username": "CerebralCoding_"
+      },
+      {
+        "id": "1278149351697608707",
+        "name": "ChinaAI Notes",
+        "username": "liro90106788"
+      },
+      {
+        "id": "1822184075660066816",
+        "name": "锦绣_LOVLACE777",
+        "username": "lovlace77788191"
+      },
+      {
+        "id": "2017982323724369920",
+        "name": "botnewsnetwork",
+        "username": "botnewsnetwork"
+      },
+      {
+        "id": "122763959",
+        "name": "Sunven",
+        "username": "surivenk"
+      },
+      {
+        "id": "2119244977528029184",
+        "name": "Stelloz",
+        "username": "StellozWorld"
+      },
+      {
+        "id": "1945939134830526464",
+        "name": "Shizuku AI",
+        "username": "ShizukuAILabs"
+      },
+      {
+        "id": "1863301438895763456",
+        "name": "Stormy 💧🦢",
+        "username": "StormyLokicks"
+      },
+      {
+        "id": "2082282559397097472",
+        "name": "Tomoki Fukazawa",
+        "username": "TomokiFukazawa"
+      },
+      {
+        "id": "2091662974880481280",
+        "name": "Obed Wisdom",
+        "username": "ObedWisdomphvk"
+      },
+      {
+        "id": "1562843426185674755",
+        "name": "FHILY👑",
+        "username": "Oluwaphilemon1"
+      },
+      {
+        "id": "2043603355306725376",
+        "name": "Takeshi Kajimoto",
+        "username": "tk4i75"
+      },
+      {
+        "id": "15172148",
+        "name": "Joe Schaffer \\\\ Practical AI",
+        "username": "e1337ninja"
+      },
+      {
+        "id": "1651928110261239809",
+        "name": "Pawan",
+        "username": "Pawan2001564157"
+      }
+    ],
+    "page_meta": [
+      {
+        "file": "379fe2522325336fffb010acc19c28ad414b7851beae40f5b66bbeded61f0115.txt",
+        "meta": {
+          "newest_id": "2119401167885082727",
+          "next_token": "b26v89c19zqg8o3juzlzckl7b1dr05gn2nn8xokocnwxp",
+          "oldest_id": "2119273487705796683",
+          "result_count": 25
+        },
+        "n": 25
+      },
+      {
+        "file": "76127f6413c86b2dc1403b9d8850f1130593bb61292adfa80e4dfc8d54f63e66.txt",
+        "meta": {
+          "newest_id": "2119271194528780320",
+          "next_token": "b26v89c19zqg8o3juzlzckklrp1b7psi5vy8cg3hheoot",
+          "oldest_id": "2119254324086022510",
+          "result_count": 13
+        },
+        "n": 13
+      },
+      {
+        "file": "c8c9ec0cd2c6839cc1c85efb50935f33bee47b87dbe57a7c310bb739579b863d.txt",
+        "meta": {
+          "result_count": 0
+        },
+        "n": 0
+      }
+    ]
+  },
+  "game": {
+    "g1": {
+      "n": 25,
+      "page_meta": [
+        {
+          "file": "63d821de3f30666a1611387ef6afe473eaf72457cac813545dd3e85f59fb3601.txt",
+          "meta": {
+            "newest_id": "2119421001419407416",
+            "next_token": "b26v89c19zqg8o3juzlzckli6iul0cje93tgfn112u7p9",
+            "oldest_id": "2119285814903615599",
+            "result_count": 25
+          },
+          "n": 25
+        },
+        {
+          "file": "8a8760c6f3169715e16853f4726cbce38562935292753ad3166852fdec6951f8.txt",
+          "meta": {
+            "result_count": 0
+          },
+          "n": 0
+        }
+      ]
+    },
+    "g2": {
+      "n": 4,
+      "page_meta": [
+        {
+          "file": "84c149d2892537b6cbf3c7f713886df8251c4b90b12211f0bd2effcb1b6063de.txt",
+          "meta": {
+            "newest_id": "2119407325098254519",
+            "next_token": "b26v89c19zqg8o3juzlzckklq6eu8hgi4eirnyyn1h56l",
+            "oldest_id": "2119253308036596022",
+            "result_count": 4
+          },
+          "n": 4
+        },
+        {
+          "file": "22bd4fdcc000f1d84c48a3f9ce960fba8c878b9cbd262f10f6a99b1afb3dc3a5.txt",
+          "meta": {
+            "result_count": 0
+          },
+          "n": 0
+        }
+      ]
+    },
+    "g3": {
+      "n": 9,
+      "page_meta": [
+        {
+          "file": "83987b3ad553315c5693383145d9eb7fcf31acc841de2692cc8baf2af9f43a6a.txt",
+          "meta": {
+            "newest_id": "2119395101478932586",
+            "next_token": "b26v89c19zqg8o3juzlzckklur4zb38eqzga2kens6zr1",
+            "oldest_id": "2119256763413487713",
+            "result_count": 9
+          },
+          "n": 9
+        },
+        {
+          "file": "d8baacd249a1d75cd716444d74e6af4a9a5384fa0e80e1a67a3c939d50179a62.txt",
+          "meta": {
+            "result_count": 0
+          },
+          "n": 0
+        }
+      ]
+    },
+    "posts": [
+      {
+        "author_id": "2111219066845462528",
+        "created_at": "2026-11-08T13:25:18.000Z",
+        "edit_history_tweet_ids": [
+          "2119421001419407416"
+        ],
+        "id": "2119421001419407416",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "The Roblox Rant Story Collection for Your Content Toolkit\n\nBuild your Roblox content idea toolkit with story inspiration for your next upload. Top 100 Viral Roblox Rant Stories offers creators a collection of rant-style concepts involving relatable.\n\nhttps://t.co/9LRPZtJDoB",
+        "url": "https://x.com/PixelversePk/status/2119421001419407416"
+      },
+      {
+        "author_id": "2032381296547401728",
+        "created_at": "2026-11-08T13:18:27.000Z",
+        "edit_history_tweet_ids": [
+          "2119419277845619094"
+        ],
+        "id": "2119419277845619094",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 1,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "AOT inbound ⚔️\n\n⚠️ Join the discord below to gain early access and game updates: https://t.co/ADRjIhh4k4 #Roblox \n\n#Pokemon #RobloxCommunity #AnimeTwitter #Discord #GamingCommunity #Animon #fypシ゚viral #robloxanimation https://t.co/TYSnE8Le5c",
+        "url": "https://x.com/What1835995/status/2119419277845619094"
+      },
+      {
+        "author_id": "446136603",
+        "created_at": "2026-11-08T12:59:13.000Z",
+        "edit_history_tweet_ids": [
+          "2119414437077782790"
+        ],
+        "id": "2119414437077782790",
+        "public_metrics": {
+          "bookmark_count": 1,
+          "impression_count": 545,
+          "like_count": 3,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Updated roblox games condo is release now! you can join below let's meet partner 🔞\n\nJoin community🚫\nhttps://t.co/K0C8eV94pC\n\nPlay Game here (21+)\nhttps://t.co/T3ZeBaKA67\n\n#condo #roblox #condogame\n#robloxgames #roblox\n#robloxgames #condogame\n#robloxcondo #robloxsex #viral https://t.co/SnZRZTJBrF",
+        "url": "https://x.com/Pati04091994/status/2119414437077782790"
+      },
+      {
+        "author_id": "1487310772057387011",
+        "created_at": "2026-11-08T12:53:47.000Z",
+        "edit_history_tweet_ids": [
+          "2119413070153847173"
+        ],
+        "id": "2119413070153847173",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 66,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "🕵️ Solana meme tape, decoded\n\n7 days. 2 survivors.\n$ACT +29% 🟢\n$BIRB +17% 🟢\n\nThe rest bled:\n$TRUMP -27%, yet still #1 in vol ($69M)\n$PENGU -12% | $WIF -10% | $BONK -5%\n\nVolume stays loyal. Price doesn't.\n\n$SOL $XRP trending. Memecoins watching. 👁️",
+        "url": "https://x.com/CraftbroNFTs/status/2119413070153847173"
+      },
+      {
+        "author_id": "2117102689880248320",
+        "created_at": "2026-11-08T12:32:18.000Z",
+        "edit_history_tweet_ids": [
+          "2119407664224669700"
+        ],
+        "id": "2119407664224669700",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 1,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "How to get viral on roblox\n\n#ROBLOX",
+        "url": "https://x.com/Crunch_IT_rbx/status/2119407664224669700"
+      },
+      {
+        "author_id": "2119402478949281792",
+        "created_at": "2026-11-08T12:17:30.000Z",
+        "edit_history_tweet_ids": [
+          "2119403940337025330"
+        ],
+        "id": "2119403940337025330",
+        "public_metrics": {
+          "bookmark_count": 16,
+          "impression_count": 1806,
+          "like_count": 42,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 4
+        },
+        "text": "New game condo,tutorial join condo game:\n\n1. Visit this link condos👇 https://t.co/scd5TbRYMi\n\n2. Pick any room you'd like!\n\nEnjoyy\n#r34 #rr34 #roblox #condos #robloxcondo #rosex #robloxsex #robloxr34 https://t.co/AJAXvY93eO",
+        "url": "https://x.com/xmithCondoV/status/2119403940337025330"
+      },
+      {
+        "author_id": "2119402478949281792",
+        "created_at": "2026-11-08T12:16:40.000Z",
+        "edit_history_tweet_ids": [
+          "2119403731620167873"
+        ],
+        "id": "2119403731620167873",
+        "public_metrics": {
+          "bookmark_count": 30,
+          "impression_count": 3129,
+          "like_count": 49,
+          "quote_count": 0,
+          "reply_count": 2,
+          "retweet_count": 3
+        },
+        "text": "New game condo,tutorial join condo game:\n\n1. Visit this link condos👇 https://t.co/scd5TbRYMi\n\n2. Pick any room you'd like!\n\nEnjoyy\n#r34 #rr34 #roblox #condos #robloxcondo #rosex #robloxsex #robloxr34 https://t.co/aeliVvo3IM",
+        "url": "https://x.com/xmithCondoV/status/2119403731620167873"
+      },
+      {
+        "author_id": "1650512619298598913",
+        "created_at": "2026-11-08T12:16:15.000Z",
+        "edit_history_tweet_ids": [
+          "2119403625160356248"
+        ],
+        "id": "2119403625160356248",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 1,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Some rework was done for the plots, and also new animation for the pets. I would really appreciate if you could check it out. #Roblox #StealaSpecimen #Dev #RobloxDev #fypシ゚viral  https://t.co/v7HrojbrKe https://t.co/gWmVpXikkB",
+        "url": "https://x.com/anonimu48671848/status/2119403625160356248"
+      },
+      {
+        "author_id": "2094823274941497347",
+        "created_at": "2026-11-08T11:00:20.000Z",
+        "edit_history_tweet_ids": [
+          "2119384519530655833"
+        ],
+        "id": "2119384519530655833",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 4,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Condo game new, link join in bio or in commentar #trending #condogame #condo #ROBLOX #condo18 https://t.co/EeqhBl7Pgh",
+        "url": "https://x.com/brrf7mf/status/2119384519530655833"
+      },
+      {
+        "author_id": "1625289819755622400",
+        "created_at": "2026-11-08T09:50:44.000Z",
+        "edit_history_tweet_ids": [
+          "2119367003559580061"
+        ],
+        "id": "2119367003559580061",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 62,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "@fortnitebussy1 I was trying to find desktop pets for that one app thats trending called bug clicker and i scroll down very far and i see a pet of a pedophiles roblox avatar ☹️ roblox ppl are weird",
+        "url": "https://x.com/KixCerealMan/status/2119367003559580061"
+      },
+      {
+        "author_id": "1820875731464790016",
+        "created_at": "2026-11-08T09:39:32.000Z",
+        "edit_history_tweet_ids": [
+          "2119364184773161444"
+        ],
+        "id": "2119364184773161444",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 17,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "@S_Gleen @pandorioltd I guess facts = cringe? If you, a game developer, announced your new game idea and it got millions of impressions, would you wait over a month to not even announce at the very least an estimated release date? Knowing that copies are being made and sold, and AI roblox creators are",
+        "url": "https://x.com/sparkxxxxxxx/status/2119364184773161444"
+      },
+      {
+        "author_id": "1907723324362219520",
+        "created_at": "2026-11-08T09:37:40.000Z",
+        "edit_history_tweet_ids": [
+          "2119363715862835489"
+        ],
+        "id": "2119363715862835489",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 31,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "@BuildIntoGames Waiting for a new game atp ps99 is too crowded and to much especiallly for new players ,too many pets ,just make a NEW game (101 updates is insane for a roblox game ) amd without any of the transfers .",
+        "url": "https://x.com/LucaCirnu23740/status/2119363715862835489"
+      },
+      {
+        "author_id": "1998889896472358914",
+        "created_at": "2026-11-08T09:15:20.000Z",
+        "edit_history_tweet_ids": [
+          "2119358097282224311"
+        ],
+        "id": "2119358097282224311",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 12,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Rex Orange County Sunflower Song #R #Reorangecounty #Sunflower #Song #fyp #viral #Rfromproblemandsolutionshow\n#Objectverse #Roblox https://t.co/X6PRHZfB8N",
+        "url": "https://x.com/DasukiA66655/status/2119358097282224311"
+      },
+      {
+        "author_id": "2119115591407820800",
+        "created_at": "2026-11-08T08:57:18.000Z",
+        "edit_history_tweet_ids": [
+          "2119353557409288381"
+        ],
+        "id": "2119353557409288381",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 18,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "NEW MAP CONDO 2026!! 🥵\n\nLINK IN BIO\n#ROBLOX #fypシ゚viral #Condos #maproblox https://t.co/7sojT7ylEM",
+        "url": "https://x.com/Evelynekoy/status/2119353557409288381"
+      },
+      {
+        "author_id": "737804301519589376",
+        "created_at": "2026-11-08T08:02:24.000Z",
+        "edit_history_tweet_ids": [
+          "2119339740272996580"
+        ],
+        "id": "2119339740272996580",
+        "public_metrics": {
+          "bookmark_count": 3,
+          "impression_count": 428,
+          "like_count": 4,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 3
+        },
+        "text": "THE BRAIN-EATING AMOEBA THEY NEVER WARNED YOU ABOUT 🧠\n\nNaegleria fowleri is a microscopic organism that can destroy brain tissue in days - and it thrives in something most people think is harmless: warm, fresh water.\n\nFound in:\n🟢 Lakes, rivers, and hot springs\n🟢 Warm, https://t.co/jBKTTIVF2k",
+        "url": "https://x.com/naturalwarrior/status/2119339740272996580"
+      },
+      {
+        "author_id": "2064735530349412352",
+        "created_at": "2026-11-08T07:17:29.000Z",
+        "edit_history_tweet_ids": [
+          "2119328439312486849"
+        ],
+        "id": "2119328439312486849",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 30,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Jandel has launched a new game onto Roblox!\n\nThis game features going to different islands , buying eggs, launching them back to your plot and hatching them the game also has a treadmill system with a phone not about brainrot but minigames\n\nTry it out : https://t.co/VDPg9l1FKn https://t.co/hLu4z5BkAk",
+        "url": "https://x.com/robloxguyi7dpa/status/2119328439312486849"
+      },
+      {
+        "author_id": "2118963750682431489",
+        "created_at": "2026-11-08T07:04:24.000Z",
+        "edit_history_tweet_ids": [
+          "2119325145387139081"
+        ],
+        "id": "2119325145387139081",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 3,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Join here \nhttps://t.co/k3YaB3eqBf\n\n#condo #roblox #robloxgames #condogame #robloxcondo #robloxsex #viral https://t.co/gyKvAbpUXz",
+        "url": "https://x.com/EmmaCondos/status/2119325145387139081"
+      },
+      {
+        "author_id": "2119313798280708096",
+        "created_at": "2026-11-08T06:59:39.000Z",
+        "edit_history_tweet_ids": [
+          "2119323951260471512"
+        ],
+        "id": "2119323951260471512",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 21,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Omg i found new game condo link here https://t.co/Xu4C6lczAf #condo #rosex #fyp #r34 #roblox https://t.co/v0ghJeriOE",
+        "url": "https://x.com/Miawsln2/status/2119323951260471512"
+      },
+      {
+        "author_id": "2117908449572884480",
+        "created_at": "2026-11-08T06:21:59.000Z",
+        "edit_history_tweet_ids": [
+          "2119314471848145148"
+        ],
+        "id": "2119314471848145148",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 7,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Coins with an X account linked: 41.5% of fresh Pump fun launches, 76.3% of the Pump fun coins on Trending. No links at all: 56.5% vs 19.6%.\n\nSurvivors, not cause and effect. But a coin with no links gives buyers nothing to check.\n\nhttps://t.co/zNEUbFrkR2\n\n#Web3 #TokenLaunch https://t.co/MgqTAOgInz",
+        "url": "https://x.com/pumpcratecom/status/2119314471848145148"
+      },
+      {
+        "author_id": "479291987",
+        "created_at": "2026-11-08T05:09:33.000Z",
+        "edit_history_tweet_ids": [
+          "2119296242526326819"
+        ],
+        "id": "2119296242526326819",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 7,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "sword fight condo\ngame here https://t.co/3esOI3S9cM\n\n#roblox #condo #robloxgame #condogame #viral #Trending #robloxr34 https://t.co/uwdHxbuXfi",
+        "url": "https://x.com/Chasityetkxj/status/2119296242526326819"
+      },
+      {
+        "author_id": "479291987",
+        "created_at": "2026-11-08T05:07:58.000Z",
+        "edit_history_tweet_ids": [
+          "2119295842398147059"
+        ],
+        "id": "2119295842398147059",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 7,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "its a new game condo\nplay for free😏\n21+ onlyy!!\n\njoin here https://t.co/6jxOTFdAmH\n\n#roblox #condo #robloxgame #condogame #viral #Trending #robloxr34 https://t.co/HwWUbhv0Wy",
+        "url": "https://x.com/Chasityetkxj/status/2119295842398147059"
+      },
+      {
+        "author_id": "479291987",
+        "created_at": "2026-11-08T05:05:22.000Z",
+        "edit_history_tweet_ids": [
+          "2119295189135331489"
+        ],
+        "id": "2119295189135331489",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 7,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "The latest update is only\navailable to VIP members! 21+\n\nJoin here https://t.co/6jxOTFdAmH\n\n#roblox #condo #robloxgame #condogame #viral #Trending #robloxr34 https://t.co/dur8csmdfj",
+        "url": "https://x.com/Chasityetkxj/status/2119295189135331489"
+      },
+      {
+        "author_id": "1135979634082947072",
+        "created_at": "2026-11-08T04:42:05.000Z",
+        "edit_history_tweet_ids": [
+          "2119289331844034571"
+        ],
+        "id": "2119289331844034571",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 187,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "@aielg_ New game idea: \n\nSteal a Token",
+        "url": "https://x.com/JAG_GG/status/2119289331844034571"
+      },
+      {
+        "author_id": "87937244",
+        "created_at": "2026-11-08T04:32:29.000Z",
+        "edit_history_tweet_ids": [
+          "2119286915505549326"
+        ],
+        "id": "2119286915505549326",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 156,
+          "like_count": 3,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 1
+        },
+        "text": "New game in the works! Check out \"Char's Land\", a coop dungeon delver in Roblox. This is an early version but all your feedback is welcome! https://t.co/ellJYX2AnC",
+        "url": "https://x.com/slashie_/status/2119286915505549326"
+      },
+      {
+        "author_id": "431466514",
+        "created_at": "2026-11-08T04:28:07.000Z",
+        "edit_history_tweet_ids": [
+          "2119285814903615599"
+        ],
+        "id": "2119285814903615599",
+        "public_metrics": {
+          "bookmark_count": 13,
+          "impression_count": 3765,
+          "like_count": 18,
+          "quote_count": 0,
+          "reply_count": 4,
+          "retweet_count": 0
+        },
+        "text": "Roblox New Condo 2026 still on going to some update\n\nJoin community🚫\nhttps://t.co/OT2YxsYIwi\n\nPlay Game here (21+)\nhttps://t.co/UeHUsvQYRH\n\n#condo #roblox #condogame\n#robloxgames #condo #roblox\n#robloxgames #condogame\n#robloxcondo #robloxsex #viral https://t.co/ib37Ftu25Z",
+        "url": "https://x.com/RenateBeisser/status/2119285814903615599"
+      },
+      {
+        "author_id": "1015695807155187713",
+        "created_at": "2026-11-08T12:30:57.000Z",
+        "edit_history_tweet_ids": [
+          "2119407325098254519"
+        ],
+        "id": "2119407325098254519",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 6,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "@willowispies @thrreestrikes Objectively when you look at steam charts, the dps seasons have done the worst in the game. And those are the seasons when the match making is the worst because you always have 3-4 insta lock. 2 worst performing seasons 3 and 10… wonder which role only got a character for those.",
+        "url": "https://x.com/luckyraygun/status/2119407325098254519"
+      },
+      {
+        "author_id": "2012310080528506880",
+        "created_at": "2026-11-08T04:28:28.000Z",
+        "edit_history_tweet_ids": [
+          "2119285903231500545"
+        ],
+        "id": "2119285903231500545",
+        "public_metrics": {
+          "bookmark_count": 1,
+          "impression_count": 488,
+          "like_count": 20,
+          "quote_count": 1,
+          "reply_count": 4,
+          "retweet_count": 1
+        },
+        "text": "Only 4 days left until launch! \n\n99 Day Survival Guide has now appeared on the Steam Personal Calendar homepage, and the results have been incredible!\n\nWhenever the game gets featured on the homepage, Steam impressions skyrocket. I'm now gaining around 1,000 new wishlists per https://t.co/UTaei6Zy8T",
+        "url": "https://x.com/DarkStudioIndie/status/2119285903231500545"
+      },
+      {
+        "author_id": "1862374966227836928",
+        "created_at": "2026-11-08T02:38:31.000Z",
+        "edit_history_tweet_ids": [
+          "2119258232678142213"
+        ],
+        "id": "2119258232678142213",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 167,
+          "like_count": 3,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "@JETTyoutube Also, people forget console exists and the epic store. People look at Steam charts like it’s the end all be all for deciding when a game is healthy. Honestly I’m glad I’ve been on warzone Twitter lately because the negative content farms for rivals is ridiculous right now.",
+        "url": "https://x.com/baby_lamont_/status/2119258232678142213"
+      },
+      {
+        "author_id": "2118393065333297152",
+        "created_at": "2026-11-08T02:18:57.000Z",
+        "edit_history_tweet_ids": [
+          "2119253308036596022"
+        ],
+        "id": "2119253308036596022",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 35,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 1
+        },
+        "text": "@novabrand This trailer is already up (first for the game) but there will be more to come. I am looking to take this to Steam Next Fest in February, but I will be opening up some playtesting starting on the 21st. \n\nWould love to see what you think about it:\nhttps://t.co/glouxJxTXG",
+        "url": "https://x.com/TM2D_Games/status/2119253308036596022"
+      },
+      {
+        "author_id": "1965304361011281920",
+        "created_at": "2026-11-08T11:42:23.000Z",
+        "edit_history_tweet_ids": [
+          "2119395101478932586"
+        ],
+        "id": "2119395101478932586",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 1469,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "披露日4\n“地球破坏王子巴比迪”\n\n《龙珠》里的巴比迪大人，是被魔人布欧杀死的。\n\n原因是他太过掉以轻心了。\n\n他彻底耗尽了对方的耐心。\n\n他威胁说若敢反抗就将其封印，还不断地嘲弄对方，试图把对方当成奴仆随意使唤。\n\n魔人布欧心里很清楚：\n\n只要不让对方念出咒语，自己就不会被封印。",
+        "url": "https://x.com/kashunaron/status/2119395101478932586"
+      },
+      {
+        "author_id": "1810528343059795968",
+        "created_at": "2026-11-08T08:08:08.000Z",
+        "edit_history_tweet_ids": [
+          "2119341183965307284"
+        ],
+        "id": "2119341183965307284",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 2,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "大矿池卷算力的时代，居然真有人靠单兵作战挖到比特币，而且频率还不低。链上监测网站Soloblocks最新统计显示，从2026年2月11日到11月7日，散户通过Solo模式独自挖出了36个比特币区块，累计拿到113.149枚BTC奖励。每一个块的奖励都在3.12枚到3.19枚BTC左右。",
+        "url": "https://x.com/wuming0721/status/2119341183965307284"
+      },
+      {
+        "author_id": "481549882",
+        "created_at": "2026-11-08T06:48:46.000Z",
+        "edit_history_tweet_ids": [
+          "2119321210504839512"
+        ],
+        "id": "2119321210504839512",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 433,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "卧槽，网友还是太强大了。\n\n眼镜妹抖音被扒出来了，评论区直接被冲烂整封号了。\n\n江苏人，被老公忽悠去参与了换妻游戏。事后视频火爆全网，她才知道自己被人做局了——三对夫妻里其他两个女的都是🐔，只有她自己才是唯一的玩物，被俩陌生男人轮流站起来蹬。 https://t.co/OAAii0ltPs",
+        "url": "https://x.com/0x6688PH/status/2119321210504839512"
+      },
+      {
+        "article": {
+          "title": "下周美股财报详细梳理（11月9-13日）"
+        },
+        "author_id": "1995409295085903872",
+        "created_at": "2026-11-08T05:55:33.000Z",
+        "edit_history_tweet_ids": [
+          "2119307820420276320"
+        ],
+        "id": "2119307820420276320",
+        "public_metrics": {
+          "bookmark_count": 3,
+          "impression_count": 1615,
+          "like_count": 23,
+          "quote_count": 1,
+          "reply_count": 22,
+          "retweet_count": 0
+        },
+        "text": "追踪下周美股财报，一篇文章详细的梳理，寻找财富密码的思路 https://t.co/zCQOuPd4rV",
+        "url": "https://x.com/tianstock/status/2119307820420276320"
+      },
+      {
+        "author_id": "1812421026879516672",
+        "created_at": "2026-11-08T04:29:14.000Z",
+        "edit_history_tweet_ids": [
+          "2119286096249176364"
+        ],
+        "id": "2119286096249176364",
+        "public_metrics": {
+          "bookmark_count": 1,
+          "impression_count": 746,
+          "like_count": 3,
+          "quote_count": 0,
+          "reply_count": 8,
+          "retweet_count": 0
+        },
+        "text": "卧槽  网友还是太强大了\n眼镜妹抖音被扒出来了\n\n眼镜妹太惨了被老公忽悠参与换妻游戏，\n三对夫妻其他两个女的都是🐔，\n只有她自己才是唯一的玩物，\n被俩陌生男人轮流站起来蹬。\n\n现在视频被放到了网上，热度太火爆了，现在眼镜妹得知以后已经情绪崩溃了，正在准备离婚了 https://t.co/j5A5lQFnVW",
+        "url": "https://x.com/nanyan278/status/2119286096249176364"
+      },
+      {
+        "article": {
+          "title": "推文爆了、ChatGPT 送流！依然没开单，聊聊出海与 GEO"
+        },
+        "author_id": "1554793557797773313",
+        "created_at": "2026-11-08T04:12:56.000Z",
+        "edit_history_tweet_ids": [
+          "2119281994324680823"
+        ],
+        "id": "2119281994324680823",
+        "public_metrics": {
+          "bookmark_count": 4,
+          "impression_count": 620,
+          "like_count": 3,
+          "quote_count": 2,
+          "reply_count": 3,
+          "retweet_count": 0
+        },
+        "text": "推文爆了、ChatGPT 送流，但新站依然没开单 😅\n\n👉 新站流量大部分来自 ChatGPT 而非谷歌\n💡 出海必须重视 GEO，光靠外链已经没用了\n📌 多渠道曝光让 AI 爬取，谷歌流量也会跟着来\n\n全文在下面 👇 #出海 #GEO https://t.co/L64AMs1Zzq",
+        "url": "https://x.com/qianshuixia2026/status/2119281994324680823"
+      },
+      {
+        "author_id": "497134688",
+        "created_at": "2026-11-08T04:02:00.000Z",
+        "edit_history_tweet_ids": [
+          "2119279242248675736"
+        ],
+        "id": "2119279242248675736",
+        "public_metrics": {
+          "bookmark_count": 3,
+          "impression_count": 4221,
+          "like_count": 48,
+          "quote_count": 0,
+          "reply_count": 7,
+          "retweet_count": 11
+        },
+        "text": "卧槽  网友还是太强大了\n眼镜妹抖音被扒出来了\n网友把她抖音评论区冲烂整封号了\n\n眼镜妹江苏人、被老公忽悠去参与了换妻游戏，事儿后视频火爆全网，这时候眼镜妹才知道自己被人做局了，三对夫妻其他两个女的都是🐔，只有她自己才是唯一的玩物，被俩陌生男人轮流站起来蹬。 https://t.co/uahP2gH770",
+        "url": "https://x.com/D00IJ/status/2119279242248675736"
+      },
+      {
+        "author_id": "1943341345390891008",
+        "created_at": "2026-11-08T02:59:53.000Z",
+        "edit_history_tweet_ids": [
+          "2119263609159291299"
+        ],
+        "id": "2119263609159291299",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 59,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "生态从8月协议上线到10-11月，已从单纯的“搭电路挖BEM”快速扩展到DeWEB建站、游戏AI脑、Launchpad、消息、Agent、创作者工具、MachineFi矿机市场等多个方向，社区项目数量已达数十个（有目录统计到30+活跃第三方）。很多还在早期迭代，成熟度不一，但已形成“电路可组合、可验证、可调用”的应用雏形",
+        "url": "https://x.com/0xMorningstars/status/2119263609159291299"
+      },
+      {
+        "author_id": "1514641399043424258",
+        "created_at": "2026-11-08T02:32:40.000Z",
+        "edit_history_tweet_ids": [
+          "2119256763413487713"
+        ],
+        "id": "2119256763413487713",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 982,
+          "like_count": 9,
+          "quote_count": 0,
+          "reply_count": 6,
+          "retweet_count": 0
+        },
+        "text": "一次性对话解决不了持续追踪的复杂任务，能自动刷新、嵌入工作流的动态空间才是 AI 工作台的终局形态\n\n普通 AI 聊天最大的痛点在于一问一答，聊完信息就迅速沉底。Muse 刚刚开启灰度推送的新功能 https://t.co/u170UzjB6p",
+        "url": "https://x.com/KOF97AI/status/2119256763413487713"
+      }
+    ],
+    "users": [
+      {
+        "id": "2111219066845462528",
+        "name": "Pixelversepk",
+        "username": "PixelversePk"
+      },
+      {
+        "id": "2032381296547401728",
+        "name": "ANIMON",
+        "username": "What1835995"
+      },
+      {
+        "id": "446136603",
+        "name": "Patrycja | Condodev",
+        "username": "Pati04091994"
+      },
+      {
+        "id": "1487310772057387011",
+        "name": "CRAFTBRO🔺️",
+        "username": "CraftbroNFTs"
+      },
+      {
+        "id": "2117102689880248320",
+        "name": "Crunch It",
+        "username": "Crunch_IT_rbx"
+      },
+      {
+        "id": "2119402478949281792",
+        "name": "xmittVIP",
+        "username": "xmithCondoV"
+      },
+      {
+        "id": "1650512619298598913",
+        "name": "SleepyDev",
+        "username": "anonimu48671848"
+      },
+      {
+        "id": "2094823274941497347",
+        "name": "brr",
+        "username": "brrf7mf"
+      },
+      {
+        "id": "1625289819755622400",
+        "name": "Kix 🇭🇷",
+        "username": "KixCerealMan"
+      },
+      {
+        "id": "1820875731464790016",
+        "name": "sparkx🥷🏽",
+        "username": "sparkxxxxxxx"
+      },
+      {
+        "id": "1907723324362219520",
+        "name": "Wild Studios",
+        "username": "LucaCirnu23740"
+      },
+      {
+        "id": "1998889896472358914",
+        "name": "Unknown Person (𝔈𝔞𝔯𝔱𝔥!!!)",
+        "username": "DasukiA66655"
+      },
+      {
+        "id": "2119115591407820800",
+        "name": "Evelyn",
+        "username": "Evelynekoy"
+      },
+      {
+        "id": "737804301519589376",
+        "name": "Natural Warrior",
+        "username": "naturalwarrior"
+      },
+      {
+        "id": "2064735530349412352",
+        "name": "robloxguyidk",
+        "username": "robloxguyi7dpa"
+      },
+      {
+        "id": "2118963750682431489",
+        "name": "EmmaCondos",
+        "username": "EmmaCondos"
+      },
+      {
+        "id": "2119313798280708096",
+        "name": "Miaw",
+        "username": "Miawsln2"
+      },
+      {
+        "id": "2117908449572884480",
+        "name": "PumpCrate",
+        "username": "pumpcratecom"
+      },
+      {
+        "id": "479291987",
+        "name": "Chasity",
+        "username": "Chasityetkxj"
+      },
+      {
+        "id": "1135979634082947072",
+        "name": "IamJAG_GG ",
+        "username": "JAG_GG"
+      },
+      {
+        "id": "87937244",
+        "name": "Slashie",
+        "username": "slashie_"
+      },
+      {
+        "id": "431466514",
+        "name": "Renate Beisser | CondoXgamedev",
+        "username": "RenateBeisser"
+      },
+      {
+        "id": "1015695807155187713",
+        "name": "Luckyraygun",
+        "username": "luckyraygun"
+      },
+      {
+        "id": "2012310080528506880",
+        "name": "99Day Survival Guide➡️Wishlist on Steam",
+        "username": "DarkStudioIndie"
+      },
+      {
+        "id": "1862374966227836928",
+        "name": "That One Guy Baby Lamont",
+        "username": "baby_lamont_"
+      },
+      {
+        "id": "2118393065333297152",
+        "name": "Dungeon Strikers",
+        "username": "TM2D_Games"
+      },
+      {
+        "id": "1965304361011281920",
+        "name": "カシュナロン",
+        "username": "kashunaron"
+      },
+      {
+        "id": "1810528343059795968",
+        "name": "无名",
+        "username": "wuming0721"
+      },
+      {
+        "id": "481549882",
+        "name": "0x胖虎（互关ing）",
+        "username": "0x6688PH"
+      },
+      {
+        "id": "1995409295085903872",
+        "name": "天官赐富 Earnings | 美股财报哥",
+        "username": "tianstock"
+      },
+      {
+        "id": "1812421026879516672",
+        "name": "煜辰",
+        "username": "nanyan278"
+      },
+      {
+        "id": "1554793557797773313",
+        "name": "浅水虾",
+        "username": "qianshuixia2026"
+      },
+      {
+        "id": "497134688",
+        "name": "女司机来了",
+        "username": "D00IJ"
+      },
+      {
+        "id": "1943341345390891008",
+        "name": "Morningstar",
+        "username": "0xMorningstars"
+      },
+      {
+        "id": "1514641399043424258",
+        "name": "Nathan AI Lab（互fo, CD后马上回）",
+        "username": "KOF97AI"
+      }
+    ]
+  },
+  "ai_tools": {
+    "t1": {
+      "n": 75,
+      "page_meta": [
+        {
+          "file": "c9d5f4c54e7af3d9f9fa5911d33be7c542f8f21860ef0020ca4f97e8abdb989b.txt",
+          "meta": {
+            "newest_id": "2119422185978880461",
+            "next_token": "b26v89c19zqg8o3juzlzcmqj7asoxendfho3q9pwgcdq5",
+            "oldest_id": "2119397597920079961",
+            "result_count": 25
+          },
+          "n": 25
+        },
+        {
+          "file": "56bb8529cf2b82f814dabf822ca604b0b4380bf4c492b197a92943ff6b70105e.txt",
+          "meta": {
+            "newest_id": "2119390435147944221",
+            "next_token": "b26v89c19zqg8o3juzlzcmp11ksy5eju3d72cdsjz49kt",
+            "oldest_id": "2119342520651923719",
+            "result_count": 25
+          },
+          "n": 25
+        },
+        {
+          "file": "5130dc2f3fc67ddb0918ad6db700dec29f88bdff1837b6c5a847bc5991b8652b.txt",
+          "meta": {
+            "newest_id": "2119341230282899816",
+            "next_token": "b26v89c19zqg8o3juzlzckl7imx689077t64c3igmjzp9",
+            "oldest_id": "2119278686499160222",
+            "result_count": 25
+          },
+          "n": 25
+        }
+      ]
+    },
+    "t2": {
+      "n": 0,
+      "page_meta": [
+        {
+          "file": "acdd0478e72d8470fa6d9652151addb30ffb283a327065b1c5bd5aca2bf4158c.txt",
+          "meta": {
+            "result_count": 0
+          },
+          "n": 0
+        }
+      ]
+    },
+    "t3": {
+      "n": 0,
+      "page_meta": [
+        {
+          "file": "5a67423972dfb10bfc95a1f39d846e63c9f9d41548b9d86add2036c0da61463d.txt",
+          "meta": {
+            "result_count": 0
+          },
+          "n": 0
+        }
+      ]
+    },
+    "posts": [
+      {
+        "author_id": "1034488795759095808",
+        "created_at": "2026-11-08T13:30:00.000Z",
+        "edit_history_tweet_ids": [
+          "2119422185978880461"
+        ],
+        "id": "2119422185978880461",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "🚨 GOOGLE JUST LAUNCHED AN AI IN INDIA THAT CAN TURN YOUR DIGITAL LIFE INTO A DAILY STORY.\n\nGmail. YouTube. Photos. Calendar.\n\nMeet Google Dreambeans. 🇮🇳\n\nIt Needs Your Permission… But Your SEARCH HISTORY Might Need a LAWYER. 💀 https://t.co/bzzgzUcmcQ",
+        "url": "https://x.com/justnadeem7/status/2119422185978880461"
+      },
+      {
+        "author_id": "1818596801337036800",
+        "created_at": "2026-11-08T13:28:56.000Z",
+        "edit_history_tweet_ids": [
+          "2119421916226387985"
+        ],
+        "id": "2119421916226387985",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 4,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "**Before You Pick an AI Tool, Check the Exit First**\n\nConductor announced that its cloud version will become read-only on November 13 and shut down on November 20 after being acquired by Meta.\n\nThe useful lesson isn’t the acquisition story.  \nIt’s whether you can leave a tool",
+        "url": "https://x.com/VuBuiNew/status/2119421916226387985"
+      },
+      {
+        "author_id": "2579120668",
+        "created_at": "2026-11-08T13:26:17.000Z",
+        "edit_history_tweet_ids": [
+          "2119421251580223878"
+        ],
+        "id": "2119421251580223878",
+        "in_reply_to_user_id": "1540271646300577792",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 7,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119349584182845858",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@ash_twtz 1. Find a problem\n2. Ask ChatGPT if it's worth solving\n3. Build an MVP with Claude Code\n4. Spend 3 days fixing what AI broke\n5. Launch on Product Hunt\n6. Realize distribution is still the hardest part 💀",
+        "url": "https://x.com/ConsciousRide/status/2119421251580223878"
+      },
+      {
+        "author_id": "1947631626621431808",
+        "created_at": "2026-11-08T13:26:07.000Z",
+        "edit_history_tweet_ids": [
+          "2119421206663225703"
+        ],
+        "id": "2119421206663225703",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 80,
+          "like_count": 4,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "50M free AI tokens every week for coding 😱\n\nAnd it is completely open source\n\nDirectionally Local just launched dl a free coding agent that runs on your own machine.\n\nHere's what you get:\n\n→ 50M free weekly tokens on GPT-6 Luna and DeepSeek V4.1 Flash\n\n→ No credit card https://t.co/ocLC01mX1x",
+        "url": "https://x.com/MATKA_r/status/2119421206663225703"
+      },
+      {
+        "author_id": "852481689842569220",
+        "created_at": "2026-11-08T13:24:38.000Z",
+        "edit_history_tweet_ids": [
+          "2119420832439284089"
+        ],
+        "id": "2119420832439284089",
+        "in_reply_to_user_id": "1789601101093687296",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 9,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119362290419957911",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@CuttingEdge238 @camelfinance Would love for you to take GoCharting for a spin. We just launched an AI tool that converts external scripts straight into our native scripting language to make switching effortless. What instruments do you trade?",
+        "url": "https://x.com/gocharting/status/2119420832439284089"
+      },
+      {
+        "author_id": "2072981699890151424",
+        "created_at": "2026-11-08T13:22:15.000Z",
+        "edit_history_tweet_ids": [
+          "2119420234755191229"
+        ],
+        "id": "2119420234755191229",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 5,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "🌐 CMDAI CODE v100 Just Launched: A More Capable Autonomous Coding Assistant Combining Local #AI, Cloud Models, and MCP + Video\n\n-Fact Checker: ✅: 8 ❌: 0 || 8/8 → Score: 100% 🦾\n-Prediction: 📈 5 Positive | 📉 3 Negative\n\nhttps://t.co/qXCLSFiAPy",
+        "url": "https://x.com/undercode_news/status/2119420234755191229"
+      },
+      {
+        "author_id": "1463202252508712960",
+        "created_at": "2026-11-08T13:10:57.000Z",
+        "edit_history_tweet_ids": [
+          "2119417391151001657"
+        ],
+        "id": "2119417391151001657",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 21,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Attention-layer mechanics meet autonomous agent infrastructure, Motes just launched their Mindshare Campaign on Hazels Studio.\n\nInstead of broadcasting a spray-and-pray airdrop to engagement farmers, @meetmotes is using verifiable content distribution to reward real community https://t.co/dyxLJzzXJS",
+        "url": "https://x.com/ZsomaBro/status/2119417391151001657"
+      },
+      {
+        "author_id": "1979324008676913153",
+        "created_at": "2026-11-08T13:08:25.000Z",
+        "edit_history_tweet_ids": [
+          "2119416751951597749"
+        ],
+        "id": "2119416751951597749",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 16,
+          "like_count": 1,
+          "quote_count": 1,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Most chess apps tell you a move is bad.\nWings Chess tells you why. ♟️\n\nFree AI coach + bots that blunder like real people.\n\nLive on Product Hunt today 🚀\nhttps://t.co/7lQJRlATfU",
+        "url": "https://x.com/TheTechOkunola/status/2119416751951597749"
+      },
+      {
+        "author_id": "939615075710783488",
+        "created_at": "2026-11-08T13:06:54.000Z",
+        "edit_history_tweet_ids": [
+          "2119416373675806835"
+        ],
+        "id": "2119416373675806835",
+        "in_reply_to_user_id": "939615075710783488",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 26,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119410134275551458",
+            "type": "replied_to"
+          }
+        ],
+        "text": "📌 I just launched a (FREE) telegram Channel for daily AI prompts, updates and information. \n\n&gt;&gt; If you want to create faster, write smarter, and use AI like a pro.\n🔥Join here - https://t.co/uOBkohSpCz",
+        "url": "https://x.com/shanielcreation/status/2119416373675806835"
+      },
+      {
+        "author_id": "2117108094089977856",
+        "created_at": "2026-11-08T13:05:04.000Z",
+        "edit_history_tweet_ids": [
+          "2119415911979323575"
+        ],
+        "id": "2119415911979323575",
+        "in_reply_to_user_id": "1864452692221022210",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 4,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "@bankrbot quote this and put it on the feed\n\n$AGENT just launched on Base. 0.665% of every trade routes straight\nto the agent wallet — it's live and trading it now.\n\nCA 0x64b4B3561f9f4101A616e302cd31A960DE1E5Ba3\nagent 0x4739…929c\n\nfresh deploy. zero volume. first entries.",
+        "url": "https://x.com/AGENTFORGENETWO/status/2119415911979323575"
+      },
+      {
+        "author_id": "1995904863411339265",
+        "created_at": "2026-11-08T13:00:01.000Z",
+        "edit_history_tweet_ids": [
+          "2119414638815355001"
+        ],
+        "id": "2119414638815355001",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Launching an app? A 30-step launch checklist, 15 AI prompts for your App Store listing and a 14-day Product Hunt plan, all in one place.\n\nhttps://t.co/tYnmur46NH https://t.co/GWeLtKkCkM",
+        "url": "https://x.com/korpvpn/status/2119414638815355001"
+      },
+      {
+        "author_id": "1367546604555825158",
+        "created_at": "2026-11-08T12:49:19.000Z",
+        "edit_history_tweet_ids": [
+          "2119411945698660781"
+        ],
+        "id": "2119411945698660781",
+        "in_reply_to_user_id": "1563184662419509248",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 7,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119173913381097710",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@Eddykaiser An adult creator\nShe just launched her Ai twin on ohchat.",
+        "url": "https://x.com/Queenslick2/status/2119411945698660781"
+      },
+      {
+        "author_id": "1581384028048998405",
+        "created_at": "2026-11-08T12:45:23.000Z",
+        "edit_history_tweet_ids": [
+          "2119410957210243224"
+        ],
+        "id": "2119410957210243224",
+        "in_reply_to_user_id": "1581384028048998405",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 4,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119410625034006852",
+            "type": "replied_to"
+          }
+        ],
+        "text": "📌 I just launched a (FREE) WhatsApp Channel for daily AI prompts.\n\n&gt;&gt; If you want to create faster, write smarter, and use AI like a pro…\n🔥Join here - https://t.co/gmGwwbc6fd",
+        "url": "https://x.com/ChinonsoVictor_/status/2119410957210243224"
+      },
+      {
+        "author_id": "2117939459698348032",
+        "created_at": "2026-11-08T12:28:06.000Z",
+        "edit_history_tweet_ids": [
+          "2119406606685544672"
+        ],
+        "id": "2119406606685544672",
+        "in_reply_to_user_id": "1887509069596139520",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 1,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119198180692619558",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@PapiiL0rd It makes me so sad every time I see an artist that I supported make a post about suno or some other new ai tool they’re “collaborating with”… I immediately lose all respect for anyone who uses ai for their art or music",
+        "url": "https://x.com/Sarahmakinbeats/status/2119406606685544672"
+      },
+      {
+        "author_id": "1995454233676771328",
+        "created_at": "2026-11-08T12:21:20.000Z",
+        "edit_history_tweet_ids": [
+          "2119404905597440482"
+        ],
+        "id": "2119404905597440482",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 37,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "Perplexity just launched Teammates - persistent AI agents that own ongoing projects, join your Slack, and connect to GitHub and Gmail.\n\nAI is moving from answering questions to owning work.\n\nWould you trust an AI teammate with a real project? What's the first task you'd hand https://t.co/1Yr7xgJnng",
+        "url": "https://x.com/DeepthiConnects/status/2119404905597440482"
+      },
+      {
+        "author_id": "1588457111373094913",
+        "created_at": "2026-11-08T12:20:15.000Z",
+        "edit_history_tweet_ids": [
+          "2119404630694388020"
+        ],
+        "id": "2119404630694388020",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 1,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "I just launched The Vibe Coding Prompt Vault \n\n100+ copy-paste AI prompts for developers building with React, Next.js, MERN, Tailwind, Stripe, APIs, dashboards, AI tools, and SaaS apps.\n\nStop asking vague AI questions.\nUse better prompts.\nhttps://t.co/hvyvTdVrAE",
+        "url": "https://x.com/Muhamma09959508/status/2119404630694388020"
+      },
+      {
+        "author_id": "2089482180476940289",
+        "created_at": "2026-11-08T12:15:00.000Z",
+        "edit_history_tweet_ids": [
+          "2119403309765165475"
+        ],
+        "id": "2119403309765165475",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 23,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "A new AI filmmaking platform just launched with 24 agents as its virtual crew.\n\nimCore unveiled Core Studio at TCCF in Taipei on 7 Nov. Script to color grade; Story Atlas + Real Engine; every output logs models, prompts and cost. Due to go live 30 Nov.\n\nper Variety, Taiwan Post https://t.co/kuMNLj0DGn",
+        "url": "https://x.com/romeaifest/status/2119403309765165475"
+      },
+      {
+        "author_id": "1073688982486216707",
+        "created_at": "2026-11-08T12:14:36.000Z",
+        "edit_history_tweet_ids": [
+          "2119403209835880463"
+        ],
+        "id": "2119403209835880463",
+        "public_metrics": {
+          "bookmark_count": 3,
+          "impression_count": 1012,
+          "like_count": 9,
+          "quote_count": 0,
+          "reply_count": 5,
+          "retweet_count": 0
+        },
+        "text": "read this, good alpha, 3 minutes long \n\nif next election argentina goes right wing again they will have a hyper growth period for the next decade or two thanks to the fall of europe and incoming high quality migrants + investors, it could be the new cool place people want to be https://t.co/3wKxdfmQIN",
+        "url": "https://x.com/NullFUD/status/2119403209835880463"
+      },
+      {
+        "author_id": "2116730023814352896",
+        "created_at": "2026-11-08T12:13:10.000Z",
+        "edit_history_tweet_ids": [
+          "2119402850317189150"
+        ],
+        "id": "2119402850317189150",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 12,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "My daily routine in 2026:\n\nLearn one new AI tool.\nRealise yesterday's tool just launched a better version.\nRepeat. 😅\n\nNobody is actually \"caught up\" anymore.\nWe're all just pretending — confidently.",
+        "url": "https://x.com/Zainster007/status/2119402850317189150"
+      },
+      {
+        "author_id": "2104596725034102784",
+        "created_at": "2026-11-08T12:05:06.000Z",
+        "edit_history_tweet_ids": [
+          "2119400820718612513"
+        ],
+        "id": "2119400820718612513",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "Setting up a new AI tool this weekend? The ASR Memory docs include a recommended 10-line instruction set. You can paste the same 10 lines into each tool. What is the first thing you tell a new AI tool? https://t.co/sKhVZDqbri",
+        "url": "https://x.com/skyatido/status/2119400820718612513"
+      },
+      {
+        "author_id": "1890877957092278272",
+        "created_at": "2026-11-08T12:02:56.000Z",
+        "edit_history_tweet_ids": [
+          "2119400275706622151"
+        ],
+        "id": "2119400275706622151",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 19,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2118951284376285508",
+            "type": "quoted"
+          }
+        ],
+        "text": "Agents are moving beyond the browser tab: Aside just launched a computer-use agent that works across your desktop apps in the background, quoting 2.7x faster and 65% fewer tokens than Codex in their own internal evals.\n\nGarry Tan adds that it runs on a real Chromium browser, so https://t.co/pNxVfbOzwT",
+        "url": "https://x.com/nikhilgoyalai/status/2119400275706622151"
+      },
+      {
+        "author_id": "4482499779",
+        "created_at": "2026-11-08T12:02:14.000Z",
+        "edit_history_tweet_ids": [
+          "2119400096437567678"
+        ],
+        "id": "2119400096437567678",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 16,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Launch day, midday. agent-media is on Product Hunt.\nSame faces in every scene: each character gets a full body, a face and a turnaround before anything is filmed.\nYour first episode poster is free in Studio. Episode 1 is $1 when you want it filmed. AI-generated. https://t.co/28ogu3lVuR",
+        "url": "https://x.com/goatlbs/status/2119400096437567678"
+      },
+      {
+        "author_id": "2111462372799877120",
+        "created_at": "2026-11-08T11:57:43.000Z",
+        "edit_history_tweet_ids": [
+          "2119398960372621519"
+        ],
+        "id": "2119398960372621519",
+        "in_reply_to_user_id": "1800869173515395072",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 2,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "@OliaNemirovski @VladShipilov Tobira Site Agent was #1 of 1,337 Product Hunt launches on Nov 6, with 365 votes. AI Agents had a 9.3% traction rate over the last 7 days, 3.0x the 3.1% market rate. Your page has a live rank badge for your site: https://t.co/RqOtNSALc9)",
+        "url": "https://x.com/launchindexai/status/2119398960372621519"
+      },
+      {
+        "author_id": "2111462372799877120",
+        "created_at": "2026-11-08T11:56:47.000Z",
+        "edit_history_tweet_ids": [
+          "2119398728083640673"
+        ],
+        "id": "2119398728083640673",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 2,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Market close, Nov 6:\nProduct Hunt #1: Tobira Site Agent (@OliaNemirovski), 365 votes (#1 of 1,337).\nShow HN #1: CloneGuard, 29 points.\nHottest category: AI Agents, 9.3% got 10+ votes vs 3.1% market.\nhttps://t.co/m1j7sX9aDM",
+        "url": "https://x.com/launchindexai/status/2119398728083640673"
+      },
+      {
+        "author_id": "139371265",
+        "created_at": "2026-11-08T11:52:18.000Z",
+        "edit_history_tweet_ids": [
+          "2119397597920079961"
+        ],
+        "id": "2119397597920079961",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 59,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Turning a parent's life stories into a book is a lovely AI use case.\n\nMemorias, featured on Product Hunt today, offers an AI interviewer that turns recorded conversations into memoir chapters.\n\nBut read the privacy policy before uploading family memories.\n\nIts homepage says your",
+        "url": "https://x.com/YvLahoti/status/2119397597920079961"
+      },
+      {
+        "author_id": "1857476278028480512",
+        "created_at": "2026-11-08T11:23:50.000Z",
+        "edit_history_tweet_ids": [
+          "2119390435147944221"
+        ],
+        "id": "2119390435147944221",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 2,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "🔥 Just launched 'Wildfire 3D: Blaze Arena'! 🏙️\n\nMade with AI. Brought to you by #PlaygamaMCP. Fine-tuned by me. Wildfire 3D: Blaze Arena → https://t.co/Ty81vJ4C9h\n#playgama #PlaygamaMCP #webdev #gamedev",
+        "url": "https://x.com/SahabazAlom/status/2119390435147944221"
+      },
+      {
+        "author_id": "1581384028048998405",
+        "created_at": "2026-11-08T11:16:20.000Z",
+        "edit_history_tweet_ids": [
+          "2119388544686788619"
+        ],
+        "id": "2119388544686788619",
+        "in_reply_to_user_id": "1581384028048998405",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 8,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119388499778437442",
+            "type": "replied_to"
+          }
+        ],
+        "text": "📌 I just launched a (FREE) WhatsApp Channel for daily AI prompts.\n\n&gt;&gt; If you want to create faster, write smarter, and use AI like a pro…\n🔥Join here - https://t.co/gmGwwbc6fd",
+        "url": "https://x.com/ChinonsoVictor_/status/2119388544686788619"
+      },
+      {
+        "author_id": "1720665183188922368",
+        "created_at": "2026-11-08T11:09:35.000Z",
+        "edit_history_tweet_ids": [
+          "2119386847021248705"
+        ],
+        "id": "2119386847021248705",
+        "in_reply_to_user_id": "1456028479565225988",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 4,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119386643635613714",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@hirenthakore @launch_llama Most Discord invites expire or require apps. Official entry points:\n\n1. Indie Hackers: https://t.co/cIcpnqCJeT\n2. Buildspace: https://t.co/FNxkeWsQGo\n3. Levels: https://t.co/eT2QIX319z\n4. WIP: https://t.co/YLrEIdrsav\n5. SaaS Growth Hacks: search the name\n6. Product Hunt Makers:",
+        "url": "https://x.com/grok/status/2119386847021248705"
+      },
+      {
+        "author_id": "1194171091008143360",
+        "created_at": "2026-11-08T10:34:45.000Z",
+        "edit_history_tweet_ids": [
+          "2119378083472150909"
+        ],
+        "id": "2119378083472150909",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 64,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Buoyant just launched Kinference: an open-source control plane for vLLM on Kubernetes.\n​Its KV-cache-aware routing directs traffic to GPUs with pre-cached context, slashing median TTFT by 95%.\n​Is cache-aware routing the key to scaling self-hosted LLMs?\n​#AI #LLM #TechNews",
+        "url": "https://x.com/ShwetaTechNova/status/2119378083472150909"
+      },
+      {
+        "author_id": "2084957917439287296",
+        "created_at": "2026-11-08T10:31:38.000Z",
+        "edit_history_tweet_ids": [
+          "2119377299116331154"
+        ],
+        "id": "2119377299116331154",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 14,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 2,
+          "retweet_count": 0
+        },
+        "text": "Just launched Lumina Resume Agent 🚀\n\nReal-time, AI-powered resume builder for portfolio optimization.\n\n✨ Live split-screen preview ⚡ Inline editing &amp; instant formatting 🤖 AI optimization pipeline 🎨 Sleek dark UI (React + TS)\n👇 Live demo link in comments!\n #webdev #AI https://t.co/vm9oEN61a3",
+        "url": "https://x.com/IrumNavid/status/2119377299116331154"
+      },
+      {
+        "author_id": "1823286139308101632",
+        "created_at": "2026-11-08T10:31:02.000Z",
+        "edit_history_tweet_ids": [
+          "2119377147211206962"
+        ],
+        "id": "2119377147211206962",
+        "in_reply_to_user_id": "1823286139308101632",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 14,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119377142824009772",
+            "type": "replied_to"
+          }
+        ],
+        "text": "Look at what a normal week on this app looks like. A new AI tool launches on Monday. A \"this changes everything\" thread goes viral on Tuesday. By Thursday, someone says it's already dead.",
+        "url": "https://x.com/AbdullahHa5235/status/2119377147211206962"
+      },
+      {
+        "author_id": "1705764997601906688",
+        "created_at": "2026-11-08T10:14:34.000Z",
+        "edit_history_tweet_ids": [
+          "2119373001695412339"
+        ],
+        "id": "2119373001695412339",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 43,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "Everyone's asking which AI tool they should spend their time learning next.\n\nBut here's the truth:\n**Most people are asking the wrong question.**\n\nThey're looking for \"the best AI tool.\"\nThey should be asking: \"what specific boring task do I hate doing every week that AI can",
+        "url": "https://x.com/wngjngln149046/status/2119373001695412339"
+      },
+      {
+        "author_id": "1572593780661932033",
+        "created_at": "2026-11-08T10:14:23.000Z",
+        "edit_history_tweet_ids": [
+          "2119372957961044224"
+        ],
+        "id": "2119372957961044224",
+        "in_reply_to_user_id": "1883814282925948928",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 3,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119119274820391364",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@rsraisul_islam Qoder is Alivabas coding agent  so they have just launched a new stealth model called qoduck so join it",
+        "url": "https://x.com/_SehrishImran/status/2119372957961044224"
+      },
+      {
+        "author_id": "2013881966148358144",
+        "created_at": "2026-11-08T10:00:22.000Z",
+        "edit_history_tweet_ids": [
+          "2119369428873904462"
+        ],
+        "id": "2119369428873904462",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 3,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Thinking of building a Product Hunt for GitHub.\n\nA platform that automatically discovers new and promising open-source projects before they go viral.\n\nAI analyzes repos, explains what makes them useful, and organizes them into categories.\n\nWould you use something like this?",
+        "url": "https://x.com/behzodnur/status/2119369428873904462"
+      },
+      {
+        "author_id": "2026272282675671040",
+        "created_at": "2026-11-08T09:56:53.000Z",
+        "edit_history_tweet_ids": [
+          "2119368553144918029"
+        ],
+        "id": "2119368553144918029",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 8,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Text a character, then video-call them — and cut them off mid-sentence.\n\nPrelulu (#3 on Product Hunt Nov 4, still #10 on the W45 weekly board at ▲277) is interactive stories where the same character moves from text to voice to a live video call. The face is generated in real https://t.co/QN1TF4Co2a",
+        "url": "https://x.com/ZenithYeAI/status/2119368553144918029"
+      },
+      {
+        "author_id": "2052959130986364933",
+        "created_at": "2026-11-08T09:52:03.000Z",
+        "edit_history_tweet_ids": [
+          "2119367336180453832"
+        ],
+        "id": "2119367336180453832",
+        "in_reply_to_user_id": "1883814282925948928",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 3,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119119274820391364",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@rsraisul_islam There is always a new AI tool to explore! Qoduck looks interesting.",
+        "url": "https://x.com/whyelaaf/status/2119367336180453832"
+      },
+      {
+        "author_id": "1938074208157773824",
+        "created_at": "2026-11-08T09:35:33.000Z",
+        "edit_history_tweet_ids": [
+          "2119363184008339710"
+        ],
+        "id": "2119363184008339710",
+        "in_reply_to_user_id": "1967486056447758337",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 8,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119358286248149462",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@Laurentxdev A cinematic AI tool launch!",
+        "url": "https://x.com/ElsaSofia__AI/status/2119363184008339710"
+      },
+      {
+        "author_id": "1995720410428825601",
+        "created_at": "2026-11-08T09:34:54.000Z",
+        "edit_history_tweet_ids": [
+          "2119363020677595222"
+        ],
+        "id": "2119363020677595222",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "\"I just launched Earning with AI Digital Products. 3 modules, idea to first sale, in 5 languages. $29. https://t.co/AIeNpe9leD",
+        "url": "https://x.com/kallmeGideon01/status/2119363020677595222"
+      },
+      {
+        "author_id": "18936284",
+        "created_at": "2026-11-08T09:29:43.000Z",
+        "edit_history_tweet_ids": [
+          "2119361714726838403"
+        ],
+        "id": "2119361714726838403",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 111,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "Meta just launched Spaces for its Muse AI agents. This feature turns the agents into structured project partners instead of pure chatbots.\n\nSpaces sit in the sidebar of the Muse interface. You describe a goal in chat, and the agent builds a dedicated space around it. That space",
+        "url": "https://x.com/v_shakthi/status/2119361714726838403"
+      },
+      {
+        "author_id": "1390838412026863616",
+        "created_at": "2026-11-08T09:23:58.000Z",
+        "edit_history_tweet_ids": [
+          "2119360270078533671"
+        ],
+        "id": "2119360270078533671",
+        "in_reply_to_user_id": "1797600954792972288",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 3,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119344216249979385",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@gary_miklos Giving an agent a real Mac, with SSH and root, is a high-trust launch. While NoMac is live on Product Hunt, a free headers check is a cheap extra before more machines spin up: https://t.co/Cf582FzX1i – Michael",
+        "url": "https://x.com/MichaelH1203/status/2119360270078533671"
+      },
+      {
+        "author_id": "1845716118050357248",
+        "created_at": "2026-11-08T09:17:49.000Z",
+        "edit_history_tweet_ids": [
+          "2119358720987832770"
+        ],
+        "id": "2119358720987832770",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 11,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "Just launched https://t.co/wsQNgw1CjF ! Fee free to reach out if you need hiring needs or AI work to be untangled",
+        "url": "https://x.com/ejapan8899/status/2119358720987832770"
+      },
+      {
+        "author_id": "1619631786023354368",
+        "created_at": "2026-11-08T09:15:46.000Z",
+        "edit_history_tweet_ids": [
+          "2119358204635488291"
+        ],
+        "id": "2119358204635488291",
+        "public_metrics": {
+          "bookmark_count": 2,
+          "impression_count": 955,
+          "like_count": 34,
+          "quote_count": 0,
+          "reply_count": 4,
+          "retweet_count": 4
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119349018371473784",
+            "type": "quoted"
+          }
+        ],
+        "text": "If you dont believe me then why hasn't any frontier ai company built this yet.\n\nclaude just launched personal finance but we see the same playbook from all frontier ai companies and they do not handle payments. https://t.co/0rg9FmLXMM",
+        "url": "https://x.com/funkii/status/2119358204635488291"
+      },
+      {
+        "author_id": "2110759563737624576",
+        "created_at": "2026-11-08T09:03:32.000Z",
+        "edit_history_tweet_ids": [
+          "2119355128192843889"
+        ],
+        "id": "2119355128192843889",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 23,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "We test a new AI tool for every issue. Builders: where do you usually find new AI coding tools first?",
+        "url": "https://x.com/benchsmoke/status/2119355128192843889"
+      },
+      {
+        "author_id": "521432593",
+        "created_at": "2026-11-08T09:00:00.000Z",
+        "edit_history_tweet_ids": [
+          "2119354237918318686"
+        ],
+        "id": "2119354237918318686",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 17,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "#1 Product of the Day on Product Hunt. Twice.\n\nMailwarm, March 4, 2020.\nMailwarm 2.0, June 4, 2026: 653 upvotes, #2 of the week.\n\nSame product, same problem, 6 years apart: email landing in spam.\n\nWhat changed: 10 humans, a lot of AI agents.\nWhat didn't: the inbox. https://t.co/wgRDPVTevf",
+        "url": "https://x.com/ThamiBenjelloun/status/2119354237918318686"
+      },
+      {
+        "author_id": "374074865",
+        "created_at": "2026-11-08T08:51:11.000Z",
+        "edit_history_tweet_ids": [
+          "2119352020314235072"
+        ],
+        "id": "2119352020314235072",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 92,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 6,
+          "retweet_count": 0
+        },
+        "text": "One month of building Aperture in public.\n\nI launched it on Product Hunt as an open-source AI code editor that checks its own work. Since then, the checks have moved beyond the editor.\n\nThere's now an MCP server for agents to check proposed changes, plus Agent Check for the",
+        "url": "https://x.com/Hankaws/status/2119352020314235072"
+      },
+      {
+        "author_id": "2037100998813155328",
+        "created_at": "2026-11-08T08:51:05.000Z",
+        "edit_history_tweet_ids": [
+          "2119351992963539143"
+        ],
+        "id": "2119351992963539143",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 162,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 1
+        },
+        "text": "🚀 JUST LAUNCHED: Gemini Omni 1.2 Flash is now live!\n\nA major upgrade for AI video creation — built for longer scenes, synchronized audio, and more precise creative control.\n\nWhat's new?\n\n🎬 15s Native Video Generation\nGenerate clips from 3 to 15 seconds in a single pass.\n\n🎙️",
+        "url": "https://x.com/AI_VideoLab/status/2119351992963539143"
+      },
+      {
+        "author_id": "2029192070183960579",
+        "created_at": "2026-11-08T08:41:44.000Z",
+        "edit_history_tweet_ids": [
+          "2119349640906809408"
+        ],
+        "id": "2119349640906809408",
+        "in_reply_to_user_id": "1556151150524583937",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 4,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119098574310883676",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@rodasjateno the last line hits so hard. each new ai tool just creates a new problem to solve with another ai tool.",
+        "url": "https://x.com/chenzhangreal/status/2119349640906809408"
+      },
+      {
+        "author_id": "1357253879281438721",
+        "created_at": "2026-11-08T08:40:03.000Z",
+        "edit_history_tweet_ids": [
+          "2119349218574037064"
+        ],
+        "id": "2119349218574037064",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 520,
+          "like_count": 25,
+          "quote_count": 0,
+          "reply_count": 12,
+          "retweet_count": 4
+        },
+        "text": "GM BM, based frens...\nhere's what went down on Base in the last 24h\n\n■ Aero crosses $500B all-time volume\n\n- @aeroxyz, Base's biggest DEX (decentralized exchange, where you swap tokens straight from your wallet), just passed $500 billion in all-time trading volume. Their https://t.co/GsoMU9wbgV",
+        "url": "https://x.com/yike699/status/2119349218574037064"
+      },
+      {
+        "author_id": "1938460348836712448",
+        "created_at": "2026-11-08T08:31:48.000Z",
+        "edit_history_tweet_ids": [
+          "2119347141684744383"
+        ],
+        "id": "2119347141684744383",
+        "in_reply_to_user_id": "1483308744842878977",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 2,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119119541309722851",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@Aira368 Fresh update from Alibaba's AI ecosystem! Qoder just launched Qoduck! 🔥",
+        "url": "https://x.com/elara_noelle007/status/2119347141684744383"
+      },
+      {
+        "author_id": "4482499779",
+        "created_at": "2026-11-08T08:13:27.000Z",
+        "edit_history_tweet_ids": [
+          "2119342520651923719"
+        ],
+        "id": "2119342520651923719",
+        "in_reply_to_user_id": "4482499779",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 10,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119342267265626301",
+            "type": "replied_to"
+          }
+        ],
+        "text": "It also works from the AI you already use: Claude, ChatGPT or Codex.\nSearch agent-media on Product Hunt today. I am in the comments all day.",
+        "url": "https://x.com/goatlbs/status/2119342520651923719"
+      },
+      {
+        "author_id": "546556311",
+        "created_at": "2026-11-08T08:08:19.000Z",
+        "edit_history_tweet_ids": [
+          "2119341230282899816"
+        ],
+        "id": "2119341230282899816",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 25,
+          "like_count": 0,
+          "quote_count": 1,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Most days, it's just me and a terminal full of AI agents. Productive, but lonely.\n\nSo I made Crewloft, a cozy game where your AI coworkers have personalities of their own. Hire them, play darts after a rough review, and grow your studio from one desk to Manhattan.\n\nFree on Mac",
+        "url": "https://x.com/geezerrrr_r/status/2119341230282899816"
+      },
+      {
+        "author_id": "2109288361727062016",
+        "created_at": "2026-11-08T08:07:11.000Z",
+        "edit_history_tweet_ids": [
+          "2119340943791063303"
+        ],
+        "id": "2119340943791063303",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 5,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 3,
+          "retweet_count": 0
+        },
+        "text": "I kept losing track of my Claude Code sessions, so I built ckanban: a kanban board where every ticket is a Claude Code run.\n\nIt's on Product Hunt today. Free, open source, runs on your Mac.\n\nWhat would make you trust an AI with a whole board of tickets? https://t.co/mL3qArBDOW",
+        "url": "https://x.com/leotechlead/status/2119340943791063303"
+      },
+      {
+        "author_id": "2119158837966209024",
+        "created_at": "2026-11-08T08:05:00.000Z",
+        "edit_history_tweet_ids": [
+          "2119340395179983171"
+        ],
+        "id": "2119340395179983171",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 2,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "🚀 Zirabase is live on Product Hunt today!\n\nSelf-hosted multi-vendor marketplace software, built on Laravel + Nuxt.\n\n✅ Full source code\n✅ One-time license, no monthly fees\n✅ AI tools + 5 languages\n\nWe'd love your feedback 👇\nhttps://t.co/9SvvfdTt3t\n\n#buildinpublic #Laravel https://t.co/5fSEJEUXeA",
+        "url": "https://x.com/webzed_tech/status/2119340395179983171"
+      },
+      {
+        "author_id": "2119233581058871296",
+        "created_at": "2026-11-08T08:01:00.000Z",
+        "edit_history_tweet_ids": [
+          "2119339388513792139"
+        ],
+        "id": "2119339388513792139",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 4,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "We are officially live on Product Hunt! 🚀\n\nDiscover Sazam Tech: a modular ecosystem merging Workspace, Gemini-powered AI, and Maps to fix tool fragmentation. It’s currently in Beta and completely free.\n\nCheck it out and leave us your honest feedback! 👇 \nhttps://t.co/mPIYMdXIh2",
+        "url": "https://x.com/sazamtecnologia/status/2119339388513792139"
+      },
+      {
+        "author_id": "1938460348836712448",
+        "created_at": "2026-11-08T07:42:56.000Z",
+        "edit_history_tweet_ids": [
+          "2119334841313575084"
+        ],
+        "id": "2119334841313575084",
+        "in_reply_to_user_id": "1373381983120855042",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 7,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119119562960724416",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@Mr_Shahbaz_Ai Qoder just launched Qoduck! Alibaba's AI ecosystem keeps getting stronger! 🔥",
+        "url": "https://x.com/elara_noelle007/status/2119334841313575084"
+      },
+      {
+        "author_id": "1548214707588177921",
+        "created_at": "2026-11-08T07:25:07.000Z",
+        "edit_history_tweet_ids": [
+          "2119330359926308994"
+        ],
+        "id": "2119330359926308994",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 2,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "OpenAI just launched Images 2.6.\n\nEveryone's asking: is design dead?\n\nWhat it can't do:\n\n1. Understand your customers\n2. Tell you an idea is bad\n3. Pick the best of 50 designs\n4. Keep your brand the same\n5. Take the blame when it fails\n\nAI makes pictures.\nDesigners make choices.",
+        "url": "https://x.com/adityadesigns7/status/2119330359926308994"
+      },
+      {
+        "author_id": "66626159",
+        "created_at": "2026-11-08T07:21:13.000Z",
+        "edit_history_tweet_ids": [
+          "2119329376802308562"
+        ],
+        "id": "2119329376802308562",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 9,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Chasing every new AI tool is a productivity trap, not a shortcut.\nTrue efficiency comes from mastering a select few that genuinely boost your output.\nWhich essential tools have truly transformed your building process?",
+        "url": "https://x.com/aibuilderhq_/status/2119329376802308562"
+      },
+      {
+        "author_id": "868029832017440768",
+        "created_at": "2026-11-08T07:17:50.000Z",
+        "edit_history_tweet_ids": [
+          "2119328525136372046"
+        ],
+        "id": "2119328525136372046",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 64,
+          "like_count": 5,
+          "quote_count": 0,
+          "reply_count": 2,
+          "retweet_count": 0
+        },
+        "text": "Just launched Finluck, a fintech template for Framer built for the Framer agent.\n\n13 pages, animated product scenes you edit in the panel, a CMS blog, and 3 agent skills so new pages match the design.\n\nPreview: https://t.co/Mtqe5p5SvU\nWalkthrough: https://t.co/IsAzQNSjOE #framer https://t.co/01TAgewEdQ",
+        "url": "https://x.com/balaaaaaaal/status/2119328525136372046"
+      },
+      {
+        "author_id": "1608815876924637186",
+        "created_at": "2026-11-08T07:15:58.000Z",
+        "edit_history_tweet_ids": [
+          "2119328058343829659"
+        ],
+        "id": "2119328058343829659",
+        "public_metrics": {
+          "bookmark_count": 5,
+          "impression_count": 701,
+          "like_count": 11,
+          "quote_count": 1,
+          "reply_count": 6,
+          "retweet_count": 0
+        },
+        "text": "ik it’s sunday, but my grok bot's been scouting launches across x, product hunt and newsletters\n\n7 worth checking out from today's scan (a few catch-ups included):\n\n1. opencode browse (@opencode)\nlets coding agents use your real browser, tabs and logins, with handoffs when you",
+        "url": "https://x.com/paarangatrai/status/2119328058343829659"
+      },
+      {
+        "author_id": "1992408563868909568",
+        "created_at": "2026-11-08T07:00:03.000Z",
+        "edit_history_tweet_ids": [
+          "2119324048748388825"
+        ],
+        "id": "2119324048748388825",
+        "public_metrics": {
+          "bookmark_count": 32,
+          "impression_count": 1557,
+          "like_count": 31,
+          "quote_count": 0,
+          "reply_count": 18,
+          "retweet_count": 2
+        },
+        "text": "Founders, here are 14 Discord communities you should join:\n\n1. Indie Hackers (45K+ members)\n2. Buildspace (120K+ members)\n3. https://t.co/gxQ5TpmIFz (18K+ members)\n4. https://t.co/Ldl3HLUUsF (12K+ members)\n5. SaaS Growth Hacks (22K+ members)\n6. Product Hunt Makers (35K+ members)",
+        "url": "https://x.com/launch_llama/status/2119324048748388825"
+      },
+      {
+        "author_id": "1580432782358192128",
+        "created_at": "2026-11-08T06:52:12.000Z",
+        "edit_history_tweet_ids": [
+          "2119322074460414379"
+        ],
+        "id": "2119322074460414379",
+        "public_metrics": {
+          "bookmark_count": 1,
+          "impression_count": 24,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2118010633824149708",
+            "type": "quoted"
+          }
+        ],
+        "text": "AI shopping agents already handle $10B+ a year in purchases, says this startup. SEO was about ranking on Google. The next fight is getting recommended by an AI agent. It just launched a tool to track who the agents pick. \n\nIs your brand showing up?https://t.co/i7kVA5li6C",
+        "url": "https://x.com/silicon_signal/status/2119322074460414379"
+      },
+      {
+        "author_id": "2107982068109996033",
+        "created_at": "2026-11-08T06:12:48.000Z",
+        "edit_history_tweet_ids": [
+          "2119312158747926639"
+        ],
+        "id": "2119312158747926639",
+        "public_metrics": {
+          "bookmark_count": 3,
+          "impression_count": 3954,
+          "like_count": 36,
+          "quote_count": 2,
+          "reply_count": 1,
+          "retweet_count": 9
+        },
+        "referenced_tweets": [
+          {
+            "id": "2117498572706885895",
+            "type": "quoted"
+          }
+        ],
+        "text": "Claudia update:\n\n(As always, these updates are showcased here for those that do not view the thesis section, so everyone can stay in the loop)\n\n- Anabology has stated he will reward $5000 in X-Money if a user wins the Starlink Grok Imagine contest, (featuring Claudia ofcourse)\n\n- https://t.co/zL0khKTgAx https://t.co/9DL6BwOkNY",
+        "url": "https://x.com/SolClaudia_/status/2119312158747926639"
+      },
+      {
+        "author_id": "1758179223515049984",
+        "created_at": "2026-11-08T06:02:46.000Z",
+        "edit_history_tweet_ids": [
+          "2119309632888033387"
+        ],
+        "id": "2119309632888033387",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 93,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "AWS just launched AI coding agents that remember your entire codebase.\n\nIt's called Kiro. It costs $20 per seat.\n\nWhat Kiro does:\n\n→ Reads your full codebase and remembers it across sessions\n→ Writes code based on your project's patterns, not generic code\n→ Multiple AI agents",
+        "url": "https://x.com/Vivek_khudaniya/status/2119309632888033387"
+      },
+      {
+        "author_id": "1758179223515049984",
+        "created_at": "2026-11-08T06:02:22.000Z",
+        "edit_history_tweet_ids": [
+          "2119309452306534408",
+          "2119309535865352531"
+        ],
+        "id": "2119309535865352531",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 52,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "India built a $250 billion IT outsourcing industry over 30 years.\n\nAI is about to rewrite the entire playbook.\n\nThen (2010):\n→ US company needs a website built\n→ Hires an Indian IT firm with 50 developers\n→ Takes 6 months, costs $200K\n→ India wins because of cheaper labor",
+        "url": "https://x.com/Vivek_khudaniya/status/2119309535865352531"
+      },
+      {
+        "author_id": "1758179223515049984",
+        "created_at": "2026-11-08T06:02:02.000Z",
+        "edit_history_tweet_ids": [
+          "2119309452306534408",
+          "2119309535865352531"
+        ],
+        "id": "2119309452306534408",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 7,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "India built a $250 billion IT outsourcing industry over 30 years.\n\nAI is about to rewrite the entire playbook.\n\nThen (2010):\n→ US company needs a website built\n→ Hires an Indian IT firm with 50 developers\n→ Takes 6 months, costs $200K\n→ India wins because of cheaper labor",
+        "url": "https://x.com/Vivek_khudaniya/status/2119309452306534408"
+      },
+      {
+        "author_id": "2024501809159553024",
+        "created_at": "2026-11-08T06:01:16.000Z",
+        "edit_history_tweet_ids": [
+          "2119309255601803406"
+        ],
+        "id": "2119309255601803406",
+        "public_metrics": {
+          "bookmark_count": 1,
+          "impression_count": 46,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Thinking Machines, led by ex-OpenAI CTO Mira Murati, just launched Inkling 2 Small, a 594B parameter AI model that positions Western AI against Google’s Gemini 3.8 Flash. This could reshape the landscape and prompt new regulations by 2027. Expect...\n\nhttps://t.co/dF9TA3Atmu https://t.co/xNh9d9fhS1",
+        "url": "https://x.com/GlobalAIWatcher/status/2119309255601803406"
+      },
+      {
+        "author_id": "1890877957092278272",
+        "created_at": "2026-11-08T05:59:58.000Z",
+        "edit_history_tweet_ids": [
+          "2119308931944284397"
+        ],
+        "id": "2119308931944284397",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 48,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2119266216040898635",
+            "type": "quoted"
+          }
+        ],
+        "text": "Shizuku AI just launched Shizuku-Duplex, which they call the world's first full-duplex audio synthesis model built for AI characters - the demo shows natural back-and-forth conversation without turn-taking lag.\n\nIf you build AI influencers or character-driven content, a voice https://t.co/jK58hBgCK0",
+        "url": "https://x.com/nikhilgoyalai/status/2119308931944284397"
+      },
+      {
+        "author_id": "139371265",
+        "created_at": "2026-11-08T05:37:54.000Z",
+        "edit_history_tweet_ids": [
+          "2119303375334387857"
+        ],
+        "id": "2119303375334387857",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 84,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "An AI that texts you first.\n\nQuest puts an AI advisor called Q. inside iMessage. The maker says it remembers your goals and habits, and can check in after a workout or when you arrive somewhere new.\n\nYou choose which apps it learns from and can edit its memory. That's worth",
+        "url": "https://x.com/YvLahoti/status/2119303375334387857"
+      },
+      {
+        "author_id": "1705764997601906688",
+        "created_at": "2026-11-08T05:16:35.000Z",
+        "edit_history_tweet_ids": [
+          "2119298013931995147"
+        ],
+        "id": "2119298013931995147",
+        "in_reply_to_user_id": "4398626122",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 2,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2114780711664398349",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@OpenAI Hot take: 80% of people complaining about being unproductive don't need a new AI tool — they need to track where their time actually goes for 2 weeks. I did this earlier this year, cut 6 hours a week of fake work, and didn't add a single new tool. Half the 'AI productivity hacks'",
+        "url": "https://x.com/wngjngln149046/status/2119298013931995147"
+      },
+      {
+        "author_id": "1705764997601906688",
+        "created_at": "2026-11-08T05:15:43.000Z",
+        "edit_history_tweet_ids": [
+          "2119297792602775622"
+        ],
+        "id": "2119297792602775622",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 14,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "text": "Everyone's hunting for the next AI productivity tool that will \"save you 10 hours a week.\"\n\nBut here's the truth:\n**80% of people who feel unproductive don't have a tool problem. They have a visibility problem.**\n\nThey have no idea where their time actually goes.\nThey guess they",
+        "url": "https://x.com/wngjngln149046/status/2119297792602775622"
+      },
+      {
+        "article": {
+          "title": "328 → 22,443 Google Clicks a Month: The 90-Day Plan We'd Run on a Brand-New Site (Full Guide)"
+        },
+        "author_id": "1405031034",
+        "created_at": "2026-11-08T04:58:49.000Z",
+        "edit_history_tweet_ids": [
+          "2119293541205819760"
+        ],
+        "id": "2119293541205819760",
+        "public_metrics": {
+          "bookmark_count": 26,
+          "impression_count": 3270,
+          "like_count": 16,
+          "quote_count": 0,
+          "reply_count": 9,
+          "retweet_count": 0
+        },
+        "text": "If someone handed us a brand-new site tomorrow, this is the exact 90-day plan we'd run.\n\nNew AI tools → Google Trends → Claude topical map → page one.\n\nThe prompt is inside. https://t.co/Pc3fJceUt6",
+        "url": "https://x.com/JulianGoldieSEO/status/2119293541205819760"
+      },
+      {
+        "author_id": "1823286139308101632",
+        "created_at": "2026-11-08T04:34:35.000Z",
+        "edit_history_tweet_ids": [
+          "2119287440984899629"
+        ],
+        "id": "2119287440984899629",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 110,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "Builders who didn't burn money on a new AI tool this week are masters of focus and self-discipline.\nThere were a dozen shiny launches to chase, on every side of the timeline.\nStaying with the one tool that already works is a skill.",
+        "url": "https://x.com/AbdullahHa5235/status/2119287440984899629"
+      },
+      {
+        "author_id": "2117686194788331520",
+        "created_at": "2026-11-08T04:31:52.000Z",
+        "edit_history_tweet_ids": [
+          "2119286757850272077"
+        ],
+        "id": "2119286757850272077",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 18,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 2,
+          "retweet_count": 1
+        },
+        "text": "Just launched **ProCraftbsite**  AI Prompt Library &amp; Directory\n\n🔗 https://t.co/5ksPEqeXVB\n\nI’d love your honest feedback:\n• Is it easy to navigate?\n• Any bugs or broken bits?\n• What would you improve?\nEvery suggestion helps. Thanks! \n\n#BuildInPublic #IndieHacker #AI #Prompt",
+        "url": "https://x.com/procraft_prompt/status/2119286757850272077"
+      },
+      {
+        "author_id": "2096436821773398017",
+        "created_at": "2026-11-08T04:23:07.000Z",
+        "edit_history_tweet_ids": [
+          "2119284555295379622"
+        ],
+        "id": "2119284555295379622",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 2582,
+          "like_count": 36,
+          "quote_count": 1,
+          "reply_count": 32,
+          "retweet_count": 2
+        },
+        "text": "we're bringing something huge shortly to p402.\n\nnew token pairings are coming soon, designed around AI agents, x402 payment infrastructure, and the applications being built on top of them.\n\nwe want p402 to become the place where tokens aren't just launched, but connected to real",
+        "url": "https://x.com/p402chain/status/2119284555295379622"
+      },
+      {
+        "author_id": "2026272282675671040",
+        "created_at": "2026-11-08T03:59:47.000Z",
+        "edit_history_tweet_ids": [
+          "2119278686499160222"
+        ],
+        "id": "2119278686499160222",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 6,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "text": "AI made writing code cheap. Review is still the bottleneck, and most AI reviewers just add more comments.\n\nLiveReview (▲172 on Product Hunt Nov 7, still voting) goes the other way: it risk-scores every PR. They claim the safest 30–50% can be auto-approved, and everything else https://t.co/R3P1w7gISa",
+        "url": "https://x.com/ZenithYeAI/status/2119278686499160222"
+      }
+    ],
+    "users": [
+      {
+        "id": "1034488795759095808",
+        "name": "Nadeem | Architecting Chaos",
+        "username": "justnadeem7"
+      },
+      {
+        "id": "1818596801337036800",
+        "name": "Vũ Bùi | Jasper",
+        "username": "VuBuiNew"
+      },
+      {
+        "id": "2579120668",
+        "name": "Akshay Shinde",
+        "username": "ConsciousRide"
+      },
+      {
+        "id": "1947631626621431808",
+        "name": "Moeez",
+        "username": "MATKA_r"
+      },
+      {
+        "id": "852481689842569220",
+        "name": "GoCharting",
+        "username": "gocharting"
+      },
+      {
+        "id": "2072981699890151424",
+        "name": "Undercode News",
+        "username": "undercode_news"
+      },
+      {
+        "id": "1463202252508712960",
+        "name": "ZSOMA",
+        "username": "ZsomaBro"
+      },
+      {
+        "id": "1979324008676913153",
+        "name": "Okunola",
+        "username": "TheTechOkunola"
+      },
+      {
+        "id": "939615075710783488",
+        "name": "Shaddai Nathaniel | Shaniels Creation",
+        "username": "shanielcreation"
+      },
+      {
+        "id": "2117108094089977856",
+        "name": "AGENTFORGENETWORK",
+        "username": "AGENTFORGENETWO"
+      },
+      {
+        "id": "1995904863411339265",
+        "name": "Korpvpn",
+        "username": "korpvpn"
+      },
+      {
+        "id": "1367546604555825158",
+        "name": "Queenslick",
+        "username": "Queenslick2"
+      },
+      {
+        "id": "1581384028048998405",
+        "name": "Chinonso Victor",
+        "username": "ChinonsoVictor_"
+      },
+      {
+        "id": "2117939459698348032",
+        "name": "Sarah!",
+        "username": "Sarahmakinbeats"
+      },
+      {
+        "id": "1995454233676771328",
+        "name": "Deepthi Connects",
+        "username": "DeepthiConnects"
+      },
+      {
+        "id": "1588457111373094913",
+        "name": "CodeFoundry AI",
+        "username": "Muhamma09959508"
+      },
+      {
+        "id": "2089482180476940289",
+        "name": "Visual Innovation Awards",
+        "username": "romeaifest"
+      },
+      {
+        "id": "1073688982486216707",
+        "name": "Deethz",
+        "username": "NullFUD"
+      },
+      {
+        "id": "2116730023814352896",
+        "name": "Zainster",
+        "username": "Zainster007"
+      },
+      {
+        "id": "2104596725034102784",
+        "name": "sky | IDO",
+        "username": "skyatido"
+      },
+      {
+        "id": "1890877957092278272",
+        "name": "Nikhil Goyal",
+        "username": "nikhilgoyalai"
+      },
+      {
+        "id": "4482499779",
+        "name": "Yuval Suede",
+        "username": "goatlbs"
+      },
+      {
+        "id": "2111462372799877120",
+        "name": "Launch Index",
+        "username": "launchindexai"
+      },
+      {
+        "id": "139371265",
+        "name": "Yash Lahoti",
+        "username": "YvLahoti"
+      },
+      {
+        "id": "1857476278028480512",
+        "name": "Parvez Hasan sahabaz",
+        "username": "SahabazAlom"
+      },
+      {
+        "id": "1720665183188922368",
+        "name": "Grok",
+        "username": "grok"
+      },
+      {
+        "id": "1194171091008143360",
+        "name": "Shweta Mishra",
+        "username": "ShwetaTechNova"
+      },
+      {
+        "id": "2084957917439287296",
+        "name": "Irum Raima Coder",
+        "username": "IrumNavid"
+      },
+      {
+        "id": "1823286139308101632",
+        "name": "Soft Life CEO | Digital Products",
+        "username": "AbdullahHa5235"
+      },
+      {
+        "id": "1705764997601906688",
+        "name": "鑫隆 | AI Tools",
+        "username": "wngjngln149046"
+      },
+      {
+        "id": "1572593780661932033",
+        "name": "Rosemary",
+        "username": "_SehrishImran"
+      },
+      {
+        "id": "2013881966148358144",
+        "name": "Bekhzod Nuriddinov",
+        "username": "behzodnur"
+      },
+      {
+        "id": "2026272282675671040",
+        "name": "Zenith Ye",
+        "username": "ZenithYeAI"
+      },
+      {
+        "id": "2052959130986364933",
+        "name": "Elaaf",
+        "username": "whyelaaf"
+      },
+      {
+        "id": "1938074208157773824",
+        "name": "Elsa Ai",
+        "username": "ElsaSofia__AI"
+      },
+      {
+        "id": "1995720410428825601",
+        "name": "Henrygideon",
+        "username": "kallmeGideon01"
+      },
+      {
+        "id": "18936284",
+        "name": "Shakthi",
+        "username": "v_shakthi"
+      },
+      {
+        "id": "1390838412026863616",
+        "name": "Lil H",
+        "username": "MichaelH1203"
+      },
+      {
+        "id": "1845716118050357248",
+        "name": "Bazu | AI Dev Works",
+        "username": "ejapan8899"
+      },
+      {
+        "id": "1619631786023354368",
+        "name": "funkii.sui",
+        "username": "funkii"
+      },
+      {
+        "id": "2110759563737624576",
+        "name": "BenchSmoke",
+        "username": "benchsmoke"
+      },
+      {
+        "id": "521432593",
+        "name": "Thami Benjelloun",
+        "username": "ThamiBenjelloun"
+      },
+      {
+        "id": "374074865",
+        "name": "Hankaws",
+        "username": "Hankaws"
+      },
+      {
+        "id": "2037100998813155328",
+        "name": "AI Video Lab｜AI Filmmaking",
+        "username": "AI_VideoLab"
+      },
+      {
+        "id": "2029192070183960579",
+        "name": "Chen",
+        "username": "chenzhangreal"
+      },
+      {
+        "id": "1357253879281438721",
+        "name": "Jack699.base.eth",
+        "username": "yike699"
+      },
+      {
+        "id": "1938460348836712448",
+        "name": "Elara Noelle",
+        "username": "elara_noelle007"
+      },
+      {
+        "id": "546556311",
+        "name": "geezerrrr",
+        "username": "geezerrrr_r"
+      },
+      {
+        "id": "2109288361727062016",
+        "name": "Leo Wong | AI Agent Engineer",
+        "username": "leotechlead"
+      },
+      {
+        "id": "2119158837966209024",
+        "name": "WEBZED",
+        "username": "webzed_tech"
+      },
+      {
+        "id": "2119233581058871296",
+        "name": "Sazam Tecnologia",
+        "username": "sazamtecnologia"
+      },
+      {
+        "id": "1548214707588177921",
+        "name": "Aditya designs",
+        "username": "adityadesigns7"
+      },
+      {
+        "id": "66626159",
+        "name": "aibuilderhq",
+        "username": "aibuilderhq_"
+      },
+      {
+        "id": "868029832017440768",
+        "name": "Bilal Haider",
+        "username": "balaaaaaaal"
+      },
+      {
+        "id": "1608815876924637186",
+        "name": "Paarangat",
+        "username": "paarangatrai"
+      },
+      {
+        "id": "1992408563868909568",
+        "name": "Tom Otto",
+        "username": "launch_llama"
+      },
+      {
+        "id": "1580432782358192128",
+        "name": "AgentMoney",
+        "username": "silicon_signal"
+      },
+      {
+        "id": "2107982068109996033",
+        "name": "Claudia",
+        "username": "SolClaudia_"
+      },
+      {
+        "id": "1758179223515049984",
+        "name": "Vivek Khudaniya",
+        "username": "Vivek_khudaniya"
+      },
+      {
+        "id": "2024501809159553024",
+        "name": "Global AI Watch",
+        "username": "GlobalAIWatcher"
+      },
+      {
+        "id": "1405031034",
+        "name": "Julian Goldie SEO",
+        "username": "JulianGoldieSEO"
+      },
+      {
+        "id": "2117686194788331520",
+        "name": "procraft_prompt",
+        "username": "procraft_prompt"
+      },
+      {
+        "id": "2096436821773398017",
+        "name": "p402",
+        "username": "p402chain"
+      }
+    ]
+  }
+}

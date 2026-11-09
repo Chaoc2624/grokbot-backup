@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-09",
+  "mode": "pm",
+  "label": "2026-11-09 新词雷达",
+  "window_utc": {
+    "start": "2026-11-09T02:18:00Z",
+    "end": "2026-11-09T09:55:00Z"
+  },
+  "window_beijing": {
+    "start": "2026-11-09 10:18",
+    "end": "2026-11-09 17:55"
+  },
+  "steps": {
+    "xscan": {
+      "ok": true,
+      "file": "/workspace/xinci/xnew-20261109-pm.json",
+      "items": 1,
+      "keywords": 0,
+      "note": "官方仅 Voxtral 3 Transcribe 演示(not_model)；Le Chonk/Large4 已 reported；B 路二手低互动未收",
+      "board_keywords": 0
+    },
+    "tracks_x": {
+      "ok": true,
+      "file": "/tmp/tracks_x_fill_20261109.json",
+      "game": 4,
+      "ai_tools": 12,
+      "note": "游戏轨中文查询超时跳过；AI目录查询0条"
+    },
+    "track_scan": {
+      "ok": true,
+      "file": "/workspace/xinci/tracks-20261109-pm.json",
+      "game_items": 130,
+      "game_kws": 40,
+      "ai_items": 43,
+      "ai_kws": 40,
+      "sitemap_new": {
+        "toolify": 0,
+        "futurepedia": 1,
+        "aixploria": 0
+      }
+    },
+    "radar_daily": {
+      "ok": true,
+      "report_json": "/workspace/xinci/report.json",
+      "report_md": "/workspace/xinci/report.md",
+      "note": "AIsa 名字判断402可忽略；抽出 misterdownloadmanager/s2arm/pinky/gputaskman 等；HF 含 minimax h3 flashgen 4step（sources）"
+    },
+    "merge": {
+      "ok": true,
+      "items": 289,
+      "dupes": 6
+    },
+    "finders": {
+      "ok": true
+    },
+    "doable": {
+      "ok": true,
+      "vacuum": 0,
+      "full_pass": 0,
+      "near": 0,
+      "note": "Semrush SSL 失败致多数无KD/CPC"
+    },
+    "push": {
+      "ok": true,
+      "id": 42,
+      "items": 289,
+      "keywords": 40,
+      "label": "2026-11-09 新词雷达",
+      "board": "https://x.omnitools.cc/radar/new"
+    }
+  },
+  "xscan_items": [
+    {
+      "name": "Voxtral 3 Transcribe 实时转写演示",
+      "what": "Mistral 语音转写产品的现场用例演示（非新模型首发）",
+      "desc": "在 AI Engineer Paris 用 Voxtral 3 Transcribe 做主舞台实时转写，并展示 context biasing",
+      "kind": "not_model",
+      "url": "https://x.com/MistralAI/status/2119651192737259701",
+      "views": 12148,
+      "bookmarks": 39
+    }
+  ],
+  "radar_names_highlight": [
+    {
+      "name": "misterdownloadmanager",
+      "what": "开源下载管理器（GitHub 爆发仓库）",
+      "signal": "GitHub ★2625"
+    },
+    {
+      "name": "S2Arm / s2arm",
+      "what": "在 iPhone/iPad/Mac 原生跑 Switch 游戏的工具",
+      "signal": "GitHub ★1172"
+    },
+    {
+      "name": "pinky",
+      "what": "让 AI agent 在人工把关下操作手机的工具（DIYgod）",
+      "signal": "GitHub ★1210"
+    },
+    {
+      "name": "gputaskman",
+      "what": "跨 Windows/Linux/WSL 的 GPU 进程任务管理器",
+      "signal": "GitHub ★1272"
+    },
+    {
+      "name": "minimax h3 flashgen 4step",
+      "what": "HF Spaces 上的 MiniMax H3 相关图像/生成 Space（sources）",
+      "signal": "HF Spaces 榜"
+    }
+  ],
+  "game_highlights": [
+    {
+      "name": "Throw Food For Animals",
+      "type": "休闲投喂",
+      "platform": "Roblox",
+      "note": "Top Trending ~22万在玩"
+    },
+    {
+      "name": "Survive Your Ideas",
+      "type": "生存/创意",
+      "platform": "Roblox",
+      "note": "Top Trending ~3.7万在玩"
+    },
+    {
+      "name": "DONT SPLASH",
+      "type": "休闲",
+      "platform": "Roblox",
+      "note": "Up-and-Coming ~4.6万在玩"
+    },
+    {
+      "name": "Band Rivals",
+      "type": "吉他英雄类音乐节奏",
+      "platform": "Roblox",
+      "url": "https://x.com/ProtoBreadMaker/status/2119621558037815634"
+    },
+    {
+      "name": "Swim to Steal an Egg",
+      "type": "冒险/偷蛋",
+      "platform": "Roblox",
+      "url": "https://x.com/MIRAGE_DINO9/status/2119728299085824218"
+    },
+    {
+      "name": "The Scary School Remake",
+      "type": "恐怖生存重制",
+      "platform": "Roblox",
+      "url": "https://x.com/devyy2011/status/2119671804822499484"
+    },
+    {
+      "name": "Closing Shift / Evermore High / Beyond Nen",
+      "type": "Roblox 新上榜/趋势",
+      "platform": "Roblox",
+      "note": "公开榜 is_new"
+    }
+  ],
+  "ai_tool_highlights": [
+    {
+      "name": "Reduck",
+      "use": "让 AI 代理用浏览器脚本操作无 API 的网站（已登录 Chrome 重跑）",
+      "url": "https://x.com/FabianMaume/status/2119720595763896582"
+    },
+    {
+      "name": "Product Hunt MCP Server",
+      "use": "在 Claude/ChatGPT 等里通过 MCP 发布与发现 Product Hunt 产品",
+      "url": "https://x.com/Abbas143office/status/2119723465242759318"
+    },
+    {
+      "name": "Appwrite MCP1",
+      "use": "统一 URL 接入多个 MCP 服务器的网关（权限/凭证）",
+      "url": "https://x.com/nikhilgoyalai/status/2119720147258589191"
+    },
+    {
+      "name": "gitring",
+      "use": "多编码代理同仓协作时的冲突/协调工具",
+      "url": "https://x.com/m14z4/status/2119708319061569978"
+    },
+    {
+      "name": "Kivviq",
+      "use": "AI 代理可观测性（监控/调试）",
+      "url": "https://x.com/Dayve010/status/2119710268997476412"
+    },
+    {
+      "name": "Axiocairn",
+      "use": "用 AI 分析 ETF 持仓重叠、看清组合真实分散度",
+      "url": "https://x.com/X_lun7/status/2119711589188153355"
+    },
+    {
+      "name": "Arcjet AI security models",
+      "use": "AI agent 运行时安全相关（Product Hunt 上架）",
+      "url": "https://www.producthunt.com/products/arcjet"
+    },
+    {
+      "name": "Seedream 5.5",
+      "use": "据第三方称字节 AI 图像模型（连续编辑/RGBA）；非官方首发核实",
+      "url": "https://x.com/pepeanalyst/status/2119726774107910308",
+      "note": "第三方"
+    },
+    {
+      "name": "phedra x",
+      "use": "Futurepedia sitemap 新页工具名",
+      "url": "https://www.futurepedia.io/tool/phedra-x",
+      "note": "用途待核实"
+    }
+  ],
+  "doable": {
+    "vacuum": 0,
+    "full_pass": 0,
+    "near": 0
+  },
+  "board_url": "https://x.omnitools.cc/radar/new",
+  "note_board_keywords": "XSCAN 建站热词0；Futurepedia sitemap new=1 是双轨公开源不是建站热词"
+}

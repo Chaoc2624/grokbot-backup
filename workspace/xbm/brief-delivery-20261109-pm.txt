@@ -1,0 +1,38 @@
+## 推特书签简报 · 2026-11-09 晚上
+
+新增 **5** 条（过滤 0），看板收录 **5**，carryover **335**。
+
+本档新增 TOYOTA Wallet 再次开放申请、国内招行万事达借记卡充值教程、法国税号申请材料与邮寄步骤、Windows + iPhone 安装 Swiplet 跳广告，以及甲骨文 ARM 免费服务器申请经验；过滤 0 条。
+
+### 支付
+- [TOYOTA Wallet 再次开放申请](https://x.com/wudihao138hack/status/2119686029108228389)
+  - wu138di（@wudihao138hack）写「TOYOTA 又可以申请了，想要的可以冲了」，并说之前要再留、现在又放开了。他引用了大叔（@Wangdaso）的帖：这次新增 TOYOTA Wallet 两个卡面，一张 Mastercard、一张 JCB，都成功加进了 Apple Pay；大叔感叹一个日本手机号能集这么多日本银行卡。原帖：[Wangdaso](https://x.com/Wangdaso/status/2119654967577399670)。具体开卡和充值步骤见本档七悠球那条教程。
+  - 动作：若要集这两张日本预付卡，按七悠球的教程去 TOYOTA Wallet 申请并加入 Apple Pay
+
+- [TOYOTA Wallet 开卡教程，国内招行万事达借记卡实测可充值](https://x.com/qiyouqiu114/status/2119765793894535400)
+  - 七悠球（@qiyouqiu114）写了 TOYOTA Wallet 开卡教程，并实测国内招商银行万事达借记卡能给这张预付卡充值。这是丰田金融的预付钱包，一次注册开出两张卡：蓝色 QUICPay（JCB 预付）和黄色 iD/Mastercard（万事达预付），都能加进 Apple Pay。作者实测给 iD/Mastercard 充 500 日元到账（约合人民币 21.24 元），提醒这是预授权冻结，要留意后续扣款通知。步骤：下载 TOYOTA Wallet App，点「さあ、はじめよう」，同意钱包和 QUICPay 两份条款；到 [id.toyota](http://id.toyota) 用邮箱注册 TOYOTA 账号；密码需 8–20 位半角英数且同时含字母和数字；认证电话要填能收短信的日本手机号（也可用语音电话收码），以后做二步验证。姓名：姓填汉字，名先填汉字、若系统报错再改片假名，片假名按读音填。开卡后在卡面左上角「カード情報を確認する」看卡号和有效期，余额上限 50,000 日元。作者提醒：App 里银行口座新设定与充值暂时停止的红字是官方通用通知，不影响用卡充值；底部 MY TS CUBIC 是给 TS CUBIC 信用卡/车贷客户用的，没合同进不去，钱包在第二个标签「ウォレット」；只实测了招行万事达借记卡，其他卡不保证。2026 年 11 月 9 日实测。
+  - 动作：按教程下载 TOYOTA Wallet，用能收短信的日本手机号注册，再用招行万事达借记卡试充一笔并留意预授权扣款
+
+### 身份
+- [法国税号申请材料与邮寄步骤，闲鱼有人卖三千](https://x.com/Hanbaoge_/status/2119718642254483848)
+  - 汉堡哥（@Hanbaoge_）说这条法国税号教程在闲鱼要卖三千，觉得太贵，就把步骤写出来了：在法国税务局官网填 Cerfa 2043 申请表；准备护照个人信息页、法国地址证明、法国 RIB（登录法区 N26 网页下载），再加上申请说明和联系方式；通过法国邮政线上寄送到法国非居民税务局（DINR）。配图是法区 N26：n26.com 中文落地页可以开户；App 里「费用明细 / 账户确认」页有「RIB - Relevé d'Identité Bancaire（银行身份相关信息）」下载按钮，页面写着账户确认仅供法国当局使用；另有一张打了「汉堡哥教程」水印的 N26 RIB 样本（账号已打码）。帖内没有给出税务局或法国邮政的具体申请链接。
+  - 动作：若要办法国税号，先自行核对称谓、表格和寄送入口，再按材料清单准备 Cerfa 2043、护照页、地址证明和法区 N26 的 RIB
+
+### 工具
+- [Windows + iPhone 安装 Swiplet「跳广告」教程](https://x.com/ReidThinking/status/2119346968153493581)
+  - Reid视角（@ReidThinking）发了一篇 X Article，写给 Windows + iPhone 用户的 Swipt / Swiplet「跳广告」安装教程。先在电脑安装 AltServer（[altstore.io](https://altstore.io/)）、iTunes（[苹果 Windows 版](https://www.apple.com/itunes/download/win64)）和 iCloud（[Apple 支持说明](https://support.apple.com/zh-cn/103232)）；用数据线连上 iPhone，在 iTunes 摘要页勾选「通过 Wi-Fi 与此 iPhone 同步」。打开右下角托盘里的 AltServer，选 Install AltStore 并登录 Apple ID。再到 iPhone「设置 → 通用 → VPN 与设备管理」信任该开发者描述文件；iOS 16 及以上还要打开「设置 → 隐私与安全性 → 开发者模式」。在 AltStore 的 Settings → Sources 添加 Swipt 官方源：[altstore.json](https://github.com/swipt-automation/swipt/releases/download/nightly/altstore.json)，装好 Swipt 后再在里面搜索安装官方「跳过广告」Swiplet 并按提示授权。原帖：[X Article](https://x.com/i/article/2119346088532647936)
+  - 动作：按教程在 Windows 上装好 AltServer / iTunes / iCloud，再用 AltStore 添加 Swipt 源并安装跳广告 Swiplet
+
+- [甲骨文 ARM 免费服务器申请经验与避坑](https://x.com/0xjackkk/status/2115652864945353186)
+  - 贝吉塔Again™（@0xjackkk）发了一篇 X Article，说自己把前几天和昨晚申请到的甲骨文「龟壳」（免费 ARM 服务器）都删了，但把申请经验写出来：关键是设备纯净、IP 纯净、本人银行卡三者对上，不保证一定成功。他用的是苹果手机、带机场的小火箭（推荐住宅 IP）、英国实体银行卡 Zopa（不要 U 卡或虚拟卡）。地区选英国后不要改，手机改成英语、时区/地区设为英国；用无痕窗口打开 oracle.com 确认最近节点是英国而不是 China，再手动粘贴打开 [signup.oraclecloud.com](https://signup.oraclecloud.com/)，全程英文。开票国家选银行卡账单国，姓名用拼音，邮箱最好是 Gmail。大坑：验证邮件不要直接点链接，长按复制后粘贴回同一个无痕窗口，否则容易被封；开完机那封邮件同样处理。地址、城市、邮编要和银行卡账单一致；绑卡是小额预授权，虚拟卡/预付卡/一次性卡通常不能验证。配好 SSH 后尽量少登控制台，并尽快用验证那张卡预付 100 美元升级（作者说会退回）。原帖：[X Article](https://x.com/i/article/2115639169062150144)
+  - 动作：若要试申甲骨文免费 ARM，先按作者说的把设备、IP 和本人银行卡对齐，验证邮件只在同一无痕窗口里粘贴打开
+
+### 看板
+- [x.omnitools.cc](https://x.omnitools.cc)（📰 每日简报、待办书签已同步）
+
+### X API
+- 本档调用：bookmarks 1 + usage 2（+me）
+- 余额：**$12.73** free（约 2027-10-06 20:22 台北时间到期），prepaid $0
+
+### 增长批
+- **0** 条（日本预付钱包/集卡、法国税号、甲骨文免费 VPS、侧载跳广告，未转增长大师）

@@ -1,113 +1,127 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "board_runs": [],
  "xnew_runs": [
-  "2026-11-08 上午 书签X",
-  "2026-11-08 晚上 书签X"
+  "2026-11-09 上午 书签X",
+  "2026-11-09 傍晚 书签X"
  ],
  "track_runs": [
-  "2026-11-08 上午 双轨",
-  "2026-11-08 晚上 双轨"
+  "2026-11-09 上午 双轨",
+  "2026-11-09 晚上 双轨"
  ],
- "our_x_failed": false,
+ "our_x_failed": true,
  "terms": [
   {
-   "name": "memory.md",
-   "key": "memorymd",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Clau",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥144"
-   ],
-   "variants": [],
-   "named": 0.7
-  },
-  {
-   "name": "openai...你家用户黏性何在",
-   "key": "openai你家用户黏性何在",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: 清华清华大学讲席教授张亚勤犀利提问腾讯首席AI科学家姚顺雨：DeepSeek、腾讯、Anthropic、OpenAI...你家用户黏性何在？ --- 姚顺雨： ",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥269"
-   ],
-   "variants": [],
-   "named": 0.5
-  },
-  {
-   "name": "cinecode",
-   "key": "cinecode",
+   "name": "misterdownloadmanager",
+   "key": "misterdownloadmanager",
    "sources": [
     "GitHub"
    ],
-   "desc": "sarpstar/cinecode: Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the ",
-   "url": "https://github.com/sarpstar/cinecode",
+   "desc": "anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windo",
+   "url": "https://github.com/anefzaoui/misterdownloadmanager",
    "signals": [
-    "GitHub 爆发 sarpstar/cinecode ★1320(均 257/天,一天 +796)"
+    "GitHub 爆发 anefzaoui/misterdownloadmanager ★2625(均 231/天,一天 +2165)"
    ],
    "variants": [],
-   "named": 0.9
+   "named": null
   },
   {
-   "name": "hookshot",
-   "key": "hookshot",
+   "name": "s2arm",
+   "key": "s2arm",
    "sources": [
     "GitHub"
    ],
-   "desc": "NotRexed/Hookshot: A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
-   "url": "https://github.com/NotRexed/Hookshot",
+   "desc": "jhaizhou-ops/S2Arm: Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one ",
+   "url": "https://github.com/jhaizhou-ops/S2Arm",
    "signals": [
-    "GitHub 爆发 NotRexed/Hookshot ★2379(均 779/天,一天 +1381)"
+    "GitHub 爆发 jhaizhou-ops/S2Arm ★1172(均 1003/天)"
    ],
    "variants": [],
-   "named": 0.9
+   "named": null
   },
   {
-   "name": "satmux",
-   "key": "satmux",
+   "name": "pinky",
+   "key": "pinky",
    "sources": [
     "GitHub"
    ],
-   "desc": "Th0rgal/satmux: Accelerate high-latency GEO inflight Wi-Fi via warm BBR TCP multiplexing + 1-RTT Ground-TLS + zlib (zero dependencies)",
-   "url": "https://github.com/Th0rgal/satmux",
+   "desc": "DIYgod/pinky: Let AI agents use your phone, with you in the loop.",
+   "url": "https://github.com/DIYgod/pinky",
    "signals": [
-    "GitHub 爆发 Th0rgal/satmux ★779(均 779/天)"
+    "GitHub 爆发 DIYgod/pinky ★1210(均 447/天,一天 +739)"
    ],
    "variants": [],
-   "named": 0.9
+   "named": null
   },
   {
-   "name": "nx2navi",
-   "key": "nx2navi",
+   "name": "gputaskman",
+   "key": "gputaskman",
    "sources": [
     "GitHub"
    ],
-   "desc": "tangerineturtle1/NX2navi: ",
-   "url": "https://github.com/tangerineturtle1/NX2navi",
+   "desc": "shanselman/gputaskman: A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows",
+   "url": "https://github.com/shanselman/gputaskman",
    "signals": [
-    "GitHub 爆发 tangerineturtle1/NX2navi ★745(均 647/天)"
+    "GitHub 爆发 shanselman/gputaskman ★1272(均 199/天,一天 +633)"
    ],
    "variants": [],
-   "named": 0.8
+   "named": null
   },
   {
-   "name": "grok",
-   "key": "grok",
+   "name": "jannikco",
+   "key": "jannikco",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 35 处 (×17.1)"
+    "③ 竞品 125 处 (×125.0)"
    ],
    "variants": [],
-   "named": 0.7
+   "named": null
+  },
+  {
+   "name": "jurisatlas",
+   "key": "jurisatlas",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 42 处 (×42.0)"
+   ],
+   "variants": [],
+   "named": null
+  },
+  {
+   "name": "jurisatlas legal",
+   "key": "jurisatlaslegal",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 42 处 (×42.0)"
+   ],
+   "variants": [],
+   "named": null
+  },
+  {
+   "name": "legal",
+   "key": "legal",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 43 处 (×21.6)"
+   ],
+   "variants": [],
+   "named": null
   },
   {
    "name": "cotlet connect",
@@ -118,701 +132,557 @@
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 10 处 (×9.6)"
+    "③ 竞品 20 处 (×18.1)"
    ],
    "variants": [],
-   "named": 0.7
+   "named": null
   },
   {
-   "name": "io.github.theluckystrike",
-   "key": "iogithubtheluckystrike",
+   "name": "com.a2awire benchmark",
+   "key": "coma2awirebenchmark",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 104 处 (×50.9)"
+    "③ 竞品 12 处 (×9.3)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": null
   },
   {
-   "name": "connectors io.github.theluckystrike",
-   "key": "connectorsiogithubtheluckystrike",
+   "name": "connect",
+   "key": "connect",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 104 处 (×50.9)"
+    "③ 竞品 21 处 (×9.0)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": null
   },
   {
-   "name": "io.github.itsryanarmani",
-   "key": "iogithubitsryanarmani",
+   "name": "com.a2awire",
+   "key": "coma2awire",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 41 处 (×41.0)"
+    "③ 竞品 13 处 (×7.9)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": null
   },
   {
-   "name": "connectors io.github.itsryanarmani",
-   "key": "connectorsiogithubitsryanarmani",
+   "name": "connectors com.a2awire",
+   "key": "connectorscoma2awire",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 41 处 (×41.0)"
+    "③ 竞品 13 处 (×7.9)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": null
   },
   {
-   "name": "itsryanarmani",
-   "key": "itsryanarmani",
+   "name": "connectors com.tidewellsoftware",
+   "key": "connectorscomtidewellsoftware",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 20 处 (×20.0)"
+    "③ 竞品 7 处 (×7.0)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": null
   },
   {
-   "name": "connectors io.usefulapi",
-   "key": "connectorsiousefulapi",
+   "name": "io.github.morvanvivien bibian",
+   "key": "iogithubmorvanvivienbibian",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 93 处 (×18.2)"
+    "③ 竞品 7 处 (×7.0)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": null
   },
   {
-   "name": "itsryanarmani benchmark",
-   "key": "itsryanarmanibenchmark",
+   "name": "connectors io.github.morvanvivien",
+   "key": "connectorsiogithubmorvanvivien",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 14 处 (×14.0)"
+    "③ 竞品 7 处 (×7.0)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": null
   },
   {
-   "name": "io.github.bumiatlas",
-   "key": "iogithubbumiatlas",
+   "name": "assignment",
+   "key": "assignment",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 12 处 (×10.2)"
+    "③ 竞品 7 处 (×6.6)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": null
   },
   {
-   "name": "connectors io.github.bumiatlas",
-   "key": "connectorsiogithubbumiatlas",
+   "name": "jannikco google",
+   "key": "jannikcogoogle",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 12 处 (×10.2)"
+    "③ 竞品 5 处 (×5.0)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": null
   },
   {
-   "name": "io.github.bumi",
-   "key": "iogithubbumi",
+   "name": "saledream",
+   "key": "saledream",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 12 处 (×10.2)"
+    "③ 竞品 5 处 (×5.0)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": null
   },
   {
-   "name": "io.github.miradero",
-   "key": "iogithubmiradero",
+   "name": "jobs",
+   "key": "jobs",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 10 处 (×10.0)"
+    "③ 竞品 11 处 (×4.5)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": null
   },
   {
-   "name": "connectors io.github.miradero",
-   "key": "connectorsiogithubmiradero",
+   "name": "garmin",
+   "key": "garmin",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 10 处 (×10.0)"
+    "③ 竞品 9 处 (×4.2)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": null
   },
   {
-   "name": "com.yazilimkocu",
-   "key": "comyazilimkocu",
+   "name": "io.github.bosco",
+   "key": "iogithubbosco",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 6 处 (×6.0)"
+    "③ 竞品 4 处 (×4.0)"
    ],
    "variants": [],
-   "named": 0.6
+   "named": null
   },
   {
-   "name": "atlas",
-   "key": "atlas",
+   "name": "io.github.bosco labs",
+   "key": "iogithubboscolabs",
    "sources": [
     "竞品站"
    ],
    "desc": "",
    "url": "",
    "signals": [
-    "③ 竞品 19 处 (×7.8)"
+    "③ 竞品 4 处 (×4.0)"
    ],
    "variants": [],
-   "named": 0.5
+   "named": null
   },
   {
-   "name": "openart ai art & image maker",
-   "key": "openartaiartimagemaker",
+   "name": "connectors io.github.bosco",
+   "key": "connectorsiogithubbosco",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "variants": [],
+   "named": null
+  },
+  {
+   "name": "arhancanli",
+   "key": "arhancanli",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 4 处 (×3.5)"
+   ],
+   "variants": [],
+   "named": null
+  },
+  {
+   "name": "mambalabsdev",
+   "key": "mambalabsdev",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 5 处 (×3.2)"
+   ],
+   "variants": [],
+   "named": null
+  },
+  {
+   "name": "workshop",
+   "key": "workshop",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 4 处 (×3.2)"
+   ],
+   "variants": [],
+   "named": null
+  },
+  {
+   "name": "connectors com.apify.mcp",
+   "key": "connectorscomapifymcp",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 4 处 (×3.1)"
+   ],
+   "variants": [],
+   "named": null
+  },
+  {
+   "name": "ats",
+   "key": "ats",
+   "sources": [
+    "竞品站"
+   ],
+   "desc": "",
+   "url": "",
+   "signals": [
+    "③ 竞品 4 处 (×3.1)"
+   ],
+   "variants": [],
+   "named": null
+  },
+  {
+   "name": "pawse.ai",
+   "key": "pawseai",
+   "sources": [
+    "新品榜单",
+    "AI工具轨"
+   ],
+   "desc": "Product Hunt: Pawse.ai",
+   "url": "https://www.producthunt.com/products/pawse-ai",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": null,
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "flic cue",
+   "key": "fliccue",
+   "sources": [
+    "新品榜单",
+    "AI工具轨"
+   ],
+   "desc": "Product Hunt: Flic Cue",
+   "url": "https://www.producthunt.com/products/flic-cue",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": null,
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "themelia: theme & widget",
+   "key": "themeliathemewidget",
    "sources": [
     "新品榜单"
    ],
-   "desc": "App Store: Openart AI Art & Image Maker",
-   "url": "https://apps.apple.com/us/app/openart-ai-art-image-maker/id6806166363?uo=2",
+   "desc": "App Store: Themelia: Theme & Widget",
+   "url": "https://apps.apple.com/us/app/themelia-theme-widget/id6467189759?uo=2",
    "signals": [
     "App Store 新上架"
    ],
    "variants": [],
-   "named": 0.9
+   "named": null
   },
   {
-   "name": "perfect al-me body tune editor",
-   "key": "perfectalmebodytuneeditor",
+   "name": "cozyai - ai home design",
+   "key": "cozyaiaihomedesign",
    "sources": [
     "新品榜单"
    ],
-   "desc": "App Store: Perfect Al-Me Body Tune Editor",
-   "url": "https://apps.apple.com/us/app/perfect-al-me-body-tune-editor/id6504012105?uo=2",
+   "desc": "App Store: CozyAI - AI Home Design",
+   "url": "https://apps.apple.com/us/app/cozyai-ai-home-design/id6744885843?uo=2",
    "signals": [
     "App Store 新上架"
    ],
    "variants": [],
-   "named": 0.9
+   "named": null
   },
   {
-   "name": "areamap: measure land & acres",
-   "key": "areamapmeasurelandacres",
+   "name": "nörth",
+   "key": "nörth",
    "sources": [
     "新品榜单"
    ],
-   "desc": "App Store: AreaMap: Measure Land & Acres",
-   "url": "https://apps.apple.com/us/app/areamap-measure-land-acres/id6816359797?uo=2",
+   "desc": "Product Hunt: Nörth",
+   "url": "https://www.producthunt.com/products/north-5",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": null
+  },
+  {
+   "name": "if you read this",
+   "key": "ifyoureadthis",
+   "sources": [
+    "新品榜单",
+    "AI工具轨"
+   ],
+   "desc": "Product Hunt: If You Read This",
+   "url": "https://www.producthunt.com/products/if-you-read-this",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": null,
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "protomap",
+   "key": "protomap",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: ProtoMap",
+   "url": "https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": null
+  },
+  {
+   "name": "dageno ai 2.0",
+   "key": "dagenoai20",
+   "sources": [
+    "新品榜单",
+    "AI工具轨"
+   ],
+   "desc": "Product Hunt: Dageno AI 2.0",
+   "url": "https://www.producthunt.com/products/agent-powered-geo-by-dageno",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": null,
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "arcjet ai security models",
+   "key": "arcjetaisecuritymodels",
+   "sources": [
+    "新品榜单",
+    "AI工具轨"
+   ],
+   "desc": "Product Hunt: Arcjet AI security models",
+   "url": "https://www.producthunt.com/products/arcjet",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": null,
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "watchflows",
+   "key": "watchflows",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Watchflows",
+   "url": "https://www.producthunt.com/products/watchflows",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": null
+  },
+  {
+   "name": "terse - durable actors",
+   "key": "tersedurableactors",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "Product Hunt: Terse - Durable Actors",
+   "url": "https://www.producthunt.com/products/terse-durable-actors",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": null
+  },
+  {
+   "name": "jotform app for shopify",
+   "key": "jotformappforshopify",
+   "sources": [
+    "新品榜单",
+    "AI工具轨"
+   ],
+   "desc": "Product Hunt: Jotform App for Shopify",
+   "url": "https://www.producthunt.com/products/jotform",
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "variants": [],
+   "named": null,
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "translateall: live translator",
+   "key": "translatealllivetranslator",
+   "sources": [
+    "新品榜单"
+   ],
+   "desc": "App Store: TranslateAll: Live Translator",
+   "url": "https://apps.apple.com/us/app/translateall-live-translator/id6768545062?uo=2",
    "signals": [
     "App Store 新上架"
    ],
    "variants": [],
-   "named": 0.9
+   "named": null
   },
   {
-   "name": "axl",
-   "key": "axl",
-   "sources": [
-    "新品榜单",
-    "AI工具轨"
-   ],
-   "desc": "Product Hunt: AXL",
-   "url": "https://www.producthunt.com/products/axl-2",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.8,
-   "first_seen": "2026-11-08 21:41",
-   "track": "ai_tools"
-  },
-  {
-   "name": "inkling 2 small",
-   "key": "inkling2small",
-   "sources": [
-    "新品榜单",
-    "AI工具轨"
-   ],
-   "desc": "Product Hunt: Inkling 2 Small",
-   "url": "https://www.producthunt.com/products/tinker-2",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.8,
-   "first_seen": "2026-11-08 21:41",
-   "track": "ai_tools"
-  },
-  {
-   "name": "textly",
-   "key": "textly",
+   "name": "smart printer app℠ for hp ·",
+   "key": "smartprinterappsmforhp",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Product Hunt: Textly",
-   "url": "https://www.producthunt.com/products/textly-capture-copy-paste",
+   "desc": "App Store: Smart Printer App℠ for HP ·",
+   "url": "https://apps.apple.com/us/app/smart-printer-app-for-hp/id6757393880?uo=2",
    "signals": [
-    "Product Hunt 新上架"
+    "App Store 新上架"
    ],
    "variants": [],
-   "named": 0.8
+   "named": null
   },
   {
-   "name": "docsalot for customer support",
-   "key": "docsalotforcustomersupport",
-   "sources": [
-    "新品榜单",
-    "AI工具轨"
-   ],
-   "desc": "Product Hunt: DocsAlot for customer support",
-   "url": "https://www.producthunt.com/products/docsalot-2",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.8,
-   "first_seen": "2026-11-08 21:41",
-   "track": "ai_tools"
-  },
-  {
-   "name": "sage2 by levanto labs",
-   "key": "sage2bylevantolabs",
-   "sources": [
-    "新品榜单",
-    "AI工具轨"
-   ],
-   "desc": "Product Hunt: Sage2 by Levanto Labs",
-   "url": "https://www.producthunt.com/products/sagecraft",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.8,
-   "first_seen": "2026-11-08 21:41",
-   "track": "ai_tools"
-  },
-  {
-   "name": "nomac",
-   "key": "nomac",
-   "sources": [
-    "新品榜单",
-    "AI工具轨"
-   ],
-   "desc": "Product Hunt: NoMac",
-   "url": "https://www.producthunt.com/products/nomac",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.8,
-   "first_seen": "2026-11-08 21:41",
-   "track": "ai_tools"
-  },
-  {
-   "name": "agent clan",
-   "key": "agentclan",
-   "sources": [
-    "新品榜单",
-    "AI工具轨"
-   ],
-   "desc": "Product Hunt: Agent Clan",
-   "url": "https://www.producthunt.com/products/agent-clan",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.8,
-   "first_seen": "2026-11-08 21:41",
-   "track": "ai_tools"
-  },
-  {
-   "name": "frameboy by world labs",
-   "key": "frameboybyworldlabs",
-   "sources": [
-    "新品榜单",
-    "AI工具轨"
-   ],
-   "desc": "Product Hunt: Frameboy by World Labs",
-   "url": "https://www.producthunt.com/products/marble-by-world-labs",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.8,
-   "first_seen": "2026-11-08 21:41",
-   "track": "ai_tools"
-  },
-  {
-   "name": "zigzag browser",
-   "key": "zigzagbrowser",
+   "name": "insta360",
+   "key": "insta360",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Product Hunt: Zigzag Browser",
-   "url": "https://www.producthunt.com/products/zigzag-3",
+   "desc": "App Store: Insta360",
+   "url": "https://apps.apple.com/us/app/insta360/id1491299654?uo=2",
    "signals": [
-    "Product Hunt 新上架"
+    "App Store 新上架"
    ],
    "variants": [],
-   "named": 0.8
+   "named": null
   },
   {
-   "name": "deduplication",
-   "key": "deduplication",
-   "sources": [
-    "新品榜单",
-    "AI工具轨"
-   ],
-   "desc": "Product Hunt: Deduplication",
-   "url": "https://www.producthunt.com/products/hacker-noon",
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "variants": [],
-   "named": 0.7,
-   "first_seen": "2026-11-08 21:41",
-   "track": "ai_tools"
-  },
-  {
-   "name": "coldframe, a honeypot that poses as a supermarket fridge controller",
-   "key": "coldframeahoneypotthatposesasasupermarketfridgecontroller",
+   "name": "qr code master: scan & maker",
+   "key": "qrcodemasterscanmaker",
    "sources": [
     "新品榜单"
    ],
-   "desc": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
-   "url": "https://github.com/hedgerow-dev/coldframe",
+   "desc": "App Store: QR Code Master: Scan & Maker",
+   "url": "https://apps.apple.com/us/app/qr-code-master-scan-maker/id6737916371?uo=2",
    "signals": [
-    "Show HN 新上架"
+    "App Store 新上架"
    ],
    "variants": [],
-   "named": 0.7
+   "named": null
   },
   {
-   "name": "ai科学家姚顺雨",
-   "key": "ai科学家姚顺雨",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: 清华清华大学讲席教授张亚勤犀利提问腾讯首席AI科学家姚顺雨：DeepSeek、腾讯、Anthropic、OpenAI...你家用户黏性何在？ --- 姚顺雨： ",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥269"
-   ],
-   "variants": [],
-   "named": 0.0
-  },
-  {
-   "name": "203kb",
-   "key": "203kb",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Clau",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥144"
-   ],
-   "variants": [],
-   "named": 0.0
-  },
-  {
-   "name": "115kb",
-   "key": "115kb",
-   "sources": [
-    "我们X"
-   ],
-   "desc": "@dotey: Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Clau",
-   "url": "",
-   "signals": [
-    "X 1 个账号 ♥144"
-   ],
-   "variants": [],
-   "named": 0.0
-  },
-  {
-   "name": "connectors com.yazilimkocu",
-   "key": "connectorscomyazilimkocu",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 6 处 (×6.0)"
-   ],
-   "variants": [],
-   "named": 0.4
-  },
-  {
-   "name": "io.github.bumiatlas thua",
-   "key": "iogithubbumiatlasthua",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 6 处 (×6.0)"
-   ],
-   "variants": [],
-   "named": 0.4
-  },
-  {
-   "name": "connectors io.github.justiceua",
-   "key": "connectorsiogithubjusticeua",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 5 处 (×4.8)"
-   ],
-   "variants": [],
-   "named": 0.4
-  },
-  {
-   "name": "io.github.justice",
-   "key": "iogithubjustice",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 5 处 (×4.8)"
-   ],
-   "variants": [],
-   "named": 0.4
-  },
-  {
-   "name": "thua",
-   "key": "thua",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 6 处 (×6.0)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "io.github.theluckystrike pdf",
-   "key": "iogithubtheluckystrikepdf",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 6 处 (×5.8)"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "thua dat",
-   "key": "thuadat",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 6 处 (×6.0)"
-   ],
-   "variants": [],
-   "named": 0.2
-  },
-  {
-   "name": "company check",
-   "key": "companycheck",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 5 处 (×4.7)"
-   ],
-   "variants": [],
-   "named": 0.1
-  },
-  {
-   "name": "diagram",
-   "key": "diagram",
-   "sources": [
-    "竞品站"
-   ],
-   "desc": "",
-   "url": "",
-   "signals": [
-    "③ 竞品 8 处 (×6.4)"
-   ],
-   "variants": [],
-   "named": 0.0
-  },
-  {
-   "name": "we compressed a 31b video+audio diffusion model to 14b, 6 steps, int8",
-   "key": "wecompresseda31bvideoaudiodiffusionmodelto14b6stepsint8",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
-   "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "agents infer lego mechanisms from sources, then animate them",
-   "key": "agentsinferlegomechanismsfromsourcesthenanimatethem",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
-   "url": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "where were we",
-   "key": "wherewerewe",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: Where Were We",
-   "url": "https://wherewerewe.app/",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "an offline desktop companion to help maintain a healthy blink rhythm",
-   "key": "anofflinedesktopcompaniontohelpmaintainahealthyblinkrhythm",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
-   "url": "https://eyesrhythm.com/",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "did prediction markets do any predicting this midterms?",
-   "key": "didpredictionmarketsdoanypredictingthismidterms",
-   "sources": [
-    "新品榜单"
-   ],
-   "desc": "Show HN: Did prediction markets do any predicting this midterms?",
-   "url": "https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms",
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "variants": [],
-   "named": 0.3
-  },
-  {
-   "name": "Beam",
-   "key": "beam",
+   "name": "Drex Max",
+   "key": "drexmax",
    "sources": [
     "书签X"
    ],
-   "desc": "【补报】Reflection AI 发布其首款模型 Beam 的技术报告，介绍团队如何在内部完成端到端训练。不是新模型。",
-   "url": "https://x.com/reflection_ai/status/2118751723565002758",
+   "desc": "【补报】Nace AI 开源的约 27B 多模态决策模型，输入上下文与最多 255 个选项后只返回各选项概率（不生成文本），可在 Apple Silicon 本地运行。",
+   "url": "https://x.com/NaceAI/status/2116163656480428220",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-10-30 21:41"
+  },
+  {
+   "name": "Voxtral 3 Transcribe 实时转写演示",
+   "key": "voxtral3transcribe实时转写演示",
+   "sources": [
+    "书签X"
+   ],
+   "desc": "Mistral 在 AI Engineer Paris 用 Voxtral 3 Transcribe 做主舞台实时转写，并展示 context biasing（喂入讲者名与技术词提准）；产品用例演示，不是新模型。",
+   "url": "https://x.com/MistralAI/status/2119651192737259701",
    "signals": [],
    "variants": [],
    "not_model": true,
-   "first_seen": "2026-11-07 01:05"
-  },
-  {
-   "name": "Momentum",
-   "key": "momentum",
-   "sources": [
-    "书签X"
-   ],
-   "desc": "Momentum 是一个跨模型 AI Agent 记忆层，支持 Claude、Codex、Grok 等 30 多个工具之间共享记忆，切换工具时无需重复说明。",
-   "url": "https://x.com/tacticoai/status/2119175149534712178",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 05:08"
-  },
-  {
-   "name": "Shizuku-Duplex",
-   "key": "shizukuduplex",
-   "sources": [
-    "书签X"
-   ],
-   "desc": "Shizuku AI 推出的面向 AI 角色与日语 VTuber 的全双工语音合成与对话模型，支持边听边说、约 80ms tick、后台异步工具调用及 Live2D 表情动作控制。",
-   "url": "https://x.com/ShizukuAILabs/status/2119266216040898635",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 11:10"
+   "first_seen": "2026-11-09 12:40"
   },
   {
    "name": "AION 2",
@@ -824,7 +694,7 @@
    "url": "https://store.steampowered.com/search/?term=AION%202",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
@@ -837,7 +707,7 @@
    "url": "https://store.steampowered.com/search/?term=Apex%20Legends",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
@@ -850,20 +720,7 @@
    "url": "https://store.steampowered.com/search/?term=Yu-Gi-Oh%21%20Master%20Duel",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "FINAL FANTASY RESONANCE",
-   "key": "finalfantasyresonance",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：FINAL FANTASY RESONANCE",
-   "url": "https://store.steampowered.com/search/?term=FINAL%20FANTASY%20RESONANCE",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
@@ -876,72 +733,7 @@
    "url": "https://store.steampowered.com/search/?term=FATAL%20FURY%3A%20City%20of%20the%20Wolves",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
-   "key": "probablystolencyberpunkshopkeepersim",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Probably Stolen - Cyberpunk Shopkeeper Sim",
-   "url": "https://store.steampowered.com/search/?term=Probably%20Stolen%20-%20Cyberpunk%20Shopkeeper%20Sim",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Call of Duty: Modern Warfare 4",
-   "key": "callofdutymodernwarfare4",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Call of Duty®: Modern Warfare® 4",
-   "url": "https://store.steampowered.com/search/?term=Call%20of%20Duty%3A%20Modern%20Warfare%204",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "ARK: Survival Ascended",
-   "key": "arksurvivalascended",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：ARK: Survival Ascended",
-   "url": "https://store.steampowered.com/search/?term=ARK%3A%20Survival%20Ascended",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Overwatch",
-   "key": "overwatch",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Overwatch®",
-   "url": "https://store.steampowered.com/search/?term=Overwatch",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Psycho-Sleuth",
-   "key": "psychosleuth",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Psycho-Sleuth",
-   "url": "https://store.steampowered.com/search/?term=Psycho-Sleuth",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
@@ -954,33 +746,72 @@
    "url": "https://store.steampowered.com/search/?term=Potato%20Please",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "Trails in the Sky 1st Chapter",
-   "key": "trailsinthesky1stchapter",
+   "name": "Probably Stolen - Cyberpunk Shopkeeper Sim",
+   "key": "probablystolencyberpunkshopkeepersim",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 畅销：Trails in the Sky 1st Chapter",
-   "url": "https://store.steampowered.com/search/?term=Trails%20in%20the%20Sky%201st%20Chapter",
+   "desc": "Steam 畅销：Probably Stolen - Cyberpunk Shopkeeper Sim",
+   "url": "https://store.steampowered.com/search/?term=Probably%20Stolen%20-%20Cyberpunk%20Shopkeeper%20Sim",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "Japanese Ramen Simulator",
-   "key": "japaneseramensimulator",
+   "name": "FINAL FANTASY RESONANCE",
+   "key": "finalfantasyresonance",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 畅销：Japanese Ramen Simulator",
-   "url": "https://store.steampowered.com/search/?term=Japanese%20Ramen%20Simulator",
+   "desc": "Steam 畅销：FINAL FANTASY RESONANCE",
+   "url": "https://store.steampowered.com/search/?term=FINAL%20FANTASY%20RESONANCE",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "ARK: Survival Ascended",
+   "key": "arksurvivalascended",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：ARK: Survival Ascended",
+   "url": "https://store.steampowered.com/search/?term=ARK%3A%20Survival%20Ascended",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Call of Duty: Modern Warfare 4",
+   "key": "callofdutymodernwarfare4",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Call of Duty®: Modern Warfare® 4",
+   "url": "https://store.steampowered.com/search/?term=Call%20of%20Duty%3A%20Modern%20Warfare%204",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Overwatch",
+   "key": "overwatch",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Overwatch®",
+   "url": "https://store.steampowered.com/search/?term=Overwatch",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
@@ -993,7 +824,46 @@
    "url": "https://store.steampowered.com/search/?term=Wuthering%20Waves",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "NTE: Neverness to Everness",
+   "key": "ntenevernesstoeverness",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：NTE: Neverness to Everness",
+   "url": "https://store.steampowered.com/search/?term=NTE%3A%20Neverness%20to%20Everness",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Japanese Ramen Simulator",
+   "key": "japaneseramensimulator",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Japanese Ramen Simulator",
+   "url": "https://store.steampowered.com/search/?term=Japanese%20Ramen%20Simulator",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Psycho-Sleuth",
+   "key": "psychosleuth",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Psycho-Sleuth",
+   "url": "https://store.steampowered.com/search/?term=Psycho-Sleuth",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
@@ -1006,124 +876,20 @@
    "url": "https://store.steampowered.com/search/?term=FINAL%20FANTASY%20XIV%20Online",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "Find The Needle",
-   "key": "findtheneedle",
+   "name": "Trails in the Sky 1st Chapter",
+   "key": "trailsinthesky1stchapter",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 畅销：Find The Needle",
-   "url": "https://store.steampowered.com/search/?term=Find%20The%20Needle",
+   "desc": "Steam 畅销：Trails in the Sky 1st Chapter",
+   "url": "https://store.steampowered.com/search/?term=Trails%20in%20the%20Sky%201st%20Chapter",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "ACE COMBAT 8: WINGS OF THEVE",
-   "key": "acecombat8wingsoftheve",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：ACE COMBAT 8: WINGS OF THEVE",
-   "url": "https://store.steampowered.com/search/?term=ACE%20COMBAT%208%3A%20WINGS%20OF%20THEVE",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Phantom Blade Zero",
-   "key": "phantombladezero",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Phantom Blade Zero",
-   "url": "https://store.steampowered.com/search/?term=Phantom%20Blade%20Zero",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "ZED ZONE",
-   "key": "zedzone",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：ZED ZONE",
-   "url": "https://store.steampowered.com/search/?term=ZED%20ZONE",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "FINAL FANTASY XIV: Evercold",
-   "key": "finalfantasyxivevercold",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：FINAL FANTASY XIV: Evercold",
-   "url": "https://store.steampowered.com/search/?term=FINAL%20FANTASY%20XIV%3A%20Evercold",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Starward",
-   "key": "starward",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Starward",
-   "url": "https://store.steampowered.com/search/?term=Starward",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Shadowverse: Worlds Beyond",
-   "key": "shadowverseworldsbeyond",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Shadowverse: Worlds Beyond",
-   "url": "https://store.steampowered.com/search/?term=Shadowverse%3A%20Worlds%20Beyond",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Path of Exile 2",
-   "key": "pathofexile2",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Path of Exile 2",
-   "url": "https://store.steampowered.com/search/?term=Path%20of%20Exile%202",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Dead by Daylight",
-   "key": "deadbydaylight",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Dead by Daylight",
-   "url": "https://store.steampowered.com/search/?term=Dead%20by%20Daylight",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
@@ -1136,202 +902,33 @@
    "url": "https://store.steampowered.com/search/?term=Zenless%20Zone%20Zero",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "EA SPORTS FC 27",
-   "key": "easportsfc27",
+   "name": "Starward",
+   "key": "starward",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 新热：EA SPORTS FC™ 27",
-   "url": "https://store.steampowered.com/search/?term=EA%20SPORTS%20FC%2027",
+   "desc": "Steam 畅销：Starward",
+   "url": "https://store.steampowered.com/search/?term=Starward",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "PUBG: BATTLEGROUNDS",
-   "key": "pubgbattlegrounds",
+   "name": "ACE COMBAT 8: WINGS OF THEVE",
+   "key": "acecombat8wingsoftheve",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 新热：PUBG: BATTLEGROUNDS",
-   "url": "https://store.steampowered.com/search/?term=PUBG%3A%20BATTLEGROUNDS",
+   "desc": "Steam 畅销：ACE COMBAT 8: WINGS OF THEVE",
+   "url": "https://store.steampowered.com/search/?term=ACE%20COMBAT%208%3A%20WINGS%20OF%20THEVE",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Counter-Strike 2",
-   "key": "counterstrike2",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Counter-Strike 2",
-   "url": "https://store.steampowered.com/search/?term=Counter-Strike%202",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Rust",
-   "key": "rust",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Rust",
-   "url": "https://store.steampowered.com/search/?term=Rust",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Aniimo",
-   "key": "aniimo",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Aniimo",
-   "url": "https://store.steampowered.com/search/?term=Aniimo",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Once Human",
-   "key": "oncehuman",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Once Human",
-   "url": "https://store.steampowered.com/search/?term=Once%20Human",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Moon Sweepers",
-   "key": "moonsweepers",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Moon Sweepers",
-   "url": "https://store.steampowered.com/search/?term=Moon%20Sweepers",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Warframe",
-   "key": "warframe",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Warframe",
-   "url": "https://store.steampowered.com/search/?term=Warframe",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Escape from Tarkov",
-   "key": "escapefromtarkov",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Escape from Tarkov",
-   "url": "https://store.steampowered.com/search/?term=Escape%20from%20Tarkov",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "ELDEN RING",
-   "key": "eldenring",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：ELDEN RING",
-   "url": "https://store.steampowered.com/search/?term=ELDEN%20RING",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Limbus Company",
-   "key": "limbuscompany",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Limbus Company",
-   "url": "https://store.steampowered.com/search/?term=Limbus%20Company",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Steam Frame",
-   "key": "steamframe",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：Steam Frame",
-   "url": "https://store.steampowered.com/search/?term=Steam%20Frame",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Dota 2",
-   "key": "dota2",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：Dota 2",
-   "url": "https://store.steampowered.com/search/?term=Dota%202",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Call of Duty: Warzone",
-   "key": "callofdutywarzone",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：Call of Duty®: Warzone™",
-   "url": "https://store.steampowered.com/search/?term=Call%20of%20Duty%3A%20Warzone",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Call of Duty",
-   "key": "callofduty",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：Call of Duty®",
-   "url": "https://store.steampowered.com/search/?term=Call%20of%20Duty",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
@@ -1340,1727 +937,37 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 全球畅销：Football Manager 27",
+   "desc": "Steam 畅销：Football Manager 27",
    "url": "https://store.steampowered.com/search/?term=Football%20Manager%2027",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "Bodycam",
-   "key": "bodycam",
+   "name": "ZED ZONE",
+   "key": "zedzone",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 全球畅销：Bodycam",
-   "url": "https://store.steampowered.com/search/?term=Bodycam",
+   "desc": "Steam 畅销：ZED ZONE",
+   "url": "https://store.steampowered.com/search/?term=ZED%20ZONE",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "Steam Deck",
-   "key": "steamdeck",
+   "name": "Dead by Daylight",
+   "key": "deadbydaylight",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 全球畅销：Steam Deck",
-   "url": "https://store.steampowered.com/search/?term=Steam%20Deck",
+   "desc": "Steam 畅销：Dead by Daylight",
+   "url": "https://store.steampowered.com/search/?term=Dead%20by%20Daylight",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Cyberpunk 2077",
-   "key": "cyberpunk2077",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：Cyberpunk 2077",
-   "url": "https://store.steampowered.com/search/?term=Cyberpunk%202077",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Delta Force",
-   "key": "deltaforce",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：Delta Force",
-   "url": "https://store.steampowered.com/search/?term=Delta%20Force",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Steam Controller",
-   "key": "steamcontroller",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：Steam Controller",
-   "url": "https://store.steampowered.com/search/?term=Steam%20Controller",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Crimson Desert Enhanced",
-   "key": "crimsondesertenhanced",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：Crimson Desert Enhanced",
-   "url": "https://store.steampowered.com/search/?term=Crimson%20Desert%20Enhanced",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "WARDOGS",
-   "key": "wardogs",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：WARDOGS",
-   "url": "https://store.steampowered.com/search/?term=WARDOGS",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Blox Fruits",
-   "key": "bloxfruits",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 329206 playing",
-   "url": "https://www.roblox.com/games/2753915549",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Throw Food For Animals",
-   "key": "throwfoodforanimals",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 308183 playing",
-   "url": "https://www.roblox.com/games/120219252362013",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "obby but you get smaller every stage",
-   "key": "obbybutyougetsmallereverystage",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 22016 playing",
-   "url": "https://www.roblox.com/games/133466274094328",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Anime Adventures",
-   "key": "animeadventures",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 104407 playing",
-   "url": "https://www.roblox.com/games/8304191830",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Ragdoll Playground",
-   "key": "ragdollplayground",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 26419 playing",
-   "url": "https://www.roblox.com/games/106521346673466",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Survive Your Ideas",
-   "key": "surviveyourideas",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 55696 playing",
-   "url": "https://www.roblox.com/games/77900175935766",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "A Bizarre Run",
-   "key": "abizarrerun",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 26426 playing",
-   "url": "https://www.roblox.com/games/108055619068945",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Cameraman Tower Defense",
-   "key": "cameramantowerdefense",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 60352 playing",
-   "url": "https://www.roblox.com/games/132929771812494",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Attack on Titan Revolution",
-   "key": "attackontitanrevolution",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 58103 playing",
-   "url": "https://www.roblox.com/games/13379208636",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Criminal Simulator",
-   "key": "criminalsimulator",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 26892 playing",
-   "url": "https://www.roblox.com/games/83048653078891",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "+1 Spider Arm",
-   "key": "1spiderarm",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 28949 playing",
-   "url": "https://www.roblox.com/games/117734411290994",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Say Cheese!",
-   "key": "saycheese",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 16463 playing",
-   "url": "https://www.roblox.com/games/100453542816833",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Ragdoll Physics",
-   "key": "ragdollphysics",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 61339 playing",
-   "url": "https://www.roblox.com/games/121868512253414",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "+1 Venom Evolution",
-   "key": "1venomevolution",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 39240 playing",
-   "url": "https://www.roblox.com/games/116448925875915",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "King Legacy",
-   "key": "kinglegacy",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 52374 playing",
-   "url": "https://www.roblox.com/games/4520749081",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Tesla Roadster Chase",
-   "key": "teslaroadsterchase",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 14975 playing",
-   "url": "https://www.roblox.com/games/122379697375766",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Toilet Tower Defense",
-   "key": "toilettowerdefense",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 13878 playing",
-   "url": "https://www.roblox.com/games/13775256536",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Bug Evolution",
-   "key": "bugevolution",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 25623 playing",
-   "url": "https://www.roblox.com/games/70650894743738",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Steal a Superpower!",
-   "key": "stealasuperpower",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 16579 playing",
-   "url": "https://www.roblox.com/games/74183246285569",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Ragdoll Research",
-   "key": "ragdollresearch",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 35039 playing",
-   "url": "https://www.roblox.com/games/135264274035761",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "LINE UP! Metro Tycoon",
-   "key": "lineupmetrotycoon",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 10328 playing",
-   "url": "https://www.roblox.com/games/76792629643884",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Sell a Million Sushi",
-   "key": "sellamillionsushi",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 11507 playing",
-   "url": "https://www.roblox.com/games/125866884667103",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "1M Clicks To Escape",
-   "key": "1mclickstoescape",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 7848 playing",
-   "url": "https://www.roblox.com/games/138666683767450",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Cold War",
-   "key": "coldwar",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 6112 playing",
-   "url": "https://www.roblox.com/games/13687899540",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "13 Days to Escape",
-   "key": "13daystoescape",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 18083 playing",
-   "url": "https://www.roblox.com/games/134117451433332",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "South Hell",
-   "key": "southhell",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 19785 playing",
-   "url": "https://www.roblox.com/games/119901987045648",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Unstable SMP FFA",
-   "key": "unstablesmpffa",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 12948 playing",
-   "url": "https://www.roblox.com/games/76870565041704",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "DONT SPLASH",
-   "key": "dontsplash",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 115234 playing",
-   "url": "https://www.roblox.com/games/119958473240233",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Net a Fish!",
-   "key": "netafish",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 16964 playing",
-   "url": "https://www.roblox.com/games/93898234979111",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Ragdoll Wars!",
-   "key": "ragdollwars",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 13930 playing",
-   "url": "https://www.roblox.com/games/123701727018513",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Revolver Arena",
-   "key": "revolverarena",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 1190 playing",
-   "url": "https://www.roblox.com/games/108419873026523",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Scare Your Neighbor",
-   "key": "scareyourneighbor",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 15019 playing",
-   "url": "https://www.roblox.com/games/124710677460732",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Become the Potato!",
-   "key": "becomethepotato",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 4934 playing",
-   "url": "https://www.roblox.com/games/116722973795182",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Clean the Moon!",
-   "key": "cleanthemoon",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 13616 playing",
-   "url": "https://www.roblox.com/games/76678170614451",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "30 Floors Up",
-   "key": "30floorsup",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 12374 playing",
-   "url": "https://www.roblox.com/games/124063493943486",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Night Rider",
-   "key": "nightrider",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 17741 playing",
-   "url": "https://www.roblox.com/games/71335623205843",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "FERAL Animal Survival",
-   "key": "feralanimalsurvival",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 13288 playing",
-   "url": "https://www.roblox.com/games/108901361810209",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Last Bridge Standing",
-   "key": "lastbridgestanding",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 5844 playing",
-   "url": "https://www.roblox.com/games/88943954655371",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Steal An Egg",
-   "key": "stealanegg",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 1080610 playing",
-   "url": "https://www.roblox.com/games/107778070777162",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Brookhaven RP",
-   "key": "brookhavenrp",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 509525 playing",
-   "url": "https://www.roblox.com/games/4924922222",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Murder Mystery 2",
-   "key": "murdermystery2",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 308191 playing",
-   "url": "https://www.roblox.com/games/142823291",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "99 Nights in the Forest",
-   "key": "99nightsintheforest",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 223807 playing",
-   "url": "https://www.roblox.com/games/79546208627805",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Forsaken",
-   "key": "forsaken",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 204683 playing",
-   "url": "https://www.roblox.com/games/18687417158",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "RIVALS",
-   "key": "rivals",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 204253 playing",
-   "url": "https://www.roblox.com/games/17625359962",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Adopt Me!",
-   "key": "adoptme",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 179113 playing",
-   "url": "https://www.roblox.com/games/920587237",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Dandys World",
-   "key": "dandysworld",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 143438 playing",
-   "url": "https://www.roblox.com/games/16116270224",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Break and Steal an Egg",
-   "key": "breakandstealanegg",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 128976 playing",
-   "url": "https://www.roblox.com/games/114326934417838",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Jujutsu Shenanigans",
-   "key": "jujutsushenanigans",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 127423 playing",
-   "url": "https://www.roblox.com/games/9391468976",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Fisch",
-   "key": "fisch",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 107478 playing",
-   "url": "https://www.roblox.com/games/16732694052",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Fish It!",
-   "key": "fishit",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 106283 playing",
-   "url": "https://www.roblox.com/games/121864768012064",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Practical Basketball",
-   "key": "practicalbasketball",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 97640 playing",
-   "url": "https://www.roblox.com/games/80681221431821",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Catalog Avatar Creator",
-   "key": "catalogavatarcreator",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 87543 playing",
-   "url": "https://www.roblox.com/games/7041939546",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "The Strongest Battlegrounds",
-   "key": "thestrongestbattlegrounds",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 83571 playing",
-   "url": "https://www.roblox.com/games/10449761463",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Murderers VS Sheriffs",
-   "key": "murderersvssheriffs",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 79441 playing",
-   "url": "https://www.roblox.com/games/135856908115931",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Steal a Brainrot",
-   "key": "stealabrainrot",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 77487 playing",
-   "url": "https://www.roblox.com/games/109983668079237",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Volleyball Legends",
-   "key": "volleyballlegends",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 75690 playing",
-   "url": "https://www.roblox.com/games/73956553001240",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Dress To Impress",
-   "key": "dresstoimpress",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 69538 playing",
-   "url": "https://www.roblox.com/games/15101393044",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "MALAM SAMA OPAH",
-   "key": "malamsamaopah",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 67107 playing",
-   "url": "https://www.roblox.com/games/91246277860636",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "subway surfers",
-   "key": "subwaysurfers",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/subway-surfers",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "minefun io",
-   "key": "minefunio",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/minefun-io",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "master chess",
-   "key": "masterchess",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/master-chess",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "aquaparkio",
-   "key": "aquaparkio",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/aquaparkio",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "cryzen io",
-   "key": "cryzenio",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/cryzen-io",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "tag",
-   "key": "tag",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/tag",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "drift boss",
-   "key": "driftboss",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/drift-boss",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "retro bowl",
-   "key": "retrobowl",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/retro-bowl",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "stickman hook",
-   "key": "stickmanhook",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/stickman-hook",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "monkey mart",
-   "key": "monkeymart",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/monkey-mart",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "blocky blast puzzle",
-   "key": "blockyblastpuzzle",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/blocky-blast-puzzle",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "level devil",
-   "key": "leveldevil",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/level-devil",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "find the needle in haystack",
-   "key": "findtheneedleinhaystack",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/find-the-needle-in-haystack",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "crazy motorcycle pro",
-   "key": "crazymotorcyclepro",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/crazy-motorcycle-pro",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "tic tac toe ultimate",
-   "key": "tictactoeultimate",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/tic-tac-toe-ultimate",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "tnt sandbox",
-   "key": "tntsandbox",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/tnt-sandbox",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "snake vs human",
-   "key": "snakevshuman",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/snake-vs-human",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "drive mad",
-   "key": "drivemad",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/drive-mad",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "robo cleaner simulator",
-   "key": "robocleanersimulator",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/robo-cleaner-simulator",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "anthill wars",
-   "key": "anthillwars",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/anthill-wars",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "beauty salon",
-   "key": "beautysalon",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/beauty-salon",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "slice master",
-   "key": "slicemaster",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/slice-master",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "longcat",
-   "key": "longcat",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/longcat",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "goods master",
-   "key": "goodsmaster",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/goods-master",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "count control legends",
-   "key": "countcontrollegends",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/count-control-legends",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "blumgi bounce",
-   "key": "blumgibounce",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/blumgi-bounce",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "blumgi merge",
-   "key": "blumgimerge",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/blumgi-merge",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "stickman climb 3d",
-   "key": "stickmanclimb3d",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/stickman-climb-3d",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "neon challenge legends",
-   "key": "neonchallengelegends",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/neon-challenge-legends",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "brain test 5",
-   "key": "braintest5",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/brain-test-5",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "game"
-  },
-  {
-   "name": "Monster Ranch",
-   "key": "monsterranch",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "开发者自称新上线的 Roblox 游戏，具体玩法类型待核实。",
-   "url": "https://x.com/Jisan31015410/status/2119157500037464111",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 03:58",
-   "track": "game"
-  },
-  {
-   "name": "THE VAULT HEIST: KEEP OUT!",
-   "key": "thevaultheistkeepout",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox 平台开发中的建造陷阱迷宫、互偷金币游戏（尚未发售，计划平台 Roblox）。",
-   "url": "https://x.com/TheVaultHeist/status/2119063315381113003",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-07 21:43",
-   "track": "game"
-  },
-  {
-   "name": "Captive 3000",
-   "key": "captive3000",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "已登录 Steam 的游戏（类型待核实），开发者称用 AI 辅助写了约 10 万行 JavaScript，并提供免费试玩。",
-   "url": "https://x.com/Vibe1Up/status/2119164646502650125",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 04:26",
-   "track": "game"
-  },
-  {
-   "name": "GPT‑6 Cyber",
-   "key": "gpt6cyber",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "GPT‑6 Cyber",
-   "url": "https://www.producthunt.com/products/openai",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Tobira Site Agent",
-   "key": "tobirasiteagent",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Tobira Site Agent",
-   "url": "https://www.producthunt.com/products/tobira-ai",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Any Video to Text",
-   "key": "anyvideototext",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Any Video to Text",
-   "url": "https://www.producthunt.com/products/any-video-to-text",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Capnot",
-   "key": "capnot",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Capnot",
-   "url": "https://www.producthunt.com/products/capnot",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "chalk",
-   "key": "chalk",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "chalk",
-   "url": "https://www.producthunt.com/products/chalk-546d9cf8-cdc3-4b80-9b88-f441167c8f6e",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "ChatGPT Images 2.6",
-   "key": "chatgptimages26",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "ChatGPT Images 2.6",
-   "url": "https://www.producthunt.com/products/openai",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "ClarifierAI for Chrome",
-   "key": "clarifieraiforchrome",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "ClarifierAI for Chrome",
-   "url": "https://www.producthunt.com/products/clarifierai-rewrite-text-2",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Datastripes Data Stories",
-   "key": "datastripesdatastories",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Datastripes Data Stories",
-   "url": "https://www.producthunt.com/products/datastripes",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Deal Pilot",
-   "key": "dealpilot",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Deal Pilot",
-   "url": "https://www.producthunt.com/products/deal-pilot",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Dino Kids",
-   "key": "dinokids",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Dino Kids",
-   "url": "https://www.producthunt.com/products/dino-kids",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Duly",
-   "key": "duly",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Duly",
-   "url": "https://www.producthunt.com/products/duly-life-organizer",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "EdgeBar",
-   "key": "edgebar",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "EdgeBar",
-   "url": "https://www.producthunt.com/products/edgebar",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Exa Monitors v2",
-   "key": "examonitorsv2",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Exa Monitors v2",
-   "url": "https://www.producthunt.com/products/exa-ai",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Fleeep",
-   "key": "fleeep",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Fleeep",
-   "url": "https://www.producthunt.com/products/fleeep",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Google Omni 1.2 Flash",
-   "key": "googleomni12flash",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Google Omni 1.2 Flash",
-   "url": "https://www.producthunt.com/products/google-omni-1-2-flash",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Instagram Edits for Desktop",
-   "key": "instagrameditsfordesktop",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Instagram Edits for Desktop",
-   "url": "https://www.producthunt.com/products/instagram",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "kayet",
-   "key": "kayet",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "kayet",
-   "url": "https://www.producthunt.com/products/kayet",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Koltrix",
-   "key": "koltrix",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Koltrix",
-   "url": "https://www.producthunt.com/products/koltrix",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "LiveReview",
-   "key": "livereview",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "LiveReview",
-   "url": "https://www.producthunt.com/products/livereview",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "LiveShortly",
-   "key": "liveshortly",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "LiveShortly",
-   "url": "https://www.producthunt.com/products/liveshortly",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "MacDupl",
-   "key": "macdupl",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "MacDupl",
-   "url": "https://www.producthunt.com/products/macdupl-run-every-acc-in-its-own-app",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Mechvibes 3",
-   "key": "mechvibes3",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Mechvibes 3",
-   "url": "https://www.producthunt.com/products/mechvibes",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Meshia",
-   "key": "meshia",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Meshia",
-   "url": "https://www.producthunt.com/products/meshia",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Muse Realtime Avatar",
-   "key": "muserealtimeavatar",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Muse Realtime Avatar",
-   "url": "https://www.producthunt.com/products/meta-ai",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "OrgSync",
-   "key": "orgsync",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "OrgSync",
-   "url": "https://www.producthunt.com/products/orgsync-2",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "PacerTrip",
-   "key": "pacertrip",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "PacerTrip",
-   "url": "https://www.producthunt.com/products/pacertrip",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Plainmail",
-   "key": "plainmail",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Plainmail",
-   "url": "https://www.producthunt.com/products/plainmail",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Quest",
-   "key": "quest",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Quest",
-   "url": "https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Rankfender v3.0",
-   "key": "rankfenderv30",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Rankfender v3.0",
-   "url": "https://www.producthunt.com/products/rankfender",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Rex",
-   "key": "rex",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Rex (Beta)",
-   "url": "https://www.producthunt.com/products/superlogical",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 10:24",
-   "track": "ai_tools"
-  },
-  {
-   "name": "FilmLume",
-   "key": "filmlume",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "AI 视频生成工具，可用提示词生成最长约 10 分钟、角色面部保持一致的影片；作者称当日上线 Product Hunt。",
-   "url": "https://x.com/filmlumes/status/2119159223435022804",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 04:05",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Turnstone",
-   "key": "turnstone",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "YC W26 的模型无关（model-agnostic）AI Agent 产品，帖文称其曾获 Product Hunt Product of the Day。",
-   "url": "https://x.com/bodimog/status/2119191175147958510",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 06:12",
-   "track": "ai_tools"
-  },
-  {
-   "name": "ERA AI",
-   "key": "eraai",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "面向 Windows PC 的语音 AI 智能体，出现在 Koncept AI Directory 新上架介绍中。",
-   "url": "https://x.com/konceptai_site/status/2119078287133888804",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-07 22:43",
-   "track": "ai_tools"
-  },
-  {
-   "name": "NTE: Neverness to Everness",
-   "key": "ntenevernesstoeverness",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：NTE: Neverness to Everness",
-   "url": "https://store.steampowered.com/search/?term=NTE%3A%20Neverness%20to%20Everness",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
@@ -3073,33 +980,540 @@
    "url": "https://store.steampowered.com/search/?term=Street%20Fighter%206",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "MOUSE",
-   "key": "mouse",
+   "name": "Find The Needle",
+   "key": "findtheneedle",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Trending · 18204 playing",
-   "url": "https://www.roblox.com/games/81688312343760",
+   "desc": "Steam 畅销：Find The Needle",
+   "url": "https://store.steampowered.com/search/?term=Find%20The%20Needle",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "Impact Lab: Extreme Physics!",
-   "key": "impactlabextremephysics",
+   "name": "FINAL FANTASY XIV: Evercold",
+   "key": "finalfantasyxivevercold",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 5455 playing",
-   "url": "https://www.roblox.com/games/109607724765529",
+   "desc": "Steam 畅销：FINAL FANTASY XIV: Evercold",
+   "url": "https://store.steampowered.com/search/?term=FINAL%20FANTASY%20XIV%3A%20Evercold",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Phantom Blade Zero",
+   "key": "phantombladezero",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Phantom Blade Zero",
+   "url": "https://store.steampowered.com/search/?term=Phantom%20Blade%20Zero",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Counter-Strike 2",
+   "key": "counterstrike2",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Counter-Strike 2",
+   "url": "https://store.steampowered.com/search/?term=Counter-Strike%202",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "PUBG: BATTLEGROUNDS",
+   "key": "pubgbattlegrounds",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：PUBG: BATTLEGROUNDS",
+   "url": "https://store.steampowered.com/search/?term=PUBG%3A%20BATTLEGROUNDS",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "EA SPORTS FC 27",
+   "key": "easportsfc27",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：EA SPORTS FC™ 27",
+   "url": "https://store.steampowered.com/search/?term=EA%20SPORTS%20FC%2027",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Aniimo",
+   "key": "aniimo",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Aniimo",
+   "url": "https://store.steampowered.com/search/?term=Aniimo",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Warframe",
+   "key": "warframe",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Warframe",
+   "url": "https://store.steampowered.com/search/?term=Warframe",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Rust",
+   "key": "rust",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Rust",
+   "url": "https://store.steampowered.com/search/?term=Rust",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Moon Sweepers",
+   "key": "moonsweepers",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Moon Sweepers",
+   "url": "https://store.steampowered.com/search/?term=Moon%20Sweepers",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Escape from Tarkov",
+   "key": "escapefromtarkov",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Escape from Tarkov",
+   "url": "https://store.steampowered.com/search/?term=Escape%20from%20Tarkov",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Limbus Company",
+   "key": "limbuscompany",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Limbus Company",
+   "url": "https://store.steampowered.com/search/?term=Limbus%20Company",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Path of Exile 2",
+   "key": "pathofexile2",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Path of Exile 2",
+   "url": "https://store.steampowered.com/search/?term=Path%20of%20Exile%202",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Steam Frame",
+   "key": "steamframe",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Steam Frame",
+   "url": "https://store.steampowered.com/search/?term=Steam%20Frame",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Dota 2",
+   "key": "dota2",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Dota 2",
+   "url": "https://store.steampowered.com/search/?term=Dota%202",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Call of Duty: Warzone",
+   "key": "callofdutywarzone",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Call of Duty®: Warzone™",
+   "url": "https://store.steampowered.com/search/?term=Call%20of%20Duty%3A%20Warzone",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Bodycam",
+   "key": "bodycam",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Bodycam",
+   "url": "https://store.steampowered.com/search/?term=Bodycam",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Steam Deck",
+   "key": "steamdeck",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Steam Deck",
+   "url": "https://store.steampowered.com/search/?term=Steam%20Deck",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Call of Duty",
+   "key": "callofduty",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Call of Duty®",
+   "url": "https://store.steampowered.com/search/?term=Call%20of%20Duty",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "ROB RUN",
+   "key": "robrun",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：ROB RUN",
+   "url": "https://store.steampowered.com/search/?term=ROB%20RUN",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Steam Controller",
+   "key": "steamcontroller",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Steam Controller",
+   "url": "https://store.steampowered.com/search/?term=Steam%20Controller",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Cyberpunk 2077",
+   "key": "cyberpunk2077",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Cyberpunk 2077",
+   "url": "https://store.steampowered.com/search/?term=Cyberpunk%202077",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "PAYDAY 3",
+   "key": "payday3",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：PAYDAY 3",
+   "url": "https://store.steampowered.com/search/?term=PAYDAY%203",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Crimson Desert Enhanced",
+   "key": "crimsondesertenhanced",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Crimson Desert Enhanced",
+   "url": "https://store.steampowered.com/search/?term=Crimson%20Desert%20Enhanced",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "WARDOGS",
+   "key": "wardogs",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：WARDOGS",
+   "url": "https://store.steampowered.com/search/?term=WARDOGS",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Blox Fruits",
+   "key": "bloxfruits",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 206266 playing",
+   "url": "https://www.roblox.com/games/2753915549",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Throw Food For Animals",
+   "key": "throwfoodforanimals",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 138752 playing",
+   "url": "https://www.roblox.com/games/120219252362013",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "obby but you get smaller every stage",
+   "key": "obbybutyougetsmallereverystage",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 13137 playing",
+   "url": "https://www.roblox.com/games/133466274094328",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Anime Adventures",
+   "key": "animeadventures",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 85204 playing",
+   "url": "https://www.roblox.com/games/8304191830",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "A Bizarre Run",
+   "key": "abizarrerun",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 16589 playing",
+   "url": "https://www.roblox.com/games/108055619068945",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Cameraman Tower Defense",
+   "key": "cameramantowerdefense",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 24975 playing",
+   "url": "https://www.roblox.com/games/132929771812494",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Ragdoll Playground",
+   "key": "ragdollplayground",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 15245 playing",
+   "url": "https://www.roblox.com/games/106521346673466",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Survive Your Ideas",
+   "key": "surviveyourideas",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 48297 playing",
+   "url": "https://www.roblox.com/games/77900175935766",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Ragdoll Physics",
+   "key": "ragdollphysics",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 35670 playing",
+   "url": "https://www.roblox.com/games/121868512253414",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Criminal Simulator",
+   "key": "criminalsimulator",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 23912 playing",
+   "url": "https://www.roblox.com/games/83048653078891",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Attack on Titan Revolution",
+   "key": "attackontitanrevolution",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 49860 playing",
+   "url": "https://www.roblox.com/games/13379208636",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "King Legacy",
+   "key": "kinglegacy",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 31193 playing",
+   "url": "https://www.roblox.com/games/4520749081",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Ragdoll Research",
+   "key": "ragdollresearch",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 20128 playing",
+   "url": "https://www.roblox.com/games/135264274035761",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "+1 Spider Arm",
+   "key": "1spiderarm",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 14976 playing",
+   "url": "https://www.roblox.com/games/117734411290994",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Bug Evolution",
+   "key": "bugevolution",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 16932 playing",
+   "url": "https://www.roblox.com/games/70650894743738",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Tesla Roadster Chase",
+   "key": "teslaroadsterchase",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 9489 playing",
+   "url": "https://www.roblox.com/games/122379697375766",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
@@ -3108,11 +1522,154 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 40903 playing",
+   "desc": "Roblox Top Trending · 22615 playing",
    "url": "https://www.roblox.com/games/109576450376407",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "+1 Venom Evolution",
+   "key": "1venomevolution",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 25025 playing",
+   "url": "https://www.roblox.com/games/116448925875915",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Toilet Tower Defense",
+   "key": "toilettowerdefense",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 7194 playing",
+   "url": "https://www.roblox.com/games/13775256536",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Steal a Superpower!",
+   "key": "stealasuperpower",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 14030 playing",
+   "url": "https://www.roblox.com/games/74183246285569",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "LINE UP! Metro Tycoon",
+   "key": "lineupmetrotycoon",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 8896 playing",
+   "url": "https://www.roblox.com/games/76792629643884",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "13 Days to Escape",
+   "key": "13daystoescape",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 17368 playing",
+   "url": "https://www.roblox.com/games/134117451433332",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "MOUSE",
+   "key": "mouse",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 15460 playing",
+   "url": "https://www.roblox.com/games/81688312343760",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Sell a Million Sushi",
+   "key": "sellamillionsushi",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 8110 playing",
+   "url": "https://www.roblox.com/games/125866884667103",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Impact Lab: Extreme Physics!",
+   "key": "impactlabextremephysics",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 2957 playing",
+   "url": "https://www.roblox.com/games/109607724765529",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "South Hell",
+   "key": "southhell",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 16481 playing",
+   "url": "https://www.roblox.com/games/119901987045648",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Unstable SMP FFA",
+   "key": "unstablesmpffa",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 11355 playing",
+   "url": "https://www.roblox.com/games/76870565041704",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "DONT SPLASH",
+   "key": "dontsplash",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 74039 playing",
+   "url": "https://www.roblox.com/games/119958473240233",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
@@ -3121,37 +1678,89 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 12258 playing",
+   "desc": "Roblox Up-and-Coming · 5972 playing",
    "url": "https://www.roblox.com/games/137036689378411",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "Ragdoll Realism",
-   "key": "ragdollrealism",
+   "name": "Net a Fish!",
+   "key": "netafish",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 7164 playing",
-   "url": "https://www.roblox.com/games/81315647087659",
+   "desc": "Roblox Up-and-Coming · 16220 playing",
+   "url": "https://www.roblox.com/games/93898234979111",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "Ragdoll Physics 2",
-   "key": "ragdollphysics2",
+   "name": "Ragdoll Wars!",
+   "key": "ragdollwars",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 9352 playing",
-   "url": "https://www.roblox.com/games/88247261469570",
+   "desc": "Roblox Up-and-Coming · 8302 playing",
+   "url": "https://www.roblox.com/games/123701727018513",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "30 Floors Up",
+   "key": "30floorsup",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 9946 playing",
+   "url": "https://www.roblox.com/games/124063493943486",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "FERAL Animal Survival",
+   "key": "feralanimalsurvival",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 11017 playing",
+   "url": "https://www.roblox.com/games/108901361810209",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Revolver Arena",
+   "key": "revolverarena",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 1346 playing",
+   "url": "https://www.roblox.com/games/108419873026523",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Fatal Baboons",
+   "key": "fatalbaboons",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 21048 playing",
+   "url": "https://www.roblox.com/games/93660722909304",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
@@ -3160,50 +1769,713 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 30378 playing",
+   "desc": "Roblox Up-and-Coming · 18969 playing",
    "url": "https://www.roblox.com/games/119101118479978",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "Steal A Pet And Ride It!",
-   "key": "stealapetandrideit",
+   "name": "WRECKED",
+   "key": "wrecked",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Playing Now · 126186 playing",
-   "url": "https://www.roblox.com/games/95168737547508",
+   "desc": "Roblox Up-and-Coming · 7162 playing",
+   "url": "https://www.roblox.com/games/77843690602580",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "Violence District",
-   "key": "violencedistrict",
+   "name": "Compliment",
+   "key": "compliment",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Playing Now · 77769 playing",
-   "url": "https://www.roblox.com/games/93978595733734",
+   "desc": "Roblox Up-and-Coming · 2555 playing",
+   "url": "https://www.roblox.com/games/124156325220041",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "Evade",
-   "key": "evade",
+   "name": "Scare Your Neighbor",
+   "key": "scareyourneighbor",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Playing Now · 72549 playing",
-   "url": "https://www.roblox.com/games/9872472334",
+   "desc": "Roblox Up-and-Coming · 8110 playing",
+   "url": "https://www.roblox.com/games/124710677460732",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "⚽ Be a Soccer Legend",
+   "key": "beasoccerlegend",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 16128 playing",
+   "url": "https://www.roblox.com/games/92316656787977",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Ragdoll Realism",
+   "key": "ragdollrealism",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 7931 playing",
+   "url": "https://www.roblox.com/games/81315647087659",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Steal An Egg",
+   "key": "stealanegg",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 611239 playing",
+   "url": "https://www.roblox.com/games/107778070777162",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Murder Mystery 2",
+   "key": "murdermystery2",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 363112 playing",
+   "url": "https://www.roblox.com/games/142823291",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Brookhaven RP",
+   "key": "brookhavenrp",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 322017 playing",
+   "url": "https://www.roblox.com/games/4924922222",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Adopt Me!",
+   "key": "adoptme",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 170171 playing",
+   "url": "https://www.roblox.com/games/920587237",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "RIVALS",
+   "key": "rivals",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 117647 playing",
+   "url": "https://www.roblox.com/games/17625359962",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Forsaken",
+   "key": "forsaken",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 101124 playing",
+   "url": "https://www.roblox.com/games/18687417158",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "99 Nights in the Forest",
+   "key": "99nightsintheforest",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 93062 playing",
+   "url": "https://www.roblox.com/games/79546208627805",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Practical Basketball",
+   "key": "practicalbasketball",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 89714 playing",
+   "url": "https://www.roblox.com/games/80681221431821",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Jujutsu Shenanigans",
+   "key": "jujutsushenanigans",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 86816 playing",
+   "url": "https://www.roblox.com/games/9391468976",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Dandys World",
+   "key": "dandysworld",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 83973 playing",
+   "url": "https://www.roblox.com/games/16116270224",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Break and Steal an Egg",
+   "key": "breakandstealanegg",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 83605 playing",
+   "url": "https://www.roblox.com/games/114326934417838",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Steal a Brainrot",
+   "key": "stealabrainrot",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 73321 playing",
+   "url": "https://www.roblox.com/games/109983668079237",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Murderers VS Sheriffs",
+   "key": "murderersvssheriffs",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 69324 playing",
+   "url": "https://www.roblox.com/games/135856908115931",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Catalog Avatar Creator",
+   "key": "catalogavatarcreator",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 69205 playing",
+   "url": "https://www.roblox.com/games/7041939546",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Fisch",
+   "key": "fisch",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 64906 playing",
+   "url": "https://www.roblox.com/games/16732694052",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Fish It!",
+   "key": "fishit",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 61086 playing",
+   "url": "https://www.roblox.com/games/121864768012064",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Berry Avenue RP",
+   "key": "berryavenuerp",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 54270 playing",
+   "url": "https://www.roblox.com/games/8481844229",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "The Strongest Battlegrounds",
+   "key": "thestrongestbattlegrounds",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 50221 playing",
+   "url": "https://www.roblox.com/games/10449761463",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Dress To Impress",
+   "key": "dresstoimpress",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 49475 playing",
+   "url": "https://www.roblox.com/games/15101393044",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "Volleyball Legends",
+   "key": "volleyballlegends",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 48968 playing",
+   "url": "https://www.roblox.com/games/73956553001240",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "subway surfers",
+   "key": "subwaysurfers",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/subway-surfers",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "minefun io",
+   "key": "minefunio",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/minefun-io",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "master chess",
+   "key": "masterchess",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/master-chess",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "aquaparkio",
+   "key": "aquaparkio",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/aquaparkio",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "tag",
+   "key": "tag",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/tag",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "basketball stars",
+   "key": "basketballstars",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/basketball-stars",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "drift boss",
+   "key": "driftboss",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/drift-boss",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "retro bowl",
+   "key": "retrobowl",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/retro-bowl",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "stickman hook",
+   "key": "stickmanhook",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/stickman-hook",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "monkey mart",
+   "key": "monkeymart",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/monkey-mart",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "blocky blast puzzle",
+   "key": "blockyblastpuzzle",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/blocky-blast-puzzle",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "level devil",
+   "key": "leveldevil",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/level-devil",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "find the needle in haystack",
+   "key": "findtheneedleinhaystack",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/find-the-needle-in-haystack",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "tic tac toe ultimate",
+   "key": "tictactoeultimate",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/tic-tac-toe-ultimate",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "crazy motorcycle pro",
+   "key": "crazymotorcyclepro",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/crazy-motorcycle-pro",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "tnt sandbox",
+   "key": "tntsandbox",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/tnt-sandbox",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "snake vs human",
+   "key": "snakevshuman",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/snake-vs-human",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "drive mad",
+   "key": "drivemad",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/drive-mad",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "robo cleaner simulator",
+   "key": "robocleanersimulator",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/robo-cleaner-simulator",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "anthill wars",
+   "key": "anthillwars",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/anthill-wars",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "slice master",
+   "key": "slicemaster",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/slice-master",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "beauty salon",
+   "key": "beautysalon",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/beauty-salon",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "longcat",
+   "key": "longcat",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/longcat",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "neon challenge legends",
+   "key": "neonchallengelegends",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/neon-challenge-legends",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "count control legends",
+   "key": "countcontrollegends",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/count-control-legends",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "blumgi bounce",
+   "key": "blumgibounce",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/blumgi-bounce",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "stickman climb 3d",
+   "key": "stickmanclimb3d",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/stickman-climb-3d",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "brain test 5",
+   "key": "braintest5",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/brain-test-5",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "game"
+  },
+  {
+   "name": "blumgi merge",
+   "key": "blumgimerge",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/blumgi-merge",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
@@ -3216,34 +2488,60 @@
    "url": "https://poki.com/en/g/power-badminton",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
    "track": "game"
   },
   {
-   "name": "Chars Land",
-   "key": "charsland",
+   "name": "Hot Goods",
+   "key": "hotgoods",
    "sources": [
     "游戏轨"
    ],
-   "desc": "一款在 Roblox 平台上制作中的合作地牢探索（coop dungeon delver）新游戏。",
-   "url": "https://x.com/slashie_/status/2119286915505549326",
+   "desc": "Roblox平台的店铺模拟游戏，玩家需与阴险顾客讨价还价、隐藏赃物并击退安卓人。",
+   "url": "https://x.com/anhelouda/status/2119579187430211737",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 04:32",
+   "first_seen": "2026-11-09 07:53",
    "track": "game"
   },
   {
-   "name": "99 Day Survival Guide",
-   "key": "99daysurvivalguide",
+   "name": "Front Line Fury",
+   "key": "frontlinefury",
    "sources": [
     "游戏轨"
    ],
-   "desc": "一款即将上线 Steam 平台的生存指南类游戏。",
-   "url": "https://x.com/DarkStudioIndie/status/2119285903231500545",
+   "desc": "Roblox平台的免费竞技射击游戏，包含狐狸对战狼人的前线狂怒模式。",
+   "url": "https://x.com/MMMVoid_Offical/status/2119552730469695668",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 04:28",
+   "first_seen": "2026-11-09 06:08",
    "track": "game"
+  },
+  {
+   "name": "Agent Clan",
+   "key": "agentclan",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Agent Clan",
+   "url": "https://www.producthunt.com/products/agent-clan",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "GPT‑6 Cyber",
+   "key": "gpt6cyber",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "GPT‑6 Cyber",
+   "url": "https://www.producthunt.com/products/openai",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
   },
   {
    "name": "Archie",
@@ -3255,7 +2553,202 @@
    "url": "https://www.producthunt.com/products/archie-3",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "AXL",
+   "key": "axl",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "AXL",
+   "url": "https://www.producthunt.com/products/axl-2",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Capnot",
+   "key": "capnot",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Capnot",
+   "url": "https://www.producthunt.com/products/capnot",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "ClarifierAI for Chrome",
+   "key": "clarifieraiforchrome",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "ClarifierAI for Chrome",
+   "url": "https://www.producthunt.com/products/clarifierai-rewrite-text-2",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Deal Pilot",
+   "key": "dealpilot",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Deal Pilot",
+   "url": "https://www.producthunt.com/products/deal-pilot",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Deduplication",
+   "key": "deduplication",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Deduplication",
+   "url": "https://www.producthunt.com/products/hacker-noon",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Dino Kids",
+   "key": "dinokids",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Dino Kids",
+   "url": "https://www.producthunt.com/products/dino-kids",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "DocsAlot for customer support",
+   "key": "docsalotforcustomersupport",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "DocsAlot for customer support",
+   "url": "https://www.producthunt.com/products/docsalot-2",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Duly",
+   "key": "duly",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Duly",
+   "url": "https://www.producthunt.com/products/duly-life-organizer",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Exa Monitors v2",
+   "key": "examonitorsv2",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Exa Monitors v2",
+   "url": "https://www.producthunt.com/products/exa-ai",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Fleeep",
+   "key": "fleeep",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Fleeep",
+   "url": "https://www.producthunt.com/products/fleeep",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Frameboy by World Labs",
+   "key": "frameboybyworldlabs",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Frameboy by World Labs",
+   "url": "https://www.producthunt.com/products/marble-by-world-labs",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Google Omni 1.2 Flash",
+   "key": "googleomni12flash",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Google Omni 1.2 Flash",
+   "url": "https://www.producthunt.com/products/google-omni-1-2-flash",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Inkling 2 Small",
+   "key": "inkling2small",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Inkling 2 Small",
+   "url": "https://www.producthunt.com/products/tinker-2",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Instagram Edits for Desktop",
+   "key": "instagrameditsfordesktop",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Instagram Edits for Desktop",
+   "url": "https://www.producthunt.com/products/instagram",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "kayet",
+   "key": "kayet",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "kayet",
+   "url": "https://www.producthunt.com/products/kayet",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
    "track": "ai_tools"
   },
   {
@@ -3268,7 +2761,20 @@
    "url": "https://www.producthunt.com/products/keypause",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "LiveReview",
+   "key": "livereview",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "LiveReview",
+   "url": "https://www.producthunt.com/products/livereview",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
    "track": "ai_tools"
   },
   {
@@ -3281,7 +2787,33 @@
    "url": "https://www.producthunt.com/products/memorias-3",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Muse Realtime Avatar",
+   "key": "muserealtimeavatar",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Muse Realtime Avatar",
+   "url": "https://www.producthunt.com/products/meta-ai",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "NoMac",
+   "key": "nomac",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "NoMac",
+   "url": "https://www.producthunt.com/products/nomac",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
    "track": "ai_tools"
   },
   {
@@ -3294,7 +2826,7 @@
    "url": "https://www.producthunt.com/products/notchisland-2",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
    "track": "ai_tools"
   },
   {
@@ -3307,7 +2839,7 @@
    "url": "https://www.producthunt.com/products/notch-11",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
    "track": "ai_tools"
   },
   {
@@ -3320,46 +2852,85 @@
    "url": "https://www.producthunt.com/products/polylane",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:41",
+   "first_seen": "2026-11-09 10:23",
    "track": "ai_tools"
   },
   {
-   "name": "Directionally Local",
-   "key": "directionallylocal",
+   "name": "PacerTrip",
+   "key": "pacertrip",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "一款在本地运行的免费开源 AI 编码代理工具，提供 GPT-6 Luna 和 DeepSeek V4.1 Flash 的每周 50M 免费 tokens。",
-   "url": "https://x.com/MATKA_r/status/2119421206663225703",
+   "desc": "PacerTrip",
+   "url": "https://www.producthunt.com/products/pacertrip",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:26",
+   "first_seen": "2026-11-09 10:23",
    "track": "ai_tools"
   },
   {
-   "name": "Core Studio",
-   "key": "corestudio",
+   "name": "Quest",
+   "key": "quest",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "一款由 imCore 推出的 AI 影视制作平台，内置 24 个 AI 虚拟演职人员代理，支持从剧本到调色的全流程制作及成本追踪。",
-   "url": "https://x.com/romeaifest/status/2119403309765165475",
+   "desc": "Quest",
+   "url": "https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 20:15",
+   "first_seen": "2026-11-09 10:23",
    "track": "ai_tools"
   },
   {
-   "name": "Teammates",
-   "key": "teammates",
+   "name": "Rex",
+   "key": "rex",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "Perplexity 推出的常驻 AI 代理工具，可加入 Slack 并连接 GitHub 与 Gmail 以接管长期项目。",
-   "url": "https://x.com/DeepthiConnects/status/2119404905597440482",
+   "desc": "Rex (Beta)",
+   "url": "https://www.producthunt.com/products/superlogical",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 20:21",
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Sage2 by Levanto Labs",
+   "key": "sage2bylevantolabs",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Sage2 by Levanto Labs",
+   "url": "https://www.producthunt.com/products/sagecraft",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:23",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Minos AI",
+   "key": "minosai",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "基于Bittensor SN107的Mac原生AI应用，支持科学文献搜索、摘要生成与结果验证。",
+   "url": "https://x.com/Dr_Crypto_Lewis/status/2119578757279146015",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 07:52",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Seedance 2.5",
+   "key": "seedance25",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "AI视频生成模型，可制作长达30秒、含同步音频、一致角色与多镜头叙事的视频片段。",
+   "url": "https://x.com/ItsRizwanAhmed/status/2119556036747210833",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 06:21",
    "track": "ai_tools"
   },
   {
@@ -3368,142 +2939,971 @@
    "sources": [
     "AI工具轨"
    ],
-   "desc": "AWS 推出的售价 20 美元/座位的 AI 编码代理工具，可读取并记住完整的代码库，根据项目模式编写代码。",
-   "url": "https://x.com/Vivek_khudaniya/status/2119309632888033387",
+   "desc": "规格优先的AI编程代理，需完整规格文档后才操作代码库，适合结构化开发流程。",
+   "url": "https://x.com/fialaerik/status/2119560596555550936",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 14:02",
+   "first_seen": "2026-11-09 06:40",
    "track": "ai_tools"
   },
   {
-   "name": "Kinference",
-   "key": "kinference",
+   "name": "Swarmboard",
+   "key": "swarmboard",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "Buoyant 推出的开源控制平面工具，用于 Kubernetes 上的 vLLM，通过 KV 缓存感知路由将流量导向预缓存的 GPU。",
-   "url": "https://x.com/ShwetaTechNova/status/2119378083472150909",
+   "desc": "面向智能体团队的公告板工具，让多个AI代理协调任务、避免CI/CD拥堵与重复工作。",
+   "url": "https://x.com/paulantir0/status/2119550600103018817",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 18:34",
+   "first_seen": "2026-11-09 06:00",
    "track": "ai_tools"
   },
   {
-   "name": "Wings Chess",
-   "key": "wingschess",
+   "name": "Physical AI Services",
+   "key": "physicalaiservices",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "一款免费的 AI 教练国际象棋应用，能指出每步棋的好坏并提供模仿真人犯错的机器人。",
-   "url": "https://x.com/TheTechOkunola/status/2119416751951597749",
+   "desc": "Server Robotics开放的物理AI服务平台，将2000+配送机器人技术（Serve Link、数据策展、训练数据）提供给其他机器人构建者。",
+   "url": "https://x.com/runthenumberz/status/2119566960044507382",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 21:08",
+   "first_seen": "2026-11-09 07:05",
    "track": "ai_tools"
   },
   {
-   "name": "Lumina Resume Agent",
-   "key": "luminaresumeagent",
+   "name": "AirisOne",
+   "key": "airisone",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "一款实时的 AI 驱动简历构建器与作品集优化工具，采用 React + TS 开发，支持分屏预览与内联编辑。",
-   "url": "https://x.com/IrumNavid/status/2119377299116331154",
+   "desc": "Compass推出的AI运营中枢，整合工单、巡检与供应商任务，助设施团队统一视图快速响应。",
+   "url": "https://x.com/dan_evolution/status/2119559417989406748",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-08 18:31",
+   "first_seen": "2026-11-09 06:35",
+   "track": "ai_tools"
+  },
+  {
+   "name": "MarkMosaiq",
+   "key": "markmosaiq",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "AI营销内容生成工具，将产品素材转化为专业、符合品牌调性的营销图文，提供5次免费生成。",
+   "url": "https://x.com/thamerkth7/status/2119570500720681020",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 07:19",
+   "track": "ai_tools"
+  },
+  {
+   "name": "VRChat",
+   "key": "vrchat",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：VRChat",
+   "url": "https://store.steampowered.com/search/?term=VRChat",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Tom Clancys Rainbow Six Siege",
+   "key": "tomclancysrainbowsixsiege",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Tom Clancy's Rainbow Six Siege",
+   "url": "https://store.steampowered.com/search/?term=Tom%20Clancys%20Rainbow%20Six%20Siege",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Fallout 76",
+   "key": "fallout76",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Fallout 76",
+   "url": "https://store.steampowered.com/search/?term=Fallout%2076",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "The Elder Scrolls Online",
+   "key": "theelderscrollsonline",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：The Elder Scrolls® Online",
+   "url": "https://store.steampowered.com/search/?term=The%20Elder%20Scrolls%20Online",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Grand Theft Auto V Enhanced",
+   "key": "grandtheftautovenhanced",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Grand Theft Auto V Enhanced",
+   "url": "https://store.steampowered.com/search/?term=Grand%20Theft%20Auto%20V%20Enhanced",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "iRacing",
+   "key": "iracing",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：iRacing",
+   "url": "https://store.steampowered.com/search/?term=iRacing",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Steam Machine",
+   "key": "steammachine",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Steam Machine",
+   "url": "https://store.steampowered.com/search/?term=Steam%20Machine",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Marvel Rivals",
+   "key": "marvelrivals",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Marvel Rivals",
+   "url": "https://store.steampowered.com/search/?term=Marvel%20Rivals",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "War Thunder",
+   "key": "warthunder",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：War Thunder",
+   "url": "https://store.steampowered.com/search/?term=War%20Thunder",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "MapleStory",
+   "key": "maplestory",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：MapleStory",
+   "url": "https://store.steampowered.com/search/?term=MapleStory",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Closing Shift",
+   "key": "closingshift",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 1271 playing",
+   "url": "https://www.roblox.com/games/118297934142609",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Night Rider",
+   "key": "nightrider",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 9077 playing",
+   "url": "https://www.roblox.com/games/71335623205843",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Evermore High",
+   "key": "evermorehigh",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 13914 playing",
+   "url": "https://www.roblox.com/games/138636753681976",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Ragdoll Physics 2",
+   "key": "ragdollphysics2",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 3927 playing",
+   "url": "https://www.roblox.com/games/88247261469570",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Beyond Nen",
+   "key": "beyondnen",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 5071 playing",
+   "url": "https://www.roblox.com/games/6016716328",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Raise A Catboy",
+   "key": "raiseacatboy",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 7554 playing",
+   "url": "https://www.roblox.com/games/129852792970565",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Cozy Lucky Scoop Order",
+   "key": "cozyluckyscooporder",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 6522 playing",
+   "url": "https://www.roblox.com/games/70976799643592",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Do Not Stop.",
+   "key": "donotstop",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 1716 playing",
+   "url": "https://www.roblox.com/games/116779912472448",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "The Ditch Hotel",
+   "key": "theditchhotel",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 914 playing",
+   "url": "https://www.roblox.com/games/83379330867218",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Untitled Symbiote Suit Game",
+   "key": "untitledsymbiotesuitgame",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 4113 playing",
+   "url": "https://www.roblox.com/games/87483534479816",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Ball Knowledge",
+   "key": "ballknowledge",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 899 playing",
+   "url": "https://www.roblox.com/games/110147623465822",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Bloody Ragdoll Physics",
+   "key": "bloodyragdollphysics",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 2668 playing",
+   "url": "https://www.roblox.com/games/140431845542654",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Pet Simulator 99!",
+   "key": "petsimulator99",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 48119 playing",
+   "url": "https://www.roblox.com/games/8737899170",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "MALAM SAMA OPAH",
+   "key": "malamsamaopah",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 45759 playing",
+   "url": "https://www.roblox.com/games/91246277860636",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Evade",
+   "key": "evade",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 42785 playing",
+   "url": "https://www.roblox.com/games/9872472334",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Violence District",
+   "key": "violencedistrict",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 41424 playing",
+   "url": "https://www.roblox.com/games/93978595733734",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Sols RNG",
+   "key": "solsrng",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 36199 playing",
+   "url": "https://www.roblox.com/games/15532962292",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "chess pro",
+   "key": "chesspro",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/chess-pro",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "kick the buddy",
+   "key": "kickthebuddy",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/kick-the-buddy",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "penalty shooters 2",
+   "key": "penaltyshooters2",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/penalty-shooters-2",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "snapstyle dress up",
+   "key": "snapstyledressup",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/snapstyle-dress-up",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "perfect landing plane pilot",
+   "key": "perfectlandingplanepilot",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/perfect-landing-plane-pilot",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "my perfect hotel",
+   "key": "myperfecthotel",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/my-perfect-hotel",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "ovo classic",
+   "key": "ovoclassic",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/ovo-classic",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "blumgi slime",
+   "key": "blumgislime",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/blumgi-slime",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "brain test tricky puzzles",
+   "key": "braintesttrickypuzzles",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/brain-test-tricky-puzzles",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "game"
+  },
+  {
+   "name": "Swim to Steal an Egg",
+   "key": "swimtostealanegg",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox平台上的冒险游戏，玩家需游泳偷取鸟蛋并争取降低年龄分级。",
+   "url": "https://x.com/MIRAGE_DINO9/status/2119728299085824218",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 17:46",
+   "track": "game"
+  },
+  {
+   "name": "Who is the richest on Roblox?",
+   "key": "whoistherichestonroblox",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox平台上的模拟游戏，让玩家比拼虚拟财富排名。",
+   "url": "https://x.com/Contree_Solo3/status/2119693388509307124",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 15:27",
+   "track": "game"
+  },
+  {
+   "name": "The Scary School Remake",
+   "key": "thescaryschoolremake",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox平台的恐怖生存重制游戏，包含万圣节内容与修复更新。",
+   "url": "https://x.com/devyy2011/status/2119671804822499484",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 14:01",
+   "track": "game"
+  },
+  {
+   "name": "Band Rivals",
+   "key": "bandrivals",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox平台的吉他英雄类音乐游戏，支持全平台跨玩与按键重映射。",
+   "url": "https://x.com/ProtoBreadMaker/status/2119621558037815634",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 10:42",
+   "track": "game"
+  },
+  {
+   "name": "phedra x",
+   "key": "phedrax",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "futurepedia sitemap 新页",
+   "url": "https://www.futurepedia.io/tool/phedra-x",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Cardboard AI",
+   "key": "cardboardai",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Cardboard AI",
+   "url": "https://www.producthunt.com/products/cardboard-3",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Egoist AI Passport",
+   "key": "egoistaipassport",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Egoist AI Passport",
+   "url": "https://www.producthunt.com/products/egoist-ai-passport",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Product Hunt MCP",
+   "key": "producthuntmcp",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Product Hunt MCP",
+   "url": "https://www.producthunt.com/products/producthunt",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Calmly Script",
+   "key": "calmlyscript",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Calmly Script",
+   "url": "https://www.producthunt.com/products/calmly-script",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "ClipsPal",
+   "key": "clipspal",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "ClipsPal",
+   "url": "https://www.producthunt.com/products/clipspal",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "CozyZip",
+   "key": "cozyzip",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "CozyZip",
+   "url": "https://www.producthunt.com/products/cozyzip",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Cue",
+   "key": "cue",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Cue",
+   "url": "https://www.producthunt.com/products/cue-voice-keyboard",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Databox CLI",
+   "key": "databoxcli",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Databox CLI",
+   "url": "https://www.producthunt.com/products/databox",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "GitHub New PR Overview",
+   "key": "githubnewproverview",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "GitHub New PR Overview",
+   "url": "https://www.producthunt.com/products/github",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Higgsfield Miracle",
+   "key": "higgsfieldmiracle",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Higgsfield Miracle",
+   "url": "https://www.producthunt.com/products/higgsfield",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "KIKUmap",
+   "key": "kikumap",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "KIKUmap",
+   "url": "https://www.producthunt.com/products/kikumap",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "MCP1",
+   "key": "mcp1",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "MCP1",
+   "url": "https://www.producthunt.com/products/appwrite",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 18:00",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Seedream 5.5",
+   "key": "seedream55",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "字节跳动推出的AI图像模型，支持100轮连续编辑零像素失真及原生RGBA透明背景生成。",
+   "url": "https://x.com/pepeanalyst/status/2119726774107910308",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 17:40",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Product Hunt MCP Server",
+   "key": "producthuntmcpserver",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Product Hunt官方推出的MCP服务器，让用户在Claude、ChatGPT等AI工具中直接发布和发现产品。",
+   "url": "https://x.com/Abbas143office/status/2119723465242759318",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 17:27",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Agent-Powered GEO by Dageno",
+   "key": "agentpoweredgeobydageno",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Dageno 推出的 Agent 驱动 GEO（生成式引擎优化）工具，已上 Product Hunt；具体能力细节本轮仅见上架帖，用途待核实。",
+   "url": "https://x.com/dpkpandey9/status/2119723140293198243",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 17:25",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Reduck",
+   "key": "reduck",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "让AI代理无需API即可通过浏览器自动化脚本在已登录Chrome中操作任意网站（如LinkedIn、Reddit）。",
+   "url": "https://x.com/FabianMaume/status/2119720595763896582",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 17:15",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Appwrite MCP1",
+   "key": "appwritemcp1",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Appwrite推出的MCP网关，提供统一URL接入所有MCP服务器，支持Claude Code、Cursor等工具的权限与凭证管理。",
+   "url": "https://x.com/nikhilgoyalai/status/2119720147258589191",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 17:14",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Hearthscale",
+   "key": "hearthscale",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "面向普通人的本地 AI 使用工具，降低本地模型部署门槛；具体功能细节本轮帖文较笼统，用途待核实。",
+   "url": "https://x.com/TR3x3r/status/2119719692575080898",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 17:12",
+   "track": "ai_tools"
+  },
+  {
+   "name": "NXP Modular Robotics Platform for Physical AI",
+   "key": "nxpmodularroboticsplatformforphysicalai",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "NXP推出的模块化机器人平台，预集成处理器、软件和参考设计，将物理AI开发周期从数月缩短至数天。",
+   "url": "https://x.com/Aisiexplorer/status/2119719554943426831",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 17:11",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Qoduck",
+   "key": "qoduck",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "据第三方帖称阿里巴巴/Qwen 相关编码代理平台；非官方首发核实，用途待核实。",
+   "url": "https://x.com/AzlanMaher1/status/2119717267831206236",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 17:02",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Axiocairn",
+   "key": "axiocairn",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "帮助用户通过AI代理分析ETF持仓重叠度，揭示投资组合真实分散化程度的工具。",
+   "url": "https://x.com/X_lun7/status/2119711589188153355",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 16:39",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Kivviq",
+   "key": "kivviq",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "AI代理可观测性平台，用于监控和调试AI代理的运行状态。",
+   "url": "https://x.com/Dayve010/status/2119710268997476412",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 16:34",
+   "track": "ai_tools"
+  },
+  {
+   "name": "gitring",
+   "key": "gitring",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "解决多编码代理在同一代码仓库协作时冲突处理的工具，现已在Product Hunt上线。",
+   "url": "https://x.com/m14z4/status/2119708319061569978",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-09 16:27",
    "track": "ai_tools"
   }
  ],
  "dupes": [
   {
-   "name": "Agent Clan",
-   "matched": "agent clan",
+   "name": "Arcjet AI security models",
+   "matched": "arcjet ai security models",
    "ours": [
     "新品榜单"
    ]
   },
   {
-   "name": "AXL",
-   "matched": "axl",
+   "name": "Dageno AI 2.0",
+   "matched": "dageno ai 2.0",
    "ours": [
     "新品榜单"
    ]
   },
   {
-   "name": "Deduplication",
-   "matched": "deduplication",
+   "name": "Pawse.ai",
+   "matched": "pawse.ai",
    "ours": [
     "新品榜单"
    ]
   },
   {
-   "name": "DocsAlot for customer support",
-   "matched": "docsalot for customer support",
+   "name": "Flic Cue",
+   "matched": "flic cue",
    "ours": [
     "新品榜单"
    ]
   },
   {
-   "name": "Frameboy by World Labs",
-   "matched": "frameboy by world labs",
+   "name": "If You Read This",
+   "matched": "if you read this",
    "ours": [
     "新品榜单"
    ]
   },
   {
-   "name": "Inkling 2 Small",
-   "matched": "inkling 2 small",
-   "ours": [
-    "新品榜单"
-   ]
-  },
-  {
-   "name": "NoMac",
-   "matched": "nomac",
-   "ours": [
-    "新品榜单"
-   ]
-  },
-  {
-   "name": "Sage2 by Levanto Labs",
-   "matched": "sage2 by levanto labs",
+   "name": "Jotform App for Shopify",
+   "matched": "jotform app for shopify",
    "ours": [
     "新品榜单"
    ]
   }
  ],
  "board_keywords": [
-  "Shizuku-Duplex",
-  "Bodycam",
-  "Bodycam unblocked",
-  "Bodycam online",
-  "Bodycam play",
-  "Captive 3000",
-  "Captive 3000 unblocked",
-  "Captive 3000 online",
-  "Captive 3000 play",
-  "FERAL Animal Survival",
-  "FERAL Animal Survival unblocked",
-  "FERAL Animal Survival online",
-  "FERAL Animal Survival play",
-  "Monster Ranch",
-  "Monster Ranch unblocked",
-  "Monster Ranch online",
-  "Monster Ranch play",
-  "Net a Fish!",
-  "Net a Fish! unblocked",
-  "Net a Fish! online",
-  "Net a Fish! play",
-  "Revolver Arena",
-  "Revolver Arena unblocked",
-  "Revolver Arena online",
-  "Revolver Arena play",
-  "THE VAULT HEIST: KEEP OUT!",
-  "WARDOGS",
-  "WARDOGS unblocked",
-  "WARDOGS online",
-  "WARDOGS play",
+  "Berry Avenue RP",
+  "Berry Avenue RP unblocked",
+  "Berry Avenue RP online",
+  "Berry Avenue RP play",
+  "Compliment",
+  "Compliment unblocked",
+  "Compliment online",
+  "Compliment play",
+  "Fatal Baboons",
+  "Fatal Baboons unblocked",
+  "Fatal Baboons online",
+  "Fatal Baboons play",
+  "Hot Goods",
+  "Hot Goods unblocked",
+  "Hot Goods online",
+  "Hot Goods play",
+  "PAYDAY 3",
+  "PAYDAY 3 unblocked",
+  "PAYDAY 3 online",
+  "PAYDAY 3 play",
+  "ROB RUN",
+  "ROB RUN unblocked",
+  "ROB RUN online",
+  "ROB RUN play",
+  "⚽ Be a Soccer Legend",
+  "⚽ Be a Soccer Legend unblocked",
+  "⚽ Be a Soccer Legend online",
+  "⚽ Be a Soccer Legend play",
   "+1 Spider Arm",
   "+1 Spider Arm unblocked",
   "+1 Spider Arm online",
@@ -3515,114 +3915,126 @@
   "13 Days to Escape",
   "13 Days to Escape unblocked",
   "13 Days to Escape online",
-  "ERA AI",
-  "ERA AI ai",
-  "ERA AI alternative",
-  "FilmLume",
-  "FilmLume ai",
-  "FilmLume alternative",
-  "Turnstone",
-  "Turnstone ai",
-  "Turnstone alternative",
-  "GPT‑6 Cyber",
-  "GPT‑6 Cyber ai",
-  "GPT‑6 Cyber alternative",
-  "Tobira Site Agent",
-  "Tobira Site Agent ai",
-  "Tobira Site Agent alternative",
-  "Any Video to Text",
-  "Any Video to Text ai",
-  "Any Video to Text alternative",
-  "Capnot",
-  "Capnot ai",
-  "Capnot alternative",
-  "chalk",
-  "chalk ai",
-  "chalk alternative",
-  "ChatGPT Images 2.6",
-  "ChatGPT Images 2.6 ai",
-  "ChatGPT Images 2.6 alternative",
-  "ClarifierAI for Chrome",
-  "ClarifierAI for Chrome ai",
-  "ClarifierAI for Chrome alternative",
-  "Datastripes Data Stories",
-  "Datastripes Data Stories ai",
-  "Datastripes Data Stories alternative",
-  "Deal Pilot",
-  "Deal Pilot ai",
-  "Deal Pilot alternative",
-  "Dino Kids",
-  "Dino Kids ai",
-  "Dino Kids alternative",
-  "Duly",
-  "99 Day Survival Guide",
-  "99 Day Survival Guide unblocked",
-  "99 Day Survival Guide online",
-  "99 Day Survival Guide play",
-  "Chars Land",
-  "Chars Land unblocked",
-  "Chars Land online",
-  "Chars Land play",
-  "Impact Lab: Extreme Physics!",
-  "Impact Lab: Extreme Physics! unblocked",
-  "Impact Lab: Extreme Physics! online",
-  "Impact Lab: Extreme Physics! play",
-  "MOUSE",
-  "MOUSE unblocked",
-  "MOUSE online",
-  "MOUSE play",
-  "Ragdoll Realism",
-  "Ragdoll Realism unblocked",
-  "Ragdoll Realism online",
-  "Ragdoll Realism play",
   "13 Days to Escape play",
-  "1M Clicks To Escape",
-  "1M Clicks To Escape unblocked",
-  "1M Clicks To Escape online",
-  "1M Clicks To Escape play",
-  "30 Floors Up",
-  "30 Floors Up unblocked",
-  "30 Floors Up online",
-  "30 Floors Up play",
+  "AirisOne",
+  "AirisOne ai",
+  "AirisOne alternative",
+  "MarkMosaiq",
+  "MarkMosaiq ai",
+  "MarkMosaiq alternative",
+  "Minos AI",
+  "Minos AI ai",
+  "Minos AI alternative",
+  "Physical AI Services",
+  "Physical AI Services ai",
+  "Physical AI Services alternative",
+  "Seedance 2.5",
+  "Seedance 2.5 ai",
+  "Seedance 2.5 alternative",
+  "Swarmboard",
+  "Swarmboard ai",
+  "Swarmboard alternative",
   "Agent Clan",
   "Agent Clan ai",
   "Agent Clan alternative",
-  "Core Studio",
-  "Core Studio ai",
-  "Core Studio alternative",
-  "Directionally Local",
-  "Directionally Local ai",
-  "Directionally Local alternative",
-  "Kinference",
-  "Kinference ai",
-  "Kinference alternative",
+  "GPT‑6 Cyber",
+  "GPT‑6 Cyber ai",
+  "GPT‑6 Cyber alternative",
   "Kiro",
   "Kiro ai",
   "Kiro alternative",
-  "Lumina Resume Agent",
-  "Lumina Resume Agent ai",
-  "Lumina Resume Agent alternative",
-  "Teammates",
-  "Teammates ai",
-  "Teammates alternative",
-  "Wings Chess",
-  "Wings Chess ai",
-  "Wings Chess alternative",
   "Archie",
   "Archie ai",
   "Archie alternative",
   "AXL",
   "AXL ai",
   "AXL alternative",
-  "Deduplication",
-  "Deduplication ai",
-  "Deduplication alternative",
-  "DocsAlot for customer support",
-  "DocsAlot for customer support ai",
-  "DocsAlot for customer support alternative",
-  "Frameboy by World Labs",
-  "Frameboy by World Labs ai",
-  "Frameboy by World Labs alternative",
-  "Inkling 2 Small"
+  "Capnot",
+  "Capnot ai",
+  "Capnot alternative",
+  "ClarifierAI for Chrome",
+  "ClarifierAI for Chrome ai",
+  "ClarifierAI for Chrome alternative",
+  "Deal Pilot",
+  "Ball Knowledge",
+  "Ball Knowledge unblocked",
+  "Ball Knowledge online",
+  "Ball Knowledge play",
+  "Band Rivals",
+  "Band Rivals unblocked",
+  "Band Rivals online",
+  "Band Rivals play",
+  "Beyond Nen",
+  "Beyond Nen unblocked",
+  "Beyond Nen online",
+  "Beyond Nen play",
+  "Bloody Ragdoll Physics",
+  "Bloody Ragdoll Physics unblocked",
+  "Bloody Ragdoll Physics online",
+  "Bloody Ragdoll Physics play",
+  "Closing Shift",
+  "Closing Shift unblocked",
+  "Closing Shift online",
+  "Closing Shift play",
+  "Do Not Stop.",
+  "Do Not Stop. unblocked",
+  "Do Not Stop. online",
+  "Do Not Stop. play",
+  "Evermore High",
+  "Evermore High unblocked",
+  "Evermore High online",
+  "Evermore High play",
+  "Fallout 76",
+  "Fallout 76 unblocked",
+  "Fallout 76 online",
+  "Fallout 76 play",
+  "iRacing",
+  "iRacing unblocked",
+  "iRacing online",
+  "iRacing play",
+  "MapleStory",
+  "MapleStory unblocked",
+  "MapleStory online",
+  "MapleStory play",
+  "Agent-Powered GEO by Dageno",
+  "Agent-Powered GEO by Dageno ai",
+  "Agent-Powered GEO by Dageno alternative",
+  "Appwrite MCP1",
+  "Appwrite MCP1 ai",
+  "Appwrite MCP1 alternative",
+  "Arcjet AI security models",
+  "Arcjet AI security models ai",
+  "Arcjet AI security models alternative",
+  "Axiocairn",
+  "Axiocairn ai",
+  "Axiocairn alternative",
+  "Cardboard AI",
+  "Cardboard AI ai",
+  "Cardboard AI alternative",
+  "Dageno AI 2.0",
+  "Dageno AI 2.0 ai",
+  "Dageno AI 2.0 alternative",
+  "Egoist AI Passport",
+  "Egoist AI Passport ai",
+  "Egoist AI Passport alternative",
+  "gitring",
+  "gitring ai",
+  "gitring alternative",
+  "Hearthscale",
+  "Hearthscale ai",
+  "Hearthscale alternative",
+  "Kivviq",
+  "Kivviq ai",
+  "Kivviq alternative",
+  "Pawse.ai",
+  "Pawse.ai ai",
+  "Pawse.ai alternative",
+  "Product Hunt MCP",
+  "Product Hunt MCP ai",
+  "Product Hunt MCP alternative",
+  "Product Hunt MCP Server",
+  "Product Hunt MCP Server ai",
+  "Product Hunt MCP Server alternative",
+  "Qoduck"
  ]
 }

@@ -1,0 +1,1 @@
+请根据下列 JSON 生成简报 JSON。必须严格使用 system 里的 schema 字段：每个 item 只能有 id,url,title,tag,need,action,deadline,due_date,category,posted_at。不要输出 author、content，也不要自创 category。category 只能是 urgent、todo、related、needs、ads 之一。tag 用短中文（如 工具/通讯/美卡/支付/AI/增长/身份/羊毛）。url 必须与输入 bookmarks 的 url 完全一致。另外输出 summary 和 brief_text。只要 JSON。输入约 5 条，应几乎全部保留（只丢掉真正的软广）。carried_count 见 input 包装。

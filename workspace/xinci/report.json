@@ -1,159 +1,150 @@
 {
  "leads": [
   {
-   "term": "memory.md",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥144"
-   ],
-   "examples": [
-    "@dotey: Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Clau"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "dotey",
-     "text": "Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Claude 设计跨会话的记忆。难点在于：Claude 得在当下决定什么值得记，可它并不知道以后会用到什么。 他们的办法是加一个后台步骤，叫“做梦”（dreaming）：会话结束后，让 Claude 回头翻原始对话记录，改掉记错的笔记，把零散笔记整理成更好找的形式。这有点像人睡觉时大脑回放白天的经历，把一部分沉淀成长期知识。 • 新模型明显更会用记忆：在一个查数据库答题的测试里，Sonnet 4.6 有记忆只从 0.330 涨到 0.364，Opus 5 从 0.564 涨到 0.828（满分 1） • 玩宝可梦红版，Sonnet 3.7 写了 413 个记忆文件，只拿到 1 枚徽章；Fable 5 只写了 10 个文件，拿到 4 枚 • 一条记错的笔记经“做梦”改正后，Claude 走出了月见山；没改的那次三次掉回原路，最后也没到下一座城 【记忆分四层】 文章给“智能体记忆”的定义是：Claude 从经历中学到、跨会话保留、存成以后能读的内容。改模型权重、单次对话里临时学到的东西、上下文快满时把旧对话压成摘要，这三种都不算。 按 Anthropic 的划分，记忆从下到上分四层：最底下是原始会话记录，可以搜索；往上是 Claude 自己写的记忆笔记；再往上是整理出来的结构，比如互相链接的 wiki；最顶层是每次开新会话就自动塞进上下文的内容。“做梦”负责把下层的东西核对、提炼，再往上送。 【会挑比记得多更重要】 宝可梦测试最能说明问题。Sonnet 3.7 觉得什么都可能有用，每场战斗、每个道具、每个路人都单独建文件，玩到 1 万步左右，记忆已有近 98 万字符。那时它开始建第四个“总”文件夹，接下来 17 步新建 6 个文件、删掉 9 个，一步游戏都没玩。 Fable 5 只记屏幕上看不到的东西。钱和位置每回合都能从画面读出来，记下来多余，还很快过期；策略和验证过的规律只有自己总结出来才存在。它用一个 global.md 当总控台，写着当前目标、打道馆的计划和自己的记忆规则。七个精灵球都没抓到鲤鱼王之后，它记下：“连续 3 球失败，就改变节奏，在菜单步骤之间多按几下等待。”Opus 5.5 用类似的小文件夹，边玩边改，最后通关。 数据库测试里，每道题都开新会话，只有记忆文件夹能带过去，答完会被告知正确答案。Sonnet 4.6 只会堆一堆没验证的猜测。Anthropic 说 Opus 5 是这批模型里第一个形成完整学习循环的：大多数笔记写了规则、怎么确认它成立、以前的答案，还有踩过的坑。 【给开发者的几条经验】 告诉 Claude 记忆是干什么的，别规定怎么记。只说一句“有个记忆文件夹可用”，Opus 4.7 和 Opus 5 就用得很好；加一条“只记录失败”，两者都丢掉了记忆带来的大部分提升。 老模型需要点拨。让 Sonnet 4.6 答题前先读记忆、并验证自己的猜测，得分从 0.364 涨到 0.641。Sonnet 5 不用提醒，10 次里有 9 次会自己先读。 自动加载的那一层要小。它每次都占 token，错一条会被带进每个会话，而且指令文件越长，模型越不容易照做。Claude Code 的自动记忆只加载 MEMORY.md 的前 200 行或 25KB，这部分当目录用，细节放在下层，留个链接。 多个 agent 并行时别写同一个文件。在一个收购合同测试里，四个 agent 同时往一张共享条款表里写，互相覆盖，57 条要点只留住 41 条。改成每份合同一页、一个 agent 负责、条款原文照抄，57 条全部保住。 【“做梦”还能建 wiki】 Anthropic 用 5 月收购的软件公司 Stainless 的约 35 万份内部文件（约 4.2 亿 token）做测试，让 Opus 5 分 128 次会话持续整理成 wiki，再回答 25 个问题。只靠 wiki，得分从 13% 涨到 48%；只靠搜索是 53%；wiki 加搜索从 54% 涨到 61%，每题还省约 2 万 token。 wiki 适合需要跨文档拼信息的问题。一组 24 题的并购问答，过半要综合多份文件，用 wiki 答对 87%，只用搜索是 73%。答案在单份文件里就能搜到的任务，wiki 没有明显帮助；有一次 wiki 写到 203KB，比 115KB 的原始文件还大。 【能不能用上】 “做梦”已经是 Claude Managed Agents（Anthropic 托管的 agent 运行服务）里的功能，目前是研究预览，要申请才能用；跨会话的记忆库功能是 beta。Anthropic 也放出了 cookbook，教开发者用自己的提示词和模型搭一套。 以上数字都来自 Anthropic 自己的测试，宝可梦的对比是每个模型各跑一次。文章也说，“做梦”要额外花算力，记忆该多久复查一次、在干活时记还是事后整理，都还没有定论。 原文：https://t.co/om01JMciNI",
-     "url": "https://x.com/dotey/status/2119269064543445168",
-     "likes": 144
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "openai...你家用户黏性何在",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥269"
-   ],
-   "examples": [
-    "@dotey: 清华清华大学讲席教授张亚勤犀利提问腾讯首席AI科学家姚顺雨：DeepSeek、腾讯、Anthropic、OpenAI...你家用户黏性何在？ --- 姚顺雨： "
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "dotey",
-     "text": "清华清华大学讲席教授张亚勤犀利提问腾讯首席AI科学家姚顺雨：DeepSeek、腾讯、Anthropic、OpenAI...你家用户黏性何在？ --- 姚顺雨： 护城河更多在产品层，而不是模型层。我认为有两方面。首先是数据和上下文。如果你有别人没有的私有数据和上下文，那可能就是最大的护城河。 因为你想，现在你可以在微信里使用 AI。它不必是最聪明的 AI，但它知道你的日程、朋友和活动，这就很难被取代。你可以有一个更聪明的模型，但它并不了解你是谁。 另一道护城河是信任。你是否信任 AI 了解你的数据和上下文，并采取行动？ 张亚勤： 所以你是说，Anthropic 不值两万亿美元，甚至不值一万亿美元。它总有一天会变成同质化商品，对吧？开个玩笑。别听我的建议去买股票。",
-     "url": "https://x.com/dotey/status/2119264167483850884",
-     "likes": 269
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.5
-  },
-  {
-   "term": "cinecode",
+   "term": "misterdownloadmanager",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 sarpstar/cinecode ★1320(均 257/天,一天 +796)"
+    "GitHub 爆发 anefzaoui/misterdownloadmanager ★2625(均 231/天,一天 +2165)"
    ],
    "examples": [
-    "sarpstar/cinecode: Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the "
+    "anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windo"
    ],
    "variants": [
-    "cinecode",
-    "sarpstar cinecode"
+    "misterdownloadmanager",
+    "anefzaoui misterdownloadmanager",
+    "ahmed misterdownloadmanager"
    ],
    "posts": [],
-   "repo": "sarpstar/cinecode",
+   "repo": "anefzaoui/misterdownloadmanager",
    "known": "",
-   "format": "video",
-   "one_click": null,
-   "named": 0.9
+   "format": "text",
+   "one_click": null
   },
   {
-   "term": "hookshot",
+   "term": "s2arm",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 NotRexed/Hookshot ★2379(均 779/天,一天 +1381)"
+    "GitHub 爆发 jhaizhou-ops/S2Arm ★1172(均 1003/天)"
    ],
    "examples": [
-    "NotRexed/Hookshot: A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake"
+    "jhaizhou-ops/S2Arm: Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one "
    ],
    "variants": [
-    "hookshot",
-    "notrexed hookshot"
+    "s2arm",
+    "jhaizhou-ops s2arm"
    ],
    "posts": [],
-   "repo": "NotRexed/Hookshot",
+   "repo": "jhaizhou-ops/S2Arm",
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.9
+   "one_click": null
   },
   {
-   "term": "satmux",
+   "term": "pinky",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 Th0rgal/satmux ★779(均 779/天)"
+    "GitHub 爆发 DIYgod/pinky ★1210(均 447/天,一天 +739)"
    ],
    "examples": [
-    "Th0rgal/satmux: Accelerate high-latency GEO inflight Wi-Fi via warm BBR TCP multiplexing + 1-RTT Ground-TLS + zlib (zero dependencies)"
+    "DIYgod/pinky: Let AI agents use your phone, with you in the loop."
    ],
    "variants": [
-    "satmux",
-    "th0rgal satmux",
-    "thomas satmux"
+    "pinky",
+    "diygod pinky"
    ],
    "posts": [],
-   "repo": "Th0rgal/satmux",
+   "repo": "DIYgod/pinky",
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.9
+   "one_click": null
   },
   {
-   "term": "nx2navi",
+   "term": "gputaskman",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 tangerineturtle1/NX2navi ★745(均 647/天)"
+    "GitHub 爆发 shanselman/gputaskman ★1272(均 199/天,一天 +633)"
    ],
    "examples": [
-    "tangerineturtle1/NX2navi: "
+    "shanselman/gputaskman: A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows"
    ],
    "variants": [
-    "nx2navi",
-    "tangerineturtle1 nx2navi"
+    "gputaskman",
+    "shanselman gputaskman",
+    "scott gputaskman"
    ],
    "posts": [],
-   "repo": "tangerineturtle1/NX2navi",
+   "repo": "shanselman/gputaskman",
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.8
+   "one_click": null
   },
   {
-   "term": "grok",
+   "term": "jannikco",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 35 处 (×17.1)"
+    "③ 竞品 125 处 (×125.0)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.7
+   "one_click": null
+  },
+  {
+   "term": "jurisatlas",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 42 处 (×42.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "jurisatlas legal",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 42 处 (×42.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "legal",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 43 处 (×21.6)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
   },
   {
    "term": "cotlet connect",
@@ -161,242 +152,359 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 10 处 (×9.6)"
+    "③ 竞品 20 处 (×18.1)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.7
+   "one_click": null
   },
   {
-   "term": "io.github.theluckystrike",
+   "term": "com.a2awire benchmark",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 104 处 (×50.9)"
+    "③ 竞品 12 处 (×9.3)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "one_click": null
   },
   {
-   "term": "connectors io.github.theluckystrike",
+   "term": "connect",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 104 处 (×50.9)"
+    "③ 竞品 21 处 (×9.0)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "one_click": null
   },
   {
-   "term": "io.github.itsryanarmani",
+   "term": "com.a2awire",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 41 处 (×41.0)"
+    "③ 竞品 13 处 (×7.9)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "one_click": null
   },
   {
-   "term": "connectors io.github.itsryanarmani",
+   "term": "connectors com.a2awire",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 41 处 (×41.0)"
+    "③ 竞品 13 处 (×7.9)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "one_click": null
   },
   {
-   "term": "itsryanarmani",
+   "term": "connectors com.tidewellsoftware",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 20 处 (×20.0)"
+    "③ 竞品 7 处 (×7.0)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "one_click": null
   },
   {
-   "term": "connectors io.usefulapi",
+   "term": "io.github.morvanvivien bibian",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 93 处 (×18.2)"
+    "③ 竞品 7 处 (×7.0)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "one_click": null
   },
   {
-   "term": "itsryanarmani benchmark",
+   "term": "connectors io.github.morvanvivien",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 14 处 (×14.0)"
+    "③ 竞品 7 处 (×7.0)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "one_click": null
   },
   {
-   "term": "io.github.bumiatlas",
+   "term": "assignment",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 12 处 (×10.2)"
+    "③ 竞品 7 处 (×6.6)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "one_click": null
   },
   {
-   "term": "connectors io.github.bumiatlas",
+   "term": "jannikco google",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 12 处 (×10.2)"
+    "③ 竞品 5 处 (×5.0)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "one_click": null
   },
   {
-   "term": "io.github.bumi",
+   "term": "saledream",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 12 处 (×10.2)"
+    "③ 竞品 5 处 (×5.0)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "one_click": null
   },
   {
-   "term": "io.github.miradero",
+   "term": "jobs",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 10 处 (×10.0)"
+    "③ 竞品 11 处 (×4.5)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "one_click": null
   },
   {
-   "term": "connectors io.github.miradero",
+   "term": "garmin",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 10 处 (×10.0)"
+    "③ 竞品 9 处 (×4.2)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "one_click": null
   },
   {
-   "term": "com.yazilimkocu",
+   "term": "io.github.bosco",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 6 处 (×6.0)"
+    "③ 竞品 4 处 (×4.0)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.6
+   "one_click": null
   },
   {
-   "term": "atlas",
+   "term": "io.github.bosco labs",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 19 处 (×7.8)"
+    "③ 竞品 4 处 (×4.0)"
    ],
    "examples": [],
    "variants": [],
    "posts": [],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.5
+   "one_click": null
   },
   {
-   "term": "openart ai art & image maker",
+   "term": "connectors io.github.bosco",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 4 处 (×4.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "arhancanli",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 4 处 (×3.5)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "mambalabsdev",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 5 处 (×3.2)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "workshop",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 4 处 (×3.2)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "connectors com.apify.mcp",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 4 处 (×3.1)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "ats",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 4 处 (×3.1)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "pawse.ai",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Pawse.ai"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/pawse-ai",
+    "Sound engineered for dogs, not humans Discussion | Link"
+   ],
+   "known": "",
+   "format": "voice",
+   "one_click": null
+  },
+  {
+   "term": "flic cue",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Flic Cue"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/flic-cue",
+    "The AI Voice Button: hold to talk, shake to undo, open SDKs Discussion | Link"
+   ],
+   "known": "",
+   "format": "voice",
+   "one_click": null
+  },
+  {
+   "term": "themelia: theme & widget",
    "kinds": [
     "feed"
    ],
@@ -404,21 +512,209 @@
     "App Store 新上架"
    ],
    "examples": [
-    "App Store: Openart AI Art & Image Maker"
+    "App Store: Themelia: Theme & Widget"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://apps.apple.com/us/app/openart-ai-art-image-maker/id6806166363?uo=2",
-    "\"Openart AI Art & Image Maker turns your ideas into stunning AI art, instantly. Describe your vision, choose a style, and watch your imagination come to life in seconds. KEY FEATURES AI Art Generator:"
+    "https://apps.apple.com/us/app/themelia-theme-widget/id6467189759?uo=2",
+    "Tired of a dull Home Screen? Dive into Themelia and explore 5,000+ themes, 9,000+ wallpapers, and 12,000+ widgets! From iOS 26 styles, sports, movies, music, anime, aesthetics, Kpop, cartoons, comics,"
+   ],
+   "known": "",
+   "format": "voice",
+   "one_click": null
+  },
+  {
+   "term": "cozyai - ai home design",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "App Store 新上架"
+   ],
+   "examples": [
+    "App Store: CozyAI - AI Home Design"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apps.apple.com/us/app/cozyai-ai-home-design/id6744885843?uo=2",
+    "Elevate your home in seconds—redesign rooms, stage properties, declutter photos, and plan beautiful outdoor spaces with Cozy AI, your personal Design Agent. Just take or upload a photo, pick a style ("
    ],
    "known": "",
    "format": "image",
-   "one_click": null,
-   "named": 0.9
+   "one_click": null
   },
   {
-   "term": "perfect al-me body tune editor",
+   "term": "nörth",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Nörth"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/north-5",
+    "Natural, peer-to-peer collaboration for remote work Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "if you read this",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: If You Read This"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/if-you-read-this",
+    "A daily check-in app that works like a dead man's switch Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "protomap",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: ProtoMap"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2",
+    "Stop wasting AI tokens rediscovering dependencies Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "dageno ai 2.0",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Dageno AI 2.0"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/agent-powered-geo-by-dageno",
+    "See why AI recommends your competitors instead of you Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "arcjet ai security models",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Arcjet AI security models"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/arcjet",
+    "A family of custom-trained security models for coding agents Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "watchflows",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Watchflows"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/watchflows",
+    "Visual automation for your Mac, with AI built in Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "terse - durable actors",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Terse - Durable Actors"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/terse-durable-actors",
+    "Infrastructure for Multiplayer AI Products Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "jotform app for shopify",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Jotform App for Shopify"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/jotform",
+    "Build powerful forms for your Shopify store Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "translateall: live translator",
    "kinds": [
     "feed"
    ],
@@ -426,21 +722,20 @@
     "App Store 新上架"
    ],
    "examples": [
-    "App Store: Perfect Al-Me Body Tune Editor"
+    "App Store: TranslateAll: Live Translator"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://apps.apple.com/us/app/perfect-al-me-body-tune-editor/id6504012105?uo=2",
-    "Welcome to Perfect AI-My Body Tune Editor, your AI body beautification and image generation tool! Perfect AI-My Body Tune Editor is a comprehensive image processing software designed to help you beaut"
+    "https://apps.apple.com/us/app/translateall-live-translator/id6768545062?uo=2",
+    "Connect with the world around you, simply and easily. Whether you are traveling abroad, reading a foreign menu, or chatting with a new neighbor, TranslateAll is your friendly everyday companion. Desig"
    ],
    "known": "",
-   "format": "image",
-   "one_click": null,
-   "named": 0.9
+   "format": "text",
+   "one_click": null
   },
   {
-   "term": "areamap: measure land & acres",
+   "term": "smart printer app℠ for hp ·",
    "kinds": [
     "feed"
    ],
@@ -448,700 +743,69 @@
     "App Store 新上架"
    ],
    "examples": [
-    "App Store: AreaMap: Measure Land & Acres"
+    "App Store: Smart Printer App℠ for HP ·"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://apps.apple.com/us/app/areamap-measure-land-acres/id6816359797?uo=2",
-    "AreaMap measures the area and perimeter of any piece of land from a crisp satellite map. Tap the corners of a field, yard or lot, or walk the boundary with GPS, and see the size instantly in acres, he"
+    "https://apps.apple.com/us/app/smart-printer-app-for-hp/id6757393880?uo=2",
+    "Smart Printer App: Print & Scan-The One App That Connects to All Your Printers. This is the all-in-one smart printer app that finally lets you print, scan, and manage documents wirelessly from your iP"
    ],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.9
+   "one_click": null
   },
   {
-   "term": "axl",
+   "term": "insta360",
    "kinds": [
     "feed"
    ],
    "signals": [
-    "Product Hunt 新上架"
+    "App Store 新上架"
    ],
    "examples": [
-    "Product Hunt: AXL"
+    "App Store: Insta360"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://www.producthunt.com/products/axl-2",
-    "GTM copilot for AI product founders: 1,200+ actions via MCP Discussion | Link"
+    "https://apps.apple.com/us/app/insta360/id1491299654?uo=2",
+    "Insta360 cameras and handheld gimbals give creators, athletes and adventurers tools to create like they’ve never created. Whether you’re upping your shooting game with an Insta360 cameras, the Insta36"
    ],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.8
+   "one_click": null
   },
   {
-   "term": "inkling 2 small",
+   "term": "qr code master: scan & maker",
    "kinds": [
     "feed"
    ],
    "signals": [
-    "Product Hunt 新上架"
+    "App Store 新上架"
    ],
    "examples": [
-    "Product Hunt: Inkling 2 Small"
+    "App Store: QR Code Master: Scan & Maker"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://www.producthunt.com/products/tinker-2",
-    "A model that can see and refine what it builds Discussion | Link"
+    "https://apps.apple.com/us/app/qr-code-master-scan-maker/id6737916371?uo=2",
+    "Experience the Ultimate QR & Barcode Toolkit Stop wasting time with slow or unreliable scanners. QR Code Master is engineered for peak performance, providing instant results even with damaged codes, s"
    ],
    "known": "",
    "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "textly",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Textly"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/textly-capture-copy-paste",
-    "Capture Text & Tables from Anywhere on Your Mac Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "docsalot for customer support",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: DocsAlot for customer support"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/docsalot-2",
-    "Slack and Discord bot that answers your customers questions Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "sage2 by levanto labs",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Sage2 by Levanto Labs"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/sagecraft",
-    "Turn live talk into structured data and instant actions Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "nomac",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: NoMac"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/nomac",
-    "Your AI agent's own Mac, billed per minute. No subscription Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "agent clan",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Agent Clan"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/agent-clan",
-    "Command your Claude Code and Codex agents with gestures Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "frameboy by world labs",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Frameboy by World Labs"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/marble-by-world-labs",
-    "Interactive world exploration with Atlas Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "zigzag browser",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Zigzag Browser"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/zigzag-3",
-    "The polished, native Mac browser for life after Arc Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.8
-  },
-  {
-   "term": "deduplication",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Deduplication"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/hacker-noon",
-    "Which Meaning Owns the Word? Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "coldframe, a honeypot that poses as a supermarket fridge controller",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://github.com/hedgerow-dev/coldframe",
-    "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.7
-  },
-  {
-   "term": "ai科学家姚顺雨",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥269"
-   ],
-   "examples": [
-    "@dotey: 清华清华大学讲席教授张亚勤犀利提问腾讯首席AI科学家姚顺雨：DeepSeek、腾讯、Anthropic、OpenAI...你家用户黏性何在？ --- 姚顺雨： "
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "dotey",
-     "text": "清华清华大学讲席教授张亚勤犀利提问腾讯首席AI科学家姚顺雨：DeepSeek、腾讯、Anthropic、OpenAI...你家用户黏性何在？ --- 姚顺雨： 护城河更多在产品层，而不是模型层。我认为有两方面。首先是数据和上下文。如果你有别人没有的私有数据和上下文，那可能就是最大的护城河。 因为你想，现在你可以在微信里使用 AI。它不必是最聪明的 AI，但它知道你的日程、朋友和活动，这就很难被取代。你可以有一个更聪明的模型，但它并不了解你是谁。 另一道护城河是信任。你是否信任 AI 了解你的数据和上下文，并采取行动？ 张亚勤： 所以你是说，Anthropic 不值两万亿美元，甚至不值一万亿美元。它总有一天会变成同质化商品，对吧？开个玩笑。别听我的建议去买股票。",
-     "url": "https://x.com/dotey/status/2119264167483850884",
-     "likes": 269
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.0
-  },
-  {
-   "term": "203kb",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥144"
-   ],
-   "examples": [
-    "@dotey: Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Clau"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "dotey",
-     "text": "Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Claude 设计跨会话的记忆。难点在于：Claude 得在当下决定什么值得记，可它并不知道以后会用到什么。 他们的办法是加一个后台步骤，叫“做梦”（dreaming）：会话结束后，让 Claude 回头翻原始对话记录，改掉记错的笔记，把零散笔记整理成更好找的形式。这有点像人睡觉时大脑回放白天的经历，把一部分沉淀成长期知识。 • 新模型明显更会用记忆：在一个查数据库答题的测试里，Sonnet 4.6 有记忆只从 0.330 涨到 0.364，Opus 5 从 0.564 涨到 0.828（满分 1） • 玩宝可梦红版，Sonnet 3.7 写了 413 个记忆文件，只拿到 1 枚徽章；Fable 5 只写了 10 个文件，拿到 4 枚 • 一条记错的笔记经“做梦”改正后，Claude 走出了月见山；没改的那次三次掉回原路，最后也没到下一座城 【记忆分四层】 文章给“智能体记忆”的定义是：Claude 从经历中学到、跨会话保留、存成以后能读的内容。改模型权重、单次对话里临时学到的东西、上下文快满时把旧对话压成摘要，这三种都不算。 按 Anthropic 的划分，记忆从下到上分四层：最底下是原始会话记录，可以搜索；往上是 Claude 自己写的记忆笔记；再往上是整理出来的结构，比如互相链接的 wiki；最顶层是每次开新会话就自动塞进上下文的内容。“做梦”负责把下层的东西核对、提炼，再往上送。 【会挑比记得多更重要】 宝可梦测试最能说明问题。Sonnet 3.7 觉得什么都可能有用，每场战斗、每个道具、每个路人都单独建文件，玩到 1 万步左右，记忆已有近 98 万字符。那时它开始建第四个“总”文件夹，接下来 17 步新建 6 个文件、删掉 9 个，一步游戏都没玩。 Fable 5 只记屏幕上看不到的东西。钱和位置每回合都能从画面读出来，记下来多余，还很快过期；策略和验证过的规律只有自己总结出来才存在。它用一个 global.md 当总控台，写着当前目标、打道馆的计划和自己的记忆规则。七个精灵球都没抓到鲤鱼王之后，它记下：“连续 3 球失败，就改变节奏，在菜单步骤之间多按几下等待。”Opus 5.5 用类似的小文件夹，边玩边改，最后通关。 数据库测试里，每道题都开新会话，只有记忆文件夹能带过去，答完会被告知正确答案。Sonnet 4.6 只会堆一堆没验证的猜测。Anthropic 说 Opus 5 是这批模型里第一个形成完整学习循环的：大多数笔记写了规则、怎么确认它成立、以前的答案，还有踩过的坑。 【给开发者的几条经验】 告诉 Claude 记忆是干什么的，别规定怎么记。只说一句“有个记忆文件夹可用”，Opus 4.7 和 Opus 5 就用得很好；加一条“只记录失败”，两者都丢掉了记忆带来的大部分提升。 老模型需要点拨。让 Sonnet 4.6 答题前先读记忆、并验证自己的猜测，得分从 0.364 涨到 0.641。Sonnet 5 不用提醒，10 次里有 9 次会自己先读。 自动加载的那一层要小。它每次都占 token，错一条会被带进每个会话，而且指令文件越长，模型越不容易照做。Claude Code 的自动记忆只加载 MEMORY.md 的前 200 行或 25KB，这部分当目录用，细节放在下层，留个链接。 多个 agent 并行时别写同一个文件。在一个收购合同测试里，四个 agent 同时往一张共享条款表里写，互相覆盖，57 条要点只留住 41 条。改成每份合同一页、一个 agent 负责、条款原文照抄，57 条全部保住。 【“做梦”还能建 wiki】 Anthropic 用 5 月收购的软件公司 Stainless 的约 35 万份内部文件（约 4.2 亿 token）做测试，让 Opus 5 分 128 次会话持续整理成 wiki，再回答 25 个问题。只靠 wiki，得分从 13% 涨到 48%；只靠搜索是 53%；wiki 加搜索从 54% 涨到 61%，每题还省约 2 万 token。 wiki 适合需要跨文档拼信息的问题。一组 24 题的并购问答，过半要综合多份文件，用 wiki 答对 87%，只用搜索是 73%。答案在单份文件里就能搜到的任务，wiki 没有明显帮助；有一次 wiki 写到 203KB，比 115KB 的原始文件还大。 【能不能用上】 “做梦”已经是 Claude Managed Agents（Anthropic 托管的 agent 运行服务）里的功能，目前是研究预览，要申请才能用；跨会话的记忆库功能是 beta。Anthropic 也放出了 cookbook，教开发者用自己的提示词和模型搭一套。 以上数字都来自 Anthropic 自己的测试，宝可梦的对比是每个模型各跑一次。文章也说，“做梦”要额外花算力，记忆该多久复查一次、在干活时记还是事后整理，都还没有定论。 原文：https://t.co/om01JMciNI",
-     "url": "https://x.com/dotey/status/2119269064543445168",
-     "likes": 144
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.0
-  },
-  {
-   "term": "115kb",
-   "kinds": [
-    "x"
-   ],
-   "signals": [
-    "X 1 个账号 ♥144"
-   ],
-   "examples": [
-    "@dotey: Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Clau"
-   ],
-   "variants": [],
-   "posts": [
-    {
-     "account": "dotey",
-     "text": "Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Claude 设计跨会话的记忆。难点在于：Claude 得在当下决定什么值得记，可它并不知道以后会用到什么。 他们的办法是加一个后台步骤，叫“做梦”（dreaming）：会话结束后，让 Claude 回头翻原始对话记录，改掉记错的笔记，把零散笔记整理成更好找的形式。这有点像人睡觉时大脑回放白天的经历，把一部分沉淀成长期知识。 • 新模型明显更会用记忆：在一个查数据库答题的测试里，Sonnet 4.6 有记忆只从 0.330 涨到 0.364，Opus 5 从 0.564 涨到 0.828（满分 1） • 玩宝可梦红版，Sonnet 3.7 写了 413 个记忆文件，只拿到 1 枚徽章；Fable 5 只写了 10 个文件，拿到 4 枚 • 一条记错的笔记经“做梦”改正后，Claude 走出了月见山；没改的那次三次掉回原路，最后也没到下一座城 【记忆分四层】 文章给“智能体记忆”的定义是：Claude 从经历中学到、跨会话保留、存成以后能读的内容。改模型权重、单次对话里临时学到的东西、上下文快满时把旧对话压成摘要，这三种都不算。 按 Anthropic 的划分，记忆从下到上分四层：最底下是原始会话记录，可以搜索；往上是 Claude 自己写的记忆笔记；再往上是整理出来的结构，比如互相链接的 wiki；最顶层是每次开新会话就自动塞进上下文的内容。“做梦”负责把下层的东西核对、提炼，再往上送。 【会挑比记得多更重要】 宝可梦测试最能说明问题。Sonnet 3.7 觉得什么都可能有用，每场战斗、每个道具、每个路人都单独建文件，玩到 1 万步左右，记忆已有近 98 万字符。那时它开始建第四个“总”文件夹，接下来 17 步新建 6 个文件、删掉 9 个，一步游戏都没玩。 Fable 5 只记屏幕上看不到的东西。钱和位置每回合都能从画面读出来，记下来多余，还很快过期；策略和验证过的规律只有自己总结出来才存在。它用一个 global.md 当总控台，写着当前目标、打道馆的计划和自己的记忆规则。七个精灵球都没抓到鲤鱼王之后，它记下：“连续 3 球失败，就改变节奏，在菜单步骤之间多按几下等待。”Opus 5.5 用类似的小文件夹，边玩边改，最后通关。 数据库测试里，每道题都开新会话，只有记忆文件夹能带过去，答完会被告知正确答案。Sonnet 4.6 只会堆一堆没验证的猜测。Anthropic 说 Opus 5 是这批模型里第一个形成完整学习循环的：大多数笔记写了规则、怎么确认它成立、以前的答案，还有踩过的坑。 【给开发者的几条经验】 告诉 Claude 记忆是干什么的，别规定怎么记。只说一句“有个记忆文件夹可用”，Opus 4.7 和 Opus 5 就用得很好；加一条“只记录失败”，两者都丢掉了记忆带来的大部分提升。 老模型需要点拨。让 Sonnet 4.6 答题前先读记忆、并验证自己的猜测，得分从 0.364 涨到 0.641。Sonnet 5 不用提醒，10 次里有 9 次会自己先读。 自动加载的那一层要小。它每次都占 token，错一条会被带进每个会话，而且指令文件越长，模型越不容易照做。Claude Code 的自动记忆只加载 MEMORY.md 的前 200 行或 25KB，这部分当目录用，细节放在下层，留个链接。 多个 agent 并行时别写同一个文件。在一个收购合同测试里，四个 agent 同时往一张共享条款表里写，互相覆盖，57 条要点只留住 41 条。改成每份合同一页、一个 agent 负责、条款原文照抄，57 条全部保住。 【“做梦”还能建 wiki】 Anthropic 用 5 月收购的软件公司 Stainless 的约 35 万份内部文件（约 4.2 亿 token）做测试，让 Opus 5 分 128 次会话持续整理成 wiki，再回答 25 个问题。只靠 wiki，得分从 13% 涨到 48%；只靠搜索是 53%；wiki 加搜索从 54% 涨到 61%，每题还省约 2 万 token。 wiki 适合需要跨文档拼信息的问题。一组 24 题的并购问答，过半要综合多份文件，用 wiki 答对 87%，只用搜索是 73%。答案在单份文件里就能搜到的任务，wiki 没有明显帮助；有一次 wiki 写到 203KB，比 115KB 的原始文件还大。 【能不能用上】 “做梦”已经是 Claude Managed Agents（Anthropic 托管的 agent 运行服务）里的功能，目前是研究预览，要申请才能用；跨会话的记忆库功能是 beta。Anthropic 也放出了 cookbook，教开发者用自己的提示词和模型搭一套。 以上数字都来自 Anthropic 自己的测试，宝可梦的对比是每个模型各跑一次。文章也说，“做梦”要额外花算力，记忆该多久复查一次、在干活时记还是事后整理，都还没有定论。 原文：https://t.co/om01JMciNI",
-     "url": "https://x.com/dotey/status/2119269064543445168",
-     "likes": 144
-    }
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.0
-  },
-  {
-   "term": "connectors com.yazilimkocu",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 6 处 (×6.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.4
-  },
-  {
-   "term": "io.github.bumiatlas thua",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 6 处 (×6.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.4
-  },
-  {
-   "term": "connectors io.github.justiceua",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 5 处 (×4.8)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.4
-  },
-  {
-   "term": "io.github.justice",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 5 处 (×4.8)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.4
-  },
-  {
-   "term": "thua",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 6 处 (×6.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "io.github.theluckystrike pdf",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 6 处 (×5.8)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "thua dat",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 6 处 (×6.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.2
-  },
-  {
-   "term": "company check",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 5 处 (×4.7)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.1
-  },
-  {
-   "term": "diagram",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 8 处 (×6.4)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.0
-  },
-  {
-   "term": "we compressed a 31b video+audio diffusion model to 14b, 6 steps, int8",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://github.com/Video-Rebirth/hyperflow-h3-flash",
-    "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8"
-   ],
-   "known": "",
-   "format": "video",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "agents infer lego mechanisms from sources, then animate them",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Agents infer Lego mechanisms from sources, then animate them"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
-    "Show HN: Agents infer Lego mechanisms from sources, then animate them"
-   ],
-   "known": "",
-   "format": "video",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "where were we",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Where Were We"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://wherewerewe.app/",
-    "Show HN: Where Were We"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "an offline desktop companion to help maintain a healthy blink rhythm",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: An offline desktop companion to help maintain a healthy blink rhythm"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://eyesrhythm.com/",
-    "Show HN: An offline desktop companion to help maintain a healthy blink rhythm"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
-  },
-  {
-   "term": "did prediction markets do any predicting this midterms?",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Did prediction markets do any predicting this midterms?"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms",
-    "Show HN: Did prediction markets do any predicting this midterms?"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null,
-   "named": 0.3
+   "one_click": null
   }
  ],
  "x": {
   "accounts": 35,
-  "answered": 35,
-  "posts": 660,
-  "cost_micros": 99300,
+  "answered": 0,
+  "posts": 0,
+  "cost_micros": 0,
   "first_run": false,
-  "terms": [
-   {
-    "term": "openai...你家用户黏性何在",
-    "sources": [
-     "dotey"
-    ],
-    "likes": 269,
-    "examples": [
-     "@dotey: 清华清华大学讲席教授张亚勤犀利提问腾讯首席AI科学家姚顺雨：DeepSeek、腾讯、Anthropic、OpenAI...你家用户黏性何在？ --- 姚顺雨： "
-    ],
-    "posts": [
-     {
-      "account": "dotey",
-      "text": "清华清华大学讲席教授张亚勤犀利提问腾讯首席AI科学家姚顺雨：DeepSeek、腾讯、Anthropic、OpenAI...你家用户黏性何在？ --- 姚顺雨： 护城河更多在产品层，而不是模型层。我认为有两方面。首先是数据和上下文。如果你有别人没有的私有数据和上下文，那可能就是最大的护城河。 因为你想，现在你可以在微信里使用 AI。它不必是最聪明的 AI，但它知道你的日程、朋友和活动，这就很难被取代。你可以有一个更聪明的模型，但它并不了解你是谁。 另一道护城河是信任。你是否信任 AI 了解你的数据和上下文，并采取行动？ 张亚勤： 所以你是说，Anthropic 不值两万亿美元，甚至不值一万亿美元。它总有一天会变成同质化商品，对吧？开个玩笑。别听我的建议去买股票。",
-      "url": "https://x.com/dotey/status/2119264167483850884",
-      "likes": 269
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥269"
-   },
-   {
-    "term": "ai科学家姚顺雨",
-    "sources": [
-     "dotey"
-    ],
-    "likes": 269,
-    "examples": [
-     "@dotey: 清华清华大学讲席教授张亚勤犀利提问腾讯首席AI科学家姚顺雨：DeepSeek、腾讯、Anthropic、OpenAI...你家用户黏性何在？ --- 姚顺雨： "
-    ],
-    "posts": [
-     {
-      "account": "dotey",
-      "text": "清华清华大学讲席教授张亚勤犀利提问腾讯首席AI科学家姚顺雨：DeepSeek、腾讯、Anthropic、OpenAI...你家用户黏性何在？ --- 姚顺雨： 护城河更多在产品层，而不是模型层。我认为有两方面。首先是数据和上下文。如果你有别人没有的私有数据和上下文，那可能就是最大的护城河。 因为你想，现在你可以在微信里使用 AI。它不必是最聪明的 AI，但它知道你的日程、朋友和活动，这就很难被取代。你可以有一个更聪明的模型，但它并不了解你是谁。 另一道护城河是信任。你是否信任 AI 了解你的数据和上下文，并采取行动？ 张亚勤： 所以你是说，Anthropic 不值两万亿美元，甚至不值一万亿美元。它总有一天会变成同质化商品，对吧？开个玩笑。别听我的建议去买股票。",
-      "url": "https://x.com/dotey/status/2119264167483850884",
-      "likes": 269
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥269"
-   },
-   {
-    "term": "memory.md",
-    "sources": [
-     "dotey"
-    ],
-    "likes": 144,
-    "examples": [
-     "@dotey: Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Clau"
-    ],
-    "posts": [
-     {
-      "account": "dotey",
-      "text": "Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Claude 设计跨会话的记忆。难点在于：Claude 得在当下决定什么值得记，可它并不知道以后会用到什么。 他们的办法是加一个后台步骤，叫“做梦”（dreaming）：会话结束后，让 Claude 回头翻原始对话记录，改掉记错的笔记，把零散笔记整理成更好找的形式。这有点像人睡觉时大脑回放白天的经历，把一部分沉淀成长期知识。 • 新模型明显更会用记忆：在一个查数据库答题的测试里，Sonnet 4.6 有记忆只从 0.330 涨到 0.364，Opus 5 从 0.564 涨到 0.828（满分 1） • 玩宝可梦红版，Sonnet 3.7 写了 413 个记忆文件，只拿到 1 枚徽章；Fable 5 只写了 10 个文件，拿到 4 枚 • 一条记错的笔记经“做梦”改正后，Claude 走出了月见山；没改的那次三次掉回原路，最后也没到下一座城 【记忆分四层】 文章给“智能体记忆”的定义是：Claude 从经历中学到、跨会话保留、存成以后能读的内容。改模型权重、单次对话里临时学到的东西、上下文快满时把旧对话压成摘要，这三种都不算。 按 Anthropic 的划分，记忆从下到上分四层：最底下是原始会话记录，可以搜索；往上是 Claude 自己写的记忆笔记；再往上是整理出来的结构，比如互相链接的 wiki；最顶层是每次开新会话就自动塞进上下文的内容。“做梦”负责把下层的东西核对、提炼，再往上送。 【会挑比记得多更重要】 宝可梦测试最能说明问题。Sonnet 3.7 觉得什么都可能有用，每场战斗、每个道具、每个路人都单独建文件，玩到 1 万步左右，记忆已有近 98 万字符。那时它开始建第四个“总”文件夹，接下来 17 步新建 6 个文件、删掉 9 个，一步游戏都没玩。 Fable 5 只记屏幕上看不到的东西。钱和位置每回合都能从画面读出来，记下来多余，还很快过期；策略和验证过的规律只有自己总结出来才存在。它用一个 global.md 当总控台，写着当前目标、打道馆的计划和自己的记忆规则。七个精灵球都没抓到鲤鱼王之后，它记下：“连续 3 球失败，就改变节奏，在菜单步骤之间多按几下等待。”Opus 5.5 用类似的小文件夹，边玩边改，最后通关。 数据库测试里，每道题都开新会话，只有记忆文件夹能带过去，答完会被告知正确答案。Sonnet 4.6 只会堆一堆没验证的猜测。Anthropic 说 Opus 5 是这批模型里第一个形成完整学习循环的：大多数笔记写了规则、怎么确认它成立、以前的答案，还有踩过的坑。 【给开发者的几条经验】 告诉 Claude 记忆是干什么的，别规定怎么记。只说一句“有个记忆文件夹可用”，Opus 4.7 和 Opus 5 就用得很好；加一条“只记录失败”，两者都丢掉了记忆带来的大部分提升。 老模型需要点拨。让 Sonnet 4.6 答题前先读记忆、并验证自己的猜测，得分从 0.364 涨到 0.641。Sonnet 5 不用提醒，10 次里有 9 次会自己先读。 自动加载的那一层要小。它每次都占 token，错一条会被带进每个会话，而且指令文件越长，模型越不容易照做。Claude Code 的自动记忆只加载 MEMORY.md 的前 200 行或 25KB，这部分当目录用，细节放在下层，留个链接。 多个 agent 并行时别写同一个文件。在一个收购合同测试里，四个 agent 同时往一张共享条款表里写，互相覆盖，57 条要点只留住 41 条。改成每份合同一页、一个 agent 负责、条款原文照抄，57 条全部保住。 【“做梦”还能建 wiki】 Anthropic 用 5 月收购的软件公司 Stainless 的约 35 万份内部文件（约 4.2 亿 token）做测试，让 Opus 5 分 128 次会话持续整理成 wiki，再回答 25 个问题。只靠 wiki，得分从 13% 涨到 48%；只靠搜索是 53%；wiki 加搜索从 54% 涨到 61%，每题还省约 2 万 token。 wiki 适合需要跨文档拼信息的问题。一组 24 题的并购问答，过半要综合多份文件，用 wiki 答对 87%，只用搜索是 73%。答案在单份文件里就能搜到的任务，wiki 没有明显帮助；有一次 wiki 写到 203KB，比 115KB 的原始文件还大。 【能不能用上】 “做梦”已经是 Claude Managed Agents（Anthropic 托管的 agent 运行服务）里的功能，目前是研究预览，要申请才能用；跨会话的记忆库功能是 beta。Anthropic 也放出了 cookbook，教开发者用自己的提示词和模型搭一套。 以上数字都来自 Anthropic 自己的测试，宝可梦的对比是每个模型各跑一次。文章也说，“做梦”要额外花算力，记忆该多久复查一次、在干活时记还是事后整理，都还没有定论。 原文：https://t.co/om01JMciNI",
-      "url": "https://x.com/dotey/status/2119269064543445168",
-      "likes": 144
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥144"
-   },
-   {
-    "term": "203kb",
-    "sources": [
-     "dotey"
-    ],
-    "likes": 144,
-    "examples": [
-     "@dotey: Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Clau"
-    ],
-    "posts": [
-     {
-      "account": "dotey",
-      "text": "Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Claude 设计跨会话的记忆。难点在于：Claude 得在当下决定什么值得记，可它并不知道以后会用到什么。 他们的办法是加一个后台步骤，叫“做梦”（dreaming）：会话结束后，让 Claude 回头翻原始对话记录，改掉记错的笔记，把零散笔记整理成更好找的形式。这有点像人睡觉时大脑回放白天的经历，把一部分沉淀成长期知识。 • 新模型明显更会用记忆：在一个查数据库答题的测试里，Sonnet 4.6 有记忆只从 0.330 涨到 0.364，Opus 5 从 0.564 涨到 0.828（满分 1） • 玩宝可梦红版，Sonnet 3.7 写了 413 个记忆文件，只拿到 1 枚徽章；Fable 5 只写了 10 个文件，拿到 4 枚 • 一条记错的笔记经“做梦”改正后，Claude 走出了月见山；没改的那次三次掉回原路，最后也没到下一座城 【记忆分四层】 文章给“智能体记忆”的定义是：Claude 从经历中学到、跨会话保留、存成以后能读的内容。改模型权重、单次对话里临时学到的东西、上下文快满时把旧对话压成摘要，这三种都不算。 按 Anthropic 的划分，记忆从下到上分四层：最底下是原始会话记录，可以搜索；往上是 Claude 自己写的记忆笔记；再往上是整理出来的结构，比如互相链接的 wiki；最顶层是每次开新会话就自动塞进上下文的内容。“做梦”负责把下层的东西核对、提炼，再往上送。 【会挑比记得多更重要】 宝可梦测试最能说明问题。Sonnet 3.7 觉得什么都可能有用，每场战斗、每个道具、每个路人都单独建文件，玩到 1 万步左右，记忆已有近 98 万字符。那时它开始建第四个“总”文件夹，接下来 17 步新建 6 个文件、删掉 9 个，一步游戏都没玩。 Fable 5 只记屏幕上看不到的东西。钱和位置每回合都能从画面读出来，记下来多余，还很快过期；策略和验证过的规律只有自己总结出来才存在。它用一个 global.md 当总控台，写着当前目标、打道馆的计划和自己的记忆规则。七个精灵球都没抓到鲤鱼王之后，它记下：“连续 3 球失败，就改变节奏，在菜单步骤之间多按几下等待。”Opus 5.5 用类似的小文件夹，边玩边改，最后通关。 数据库测试里，每道题都开新会话，只有记忆文件夹能带过去，答完会被告知正确答案。Sonnet 4.6 只会堆一堆没验证的猜测。Anthropic 说 Opus 5 是这批模型里第一个形成完整学习循环的：大多数笔记写了规则、怎么确认它成立、以前的答案，还有踩过的坑。 【给开发者的几条经验】 告诉 Claude 记忆是干什么的，别规定怎么记。只说一句“有个记忆文件夹可用”，Opus 4.7 和 Opus 5 就用得很好；加一条“只记录失败”，两者都丢掉了记忆带来的大部分提升。 老模型需要点拨。让 Sonnet 4.6 答题前先读记忆、并验证自己的猜测，得分从 0.364 涨到 0.641。Sonnet 5 不用提醒，10 次里有 9 次会自己先读。 自动加载的那一层要小。它每次都占 token，错一条会被带进每个会话，而且指令文件越长，模型越不容易照做。Claude Code 的自动记忆只加载 MEMORY.md 的前 200 行或 25KB，这部分当目录用，细节放在下层，留个链接。 多个 agent 并行时别写同一个文件。在一个收购合同测试里，四个 agent 同时往一张共享条款表里写，互相覆盖，57 条要点只留住 41 条。改成每份合同一页、一个 agent 负责、条款原文照抄，57 条全部保住。 【“做梦”还能建 wiki】 Anthropic 用 5 月收购的软件公司 Stainless 的约 35 万份内部文件（约 4.2 亿 token）做测试，让 Opus 5 分 128 次会话持续整理成 wiki，再回答 25 个问题。只靠 wiki，得分从 13% 涨到 48%；只靠搜索是 53%；wiki 加搜索从 54% 涨到 61%，每题还省约 2 万 token。 wiki 适合需要跨文档拼信息的问题。一组 24 题的并购问答，过半要综合多份文件，用 wiki 答对 87%，只用搜索是 73%。答案在单份文件里就能搜到的任务，wiki 没有明显帮助；有一次 wiki 写到 203KB，比 115KB 的原始文件还大。 【能不能用上】 “做梦”已经是 Claude Managed Agents（Anthropic 托管的 agent 运行服务）里的功能，目前是研究预览，要申请才能用；跨会话的记忆库功能是 beta。Anthropic 也放出了 cookbook，教开发者用自己的提示词和模型搭一套。 以上数字都来自 Anthropic 自己的测试，宝可梦的对比是每个模型各跑一次。文章也说，“做梦”要额外花算力，记忆该多久复查一次、在干活时记还是事后整理，都还没有定论。 原文：https://t.co/om01JMciNI",
-      "url": "https://x.com/dotey/status/2119269064543445168",
-      "likes": 144
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥144"
-   },
-   {
-    "term": "115kb",
-    "sources": [
-     "dotey"
-    ],
-    "likes": 144,
-    "examples": [
-     "@dotey: Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Clau"
-    ],
-    "posts": [
-     {
-      "account": "dotey",
-      "text": "Anthropic 拆解智能体记忆：Claude 边干边记，再靠“做梦”回头纠错整理 Anthropic 工程团队 11 月 6 日发文，讲他们怎么给 Claude 设计跨会话的记忆。难点在于：Claude 得在当下决定什么值得记，可它并不知道以后会用到什么。 他们的办法是加一个后台步骤，叫“做梦”（dreaming）：会话结束后，让 Claude 回头翻原始对话记录，改掉记错的笔记，把零散笔记整理成更好找的形式。这有点像人睡觉时大脑回放白天的经历，把一部分沉淀成长期知识。 • 新模型明显更会用记忆：在一个查数据库答题的测试里，Sonnet 4.6 有记忆只从 0.330 涨到 0.364，Opus 5 从 0.564 涨到 0.828（满分 1） • 玩宝可梦红版，Sonnet 3.7 写了 413 个记忆文件，只拿到 1 枚徽章；Fable 5 只写了 10 个文件，拿到 4 枚 • 一条记错的笔记经“做梦”改正后，Claude 走出了月见山；没改的那次三次掉回原路，最后也没到下一座城 【记忆分四层】 文章给“智能体记忆”的定义是：Claude 从经历中学到、跨会话保留、存成以后能读的内容。改模型权重、单次对话里临时学到的东西、上下文快满时把旧对话压成摘要，这三种都不算。 按 Anthropic 的划分，记忆从下到上分四层：最底下是原始会话记录，可以搜索；往上是 Claude 自己写的记忆笔记；再往上是整理出来的结构，比如互相链接的 wiki；最顶层是每次开新会话就自动塞进上下文的内容。“做梦”负责把下层的东西核对、提炼，再往上送。 【会挑比记得多更重要】 宝可梦测试最能说明问题。Sonnet 3.7 觉得什么都可能有用，每场战斗、每个道具、每个路人都单独建文件，玩到 1 万步左右，记忆已有近 98 万字符。那时它开始建第四个“总”文件夹，接下来 17 步新建 6 个文件、删掉 9 个，一步游戏都没玩。 Fable 5 只记屏幕上看不到的东西。钱和位置每回合都能从画面读出来，记下来多余，还很快过期；策略和验证过的规律只有自己总结出来才存在。它用一个 global.md 当总控台，写着当前目标、打道馆的计划和自己的记忆规则。七个精灵球都没抓到鲤鱼王之后，它记下：“连续 3 球失败，就改变节奏，在菜单步骤之间多按几下等待。”Opus 5.5 用类似的小文件夹，边玩边改，最后通关。 数据库测试里，每道题都开新会话，只有记忆文件夹能带过去，答完会被告知正确答案。Sonnet 4.6 只会堆一堆没验证的猜测。Anthropic 说 Opus 5 是这批模型里第一个形成完整学习循环的：大多数笔记写了规则、怎么确认它成立、以前的答案，还有踩过的坑。 【给开发者的几条经验】 告诉 Claude 记忆是干什么的，别规定怎么记。只说一句“有个记忆文件夹可用”，Opus 4.7 和 Opus 5 就用得很好；加一条“只记录失败”，两者都丢掉了记忆带来的大部分提升。 老模型需要点拨。让 Sonnet 4.6 答题前先读记忆、并验证自己的猜测，得分从 0.364 涨到 0.641。Sonnet 5 不用提醒，10 次里有 9 次会自己先读。 自动加载的那一层要小。它每次都占 token，错一条会被带进每个会话，而且指令文件越长，模型越不容易照做。Claude Code 的自动记忆只加载 MEMORY.md 的前 200 行或 25KB，这部分当目录用，细节放在下层，留个链接。 多个 agent 并行时别写同一个文件。在一个收购合同测试里，四个 agent 同时往一张共享条款表里写，互相覆盖，57 条要点只留住 41 条。改成每份合同一页、一个 agent 负责、条款原文照抄，57 条全部保住。 【“做梦”还能建 wiki】 Anthropic 用 5 月收购的软件公司 Stainless 的约 35 万份内部文件（约 4.2 亿 token）做测试，让 Opus 5 分 128 次会话持续整理成 wiki，再回答 25 个问题。只靠 wiki，得分从 13% 涨到 48%；只靠搜索是 53%；wiki 加搜索从 54% 涨到 61%，每题还省约 2 万 token。 wiki 适合需要跨文档拼信息的问题。一组 24 题的并购问答，过半要综合多份文件，用 wiki 答对 87%，只用搜索是 73%。答案在单份文件里就能搜到的任务，wiki 没有明显帮助；有一次 wiki 写到 203KB，比 115KB 的原始文件还大。 【能不能用上】 “做梦”已经是 Claude Managed Agents（Anthropic 托管的 agent 运行服务）里的功能，目前是研究预览，要申请才能用；跨会话的记忆库功能是 beta。Anthropic 也放出了 cookbook，教开发者用自己的提示词和模型搭一套。 以上数字都来自 Anthropic 自己的测试，宝可梦的对比是每个模型各跑一次。文章也说，“做梦”要额外花算力，记忆该多久复查一次、在干活时记还是事后整理，都还没有定论。 原文：https://t.co/om01JMciNI",
-      "url": "https://x.com/dotey/status/2119269064543445168",
-      "likes": 144
-     }
-    ],
-    "recent": 1,
-    "note": "X 1 个账号 ♥144"
-   }
-  ],
-  "seconds": 31
+  "terms": [],
+  "seconds": 9
  },
  "hf": {
   "first_run": false,
@@ -1158,10 +822,10 @@
     "repo": "storytold/craft-anything",
     "owner": "storytold",
     "name": "craft-anything",
-    "stars": 21879,
-    "velocity": 2752,
-    "delta": 2287,
-    "age_days": 8.0,
+    "stars": 23557,
+    "velocity": 2679,
+    "delta": 1678,
+    "age_days": 8.8,
     "description": "Craft Anything: understand how any software works, and craft your own.",
     "new": false
    },
@@ -1169,262 +833,264 @@
     "repo": "deepseek-ai/dsh-superagent-prototype",
     "owner": "deepseek-ai",
     "name": "dsh-superagent-prototype",
-    "stars": 21066,
-    "velocity": 2578,
-    "delta": 446,
-    "age_days": 8.2,
+    "stars": 21535,
+    "velocity": 2389,
+    "delta": 469,
+    "age_days": 9.0,
     "description": "Towards a More Autonomous Agent System",
     "new": false
    },
    {
-    "repo": "ccch1mneyyy/dsh-Go",
-    "owner": "ccch1mneyyy",
-    "name": "dsh-Go",
-    "stars": 15543,
-    "velocity": 1092,
-    "delta": 1798,
-    "age_days": 14.2,
-    "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-    "new": false
-   },
-   {
-    "repo": "zortos293/Lichii",
-    "owner": "zortos293",
-    "name": "Lichii",
-    "stars": 6363,
-    "velocity": 798,
-    "delta": 1679,
-    "age_days": 8.0,
-    "description": "VERY experimental Nintendo Switch 2 emulator",
-    "new": false
-   },
-   {
-    "repo": "NotRexed/Hookshot",
-    "owner": "NotRexed",
-    "name": "Hookshot",
-    "stars": 2379,
-    "velocity": 779,
-    "delta": 1381,
-    "age_days": 3.1,
-    "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+    "repo": "anefzaoui/misterdownloadmanager",
+    "owner": "anefzaoui",
+    "name": "misterdownloadmanager",
+    "stars": 2625,
+    "velocity": 231,
+    "delta": 2165,
+    "age_days": 11.4,
+    "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windo",
     "new": true,
     "variants": [
-     "hookshot",
-     "notrexed hookshot"
-    ]
-   },
-   {
-    "repo": "heydamir/unslop",
-    "owner": "heydamir",
-    "name": "unslop",
-    "stars": 11668,
-    "velocity": 1177,
-    "delta": 563,
-    "age_days": 9.9,
-    "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-    "new": false
-   },
-   {
-    "repo": "JenkinWoo/sheeridVerify",
-    "owner": "JenkinWoo",
-    "name": "sheeridVerify",
-    "stars": 1821,
-    "velocity": 838,
-    "delta": 413,
-    "age_days": 2.2,
-    "description": "",
-    "new": false
-   },
-   {
-    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-    "owner": "worldonlyu",
-    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
-    "stars": 3192,
-    "velocity": 809,
-    "delta": 190,
-    "age_days": 3.9,
-    "description": "Google_AI_Pro_2Year_ZeroCost_Auto",
-    "new": false
-   },
-   {
-    "repo": "sarpstar/cinecode",
-    "owner": "sarpstar",
-    "name": "cinecode",
-    "stars": 1320,
-    "velocity": 257,
-    "delta": 796,
-    "age_days": 5.1,
-    "description": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the ",
-    "new": true,
-    "variants": [
-     "cinecode",
-     "sarpstar cinecode"
+     "misterdownloadmanager",
+     "anefzaoui misterdownloadmanager",
+     "ahmed misterdownloadmanager"
     ]
    },
    {
     "repo": "Minireel/HGhub",
     "owner": "Minireel",
     "name": "HGhub",
-    "stars": 2750,
-    "velocity": 552,
-    "delta": 784,
-    "age_days": 5.0,
+    "stars": 4543,
+    "velocity": 780,
+    "delta": 1793,
+    "age_days": 5.8,
     "description": "YellowFruit third-party client",
     "new": false
    },
    {
-    "repo": "Th0rgal/satmux",
-    "owner": "Th0rgal",
-    "name": "satmux",
-    "stars": 779,
-    "velocity": 779,
+    "repo": "NotRexed/Hookshot",
+    "owner": "NotRexed",
+    "name": "Hookshot",
+    "stars": 3590,
+    "velocity": 921,
+    "delta": 1211,
+    "age_days": 3.9,
+    "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+    "new": false
+   },
+   {
+    "repo": "heydamir/unslop",
+    "owner": "heydamir",
+    "name": "unslop",
+    "stars": 12293,
+    "velocity": 1143,
+    "delta": 625,
+    "age_days": 10.8,
+    "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+    "new": false
+   },
+   {
+    "repo": "JuneYaooo/rea-video",
+    "owner": "JuneYaooo",
+    "name": "rea-video",
+    "stars": 5018,
+    "velocity": 467,
+    "delta": 1027,
+    "age_days": 10.7,
+    "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代",
+    "new": false
+   },
+   {
+    "repo": "jhaizhou-ops/S2Arm",
+    "owner": "jhaizhou-ops",
+    "name": "S2Arm",
+    "stars": 1172,
+    "velocity": 1003,
     "delta": null,
-    "age_days": 1.0,
-    "description": "Accelerate high-latency GEO inflight Wi-Fi via warm BBR TCP multiplexing + 1-RTT Ground-TLS + zlib (zero dependencies)",
+    "age_days": 1.2,
+    "description": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one ",
     "new": true,
     "variants": [
-     "satmux",
-     "th0rgal satmux",
-     "thomas satmux"
+     "s2arm",
+     "jhaizhou-ops s2arm"
     ]
-   },
-   {
-    "repo": "KKKKhazix/agent-autoloop",
-    "owner": "KKKKhazix",
-    "name": "agent-autoloop",
-    "stars": 4054,
-    "velocity": 775,
-    "delta": 169,
-    "age_days": 5.2,
-    "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-    "new": false
-   },
-   {
-    "repo": "wangzan101/Mika",
-    "owner": "wangzan101",
-    "name": "Mika",
-    "stars": 7691,
-    "velocity": 772,
-    "delta": 168,
-    "age_days": 10.0,
-    "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-    "new": false
    },
    {
     "repo": "tangerineturtle1/NX2navi",
     "owner": "tangerineturtle1",
     "name": "NX2navi",
-    "stars": 745,
-    "velocity": 647,
-    "delta": null,
-    "age_days": 1.2,
+    "stars": 1702,
+    "velocity": 854,
+    "delta": 957,
+    "age_days": 2.0,
     "description": "",
+    "new": false
+   },
+   {
+    "repo": "zortos293/Lichii",
+    "owner": "zortos293",
+    "name": "Lichii",
+    "stars": 7121,
+    "velocity": 808,
+    "delta": 758,
+    "age_days": 8.8,
+    "description": "VERY experimental Nintendo Switch 2 emulator",
+    "new": false
+   },
+   {
+    "repo": "DIYgod/pinky",
+    "owner": "DIYgod",
+    "name": "pinky",
+    "stars": 1210,
+    "velocity": 447,
+    "delta": 739,
+    "age_days": 2.7,
+    "description": "Let AI agents use your phone, with you in the loop.",
     "new": true,
     "variants": [
-     "nx2navi",
-     "tangerineturtle1 nx2navi"
+     "pinky",
+     "diygod pinky"
     ]
    },
    {
-    "repo": "patch-gg/pixelfx",
-    "owner": "patch-gg",
-    "name": "pixelfx",
-    "stars": 5998,
-    "velocity": 646,
-    "delta": 259,
-    "age_days": 9.3,
-    "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+    "repo": "wangzan101/Mika",
+    "owner": "wangzan101",
+    "name": "Mika",
+    "stars": 7837,
+    "velocity": 725,
+    "delta": 146,
+    "age_days": 10.8,
+    "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
     "new": false
+   },
+   {
+    "repo": "KKKKhazix/agent-autoloop",
+    "owner": "KKKKhazix",
+    "name": "agent-autoloop",
+    "stars": 4214,
+    "velocity": 693,
+    "delta": 160,
+    "age_days": 6.1,
+    "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+    "new": false
+   },
+   {
+    "repo": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+    "owner": "worldonlyu",
+    "name": "Google_AI_Pro_2Year_ZeroCost_Auto",
+    "stars": 3317,
+    "velocity": 692,
+    "delta": 125,
+    "age_days": 4.8,
+    "description": "Google_AI_Pro_2Year_ZeroCost_Auto",
+    "new": false
+   },
+   {
+    "repo": "shanselman/gputaskman",
+    "owner": "shanselman",
+    "name": "gputaskman",
+    "stars": 1272,
+    "velocity": 199,
+    "delta": 633,
+    "age_days": 6.4,
+    "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows",
+    "new": true,
+    "variants": [
+     "gputaskman",
+     "shanselman gputaskman",
+     "scott gputaskman"
+    ]
    }
   ],
   "terms": [
    {
-    "term": "hookshot",
+    "term": "misterdownloadmanager",
     "recent": 1,
     "variants": [
-     "hookshot",
-     "notrexed hookshot"
+     "misterdownloadmanager",
+     "anefzaoui misterdownloadmanager",
+     "ahmed misterdownloadmanager"
     ],
-    "repo": "NotRexed/Hookshot",
-    "note": "GitHub 爆发 NotRexed/Hookshot ★2379(均 779/天,一天 +1381)",
+    "repo": "anefzaoui/misterdownloadmanager",
+    "note": "GitHub 爆发 anefzaoui/misterdownloadmanager ★2625(均 231/天,一天 +2165)",
     "examples": [
-     "NotRexed/Hookshot: A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake"
+     "anefzaoui/misterdownloadmanager: misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windo"
     ]
    },
    {
-    "term": "cinecode",
+    "term": "s2arm",
     "recent": 1,
     "variants": [
-     "cinecode",
-     "sarpstar cinecode"
+     "s2arm",
+     "jhaizhou-ops s2arm"
     ],
-    "repo": "sarpstar/cinecode",
-    "note": "GitHub 爆发 sarpstar/cinecode ★1320(均 257/天,一天 +796)",
+    "repo": "jhaizhou-ops/S2Arm",
+    "note": "GitHub 爆发 jhaizhou-ops/S2Arm ★1172(均 1003/天)",
     "examples": [
-     "sarpstar/cinecode: Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the "
+     "jhaizhou-ops/S2Arm: Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one "
     ]
    },
    {
-    "term": "satmux",
+    "term": "pinky",
     "recent": 1,
     "variants": [
-     "satmux",
-     "th0rgal satmux",
-     "thomas satmux"
+     "pinky",
+     "diygod pinky"
     ],
-    "repo": "Th0rgal/satmux",
-    "note": "GitHub 爆发 Th0rgal/satmux ★779(均 779/天)",
+    "repo": "DIYgod/pinky",
+    "note": "GitHub 爆发 DIYgod/pinky ★1210(均 447/天,一天 +739)",
     "examples": [
-     "Th0rgal/satmux: Accelerate high-latency GEO inflight Wi-Fi via warm BBR TCP multiplexing + 1-RTT Ground-TLS + zlib (zero dependencies)"
+     "DIYgod/pinky: Let AI agents use your phone, with you in the loop."
     ]
    },
    {
-    "term": "nx2navi",
+    "term": "gputaskman",
     "recent": 1,
     "variants": [
-     "nx2navi",
-     "tangerineturtle1 nx2navi"
+     "gputaskman",
+     "shanselman gputaskman",
+     "scott gputaskman"
     ],
-    "repo": "tangerineturtle1/NX2navi",
-    "note": "GitHub 爆发 tangerineturtle1/NX2navi ★745(均 647/天)",
+    "repo": "shanselman/gputaskman",
+    "note": "GitHub 爆发 shanselman/gputaskman ★1272(均 199/天,一天 +633)",
     "examples": [
-     "tangerineturtle1/NX2navi: "
+     "shanselman/gputaskman: A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows"
     ]
    }
   ],
   "window_days": 14,
-  "seconds": 15
+  "seconds": 8
  },
  "sitemap": {
   "sites": {
    "glama": {
-    "urls": 159730,
-    "new": 959,
+    "urls": 160763,
+    "new": 1052,
     "first_run": false,
     "sample": [
-     "https://glama.ai/mcp/connectors/agency.granek.signal/signal",
-     "https://glama.ai/mcp/connectors/ai.aimochi/notes",
-     "https://glama.ai/mcp/connectors/ai.campaignpack/campaignpack",
-     "https://glama.ai/mcp/connectors/ai.clickpop/click-pop",
-     "https://glama.ai/mcp/connectors/ai.dayora/dayora",
-     "https://glama.ai/mcp/connectors/ai.dispatchmind/find",
-     "https://glama.ai/mcp/connectors/ai.flamigo/presentation",
-     "https://glama.ai/mcp/connectors/ai.grepped/marketplace"
+     "https://glama.ai/mcp/connectors/academy.serviceengineer/se-ai",
+     "https://glama.ai/mcp/connectors/ai.aiadvisorlab/teamops",
+     "https://glama.ai/mcp/connectors/ai.cognitolabs/cognitolabs",
+     "https://glama.ai/mcp/connectors/ai.humansfix/humansfix",
+     "https://glama.ai/mcp/connectors/ai.kojen/kojen",
+     "https://glama.ai/mcp/connectors/ai.mempipe/mempipe",
+     "https://glama.ai/mcp/connectors/ai.monity/monity",
+     "https://glama.ai/mcp/connectors/ai.rankspot/seo"
     ]
    },
    "mcp.so": {
-    "urls": 20045,
-    "new": 133,
+    "urls": 20125,
+    "new": 86,
     "first_run": false,
     "sample": [
-     "https://mcp.so/agents/wiro-ai",
-     "https://mcp.so/cli/canva-cli",
-     "https://mcp.so/grok-bot/ai-search-visibility",
-     "https://mcp.so/grok-bot/clip-bot",
-     "https://mcp.so/grok-bot/competitor-watch",
-     "https://mcp.so/grok-bot/credit-card-max",
-     "https://mcp.so/grok-bot/critiquito",
-     "https://mcp.so/grok-bot/dr-eggbot-v2"
+     "https://mcp.so/clients/ticketsdata",
+     "https://mcp.so/grok-bot/deal-qualification",
+     "https://mcp.so/grok-bot/marketing-analyst",
+     "https://mcp.so/servers/agent-anvilads-app",
+     "https://mcp.so/servers/agent-company-mcp",
+     "https://mcp.so/servers/agentwallet-mcp",
+     "https://mcp.so/servers/agy-nexus-mcp",
+     "https://mcp.so/servers/ai-training-data-quality-mcp"
     ]
    },
    "lobehub-mcp": {
@@ -1453,11 +1119,16 @@
    },
    "ai-bot.cn": {
     "urls": 5068,
-    "new": 2,
+    "new": 7,
     "first_run": false,
     "sample": [
-     "https://ai-bot.cn/qoder-cn-tutorial/",
-     "https://ai-bot.cn/qoduck/"
+     "https://ai-bot.cn/apollo-world/",
+     "https://ai-bot.cn/comfytv/",
+     "https://ai-bot.cn/eciyuan/",
+     "https://ai-bot.cn/onebox/",
+     "https://ai-bot.cn/sandbase/",
+     "https://ai-bot.cn/so-qq/",
+     "https://ai-bot.cn/verispoof/"
     ]
    },
    "opentools": {
@@ -1467,18 +1138,18 @@
     "sample": []
    },
    "dang": {
-    "urls": 7848,
-    "new": 19,
+    "urls": 7865,
+    "new": 21,
     "first_run": false,
     "sample": [
-     "https://dang.ai/tool/13f-chat-13f-holdings-ai-copilot",
-     "https://dang.ai/tool/360-panorama-image-generator-panopulse-com",
-     "https://dang.ai/tool/abbi-labs-ai-app-security-scanner",
-     "https://dang.ai/tool/agent-kit-repo-audit-ai-coding-agent-instruction-kit",
-     "https://dang.ai/tool/book-cover-generator-ai-book-cover-generator",
-     "https://dang.ai/tool/candy-ai-alternatives-ai-companion-alternatives",
-     "https://dang.ai/tool/codeformer-io-ai-photo-restoration",
-     "https://dang.ai/tool/ecomgen-ai-fashion-campaign-builder"
+     "https://dang.ai/tool/ai-effects-ai-video-effects",
+     "https://dang.ai/tool/brizy",
+     "https://dang.ai/tool/clearmeet-ai-meeting-assistant",
+     "https://dang.ai/tool/codex-reset-watch-codex-usage-reset-tracker",
+     "https://dang.ai/tool/coldcrow-ai-cold-email-generator",
+     "https://dang.ai/tool/customerflows-ai-lead-qualification-crm",
+     "https://dang.ai/tool/elento-digital-free-ai-stock-photos",
+     "https://dang.ai/tool/flecty-ai-voice-journal"
     ]
    },
    "clipfly": {
@@ -1489,624 +1160,605 @@
    },
    "aitoptools": {
     "urls": 11902,
-    "new": 3,
+    "new": 1,
     "first_run": false,
     "sample": [
-     "https://aitoptools.com/tool/china-employee-cost-calculator-2026/",
-     "https://aitoptools.com/tool/lerk-ai/",
-     "https://aitoptools.com/tool/profilefinder-ai/"
+     "https://aitoptools.com/tool/china-employee-cost-calculator/"
     ]
    },
    "futurepedia": {
     "urls": 2497,
-    "new": 0,
+    "new": 1,
     "first_run": false,
-    "sample": []
+    "sample": [
+     "https://www.futurepedia.io/tool/phedra-x"
+    ]
    }
   },
   "terms": [
    {
-    "term": "io.github.theluckystrike",
-    "recent": 104,
-    "baseline": 201,
-    "lift": 50.9
-   },
-   {
-    "term": "connectors io.github.theluckystrike",
-    "recent": 104,
-    "baseline": 201,
-    "lift": 50.9
-   },
-   {
-    "term": "io.github.itsryanarmani",
-    "recent": 41,
+    "term": "jannikco",
+    "recent": 125,
     "baseline": 0,
-    "lift": 41.0
+    "lift": 125.0
    },
    {
-    "term": "connectors io.github.itsryanarmani",
-    "recent": 41,
+    "term": "jurisatlas",
+    "recent": 42,
     "baseline": 0,
-    "lift": 41.0
+    "lift": 42.0
    },
    {
-    "term": "itsryanarmani",
-    "recent": 20,
+    "term": "jurisatlas legal",
+    "recent": 42,
     "baseline": 0,
-    "lift": 20.0
+    "lift": 42.0
    },
    {
-    "term": "connectors io.usefulapi",
-    "recent": 93,
-    "baseline": 791,
-    "lift": 18.2
-   },
-   {
-    "term": "grok",
-    "recent": 35,
-    "baseline": 202,
-    "lift": 17.1
-   },
-   {
-    "term": "itsryanarmani benchmark",
-    "recent": 14,
-    "baseline": 0,
-    "lift": 14.0
-   },
-   {
-    "term": "io.github.bumiatlas",
-    "recent": 12,
-    "baseline": 33,
-    "lift": 10.2
-   },
-   {
-    "term": "connectors io.github.bumiatlas",
-    "recent": 12,
-    "baseline": 33,
-    "lift": 10.2
-   },
-   {
-    "term": "io.github.bumi",
-    "recent": 12,
-    "baseline": 33,
-    "lift": 10.2
-   },
-   {
-    "term": "io.github.miradero",
-    "recent": 10,
-    "baseline": 0,
-    "lift": 10.0
-   },
-   {
-    "term": "connectors io.github.miradero",
-    "recent": 10,
-    "baseline": 0,
-    "lift": 10.0
+    "term": "legal",
+    "recent": 43,
+    "baseline": 184,
+    "lift": 21.6
    },
    {
     "term": "cotlet connect",
-    "recent": 10,
-    "baseline": 9,
-    "lift": 9.6
+    "recent": 20,
+    "baseline": 19,
+    "lift": 18.1
    },
    {
-    "term": "atlas",
-    "recent": 19,
-    "baseline": 275,
-    "lift": 7.8
+    "term": "com.a2awire benchmark",
+    "recent": 12,
+    "baseline": 53,
+    "lift": 9.3
    },
    {
-    "term": "diagram",
-    "recent": 8,
-    "baseline": 49,
-    "lift": 6.4
+    "term": "connect",
+    "recent": 21,
+    "baseline": 246,
+    "lift": 9.0
    },
    {
-    "term": "com.yazilimkocu",
-    "recent": 6,
+    "term": "com.a2awire",
+    "recent": 13,
+    "baseline": 120,
+    "lift": 7.9
+   },
+   {
+    "term": "connectors com.a2awire",
+    "recent": 13,
+    "baseline": 120,
+    "lift": 7.9
+   },
+   {
+    "term": "connectors com.tidewellsoftware",
+    "recent": 7,
     "baseline": 0,
-    "lift": 6.0
+    "lift": 7.0
    },
    {
-    "term": "connectors com.yazilimkocu",
-    "recent": 6,
-    "baseline": 0,
-    "lift": 6.0
+    "term": "io.github.morvanvivien bibian",
+    "recent": 7,
+    "baseline": 1,
+    "lift": 7.0
    },
    {
-    "term": "thua",
-    "recent": 6,
-    "baseline": 0,
-    "lift": 6.0
+    "term": "connectors io.github.morvanvivien",
+    "recent": 7,
+    "baseline": 1,
+    "lift": 7.0
    },
    {
-    "term": "thua dat",
-    "recent": 6,
-    "baseline": 0,
-    "lift": 6.0
+    "term": "assignment",
+    "recent": 7,
+    "baseline": 12,
+    "lift": 6.6
    },
    {
-    "term": "io.github.bumiatlas thua",
-    "recent": 6,
-    "baseline": 0,
-    "lift": 6.0
-   },
-   {
-    "term": "io.github.theluckystrike pdf",
-    "recent": 6,
-    "baseline": 5,
-    "lift": 5.8
-   },
-   {
-    "term": "connectors io.github.justiceua",
+    "term": "jannikco google",
     "recent": 5,
-    "baseline": 10,
-    "lift": 4.8
+    "baseline": 0,
+    "lift": 5.0
    },
    {
-    "term": "io.github.justice",
+    "term": "saledream",
     "recent": 5,
-    "baseline": 10,
-    "lift": 4.8
+    "baseline": 0,
+    "lift": 5.0
    },
    {
-    "term": "company check",
+    "term": "jobs",
+    "recent": 11,
+    "baseline": 271,
+    "lift": 4.5
+   },
+   {
+    "term": "garmin",
+    "recent": 9,
+    "baseline": 210,
+    "lift": 4.2
+   },
+   {
+    "term": "io.github.bosco",
+    "recent": 4,
+    "baseline": 1,
+    "lift": 4.0
+   },
+   {
+    "term": "io.github.bosco labs",
+    "recent": 4,
+    "baseline": 1,
+    "lift": 4.0
+   },
+   {
+    "term": "connectors io.github.bosco",
+    "recent": 4,
+    "baseline": 1,
+    "lift": 4.0
+   },
+   {
+    "term": "arhancanli",
+    "recent": 4,
+    "baseline": 26,
+    "lift": 3.5
+   },
+   {
+    "term": "mambalabsdev",
     "recent": 5,
-    "baseline": 13,
-    "lift": 4.7
+    "baseline": 108,
+    "lift": 3.2
+   },
+   {
+    "term": "workshop",
+    "recent": 4,
+    "baseline": 48,
+    "lift": 3.2
+   },
+   {
+    "term": "connectors com.apify.mcp",
+    "recent": 4,
+    "baseline": 53,
+    "lift": 3.1
+   },
+   {
+    "term": "ats",
+    "recent": 4,
+    "baseline": 54,
+    "lift": 3.1
    }
   ],
-  "seconds": 278
+  "seconds": 226
  },
  "newsite": {
-  "skipped": true
+  "error": "AisaError: ai: HTTP 402: {\"error\":{\"code\":\"insufficient_wallet_balance\",\"message\":\"The wallet balance is insufficient. Top up at https://console.aisa.one/billing.\",\"retrya",
+  "seconds": 1
  },
  "revenue": {
-  "skipped": true
+  "skipped": true,
+  "no_key": true,
+  "seconds": 0
  },
  "ask": {
-  "skipped": true
+  "read": 181,
+  "asks": 0,
+  "unsized": 0,
+  "rows": [],
+  "quiet": [],
+  "terms": [],
+  "errors": [
+   "\"any ai tool for\": URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+   "\"i wish there was a tool\": URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+   "\"best ai tool for\": URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+   "\"ai tool that can\": URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+   "HTTP 402: {\"error\":{\"message\":\"insufficient wallet balance\",\"type\":\"invalid_request_error\"},\"organization_name\":\"Halo Z\"}",
+   "HTTP 402: {\"error\":{\"message\":\"insufficient wallet balance\",\"type\":\"invalid_request_error\"},\"organization_name\":\"Halo Z\"}",
+   "HTTP 402: {\"error\":{\"message\":\"insufficient wallet balance\",\"type\":\"invalid_request_error\"},\"organization_name\":\"Halo Z\"}",
+   "HTTP 402: {\"error\":{\"message\":\"insufficient wallet balance\",\"type\":\"invalid_request_error\"},\"organization_name\":\"Halo Z\"}",
+   "HTTP 402: {\"error\":{\"message\":\"insufficient wallet balance\",\"type\":\"invalid_request_error\"},\"organization_name\":\"Halo Z\"}",
+   "HTTP 402: {\"error\":{\"message\":\"insufficient wallet balance\",\"type\":\"invalid_request_error\"},\"organization_name\":\"Halo Z\"}",
+   "HTTP 402: {\"error\":{\"message\":\"insufficient wallet balance\",\"type\":\"invalid_request_error\"},\"organization_name\":\"Halo Z\"}",
+   "HTTP 402: {\"error\":{\"message\":\"insufficient wallet balance\",\"type\":\"invalid_request_error\"},\"organization_name\":\"Halo Z\"}",
+   "HTTP 402: {\"error\":{\"message\":\"insufficient wallet balance\",\"type\":\"invalid_request_error\"},\"organization_name\":\"Halo Z\"}",
+   "HTTP 402: {\"error\":{\"message\":\"insufficient wallet balance\",\"type\":\"invalid_request_error\"},\"organization_name\":\"Halo Z\"}"
+  ],
+  "cost_micros": 0,
+  "seconds": 50
  },
  "seller": {
-  "skipped": true
+  "links": 0,
+  "old": 0,
+  "new": 0,
+  "networked": 0,
+  "first_run": false,
+  "sellers": [],
+  "terms": [],
+  "errors": [
+   "polar: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+   "waffo: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+  ],
+  "kind_error": "",
+  "cost_micros": 0,
+  "platforms": [
+   "stripe",
+   "polar",
+   "lemonsqueezy",
+   "gumroad",
+   "creem",
+   "paddle",
+   "dodo",
+   "waffo"
+  ],
+  "seconds": 29
  },
  "builder": {
-  "skipped": true
+  "links": 0,
+  "old": 0,
+  "new": 0,
+  "first_run": false,
+  "sites": [],
+  "terms": [],
+  "by_kind": {
+   "ai": 0,
+   "template": 0,
+   "course": 0,
+   "content": 0,
+   "physical": 0,
+   "other": 0,
+   "donation": 0
+  },
+  "kind_error": "",
+  "errors": [
+   "lovable: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+   "v0: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+  ],
+  "cost_micros": 0,
+  "seconds": 20
  },
  "feed": {
   "read": {
    "producthunt": 50,
-   "hn": 7,
+   "hn": 4,
    "openrouter": 10,
    "appstore": 200,
-   "awesome": 4636
+   "awesome": 4636,
+   "google_new": 0
   },
   "new": {
    "producthunt": [
     {
-     "key": "https://www.producthunt.com/products/hacker-noon",
-     "name": "Deduplication",
-     "url": "https://www.producthunt.com/products/hacker-noon",
-     "about": "Which Meaning Owns the Word? Discussion | Link",
-     "fresh": false
-    },
-    {
-     "key": "https://www.producthunt.com/products/axl-2",
-     "name": "AXL",
-     "url": "https://www.producthunt.com/products/axl-2",
-     "about": "GTM copilot for AI product founders: 1,200+ actions via MCP Discussion | Link",
-     "fresh": false
-    },
-    {
-     "key": "https://www.producthunt.com/products/tinker-2",
-     "name": "Inkling 2 Small",
-     "url": "https://www.producthunt.com/products/tinker-2",
-     "about": "A model that can see and refine what it builds Discussion | Link",
+     "key": "https://www.producthunt.com/products/north-5",
+     "name": "Nörth",
+     "url": "https://www.producthunt.com/products/north-5",
+     "about": "Natural, peer-to-peer collaboration for remote work Discussion | Link",
      "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/textly-capture-copy-paste",
-     "name": "Textly",
-     "url": "https://www.producthunt.com/products/textly-capture-copy-paste",
-     "about": "Capture Text & Tables from Anywhere on Your Mac Discussion | Link",
+     "key": "https://www.producthunt.com/products/if-you-read-this",
+     "name": "If You Read This",
+     "url": "https://www.producthunt.com/products/if-you-read-this",
+     "about": "A daily check-in app that works like a dead man's switch Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/docsalot-2",
-     "name": "DocsAlot for customer support",
-     "url": "https://www.producthunt.com/products/docsalot-2",
-     "about": "Slack and Discord bot that answers your customers questions Discussion | Link",
+     "key": "https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2",
+     "name": "ProtoMap",
+     "url": "https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2",
+     "about": "Stop wasting AI tokens rediscovering dependencies Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/sagecraft",
-     "name": "Sage2 by Levanto Labs",
-     "url": "https://www.producthunt.com/products/sagecraft",
-     "about": "Turn live talk into structured data and instant actions Discussion | Link",
+     "key": "https://www.producthunt.com/products/agent-powered-geo-by-dageno",
+     "name": "Dageno AI 2.0",
+     "url": "https://www.producthunt.com/products/agent-powered-geo-by-dageno",
+     "about": "See why AI recommends your competitors instead of you Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/nomac",
-     "name": "NoMac",
-     "url": "https://www.producthunt.com/products/nomac",
-     "about": "Your AI agent's own Mac, billed per minute. No subscription Discussion | Link",
+     "key": "https://www.producthunt.com/products/pawse-ai",
+     "name": "Pawse.ai",
+     "url": "https://www.producthunt.com/products/pawse-ai",
+     "about": "Sound engineered for dogs, not humans Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/agent-clan",
-     "name": "Agent Clan",
-     "url": "https://www.producthunt.com/products/agent-clan",
-     "about": "Command your Claude Code and Codex agents with gestures Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/marble-by-world-labs",
-     "name": "Frameboy by World Labs",
-     "url": "https://www.producthunt.com/products/marble-by-world-labs",
-     "about": "Interactive world exploration with Atlas Discussion | Link",
+     "key": "https://www.producthunt.com/products/arcjet",
+     "name": "Arcjet AI security models",
+     "url": "https://www.producthunt.com/products/arcjet",
+     "about": "A family of custom-trained security models for coding agents Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/zigzag-3",
-     "name": "Zigzag Browser",
-     "url": "https://www.producthunt.com/products/zigzag-3",
-     "about": "The polished, native Mac browser for life after Arc Discussion | Link",
-     "fresh": true
+     "key": "https://www.producthunt.com/products/watchflows",
+     "name": "Watchflows",
+     "url": "https://www.producthunt.com/products/watchflows",
+     "about": "Visual automation for your Mac, with AI built in Discussion | Link",
+     "fresh": false
+    },
+    {
+     "key": "https://www.producthunt.com/products/terse-durable-actors",
+     "name": "Terse - Durable Actors",
+     "url": "https://www.producthunt.com/products/terse-durable-actors",
+     "about": "Infrastructure for Multiplayer AI Products Discussion | Link",
+     "fresh": false
+    },
+    {
+     "key": "https://www.producthunt.com/products/jotform",
+     "name": "Jotform App for Shopify",
+     "url": "https://www.producthunt.com/products/jotform",
+     "about": "Build powerful forms for your Shopify store Discussion | Link",
+     "fresh": false
+    },
+    {
+     "key": "https://www.producthunt.com/products/flic-cue",
+     "name": "Flic Cue",
+     "url": "https://www.producthunt.com/products/flic-cue",
+     "about": "The AI Voice Button: hold to talk, shake to undo, open SDKs Discussion | Link",
+     "fresh": false
     }
    ],
-   "hn": [
-    {
-     "key": "50406292",
-     "name": "Coldframe, a honeypot that poses as a supermarket fridge controller",
-     "url": "https://github.com/hedgerow-dev/coldframe",
-     "about": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
-     "score": 254,
-     "fresh": true
-    },
-    {
-     "key": "50405263",
-     "name": "We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
-     "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
-     "about": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
-     "score": 70,
-     "fresh": true
-    },
-    {
-     "key": "50408082",
-     "name": "Where Were We",
-     "url": "https://wherewerewe.app/",
-     "about": "Show HN: Where Were We",
-     "score": 47,
-     "fresh": true
-    },
-    {
-     "key": "50408350",
-     "name": "An offline desktop companion to help maintain a healthy blink rhythm",
-     "url": "https://eyesrhythm.com/",
-     "about": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
-     "score": 36,
-     "fresh": true
-    },
-    {
-     "key": "50401451",
-     "name": "Did prediction markets do any predicting this midterms?",
-     "url": "https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms",
-     "about": "Show HN: Did prediction markets do any predicting this midterms?",
-     "score": 34,
-     "fresh": true
-    },
-    {
-     "key": "50397325",
-     "name": "Agents infer Lego mechanisms from sources, then animate them",
-     "url": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
-     "about": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
-     "score": 31,
-     "fresh": true
-    }
-   ],
+   "hn": [],
    "openrouter": [],
    "appstore": [
     {
-     "key": "6806166363",
-     "name": "Openart AI Art & Image Maker",
-     "url": "https://apps.apple.com/us/app/openart-ai-art-image-maker/id6806166363?uo=2",
-     "about": "\"Openart AI Art & Image Maker turns your ideas into stunning AI art, instantly. Describe your vision, choose a style, and watch your imagination come to life in seconds. KEY FEATURES AI Art Generator:"
+     "key": "6768545062",
+     "name": "TranslateAll: Live Translator",
+     "url": "https://apps.apple.com/us/app/translateall-live-translator/id6768545062?uo=2",
+     "about": "Connect with the world around you, simply and easily. Whether you are traveling abroad, reading a foreign menu, or chatting with a new neighbor, TranslateAll is your friendly everyday companion. Desig"
     },
     {
-     "key": "6504012105",
-     "name": "Perfect Al-Me Body Tune Editor",
-     "url": "https://apps.apple.com/us/app/perfect-al-me-body-tune-editor/id6504012105?uo=2",
-     "about": "Welcome to Perfect AI-My Body Tune Editor, your AI body beautification and image generation tool! Perfect AI-My Body Tune Editor is a comprehensive image processing software designed to help you beaut"
+     "key": "6757393880",
+     "name": "Smart Printer App℠ for HP ·",
+     "url": "https://apps.apple.com/us/app/smart-printer-app-for-hp/id6757393880?uo=2",
+     "about": "Smart Printer App: Print & Scan-The One App That Connects to All Your Printers. This is the all-in-one smart printer app that finally lets you print, scan, and manage documents wirelessly from your iP"
     },
     {
-     "key": "6816359797",
-     "name": "AreaMap: Measure Land & Acres",
-     "url": "https://apps.apple.com/us/app/areamap-measure-land-acres/id6816359797?uo=2",
-     "about": "AreaMap measures the area and perimeter of any piece of land from a crisp satellite map. Tap the corners of a field, yard or lot, or walk the boundary with GPS, and see the size instantly in acres, he"
+     "key": "1491299654",
+     "name": "Insta360",
+     "url": "https://apps.apple.com/us/app/insta360/id1491299654?uo=2",
+     "about": "Insta360 cameras and handheld gimbals give creators, athletes and adventurers tools to create like they’ve never created. Whether you’re upping your shooting game with an Insta360 cameras, the Insta36"
+    },
+    {
+     "key": "6744885843",
+     "name": "CozyAI - AI Home Design",
+     "url": "https://apps.apple.com/us/app/cozyai-ai-home-design/id6744885843?uo=2",
+     "about": "Elevate your home in seconds—redesign rooms, stage properties, declutter photos, and plan beautiful outdoor spaces with Cozy AI, your personal Design Agent. Just take or upload a photo, pick a style ("
+    },
+    {
+     "key": "6467189759",
+     "name": "Themelia: Theme & Widget",
+     "url": "https://apps.apple.com/us/app/themelia-theme-widget/id6467189759?uo=2",
+     "about": "Tired of a dull Home Screen? Dive into Themelia and explore 5,000+ themes, 9,000+ wallpapers, and 12,000+ widgets! From iOS 26 styles, sports, movies, music, anime, aesthetics, Kpop, cartoons, comics,"
+    },
+    {
+     "key": "6737916371",
+     "name": "QR Code Master: Scan & Maker",
+     "url": "https://apps.apple.com/us/app/qr-code-master-scan-maker/id6737916371?uo=2",
+     "about": "Experience the Ultimate QR & Barcode Toolkit Stop wasting time with slow or unreliable scanners. QR Code Master is engineered for peak performance, providing instant results even with damaged codes, s"
     }
    ],
-   "awesome": []
+   "awesome": [],
+   "google_new": []
   },
   "first_run": [],
   "errors": [
-   "trending: HTTP 400: {\"error\":{\"code\":\"invalid_arguments\",\"details\":{\"reason\":\"unknown argument /limit\",\"session_guidance\":\"Reuse t"
+   "trending: HTTP 400: {\"error\":{\"code\":\"invalid_arguments\",\"details\":{\"reason\":\"unknown argument /limit\",\"session_guidance\":\"Reuse t",
+   "rising: HTTP 401"
   ],
   "cost_micros": 0,
   "terms": [
    {
-    "term": "deduplication",
+    "term": "nörth",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/hacker-noon",
-     "Which Meaning Owns the Word? Discussion | Link"
+     "https://www.producthunt.com/products/north-5",
+     "Natural, peer-to-peer collaboration for remote work Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Deduplication"
+     "Product Hunt: Nörth"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "axl",
+    "term": "if you read this",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/axl-2",
-     "GTM copilot for AI product founders: 1,200+ actions via MCP Discussion | Link"
+     "https://www.producthunt.com/products/if-you-read-this",
+     "A daily check-in app that works like a dead man's switch Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: AXL"
+     "Product Hunt: If You Read This"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "inkling 2 small",
+    "term": "protomap",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/tinker-2",
-     "A model that can see and refine what it builds Discussion | Link"
+     "https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2",
+     "Stop wasting AI tokens rediscovering dependencies Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Inkling 2 Small"
+     "Product Hunt: ProtoMap"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "textly",
+    "term": "dageno ai 2.0",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/textly-capture-copy-paste",
-     "Capture Text & Tables from Anywhere on Your Mac Discussion | Link"
+     "https://www.producthunt.com/products/agent-powered-geo-by-dageno",
+     "See why AI recommends your competitors instead of you Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Textly"
+     "Product Hunt: Dageno AI 2.0"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "docsalot for customer support",
+    "term": "pawse.ai",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/docsalot-2",
-     "Slack and Discord bot that answers your customers questions Discussion | Link"
+     "https://www.producthunt.com/products/pawse-ai",
+     "Sound engineered for dogs, not humans Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: DocsAlot for customer support"
+     "Product Hunt: Pawse.ai"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "sage2 by levanto labs",
+    "term": "arcjet ai security models",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/sagecraft",
-     "Turn live talk into structured data and instant actions Discussion | Link"
+     "https://www.producthunt.com/products/arcjet",
+     "A family of custom-trained security models for coding agents Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Sage2 by Levanto Labs"
+     "Product Hunt: Arcjet AI security models"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "nomac",
+    "term": "watchflows",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/nomac",
-     "Your AI agent's own Mac, billed per minute. No subscription Discussion | Link"
+     "https://www.producthunt.com/products/watchflows",
+     "Visual automation for your Mac, with AI built in Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: NoMac"
+     "Product Hunt: Watchflows"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "agent clan",
+    "term": "terse - durable actors",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/agent-clan",
-     "Command your Claude Code and Codex agents with gestures Discussion | Link"
+     "https://www.producthunt.com/products/terse-durable-actors",
+     "Infrastructure for Multiplayer AI Products Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Agent Clan"
+     "Product Hunt: Terse - Durable Actors"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "frameboy by world labs",
+    "term": "jotform app for shopify",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/marble-by-world-labs",
-     "Interactive world exploration with Atlas Discussion | Link"
+     "https://www.producthunt.com/products/jotform",
+     "Build powerful forms for your Shopify store Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Frameboy by World Labs"
+     "Product Hunt: Jotform App for Shopify"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "zigzag browser",
+    "term": "flic cue",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/zigzag-3",
-     "The polished, native Mac browser for life after Arc Discussion | Link"
+     "https://www.producthunt.com/products/flic-cue",
+     "The AI Voice Button: hold to talk, shake to undo, open SDKs Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Zigzag Browser"
+     "Product Hunt: Flic Cue"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "coldframe, a honeypot that poses as a supermarket fridge controller",
+    "term": "translateall: live translator",
     "recent": 1,
     "about": [
-     "https://github.com/hedgerow-dev/coldframe",
-     "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller"
+     "https://apps.apple.com/us/app/translateall-live-translator/id6768545062?uo=2",
+     "Connect with the world around you, simply and easily. Whether you are traveling abroad, reading a foreign menu, or chatting with a new neighbor, TranslateAll is your friendly everyday companion. Desig"
     ],
     "examples": [
-     "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "we compressed a 31b video+audio diffusion model to 14b, 6 steps, int8",
-    "recent": 1,
-    "about": [
-     "https://github.com/Video-Rebirth/hyperflow-h3-flash",
-     "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8"
-    ],
-    "examples": [
-     "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "where were we",
-    "recent": 1,
-    "about": [
-     "https://wherewerewe.app/",
-     "Show HN: Where Were We"
-    ],
-    "examples": [
-     "Show HN: Where Were We"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "an offline desktop companion to help maintain a healthy blink rhythm",
-    "recent": 1,
-    "about": [
-     "https://eyesrhythm.com/",
-     "Show HN: An offline desktop companion to help maintain a healthy blink rhythm"
-    ],
-    "examples": [
-     "Show HN: An offline desktop companion to help maintain a healthy blink rhythm"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "did prediction markets do any predicting this midterms?",
-    "recent": 1,
-    "about": [
-     "https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms",
-     "Show HN: Did prediction markets do any predicting this midterms?"
-    ],
-    "examples": [
-     "Show HN: Did prediction markets do any predicting this midterms?"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "agents infer lego mechanisms from sources, then animate them",
-    "recent": 1,
-    "about": [
-     "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
-     "Show HN: Agents infer Lego mechanisms from sources, then animate them"
-    ],
-    "examples": [
-     "Show HN: Agents infer Lego mechanisms from sources, then animate them"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "openart ai art & image maker",
-    "recent": 1,
-    "about": [
-     "https://apps.apple.com/us/app/openart-ai-art-image-maker/id6806166363?uo=2",
-     "\"Openart AI Art & Image Maker turns your ideas into stunning AI art, instantly. Describe your vision, choose a style, and watch your imagination come to life in seconds. KEY FEATURES AI Art Generator:"
-    ],
-    "examples": [
-     "App Store: Openart AI Art & Image Maker"
+     "App Store: TranslateAll: Live Translator"
     ],
     "note": "App Store 新上架"
    },
    {
-    "term": "perfect al-me body tune editor",
+    "term": "smart printer app℠ for hp ·",
     "recent": 1,
     "about": [
-     "https://apps.apple.com/us/app/perfect-al-me-body-tune-editor/id6504012105?uo=2",
-     "Welcome to Perfect AI-My Body Tune Editor, your AI body beautification and image generation tool! Perfect AI-My Body Tune Editor is a comprehensive image processing software designed to help you beaut"
+     "https://apps.apple.com/us/app/smart-printer-app-for-hp/id6757393880?uo=2",
+     "Smart Printer App: Print & Scan-The One App That Connects to All Your Printers. This is the all-in-one smart printer app that finally lets you print, scan, and manage documents wirelessly from your iP"
     ],
     "examples": [
-     "App Store: Perfect Al-Me Body Tune Editor"
+     "App Store: Smart Printer App℠ for HP ·"
     ],
     "note": "App Store 新上架"
    },
    {
-    "term": "areamap: measure land & acres",
+    "term": "insta360",
     "recent": 1,
     "about": [
-     "https://apps.apple.com/us/app/areamap-measure-land-acres/id6816359797?uo=2",
-     "AreaMap measures the area and perimeter of any piece of land from a crisp satellite map. Tap the corners of a field, yard or lot, or walk the boundary with GPS, and see the size instantly in acres, he"
+     "https://apps.apple.com/us/app/insta360/id1491299654?uo=2",
+     "Insta360 cameras and handheld gimbals give creators, athletes and adventurers tools to create like they’ve never created. Whether you’re upping your shooting game with an Insta360 cameras, the Insta36"
     ],
     "examples": [
-     "App Store: AreaMap: Measure Land & Acres"
+     "App Store: Insta360"
+    ],
+    "note": "App Store 新上架"
+   },
+   {
+    "term": "cozyai - ai home design",
+    "recent": 1,
+    "about": [
+     "https://apps.apple.com/us/app/cozyai-ai-home-design/id6744885843?uo=2",
+     "Elevate your home in seconds—redesign rooms, stage properties, declutter photos, and plan beautiful outdoor spaces with Cozy AI, your personal Design Agent. Just take or upload a photo, pick a style ("
+    ],
+    "examples": [
+     "App Store: CozyAI - AI Home Design"
+    ],
+    "note": "App Store 新上架"
+   },
+   {
+    "term": "themelia: theme & widget",
+    "recent": 1,
+    "about": [
+     "https://apps.apple.com/us/app/themelia-theme-widget/id6467189759?uo=2",
+     "Tired of a dull Home Screen? Dive into Themelia and explore 5,000+ themes, 9,000+ wallpapers, and 12,000+ widgets! From iOS 26 styles, sports, movies, music, anime, aesthetics, Kpop, cartoons, comics,"
+    ],
+    "examples": [
+     "App Store: Themelia: Theme & Widget"
+    ],
+    "note": "App Store 新上架"
+   },
+   {
+    "term": "qr code master: scan & maker",
+    "recent": 1,
+    "about": [
+     "https://apps.apple.com/us/app/qr-code-master-scan-maker/id6737916371?uo=2",
+     "Experience the Ultimate QR & Barcode Toolkit Stop wasting time with slow or unreliable scanners. QR Code Master is engineered for peak performance, providing instant results even with damaged codes, s"
+    ],
+    "examples": [
+     "App Store: QR Code Master: Scan & Maker"
     ],
     "note": "App Store 新上架"
    }
   ],
-  "seconds": 5
+  "seconds": 10
  },
  "money": {
-  "skipped": true
+  "no_key": true,
+  "portfolios": [],
+  "advertisers": [],
+  "terms": [],
+  "errors": [],
+  "cost_micros": 0,
+  "seconds": 0
  },
  "gsc": {
   "off": true,
   "seconds": 0
  },
  "review": {
-  "checked": [
-   {
-    "term": "ombre brain",
-    "first_seen": "2026-10-16",
-    "verdict": "no_data",
-    "lead_days": null
-   },
-   {
-    "term": "omnilingual asr",
-    "first_seen": "2026-10-16",
-    "verdict": "hit",
-    "lead_days": -1
-   },
-   {
-    "term": "p4mcp",
-    "first_seen": "2026-10-16",
-    "verdict": "no_data",
-    "lead_days": null
-   },
-   {
-    "term": "pingfusi",
-    "first_seen": "2026-10-16",
-    "verdict": "no_data",
-    "lead_days": null
-   },
-   {
-    "term": "play ps4 games on pc",
-    "first_seen": "2026-10-16",
-    "verdict": "hit",
-    "lead_days": -12
-   }
-  ],
-  "cost_micros": 6000,
+  "checked": [],
+  "cost_micros": 0,
   "after_days": 14,
-  "seconds": 8
+  "seconds": 3
  },
  "summary": {
   "by_signal": {
@@ -2136,474 +1788,12 @@
     "median_lead": -19.0
    }
   },
-  "pending": 531,
+  "pending": 551,
   "window_days": 60,
   "seconds": 0
  },
  "keywords": {
-  "names": [
-   "cinecode",
-   "hookshot",
-   "satmux",
-   "nx2navi",
-   "php2shell bypass aslr exp"
-  ],
-  "rows": [
-   {
-    "term": "cinecode",
-    "phrase": "cinecode",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": false,
-    "base": 0,
-    "peak": 100,
-    "peak_day": "2026-11-04",
-    "rose": true,
-    "new": true,
-    "momentum": null,
-    "started": "2026-11-04",
-    "now": "rising",
-    "peak_vs": 3,
-    "bench_level": 60.1,
-    "per_day": 5,
-    "decision": "watch",
-    "age": {
-     "first_seen": "2025-05-18",
-     "since_start": false,
-     "no_data": false,
-     "is_new": false
-    },
-    "is_new": false,
-    "markets": {
-     "by": {
-      "US": {
-       "volume": 10,
-       "kd": null
-      },
-      "DE": {
-       "volume": 10,
-       "kd": null
-      },
-      "FR": {
-       "volume": 20,
-       "kd": null
-      },
-      "JP": {
-       "volume": 10,
-       "kd": null
-      }
-     },
-     "best": "FR",
-     "top_region": null
-    },
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "eased": false,
-     "location_code": 2840,
-     "results": [],
-     "kinds": {},
-     "features": [],
-     "forums": [],
-     "weakest": null,
-     "tools": []
-    },
-    "page_age": {
-     "dated": 0,
-     "young": 0,
-     "young_sites": [],
-     "newest": "",
-     "entered": {
-      "since": "",
-      "urls": []
-     }
-    },
-    "yours": {
-     "serp": null,
-     "console": null,
-     "action": "new"
-    }
-   },
-   {
-    "term": "satmux",
-    "phrase": "satmux",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": true,
-    "peak_vs": 0,
-    "bench_level": 55.5,
-    "per_day": 0,
-    "decision": "watch",
-    "age": {
-     "first_seen": null,
-     "is_new": false,
-     "since_start": false,
-     "no_data": true
-    },
-    "is_new": false,
-    "markets": {
-     "by": {
-      "US": {
-       "volume": 0,
-       "kd": null
-      },
-      "DE": {
-       "volume": 0,
-       "kd": null
-      },
-      "FR": {
-       "volume": 0,
-       "kd": null
-      },
-      "JP": {
-       "volume": 0,
-       "kd": null
-      }
-     },
-     "best": null,
-     "top_region": null
-    },
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "eased": false,
-     "location_code": 2840,
-     "results": [],
-     "kinds": {},
-     "features": [],
-     "forums": [],
-     "weakest": null,
-     "tools": []
-    },
-    "page_age": {
-     "dated": 0,
-     "young": 0,
-     "young_sites": [],
-     "newest": "",
-     "entered": {
-      "since": "",
-      "urls": []
-     }
-    },
-    "yours": {
-     "serp": null,
-     "console": null,
-     "action": "new"
-    }
-   },
-   {
-    "term": "nx2navi",
-    "phrase": "nx2navi",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": true,
-    "peak_vs": 0,
-    "bench_level": 53.8,
-    "per_day": 0,
-    "decision": "watch",
-    "age": {
-     "first_seen": null,
-     "is_new": false,
-     "since_start": false,
-     "no_data": true
-    },
-    "is_new": false,
-    "markets": {
-     "by": {
-      "US": {
-       "volume": 0,
-       "kd": null
-      },
-      "DE": {
-       "volume": 0,
-       "kd": null
-      },
-      "FR": {
-       "volume": 0,
-       "kd": null
-      },
-      "JP": {
-       "volume": 0,
-       "kd": null
-      }
-     },
-     "best": null,
-     "top_region": null
-    },
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "eased": false,
-     "location_code": 2840,
-     "results": [],
-     "kinds": {},
-     "features": [],
-     "forums": [],
-     "weakest": null,
-     "tools": []
-    },
-    "page_age": {
-     "dated": 0,
-     "young": 0,
-     "young_sites": [],
-     "newest": "",
-     "entered": {
-      "since": "",
-      "urls": []
-     }
-    },
-    "yours": {
-     "serp": null,
-     "console": null,
-     "action": "new"
-    }
-   },
-   {
-    "phrase": "ocarina of time pc port",
-    "evidence": "NX2navi is a static recompilation of The Legend of Zelda: Ocarina of Time for Nintendo Switch 2 into a native x86-64 application for Windows",
-    "brand": true,
-    "source": "model",
-    "relevance": 0.95,
-    "is_name": false,
-    "established": false,
-    "term": "ocarina of time pc port",
-    "kind": "generic",
-    "names": [
-     "nx2navi"
-    ],
-    "volume": 1300,
-    "month": "2026-09",
-    "months": [
-     [
-      "2025-10",
-      720
-     ],
-     [
-      "2025-11",
-      880
-     ],
-     [
-      "2025-12",
-      1000
-     ],
-     [
-      "2026-01",
-      1300
-     ],
-     [
-      "2026-02",
-      880
-     ],
-     [
-      "2026-03",
-      1000
-     ],
-     [
-      "2026-04",
-      1300
-     ],
-     [
-      "2026-05",
-      1900
-     ],
-     [
-      "2026-06",
-      2400
-     ],
-     [
-      "2026-07",
-      1000
-     ],
-     [
-      "2026-08",
-      880
-     ],
-     [
-      "2026-09",
-      1900
-     ]
-    ],
-    "no_data": false,
-    "base": 3.1,
-    "peak": 55,
-    "peak_day": "2026-11-05",
-    "rose": false,
-    "new": false,
-    "momentum": null,
-    "now": "flat",
-    "peak_vs": 100,
-    "bench_level": 41.8,
-    "per_day": 77,
-    "decision": "skip",
-    "year": {
-     "spark": "▃▄▄▅▄▄▅▇█▄▄▇",
-     "first": "2025-10",
-     "last": "2026-09",
-     "c3": -21,
-     "c6": 90,
-     "label": "falling"
-    }
-   },
-   {
-    "term": "hookshot",
-    "phrase": "hookshot",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": false,
-    "base": 5.9,
-    "peak": 9,
-    "peak_day": "2026-10-17",
-    "rose": false,
-    "new": false,
-    "momentum": null,
-    "now": "flat",
-    "peak_vs": 5,
-    "bench_level": 58.9,
-    "per_day": 17,
-    "decision": "skip"
-   },
-   {
-    "phrase": "music video generator ai",
-    "evidence": "Music videos cut to your song's be[at]",
-    "brand": false,
-    "source": "model",
-    "relevance": 0.7,
-    "is_name": false,
-    "established": false,
-    "term": "music video generator ai",
-    "kind": "generic",
-    "names": [
-     "cinecode"
-    ],
-    "volume": 320,
-    "month": "2026-09",
-    "months": [
-     [
-      "2025-10",
-      320
-     ],
-     [
-      "2025-11",
-      390
-     ],
-     [
-      "2025-12",
-      320
-     ],
-     [
-      "2026-01",
-      320
-     ],
-     [
-      "2026-02",
-      390
-     ],
-     [
-      "2026-03",
-      320
-     ],
-     [
-      "2026-04",
-      320
-     ],
-     [
-      "2026-05",
-      390
-     ],
-     [
-      "2026-06",
-      320
-     ],
-     [
-      "2026-07",
-      320
-     ],
-     [
-      "2026-08",
-      260
-     ],
-     [
-      "2026-09",
-      320
-     ]
-    ],
-    "no_data": false,
-    "base": 19,
-    "peak": 65,
-    "peak_day": "2026-10-30",
-    "rose": true,
-    "new": false,
-    "momentum": 1.3,
-    "started": "2026-10-29",
-    "now": "fading",
-    "peak_vs": 23,
-    "bench_level": 58.9,
-    "per_day": 11,
-    "decision": "skip",
-    "year": {
-     "spark": "▇█▇▇█▇▇█▇▇▆▇",
-     "first": "2025-10",
-     "last": "2026-09",
-     "c3": 0,
-     "c6": 0,
-     "label": "steady"
-    }
-   },
-   {
-    "term": "php2shell bypass aslr exp",
-    "phrase": "php2shell bypass aslr exp",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": false,
-    "base": 0,
-    "peak": 100,
-    "peak_day": "2026-10-24",
-    "rose": true,
-    "new": true,
-    "momentum": 0.0,
-    "started": "2026-10-22",
-    "now": "fading",
-    "peak_vs": 4,
-    "bench_level": 57.9,
-    "per_day": 4,
-    "decision": "skip"
-   }
-  ],
-  "proposed": 19,
-  "relevant": 12,
-  "kept": 2,
-  "benchmark": "gpts",
-  "bench_daily": 361,
-  "volume_month": "2026-09",
-  "no_evidence": [
-   "php2shell bypass aslr exp"
-  ],
-  "posts_error": "",
-  "related": false,
-  "tails": {},
-  "cosearch": [],
-  "related_errors": [],
-  "geo": "US",
-  "country_errors": [],
-  "competition_errors": [],
-  "extra_errors": [],
-  "cost_micros": 484200,
-  "seconds": 149
+  "error": "AisaError: HTTP 402: {\"error\":{\"message\":\"insufficient wallet balance\",\"type\":\"invalid_request_error\"},\"organization_name\":\"Halo Z\"}",
+  "seconds": 9
  }
 }

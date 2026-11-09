@@ -287,3 +287,41 @@ AgentMail `frame-submit@`：11-07 17:40 之后 **无新** CPJ listing/验证信�
 - 当前：**Deferred / email gate — CN country fit confirmed; listing field requirements unverified**。OfferEmailAddress 边界要求例行注册停在邮箱 gate；**未输入邮箱、未注册，不向 Halo 索取注册或验证码操作**。不可为看后台要求而先建号，不使用占位地址/电话。
 
 **有效 Live 仍为 3（Brownbook + Addon Biz + F6S）；本轮新增提交/Live = 0。** 仅双写本地账本；无 git push、无网站修改。必要阻碍是当前邮箱 gate 及未核实的 listing 必填/适用范围，不把 US/中国覆盖或所有公司禁止当作阻碍。
+
+
+## 2026-11-09 09:08 Asia/Taipei · 例程 daily backlink quota
+
+以 11-08 台账为当前真相后复验（Live 已是 3：Brownbook + Addon Biz + F6S；TinyLaunch #30842 Rejected 勿再交；Touristlink / SideProjectors Blocked；Toolfio / DodoDirectory Skipped；Travellerspoint / Hotfrog 11-08 起有 Deferred 注释，仍留给 14:00 处理）。
+
+| ID | 渠道 | 状态更新 | 证据 |
+|---|---|---|---|
+| 4 | Brownbook | **Live · Claimed** 维持；curl UA HTTP 200，title=China Private Journeys，可见 Claimed 徽章×2，`chinaprivatejourneys` 提及=13，官网与 submit@ 仍在；`backlink-guard verify` **HTTP 403 unreadable**（勿改 Lost） | `daily-runs/2026-11-09/brownbook.html` + `bg-verify-brownbook.json` |
+| 12 | Addon Biz | **Live** 维持；HTTP 200，H1=China Private Journeys；`backlink-guard` = **qualified link**（`rel=nofollow` sidebar） | `https://www.addonbiz.com/listing/guangzhou-china-china-private-journeys/` · `addonbiz-listing.html` + `bg-verify-addonbiz.json` |
+| 13 | F6S | **Live** 维持。今日 curl HTTP 200 但是验证码拦截页「Checking your browser」；WebFetch 403；guard 在挑战 HTML 上 not found —— **不改 Lost**（与 11-08 晨间同一模式）。F6S 欢迎信点名 Update China Private Journeys profile，可佐证账号/公司页仍在 | `https://www.f6s.com/china-private-journeys` · `f6s.html` + `bg-verify-f6s.json` |
+| 10 | PeerPush | **Queued / Coming soon** 维持；公开页 HTTP 200 标题 China Private Journeys，可见 Coming soon 徽章；Visit site follow 链到官网+utm → **禁止 Live** | `peerpush.html` |
+| 3 | ExactSeek | **Pending** 维持；搜索页 HTTP 200 但正文 “Sorry, We currently only accept searches from ExactSeek.com”，无 chinaprivatejourneys.com listing 链；无新信 | `exactseek-search.html` + AgentMail |
+| 9 | ASR | Membership activated；**非 Live**；官网 HTTPS TLS unexpected EOF，HTTP 首页 500，`/search.php?q=` 404；无新信 | AgentMail |
+| 6 | Startup88 | **Pending** 维持；站内搜索 “Nothing Found”；无新信 | `startup88-search.html` |
+| 7 | ASEAN Now | Member ready；无 listing → 不计 Live | — |
+| 11 | Jayde | **Pending** 维持；无 listing 信；`china private journeys` 搜索只命中无关竞品（mkjourneys.com 等），域名搜索无 listing href | `jayde-search.html` + `jayde-search-domain.html` |
+| — | TinyLaunch | **Rejected** 维持（#30842，非 SaaS）；**勿再交** | 11-07 拒信已入账 |
+| — | 0DR 短扫描 | Callupcontact 仍 parked（JS 跳 /lander）；SiteLike 无 /add /submit（404）；Secret Search Engine Labs TLS/500；无剩余可 curl/API、免费、无验证码、无互挂徽章目录 → **未提交** | `callupcontact.html` 等 |
+
+**今日新增 Live = 0** · 有效 Live 累计 = **3（Brownbook + Addon Biz + F6S）** · Lost = **0** · 今日新自动目录交 = **0**  
+**Pending**: ExactSeek · ASR（activated 非 Live）· Startup88 · Jayde  
+**Queued**: PeerPush Coming soon  
+**Blocked**: Touristlink（`submit@` 被拒）· SideProjectors（密码校验失败，停止重试）  
+**Skipped**: Toolfio · DodoDirectory  
+**Rejected**: TinyLaunch  
+**NEED_BROWSER（留给 14:00；本晨未代交）**: Crunchbase（优先）→ Travellerspoint（11-08：Deferred / low priority，profile URL 一般允许但可见性受限）→ Hotfrog（11-08：Deferred / email gate，CN 站已证实、listing 必填未核实、未输入邮箱）→ Cybo（街道自动补全必选，勿另编街道）→ ShowMySites（末位）  
+AgentMail `frame-submit@`：11-07 17:40 之后新的 CPJ 相关信仅 1 封——F6S 欢迎/权益信（2026-11-08 15:45:26 Asia/Taipei，To=`submit@`，subject “Halo, here's what you get from F6S”），属 onboarding/upsell，不是验证或 listing 激活，未点击 SendGrid 追踪链。共享箱噪声已忽略：TipSeason 通讯；Frame Extractor 的 TinyLaunch 通过信；Smol Launch 催 Frame Extractor draft。无 ExactSeek / ASR / Jayde / Startup88 listing 信。  
+工件：`daily-runs/2026-11-09/backlink-summary.json`
+
+## 2026-11-09 14:10 Asia/Shanghai · 例程 cpj-14 筛站
+
+本轮未找到可 curl/API、免验证码、免登录的免费匹配目录。AgentMail `frame-submit` 自晨间 09:08 Asia/Taipei 后 0 封；无新的 CPJ 验证/listing 信（F6S 欢迎信已于晨间入账）。
+新探针并跳过：WebWiki（CF 403）、Travelful（域名劫持/522）、Triptipedia（付费 tour listing）、Promote Project（登录+reCAPTCHA）、EU-Startups（付费会员+欧洲错配）、BusinessHunt（SPA 无表单）、Firsto（SaaS launchpad，与 TinyLaunch 同类，不交）、Dealroom（CF 403）。五站之后新研究候选：Expat.com business directory（登录墙；中国 Tourism 类目存在）。
+未碰 NEED_BROWSER 五站。跳过：Live Brownbook / Addon Biz / F6S；Pending ExactSeek / ASR / Startup88 / Jayde；Queued PeerPush；Blocked Touristlink / SideProjectors；Skipped Toolfio / DodoDirectory；Rejected TinyLaunch 勿再交。
+今日新增提交 = 0 · 新增 Live = 0 · Live 累计 = 3
+工件：`/workspace/gsc-china-private-journeys/daily-runs/2026-11-09/cpj-14-handoff.md`
+

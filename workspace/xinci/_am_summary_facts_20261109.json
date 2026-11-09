@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-09",
+  "mode": "am",
+  "window_beijing": "11-08 21:36 – 11-09 10:18",
+  "sources_log": "① 没有新名字:x 0; hf 100",
+  "xscan": {
+    "official": "检索成功；官方账号本窗仅 @OpenAIDevs「Tomorrow.」预告（约67.7万浏览/1488书签），无命名产品/模型首发，不是采集失败",
+    "items": [
+      {
+        "name": "Drex Max",
+        "kind": "model",
+        "backfill": true,
+        "desc": "Nace AI 开源的约27B多模态决策模型：输入上下文与最多255个选项后只返回各选项概率（不生成文本），可在 Apple Silicon 本地运行",
+        "source": "@NaceAI",
+        "url": "https://x.com/NaceAI/status/2116163656480428220",
+        "first_seen": "2026-10-30 21:41"
+      }
+    ],
+    "keywords": [],
+    "keywords_note": "本档无达标建站热词（新品互动未达 views≥50万或 bookmarks≥1000；Tomorrow 预告无产品名不可做词）"
+  },
+  "tracks": {
+    "game_items": 141,
+    "game_keywords": 40,
+    "ai_items": 37,
+    "ai_keywords": 40,
+    "sitemap_note": "Toolify/Futurepedia/Aixploria sitemap 本轮 new=0（非失败）"
+  },
+  "highlights_game": [
+    {"name": "Hot Goods [Shop Sim]", "desc": "Roblox 店铺模拟：与顾客讨价还价、藏赃物、对付安卓人", "platform": "Roblox", "url": "https://x.com/anhelouda/status/2119579187430211737"},
+    {"name": "Front Line Fury", "desc": "Roblox 免费竞技射击，狐狸对战狼人模式，MMMVoid Studios", "platform": "Roblox", "url": "https://x.com/MMMVoid_Offical/status/2119552730469695668"},
+    {"name": "DONT SPLASH", "desc": "Roblox Up-and-Coming，约7.4万在玩", "platform": "Roblox"},
+    {"name": "Fatal Baboons", "desc": "Roblox Up-and-Coming，约2.1万在玩", "platform": "Roblox"},
+    {"name": "South Hell", "desc": "Roblox Up-and-Coming，约1.6万在玩", "platform": "Roblox"},
+    {"name": "13 Days to Escape", "desc": "Roblox Top Trending，约1.7万在玩", "platform": "Roblox"},
+    {"name": "Probably Stolen - Cyberpunk Shopkeeper Sim", "desc": "Steam 畅销榜出现的赛博朋克店主模拟（玩法细节本轮未细述）", "platform": "Steam"}
+  ],
+  "highlights_ai": [
+    {"name": "Seedance 2.5", "desc": "AI 视频生成：最长约30秒、同步音频、角色一致、多镜头", "url": "https://x.com/ItsRizwanAhmed/status/2119556036747210833", "note": "第三方帖，非官方首发核实"},
+    {"name": "Swarmboard", "desc": "面向 agent 团队的公告板，协调多代理任务、减少重复与 CI 拥堵", "url": "https://x.com/paulantir0/status/2119550600103018817"},
+    {"name": "Kiro", "desc": "规格优先的 AI 编程代理（Product Hunt 上可见的 coding agent 一类）", "url": "https://x.com/fialaerik/status/2119560596555550936"},
+    {"name": "Minos AI", "desc": "Bittensor SN107 的 Mac 原生应用：科学文献搜索、摘要与验证", "url": "https://x.com/Dr_Crypto_Lewis/status/2119578757279146015"},
+    {"name": "MarkMosaiq", "desc": "把产品素材转成品牌向营销图文的 AI 工具", "url": "https://x.com/thamerkth7/status/2119570500720681020"},
+    {"name": "AirisOne", "desc": "设施运营 AI 中枢：整合工单、巡检与供应商任务", "url": "https://x.com/dan_evolution/status/2119559417989406748"},
+    {"name": "Physical AI Services", "desc": "Server Robotics 开放其配送机器人背后的物理 AI 技术栈给其他构建者", "url": "https://x.com/runthenumberz/status/2119566960044507382"}
+  ],
+  "push": {"label": "2026-11-09 新词雷达", "items": 224, "keywords": 37, "ok": true, "board": "https://x.omnitools.cc/radar/new"},
+  "style_ref": "对齐 /workspace/xinci/_am_summary_20261108.txt：先总览一段，再【书签X】【建站热词】【游戏轨】【AI工具轨】【看板】；重点词写清是什么做什么；游戏写类型+平台；查不清标用途待核实；保留链接；结尾固定入口"
+}

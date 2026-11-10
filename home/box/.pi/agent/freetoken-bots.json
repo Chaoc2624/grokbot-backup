@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-11-09T13:09:09.692166+00:00",
+  "checked_at": "2026-11-10T13:00:19.509226+00:00",
   "eligible": [],
   "needs_parameter_verification": [
     {
-      "id": "liquid/lfm-3-1.7b:free",
-      "context_length": 262144
+      "id": "thinkingmachines/inkling-2-small:free",
+      "context_length": 1048576
     },
     {
-      "id": "stealth/crouton-alpha",
-      "context_length": 1048576
+      "id": "liquid/lfm-3-1.7b:free",
+      "context_length": 262144
     },
     {
       "id": "recursive/flint-v1.0:free",
@@ -74,7 +74,7 @@
     "nvidia/nemotron-3.5-super-vl:free",
     "openrouter/free",
     "recursive/flint-v1.0:free",
-    "stealth/crouton-alpha",
+    "thinkingmachines/inkling-2-small:free",
     "xingchen-agi/xing4.0-29b-a4b:free"
   ],
   "free_count": 16

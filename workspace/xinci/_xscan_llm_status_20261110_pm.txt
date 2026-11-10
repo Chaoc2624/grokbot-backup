@@ -1,0 +1,13 @@
+[free-llm] try 1/14 openrouter:nvidia/nemotron-3-ultra-550b-a55b:free
+[free-llm] invalid JSON: Unterminated string starting at: line 1 column 78 (char 77) → cascade
+[free-llm] try 2/14 openrouter:google/gemma-4-31b-it:free
+[free-llm] fail HTTP 429: {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-4-31b-it:free is temporarily rate-limited upstream. Please retry (0.17s) → cascade
+[free-llm] try 3/14 openrouter:google/gemma-4-26b-a4b-it:free
+[free-llm] fail HTTP 429: {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please r (0.17s) → cascade
+[free-llm] try 4/14 openrouter:openrouter/free
+[free-llm] fail empty choices (57.10s) → cascade
+[free-llm] try 5/14 openrouter:nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+[free-llm] fail empty choices (68.37s) → cascade
+[free-llm] try 6/14 google:gemini-3.5-flash-lite
+[free-llm] OK via google:gemini-3.5-flash-lite in 298.56s
+OK model=google:gemini-3.5-flash-lite bytes=2315 secs=298.56 -> /workspace/xinci/_xscan_llm_out_20261110_pm.json

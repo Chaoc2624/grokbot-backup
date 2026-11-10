@@ -1,625 +1,650 @@
 {
- "last_scan": "2026-11-09T09:55:00Z",
- "reported": {
-  "sagea15": {
-   "name": "Sage-A1.5",
-   "first_seen": "2026-10-21",
-   "file": "xbm/radar-20261021"
-  },
-  "sparkx264b": {
-   "name": "Spark-X2.6-4B",
-   "first_seen": "2026-10-21",
-   "file": "xbm/radar-20261021"
-  },
-  "oxr10": {
-   "name": "OXR-1.0",
-   "first_seen": "2026-10-21",
-   "file": "xbm/radar-20261021"
-  },
-  "claudeduet": {
-   "name": "Claude Duet",
-   "first_seen": "2026-10-22 03:09",
-   "file": "xnew-20261022-am.json"
-  },
-  "recursiveflint": {
-   "name": "Recursive Flint",
-   "first_seen": "2026-10-22 00:29",
-   "file": "xnew-20261022-am.json"
-  },
-  "claudesecurity持续扫描": {
-   "name": "Claude Security 持续扫描",
-   "first_seen": "2026-10-22 01:40",
-   "file": "xnew-20261022-am.json"
-  },
-  "openai模型登陆googlecloud": {
-   "name": "OpenAI 模型登陆 Google Cloud",
-   "first_seen": "2026-10-22 03:23",
-   "file": "xnew-20261022-am.json"
-  },
-  "openai发现php严重漏洞codex检测技能": {
-   "name": "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能",
-   "first_seen": "2026-10-21 22:04",
-   "file": "xnew-20261022-am.json"
-  },
-  "gptrosalind药物发现线索": {
-   "name": "GPT-Rosalind 药物发现线索",
-   "first_seen": "2026-10-21 21:32",
-   "file": "xnew-20261022-am.json"
-  },
-  "mistralnvidia工业工程合作": {
-   "name": "Mistral × NVIDIA 工业工程合作",
-   "first_seen": "2026-10-21 19:35",
-   "file": "xnew-20261022-am.json"
-  },
-  "gemini在google地图carplay导航": {
-   "name": "Gemini 在 Google 地图 CarPlay 导航",
-   "first_seen": "2026-10-22 01:44",
-   "file": "xnew-20261022-am.json"
-  },
-  "mossimageedit": {
-   "name": "Moss-Image-Edit",
-   "first_seen": "2026-10-22 21:02",
-   "file": "xnew-20261022-pm.json"
-  },
-  "pixtext": {
-   "name": "PixText",
-   "first_seen": "2026-10-22 17:44",
-   "file": "xnew-20261022-pm.json"
-  },
-  "omnir2v": {
-   "name": "Omni-R2V",
-   "first_seen": "2026-10-22 13:32",
-   "file": "xnew-20261022-pm.json"
-  },
-  "minimaxm31flash": {
-   "name": "MiniMax M3.1 Flash",
-   "first_seen": "2026-10-23 09:06",
-   "file": "xnew-20261023-am.json"
-  },
-  "ling30flashsante": {
-   "name": "Ling-3.0-flash-Sante",
-   "first_seen": "2026-10-22 23:36",
-   "file": "xnew-20261023-am.json"
-  },
-  "canvacraft": {
-   "name": "Canva Craft",
-   "first_seen": "2026-10-23 03:16",
-   "file": "xnew-20261023-am.json"
-  },
-  "claude登陆googlecloudga": {
-   "name": "Claude 登陆 Google Cloud GA",
-   "first_seen": "2026-10-23 05:21",
-   "file": "xnew-20261023-am.json"
-  },
-  "claude默认自动模式": {
-   "name": "Claude 默认自动模式",
-   "first_seen": "2026-10-23 04:04",
-   "file": "xnew-20261023-am.json"
-  },
-  "claude大规模形式化验证": {
-   "name": "Claude 大规模形式化验证",
-   "first_seen": "2026-10-23 06:01",
-   "file": "xnew-20261023-am.json"
-  },
-  "openaimetr嵌入式评估": {
-   "name": "OpenAI × METR 嵌入式评估",
-   "first_seen": "2026-10-22 23:57",
-   "file": "xnew-20261023-am.json"
-  },
-  "evaomni": {
-   "name": "EvaOmni",
-   "first_seen": "2026-10-23 14:37",
-   "file": "xnew-20261023-manual.json"
-  },
-  "openaidecisionsapi正式ga": {
-   "name": "OpenAI Decisions API",
-   "first_seen": "2026-10-23 03:07",
-   "file": "xnew-20261023-manual.json"
-  },
-  "agentskills捐给agenticaifoundation": {
-   "name": "Agent Skills 捐给 Agentic AI Foundation",
-   "first_seen": "2026-10-23 01:55",
-   "file": "xnew-20261023-manual.json"
-  },
-  "geminiapicligeminiapi预览": {
-   "name": "Gemini API CLI",
-   "first_seen": "2026-10-22 23:12",
-   "file": "xnew-20261023-manual.json"
-  },
-  "ling31flash1019": {
-   "name": "Ling-3.1-flash-1019",
-   "first_seen": "2026-10-22 19:10",
-   "file": "xnew-20261023-manual.json"
-  },
-  "streameval": {
-   "name": "StreamEval",
-   "first_seen": "2026-10-23 18:00",
-   "file": "xnew-20261023-pm.json"
-  },
-  "kimik31pro": {
-   "name": "Kimi K3.1 Pro",
-   "first_seen": "2026-10-24 01:15",
-   "file": "xnew-20261024-am.json"
-  },
-  "claudemcptaskselicitations": {
-   "name": "Claude MCP Tasks / Elicitations",
-   "first_seen": "2026-10-24 02:24",
-   "file": "xnew-20261024-am.json"
-  },
-  "openai训练环境离线化": {
-   "name": "OpenAI 训练环境离线化",
-   "first_seen": "2026-10-24 03:46",
-   "file": "xnew-20261024-am.json"
-  },
-  "openai发现brotli未认证rce": {
-   "name": "OpenAI 发现 Brotli 未认证 RCE",
-   "first_seen": "2026-10-24 06:55",
-   "file": "xnew-20261024-am.json"
-  },
-  "anthropicaisimythos5进一步分析": {
-   "name": "Anthropic AISI Mythos 5 进一步分析",
-   "first_seen": "2026-10-23 21:40",
-   "file": "xnew-20261024-am.json"
-  },
-  "dessa": {
-   "name": "Dessa",
-   "first_seen": "2026-10-24 02:23",
-   "file": "xnew-20261025-am.json"
-  },
-  "nemotron35bolte4b": {
-   "name": "Nemotron 3.5 Bolt E4B",
-   "first_seen": "2026-10-23 23:41",
-   "file": "xnew-20261025-am.json"
-  },
-  "nanbeige4333b": {
-   "name": "Nanbeige4.3-33B",
-   "first_seen": "2026-10-25 20:11",
-   "file": "xnew-20261025-pm.json"
-  },
-  "minimaxh3社区加速更新": {
-   "name": "MiniMax H3 社区加速更新",
-   "first_seen": "2026-10-26 07:48",
-   "file": "xnew-20261026-am.json"
-  },
-  "d3turbo": {
-   "name": "d3-turbo",
-   "first_seen": "2026-10-26 18:00",
-   "file": "xnew-20261026-pm.json"
-  },
-  "babelarena": {
-   "name": "BabelArena",
-   "first_seen": "2026-10-26 11:52",
-   "file": "xnew-20261026-pm.json"
-  },
-  "gpt61terra": {
-   "name": "GPT-6.1 Terra",
-   "first_seen": "2026-10-27 02:06",
-   "file": "xnew-20261027-am.json"
-  },
-  "claudefornonprofits": {
-   "name": "Claude for Nonprofits",
-   "first_seen": "2026-10-27 02:04",
-   "file": "xnew-20261027-am.json"
-  },
-  "ling31flashbase": {
-   "name": "Ling-3.1-flash-base",
-   "first_seen": "2026-10-27 20:44",
-   "file": "xnew-20261027-pm.json"
-  },
-  "atriadawn": {
-   "name": "Atria Dawn",
-   "first_seen": "2026-10-27 16:00",
-   "file": "xnew-20261027-pm.json"
-  },
-  "fibo20dev": {
-   "name": "Fibo 2.0 Dev",
-   "first_seen": "2026-10-27 14:00",
-   "file": "xnew-20261027-pm.json"
-  },
-  "unlimitedocr2": {
-   "name": "Unlimited-OCR-2",
-   "first_seen": "2026-10-27 20:00",
-   "file": "xnew-20261027-pm.json"
-  },
-  "hynomas": {
-   "name": "Hy-Nomas",
-   "first_seen": "2026-10-27 10:23",
-   "file": "xnew-20261027-pm.json"
-  },
-  "hysimulmt": {
-   "name": "Hy-SimulMT",
-   "first_seen": "2026-10-27 18:00",
-   "file": "xnew-20261027-pm.json"
-  },
-  "genie4": {
-   "name": "Genie 4",
-   "first_seen": "2026-10-28 00:10",
-   "file": "xnew-20261028-am.json"
-  },
-  "lfm3": {
-   "name": "LFM3",
-   "first_seen": "2026-10-28 01:07",
-   "file": "xnew-20261028-am.json"
-  },
-  "claudeonegov": {
-   "name": "Claude OneGov",
-   "first_seen": "2026-10-28 06:20",
-   "file": "xnew-20261028-am.json"
-  },
-  "gemini4carbon": {
-   "name": "Gemini 4 Carbon",
-   "first_seen": "2026-10-29 01:02",
-   "file": "xnew-20261030-am.json"
-  },
-  "nemotron35transcribe": {
-   "name": "Nemotron 3.5 Transcribe",
-   "first_seen": "2026-10-28 23:14",
-   "file": "xnew-20261030-am.json"
-  },
-  "brush": {
-   "name": "Brush",
-   "first_seen": "2026-10-30 03:17",
-   "file": "xnew-20261030-am.json"
-  },
-  "lechonk": {
-   "name": "Le Chonk",
-   "first_seen": "2026-10-29 22:21",
-   "file": "xnew-20261030-am.json"
-  },
-  "pikah3flex": {
-   "name": "Pika H3 Flex",
-   "first_seen": "2026-10-30 01:37",
-   "file": "xnew-20261030-am.json"
-  },
-  "clover35ba3bpreview": {
-   "name": "Clover-35B-A3B-Preview",
-   "first_seen": "2026-10-28 11:42",
-   "file": "xnew-20261030-am.json"
-  },
-  "audio8ttsrealistic": {
-   "name": "Audio8-TTS-Realistic",
-   "first_seen": "2026-10-30 09:00",
-   "file": "xnew-20261030-am.json"
-  },
-  "mistralresponsesapi": {
-   "name": "Mistral Responses API",
-   "first_seen": "2026-10-28 22:01",
-   "file": "xnew-20261030-am.json"
-  },
-  "googleconnectedappsplatform": {
-   "name": "Google Connected Apps Platform",
-   "first_seen": "2026-10-29 05:54",
-   "file": "xnew-20261030-am.json"
-  },
-  "claudeapi128mbrequestlimit": {
-   "name": "Claude API 128MB request limit",
-   "first_seen": "2026-10-30 05:49",
-   "file": "xnew-20261030-am.json"
-  },
-  "claudeselfassessment": {
-   "name": "Claude self-assessment",
-   "first_seen": "2026-10-30 02:22",
-   "file": "xnew-20261030-am.json"
-  },
-  "chatgptprobusinessapicredits500": {
-   "name": "ChatGPT Pro/Business API credits $500",
-   "first_seen": "2026-10-29 07:17",
-   "file": "xnew-20261030-am.json"
-  },
-  "wevisonevl4b": {
-   "name": "WeVisOne-VL-4B",
-   "first_seen": "2026-10-30 18:16",
-   "file": "xnew-20261030-pm.json"
-  },
-  "matildaplatypus": {
-   "name": "Matilda Platypus",
-   "first_seen": "2026-10-30 12:58",
-   "file": "xnew-20261030-pm.json"
-  },
-  "mischief1": {
-   "name": "Mischief 1",
-   "first_seen": "2026-10-30 21:01",
-   "file": "xnew-20261031-am.json"
-  },
-  "sensenovaloop9bpreview": {
-   "name": "SenseNova Loop-9B-Preview",
-   "first_seen": "2026-10-30 20:51",
-   "file": "xnew-20261031-am.json"
-  },
-  "sensenova68code2video": {
-   "name": "SenseNova 6.8 Code2Video",
-   "first_seen": "2026-10-28 22:09",
-   "file": "xnew-20261031-am.json"
-  },
-  "openaiprivateintelligence": {
-   "name": "OpenAI Private Intelligence",
-   "first_seen": "2026-10-30 23:12",
-   "file": "xnew-20261031-am.json"
-  },
-  "claudeultra": {
-   "name": "Claude Ultra",
-   "first_seen": "2026-10-31 01:29",
-   "file": "xnew-20261031-am.json"
-  },
-  "anthropic自动化误对齐研究": {
-   "name": "Anthropic 自动化误对齐研究",
-   "first_seen": "2026-10-31 09:59",
-   "file": "xnew-20261031-am.json"
-  },
-  "google太空tpu": {
-   "name": "Google 太空 TPU",
-   "first_seen": "2026-10-31 03:04",
-   "file": "xnew-20261031-am.json"
-  },
-  "planassist": {
-   "name": "PlanAssist",
-   "first_seen": "2026-10-31 21:33",
-   "file": "xnew-20261031-pm.json"
-  },
-  "pandaorchestrator": {
-   "name": "Panda Orchestrator",
-   "first_seen": "2026-10-31 11:00",
-   "file": "xnew-20261031-pm.json"
-  },
-  "qwenputer": {
-   "name": "Qwenputer",
-   "first_seen": "2026-11-02 21:01",
-   "file": "xnew-20261102-pm.json"
-  },
-  "pivo14m": {
-   "name": "PiVo-1.4M",
-   "first_seen": "2026-11-02 18:00",
-   "file": "xnew-20261102-pm.json"
-  },
-  "hydrogen10": {
-   "name": "Hydrogen-1.0",
-   "first_seen": "2026-11-02 16:00",
-   "file": "xnew-20261102-pm.json"
-  },
-  "krea2opencastlora": {
-   "name": "Krea 2 OpenCast LoRA",
-   "first_seen": "2026-11-02 11:26",
-   "file": "xnew-20261102-pm.json"
-  },
-  "longcat25": {
-   "name": "LongCat-2.5",
-   "first_seen": "2026-11-02 22:35",
-   "file": "xnew-20261103-am.json"
-  },
-  "ml4": {
-   "name": "ML4",
-   "first_seen": "2026-11-03 00:30",
-   "file": "xnew-20261103-am.json"
-  },
-  "chefnmr2": {
-   "name": "ChefNMR2",
-   "first_seen": "2026-11-03 04:53",
-   "file": "xnew-20261103-am.json"
-  },
-  "fireflash": {
-   "name": "FireFlash",
-   "first_seen": "2026-11-03 06:44",
-   "file": "xnew-20261103-am.json"
-  },
-  "lifeval": {
-   "name": "LifeVal",
-   "first_seen": "2026-11-03 01:27",
-   "file": "xnew-20261103-am.json"
-  },
-  "messagesapi消息线程": {
-   "name": "Messages API 消息线程",
-   "first_seen": "2026-11-03 03:06",
-   "file": "xnew-20261103-am.json"
-  },
-  "pando": {
-   "name": "Pando",
-   "first_seen": "2026-11-03 08:09",
-   "file": "xnew-20261103-am.json"
-  },
-  "orbitaltrace": {
-   "name": "Orbital Trace",
-   "first_seen": "2026-11-03 19:08",
-   "file": "xnew-20261103-pm.json"
-  },
-  "reuse": {
-   "name": "RE-USE",
-   "first_seen": "2026-11-03 17:00",
-   "file": "xnew-20261103-pm.json"
-  },
-  "audio8ttsrealisticair": {
-   "name": "Audio8-TTS-Realistic-Air",
-   "first_seen": "2026-11-03 15:09",
-   "file": "xnew-20261103-pm.json"
-  },
-  "openaicathedralsystems安全冲刺": {
-   "name": "OpenAI × Cathedral Systems 安全冲刺",
-   "first_seen": "2026-11-03 10:29",
-   "file": "xnew-20261103-pm.json"
-  },
-  "flashprove": {
-   "name": "FlashProve",
-   "first_seen": "2026-11-04 04:10",
-   "file": "xnew-20261104-am.json"
-  },
-  "claude插件自动连接": {
-   "name": "Claude 插件自动连接",
-   "first_seen": "2026-11-04 02:09",
-   "file": "xnew-20261104-am.json"
-  },
-  "mistrallarge4登陆openmathos": {
-   "name": "Mistral Large 4 登陆 Open Math OS",
-   "first_seen": "2026-11-04 01:30",
-   "file": "xnew-20261104-am.json"
-  },
-  "hindsightmodels": {
-   "name": "Hindsight Models",
-   "first_seen": "2026-11-04 00:00",
-   "file": "xnew-20261104-am.json"
-  },
-  "sarvamprism": {
-   "name": "Sarvam Prism",
-   "first_seen": "2026-11-03 22:14",
-   "file": "xnew-20261104-am.json"
-  },
-  "hy4": {
-   "name": "Hy4",
-   "first_seen": "2026-11-04 14:43",
-   "file": "xnew-20261104-pm.json"
-  },
-  "marathondocbench": {
-   "name": "MarathonDocBench",
-   "first_seen": "2026-11-04 20:40",
-   "file": "xnew-20261104-pm.json"
-  },
-  "qwen354b3dcoder": {
-   "name": "Qwen3.5-4B-3D-Coder",
-   "first_seen": "2026-11-04 16:12",
-   "file": "xnew-20261104-pm.json"
-  },
-  "chatgptimages26": {
-   "name": "ChatGPT Images 2.6",
-   "first_seen": "2026-11-05 07:35",
-   "file": "xnew-20261105-am.json"
-  },
-  "gptimage26": {
-   "name": "GPT-Image-2.6",
-   "first_seen": "2026-11-05 07:34",
-   "file": "xnew-20261105-am.json"
-  },
-  "viggleremake": {
-   "name": "Viggle Remake",
-   "first_seen": "2026-11-05 00:10",
-   "file": "xnew-20261105-am.json"
-  },
-  "iotadecide4b": {
-   "name": "IOTA Decide 4B",
-   "first_seen": "2026-11-05 01:11",
-   "file": "xnew-20261105-am.json"
-  },
-  "vernev05": {
-   "name": "Verne V0.5",
-   "first_seen": "2026-11-05 01:15",
-   "file": "xnew-20261105-am.json"
-  },
-  "ripple65bpreview": {
-   "name": "Ripple-65B Preview",
-   "first_seen": "2026-11-05 02:24",
-   "file": "xnew-20261105-am.json"
-  },
-  "swe2flash": {
-   "name": "SWE-2 Flash",
-   "first_seen": "2026-11-05 03:55",
-   "file": "xnew-20261105-am.json"
-  },
-  "ernie55flashbase": {
-   "name": "ERNIE 5.5 Flash Base",
-   "first_seen": "2026-11-05 15:49",
-   "file": "xnew-20261105-pm.json"
-  },
-  "orvena4b": {
-   "name": "Orvena 4B",
-   "first_seen": "2026-11-05 20:34",
-   "file": "xnew-20261105-pm.json"
-  },
-  "agentscopepiccolo": {
-   "name": "AgentScope Piccolo",
-   "first_seen": "2026-11-05 18:09",
-   "file": "xnew-20261105-pm.json"
-  },
-  "emlabknowline": {
-   "name": "EMLab KnowLine",
-   "first_seen": "2026-11-05 19:55",
-   "file": "xnew-20261105-pm.json"
-  },
-  "inkling2small": {
-   "name": "Inkling 2 Small",
-   "first_seen": "2026-11-06 07:43",
-   "file": "xnew-20261106-pm.json"
-  },
-  "gpt6cyber": {
-   "name": "GPT-6 Cyber",
-   "first_seen": "2026-11-06 01:09",
-   "file": "xnew-20261106-pm.json"
-  },
-  "geminiomni12flash": {
-   "name": "Gemini Omni 1.2 Flash",
-   "first_seen": "2026-11-06 01:08",
-   "file": "xnew-20261106-pm.json"
-  },
-  "vflash": {
-   "name": "VFlash",
-   "first_seen": "2026-11-06 00:31",
-   "file": "xnew-20261106-pm.json"
-  },
-  "tailsteer": {
-   "name": "TailSteer",
-   "first_seen": "2026-11-06 17:26",
-   "file": "xnew-20261106-pm.json"
-  },
-  "s5nano": {
-   "name": "S5-nano",
-   "first_seen": "2026-11-07 03:03",
-   "file": "xnew-20261107-am.json"
-  },
-  "biobasicsbench": {
-   "name": "BioBasicsBench",
-   "first_seen": "2026-11-07 03:08",
-   "file": "xnew-20261107-am.json"
-  },
-  "claudememory做梦机制": {
-   "name": "Claude Memory 做梦机制",
-   "first_seen": "2026-11-07 05:16",
-   "file": "xnew-20261107-am.json"
-  },
-  "claudecode云端会话加速": {
-   "name": "Claude Code 云端会话加速",
-   "first_seen": "2026-11-07 03:58",
-   "file": "xnew-20261107-am.json"
-  },
-  "muir": {
-   "name": "Muir",
-   "first_seen": "2026-11-07 03:32",
-   "file": "xnew-20261107-am.json"
-  },
-  "underdogwoof": {
-   "name": "Underdog Woof",
-   "first_seen": "2026-11-07 12:19",
-   "file": "xnew-20261107-pm.json"
-  },
-  "opencodebrowse": {
-   "name": "OpenCode Browse",
-   "first_seen": "2026-11-07 10:35",
-   "file": "xnew-20261107-pm.json"
-  },
-  "arete27b": {
-   "name": "Arete-27B",
-   "first_seen": "2026-11-07 05:48",
-   "file": "xnew-20261107-pm.json"
-  },
-  "beam": {
-   "name": "Beam",
-   "first_seen": "2026-11-07 01:05",
-   "file": "xnew-20261108-am.json"
-  },
-  "momentum": {
-   "name": "Momentum",
-   "first_seen": "2026-11-08 05:08",
-   "file": "xnew-20261108-am.json"
-  },
-  "shizukuduplex": {
-   "name": "Shizuku-Duplex",
-   "first_seen": "2026-11-08 11:10",
-   "file": "xnew-20261108-pm.json"
-  },
-  "drexmax": {
-   "name": "Drex Max",
-   "first_seen": "2026-10-30 21:41",
-   "file": "xnew-20261109-am.json"
-  },
-  "voxtral3transcribe实时转写演示": {
-   "name": "Voxtral 3 Transcribe 实时转写演示",
-   "first_seen": "2026-11-09 12:40",
-   "file": "xnew-20261109-pm.json"
+  "last_scan": "2026-11-10T09:50:00Z",
+  "reported": {
+    "sagea15": {
+      "name": "Sage-A1.5",
+      "first_seen": "2026-10-21",
+      "file": "xbm/radar-20261021"
+    },
+    "sparkx264b": {
+      "name": "Spark-X2.6-4B",
+      "first_seen": "2026-10-21",
+      "file": "xbm/radar-20261021"
+    },
+    "oxr10": {
+      "name": "OXR-1.0",
+      "first_seen": "2026-10-21",
+      "file": "xbm/radar-20261021"
+    },
+    "claudeduet": {
+      "name": "Claude Duet",
+      "first_seen": "2026-10-22 03:09",
+      "file": "xnew-20261022-am.json"
+    },
+    "recursiveflint": {
+      "name": "Recursive Flint",
+      "first_seen": "2026-10-22 00:29",
+      "file": "xnew-20261022-am.json"
+    },
+    "claudesecurity持续扫描": {
+      "name": "Claude Security 持续扫描",
+      "first_seen": "2026-10-22 01:40",
+      "file": "xnew-20261022-am.json"
+    },
+    "openai模型登陆googlecloud": {
+      "name": "OpenAI 模型登陆 Google Cloud",
+      "first_seen": "2026-10-22 03:23",
+      "file": "xnew-20261022-am.json"
+    },
+    "openai发现php严重漏洞codex检测技能": {
+      "name": "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能",
+      "first_seen": "2026-10-21 22:04",
+      "file": "xnew-20261022-am.json"
+    },
+    "gptrosalind药物发现线索": {
+      "name": "GPT-Rosalind 药物发现线索",
+      "first_seen": "2026-10-21 21:32",
+      "file": "xnew-20261022-am.json"
+    },
+    "mistralnvidia工业工程合作": {
+      "name": "Mistral × NVIDIA 工业工程合作",
+      "first_seen": "2026-10-21 19:35",
+      "file": "xnew-20261022-am.json"
+    },
+    "gemini在google地图carplay导航": {
+      "name": "Gemini 在 Google 地图 CarPlay 导航",
+      "first_seen": "2026-10-22 01:44",
+      "file": "xnew-20261022-am.json"
+    },
+    "mossimageedit": {
+      "name": "Moss-Image-Edit",
+      "first_seen": "2026-10-22 21:02",
+      "file": "xnew-20261022-pm.json"
+    },
+    "pixtext": {
+      "name": "PixText",
+      "first_seen": "2026-10-22 17:44",
+      "file": "xnew-20261022-pm.json"
+    },
+    "omnir2v": {
+      "name": "Omni-R2V",
+      "first_seen": "2026-10-22 13:32",
+      "file": "xnew-20261022-pm.json"
+    },
+    "minimaxm31flash": {
+      "name": "MiniMax M3.1 Flash",
+      "first_seen": "2026-10-23 09:06",
+      "file": "xnew-20261023-am.json"
+    },
+    "ling30flashsante": {
+      "name": "Ling-3.0-flash-Sante",
+      "first_seen": "2026-10-22 23:36",
+      "file": "xnew-20261023-am.json"
+    },
+    "canvacraft": {
+      "name": "Canva Craft",
+      "first_seen": "2026-10-23 03:16",
+      "file": "xnew-20261023-am.json"
+    },
+    "claude登陆googlecloudga": {
+      "name": "Claude 登陆 Google Cloud GA",
+      "first_seen": "2026-10-23 05:21",
+      "file": "xnew-20261023-am.json"
+    },
+    "claude默认自动模式": {
+      "name": "Claude 默认自动模式",
+      "first_seen": "2026-10-23 04:04",
+      "file": "xnew-20261023-am.json"
+    },
+    "claude大规模形式化验证": {
+      "name": "Claude 大规模形式化验证",
+      "first_seen": "2026-10-23 06:01",
+      "file": "xnew-20261023-am.json"
+    },
+    "openaimetr嵌入式评估": {
+      "name": "OpenAI × METR 嵌入式评估",
+      "first_seen": "2026-10-22 23:57",
+      "file": "xnew-20261023-am.json"
+    },
+    "evaomni": {
+      "name": "EvaOmni",
+      "first_seen": "2026-10-23 14:37",
+      "file": "xnew-20261023-manual.json"
+    },
+    "openaidecisionsapi正式ga": {
+      "name": "OpenAI Decisions API",
+      "first_seen": "2026-10-23 03:07",
+      "file": "xnew-20261023-manual.json"
+    },
+    "agentskills捐给agenticaifoundation": {
+      "name": "Agent Skills 捐给 Agentic AI Foundation",
+      "first_seen": "2026-10-23 01:55",
+      "file": "xnew-20261023-manual.json"
+    },
+    "geminiapicligeminiapi预览": {
+      "name": "Gemini API CLI",
+      "first_seen": "2026-10-22 23:12",
+      "file": "xnew-20261023-manual.json"
+    },
+    "ling31flash1019": {
+      "name": "Ling-3.1-flash-1019",
+      "first_seen": "2026-10-22 19:10",
+      "file": "xnew-20261023-manual.json"
+    },
+    "streameval": {
+      "name": "StreamEval",
+      "first_seen": "2026-10-23 18:00",
+      "file": "xnew-20261023-pm.json"
+    },
+    "kimik31pro": {
+      "name": "Kimi K3.1 Pro",
+      "first_seen": "2026-10-24 01:15",
+      "file": "xnew-20261024-am.json"
+    },
+    "claudemcptaskselicitations": {
+      "name": "Claude MCP Tasks / Elicitations",
+      "first_seen": "2026-10-24 02:24",
+      "file": "xnew-20261024-am.json"
+    },
+    "openai训练环境离线化": {
+      "name": "OpenAI 训练环境离线化",
+      "first_seen": "2026-10-24 03:46",
+      "file": "xnew-20261024-am.json"
+    },
+    "openai发现brotli未认证rce": {
+      "name": "OpenAI 发现 Brotli 未认证 RCE",
+      "first_seen": "2026-10-24 06:55",
+      "file": "xnew-20261024-am.json"
+    },
+    "anthropicaisimythos5进一步分析": {
+      "name": "Anthropic AISI Mythos 5 进一步分析",
+      "first_seen": "2026-10-23 21:40",
+      "file": "xnew-20261024-am.json"
+    },
+    "dessa": {
+      "name": "Dessa",
+      "first_seen": "2026-10-24 02:23",
+      "file": "xnew-20261025-am.json"
+    },
+    "nemotron35bolte4b": {
+      "name": "Nemotron 3.5 Bolt E4B",
+      "first_seen": "2026-10-23 23:41",
+      "file": "xnew-20261025-am.json"
+    },
+    "nanbeige4333b": {
+      "name": "Nanbeige4.3-33B",
+      "first_seen": "2026-10-25 20:11",
+      "file": "xnew-20261025-pm.json"
+    },
+    "minimaxh3社区加速更新": {
+      "name": "MiniMax H3 社区加速更新",
+      "first_seen": "2026-10-26 07:48",
+      "file": "xnew-20261026-am.json"
+    },
+    "d3turbo": {
+      "name": "d3-turbo",
+      "first_seen": "2026-10-26 18:00",
+      "file": "xnew-20261026-pm.json"
+    },
+    "babelarena": {
+      "name": "BabelArena",
+      "first_seen": "2026-10-26 11:52",
+      "file": "xnew-20261026-pm.json"
+    },
+    "gpt61terra": {
+      "name": "GPT-6.1 Terra",
+      "first_seen": "2026-10-27 02:06",
+      "file": "xnew-20261027-am.json"
+    },
+    "claudefornonprofits": {
+      "name": "Claude for Nonprofits",
+      "first_seen": "2026-10-27 02:04",
+      "file": "xnew-20261027-am.json"
+    },
+    "ling31flashbase": {
+      "name": "Ling-3.1-flash-base",
+      "first_seen": "2026-10-27 20:44",
+      "file": "xnew-20261027-pm.json"
+    },
+    "atriadawn": {
+      "name": "Atria Dawn",
+      "first_seen": "2026-10-27 16:00",
+      "file": "xnew-20261027-pm.json"
+    },
+    "fibo20dev": {
+      "name": "Fibo 2.0 Dev",
+      "first_seen": "2026-10-27 14:00",
+      "file": "xnew-20261027-pm.json"
+    },
+    "unlimitedocr2": {
+      "name": "Unlimited-OCR-2",
+      "first_seen": "2026-10-27 20:00",
+      "file": "xnew-20261027-pm.json"
+    },
+    "hynomas": {
+      "name": "Hy-Nomas",
+      "first_seen": "2026-10-27 10:23",
+      "file": "xnew-20261027-pm.json"
+    },
+    "hysimulmt": {
+      "name": "Hy-SimulMT",
+      "first_seen": "2026-10-27 18:00",
+      "file": "xnew-20261027-pm.json"
+    },
+    "genie4": {
+      "name": "Genie 4",
+      "first_seen": "2026-10-28 00:10",
+      "file": "xnew-20261028-am.json"
+    },
+    "lfm3": {
+      "name": "LFM3",
+      "first_seen": "2026-10-28 01:07",
+      "file": "xnew-20261028-am.json"
+    },
+    "claudeonegov": {
+      "name": "Claude OneGov",
+      "first_seen": "2026-10-28 06:20",
+      "file": "xnew-20261028-am.json"
+    },
+    "gemini4carbon": {
+      "name": "Gemini 4 Carbon",
+      "first_seen": "2026-10-29 01:02",
+      "file": "xnew-20261030-am.json"
+    },
+    "nemotron35transcribe": {
+      "name": "Nemotron 3.5 Transcribe",
+      "first_seen": "2026-10-28 23:14",
+      "file": "xnew-20261030-am.json"
+    },
+    "brush": {
+      "name": "Brush",
+      "first_seen": "2026-10-30 03:17",
+      "file": "xnew-20261030-am.json"
+    },
+    "lechonk": {
+      "name": "Le Chonk",
+      "first_seen": "2026-10-29 22:21",
+      "file": "xnew-20261030-am.json"
+    },
+    "pikah3flex": {
+      "name": "Pika H3 Flex",
+      "first_seen": "2026-10-30 01:37",
+      "file": "xnew-20261030-am.json"
+    },
+    "clover35ba3bpreview": {
+      "name": "Clover-35B-A3B-Preview",
+      "first_seen": "2026-10-28 11:42",
+      "file": "xnew-20261030-am.json"
+    },
+    "audio8ttsrealistic": {
+      "name": "Audio8-TTS-Realistic",
+      "first_seen": "2026-10-30 09:00",
+      "file": "xnew-20261030-am.json"
+    },
+    "mistralresponsesapi": {
+      "name": "Mistral Responses API",
+      "first_seen": "2026-10-28 22:01",
+      "file": "xnew-20261030-am.json"
+    },
+    "googleconnectedappsplatform": {
+      "name": "Google Connected Apps Platform",
+      "first_seen": "2026-10-29 05:54",
+      "file": "xnew-20261030-am.json"
+    },
+    "claudeapi128mbrequestlimit": {
+      "name": "Claude API 128MB request limit",
+      "first_seen": "2026-10-30 05:49",
+      "file": "xnew-20261030-am.json"
+    },
+    "claudeselfassessment": {
+      "name": "Claude self-assessment",
+      "first_seen": "2026-10-30 02:22",
+      "file": "xnew-20261030-am.json"
+    },
+    "chatgptprobusinessapicredits500": {
+      "name": "ChatGPT Pro/Business API credits $500",
+      "first_seen": "2026-10-29 07:17",
+      "file": "xnew-20261030-am.json"
+    },
+    "wevisonevl4b": {
+      "name": "WeVisOne-VL-4B",
+      "first_seen": "2026-10-30 18:16",
+      "file": "xnew-20261030-pm.json"
+    },
+    "matildaplatypus": {
+      "name": "Matilda Platypus",
+      "first_seen": "2026-10-30 12:58",
+      "file": "xnew-20261030-pm.json"
+    },
+    "mischief1": {
+      "name": "Mischief 1",
+      "first_seen": "2026-10-30 21:01",
+      "file": "xnew-20261031-am.json"
+    },
+    "sensenovaloop9bpreview": {
+      "name": "SenseNova Loop-9B-Preview",
+      "first_seen": "2026-10-30 20:51",
+      "file": "xnew-20261031-am.json"
+    },
+    "sensenova68code2video": {
+      "name": "SenseNova 6.8 Code2Video",
+      "first_seen": "2026-10-28 22:09",
+      "file": "xnew-20261031-am.json"
+    },
+    "openaiprivateintelligence": {
+      "name": "OpenAI Private Intelligence",
+      "first_seen": "2026-10-30 23:12",
+      "file": "xnew-20261031-am.json"
+    },
+    "claudeultra": {
+      "name": "Claude Ultra",
+      "first_seen": "2026-10-31 01:29",
+      "file": "xnew-20261031-am.json"
+    },
+    "anthropic自动化误对齐研究": {
+      "name": "Anthropic 自动化误对齐研究",
+      "first_seen": "2026-10-31 09:59",
+      "file": "xnew-20261031-am.json"
+    },
+    "google太空tpu": {
+      "name": "Google 太空 TPU",
+      "first_seen": "2026-10-31 03:04",
+      "file": "xnew-20261031-am.json"
+    },
+    "planassist": {
+      "name": "PlanAssist",
+      "first_seen": "2026-10-31 21:33",
+      "file": "xnew-20261031-pm.json"
+    },
+    "pandaorchestrator": {
+      "name": "Panda Orchestrator",
+      "first_seen": "2026-10-31 11:00",
+      "file": "xnew-20261031-pm.json"
+    },
+    "qwenputer": {
+      "name": "Qwenputer",
+      "first_seen": "2026-11-02 21:01",
+      "file": "xnew-20261102-pm.json"
+    },
+    "pivo14m": {
+      "name": "PiVo-1.4M",
+      "first_seen": "2026-11-02 18:00",
+      "file": "xnew-20261102-pm.json"
+    },
+    "hydrogen10": {
+      "name": "Hydrogen-1.0",
+      "first_seen": "2026-11-02 16:00",
+      "file": "xnew-20261102-pm.json"
+    },
+    "krea2opencastlora": {
+      "name": "Krea 2 OpenCast LoRA",
+      "first_seen": "2026-11-02 11:26",
+      "file": "xnew-20261102-pm.json"
+    },
+    "longcat25": {
+      "name": "LongCat-2.5",
+      "first_seen": "2026-11-02 22:35",
+      "file": "xnew-20261103-am.json"
+    },
+    "ml4": {
+      "name": "ML4",
+      "first_seen": "2026-11-03 00:30",
+      "file": "xnew-20261103-am.json"
+    },
+    "chefnmr2": {
+      "name": "ChefNMR2",
+      "first_seen": "2026-11-03 04:53",
+      "file": "xnew-20261103-am.json"
+    },
+    "fireflash": {
+      "name": "FireFlash",
+      "first_seen": "2026-11-03 06:44",
+      "file": "xnew-20261103-am.json"
+    },
+    "lifeval": {
+      "name": "LifeVal",
+      "first_seen": "2026-11-03 01:27",
+      "file": "xnew-20261103-am.json"
+    },
+    "messagesapi消息线程": {
+      "name": "Messages API 消息线程",
+      "first_seen": "2026-11-03 03:06",
+      "file": "xnew-20261103-am.json"
+    },
+    "pando": {
+      "name": "Pando",
+      "first_seen": "2026-11-03 08:09",
+      "file": "xnew-20261103-am.json"
+    },
+    "orbitaltrace": {
+      "name": "Orbital Trace",
+      "first_seen": "2026-11-03 19:08",
+      "file": "xnew-20261103-pm.json"
+    },
+    "reuse": {
+      "name": "RE-USE",
+      "first_seen": "2026-11-03 17:00",
+      "file": "xnew-20261103-pm.json"
+    },
+    "audio8ttsrealisticair": {
+      "name": "Audio8-TTS-Realistic-Air",
+      "first_seen": "2026-11-03 15:09",
+      "file": "xnew-20261103-pm.json"
+    },
+    "openaicathedralsystems安全冲刺": {
+      "name": "OpenAI × Cathedral Systems 安全冲刺",
+      "first_seen": "2026-11-03 10:29",
+      "file": "xnew-20261103-pm.json"
+    },
+    "flashprove": {
+      "name": "FlashProve",
+      "first_seen": "2026-11-04 04:10",
+      "file": "xnew-20261104-am.json"
+    },
+    "claude插件自动连接": {
+      "name": "Claude 插件自动连接",
+      "first_seen": "2026-11-04 02:09",
+      "file": "xnew-20261104-am.json"
+    },
+    "mistrallarge4登陆openmathos": {
+      "name": "Mistral Large 4 登陆 Open Math OS",
+      "first_seen": "2026-11-04 01:30",
+      "file": "xnew-20261104-am.json"
+    },
+    "hindsightmodels": {
+      "name": "Hindsight Models",
+      "first_seen": "2026-11-04 00:00",
+      "file": "xnew-20261104-am.json"
+    },
+    "sarvamprism": {
+      "name": "Sarvam Prism",
+      "first_seen": "2026-11-03 22:14",
+      "file": "xnew-20261104-am.json"
+    },
+    "hy4": {
+      "name": "Hy4",
+      "first_seen": "2026-11-04 14:43",
+      "file": "xnew-20261104-pm.json"
+    },
+    "marathondocbench": {
+      "name": "MarathonDocBench",
+      "first_seen": "2026-11-04 20:40",
+      "file": "xnew-20261104-pm.json"
+    },
+    "qwen354b3dcoder": {
+      "name": "Qwen3.5-4B-3D-Coder",
+      "first_seen": "2026-11-04 16:12",
+      "file": "xnew-20261104-pm.json"
+    },
+    "chatgptimages26": {
+      "name": "ChatGPT Images 2.6",
+      "first_seen": "2026-11-05 07:35",
+      "file": "xnew-20261105-am.json"
+    },
+    "gptimage26": {
+      "name": "GPT-Image-2.6",
+      "first_seen": "2026-11-05 07:34",
+      "file": "xnew-20261105-am.json"
+    },
+    "viggleremake": {
+      "name": "Viggle Remake",
+      "first_seen": "2026-11-05 00:10",
+      "file": "xnew-20261105-am.json"
+    },
+    "iotadecide4b": {
+      "name": "IOTA Decide 4B",
+      "first_seen": "2026-11-05 01:11",
+      "file": "xnew-20261105-am.json"
+    },
+    "vernev05": {
+      "name": "Verne V0.5",
+      "first_seen": "2026-11-05 01:15",
+      "file": "xnew-20261105-am.json"
+    },
+    "ripple65bpreview": {
+      "name": "Ripple-65B Preview",
+      "first_seen": "2026-11-05 02:24",
+      "file": "xnew-20261105-am.json"
+    },
+    "swe2flash": {
+      "name": "SWE-2 Flash",
+      "first_seen": "2026-11-05 03:55",
+      "file": "xnew-20261105-am.json"
+    },
+    "ernie55flashbase": {
+      "name": "ERNIE 5.5 Flash Base",
+      "first_seen": "2026-11-05 15:49",
+      "file": "xnew-20261105-pm.json"
+    },
+    "orvena4b": {
+      "name": "Orvena 4B",
+      "first_seen": "2026-11-05 20:34",
+      "file": "xnew-20261105-pm.json"
+    },
+    "agentscopepiccolo": {
+      "name": "AgentScope Piccolo",
+      "first_seen": "2026-11-05 18:09",
+      "file": "xnew-20261105-pm.json"
+    },
+    "emlabknowline": {
+      "name": "EMLab KnowLine",
+      "first_seen": "2026-11-05 19:55",
+      "file": "xnew-20261105-pm.json"
+    },
+    "inkling2small": {
+      "name": "Inkling 2 Small",
+      "first_seen": "2026-11-06 07:43",
+      "file": "xnew-20261106-pm.json"
+    },
+    "gpt6cyber": {
+      "name": "GPT-6 Cyber",
+      "first_seen": "2026-11-06 01:09",
+      "file": "xnew-20261106-pm.json"
+    },
+    "geminiomni12flash": {
+      "name": "Gemini Omni 1.2 Flash",
+      "first_seen": "2026-11-06 01:08",
+      "file": "xnew-20261106-pm.json"
+    },
+    "vflash": {
+      "name": "VFlash",
+      "first_seen": "2026-11-06 00:31",
+      "file": "xnew-20261106-pm.json"
+    },
+    "tailsteer": {
+      "name": "TailSteer",
+      "first_seen": "2026-11-06 17:26",
+      "file": "xnew-20261106-pm.json"
+    },
+    "s5nano": {
+      "name": "S5-nano",
+      "first_seen": "2026-11-07 03:03",
+      "file": "xnew-20261107-am.json"
+    },
+    "biobasicsbench": {
+      "name": "BioBasicsBench",
+      "first_seen": "2026-11-07 03:08",
+      "file": "xnew-20261107-am.json"
+    },
+    "claudememory做梦机制": {
+      "name": "Claude Memory 做梦机制",
+      "first_seen": "2026-11-07 05:16",
+      "file": "xnew-20261107-am.json"
+    },
+    "claudecode云端会话加速": {
+      "name": "Claude Code 云端会话加速",
+      "first_seen": "2026-11-07 03:58",
+      "file": "xnew-20261107-am.json"
+    },
+    "muir": {
+      "name": "Muir",
+      "first_seen": "2026-11-07 03:32",
+      "file": "xnew-20261107-am.json"
+    },
+    "underdogwoof": {
+      "name": "Underdog Woof",
+      "first_seen": "2026-11-07 12:19",
+      "file": "xnew-20261107-pm.json"
+    },
+    "opencodebrowse": {
+      "name": "OpenCode Browse",
+      "first_seen": "2026-11-07 10:35",
+      "file": "xnew-20261107-pm.json"
+    },
+    "arete27b": {
+      "name": "Arete-27B",
+      "first_seen": "2026-11-07 05:48",
+      "file": "xnew-20261107-pm.json"
+    },
+    "beam": {
+      "name": "Beam",
+      "first_seen": "2026-11-07 01:05",
+      "file": "xnew-20261108-am.json"
+    },
+    "momentum": {
+      "name": "Momentum",
+      "first_seen": "2026-11-08 05:08",
+      "file": "xnew-20261108-am.json"
+    },
+    "shizukuduplex": {
+      "name": "Shizuku-Duplex",
+      "first_seen": "2026-11-08 11:10",
+      "file": "xnew-20261108-pm.json"
+    },
+    "drexmax": {
+      "name": "Drex Max",
+      "first_seen": "2026-10-30 21:41",
+      "file": "xnew-20261109-am.json"
+    },
+    "voxtral3transcribe实时转写演示": {
+      "name": "Voxtral 3 Transcribe 实时转写演示",
+      "first_seen": "2026-11-09 12:40",
+      "file": "xnew-20261109-pm.json"
+    },
+    "claudefable52": {
+      "name": "Claude Fable 5.2",
+      "first_seen": "2026-11-10 02:57",
+      "file": "xnew-20261110-pm.json"
+    },
+    "claudemythos52": {
+      "name": "Claude Mythos 5.2",
+      "first_seen": "2026-11-10 02:57",
+      "file": "xnew-20261110-pm.json"
+    },
+    "museember": {
+      "name": "Muse Ember",
+      "first_seen": "2026-11-10 02:04",
+      "file": "xnew-20261110-pm.json"
+    },
+    "sophonrealtimev1": {
+      "name": "Sophon-Realtime v1",
+      "first_seen": "2026-11-09 21:00",
+      "file": "xnew-20261110-pm.json"
+    },
+    "controlroom": {
+      "name": "Control Room",
+      "first_seen": "2026-11-10 06:01",
+      "file": "xnew-20261110-pm.json"
+    }
   }
- }
 }

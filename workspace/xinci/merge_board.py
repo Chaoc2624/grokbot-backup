@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Merge the board radar (X 书签助手: /workspace/xbm/radar-YYYYMMDD-{am,pm}.json) with our report.json.
-Also ingests xnew-*.json（书签X）and tracks-*.json（游戏轨 / AI工具轨）.
+Also ingests xnew-*.json（书签X）、tracks-*.json（游戏轨 / AI工具轨）、news-YYYYMMDD.json（新闻轨）and meme-YYYYMMDD.json（热梗轨）.
 Out: merged.json, merged.md, board_keywords.json (extra input for doable.py --extra-file). Read-only on /workspace/xbm."""
 import argparse, json, re, unicodedata
 from datetime import datetime, timezone, timedelta
@@ -110,6 +110,34 @@ def main():
                 phrase = kw.get("keyword") or ""
                 if not phrase: continue
                 board_kw.append((phrase, kw.get("from") or "", kw.get("reason", ""), src_label))
+    # news / meme tracks (TRACKS.md): news-YYYYMMDD.json, meme-YYYYMMDD.json
+    news_runs, meme_runs = [], []
+    for run_key, path, src_label, track_key, bucket in (
+        ("news", HERE / f"news-{d}.json", "新闻轨", "news", news_runs),
+        ("meme", HERE / f"meme-{d}.json", "热梗轨", "meme", meme_runs),
+    ):
+        if not path.exists():
+            continue
+        run = json.loads(path.read_text())
+        bucket.append(run.get("label", path.name))
+        block = (run.get("tracks") or {}).get(track_key) or run
+        for it in block.get("items") or []:
+            name = it.get("name") or ""
+            if not name: continue
+            k = norm(name); existed = k in idx
+            t = get(name)
+            if existed and src_label not in t["sources"]:
+                dupes.append({"name": name, "matched": t["name"], "ours": list(t["sources"])})
+            if src_label not in t["sources"]: t["sources"].append(src_label)
+            if not t["desc"]:
+                t["desc"] = it.get("desc") or t["desc"]
+            t["url"] = t["url"] or it.get("url", "")
+            t.setdefault("first_seen", it.get("first_seen"))
+            t.setdefault("track", track_key)
+        for kw in block.get("keywords") or []:
+            phrase = kw.get("keyword") or ""
+            if not phrase: continue
+            board_kw.append((phrase, kw.get("from") or "", kw.get("reason", ""), src_label))
     extra, seen = [], set()
     for e in board_kw:
         kw, nm, why = e[:3]; src = e[3] if len(e) > 3 else "看板X"
@@ -118,18 +146,19 @@ def main():
             if src not in hit["source"]: hit["source"] += "/" + src
             continue
         row = {"phrase": kw, "source": src, "names": [nm] if nm else [], "evidence": why}
-        if src in ("游戏轨", "AI工具轨", "书签X"):
+        if src in ("游戏轨", "AI工具轨", "书签X", "新闻轨", "热梗轨"):
             row["is_vacuum_candidate"] = True
         extra.append(row)
     xs = report.get("x", {})
     x_failed = bool(xs.get("error")) or (xs.get("answered", 0) == 0)
-    out = {"date": a.date, "board_runs": board_runs, "xnew_runs": xnew_runs, "track_runs": track_runs,
+    out = {"date": a.date, "board_runs": board_runs, "xnew_runs": xnew_runs, "track_runs": track_runs, "news_runs": news_runs, "meme_runs": meme_runs,
            "our_x_failed": x_failed, "terms": terms, "dupes": dupes, "board_keywords": [e["phrase"] for e in extra]}
     (HERE / "merged.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
     (HERE / "board_keywords.json").write_text(json.dumps(extra, ensure_ascii=False, indent=1))
     L = [f"## 合并新词（{a.date}）", "",
          f"看板雷达：{'、'.join(board_runs) or '当天没有'}；书签X：{'、'.join(xnew_runs) or '当天没有'}；"
-         f"双轨：{'、'.join(track_runs) or '当天没有'}；共 {len(terms)} 个词，两边重合 {len(dupes)} 个。"]
+         f"双轨：{'、'.join(track_runs) or '当天没有'}；新闻轨：{'、'.join(news_runs) or '当天没有'}；热梗轨：{'、'.join(meme_runs) or '当天没有'}；"
+         f"共 {len(terms)} 个词，两边重合 {len(dupes)} 个。"]
     if x_failed: L.append("⚠ 我们的 X 源今晚失败，X 部分只有看板雷达的词。")
     L.append("")
     order = sorted(terms, key=lambda t: (-len(t["sources"]), "看板X" not in t["sources"]))
@@ -137,7 +166,7 @@ def main():
         link = f" [链接]({t['url']})" if t["url"] else ""
         L.append(f"- **{t['name']}**〔{' / '.join(t['sources'])}〕{(t['desc'] or '；'.join(t['signals']))[:120]}{link}")
     (HERE / "merged.md").write_text("\n".join(L) + "\n")
-    print(f"merged {len(terms)} terms, dupes {len(dupes)}: {[x['name'] for x in dupes]}; board keywords: {out['board_keywords']}; tracks: {track_runs}; our X failed: {x_failed}")
+    print(f"merged {len(terms)} terms, dupes {len(dupes)}: {[x['name'] for x in dupes]}; board keywords: {out['board_keywords']}; tracks: {track_runs}; news: {news_runs}; meme: {meme_runs}; our X failed: {x_failed}")
 
 if __name__ == "__main__":
     main()

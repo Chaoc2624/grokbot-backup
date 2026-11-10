@@ -1,0 +1,27 @@
+{
+  "providers": {
+    "magpie": {
+      "baseUrl": "https://magpie.omnitools.cc/v1",
+      "api": "openai-completions",
+      "apiKey": "!/usr/bin/python3 -c 'from pathlib import Path; print(Path(\"/home/box/secrets/pi-magpie/api-key.txt\").read_text().strip(), end=\"\")'",
+      "models": [
+        {
+          "id": "opendesign/deepseek-v4.1-flash",
+          "name": "DeepSeek V4.1 Flash",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "contextWindow": 1048000,
+          "maxTokens": 328000,
+          "thinkingLevelMap": {
+            "low": "low",
+            "high": "high",
+            "max": "max"
+          }
+        }
+      ]
+    }
+  }
+}

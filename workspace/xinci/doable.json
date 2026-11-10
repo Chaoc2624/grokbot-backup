@@ -1,5 +1,5 @@
 {
- "day": "2026-11-09",
+ "day": "2026-11-10",
  "config": {
   "min_volume": 500,
   "max_kd": 31,
@@ -33,44 +33,34 @@
  "almost": [],
  "filtered_out": [
   {
-   "phrase": "com.a2awire benchmark",
+   "phrase": "io.github.thecompanyatlas",
    "source": "Google 补全种子",
    "reason": "含义不明/包名碎片"
   },
   {
-   "phrase": "com.a2awire",
+   "phrase": "connectors io.github.thecompanyatlas",
    "source": "Google 补全种子",
    "reason": "含义不明/包名碎片"
   },
   {
-   "phrase": "io.github.morvanvivien bibian",
+   "phrase": "io.github.the",
    "source": "Google 补全种子",
    "reason": "含义不明/包名碎片"
   },
   {
-   "phrase": "connectors io.github.morvanvivien",
+   "phrase": "io.github.wulfcare",
    "source": "Google 补全种子",
    "reason": "含义不明/包名碎片"
   },
   {
-   "phrase": "io.github.bosco",
+   "phrase": "connectors io.github.wulfcare",
    "source": "Google 补全种子",
    "reason": "含义不明/包名碎片"
   },
   {
-   "phrase": "io.github.bosco labs",
+   "phrase": "every satellite that passed over any place this week and its photos",
    "source": "Google 补全种子",
-   "reason": "含义不明/包名碎片"
-  },
-  {
-   "phrase": "connectors io.github.bosco",
-   "source": "Google 补全种子",
-   "reason": "含义不明/包名碎片"
-  },
-  {
-   "phrase": "murderers vs sheriffs",
-   "source": "Google 补全种子",
-   "reason": "非科技/赛事对阵词"
+   "reason": "长度异常或为空"
   },
   {
    "phrase": "snake vs human",
@@ -78,214 +68,474 @@
    "reason": "非科技/赛事对阵词"
   },
   {
-   "phrase": "berry avenue rp wiki",
-   "source": "Google 补全(Berry Avenue RP)",
+   "phrase": "muse ember vs spark",
+   "source": "Google 补全(Muse Ember)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "annihilated bengali meaning",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated blown to crossword clue",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated crossword",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated crossword clue 10 letters",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated definition",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated hindi meaning",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated in hindi meaning",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated in meaning",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated meaning",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated meaning in chinese",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated meaning in english",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated meaning in hindi",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated meaning in tamil",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated meaning in urdu",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated meaning pronounce",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated meaning synonyms",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated person meaning",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated pronunciation",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated synonym",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated synonym and antonym",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated tamil meaning",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated telugu meaning",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "annihilated urdu meaning",
+   "source": "Google 补全(Annihilated)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "build a bridge and get over it meaning",
+   "source": "Google 补全(Build a Bridge)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "build a bridge appointment online near me",
+   "source": "Google 补全(Build a Bridge)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "build a bridge chords",
+   "source": "Google 补全(Build a Bridge)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "build a bridge death stranding",
+   "source": "Google 补全(Build a Bridge)",
    "reason": "名人/娱乐/八卦噪音"
   },
   {
-   "phrase": "compliment antonym",
-   "source": "Google 补全(Compliment)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "compliment definition",
-   "source": "Google 补全(Compliment)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "compliment definition for kids",
-   "source": "Google 补全(Compliment)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "compliment fishing meaning",
-   "source": "Google 补全(Compliment)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "compliment free meaning",
-   "source": "Google 补全(Compliment)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "compliment me meaning",
-   "source": "Google 补全(Compliment)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "compliment meaning",
-   "source": "Google 补全(Compliment)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "compliment meaning in english",
-   "source": "Google 补全(Compliment)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "compliment meaning in farsi",
-   "source": "Google 补全(Compliment)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "compliment meaning in hindi",
-   "source": "Google 补全(Compliment)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "compliment meaning in urdu",
-   "source": "Google 补全(Compliment)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "compliment online dating",
-   "source": "Google 补全(Compliment)",
+   "phrase": "build a bridge death stranding 2",
+   "source": "Google 补全(Build a Bridge)",
    "reason": "名人/娱乐/八卦噪音"
   },
   {
-   "phrase": "compliment or complement meaning",
-   "source": "Google 补全(Compliment)",
+   "phrase": "build a bridge gospel song lyrics",
+   "source": "Google 补全(Build a Bridge)",
    "reason": "词典常识/服务故障/共搜噪音"
   },
   {
-   "phrase": "compliment pronunciation",
-   "source": "Google 补全(Compliment)",
+   "phrase": "build a bridge limp bizkit lyrics",
+   "source": "Google 补全(Build a Bridge)",
    "reason": "词典常识/服务故障/共搜噪音"
   },
   {
-   "phrase": "compliment synonym",
-   "source": "Google 补全(Compliment)",
+   "phrase": "build a bridge limp bizkit meaning",
+   "source": "Google 补全(Build a Bridge)",
    "reason": "词典常识/服务故障/共搜噪音"
   },
   {
-   "phrase": "compliment urdu meaning",
-   "source": "Google 补全(Compliment)",
+   "phrase": "build a bridge lyrics",
+   "source": "Google 补全(Build a Bridge)",
    "reason": "词典常识/服务故障/共搜噪音"
   },
   {
-   "phrase": "compliment vs",
-   "source": "Google 补全(Compliment)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "compliment vs complement",
-   "source": "Google 补全(Compliment)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "compliment vs complement examples",
-   "source": "Google 补全(Compliment)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "compliment vs complement free",
-   "source": "Google 补全(Compliment)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "compliment vs complement meaning",
-   "source": "Google 补全(Compliment)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "compliment vs complement pronunciation",
-   "source": "Google 补全(Compliment)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "compliment vs complementary",
-   "source": "Google 补全(Compliment)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "compliment vs harassment meme",
-   "source": "Google 补全(Compliment)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "compliment vs praise",
-   "source": "Google 补全(Compliment)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "compliment vs sexual harassment meme",
-   "source": "Google 补全(Compliment)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "complimentary meaning",
-   "source": "Google 补全(Compliment)",
+   "phrase": "build a bridge meaning",
+   "source": "Google 补全(Build a Bridge)",
    "reason": "词典常识/服务故障/共搜噪音"
   },
   {
-   "phrase": "complimentary vs complementary",
-   "source": "Google 补全(Compliment)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "payday 3 mod menu",
-   "source": "Google 补全(PAYDAY 3)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "payday 3 vs",
-   "source": "Google 补全(PAYDAY 3)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "payday 3 vs payday 2",
-   "source": "Google 补全(PAYDAY 3)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "payday 3 vs payday 2 2026",
-   "source": "Google 补全(PAYDAY 3)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "payday 3 vs payday 2 player count",
-   "source": "Google 补全(PAYDAY 3)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "payday 3 vs payday 2 reddit",
-   "source": "Google 补全(PAYDAY 3)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "payday 3 vs rockay city",
-   "source": "Google 补全(PAYDAY 3)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "payday 3 vs year 1 edition",
-   "source": "Google 补全(PAYDAY 3)",
-   "reason": "非科技/赛事对阵词"
-  },
-  {
-   "phrase": "payday 3 wiki",
-   "source": "Google 补全(PAYDAY 3)",
+   "phrase": "build a bridge together roblox wiki",
+   "source": "Google 补全(Build a Bridge)",
    "reason": "名人/娱乐/八卦噪音"
   },
   {
-   "phrase": "the gilded age season 4",
-   "source": "Trends RSS",
-   "reason": "名人/娱乐/八卦噪音"
-  },
-  {
-   "phrase": "west indies vs bangladesh",
-   "source": "Trends RSS",
-   "reason": "非科技/赛事对阵词"
+   "phrase": "wingstop",
+   "source": "App Store(#58 Wingstop)",
+   "reason": "老应用重返榜单(上架 2011-08-08)，非AI新工具"
   }
  ],
  "terms": [
   {
-   "phrase": "drex max",
+   "phrase": "claude fable 5.2",
+   "source": "书签X·建站热词",
+   "names": [
+    "Claude Fable 5.2"
+   ],
+   "evidence": "名字全新且官方首发互动极高（约 1209 万次浏览、1.3 万收藏），适合做模型介绍、编程/推理评测对比或 Claude 系选型指南页。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": true,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {},
+    "ads": false,
+    "features": [],
+    "top": [],
+    "items": [],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/0",
+   "vacuum_evidence": "结果过少",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "claudefable52.com",
+     "available": true
+    },
+    {
+     "domain": "claudefable52ai.com",
+     "available": true
+    },
+    {
+     "domain": "tryclaude.com",
+     "available": false
+    },
+    {
+     "domain": "claudefable52.ai",
+     "available": true
+    },
+    {
+     "domain": "claudefable52ai.ai",
+     "available": true
+    },
+    {
+     "domain": "claudefable52.io",
+     "available": true
+    },
+    {
+     "domain": "claudefable52ai.io",
+     "available": true
+    },
+    {
+     "domain": "claudefable52.org",
+     "available": true
+    }
+   ],
+   "available_domains": [
+    "claudefable52.com",
+    "claudefable52ai.com",
+    "claudefable52.ai",
+    "claudefable52ai.ai",
+    "claudefable52.io",
+    "claudefable52ai.io",
+    "claudefable52.org"
+   ],
+   "failed": [
+    "月搜",
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "claude mythos 5.2",
+   "source": "书签X·建站热词",
+   "names": [
+    "Claude Mythos 5.2"
+   ],
+   "evidence": "与 Fable 5.2 同帖首发、浏览量同档，名字独特，适合做 Mythos/Fable 选型对比或高难度任务评测页。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": true,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {},
+    "ads": false,
+    "features": [],
+    "top": [],
+    "items": [],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/0",
+   "vacuum_evidence": "结果过少",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "claudemythos52.com",
+     "available": true
+    },
+    {
+     "domain": "claudemythos52ai.com",
+     "available": true
+    },
+    {
+     "domain": "tryclaude.com",
+     "available": false
+    },
+    {
+     "domain": "claudemythos52.ai",
+     "available": true
+    },
+    {
+     "domain": "claudemythos52ai.ai",
+     "available": true
+    },
+    {
+     "domain": "claudemythos52.io",
+     "available": true
+    },
+    {
+     "domain": "claudemythos52ai.io",
+     "available": true
+    },
+    {
+     "domain": "claudemythos52.org",
+     "available": true
+    }
+   ],
+   "available_domains": [
+    "claudemythos52.com",
+    "claudemythos52ai.com",
+    "claudemythos52.ai",
+    "claudemythos52ai.ai",
+    "claudemythos52.io",
+    "claudemythos52ai.io",
+    "claudemythos52.org"
+   ],
+   "failed": [
+    "月搜",
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "muse ember",
+   "source": "书签X·建站热词",
+   "names": [
+    "Muse Ember"
+   ],
+   "evidence": "Meta 官方首发，浏览约 119 万，名字较独特，适合做轻量 Agent 模型介绍、工具调用工作流或 API 接入说明页。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": true,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {},
+    "ads": false,
+    "features": [],
+    "top": [],
+    "items": [],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/0",
+   "vacuum_evidence": "结果过少",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "museember.com",
+     "available": false
+    },
+    {
+     "domain": "museemberai.com",
+     "available": false
+    },
+    {
+     "domain": "trymuse.com",
+     "available": false
+    },
+    {
+     "domain": "museember.ai",
+     "available": false
+    },
+    {
+     "domain": "museemberai.ai",
+     "available": true
+    },
+    {
+     "domain": "museember.io",
+     "available": false
+    },
+    {
+     "domain": "museemberai.io",
+     "available": true
+    },
+    {
+     "domain": "museember.org",
+     "available": false
+    }
+   ],
+   "available_domains": [
+    "museemberai.ai",
+    "museemberai.io"
+   ],
+   "failed": [
+    "月搜",
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "sophon-realtime v1",
    "source": "书签X·AI新品",
    "names": [
-    "Drex Max"
+    "Sophon-Realtime v1"
    ],
-   "evidence": "【补报】Nace AI 开源的约 27B 多模态决策模型，输入上下文与最多 255 个选项后只返回各选项概率（不生成文本），可在 Apple Silicon 本地运行。",
+   "evidence": "Adventists AI 在 ModelScope 开源的全双工语音模型，能边听边说、约 0.4 秒接话，并带语气（如笑、叹息）。",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -323,45 +573,46 @@
    "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
    "domains": [
     {
-     "domain": "drexmax.com",
+     "domain": "sophonrealtimev1.com",
+     "available": true
+    },
+    {
+     "domain": "sophonrealtimev1ai.com",
+     "available": true
+    },
+    {
+     "domain": "trysophon.com",
      "available": false
     },
     {
-     "domain": "drexmaxai.com",
+     "domain": "sophonrealtimev1.ai",
      "available": true
     },
     {
-     "domain": "trydrex.com",
-     "available": false
-    },
-    {
-     "domain": "drexmax.ai",
+     "domain": "sophonrealtimev1ai.ai",
      "available": true
     },
     {
-     "domain": "drexmaxai.ai",
+     "domain": "sophonrealtimev1.io",
      "available": true
     },
     {
-     "domain": "drexmax.io",
+     "domain": "sophonrealtimev1ai.io",
      "available": true
     },
     {
-     "domain": "drexmaxai.io",
-     "available": true
-    },
-    {
-     "domain": "drexmax.org",
+     "domain": "sophonrealtimev1.org",
      "available": true
     }
    ],
    "available_domains": [
-    "drexmaxai.com",
-    "drexmax.ai",
-    "drexmaxai.ai",
-    "drexmax.io",
-    "drexmaxai.io",
-    "drexmax.org"
+    "sophonrealtimev1.com",
+    "sophonrealtimev1ai.com",
+    "sophonrealtimev1.ai",
+    "sophonrealtimev1ai.ai",
+    "sophonrealtimev1.io",
+    "sophonrealtimev1ai.io",
+    "sophonrealtimev1.org"
    ],
    "failed": [
     "月搜",
@@ -374,12 +625,12 @@
    ]
   },
   {
-   "phrase": "berry avenue rp",
+   "phrase": "+1 destruction battlegrounds",
    "source": "游戏轨",
    "names": [
-    "Berry Avenue RP"
+    "+1 Destruction Battlegrounds"
    ],
-   "evidence": "Roblox · Top Playing Now: Roblox Top Playing Now · 54270 playing",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 3018 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -426,107 +677,12 @@
    ]
   },
   {
-   "phrase": "berry avenue rp unblocked",
+   "phrase": "+1 destruction battlegrounds unblocked",
    "source": "游戏轨",
    "names": [
-    "Berry Avenue RP"
+    "+1 Destruction Battlegrounds"
    ],
-   "evidence": "Roblox · Top Playing Now: Roblox Top Playing Now · 54270 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "berry avenue rp online",
-   "source": "游戏轨",
-   "names": [
-    "Berry Avenue RP"
-   ],
-   "evidence": "Roblox · Top Playing Now: Roblox Top Playing Now · 54270 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {},
-    "ads": false,
-    "features": [],
-    "top": [],
-    "items": [],
-    "source": "serp",
-    "soft_weak": 0
-   },
-   "is_vacuum": false,
-   "vacuum_ratio": 0.0,
-   "vacuum_count": "0/0",
-   "vacuum_evidence": "结果过少",
-   "tool_intent": true,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": false,
-    "allintitle": null
-   },
-   "score": 25,
-   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
-   "failed": [
-    "月搜",
-    "CPC",
-    "首页竞争"
-   ],
-   "unknown": [
-    "KD",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "berry avenue rp play",
-   "source": "游戏轨",
-   "names": [
-    "Berry Avenue RP"
-   ],
-   "evidence": "Roblox · Top Playing Now: Roblox Top Playing Now · 54270 playing",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 3018 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -573,116 +729,12 @@
    ]
   },
   {
-   "phrase": "compliment",
+   "phrase": "+1 destruction battlegrounds online",
    "source": "游戏轨",
    "names": [
-    "Compliment"
+    "+1 Destruction Battlegrounds"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 2555 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {},
-    "ads": false,
-    "features": [],
-    "top": [],
-    "items": [],
-    "source": "serp",
-    "soft_weak": 0
-   },
-   "is_vacuum": false,
-   "vacuum_ratio": 0.0,
-   "vacuum_count": "0/0",
-   "vacuum_evidence": "结果过少",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": false,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC",
-    "首页竞争"
-   ],
-   "unknown": [
-    "KD",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "compliment unblocked",
-   "source": "游戏轨",
-   "names": [
-    "Compliment"
-   ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 2555 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {},
-    "ads": false,
-    "features": [],
-    "top": [],
-    "items": [],
-    "source": "serp",
-    "soft_weak": 0
-   },
-   "is_vacuum": false,
-   "vacuum_ratio": 0.0,
-   "vacuum_count": "0/0",
-   "vacuum_evidence": "结果过少",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": false,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC",
-    "首页竞争"
-   ],
-   "unknown": [
-    "KD",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "compliment online",
-   "source": "游戏轨",
-   "names": [
-    "Compliment"
-   ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 2555 playing",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 3018 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -729,12 +781,12 @@
    ]
   },
   {
-   "phrase": "compliment play",
+   "phrase": "+1 destruction battlegrounds play",
    "source": "游戏轨",
    "names": [
-    "Compliment"
+    "+1 Destruction Battlegrounds"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 2555 playing",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 3018 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -781,12 +833,12 @@
    ]
   },
   {
-   "phrase": "fatal baboons",
+   "phrase": "+1 hacker evolve",
    "source": "游戏轨",
    "names": [
-    "Fatal Baboons"
+    "+1 Hacker Evolve"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 21048 playing",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 3582 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -833,12 +885,12 @@
    ]
   },
   {
-   "phrase": "fatal baboons unblocked",
+   "phrase": "+1 hacker evolve unblocked",
    "source": "游戏轨",
    "names": [
-    "Fatal Baboons"
+    "+1 Hacker Evolve"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 21048 playing",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 3582 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -885,220 +937,12 @@
    ]
   },
   {
-   "phrase": "fatal baboons online",
+   "phrase": "+1 hacker evolve online",
    "source": "游戏轨",
    "names": [
-    "Fatal Baboons"
+    "+1 Hacker Evolve"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 21048 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {},
-    "ads": false,
-    "features": [],
-    "top": [],
-    "items": [],
-    "source": "serp",
-    "soft_weak": 0
-   },
-   "is_vacuum": false,
-   "vacuum_ratio": 0.0,
-   "vacuum_count": "0/0",
-   "vacuum_evidence": "结果过少",
-   "tool_intent": true,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": false,
-    "allintitle": null
-   },
-   "score": 25,
-   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
-   "failed": [
-    "月搜",
-    "CPC",
-    "首页竞争"
-   ],
-   "unknown": [
-    "KD",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "fatal baboons play",
-   "source": "游戏轨",
-   "names": [
-    "Fatal Baboons"
-   ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 21048 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {},
-    "ads": false,
-    "features": [],
-    "top": [],
-    "items": [],
-    "source": "serp",
-    "soft_weak": 0
-   },
-   "is_vacuum": false,
-   "vacuum_ratio": 0.0,
-   "vacuum_count": "0/0",
-   "vacuum_evidence": "结果过少",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": false,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC",
-    "首页竞争"
-   ],
-   "unknown": [
-    "KD",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "hot goods",
-   "source": "游戏轨",
-   "names": [
-    "Hot Goods"
-   ],
-   "evidence": "@anhelouda: Roblox平台的店铺模拟游戏，玩家需与阴险顾客讨价还价、隐藏赃物并击退安卓人。",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {},
-    "ads": false,
-    "features": [],
-    "top": [],
-    "items": [],
-    "source": "serp",
-    "soft_weak": 0
-   },
-   "is_vacuum": false,
-   "vacuum_ratio": 0.0,
-   "vacuum_count": "0/0",
-   "vacuum_evidence": "结果过少",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": false,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC",
-    "首页竞争"
-   ],
-   "unknown": [
-    "KD",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "hot goods unblocked",
-   "source": "游戏轨",
-   "names": [
-    "Hot Goods"
-   ],
-   "evidence": "@anhelouda: Roblox平台的店铺模拟游戏，玩家需与阴险顾客讨价还价、隐藏赃物并击退安卓人。",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {},
-    "ads": false,
-    "features": [],
-    "top": [],
-    "items": [],
-    "source": "serp",
-    "soft_weak": 0
-   },
-   "is_vacuum": false,
-   "vacuum_ratio": 0.0,
-   "vacuum_count": "0/0",
-   "vacuum_evidence": "结果过少",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": false,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC",
-    "首页竞争"
-   ],
-   "unknown": [
-    "KD",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "hot goods online",
-   "source": "游戏轨",
-   "names": [
-    "Hot Goods"
-   ],
-   "evidence": "@anhelouda: Roblox平台的店铺模拟游戏，玩家需与阴险顾客讨价还价、隐藏赃物并击退安卓人。",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 3582 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1145,12 +989,12 @@
    ]
   },
   {
-   "phrase": "hot goods play",
+   "phrase": "+1 hacker evolve play",
    "source": "游戏轨",
    "names": [
-    "Hot Goods"
+    "+1 Hacker Evolve"
    ],
-   "evidence": "@anhelouda: Roblox平台的店铺模拟游戏，玩家需与阴险顾客讨价还价、隐藏赃物并击退安卓人。",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 3582 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1197,12 +1041,12 @@
    ]
   },
   {
-   "phrase": "payday 3",
+   "phrase": "annihilated",
    "source": "游戏轨",
    "names": [
-    "PAYDAY 3"
+    "Annihilated"
    ],
-   "evidence": "Steam 全球畅销: Steam 全球畅销：PAYDAY 3",
+   "evidence": "Steam 畅销: Steam 畅销：Annihilated",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1249,829 +1093,12 @@
    ]
   },
   {
-   "phrase": "payday 3 unblocked",
+   "phrase": "annihilated unblocked",
    "source": "游戏轨",
    "names": [
-    "PAYDAY 3"
+    "Annihilated"
    ],
-   "evidence": "Steam 全球畅销: Steam 全球畅销：PAYDAY 3",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "payday 3 online",
-   "source": "游戏轨",
-   "names": [
-    "PAYDAY 3"
-   ],
-   "evidence": "Steam 全球畅销: Steam 全球畅销：PAYDAY 3",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": true,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 25,
-   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "payday 3 play",
-   "source": "游戏轨",
-   "names": [
-    "PAYDAY 3"
-   ],
-   "evidence": "Steam 全球畅销: Steam 全球畅销：PAYDAY 3",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "rob run",
-   "source": "游戏轨",
-   "names": [
-    "ROB RUN"
-   ],
-   "evidence": "Steam 全球畅销: Steam 全球畅销：ROB RUN",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "rob run unblocked",
-   "source": "游戏轨",
-   "names": [
-    "ROB RUN"
-   ],
-   "evidence": "Steam 全球畅销: Steam 全球畅销：ROB RUN",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "rob run online",
-   "source": "游戏轨",
-   "names": [
-    "ROB RUN"
-   ],
-   "evidence": "Steam 全球畅销: Steam 全球畅销：ROB RUN",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": true,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 25,
-   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "rob run play",
-   "source": "游戏轨",
-   "names": [
-    "ROB RUN"
-   ],
-   "evidence": "Steam 全球畅销: Steam 全球畅销：ROB RUN",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "⚽ be a soccer legend",
-   "source": "游戏轨",
-   "names": [
-    "⚽ Be a Soccer Legend"
-   ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 16128 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "⚽ be a soccer legend unblocked",
-   "source": "游戏轨",
-   "names": [
-    "⚽ Be a Soccer Legend"
-   ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 16128 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "⚽ be a soccer legend online",
-   "source": "游戏轨",
-   "names": [
-    "⚽ Be a Soccer Legend"
-   ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 16128 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": true,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 25,
-   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "⚽ be a soccer legend play",
-   "source": "游戏轨",
-   "names": [
-    "⚽ Be a Soccer Legend"
-   ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 16128 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "+1 spider arm",
-   "source": "游戏轨",
-   "names": [
-    "+1 Spider Arm"
-   ],
-   "evidence": "Roblox · Top Trending: Roblox Top Trending · 14976 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "+1 spider arm unblocked",
-   "source": "游戏轨",
-   "names": [
-    "+1 Spider Arm"
-   ],
-   "evidence": "Roblox · Top Trending: Roblox Top Trending · 14976 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "+1 spider arm online",
-   "source": "游戏轨",
-   "names": [
-    "+1 Spider Arm"
-   ],
-   "evidence": "Roblox · Top Trending: Roblox Top Trending · 14976 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": true,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 25,
-   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "+1 spider arm play",
-   "source": "游戏轨",
-   "names": [
-    "+1 Spider Arm"
-   ],
-   "evidence": "Roblox · Top Trending: Roblox Top Trending · 14976 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "+1 venom evolution",
-   "source": "游戏轨",
-   "names": [
-    "+1 Venom Evolution"
-   ],
-   "evidence": "Roblox · Top Trending: Roblox Top Trending · 25025 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "+1 venom evolution unblocked",
-   "source": "游戏轨",
-   "names": [
-    "+1 Venom Evolution"
-   ],
-   "evidence": "Roblox · Top Trending: Roblox Top Trending · 25025 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "+1 venom evolution online",
-   "source": "游戏轨",
-   "names": [
-    "+1 Venom Evolution"
-   ],
-   "evidence": "Roblox · Top Trending: Roblox Top Trending · 25025 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": true,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 25,
-   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "+1 venom evolution play",
-   "source": "游戏轨",
-   "names": [
-    "+1 Venom Evolution"
-   ],
-   "evidence": "Roblox · Top Trending: Roblox Top Trending · 25025 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "13 days to escape",
-   "source": "游戏轨",
-   "names": [
-    "13 Days to Escape"
-   ],
-   "evidence": "Roblox · Top Trending: Roblox Top Trending · 17368 playing",
+   "evidence": "Steam 畅销: Steam 畅销：Annihilated",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2084,102 +1111,20 @@
    "kd_skipped": true,
    "verdict": "crowded",
    "comp_detail": {
-    "kinds": {
-     "list": 6,
-     "article": 2
-    },
+    "kinds": {},
     "ads": false,
-    "features": [
-     "ai_overview",
-     "images"
-    ],
-    "top": [
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com"
-    ],
-    "items": [
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXX1qU94NyT5ZloikF5G4NSWcOzygMq8UR1ZnhjEzUqxoFWckxGZkDojy5w2ZjZNl2XohtQJUh7G4j1voOxiBlRHlGht3I4pxtgqXy7a-9ImUFrYxykcBoLGjkITp1FIqzIjzls&gsessionid=zICyRjOl-SSQcRhyu2D_aTcvBpRrTW5E_mGMSes_u5YjZLosyR2Xmw",
-      "title": "The Third Day Ends | Don't Escape: 4 Days to Survive",
-      "position": 1,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXJVXajIwn10JjjndCCwPNjNZDGtz2-Z35XJENj5vUK8gdLtUyGxJw4Lmv53zBDENBugn2jqiZkZvw6_BD1jZq8ivhsVaGVN4b-EugKNNbDKb6dJ3nnDxetn2PM8r1g0kcTShX&gsessionid=zICyRjOl-SSQcRhyu2D_aTcvBpRrTW5E_mGMSes_u5YjZLosyR2Xmw",
-      "title": "Don't Escape: 4 days to survive day 3",
-      "position": 2,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESrwEBxCJF14lRNL9qz2GHsElvh4jrpXrQbceXqUyLafuwQhIkJUB7ogDD4cpWfZAui9JHmnUZHuGUofc4R4izsnyFMUaog9EzJb8lk0WWEdOFaUoDxTApkIbiBssKEul6AU9JKFlWHwkdpEYByLPv67p55ulyMj9VLHW0dJYO2a4uh41cEJpJnIbLvqV7LHXnobCBeDGaporI_EaHakltCkDQIFiNUjrf5Zd1HQWQEHQA&gsessionid=zICyRjOl-SSQcRhyu2D_aTcvBpRrTW5E_mGMSes_u5YjZLosyR2Xmw",
-      "title": "Helpless at 13: Vilas' Story of Abuse and Marriage | Soft White ...",
-      "position": 3,
-      "kind": "article"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXg1MZ59n1gBcsCpKPlLKI_5bF4PvxBIkANevZfwNzWTx_sFTnmJVdix-XoGSO4RmkxID0jt-5rDYBD1BtP-e_QcU5PoPfudT6yw92irHbWS636HkExwDSJfJ-u6cDhYxjPDFI&gsessionid=zICyRjOl-SSQcRhyu2D_aTcvBpRrTW5E_mGMSes_u5YjZLosyR2Xmw",
-      "title": "Hard Decisions - DON'T ESCAPE 4 DAYS TO SURVIVE (day 3)",
-      "position": 4,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXktGBrwV49rEzzGbSwoZ_dPzd4btTUviYPObpEdfE5B_vEmTKjvVqV93LjpDp9eEt-fubEM8f4bVsyFiAYCMc4qwB3E5Nh2bz7uODPprIfzEADN1AmY5mE47syoFjtDVuuxz1&gsessionid=zICyRjOl-SSQcRhyu2D_aTcvBpRrTW5E_mGMSes_u5YjZLosyR2Xmw",
-      "title": "Don't Escape: 4 Days to Survive (The Awakening) - LIVE!",
-      "position": 5,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXhzd5xXn8z8-9npHoI0s9K4OZdMAlVv7qUytH8pE2ZRJCtDh7U_LHgnJc925JJV4ZBwqhk1nGucK6bs7r1-p8v7gJz3ea1V742CquKCmYelVEW2WQlfhfe9TW-xxUbnTgnVKY&gsessionid=zICyRjOl-SSQcRhyu2D_aTcvBpRrTW5E_mGMSes_u5YjZLosyR2Xmw",
-      "title": "Gonna be hard to not escape of this one",
-      "position": 6,
-      "kind": "article"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXX1UMd_VC5LqexWduZq4Yxs1zePqYwC-K_Jj03x86QB_K_GHuxpIHS7MIpTM6DjsATXBq_ue99RPzJMfKbohArisKtmylBaft89GPB34vSkuY4DsOtTlJkjItQJe27XEZPbCaj&gsessionid=zICyRjOl-SSQcRhyu2D_aTcvBpRrTW5E_mGMSes_u5YjZLosyR2Xmw",
-      "title": "Don't Escape: 4 Days to Survive #1",
-      "position": 7,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXHhbB_93hJNEjORSaN56ej8TbClUwBfu7NHe99K8maoNoZTDaSlbVH5xUNp4RZWKLs_DZUBymFulx2S_ITPOMuLNHPm5oUaLxNFDE3khgOJsgvInSEdLu_gcQbe4hC9CYJw2s&gsessionid=zICyRjOl-SSQcRhyu2D_aTcvBpRrTW5E_mGMSes_u5YjZLosyR2Xmw",
-      "title": "Time To Escape - Level 13 Walkthrough",
-      "position": 8,
-      "kind": "list"
-     }
-    ],
+    "features": [],
+    "top": [],
+    "items": [],
     "source": "serp",
     "soft_weak": 0
    },
    "is_vacuum": false,
    "vacuum_ratio": 0.0,
-   "vacuum_count": "0/8",
-   "vacuum_hits": 0,
-   "vacuum_total": 8,
-   "vacuum_breakdown": {
-    "社媒/论坛": 0,
-    "代码仓/模型库": 0,
-    "视频": 0,
-    "资讯/评测": 0
-   },
-   "dedicated_sites": [],
-   "vacuum_evidence": "已有 8 个垂直博客抢占（google.com），社区占比 0/8",
+   "vacuum_count": "0/0",
+   "vacuum_evidence": "结果过少",
    "tool_intent": false,
    "kdroi": null,
-   "small_sites": 0,
    "checks": {
     "月搜": false,
     "KD": null,
@@ -2200,12 +1145,12 @@
    ]
   },
   {
-   "phrase": "13 days to escape unblocked",
+   "phrase": "annihilated online",
    "source": "游戏轨",
    "names": [
-    "13 Days to Escape"
+    "Annihilated"
    ],
-   "evidence": "Roblox · Top Trending: Roblox Top Trending · 17368 playing",
+   "evidence": "Steam 畅销: Steam 畅销：Annihilated",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2218,250 +1163,20 @@
    "kd_skipped": true,
    "verdict": "crowded",
    "comp_detail": {
-    "kinds": {
-     "list": 7,
-     "article": 2
-    },
+    "kinds": {},
     "ads": false,
-    "features": [
-     "ai_overview"
-    ],
-    "top": [
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com"
-    ],
-    "items": [
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXt67TqCEumc0d3B5gBY6hrdxz6imhMLXMw5C5q6thHqGBnqzjUy-ZE1sMzG-5ljr-PMVLejRxnh3Lz_1RFcb7TbuhBiLulePZlSn1uxXrbzbJ1WJnzqOWTOtyfeo9ViXByCT5",
-      "title": "Don't Escape: 4 Days to Survive #1",
-      "position": 1,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXjcXCXVuINGNrVD60Vtn_6_4-T6nvrm8CIHBD2vNpuZrNqH3esTvYgckLyN9hpzsJ_1YjCcKCvlVs3ZSMYdpYu1P7uGj0RSH5fTRmDvaBarMAz-jDIivqAx2AbnRxeGpv8XAC",
-      "title": "Until Dawn The Halloween Cut SHN FearFest 2015! Survival ...",
-      "position": 2,
-      "kind": "article"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXZdfjR6wnuRs2z9NgPLk-3KXipFcUit2MCI59htY-NJ3vZN_GvLEZR0HdrQwiFQiUVKLNacoXKD20NsnHPiqPn9SH7yQ-ycqoorNn1LJD2z1HKdJBOm90L8HaKKVQoUeYDIA4",
-      "title": "Don't Escape: 4 Days To Survive The Awakening Bonus Scenario",
-      "position": 3,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXbRwFWenc-ZFzQEvkxOHJO0fg7DD0gyctihOil-ItAij_KZYxRH23HV0FsPxSo111Q8ar4ArvX-jZ3nsuOaoezjlMHcFSMVNLepeAYVbaukvtGw1rlfuBXf0nEN8TsdN1LNiw",
-      "title": "DON'T ESCAPE: 4 DAYS TO SURVIVE | #09 | THE AWAKENING",
-      "position": 4,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXq3Rz9YaI6fuQARA2xnVTRxbFWQyEzslSUMlqgdA25loXTFsZ-wsFPa_vHEzrcmi5Z0eD5yIRqMLmG-WzJOOb-uBlHW75MPtDYEcpl9QK40JejP05KKmtBSuBwBXhBA1bF9KW",
-      "title": "Gonna be hard to not escape of this one",
-      "position": 5,
-      "kind": "article"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXY-Kd-gA8eh1bNqSM183tpOYlXFCryFsnXctGdxZaYnez5Dz8SzkysKxWseVr-J_otQBtgCKxQyXp1c6tIA2RY02uKv62KT9uuhoPX-liCSt69wIUAd2K5N8v608asqSIu1fO",
-      "title": "Don't Escape: 4 Days To Survive",
-      "position": 6,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAEShQEBxCJF12bR3tdzzdR4ZZ4LQGTnLWPQa2ClwhdGyl5ccRPO2MFxYB1CIVd5fiK1Xsrlb3f4oC2CbE8Y_cuJVGk7E6UK8OW3AtWX5Bvgs8SHpWIYoQPkliLCQHRi8GJy88FhPE5uOcGvx2QiRioW9vI45EWGtn1OwbT18Pzlx6EPQhGBEB3V",
-      "title": "Don't Escape: 4 Days To Survive",
-      "position": 7,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXdVdlkRGd8C0ksivMU9lhe752K6o262VlY-EAgaQGs13abrn8-HFPyLW4ikXbX2YDGHA6FOn6C6Csz3AUUtTiSWCOks81u2BwYeYggZRilb0vTQmGIAvulPDfqYnRxi4zGuOm",
-      "title": "Don't Escape 4 Days to Survive Part 1!!",
-      "position": 8,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAEScAHEIkXXUGCzIFNu99_MYFjmdaSyYlH1Tz_Y2bLS49g-O2B4COPRv8tEkd2I6838mGdvkhx-_Uj-0YCsj6lHuODPHJgiy8akaTsxiMj3sCxPF4-AYuReGry1wLYqgQL31wGoSQ9TnKTzmoGYkKpu89w",
-      "title": "Don't Escape: 4 Days to Survive",
-      "position": 9,
-      "kind": "list"
-     }
-    ],
+    "features": [],
+    "top": [],
+    "items": [],
     "source": "serp",
     "soft_weak": 0
    },
    "is_vacuum": false,
    "vacuum_ratio": 0.0,
-   "vacuum_count": "0/9",
-   "vacuum_hits": 0,
-   "vacuum_total": 9,
-   "vacuum_breakdown": {
-    "社媒/论坛": 0,
-    "代码仓/模型库": 0,
-    "视频": 0,
-    "资讯/评测": 0
-   },
-   "dedicated_sites": [],
-   "vacuum_evidence": "已有 9 个垂直博客抢占（google.com），社区占比 0/9",
-   "tool_intent": false,
-   "kdroi": null,
-   "small_sites": 0,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": false,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC",
-    "首页竞争"
-   ],
-   "unknown": [
-    "KD",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "13 days to escape online",
-   "source": "游戏轨",
-   "names": [
-    "13 Days to Escape"
-   ],
-   "evidence": "Roblox · Top Trending: Roblox Top Trending · 17368 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {
-     "list": 5,
-     "article": 4
-    },
-    "ads": false,
-    "features": [
-     "ai_overview"
-    ],
-    "top": [
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com"
-    ],
-    "items": [
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXBkM68fwgcZphBa0_RVnU0NGhkbvyVtWae_BMhL8AULj555AE_BVPfa85sM4wQXrSfc6vvTozGAohE_VM9iYk_bHqXu4Rod4Jb9hRGZinyf0Ico58M0ESm_7phPWXOi2-rQ6v",
-      "title": "5 Ways to Simplify Your Digital Life (Without Going Fully Offline)",
-      "position": 1,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESpwEBxCJF1-UJ7TFl4PJda9Zots0DMBDqagFBudWI1oy3HlvdAl0dFclvphTMBKXZk3pJ1dye1ERujZqhBgn4t9ngdzF3WWokTi_QloFX9rcBd15Rb1XPPBjvGm20vlldTrkoRwfos5_4a00wxOFExqy-_O9pEeD9Qopxt0CPe7XZuIKEYwlCVoW20DCgCXDi4frf1wHQWKVD1g6TAwvP8pcocSiTsK-DqA",
-      "title": "Heidi Klum goes 'out of hand' with giant severed ...",
-      "position": 2,
-      "kind": "article"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESsAEBxCJF19x8zXdRzpqITQhz-aLEqVP_hQ807qOb_reBW18HAwJk7Km6XxVVR-iTEN8ILCJwRAusJJQZOL_-Vizgb6uaEbz8w78HckCp2DZpV_EWVVPYCWll8ZUpwAOltriyzzAACKf3srNaqf4hS2qiaLcBnfPF8iIppXM3dNcklRxXL4CT-_cjg-nG8g4QVu1mZkeLAEi7nRCF8RQpC8Eb1Zi1MYBpCJwXkiSbQn_IPA",
-      "title": "The One Daily Habit That Leads to Success - On Demand",
-      "position": 3,
-      "kind": "article"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESagHEIkXXLNNaEq9ER1Bl6NKI_FJ6qn6X7CTkwXML6l84j2WW8R1MO0gqD0bgIHlQ1dH7sElzvSav3C7LL-GTGHzPiPQAS4lqUVPYmA8Hrcw53xd02Pw93IkOJ-Os6OH6KEywLTXK3LbmNAw",
-      "title": "1000 days to escape",
-      "position": 4,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXld-k1USxThDIVBFOCJfFZ7_mQGW5oBceZ9njlr5N_kyfDPQ2fZwAny7h2WfbS-lNmTqqvzBHhuyQGirb2zSHwCLzcLc5ZGXlpF45zsSWJbmAKpU4XK4HD4qiiEvFf2ELJad_",
-      "title": "Why Is EVERYONE So GEARED On Customs??? - Escape ...",
-      "position": 5,
-      "kind": "article"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXX2U0fS_0yTDJ5uG1Qgfsz46rZd1wRMuM3Omqd5pQLAbvWf-s993brqJCn9Egd2WSsVLdK8o5ewZc24CaSuGmL7jY1RS7kA96BL1dZB6N3wt8Rv1rwD62HymXpXAyYqfHEosMr",
-      "title": "Farming The DORMS MARKED Room 314 - Escape From Tarkov",
-      "position": 6,
-      "kind": "article"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXX6nqKoI-a-HJQ97ZH6cvSP0r_p_30V2kd-KqO-2IL5raKXqNij_ZkFZWGverOHXRcocejtJxxK2_-QUMHiewa_QBfvtIEQdyFbGdQjrmpbCUXnKIXqdqD286wO5CBFEnoq6Xh",
-      "title": "Don't Escape 4 Days to Survive Part 1!!",
-      "position": 7,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXsFQT8JngWyN8QB6LotGCkDyN4zqTNhk6hFrcMiBYDBHk3Hs29BpKDirtf9-r34xsryzdyb5vGpwmGTW3_-OF3mB3W_5KUp55fPcplD33_wizA8WhZeULa2Mn4aMEf8JBczNg",
-      "title": "7 Days to Die Multiplayer LIVE! Surviving Together on the ...",
-      "position": 8,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESdAHEIkXX-6pc2VoINmyaFfvOCXJ_OTVhRhJ6gkmxMFL3yjOSjV7P2euloEscYUvCMqUH0yzUadwO1emV_VIL0-yhKuX9XanMadaNcEV5n5pu67UQuQNDmSRRXEQCFZPMQCPfAq2EgYjFgv9RST9ILCORc7J0",
-      "title": "13 Day After: Survival",
-      "position": 9,
-      "kind": "list"
-     }
-    ],
-    "source": "serp",
-    "soft_weak": 0
-   },
-   "is_vacuum": false,
-   "vacuum_ratio": 0.0,
-   "vacuum_count": "0/9",
-   "vacuum_hits": 0,
-   "vacuum_total": 9,
-   "vacuum_breakdown": {
-    "社媒/论坛": 0,
-    "代码仓/模型库": 0,
-    "视频": 0,
-    "资讯/评测": 0
-   },
-   "dedicated_sites": [],
-   "vacuum_evidence": "已有 9 个垂直博客抢占（google.com），社区占比 0/9",
+   "vacuum_count": "0/0",
+   "vacuum_evidence": "结果过少",
    "tool_intent": true,
    "kdroi": null,
-   "small_sites": 0,
    "checks": {
     "月搜": false,
     "KD": null,
@@ -2482,12 +1197,12 @@
    ]
   },
   {
-   "phrase": "13 days to escape play",
+   "phrase": "annihilated play",
    "source": "游戏轨",
    "names": [
-    "13 Days to Escape"
+    "Annihilated"
    ],
-   "evidence": "Roblox · Top Trending: Roblox Top Trending · 17368 playing",
+   "evidence": "Steam 畅销: Steam 畅销：Annihilated",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2500,109 +1215,20 @@
    "kd_skipped": true,
    "verdict": "crowded",
    "comp_detail": {
-    "kinds": {
-     "list": 7,
-     "article": 2
-    },
+    "kinds": {},
     "ads": false,
-    "features": [
-     "ai_overview"
-    ],
-    "top": [
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com",
-     "google.com"
-    ],
-    "items": [
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXJT3gjqDDCc6mN2hI9IJ2ZI0e-hBcReFD8qCpV0VQgmlx6eCXxImKqyKppjZcKRFadvwecLTu70NGkrbvas25BzpAXEzyLy_o92KLUhf5NrQEIBJE2d8PZSmb_f3BmEL-Ywp8",
-      "title": "7 Days to Die -Ep. 11- \"Water Treatment Plant\" -Gameplay ...",
-      "position": 1,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXaC2wB-Yv0aT3ciw81zSxXj2BnNSATQWeyaaicGxYy5iL-rv71qVzIMLqxjDk81-MtBnzkn-2gqtXZqQfkoPiXj2ePFPgxyS4fMBYr--MleNMK0G1Bguo3QwAHm6YUY4Pa9X7",
-      "title": "Restarting the Day | Don't Escape: 4 Days to Survive Live Stream",
-      "position": 2,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXX95LhMsMR2W9Gpa0QEhTZ4Wtf7D77UmjzbeZvRlsqzyP2i1hc8KSVO1X1qFqD4ts--KGwVZWpw4Q0Q2A26bkdZjRXwDJF-SDkhxG9AQe6eSzDCvMLZv__a1MEdHG15L4xfeGM",
-      "title": "Don't Escape: 4 Days in a Wasteland #13",
-      "position": 3,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXP54jbH5Sj4zKv6C84BIoUufMa1FV3W8re8wG2vZG5n85L5Qk-FazgqEYzl3WLeYlIu1X4kC1CNuYLPLIEZYVy7KOArV2atL6u1ZJzq__dMt0dh7TX1hC-KTGs_5BEU2l1jNu",
-      "title": "Don't Escape: 4 Days to Survive (The Awakening) - LIVE!",
-      "position": 4,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXhmiPUtI1G60tNn_QRu4aY2A6lrkxy8esGGsT5gDpv_wDToWssQ7AKGhqZUAaWMxSvrqyvMAO2sYnu-dkbgeZnwpdukN50LdnMY1rsgxhb4Bv0oo4I9hgFtb3oIHbSmucyQYE",
-      "title": "Don't Play This | Full Playthrough | Five Recordings. ...",
-      "position": 5,
-      "kind": "article"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXxo1VNZBqmFLvqmJzgou5VdmyCBSSZrFrBitSzDzVTGZ7kSsjb6lQZ2UfRz6pnNROwSxTjzlwgOEKeA4mpeo-McKpC6GA-IMPP0wbGIw3ZBCEDcnddcovLir0mJ5R9wC_5ttN",
-      "title": "Escape Until Friday ( E.U.F ) #1",
-      "position": 6,
-      "kind": "article"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAEShQEBxCJF1-OQeODf12VBBbOWT228iNLzacVzueYCdxGMrR7gY3b8RYoSPlFFndo3w33SE0G1Kseff2WyzeWVk3HhC2SmFlG2tQiC75QWsgzB_sXPlh0Tym1_41vM_M-6STsY-DHQkcR0PaEZD_Ty62Y4rnG-cF7OVRV_tbwliGzMBRfM_JdJ",
-      "title": "Don't Escape: 4 Days To Survive",
-      "position": 7,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXnSkGrOxlwgK4HMHHblOrdee_G4Gq_v8Wf3_9fs2erAOByvtkdiLKTRIAipsyzUFGIHpABn8piIECnvAdnfCBovB-XxBxXLYzp6eIzgah19Wjb6J6bjmzOTIT9fUtb1ZfsuFR",
-      "title": "Can you escape the 100 room 13 Level 16 Walkthrough",
-      "position": 8,
-      "kind": "list"
-     },
-     {
-      "domain": "google.com",
-      "url": "https://google.com/goto?url=CAESaAHEIkXXpwqaCRSn3ZvJgv_2Pre1g83LbRQ6d3-3WMxxPqtqNF15cMGQ0mH9lmyexrYmzKpR-TBFkiZgZCBeOkozdo-ow2RN6CYtGcyCdUEKg3Bx9mkzvdSuoeaEx_MmJZTgSGkPUYfc",
-      "title": "Don't Escape: 4 Days to Survive (Day #1) - Eight Legged Freaks",
-      "position": 9,
-      "kind": "list"
-     }
-    ],
+    "features": [],
+    "top": [],
+    "items": [],
     "source": "serp",
     "soft_weak": 0
    },
    "is_vacuum": false,
    "vacuum_ratio": 0.0,
-   "vacuum_count": "0/9",
-   "vacuum_hits": 0,
-   "vacuum_total": 9,
-   "vacuum_breakdown": {
-    "社媒/论坛": 0,
-    "代码仓/模型库": 0,
-    "视频": 0,
-    "资讯/评测": 0
-   },
-   "dedicated_sites": [],
-   "vacuum_evidence": "已有 9 个垂直博客抢占（google.com），社区占比 0/9",
+   "vacuum_count": "0/0",
+   "vacuum_evidence": "结果过少",
    "tool_intent": false,
    "kdroi": null,
-   "small_sites": 0,
    "checks": {
     "月搜": false,
     "KD": null,
@@ -2623,12 +1249,1363 @@
    ]
   },
   {
-   "phrase": "airisone",
+   "phrase": "brainrot pet hatchery",
+   "source": "游戏轨",
+   "names": [
+    "Brainrot Pet Hatchery"
+   ],
+   "evidence": "@MMMVoid_Offical: 免费宠物孵化模拟游戏，Roblox平台已上线。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {},
+    "ads": false,
+    "features": [],
+    "top": [],
+    "items": [],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/0",
+   "vacuum_evidence": "结果过少",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "brainrot pet hatchery unblocked",
+   "source": "游戏轨",
+   "names": [
+    "Brainrot Pet Hatchery"
+   ],
+   "evidence": "@MMMVoid_Offical: 免费宠物孵化模拟游戏，Roblox平台已上线。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {},
+    "ads": false,
+    "features": [],
+    "top": [],
+    "items": [],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/0",
+   "vacuum_evidence": "结果过少",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "brainrot pet hatchery online",
+   "source": "游戏轨",
+   "names": [
+    "Brainrot Pet Hatchery"
+   ],
+   "evidence": "@MMMVoid_Offical: 免费宠物孵化模拟游戏，Roblox平台已上线。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": true,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 25,
+   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "brainrot pet hatchery play",
+   "source": "游戏轨",
+   "names": [
+    "Brainrot Pet Hatchery"
+   ],
+   "evidence": "@MMMVoid_Offical: 免费宠物孵化模拟游戏，Roblox平台已上线。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "build a bridge",
+   "source": "游戏轨",
+   "names": [
+    "Build a Bridge"
+   ],
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 8836 playing",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "build a bridge unblocked",
+   "source": "游戏轨",
+   "names": [
+    "Build a Bridge"
+   ],
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 8836 playing",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "build a bridge online",
+   "source": "游戏轨",
+   "names": [
+    "Build a Bridge"
+   ],
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 8836 playing",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": true,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 25,
+   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "build a bridge play",
+   "source": "游戏轨",
+   "names": [
+    "Build a Bridge"
+   ],
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 8836 playing",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "casualties: unknown",
+   "source": "游戏轨",
+   "names": [
+    "Casualties: Unknown"
+   ],
+   "evidence": "Steam 全球畅销: Steam 全球畅销：Casualties: Unknown",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "casualties: unknown unblocked",
+   "source": "游戏轨",
+   "names": [
+    "Casualties: Unknown"
+   ],
+   "evidence": "Steam 全球畅销: Steam 全球畅销：Casualties: Unknown",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "casualties: unknown online",
+   "source": "游戏轨",
+   "names": [
+    "Casualties: Unknown"
+   ],
+   "evidence": "Steam 全球畅销: Steam 全球畅销：Casualties: Unknown",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": true,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 25,
+   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "casualties: unknown play",
+   "source": "游戏轨",
+   "names": [
+    "Casualties: Unknown"
+   ],
+   "evidence": "Steam 全球畅销: Steam 全球畅销：Casualties: Unknown",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "dreadmoor",
+   "source": "游戏轨",
+   "names": [
+    "DREADMOOR"
+   ],
+   "evidence": "Steam 畅销: Steam 畅销：DREADMOOR",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "dreadmoor unblocked",
+   "source": "游戏轨",
+   "names": [
+    "DREADMOOR"
+   ],
+   "evidence": "Steam 畅销: Steam 畅销：DREADMOOR",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "dreadmoor online",
+   "source": "游戏轨",
+   "names": [
+    "DREADMOOR"
+   ],
+   "evidence": "Steam 畅销: Steam 畅销：DREADMOOR",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": true,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 25,
+   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "dreadmoor play",
+   "source": "游戏轨",
+   "names": [
+    "DREADMOOR"
+   ],
+   "evidence": "Steam 畅销: Steam 畅销：DREADMOOR",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "echo mates",
+   "source": "游戏轨",
+   "names": [
+    "Echo Mates"
+   ],
+   "evidence": "Steam 畅销: Steam 畅销：Echo Mates",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "echo mates unblocked",
+   "source": "游戏轨",
+   "names": [
+    "Echo Mates"
+   ],
+   "evidence": "Steam 畅销: Steam 畅销：Echo Mates",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "echo mates online",
+   "source": "游戏轨",
+   "names": [
+    "Echo Mates"
+   ],
+   "evidence": "Steam 畅销: Steam 畅销：Echo Mates",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": true,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 25,
+   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "echo mates play",
+   "source": "游戏轨",
+   "names": [
+    "Echo Mates"
+   ],
+   "evidence": "Steam 畅销: Steam 畅销：Echo Mates",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "feed a carnivore",
+   "source": "游戏轨",
+   "names": [
+    "Feed a Carnivore"
+   ],
+   "evidence": "@Giuseppee0516: 食肉动物喂养玩法，Roblox平台新发布。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "feed a carnivore unblocked",
+   "source": "游戏轨",
+   "names": [
+    "Feed a Carnivore"
+   ],
+   "evidence": "@Giuseppee0516: 食肉动物喂养玩法，Roblox平台新发布。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "feed a carnivore online",
+   "source": "游戏轨",
+   "names": [
+    "Feed a Carnivore"
+   ],
+   "evidence": "@Giuseppee0516: 食肉动物喂养玩法，Roblox平台新发布。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": true,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 25,
+   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "feed a carnivore play",
+   "source": "游戏轨",
+   "names": [
+    "Feed a Carnivore"
+   ],
+   "evidence": "@Giuseppee0516: 食肉动物喂养玩法，Roblox平台新发布。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "four in a row",
+   "source": "游戏轨",
+   "names": [
+    "four in a row"
+   ],
+   "evidence": "Poki: Poki 首页热门",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "four in a row unblocked",
+   "source": "游戏轨",
+   "names": [
+    "four in a row"
+   ],
+   "evidence": "Poki: Poki 首页热门",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "four in a row online",
+   "source": "游戏轨",
+   "names": [
+    "four in a row"
+   ],
+   "evidence": "Poki: Poki 首页热门",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": true,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 25,
+   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "four in a row play",
+   "source": "游戏轨",
+   "names": [
+    "four in a row"
+   ],
+   "evidence": "Poki: Poki 首页热门",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "billing mcp by subscriptionflow",
    "source": "AI工具轨",
    "names": [
-    "AirisOne"
+    "Billing MCP By SubscriptionFlow"
    ],
-   "evidence": "@dan_evolution: Compass推出的AI运营中枢，整合工单、巡检与供应商任务，助设施团队统一视图快速响应。",
+   "evidence": "Product Hunt: Billing MCP By SubscriptionFlow",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "MCP Server 配置生成器、Claude/Cursor 接入教程与目录导航页",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "billing mcp by subscriptionflow ai",
+   "source": "AI工具轨",
+   "names": [
+    "Billing MCP By SubscriptionFlow"
+   ],
+   "evidence": "Product Hunt: Billing MCP By SubscriptionFlow",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "MCP Server 配置生成器、Claude/Cursor 接入教程与目录导航页",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "billing mcp by subscriptionflow alternative",
+   "source": "AI工具轨",
+   "names": [
+    "Billing MCP By SubscriptionFlow"
+   ],
+   "evidence": "Product Hunt: Billing MCP By SubscriptionFlow",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": true,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 25,
+   "delivery_suggestion": "MCP Server 配置生成器、Claude/Cursor 接入教程与目录导航页",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "flort",
+   "source": "AI工具轨",
+   "names": [
+    "Flort"
+   ],
+   "evidence": "@flortsocial: AI约会助手与约会规划工具，帮助用户避免聊天冷场并规划约会。",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2666,12 +2643,12 @@
    ]
   },
   {
-   "phrase": "airisone ai",
+   "phrase": "flort ai",
    "source": "AI工具轨",
    "names": [
-    "AirisOne"
+    "Flort"
    ],
-   "evidence": "@dan_evolution: Compass推出的AI运营中枢，整合工单、巡检与供应商任务，助设施团队统一视图快速响应。",
+   "evidence": "@flortsocial: AI约会助手与约会规划工具，帮助用户避免聊天冷场并规划约会。",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2709,12 +2686,12 @@
    ]
   },
   {
-   "phrase": "airisone alternative",
+   "phrase": "flort alternative",
    "source": "AI工具轨",
    "names": [
-    "AirisOne"
+    "Flort"
    ],
-   "evidence": "@dan_evolution: Compass推出的AI运营中枢，整合工单、巡检与供应商任务，助设施团队统一视图快速响应。",
+   "evidence": "@flortsocial: AI约会助手与约会规划工具，帮助用户避免聊天冷场并规划约会。",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2752,12 +2729,12 @@
    ]
   },
   {
-   "phrase": "markmosaiq",
+   "phrase": "latch.ai",
    "source": "AI工具轨",
    "names": [
-    "MarkMosaiq"
+    "Latch.ai"
    ],
-   "evidence": "@thamerkth7: AI营销内容生成工具，将产品素材转化为专业、符合品牌调性的营销图文，提供5次免费生成。",
+   "evidence": "Product Hunt: Latch.ai",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2795,12 +2772,12 @@
    ]
   },
   {
-   "phrase": "markmosaiq ai",
+   "phrase": "latch.ai ai",
    "source": "AI工具轨",
    "names": [
-    "MarkMosaiq"
+    "Latch.ai"
    ],
-   "evidence": "@thamerkth7: AI营销内容生成工具，将产品素材转化为专业、符合品牌调性的营销图文，提供5次免费生成。",
+   "evidence": "Product Hunt: Latch.ai",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2838,141 +2815,12 @@
    ]
   },
   {
-   "phrase": "markmosaiq alternative",
+   "phrase": "latch.ai alternative",
    "source": "AI工具轨",
    "names": [
-    "MarkMosaiq"
+    "Latch.ai"
    ],
-   "evidence": "@thamerkth7: AI营销内容生成工具，将产品素材转化为专业、符合品牌调性的营销图文，提供5次免费生成。",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": true,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 25,
-   "delivery_suggestion": "开源/平替方案功能对比表、价格计算器与一键迁移指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "minos ai",
-   "source": "AI工具轨",
-   "names": [
-    "Minos AI"
-   ],
-   "evidence": "@Dr_Crypto_Lewis: 基于Bittensor SN107的Mac原生AI应用，支持科学文献搜索、摘要生成与结果验证。",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "minos ai ai",
-   "source": "AI工具轨",
-   "names": [
-    "Minos AI"
-   ],
-   "evidence": "@Dr_Crypto_Lewis: 基于Bittensor SN107的Mac原生AI应用，支持科学文献搜索、摘要生成与结果验证。",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "minos ai alternative",
-   "source": "AI工具轨",
-   "names": [
-    "Minos AI"
-   ],
-   "evidence": "@Dr_Crypto_Lewis: 基于Bittensor SN107的Mac原生AI应用，支持科学文献搜索、摘要生成与结果验证。",
+   "evidence": "Product Hunt: Latch.ai",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -3010,12 +2858,12 @@
    ]
   },
   {
-   "phrase": "physical ai services",
+   "phrase": "lottie ai",
    "source": "AI工具轨",
    "names": [
-    "Physical AI Services"
+    "Lottie AI"
    ],
-   "evidence": "@runthenumberz: Server Robotics开放的物理AI服务平台，将2000+配送机器人技术（Serve Link、数据策展、训练数据）提供给其他机器人构建者。",
+   "evidence": "Product Hunt: Lottie AI",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -3053,12 +2901,12 @@
    ]
   },
   {
-   "phrase": "physical ai services ai",
+   "phrase": "lottie ai ai",
    "source": "AI工具轨",
    "names": [
-    "Physical AI Services"
+    "Lottie AI"
    ],
-   "evidence": "@runthenumberz: Server Robotics开放的物理AI服务平台，将2000+配送机器人技术（Serve Link、数据策展、训练数据）提供给其他机器人构建者。",
+   "evidence": "Product Hunt: Lottie AI",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -3096,16 +2944,22 @@
    ]
   },
   {
-   "phrase": "physical ai services alternative",
+   "phrase": "lottie ai alternative",
    "source": "AI工具轨",
    "names": [
-    "Physical AI Services"
+    "Lottie AI"
    ],
-   "evidence": "@runthenumberz: Server Robotics开放的物理AI服务平台，将2000+配送机器人技术（Serve Link、数据策展、训练数据）提供给其他机器人构建者。",
+   "evidence": "Product Hunt: Lottie AI",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
    "kd": null,
+   "kd_skipped": true,
    "verdict": null,
    "is_vacuum": false,
    "vacuum_ratio": null,
@@ -3114,34 +2968,41 @@
    "tool_intent": true,
    "kdroi": null,
    "checks": {
-    "月搜": null,
+    "月搜": false,
     "KD": null,
-    "CPC": null,
+    "CPC": false,
     "首页竞争": null,
     "allintitle": null
    },
    "score": 25,
    "delivery_suggestion": "开源/平替方案功能对比表、价格计算器与一键迁移指南站",
-   "failed": [],
-   "unknown": [
+   "failed": [
     "月搜",
+    "CPC"
+   ],
+   "unknown": [
     "KD",
-    "CPC",
     "首页竞争",
     "allintitle"
    ]
   },
   {
-   "phrase": "seedance 2.5",
+   "phrase": "meetjson",
    "source": "AI工具轨",
    "names": [
-    "Seedance 2.5"
+    "MeetJSON"
    ],
-   "evidence": "@ItsRizwanAhmed: AI视频生成模型，可制作长达30秒、含同步音频、一致角色与多镜头叙事的视频片段。",
+   "evidence": "@ouz_bhdr: 超低延迟（约 0.04ms）的 Edge MCP 服务器，可将 AI agent 上下文 token 最多压缩 90%，并自动修复损坏的 JSON，适用于 Cu",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
    "kd": null,
+   "kd_skipped": true,
    "verdict": null,
    "is_vacuum": false,
    "vacuum_ratio": null,
@@ -3150,34 +3011,41 @@
    "tool_intent": false,
    "kdroi": null,
    "checks": {
-    "月搜": null,
+    "月搜": false,
     "KD": null,
-    "CPC": null,
+    "CPC": false,
     "首页竞争": null,
     "allintitle": null
    },
    "score": 10,
    "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [],
-   "unknown": [
+   "failed": [
     "月搜",
+    "CPC"
+   ],
+   "unknown": [
     "KD",
-    "CPC",
     "首页竞争",
     "allintitle"
    ]
   },
   {
-   "phrase": "seedance 2.5 ai",
+   "phrase": "meetjson ai",
    "source": "AI工具轨",
    "names": [
-    "Seedance 2.5"
+    "MeetJSON"
    ],
-   "evidence": "@ItsRizwanAhmed: AI视频生成模型，可制作长达30秒、含同步音频、一致角色与多镜头叙事的视频片段。",
+   "evidence": "@ouz_bhdr: 超低延迟（约 0.04ms）的 Edge MCP 服务器，可将 AI agent 上下文 token 最多压缩 90%，并自动修复损坏的 JSON，适用于 Cu",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
    "kd": null,
+   "kd_skipped": true,
    "verdict": null,
    "is_vacuum": false,
    "vacuum_ratio": null,
@@ -3186,34 +3054,41 @@
    "tool_intent": false,
    "kdroi": null,
    "checks": {
-    "月搜": null,
+    "月搜": false,
     "KD": null,
-    "CPC": null,
+    "CPC": false,
     "首页竞争": null,
     "allintitle": null
    },
    "score": 10,
    "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [],
-   "unknown": [
+   "failed": [
     "月搜",
+    "CPC"
+   ],
+   "unknown": [
     "KD",
-    "CPC",
     "首页竞争",
     "allintitle"
    ]
   },
   {
-   "phrase": "seedance 2.5 alternative",
+   "phrase": "meetjson alternative",
    "source": "AI工具轨",
    "names": [
-    "Seedance 2.5"
+    "MeetJSON"
    ],
-   "evidence": "@ItsRizwanAhmed: AI视频生成模型，可制作长达30秒、含同步音频、一致角色与多镜头叙事的视频片段。",
+   "evidence": "@ouz_bhdr: 超低延迟（约 0.04ms）的 Edge MCP 服务器，可将 AI agent 上下文 token 最多压缩 90%，并自动修复损坏的 JSON，适用于 Cu",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
    "kd": null,
+   "kd_skipped": true,
    "verdict": null,
    "is_vacuum": false,
    "vacuum_ratio": null,
@@ -3222,34 +3097,41 @@
    "tool_intent": true,
    "kdroi": null,
    "checks": {
-    "月搜": null,
+    "月搜": false,
     "KD": null,
-    "CPC": null,
+    "CPC": false,
     "首页竞争": null,
     "allintitle": null
    },
    "score": 25,
    "delivery_suggestion": "开源/平替方案功能对比表、价格计算器与一键迁移指南站",
-   "failed": [],
-   "unknown": [
+   "failed": [
     "月搜",
+    "CPC"
+   ],
+   "unknown": [
     "KD",
-    "CPC",
     "首页竞争",
     "allintitle"
    ]
   },
   {
-   "phrase": "swarmboard",
+   "phrase": "mivochat",
    "source": "AI工具轨",
    "names": [
-    "Swarmboard"
+    "MivoChat"
    ],
-   "evidence": "@paulantir0: 面向智能体团队的公告板工具，让多个AI代理协调任务、避免CI/CD拥堵与重复工作。",
+   "evidence": "@ovidiugr12: 面向小型SaaS团队的AI客服聊天工具，根据文档回答用户问题并在不会时转接人工。",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
    "kd_ok": true,
    "kd": null,
+   "kd_skipped": true,
    "verdict": null,
    "is_vacuum": false,
    "vacuum_ratio": null,
@@ -3258,136 +3140,26 @@
    "tool_intent": false,
    "kdroi": null,
    "checks": {
-    "月搜": null,
+    "月搜": false,
     "KD": null,
-    "CPC": null,
+    "CPC": false,
     "首页竞争": null,
     "allintitle": null
    },
    "score": 10,
    "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [],
-   "unknown": [
+   "failed": [
     "月搜",
-    "KD",
-    "CPC",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "swarmboard ai",
-   "source": "AI工具轨",
-   "names": [
-    "Swarmboard"
+    "CPC"
    ],
-   "evidence": "@paulantir0: 面向智能体团队的公告板工具，让多个AI代理协调任务、避免CI/CD拥堵与重复工作。",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "kd_ok": true,
-   "kd": null,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": null,
-    "KD": null,
-    "CPC": null,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [],
    "unknown": [
-    "月搜",
     "KD",
-    "CPC",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "swarmboard alternative",
-   "source": "AI工具轨",
-   "names": [
-    "Swarmboard"
-   ],
-   "evidence": "@paulantir0: 面向智能体团队的公告板工具，让多个AI代理协调任务、避免CI/CD拥堵与重复工作。",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "kd_ok": true,
-   "kd": null,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": true,
-   "kdroi": null,
-   "checks": {
-    "月搜": null,
-    "KD": null,
-    "CPC": null,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 25,
-   "delivery_suggestion": "开源/平替方案功能对比表、价格计算器与一键迁移指南站",
-   "failed": [],
-   "unknown": [
-    "月搜",
-    "KD",
-    "CPC",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "agent clan",
-   "source": "AI工具轨",
-   "names": [
-    "Agent Clan"
-   ],
-   "evidence": "Product Hunt: Agent Clan",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "kd_ok": true,
-   "kd": null,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": null,
-    "KD": null,
-    "CPC": null,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [],
-   "unknown": [
-    "月搜",
-    "KD",
-    "CPC",
     "首页竞争",
     "allintitle"
    ]
   }
  ],
  "spent_micros": 0,
- "errors": [
-  "Semrush 概览: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
-  "首页 berry avenue rp unblocked: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
- ],
+ "errors": [],
  "skipped": []
 }

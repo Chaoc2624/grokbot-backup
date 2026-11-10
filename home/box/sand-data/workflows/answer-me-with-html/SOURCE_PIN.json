@@ -1,0 +1,146 @@
+{
+  "audited_at": "2026-11-10 12:37:02 Asia/Taipei (UTC+8)",
+  "skill_currently_installed_in_runtime": false,
+  "skill_catalog_check": "Skill(\"answer-me-with-html\") returned no skill; closest matches were unrelated",
+  "repo": {
+    "url": "https://github.com/QingYunA/answer-me-with-html",
+    "owner": "QingYunA",
+    "name": "answer-me-with-html",
+    "private": false,
+    "default_branch": "main",
+    "license": "MIT",
+    "homepage_listed": "https://answer-me-with-html.com/",
+    "permissions_observed": {
+      "admin": false,
+      "maintain": false,
+      "push": false,
+      "triage": false,
+      "pull": true
+    },
+    "no_repo_changes_made": true,
+    "no_clone_or_checkout": true,
+    "no_cloud_agent_task": true
+  },
+  "pinned": {
+    "kind": "default_branch_head_commit_audited",
+    "ref": "main",
+    "commit": "5bebfd3974b20b7a89e039cae0fba5e11d933678",
+    "commit_time_utc": "2026-11-09T12:21:13Z",
+    "commit_time_asia_taipei": "2026-11-09 20:21:13 Asia/Taipei (UTC+8)",
+    "commit_message": "fix: set page color scheme for dark mode (#398)",
+    "commit_url": "https://github.com/QingYunA/answer-me-with-html/commit/5bebfd3974b20b7a89e039cae0fba5e11d933678",
+    "package_json_version_at_this_commit": "0.5.11",
+    "note": "package.json still reads 0.5.11, but main is several commits ahead of the latest GitHub release tag."
+  },
+  "latest_release_not_used_as_pin": {
+    "tag": "v0.5.11",
+    "commit": "797c742064569ce79765b6a63506ad959c096f7a",
+    "published_at_utc": "2026-11-05T02:31:03Z",
+    "published_at_asia_taipei": "2026-11-05 10:31:03 Asia/Taipei (UTC+8)",
+    "why_not_pinned": "Audited and staged the live main HEAD because it is newer than this release. Parent may choose the release tag instead; that is a different pin."
+  },
+  "skill": {
+    "name": "answer-me-with-html",
+    "slug": "answer-me-with-html",
+    "frontmatter_and_body_path": "/workspace/frame-html-skill-install/5bebfd3974b20b7a89e039cae0fba5e11d933678/skills/answer-me-with-html/SKILL.md",
+    "frontmatter_keys": [
+      "name",
+      "argument-hint",
+      "description"
+    ],
+    "helpers_required": [
+      {
+        "role": "bundled CLI, required to render",
+        "path": "/workspace/frame-html-skill-install/5bebfd3974b20b7a89e039cae0fba5e11d933678/skills/answer-me-with-html/scripts/am.mjs",
+        "repo_path": "skills/answer-me-with-html/scripts/am.mjs"
+      },
+      {
+        "role": "settings/clean/update instructions, read when those args are used",
+        "path": "/workspace/frame-html-skill-install/5bebfd3974b20b7a89e039cae0fba5e11d933678/skills/answer-me-with-html/references/settings.md",
+        "repo_path": "skills/answer-me-with-html/references/settings.md"
+      },
+      {
+        "role": "video instructions, only if an explicit video is requested",
+        "path": "/workspace/frame-html-skill-install/5bebfd3974b20b7a89e039cae0fba5e11d933678/skills/answer-me-with-html/references/video.md",
+        "repo_path": "skills/answer-me-with-html/references/video.md"
+      },
+      {
+        "role": "SIL OFL for optional Bangers font embed",
+        "path": "/workspace/frame-html-skill-install/5bebfd3974b20b7a89e039cae0fba5e11d933678/skills/answer-me-with-html/licenses/OFL-Bangers.txt",
+        "repo_path": "skills/answer-me-with-html/licenses/OFL-Bangers.txt"
+      }
+    ],
+    "not_required_for_generic_skill_save": [
+      "skills/commands/*.md (Claude Code slash commands)",
+      "skills/.claude-plugin/plugin.json",
+      "repo scripts/smoke-install.mjs, release.mjs, build.mjs, site/",
+      "marketplace themes, examples, docs images"
+    ]
+  },
+  "dependencies": {
+    "runtime_for_skill_use": "Node.js >= 20 (SKILL.md / package.json engines). am export documented as Node.js >= 22 plus Chrome/Chromium/Edge.",
+    "box_node_observed": "v22.23.3 (observed only; the CLI was not executed)",
+    "npm_install_for_skill_use": "not required; marked, dagre and temml are bundled inside scripts/am.mjs",
+    "package_json_runtime_deps_bundled_not_installed": [
+      "@dagrejs/dagre ^3.1.3",
+      "marked ^18.1.2",
+      "@fontsource/bangers ^5.3.0",
+      "temml ^0.14.0"
+    ],
+    "no_published_npm_package": true
+  },
+  "inventory": {
+    "skill_body_frontmatter": {
+      "path": "/workspace/frame-html-skill-install/5bebfd3974b20b7a89e039cae0fba5e11d933678/skills/answer-me-with-html/SKILL.md",
+      "bytes": 27012,
+      "sha256": "d0083f74722df3b25d661aa869468416027c37a32926091bfdd5dac284ea0a76",
+      "git_blob_sha": "9d753da13bf909b448b9a15547f5a002750c6986",
+      "git_blob_sha_matches_tree": true
+    },
+    "helper_cli": {
+      "path": "/workspace/frame-html-skill-install/5bebfd3974b20b7a89e039cae0fba5e11d933678/skills/answer-me-with-html/scripts/am.mjs",
+      "bytes": 1067843,
+      "sha256": "f3bc1344c721482b639f8d61484817570950a3aa2e2b6a2368373a892098fb64",
+      "git_blob_sha": "b618e74f632f9a9993f1bda80b84dbe2ad0b0fc4",
+      "git_blob_sha_matches_tree": true
+    },
+    "helper_settings": {
+      "path": "/workspace/frame-html-skill-install/5bebfd3974b20b7a89e039cae0fba5e11d933678/skills/answer-me-with-html/references/settings.md",
+      "bytes": 3511,
+      "sha256": "5bd7371ad64479dbc0adb4734ca964332de4c11fd28ddda9182eabcf99c11996",
+      "git_blob_sha": "1c3bbc906d27125ed8d1c0b78e677caa7ec3a971",
+      "git_blob_sha_matches_tree": true
+    },
+    "helper_video": {
+      "path": "/workspace/frame-html-skill-install/5bebfd3974b20b7a89e039cae0fba5e11d933678/skills/answer-me-with-html/references/video.md",
+      "bytes": 4116,
+      "sha256": "b8ed842cdabc37e06973fc41719c678c1fff3852cbaa7d4c86840b0baff0adfc",
+      "git_blob_sha": "1791ab566c931c30814cea82b992c67329eff976",
+      "git_blob_sha_matches_tree": true
+    },
+    "helper_font_license": {
+      "path": "/workspace/frame-html-skill-install/5bebfd3974b20b7a89e039cae0fba5e11d933678/skills/answer-me-with-html/licenses/OFL-Bangers.txt",
+      "bytes": 4386,
+      "sha256": "09ef36fcae68a2ba21cc319fd44c09ba40f43163076bcafc14fdfe4cc033e7a2",
+      "git_blob_sha": "4db15c822a57083086037bc9c84d1f4fe4eef8f1",
+      "git_blob_sha_matches_tree": true
+    },
+    "repo_license": {
+      "path": "/workspace/frame-html-skill-install/5bebfd3974b20b7a89e039cae0fba5e11d933678/LICENSE",
+      "bytes": 1089,
+      "sha256": "752a1a34b40ae8e64e86f546ec699a691aff573179e1f96997e82757b2ee5d3f",
+      "git_blob_sha": "17eca290eefa4fa9d5594edcad845be8df899eb0",
+      "git_blob_sha_matches_tree": true
+    }
+  },
+  "executor_did_not": [
+    "UpdateSkill",
+    "load the skill into the runtime catalog",
+    "execute am.mjs or any installer",
+    "run npx skills add, claude plugin, dsh plugin, nvm curl, or smoke-install",
+    "start am serve or expose a server",
+    "publish HTML or upload site data",
+    "change email routes, global skills, routines, profile, or memory",
+    "re-pull analytics or attempt directories today"
+  ]
+}

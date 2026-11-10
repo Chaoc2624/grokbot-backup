@@ -1,0 +1,57 @@
+{
+  "notes": "独立热梗轨：只走官方公开方法。不把 Google News / X 转述当成 TikTok/YouTube/Instagram 直采。不调用未公开内部接口、不复制 cookies、不绕过登录或反爬。hotel lobby / ai raindance / ai zombie / burning bridges / Bulin47 仅为历史种子，不得当作当天趋势。",
+  "seed_exclude": [
+    "hotel lobby",
+    "ai raindance",
+    "ai zombie",
+    "burning bridges",
+    "bulin47"
+  ],
+  "max_items": 40,
+  "max_keywords": 12,
+  "tiktok": {
+    "enabled": true,
+    "creative_center_urls": [
+      "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=US&period=7",
+      "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=TW&period=7"
+    ],
+    "discovery_api": "https://business-api.tiktok.com/open_api/v1.3/discovery/trending_list/",
+    "docs": "https://business-api.tiktok.com/portal/docs?id=1756046871868418"
+  },
+  "youtube": {
+    "enabled": true,
+    "api_url": "https://www.googleapis.com/youtube/v3/videos",
+    "docs": "https://developers.google.com/youtube/v3/docs/videos/list",
+    "region_codes": [
+      "US",
+      "TW"
+    ],
+    "max_results": 15,
+    "key_env": [
+      "YOUTUBE_API_KEY",
+      "GOOGLE_YOUTUBE_API_KEY",
+      "GOOGLE_API_KEY"
+    ]
+  },
+  "instagram": {
+    "enabled": true,
+    "docs": "https://transparency.meta.com/en-us/researchtools/meta-content-library/"
+  },
+  "secondary_google_trends": {
+    "enabled": true,
+    "label": "secondary",
+    "feeds": [
+      {
+        "id": "gtrends-us",
+        "geo": "US",
+        "url": "https://trends.google.com/trending/rss?geo=US"
+      },
+      {
+        "id": "gtrends-tw",
+        "geo": "TW",
+        "url": "https://trends.google.com/trending/rss?geo=TW"
+      }
+    ],
+    "note": "官方 Google Trends RSS，仅作 discovery 线索，不是三平台直采。"
+  }
+}

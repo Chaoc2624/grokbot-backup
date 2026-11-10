@@ -1,0 +1,85 @@
+{
+  "label": "2026-11-10 傍晚 书签X",
+  "run_at": "2026-11-10 17:52",
+  "window_start": "2026-11-09 17:55",
+  "window_end": "2026-11-10 17:50",
+  "empty": false,
+  "items": [
+    {
+      "name": "Claude Fable 5.2",
+      "desc": "Anthropic 新推出的模型，官方称在编程、推理与视觉上有提升，用于应对高难度技术挑战与多领域协作；已在 Claude Platform 和 Claude Code 上线，较 Fable 5.1 最高快 30%。",
+      "source": "@claudeai",
+      "url": "https://x.com/claudeai/status/2119867114450268322",
+      "first_seen": "2026-11-10 02:57",
+      "views": 12099270,
+      "bookmarks": 13731,
+      "kind": "model",
+      "keyword_rank": 1,
+      "keyword": "Claude Fable 5.2",
+      "reason": "名字全新且官方首发互动极高（约 1209 万次浏览、1.3 万收藏），适合做模型介绍、编程/推理评测对比或 Claude 系选型指南页。"
+    },
+    {
+      "name": "Claude Mythos 5.2",
+      "desc": "Anthropic 与 Fable 5.2 同步推出的新模型，官方同样定位于高难度技术挑战与多领域协作，并称在编程、推理与视觉上有提升。",
+      "source": "@claudeai",
+      "url": "https://x.com/claudeai/status/2119867114450268322",
+      "first_seen": "2026-11-10 02:57",
+      "views": 12099270,
+      "bookmarks": 13731,
+      "kind": "model",
+      "keyword_rank": 2,
+      "keyword": "Claude Mythos 5.2",
+      "reason": "与 Fable 5.2 同帖首发、浏览量同档，名字独特，适合做 Mythos/Fable 选型对比或高难度任务评测页。"
+    },
+    {
+      "name": "Muse Ember",
+      "desc": "Meta 新推出的最小、最高效模型，官方称面向复杂推理执行和日常智能体工作，能跨应用串工作流、按序调用工具、跑测试并做针对性改代码，上下文窗口为 100 万 token。",
+      "source": "@AIatMeta",
+      "url": "https://x.com/AIatMeta/status/2119853591703998787",
+      "first_seen": "2026-11-10 02:04",
+      "views": 1187141,
+      "bookmarks": 577,
+      "kind": "model",
+      "keyword_rank": 3,
+      "keyword": "Muse Ember",
+      "reason": "Meta 官方首发，浏览约 119 万，名字较独特，适合做轻量 Agent 模型介绍、工具调用工作流或 API 接入说明页。"
+    },
+    {
+      "name": "Sophon-Realtime v1",
+      "desc": "Adventists AI 在 ModelScope 开源的全双工语音模型，能边听边说、约 0.4 秒接话，并带语气（如笑、叹息）。",
+      "source": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2119777024403444161",
+      "first_seen": "2026-11-09 21:00",
+      "views": 6032,
+      "bookmarks": 131,
+      "kind": "model"
+    },
+    {
+      "name": "Control Room",
+      "desc": "OpenAI 推出的研究基础设施控制中心，用于追踪模型工作负载，并在出现安全或安保隐患时迅速叫停。不是新模型。",
+      "source": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2119913172039868579",
+      "first_seen": "2026-11-10 06:01",
+      "views": 638362,
+      "bookmarks": 998,
+      "kind": "not_model"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Claude Fable 5.2",
+      "reason": "名字全新且官方首发互动极高（约 1209 万次浏览、1.3 万收藏），适合做模型介绍、编程/推理评测对比或 Claude 系选型指南页。",
+      "keyword_rank": 1
+    },
+    {
+      "keyword": "Claude Mythos 5.2",
+      "reason": "与 Fable 5.2 同帖首发、浏览量同档，名字独特，适合做 Mythos/Fable 选型对比或高难度任务评测页。",
+      "keyword_rank": 2
+    },
+    {
+      "keyword": "Muse Ember",
+      "reason": "Meta 官方首发，浏览约 119 万，名字较独特，适合做轻量 Agent 模型介绍、工具调用工作流或 API 接入说明页。",
+      "keyword_rank": 3
+    }
+  ]
+}

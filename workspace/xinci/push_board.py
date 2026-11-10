@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """merged.json + doable.json + board_keywords.json -> board radar payload (label 'YYYY-MM-DD 新词雷达'), push via /workspace/xbm/board_client.py.
 
-keywords feed /radar/new: doable passed first, then board_keywords (书签X → 游戏轨 → AI工具轨 → others), ~40 cap.
+keywords feed /radar/new: doable passed first, then board_keywords (书签X → 游戏轨 → AI工具轨 → 新闻轨 → 热梗轨 → others), ~40 cap.
+新闻轨最多 8 个、热梗轨最多 6 个关键词，只填主轨（书签X/游戏轨/AI工具轨）用剩的名额，不挤占主轨。
 Derived track suffixes unblocked/online/play/alternative are dropped when a cleaner base phrase exists; `{name} AI` is kept.
 """
 import argparse, json, re, subprocess, sys
@@ -10,8 +11,11 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 from merge_board import norm
 
-SOURCE_ORDER = ("书签X", "游戏轨", "AI工具轨")
-SOURCE_TAG = {"书签X": "【书签X】", "游戏轨": "【游戏轨】", "AI工具轨": "【AI工具轨】"}
+SOURCE_ORDER = ("书签X", "游戏轨", "AI工具轨", "新闻轨", "热梗轨")
+SOURCE_TAG = {"书签X": "【书签X】", "游戏轨": "【游戏轨】", "AI工具轨": "【AI工具轨】", "新闻轨": "【新闻轨】", "热梗轨": "【热梗轨】"}
+NEWS_KW_CAP = 8
+MEME_KW_CAP = 6
+SUPP_CAPS = {"新闻轨": NEWS_KW_CAP, "热梗轨": MEME_KW_CAP}
 DERIVED_SUF = re.compile(r"^(?P<base>.+?)\s+(unblocked|online|play|alternative)$", re.I)
 KW_CAP = 40
 
@@ -28,6 +32,11 @@ def source_rank(src):
         return SOURCE_ORDER.index(src)
     except ValueError:
         return len(SOURCE_ORDER)
+
+
+def is_supp_source(src):
+    primary = (src or "").split("/")[0]
+    return primary in SUPP_CAPS
 
 
 def filter_derived(entries):
@@ -120,17 +129,40 @@ def main():
             why += f"；来自 {'、'.join(t['names'])}"
         add_kw(t["phrase"], why, names=t.get("names") or [], evidence=t.get("evidence", ""), source=t.get("source", ""))
 
-    # 2) board_keywords not already included; prefer 书签X → 游戏轨 → AI工具轨 → others
+    # 2) board_keywords：先填主轨（书签X → 游戏轨 → AI工具轨），再用剩余名额填新闻轨 / 热梗轨。
+    # 不预留、不挤占主轨；新闻轨最多 8、热梗轨最多 6。主轨已满时补充轨 keywords 可能为 0，但 items 仍在列表里。
     filtered = filter_derived(board_kw)
-    filtered.sort(key=lambda e: (source_rank(e.get("source") or ""), board_kw.index(e) if e in board_kw else 0))
-    for e in filtered:
-        if len(keywords) >= KW_CAP:
-            break
-        src = e.get("source") or ""
+
+    def _src(e):
+        return e.get("source") or ""
+
+    def _add_entry(e):
+        src = _src(e)
         tag = SOURCE_TAG.get(src, f"【{src}】" if src else "【其他】")
         evidence = (e.get("evidence") or "").strip()
         reason = tag + (evidence or (e.get("reason") or "").strip() or e.get("phrase", ""))
-        add_kw(e.get("phrase"), reason, names=e.get("names") or [], evidence=evidence, source=src)
+        return add_kw(e.get("phrase"), reason, names=e.get("names") or [], evidence=evidence, source=src)
+
+    other_list = [e for e in filtered if not is_supp_source(_src(e))]
+    supp_list = [e for e in filtered if is_supp_source(_src(e))]
+    other_list.sort(key=lambda e: (source_rank(_src(e)), board_kw.index(e) if e in board_kw else 0))
+    supp_list.sort(key=lambda e: (source_rank(_src(e)), board_kw.index(e) if e in board_kw else 0))
+
+    for e in other_list:
+        if len(keywords) >= KW_CAP:
+            break
+        _add_entry(e)
+
+    added_by = {k: 0 for k in SUPP_CAPS}
+    for e in supp_list:
+        if len(keywords) >= KW_CAP:
+            break
+        primary = _src(e).split("/")[0]
+        cap = SUPP_CAPS.get(primary, 0)
+        if added_by.get(primary, 0) >= cap:
+            continue
+        if _add_entry(e):
+            added_by[primary] = added_by.get(primary, 0) + 1
 
     items.sort(key=lambda i: (i.get("keyword_rank") or 999))
     p = {
@@ -145,8 +177,17 @@ def main():
     out = HERE / "board_payload.json"
     out.write_text(json.dumps(p, ensure_ascii=False, indent=1))
     kw_names = [k["keyword"] for k in keywords]
-    print(f"label={p['label']} items={len(items)} keywords={len(keywords)} x_failed={m['our_x_failed']}")
+    def _count(label):
+        items_n = sum(1 for i in items if label in (i.get("source") or ""))
+        kws_n = sum(1 for k in keywords if f"【{label}】" in (k.get("reason") or ""))
+        names = [k["keyword"] for k in keywords if f"【{label}】" in (k.get("reason") or "")]
+        return items_n, kws_n, names
+    news_items, news_kws, news_kw_names = _count("新闻轨")
+    meme_items, meme_kws, meme_kw_names = _count("热梗轨")
+    print(f"label={p['label']} items={len(items)} keywords={len(keywords)} x_failed={m['our_x_failed']} news_items={news_items} news_keywords={news_kws} meme_items={meme_items} meme_keywords={meme_kws}")
     print("keywords_first15=" + json.dumps(kw_names[:15], ensure_ascii=False))
+    print("news_keywords=" + json.dumps(news_kw_names, ensure_ascii=False))
+    print("meme_keywords=" + json.dumps(meme_kw_names, ensure_ascii=False))
     if a.dry_run:
         print("dry-run, not pushed:", out)
         return

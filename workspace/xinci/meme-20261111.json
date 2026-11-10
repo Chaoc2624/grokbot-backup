@@ -1,0 +1,75 @@
+{
+ "label": "2026-11-11 热梗轨",
+ "run_at": "2026-11-11 01:39",
+ "date": "2026-11-11",
+ "tracks": {
+  "meme": {
+   "items": [],
+   "keywords": []
+  }
+ },
+ "coverage": {
+  "tiktok": {
+   "status": "unavailable",
+   "direct": false,
+   "method": "TikTok Creative Center public HTML; official Discovery API requires advertiser token",
+   "source_url": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=US&period=7",
+   "collected_at": "2026-11-11 01:39",
+   "http_status": 200,
+   "docs": "https://business-api.tiktok.com/portal/docs?id=1756046871868418",
+   "note": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=US&period=7: HTTP 200，页面可打开，但趋势列表未出现在 HTML（前端渲染 / 登录后才有完整榜），未调用未公开内部接口 https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=TW&period=7: HTTP 200，页面可打开，但趋势列表未出现在 HTML（前端渲染 / 登录后才有完整榜），未调用未公开内部接口 Discovery API 探测 HTTP 200；业务码 40104：The access_token is empty.；完整热榜需要 advertiser_id + access_token（TikTok for Business 广告账户授权） 官方 Creative Center 公开页未能提供可解析的热榜数据；未把 Google News/X 或内部接口当作直采。",
+   "items_from_html": 0
+  },
+  "youtube": {
+   "status": "unavailable",
+   "direct": false,
+   "method": "YouTube Data API v3 videos.list chart=mostPopular",
+   "source_url": "https://developers.google.com/youtube/v3/docs/videos/list",
+   "collected_at": "2026-11-11 01:39",
+   "http_status": 403,
+   "note": "官方接口探测 HTTP 403 / HTTPError 403: Forbidden。本机未配置 YOUTUBE_API_KEY / GOOGLE_API_KEY。官方频道 RSS 不提供 mostPopular 榜（chart= 参数返回 400）。注意：2025-07-21 起 mostPopular 来自 Music / Movies / Gaming 榜，不再等于已下线的 Trending Now 页。"
+  },
+  "instagram": {
+   "status": "unavailable",
+   "direct": false,
+   "method": "No public no-auth Instagram trend RSS/API; Meta Content Library requires researcher review",
+   "source_url": "https://transparency.meta.com/en-us/researchtools/meta-content-library/",
+   "collected_at": "2026-11-11 01:39",
+   "note": "Instagram 没有免申请的官方热梗 RSS 或公开趋势 API。Meta Content Library / API 可查公开帖与趋势图，但须经 CASD 审核的科研权限，且仅限符合资格的研究用途。Instagram Graph API 的标签搜索需要商业账号与应用审核。本次未登录、未复制 cookies、未调用非公开接口，故无 Instagram 直采条目。"
+  },
+  "secondary_google_trends": {
+   "status": "ok",
+   "direct": false,
+   "method": "Official Google Trends daily search RSS (secondary/discovery only)",
+   "source_url": "https://trends.google.com/trending/rss?geo=TW",
+   "collected_at": "2026-11-11 01:39",
+   "http_status": 200,
+   "note": "官方 Google Trends RSS，仅作 discovery 线索，不是三平台直采。 过滤后保留 0 条明显与 AI 视频/复刻梗相关的词；其余搜索热词已丢弃。",
+   "kept": 0
+  }
+ },
+ "permissions_needed": [
+  {
+   "platform": "tiktok",
+   "need": "TikTok for Business 广告账户授权，调用官方 Discovery API（advertiser_id + access_token）才能稳定取得热门标签/音乐；Creative Center 登录后可见更完整 Trends。",
+   "plugin_note": "目录里的 TikTok for Business 连接器面向广告投放，不是公开热梗源；本次未安装。"
+  },
+  {
+   "platform": "youtube",
+   "need": "在本机或例程环境配置官方 YouTube Data API v3 密钥（环境变量 YOUTUBE_API_KEY）。",
+   "plugin_note": "TubeAlfred 面向字幕/评论/频道，不是官方热门榜；本次未安装。"
+  },
+  {
+   "platform": "instagram",
+   "need": "经 Meta Research Tools / CASD 审核的 Content Library 权限，或已审核的 Instagram Graph API 商业应用。无免密钥公开趋势接口。"
+  }
+ ],
+ "errors": [],
+ "notes": [
+  "新发现不等于新爆；无多点快照则趋势阶段为「待观察」。",
+  "历史种子 hotel lobby / ai raindance / ai zombie / burning bridges / Bulin47 已排除，不当当天趋势。",
+  "原帖营收为作者自述，不用于评分或承诺。",
+  "常规 Semrush 缺数据不能判 0 搜索量。",
+  "Google Trends RSS 仅为 secondary/discovery，不是三平台直采。"
+ ]
+}

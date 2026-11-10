@@ -1,0 +1,5 @@
+[free-llm] try 1/10 google:google:gemini-3.5-flash-lite
+[free-llm] fail HTTP 404: models/google:gemini-3.5-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see  (0.18s) → cascade
+[free-llm] try 2/10 google:gemini-3.5-flash-lite
+[free-llm] OK via google:gemini-3.5-flash-lite in 7.85s
+OK model=google:gemini-3.5-flash-lite bytes=2611 secs=7.85 -> /workspace/xinci/_pm_summary_20261110.txt

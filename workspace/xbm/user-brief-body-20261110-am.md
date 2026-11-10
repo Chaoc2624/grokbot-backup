@@ -1,0 +1,38 @@
+## 推特书签简报 · 2026-11-10 上午
+
+新增 **5** 条（过滤 0），看板收录 **5**，carryover **340**。
+
+本档新增 TOYOTA Wallet 注册与港卡入金教程、JAL Pay 免在留卡开卡流程、日本 eSIM 与三种 Visa 虚拟卡实测合集，以及 7 个 React 组件库；过滤 0 条。
+
+### 支付
+- [TOYOTA Wallet 注册全流程教程，港卡可入金](https://x.com/wudihao138hack/status/2119810967592935689)
+  - wu138di（@wudihao138hack）发了一篇 X Article，说自己之前钱包被销户，刷到大叔晒卡后又重新注册成功。他写这套走的是三井旗下，3D Secure 2.0/2.5，已绑上汇丰蓝狮子港卡；莫奈也绑过。缺点：万事达要用银行验证才能走 3DS；JCB 只有加进 Apple Pay 才会发卡号，国版 Android 的 Google Pay 帮不上；他说这张卡 AI 拒付率大约 39%，只能当 ANA 的备用。开卡准备：能长期接码的日本手机号、邮箱、日本住址、日本 IP、日区 Google Play 或日区 Apple ID。步骤（安卓演示）：日区下载 TOYOTA Wallet，同意条款后跳转浏览器，用邮箱注册；认证电话必须一次填对（不像 ANA 有第二次机会），再接码；建议到电脑端「安全设定」保存注记词（验证只有 8 次机会，第 7 次前重置）。回 App 选没有 TS 卡进入主界面，卡种左滑到加号后添加信用卡入金。他测下来港卡 all in；大陆这边工银星座、工行奋斗、新2233、油画、招行葵花没问题，莫奈已不支持（已有的先别删）。最低充 500 日元、最高 50,000 日元，到账快；中行万事达会按 102% 冻结，钱要留够。原帖：[X Article](https://x.com/i/article/2119715449726455808)。日区 Google Play：[TOYOTA Wallet](https://play.google.com/store/apps/details?id=jp.co.toyota_finance.toyota_wallet.android)。
+  - 动作：若要备用日区支付，按教程用能长期接码的日本号注册 TOYOTA Wallet，再试绑港卡或已验证能充的大陆卡，并保存注记词
+
+- [JAL Pay 虚拟卡开卡全流程，日本手机号即可、不用在留卡](https://x.com/qiyouqiu114/status/2119307809183387810)
+  - 七悠球（@qiyouqiu114）写了 JAL Pay 虚拟卡开卡全流程：用日本手机号就能全程线上办理，不用在留卡、不用上传证件。他先说清楚：目前只实测到开卡成功，充值入金还没测试，文中充值方法只是官方渠道清单。准备：JAL Mileage Bank App、邮箱、能收短信的日本手机号、护照上的姓名拼音。步骤：App 里点「入会」加入 JMB，填两遍邮箱并点入会链接验证；填氏名（汉字）、片假名、罗马字（护照大写拼音）以及生日、性别、地址、日本手机号和职业——名字若有生僻字可能显示成 `&#数字;`，不是填错，确认页核对罗马字、片假名和生日即可。用会员号登录后，首页点 JAL Pay →「JAL Payを設定」，只勾「JAL Pay 会员规约」，下面 JAL NEOBANK 的勾不要打（开银行账户要在留卡或特别永住者证明，护照不行）。设 4 位卡暗証番号，促销码留空（上一期新人码已过期），完成后可加入 Apple Pay 并设为默认卡。官方列出的充值方式：信用卡单次 1,000–50,000 日元（须 3D Secure；Mastercard 免手续费，Visa 收 2.75%）、银行振込（汇款人姓名写 JMB 会员号+片假名）、JAL NEOBANK 口座振替、里程充值。加进 Apple Pay 后在日本可用 QUICPay+ / Mastercard 触碰支付，也可拿去绑日区 Apple ID。官方要求日本在住，居住国按实际情况选。
+  - 动作：若只想先开出这张日本 Mastercard 虚拟卡，按步骤用日本号加入 JMB 并开通 JAL Pay，先不要勾 NEOBANK；充值等作者实测再动手
+
+- [TOYOTA Wallet 已支持港卡，JCB/万事达/Visa/au 都能绑](https://x.com/wudihao138hack/status/2119697978403532870)
+  - wu138di（@wudihao138hack）说「TOYOTA信用卡在这，然后港卡支持，ANA歇了，大家可以冲了」，并预告会写详细教程（同档已有那篇注册教程）。他写现在 JCB、万事达、Visa 和 au 都支持，想当初这卡还只有 Visa。配图两张：TOYOTA Wallet「设定」页圈出「クレジットカードの登録」；以及信用卡登记成功页，卡号只露出末四位 8939，有效期 05/35，已设为主卡。他引用了自己稍早那条「TOYOTA 又可以申请了」的帖：[wu138di](https://x.com/wudihao138hack/status/2119686029108228389)。
+  - 动作：若已有 TOYOTA Wallet，可在设定里登记信用卡；详细开卡步骤看同档那篇注册教程
+
+### 通讯
+- [日本 eSIM 与三种 Visa 虚拟卡实测合集](https://x.com/Wangdaso/status/2119017769026855052)
+  - 大叔（@Wangdaso）说自己一天连肝 4 篇长文章，把日本手机号和虚拟卡研究了一遍：本想搞张日本 eSIM 接验证码，后来从日本手机号、国内漫游接码做到日本 Visa 虚拟卡，整理成一套教程。4 篇都在他 X 主页「文章」栏，并声明是个人实测、不是推广，也不保证每个人都能申请成功。四篇是：[日本手机号也能长期保号了？3100日元买张 Rakuten eSIM](https://x.com/i/article/2118972081685897217)（070 号，国内可激活、漫游接码，文章标题写每月 1G 中国漫游流量、免 KYC）；[日本 Visa 虚拟卡免费开通实测（Vプリカ）](https://x.com/Wangdaso/status/2118658076454912238)（无需初始 KYC，截图写是日本 Life Card 旗下）；[Vandle Card 免费开卡全攻略](https://x.com/i/article/2118963839224139776)（用日本手机号申请 Visa 虚拟卡）；[ultra pay 日本 Visa 预付卡完整实测](https://x.com/i/article/2118985470227222528)（注册、充值、AI 订阅、流媒体和线上购物）。另外还折腾了 ANA Pay 和 JAL Pay，其中 JAL Pay 的日本 Mastercard 已成功绑定 Apple Pay。
+  - 动作：按需打开对应长文对照开卡；先收藏这 4 篇方便回头查
+
+### 工具
+- [7 个特色 React 组件库](https://x.com/ChatGptAstra/status/2119349702688641177)
+  - 摸鱼巨匠（@ChatGptAstra）推荐 7 个 React 组件库，并附了演示视频。清单：[Looseleaf](https://kevintngo.github.io/looseleaf/)，纸张纹理加手绘钢笔和胶带贴纸风，和 shadcn/ui 同款部件和 props；[Rare UI](https://www.rareui.com/)，稀有动画组件，单文件分发，支持 shadcn CLI/MCP；[ExpoKit](https://expokit.in/)，带液态玻璃、3D 和图表的移动端组件库（封面站顶部有 ExpoKit Pro 上线、11 月 30 日前六折的横幅）；[goopUI](http://goop.timmcmasters.work/docs/components)，做滴落、拉伸、融合的液体物理效果；[beUI](https://beui.dev/)，动画丰富，覆盖 Web 和 React Native；[Sketchbook UI](https://sarthakrawat-1.github.io/sketchbook-ui/)，手绘笔记本风；[AffectUI](https://www.affectui.com/)，面向 AI 产品，Agent 可观测性较深。
+  - 动作：按项目风格打开对应官网试用，需要的库再用 shadcn CLI 或文档里的安装命令接入
+
+### 看板
+- [x.omnitools.cc](https://x.omnitools.cc)（📰 每日简报、待办书签已同步）
+
+### X API
+- 本档调用：bookmarks 1 + usage 2（+me）
+- 余额：**$12.73** free（约 2027-10-06 20:22 台北时间到期），prepaid $0
+
+### 增长批
+- **0** 条（TOYOTA/JAL 支付开卡、日本 eSIM 与虚拟卡、React 组件库安利，未转增长大师）

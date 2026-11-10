@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-10",
+  "mode": "pm",
+  "label": "2026-11-10 新词雷达",
+  "timezone": "Asia/Taipei (UTC+8)",
+  "window": {"start": "2026-11-09 17:55", "end": "2026-11-10 17:50"},
+  "pipeline": {
+    "xscan": "成功（免费 x 连接器）",
+    "tracks": "成功（game 144 条/40 词，ai_tools 44 条/40 词）",
+    "radar_daily": "成功，report.json 17:54 新生成；AIsa 钱包 402，名字判断未跑；内置① X（AIsa 拉关注账号）0/35 帖，这不等于书签X失败",
+    "merge": "236 条进合并",
+    "finders": "成功",
+    "doable": "常规过线 0、真空期 0、差一点 0；因 AIsa 402 未取到 Semrush 月搜/KD（词都显示月搜 0、KD 空），不能当成这些词真没搜索量",
+    "push": "成功，看板标签「2026-11-10 新词雷达」，236 items / 40 keywords",
+    "png": "未生成卡片",
+    "board_x_hot": "看板「🔥 X 热词」模块仍由用户自行写，本轮未改"
+  },
+  "xnew_items": [
+    {"name": "Claude Fable 5.2", "kind": "model", "desc": "Anthropic 新模型，官方称在编程、推理与视觉上有提升，用于应对高难度技术挑战与多领域协作；已在 Claude Platform 和 Claude Code 上线，较 Fable 5.1 最高快 30%。", "source": "@claudeai", "url": "https://x.com/claudeai/status/2119867114450268322", "first_seen": "2026-11-10 02:57", "views": 12099270, "bookmarks": 13731},
+    {"name": "Claude Mythos 5.2", "kind": "model", "desc": "Anthropic 与 Fable 5.2 同步推出的新模型，官方同样定位于高难度技术挑战与多领域协作，并称在编程、推理与视觉上有提升。", "source": "@claudeai", "url": "https://x.com/claudeai/status/2119867114450268322", "first_seen": "2026-11-10 02:57", "views": 12099270, "bookmarks": 13731},
+    {"name": "Muse Ember", "kind": "model", "desc": "Meta 新推出的最小、最高效模型，面向复杂推理执行和日常智能体工作，能跨应用串工作流、按序调用工具、跑测试并做针对性改代码，上下文窗口 100 万 token。", "source": "@AIatMeta", "url": "https://x.com/AIatMeta/status/2119853591703998787", "first_seen": "2026-11-10 02:04", "views": 1187141, "bookmarks": 577},
+    {"name": "Sophon-Realtime v1", "kind": "model", "desc": "Adventists AI 在 ModelScope 开源的全双工语音模型，能边听边说、约 0.4 秒接话，并带语气（如笑、叹息）。", "source": "@ModelScope2022", "url": "https://x.com/ModelScope2022/status/2119777024403444161", "first_seen": "2026-11-09 21:00", "views": 6032, "bookmarks": 131},
+    {"name": "Control Room", "kind": "not_model", "desc": "OpenAI 研究基础设施控制中心，用于追踪模型工作负载，并在出现安全或安保隐患时迅速叫停。不是新模型。", "source": "@OpenAI", "url": "https://x.com/OpenAI/status/2119913172039868579", "first_seen": "2026-11-10 06:01", "views": 638362, "bookmarks": 998}
+  ],
+  "site_keywords": ["Claude Fable 5.2", "Claude Mythos 5.2", "Muse Ember"],
+  "game_highlights": [
+    {"name": "Football Manager 27", "desc": "足球经理模拟游戏，Steam 已上线（今日上新，并进入 Steam 畅销）。", "url": "https://store.steampowered.com/search/?term=Football%20Manager%2027"},
+    {"name": "Warhammer Survivors", "desc": "类 Vampire Survivors 的生存射击游戏，Steam 已上线。", "url": "https://x.com/WDdabiange/status/2120065473413067000"},
+    {"name": "TANUKI: Pon's Summer", "desc": "骑 BMX 送快递的狸猫游戏，Steam 已上线。", "url": "https://x.com/WDdabiange/status/2120065473413067000"},
+    {"name": "Build a Bridge", "desc": "Roblox 平台建造类游戏，Up-and-Coming，约 8836 人在玩。", "url": "https://www.roblox.com/games/104688616907171"},
+    {"name": "+1 Hacker Evolve", "desc": "Roblox 平台游戏，Up-and-Coming，约 3582 人在玩；具体玩法本轮信源未展开。", "url": "https://www.roblox.com/games/75821372602076"},
+    {"name": "+1 Destruction Battlegrounds", "desc": "Roblox 平台游戏，Top Trending，约 3018 人在玩；具体玩法本轮信源未展开。", "url": "https://www.roblox.com/games/137162635710589"},
+    {"name": "Brainrot Pet Hatchery", "desc": "Roblox 免费宠物孵化模拟，已上线。", "url": "https://x.com/MMMVoid_Offical/status/2119990048947105818"},
+    {"name": "Feed a Carnivore", "desc": "Roblox 食肉动物喂养玩法，本窗新发布。", "url": "https://x.com/Giuseppee0516/status/2119749729810632777"}
+  ],
+  "ai_tool_highlights": [
+    {"name": "Dageno AI 2.0", "desc": "GEO 可见性监测：看 ChatGPT、Gemini、Perplexity 是否推荐你，以及影响来源。", "url": "https://x.com/thisnaeem/status/2120069691658146202"},
+    {"name": "Webskan MCP", "desc": "远程 MCP 网站审计：Lighthouse、SEO、无障碍、安全头、死链，修复后再扫并返回 diff。", "url": "https://x.com/WebskanAgent/status/2120078798095818892"},
+    {"name": "MeetJSON", "desc": "超低延迟 Edge MCP 服务器，压缩 agent 上下文 token（官方称最高 90%）并自动修复损坏 JSON，可用于 Cursor、Claude Code、Gemini。", "url": "https://x.com/ouz_bhdr/status/2120065124824203405"},
+    {"name": "MivoChat", "desc": "面向小型 SaaS 团队的 AI 客服，按文档回答，不会就说不知道并转人工。", "url": "https://x.com/ovidiugr12/status/2120079779290394629"},
+    {"name": "Unstale", "desc": "WordPress 插件，检查并更新文章里过时的价格、统计和已下线工具等事实。", "url": "https://x.com/unstaleai/status/2120072720805155061"},
+    {"name": "Workotron", "desc": "云端 24/7 AI 运营助手，用自然语言交代工作，定位为业务运营总监而非普通聊天助手。", "url": "https://x.com/avive/status/2120073592402518176"}
+  ],
+  "board_url": "https://x.omnitools.cc/radar/new"
+}

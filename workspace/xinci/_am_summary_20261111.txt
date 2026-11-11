@@ -1,0 +1,43 @@
+### 总览
+- **时间窗口**：Asia/Shanghai（UTC+8），2026-11-10 17:50 至 2026-11-11 09:57。
+- **状态**：书签X、双轨、新闻轨成功；看板已推送标签「2026-11-11 新词雷达」（237 条 / 40 词）。热梗三平台未全接入，本轮 0 条合格（权限不足，不是抓取崩溃）。雷达日报内置 X 关注源沿用昨晚 report（answered=0），今早未跑 daily，这不是书签X失败。
+- **建站热词**：MiniMax H3-Image、Businesses in ChatGPT、Claude Whiteboards。
+- **可做词**：早间不跑 doable，可做词以晚间为准（勿把 Semrush 缺数当成月搜 0）。
+
+---
+
+### 建站热词与各轨重点
+
+#### 1. 书签 X 轨
+- **MiniMax H3-Image**（模型）：MiniMax 开源权重的 4K 图像生成与编辑模型，约 10 秒出 1600 万像素图，最多 16 张参考图，可通过 MiniMax API、MiniMax Code 和 Hailuo AI 使用。 [来源](https://x.com/MiniMax_AI/status/2120179737695826420)
+- **Gemini Robotics 2.5**（实体机器人/物理 AI 模型）：Google DeepMind 新一代实体机器人 AI，官方称能学习数百项日常技能（如叠衣服、分拣汽车零件），非 Gemini 4 Carbon 文本模型。 [来源](https://x.com/GoogleDeepMind/status/2120169787896525104)
+- **Claude Whiteboards / Claude Sheets / Claude Data**（产品功能，不是新模型）：Anthropic 今日开始推送的三款办公向功能，分别用于在白板上梳理计划、在表格里做追踪器、用数据讲故事。 [来源](https://x.com/claudeai/status/2120206365759094857)
+- **Businesses in ChatGPT（含 Business Agent）**（产品功能，不是新模型）：OpenAI 推出的 ChatGPT 内商家功能（beta）：企业可认领资料、管理信息、查看洞察，符合条件者可构建 Business Agent 回答顾客问题。 [来源](https://x.com/OpenAI/status/2120216592395174382)
+- **LingBot-Touch**（模型，补报）：开源触觉基础模型，用于在不同机器手、传感器和操作任务间迁移触觉技能，Apache-2.0，预训练约 4983 小时。 [来源](https://x.com/ModelScope2022/status/2120124432244998499)
+- **Pixel Tag**（硬件配件，不是新模型）：Google 十一月 Pixel Drop 中的物品追踪配件，用于钥匙/钱包/行李定位，官方称 11 月 12 日开始可订。 [来源](https://x.com/Google/status/2120299157411790929)
+- **跳过说明**：Gemini 4 Carbon 本窗有大量官方现已推出演示，但该模型已于 10-29 收录，本档不重复。
+
+#### 2. 游戏轨
+- **Warhammer Survivors**：战锤主题俯视角弹幕天堂类 roguelite 生存射击。Steam 畅销榜已核实在库（第三方另列出 Xbox、PS5、Switch 2、PC、iOS、Android）。 [来源](https://store.steampowered.com/search/?term=Warhammer%20Survivors)
+- **Frigid Dusk**：Roblox 平台恐怖游戏，来自第三方 YouTube 视频转述。 [来源](https://x.com/jazminestarrr/status/2120287385955209405)
+- **DONT SPLASH**：Roblox Up-and-Coming 游戏，抓取时约 5.6 万在玩，玩法细节未细述。 [来源](https://www.roblox.com/games/119958473240233)
+- **Hyper Realistic Ragdoll**：Roblox Up-and-Coming 游戏，约 1.9 万在玩，玩法细节未细述。 [来源](https://www.roblox.com/games/101277003916102)
+- **Barber Simulator**：Roblox Up-and-Coming 理发店模拟游戏，约 0.4 万在玩。 [来源](https://www.roblox.com/games/134026357772960)
+- **Throw kukirin for eggs**：开发中、标注 coming soon 尚未上线；标签含 Roblox，平台待核实。 [来源](https://x.com/YT_FRASH/status/2120172058231332955)
+
+#### 3. AI 工具轨
+- **SiteParity**：给出 SEO 与 AI 就绪度评分的工具；作者自称刚上线，第三方低互动帖。 [来源](https://x.com/dannysaas/status/2120274597438206090)
+- **Titan Studio**：AI 短视频工具，输入主题和风格后自动写脚本、配音、分镜、配乐字幕并剪辑，宣称可在真实 Roblox 游戏内做动画；第三方低互动，是否已公开上线未核实。 [来源](https://x.com/raidenyta/status/2120267796919779777)
+- **FishAudio Live 3**：语音模型，可听可说、处理打断、判断何时保持沉默（第三方转述）。 [来源](https://x.com/hello_code_/status/2120284504090722319)
+- **Hedra Model Factory**：将算力、自主后训练和部署放在一起，服务机器人/工厂等物理 AI 训练（第三方转述）。 [来源](https://x.com/ismanewells/status/2120326971703861651)
+- **inkbox hosted agents**：Agent 托管工具，给代理配电脑/邮件/电话等通道，空闲可休眠（第三方转述）。 [来源](https://x.com/garlotic/status/2120331671220179110)
+
+#### 4. 新闻轨
+- **状态说明**：GDELT 429 未取到；Google News / Telegram / RSS 正常。因 free-llm 失败后回退规则抽名，条目名称和用途可能较粗（主轨关键词已占满 40，新闻轨 keywords 为 0，17 条在看板列表中）。可见标题含 NVIDIA Alpamayo 2 Edge 自动驾驶模型权重、微软 .NET 11 等，用途未再交叉核实。
+
+#### 5. 热梗轨
+- **状态说明**：三平台未全接入（TikTok 公开页打不开热榜且无凭据、YouTube 无 API 403、Instagram 无公开趋势接口），Google Trends 过滤后 0 条。0 条合格是直采权限不足且二次源无合格梗，非抓取崩溃。
+
+---
+
+https://x.omnitools.cc/radar/new

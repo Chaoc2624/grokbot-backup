@@ -1,0 +1,76 @@
+{
+  "candidates": [
+    {
+      "id": "2120323653443428464",
+      "url": "https://x.com/HaiWaiYunJuMin/status/2120323653443428464",
+      "author": "HaiWaiYunJuMin",
+      "author_name": "海外云居民",
+      "posted_at": "11-11 09:12",
+      "created_at": "2026-11-11T01:12:07.000Z",
+      "text": "不少人X友因为刚建立信用不久，而错过了上一波富国银行的Wells Fargo Everyday Checking $500开户奖励。\n\n现在它又来了，截止日期：2027/01/12\n\n这是美银中要求最低的、奖励最高的、也是最容易拿的一个开户奖励！",
+      "urls": [
+        {
+          "expanded_url": "https://x.com/HaiWaiYunJuMin/status/2120323653443428464/photo/1",
+          "title": null,
+          "description": null
+        }
+      ],
+      "quoted": [],
+      "image_note": "配图为富国银行 Everyday Checking 官方活动页截图：Limited Time Offer ends January 12, 2027；新支票客户开立 Everyday Checking，并在开户后 90 天内完成合计 $1,000 或以上合格直接存款（qualifying direct deposits），可获 $500 bonus。页面有 Open online 按钮，称从该优惠页在线申请会自动带上 bonus offer code；另有链接说明如何避免 $15 月费。原帖未给出可点击的官方申请 URL，只有截图。",
+      "soft_ad_risk": false,
+      "soft_signals": [
+        "作者 bio 写专注薅羊毛、兼职 KOL、合作请私信，并有云居民论坛/TG 频道；本帖是分享银行开户奖励活动与截图要求，不是付费带货下单，应保留。"
+      ],
+      "has_screenshot": true,
+      "public_metrics": {
+        "bookmark_count": 43,
+        "impression_count": 4190,
+        "like_count": 39,
+        "quote_count": 1,
+        "reply_count": 15,
+        "repost_count": 2
+      },
+      "followups": {
+        "offer": "Wells Fargo Everyday Checking $500 开户奖励，截止日期 2027-01-12。条件（截图原文）：新支票客户开立 Everyday Checking，开户后 90 天内 qualifying direct deposits 满 $1,000 或以上。从优惠页申请会自动应用 offer code。有 $15 月费，页面另有避费说明。原帖未附官方申请链接。作者称这是美银中要求最低、奖励最高、也较容易拿的开户奖励，上一波有人因信用刚建立而错过。"
+      }
+    },
+    {
+      "id": "2090785456774689270",
+      "url": "https://x.com/yan_ai_labs/status/2090785456774689270",
+      "author": "yan_ai_labs",
+      "author_name": "砍柴少侠 YAN",
+      "posted_at": "08-21 20:57",
+      "created_at": "2026-08-21T12:57:52.000Z",
+      "text": "我把自己做 SEO 用的一套 skills 都开源分享给大家\n\nhttps://t.co/57cjTTnqN2\n\n这套 skill 完全覆盖了从选词、查 KD、查竞对、查市场、查搜索量、查长尾关键词，整合出一套打法\n\n然后建站、部署 Cloudflare，包括前端、后端、存储\n接入 Stripe、接 GSC、接 webmaster、接 Ahrefs\n\n接入哥飞 AI 全家桶，让 Codex 和哥飞 AI 对话对网站做检测\n\n内置 SimilarWeb、 SEMrush 自动化脚本，全自动研究市场数据、竞对网站数据、关键词流量。\n\n自动发可免登录的外链，高质量的免费外链，高质量的付费外链。\n\nRankup SKILL 可长期管理网站迭代规划从 0~100\n\n从选词 → 建站→发外链 → 接支付 → 根据数据调整网站\n\n下面是更详细的介绍：\n\n/rankup \n\n管建站和 SEO 。查词、看难度、拆一下 SERP 第一页那几个人凭什么排在那、给页面挑挑毛病，这些它都干。我把哥飞那套 SEO 工具箱整个接进来了，一个脚本调完，也不用买订阅，匿名一天能跑 10 次，日常够了。\n\n词选好了就直接搭。shadcn 官方模板一条命令起个网站出来，SSR，然后全丢 Cloudflare 上，Workers 跑服务端、D1 数据库、R2 放文件，域名绑定这些也都在流程里。中间不需要想架构的事。\n\n它会自己去查你域名解析没、CF 在不在跑、GSC 接了没、Webmaster 数据情况怎么样、GSC 的数据报告怎么样、也会去帮你去分析网站数据，通过数据来对网站提出优化建议。\n\n包括还会使用哥飞 AI 跟它对话，让哥飞 AI 帮忙去验证和检查网站的质量，以及要打的关键词是否还有调整和优化的空间。然后会告诉你接下来还要做什么。它会在你的项目里面初始化一个 .rankup 目录，会一直追踪你的网站的迭代计划。\n\n/backlink \n\n发外链，收录了 492 个免费外链平台。都是我自己用过的，其中免费又免登录、让 codex 使用 OpenCLI 能自动发的有 100 多个。\n\n有一些最后要手动过人机验证，脚本会把这些攒成一堆，最后交给人工一次性点完。\n\n另外还有 102 个是免费但要注册的，那些质量一般更好，值得手动开个号。哦对，中文圈流传的那些\"免费外链清单\"，六分之一的站压根打不开了，有些还返回 200，点进去是加密货币广告。\n\n还有一份 141 个付费外链平台的表。我去通过 SimilarWeb 和 SEMrush，然后发现了一些新词网站，他们在短时间内冲上了流量，然后发现他们的起步外链是通过这些外链平台购买来的。\n\n观察到有多个网站是通过这些外链平台，然后得到了流量，至少 3 个以上新词网站是买了这些外链平台，作为自己的第一批外链。我才把它收录下来。\n\n2. ⚠️ 重点：Semrush / Similarweb 自动化脚本\n\n这个 skill 用的是共享账号平台，不过我还是推荐大家去买正版。\n\n这两个 skill 配着用，从一个词能一路走到底：\n\n给它一个词 → 查量和 KD → 发散挖出一圈相关词和长尾 → 看长尾的第一页都是谁在排 → 把那几个站拉出来，看它们多大、流量哪儿来、外链什么性质 → 判断这个盘面我能不能进\n\n前半段（扩词、看盘面）用 /rankup ，后半段（拉站的数据、扒外链）用 /backlink\n\n全程完全自动化。导出的数据我也不怎么看，最后这些 Skill 会直接帮我做分析，然后 Agent 会给我一个最终的答复。",
+      "urls": [
+        {
+          "expanded_url": "https://github.com/yan-labs/yan-skills",
+          "title": "GitHub - yan-labs/yan-skills",
+          "description": "Yan's agent skills collection — Google Trends SEO workflows, AI news, autopilot, and more. For Claude Code / Codex / Cursor."
+        }
+      ],
+      "quoted": [],
+      "image_note": null,
+      "soft_ad_risk": false,
+      "soft_signals": [
+        "作者开源自用 SEO/建站 Agent Skills，仓库 MIT 协议；帖中提到 Semrush/Similarweb 脚本使用共享账号平台，但同时建议买正版。主体是开源方法论与工具，不是付费带货，应保留。注意：共享账号做法本身有风险，简报里可如实注明，不要鼓励违规使用。"
+      ],
+      "has_screenshot": false,
+      "public_metrics": {
+        "bookmark_count": 146,
+        "impression_count": 55432,
+        "like_count": 82,
+        "quote_count": 2,
+        "reply_count": 18,
+        "repost_count": 12
+      },
+      "followups": {
+        "github": "https://github.com/yan-labs/yan-skills",
+        "install": "npx skills add yan-labs/yan-skills -g --all",
+        "repo_status": "本档核查（2026-11-11 晚上）：仓库仍在，MIT，约 285 stars；updated_at 2026-11-11T13:50:26Z，pushed_at 2026-11-11T08:07:12Z，说明原帖虽发于 2026-08-21，仓库当天仍在更新。README 现列出主力 skill：rankup（独立站全生命周期，文档写版本 3.42.0，七段：调研→立项→建站→上线前SEO/GEO→上线接入→外链节奏→变现监控；接哥飞官方 Skill 包与 Stripe/Anyway/PayPal）、backlink（外链与登录态数据，含 Semrush/Similarweb 平台手册）、opencli（已登录 Chrome 取数底层）、imagegen（站点视觉素材）、cf-cli（Cloudflare CLI）。另有 autopilot、codex、write、blog、skill-link-check 等。兼容 Claude Code / Codex / Cursor。原帖数字（492 个免费外链平台、100+ 免登录可自动发、102 个免费需注册、141 个付费外链表等）是 8 月发帖时的自述，简报可引用并注明以仓库当前 README/目录为准。",
+        "warning": "原帖提醒 Semrush/Similarweb 自动化脚本用的是共享账号平台，作者建议买正版；简报不要把共享账号写成推荐做法。"
+      }
+    }
+  ],
+  "label": "2026-11-11 晚上"
+}

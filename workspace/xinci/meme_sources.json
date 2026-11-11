@@ -16,7 +16,12 @@
       "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=TW&period=7"
     ],
     "discovery_api": "https://business-api.tiktok.com/open_api/v1.3/discovery/trending_list/",
-    "docs": "https://business-api.tiktok.com/portal/docs?id=1756046871868418"
+    "docs": "https://business-api.tiktok.com/portal/docs?id=1756046871868418",
+    "oembed": "https://www.tiktok.com/oembed",
+    "video_tab_urls": [
+      "https://ads.tiktok.com/creative/creativeCenter/trends/video?countryCode=US&period=7",
+      "https://ads.tiktok.com/creative/creativeCenter/trends/video?countryCode=TW&period=7"
+    ]
   },
   "youtube": {
     "enabled": true,
@@ -31,11 +36,21 @@
       "YOUTUBE_API_KEY",
       "GOOGLE_YOUTUBE_API_KEY",
       "GOOGLE_API_KEY"
-    ]
+    ],
+    "oembed": "https://www.youtube.com/oembed",
+    "rss_docs": "https://www.youtube.com/feeds/videos.xml",
+    "public_channel_ids": [],
+    "public_playlist_ids": [],
+    "rss_healthcheck_channel_id": "UCBR8-60-B28hp2BmDPdntcQ",
+    "rss_note": "官方无密钥 Atom RSS 只返回已知公开频道/播放列表最近 15 条，不是全站热门榜。健康检查用 @YouTube 官方频道，其视频不写入热梗条目。发现可跟踪的公开 AI 热梗频道后再把 UC... 写入 public_channel_ids。"
   },
   "instagram": {
     "enabled": true,
-    "docs": "https://transparency.meta.com/en-us/researchtools/meta-content-library/"
+    "docs": "https://transparency.meta.com/en-us/researchtools/meta-content-library/",
+    "public_pages": [
+      "https://www.instagram.com/reels/",
+      "https://www.instagram.com/explore/tags/aivideo/"
+    ]
   },
   "secondary_google_trends": {
     "enabled": true,

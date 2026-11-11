@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "id": "2120323653443428464",
+      "url": "https://x.com/HaiWaiYunJuMin/status/2120323653443428464",
+      "title": "富国银行 Everyday Checking 再开 500 美元开户奖励",
+      "tag": "美卡",
+      "need": "海外云居民（@HaiWaiYunJuMin）说，上一波富国银行 Wells Fargo Everyday Checking $500 开户奖励，有人因为信用刚建立而错过；活动现已重启，截止日期 2027-01-12，并称这是美银里要求较低、奖励较高、也比较容易拿的一档开户奖励。配图是官方活动页截图：新支票客户开立 Everyday Checking，并在开户后 90 天内完成合计 $1,000 或以上合格直接存款（qualifying direct deposits），可获 $500 bonus；从该优惠页在线申请会自动带上 bonus offer code，另有如何避免 $15 月费的说明。原帖没有给出可点击的官方申请 URL，只有截图。",
+      "action": "若符合新支票客户条件，先对照截图要求（90 天内合格直接存款满 $1,000），再自行找到官方优惠页申请，勿用未给出的第三方链接；同时看清 $15 月费如何免除",
+      "deadline": "2027-01-12 截止",
+      "due_date": "2027-01-12",
+      "category": "urgent",
+      "posted_at": "11-11 09:12"
+    },
+    {
+      "id": "2090785456774689270",
+      "url": "https://x.com/yan_ai_labs/status/2090785456774689270",
+      "title": "砍柴少侠开源 yan-skills 覆盖选词建站外链全链路",
+      "tag": "增长",
+      "need": "砍柴少侠 YAN（@yan_ai_labs）在 2026-08-21 开源自用 SEO Agent Skills，仓库 https://github.com/yan-labs/yan-skills （MIT，兼容 Claude Code / Codex / Cursor）。长帖把链路写成：选词/查 KD/竞对/搜索量/长尾 → 用 shadcn 模板+Cloudflare（Workers/D1/R2）建站 → 接 Stripe、GSC、Webmaster、Ahrefs 与哥飞工具箱 → /rankup 管迭代（项目内建 .rankup 目录）→ /backlink 发外链。发帖时自述收录约 492 个免费外链平台（其中 100+ 免登录可自动发、102 个免费需注册），另有 141 个付费外链表，称部分新词站的起步外链来自这些平台；并提醒 Semrush/Similarweb 脚本用过共享账号平台，但建议买正版。本档核查仓库仍在更新（约 285 stars，2026-11-11 仍有 push）；README 现以 rankup（文档写 3.42.0，七段生命周期，含 SEO/GEO 与支付接入）、backlink、opencli、imagegen、cf-cli 为主，安装命令：npx skills add yan-labs/yan-skills -g --all。平台数量以仓库当前目录为准，不要把共享账号当成推荐做法。",
+      "action": "用官方安装命令把 yan-skills 接到自己的 Agent，先跑 /rankup 看选词与站点体检，外链再交给 /backlink；Semrush/Similarweb 用正版或自有账号",
+      "deadline": null,
+      "due_date": null,
+      "category": "todo",
+      "posted_at": "08-21 20:57"
+    }
+  ],
+  "summary": "本期新增 2 条书签：富国银行 Everyday Checking $500 开户奖励重启（截止 2027-01-12），以及砍柴少侠开源的 yan-skills（选词-建站-外链-监控 Agent 工作流，仓库当天仍在更新）。",
+  "brief_text": "📌 推特书签简报 · 2026-11-11 晚上（22:00 档）\n\n账号 @Chaoc2624 · 新增 2 条书签（过滤 0）。之前推过、看板上还没处理的还有 363 条，详情在看板。\n\n💳 美卡（1 条）\n• 富国银行 Everyday Checking 再开 500 美元开户奖励：海外云居民说上一波有人因信用刚建立而错过，活动已重启，截止日期 2027-01-12；截图显示新支票客户开立 Everyday Checking，并在开户后 90 天内完成合计 $1,000 或以上合格直接存款可获 $500，从优惠页申请会自动带 offer code，另需留意 $15 月费。原帖未给官方申请链接。原帖URL https://x.com/HaiWaiYunJuMin/status/2120323653443428464\n\n📈 增长（1 条）\n• 砍柴少侠开源 yan-skills 覆盖选词建站外链全链路：2026-08-21 长帖开源自用 SEO Skills，覆盖选词/KD/竞对、Cloudflare 建站、接支付与 GSC、/rankup 迭代和 /backlink 外链；发帖时自述有数百个免费/付费外链平台，并提醒 Semrush/Similarweb 脚本不要依赖共享账号、建议买正版。本档核查仓库仍在更新（约 285 stars，2026-11-11 仍有 push）。原帖URL https://x.com/yan_ai_labs/status/2090785456774689270\n  关键链接：仓库 https://github.com/yan-labs/yan-skills ；安装 `npx skills add yan-labs/yan-skills -g --all`\n",
+  "_note": "free-llm 首稿过短，已按原帖/截图/仓库核验结果补全 need、brief_text 与分组"
+}

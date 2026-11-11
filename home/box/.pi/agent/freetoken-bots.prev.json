@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T01:00:18.984781+00:00",
+  "checked_at": "2026-11-11T01:09:33.544267+00:00",
   "eligible": [],
   "needs_parameter_verification": [
     {
@@ -12,10 +12,6 @@
     },
     {
       "id": "recursive/flint-v1.0:free",
-      "context_length": 262144
-    },
-    {
-      "id": "xingchen-agi/xing4.0-29b-a4b:free",
       "context_length": 262144
     },
     {
@@ -74,8 +70,7 @@
     "nvidia/nemotron-3.5-super-vl:free",
     "openrouter/free",
     "recursive/flint-v1.0:free",
-    "thinkingmachines/inkling-2-small:free",
-    "xingchen-agi/xing4.0-29b-a4b:free"
+    "thinkingmachines/inkling-2-small:free"
   ],
-  "free_count": 16
+  "free_count": 15
 }

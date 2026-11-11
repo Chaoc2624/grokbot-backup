@@ -97,8 +97,8 @@ def parse_dt(value: str | None) -> datetime | None:
             return None
 
 
-def fetch(url: str, timeout: int = TIMEOUT) -> tuple[int, str, str]:
-    """Return (http_status, body_text, error). Does not send cookies or impersonate."""
+def fetch_ex(url: str, timeout: int = TIMEOUT) -> tuple[int, str, str, str]:
+    """Return (http_status, body_text, error, final_url). No cookies, no impersonation."""
     import gzip
     import urllib.error
     import urllib.request
@@ -116,9 +116,10 @@ def fetch(url: str, timeout: int = TIMEOUT) -> tuple[int, str, str]:
         with urllib.request.urlopen(req, timeout=timeout) as res:
             body = res.read()
             code = res.status
+            final = res.geturl() or url
         if body[:2] == b"\x1f\x8b":
             body = gzip.decompress(body)
-        return code, body.decode("utf-8", "replace"), ""
+        return code, body.decode("utf-8", "replace"), "", final
     except urllib.error.HTTPError as exc:
         try:
             body = exc.read() or b""
@@ -127,9 +128,88 @@ def fetch(url: str, timeout: int = TIMEOUT) -> tuple[int, str, str]:
             text = body.decode("utf-8", "replace")
         except Exception:
             text = ""
-        return int(exc.code or 0), text, f"HTTPError {exc.code}: {exc.reason}"
+        final = ""
+        try:
+            final = exc.geturl() or url
+        except Exception:
+            final = url
+        return int(exc.code or 0), text, f"HTTPError {exc.code}: {exc.reason}", final
     except Exception as exc:  # noqa: BLE001
-        return 0, "", f"{type(exc).__name__}: {exc}"
+        return 0, "", f"{type(exc).__name__}: {exc}", url
+
+
+def fetch(url: str, timeout: int = TIMEOUT) -> tuple[int, str, str]:
+    """Return (http_status, body_text, error). Does not send cookies or impersonate."""
+    code, text, err, _final = fetch_ex(url, timeout=timeout)
+    return code, text, err
+
+
+def official_oembed(video_url: str) -> dict:
+    """Official YouTube or TikTok oEmbed. Returns {} on failure. No API key."""
+    from urllib.parse import quote
+
+    u = (video_url or "").strip()
+    if not u:
+        return {}
+    if "youtube.com" in u or "youtu.be" in u:
+        endpoint = "https://www.youtube.com/oembed?format=json&url=" + quote(u, safe="")
+    elif "tiktok.com" in u:
+        endpoint = "https://www.tiktok.com/oembed?url=" + quote(u, safe="")
+    else:
+        return {}
+    code, text, err = fetch(endpoint)
+    if code != 200 or not text:
+        return {}
+    try:
+        data = json.loads(text)
+    except Exception:
+        return {}
+    return data if isinstance(data, dict) else {}
+
+
+def parse_youtube_atom(text: str) -> list[dict]:
+    import xml.etree.ElementTree as ET
+
+    out: list[dict] = []
+    try:
+        root = ET.fromstring(text)
+    except Exception:
+        return out
+    for el in root.iter():
+        if local_tag(el.tag) != "entry":
+            continue
+        title = link = published = author = ""
+        views = None
+        for c in list(el):
+            n = local_tag(c.tag)
+            if n == "title":
+                title = (c.text or "").strip()
+            elif n == "link" and not link:
+                link = (c.get("href") or c.text or "").strip()
+            elif n == "published":
+                published = (c.text or "").strip()
+            elif n == "name" and not author:
+                author = (c.text or "").strip()
+            elif n == "author":
+                for x in list(c):
+                    if local_tag(x.tag) == "name":
+                        author = (x.text or "").strip()
+            elif n == "statistics" and c.get("views") is not None:
+                try:
+                    views = int(c.get("views") or 0)
+                except Exception:
+                    views = c.get("views")
+        if title and link:
+            row = {
+                "title": title,
+                "url": link,
+                "published": published,
+                "author": author,
+            }
+            if views is not None:
+                row["views"] = views
+            out.append(row)
+    return out
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -217,7 +297,7 @@ def probe_tiktok(cfg: dict, errors: list[str]) -> tuple[list[dict], dict]:
             page_notes.append(f"{url}: HTTP {code}, extracted {len(found)} hashtag(s) from HTML")
         elif code == 200 and has_shell:
             page_notes.append(
-                f"{url}: HTTP 200，页面可打开，但趋势列表未出现在 HTML（前端渲染 / 登录后才有完整榜），未调用未公开内部接口"
+                f"{url}: HTTP 200，官方页可打开，但热榜行未出现在静态 HTML（前端渲染）。这不等于无法访问；需父线程用浏览器读取可见 UI，未调用未公开内部接口"
             )
         elif code in {401, 403}:
             page_notes.append(f"{url}: HTTP {code}，公开页受限")
@@ -244,19 +324,38 @@ def probe_tiktok(cfg: dict, errors: list[str]) -> tuple[list[dict], dict]:
         direct = True
         note = "仅从公开 HTML 抽到可见标签，数量可能远少于登录后的完整榜。"
     else:
-        status = "unavailable"
+        status = "needs_browser"
         direct = False
-        note = "官方 Creative Center 公开页未能提供可解析的热榜数据；未把 Google News/X 或内部接口当作直采。"
+        note = "静态 HTML 无热榜行，但官方页 HTTP 200 可打开；请父线程按 parent_ui_task 读取可见榜，不要把前端渲染当成无法访问。未把 Google News/X 或内部接口当作直采。"
     note = " ".join(page_notes + ([api_note] if api_note else []) + [note])
+    parent_ui_task = {
+        "why": "Creative Center Trends 是官方公开页，数据在前端渲染，本环境 curl 看不到行。",
+        "pages": [
+            "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=US&period=7",
+            "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=TW&period=7",
+            "https://ads.tiktok.com/creative/creativeCenter/trends/video?countryCode=US&period=7",
+            "https://ads.tiktok.com/creative/creativeCenter/trends/video?countryCode=TW&period=7",
+        ],
+        "steps": [
+            "未登录打开 Hashtag 页（先 US，再 TW）；如有 cookie 横幅只接受必要项。",
+            "若出现登录墙或必须登录才能看到任何标签/视频，立即停止并回报，不要登录。",
+            "若未登录也能看到榜（常见是顶部少量标签），抄写可见 hashtag 名称、可见播放/发布量、时间范围（7 天）。",
+            "点击页面上的 Video / 视频趋势标签（或打开上面的 trends/video 页）。",
+            "对每条可见视频抄写：原始 tiktok.com/@user/video/数字ID 链接、作者、可见播放量、可见发布日；没有的字段留空，不要编。",
+            "截图整个可见榜。优先挑多人复刻、可用自己照片/换脸生成的 AI 视频梗，不要泛 AI 新闻。",
+        ],
+        "stop_if_login": True,
+    }
     cov = coverage_row(
         status,
         direct,
-        "TikTok Creative Center public HTML; official Discovery API requires advertiser token",
+        "TikTok Creative Center public HTML (JS-rendered); official Discovery API requires advertiser token; official TikTok oEmbed can enrich a known public video URL",
         page_url,
         http_status=last_code,
         docs=docs,
         note=note,
         items_from_html=len(extracted),
+        parent_ui_task=parent_ui_task,
     )
     return extracted, cov
 
@@ -275,29 +374,20 @@ def probe_youtube(cfg: dict, errors: list[str]) -> tuple[list[dict], dict]:
         if val:
             key, used_env = val, env_name
             break
+    api_code = 0
+    api_note = ""
     if not key:
-        # Probe once to record official 403 without a key
         demo = f"{api}?{urlencode({'part': 'snippet', 'chart': 'mostPopular', 'regionCode': 'US', 'maxResults': 1})}"
-        code, _text, err = fetch(demo)
-        cov = coverage_row(
-            "unavailable",
-            False,
-            "YouTube Data API v3 videos.list chart=mostPopular",
-            docs,
-            http_status=code,
-            note=(
-                f"官方接口探测 HTTP {code or 'ERR'}{(' / ' + err) if err else ''}。"
-                "本机未配置 YOUTUBE_API_KEY / GOOGLE_API_KEY。"
-                "官方频道 RSS 不提供 mostPopular 榜（chart= 参数返回 400）。"
-                "注意：2025-07-21 起 mostPopular 来自 Music / Movies / Gaming 榜，不再等于已下线的 Trending Now 页。"
-            ),
+        api_code, _text, err = fetch(demo)
+        api_note = (
+            f"Data API mostPopular 探测 HTTP {api_code or 'ERR'}{(' / ' + err) if err else ''}。"
+            "本机未配置 YOUTUBE_API_KEY。该接口不是全站热梗搜索；2025-07-21 起 mostPopular 来自 Music/Movies/Gaming，不等于已下线的 Trending Now。"
         )
-        return [], cov
 
     items: list[dict] = []
-    last_code = 0
+    last_code = api_code
     max_results = int(block.get("max_results") or 15)
-    for region in block.get("region_codes") or ["US"]:
+    for region in (block.get("region_codes") or ["US"]) if key else []:
         params = {
             "part": "snippet,statistics",
             "chart": "mostPopular",
@@ -349,18 +439,121 @@ def probe_youtube(cfg: dict, errors: list[str]) -> tuple[list[dict], dict]:
                     "note": "来自 official mostPopular（Music/Movies/Gaming 榜，不等于已下线的 Trending Now）",
                 }
             )
+    # Official keyless path: public channel/playlist Atom RSS + oEmbed.
+    # This is not a global trending chart; only latest 15 of configured public channels.
+    rss_items: list[dict] = []
+    rss_notes: list[str] = []
+    rss_verified = False
+    channel_ids = [c for c in (block.get("public_channel_ids") or []) if c]
+    playlist_ids = [c for c in (block.get("public_playlist_ids") or []) if c]
+    health_id = (block.get("rss_healthcheck_channel_id") or "").strip()
+    feeds: list[tuple[str, str]] = []
+    for cid in channel_ids:
+        feeds.append((f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}", "channel"))
+    for pid in playlist_ids:
+        feeds.append((f"https://www.youtube.com/feeds/videos.xml?playlist_id={pid}", "playlist"))
+    if health_id:
+        health_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={health_id}"
+        code, text, err = fetch(health_url)
+        parsed = parse_youtube_atom(text) if code == 200 else []
+        if parsed:
+            rss_verified = True
+            sample = parsed[0]
+            oe = official_oembed(sample.get("url") or "")
+            rss_notes.append(
+                f"官方 RSS 健康检查 HTTP {code}，{len(parsed)} 条；oEmbed "
+                f"{'ok '+ (oe.get('title') or '')[:60] if oe else 'fail'}。"
+                "健康检查频道的视频不写入热梗条目。"
+            )
+        else:
+            rss_notes.append(f"官方 RSS 健康检查 HTTP {code or 'ERR'} {err}，entries={len(parsed)}")
+    for feed_url, kind in feeds:
+        code, text, err = fetch(feed_url)
+        last_code = code or last_code
+        parsed = parse_youtube_atom(text) if code == 200 else []
+        if parsed:
+            rss_verified = True
+        else:
+            rss_notes.append(f"{kind} RSS {feed_url}: HTTP {code or 'ERR'} {err}".strip())
+            continue
+        for ev in parsed:
+            video_url = ev["url"]
+            oe = official_oembed(video_url)
+            title = (oe.get("title") or ev["title"]).strip()
+            metrics = {}
+            if ev.get("views") is not None:
+                metrics["views"] = ev["views"]
+            rss_items.append(
+                {
+                    "name": title,
+                    "title": title,
+                    "url": video_url,
+                    "source_url": feed_url,
+                    "published": parse_dt(ev.get("published")),
+                    "snippet": f"author={oe.get('author_name') or ev.get('author') or ''}",
+                    "platform": "youtube",
+                    "coverage_type": "direct",
+                    "source_kind": "official_rss",
+                    "metrics": metrics,
+                    "kind_hint": "meme",
+                    "channel": oe.get("author_name") or ev.get("author") or "",
+                    "note": "来自官方公开频道/播放列表 Atom RSS + oEmbed，不是全站热门榜；仅元数据，未观看视频。RSS 默认不含播放量。",
+                }
+            )
+        rss_notes.append(f"{kind} RSS {feed_url}: HTTP {code}，{len(parsed)} 条")
+
+    items.extend(rss_items)
+    page_ui = {
+        "why": "YouTube 搜索/Shorts/标签页是前端渲染，curl 的 HTML 里没有可解析的视频 URL；不要解析未文档化的 ytInitialData。",
+        "pages": [
+            "https://www.youtube.com/results?search_query=AI+face+swap+OR+%22photo+to+video%22+trend&sp=EgIYAQ%253D%253D",
+            "https://www.youtube.com/hashtag/aivideo",
+            "https://www.youtube.com/shorts/",
+        ],
+        "steps": [
+            "未登录打开第一条搜索页（已带 Shorts 过滤 sp=EgIYAQ%253D%253D）。如出现同意/登录墙挡住结果，立即停止并回报，不要登录。",
+            "抄写前 15 条可见 Shorts：原始 URL（优先 https://www.youtube.com/shorts/VIDEO_ID）、标题、频道、可见播放量、可见发布时间。没有的字段留空。",
+            "在结果里优先找多人用自己照片/换脸复刻的 AI 视频梗，排除教程、工具评测、泛 AI 新闻。",
+            "如有余力再打开 hashtag/aivideo 与 shorts 页，同样只读可见项并截图。",
+        ],
+        "stop_if_login": True,
+    }
+    if items:
+        status = "ok" if key else "partial"
+        direct = True
+    elif rss_verified:
+        status = "partial"
+        direct = False
+    else:
+        status = "unavailable"
+        direct = False
+    method = (
+        "Official YouTube channel/playlist Atom RSS + oEmbed (keyless, not a global trend chart); "
+        "optional Data API v3 videos.list chart=mostPopular if YOUTUBE_API_KEY is set"
+    )
+    note_parts = [api_note] if api_note else []
+    if used_env:
+        note_parts.append(f"使用环境变量 {used_env} 调用官方 Data API，共 API 条目见上。")
+    note_parts.extend(rss_notes)
+    if not channel_ids and not playlist_ids:
+        note_parts.append(
+            "已接通官方无密钥 RSS/oEmbed 采集链路，但 meme_sources.json 的 public_channel_ids / public_playlist_ids 仍为空，"
+            "故本轮没有频道直采条目。全站热梗搜索仍需 Data API key、或父线程按 parent_ui_task 读搜索页。"
+        )
+    note_parts.append("未观看视频，仅元数据。未把 X/新闻转述当作 YouTube 直采。")
     cov = coverage_row(
-        "ok" if items else "unavailable",
-        bool(items),
-        "YouTube Data API v3 videos.list chart=mostPopular",
-        docs,
+        status,
+        direct,
+        method,
+        "https://www.youtube.com/feeds/videos.xml",
         http_status=last_code,
-        key_env=used_env,
-        note=(
-            f"使用环境变量 {used_env} 调用官方 API，共 {len(items)} 条。"
-            "榜单已不是原 Trending Now；短视频热梗未必出现。未观看视频，仅元数据。"
-        ),
+        key_env=used_env or "",
+        docs=docs,
+        note=" ".join(p for p in note_parts if p),
         item_count=len(items),
+        rss_verified=rss_verified,
+        rss_channels=len(channel_ids),
+        parent_ui_task=page_ui,
     )
     return items, cov
 
@@ -368,17 +561,54 @@ def probe_youtube(cfg: dict, errors: list[str]) -> tuple[list[dict], dict]:
 def probe_instagram(cfg: dict) -> tuple[list[dict], dict]:
     block = cfg.get("instagram") or {}
     docs = block.get("docs") or "https://transparency.meta.com/en-us/researchtools/meta-content-library/"
+    pages = block.get("public_pages") or [
+        "https://www.instagram.com/reels/",
+        "https://www.instagram.com/explore/tags/aivideo/",
+    ]
+    notes = []
+    login_required = False
+    last_code = 0
+    last_final = pages[0]
+    for url in pages:
+        code, text, err, final = fetch_ex(url)
+        last_code = code or last_code
+        last_final = final or url
+        low = (final or "").lower() + " " + (text or "")[:2000].lower()
+        if "accounts/login" in (final or "").lower() or "/login" in (final or "").lower():
+            login_required = True
+            notes.append(f"{url}: HTTP {code}，已重定向到登录页 {final}。按规则停止，不登录、不复制会话。")
+        elif code == 200:
+            notes.append(f"{url}: HTTP 200，final={final}。静态 HTML 未见可解析的公开 reel URL。")
+        else:
+            notes.append(f"{url}: HTTP {code or 'ERR'} {err}")
+    parent_ui_task = {
+        "why": "本环境请求 Instagram Reels 已被重定向到登录页；父线程可用浏览器做只读检查，遇到登录即停。",
+        "pages": pages,
+        "steps": [
+            "未登录打开 https://www.instagram.com/reels/ 。",
+            "若跳转 accounts/login 或必须登录才能看公开 Reels，立即停止并回报，不要登录。",
+            "若未登录也能看到公开 Reels，再打开 https://www.instagram.com/explore/tags/aivideo/ 与可见的音频页。",
+            "抄写每条可见内容：原始 instagram.com/reel/CODE 链接、作者、可见播放/点赞、可见发布日；没有的字段留空。",
+            "只收多人复刻、可用自己照片/换脸生成的 AI 视频梗。截图后结束。",
+        ],
+        "stop_if_login": True,
+    }
+    status = "login_required" if login_required else "unavailable"
     cov = coverage_row(
-        "unavailable",
+        status,
         False,
-        "No public no-auth Instagram trend RSS/API; Meta Content Library requires researcher review",
-        docs,
+        "No public no-auth Instagram trend RSS/API; public reels/tag pages probed without login",
+        pages[0],
+        docs=docs,
+        http_status=last_code,
+        final_url=last_final,
+        login_required=login_required,
         note=(
-            "Instagram 没有免申请的官方热梗 RSS 或公开趋势 API。"
-            "Meta Content Library / API 可查公开帖与趋势图，但须经 CASD 审核的科研权限，且仅限符合资格的研究用途。"
-            "Instagram Graph API 的标签搜索需要商业账号与应用审核。"
-            "本次未登录、未复制 cookies、未调用非公开接口，故无 Instagram 直采条目。"
+            " ".join(notes)
+            + " Instagram 没有免申请的官方热梗 RSS。Meta Content Library 须 CASD 科研审核；Graph API 标签搜索须商业应用审核。"
+            " 本次未登录、未复制 cookies、未调用非公开接口。官方 oEmbed 现也需要 Meta 应用 token，无法对未知 Reel 做无密钥补全。"
         ),
+        parent_ui_task=parent_ui_task,
     )
     return [], cov
 
@@ -588,13 +818,19 @@ def to_items(raw: list[dict], llm_map: dict[str, dict], seeds: list[str]) -> lis
             repl = "本轮只有单次快照，未见同梗多创作者复刻证据；不能判定为新爆或给出增速。"
         else:
             trend_stage = "新发现"
-        src = {
-            "tiktok": "热梗轨·TikTok Creative Center",
-            "youtube": "热梗轨·YouTube mostPopular",
-            "instagram": "热梗轨·Instagram",
-            "secondary": "热梗轨·secondary·Google Trends",
-        }.get(platform, f"热梗轨·{platform}")
-        if not direct:
+        if r.get("source_kind") == "official_rss":
+            src = "热梗轨·YouTube 官方RSS"
+        elif platform == "tiktok":
+            src = "热梗轨·TikTok Creative Center"
+        elif platform == "youtube":
+            src = "热梗轨·YouTube mostPopular" if direct else "热梗轨·YouTube"
+        elif platform == "instagram":
+            src = "热梗轨·Instagram"
+        elif platform == "secondary":
+            src = "热梗轨·secondary·Google Trends"
+        else:
+            src = f"热梗轨·{platform}"
+        if not direct and platform == "secondary":
             src = "热梗轨·secondary·Google Trends"
         item = {
             "name": name,
@@ -723,12 +959,12 @@ def main() -> int:
         },
         {
             "platform": "youtube",
-            "need": "在本机或例程环境配置官方 YouTube Data API v3 密钥（环境变量 YOUTUBE_API_KEY）。",
-            "plugin_note": "TubeAlfred 面向字幕/评论/频道，不是官方热门榜；本次未安装。",
+            "need": "全站热梗/搜索：配置官方 YouTube Data API v3 密钥（YOUTUBE_API_KEY）。已知公开频道的最新视频已可用官方无密钥 RSS + oEmbed；把频道 ID 写入 meme_sources.json 的 public_channel_ids 即可每日直采。搜索/Shorts 页也可由父线程按 parent_ui_task 只读抄录。",
+            "plugin_note": "TubeAlfred（未安装）技能含 public search/trending/hashtags/Shorts，自称无需 YouTube API key，但连接需要 TubeAlfred 账号 API key 与 credits（https://tubealfred.com/app/api-keys），不是官方 Data API。未获用户批准付费前不安装。",
         },
         {
             "platform": "instagram",
-            "need": "经 Meta Research Tools / CASD 审核的 Content Library 权限，或已审核的 Instagram Graph API 商业应用。无免密钥公开趋势接口。",
+            "need": "本环境访问 instagram.com/reels/ 会重定向到登录页。自动化直采需要经 CASD 审核的 Meta Content Library，或已审核的 Instagram Graph API 商业应用。不要登录或复制 cookies。父线程可用浏览器做只读检查，遇登录即停。",
         },
     ]
 
@@ -746,7 +982,9 @@ def main() -> int:
             "历史种子 hotel lobby / ai raindance / ai zombie / burning bridges / Bulin47 已排除，不当当天趋势。",
             "原帖营收为作者自述，不用于评分或承诺。",
             "常规 Semrush 缺数据不能判 0 搜索量。",
-            "Google Trends RSS 仅为 secondary/discovery，不是三平台直采。",
+            "Google Trends RSS 与 X 搜索仅为 secondary/discovery，不是三平台直采。",
+            "官方 YouTube RSS/oEmbed 已验证可拿到原始视频 URL；未配置的频道不会写成热梗。",
+            "AIsa 目录里有社交热榜工具，但账户余额不足以支付单次调用，且部分工具带非官方/cookie 字段，本次未调用。",
         ],
     }
     out_path = HERE / f"meme-{d}.json"
@@ -760,7 +998,7 @@ def main() -> int:
     if fresh:
         print("  sample:", ", ".join(i["name"] for i in fresh[:8]))
     else:
-        print("  本轮无合格热梗条目（三平台直采不可用，且 secondary 过滤后为空或未通过）。")
+        print("  本轮无合格热梗条目（已接通的官方链路本轮没有可入轨样本，或 secondary 过滤后为空）。")
     for e in errors[:12]:
         print("  !", e)
     return 0

@@ -1,0 +1,70 @@
+{
+  "run": "2026-11-11 晚上 新词雷达",
+  "timezone": "Asia/Shanghai (UTC+8)",
+  "window": "2026-11-11 09:57 至 2026-11-11 20:51（书签X/双轨 X 窗）；新闻/热梗为当日刷新",
+  "board_url": "https://x.omnitools.cc/radar/new",
+  "board": {
+    "label": "2026-11-11 新词雷达",
+    "items": 303,
+    "keywords": 40,
+    "pushed": true,
+    "item_sources": {"游戏轨": 167, "AI工具轨": 59, "新闻轨": 36, "竞品站": 25, "书签X": 10, "GitHub": 5, "书签X / AI工具轨": 1},
+    "news_keywords_on_board": 0,
+    "meme_keywords_on_board": 0,
+    "note": "keywords 总上限 40，已被书签X/游戏轨/AI工具轨占满，新闻轨与热梗轨只进列表、不占关键词名额。同一天早晚共用标签，本晚覆盖刷新早上。"
+  },
+  "xscan": {
+    "ok": true,
+    "file": "xnew-20261111-pm.json",
+    "window_utc": "2026-11-11T01:57:00Z → 2026-11-11T12:51:00Z",
+    "official_posts": 8,
+    "keyword_path": "检索成功；X 去掉 min_likes:500，48 条全部 likes<500，按规则不从 B 路收录",
+    "new_items": [
+      {"name": "Qwen4-Max", "kind": "模型", "desc": "阿里官方发布的 Qwen4-Max 大模型，现已在 Alibaba Token Plan 开启预览，也可在 QwenWork、Qoder、Qwen APP、QwenStudio 获得抢先体验；官方称其在知识、世界理解、编程与智能体能力上更强。不要编造参数或上下文长度。", "url": "https://x.com/Alibaba_Qwen/status/2120335993643684315", "first_seen": "2026-11-11 10:01", "views": 833554, "bookmarks": 1250, "is_site_keyword": true},
+      {"name": "Nex-N2.6", "kind": "模型", "desc": "Nex-AGI 的开源权重 321B 多模态智能体模型，基于 GLM-5.3-Flash，用于计算机操作、编程与长程任务，Apache-2.0；本窗由 ModelScope 介绍，帖文未明确写今日首发。", "url": "https://x.com/ModelScope2022/status/2120488675314466888", "first_seen": "2026-11-11 20:07"},
+      {"name": "AlphaProof Code", "kind": "科研成果/框架，不是新模型", "desc": "Google DeepMind 官方称首次用 AlphaProof Code 框架在代码层面数学证明 Signal 协议的安全性。不是通用大模型。", "url": "https://x.com/GoogleDeepMind/status/2120484246401777737", "first_seen": "2026-11-11 19:50"},
+      {"name": "Sophon-Realtime v1.1", "kind": "功能更新，不是新模型", "desc": "已报的 Sophon-Realtime v1 的更新（Adventists AI）：开源权重全双工语音模型新增零样本语音克隆，放入几秒声音即可实时用该声音对话、无需微调。", "url": "https://x.com/ModelScope2022/status/2120456509725552932", "first_seen": "2026-11-11 18:00"}
+    ],
+    "site_keywords": ["Qwen4-Max"],
+    "skipped": "MiniMax H3-Image 合作上架/比赛、Voxtral Transcribe 3 演示、HeyGen Video 1（无官方首发帖）均不重复收录。Gemini 4 Carbon、Businesses in ChatGPT 等已在今早或更早收录。"
+  },
+  "tracks_pm_new": {
+    "game": [
+      {"name": "Booster Pack Heroes", "desc": "增量/拆包塔防游戏：拆卡包抽出英雄、守塔；第三方低互动播报称今日上架 Steam（平台按帖内仅核实 Steam/PC，未核实主机）。", "url": "https://x.com/taltuldev/status/2120336008822837343", "first_seen": "2026-11-11 10:01"},
+      {"name": "race it!", "desc": "Roblox 竞速游戏，可放置陷阱干扰对手；开发者自称已上线，互动极低。", "url": "https://x.com/renninteractive/status/2120390520023421350", "first_seen": "2026-11-11 13:37"},
+      {"name": "SLAP & BATTLE SIMULATOR", "desc": "Roblox 拍打对战模拟：拍对手和 Boss 叠点数、升级手套、解锁表情并领取免费 UGC；低互动。", "url": "https://x.com/CoderRishi/status/2120443461656834315", "first_seen": "2026-11-11 17:08"},
+      {"name": "Sandkeeper", "desc": "轻松沙画游戏，已核实平台 Steam；待发售：3 月 9 日发售，2 月 Steam Next Fest 将提供试玩，尚未正式上线。", "url": "https://x.com/PortiaPlaysDev/status/2120494940056936451", "first_seen": "2026-11-11 20:32"}
+    ],
+    "ai_tools": [
+      {"name": "Skillbox", "desc": "Agent 技能库：把技能同步到 Claude Code、Cursor、Codex，风险版本先审核再下发；作者与产品账号在 Product Hunt 宣布上线。", "url": "https://x.com/coder_blvck/status/2120441399887978885", "first_seen": "2026-11-11 17:00"},
+      {"name": "Nod", "desc": "n8n Labs 研究预览版开源个人 Agent，自带电脑和浏览器，可用于 Gmail/Slack/Notion/Calendar/Drive，也可在应用内/Telegram/WhatsApp 对话，自选模型供应商。本窗无 @n8n_io 官方帖，多条第三方转述细节一致，须标明第三方。", "url": "https://x.com/socialwithaayan/status/2120453550325285247", "first_seen": "2026-11-11 17:48"}
+    ]
+  },
+  "morning_still_on_board_examples": ["MiniMax H3-Image", "Gemini Robotics 2.5", "Claude Whiteboards / Sheets / Data", "Businesses in ChatGPT", "Warhammer Survivors", "Frigid Dusk", "DONT SPLASH", "SiteParity", "Titan Studio"],
+  "news": {
+    "ok": true,
+    "items": 36,
+    "keywords_extracted": 16,
+    "keywords_on_board": 0,
+    "gdelt": "主查询取到 1 条；gdelt/ai-tool 与 gdelt/steam-release 两个子查询解析失败（空响应），不是 429。Google News / Telegram / RSS 正常。",
+    "llm": "free-llm 成功（gemini-3.5-flash-lite），不是规则抽名回退。但部分条目名称仍偏粗，如「Google AI tool」「Claude」「Muse AI」，用途未再交叉核实，不要当重点推荐。",
+    "do_not_highlight_coarse_names": true
+  },
+  "meme": {
+    "ok": true,
+    "qualified_items": 0,
+    "not_a_crash": true,
+    "coverage": "三平台未全接入：TikTok 官方页可打开但静态 HTML 无热榜行，完整热榜需要 advertiser_id+access_token；YouTube Data API 无密钥（403），仅官方 RSS/oEmbed 健康检查可用且未配置频道名单；Instagram 无公开趋势接口，静态页解析不出 Reel。Google Trends 为 secondary，过滤后 0 条。不能写成已在监听三平台热榜。"
+  },
+  "doable": {
+    "passed": 0,
+    "vacuum": 0,
+    "almost": 0,
+    "important": "所有被查词 nodata=true（volume=0 且 KD/CPC 为空），是 Semrush/AIsa 无数据（雷达名字判断亦 HTTP 402，本次 AIsa 花费 $0.000），必须标「待审核」，严禁把缺数当成月搜 0 或审核未达标。"
+  },
+  "radar_daily": {
+    "report_json_mtime": "2026-11-11 20:57 Asia/Shanghai",
+    "fresh_today": true,
+    "notes": "内置 X 关注源 0/35 账号 0 帖（answered=0），merge 因此打出 our_x_failed，这不是书签X失败；看板「🔥 X 热词」模块仍由用户负责。⑨ 新上架 IncompleteRead。AIsa 名字判断 402，用户已说过不用管余额。"
+  }
+}

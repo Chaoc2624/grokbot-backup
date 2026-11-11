@@ -1,0 +1,97 @@
+{
+  "label": "2026-11-11 上午 书签X",
+  "run_at": "2026-11-11 10:00",
+  "window_start": "2026-11-10 17:50",
+  "window_end": "2026-11-11 09:57",
+  "empty": false,
+  "items": [
+    {
+      "name": "MiniMax H3-Image",
+      "desc": "MiniMax 发布开源权重 4K 图像生成模型 H3-Image，约 10 秒出 1600 万像素图片，支持最多 16 张参考图与精细编辑，现可通过 API、MiniMax Code 与 Hailuo AI 使用。",
+      "source": "@MiniMax_AI",
+      "url": "https://x.com/MiniMax_AI/status/2120179737695826420",
+      "first_seen": "2026-11-10 23:40",
+      "views": 425013,
+      "bookmarks": 1375,
+      "kind": "model"
+    },
+    {
+      "name": "Gemini Robotics 2.5",
+      "desc": "Google DeepMind 推出新一代实体机器人 AI Gemini Robotics 2.5，能学习数百项日常技能如叠衣服、上点心、工厂分拣零件，面向物理世界的多技能机器人模型。",
+      "source": "@GoogleDeepMind",
+      "url": "https://x.com/GoogleDeepMind/status/2120169787896525104",
+      "first_seen": "2026-11-10 23:00",
+      "views": 304385,
+      "bookmarks": 878,
+      "kind": "model"
+    },
+    {
+      "name": "Claude Whiteboards、Claude Sheets、Claude Data",
+      "desc": "Claude 正式推出 Whiteboards 白板、Sheets 表格与 Data 数据可视化三大产品功能，支持在白板规划、表格追踪、数据讲故事，不是新模型。",
+      "source": "@claudeai",
+      "url": "https://x.com/claudeai/status/2120206365759094857",
+      "first_seen": "2026-11-11 01:26",
+      "views": 6172774,
+      "bookmarks": 18893,
+      "kind": "product"
+    },
+    {
+      "name": "Businesses in ChatGPT",
+      "desc": "OpenAI 推出 ChatGPT Business beta 版，企业可认领资料、管理信息、查看互动洞察，符合条件者可构建 Business Agent 回答顾客问题，不是新模型。",
+      "source": "@OpenAI",
+      "url": "https://x.com/OpenAI/status/2120216592395174382",
+      "first_seen": "2026-11-11 02:06",
+      "views": 2528243,
+      "bookmarks": 11980,
+      "kind": "product"
+    },
+    {
+      "name": "LingBot-Touch",
+      "desc": "【补报】ModelScope 宣布开源触觉基础模型 LingBot-Touch 落地，支持跨机器手、传感器与操作任务迁移触觉技能，Apache-2.0 许可，预训练约 4983 小时触觉数据。",
+      "source": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2120124432244998499",
+      "first_seen": "2026-11-10 20:00",
+      "views": 1160,
+      "bookmarks": 0,
+      "kind": "model",
+      "backfill": true
+    },
+    {
+      "name": "Pixel Tag",
+      "desc": "Google 发布 Pixel Tag 物品追踪配件，可定位钥匙、钱包、行李，明天开始可订购，不是新模型。",
+      "source": "@Google",
+      "url": "https://x.com/Google/status/2120299157411790929",
+      "first_seen": "2026-11-11 07:34",
+      "views": 128218,
+      "bookmarks": 33,
+      "kind": "product"
+    },
+    {
+      "name": "Claude MCP Apps 扩展支持",
+      "desc": "Claude 扩展对 MCP Apps 的支持，新增应用工具与嵌入式网站能力，允许完整应用在 Claude 内运行，不是新模型。",
+      "source": "@ClaudeDevs",
+      "url": "https://x.com/ClaudeDevs/status/2120227979041341943",
+      "first_seen": "2026-11-11 02:51",
+      "views": 211217,
+      "bookmarks": 1468,
+      "kind": "not_model"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword_rank": 1,
+      "keyword": "MiniMax H3-Image",
+      "reason": "开源权重 4K 图像模型，bookmarks 1375 达标，搜索需求明确，适合做 AI 图像生成模型对比与部署指南页面。"
+    },
+    {
+      "keyword_rank": 2,
+      "keyword": "Businesses in ChatGPT",
+      "reason": "ChatGPT 企业级 Business 与 Agent 功能上线，互动量极大，搜索需求强，适合做企业级 AI 助手接入方案页面。"
+    },
+    {
+      "keyword_rank": 3,
+      "keyword": "Claude Whiteboards",
+      "reason": "Claude 原生白板/表格/数据三件套发布，互动量极高，搜索需求明确，适合做 AI 协作白板工具评测页面。"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "label": "2026-11-11 傍晚 书签X",
+  "run_at": "2026-11-11 20:55",
+  "window_start": "2026-11-11 09:57",
+  "window_end": "2026-11-11 20:51",
+  "empty": false,
+  "items": [
+    {
+      "name": "Qwen4-Max",
+      "desc": "阿里官方发布的 Qwen4-Max 大模型，现已在 Alibaba Token Plan 开启预览，也可在 QwenWork、Qoder、Qwen APP、QwenStudio 获得抢先体验；官方称其在知识、世界理解、编程与智能体能力上更强。",
+      "source": "@Alibaba_Qwen",
+      "url": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+      "first_seen": "2026-11-11 10:01",
+      "views": 833554,
+      "bookmarks": 1250,
+      "kind": "model",
+      "keyword_rank": 1,
+      "keyword": "Qwen4-Max",
+      "reason": "官方首发预览的旗舰模型，views 83 万、bookmarks 1250 达标，搜索需求明确，适合做 Qwen4-Max 能力评测与接入指南页面。"
+    },
+    {
+      "name": "Nex-N2.6",
+      "desc": "Nex-AGI 的开源权重 321B 多模态智能体模型，基于 GLM-5.3-Flash，用于计算机操作、编程与长程任务，Apache-2.0 许可；本窗由 ModelScope 介绍，帖文未明确写今日首发。",
+      "source": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2120488675314466888",
+      "first_seen": "2026-11-11 20:07",
+      "views": 810,
+      "bookmarks": 3,
+      "kind": "model"
+    },
+    {
+      "name": "AlphaProof Code",
+      "desc": "Google DeepMind 推出的代码验证框架，首次在代码层面数学证明了 Signal 协议的安全性，不是新模型。",
+      "source": "@GoogleDeepMind",
+      "url": "https://x.com/GoogleDeepMind/status/2120484246401777737",
+      "first_seen": "2026-11-11 19:50",
+      "views": 29435,
+      "bookmarks": 105,
+      "kind": "not_model"
+    },
+    {
+      "name": "Sophon-Realtime v1.1",
+      "desc": "Sophon-Realtime 的 v1.1 功能更新（Adventists AI）：开源权重全双工语音模型新增零样本语音克隆，把几秒声音放入 model/voices/ 即可实时用该声音对话、无需微调，不是新模型。",
+      "source": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2120456509725552932",
+      "first_seen": "2026-11-11 18:00",
+      "views": 1271,
+      "bookmarks": 13,
+      "kind": "not_model"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword_rank": 1,
+      "keyword": "Qwen4-Max",
+      "reason": "官方首发预览的旗舰模型，views 83 万、bookmarks 1250 达标，搜索需求明确，适合做 Qwen4-Max 能力评测与接入指南页面。"
+    }
+  ]
+}

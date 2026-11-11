@@ -1,0 +1,54 @@
+{
+  "run": "2026-11-11 上午 新词雷达",
+  "timezone": "Asia/Shanghai（UTC+8）",
+  "window": "2026-11-10 17:50 至 2026-11-11 09:57",
+  "board_url": "https://x.omnitools.cc/radar/new",
+  "board": {"label": "2026-11-11 新词雷达", "items": 237, "keywords": 40, "push": "ok", "id": 44},
+  "doable": "早间档不跑 finders/doable，可做词以晚间档为准。勿把 Semrush 缺数当成月搜 0。",
+  "radar_sources": "HF 新进榜出现 MiniMax-H3-Image（与官方首发一致）。AIsa 名字判断因钱包余额不足失败（402），不影响收录。雷达日报内置 X 关注源沿用昨晚 report.json（answered=0），今早未跑 daily；书签X 本窗扫描成功，不要写成采集失败。",
+  "xscan": {
+    "ok": true,
+    "items": 7,
+    "keywords": ["MiniMax H3-Image", "Businesses in ChatGPT", "Claude Whiteboards"],
+    "highlights": [
+      {"name": "MiniMax H3-Image", "kind": "模型", "desc": "MiniMax 开源权重的 4K 图像生成与编辑模型，约 10 秒出 1600 万像素图，最多 16 张参考图，已可通过 MiniMax API、MiniMax Code 和 Hailuo AI 使用。", "url": "https://x.com/MiniMax_AI/status/2120179737695826420", "first_seen": "2026-11-10 23:40", "source": "@MiniMax_AI"},
+      {"name": "Gemini Robotics 2.5", "kind": "实体机器人/物理 AI 模型", "desc": "Google DeepMind 新一代实体机器人 AI，官方称能学习数百项日常技能，例如叠衣服、上点心、在工厂分拣汽车零件。不是 Gemini 4 Carbon 文本模型。", "url": "https://x.com/GoogleDeepMind/status/2120169787896525104", "first_seen": "2026-11-10 23:00", "source": "@GoogleDeepMind"},
+      {"name": "Claude Whiteboards / Claude Sheets / Claude Data", "kind": "产品功能，不是新模型", "desc": "Anthropic 今日开始推送的三款办公向功能：在白板上梳理计划、在表格里做追踪器、用数据讲故事。", "url": "https://x.com/claudeai/status/2120206365759094857", "first_seen": "2026-11-11 01:26", "source": "@claudeai"},
+      {"name": "Businesses in ChatGPT（含 Business Agent）", "kind": "产品功能，不是新模型", "desc": "OpenAI 推出的 ChatGPT 内商家功能（beta）：企业可认领资料、管理信息、查看互动洞察，符合条件者可构建 Business Agent 回答顾客问题并介绍业务。不要写成 ChatGPT Business 订阅套餐本身。", "url": "https://x.com/OpenAI/status/2120216592395174382", "first_seen": "2026-11-11 02:06", "source": "@OpenAI"},
+      {"name": "LingBot-Touch", "kind": "模型（补报）", "desc": "开源触觉基础模型，用于在不同机器手、传感器和操作任务间迁移触觉技能，Apache-2.0，预训练约 4983 小时。上档漏报，本档补报。", "url": "https://x.com/ModelScope2022/status/2120124432244998499", "first_seen": "2026-11-10 20:00", "source": "@ModelScope2022"},
+      {"name": "Pixel Tag", "kind": "硬件配件，不是新模型", "desc": "Google 十一月 Pixel Drop 中的物品追踪配件，用于钥匙/钱包/行李定位；官方称 starting tomorrow 可订（相对帖文时间为 11 月 12 日开始可订），不要写成已经开卖。", "url": "https://x.com/Google/status/2120299157411790929", "first_seen": "2026-11-11 07:34", "source": "@Google"}
+    ],
+    "also": "Claude 对 MCP Apps 扩展支持更多能力（应用工具与嵌入式站点，完整应用可在 Claude 内运行），是功能更新不是新模型。https://x.com/ClaudeDevs/status/2120227979041341943",
+    "skipped": "Gemini 4 Carbon 本窗有大量官方“现已推出”和演示帖，但该模型已于 2026-10-29 收录，本档不再重复。Canva Craft API 开放同理（10-23 已报）。Anthropic IPO、Claude 额度重置、网络安全活动预告均不收。"
+  },
+  "tracks": {
+    "game": {"items": 132, "kws": 40, "ok": true},
+    "ai_tools": {"items": 37, "kws": 40, "ok": true, "sitemap": "Futurepedia 增量 2 条（almetra、fame clips），仅有 sitemap 新页信号、用途待核实，不当重点推荐。Product Hunt 多条只有名字没有用途，不当重点。"},
+    "game_highlights": [
+      {"name": "Warhammer Survivors", "desc": "战锤主题俯视角弹幕天堂类 roguelite 生存射击。Steam 畅销榜已核实在库；第三方帖还列出 Xbox、PS5、Switch 2、PC、iOS、Android。", "url": "https://store.steampowered.com/search/?term=Warhammer%20Survivors"},
+      {"name": "Frigid Dusk", "desc": "Roblox 平台恐怖游戏，来自第三方 YouTube 视频转述，非官方发售帖。", "url": "https://x.com/jazminestarrr/status/2120287385955209405"},
+      {"name": "DONT SPLASH", "desc": "Roblox Up-and-Coming 游戏，本轮抓取时约 5.6 万在玩；玩法细节本轮未细述。", "url": "https://www.roblox.com/games/119958473240233"},
+      {"name": "Hyper Realistic Ragdoll", "desc": "Roblox Up-and-Coming 游戏，约 1.9 万在玩；玩法细节本轮未细述。", "url": "https://www.roblox.com/games/101277003916102"},
+      {"name": "Barber Simulator", "desc": "Roblox Up-and-Coming 理发店模拟，约 0.4 万在玩。", "url": "https://www.roblox.com/games/134026357772960"},
+      {"name": "Throw kukirin for eggs", "desc": "开发中、帖文标注 coming soon 尚未上线；标签含 Roblox，但平台待核实，不要写成已上线。", "url": "https://x.com/YT_FRASH/status/2120172058231332955"}
+    ],
+    "ai_highlights": [
+      {"name": "SiteParity", "desc": "给出 SEO 与 AI 就绪度评分的工具；作者自称在 DanielLaunches 上线，第三方低互动，非大号官方帖。", "url": "https://x.com/dannysaas/status/2120274597438206090"},
+      {"name": "Titan Studio", "desc": "AI 短视频工具：输入主题和风格后自动写脚本、配音、分镜、配乐字幕并剪辑，宣称可在真实 Roblox 游戏内做动画；第三方低互动，是否已公开上线未核实。", "url": "https://x.com/raidenyta/status/2120267796919779777"},
+      {"name": "FishAudio Live 3", "desc": "第三方转述的语音模型：可听可说、处理打断、判断何时保持沉默；非 FishAudio 官方帖，低互动。", "url": "https://x.com/hello_code_/status/2120284504090722319"},
+      {"name": "Hedra Model Factory", "desc": "第三方转述：把算力、自主后训练和部署放在一起，服务机器人/工厂等物理 AI 训练；非官方帖。", "url": "https://x.com/ismanewells/status/2120326971703861651"},
+      {"name": "inkbox hosted agents", "desc": "第三方转述的 agent 托管：给代理配电脑/邮件/电话等通道，空闲可休眠；融资数字未核实。", "url": "https://x.com/garlotic/status/2120331671220179110"}
+    ]
+  },
+  "news": {
+    "items": 17,
+    "kws_on_board": 0,
+    "gdelt": "GDELT 429，未取到；Google News / Telegram / RSS 仍正常。",
+    "llm": "free-llm 失败后回退规则抽名，条目名称和用途可能较粗，不当重点推荐。",
+    "note": "主轨关键词已占满 40，新闻轨 keywords 为 0，但 17 条仍在看板列表。本窗可见标题较清楚的有 NVIDIA Alpamayo 2 Edge 自动驾驶模型权重、微软 .NET 11，但名称来自规则抽标题，用途未再交叉核实。"
+  },
+  "meme": {
+    "items": 0,
+    "coverage": "三平台未全接入，不能称为已在监听 TikTok/YouTube/Instagram 热榜。TikTok 公开页打不开热榜数据且无 advertiser_id+access_token；YouTube 无 API key（探测 403）；Instagram 无公开趋势接口。Google Trends 为 secondary，本轮过滤后 0 条。不是采集失败后的零新增，而是直采权限不足且二次源无合格梗。"
+  }
+}

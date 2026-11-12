@@ -1,0 +1,16 @@
+请根据下列 JSON 生成简报 JSON。必须严格使用 system 里的 schema 字段：每个 item 只能有 id,url,title,tag,need,action,deadline,due_date,category,posted_at。不要输出 author、content，也不要自创 category。category 只能是 urgent、todo、related、needs、ads 之一。tag 用一个短中文词，本条用「美卡」。url 必须与输入 bookmarks 的 url 完全一致（用原帖 status URL，不要改成 article URL）。
+
+另外输出 summary 和 brief_text。只要 JSON，不要 markdown 围栏。
+
+质量要求（上次失败，必须改正）：
+- 本档只有 1 条，必须保留，不要过滤。
+- need 写成 3–5 句中文，必须写清：谁（旅遊卡路哩 @CardAndMiles）发了哪篇 X Article（标题原样）、核心主张、两层 3%（平台超 ¥200 收 3% + 卡本身 FTF）、官方额度对象是「外籍来华人员」、论坛 DP 与官方数字不要混成官方规则、Summit 3 倍目前没有微信/支付宝入账 DP、大额能直接刷就别走钱包、不要套现或绕过限额。可点名文章 URL，但 item.url 仍用原帖。
+- brief_text 必须严格用这个开头（一字不差，然后空一行再写账号行）：
+📌 推特书签简报 · 2026-11-12 晚上（22:00 档）
+
+账号 @Chaoc2624 · 新增 1 条书签（过滤 0）。之前推过、看板上还没处理的还有 370 条，详情在看板。
+
+然后 ### 美卡，组内一条，摘要要比 need 稍完整，包含动作行。不要在 brief_text 里写看板/X API/增长批段落。
+- title 用中文短标题，不要照抄整句文章标题；例如可写成「人在大陆把美卡绑微信支付宝当心被抽两层 3%」这类，无标点结尾。
+- posted_at 用 11-12 08:39；category 用 related（深度参考长文）。
+- 不要编造官方帮助页或论坛链接。保留「个别 DP / 非官方公告 / 以付款页和发卡行条款为准」这些限定语。

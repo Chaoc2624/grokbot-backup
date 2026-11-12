@@ -1,0 +1,210 @@
+{
+  "candidates": [
+    {
+      "id": "2120418039963509183",
+      "url": "https://x.com/illyism/status/2120418039963509183",
+      "author": "illyism",
+      "author_name": "ILIAS ISM",
+      "posted_at": "11-11 15:27",
+      "created_at": "2026-11-11T07:27:10.000Z",
+      "text": "People are charging $2,000/mo right now to connect Claude Code to your GitHub repo and \"do AI SEO\" for you lol\n\nSo I open-sourced all 12 of the exact SKILL.md workflows we actually run across my sites (740+ stars on GitHub now):\n\n> npx skills add Illyism/seo-skills\n\nWhat your coding agent gets in 1 command:\n- seo-autopilot: daily technical checks, keyword map, comparison pages & AI answer tracking\n- blog-refresher: SERP gap analysis to push #8-#20 pages into Top 3\n- seo-title-optimization: CTR title & H1 rewrites from Search Console data\n- customer-journey: maps the exact prompts buyers type into Google & ChatGPT\n- linkdr: plans & orders real in-content DR 30-60+ backlinks right from terminal\n\nPrompts can write all your pages for free, the only thing AI can't generate is real authority from sites that already rank!\n\nhttps://t.co/7ZOsGjdJY0",
+      "urls": [
+        {
+          "expanded_url": "https://github.com/Illyism/seo-skills",
+          "title": "GitHub - Illyism/seo-skills",
+          "description": "Open-source SEO skills for Claude Code, Cursor, Codex & AI agents (SKILL.md)"
+        }
+      ],
+      "quoted": [],
+      "image_note": null,
+      "soft_ad_risk": false,
+      "soft_signals": [
+        "作者 bio 全是自己产品链接；仓库 README 的 linkdr / aiseotracker / scribiz 对接其付费产品 LinkDR、AI SEO Tracker、Scribiz，并有赞助区。本帖主体是开源 SKILL.md 工作流与安装命令，不是纯带货下单，应保留；付费外链下单不要写成必做推荐。"
+      ],
+      "has_screenshot": false,
+      "public_metrics": {
+        "bookmark_count": 2845,
+        "impression_count": 94139,
+        "like_count": 1052,
+        "quote_count": 11,
+        "reply_count": 91,
+        "repost_count": 62
+      },
+      "followups": {
+        "repo": "本档核查 https://github.com/Illyism/seo-skills 仍在：约 1004 stars（帖文写 740+），2026-11-11 17:07 UTC 仍有 push，README 写 MIT、现为 17 个 SKILL.md（帖文写 12 个，以仓库为准）。安装：npx skills add Illyism/seo-skills（也可 --skill 装单个，或 -a cursor / -a claude-code）。17 个包括：seo-autopilot、blitz-seo、seo-title-optimization、blog-refresher、block-ai-scrapers、customer-journey、aiseotracker、ai-seo-report、content-coverage、directory-submissions、linkdr、awesome-tools、intro、scribiz、diff-marketing、understand-customers、blitz-copy。linkdr 用于规划并向 LinkDR（https://linkdr.com）下单 DR 30–60+ 内容外链，属付费服务。"
+      }
+    },
+    {
+      "id": "2120364000768844125",
+      "url": "https://x.com/RZ7Vc/status/2120364000768844125",
+      "author": "RZ7Vc",
+      "author_name": "Kian",
+      "posted_at": "11-11 11:52",
+      "created_at": "2026-11-11T03:52:26.000Z",
+      "text": "来吧！Erosion-CN v0.8.0 大版本发布！新增「iOS 27 进阶 AI（实时传译/音频智能）」+「相册混音/空间音频」与无损录音提取、物理电池寿命等跨容器工具；安全层面内置防白苹果动态槽位校验、「掉签卸载重装不丢备份」 +「一键恢复原厂参数」，改机零顾虑，现已开源：\nhttps://github.com/Kianuni/Erosion-CN",
+      "urls": [
+        {
+          "expanded_url": "https://github.com/Kianuni/Erosion-CN",
+          "title": "GitHub - Kianuni/Erosion-CN: iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
+          "description": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
+          "unwound_url": "https://github.com/Kianuni/Erosion-CN",
+          "status": 200
+        },
+        {
+          "expanded_url": "https://x.com/RZ7Vc/status/2120364000768844125/photo/1",
+          "title": null,
+          "description": null
+        },
+        {
+          "expanded_url": "https://twitter.com/rz7vc/status/2119991377014771973",
+          "title": null,
+          "description": null
+        }
+      ],
+      "quoted": [
+        {
+          "id": "2119991377014771973",
+          "url": "https://x.com/RZ7Vc/status/2119991377014771973",
+          "author": "RZ7Vc",
+          "author_name": "Kian",
+          "created_at": "2026-11-10T03:11:46.000Z",
+          "text": "（引用前一版发布帖，同样指向 https://github.com/Kianuni/Erosion-CN）"
+        }
+      ],
+      "image_note": "四张 App 截图，界面标题 MobileGestalt。可见分组：「地区与功能准入」里有「Apple 智能激活四要素体检」（销售地区标识 LL/LL/A、美版监管型号 A3473、国行门控与互斥锁、端侧 AI 准入），开关包括解除地区限制、解锁 iOS 27 进阶 AI 能力（实时翻译/通话录音音频智能）；「国行底层缓存限制」可解除 eSIM / FaceTime 音频限制，并警告把「无线局域网」显示为 Wi-Fi 会丢失国行「不允许联网」功能；「影像与健康」含相册混音（Audio Mix）、空间音频录制、Responsive Shutter、健康高血压趋势评估等开关，部分标注本机硬件已原生开启、已锁定防误关。底部有主页/功能修改/文件浏览。作者「改机零顾虑」是宣传语，截图本身是功能开关页。",
+      "soft_ad_risk": false,
+      "soft_signals": [
+        "作者 bio 是生活号；帖文带开源仓库链接，不是付费带货下单，应保留。修改系统底层有风险，简报需写明备份与自行承担风险，不要把「改机零顾虑」当事实。"
+      ],
+      "has_screenshot": true,
+      "public_metrics": {
+        "bookmark_count": 434,
+        "impression_count": 47871,
+        "like_count": 384,
+        "quote_count": 2,
+        "reply_count": 32,
+        "repost_count": 0
+      },
+      "followups": {
+        "repo": "本档核查仓库 https://github.com/Kianuni/Erosion-CN 仍在：约 1561 stars，2026-11-11 13:23 UTC 仍有 push，GPL-3.0，简介为 iOS/iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）。README 写完整支持 iOS/iPadOS 27.0–27.2.1 及 27.3 beta 1；iOS 26.0–26.7.2 仅部分支持且不能写入系统 MobileGestalt。安装前须电脑完整备份，存在潜在风险，仅供安全研究，请只在本人设备使用。"
+      }
+    },
+    {
+      "id": "2120602073641156920",
+      "url": "https://x.com/KKKonfh/status/2120602073641156920",
+      "author": "KKKonfh",
+      "author_name": "kate",
+      "posted_at": "11-12 03:38",
+      "created_at": "2026-11-11T19:38:27.000Z",
+      "text": "家人又发现一个福利\n\nNALA，转账50镑到Maya可以获得10镑\n评论区走我are",
+      "urls": [
+        {
+          "expanded_url": "https://x.com/KKKonfh/status/2120602073641156920/photo/1",
+          "title": null,
+          "description": null
+        }
+      ],
+      "quoted": [],
+      "image_note": "两张 Nala App 截图。第一张：2026-11-11 19:23–19:25 GMT 从 Nala 向菲律宾 Maya 转账 £50.00，收款人 ZHE MEN，到账 ₱4,168.82，汇率 1 GBP = 83.37 PHP，Paying with Apple Pay，状态显示 Sending to recipient / Money arrives instantly；顶部有 Nala 邮件通知 You're sending ₱4,168.82 to ZHE MEN，手机号已涂黄。第二张 19:31：Rewards account 余额 £10.00，Today 一笔 Earned reward +10 GBP，状态 Completed，时间 7:30 PM。原帖没有官方活动页或申请 URL。",
+      "soft_ad_risk": false,
+      "soft_signals": [
+        "作者 bio 写分享英国金融与跨境支付、欢迎交流；正文「评论区走我are」像是让人在评论区找她拿推荐/邀请，但主体是一笔可核验的转账奖励截图，不是付费带货下单，应保留，并在 need 里注明可能是推荐奖励、原帖无官方活动链接。"
+      ],
+      "has_screenshot": true,
+      "public_metrics": {
+        "bookmark_count": 3,
+        "impression_count": 263,
+        "like_count": 4,
+        "quote_count": 1,
+        "reply_count": 1,
+        "repost_count": 0
+      },
+      "followups": {
+        "offer": "Nala 向 Maya（菲律宾电子钱包）转账 £50，作者截图显示随后 Rewards account 到账 £10。截图时间为 2026-11-11 晚（GMT）。无官方活动页 URL，不要编造。是否长期有效、是否必须走推荐码，原帖未说明。"
+      }
+    },
+    {
+      "id": "2120479557463707662",
+      "url": "https://x.com/Hanbaoge_/status/2120479557463707662",
+      "author": "Hanbaoge_",
+      "author_name": "汉堡哥🍔(关注必回)",
+      "posted_at": "11-11 19:31",
+      "created_at": "2026-11-11T11:31:37.000Z",
+      "text": "好好珍惜你手上的良心运营商吧！\n\n德国沃达丰保号技巧:\n想用N26给德国沃达丰手动充值的注意了\n1.在汇款时需要备注你的手机号，这里以015开头，不用填前面的+49\n2.入账方式一定选下面的慢到账，选第一个立即到账会被沃达丰无情退回，导致充值失败，错失神号！\n \n实在记性不好的，可选择月度自动充值！",
+      "urls": [
+        {
+          "expanded_url": "https://x.com/Hanbaoge_/status/2120479557463707662/photo/1",
+          "title": null,
+          "description": null
+        }
+      ],
+      "quoted": [],
+      "image_note": "一张 N26 转账确认页截图：上方 Reference（optional）已填 015 开头的德国手机号（后几位已涂黑），说明文字为 Add a personal message or payment reference for the recipient。下方 Select transfer type：Instant bank transfer（In seconds · Free）未选；Standard bank transfer（1-2 working days · Free）已选中，大红箭头指向这一项。底部 Confirm 按钮。与正文两点一致。",
+      "soft_ad_risk": false,
+      "soft_signals": [
+        "作者 bio 含海外银行/薅羊毛/合作私聊，但本帖是可执行的保号充值步骤和截图，不是下单导流，应保留。"
+      ],
+      "has_screenshot": true,
+      "public_metrics": {
+        "bookmark_count": 5,
+        "impression_count": 1481,
+        "like_count": 10,
+        "quote_count": 0,
+        "reply_count": 5,
+        "repost_count": 2
+      },
+      "followups": {
+        "tip": "用 N26 向德国 Vodafone 手动充值保号：汇款备注填 015 开头手机号（不要 +49）；转账类型选 Standard bank transfer（1–2 个工作日），不要选 Instant，否则可能被退回。也可改用月度自动充值。"
+      }
+    },
+    {
+      "id": "2120497678857769379",
+      "url": "https://x.com/gkxspace/status/2120497678857769379",
+      "author": "gkxspace",
+      "author_name": "余温",
+      "posted_at": "11-11 20:43",
+      "created_at": "2026-11-11T12:43:38.000Z",
+      "text": "刚发推文时又出个 100 刀，那这个站一周内就破万了\n\nClaude 牛逼！！！\n\nChatGPT 的流量也牛逼😂",
+      "urls": [
+        {
+          "expanded_url": "https://x.com/gkxspace/status/2120497678857769379/photo/1",
+          "title": null,
+          "description": null
+        },
+        {
+          "expanded_url": "https://twitter.com/gkxspace/status/2120464771900379217",
+          "title": null,
+          "description": null
+        }
+      ],
+      "quoted": [
+        {
+          "id": "2120464771900379217",
+          "url": "https://x.com/gkxspace/status/2120464771900379217",
+          "author": "gkxspace",
+          "author_name": "余温",
+          "created_at": "2026-11-11T10:32:52.000Z",
+          "posted_at": "11-11 18:32",
+          "text": "上个月差点被我删库的站，前几天针对地做了下 SEO 和 GEO\n\n把增长运营都交给 Claude了，立马就从日入几百块到 1000～2000 多了😋\n\n也算是我的处女之站了，哈哈，过段时间会不会月入万刀了🤔\n\n它还是主要靠 GEO，就是 ChatGPT 推荐，因为我连外链都没发过，SEO 也不太懂，主要就懂个逻辑吧\n\n不过，好像这也够了，其他交给 AI 得了，到现在为止，其实我也只介入了几次......\n\n说一下我大概的思路吧（不专业，供参考）：\n1、因为这是我自己的需求，所以我想要的东西很明确，就让 AI 去批量看竞品的数据和好页面，把用户的真实痛点找出来\n\n2、摸准需求后，直接让 Claude 全自动生成上千个页面，针对用户很细分的问法，针对不同的人群和需求，把概览页和 Q&A 做好\n而且现在 ChatGPT 爬取特别快，新页面上去很快就能被抓到，起效快到离谱\n\n3、后续做好归因，直接看实际的收录和收入数据，让 AI 自动维护：\n针对转化比较好的页面做重点优化，对于没有收录或者有问题的页面也做处理，出单猛的方向就继续扩，把整套维护跑成闭环\n\n说实话，我感觉现在 GEO 的机会真的很多，主要就是一个思路问题，很多方向还是挺好做的\n\nAI 时代，无限可能🫡"
+        }
+      ],
+      "image_note": "本帖配图：支付后台「付款」列表一笔 US$100.00，状态「成功」，时间 11月11日下午 6:27，域名已涂红只剩 .com。引用帖配图：1) Stripe 风格日 GMV 图，Today Gross volume HK$2,156.75（11:05 PM），Yesterday HK$1,529.29；2) 另一日 Today HK$1,137.53（5:57 PM）对比 Nov 7, 2026 HK$2,078.17；3) 对话截图称旧库里有真实付费用户，26 个注册账号中 6 个外部账号用真实银行卡付过款（Stripe 正式模式）；4) 一张更早的推广帖截图（@gkxspace）：写「上周赚了快 5000 块」「发现 60% 都是 ChatGPT 来的」，内嵌 Date range Oct 25, 2026 → Nov 2, 2026 的 Payments：Succeeded $4,942.02，Failed $2,000.48。币种在不同截图里不完全统一（有 HKD 日盘、USD 单笔、$4,942 区间），简报按截图原样写，不要自行换算成单一币种或夸大「破万」。",
+      "soft_ad_risk": false,
+      "soft_signals": [
+        "作者 bio 写付费咨询与企业 AI 服务，但本帖是自己站点的 GEO/SEO 增长复盘和收入截图，不是让读者去买课或下单，应保留；收入数字以截图为准，作者「一周破万」未标明币种。"
+      ],
+      "has_screenshot": true,
+      "public_metrics": {
+        "bookmark_count": 30,
+        "impression_count": 9588,
+        "like_count": 44,
+        "quote_count": 0,
+        "reply_count": 10,
+        "repost_count": 1
+      },
+      "followups": {
+        "method": "引用帖给出可复用思路：先用 AI 拆竞品痛点 → Claude 批量生成细分概览/Q&A 页（称 ChatGPT 抓取快）→ 按收录和收入归因自动维护，转化好的方向继续扩。自称主要靠 GEO/ChatGPT 推荐、没发过外链。本帖补充发帖当时又进账 US$100，并称该站一周内破万。站点域名未公开。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "AlphaGenome2": [
+    {
+      "username": "GoogleDeepMind",
+      "id": "2120532824465805749",
+      "url": "https://x.com/GoogleDeepMind/status/2120532824465805749",
+      "created_at": "2026-11-11T15:03:17.000Z",
+      "text": "Your heart, brain, and immune system share the same DNA sequence. So how can a single-letter change affect disease in some cells, while sparing the rest?\n\nAlphaGenome 2 is our new AI model that zooms in on specific cells to help scientists understand what drives disease. 🧵",
+      "public_metrics": {
+        "bookmark_count": 997,
+        "impression_count": 370820,
+        "like_count": 2500,
+        "quote_count": 182,
+        "reply_count": 210,
+        "retweet_count": 369
+      }
+    },
+    {
+      "username": "GoogleDeepMind",
+      "id": "2120532829805096970",
+      "url": "https://x.com/GoogleDeepMind/status/2120532829805096970",
+      "created_at": "2026-11-11T15:03:18.000Z",
+      "text": "The model also adapts to lab experiments on the fly with no retraining needed.\n\nResearchers can plug in data from just a few dozen cells to see how DNA changes behave in specific moments, like:\n🔘 Immune cells responding to a vaccine\n🔘 Specific cells in the gut driving inflammatory disease\n🔘 Stem cells maturing into blood cells",
+      "public_metrics": {
+        "bookmark_count": 11,
+        "impression_count": 22804,
+        "like_count": 158,
+        "quote_count": 0,
+        "reply_count": 7,
+        "retweet_count": 7
+      }
+    },
+    {
+      "username": "GoogleDeepMind",
+      "id": "2120532826336501822",
+      "url": "https://x.com/GoogleDeepMind/status/2120532826336501822",
+      "created_at": "2026-11-11T15:03:18.000Z",
+      "text": "Looking at a whole tissue at once is like looking at a blurry image: you get the visuals, but miss what’s happening inside individual pixels.\n\nTrained on 100M+ profiles across 68 tissues, AlphaGenome 2 focuses on one cell type at a time, spotting nearly twice as many mutations that turn genes on and off as our previous model.",
+      "public_metrics": {
+        "bookmark_count": 20,
+        "impression_count": 16428,
+        "like_count": 185,
+        "quote_count": 1,
+        "reply_count": 5,
+        "retweet_count": 17
+      }
+    },
+    {
+      "username": "GoogleDeepMind",
+      "id": "2120532832145576242",
+      "url": "https://x.com/GoogleDeepMind/status/2120532832145576242",
+      "created_at": "2026-11-11T15:03:19.000Z",
+      "text": "By predicting how the same DNA is read differently from cell to cell, AlphaGenome 2 opens up entirely new possibilities for understanding human genetics.\n\nIt’s available now for non-commercial research via our API and interactive Colab tutorials. Find out more → https://t.co/cPOPD3cWYB",
+      "public_metrics": {
+        "bookmark_count": 53,
+        "impression_count": 19844,
+        "like_count": 176,
+        "quote_count": 4,
+        "reply_count": 12,
+        "retweet_count": 11
+      }
+    }
+  ],
+  "Decisions": [
+    {
+      "username": "Google",
+      "id": "2120583966272983331",
+      "url": "https://x.com/Google/status/2120583966272983331",
+      "created_at": "2026-11-11T18:26:30.000Z",
+      "text": "We're introducing the Gemini Decisions API in @GoogleAIStudio, powered by our new Gemini Decision 1 model.\n\nInstead of generating a text response token by token, Gemini Decision 1 evaluates your input (across text, images, audio, video, and PDFs) against up to 1,000 questions to https://t.co/PXz7CFRDgk",
+      "public_metrics": {
+        "bookmark_count": 629,
+        "impression_count": 273680,
+        "like_count": 1385,
+        "quote_count": 80,
+        "reply_count": 62,
+        "retweet_count": 120
+      }
+    },
+    {
+      "username": "Google",
+      "id": "2120583968676577709",
+      "url": "https://x.com/Google/status/2120583968676577709",
+      "created_at": "2026-11-11T18:26:31.000Z",
+      "text": "Most models are built to generate text, creative content, or reason step-by-step. But not every task needs a written answer.\n\nWhen a workflow or agent just needs to make a quick call, the Decisions API returns calibrated confidence scores (150–250 ms end-to-end) at $0.10 per 1M https://t.co/zDrSsbOa1i",
+      "public_metrics": {
+        "bookmark_count": 7,
+        "impression_count": 7705,
+        "like_count": 61,
+        "quote_count": 3,
+        "reply_count": 3,
+        "retweet_count": 5
+      }
+    },
+    {
+      "username": "Google",
+      "id": "2120583974263181655",
+      "url": "https://x.com/Google/status/2120583974263181655",
+      "created_at": "2026-11-11T18:26:32.000Z",
+      "text": "Try the interactive demos yourself in @GoogleAIStudio and read more on the blog ↓ https://t.co/sJnLUe4OS1",
+      "public_metrics": {
+        "bookmark_count": 10,
+        "impression_count": 17880,
+        "like_count": 37,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 2
+      }
+    },
+    {
+      "username": "Google",
+      "id": "2120583972505760016",
+      "url": "https://x.com/Google/status/2120583972505760016",
+      "created_at": "2026-11-11T18:26:32.000Z",
+      "text": "So how do your questions turn into a decision?\n\nInstead of asking a model to describe a photo, you give it a checklist of yes/no, multiple-choice, and rating questions so it knows what to check and what action to take.\n\nHere, Gemini Decision 1 scans 100 delivery photos in 4.5 https://t.co/vgOLncVdLr",
+      "public_metrics": {
+        "bookmark_count": 16,
+        "impression_count": 19939,
+        "like_count": 68,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 9
+      }
+    }
+  ],
+  "Tabletop": [
+    {
+      "username": "Google",
+      "id": "2120561630958223613",
+      "url": "https://x.com/Google/status/2120561630958223613",
+      "created_at": "2026-11-11T16:57:45.000Z",
+      "text": "Learn more ↓ https://t.co/I7LGqYWfrg",
+      "public_metrics": {
+        "bookmark_count": 10,
+        "impression_count": 17952,
+        "like_count": 32,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 2
+      }
+    },
+    {
+      "username": "Google",
+      "id": "2120561628882125069",
+      "url": "https://x.com/Google/status/2120561628882125069",
+      "created_at": "2026-11-11T16:57:45.000Z",
+      "text": "Introducing Tabletop, a collaborative space from @GoogleLabs where you can create custom tools to build, plan, and do more with your friends, family, or club.\n\nSend an invite to your group and start a shared hub where everyone can contribute simultaneously for your next trip, https://t.co/Hu78vX0bXU",
+      "public_metrics": {
+        "bookmark_count": 270,
+        "impression_count": 116999,
+        "like_count": 651,
+        "quote_count": 18,
+        "reply_count": 44,
+        "retweet_count": 71
+      }
+    },
+    {
+      "username": "Google",
+      "id": "2120655812192559348",
+      "url": "https://x.com/Google/status/2120655812192559348",
+      "created_at": "2026-11-11T23:12:00.000Z",
+      "text": "@tryorbix @GoogleLabs 😎",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 434,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      }
+    }
+  ]
+}

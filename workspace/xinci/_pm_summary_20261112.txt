@@ -1,0 +1,67 @@
+Halo Z，以下是 2026-11-12 晚间新词雷达摘要：
+
+### 总览
+- **时间窗口**：Asia/Shanghai (UTC+8)。书签X 本档为 2026-11-12 09:53 至 20:58，并补报了早间窗口内漏掉的官方首发。
+- **状态**：书签X、双轨、新闻轨、热梗轨、雷达日报、找词/可做词、看板均已跑完并推送。看板标签「2026-11-12 新词雷达」（317 条 / 40 词）。雷达日报内置 X 关注源为 0/35 账号、answered=0，这不是书签X失败；AIsa 名字判断返回 402（余额不足），sitemap 仍已抓到。新闻轨/热梗轨 keywords=0，因主轨已占满 40，未挤占书签X、游戏轨、AI工具轨。看板「🔥 X 热词」由你负责写，本轮未改。
+- **可做词与建站热词**：本轮 Semrush 概览对 60 个候选均返回空结果（nodata，花费 $0.000），**不能当作月搜为 0 或未达 KD≤31 门槛**，全部标为「待审核」。真空期通道也因 SERP 数据不足未触发，0 条可做词是数据缺失，不是审核已完成。本档书签X建站热词仅 **QVAC BotPsy**（官方首发 views 884,916 达标）。
+
+---
+
+### 各轨重点
+
+#### 1. 书签 X 重点（均为【补报】）
+以下官方首发落在早间窗口或更早，上档漏报，现已用官方帖补收。
+- **ERNIE 5.5 Flash Preview**：
+  - **是什么**：百度在已报的「ERNIE 5.5 Flash Base」（预训练底座）之上推出的首个后训练语言模型，不是 Flash Base 本身。
+  - **做什么**：280B 总参数、每 token 激活 14B，1M 上下文；官方称在编码、3D、知识工作与内容创作上更强，千帆上每用户超过 200 tokens/s；权重计划 11 月 25 日前开源（后续称 Apache 2.0）。
+  - [Baidu 官方公告](https://x.com/Baidu_Inc/status/2120391732248637734)｜首发 2026-11-11 13:42
+- **QVAC BotPsy**（本档建站热词）：
+  - **是什么**：Tether 旗下 QVAC 发布的 0.8B 端侧个人智能体模型（基于 Qwen3.5-0.8B）。
+  - **做什么**：通过工具调用设置闹钟、改会议等；官方强调要读邮件/日历/消息/文件的智能体应让用户选择运行位置，数据留在本机。权重以 Apache 2.0 开放（bf16 / Q8 / Q4_K_M）。适合做端侧/本地个人智能体或 BotPsy 介绍页。
+  - [QVAC 官方公告](https://x.com/qvac/status/2120515069297696784)｜首发 2026-11-11 21:52
+- **Praxis-1**：
+  - **是什么**：Runway 的 27B MoE 世界动作模型（world action model），不是聊天大模型。
+  - **做什么**：同时预测视频与动作，把视频预训练用到真实机器人控制；Apache 2.0 开源权重，可在自有硬件上运行和微调。[技术报告](https://runway.com/research/praxis-1-video-pretraining-to-robot-control)
+  - [Runway 官方公告](https://x.com/runwayml/status/2120533081182577116)｜首发 2026-11-11 23:04
+- **VoxMel**：
+  - **是什么**：VoxDance Lab 的研究向 TTS 模型（官方另有 0.6B / 0.3B 权重）。
+  - **做什么**：无 tokenizer 的自回归语音合成，基于小波分解的 mel 频谱，官方写明支持零样本克隆、跨语种和表现力语音。实验室称仍是研究项目、尚未生产可用。官方帖互动很低。
+  - [VoxDanceLab 官方公告](https://x.com/VoxDanceLab/status/2120551527232528550)｜首发 2026-11-12 00:17
+
+#### 2. 游戏轨重点
+晚间 X 新名（类型均待核实，不凭名字猜玩法）：
+- **Hidden Your Granny**：开发者自称刚在 Roblox 发布；原文未细述玩法，类型待核实，已核实平台 Roblox，低互动。[X 链接](https://x.com/CoyotlCompany/status/2120762120820412493)
+- **Rise of the Warlord**：开发者称可在 Roblox 免费玩（亦写作 Rise of the Warlord: Army Wars）；类型待核实，已核实平台 Roblox，已上线，低互动。[X 链接](https://x.com/DaddyProdRBX/status/2120816993309974969)
+
+部分已核实平台的热门（抓取时在线人数；源未写玩法，不猜类型）：
+- **Throw Food For Animals**：抓取时约 330602 人在玩的 Roblox Top Trending 游戏。[Roblox 链接](https://www.roblox.com/games/120219252362013)
+- **DONT SPLASH**：抓取时约 47717 人在玩的 Roblox Up-and-Coming 游戏。[Roblox 链接](https://www.roblox.com/games/119958473240233)
+- **Net a Fish!**：抓取时约 32437 人在玩的 Roblox Up-and-Coming 游戏。[Roblox 链接](https://www.roblox.com/games/93898234979111)
+- **Ragdoll Soccer**：抓取时约 18839 人在玩的 Roblox Up-and-Coming 游戏。[Roblox 链接](https://www.roblox.com/games/106931373443671)
+- **rainbow obby**：障碍跑（obby）网页游戏，已核实出现在 Poki 首页热门。[Poki 链接](https://poki.com/en/g/rainbow-obby)
+
+#### 3. AI 工具轨重点
+Futurepedia sitemap 新增 4 个页面（amesa、autosheet、imagineart、revr），用途待核实，不作重点。Toolify / Aixploria 增量 new=0，不是抓取失败；HN「AI tool」RSS 返回 502。
+- **ScroogeFrog AI**：
+  - **是什么**：早间 Product Hunt 已出现的工具名，本窗第三方帖补充了用途。
+  - **做什么**：第三方称用于审计 Google Ads 与网站流量中的机器人点击和浪费花费，并给出修复建议。非官方首发。
+  - [X 链接](https://x.com/launchindexai/status/2120851602588221625)
+- **Factory Wargames**：
+  - **是什么**：第三方低互动转述的 Factory 项目，非官方首发。
+  - **做什么**：模拟国家级对公司基础设施的攻击并分享发现，再用其 Droid 编程智能体免费协助修复。
+  - [X 链接](https://x.com/etnshow/status/2120860410899226978)
+Kumiko（自称内置 AI 的 Mac 窗口管理器，能力未展开）和 IdeaPeek（自述把点子丢进去看 winning angle）均为低互动，不作重点。
+
+---
+
+### 新闻与热梗说明
+- **新闻轨**：21 条在看板列表中。主轨关键词已占满 40，故新闻 keywords=0。GDELT 未取到（ai-tool 429；steam-release 返回空正文、解析失败）。Google News / Telegram / RSS 正常。部分抽名较粗（如将已报的 Gemini Decision 1 写成 “Google Decision-Making AI Model”），不当重点。
+- **热梗轨**：三平台未全接入，0 条合格（系权限与配置不足，非抓取崩溃）。
+  - **TikTok**：公开页可打开但热榜为前端渲染，且无广告账户 token。
+  - **YouTube**：无 API key，且未配置频道 ID。
+  - **Instagram**：需登录 / 无公开趋势接口。
+  - **Google Trends**：二次源过滤后 0 条。
+
+---
+
+https://x.omnitools.cc/radar/new

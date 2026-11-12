@@ -1,0 +1,183 @@
+{
+  "window": {
+    "zone": "Asia/Shanghai (UTC+8)",
+    "start": "2026-11-11 20:51",
+    "end": "2026-11-12 09:53",
+    "run_at": "2026-11-12 09:53",
+    "label": "2026-11-12 新词雷达"
+  },
+  "sources_radar": "python3 -m radar sources 完成：① 没有新名字:x 0; hf 100。本早不跑 radar daily。",
+  "bookmark_x": {
+    "ok": true,
+    "file": "xnew-20261112-am.json",
+    "items": 4,
+    "keywords": [],
+    "keyword_note": "建站热词门槛 views≥500000 或 bookmarks≥1000；本档最高为 AlphaGenome 2 bookmarks=997，未达门槛，故为 0，不是抓取失败。",
+    "official_page2": "A 路第 2 页 next_token 返回 0 条，官方窗口 12 条已穷尽。B 路 X 去掉 min_likes:500，25 条全部 likes<500，已丢弃（含 Praxis-1 第三方传闻）。",
+    "highlights": [
+      {
+        "name": "Gemini Decision 1（及 Gemini Decisions API）",
+        "kind": "模型 + API 产品",
+        "desc": "Google 在 Google AI Studio 推出 Gemini Decisions API，由新模型 Gemini Decision 1 驱动。它不是按 token 生成长文本，而是把文本/图像/音频/视频/PDF 对照最多 1000 个是非、选择或评分问题一次评估，返回校准置信度；输出 token 不计费。官方称端到端 150–250 毫秒，定价 $0.10/100万 input tokens，演示为 4.5 秒扫描 100 张配送照片。",
+        "url": "https://x.com/Google/status/2120583966272983331",
+        "blog": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+        "first_seen": "2026-11-12 02:26",
+        "views": 273174,
+        "bookmarks": 628,
+        "source": "@Google",
+        "note": "与已报的 OpenAI Decisions API 不是同一产品。"
+      },
+      {
+        "name": "AlphaGenome 2",
+        "kind": "模型",
+        "desc": "Google DeepMind 新 AI 模型，针对特定细胞解读同一段 DNA，解释单字母突变为何只在部分细胞致病。官方：在 68 种组织、1 亿+ profiles 上训练，一次聚焦一种细胞类型，发现开关基因的突变数量约为前代近两倍；无需重新训练即可接入几十个细胞的新实验数据。现已通过 API 和 Colab 向非商业研究开放。",
+        "url": "https://x.com/GoogleDeepMind/status/2120532824465805749",
+        "blog": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+        "first_seen": "2026-11-11 23:03",
+        "views": 370737,
+        "bookmarks": 997,
+        "source": "@GoogleDeepMind",
+        "note": "不是已报的 AlphaProof Code。"
+      },
+      {
+        "name": "Tabletop",
+        "kind": "产品功能 / Google Labs 实验，不是新模型",
+        "desc": "Google Labs 协作空间实验：可创建自定义工具，邀请朋友/家人/社团进入共享中心同时编辑。官方举例包括旅行行程、聚餐现场投票、费用分摊、幻想体育对阵表。官方博客写明需加入 waitlist。",
+        "url": "https://x.com/Google/status/2120561628882125069",
+        "blog": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+        "first_seen": "2026-11-12 00:57",
+        "views": 116914,
+        "bookmarks": 268,
+        "source": "@Google"
+      },
+      {
+        "name": "Gemini 应用登陆 Apple CarPlay",
+        "kind": "产品功能更新，不是新模型",
+        "desc": "Gemini 应用本身可直接在 Apple CarPlay 使用，iOS 用户可在车机屏幕上与 Gemini Live 免提对话，用于查看行程、处理收件箱或口头头脑风暴。这与已报的「Gemini 在 Google 地图 CarPlay 导航」不是同一功能。",
+        "url": "https://x.com/Google/status/2120596045960790486",
+        "first_seen": "2026-11-12 03:14",
+        "views": 270276,
+        "bookmarks": 131,
+        "source": "@Google"
+      }
+    ],
+    "skipped": "Gemini 4 Carbon、MiniMax H3-Image、Gemini Robotics 2.5 均为已报，本档不重复。Claude 艺术案例、Codex 用户故事、论文转发未收。"
+  },
+  "tracks": {
+    "ok": true,
+    "file": "tracks-20261112-am.json",
+    "game_items": 141,
+    "game_keywords": 40,
+    "ai_items": 34,
+    "ai_keywords": 40,
+    "sitemap": "Toolify/Futurepedia/Aixploria sitemap 增量 new=0（对比快照无新工具，不是抓取失败）。",
+    "game_highlights": [
+      {
+        "name": "Harpoon a Fish",
+        "desc": "Roblox Top Trending，抓取时约 10339 人在玩；玩法细节未细述，已核实平台为 Roblox。",
+        "url": "https://www.roblox.com/games/113384248926706"
+      },
+      {
+        "name": "Draw an aquarium",
+        "desc": "Roblox Up-and-Coming，约 5186 人在玩；玩法细节未细述，已核实平台为 Roblox。",
+        "url": "https://www.roblox.com/games/72419869791939"
+      },
+      {
+        "name": "Cook Pizzas",
+        "desc": "Roblox Up-and-Coming，约 3901 人在玩；玩法细节未细述，已核实平台为 Roblox。",
+        "url": "https://www.roblox.com/games/99905511294377"
+      },
+      {
+        "name": "Ant Wars",
+        "desc": "Roblox Up-and-Coming，约 1538 人在玩；玩法细节未细述，已核实平台为 Roblox。",
+        "url": "https://www.roblox.com/games/100248660532002"
+      },
+      {
+        "name": "rainbow obby",
+        "desc": "障碍跑（obby）网页游戏，已核实出现在 Poki 首页热门。",
+        "url": "https://poki.com/en/g/rainbow-obby"
+      },
+      {
+        "name": "solitaire ultimate",
+        "desc": "纸牌接龙类网页游戏，已核实出现在 Poki 首页热门。",
+        "url": "https://poki.com/en/g/solitaire-ultimate"
+      },
+      {
+        "name": "Your TCG Shop",
+        "desc": "Roblox 卡牌商店模拟：收集/出售卡牌、玩家交易、卡牌评级；计划今年冬季上线，尚未上线，计划平台 Roblox。",
+        "url": "https://x.com/ggamesstudiorbx/status/2120654374209032592"
+      },
+      {
+        "name": "Shardborn",
+        "desc": "即将上线的 2D 英雄对战游戏，计划平台 Roblox，尚未上线。",
+        "url": "https://x.com/Ttisking89/status/2120654332492214570"
+      },
+      {
+        "name": "Sandkeeper",
+        "desc": "轻松沙画休闲：把彩色沙子倒进玻璃瓶。原帖称 3 月 9 日登陆 Steam（年份未写明），2 月 Steam Next Fest 有试玩；尚未上线，计划平台 Steam。",
+        "url": "https://x.com/PortiaPlaysDev/status/2120503348726296628"
+      },
+      {
+        "name": "SIM Chef",
+        "desc": "独立餐厅经营模拟，计划 2027 年 3 月抢先体验，2 月 Steam Next Fest 试玩；尚未上线，计划平台 Steam。",
+        "url": "https://x.com/gudnunes/status/2120627788096950394"
+      },
+      {
+        "name": "ANOTHER MEDIUM: Prologue",
+        "desc": "独立游戏，副标题 Welcome to the Playground。官方发售日期写法 2027.25.02，可加入 Steam Next Fest 愿望单；类型与玩法待核实，不作为重点推荐，尚未上线，计划平台 Steam。",
+        "url": "https://x.com/sinzriel/status/2120663014219084168"
+      }
+    ],
+    "ai_highlights": [
+      {
+        "name": "Rayline ARC",
+        "desc": "开源路由工具，为 agent 每一步挑选模型及思考量；第三方低互动转述，宣称刚发布。",
+        "url": "https://x.com/frontrunvc/status/2120670675199488284"
+      },
+      {
+        "name": "Plurai Simulation",
+        "desc": "在模拟世界里检查 AI agent 实际做了什么，而不只看聊天回复的测试工具；第三方低互动转述。",
+        "url": "https://x.com/AngryTomtweets/status/2120668762529763389"
+      },
+      {
+        "name": "Craft Anything",
+        "desc": "开源项目，把已有网站拆开再让 AI 从头搭建；第三方称 10 天 2.7 万 GitHub star，星数未交叉核实，低互动。",
+        "url": "https://x.com/xiping_ai/status/2120683746907263312"
+      },
+      {
+        "name": "Intangible 2.0",
+        "desc": "第三方转述今日发布的多模态 AI 工作室，把构思做成图像、视频和 3D，面向电影制作人与创始人；非官方首发帖，低互动。",
+        "url": "https://x.com/AGTPinsights/status/2120665183525757189"
+      }
+    ],
+    "ai_ph_note": "Product Hunt 新名如 Kippy AI、Mitra MCP、ScroogeFrog AI、Binqo、CALL-E、CloakPane 等已进轨，但抓取条目只有名称、用途待核实，不作为重点推荐。"
+  },
+  "news": {
+    "ok": true,
+    "file": "news-20261112.json",
+    "items": 32,
+    "keywords": 0,
+    "keyword_note": "主轨关键词已占满 40，新闻轨 keywords 为 0，32 条仍在看板列表中。",
+    "gdelt": "GDELT 429 未取到（至少 ai-tool、steam-release 查询 429）；Google News / Telegram / RSS 正常。",
+    "llm": "free-llm 成功映射 43/96，其余为规则抽名，部分条目标题较粗（如把 Gemini Decisions API 抽成「刚刚」），不要把粗糙抽名当重点推荐。",
+    "caution": "新闻里出现的 Praxis-1 抽成「AI视频相关生成工具」与第三方「机器人 world action model」表述冲突，用途待核实，不要当重点。"
+  },
+  "meme": {
+    "ok": true,
+    "file": "meme-20261112.json",
+    "items": 0,
+    "keywords": 0,
+    "coverage": "三平台未全接入，不能写已在监听三平台热榜。TikTok Creative Center 公开页 HTTP 200 但热榜为前端渲染，静态 HTML 抽不到，且无 advertiser_id+access_token；YouTube Data API mostPopular 403（无 API key），官方 RSS/oEmbed 链路可用但未配置频道 ID，故 0 条直采；Instagram 访问 reels 会跳登录页，无公开趋势接口。Google Trends secondary 过滤后 0 条。0 条合格是权限/配置不足且二次源无合格梗，不是抓取崩溃。"
+  },
+  "board": {
+    "ok": true,
+    "label": "2026-11-12 新词雷达",
+    "items": 241,
+    "keywords": 40,
+    "news_items": 32,
+    "news_keywords": 0,
+    "meme_items": 0,
+    "url": "https://x.omnitools.cc/radar/new",
+    "note": "早间不跑 doable/finders，可做词以晚间为准。勿把 Semrush 缺数当成月搜 0。雷达日报内置 X 关注源沿用昨晚 report（answered=0），今早未跑 daily，这不是书签X失败。看板「🔥 X 热词」模块由用户负责写，本轮未改。"
+  }
+}

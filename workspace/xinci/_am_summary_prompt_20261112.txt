@@ -1,0 +1,13 @@
+根据 facts JSON 写给用户 Halo Z 的简洁中文早间新词雷达摘要（不要标题党，不要 PNG，不要说已在监听三平台热榜）。
+
+要求：
+- 先总览：窗口（标注 Asia/Shanghai / UTC+8）、书签X/双轨/新闻/热梗/看板是否成功。
+- 可做词：写明早间不跑 doable，以晚间为准。
+- 建站热词：本档书签X为 0，写明是未达 views≥50万或 bookmarks≥1000（AlphaGenome 2 为 997 最接近），不是采集失败。
+- 各轨重点：每条必须有“是什么、做什么”和来源链接；游戏写类型+已核实或待核实平台（未上线要写明）；AI 工具写具体用途；模型/产品功能/Labs实验要分清。查不清的不要当重点。
+- 写清已报模型/产品本档不重复：Gemini 4 Carbon、MiniMax H3-Image、Gemini Robotics 2.5；OpenAI Decisions API 与 Gemini Decisions API 不是同一产品；CarPlay 这条是 Gemini 应用本身，不是已报的地图导航。
+- 新闻轨须写 GDELT 未取到（429）、主轨占满 40 故新闻 keywords=0，以及部分抽名较粗不要当重点。
+- 热梗须写三平台未全接入与 0 条合格，并如实写各平台状态（TikTok 页可打开但热榜前端渲染且无广告账户 token；YouTube 无 API key 且未配置频道；Instagram 需登录/无公开趋势接口；Google Trends 二次源 0 条）。
+- 区分：书签X 成功；雷达日报内置 X 源沿用昨晚 answered=0 不是本档书签X失败；热梗 0 条是权限不足不是抓取崩溃。
+- 文末固定一行：https://x.omnitools.cc/radar/new
+- 只输出摘要正文，不要前言后记。

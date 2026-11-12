@@ -1,0 +1,967 @@
+[
+  {
+    "id": "2120533212359458837",
+    "username": "runwayml",
+    "created_at": "2026-11-11T15:04:50.000Z",
+    "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 4251,
+      "like_count": 24,
+      "quote_count": 4,
+      "reply_count": 2,
+      "retweet_count": 6
+    },
+    "text": "Praxis-1 dramatically outperforms frontier LLMs on speed and cost. On the same station and tasks, Praxis-1 finished 15.6x faster than GPT-6 Astra driving the arm, at 51x lower cost per completed task. https://t.co/1TlDo0NtiX",
+    "urls": [
+      "https://x.com/runwayml/status/2120533212359458837/video/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/runwayml/status/2120533212359458837"
+  },
+  {
+    "id": "2120533166264090874",
+    "username": "runwayml",
+    "created_at": "2026-11-11T15:04:39.000Z",
+    "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1878,
+      "like_count": 19,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 1
+    },
+    "text": "It also learns new tasks from very little data. With under 30 minutes of teleoperated demos, Praxis-1 succeeded in all 15 simulated trials on Noble Machines’ robot. https://t.co/dhWaL9aG23",
+    "urls": [
+      "https://x.com/runwayml/status/2120533166264090874/video/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/runwayml/status/2120533166264090874"
+  },
+  {
+    "id": "2120533108017791460",
+    "username": "runwayml",
+    "created_at": "2026-11-11T15:04:25.000Z",
+    "metrics": {
+      "bookmark_count": 7,
+      "impression_count": 2722,
+      "like_count": 24,
+      "quote_count": 1,
+      "reply_count": 2,
+      "retweet_count": 1
+    },
+    "text": "Praxis-1 is a 27B-parameter mixture-of-experts diffusion transformer that predicts video and actions together. We detail the model's architecture, training stages and results in our technical report.\n\nhttps://t.co/5T3RnNEsd1",
+    "urls": [
+      "https://runway.com/research/praxis-1-video-pretraining-to-robot-control"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/runwayml/status/2120533108017791460"
+  },
+  {
+    "id": "2120533096001097782",
+    "username": "runwayml",
+    "created_at": "2026-11-11T15:04:22.000Z",
+    "metrics": {
+      "bookmark_count": 6,
+      "impression_count": 7500,
+      "like_count": 43,
+      "quote_count": 4,
+      "reply_count": 3,
+      "retweet_count": 2
+    },
+    "text": "Praxis-1 is the strongest world action model available: #1 on NVIDIA’s RoboLab-120 leaderboard, and ahead of every open-weight VLA on the board, including π0.5 and GR00T N1.6. https://t.co/W8ZZmW8Fo4",
+    "urls": [
+      "https://x.com/runwayml/status/2120533096001097782/photo/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/runwayml/status/2120533096001097782"
+  },
+  {
+    "id": "2120515069297696784",
+    "username": "qvac",
+    "created_at": "2026-11-11T13:52:44.000Z",
+    "metrics": {
+      "bookmark_count": 140,
+      "impression_count": 884541,
+      "like_count": 761,
+      "quote_count": 5,
+      "reply_count": 15,
+      "retweet_count": 39
+    },
+    "text": "To act for you, an AI agent has to read your email, calendar, messages and files. It ends up knowing more about your life than most of your friends, so you should get to choose where it runs.\n\nToday we're releasing QVAC BotPsy, a 0.8B model that sets alarms, moves meetings and https://t.co/q9RR8UMob0",
+    "urls": [
+      "https://x.com/qvac/status/2120515069297696784/video/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/qvac/status/2120515069297696784"
+  },
+  {
+    "id": "2120533081182577116",
+    "username": "runwayml",
+    "created_at": "2026-11-11T15:04:18.000Z",
+    "metrics": {
+      "bookmark_count": 227,
+      "impression_count": 67213,
+      "like_count": 508,
+      "quote_count": 91,
+      "reply_count": 77,
+      "retweet_count": 90
+    },
+    "text": "Today, we’re making Praxis-1 available to everyone. Our state-of-the-art world action model turns video pretraining into control for real robots, and it ships with open weights under Apache 2.0, ready to run and fine-tune on your own hardware. https://t.co/jL5ZmpY6x9",
+    "urls": [
+      "https://x.com/runwayml/status/2120533081182577116/photo/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/runwayml/status/2120533081182577116"
+  },
+  {
+    "id": "2120551527232528550",
+    "username": "VoxDanceLab",
+    "created_at": "2026-11-11T16:17:36.000Z",
+    "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 82,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+    },
+    "text": "Introducing VoxMel 🎙️\n\nTokenizer-free autoregressive TTS built on wavelet-factorized mel-spectrograms .\n\n🔊 Zero-shot cloning · 🌍 Cross-lingual · 🎭 Expressive speech\n\n🎧 https://t.co/QyEjdU55vq\n💻 https://t.co/LkEN0NUwF0\n🤗 https://t.co/XrA2wAgvvt\n🤗 https://t.co/8GJ8KRFr1j https://t.co/Xn1y6XVMOo",
+    "urls": [
+      "https://voxdance.github.io/voxmel-demo/",
+      "https://github.com/VoxDance-Lab/voxmel",
+      "https://huggingface.co/VoxDance-Lab/VoxMel-0.6B",
+      "https://huggingface.co/VoxDance-Lab/VoxMel-0.3B",
+      "https://x.com/VoxDanceLab/status/2120551527232528550/video/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/VoxDanceLab/status/2120551527232528550"
+  },
+  {
+    "id": "2120776690162897336",
+    "username": "FeitengLi",
+    "created_at": "2026-11-12T07:12:19.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 14
+    },
+    "text": "RT @_akhaliq: VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: https://t.co/W4SP7…",
+    "urls": [
+      "t.co/W4SP7"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/FeitengLi/status/2120776690162897336"
+  },
+  {
+    "id": "2120760207886160023",
+    "username": "engrbilalwaris",
+    "created_at": "2026-11-12T06:06:50.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 14
+    },
+    "text": "RT @_akhaliq: VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: https://t.co/W4SP7…",
+    "urls": [
+      "t.co/W4SP7"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/engrbilalwaris/status/2120760207886160023"
+  },
+  {
+    "id": "2120833872867033538",
+    "username": "moonyousee",
+    "created_at": "2026-11-12T10:59:33.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 14
+    },
+    "text": "RT @_akhaliq: VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: https://t.co/W4SP7…",
+    "urls": [
+      "t.co/W4SP7"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/moonyousee/status/2120833872867033538"
+  },
+  {
+    "id": "2120856044947824759",
+    "username": "rahulchaluvadhi",
+    "created_at": "2026-11-12T12:27:39.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 14
+    },
+    "text": "RT @_akhaliq: VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: https://t.co/W4SP7…",
+    "urls": [
+      "t.co/W4SP7"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/rahulchaluvadhi/status/2120856044947824759"
+  },
+  {
+    "id": "2120833015366758509",
+    "username": "lirong11",
+    "created_at": "2026-11-12T10:56:08.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 14
+    },
+    "text": "RT @_akhaliq: VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: https://t.co/W4SP7…",
+    "urls": [
+      "t.co/W4SP7"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/lirong11/status/2120833015366758509"
+  },
+  {
+    "id": "2120755376224416130",
+    "username": "PulkitKrJha",
+    "created_at": "2026-11-12T05:47:38.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 14
+    },
+    "text": "RT @_akhaliq: VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: https://t.co/W4SP7…",
+    "urls": [
+      "t.co/W4SP7"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/PulkitKrJha/status/2120755376224416130"
+  },
+  {
+    "id": "2120836203478196631",
+    "username": "qvac",
+    "created_at": "2026-11-12T11:08:48.000Z",
+    "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 3594,
+      "like_count": 12,
+      "quote_count": 2,
+      "reply_count": 2,
+      "retweet_count": 2
+    },
+    "text": "Watch BotPsy in action with this capability demo:\n\nBotPsy, our latest 0.8B tool-calling model, was given six travel tools and four requests about a trip to Rome.\n\nIt runs on an old M1 MacBook Air with no cloud calls, and the model file is 812 MB.\n\nAsked for the cheapest flight https://t.co/PXGK5qt5El https://t.co/wI86A7ZUyD",
+    "urls": [
+      "https://x.com/qvac/status/2120836203478196631/video/1",
+      "https://twitter.com/1917534173511966726/status/2120515069297696784"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/qvac/status/2120836203478196631"
+  },
+  {
+    "id": "2120759691483771275",
+    "username": "Jason_Yeeah",
+    "created_at": "2026-11-12T06:04:46.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 41,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+    },
+    "text": "Hi everyone!\n\nWe're VoxDance Lab, a research team working on speech intelligence. We're excited to introduce VoxMel!\n\n💻 GitHub: https://t.co/SWmVMGGXe7\n🤗 Hugging Face (0.6B): https://t.co/J1ACMZSFTj\nhttps://t.co/qxpMhSwaLF https://t.co/djX9w3VdRF",
+    "urls": [
+      "https://github.com/VoxDance-Lab/voxmel",
+      "https://huggingface.co/VoxDance-Lab/VoxMel-0.6B",
+      "https://huggingface.co/VoxDance-Lab/VoxMel-0.3B",
+      "https://twitter.com/_akhaliq/status/2120749548851368358"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Jason_Yeeah/status/2120759691483771275"
+  },
+  {
+    "id": "2120832949079638172",
+    "username": "MukafuG",
+    "created_at": "2026-11-12T10:55:52.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 14
+    },
+    "text": "RT @_akhaliq: VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: https://t.co/W4SP7…",
+    "urls": [
+      "t.co/W4SP7"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/MukafuG/status/2120832949079638172"
+  },
+  {
+    "id": "2120778980592599076",
+    "username": "salahsopenai",
+    "created_at": "2026-11-12T07:21:25.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 14
+    },
+    "text": "RT @_akhaliq: VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: https://t.co/W4SP7…",
+    "urls": [
+      "t.co/W4SP7"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/salahsopenai/status/2120778980592599076"
+  },
+  {
+    "id": "2120849741588148565",
+    "username": "jp_axs4ll",
+    "created_at": "2026-11-12T12:02:36.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 14
+    },
+    "text": "RT @_akhaliq: VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: https://t.co/W4SP7…",
+    "urls": [
+      "t.co/W4SP7"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/jp_axs4ll/status/2120849741588148565"
+  },
+  {
+    "id": "2120810029083206073",
+    "username": "UtopicDev",
+    "created_at": "2026-11-12T09:24:48.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 14
+    },
+    "text": "RT @_akhaliq: VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: https://t.co/W4SP7…",
+    "urls": [
+      "t.co/W4SP7"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/UtopicDev/status/2120810029083206073"
+  },
+  {
+    "id": "2120860991391211814",
+    "username": "mariainhealth",
+    "created_at": "2026-11-12T12:47:18.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 14
+    },
+    "text": "RT @_akhaliq: VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: https://t.co/W4SP7…",
+    "urls": [
+      "t.co/W4SP7"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/mariainhealth/status/2120860991391211814"
+  },
+  {
+    "id": "2120753078727233977",
+    "username": "colormetaan05",
+    "created_at": "2026-11-12T05:38:30.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 14
+    },
+    "text": "RT @_akhaliq: VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: https://t.co/W4SP7…",
+    "urls": [
+      "t.co/W4SP7"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/colormetaan05/status/2120753078727233977"
+  },
+  {
+    "id": "2120515096854356292",
+    "username": "qvac",
+    "created_at": "2026-11-11T13:52:51.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1757,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+    },
+    "text": "BotPsy works through tool calls. An app gives it a list of functions like get_email or create_event. Ask it to add the dentist on Friday at 3 pm, and it picks create_event and fills in the title, day and time. The app runs the call, sends back the result, and BotPsy keeps going https://t.co/rIwvnzGsrm",
+    "urls": [
+      "https://x.com/qvac/status/2120515096854356292/photo/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/qvac/status/2120515096854356292"
+  },
+  {
+    "id": "2120787949348618375",
+    "username": "lunveks",
+    "created_at": "2026-11-12T07:57:04.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 18,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+    },
+    "text": "voxmel, mel spektrogramı wavelet ile parçalara ayırıp autoregressive üretiyor ve zero-shot ses sentezi yapıyor. modeller de paylaşılmış, ses klonlama tarafını izleyenler bakmak isteyebilir. @_akhaliq\nhttps://t.co/hYapZC73i8",
+    "urls": [
+      "https://x.com/_akhaliq/status/2120749548851368358"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/lunveks/status/2120787949348618375"
+  },
+  {
+    "id": "2120515182858526907",
+    "username": "qvac",
+    "created_at": "2026-11-11T13:53:11.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 367,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+    },
+    "text": "BotPsy needs 68% fewer reasoning tokens than the model it was built from to answer hard science questions correctly, and it gets more of them right. On a phone, every token it skips saves you time. https://t.co/CCRd7Whnic",
+    "urls": [
+      "https://x.com/qvac/status/2120515182858526907/photo/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/qvac/status/2120515182858526907"
+  },
+  {
+    "id": "2120761856398623055",
+    "username": "WarGuy_",
+    "created_at": "2026-11-12T06:13:23.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 67,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+    },
+    "text": "VoxDance Lab has released VoxMel, a speech-synthesis model designed to generate voices it was not specifically trained to copy.\n\nThe technical approach targets the hardest part of voice generation: producing natural-sounding speech from limited information about a speaker. If the",
+    "urls": [
+      "https://x.com/_akhaliq/status/2120749548851368358/video/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/WarGuy_/status/2120761856398623055"
+  },
+  {
+    "id": "2120846711908364596",
+    "username": "_akhaliq",
+    "created_at": "2026-11-12T11:50:34.000Z",
+    "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 3695,
+      "like_count": 13,
+      "quote_count": 0,
+      "reply_count": 8,
+      "retweet_count": 1
+    },
+    "text": "Ernie 5.5 flash preview \n\nhttps://t.co/3O8oJjGXGU",
+    "urls": [
+      "https://huggingface.co/spaces/akhaliq/ernie-5.5-flash-preview"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/_akhaliq/status/2120846711908364596"
+  },
+  {
+    "id": "2120711676999913790",
+    "username": "BaiduResearch",
+    "created_at": "2026-11-12T02:53:59.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1748,
+      "like_count": 31,
+      "quote_count": 1,
+      "reply_count": 5,
+      "retweet_count": 3
+    },
+    "text": "ERNIE 5.5 Flash Preview scored 1668 on the latest Code Arena WebDev leaderboard, ranking #2 among open-source models and #4 among Chinese models.\nThis is a good step forward, and we’ll keep working to improve the model’s coding capabilities. https://t.co/WYiXseee7B",
+    "urls": [
+      "https://twitter.com/arena/status/2120685092909838405"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/BaiduResearch/status/2120711676999913790"
+  },
+  {
+    "id": "2120687437366329577",
+    "username": "Baidu_ERNIE",
+    "created_at": "2026-11-12T01:17:40.000Z",
+    "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1454,
+      "like_count": 44,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 4
+    },
+    "text": "ERNIE 5.5 Flash Preview is making waves in Code Arena — now trending toward the #2 open model in WebDev at 1668 pts. \n\nApache 2.0 open-sourcing is coming soon. Stay tuned. 🚀 https://t.co/wSV98zn5ob",
+    "urls": [
+      "https://twitter.com/arena/status/2120685092909838405"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_ERNIE/status/2120687437366329577"
+  },
+  {
+    "id": "2120685293296849309",
+    "username": "Baidu_Inc",
+    "created_at": "2026-11-12T01:09:09.000Z",
+    "metrics": {
+      "bookmark_count": 3,
+      "impression_count": 4444,
+      "like_count": 79,
+      "quote_count": 2,
+      "reply_count": 12,
+      "retweet_count": 7
+    },
+    "text": "The latest from @arena 🚀\n\nERNIE 5.5 Flash Preview — 280B total parameters, just 14B active per token. See how it stacks up.\n\nThanks to the community for putting it to the test! 🙌 https://t.co/A5iQIcphdI",
+    "urls": [
+      "https://twitter.com/arena/status/2120685092909838405"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_Inc/status/2120685293296849309"
+  },
+  {
+    "id": "2120657830940406234",
+    "username": "Baidu_ERNIE",
+    "created_at": "2026-11-11T23:20:01.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1064,
+      "like_count": 19,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+    },
+    "text": "ERNIE 5.5 Flash Preview is climbing the @arena. Bring on your toughest challenges. 🔥 https://t.co/0OzABWzOXR",
+    "urls": [
+      "https://twitter.com/arena/status/2120532036435980543"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_ERNIE/status/2120657830940406234"
+  },
+  {
+    "id": "2120562606318707116",
+    "username": "Baidu_Inc",
+    "created_at": "2026-11-11T17:01:38.000Z",
+    "metrics": {
+      "bookmark_count": 7,
+      "impression_count": 4339,
+      "like_count": 72,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 4
+    },
+    "text": "ERNIE 5.5 Flash Preview is ready. Give it your hardest tasks. 👀 https://t.co/83gBqDAakR",
+    "urls": [
+      "https://twitter.com/arena/status/2120532036435980543"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_Inc/status/2120562606318707116"
+  },
+  {
+    "id": "2120538667387408795",
+    "username": "Baidu_ERNIE",
+    "created_at": "2026-11-11T15:26:30.000Z",
+    "metrics": {
+      "bookmark_count": 11,
+      "impression_count": 1790,
+      "like_count": 46,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 1
+    },
+    "text": "ERNIE 5.5 Flash Preview is now on @OpenRouter. Free until Nov 30.\n\nStart building 👉 https://t.co/bvYii7yBSu https://t.co/5Sm5fLkjDz",
+    "urls": [
+      "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
+      "https://twitter.com/Baidu_ERNIE/status/2120425542688379314"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_ERNIE/status/2120538667387408795"
+  },
+  {
+    "id": "2120527053032399316",
+    "username": "Baidu_ERNIE",
+    "created_at": "2026-11-11T14:40:21.000Z",
+    "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 377,
+      "like_count": 12,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 0
+    },
+    "text": "ERNIE 5.5 Flash Preview is now on @OpenRouter. Free until Nov 30.\n\nStart building 👉 https://t.co/htFPQIZT7S https://t.co/5Sm5fLkjDz",
+    "urls": [
+      "https://openrouter.ai/baidu/ernie-5.5-flash-previe",
+      "https://twitter.com/Baidu_ERNIE/status/2120425542688379314"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_ERNIE/status/2120527053032399316"
+  },
+  {
+    "id": "2120433240288952749",
+    "username": "Baidu_Inc",
+    "created_at": "2026-11-11T08:27:34.000Z",
+    "metrics": {
+      "bookmark_count": 33,
+      "impression_count": 8835,
+      "like_count": 74,
+      "quote_count": 3,
+      "reply_count": 3,
+      "retweet_count": 8
+    },
+    "text": "Try ERNIE 5.5 Flash Preview for free on OpenRouter 👇\nhttps://t.co/8WR7H4xUrn",
+    "urls": [
+      "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_Inc/status/2120433240288952749"
+  },
+  {
+    "id": "2120425574678302996",
+    "username": "Baidu_ERNIE",
+    "created_at": "2026-11-11T07:57:07.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 793,
+      "like_count": 11,
+      "quote_count": 1,
+      "reply_count": 0,
+      "retweet_count": 0
+    },
+    "text": "Under the hood: the same architecture and tokenizer as ERNIE 5.5 Flash Base. Hybrid sparse attention keeps the KV cache small: 37 of 43 layers store one compressed entry per 128 tokens. A Multi-Router Latent MoE activates 14B of 280B parameters. https://t.co/9UeQ6BIbfN",
+    "urls": [
+      "https://x.com/Baidu_ERNIE/status/2120425574678302996/photo/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_ERNIE/status/2120425574678302996"
+  },
+  {
+    "id": "2120425542688379314",
+    "username": "Baidu_ERNIE",
+    "created_at": "2026-11-11T07:56:59.000Z",
+    "metrics": {
+      "bookmark_count": 45,
+      "impression_count": 15515,
+      "like_count": 292,
+      "quote_count": 14,
+      "reply_count": 33,
+      "retweet_count": 35
+    },
+    "text": "Introducing ERNIE 5.5 Flash Preview, first post-trained model built on the ERNIE 5.5 Flash Base we released earlier. Weights will be open-sourced by November 25.\n\n🔷 280B total / 14B active, 1M-token context\n🔷 Over 200 tokens/s per user on Baidu Qianfan https://t.co/3HoFc7D093",
+    "urls": [
+      "https://x.com/Baidu_ERNIE/status/2120425542688379314/photo/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_ERNIE/status/2120425542688379314"
+  },
+  {
+    "id": "2120391732248637734",
+    "username": "Baidu_Inc",
+    "created_at": "2026-11-11T05:42:38.000Z",
+    "metrics": {
+      "bookmark_count": 422,
+      "impression_count": 248928,
+      "like_count": 1490,
+      "quote_count": 164,
+      "reply_count": 158,
+      "retweet_count": 162
+    },
+    "text": "ERNIE 5.5 Flash Preview just landed! 🔥\n\nBuilt on a new architecture designed for efficient inference, the latest open-weight foundation model in the ERNIE family delivers stronger performance in coding, 3D modeling, knowledge work and content creation. \n\nIt keeps decoding fast https://t.co/C52MoqmuQO",
+    "urls": [
+      "https://x.com/Baidu_Inc/status/2120391732248637734/photo/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_Inc/status/2120391732248637734"
+  },
+  {
+    "id": "2119990501470552363",
+    "username": "BaiduResearch",
+    "created_at": "2026-11-10T03:08:17.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 771,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+    },
+    "text": "On ERNIE 5.5 Flash, ERNIE Evolve tackled three inference optimization challenges:\n• Low-latency inference: Streamlined execution and communication paths on Kunlunxin P800, reaching 623.6% of baseline generation speed.\n• Deterministic inference: Optimized sampling and attention, https://t.co/oFvZJ8XxkX",
+    "urls": [
+      "https://x.com/BaiduResearch/status/2119990501470552363/photo/1",
+      "https://x.com/BaiduResearch/status/2119990501470552363/photo/1",
+      "https://x.com/BaiduResearch/status/2119990501470552363/photo/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/BaiduResearch/status/2119990501470552363"
+  },
+  {
+    "id": "2119990495162355745",
+    "username": "BaiduResearch",
+    "created_at": "2026-11-10T03:08:16.000Z",
+    "metrics": {
+      "bookmark_count": 36,
+      "impression_count": 7877,
+      "like_count": 83,
+      "quote_count": 4,
+      "reply_count": 8,
+      "retweet_count": 13
+    },
+    "text": "Introducing ERNIE Evolve — our automated research system for recursive self-improvement (RSI).\nAcross the three metrics reported for NanoChat AutoResearch and NanoGPT Speedrun, ERNIE Evolve surpassed the best publicly verified results available at the time of evaluation — and it https://t.co/mlWr1eqRcO",
+    "urls": [
+      "https://x.com/BaiduResearch/status/2119990495162355745/photo/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/BaiduResearch/status/2119990495162355745"
+  },
+  {
+    "id": "2119798515832656329",
+    "username": "Baidu_ERNIE",
+    "created_at": "2026-11-09T14:25:24.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 146,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+    },
+    "text": "Next, we put ERNIE Evolve to work on a real engineering task: speeding up the inference for the in-development ERNIE-5.5-Flash.\n\nOn Kunlunxin P800 low-latency generation, throughput reached 623.6% of the initial baseline (+523.6%). The gains came from native fused ops, less https://t.co/6PNX46ms4h",
+    "urls": [
+      "https://x.com/Baidu_ERNIE/status/2119798515832656329/photo/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_ERNIE/status/2119798515832656329"
+  },
+  {
+    "id": "2119778239359209940",
+    "username": "Baidu_ERNIE",
+    "created_at": "2026-11-09T13:04:50.000Z",
+    "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 153,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+    },
+    "text": "Next, we put ERNIE Evolve to work on a real engineering task: speeding up the inference for the in-development ERNIE 5.5 Flash.\n\nOn Kunlunxin P800 low-latency generation, throughput reached 623.6% of the initial baseline (+523.6%). The gains came from native fused ops, less https://t.co/EXGrRbBT5l",
+    "urls": [
+      "https://x.com/Baidu_ERNIE/status/2119778239359209940/photo/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_ERNIE/status/2119778239359209940"
+  },
+  {
+    "id": "2119765512238637559",
+    "username": "Baidu_Inc",
+    "created_at": "2026-11-09T12:14:16.000Z",
+    "metrics": {
+      "bookmark_count": 83,
+      "impression_count": 235035,
+      "like_count": 228,
+      "quote_count": 14,
+      "reply_count": 30,
+      "retweet_count": 29
+    },
+    "text": "Introducing ERNIE Evolve, our automated research system for improving AI training and inference. ⚙️\n\nGiven a clear research goal, it selects research directions, modifies code and runs experiments. Only improvements that pass independent evaluation and review are kept, and each https://t.co/cXEuDafO3W",
+    "urls": [
+      "https://x.com/Baidu_Inc/status/2119765512238637559/photo/1",
+      "https://x.com/Baidu_Inc/status/2119765512238637559/photo/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_Inc/status/2119765512238637559"
+  },
+  {
+    "id": "2120391732248637734",
+    "username": "Baidu_Inc",
+    "created_at": "2026-11-11T05:42:38.000Z",
+    "metrics": {
+      "bookmark_count": 422,
+      "impression_count": 248884,
+      "like_count": 1490,
+      "quote_count": 164,
+      "reply_count": 158,
+      "repost_count": 162
+    },
+    "text": "ERNIE 5.5 Flash Preview just landed! 🔥\n\nBuilt on a new architecture designed for efficient inference, the latest open-weight foundation model in the ERNIE family delivers stronger performance in coding, 3D modeling, knowledge work and content creation. \n\nIt keeps decoding fast https://t.co/C52MoqmuQO",
+    "urls": [
+      "https://x.com/Baidu_Inc/status/2120391732248637734/photo/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/Baidu_Inc/status/2120391732248637734"
+  },
+  {
+    "id": "2120846711908364596",
+    "username": "_akhaliq",
+    "created_at": "2026-11-12T11:50:34.000Z",
+    "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 3695,
+      "like_count": 13,
+      "quote_count": 0,
+      "reply_count": 8,
+      "repost_count": 1
+    },
+    "text": "Ernie 5.5 flash preview \n\nhttps://t.co/3O8oJjGXGU",
+    "urls": [
+      "https://huggingface.co/spaces/akhaliq/ernie-5.5-flash-preview"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/_akhaliq/status/2120846711908364596"
+  },
+  {
+    "id": "2120749548851368358",
+    "username": "_akhaliq",
+    "created_at": "2026-11-12T05:24:28.000Z",
+    "metrics": {
+      "bookmark_count": 91,
+      "impression_count": 11341,
+      "like_count": 120,
+      "quote_count": 4,
+      "reply_count": 15,
+      "repost_count": 14
+    },
+    "text": "VoxMel\n\nWavelet-Factorized Autoregressive Mel-Spectrogram Modeling for Zero-Shot Speech Synthesis\n\nmodels: https://t.co/W4SP7LigL2 https://t.co/2UVigkvn6a",
+    "urls": [
+      "https://huggingface.co/VoxDance-Lab",
+      "https://x.com/_akhaliq/status/2120749548851368358/video/1"
+    ],
+    "note": "",
+    "refs": [],
+    "url": "https://x.com/_akhaliq/status/2120749548851368358"
+  },
+  {
+    "id": "2120657830940406234",
+    "username": "Baidu_ERNIE",
+    "created_at": "2026-11-11T23:20:01.000Z",
+    "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1064,
+      "like_count": 19,
+      "quote_count": 0,
+      "reply_count": 1,
+      "repost_count": 0
+    },
+    "text": "ERNIE 5.5 Flash Preview is climbing the @arena. Bring on your toughest challenges. 🔥 https://t.co/0OzABWzOXR",
+    "urls": [
+      "https://twitter.com/arena/status/2120532036435980543"
+    ],
+    "note": "",
+    "refs": [
+      {
+        "id": "2120532036435980543",
+        "type": "quoted"
+      }
+    ],
+    "url": "https://x.com/Baidu_ERNIE/status/2120657830940406234"
+  },
+  {
+    "id": "2120532036435980543",
+    "username": "arena",
+    "created_at": "2026-11-11T15:00:09.000Z",
+    "metrics": {
+      "bookmark_count": 14,
+      "impression_count": 20231,
+      "like_count": 159,
+      "quote_count": 2,
+      "reply_count": 14,
+      "repost_count": 9
+    },
+    "text": "ERNIE 5.5 Flash Preview by @Baidu_Inc is now in the Arena. \n\nHead over to test it in Battle Mode with your toughest coding, web development, and real-world tasks to see how it does. \n\nScores for Code Arena coming soon. https://t.co/Gx2nPIgWaN https://t.co/Jbm1TDwl02",
+    "urls": [
+      "https://x.com/arena/status/2120532036435980543/photo/1",
+      "https://twitter.com/Baidu_Inc/status/2120391732248637734"
+    ],
+    "note": "",
+    "refs": [
+      {
+        "id": "2120391732248637734",
+        "type": "quoted"
+      }
+    ],
+    "url": "https://x.com/arena/status/2120532036435980543"
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12T13:01:37.775603+00:00",
+  "checked_at": "2026-11-13T13:09:27.428183+00:00",
   "eligible": [],
   "needs_parameter_verification": [
     {
@@ -15,6 +15,10 @@
       "context_length": 262144
     },
     {
+      "id": "particle-ai/particle-1:free",
+      "context_length": 1048576
+    },
+    {
       "id": "recursive/flint-v1.0:free",
       "context_length": 262144
     },
@@ -25,10 +29,6 @@
     {
       "id": "dots-studio/dots-3-note-preview:free",
       "context_length": 512000
-    },
-    {
-      "id": "liquid/lfm-2.5-2.6b:free",
-      "context_length": 65536
     },
     {
       "id": "nvidia/nemotron-3.5-lightning:free",
@@ -67,13 +67,13 @@
     "google/gemma-4-31b-it:free",
     "google/lyria-3-clip-preview",
     "google/lyria-3-pro-preview",
-    "liquid/lfm-2.5-2.6b:free",
     "liquid/lfm-3-1.7b:free",
     "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "nvidia/nemotron-3-ultra-550b-a55b:free",
     "nvidia/nemotron-3.5-lightning:free",
     "nvidia/nemotron-3.5-super-vl:free",
     "openrouter/free",
+    "particle-ai/particle-1:free",
     "recursive/flint-v1.0:free",
     "thinkingmachines/inkling-2-small:free"
   ],

@@ -1,0 +1,551 @@
+{
+  "data": [
+    {
+      "author_id": "2096444031370924032",
+      "created_at": "2026-11-12T18:24:01.000Z",
+      "edit_history_tweet_ids": [
+        "2120945726670962870"
+      ],
+      "id": "2120945726670962870",
+      "in_reply_to_user_id": "2096444031370924032",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 71,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2120940898251096122",
+          "type": "replied_to"
+        }
+      ],
+      "text": "More on Edge0-145B, including the architecture and demos:\nhttps://t.co/oHe5qMDGEu",
+      "url": "https://x.com/Edge0_AI/status/2120945726670962870"
+    },
+    {
+      "author_id": "886311068",
+      "created_at": "2026-11-12T18:02:24.000Z",
+      "edit_history_tweet_ids": [
+        "2120940287887622146"
+      ],
+      "id": "2120940287887622146",
+      "in_reply_to_user_id": "886311068",
+      "public_metrics": {
+        "bookmark_count": 65,
+        "impression_count": 2210,
+        "like_count": 50,
+        "quote_count": 1,
+        "reply_count": 5,
+        "retweet_count": 2
+      },
+      "referenced_tweets": [
+        {
+          "id": "2120940275069780234",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Both models are open today: the weights and the engine.\n\n⛰️ Edge0-145B: flagship — 86.5 on Terminal-Bench 2.1\n🪶 Edge0-120B: lighter version\n\nRuns on your laptop or desktop. Serves an OpenAI- and Anthropic-compatible API, so you can point your coding agent at localhost and keep",
+      "url": "https://x.com/SamuelZengML/status/2120940287887622146"
+    },
+    {
+      "author_id": "886311068",
+      "created_at": "2026-11-12T18:02:21.000Z",
+      "edit_history_tweet_ids": [
+        "2120940275069780234"
+      ],
+      "id": "2120940275069780234",
+      "in_reply_to_user_id": "886311068",
+      "public_metrics": {
+        "bookmark_count": 10,
+        "impression_count": 1939,
+        "like_count": 21,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1
+      },
+      "referenced_tweets": [
+        {
+          "id": "2120940254962258268",
+          "type": "replied_to"
+        }
+      ],
+      "text": "How do we run a 145B model on a laptop or consumer GPU?\n\nThe short answer: we don't keep all 145B parameters on the GPU at once.\n\nEdge0-145B is a sparse MoE model with 512 experts per layer. Only 10 are activated for each token, which works out to roughly 6.6B active parameters. https://t.co/wrjrFIAAao",
+      "url": "https://x.com/SamuelZengML/status/2120940275069780234"
+    },
+    {
+      "author_id": "886311068",
+      "created_at": "2026-11-12T18:02:16.000Z",
+      "edit_history_tweet_ids": [
+        "2120940254962258268"
+      ],
+      "id": "2120940254962258268",
+      "in_reply_to_user_id": "886311068",
+      "public_metrics": {
+        "bookmark_count": 5,
+        "impression_count": 1778,
+        "like_count": 15,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1
+      },
+      "referenced_tweets": [
+        {
+          "id": "2120940024925688212",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Local vibe coding #4: PCB design\n\nThis time we gave Edge0-145B a different task: design a circuit board, then animate how it gets made.\n\nIt placed the components and routed both layers in KiCad, brought the board into Unreal Engine 5, set up the cameras and lighting, and rendered https://t.co/80DavuuhA7",
+      "url": "https://x.com/SamuelZengML/status/2120940254962258268"
+    },
+    {
+      "author_id": "2096444031370924032",
+      "created_at": "2026-11-12T18:01:27.000Z",
+      "edit_history_tweet_ids": [
+        "2120940049391100394"
+      ],
+      "id": "2120940049391100394",
+      "public_metrics": {
+        "bookmark_count": 4,
+        "impression_count": 949,
+        "like_count": 15,
+        "quote_count": 1,
+        "reply_count": 1,
+        "retweet_count": 2
+      },
+      "referenced_tweets": [
+        {
+          "id": "2120939739431972922",
+          "type": "quoted"
+        }
+      ],
+      "text": "A major turning point for our crew.\n\nFrontier-level agentic coding, now running fully on-device. Edge0-145B and Edge0-120B are available with open weights.\n\nGive them a try. https://t.co/PUz1LkImYb",
+      "url": "https://x.com/Edge0_AI/status/2120940049391100394"
+    },
+    {
+      "author_id": "886311068",
+      "created_at": "2026-11-12T18:01:21.000Z",
+      "edit_history_tweet_ids": [
+        "2120940024925688212"
+      ],
+      "id": "2120940024925688212",
+      "in_reply_to_user_id": "886311068",
+      "public_metrics": {
+        "bookmark_count": 5,
+        "impression_count": 1828,
+        "like_count": 22,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 2
+      },
+      "referenced_tweets": [
+        {
+          "id": "2120939910911955139",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Local vibe coding #3: video production\n\nCan a flying Roadster actually work? We gave Edge0-145B one prompt to find out.\n\nIt worked through the physics, wrote a script, recreated the car in 3D, and put together a 94-second explainer.\n\nAll on a laptop, without calling a cloud https://t.co/JkViCdNriH",
+      "url": "https://x.com/SamuelZengML/status/2120940024925688212"
+    },
+    {
+      "author_id": "886311068",
+      "created_at": "2026-11-12T18:00:54.000Z",
+      "edit_history_tweet_ids": [
+        "2120939910911955139"
+      ],
+      "id": "2120939910911955139",
+      "in_reply_to_user_id": "886311068",
+      "public_metrics": {
+        "bookmark_count": 3,
+        "impression_count": 1932,
+        "like_count": 19,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1
+      },
+      "referenced_tweets": [
+        {
+          "id": "2120939850811748770",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Local vibe coding #2: game worlds\n\nOne prompt, five reference images, and no internet.\n\nWe asked Edge0-145B to build a medieval city for a fantasy RPG.\n\nIt built the whole thing from scratch: red-tiled roofs, a market square, a Gothic cathedral with twin towers, and even a https://t.co/oO5QqDA4mc",
+      "url": "https://x.com/SamuelZengML/status/2120939910911955139"
+    },
+    {
+      "author_id": "886311068",
+      "created_at": "2026-11-12T18:00:40.000Z",
+      "edit_history_tweet_ids": [
+        "2120939850811748770"
+      ],
+      "id": "2120939850811748770",
+      "in_reply_to_user_id": "886311068",
+      "public_metrics": {
+        "bookmark_count": 6,
+        "impression_count": 2134,
+        "like_count": 27,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2120939793332990026",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Local vibe coding #1: 3D modeling\n\nOne prompt. Wi-Fi off.\n\nWe asked Edge0-145B to build Manhattan in Blender.\n\nIt wrote the Python code, generated thousands of buildings on a street grid, added the skyline and rivers on both sides, and rendered a 20-second flythrough.\n\nIt even https://t.co/pQWia9jqNR",
+      "url": "https://x.com/SamuelZengML/status/2120939850811748770"
+    },
+    {
+      "author_id": "886311068",
+      "created_at": "2026-11-12T18:00:26.000Z",
+      "edit_history_tweet_ids": [
+        "2120939793332990026"
+      ],
+      "id": "2120939793332990026",
+      "in_reply_to_user_id": "886311068",
+      "public_metrics": {
+        "bookmark_count": 5,
+        "impression_count": 2388,
+        "like_count": 21,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2120939775750504641",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Light and fast: 100B-class models fit on a laptop.\n\n- Edge0-145B: 29GB peak memory; 72.8 avg across 6 benchmarks\n- Qwen3.8-Flash-Next: ~70GB; 71.7\n- DeepSeek-V4-Flash: ~87GB; 70.1\n\nSame intelligence as models that need 3× more memory. https://t.co/Eb06WxBrpF",
+      "url": "https://x.com/SamuelZengML/status/2120939793332990026"
+    },
+    {
+      "author_id": "886311068",
+      "created_at": "2026-11-12T18:00:22.000Z",
+      "edit_history_tweet_ids": [
+        "2120939775750504641"
+      ],
+      "id": "2120939775750504641",
+      "in_reply_to_user_id": "886311068",
+      "public_metrics": {
+        "bookmark_count": 4,
+        "impression_count": 2829,
+        "like_count": 25,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 1
+      },
+      "referenced_tweets": [
+        {
+          "id": "2120939758147006743",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Frontier-level agentic coding, fully on-device.\n\nAcross six major benchmarks, Edge0-145B performs on par with leading open cloud models such as DeepSeek-V4-Flash.\n\nIts edge is agentic coding:\n- 64.6 on DeepSWE 1.1\n- 86.5 on Terminal-Bench 2.1\n\nIt’s ahead of comparable open models https://t.co/oP9TUhajGH",
+      "url": "https://x.com/SamuelZengML/status/2120939775750504641"
+    },
+    {
+      "author_id": "886311068",
+      "created_at": "2026-11-12T18:00:13.000Z",
+      "edit_history_tweet_ids": [
+        "2120939739431972922"
+      ],
+      "id": "2120939739431972922",
+      "public_metrics": {
+        "bookmark_count": 653,
+        "impression_count": 133780,
+        "like_count": 746,
+        "quote_count": 75,
+        "reply_count": 93,
+        "retweet_count": 87
+      },
+      "text": "Introducing Edge0-145B and Edge0-120B, @Edge0_AI’s first device-native 100B-class foundation models with open weights.\n\nCloud-level intelligence on your laptop. Free, offline, and fast enough for real vibe coding.\n\n- Smart: beats Claude Opus 4.6 on Terminal-Bench 2.1 (86.5% vs. https://t.co/KaqYWrQztm",
+      "url": "https://x.com/SamuelZengML/status/2120939739431972922"
+    },
+    {
+      "author_id": "2096444031370924032",
+      "created_at": "2026-11-12T11:45:00.000Z",
+      "edit_history_tweet_ids": [
+        "2120845312399188473"
+      ],
+      "id": "2120845312399188473",
+      "public_metrics": {
+        "bookmark_count": 3,
+        "impression_count": 444,
+        "like_count": 8,
+        "quote_count": 1,
+        "reply_count": 1,
+        "retweet_count": 1
+      },
+      "text": "35B parameters on a phone. Sounds like a lot to squeeze into RAM.\n\nHere's the thing: not all the experts need to be in memory at the same time.\n\nWith Edge0-35B, we keep expert weights in local storage and bring in the ones needed for inference.\n\nWe also use a trained prerouter to",
+      "url": "https://x.com/Edge0_AI/status/2120845312399188473"
+    },
+    {
+      "author_id": "2096444031370924032",
+      "created_at": "2026-11-11T11:20:13.000Z",
+      "edit_history_tweet_ids": [
+        "2120476685682532581"
+      ],
+      "id": "2120476685682532581",
+      "in_reply_to_user_id": "2096444031370924032",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 156,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2120476673250668939",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Explore Edge0\nDiscord: https://t.co/wHJXOvr870\nCode: https://t.co/6TrEfyTlry",
+      "url": "https://x.com/Edge0_AI/status/2120476685682532581"
+    },
+    {
+      "author_id": "2096444031370924032",
+      "created_at": "2026-11-10T14:58:19.000Z",
+      "edit_history_tweet_ids": [
+        "2120169185477304453"
+      ],
+      "id": "2120169185477304453",
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 230,
+        "like_count": 5,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Airplane mode has always meant giving up a few things.\n\nLocal AI doesn't have to be one of them.\n\nOnce Edge0-35B is downloaded and set up, you can disconnect from the internet and keep chatting with the model.\n\nA small change in your settings. A pretty big change in how AI works. https://t.co/rrYBt1jU7B",
+      "url": "https://x.com/Edge0_AI/status/2120169185477304453"
+    },
+    {
+      "author_id": "2096444031370924032",
+      "created_at": "2026-11-06T13:30:18.000Z",
+      "edit_history_tweet_ids": [
+        "2118697484251955543"
+      ],
+      "id": "2118697484251955543",
+      "in_reply_to_user_id": "2096444031370924032",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 28,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118697472415658417",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Edge0 uses 4-bit quantization and loads expert weights as needed. Our 35B model also runs on a 16 GB M2 Mac.\n\nIntelligence at zero distance for everyone.\n\nCode: https://t.co/6TrEfyTlry\nDiscord: https://t.co/wHJXOvr870",
+      "url": "https://x.com/Edge0_AI/status/2118697484251955543"
+    },
+    {
+      "author_id": "2096444031370924032",
+      "created_at": "2026-11-06T13:30:15.000Z",
+      "edit_history_tweet_ids": [
+        "2118697472415658417"
+      ],
+      "id": "2118697472415658417",
+      "in_reply_to_user_id": "2096444031370924032",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 42,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118697460721979856",
+          "type": "replied_to"
+        }
+      ],
+      "text": "And on-device AI doesn't have to mean small models or expensive hardware.\n\nOur internal test of Edge0-35B on an iPhone 17 Pro Max:\n- 70+ tok/s prefill throughput\n- 14–16 tok/s decoding throughput\n- 2.80 GiB reported memory peak\n- 4,096-token default context\n\nLarge-model inference",
+      "url": "https://x.com/Edge0_AI/status/2118697472415658417"
+    },
+    {
+      "author_id": "2096444031370924032",
+      "created_at": "2026-11-05T13:30:18.000Z",
+      "edit_history_tweet_ids": [
+        "2118335098370297932"
+      ],
+      "id": "2118335098370297932",
+      "in_reply_to_user_id": "2096444031370924032",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 21,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118335086575943696",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Edge0 brings open-source 8B and 35B AI models to consumer devices, with runtimes for macOS, iOS, Android and Windows.\n\nWant to keep your AI workflow on-device?\n\nCode and setup: https://t.co/6TrEfyTlry\n\nDiscord: https://t.co/wHJXOvr870",
+      "url": "https://x.com/Edge0_AI/status/2118335098370297932"
+    },
+    {
+      "author_id": "2096444031370924032",
+      "created_at": "2026-11-05T13:30:13.000Z",
+      "edit_history_tweet_ids": [
+        "2118335074576064847"
+      ],
+      "id": "2118335074576064847",
+      "in_reply_to_user_id": "2096444031370924032",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 21,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118335062639022288",
+          "type": "replied_to"
+        }
+      ],
+      "text": "And local AI doesn't have to mean a high-end GPU workstation.\n\nEdge0's optimized 35B model can run on a 16 GB M2 Mac.\n\nWe've even run it on an iPhone 16 Pro.\n\nYour own laptop or phone can handle inference without sending prompts to a cloud model.",
+      "url": "https://x.com/Edge0_AI/status/2118335074576064847"
+    },
+    {
+      "author_id": "2096444031370924032",
+      "created_at": "2026-11-04T15:14:24.000Z",
+      "edit_history_tweet_ids": [
+        "2117998904931442737"
+      ],
+      "id": "2117998904931442737",
+      "in_reply_to_user_id": "2096444031370924032",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 25,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2117998892994486717",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Edge0 is open source, with 8B and 35B models and runtimes for macOS, iOS, Android and Windows.\n\nWant to try local AI on your own hardware?\n\nCode and setup:https://t.co/6TrEfyTlry\n\nDiscord:https://t.co/wHJXOvr870",
+      "url": "https://x.com/Edge0_AI/status/2117998904931442737"
+    },
+    {
+      "author_id": "2096444031370924032",
+      "created_at": "2026-11-04T15:14:21.000Z",
+      "edit_history_tweet_ids": [
+        "2117998892994486717"
+      ],
+      "id": "2117998892994486717",
+      "in_reply_to_user_id": "2096444031370924032",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 22,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2117998881153958336",
+          "type": "replied_to"
+        }
+      ],
+      "text": "How?\n\nEdge0 uses 4-bit quantization and streams expert weights from storage as needed, rather than keeping the entire model in RAM.\n\nThat makes large sparse models practical on smaller devices.\n\nHardware, storage and electricity still cost money, of course.",
+      "url": "https://x.com/Edge0_AI/status/2117998892994486717"
+    },
+    {
+      "author_id": "2096444031370924032",
+      "created_at": "2026-11-04T15:14:18.000Z",
+      "edit_history_tweet_ids": [
+        "2117998881153958336"
+      ],
+      "id": "2117998881153958336",
+      "in_reply_to_user_id": "2096444031370924032",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 13,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2117998869460197541",
+          "type": "replied_to"
+        }
+      ],
+      "text": "But can an ordinary computer run a large AI model?\n\nYes.\n\nEdge0's optimized 35B model can run on a 16 GB M2 Mac.\n\nIt even runs smoothly on an iPhone 16 Pro.\n\nNo giant GPU workstation required.",
+      "url": "https://x.com/Edge0_AI/status/2117998881153958336"
+    },
+    {
+      "author_id": "2096444031370924032",
+      "created_at": "2026-11-02T16:16:07.000Z",
+      "edit_history_tweet_ids": [
+        "2117289661945000012"
+      ],
+      "id": "2117289661945000012",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 87,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2117000819623243925",
+          "type": "quoted"
+        }
+      ],
+      "text": "We want local AI to be a real option for everyone, not just people with high-end hardware.\n\nThat's what we're building toward at Edge0.\n\nWe're open source, and we have a major release coming next month. Check out our GitHub, join the discussion, and follow along! \n\nLinks in the https://t.co/PdRlTd8gSn",
+      "url": "https://x.com/Edge0_AI/status/2117289661945000012"
+    }
+  ],
+  "includes": {
+    "users": [
+      {
+        "id": "2096444031370924032",
+        "name": "edge0(official)",
+        "username": "Edge0_AI"
+      },
+      {
+        "id": "886311068",
+        "name": "Samuel Zeng",
+        "username": "SamuelZengML"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2120945726670962870",
+    "next_token": "b26v89c19zqg8o3juzlyi9dmigx2d8ot2dm7itfr3azjx",
+    "oldest_id": "2117289661945000012",
+    "result_count": 22
+  }
+}

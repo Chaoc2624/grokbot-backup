@@ -1,0 +1,134 @@
+{
+ "label": "2026-11-13 热梗轨",
+ "run_at": "2026-11-13 21:02",
+ "date": "2026-11-13",
+ "tracks": {
+  "meme": {
+   "items": [],
+   "keywords": []
+  }
+ },
+ "coverage": {
+  "tiktok": {
+   "status": "needs_browser",
+   "direct": false,
+   "method": "TikTok Creative Center public HTML (JS-rendered); official Discovery API requires advertiser token; official TikTok oEmbed can enrich a known public video URL",
+   "source_url": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=US&period=7",
+   "collected_at": "2026-11-13 21:02",
+   "http_status": 200,
+   "docs": "https://business-api.tiktok.com/portal/docs?id=1756046871868418",
+   "note": "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=US&period=7: HTTP 200，官方页可打开，但热榜行未出现在静态 HTML（前端渲染）。这不等于无法访问；需父线程用浏览器读取可见 UI，未调用未公开内部接口 https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=TW&period=7: HTTP 200，官方页可打开，但热榜行未出现在静态 HTML（前端渲染）。这不等于无法访问；需父线程用浏览器读取可见 UI，未调用未公开内部接口 Discovery API 探测 HTTP 200；业务码 40104：The access_token is empty.；完整热榜需要 advertiser_id + access_token（TikTok for Business 广告账户授权） 静态 HTML 无热榜行，但官方页 HTTP 200 可打开；请父线程按 parent_ui_task 读取可见榜，不要把前端渲染当成无法访问。未把 Google News/X 或内部接口当作直采。",
+   "items_from_html": 0,
+   "parent_ui_task": {
+    "why": "Creative Center Trends 是官方公开页，数据在前端渲染，本环境 curl 看不到行。",
+    "pages": [
+     "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=US&period=7",
+     "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=TW&period=7",
+     "https://ads.tiktok.com/creative/creativeCenter/trends/video?countryCode=US&period=7",
+     "https://ads.tiktok.com/creative/creativeCenter/trends/video?countryCode=TW&period=7"
+    ],
+    "steps": [
+     "未登录打开 Hashtag 页（先 US，再 TW）；如有 cookie 横幅只接受必要项。",
+     "若出现登录墙或必须登录才能看到任何标签/视频，立即停止并回报，不要登录。",
+     "若未登录也能看到榜（常见是顶部少量标签），抄写可见 hashtag 名称、可见播放/发布量、时间范围（7 天）。",
+     "点击页面上的 Video / 视频趋势标签（或打开上面的 trends/video 页）。",
+     "对每条可见视频抄写：原始 tiktok.com/@user/video/数字ID 链接、作者、可见播放量、可见发布日；没有的字段留空，不要编。",
+     "截图整个可见榜。优先挑多人复刻、可用自己照片/换脸生成的 AI 视频梗，不要泛 AI 新闻。"
+    ],
+    "stop_if_login": true
+   }
+  },
+  "youtube": {
+   "status": "partial",
+   "direct": false,
+   "method": "Official YouTube channel/playlist Atom RSS + oEmbed (keyless, not a global trend chart); optional Data API v3 videos.list chart=mostPopular if YOUTUBE_API_KEY is set",
+   "source_url": "https://www.youtube.com/feeds/videos.xml",
+   "collected_at": "2026-11-13 21:02",
+   "http_status": 403,
+   "key_env": "",
+   "docs": "https://developers.google.com/youtube/v3/docs/videos/list",
+   "note": "Data API mostPopular 探测 HTTP 403 / HTTPError 403: Forbidden。本机未配置 YOUTUBE_API_KEY。该接口不是全站热梗搜索；2025-07-21 起 mostPopular 来自 Music/Movies/Gaming，不等于已下线的 Trending Now。 官方 RSS 健康检查 HTTP 200，15 条；oEmbed ok one for each day of the week maybe @AClothesHorse。健康检查频道的视频不写入热梗条目。 已接通官方无密钥 RSS/oEmbed 采集链路，但 meme_sources.json 的 public_channel_ids / public_playlist_ids 仍为空，故本轮没有频道直采条目。全站热梗搜索仍需 Data API key、或父线程按 parent_ui_task 读搜索页。 未观看视频，仅元数据。未把 X/新闻转述当作 YouTube 直采。",
+   "item_count": 0,
+   "rss_verified": true,
+   "rss_channels": 0,
+   "parent_ui_task": {
+    "why": "YouTube 搜索/Shorts/标签页是前端渲染，curl 的 HTML 里没有可解析的视频 URL；不要解析未文档化的 ytInitialData。",
+    "pages": [
+     "https://www.youtube.com/results?search_query=AI+face+swap+OR+%22photo+to+video%22+trend&sp=EgIYAQ%253D%253D",
+     "https://www.youtube.com/hashtag/aivideo",
+     "https://www.youtube.com/shorts/"
+    ],
+    "steps": [
+     "未登录打开第一条搜索页（已带 Shorts 过滤 sp=EgIYAQ%253D%253D）。如出现同意/登录墙挡住结果，立即停止并回报，不要登录。",
+     "抄写前 15 条可见 Shorts：原始 URL（优先 https://www.youtube.com/shorts/VIDEO_ID）、标题、频道、可见播放量、可见发布时间。没有的字段留空。",
+     "在结果里优先找多人用自己照片/换脸复刻的 AI 视频梗，排除教程、工具评测、泛 AI 新闻。",
+     "如有余力再打开 hashtag/aivideo 与 shorts 页，同样只读可见项并截图。"
+    ],
+    "stop_if_login": true
+   }
+  },
+  "instagram": {
+   "status": "unavailable",
+   "direct": false,
+   "method": "No public no-auth Instagram trend RSS/API; public reels/tag pages probed without login",
+   "source_url": "https://www.instagram.com/reels/",
+   "collected_at": "2026-11-13 21:02",
+   "docs": "https://transparency.meta.com/en-us/researchtools/meta-content-library/",
+   "http_status": 200,
+   "final_url": "https://www.instagram.com/explore/tags/aivideo/",
+   "login_required": false,
+   "note": "https://www.instagram.com/reels/: HTTP 200，final=https://www.instagram.com/reels/。静态 HTML 未见可解析的公开 reel URL。 https://www.instagram.com/explore/tags/aivideo/: HTTP 200，final=https://www.instagram.com/explore/tags/aivideo/。静态 HTML 未见可解析的公开 reel URL。 Instagram 没有免申请的官方热梗 RSS。Meta Content Library 须 CASD 科研审核；Graph API 标签搜索须商业应用审核。 本次未登录、未复制 cookies、未调用非公开接口。官方 oEmbed 现也需要 Meta 应用 token，无法对未知 Reel 做无密钥补全。",
+   "parent_ui_task": {
+    "why": "本环境请求 Instagram Reels 已被重定向到登录页；父线程可用浏览器做只读检查，遇到登录即停。",
+    "pages": [
+     "https://www.instagram.com/reels/",
+     "https://www.instagram.com/explore/tags/aivideo/"
+    ],
+    "steps": [
+     "未登录打开 https://www.instagram.com/reels/ 。",
+     "若跳转 accounts/login 或必须登录才能看公开 Reels，立即停止并回报，不要登录。",
+     "若未登录也能看到公开 Reels，再打开 https://www.instagram.com/explore/tags/aivideo/ 与可见的音频页。",
+     "抄写每条可见内容：原始 instagram.com/reel/CODE 链接、作者、可见播放/点赞、可见发布日；没有的字段留空。",
+     "只收多人复刻、可用自己照片/换脸生成的 AI 视频梗。截图后结束。"
+    ],
+    "stop_if_login": true
+   }
+  },
+  "secondary_google_trends": {
+   "status": "ok",
+   "direct": false,
+   "method": "Official Google Trends daily search RSS (secondary/discovery only)",
+   "source_url": "https://trends.google.com/trending/rss?geo=TW",
+   "collected_at": "2026-11-13 21:02",
+   "http_status": 200,
+   "note": "官方 Google Trends RSS，仅作 discovery 线索，不是三平台直采。 过滤后保留 0 条明显与 AI 视频/复刻梗相关的词；其余搜索热词已丢弃。",
+   "kept": 0
+  }
+ },
+ "permissions_needed": [
+  {
+   "platform": "tiktok",
+   "need": "TikTok for Business 广告账户授权，调用官方 Discovery API（advertiser_id + access_token）才能稳定取得热门标签/音乐；Creative Center 登录后可见更完整 Trends。",
+   "plugin_note": "目录里的 TikTok for Business 连接器面向广告投放，不是公开热梗源；本次未安装。"
+  },
+  {
+   "platform": "youtube",
+   "need": "全站热梗/搜索：配置官方 YouTube Data API v3 密钥（YOUTUBE_API_KEY）。已知公开频道的最新视频已可用官方无密钥 RSS + oEmbed；把频道 ID 写入 meme_sources.json 的 public_channel_ids 即可每日直采。搜索/Shorts 页也可由父线程按 parent_ui_task 只读抄录。",
+   "plugin_note": "TubeAlfred（未安装）技能含 public search/trending/hashtags/Shorts，自称无需 YouTube API key，但连接需要 TubeAlfred 账号 API key 与 credits（https://tubealfred.com/app/api-keys），不是官方 Data API。未获用户批准付费前不安装。"
+  },
+  {
+   "platform": "instagram",
+   "need": "本环境访问 instagram.com/reels/ 会重定向到登录页。自动化直采需要经 CASD 审核的 Meta Content Library，或已审核的 Instagram Graph API 商业应用。不要登录或复制 cookies。父线程可用浏览器做只读检查，遇登录即停。"
+  }
+ ],
+ "errors": [],
+ "notes": [
+  "新发现不等于新爆；无多点快照则趋势阶段为「待观察」。",
+  "历史种子 hotel lobby / ai raindance / ai zombie / burning bridges / Bulin47 已排除，不当当天趋势。",
+  "原帖营收为作者自述，不用于评分或承诺。",
+  "常规 Semrush 缺数据不能判 0 搜索量。",
+  "Google Trends RSS 与 X 搜索仅为 secondary/discovery，不是三平台直采。",
+  "官方 YouTube RSS/oEmbed 已验证可拿到原始视频 URL；未配置的频道不会写成热梗。",
+  "AIsa 目录里有社交热榜工具，但账户余额不足以支付单次调用，且部分工具带非官方/cookie 字段，本次未调用。"
+ ]
+}

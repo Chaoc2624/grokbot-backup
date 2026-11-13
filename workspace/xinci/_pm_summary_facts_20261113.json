@@ -1,0 +1,186 @@
+{
+  "slot": "2026-11-13 晚上档（Asia/Shanghai 约 21:00；对应 America/New_York 早上约 8:00 EST）",
+  "board_url": "https://x.omnitools.cc/radar/new",
+  "board_label": "2026-11-13 新词雷达",
+  "push": {
+    "items": 281,
+    "keywords": 40,
+    "empty": false,
+    "news_items": 28,
+    "news_keywords": 0,
+    "meme_items": 0,
+    "meme_keywords": 0
+  },
+  "xscan_pm": {
+    "status": "扫描成功，本窗无合格新品",
+    "not_a_fetch_failure": true,
+    "window": "2026-11-13 09:53–20:57 北京 / 2026-11-13T01:53:00Z–2026-11-13T12:57:00Z",
+    "official_posts": 4,
+    "why_empty": [
+      "MiniMax-H3-Image 只是 ModelScope 上架，已于 11-11 上午收录",
+      "Sophon-Realtime demo 上架，v1/v1.1 已报",
+      "Unsloth Dynamic V3.1 是 Qwen3.8-27B GGUF 量化更新，非新模型首发，且为 ModelScope 转述、互动低",
+      "Canva 帖为玩笑梗，无新产品名",
+      "关键词路三页 50 条，本地过滤 likes>=500 后为 0，不收录低互动传闻"
+    ],
+    "keywords_added_this_slot": []
+  },
+  "am_still_on_board": [
+    {
+      "name": "Gemini 4 Hydrogen",
+      "kind": "模型",
+      "desc": "Google DeepMind 在 Gemini 4 Carbon 之后推出的 Gemini 4 系列偏快模型，面向快速编程、多模态与日常智能体工作；官方称完成任务比 3.8 Flash 快约 2.5 倍。上午官方首发 views 约 84.8 万，已进本晚 40 词槽第 1。",
+      "url": "需保留上午官方链接 https://x.com/GoogleDeepMind 首发（见上午档 xnew）"
+    },
+    {
+      "name": "Claude Meetings",
+      "kind": "产品功能，不是新模型",
+      "desc": "Anthropic 把 Claude 加入团队视频会议，可在会议进行中共同生成文档、白板等；Team/Enterprise beta。上午官方首发 views 约 284 万、bookmarks 10772，已达建站热词门槛，仍在看板列表；但本晚 40 个关键词槽被游戏轨/AI工具轨占满，未出现在 keywords 前 40。",
+      "url": "上午档官方帖"
+    },
+    {
+      "name": "Edge0-145B / Edge0-120B",
+      "kind": "开权基础模型",
+      "desc": "Edge0 首个端侧原生 100B 级开权模型，可在笔记本电脑离线运行并用于本地 vibe coding。"
+    },
+    {
+      "name": "Self-hosted Claude Managed Agents",
+      "kind": "部署/产品功能，不是新模型",
+      "desc": "Anthropic private beta：可在自有云或本地托管 agent harness、沙箱和会话历史。"
+    }
+  ],
+  "doable": {
+    "passed": 0,
+    "vacuum": 0,
+    "almost": 0,
+    "important": "AIsa 钱包不足（HTTP 402 insufficient_wallet_balance），radar daily 的名字判断失败，doable 查了 60 个词全部 nodata=true（volume 被写成 0、KD/CPC 为空）——这是查询失败/无数据，绝不能对用户说月搜为 0 或未达 KD≤31 门槛。结论必须写：可做词待审核，Semrush/AIsa 本晚无有效数据。",
+    "finder_notes": "Google 补全 25 个名字中 11 个有长尾；Trends Rising 0；App Store 新上榜不可网页交付已跳过；HN 有 Yogurt 等 Show HN，未进可做词。"
+  },
+  "radar_daily": {
+    "report_ok": true,
+    "report_generated_at_beijing": "2026-11-13 21:04",
+    "aisa_name_judge": "HTTP 402 余额不足",
+    "x_follow_source": "① X 关注账号 0 帖（sources 输出 x 0; hf 100）。merge/push 的 x_failed=True 指的是雷达自带 X 关注源今晚 answered=0，不是书签X 扫描失败。请向用户区分这两点。",
+    "hf": "trending 100 模型/Space（sources 亦为 hf 100，无单独点名的新名字必须谨慎）",
+    "time": "约 5 分钟，sitemap 4 分钟",
+    "leads_example": "anr（GitHub 爆发 apex-compute/ANR，Apex Neural Rendering）；adkit；tutorials deepseek。名字得分因 AIsa 402 为空，不当可做词。"
+  },
+  "game_track": {
+    "pm_file": "tracks-20261113-pm.json: game items=133 kws=40",
+    "x_supplements": [
+      {
+        "name": "Calamity Survivors",
+        "desc": "动作生存类网页游戏，第三方观察称可在浏览器直接玩（手机/电脑、无需客户端）；非官方首发。未进入本晚 40 词槽，但在双轨 items 中。",
+        "platform": "网页浏览器（帖称），第三方观察"
+      },
+      {
+        "name": "DUST: Origins",
+        "desc": "等距动作恐怖射击，设定在崩塌轨道监狱逃生；上线状态与平台待核实，第三方/低互动。已进 40 词槽。",
+        "platform": "待核实"
+      }
+    ],
+    "highlights_in_keywords_40": [
+      {
+        "name": "Euro Truck Simulator 2 - Coaches",
+        "desc": "《欧洲卡车模拟2》客车/Coach 相关内容，来源 Steam 全球畅销，平台 Steam 已上线（是已有系列的畅销条目/DLC，不是全新游戏名）。"
+      },
+      {
+        "name": "Blood Lab",
+        "desc": "Roblox Up-and-Coming，当时约 4294 人在玩；具体玩法类型原帖/接口未给清，用途待核实，不作为重点推荐。平台 Roblox。"
+      },
+      {
+        "name": "Draw the Other Half!",
+        "desc": "Roblox Up-and-Coming，约 4796 人在玩；玩法类型待核实，不作为重点推荐。平台 Roblox。"
+      },
+      {
+        "name": "+1 Sukuna Evolution",
+        "desc": "Roblox Up-and-Coming，约 26922 人在玩；玩法类型待核实，不作为重点推荐。平台 Roblox。"
+      },
+      {
+        "name": "Grow Your Forest",
+        "desc": "Roblox 模拟经营种田，标签含 ComingSoon/InDevelopment 但有人称今日发布，上线状态待核实，自述/低互动。"
+      },
+      {
+        "name": "HOT BALLOON",
+        "desc": "Roblox 新游戏，类型待核实，自述/低互动，不作为重点推荐。"
+      }
+    ],
+    "track_scan_errors": "HN AI tool RSS HTTP 502；Toolify sitemap 本轮 new=0；Futurepedia new=1；Aixploria new=0"
+  },
+  "ai_tools_track": {
+    "pm_file": "ai_tools items=39 kws=40",
+    "highlights_in_40": [
+      {
+        "name": "Expo Simulators",
+        "desc": "为编程智能体提供云端 iOS/Android 模拟器，可在云端跑改动、点选应用并回传录屏，无需本地 Mac；第三方转述，非官方首发。"
+      },
+      {
+        "name": "InstaBox",
+        "desc": "Hang 推出的给智能体用的专用云电脑，预装开发工具，合上笔记本后智能体仍可继续跑；第三方转述/低互动。"
+      },
+      {
+        "name": "KUKURI",
+        "desc": "Agent Rules Hub：挑选现成 AI 规则（语气、风格等）用于 ChatGPT/Gemini/Claude，或下载 CLAUDE.md/AGENTS.md 给 Claude Code/Codex；自述/低互动。"
+      },
+      {
+        "name": "MeasureScale",
+        "desc": "让 AI 助手回答关于 Google 数据（如 Search Console 导出）的问题，不必自己翻报表；另有 WPBeginner 团队成员称它能指出该修哪些页以获取更多 Google 流量。低互动/转述。"
+      },
+      {
+        "name": "Nectar",
+        "desc": "帮助品牌发现/匹配创作者，避免只按粉丝数挑选；第三方转述，非官方首发。"
+      }
+    ],
+    "evening_x_new_not_in_40": [
+      {
+        "name": "Aven",
+        "desc": "自称 PH 上线，把任意应用或网站做成可引导用户完成真实操作的 AI 代理入口；自述，非高互动。在 tracks items 中。"
+      },
+      {
+        "name": "Lensden",
+        "desc": "并排对比 AR/AI 眼镜、看来源规格与指南的站点；作者自称刚上 PH，自述/低互动。"
+      },
+      {
+        "name": "pi402",
+        "desc": "Lightning Labs 开源扩展，让编程智能体用比特币闪电网络自行支付推理费用；第三方转述，低互动。"
+      },
+      {
+        "name": "Navoka / Terzo / Box(SimularAI)",
+        "desc": "均低互动转述，未进 40 词槽；不作为重点。"
+      }
+    ],
+    "ph_in_40_unverified": [
+      "Sendr V4: Lovable for GTM",
+      "Adobe AI Assistant",
+      "Didit MCP"
+    ],
+    "ph_note": "这三条只有 Product Hunt 名称信号，具体用途未在本轮用原始产品页核实，摘要里标用途待核实，不要当重点推荐。"
+  },
+  "news_track": {
+    "items": 28,
+    "keywords_on_board": 0,
+    "reason_kw_zero": "主轨（书签X/游戏轨/AI工具轨）已占满 40 词槽，新闻轨不挤占。",
+    "gdelt": "全部 429，未取到；Google News / Telegram / RSS 正常。",
+    "llm": "free-llm 映射 59/90，部分抽名较粗（如 Equity Bank AI tool、Intelligent Eyewear、百度发布两款应用模型），不作为重点。",
+    "optional_clearer_items": [
+      {
+        "name": "HoloCozy",
+        "desc": "以 hololive 成员为主题的桌面伴侣游戏，新闻称已上线 Steam。"
+      },
+      {
+        "name": "Hy Realtime",
+        "desc": "腾讯混元发布的实时语音模型，新闻称支持工具调用与唱歌。"
+      },
+      {
+        "name": "Crawlgan",
+        "desc": "地牢探索 + Roguelike 卡牌构筑游戏，提供试玩版。"
+      }
+    ]
+  },
+  "meme_track": {
+    "items": 0,
+    "coverage": "三平台未全接入，不能说已在监听三平台热榜。TikTok 公开页 HTTP 200 但热榜为前端渲染、无广告账户 token（needs_browser）。YouTube 本晚 coverage=partial（仍无 API key，非直采热榜）。Instagram unavailable，无公开趋势接口。Google Trends 仅 secondary，过滤后 0 条。0 条合格热梗是权限与配置不足+无合格样本，不是抓取崩溃。",
+    "historical_seeds_not_used": true
+  },
+  "style": "简洁中文摘要给 Halo Z。必须含看板链接。重点词必须有“是什么、做什么”。游戏写类型+已核实平台。AI 工具写具体用途。模型/产品功能/基准要分清。查不清就写用途待核实且不当重点。不要把 Semrush 空数据写成月搜 0。不要生成或提及 PNG 卡片。"
+}

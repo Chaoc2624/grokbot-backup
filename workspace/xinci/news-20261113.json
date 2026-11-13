@@ -1,0 +1,450 @@
+{
+ "label": "2026-11-13 新闻轨",
+ "run_at": "2026-11-13 21:09",
+ "date": "2026-11-13",
+ "window_hours": 24,
+ "window_start": "2026-11-12 21:01",
+ "window_end": "2026-11-13 21:01",
+ "tracks": {
+  "news": {
+   "items": [
+    {
+     "name": "Equity Bank AI tool",
+     "desc": "Equity Bank推出的用于追踪员工离职倾向的AI工具",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQY1pDeTE3QjJEb0pUQ3dIeXJTSUg2aXR6eEJ2b3FOMHRQZGNVc0Z1dXhuaUVJZzloMmRlRlVvczIySlZrMGxaWnVrQW9Qc29yaHA1ZHVYenRrcjRfZ3hEbG00OU1oYVlOcWdlckRucFpKWVpHcmZEdkNhblpVR0FPVg?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 15:59",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "Equity Bank’s New AI Tool Can Track Workers Likely to Resign",
+     "is_new": true
+    },
+    {
+     "name": "HoloCozy",
+     "desc": "以hololive成员为主题的桌面伴侣游戏，已上线Steam",
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA0eVBDN3hIazB1d1FDU0M3TFhOcEtqVG03bFV2NjljcV9CX3ZCMzRKMGFSV3BhcU9rTGZpQ1hRdkdhQXRwb0IxZ0tpWnY?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 14:18",
+     "kind": "game",
+     "platform": "google_news",
+     "title": "holo Indie Desktop Companion Game HoloCozy, Featuring Tokino Sora and hololive 3rd Generation, Now Available on Steam!",
+     "is_new": true
+    },
+    {
+     "name": "Crawlgan",
+     "desc": "结合地牢探索与Roguelike卡牌构筑的游戏，提供试玩版",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xVUZrNWNEMlJCOWRUbjBoLXNhbUQ4VHhmNEhwWEwtWHVESC1SYnBHRE1PYzd0T09pdUpQY3hFTVJvaEhaTTRxNWxXQ2hBa3hCakhQWG5DU0J4QQ?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 17:17",
+     "kind": "game",
+     "platform": "google_news",
+     "title": "Crawlgan demo released combining dungeon crawler and roguelike deckbuilding - 게임메카",
+     "is_new": true
+    },
+    {
+     "name": "MiniMax SOTA",
+     "desc": "MiniMax发布的开源4K图像生成模型",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zajRfdXhkMXg2QnRBYlVHMDhFaHBpVzBndEoyQWdIdXBnTlFrRTliUXhXLVM4TWhzTTBMNG9uUnp3T3NnNUxKYUtuc1JTYms5T20w?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 08:11",
+     "kind": "model",
+     "platform": "google_news",
+     "title": "4K Image Generation in 10 Seconds: MiniMax Unveils New Open-Source SOTA Breakthrough",
+     "is_new": true
+    },
+    {
+     "name": "NeuroBrain Dynamics",
+     "desc": "专注于医疗AI领域的模型与技术服务商",
+     "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPbzJvcWRKN0VvX0NOOGVRS0pIWFFuWTR6SzFUaW1ublM4cTJaRll3UEs4cTZfdG1OdlJjaHBKaHRBODZsYk5UalRWNnF6TFJ0M29RdXpKMUVwM0pKekV4VUNoMXI4Nlp1eDRfQjlNTnlMVjNDVXAzV1VOXzMzalFIbjZNdk9qUkF0ZTFoSGlzWDBPLTIzSGhIQnJEQmJjV1RTLXhtTDFfeVdSZlY3UHZUNXJzM09XSktUektqQl9UVU44Sjl5TGFBZzhpeWFCaUdJcjYxTXduano1dlBVNm5ibEVCcmhXdWE2SUE3QXc0TWlYSWZFdUdBRUtrT0hsQ3dHc1FsQXM5MkhUaWJ4S1hRZ0J2NmQ2YXRKX2tMVExreWFSZw?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 19:30",
+     "kind": "model",
+     "platform": "google_news",
+     "title": "SBC Medical Announces Capital and Business Alliance with NeuroBrain Dynamics to Advance Clinic Profitability Through Medical AI",
+     "is_new": true
+    },
+    {
+     "name": "Apple HomeView",
+     "desc": "苹果推出的智能家居监控设备",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdzRyekhSNHl2Vm9Rc1V0YXh2Tl9wdE1kVGx0RDJhNnhvdW55QmxaTVNGb1dXb0ItM2h3TjdpcmJQNXBiOE1Ob3FQclJERy1ZYmE3dXJ5SEVqejlLU0MxS0d5ZGVnUUxHT0g2eWFMRGpfZGdwdzRLX0NoMWF0Y1NLa0otSE1ST1pqcWJYWVZvZWpNR0NMcVFwalhMOWZIbVE4UmIwcDlwanpTOG_SAbABQVVfeXFMTVltU3VCbW5sZV9VMW1xdm5DRGFsczlETEpWbU8xbFNrMXVMdnJGNWZBUlJIWFplZG81NktLWFFGZV90ZENYRi1WRnZnTEwzRkRGMnNrcWk5b2dSRWdRRXZ1RWJhb1R5cEVDaWpEUmM3ZEJLMm03UGtoa21DdkxfanhCTWJpbWxMMzZGSUt2azlDNEhTay15T1VVMVdPSE5QR25ibTZKNWxwbDBMZ2ZQX1A?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 15:16",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "Apple HomeView is now available as pre-orders begin arriving",
+     "is_new": true
+    },
+    {
+     "name": "Apple TV 4K",
+     "desc": "苹果推出的新款4K电视流媒体播放器",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVVVId1NTZ01fcElMVENBSDdJUE11REVFZ0VadVU4el9QWHJBYkkxVm14SUlNMzYyUG1HLXltWjUwTEdaUUgwcG5oazg4WnpHbGRqQVhLeEFIVTlKSzd2V2tYWTZJbHZnTkpjdlpWamlWOTlodzVjTFpYT3ZQU1VSZ2d2ZS15M1JiaTZ6ZmRWeGhYOGFKcG1NNTJlRFhvc09lWWRPN1NPNmR1dGJD0gGyAUFVX3lxTE1rMDh6OFNNN2NzczJOV3l1dUl1OFBDemhEYzhhU0RqV3BNWks4c1BaeFlxTHViWWRvWnM2WVlSRmkyek1vdDlGaE14RVBKRS1xYzNGRGNlZkxpZUVqNGhiZUJjMm1CdDJ1aHJnZzhqS2JhRFJiN2N6X3Z6Qm5POE9hYVJSQ1lUSzZBNjFCWkJxZ0ZRVFRJTUI1dlU3b2JkMnlDMi12RGVMY0hqZWZvalhucnc?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 15:16",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "New Apple TV 4K is now available as pre-orders begin arriving",
+     "is_new": true
+    },
+    {
+     "name": "Intelligent Eyewear",
+     "desc": "谷歌推出的搭载Gemini的智能眼镜，支持实时翻译",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE16VW8wVElzRWFqbEhyTGJ4dEpZMmF5RDJyZExVb284X2VNaHFZUmVHeEVFcXE4ak54bk5qZ09ZbmNRNHhEQklsSEtad0hHa1Y1aGFPbXlhbmkzbERGN2xlQ3lLZmhDMjZjSWhUc25YdV9xZjU3d2wzaQ?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 10:33",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "Google's Gemini-powered smart glasses, 'Intelligent Eyewear,' are now available for pre-order, offering real-time translation in over 70 languages and hands-free AI control.",
+     "is_new": true
+    },
+    {
+     "name": "谷歌 DeepMind发布新一代VLA模型",
+     "desc": "谷歌 DeepMind发布新一代VLA模型 国际科技创新中心",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iMURRdUFDdER2Nk1UX05Sb3Y2NFBodF92RkF2SVpqTkZ6SklEWXVURjZnUWJBX2RneldqNG9GYldGNUljaVduQjFVakFFcndaQnFiYXlVcTc4RUNhMk9fdGhYZXJlcm9fYnpGSXU3d29Pa1pJdktXTG1XbGpoQQ?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 13:26",
+     "kind": "news",
+     "platform": "google_news",
+     "title": "谷歌 DeepMind发布新一代VLA模型 - 国际科技创新中心",
+     "is_new": true
+    },
+    {
+     "name": "2026世界中文大会发布国际中文教育垂直大模型",
+     "desc": "2026世界中文大会发布国际中文教育垂直大模型 中国新闻网",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sbTNpeGN3MXBkY1gwTEhGRDI0cW0yTWplYVJIbml2N1ByakdnSTRUTlllNnNpeGFkWlRXaFEzLWJwVm54RElCQlpWNXJaQjlxMktlQ3RCQUlkUWptSkY4OXhtSnJNRlFa?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 15:51",
+     "kind": "model",
+     "platform": "google_news",
+     "title": "2026世界中文大会发布国际中文教育垂直大模型 - 中国新闻网",
+     "is_new": true
+    },
+    {
+     "name": "百度发布两款应用模型",
+     "desc": "百度发布两款应用模型，李彦宏：会持续研发基础大模型 科学网—新闻",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5bk5XT2RaQjl5Q3BmeW9rRF9HVWpOMS1TWk9Hb0ItYzF2YVRPc1RqYm9takFZYTd1MHI3WjBkQ0RRSHJmYnMxNGRyNUdKdnNJaExSMWlQcFl0SjFpOTZyR3RUakg2Zw?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 11:34",
+     "kind": "model",
+     "platform": "google_news",
+     "title": "百度发布两款应用模型，李彦宏：会持续研发基础大模型 - 科学网—新闻",
+     "is_new": true
+    },
+    {
+     "name": "火山引擎新模型发布！AI影视降本提速(名单)",
+     "desc": "火山引擎新模型发布！AI影视降本提速(名单) 东方财富",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UWnM2U0U4Uk02QWJJb3hZay01X1U5WmVvVmlrd19HamNuclJBdGZYVEJFVGc2MENkWExoSVF4bFVqM01RQm15dmxMVmZRaVdYbmtVUklJRW5nNlI2V2YxZg?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 10:54",
+     "kind": "news",
+     "platform": "google_news",
+     "title": "火山引擎新模型发布！AI影视降本提速(名单) - 东方财富",
+     "is_new": true
+    },
+    {
+     "name": "Hy Realtime",
+     "desc": "腾讯混元发布的实时语音模型，支持工具调用与唱歌",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QREctSnBfX2dQU2dnSV9yVXgxSUFxN0FXRnZrbmRnbUlMYzAxRHY2aDdVQjhpMlFXLUNJanh3dkdQUVZSaUF2U0JOTXRrcG5xUjdYNnM2RlJQSUFCMVFMOUNB?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 16:41",
+     "kind": "model",
+     "platform": "google_news",
+     "title": "腾讯混元发布实时语音模型Hy Realtime 新增工具调用与唱歌能力 - 观点网",
+     "is_new": true
+    },
+    {
+     "name": "多模态“源神”！MiniMax开源SOTA生图模型",
+     "desc": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛 智源社区",
+     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBlX2ZzNlRCdmc0YTFSMDd4bWhUUHBXZW9QbDB1Z2lZR1RMQTRYeUpVdkNJUXBhM1pOeS1FeUJoU2daSEpkUzlOLQ?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 20:00",
+     "kind": "news",
+     "platform": "google_news",
+     "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛 - 智源社区",
+     "is_new": true
+    },
+    {
+     "name": "Kimi、DeepSeek、智谱占美国企业开源AI支出近九成",
+     "desc": "Kimi、DeepSeek、智谱占美国企业开源AI支出近九成，但中国模型不想只卖API了 财联社",
+     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RQUExMGlNX3ZIREduNV9DblAteS1KNFozZUpMQU1Cb3g0VFdUNHNyak52OTJ1dG10ajFVUmNfQ2ZHaGF0dm1LVA?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 15:04",
+     "kind": "news",
+     "platform": "google_news",
+     "title": "Kimi、DeepSeek、智谱占美国企业开源AI支出近九成，但中国模型不想只卖API了 - 财联社",
+     "is_new": true
+    },
+    {
+     "name": "一个开源引擎 让50系显卡跑通了125B模型！",
+     "desc": "一个开源引擎 让50系显卡跑通了125B模型！ 驱动之家",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqUUdSSlJFNEp1TnNkZXdjU2pybU5Wa3JBN1BEN3NXNzdndjNDUHhiUkFYTkZ6TlpmVkF2bVFjZWttUGpuUy1yVEQ0aEl2NGxoWElwTEhnRTY?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 18:09",
+     "kind": "news",
+     "platform": "google_news",
+     "title": "一个开源引擎 让50系显卡跑通了125B模型！ - 驱动之家",
+     "is_new": true
+    },
+    {
+     "name": "Gemini Decisions",
+     "desc": "谷歌发布的首个决策模型",
+     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1mZjVIaVJYelczNDFrclRyU3ktemdNLXZRLTRVU1l6S3F6VVVhOXJvM1JHaXZ2QngxRUZmWjlNSThreThlX0JmNQ?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-13 13:20",
+     "kind": "model",
+     "platform": "google_news",
+     "title": "谷歌发布首个决策模型！输出全免费，百万Token低至0.1美元 - 智源社区",
+     "is_new": true
+    },
+    {
+     "name": "Claude Code",
+     "desc": "Anthropic推出的AI编程工具，新增自定义mods功能",
+     "url": "https://t.me/zaihuapd/45098",
+     "source": "新闻轨·Telegram@zaihuapd",
+     "first_seen": "2026-11-13 11:47",
+     "kind": "ai_tool",
+     "platform": "telegram",
+     "title": "Claude Code 新增 mods 自定义功能 Anthropic 推出 Claude Code 的 mods 功能：开发者用少量 TypeScript",
+     "is_new": true
+    },
+    {
+     "name": "Claude Trading Skills",
+     "desc": "基于Claude的开源个人交易与投资管理工具包",
+     "url": "https://github.com/tradermonty/claude-trading-skills",
+     "source": "新闻轨·Telegram@GitHubTrending",
+     "first_seen": "2026-11-13 19:30",
+     "kind": "ai_tool",
+     "platform": "telegram",
+     "title": "#python Claude Trading Skills is an open-source toolkit that uses Claude to help",
+     "is_new": true
+    },
+    {
+     "name": "nvm",
+     "desc": "Node.js版本管理工具",
+     "url": "https://github.com/nvm-sh/nvm",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-13 15:31",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "nvm-sh/nvm",
+     "is_new": true
+    },
+    {
+     "name": "HermesEnabler",
+     "desc": "用于在Apple Watch上启用爱马仕表盘的工具",
+     "url": "https://github.com/pookjw/HermesEnabler",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-13 15:31",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "pookjw/HermesEnabler",
+     "is_new": true
+    },
+    {
+     "name": "Qwen Code",
+     "desc": "通义千问推出的开源AI编程智能体",
+     "url": "https://github.com/QwenLM/qwen-code",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-13 15:31",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "QwenLM/qwen-code",
+     "is_new": true
+    },
+    {
+     "name": "TensorFold",
+     "desc": "支持Metal、CUDA和Vulkan的LLM推理引擎",
+     "url": "https://github.com/ashhart/TensorFold",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-13 15:31",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "ashhart/TensorFold",
+     "is_new": true
+    },
+    {
+     "name": "Node.js",
+     "desc": "跨平台JavaScript运行时环境",
+     "url": "https://github.com/nodejs/node",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-13 15:31",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "nodejs/node",
+     "is_new": true
+    },
+    {
+     "name": "OpenBot",
+     "desc": "CopilotKit推出的开源AI同事工作空间",
+     "url": "https://github.com/CopilotKit/OpenBot",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-13 15:31",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "CopilotKit/OpenBot",
+     "is_new": true
+    },
+    {
+     "name": "free-claude-code",
+     "desc": "提供多种模型免费访问的终端编程工具包",
+     "url": "https://github.com/Alishahryar1/free-claude-code",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-13 15:31",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "Alishahryar1/free-claude-code",
+     "is_new": true
+    },
+    {
+     "name": "llama.cpp",
+     "desc": "用于LLM推理的C/C++引擎",
+     "url": "https://github.com/ggml-org/llama.cpp",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-13 15:31",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "ggml-org/llama.cpp",
+     "is_new": true
+    },
+    {
+     "name": "Nectar AI agent",
+     "desc": "Nectar推出的用于自动化网红发现与品牌合作的AI智能体",
+     "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+     "source": "新闻轨·RSS·TechCrunch AI",
+     "first_seen": "2026-11-13 03:11",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+     "is_new": true
+    }
+   ],
+   "keywords": [
+    {
+     "keyword": "2026世界中文大会发布国际中文教育垂直大模型",
+     "reason": "新闻轨·Google News: 2026世界中文大会发布国际中文教育垂直大模型 中国新闻网",
+     "from": "2026世界中文大会发布国际中文教育垂直大模型"
+    },
+    {
+     "keyword": "Apple HomeView",
+     "reason": "新闻轨·Google News: 苹果推出的智能家居监控设备",
+     "from": "Apple HomeView"
+    },
+    {
+     "keyword": "Apple TV 4K",
+     "reason": "新闻轨·Google News: 苹果推出的新款4K电视流媒体播放器",
+     "from": "Apple TV 4K"
+    },
+    {
+     "keyword": "Claude Code",
+     "reason": "新闻轨·Telegram@zaihuapd: Anthropic推出的AI编程工具，新增自定义mods功能",
+     "from": "Claude Code"
+    },
+    {
+     "keyword": "Claude Trading Skills",
+     "reason": "新闻轨·Telegram@GitHubTrending: 基于Claude的开源个人交易与投资管理工具包",
+     "from": "Claude Trading Skills"
+    },
+    {
+     "keyword": "Crawlgan",
+     "reason": "新闻轨·Google News: 结合地牢探索与Roguelike卡牌构筑的游戏，提供试玩版",
+     "from": "Crawlgan"
+    },
+    {
+     "keyword": "Equity Bank AI tool",
+     "reason": "新闻轨·Google News: Equity Bank推出的用于追踪员工离职倾向的AI工具",
+     "from": "Equity Bank AI tool"
+    },
+    {
+     "keyword": "free-claude-code",
+     "reason": "新闻轨·RSS·GitHub Trending Daily: 提供多种模型免费访问的终端编程工具包",
+     "from": "free-claude-code"
+    },
+    {
+     "keyword": "Gemini Decisions",
+     "reason": "新闻轨·Google News: 谷歌发布的首个决策模型",
+     "from": "Gemini Decisions"
+    },
+    {
+     "keyword": "HermesEnabler",
+     "reason": "新闻轨·RSS·GitHub Trending Daily: 用于在Apple Watch上启用爱马仕表盘的工具",
+     "from": "HermesEnabler"
+    },
+    {
+     "keyword": "HoloCozy",
+     "reason": "新闻轨·Google News: 以hololive成员为主题的桌面伴侣游戏，已上线Steam",
+     "from": "HoloCozy"
+    },
+    {
+     "keyword": "Hy Realtime",
+     "reason": "新闻轨·Google News: 腾讯混元发布的实时语音模型，支持工具调用与唱歌",
+     "from": "Hy Realtime"
+    },
+    {
+     "keyword": "Intelligent Eyewear",
+     "reason": "新闻轨·Google News: 谷歌推出的搭载Gemini的智能眼镜，支持实时翻译",
+     "from": "Intelligent Eyewear"
+    },
+    {
+     "keyword": "llama.cpp",
+     "reason": "新闻轨·RSS·GitHub Trending Daily: 用于LLM推理的C/C++引擎",
+     "from": "llama.cpp"
+    },
+    {
+     "keyword": "MiniMax SOTA",
+     "reason": "新闻轨·Google News: MiniMax发布的开源4K图像生成模型",
+     "from": "MiniMax SOTA"
+    },
+    {
+     "keyword": "Nectar AI agent",
+     "reason": "新闻轨·RSS·TechCrunch AI: Nectar推出的用于自动化网红发现与品牌合作的AI智能体",
+     "from": "Nectar AI agent"
+    }
+   ]
+  }
+ },
+ "source_stats": [
+  {
+   "group": "google_news",
+   "raw": 52,
+   "kept_window": 52,
+   "by_label": {
+    "新闻轨·Google News": 52
+   }
+  },
+  {
+   "group": "gdelt",
+   "raw": 0,
+   "kept_window": 0,
+   "by_label": {}
+  },
+  {
+   "group": "telegram",
+   "raw": 40,
+   "kept_window": 40,
+   "by_label": {
+    "新闻轨·Telegram@zaihuapd": 18,
+    "新闻轨·Telegram@GitHubTrending": 3,
+    "新闻轨·Telegram@ai_news_cn": 19
+   }
+  },
+  {
+   "group": "rss",
+   "raw": 48,
+   "kept_window": 48,
+   "by_label": {
+    "新闻轨·RSS·Simon Willison": 1,
+    "新闻轨·RSS·Hugging Face Blog": 1,
+    "新闻轨·RSS·OpenAI News": 1,
+    "新闻轨·RSS·Google DeepMind Blog": 1,
+    "新闻轨·RSS·Google AI Blog": 1,
+    "新闻轨·RSS·GitHub Trending Daily": 13,
+    "新闻轨·RSS·TechCrunch AI": 20,
+    "新闻轨·RSS·The Verge AI": 10
+   }
+  }
+ ],
+ "errors": [
+  "gdelt/ai-tool: fetch https://api.gdeltproject.org/api/v2/doc/doc?query=%22new+AI+tool%22+OR+%22AI+tool+launch%22+OR+%22launches+an+AI%22&mode=ArtList&format=json&maxrecords=25&sort=datedesc&timespan=24h: HTTP Error 429: Too Many Requests",
+  "gdelt/steam-release: fetch https://api.gdeltproject.org/api/v2/doc/doc?query=%22released+on+Steam%22+OR+%22now+available+on+Steam%22&mode=ArtList&format=json&maxrecords=25&sort=datedesc&timespan=24h: HTTP Error 429: Too Many Requests",
+  "gdelt/model-available: fetch https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22now+available%22+OR+unveils+OR+introducing%29+%28LLM+OR+%22language+model%22+OR+%22open-source+model%22%29&mode=ArtList&format=json&maxrecords=25&sort=datedesc&timespan=24h: HTTP Error 429: Too Many Requests"
+ ]
+}

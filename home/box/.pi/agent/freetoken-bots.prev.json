@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12T01:04:42.213707+00:00",
+  "checked_at": "2026-11-13T01:08:39.867700+00:00",
   "eligible": [],
   "needs_parameter_verification": [
     {
@@ -15,12 +15,20 @@
       "context_length": 262144
     },
     {
+      "id": "particle-ai/particle-1:free",
+      "context_length": 1048576
+    },
+    {
       "id": "recursive/flint-v1.0:free",
       "context_length": 262144
     },
     {
       "id": "nvidia/nemotron-3.5-super-vl:free",
       "context_length": 1000000
+    },
+    {
+      "id": "apodex/apodex-1.1-mini:free",
+      "context_length": 262144
     },
     {
       "id": "dots-studio/dots-3-note-preview:free",
@@ -60,6 +68,7 @@
     }
   ],
   "free_ids": [
+    "apodex/apodex-1.1-mini:free",
     "baidu/ernie-5.5-flash-preview:free",
     "cohere/north-mini-code:free",
     "dots-studio/dots-3-note-preview:free",
@@ -74,8 +83,9 @@
     "nvidia/nemotron-3.5-lightning:free",
     "nvidia/nemotron-3.5-super-vl:free",
     "openrouter/free",
+    "particle-ai/particle-1:free",
     "recursive/flint-v1.0:free",
     "thinkingmachines/inkling-2-small:free"
   ],
-  "free_count": 16
+  "free_count": 18
 }

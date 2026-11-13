@@ -1,0 +1,97 @@
+{
+  "label": "2026-11-13 上午 书签X",
+  "run_at": "2026-11-13 09:53",
+  "window_start": "2026-11-12 20:58",
+  "window_end": "2026-11-13 09:53",
+  "empty": false,
+  "items": [
+    {
+      "name": "Self-hosted Claude Managed Agents",
+      "desc": "Anthropic 将 Self-hosted Claude Managed Agents 推入 private beta，可在自有云或本地托管 agent harness、沙箱和会话历史，并选择 Claude 请求发往何处，不是新模型",
+      "source": "@ClaudeDevs",
+      "url": "https://x.com/ClaudeDevs/status/2120938988165091693",
+      "first_seen": "2026-11-13 01:57",
+      "views": 547421,
+      "bookmarks": 4984,
+      "kind": "not_model"
+    },
+    {
+      "name": "Edge0-145B 和 Edge0-120B",
+      "desc": "Edge0 推出的首个端侧原生 100B 级开权基础模型（旗舰 Edge0-145B 与更轻的 Edge0-120B），可在笔记本电脑离线运行并用于本地 vibe coding。",
+      "source": "@SamuelZengML",
+      "url": "https://x.com/SamuelZengML/status/2120939739431972922",
+      "first_seen": "2026-11-13 02:00",
+      "views": 133780,
+      "bookmarks": 653,
+      "kind": "model"
+    },
+    {
+      "name": "Gemini 4 Hydrogen",
+      "desc": "Google 推出的 Gemini 4 系列新模型，面向快速编程、多模态综合与日常工作流，官方称完成任务比 3.8 Flash 快 2.5 倍，可单独使用或与 Gemini 4 Carbon 协作。",
+      "source": "@GoogleDeepMind",
+      "url": "https://x.com/GoogleDeepMind/status/2120940338869055788",
+      "first_seen": "2026-11-13 02:02",
+      "views": 848113,
+      "bookmarks": 640,
+      "kind": "model",
+      "keyword_rank": 2,
+      "keyword": "Gemini 4 Hydrogen",
+      "reason": "官方首发 views 848113 达标，须用完整产品名，适合做 Gemini 4 Hydrogen / 快速编程与日常智能体工作模型介绍页。"
+    },
+    {
+      "name": "SteerDistill",
+      "desc": "论文 SteerDistill（Quantizing LLM Agents via Closed-Loop Teacher Steering），关于通过闭环教师引导量化 LLM 智能体，不是新模型",
+      "source": "@_akhaliq",
+      "url": "https://x.com/_akhaliq/status/2120952429093245062",
+      "first_seen": "2026-11-13 02:50",
+      "views": 8545,
+      "bookmarks": 40,
+      "kind": "not_model"
+    },
+    {
+      "name": "Google Search 接入 Gemini 4 Hydrogen",
+      "desc": "Google 搜索迎来 Gemini 4 Hydrogen 模型更新，官方称能更好理解复杂、多部分意图的搜索，不是新模型",
+      "source": "@Google",
+      "url": "https://x.com/Google/status/2120960715011883148",
+      "first_seen": "2026-11-13 03:23",
+      "views": 117159,
+      "bookmarks": 159,
+      "kind": "not_model"
+    },
+    {
+      "name": "Claude Meetings",
+      "desc": "Anthropic 推出的会议产品，可把 Claude 加入团队视频会议，在会议进行中共同生成文档、白板和其他产物，目前在 Team 与 Enterprise 计划以 beta 推出。",
+      "source": "@claudeai",
+      "url": "https://x.com/claudeai/status/2120973994191094179",
+      "first_seen": "2026-11-13 04:16",
+      "views": 2846976,
+      "bookmarks": 10772,
+      "kind": "product",
+      "keyword_rank": 1,
+      "keyword": "Claude Meetings",
+      "reason": "官方首发 views 2846976、bookmarks 10772 达标，名字全新，适合做 Claude Meetings / 会议中实时协作生成文档与白板介绍页。"
+    },
+    {
+      "name": "Antigravity Orchestrator",
+      "desc": "Google 向 Google AI Ultra 订阅者推出 Antigravity 中的 Orchestrator，可在同一会话中运行多个模型，而不是把整项任务交给单一模型，不是新模型",
+      "source": "@Google",
+      "url": "https://x.com/Google/status/2120982566891356279",
+      "first_seen": "2026-11-13 04:50",
+      "views": 215093,
+      "bookmarks": 285,
+      "kind": "not_model"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword_rank": 1,
+      "keyword": "Claude Meetings",
+      "reason": "官方首发 views 2846976、bookmarks 10772 达标，名字全新，适合做 Claude Meetings / 会议中实时协作生成文档与白板介绍页。"
+    },
+    {
+      "keyword_rank": 2,
+      "keyword": "Gemini 4 Hydrogen",
+      "reason": "官方首发 views 848113 达标，须用完整产品名，适合做 Gemini 4 Hydrogen / 快速编程与日常智能体工作模型介绍页。"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+本轮是 2026-11-13 早间新词雷达（Asia/Shanghai 10:00 档，--mode am）。请写成给 Halo Z 的简洁中文摘要，结构尽量贴近以往早间摘要，但不要照抄旧内容。只依据下列已核实事实，严禁补充未给出的玩法/类型/平台/用途。查不清的不要当重点。
+
+窗口：2026-11-12 20:58 至 2026-11-13 09:53（Asia/Shanghai, UTC+8）。
+看板已推送：标签「2026-11-13 新词雷达」，246 条，40 个关键词。链接必须附 https://x.omnitools.cc/radar/new
+早间不跑 finders/doable，可做词以晚间为准。看板「🔥 X 热词」模块由用户负责，本轮未改。
+雷达 python3 -m radar sources：没有新名字（x 0；hf 100 为抓取到的 Hugging Face 名单规模，不是 100 个新名字）。merge/push 里 our_x_failed=True 是因为雷达内置 X 关注源 answered=0，今早未跑 radar daily，这不是书签X失败。书签X本档成功。
+
+书签X建站热词（本档 2 个，已进看板关键词）：
+1) Claude Meetings：Anthropic 新产品（不是新模型）。把 Claude 加入团队视频会议，在会议进行中共同生成文档、白板和其他产物；目前在 Team 与 Enterprise 计划以 beta 推出。官方 @claudeai 2026-11-13 04:16，views=2846976，bookmarks=10772。https://x.com/claudeai/status/2120973994191094179
+2) Gemini 4 Hydrogen：Google 推出的 Gemini 4 系列新模型（与已报 Gemini 4 Carbon、已报 Hydrogen-1.0 都不是同一产品）。面向快速编程、多模态综合与日常工作流；官方称完成任务比 3.8 Flash 快 2.5 倍，可单独使用或与 Gemini 4 Carbon 协作；有 4 个 thinking levels。官方首发 @GoogleDeepMind 2026-11-13 02:02，views=848113，bookmarks=640。https://x.com/GoogleDeepMind/status/2120940338869055788
+
+书签X其他可写重点（不是热词）：
+- Edge0-145B 和 Edge0-120B：Edge0 首个端侧原生 100B 级开权基础模型（旗舰 145B 与更轻的 120B），可在笔记本电脑离线运行并用于本地 vibe coding。创始人 @SamuelZengML 2026-11-13 02:00 首发，官方 @Edge0_AI 确认开权可用。views=133780，bookmarks=653。https://x.com/SamuelZengML/status/2120939739431972922
+- Antigravity Orchestrator：Google 向 Google AI Ultra 订阅者推出的 Antigravity 功能（不是新模型，也不是已报的 Panda Orchestrator）。可在同一会话中运行多个模型，而不是把整项任务交给单一模型。@Google 2026-11-13 04:50，views=215093。https://x.com/Google/status/2120982566891356279
+- Self-hosted Claude Managed Agents：Anthropic 将其推入 private beta（不是新模型）。可在自有云或本地托管 agent harness、沙箱和会话历史，并选择 Claude 请求发往何处。@ClaudeDevs 2026-11-13 01:57，views=547421，bookmarks=4984。https://x.com/ClaudeDevs/status/2120938988165091693
+- Google Search 接入 Gemini 4 Hydrogen：搜索功能更新，不是新模型。官方称能更好理解复杂、多部分意图的搜索。@Google 2026-11-13 03:23。https://x.com/Google/status/2120960715011883148
+- SteerDistill：论文/科研（Quantizing LLM Agents via Closed-Loop Teacher Steering），不是新模型，可不作为最重点。
+
+游戏轨：track_scan 成功，items=137 / kws=40。导航站 sitemap 增量 new=0（Toolify/Futurepedia/Aixploria），不是抓取失败。
+已核实、可作重点（必须写类型/平台/是否上线；未知就写待核实）：
+- Worst Class Ever：1 vs 7 课堂对战多人游戏（孩子设法智胜老师），已核实平台 Steam 且已上线；曾是 2026 年 10 月 Steam Next Fest 的 no.1 demo。来源为 @pr_hound 低互动创作者推广帖。https://x.com/pr_hound/status/2120884295656931426
+- The Road of Dust and Sorrow：独立恐怖游戏，发售日改到 2027-02-19，尚未上线，计划平台原帖未写死（不要写成已在 Steam 上线）。第三方低互动。https://x.com/Videogamelegacy/status/2120879294356549749
+- Tower of Echoes：作者自称用 Claude Fable 5.2 制作的动作战斗 raid 塔（七层、WoW 风格 Boss），平台待核实，不要猜是 Roblox 或 Steam。https://x.com/Izkimar/status/2120994846424862884
+- HOT BALLOON：作者自称已在 Roblox 上线的新游戏，有皮肤/特效/MVP 动画，类型待核实，自述/低互动。https://x.com/kokohasjoined/status/2120991814731923514
+- Grow Your Forest（亦称 GrowAForest）：Roblox 模拟/经营/种田（原帖标签），但上线状态待核实（既写 coming out today 又标 ComingSoon/InDevelopment），自述/低互动。https://x.com/DRcorona2020/status/2120994695895462165
+- Blood Lab：Roblox Up-and-Coming，抓取时约 4294 人在玩，类型待核实。https://www.roblox.com/games/131197661751817
+- Draw the Other Half!：Roblox Up-and-Coming，抓取时约 4796 人在玩，类型待核实。https://www.roblox.com/games/122701511178560
+- car circle：Poki 首页热门网页游戏，类型待核实。https://poki.com/en/g/car-circle
+不要把 Hearts of Iron IV、Royale High、Euro Truck Simulator 2 等老牌畅销当“新词”重点。不要编玩法。
+
+AI工具轨：items=35 / kws=40。sitemap 无新工具名。可作重点（必须写用途；第三方/低互动要写明）：
+- Expo Simulators：Expo 推出的面向编程智能体的云端 iOS/Android 模拟器，智能体可在云端跑改动、点选应用并回传录屏，无需本地 Mac。第三方转述（非官方首发），互动尚可。https://x.com/celineodier/status/2121016067107574242
+- KUKURI（Agent Rules Hub）：挑选现成 AI 规则（语气、回答风格等）用于 ChatGPT/Gemini/Claude，或下载 CLAUDE.md / AGENTS.md 给 Claude Code 和 Codex。自述/低互动。https://x.com/kukuriagent/status/2121044013692399819
+- Nectar：帮助品牌发现/匹配创作者，避免只按粉丝数挑选。第三方转述、非官方首发。https://x.com/alex_prompter/status/2121011161390870588
+- InstaBox：Hang 推出的给智能体用的专用云电脑，预装开发工具，合上笔记本盖后智能体仍可继续跑。第三方转述/低互动。https://x.com/carlaarodrigzz/status/2121011190432424414
+- MeasureScale：让 AI 助手回答关于你的 Google 数据（如 Search Console 导出）的问题，不必自己翻报表。用户转述/低互动。https://x.com/MinahilAijaz/status/2120992285903187971
+
+新闻轨：28 条已进看板列表。主轨关键词已占满 40，故新闻轨 keywords=0，未挤占主轨。GDELT 全部 429，未取到；Google News / Telegram / RSS 正常。llm mapped 56/92，部分抽名较粗（如 “New AI tool”“Get”“ERNIE”），不要把这些粗名当重点。
+
+热梗轨：三平台未全接入，0 条合格（不是抓取崩溃，不要说已在监听三平台热榜）。
+- TikTok：公开页可打开但热榜前端渲染，无 advertiser_id+access_token，status=needs_browser，本轮 0 条。
+- YouTube：无 API key，探测 403，status=unavailable。
+- Instagram：无公开趋势接口，status=unavailable。
+- Google Trends 二次源已抓，过滤后 kept=0。
+无连续快照，不编热度。
+
+文风：简洁中文，面向用户，用“你”或直接陈述，不要自称 Grok。每个重点词必须有“是什么、做什么”。保留来源链接。最后单独一行只放看板 URL。不要写内部文件名、脚本名、executor、模型名。可做词一节明确写早间不评估。

@@ -1,12 +1,58 @@
 {
  "leads": [
   {
-   "term": "sites",
+   "term": "gemini 4 hydrogen",
+   "kinds": [
+    "feed",
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架",
+    "OpenRouter 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Gemini 4 Hydrogen",
+    "OpenRouter: Gemini 4 Hydrogen"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://openrouter.ai/google/gemini-4-hydrogen",
+    "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than."
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "anr",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 apex-compute/ANR ★1231(均 523/天)"
+   ],
+   "examples": [
+    "apex-compute/ANR: Apex Neural Rendering (ANR) by Apex Compute"
+   ],
+   "variants": [
+    "anr",
+    "apex-compute anr",
+    "apex anr"
+   ],
+   "posts": [],
+   "repo": "apex-compute/ANR",
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "adkit",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 697 处 (×561.0)"
+    "③ 竞品 16 处 (×15.4)"
    ],
    "examples": [],
    "variants": [],
@@ -16,12 +62,12 @@
    "one_click": null
   },
   {
-   "term": "connectors io.github.bepolabs",
+   "term": "tutorials deepseek",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 43 处 (×43.0)"
+    "③ 竞品 12 处 (×11.9)"
    ],
    "examples": [],
    "variants": [],
@@ -31,12 +77,12 @@
    "one_click": null
   },
   {
-   "term": "com.profullstack",
+   "term": "tutorials",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 30 处 (×30.0)"
+    "③ 竞品 24 处 (×10.0)"
    ],
    "examples": [],
    "variants": [],
@@ -46,12 +92,12 @@
    "one_click": null
   },
   {
-   "term": "connectors com.profullstack",
+   "term": "connectors io.github.geornaden",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 30 处 (×30.0)"
+    "③ 竞品 10 处 (×10.0)"
    ],
    "examples": [],
    "variants": [],
@@ -61,12 +107,12 @@
    "one_click": null
   },
   {
-   "term": "pyxlino",
+   "term": "r1",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 11 处 (×10.7)"
+    "③ 竞品 11 处 (×9.0)"
    ],
    "examples": [],
    "variants": [],
@@ -76,7 +122,37 @@
    "one_click": null
   },
   {
-   "term": "ezkielyna",
+   "term": "io.github.kizukidata",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 9 处 (×8.8)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "connectors io.github.kizukidata",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 9 处 (×8.8)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "connectors io.github.adkit",
    "kinds": [
     "sitemap"
    ],
@@ -91,72 +167,12 @@
    "one_click": null
   },
   {
-   "term": "ezkielynagroup",
+   "term": "smrht",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 8 处 (×7.9)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "io.github.michaelvereb",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 7 处 (×7.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "connectors io.github.michaelvereb",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 7 处 (×7.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "ralf9090",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 6 处 (×5.9)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "cotlet",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 7 处 (×5.0)"
+    "③ 竞品 8 处 (×7.8)"
    ],
    "examples": [],
    "variants": [],
@@ -171,7 +187,7 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 7 处 (×5.0)"
+    "③ 竞品 11 处 (×7.6)"
    ],
    "examples": [],
    "variants": [],
@@ -181,7 +197,127 @@
    "one_click": null
   },
   {
-   "term": "io.github.ralf9090",
+   "term": "deepseek",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 20 处 (×7.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "io.github.ranqint",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×7.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "connectors io.github.ranqint",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×7.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "io.github.zoom zoom",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×6.6)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "connectors io.github.zoom",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 7 处 (×6.6)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "trw123123",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 6 处 (×6.0)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "thesven",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 6 处 (×5.9)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "ads",
+   "kinds": [
+    "sitemap"
+   ],
+   "signals": [
+    "③ 竞品 32 处 (×5.6)"
+   ],
+   "examples": [],
+   "variants": [],
+   "posts": [],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "es.argohub.www",
    "kinds": [
     "sitemap"
    ],
@@ -196,7 +332,7 @@
    "one_click": null
   },
   {
-   "term": "connectors io.github.ralf9090",
+   "term": "connectors es.argohub.www",
    "kinds": [
     "sitemap"
    ],
@@ -211,12 +347,12 @@
    "one_click": null
   },
   {
-   "term": "group",
+   "term": "io.github.coregentdevspace",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 9 处 (×4.5)"
+    "③ 竞品 5 处 (×5.0)"
    ],
    "examples": [],
    "variants": [],
@@ -226,12 +362,12 @@
    "one_click": null
   },
   {
-   "term": "connectors com.getridian",
+   "term": "connectors io.github.coregentdevspace",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 4 处 (×4.0)"
+    "③ 竞品 5 处 (×5.0)"
    ],
    "examples": [],
    "variants": [],
@@ -241,12 +377,12 @@
    "one_click": null
   },
   {
-   "term": "arb",
+   "term": "connectors io.github.stellalytics",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 4 处 (×3.7)"
+    "③ 竞品 5 处 (×5.0)"
    ],
    "examples": [],
    "variants": [],
@@ -256,12 +392,12 @@
    "one_click": null
   },
   {
-   "term": "davised",
+   "term": "connectors io.github.nero",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 4 处 (×3.6)"
+    "③ 竞品 8 处 (×4.5)"
    ],
    "examples": [],
    "variants": [],
@@ -271,12 +407,12 @@
    "one_click": null
   },
   {
-   "term": "abigail",
+   "term": "io.github.nero engine",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 4 处 (×3.6)"
+    "③ 竞品 8 处 (×4.5)"
    ],
    "examples": [],
    "variants": [],
@@ -286,118 +422,322 @@
    "one_click": null
   },
   {
-   "term": "abigaildavised",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 4 处 (×3.6)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "connectors dev.workers.cybermax",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 5 处 (×3.2)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "dev.workers.cybermax tools.cybermax",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 5 处 (×3.2)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "io.usefulapi",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 29 处 (×3.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "connectors io.usefulapi",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 29 处 (×3.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "works",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 5 处 (×3.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "gemini 4 carbon",
+   "term": "hoverine",
    "kinds": [
     "feed"
    ],
    "signals": [
-    "OpenRouter 新上架"
+    "Product Hunt 新上架"
    ],
    "examples": [
-    "OpenRouter: Gemini 4 Carbon"
+    "Product Hunt: Hoverine"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://openrouter.ai/google/gemini-4-carbon",
-    "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode..."
+    "https://www.producthunt.com/products/hoverine",
+    "Rive animation templates you can drop into your app Discussion | Link"
    ],
    "known": "",
    "format": "video",
    "one_click": null
   },
   {
-   "term": "gemini 4 carbon (batch)",
+   "term": "whoop humans",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: WHOOP Humans"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/whoop",
+    "WHOOP's social network built around real health data Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "paxper",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Paxper"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/paxper",
+    "Create cloud infrastructure visually and review every change Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "gatrends",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: GAtrends"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/gatrends",
+    "Spike alerts for your keywords in Telegram, Claude, ChatGPT Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "expo simulators",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Expo Simulators"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/expo",
+    "Cloud simulators built for agents Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "kairos",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Kairos"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/kairos-18",
+    "Personal analytics engine across health, finances, & social Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "qorqbot",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: qorqbot"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/qorqbot",
+    "Proactive agent for business work Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "stockrip",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: StockRip"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/stockrip",
+    "Trading cards, literally digital cards with tokenized stocks Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "pocket studio for supabase",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Product Hunt 新上架"
+   ],
+   "examples": [
+    "Product Hunt: Pocket Studio for Supabase"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://www.producthunt.com/products/pocket-studio-for-supabase",
+    "Supabase dashboard & SQL editor for Android Discussion | Link"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "my $300 embroidery machine needed a subscription, so i built my own app",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: My $300 embroidery machine needed a subscription, so I built my own app"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://github.com/simpsoka/zigzag",
+    "Show HN: My $300 embroidery machine needed a subscription, so I built my own app"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "agentrun",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: AgentRun"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+    "Show HN: AgentRun – open-source, Self-improving Managed Agents"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "fable52.games",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: Fable52.games"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://fable52.games",
+    "Show HN: Fable52.games – Play and inspect Fable 5.2 single-file HTML games"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "kapso",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: Kapso"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://news.ycombinator.com/item?id=50471281",
+    "Show HN: Kapso – Iterative learning from enterprise data"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "apron chat protocol",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: Apron Chat Protocol"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://apron.chat/",
+    "Show HN: Apron Chat Protocol"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "ai red lines",
+   "kinds": [
+    "feed"
+   ],
+   "signals": [
+    "Show HN 新上架"
+   ],
+   "examples": [
+    "Show HN: AI Red Lines"
+   ],
+   "variants": [],
+   "posts": [],
+   "about": [
+    "https://yourairedlines.com",
+    "Show HN: AI Red Lines – write down what would make you act on AI"
+   ],
+   "known": "",
+   "format": "text",
+   "one_click": null
+  },
+  {
+   "term": "gemini 4 hydrogen (batch)",
    "kinds": [
     "feed"
    ],
@@ -405,398 +745,20 @@
     "OpenRouter 新上架"
    ],
    "examples": [
-    "OpenRouter: Gemini 4 Carbon (batch)"
+    "OpenRouter: Gemini 4 Hydrogen (batch)"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://openrouter.ai/google/gemini-4-carbon:batch",
-    "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode..."
-   ],
-   "known": "",
-   "format": "video",
-   "one_click": null
-  },
-  {
-   "term": "spacefast by automattic",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Spacefast by Automattic"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/spacefast-by-automattic",
-    "Give your AI agents a place to build, run, and ship Discussion | Link"
+    "https://openrouter.ai/google/gemini-4-hydrogen:batch",
+    "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than."
    ],
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "marqly 7.0",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Marqly 7.0"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/marqly",
-    "Bookmarks you can query to find the things you saved Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "leasewire",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: LeaseWire"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/leasewire",
-    "Lease abstraction, wired to your model. Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "foxpit",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Foxpit"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/foxpit",
-    "Run Claude Code, Codex & OpenCode as one AI team Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "jot 2.0",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Jot 2.0"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/jot-2-0",
-    "Select text, tap Shift twice, it's a markdown file Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "hoy for mac",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Hoy for Mac"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/hoy-for-mac",
-    "Walkie-talkie meets AirDrop meets Messages Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "youart desktop app",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: YouArt Desktop App"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/youart",
-    "Codex for creative team Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "sendr v4: lovable for gtm",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Sendr V4: Lovable for GTM"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/sendr",
-    "Your AI GTM engineer to build signal based go-to-market Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "canyonos",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: CanyonOS"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/canyon-code",
-    "The One Platform for Scaling your Agentic Apps Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "grok bot 1.0",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Grok Bot 1.0"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/grok",
-    "Bots work together alongside your team Discussion | Link"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "get your coding agent off ~2019 javascript, onto modern web primitives",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://github.com/GoogleChrome/modern-web-guidance",
-    "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "yogurt",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Yogurt"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://github.com/FrigadeHQ/yogurt",
-    "Show HN: Yogurt – Free, private, open-source alternative to Granola"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "valencia, spain in sim city/isometric view",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Valencia, Spain in Sim City/Isometric View"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://tinyvalencia.com/",
-    "Show HN: Valencia, Spain in Sim City/Isometric View"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "i recreated papers please but you're deciding which yc startups to fund",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: I recreated Papers Please but you're deciding which YC startups to fund"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://termsheetplease.com/",
-    "Show HN: I recreated Papers Please but you're deciding which YC startups to fund"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "black ops ii statically recompiled to native arm64 macos",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Black Ops II statically recompiled to native ARM64 macOS"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://github.com/adrbn/bo2-mac",
-    "Show HN: Black Ops II statically recompiled to native ARM64 macOS"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "godbolt-in-a-floating-window for neovim (c, c++, rust)",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://github.com/0xdeadf1sh/AssemblyForNeovim",
-    "Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "klad, a paint app your coding agent can drive (source-available)",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Klad, a paint app your coding agent can drive (source-available)"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://github.com/klad-app/klad",
-    "Show HN: Klad, a paint app your coding agent can drive (source-available)"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "aircad",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Aircad"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://aircad.com",
-    "Show HN: Aircad – Professional drafting and 3D modeling in the browser"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "ernie-5.5-flash-preview (free)",
+   "term": "inkling 2 small",
    "kinds": [
     "feed"
    ],
@@ -804,55 +766,34 @@
     "OpenRouter 新上架"
    ],
    "examples": [
-    "OpenRouter: ERNIE-5.5-Flash-Preview (free)"
+    "OpenRouter: Inkling 2 Small"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
-    "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total"
+    "https://openrouter.ai/thinkingmachines/inkling-2-small",
+    "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second..."
    ],
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "ernie-light-dt-1.0",
+   "term": "pokémon home",
    "kinds": [
     "feed"
    ],
    "signals": [
-    "OpenRouter 新上架"
+    "App Store 新上架"
    ],
    "examples": [
-    "OpenRouter: ERNIE-Light-DT-1.0"
+    "App Store: Pokémon HOME"
    ],
    "variants": [],
    "posts": [],
    "about": [
-    "https://openrouter.ai/baidu/ernie-light-dt-1.0-intl",
-    "ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mech"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "mi:dm k 3.0 pro",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "OpenRouter 新上架"
-   ],
-   "examples": [
-    "OpenRouter: Mi:dm K 3.0 Pro"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://openrouter.ai/kt/midm-k-3.0-pro",
-    "Mi:dm K 3.0 Pro is a Mixture-of-Experts reasoning model from KT, with 120B total and 12B active parameters. It uses a hybrid architecture that mixes Mamba, MoE and attention layers."
+    "https://apps.apple.com/us/app/pok%C3%A9mon-home/id1485352913?uo=2",
+    "Pokémon HOME is a cloud-based service, designed as a place where all of your Pokémon can gather. ▼ Manage your Pokémon! You can bring any Pokémon that has appeared in a core Pokémon game to Pokémon HO"
    ],
    "known": "",
    "format": "text",
@@ -883,202 +824,222 @@
     "repo": "storytold/craft-anything",
     "owner": "storytold",
     "name": "craft-anything",
-    "stars": 29331,
-    "velocity": 2460,
-    "delta": 1595,
-    "age_days": 11.9,
+    "stars": 30947,
+    "velocity": 2395,
+    "delta": 1616,
+    "age_days": 12.9,
     "description": "Craft Anything: understand how any software works, and craft your own.",
-    "new": false
-   },
-   {
-    "repo": "janestreet/agent_skills",
-    "owner": "janestreet",
-    "name": "agent_skills",
-    "stars": 7073,
-    "velocity": 800,
-    "delta": 2244,
-    "age_days": 8.8,
-    "description": "Agent skills",
-    "new": false
-   },
-   {
-    "repo": "Lee-xeo/Claude-Cage",
-    "owner": "Lee-xeo",
-    "name": "Claude-Cage",
-    "stars": 4460,
-    "velocity": 374,
-    "delta": 2139,
-    "age_days": 11.9,
-    "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
-    "new": false
-   },
-   {
-    "repo": "huamidev/GestaltX",
-    "owner": "huamidev",
-    "name": "GestaltX",
-    "stars": 6784,
-    "velocity": 2041,
-    "delta": 957,
-    "age_days": 3.3,
-    "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
     "new": false
    },
    {
     "repo": "deepseek-ai/dsh-superagent-prototype",
     "owner": "deepseek-ai",
     "name": "dsh-superagent-prototype",
-    "stars": 22667,
-    "velocity": 1866,
-    "delta": 266,
-    "age_days": 12.1,
+    "stars": 22953,
+    "velocity": 1746,
+    "delta": 286,
+    "age_days": 13.1,
     "description": "Towards a More Autonomous Agent System",
     "new": false
    },
    {
-    "repo": "NotRexed/Hookshot",
-    "owner": "NotRexed",
-    "name": "Hookshot",
-    "stars": 8320,
-    "velocity": 1184,
-    "delta": 1191,
-    "age_days": 7.0,
-    "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+    "repo": "huamidev/GestaltX",
+    "owner": "huamidev",
+    "name": "GestaltX",
+    "stars": 7169,
+    "velocity": 1659,
+    "delta": 385,
+    "age_days": 4.3,
+    "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
     "new": false
    },
    {
-    "repo": "anefzaoui/misterdownloadmanager",
-    "owner": "anefzaoui",
-    "name": "misterdownloadmanager",
-    "stars": 7424,
-    "velocity": 513,
-    "delta": 1097,
-    "age_days": 14.5,
-    "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windo",
-    "new": false
-   },
-   {
-    "repo": "heydamir/unslop",
-    "owner": "heydamir",
-    "name": "unslop",
-    "stars": 14874,
-    "velocity": 1071,
-    "delta": 651,
-    "age_days": 13.9,
-    "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+    "repo": "janestreet/agent_skills",
+    "owner": "janestreet",
+    "name": "agent_skills",
+    "stars": 8051,
+    "velocity": 818,
+    "delta": 978,
+    "age_days": 9.8,
+    "description": "Agent skills",
     "new": false
    },
    {
     "repo": "Minireel/HGhub",
     "owner": "Minireel",
     "name": "HGhub",
-    "stars": 8455,
-    "velocity": 944,
-    "delta": 197,
-    "age_days": 9.0,
+    "stars": 8782,
+    "velocity": 882,
+    "delta": 327,
+    "age_days": 10.0,
     "description": "YellowFruit third-party client",
+    "new": false
+   },
+   {
+    "repo": "Lee-xeo/Claude-Cage",
+    "owner": "Lee-xeo",
+    "name": "Claude-Cage",
+    "stars": 5152,
+    "velocity": 399,
+    "delta": 692,
+    "age_days": 12.9,
+    "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
     "new": false
    },
    {
     "repo": "zortos293/Lichii",
     "owner": "zortos293",
     "name": "Lichii",
-    "stars": 8662,
-    "velocity": 725,
-    "delta": 291,
-    "age_days": 11.9,
+    "stars": 8871,
+    "velocity": 685,
+    "delta": 209,
+    "age_days": 12.9,
     "description": "VERY experimental Nintendo Switch 2 emulator",
-    "new": false
-   },
-   {
-    "repo": "Kianuni/Erosion-CN",
-    "owner": "Kianuni",
-    "name": "Erosion-CN",
-    "stars": 1675,
-    "velocity": 688,
-    "delta": 272,
-    "age_days": 2.4,
-    "description": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
     "new": false
    },
    {
     "repo": "tangerineturtle1/NX2navi",
     "owner": "tangerineturtle1",
     "name": "NX2navi",
-    "stars": 3405,
-    "velocity": 664,
-    "delta": 342,
-    "age_days": 5.1,
+    "stars": 3693,
+    "velocity": 603,
+    "delta": 288,
+    "age_days": 6.1,
     "description": "",
+    "new": false
+   },
+   {
+    "repo": "shanselman/gputaskman",
+    "owner": "shanselman",
+    "name": "gputaskman",
+    "stars": 2959,
+    "velocity": 282,
+    "delta": 603,
+    "age_days": 10.5,
+    "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows",
+    "new": false
+   },
+   {
+    "repo": "Kianuni/Erosion-CN",
+    "owner": "Kianuni",
+    "name": "Erosion-CN",
+    "stars": 1843,
+    "velocity": 537,
+    "delta": 168,
+    "age_days": 3.4,
+    "description": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
     "new": false
    },
    {
     "repo": "jhaizhou-ops/S2Arm",
     "owner": "jhaizhou-ops",
     "name": "S2Arm",
-    "stars": 2721,
-    "velocity": 633,
-    "delta": 183,
-    "age_days": 4.3,
+    "stars": 2836,
+    "velocity": 535,
+    "delta": 115,
+    "age_days": 5.3,
     "description": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one ",
     "new": false
    },
    {
-    "repo": "wangzan101/Mika",
-    "owner": "wangzan101",
-    "name": "Mika",
-    "stars": 8340,
-    "velocity": 598,
-    "delta": 147,
-    "age_days": 13.9,
-    "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+    "repo": "apex-compute/ANR",
+    "owner": "apex-compute",
+    "name": "ANR",
+    "stars": 1231,
+    "velocity": 523,
+    "delta": null,
+    "age_days": 2.4,
+    "description": "Apex Neural Rendering (ANR) by Apex Compute",
+    "new": true,
+    "variants": [
+     "anr",
+     "apex-compute anr",
+     "apex anr"
+    ]
+   },
+   {
+    "repo": "expo/exact",
+    "owner": "expo",
+    "name": "exact",
+    "stars": 3713,
+    "velocity": 323,
+    "delta": 514,
+    "age_days": 11.5,
+    "description": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and",
     "new": false
    },
    {
-    "repo": "HybridRobotics/supermimic",
-    "owner": "HybridRobotics",
-    "name": "supermimic",
-    "stars": 1250,
-    "velocity": 597,
-    "delta": 310,
-    "age_days": 2.1,
-    "description": "Humanoid whole-body motion tracking with one differentiable world model.",
+    "repo": "patch-gg/pixelfx",
+    "owner": "patch-gg",
+    "name": "pixelfx",
+    "stars": 7274,
+    "velocity": 510,
+    "delta": 164,
+    "age_days": 14.3,
+    "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+    "new": false
+   },
+   {
+    "repo": "KKKKhazix/agent-autoloop",
+    "owner": "KKKKhazix",
+    "name": "agent-autoloop",
+    "stars": 5058,
+    "velocity": 496,
+    "delta": 440,
+    "age_days": 10.2,
+    "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
     "new": false
    }
   ],
-  "terms": [],
+  "terms": [
+   {
+    "term": "anr",
+    "recent": 1,
+    "variants": [
+     "anr",
+     "apex-compute anr",
+     "apex anr"
+    ],
+    "repo": "apex-compute/ANR",
+    "note": "GitHub 爆发 apex-compute/ANR ★1231(均 523/天)",
+    "examples": [
+     "apex-compute/ANR: Apex Neural Rendering (ANR) by Apex Compute"
+    ]
+   }
+  ],
   "window_days": 14,
-  "seconds": 10
+  "seconds": 6
  },
  "sitemap": {
   "sites": {
    "glama": {
-    "urls": 164924,
-    "new": 1237,
+    "urls": 166053,
+    "new": 1164,
     "first_run": false,
     "sample": [
-     "https://glama.ai/mcp/connectors/ae.framerfy/store-builder",
-     "https://glama.ai/mcp/connectors/ai.adeptads.api/adept-ads",
-     "https://glama.ai/mcp/connectors/ai.admux/admux",
-     "https://glama.ai/mcp/connectors/ai.anyreach/anyreach",
-     "https://glama.ai/mcp/connectors/ai.apexrunner/signals",
-     "https://glama.ai/mcp/connectors/ai.benchlm/data",
-     "https://glama.ai/mcp/connectors/ai.callmcp/server",
-     "https://glama.ai/mcp/connectors/ai.cashcoach.mcp/cash-coach-ai"
+     "https://glama.ai/mcp/connectors/ai.agimon/agimon",
+     "https://glama.ai/mcp/connectors/ai.airpulse/airpulse",
+     "https://glama.ai/mcp/connectors/ai.askadia/askadia",
+     "https://glama.ai/mcp/connectors/ai.boomlink/boomlink",
+     "https://glama.ai/mcp/connectors/ai.bootkey/bootkey",
+     "https://glama.ai/mcp/connectors/ai.buhalteris/mcp",
+     "https://glama.ai/mcp/connectors/ai.bv7x/agents",
+     "https://glama.ai/mcp/connectors/ai.contentsweep/airflow-dag-doctor"
     ]
    },
    "mcp.so": {
-    "urls": 20388,
-    "new": 92,
+    "urls": 20503,
+    "new": 115,
     "first_run": false,
     "sample": [
-     "https://mcp.so/agents/deltabridge",
-     "https://mcp.so/cli/agent-browser",
-     "https://mcp.so/grok-bot/best-video-editor",
-     "https://mcp.so/grok-bot/marketing-project-manager",
-     "https://mcp.so/servers/a2abench",
-     "https://mcp.so/servers/aeogeo",
-     "https://mcp.so/servers/agentindex-agentidx",
-     "https://mcp.so/servers/agentread"
+     "https://mcp.so/cli/repomix",
+     "https://mcp.so/grok-bot/performance-marketer",
+     "https://mcp.so/grok-bot/warm-intro-finder",
+     "https://mcp.so/servers/ad-library-intelligence",
+     "https://mcp.so/servers/adchat-meta-ads-mcp-server-and-ai-agent-for-claude-and-chatgpt",
+     "https://mcp.so/servers/adrails",
+     "https://mcp.so/servers/ads-mcp-server-by-adkit",
+     "https://mcp.so/servers/agent-payment-node"
     ]
    },
    "lobehub-mcp": {
@@ -1107,17 +1068,17 @@
    },
    "ai-bot.cn": {
     "urls": 5068,
-    "new": 702,
+    "new": 698,
     "first_run": false,
     "sample": [
-     "https://ai-bot.cn/gemini-decision-1/",
-     "https://ai-bot.cn/jimeng-ai-drama-studio-review/",
-     "https://ai-bot.cn/office-raccoon-review/",
-     "https://ai-bot.cn/qwen4-max-preview/",
-     "https://ai-bot.cn/seedance-2-5-flash/",
-     "https://ai-bot.cn/sites/1338.html",
-     "https://ai-bot.cn/sites/47103.html",
-     "https://ai-bot.cn/sites/47112.html"
+     "https://ai-bot.cn/2pr/",
+     "https://ai-bot.cn/3fs/",
+     "https://ai-bot.cn/a-deep-dive-into-mcp-and-the-future-of-ai-tooling/",
+     "https://ai-bot.cn/a0-dev/",
+     "https://ai-bot.cn/agent-tars/",
+     "https://ai-bot.cn/agentic-reasoning/",
+     "https://ai-bot.cn/agentrefine/",
+     "https://ai-bot.cn/agentsociety/"
     ]
    },
    "opentools": {
@@ -1127,18 +1088,18 @@
     "sample": []
    },
    "dang": {
-    "urls": 7927,
-    "new": 21,
+    "urls": 7948,
+    "new": 27,
     "first_run": false,
     "sample": [
-     "https://dang.ai/tool/3d-house-planner-ai-3d-house-planner",
-     "https://dang.ai/tool/arca-by-brevis-ai-session-monetization-app",
-     "https://dang.ai/tool/beevi-autonomous-ai-social-media-manager",
-     "https://dang.ai/tool/collager-ai-ai-photo-collage-maker",
-     "https://dang.ai/tool/colorkin-personalized-coloring-book-ai",
-     "https://dang.ai/tool/deepsolver",
-     "https://dang.ai/tool/dimedimebaby-photo-to-video-ai",
-     "https://dang.ai/tool/engineering-on-web-ai-cad-from-text"
+     "https://dang.ai/tool/ai-voice-generator-free-ai-voice-generator",
+     "https://dang.ai/tool/college-essay-grader-ai-college-essay-grader",
+     "https://dang.ai/tool/dame-hombro-ai-photo-to-video-ai",
+     "https://dang.ai/tool/dime-dime-baby-ai-photo-to-video-ai-2",
+     "https://dang.ai/tool/emero-studio-ai-image-and-video-generator-for-claude",
+     "https://dang.ai/tool/findingsteel-steel-weight-calculator-steel-weight-calculator",
+     "https://dang.ai/tool/fylm-ai",
+     "https://dang.ai/tool/imagetexttools-edit-text-in-image"
     ]
    },
    "clipfly": {
@@ -1148,178 +1109,177 @@
     "sample": []
    },
    "aitoptools": {
-    "urls": 11913,
-    "new": 1,
+    "urls": 11915,
+    "new": 3,
     "first_run": false,
     "sample": [
-     "https://aitoptools.com/ai-blog/animation-agent-how-it-works-and-what-it-can-do/"
+     "https://aitoptools.com/ai-blog/7-ai-tools-for-finding-beauty-influencers-across-skincare-makeup-and-beauty-tech/",
+     "https://aitoptools.com/ai-blog/best-ai-video-generators-in-2026-10-tools-for-creating-high-quality-videos/",
+     "https://aitoptools.com/tool/aeo-armory/"
     ]
    },
    "futurepedia": {
     "urls": 2497,
-    "new": 4,
+    "new": 1,
     "first_run": false,
     "sample": [
-     "https://www.futurepedia.io/tool/amesa",
-     "https://www.futurepedia.io/tool/autosheet",
-     "https://www.futurepedia.io/tool/imagineart",
-     "https://www.futurepedia.io/tool/revr"
+     "https://www.futurepedia.io/tool/thesis"
     ]
    }
   },
   "terms": [
    {
-    "term": "sites",
-    "recent": 697,
-    "baseline": 26,
-    "lift": 561.0
+    "term": "adkit",
+    "recent": 16,
+    "baseline": 4,
+    "lift": 15.4
    },
    {
-    "term": "connectors io.github.bepolabs",
-    "recent": 43,
+    "term": "tutorials deepseek",
+    "recent": 12,
+    "baseline": 1,
+    "lift": 11.9
+   },
+   {
+    "term": "tutorials",
+    "recent": 24,
+    "baseline": 156,
+    "lift": 10.0
+   },
+   {
+    "term": "connectors io.github.geornaden",
+    "recent": 10,
     "baseline": 0,
-    "lift": 43.0
+    "lift": 10.0
    },
    {
-    "term": "com.profullstack",
-    "recent": 30,
-    "baseline": 0,
-    "lift": 30.0
-   },
-   {
-    "term": "connectors com.profullstack",
-    "recent": 30,
-    "baseline": 0,
-    "lift": 30.0
-   },
-   {
-    "term": "pyxlino",
+    "term": "r1",
     "recent": 11,
+    "baseline": 25,
+    "lift": 9.0
+   },
+   {
+    "term": "io.github.kizukidata",
+    "recent": 9,
     "baseline": 3,
-    "lift": 10.7
+    "lift": 8.8
    },
    {
-    "term": "ezkielyna",
+    "term": "connectors io.github.kizukidata",
+    "recent": 9,
+    "baseline": 3,
+    "lift": 8.8
+   },
+   {
+    "term": "connectors io.github.adkit",
     "recent": 8,
     "baseline": 1,
     "lift": 7.9
    },
    {
-    "term": "ezkielynagroup",
+    "term": "smrht",
     "recent": 8,
-    "baseline": 1,
-    "lift": 7.9
+    "baseline": 3,
+    "lift": 7.8
    },
    {
-    "term": "io.github.michaelvereb",
+    "term": "cotlet connect",
+    "recent": 11,
+    "baseline": 50,
+    "lift": 7.6
+   },
+   {
+    "term": "deepseek",
+    "recent": 20,
+    "baseline": 205,
+    "lift": 7.0
+   },
+   {
+    "term": "io.github.ranqint",
     "recent": 7,
     "baseline": 0,
     "lift": 7.0
    },
    {
-    "term": "connectors io.github.michaelvereb",
+    "term": "connectors io.github.ranqint",
     "recent": 7,
     "baseline": 0,
     "lift": 7.0
    },
    {
-    "term": "ralf9090",
+    "term": "io.github.zoom zoom",
+    "recent": 7,
+    "baseline": 7,
+    "lift": 6.6
+   },
+   {
+    "term": "connectors io.github.zoom",
+    "recent": 7,
+    "baseline": 7,
+    "lift": 6.6
+   },
+   {
+    "term": "trw123123",
+    "recent": 6,
+    "baseline": 0,
+    "lift": 6.0
+   },
+   {
+    "term": "thesven",
     "recent": 6,
     "baseline": 1,
     "lift": 5.9
    },
    {
-    "term": "cotlet",
-    "recent": 7,
-    "baseline": 44,
-    "lift": 5.0
+    "term": "ads",
+    "recent": 32,
+    "baseline": 520,
+    "lift": 5.6
    },
    {
-    "term": "cotlet connect",
-    "recent": 7,
-    "baseline": 43,
-    "lift": 5.0
-   },
-   {
-    "term": "io.github.ralf9090",
+    "term": "es.argohub.www",
     "recent": 5,
-    "baseline": 1,
+    "baseline": 0,
     "lift": 5.0
    },
    {
-    "term": "connectors io.github.ralf9090",
+    "term": "connectors es.argohub.www",
     "recent": 5,
-    "baseline": 1,
+    "baseline": 0,
     "lift": 5.0
    },
    {
-    "term": "group",
-    "recent": 9,
-    "baseline": 107,
+    "term": "io.github.coregentdevspace",
+    "recent": 5,
+    "baseline": 0,
+    "lift": 5.0
+   },
+   {
+    "term": "connectors io.github.coregentdevspace",
+    "recent": 5,
+    "baseline": 0,
+    "lift": 5.0
+   },
+   {
+    "term": "connectors io.github.stellalytics",
+    "recent": 5,
+    "baseline": 0,
+    "lift": 5.0
+   },
+   {
+    "term": "connectors io.github.nero",
+    "recent": 8,
+    "baseline": 88,
     "lift": 4.5
    },
    {
-    "term": "connectors com.getridian",
-    "recent": 4,
-    "baseline": 0,
-    "lift": 4.0
-   },
-   {
-    "term": "arb",
-    "recent": 4,
-    "baseline": 9,
-    "lift": 3.7
-   },
-   {
-    "term": "davised",
-    "recent": 4,
-    "baseline": 11,
-    "lift": 3.6
-   },
-   {
-    "term": "abigail",
-    "recent": 4,
-    "baseline": 12,
-    "lift": 3.6
-   },
-   {
-    "term": "abigaildavised",
-    "recent": 4,
-    "baseline": 11,
-    "lift": 3.6
-   },
-   {
-    "term": "connectors dev.workers.cybermax",
-    "recent": 5,
-    "baseline": 58,
-    "lift": 3.2
-   },
-   {
-    "term": "dev.workers.cybermax tools.cybermax",
-    "recent": 5,
-    "baseline": 58,
-    "lift": 3.2
-   },
-   {
-    "term": "io.usefulapi",
-    "recent": 29,
-    "baseline": 924,
-    "lift": 3.0
-   },
-   {
-    "term": "connectors io.usefulapi",
-    "recent": 29,
-    "baseline": 924,
-    "lift": 3.0
-   },
-   {
-    "term": "works",
-    "recent": 5,
-    "baseline": 74,
-    "lift": 3.0
+    "term": "io.github.nero engine",
+    "recent": 8,
+    "baseline": 88,
+    "lift": 4.5
    }
   ],
-  "seconds": 362
+  "seconds": 274
  },
  "newsite": {
   "skipped": true
@@ -1339,188 +1299,165 @@
  "feed": {
   "read": {
    "producthunt": 50,
-   "hn": 8,
-   "openrouter": 15,
+   "hn": 10,
+   "openrouter": 14,
    "appstore": 200,
    "awesome": 4636
   },
   "new": {
    "producthunt": [
     {
-     "key": "https://www.producthunt.com/products/spacefast-by-automattic",
-     "name": "Spacefast by Automattic",
-     "url": "https://www.producthunt.com/products/spacefast-by-automattic",
-     "about": "Give your AI agents a place to build, run, and ship Discussion | Link",
+     "key": "https://www.producthunt.com/products/whoop",
+     "name": "WHOOP Humans",
+     "url": "https://www.producthunt.com/products/whoop",
+     "about": "WHOOP's social network built around real health data Discussion | Link",
+     "fresh": true
+    },
+    {
+     "key": "https://www.producthunt.com/products/paxper",
+     "name": "Paxper",
+     "url": "https://www.producthunt.com/products/paxper",
+     "about": "Create cloud infrastructure visually and review every change Discussion | Link",
+     "fresh": true
+    },
+    {
+     "key": "https://www.producthunt.com/products/hoverine",
+     "name": "Hoverine",
+     "url": "https://www.producthunt.com/products/hoverine",
+     "about": "Rive animation templates you can drop into your app Discussion | Link",
+     "fresh": true
+    },
+    {
+     "key": "https://www.producthunt.com/products/gatrends",
+     "name": "GAtrends",
+     "url": "https://www.producthunt.com/products/gatrends",
+     "about": "Spike alerts for your keywords in Telegram, Claude, ChatGPT Discussion | Link",
+     "fresh": true
+    },
+    {
+     "key": "https://www.producthunt.com/products/expo",
+     "name": "Expo Simulators",
+     "url": "https://www.producthunt.com/products/expo",
+     "about": "Cloud simulators built for agents Discussion | Link",
+     "fresh": true
+    },
+    {
+     "key": "https://www.producthunt.com/products/kairos-18",
+     "name": "Kairos",
+     "url": "https://www.producthunt.com/products/kairos-18",
+     "about": "Personal analytics engine across health, finances, & social Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/marqly",
-     "name": "Marqly 7.0",
-     "url": "https://www.producthunt.com/products/marqly",
-     "about": "Bookmarks you can query to find the things you saved Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/leasewire",
-     "name": "LeaseWire",
-     "url": "https://www.producthunt.com/products/leasewire",
-     "about": "Lease abstraction, wired to your model. Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/foxpit",
-     "name": "Foxpit",
-     "url": "https://www.producthunt.com/products/foxpit",
-     "about": "Run Claude Code, Codex & OpenCode as one AI team Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/jot-2-0",
-     "name": "Jot 2.0",
-     "url": "https://www.producthunt.com/products/jot-2-0",
-     "about": "Select text, tap Shift twice, it's a markdown file Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/hoy-for-mac",
-     "name": "Hoy for Mac",
-     "url": "https://www.producthunt.com/products/hoy-for-mac",
-     "about": "Walkie-talkie meets AirDrop meets Messages Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/youart",
-     "name": "YouArt Desktop App",
-     "url": "https://www.producthunt.com/products/youart",
-     "about": "Codex for creative team Discussion | Link",
+     "key": "https://www.producthunt.com/products/qorqbot",
+     "name": "qorqbot",
+     "url": "https://www.producthunt.com/products/qorqbot",
+     "about": "Proactive agent for business work Discussion | Link",
      "fresh": false
     },
     {
-     "key": "https://www.producthunt.com/products/sendr",
-     "name": "Sendr V4: Lovable for GTM",
-     "url": "https://www.producthunt.com/products/sendr",
-     "about": "Your AI GTM engineer to build signal based go-to-market Discussion | Link",
-     "fresh": false
+     "key": "https://www.producthunt.com/products/stockrip",
+     "name": "StockRip",
+     "url": "https://www.producthunt.com/products/stockrip",
+     "about": "Trading cards, literally digital cards with tokenized stocks Discussion | Link",
+     "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/canyon-code",
-     "name": "CanyonOS",
-     "url": "https://www.producthunt.com/products/canyon-code",
-     "about": "The One Platform for Scaling your Agentic Apps Discussion | Link",
-     "fresh": false
+     "key": "https://www.producthunt.com/products/gemini-6",
+     "name": "Gemini 4 Hydrogen",
+     "url": "https://www.producthunt.com/products/gemini-6",
+     "about": "Fast agentic development for coders Discussion | Link",
+     "fresh": true
     },
     {
-     "key": "https://www.producthunt.com/products/grok",
-     "name": "Grok Bot 1.0",
-     "url": "https://www.producthunt.com/products/grok",
-     "about": "Bots work together alongside your team Discussion | Link",
+     "key": "https://www.producthunt.com/products/pocket-studio-for-supabase",
+     "name": "Pocket Studio for Supabase",
+     "url": "https://www.producthunt.com/products/pocket-studio-for-supabase",
+     "about": "Supabase dashboard & SQL editor for Android Discussion | Link",
      "fresh": true
     }
    ],
    "hn": [
     {
-     "key": "50443812",
-     "name": "Get your coding agent off ~2019 JavaScript, onto modern web primitives",
-     "url": "https://github.com/GoogleChrome/modern-web-guidance",
-     "about": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
-     "score": 431,
+     "key": "50470488",
+     "name": "My $300 embroidery machine needed a subscription, so I built my own app",
+     "url": "https://github.com/simpsoka/zigzag",
+     "about": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+     "score": 583,
      "fresh": true
     },
     {
-     "key": "50454625",
-     "name": "Yogurt",
-     "url": "https://github.com/FrigadeHQ/yogurt",
-     "about": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
-     "score": 260,
+     "key": "50471650",
+     "name": "AgentRun",
+     "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+     "about": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+     "score": 119,
      "fresh": true
     },
     {
-     "key": "50441518",
-     "name": "Valencia, Spain in Sim City/Isometric View",
-     "url": "https://tinyvalencia.com/",
-     "about": "Show HN: Valencia, Spain in Sim City/Isometric View",
-     "score": 248,
+     "key": "50469007",
+     "name": "Fable52.games",
+     "url": "https://fable52.games",
+     "about": "Show HN: Fable52.games – Play and inspect Fable 5.2 single-file HTML games",
+     "score": 69,
      "fresh": true
     },
     {
-     "key": "50457230",
-     "name": "I recreated Papers Please but you're deciding which YC startups to fund",
-     "url": "https://termsheetplease.com/",
-     "about": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
-     "score": 230,
+     "key": "50471281",
+     "name": "Kapso",
+     "url": "https://news.ycombinator.com/item?id=50471281",
+     "about": "Show HN: Kapso – Iterative learning from enterprise data",
+     "score": 49,
      "fresh": true
     },
     {
-     "key": "50449891",
-     "name": "Black Ops II statically recompiled to native ARM64 macOS",
-     "url": "https://github.com/adrbn/bo2-mac",
-     "about": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
-     "score": 146,
+     "key": "50470343",
+     "name": "Apron Chat Protocol",
+     "url": "https://apron.chat/",
+     "about": "Show HN: Apron Chat Protocol",
+     "score": 46,
      "fresh": true
     },
     {
-     "key": "50453229",
-     "name": "Godbolt-in-a-floating-window for Neovim (C, C++, Rust)",
-     "url": "https://github.com/0xdeadf1sh/AssemblyForNeovim",
-     "about": "Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)",
-     "score": 103,
-     "fresh": true
-    },
-    {
-     "key": "50454951",
-     "name": "Klad, a paint app your coding agent can drive (source-available)",
-     "url": "https://github.com/klad-app/klad",
-     "about": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
-     "score": 79,
-     "fresh": true
-    },
-    {
-     "key": "50441350",
-     "name": "Aircad",
-     "url": "https://aircad.com",
-     "about": "Show HN: Aircad – Professional drafting and 3D modeling in the browser",
-     "score": 47,
+     "key": "50467880",
+     "name": "AI Red Lines",
+     "url": "https://yourairedlines.com",
+     "about": "Show HN: AI Red Lines – write down what would make you act on AI",
+     "score": 36,
      "fresh": true
     }
    ],
    "openrouter": [
     {
-     "key": "baidu/ernie-5.5-flash-preview:free",
-     "name": "ERNIE-5.5-Flash-Preview (free)",
-     "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
-     "about": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total",
+     "key": "google/gemini-4-hydrogen",
+     "name": "Gemini 4 Hydrogen",
+     "url": "https://openrouter.ai/google/gemini-4-hydrogen",
+     "about": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than.",
      "fresh": true
     },
     {
-     "key": "baidu/ernie-light-dt-1.0-intl",
-     "name": "ERNIE-Light-DT-1.0",
-     "url": "https://openrouter.ai/baidu/ernie-light-dt-1.0-intl",
-     "about": "ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mech",
+     "key": "google/gemini-4-hydrogen:batch",
+     "name": "Gemini 4 Hydrogen (batch)",
+     "url": "https://openrouter.ai/google/gemini-4-hydrogen:batch",
+     "about": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than.",
      "fresh": true
     },
     {
-     "key": "google/gemini-4-carbon",
-     "name": "Gemini 4 Carbon",
-     "url": "https://openrouter.ai/google/gemini-4-carbon",
-     "about": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...",
-     "fresh": true
-    },
-    {
-     "key": "google/gemini-4-carbon:batch",
-     "name": "Gemini 4 Carbon (batch)",
-     "url": "https://openrouter.ai/google/gemini-4-carbon:batch",
-     "about": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...",
-     "fresh": true
-    },
-    {
-     "key": "kt/midm-k-3.0-pro",
-     "name": "Mi:dm K 3.0 Pro",
-     "url": "https://openrouter.ai/kt/midm-k-3.0-pro",
-     "about": "Mi:dm K 3.0 Pro is a Mixture-of-Experts reasoning model from KT, with 120B total and 12B active parameters. It uses a hybrid architecture that mixes Mamba, MoE and attention layers.",
+     "key": "thinkingmachines/inkling-2-small",
+     "name": "Inkling 2 Small",
+     "url": "https://openrouter.ai/thinkingmachines/inkling-2-small",
+     "about": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second...",
      "fresh": true
     }
    ],
-   "appstore": [],
+   "appstore": [
+    {
+     "key": "1485352913",
+     "name": "Pokémon HOME",
+     "url": "https://apps.apple.com/us/app/pok%C3%A9mon-home/id1485352913?uo=2",
+     "about": "Pokémon HOME is a cloud-based service, designed as a place where all of your Pokémon can gather. ▼ Manage your Pokémon! You can bring any Pokémon that has appeared in a core Pokémon game to Pokémon HO"
+    }
+   ],
    "awesome": []
   },
   "first_run": [],
@@ -1530,283 +1467,247 @@
   "cost_micros": 0,
   "terms": [
    {
-    "term": "spacefast by automattic",
+    "term": "whoop humans",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/spacefast-by-automattic",
-     "Give your AI agents a place to build, run, and ship Discussion | Link"
+     "https://www.producthunt.com/products/whoop",
+     "WHOOP's social network built around real health data Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Spacefast by Automattic"
+     "Product Hunt: WHOOP Humans"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "marqly 7.0",
+    "term": "paxper",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/marqly",
-     "Bookmarks you can query to find the things you saved Discussion | Link"
+     "https://www.producthunt.com/products/paxper",
+     "Create cloud infrastructure visually and review every change Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Marqly 7.0"
+     "Product Hunt: Paxper"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "leasewire",
+    "term": "hoverine",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/leasewire",
-     "Lease abstraction, wired to your model. Discussion | Link"
+     "https://www.producthunt.com/products/hoverine",
+     "Rive animation templates you can drop into your app Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: LeaseWire"
+     "Product Hunt: Hoverine"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "foxpit",
+    "term": "gatrends",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/foxpit",
-     "Run Claude Code, Codex & OpenCode as one AI team Discussion | Link"
+     "https://www.producthunt.com/products/gatrends",
+     "Spike alerts for your keywords in Telegram, Claude, ChatGPT Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Foxpit"
+     "Product Hunt: GAtrends"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "jot 2.0",
+    "term": "expo simulators",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/jot-2-0",
-     "Select text, tap Shift twice, it's a markdown file Discussion | Link"
+     "https://www.producthunt.com/products/expo",
+     "Cloud simulators built for agents Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Jot 2.0"
+     "Product Hunt: Expo Simulators"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "hoy for mac",
+    "term": "kairos",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/hoy-for-mac",
-     "Walkie-talkie meets AirDrop meets Messages Discussion | Link"
+     "https://www.producthunt.com/products/kairos-18",
+     "Personal analytics engine across health, finances, & social Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Hoy for Mac"
+     "Product Hunt: Kairos"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "youart desktop app",
+    "term": "qorqbot",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/youart",
-     "Codex for creative team Discussion | Link"
+     "https://www.producthunt.com/products/qorqbot",
+     "Proactive agent for business work Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: YouArt Desktop App"
+     "Product Hunt: qorqbot"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "sendr v4: lovable for gtm",
+    "term": "stockrip",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/sendr",
-     "Your AI GTM engineer to build signal based go-to-market Discussion | Link"
+     "https://www.producthunt.com/products/stockrip",
+     "Trading cards, literally digital cards with tokenized stocks Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Sendr V4: Lovable for GTM"
+     "Product Hunt: StockRip"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "canyonos",
+    "term": "gemini 4 hydrogen",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/canyon-code",
-     "The One Platform for Scaling your Agentic Apps Discussion | Link"
+     "https://www.producthunt.com/products/gemini-6",
+     "Fast agentic development for coders Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: CanyonOS"
+     "Product Hunt: Gemini 4 Hydrogen"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "grok bot 1.0",
+    "term": "pocket studio for supabase",
     "recent": 1,
     "about": [
-     "https://www.producthunt.com/products/grok",
-     "Bots work together alongside your team Discussion | Link"
+     "https://www.producthunt.com/products/pocket-studio-for-supabase",
+     "Supabase dashboard & SQL editor for Android Discussion | Link"
     ],
     "examples": [
-     "Product Hunt: Grok Bot 1.0"
+     "Product Hunt: Pocket Studio for Supabase"
     ],
     "note": "Product Hunt 新上架"
    },
    {
-    "term": "get your coding agent off ~2019 javascript, onto modern web primitives",
+    "term": "my $300 embroidery machine needed a subscription, so i built my own app",
     "recent": 1,
     "about": [
-     "https://github.com/GoogleChrome/modern-web-guidance",
-     "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives"
+     "https://github.com/simpsoka/zigzag",
+     "Show HN: My $300 embroidery machine needed a subscription, so I built my own app"
     ],
     "examples": [
-     "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives"
+     "Show HN: My $300 embroidery machine needed a subscription, so I built my own app"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "yogurt",
+    "term": "agentrun",
     "recent": 1,
     "about": [
-     "https://github.com/FrigadeHQ/yogurt",
-     "Show HN: Yogurt – Free, private, open-source alternative to Granola"
+     "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+     "Show HN: AgentRun – open-source, Self-improving Managed Agents"
     ],
     "examples": [
-     "Show HN: Yogurt"
+     "Show HN: AgentRun"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "valencia, spain in sim city/isometric view",
+    "term": "fable52.games",
     "recent": 1,
     "about": [
-     "https://tinyvalencia.com/",
-     "Show HN: Valencia, Spain in Sim City/Isometric View"
+     "https://fable52.games",
+     "Show HN: Fable52.games – Play and inspect Fable 5.2 single-file HTML games"
     ],
     "examples": [
-     "Show HN: Valencia, Spain in Sim City/Isometric View"
+     "Show HN: Fable52.games"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "i recreated papers please but you're deciding which yc startups to fund",
+    "term": "kapso",
     "recent": 1,
     "about": [
-     "https://termsheetplease.com/",
-     "Show HN: I recreated Papers Please but you're deciding which YC startups to fund"
+     "https://news.ycombinator.com/item?id=50471281",
+     "Show HN: Kapso – Iterative learning from enterprise data"
     ],
     "examples": [
-     "Show HN: I recreated Papers Please but you're deciding which YC startups to fund"
+     "Show HN: Kapso"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "black ops ii statically recompiled to native arm64 macos",
+    "term": "apron chat protocol",
     "recent": 1,
     "about": [
-     "https://github.com/adrbn/bo2-mac",
-     "Show HN: Black Ops II statically recompiled to native ARM64 macOS"
+     "https://apron.chat/",
+     "Show HN: Apron Chat Protocol"
     ],
     "examples": [
-     "Show HN: Black Ops II statically recompiled to native ARM64 macOS"
+     "Show HN: Apron Chat Protocol"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "godbolt-in-a-floating-window for neovim (c, c++, rust)",
+    "term": "ai red lines",
     "recent": 1,
     "about": [
-     "https://github.com/0xdeadf1sh/AssemblyForNeovim",
-     "Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)"
+     "https://yourairedlines.com",
+     "Show HN: AI Red Lines – write down what would make you act on AI"
     ],
     "examples": [
-     "Show HN: Godbolt-in-a-floating-window for Neovim (C, C++, Rust)"
+     "Show HN: AI Red Lines"
     ],
     "note": "Show HN 新上架"
    },
    {
-    "term": "klad, a paint app your coding agent can drive (source-available)",
+    "term": "gemini 4 hydrogen",
     "recent": 1,
     "about": [
-     "https://github.com/klad-app/klad",
-     "Show HN: Klad, a paint app your coding agent can drive (source-available)"
+     "https://openrouter.ai/google/gemini-4-hydrogen",
+     "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than."
     ],
     "examples": [
-     "Show HN: Klad, a paint app your coding agent can drive (source-available)"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "aircad",
-    "recent": 1,
-    "about": [
-     "https://aircad.com",
-     "Show HN: Aircad – Professional drafting and 3D modeling in the browser"
-    ],
-    "examples": [
-     "Show HN: Aircad"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "ernie-5.5-flash-preview (free)",
-    "recent": 1,
-    "about": [
-     "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free",
-     "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total"
-    ],
-    "examples": [
-     "OpenRouter: ERNIE-5.5-Flash-Preview (free)"
+     "OpenRouter: Gemini 4 Hydrogen"
     ],
     "note": "OpenRouter 新上架"
    },
    {
-    "term": "ernie-light-dt-1.0",
+    "term": "gemini 4 hydrogen (batch)",
     "recent": 1,
     "about": [
-     "https://openrouter.ai/baidu/ernie-light-dt-1.0-intl",
-     "ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mech"
+     "https://openrouter.ai/google/gemini-4-hydrogen:batch",
+     "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than."
     ],
     "examples": [
-     "OpenRouter: ERNIE-Light-DT-1.0"
+     "OpenRouter: Gemini 4 Hydrogen (batch)"
     ],
     "note": "OpenRouter 新上架"
    },
    {
-    "term": "gemini 4 carbon",
+    "term": "inkling 2 small",
     "recent": 1,
     "about": [
-     "https://openrouter.ai/google/gemini-4-carbon",
-     "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode..."
+     "https://openrouter.ai/thinkingmachines/inkling-2-small",
+     "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second..."
     ],
     "examples": [
-     "OpenRouter: Gemini 4 Carbon"
+     "OpenRouter: Inkling 2 Small"
     ],
     "note": "OpenRouter 新上架"
    },
    {
-    "term": "gemini 4 carbon (batch)",
+    "term": "pokémon home",
     "recent": 1,
     "about": [
-     "https://openrouter.ai/google/gemini-4-carbon:batch",
-     "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode..."
+     "https://apps.apple.com/us/app/pok%C3%A9mon-home/id1485352913?uo=2",
+     "Pokémon HOME is a cloud-based service, designed as a place where all of your Pokémon can gather. ▼ Manage your Pokémon! You can bring any Pokémon that has appeared in a core Pokémon game to Pokémon HO"
     ],
     "examples": [
-     "OpenRouter: Gemini 4 Carbon (batch)"
+     "App Store: Pokémon HOME"
     ],
-    "note": "OpenRouter 新上架"
-   },
-   {
-    "term": "mi:dm k 3.0 pro",
-    "recent": 1,
-    "about": [
-     "https://openrouter.ai/kt/midm-k-3.0-pro",
-     "Mi:dm K 3.0 Pro is a Mixture-of-Experts reasoning model from KT, with 120B total and 12B active parameters. It uses a hybrid architecture that mixes Mamba, MoE and attention layers."
-    ],
-    "examples": [
-     "OpenRouter: Mi:dm K 3.0 Pro"
-    ],
-    "note": "OpenRouter 新上架"
+    "note": "App Store 新上架"
    }
   ],
-  "seconds": 23
+  "seconds": 10
  },
  "money": {
   "skipped": true
@@ -1849,354 +1750,12 @@
     "median_lead": -19.0
    }
   },
-  "pending": 609,
+  "pending": 625,
   "window_days": 60,
   "seconds": 0
  },
  "keywords": {
-  "names": [
-   "ltx2 distilled faceswap v3",
-   "3d model anything",
-   "nxnative",
-   "hackios xnu kernel",
-   "reylo"
-  ],
-  "rows": [
-   {
-    "term": "ltx2 distilled faceswap v3",
-    "phrase": "ltx2 distilled faceswap v3",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": true,
-    "decision": "watch",
-    "markets": {
-     "by": {
-      "US": {
-       "volume": 0,
-       "kd": null
-      },
-      "DE": {
-       "volume": 0,
-       "kd": null
-      },
-      "FR": {
-       "volume": 0,
-       "kd": null
-      },
-      "JP": {
-       "volume": 0,
-       "kd": null
-      }
-     },
-     "best": null,
-     "top_region": null
-    },
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "eased": false,
-     "location_code": 2840,
-     "results": [],
-     "kinds": {},
-     "features": [],
-     "forums": [],
-     "weakest": null,
-     "tools": []
-    },
-    "page_age": {
-     "dated": 0,
-     "young": 0,
-     "young_sites": [],
-     "newest": "",
-     "entered": {
-      "since": "",
-      "urls": []
-     }
-    },
-    "yours": {
-     "serp": null,
-     "console": null,
-     "action": "new"
-    }
-   },
-   {
-    "term": "3d model anything",
-    "phrase": "3d model anything",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": true,
-    "decision": "watch",
-    "markets": {
-     "by": {
-      "US": {
-       "volume": 0,
-       "kd": null
-      },
-      "DE": {
-       "volume": 0,
-       "kd": null
-      },
-      "FR": {
-       "volume": 0,
-       "kd": null
-      },
-      "JP": {
-       "volume": 0,
-       "kd": null
-      }
-     },
-     "best": null,
-     "top_region": null
-    },
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "eased": false,
-     "location_code": 2840,
-     "results": [],
-     "kinds": {},
-     "features": [],
-     "forums": [],
-     "weakest": null,
-     "tools": []
-    },
-    "page_age": {
-     "dated": 0,
-     "young": 0,
-     "young_sites": [],
-     "newest": "",
-     "entered": {
-      "since": "",
-      "urls": []
-     }
-    },
-    "yours": {
-     "serp": null,
-     "console": null,
-     "action": "new"
-    }
-   },
-   {
-    "term": "nxnative",
-    "phrase": "nxnative",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": true,
-    "decision": "watch",
-    "markets": {
-     "by": {
-      "US": {
-       "volume": 0,
-       "kd": null
-      },
-      "DE": {
-       "volume": 0,
-       "kd": null
-      },
-      "FR": {
-       "volume": 0,
-       "kd": null
-      },
-      "JP": {
-       "volume": 0,
-       "kd": null
-      }
-     },
-     "best": null,
-     "top_region": null
-    },
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "eased": false,
-     "location_code": 2840,
-     "results": [],
-     "kinds": {},
-     "features": [],
-     "forums": [],
-     "weakest": null,
-     "tools": []
-    },
-    "page_age": {
-     "dated": 0,
-     "young": 0,
-     "young_sites": [],
-     "newest": "",
-     "entered": {
-      "since": "",
-      "urls": []
-     }
-    },
-    "yours": {
-     "serp": null,
-     "console": null,
-     "action": "new"
-    }
-   },
-   {
-    "term": "hackios xnu kernel",
-    "phrase": "hackios xnu kernel",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": true,
-    "decision": "watch",
-    "markets": {
-     "by": {
-      "US": {
-       "volume": 0,
-       "kd": null
-      },
-      "DE": {
-       "volume": 0,
-       "kd": null
-      },
-      "FR": {
-       "volume": 0,
-       "kd": null
-      },
-      "JP": {
-       "volume": 0,
-       "kd": null
-      }
-     },
-     "best": null,
-     "top_region": null
-    },
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "eased": false,
-     "location_code": 2840,
-     "results": [],
-     "kinds": {},
-     "features": [],
-     "forums": [],
-     "weakest": null,
-     "tools": []
-    },
-    "page_age": {
-     "dated": 0,
-     "young": 0,
-     "young_sites": [],
-     "newest": "",
-     "entered": {
-      "since": "",
-      "urls": []
-     }
-    },
-    "yours": {
-     "serp": null,
-     "console": null,
-     "action": "new"
-    }
-   },
-   {
-    "term": "reylo",
-    "phrase": "reylo",
-    "kind": "name",
-    "names": [],
-    "brand": true,
-    "evidence": "",
-    "no_data": true,
-    "decision": "watch",
-    "markets": {
-     "by": {
-      "US": {
-       "volume": 0,
-       "kd": null
-      },
-      "DE": {
-       "volume": 0,
-       "kd": null
-      },
-      "FR": {
-       "volume": 0,
-       "kd": null
-      },
-      "JP": {
-       "volume": 0,
-       "kd": null
-      }
-     },
-     "best": null,
-     "top_region": null
-    },
-    "competition": {
-     "verdict": "crowded",
-     "weak": null,
-     "kd": null,
-     "ads": false,
-     "eased": false,
-     "location_code": 2840,
-     "results": [],
-     "kinds": {},
-     "features": [],
-     "forums": [],
-     "weakest": null,
-     "tools": []
-    },
-    "page_age": {
-     "dated": 0,
-     "young": 0,
-     "young_sites": [],
-     "newest": "",
-     "entered": {
-      "since": "",
-      "urls": []
-     }
-    },
-    "yours": {
-     "serp": null,
-     "console": null,
-     "action": "new"
-    }
-   }
-  ],
-  "proposed": 0,
-  "relevant": 0,
-  "kept": 0,
-  "benchmark": "gpts",
-  "bench_daily": null,
-  "volume_month": "",
-  "no_evidence": [
-   "ltx2 distilled faceswap v3",
-   "3d model anything",
-   "nxnative",
-   "hackios xnu kernel",
-   "reylo"
-  ],
-  "posts_error": "",
-  "related": false,
-  "tails": {},
-  "cosearch": [],
-  "related_errors": [],
-  "geo": "US",
-  "country_errors": [],
-  "competition_errors": [],
-  "extra_errors": [
-   "ltx2 distilled faceswap v3 (word age)",
-   "3d model anything (word age)",
-   "nxnative (word age)",
-   "hackios xnu kernel (word age)",
-   "reylo (word age)"
-  ],
-  "cost_micros": 0,
-  "seconds": 26
+  "error": "AisaError: HTTP 402: {\"error\":{\"action\":{\"type\":\"top_up\",\"url\":\"https://console.aisa.one/billing\"},\"code\":\"insufficient_wallet_balance\",\"message\":\"Insufficient balance. To",
+  "seconds": 6
  }
 }

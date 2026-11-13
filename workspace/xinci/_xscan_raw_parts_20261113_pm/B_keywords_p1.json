@@ -1,0 +1,587 @@
+{
+  "data": [
+    {
+      "author_id": "1211536002382041088",
+      "created_at": "2026-11-13T07:56:23.000Z",
+      "edit_history_tweet_ids": [
+        "2121150166522859967"
+      ],
+      "id": "2121150166522859967",
+      "public_metrics": {
+        "bookmark_count": 14,
+        "impression_count": 1315,
+        "like_count": 24,
+        "quote_count": 0,
+        "reply_count": 8,
+        "retweet_count": 1
+      },
+      "text": "these are the systems I tested: \n\n- vanilla open-weight model, no fine-tuning\n- open-weight model, fine-tuned on security corpus\n- open-weight model + (RAG)truth oracle for security corpus\n- Frontier model, no oracle\n- Frontier model + oracle\n\nguess which one performed better? https://t.co/urVEeft8r4",
+      "url": "https://x.com/0xAsm0d3us/status/2121150166522859967"
+    },
+    {
+      "author_id": "2071957385539649537",
+      "created_at": "2026-11-13T08:21:00.000Z",
+      "edit_history_tweet_ids": [
+        "2121156360716878279"
+      ],
+      "id": "2121156360716878279",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 47,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "\"Beats Claude Opus 5 on specialized benchmarks.\" Who picked the benchmark?\n\nNVIDIA shipped the Nemotron 3.5 open-weight family today: Super VL 120B for agents, Bolt 74B plus a tiny E4B, Transcribe 30B covering 40 languages. Some outlets ran with \"5x faster than Opus 5.\" Another",
+      "url": "https://x.com/myz8x9/status/2121156360716878279"
+    },
+    {
+      "author_id": "1533666605279891457",
+      "created_at": "2026-11-13T06:36:05.000Z",
+      "edit_history_tweet_ids": [
+        "2121129959905263914"
+      ],
+      "id": "2121129959905263914",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 144,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 0
+      },
+      "text": "i don't read theo's chart as \"open weight models are dead.\"\n\ni read it as \"people who already pay for claude and codex mostly use claude and codex.\"\n\nthat's still interesting.\n\nopen weight models were under 0.5% of t3 code prompts. inside one app, given the choice, those users https://t.co/hMbABd1wZS",
+      "url": "https://x.com/Arindam_1729/status/2121129959905263914"
+    },
+    {
+      "author_id": "1647589155881492482",
+      "created_at": "2026-11-13T03:30:00.000Z",
+      "edit_history_tweet_ids": [
+        "2121083130991759524"
+      ],
+      "id": "2121083130991759524",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 33,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Runway has released Praxis-1, a 27-billion-parameter open-weight robotics model under Apache 2.0.\n\nIt predicts video and actions, supports full and LoRA fine-tuning, and is designed to adapt across robotic embodiments.\n\nThe reported RoboLab-120 result: 46.2% success across 1,200 https://t.co/soqX57TDEh",
+      "url": "https://x.com/0xpiyushvm/status/2121083130991759524"
+    },
+    {
+      "author_id": "1528454981736534016",
+      "created_at": "2026-11-13T06:56:34.000Z",
+      "edit_history_tweet_ids": [
+        "2121135115535565268"
+      ],
+      "id": "2121135115535565268",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 17,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Day 19: \"Open weights\" don't mean \"Open source.' Read the license!\n\nTake Meta's Llama 4. Its license requires a company with more than 700 million monthly active users to get a separate license from Meta.\n\nIf you offer a product or service that contains it, you must display",
+      "url": "https://x.com/ScottHansenIP/status/2121135115535565268"
+    },
+    {
+      "author_id": "813034080044392448",
+      "created_at": "2026-11-13T09:30:00.000Z",
+      "edit_history_tweet_ids": [
+        "2121173727182512586"
+      ],
+      "id": "2121173727182512586",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 322,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Export controls were always going to be hard to enforce once the chips left the building.\n\nWhat makes this different is that the models themselves are now leaking the receipt.\n\nEvery major Chinese lab that released open weights in the last several months left a hardware https://t.co/ZeSU6JgVx8",
+      "url": "https://x.com/shawnchauhan1/status/2121173727182512586"
+    },
+    {
+      "author_id": "1601607634351636481",
+      "created_at": "2026-11-13T05:50:28.000Z",
+      "edit_history_tweet_ids": [
+        "2121118477985726760"
+      ],
+      "id": "2121118477985726760",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 52,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Open-weight models released in a dense wave: Tencent Hy4, the 2.8-trillion-parameter Kimi K3.1 Pro, and Inkling 2 Small launched one after another\n\nCan even a 2.8-trillion-parameter model be self-deployed now? This wave of open weights is the real cost-reduction opportunity for",
+      "url": "https://x.com/Zale258/status/2121118477985726760"
+    },
+    {
+      "author_id": "1497372744245145602",
+      "created_at": "2026-11-13T07:51:06.000Z",
+      "edit_history_tweet_ids": [
+        "2121148835762164193"
+      ],
+      "id": "2121148835762164193",
+      "public_metrics": {
+        "bookmark_count": 9,
+        "impression_count": 855,
+        "like_count": 13,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 3
+      },
+      "text": "We believe that recent events establish a bull case for @OpenAI and @AnthropicAI via regulatory capture. \n\nThe frontier labs' biggest upside comes from a world where open-source intelligence is legally restricted. \n\n1/ SUPERFORECASTING RESULTS \n\nThere is no liquid prediction https://t.co/upyocUZGxm",
+      "url": "https://x.com/Lihong062/status/2121148835762164193"
+    },
+    {
+      "author_id": "1716717936675864576",
+      "created_at": "2026-11-13T03:38:41.000Z",
+      "edit_history_tweet_ids": [
+        "2121085312546099543"
+      ],
+      "id": "2121085312546099543",
+      "public_metrics": {
+        "bookmark_count": 3,
+        "impression_count": 846,
+        "like_count": 23,
+        "quote_count": 0,
+        "reply_count": 11,
+        "retweet_count": 4
+      },
+      "text": "I built an experimental AI language model at school!\n\nIntroducing Diffusion-LFM3-1.7B-pre, a research preview exploring diffusion-based language modeling with LFM3-1.7B.\n\nNow available on Hugging Face!\n\nhttps://t.co/VcYZwzin8X\n\n@liquidai",
+      "url": "https://x.com/summerAI_O/status/2121085312546099543"
+    },
+    {
+      "author_id": "2115742736515268608",
+      "created_at": "2026-11-13T09:25:27.000Z",
+      "edit_history_tweet_ids": [
+        "2121172579599720857"
+      ],
+      "id": "2121172579599720857",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 36,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      },
+      "text": "A $48B American AI startup just made its own coding model free.\n\nThe model under the hood? Built on a Chinese open-weights model.\n\nQuick context: Cognition makes Devin, an AI agent that writes and ships code for engineering teams. It competes with Claude Code, OpenAI's Codex and https://t.co/j7375EiIcB",
+      "url": "https://x.com/Jarxergvk/status/2121172579599720857"
+    },
+    {
+      "author_id": "1164200443716800512",
+      "created_at": "2026-11-13T07:00:43.000Z",
+      "edit_history_tweet_ids": [
+        "2121136157836841293"
+      ],
+      "id": "2121136157836841293",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 19,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "A 0.8B model that runs your phone's agent tasks. Locally.\n\n📱 Tether's BotPsy: open weights, Apache 2.0, built for tool calls + multi-step actions\n📊 Tops every model ≤1.2B Tether tested on 6 agent benchmarks (vendor-reported)\n\nLocal or cloud?\n\n#AIAgents #OpenSource #GenAI https://t.co/ZvH08S00DM",
+      "url": "https://x.com/ChristopheLams/status/2121136157836841293"
+    },
+    {
+      "author_id": "3187302506",
+      "created_at": "2026-11-13T03:58:56.000Z",
+      "edit_history_tweet_ids": [
+        "2121090411938951651"
+      ],
+      "id": "2121090411938951651",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 153,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Jensen Huang vs. OpenAI on Open AI Models\n\nJensen Huang, the Taiwan-born American engineer who co-founded Nvidia and ran it for 33 years until he resigned Thursday, spent his last months as chief executive pushing back on OpenAI. OpenAI is the San Francisco company behind https://t.co/qV9jQjFdk2",
+      "url": "https://x.com/brianskellenger/status/2121090411938951651"
+    },
+    {
+      "author_id": "2104810578233729024",
+      "created_at": "2026-11-13T04:02:06.000Z",
+      "edit_history_tweet_ids": [
+        "2121091208076308888"
+      ],
+      "id": "2121091208076308888",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 26,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Inkling 2 Small is Apache-2.0 open weights, but “Small” is not a laptop deployment promise: its model card specifies at least 500GB aggregate GPU memory for native NVFP4. Open weights and low hardware requirements are separate things. https://t.co/FSX3Iop6vq",
+      "url": "https://x.com/milhouscc/status/2121091208076308888"
+    },
+    {
+      "author_id": "1459053031228649472",
+      "created_at": "2026-11-13T08:19:05.000Z",
+      "edit_history_tweet_ids": [
+        "2121155881106657418"
+      ],
+      "id": "2121155881106657418",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 39,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "What does the Evil International Crime Syndicate (Oligarchy) fear the most?\n\nLoss of control.\n\n.@JensenHuang Built the most strategically important company of the future and the Oligarchy knows that if they don't control NVIDIA then they lose - permanently.\n\nThey saw unrestricted https://t.co/qqwgzTw4mp",
+      "url": "https://x.com/t1g3rp4w/status/2121155881106657418"
+    },
+    {
+      "author_id": "1120779287504678912",
+      "created_at": "2026-11-13T05:23:06.000Z",
+      "edit_history_tweet_ids": [
+        "2121111589923479721"
+      ],
+      "id": "2121111589923479721",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 232,
+        "like_count": 0,
+        "quote_count": 1,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "🔥☕ The This Is Fine Trade\n@chamath @DavidSacks @dhh @DowdEdward \n\nThe room is on fire. Export controls. Federal AI bans. A US–China race over chips, models and who gets to build on what. And the market is sitting at the table, sipping coffee, saying “this is fine.”\n\nHere’s my https://t.co/psyCYxiyw9",
+      "url": "https://x.com/niccolox/status/2121111589923479721"
+    },
+    {
+      "author_id": "1816122827537313792",
+      "created_at": "2026-11-13T08:09:17.000Z",
+      "edit_history_tweet_ids": [
+        "2121153412800647196"
+      ],
+      "id": "2121153412800647196",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 54,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "27 AI models launched in the first 11 days of November. Almost nobody can keep up.\n\nHere is the only cheat sheet you actually need from this week:\n\n• Anthropic dropped Claude Fable 5.2 (20% cheaper, proved an entire hypervisor in one session)\n• Google shipped Gemini 4 Hydrogen",
+      "url": "https://x.com/BuilderGuest/status/2121153412800647196"
+    },
+    {
+      "author_id": "1174897878398976000",
+      "created_at": "2026-11-13T11:39:46.000Z",
+      "edit_history_tweet_ids": [
+        "2121206381873135824"
+      ],
+      "id": "2121206381873135824",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 187,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Is \"open weights\" meaningless if the model needs 1TB of RAM?",
+      "url": "https://x.com/uzair__afridi/status/2121206381873135824"
+    },
+    {
+      "author_id": "2094779202318860288",
+      "created_at": "2026-11-13T02:57:34.000Z",
+      "edit_history_tweet_ids": [
+        "2121074965260681624"
+      ],
+      "id": "2121074965260681624",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 59,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "🤖 Robotics — 🕒 24h Recap\n\n🤖 Humanoids &amp; Service Robots\n- Runway released its Praxis-1 world action model for robotics with open weights under the Apache 2.0 license; the model reached 46.2% success on the RoboLab-120 benchmark.\n- Agile Robots raised $500 million at an $8.5",
+      "url": "https://x.com/neo_logos_/status/2121074965260681624"
+    },
+    {
+      "author_id": "1683208137489227776",
+      "created_at": "2026-11-13T08:27:42.000Z",
+      "edit_history_tweet_ids": [
+        "2121158047250665818"
+      ],
+      "id": "2121158047250665818",
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 195,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "BREAKING: London lab Continuous Intelligence launched ci-proto, its first time-series foundation model.\n\nPer founder @benjaminwalker:\nRanked first on fev-bench, ahead of Google, Amazon and Mistral\n64x the context window of other models\nOpen weights, free for commercial use\n\nLLMs https://t.co/XJgAnBChhk",
+      "url": "https://x.com/guilleflorvs/status/2121158047250665818"
+    },
+    {
+      "author_id": "1647851940230078465",
+      "created_at": "2026-11-13T03:30:00.000Z",
+      "edit_history_tweet_ids": [
+        "2121083129305989376"
+      ],
+      "id": "2121083129305989376",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 40,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Open weights give teams more control over where a model runs. They also give teams responsibility for evaluation, updates, security and licence compliance.",
+      "url": "https://x.com/IkshaLabs/status/2121083129305989376"
+    },
+    {
+      "author_id": "706173164519206913",
+      "created_at": "2026-11-13T11:24:39.000Z",
+      "edit_history_tweet_ids": [
+        "2121202578654478395"
+      ],
+      "id": "2121202578654478395",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "this is the strongest case for open weights I know of. if you can see what the model was told, auditing outputs stops being guesswork https://t.co/gR9lKREQnp",
+      "url": "https://x.com/bipbot_astro/status/2121202578654478395"
+    },
+    {
+      "article": {
+        "title": "How to Connect DeepSeek Harness to Canopy Wave Models"
+      },
+      "author_id": "1967505935414534144",
+      "created_at": "2026-11-13T04:15:19.000Z",
+      "edit_history_tweet_ids": [
+        "2121094535677624453"
+      ],
+      "id": "2121094535677624453",
+      "public_metrics": {
+        "bookmark_count": 3,
+        "impression_count": 341,
+        "like_count": 10,
+        "quote_count": 3,
+        "reply_count": 0,
+        "retweet_count": 3
+      },
+      "text": "Build with DeepSeek Harness, powered by Canopy Wave.\n\nFollow our step-by-step guide to connect your models.\n\nPlus, get 85% off DeepSeek V4.1 Flash cache pricing on Canopy Wave.\n\nRead the guide below 👇 https://t.co/CDRIu5yyAV",
+      "url": "https://x.com/CanopyWave_AI/status/2121094535677624453"
+    },
+    {
+      "author_id": "1551960015862382593",
+      "created_at": "2026-11-13T06:30:39.000Z",
+      "edit_history_tweet_ids": [
+        "2121128590465007825"
+      ],
+      "id": "2121128590465007825",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 30,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "You open weights, Qwen folks, do you know what your model is telling your tools to do? Great post from Lastpass CSO, Beaker, on this. Must read IYAM. https://t.co/F4mK6Uyjo2",
+      "url": "https://x.com/4thWaveStevie/status/2121128590465007825"
+    },
+    {
+      "author_id": "1120779287504678912",
+      "created_at": "2026-11-13T05:08:10.000Z",
+      "edit_history_tweet_ids": [
+        "2121107832062009438"
+      ],
+      "id": "2121107832062009438",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 322,
+        "like_count": 1,
+        "quote_count": 1,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "AI Models Risk-Adjusted ROI Matrix\n@DowdEdward @dsmiley411 @chadwahl @dhh \nThe cheapest AI model isn’t the cheapest choice.\nPrice in geopolitical risk, USG vs. CCP, and the ranking flips:\n• Mistral Large 4: $727 per coding point\n• DeepSeek: $2,021\n• GPT-6 Astra: $9,116\nFor https://t.co/6GvT9RX1Hs",
+      "url": "https://x.com/niccolox/status/2121107832062009438"
+    },
+    {
+      "author_id": "2110153346371698689",
+      "created_at": "2026-11-13T02:57:13.000Z",
+      "edit_history_tweet_ids": [
+        "2121074877373260024"
+      ],
+      "id": "2121074877373260024",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 10,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "84-second breakdown of what Runway's open-weights Praxis-1 robot model does, how it scores by Runway's figures and what hardware it runs on, sources linked: https://t.co/R891Y7BZBd https://t.co/6Bos1mnXDf",
+      "url": "https://x.com/DailyChatNet/status/2121074877373260024"
+    }
+  ],
+  "includes": {
+    "users": [
+      {
+        "id": "1211536002382041088",
+        "name": "devansh ⚡️",
+        "username": "0xAsm0d3us"
+      },
+      {
+        "id": "2071957385539649537",
+        "name": "Adrian Blake",
+        "username": "myz8x9"
+      },
+      {
+        "id": "1533666605279891457",
+        "name": "Arindam Majumder 𝕏",
+        "username": "Arindam_1729"
+      },
+      {
+        "id": "1647589155881492482",
+        "name": "Piyush Mali 🧞",
+        "username": "0xpiyushvm"
+      },
+      {
+        "id": "1528454981736534016",
+        "name": "Scott R. Hansen",
+        "username": "ScottHansenIP"
+      },
+      {
+        "id": "813034080044392448",
+        "name": "Shawn Chauhan",
+        "username": "shawnchauhan1"
+      },
+      {
+        "id": "1601607634351636481",
+        "name": "Zale",
+        "username": "Zale258"
+      },
+      {
+        "id": "1497372744245145602",
+        "name": "Lihong | Freeport",
+        "username": "Lihong062"
+      },
+      {
+        "id": "1716717936675864576",
+        "name": "summer",
+        "username": "summerAI_O"
+      },
+      {
+        "id": "2115742736515268608",
+        "name": "Jarxer",
+        "username": "Jarxergvk"
+      },
+      {
+        "id": "1164200443716800512",
+        "name": "Christophe Lams",
+        "username": "ChristopheLams"
+      },
+      {
+        "id": "3187302506",
+        "name": "Brian Skellenger on all Platforms",
+        "username": "brianskellenger"
+      },
+      {
+        "id": "2104810578233729024",
+        "name": "Milhous",
+        "username": "milhouscc"
+      },
+      {
+        "id": "1459053031228649472",
+        "name": "The James",
+        "username": "t1g3rp4w"
+      },
+      {
+        "id": "1120779287504678912",
+        "name": "Niccolo Roberts",
+        "username": "niccolox"
+      },
+      {
+        "id": "1816122827537313792",
+        "name": "MindAI",
+        "username": "BuilderGuest"
+      },
+      {
+        "id": "1174897878398976000",
+        "name": "Uzair Afridi",
+        "username": "uzair__afridi"
+      },
+      {
+        "id": "2094779202318860288",
+        "name": "The Frontier | Tech & News",
+        "username": "neo_logos_"
+      },
+      {
+        "id": "1683208137489227776",
+        "name": "Guillermo Flor",
+        "username": "guilleflorvs"
+      },
+      {
+        "id": "1647851940230078465",
+        "name": "Iksha Labs",
+        "username": "IkshaLabs"
+      },
+      {
+        "id": "706173164519206913",
+        "name": "Gabe Astrobot",
+        "username": "bipbot_astro"
+      },
+      {
+        "id": "1967505935414534144",
+        "name": "Canopy Wave",
+        "username": "CanopyWave_AI"
+      },
+      {
+        "id": "1551960015862382593",
+        "name": "Steve Chambers",
+        "username": "4thWaveStevie"
+      },
+      {
+        "id": "2110153346371698689",
+        "name": "DailyChat",
+        "username": "DailyChatNet"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2121206381873135824",
+    "next_token": "b26v89c19zqg8o3juzovr3herorvh5y8a7ghe2q997xq5",
+    "oldest_id": "2121074877373260024",
+    "result_count": 25
+  }
+}

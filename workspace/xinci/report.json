@@ -1,178 +1,99 @@
 {
  "leads": [
   {
-   "term": "gemini 4 hydrogen",
-   "kinds": [
-    "feed",
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架",
-    "OpenRouter 新上架"
-   ],
-   "examples": [
-    "Product Hunt: Gemini 4 Hydrogen",
-    "OpenRouter: Gemini 4 Hydrogen"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://openrouter.ai/google/gemini-4-hydrogen",
-    "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than."
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "anr",
+   "term": "ffmpeg gui editor windows",
    "kinds": [
     "breakout"
    ],
    "signals": [
-    "GitHub 爆发 apex-compute/ANR ★1231(均 523/天)"
+    "GitHub 爆发 DevedevT/FFmpeg-GUI-Editor-Windows ★1042(均 619/天)"
    ],
    "examples": [
-    "apex-compute/ANR: Apex Neural Rendering (ANR) by Apex Compute"
+    "DevedevT/FFmpeg-GUI-Editor-Windows: Lightweight portable FFmpeg GUI & lossless video trimmer for Windows (ready-to-use .exe). Supports English, Russian, Chi"
    ],
    "variants": [
-    "anr",
-    "apex-compute anr",
-    "apex anr"
+    "ffmpeg gui editor windows",
+    "devedevt ffmpeg gui editor windows"
    ],
    "posts": [],
-   "repo": "apex-compute/ANR",
+   "repo": "DevedevT/FFmpeg-GUI-Editor-Windows",
+   "known": "",
+   "format": "video",
+   "one_click": null
+  },
+  {
+   "term": "kiri",
+   "kinds": [
+    "breakout"
+   ],
+   "signals": [
+    "GitHub 爆发 libracoder/kiri ★2760(均 232/天,一天 +759)"
+   ],
+   "examples": [
+    "libracoder/kiri: A small, fast container runtime for macOS, Windows and Linux"
+   ],
+   "variants": [
+    "kiri",
+    "libracoder kiri",
+    "precious kiri"
+   ],
+   "posts": [],
+   "repo": "libracoder/kiri",
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "adkit",
+   "term": "chat demo",
    "kinds": [
-    "sitemap"
+    "breakout"
    ],
    "signals": [
-    "③ 竞品 16 处 (×15.4)"
+    "GitHub 爆发 deepseek-ai/chat-demo ★1457(均 659/天)"
    ],
-   "examples": [],
-   "variants": [],
+   "examples": [
+    "deepseek-ai/chat-demo: Chat Demo"
+   ],
+   "variants": [
+    "chat demo",
+    "deepseek-ai chat demo",
+    "deepseek chat demo"
+   ],
    "posts": [],
+   "repo": "deepseek-ai/chat-demo",
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "tutorials deepseek",
+   "term": "islandcn",
    "kinds": [
-    "sitemap"
+    "breakout"
    ],
    "signals": [
-    "③ 竞品 12 处 (×11.9)"
+    "GitHub 爆发 opencoredev/islandcn ★579(均 548/天)"
    ],
-   "examples": [],
-   "variants": [],
+   "examples": [
+    "opencoredev/islandcn: The open-source Dynamic Island for React, installed with shadcn."
+   ],
+   "variants": [
+    "islandcn",
+    "opencoredev islandcn",
+    "opencore islandcn"
+   ],
    "posts": [],
+   "repo": "opencoredev/islandcn",
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "tutorials",
+   "term": "sites",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 24 处 (×10.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "connectors io.github.geornaden",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 10 处 (×10.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "r1",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 11 处 (×9.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "io.github.kizukidata",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 9 处 (×8.8)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "connectors io.github.kizukidata",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 9 处 (×8.8)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "connectors io.github.adkit",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 8 处 (×7.9)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "smrht",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 8 处 (×7.8)"
+    "③ 竞品 698 处 (×571.7)"
    ],
    "examples": [],
    "variants": [],
@@ -187,7 +108,7 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 11 处 (×7.6)"
+    "③ 竞品 30 处 (×19.8)"
    ],
    "examples": [],
    "variants": [],
@@ -197,12 +118,12 @@
    "one_click": null
   },
   {
-   "term": "deepseek",
+   "term": "connect",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 20 处 (×7.0)"
+    "③ 竞品 32 处 (×9.1)"
    ],
    "examples": [],
    "variants": [],
@@ -212,22 +133,7 @@
    "one_click": null
   },
   {
-   "term": "io.github.ranqint",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 7 处 (×7.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "connectors io.github.ranqint",
+   "term": "connectors space.unhandled",
    "kinds": [
     "sitemap"
    ],
@@ -242,12 +148,12 @@
    "one_click": null
   },
   {
-   "term": "io.github.zoom zoom",
+   "term": "wrpbr",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 7 处 (×6.6)"
+    "③ 竞品 7 处 (×6.9)"
    ],
    "examples": [],
    "variants": [],
@@ -257,12 +163,12 @@
    "one_click": null
   },
   {
-   "term": "connectors io.github.zoom",
+   "term": "autopilot",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 7 处 (×6.6)"
+    "③ 竞品 6 处 (×4.5)"
    ],
    "examples": [],
    "variants": [],
@@ -272,12 +178,12 @@
    "one_click": null
   },
   {
-   "term": "trw123123",
+   "term": "connectors ai.saifs",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 6 处 (×6.0)"
+    "③ 竞品 5 处 (×4.2)"
    ],
    "examples": [],
    "variants": [],
@@ -287,12 +193,12 @@
    "one_click": null
   },
   {
-   "term": "thesven",
+   "term": "com.jobiba",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 6 处 (×5.9)"
+    "③ 竞品 4 处 (×4.0)"
    ],
    "examples": [],
    "variants": [],
@@ -302,12 +208,12 @@
    "one_click": null
   },
   {
-   "term": "ads",
+   "term": "connectors com.jobiba",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 32 处 (×5.6)"
+    "③ 竞品 4 处 (×4.0)"
    ],
    "examples": [],
    "variants": [],
@@ -317,57 +223,12 @@
    "one_click": null
   },
   {
-   "term": "es.argohub.www",
+   "term": "kobis",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 5 处 (×5.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "connectors es.argohub.www",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 5 处 (×5.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "io.github.coregentdevspace",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 5 处 (×5.0)"
-   ],
-   "examples": [],
-   "variants": [],
-   "posts": [],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "connectors io.github.coregentdevspace",
-   "kinds": [
-    "sitemap"
-   ],
-   "signals": [
-    "③ 竞品 5 处 (×5.0)"
+    "③ 竞品 4 处 (×4.0)"
    ],
    "examples": [],
    "variants": [],
@@ -382,7 +243,7 @@
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 5 处 (×5.0)"
+    "③ 竞品 4 处 (×3.8)"
    ],
    "examples": [],
    "variants": [],
@@ -392,12 +253,12 @@
    "one_click": null
   },
   {
-   "term": "connectors io.github.nero",
+   "term": "river",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 8 处 (×4.5)"
+    "③ 竞品 4 处 (×3.5)"
    ],
    "examples": [],
    "variants": [],
@@ -407,12 +268,12 @@
    "one_click": null
   },
   {
-   "term": "io.github.nero engine",
+   "term": "connectors io.github.itsryanarmani",
    "kinds": [
     "sitemap"
    ],
    "signals": [
-    "③ 竞品 8 处 (×4.5)"
+    "③ 竞品 5 处 (×3.3)"
    ],
    "examples": [],
    "variants": [],
@@ -422,379 +283,181 @@
    "one_click": null
   },
   {
-   "term": "hoverine",
+   "term": "forecast",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Product Hunt 新上架"
+    "③ 竞品 4 处 (×3.0)"
    ],
-   "examples": [
-    "Product Hunt: Hoverine"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/hoverine",
-    "Rive animation templates you can drop into your app Discussion | Link"
-   ],
-   "known": "",
-   "format": "video",
-   "one_click": null
-  },
-  {
-   "term": "whoop humans",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Product Hunt 新上架"
-   ],
-   "examples": [
-    "Product Hunt: WHOOP Humans"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/whoop",
-    "WHOOP's social network built around real health data Discussion | Link"
-   ],
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "paxper",
+   "term": "kivel",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Product Hunt 新上架"
+    "③ 竞品 3 处 (×3.0)"
    ],
-   "examples": [
-    "Product Hunt: Paxper"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/paxper",
-    "Create cloud infrastructure visually and review every change Discussion | Link"
-   ],
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "gatrends",
+   "term": "org.plantdatabases",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Product Hunt 新上架"
+    "③ 竞品 3 处 (×3.0)"
    ],
-   "examples": [
-    "Product Hunt: GAtrends"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/gatrends",
-    "Spike alerts for your keywords in Telegram, Claude, ChatGPT Discussion | Link"
-   ],
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "expo simulators",
+   "term": "connectors org.plantdatabases",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Product Hunt 新上架"
+    "③ 竞品 3 处 (×3.0)"
    ],
-   "examples": [
-    "Product Hunt: Expo Simulators"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/expo",
-    "Cloud simulators built for agents Discussion | Link"
-   ],
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "kairos",
+   "term": "dondirechristian",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Product Hunt 新上架"
+    "③ 竞品 3 处 (×3.0)"
    ],
-   "examples": [
-    "Product Hunt: Kairos"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/kairos-18",
-    "Personal analytics engine across health, finances, & social Discussion | Link"
-   ],
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "qorqbot",
+   "term": "dvnold",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Product Hunt 新上架"
+    "③ 竞品 3 处 (×3.0)"
    ],
-   "examples": [
-    "Product Hunt: qorqbot"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/qorqbot",
-    "Proactive agent for business work Discussion | Link"
-   ],
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "stockrip",
+   "term": "kucharskill",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Product Hunt 新上架"
+    "③ 竞品 3 处 (×3.0)"
    ],
-   "examples": [
-    "Product Hunt: StockRip"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/stockrip",
-    "Trading cards, literally digital cards with tokenized stocks Discussion | Link"
-   ],
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "pocket studio for supabase",
+   "term": "mrsxs",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Product Hunt 新上架"
+    "③ 竞品 3 处 (×3.0)"
    ],
-   "examples": [
-    "Product Hunt: Pocket Studio for Supabase"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://www.producthunt.com/products/pocket-studio-for-supabase",
-    "Supabase dashboard & SQL editor for Android Discussion | Link"
-   ],
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "my $300 embroidery machine needed a subscription, so i built my own app",
+   "term": "statutory",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Show HN 新上架"
+    "③ 竞品 3 处 (×2.9)"
    ],
-   "examples": [
-    "Show HN: My $300 embroidery machine needed a subscription, so I built my own app"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://github.com/simpsoka/zigzag",
-    "Show HN: My $300 embroidery machine needed a subscription, so I built my own app"
-   ],
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "agentrun",
+   "term": "k11",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Show HN 新上架"
+    "③ 竞品 3 处 (×2.9)"
    ],
-   "examples": [
-    "Show HN: AgentRun"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
-    "Show HN: AgentRun – open-source, Self-improving Managed Agents"
-   ],
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "fable52.games",
+   "term": "k11techlab",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Show HN 新上架"
+    "③ 竞品 3 处 (×2.9)"
    ],
-   "examples": [
-    "Show HN: Fable52.games"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://fable52.games",
-    "Show HN: Fable52.games – Play and inspect Fable 5.2 single-file HTML games"
-   ],
    "known": "",
    "format": "text",
    "one_click": null
   },
   {
-   "term": "kapso",
+   "term": "solutions k11techlab",
    "kinds": [
-    "feed"
+    "sitemap"
    ],
    "signals": [
-    "Show HN 新上架"
+    "③ 竞品 3 处 (×2.9)"
    ],
-   "examples": [
-    "Show HN: Kapso"
-   ],
+   "examples": [],
    "variants": [],
    "posts": [],
-   "about": [
-    "https://news.ycombinator.com/item?id=50471281",
-    "Show HN: Kapso – Iterative learning from enterprise data"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "apron chat protocol",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: Apron Chat Protocol"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apron.chat/",
-    "Show HN: Apron Chat Protocol"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "ai red lines",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "Show HN 新上架"
-   ],
-   "examples": [
-    "Show HN: AI Red Lines"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://yourairedlines.com",
-    "Show HN: AI Red Lines – write down what would make you act on AI"
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "gemini 4 hydrogen (batch)",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "OpenRouter 新上架"
-   ],
-   "examples": [
-    "OpenRouter: Gemini 4 Hydrogen (batch)"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://openrouter.ai/google/gemini-4-hydrogen:batch",
-    "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than."
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "inkling 2 small",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "OpenRouter 新上架"
-   ],
-   "examples": [
-    "OpenRouter: Inkling 2 Small"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://openrouter.ai/thinkingmachines/inkling-2-small",
-    "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second..."
-   ],
-   "known": "",
-   "format": "text",
-   "one_click": null
-  },
-  {
-   "term": "pokémon home",
-   "kinds": [
-    "feed"
-   ],
-   "signals": [
-    "App Store 新上架"
-   ],
-   "examples": [
-    "App Store: Pokémon HOME"
-   ],
-   "variants": [],
-   "posts": [],
-   "about": [
-    "https://apps.apple.com/us/app/pok%C3%A9mon-home/id1485352913?uo=2",
-    "Pokémon HOME is a cloud-based service, designed as a place where all of your Pokémon can gather. ▼ Manage your Pokémon! You can bring any Pokémon that has appeared in a core Pokémon game to Pokémon HO"
-   ],
    "known": "",
    "format": "text",
    "one_click": null
@@ -824,10 +487,10 @@
     "repo": "storytold/craft-anything",
     "owner": "storytold",
     "name": "craft-anything",
-    "stars": 30947,
-    "velocity": 2395,
-    "delta": 1616,
-    "age_days": 12.9,
+    "stars": 32169,
+    "velocity": 2309,
+    "delta": 1222,
+    "age_days": 13.9,
     "description": "Craft Anything: understand how any software works, and craft your own.",
     "new": false
    },
@@ -835,10 +498,10 @@
     "repo": "deepseek-ai/dsh-superagent-prototype",
     "owner": "deepseek-ai",
     "name": "dsh-superagent-prototype",
-    "stars": 22953,
-    "velocity": 1746,
-    "delta": 286,
-    "age_days": 13.1,
+    "stars": 23099,
+    "velocity": 1632,
+    "delta": 146,
+    "age_days": 14.2,
     "description": "Towards a More Autonomous Agent System",
     "new": false
    },
@@ -846,200 +509,255 @@
     "repo": "huamidev/GestaltX",
     "owner": "huamidev",
     "name": "GestaltX",
-    "stars": 7169,
-    "velocity": 1659,
-    "delta": 385,
-    "age_days": 4.3,
+    "stars": 7487,
+    "velocity": 1404,
+    "delta": 318,
+    "age_days": 5.3,
     "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
-    "new": false
-   },
-   {
-    "repo": "janestreet/agent_skills",
-    "owner": "janestreet",
-    "name": "agent_skills",
-    "stars": 8051,
-    "velocity": 818,
-    "delta": 978,
-    "age_days": 9.8,
-    "description": "Agent skills",
     "new": false
    },
    {
     "repo": "Minireel/HGhub",
     "owner": "Minireel",
     "name": "HGhub",
-    "stars": 8782,
-    "velocity": 882,
-    "delta": 327,
-    "age_days": 10.0,
+    "stars": 8836,
+    "velocity": 806,
+    "delta": 54,
+    "age_days": 11.0,
     "description": "YellowFruit third-party client",
     "new": false
    },
    {
-    "repo": "Lee-xeo/Claude-Cage",
-    "owner": "Lee-xeo",
-    "name": "Claude-Cage",
-    "stars": 5152,
-    "velocity": 399,
-    "delta": 692,
-    "age_days": 12.9,
-    "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+    "repo": "janestreet/agent_skills",
+    "owner": "janestreet",
+    "name": "agent_skills",
+    "stars": 8435,
+    "velocity": 777,
+    "delta": 384,
+    "age_days": 10.8,
+    "description": "Agent skills",
     "new": false
+   },
+   {
+    "repo": "libracoder/kiri",
+    "owner": "libracoder",
+    "name": "kiri",
+    "stars": 2760,
+    "velocity": 232,
+    "delta": 759,
+    "age_days": 11.9,
+    "description": "A small, fast container runtime for macOS, Windows and Linux",
+    "new": true,
+    "variants": [
+     "kiri",
+     "libracoder kiri",
+     "precious kiri"
+    ]
+   },
+   {
+    "repo": "deepseek-ai/chat-demo",
+    "owner": "deepseek-ai",
+    "name": "chat-demo",
+    "stars": 1457,
+    "velocity": 659,
+    "delta": null,
+    "age_days": 2.2,
+    "description": "Chat Demo",
+    "new": true,
+    "variants": [
+     "chat demo",
+     "deepseek-ai chat demo",
+     "deepseek chat demo"
+    ]
    },
    {
     "repo": "zortos293/Lichii",
     "owner": "zortos293",
     "name": "Lichii",
-    "stars": 8871,
-    "velocity": 685,
-    "delta": 209,
-    "age_days": 12.9,
+    "stars": 9087,
+    "velocity": 651,
+    "delta": 216,
+    "age_days": 14.0,
     "description": "VERY experimental Nintendo Switch 2 emulator",
+    "new": false
+   },
+   {
+    "repo": "DevedevT/FFmpeg-GUI-Editor-Windows",
+    "owner": "DevedevT",
+    "name": "FFmpeg-GUI-Editor-Windows",
+    "stars": 1042,
+    "velocity": 619,
+    "delta": null,
+    "age_days": 1.7,
+    "description": "Lightweight portable FFmpeg GUI & lossless video trimmer for Windows (ready-to-use .exe). Supports English, Russian, Chi",
+    "new": true,
+    "variants": [
+     "ffmpeg gui editor windows",
+     "devedevt ffmpeg gui editor windows"
+    ]
+   },
+   {
+    "repo": "JenkinWoo/sheeridVerify",
+    "owner": "JenkinWoo",
+    "name": "sheeridVerify",
+    "stars": 2965,
+    "velocity": 364,
+    "delta": 583,
+    "age_days": 8.2,
+    "description": "",
     "new": false
    },
    {
     "repo": "tangerineturtle1/NX2navi",
     "owner": "tangerineturtle1",
     "name": "NX2navi",
-    "stars": 3693,
-    "velocity": 603,
-    "delta": 288,
-    "age_days": 6.1,
+    "stars": 4012,
+    "velocity": 562,
+    "delta": 319,
+    "age_days": 7.1,
     "description": "",
     "new": false
    },
    {
-    "repo": "shanselman/gputaskman",
-    "owner": "shanselman",
-    "name": "gputaskman",
-    "stars": 2959,
-    "velocity": 282,
-    "delta": 603,
-    "age_days": 10.5,
-    "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows",
-    "new": false
-   },
-   {
-    "repo": "Kianuni/Erosion-CN",
-    "owner": "Kianuni",
-    "name": "Erosion-CN",
-    "stars": 1843,
-    "velocity": 537,
-    "delta": 168,
-    "age_days": 3.4,
-    "description": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
-    "new": false
-   },
-   {
-    "repo": "jhaizhou-ops/S2Arm",
-    "owner": "jhaizhou-ops",
-    "name": "S2Arm",
-    "stars": 2836,
-    "velocity": 535,
-    "delta": 115,
-    "age_days": 5.3,
-    "description": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one ",
-    "new": false
+    "repo": "opencoredev/islandcn",
+    "owner": "opencoredev",
+    "name": "islandcn",
+    "stars": 579,
+    "velocity": 548,
+    "delta": null,
+    "age_days": 1.1,
+    "description": "The open-source Dynamic Island for React, installed with shadcn.",
+    "new": true,
+    "variants": [
+     "islandcn",
+     "opencoredev islandcn",
+     "opencore islandcn"
+    ]
    },
    {
     "repo": "apex-compute/ANR",
     "owner": "apex-compute",
     "name": "ANR",
-    "stars": 1231,
-    "velocity": 523,
-    "delta": null,
-    "age_days": 2.4,
+    "stars": 1674,
+    "velocity": 497,
+    "delta": 443,
+    "age_days": 3.4,
     "description": "Apex Neural Rendering (ANR) by Apex Compute",
-    "new": true,
-    "variants": [
-     "anr",
-     "apex-compute anr",
-     "apex anr"
-    ]
-   },
-   {
-    "repo": "expo/exact",
-    "owner": "expo",
-    "name": "exact",
-    "stars": 3713,
-    "velocity": 323,
-    "delta": 514,
-    "age_days": 11.5,
-    "description": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and",
-    "new": false
-   },
-   {
-    "repo": "patch-gg/pixelfx",
-    "owner": "patch-gg",
-    "name": "pixelfx",
-    "stars": 7274,
-    "velocity": 510,
-    "delta": 164,
-    "age_days": 14.3,
-    "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
     "new": false
    },
    {
     "repo": "KKKKhazix/agent-autoloop",
     "owner": "KKKKhazix",
     "name": "agent-autoloop",
-    "stars": 5058,
-    "velocity": 496,
-    "delta": 440,
-    "age_days": 10.2,
+    "stars": 5267,
+    "velocity": 470,
+    "delta": 209,
+    "age_days": 11.2,
     "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+    "new": false
+   },
+   {
+    "repo": "jhaizhou-ops/S2Arm",
+    "owner": "jhaizhou-ops",
+    "name": "S2Arm",
+    "stars": 2922,
+    "velocity": 463,
+    "delta": 86,
+    "age_days": 6.3,
+    "description": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one ",
     "new": false
    }
   ],
   "terms": [
    {
-    "term": "anr",
+    "term": "kiri",
     "recent": 1,
     "variants": [
-     "anr",
-     "apex-compute anr",
-     "apex anr"
+     "kiri",
+     "libracoder kiri",
+     "precious kiri"
     ],
-    "repo": "apex-compute/ANR",
-    "note": "GitHub 爆发 apex-compute/ANR ★1231(均 523/天)",
+    "repo": "libracoder/kiri",
+    "note": "GitHub 爆发 libracoder/kiri ★2760(均 232/天,一天 +759)",
     "examples": [
-     "apex-compute/ANR: Apex Neural Rendering (ANR) by Apex Compute"
+     "libracoder/kiri: A small, fast container runtime for macOS, Windows and Linux"
+    ]
+   },
+   {
+    "term": "chat demo",
+    "recent": 1,
+    "variants": [
+     "chat demo",
+     "deepseek-ai chat demo",
+     "deepseek chat demo"
+    ],
+    "repo": "deepseek-ai/chat-demo",
+    "note": "GitHub 爆发 deepseek-ai/chat-demo ★1457(均 659/天)",
+    "examples": [
+     "deepseek-ai/chat-demo: Chat Demo"
+    ]
+   },
+   {
+    "term": "ffmpeg gui editor windows",
+    "recent": 1,
+    "variants": [
+     "ffmpeg gui editor windows",
+     "devedevt ffmpeg gui editor windows"
+    ],
+    "repo": "DevedevT/FFmpeg-GUI-Editor-Windows",
+    "note": "GitHub 爆发 DevedevT/FFmpeg-GUI-Editor-Windows ★1042(均 619/天)",
+    "examples": [
+     "DevedevT/FFmpeg-GUI-Editor-Windows: Lightweight portable FFmpeg GUI & lossless video trimmer for Windows (ready-to-use .exe). Supports English, Russian, Chi"
+    ]
+   },
+   {
+    "term": "islandcn",
+    "recent": 1,
+    "variants": [
+     "islandcn",
+     "opencoredev islandcn",
+     "opencore islandcn"
+    ],
+    "repo": "opencoredev/islandcn",
+    "note": "GitHub 爆发 opencoredev/islandcn ★579(均 548/天)",
+    "examples": [
+     "opencoredev/islandcn: The open-source Dynamic Island for React, installed with shadcn."
     ]
    }
   ],
   "window_days": 14,
-  "seconds": 6
+  "seconds": 13
  },
  "sitemap": {
   "sites": {
    "glama": {
-    "urls": 166053,
-    "new": 1164,
+    "urls": 167070,
+    "new": 1061,
     "first_run": false,
     "sample": [
-     "https://glama.ai/mcp/connectors/ai.agimon/agimon",
-     "https://glama.ai/mcp/connectors/ai.airpulse/airpulse",
-     "https://glama.ai/mcp/connectors/ai.askadia/askadia",
-     "https://glama.ai/mcp/connectors/ai.boomlink/boomlink",
-     "https://glama.ai/mcp/connectors/ai.bootkey/bootkey",
-     "https://glama.ai/mcp/connectors/ai.buhalteris/mcp",
-     "https://glama.ai/mcp/connectors/ai.bv7x/agents",
-     "https://glama.ai/mcp/connectors/ai.contentsweep/airflow-dag-doctor"
+     "https://glama.ai/mcp/connectors/ad.tributs/mcp",
+     "https://glama.ai/mcp/connectors/africa.startuplist/mcp",
+     "https://glama.ai/mcp/connectors/ai.airboxship/shipping-public",
+     "https://glama.ai/mcp/connectors/ai.arcangel/arcangel",
+     "https://glama.ai/mcp/connectors/ai.arcangel/trademark-search",
+     "https://glama.ai/mcp/connectors/ai.awen/awen",
+     "https://glama.ai/mcp/connectors/ai.cdoagent/cdo-agent",
+     "https://glama.ai/mcp/connectors/ai.cfoplus/cfo"
     ]
    },
    "mcp.so": {
-    "urls": 20503,
-    "new": 115,
+    "urls": 20591,
+    "new": 88,
     "first_run": false,
     "sample": [
-     "https://mcp.so/cli/repomix",
-     "https://mcp.so/grok-bot/performance-marketer",
-     "https://mcp.so/grok-bot/warm-intro-finder",
-     "https://mcp.so/servers/ad-library-intelligence",
-     "https://mcp.so/servers/adchat-meta-ads-mcp-server-and-ai-agent-for-claude-and-chatgpt",
-     "https://mcp.so/servers/adrails",
-     "https://mcp.so/servers/ads-mcp-server-by-adkit",
-     "https://mcp.so/servers/agent-payment-node"
+     "https://mcp.so/grok-bot/account-book",
+     "https://mcp.so/grok-bot/import-bot",
+     "https://mcp.so/grok-bot/stalk-bot",
+     "https://mcp.so/servers/3dcraft",
+     "https://mcp.so/servers/affinity",
+     "https://mcp.so/servers/agent-chain-tokyo",
+     "https://mcp.so/servers/agent-runtime-guard",
+     "https://mcp.so/servers/agents-cursor-subagent-plugin"
     ]
    },
    "lobehub-mcp": {
@@ -1061,24 +779,33 @@
     "sample": []
    },
    "aixploria": {
-    "urls": 615,
-    "new": 0,
+    "urls": 638,
+    "new": 23,
     "first_run": false,
-    "sample": []
+    "sample": [
+     "https://www.aixploria.com/adgentek-ad-server/",
+     "https://www.aixploria.com/citation-checker/",
+     "https://www.aixploria.com/claude-fable-5-2-anthropic/",
+     "https://www.aixploria.com/gemini-4-carbon-google-deepmind/",
+     "https://www.aixploria.com/genie-4-google-deepmind/",
+     "https://www.aixploria.com/gpt-6-cyber-openai/",
+     "https://www.aixploria.com/gpt-image-2-6-openai/",
+     "https://www.aixploria.com/hyper3d-ai/"
+    ]
    },
    "ai-bot.cn": {
     "urls": 5068,
-    "new": 698,
+    "new": 701,
     "first_run": false,
     "sample": [
-     "https://ai-bot.cn/2pr/",
-     "https://ai-bot.cn/3fs/",
-     "https://ai-bot.cn/a-deep-dive-into-mcp-and-the-future-of-ai-tooling/",
-     "https://ai-bot.cn/a0-dev/",
-     "https://ai-bot.cn/agent-tars/",
-     "https://ai-bot.cn/agentic-reasoning/",
-     "https://ai-bot.cn/agentrefine/",
-     "https://ai-bot.cn/agentsociety/"
+     "https://ai-bot.cn/chatgpt-images-26-gif-sticker-tutorial/",
+     "https://ai-bot.cn/hy-realtime/",
+     "https://ai-bot.cn/sites/1338.html",
+     "https://ai-bot.cn/sites/47103.html",
+     "https://ai-bot.cn/sites/47112.html",
+     "https://ai-bot.cn/sites/47133.html",
+     "https://ai-bot.cn/sites/47148.html",
+     "https://ai-bot.cn/sites/47157.html"
     ]
    },
    "opentools": {
@@ -1088,18 +815,18 @@
     "sample": []
    },
    "dang": {
-    "urls": 7948,
-    "new": 27,
+    "urls": 7968,
+    "new": 21,
     "first_run": false,
     "sample": [
-     "https://dang.ai/tool/ai-voice-generator-free-ai-voice-generator",
-     "https://dang.ai/tool/college-essay-grader-ai-college-essay-grader",
-     "https://dang.ai/tool/dame-hombro-ai-photo-to-video-ai",
-     "https://dang.ai/tool/dime-dime-baby-ai-photo-to-video-ai-2",
-     "https://dang.ai/tool/emero-studio-ai-image-and-video-generator-for-claude",
-     "https://dang.ai/tool/findingsteel-steel-weight-calculator-steel-weight-calculator",
-     "https://dang.ai/tool/fylm-ai",
-     "https://dang.ai/tool/imagetexttools-edit-text-in-image"
+     "https://dang.ai/tool/agentcody-persistent-ai-agent-for-slack",
+     "https://dang.ai/tool/ai-chat-folders-chrome-extension",
+     "https://dang.ai/tool/ai-plant-identifier-plant-identifier-ai",
+     "https://dang.ai/tool/ai-rap-video-generator-2",
+     "https://dang.ai/tool/aimoviequotes-quote-finder-ai-quote-finder",
+     "https://dang.ai/tool/dataporium-mcp-finance-data-api",
+     "https://dang.ai/tool/gauth",
+     "https://dang.ai/tool/gbot-ai-business-assistant"
     ]
    },
    "clipfly": {
@@ -1109,177 +836,175 @@
     "sample": []
    },
    "aitoptools": {
-    "urls": 11915,
+    "urls": 11918,
     "new": 3,
     "first_run": false,
     "sample": [
-     "https://aitoptools.com/ai-blog/7-ai-tools-for-finding-beauty-influencers-across-skincare-makeup-and-beauty-tech/",
-     "https://aitoptools.com/ai-blog/best-ai-video-generators-in-2026-10-tools-for-creating-high-quality-videos/",
-     "https://aitoptools.com/tool/aeo-armory/"
+     "https://aitoptools.com/tool/ai-visibility/",
+     "https://aitoptools.com/tool/humantone/",
+     "https://aitoptools.com/tool/octocheck/"
     ]
    },
    "futurepedia": {
     "urls": 2497,
-    "new": 1,
+    "new": 0,
     "first_run": false,
-    "sample": [
-     "https://www.futurepedia.io/tool/thesis"
-    ]
+    "sample": []
    }
   },
   "terms": [
    {
-    "term": "adkit",
-    "recent": 16,
-    "baseline": 4,
-    "lift": 15.4
-   },
-   {
-    "term": "tutorials deepseek",
-    "recent": 12,
-    "baseline": 1,
-    "lift": 11.9
-   },
-   {
-    "term": "tutorials",
-    "recent": 24,
-    "baseline": 156,
-    "lift": 10.0
-   },
-   {
-    "term": "connectors io.github.geornaden",
-    "recent": 10,
-    "baseline": 0,
-    "lift": 10.0
-   },
-   {
-    "term": "r1",
-    "recent": 11,
-    "baseline": 25,
-    "lift": 9.0
-   },
-   {
-    "term": "io.github.kizukidata",
-    "recent": 9,
-    "baseline": 3,
-    "lift": 8.8
-   },
-   {
-    "term": "connectors io.github.kizukidata",
-    "recent": 9,
-    "baseline": 3,
-    "lift": 8.8
-   },
-   {
-    "term": "connectors io.github.adkit",
-    "recent": 8,
-    "baseline": 1,
-    "lift": 7.9
-   },
-   {
-    "term": "smrht",
-    "recent": 8,
-    "baseline": 3,
-    "lift": 7.8
+    "term": "sites",
+    "recent": 698,
+    "baseline": 26,
+    "lift": 571.7
    },
    {
     "term": "cotlet connect",
-    "recent": 11,
-    "baseline": 50,
-    "lift": 7.6
+    "recent": 30,
+    "baseline": 61,
+    "lift": 19.8
    },
    {
-    "term": "deepseek",
-    "recent": 20,
-    "baseline": 205,
-    "lift": 7.0
-   },
-   {
-    "term": "io.github.ranqint",
-    "recent": 7,
-    "baseline": 0,
-    "lift": 7.0
-   },
-   {
-    "term": "connectors io.github.ranqint",
-    "recent": 7,
-    "baseline": 0,
-    "lift": 7.0
-   },
-   {
-    "term": "io.github.zoom zoom",
-    "recent": 7,
-    "baseline": 7,
-    "lift": 6.6
-   },
-   {
-    "term": "connectors io.github.zoom",
-    "recent": 7,
-    "baseline": 7,
-    "lift": 6.6
-   },
-   {
-    "term": "trw123123",
-    "recent": 6,
-    "baseline": 0,
-    "lift": 6.0
-   },
-   {
-    "term": "thesven",
-    "recent": 6,
-    "baseline": 1,
-    "lift": 5.9
-   },
-   {
-    "term": "ads",
+    "term": "connect",
     "recent": 32,
-    "baseline": 520,
-    "lift": 5.6
+    "baseline": 294,
+    "lift": 9.1
    },
    {
-    "term": "es.argohub.www",
-    "recent": 5,
+    "term": "connectors space.unhandled",
+    "recent": 7,
     "baseline": 0,
-    "lift": 5.0
+    "lift": 7.0
    },
    {
-    "term": "connectors es.argohub.www",
-    "recent": 5,
-    "baseline": 0,
-    "lift": 5.0
+    "term": "wrpbr",
+    "recent": 7,
+    "baseline": 2,
+    "lift": 6.9
    },
    {
-    "term": "io.github.coregentdevspace",
-    "recent": 5,
-    "baseline": 0,
-    "lift": 5.0
+    "term": "autopilot",
+    "recent": 6,
+    "baseline": 39,
+    "lift": 4.5
    },
    {
-    "term": "connectors io.github.coregentdevspace",
+    "term": "connectors ai.saifs",
     "recent": 5,
+    "baseline": 21,
+    "lift": 4.2
+   },
+   {
+    "term": "com.jobiba",
+    "recent": 4,
     "baseline": 0,
-    "lift": 5.0
+    "lift": 4.0
+   },
+   {
+    "term": "connectors com.jobiba",
+    "recent": 4,
+    "baseline": 0,
+    "lift": 4.0
+   },
+   {
+    "term": "kobis",
+    "recent": 4,
+    "baseline": 0,
+    "lift": 4.0
    },
    {
     "term": "connectors io.github.stellalytics",
+    "recent": 4,
+    "baseline": 5,
+    "lift": 3.8
+   },
+   {
+    "term": "river",
+    "recent": 4,
+    "baseline": 15,
+    "lift": 3.5
+   },
+   {
+    "term": "connectors io.github.itsryanarmani",
     "recent": 5,
+    "baseline": 58,
+    "lift": 3.3
+   },
+   {
+    "term": "forecast",
+    "recent": 4,
+    "baseline": 38,
+    "lift": 3.0
+   },
+   {
+    "term": "kivel",
+    "recent": 3,
     "baseline": 0,
-    "lift": 5.0
+    "lift": 3.0
    },
    {
-    "term": "connectors io.github.nero",
-    "recent": 8,
-    "baseline": 88,
-    "lift": 4.5
+    "term": "org.plantdatabases",
+    "recent": 3,
+    "baseline": 0,
+    "lift": 3.0
    },
    {
-    "term": "io.github.nero engine",
-    "recent": 8,
-    "baseline": 88,
-    "lift": 4.5
+    "term": "connectors org.plantdatabases",
+    "recent": 3,
+    "baseline": 0,
+    "lift": 3.0
+   },
+   {
+    "term": "dondirechristian",
+    "recent": 3,
+    "baseline": 0,
+    "lift": 3.0
+   },
+   {
+    "term": "dvnold",
+    "recent": 3,
+    "baseline": 0,
+    "lift": 3.0
+   },
+   {
+    "term": "kucharskill",
+    "recent": 3,
+    "baseline": 1,
+    "lift": 3.0
+   },
+   {
+    "term": "mrsxs",
+    "recent": 3,
+    "baseline": 0,
+    "lift": 3.0
+   },
+   {
+    "term": "statutory",
+    "recent": 3,
+    "baseline": 4,
+    "lift": 2.9
+   },
+   {
+    "term": "k11",
+    "recent": 3,
+    "baseline": 3,
+    "lift": 2.9
+   },
+   {
+    "term": "k11techlab",
+    "recent": 3,
+    "baseline": 3,
+    "lift": 2.9
+   },
+   {
+    "term": "solutions k11techlab",
+    "recent": 3,
+    "baseline": 3,
+    "lift": 2.9
    }
   ],
-  "seconds": 274
+  "seconds": 273
  },
  "newsite": {
   "skipped": true
@@ -1297,417 +1022,8 @@
   "skipped": true
  },
  "feed": {
-  "read": {
-   "producthunt": 50,
-   "hn": 10,
-   "openrouter": 14,
-   "appstore": 200,
-   "awesome": 4636
-  },
-  "new": {
-   "producthunt": [
-    {
-     "key": "https://www.producthunt.com/products/whoop",
-     "name": "WHOOP Humans",
-     "url": "https://www.producthunt.com/products/whoop",
-     "about": "WHOOP's social network built around real health data Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/paxper",
-     "name": "Paxper",
-     "url": "https://www.producthunt.com/products/paxper",
-     "about": "Create cloud infrastructure visually and review every change Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/hoverine",
-     "name": "Hoverine",
-     "url": "https://www.producthunt.com/products/hoverine",
-     "about": "Rive animation templates you can drop into your app Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/gatrends",
-     "name": "GAtrends",
-     "url": "https://www.producthunt.com/products/gatrends",
-     "about": "Spike alerts for your keywords in Telegram, Claude, ChatGPT Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/expo",
-     "name": "Expo Simulators",
-     "url": "https://www.producthunt.com/products/expo",
-     "about": "Cloud simulators built for agents Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/kairos-18",
-     "name": "Kairos",
-     "url": "https://www.producthunt.com/products/kairos-18",
-     "about": "Personal analytics engine across health, finances, & social Discussion | Link",
-     "fresh": false
-    },
-    {
-     "key": "https://www.producthunt.com/products/qorqbot",
-     "name": "qorqbot",
-     "url": "https://www.producthunt.com/products/qorqbot",
-     "about": "Proactive agent for business work Discussion | Link",
-     "fresh": false
-    },
-    {
-     "key": "https://www.producthunt.com/products/stockrip",
-     "name": "StockRip",
-     "url": "https://www.producthunt.com/products/stockrip",
-     "about": "Trading cards, literally digital cards with tokenized stocks Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/gemini-6",
-     "name": "Gemini 4 Hydrogen",
-     "url": "https://www.producthunt.com/products/gemini-6",
-     "about": "Fast agentic development for coders Discussion | Link",
-     "fresh": true
-    },
-    {
-     "key": "https://www.producthunt.com/products/pocket-studio-for-supabase",
-     "name": "Pocket Studio for Supabase",
-     "url": "https://www.producthunt.com/products/pocket-studio-for-supabase",
-     "about": "Supabase dashboard & SQL editor for Android Discussion | Link",
-     "fresh": true
-    }
-   ],
-   "hn": [
-    {
-     "key": "50470488",
-     "name": "My $300 embroidery machine needed a subscription, so I built my own app",
-     "url": "https://github.com/simpsoka/zigzag",
-     "about": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
-     "score": 583,
-     "fresh": true
-    },
-    {
-     "key": "50471650",
-     "name": "AgentRun",
-     "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
-     "about": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
-     "score": 119,
-     "fresh": true
-    },
-    {
-     "key": "50469007",
-     "name": "Fable52.games",
-     "url": "https://fable52.games",
-     "about": "Show HN: Fable52.games – Play and inspect Fable 5.2 single-file HTML games",
-     "score": 69,
-     "fresh": true
-    },
-    {
-     "key": "50471281",
-     "name": "Kapso",
-     "url": "https://news.ycombinator.com/item?id=50471281",
-     "about": "Show HN: Kapso – Iterative learning from enterprise data",
-     "score": 49,
-     "fresh": true
-    },
-    {
-     "key": "50470343",
-     "name": "Apron Chat Protocol",
-     "url": "https://apron.chat/",
-     "about": "Show HN: Apron Chat Protocol",
-     "score": 46,
-     "fresh": true
-    },
-    {
-     "key": "50467880",
-     "name": "AI Red Lines",
-     "url": "https://yourairedlines.com",
-     "about": "Show HN: AI Red Lines – write down what would make you act on AI",
-     "score": 36,
-     "fresh": true
-    }
-   ],
-   "openrouter": [
-    {
-     "key": "google/gemini-4-hydrogen",
-     "name": "Gemini 4 Hydrogen",
-     "url": "https://openrouter.ai/google/gemini-4-hydrogen",
-     "about": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than.",
-     "fresh": true
-    },
-    {
-     "key": "google/gemini-4-hydrogen:batch",
-     "name": "Gemini 4 Hydrogen (batch)",
-     "url": "https://openrouter.ai/google/gemini-4-hydrogen:batch",
-     "about": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than.",
-     "fresh": true
-    },
-    {
-     "key": "thinkingmachines/inkling-2-small",
-     "name": "Inkling 2 Small",
-     "url": "https://openrouter.ai/thinkingmachines/inkling-2-small",
-     "about": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second...",
-     "fresh": true
-    }
-   ],
-   "appstore": [
-    {
-     "key": "1485352913",
-     "name": "Pokémon HOME",
-     "url": "https://apps.apple.com/us/app/pok%C3%A9mon-home/id1485352913?uo=2",
-     "about": "Pokémon HOME is a cloud-based service, designed as a place where all of your Pokémon can gather. ▼ Manage your Pokémon! You can bring any Pokémon that has appeared in a core Pokémon game to Pokémon HO"
-    }
-   ],
-   "awesome": []
-  },
-  "first_run": [],
-  "errors": [
-   "trending: HTTP 400: {\"error\":{\"code\":\"invalid_arguments\",\"details\":{\"reason\":\"unknown argument /country_code\",\"session_guidance\":\""
-  ],
-  "cost_micros": 0,
-  "terms": [
-   {
-    "term": "whoop humans",
-    "recent": 1,
-    "about": [
-     "https://www.producthunt.com/products/whoop",
-     "WHOOP's social network built around real health data Discussion | Link"
-    ],
-    "examples": [
-     "Product Hunt: WHOOP Humans"
-    ],
-    "note": "Product Hunt 新上架"
-   },
-   {
-    "term": "paxper",
-    "recent": 1,
-    "about": [
-     "https://www.producthunt.com/products/paxper",
-     "Create cloud infrastructure visually and review every change Discussion | Link"
-    ],
-    "examples": [
-     "Product Hunt: Paxper"
-    ],
-    "note": "Product Hunt 新上架"
-   },
-   {
-    "term": "hoverine",
-    "recent": 1,
-    "about": [
-     "https://www.producthunt.com/products/hoverine",
-     "Rive animation templates you can drop into your app Discussion | Link"
-    ],
-    "examples": [
-     "Product Hunt: Hoverine"
-    ],
-    "note": "Product Hunt 新上架"
-   },
-   {
-    "term": "gatrends",
-    "recent": 1,
-    "about": [
-     "https://www.producthunt.com/products/gatrends",
-     "Spike alerts for your keywords in Telegram, Claude, ChatGPT Discussion | Link"
-    ],
-    "examples": [
-     "Product Hunt: GAtrends"
-    ],
-    "note": "Product Hunt 新上架"
-   },
-   {
-    "term": "expo simulators",
-    "recent": 1,
-    "about": [
-     "https://www.producthunt.com/products/expo",
-     "Cloud simulators built for agents Discussion | Link"
-    ],
-    "examples": [
-     "Product Hunt: Expo Simulators"
-    ],
-    "note": "Product Hunt 新上架"
-   },
-   {
-    "term": "kairos",
-    "recent": 1,
-    "about": [
-     "https://www.producthunt.com/products/kairos-18",
-     "Personal analytics engine across health, finances, & social Discussion | Link"
-    ],
-    "examples": [
-     "Product Hunt: Kairos"
-    ],
-    "note": "Product Hunt 新上架"
-   },
-   {
-    "term": "qorqbot",
-    "recent": 1,
-    "about": [
-     "https://www.producthunt.com/products/qorqbot",
-     "Proactive agent for business work Discussion | Link"
-    ],
-    "examples": [
-     "Product Hunt: qorqbot"
-    ],
-    "note": "Product Hunt 新上架"
-   },
-   {
-    "term": "stockrip",
-    "recent": 1,
-    "about": [
-     "https://www.producthunt.com/products/stockrip",
-     "Trading cards, literally digital cards with tokenized stocks Discussion | Link"
-    ],
-    "examples": [
-     "Product Hunt: StockRip"
-    ],
-    "note": "Product Hunt 新上架"
-   },
-   {
-    "term": "gemini 4 hydrogen",
-    "recent": 1,
-    "about": [
-     "https://www.producthunt.com/products/gemini-6",
-     "Fast agentic development for coders Discussion | Link"
-    ],
-    "examples": [
-     "Product Hunt: Gemini 4 Hydrogen"
-    ],
-    "note": "Product Hunt 新上架"
-   },
-   {
-    "term": "pocket studio for supabase",
-    "recent": 1,
-    "about": [
-     "https://www.producthunt.com/products/pocket-studio-for-supabase",
-     "Supabase dashboard & SQL editor for Android Discussion | Link"
-    ],
-    "examples": [
-     "Product Hunt: Pocket Studio for Supabase"
-    ],
-    "note": "Product Hunt 新上架"
-   },
-   {
-    "term": "my $300 embroidery machine needed a subscription, so i built my own app",
-    "recent": 1,
-    "about": [
-     "https://github.com/simpsoka/zigzag",
-     "Show HN: My $300 embroidery machine needed a subscription, so I built my own app"
-    ],
-    "examples": [
-     "Show HN: My $300 embroidery machine needed a subscription, so I built my own app"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "agentrun",
-    "recent": 1,
-    "about": [
-     "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
-     "Show HN: AgentRun – open-source, Self-improving Managed Agents"
-    ],
-    "examples": [
-     "Show HN: AgentRun"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "fable52.games",
-    "recent": 1,
-    "about": [
-     "https://fable52.games",
-     "Show HN: Fable52.games – Play and inspect Fable 5.2 single-file HTML games"
-    ],
-    "examples": [
-     "Show HN: Fable52.games"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "kapso",
-    "recent": 1,
-    "about": [
-     "https://news.ycombinator.com/item?id=50471281",
-     "Show HN: Kapso – Iterative learning from enterprise data"
-    ],
-    "examples": [
-     "Show HN: Kapso"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "apron chat protocol",
-    "recent": 1,
-    "about": [
-     "https://apron.chat/",
-     "Show HN: Apron Chat Protocol"
-    ],
-    "examples": [
-     "Show HN: Apron Chat Protocol"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "ai red lines",
-    "recent": 1,
-    "about": [
-     "https://yourairedlines.com",
-     "Show HN: AI Red Lines – write down what would make you act on AI"
-    ],
-    "examples": [
-     "Show HN: AI Red Lines"
-    ],
-    "note": "Show HN 新上架"
-   },
-   {
-    "term": "gemini 4 hydrogen",
-    "recent": 1,
-    "about": [
-     "https://openrouter.ai/google/gemini-4-hydrogen",
-     "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than."
-    ],
-    "examples": [
-     "OpenRouter: Gemini 4 Hydrogen"
-    ],
-    "note": "OpenRouter 新上架"
-   },
-   {
-    "term": "gemini 4 hydrogen (batch)",
-    "recent": 1,
-    "about": [
-     "https://openrouter.ai/google/gemini-4-hydrogen:batch",
-     "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than."
-    ],
-    "examples": [
-     "OpenRouter: Gemini 4 Hydrogen (batch)"
-    ],
-    "note": "OpenRouter 新上架"
-   },
-   {
-    "term": "inkling 2 small",
-    "recent": 1,
-    "about": [
-     "https://openrouter.ai/thinkingmachines/inkling-2-small",
-     "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second..."
-    ],
-    "examples": [
-     "OpenRouter: Inkling 2 Small"
-    ],
-    "note": "OpenRouter 新上架"
-   },
-   {
-    "term": "pokémon home",
-    "recent": 1,
-    "about": [
-     "https://apps.apple.com/us/app/pok%C3%A9mon-home/id1485352913?uo=2",
-     "Pokémon HOME is a cloud-based service, designed as a place where all of your Pokémon can gather. ▼ Manage your Pokémon! You can bring any Pokémon that has appeared in a core Pokémon game to Pokémon HO"
-    ],
-    "examples": [
-     "App Store: Pokémon HOME"
-    ],
-    "note": "App Store 新上架"
-   }
-  ],
-  "seconds": 10
+  "error": "IncompleteRead: IncompleteRead(140085 bytes read)",
+  "seconds": 11
  },
  "money": {
   "skipped": true
@@ -1750,12 +1066,12 @@
     "median_lead": -19.0
    }
   },
-  "pending": 625,
+  "pending": 641,
   "window_days": 60,
   "seconds": 0
  },
  "keywords": {
   "error": "AisaError: HTTP 402: {\"error\":{\"action\":{\"type\":\"top_up\",\"url\":\"https://console.aisa.one/billing\"},\"code\":\"insufficient_wallet_balance\",\"message\":\"Insufficient balance. To",
-  "seconds": 6
+  "seconds": 12
  }
 }

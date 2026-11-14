@@ -1,415 +1,550 @@
-[
-  {
-    "id": 0,
-    "keep": true,
-    "name": "New AI tool",
-    "desc": "用于识别植物病原体及其基因的AI工具",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 1,
-    "keep": true,
-    "name": "New AI tool",
-    "desc": "用于预测杜氏肌营养不良症患儿行走能力丧失的AI工具",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 2,
-    "keep": true,
-    "name": "ServiceNow AI tool",
-    "desc": "ServiceNow推出的用于加速CRM迁移的AI工具",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 3,
-    "keep": true,
-    "name": "ServiceNow AI tool",
-    "desc": "ServiceNow推出的用于加速CRM迁移的AI工具",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 4,
-    "keep": true,
-    "name": "Google Cloud/UiPath AI tool",
-    "desc": "谷歌云与UiPath合作推出的用于优化医院工作流的AI工具",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 5,
-    "keep": true,
-    "name": "Screenburn AI tool",
-    "desc": "Screenburn Group推出的用于编写微短剧全季剧本的AI工具",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 6,
-    "keep": true,
-    "name": "Equity Bank AI tool",
-    "desc": "Equity Bank推出的用于追踪员工离职倾向的AI工具",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 7,
-    "keep": true,
-    "name": "HoloCozy",
-    "desc": "以hololive成员为主题的桌面伴侣游戏，已上线Steam",
-    "kind": "game"
-  },
-  {
-    "id": 8,
-    "keep": true,
-    "name": "Crawlgan",
-    "desc": "结合地牢探索与Roguelike卡牌构筑的游戏，提供试玩版",
-    "kind": "game"
-  },
-  {
-    "id": 9,
-    "keep": true,
-    "name": "EA classics",
-    "desc": "EA旗下25款经典游戏合集，已上线Steam",
-    "kind": "game"
-  },
-  {
-    "id": 10,
-    "keep": true,
-    "name": "Neverness to Everness Soundtrack",
-    "desc": "游戏《Neverness to Everness》的原声带，已上线Steam",
-    "kind": "game"
-  },
-  {
-    "id": 11,
-    "keep": true,
-    "name": "MiniMax SOTA",
-    "desc": "MiniMax发布的开源4K图像生成模型",
-    "kind": "model"
-  },
-  {
-    "id": 12,
-    "keep": true,
-    "name": "ERNIE",
-    "desc": "百度发布的最新文心一言系列模型",
-    "kind": "model"
-  },
-  {
-    "id": 13,
-    "keep": true,
-    "name": "HUMAIN+",
-    "desc": "HUMAIN公司计划于2027年推出的AI技术栈",
-    "kind": "model"
-  },
-  {
-    "id": 14,
-    "keep": true,
-    "name": "NeuroBrain Dynamics",
-    "desc": "专注于医疗AI领域的模型与技术服务商",
-    "kind": "model"
-  },
-  {
-    "id": 15,
-    "keep": true,
-    "name": "Inkling 2 Small",
-    "desc": "Thinking Machines Lab开发的小型语言模型，现已集成至Snowflake Cortex",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 16,
-    "keep": true,
-    "name": "Apple HomeView",
-    "desc": "苹果推出的智能家居监控设备",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 17,
-    "keep": true,
-    "name": "Praxis-1",
-    "desc": "Runway推出的用于机器人的世界动作模型",
-    "kind": "model"
-  },
-  {
-    "id": 18,
-    "keep": true,
-    "name": "Gemini 4 Carbon",
-    "desc": "OpenAI收购Odessia后推出的Gemini系列模型",
-    "kind": "model"
-  },
-  {
-    "id": 19,
-    "keep": true,
-    "name": "Gemini Live",
-    "desc": "谷歌推出的AI语音聊天机器人，现已支持Apple CarPlay",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 20,
-    "keep": true,
-    "name": "Quiq Voice AI",
-    "desc": "集成至Zoom联络中心的AI语音助手",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 21,
-    "keep": true,
-    "name": "Apple TV 4K",
-    "desc": "苹果推出的新款4K电视流媒体播放器",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 22,
-    "keep": true,
-    "name": "DLSS 5",
-    "desc": "英伟达推出的深度学习超采样技术，现已支持《战争雷霆》",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 23,
-    "keep": true,
-    "name": "ERNIE",
-    "desc": "百度发布的最新文心一言系列模型及配套Token交换平台",
-    "kind": "model"
-  },
-  {
-    "id": 24,
-    "keep": true,
-    "name": "Intelligent Eyewear",
-    "desc": "谷歌推出的搭载Gemini的智能眼镜，支持实时翻译",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 25,
-    "keep": true,
-    "name": "AWS Emulator",
-    "desc": "亚马逊推出的官方AWS本地模拟器",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 33,
-    "keep": true,
-    "name": "Hy Realtime",
-    "desc": "腾讯混元发布的实时语音模型，支持工具调用与唱歌",
-    "kind": "model"
-  },
-  {
-    "id": 38,
-    "keep": true,
-    "name": "Hy Realtime",
-    "desc": "腾讯混元发布的实时语音模型",
-    "kind": "model"
-  },
-  {
-    "id": 40,
-    "keep": true,
-    "name": "Hy Realtime",
-    "desc": "腾讯混元发布的实时语音模型",
-    "kind": "model"
-  },
-  {
-    "id": 41,
-    "keep": true,
-    "name": "Gemini 4 Hydrogen",
-    "desc": "谷歌发布的Gemini系列新模型",
-    "kind": "model"
-  },
-  {
-    "id": 42,
-    "keep": true,
-    "name": "Gemini Decisions API",
-    "desc": "谷歌推出的决策模型API",
-    "kind": "model"
-  },
-  {
-    "id": 44,
-    "keep": true,
-    "name": "Gemini Decisions",
-    "desc": "谷歌发布的首个决策模型",
-    "kind": "model"
-  },
-  {
-    "id": 45,
-    "keep": true,
-    "name": "DeepSeek Harness",
-    "desc": "DeepSeek推出的开发者预览版模型工具",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 48,
-    "keep": true,
-    "name": "Gemini 4 Hydrogen",
-    "desc": "谷歌发布的专注于编程与智能体工作流的模型",
-    "kind": "model"
-  },
-  {
-    "id": 49,
-    "keep": true,
-    "name": "Claude Code",
-    "desc": "Anthropic推出的AI编程工具，新增自定义mods功能",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 55,
-    "keep": true,
-    "name": "Claude Trading Skills",
-    "desc": "基于Claude的开源个人交易与投资管理工具包",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 57,
-    "keep": true,
-    "name": "Claude Code",
-    "desc": "Anthropic推出的AI编程工具，辅助完成数学证明",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 58,
-    "keep": true,
-    "name": "Gemini 4 Hydrogen",
-    "desc": "谷歌推出的高性能低成本AI模型",
-    "kind": "model"
-  },
-  {
-    "id": 63,
-    "keep": true,
-    "name": "B.AI",
-    "desc": "提供多种大模型托管与折扣服务的AI平台",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 64,
-    "keep": true,
-    "name": "Gemini 4 Hydrogen",
-    "desc": "谷歌Gemini系列中的低成本模型",
-    "kind": "model"
-  },
-  {
-    "id": 65,
-    "keep": true,
-    "name": "LLMON",
-    "desc": "IBM Granite模型支持的LLM原生标记语言",
-    "kind": "model"
-  },
-  {
-    "id": 66,
-    "keep": true,
-    "name": "Wave",
-    "desc": "Amplitude推出的基于OpenAI模型的AI产品智能体",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 67,
-    "keep": true,
-    "name": "Gemini 4 Hydrogen",
-    "desc": "谷歌DeepMind发布的Gemini系列新模型",
-    "kind": "model"
-  },
-  {
-    "id": 68,
-    "keep": true,
-    "name": "Gemini 4 Hydrogen",
-    "desc": "集成至谷歌搜索的AI模型",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 69,
-    "keep": true,
-    "name": "Modern Web Guidance",
-    "desc": "谷歌Chrome团队推出的Web开发最佳实践指南工具",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 70,
-    "keep": true,
-    "name": "Codex Security",
-    "desc": "OpenAI推出的用于发现和修复安全漏洞的工具包",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 71,
-    "keep": true,
-    "name": "nvm",
-    "desc": "Node.js版本管理工具",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 72,
-    "keep": true,
-    "name": "HermesEnabler",
-    "desc": "用于在Apple Watch上启用爱马仕表盘的工具",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 73,
-    "keep": true,
-    "name": "Sure",
-    "desc": "开源个人财务管理应用",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 74,
-    "keep": true,
-    "name": "Qwen Code",
-    "desc": "通义千问推出的开源AI编程智能体",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 75,
-    "keep": true,
-    "name": "TensorFold",
-    "desc": "支持Metal、CUDA和Vulkan的LLM推理引擎",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 76,
-    "keep": true,
-    "name": "Node.js",
-    "desc": "跨平台JavaScript运行时环境",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 77,
-    "keep": true,
-    "name": "Agent Skills",
-    "desc": "为AI编程智能体提供的生产级工程技能库",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 78,
-    "keep": true,
-    "name": "Astryx",
-    "desc": "Meta推出的开源且支持AI智能体的设计系统",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 79,
-    "keep": true,
-    "name": "OpenBot",
-    "desc": "CopilotKit推出的开源AI同事工作空间",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 80,
-    "keep": true,
-    "name": "free-claude-code",
-    "desc": "提供多种模型免费访问的终端编程工具包",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 81,
-    "keep": true,
-    "name": "llama.cpp",
-    "desc": "用于LLM推理的C/C++引擎",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 84,
-    "keep": true,
-    "name": "Nectar AI agent",
-    "desc": "Nectar推出的用于自动化网红发现与品牌合作的AI智能体",
-    "kind": "ai_tool"
-  },
-  {
-    "id": 87,
-    "keep": true,
-    "name": "Gemini 4 Hydrogen",
-    "desc": "谷歌推出的擅长处理复杂问题的AI模型",
-    "kind": "model"
-  }
-]
+{
+  "items": [
+    {
+      "id": 0,
+      "keep": true,
+      "name": "Wakeo AI工具",
+      "desc": "用于在货运招标前根据交付记录对承运商进行评分的AI工具。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 1,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 2,
+      "keep": true,
+      "name": "SMART",
+      "desc": "美国联邦航空管理局推出的用于空中交通管理的AI工具SMART。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 3,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 4,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 5,
+      "keep": true,
+      "name": "73 Strings AI工具",
+      "desc": "面向私募市场报告的AI工具。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 6,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 7,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 8,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 9,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 10,
+      "keep": true,
+      "name": "Escape from Tarkov PVE Bundle",
+      "desc": "硬核射击游戏《逃离塔科夫》的PVE模式捆绑包，已在PC平台上线。",
+      "kind": "game"
+    },
+    {
+      "id": 11,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 12,
+      "keep": true,
+      "name": "Decider v1.3",
+      "desc": "Perplexity发布的开放权重决策模型，新增Locate功能。",
+      "kind": "model"
+    },
+    {
+      "id": 13,
+      "keep": true,
+      "name": "Personal Agent Protocol 1.0",
+      "desc": "个人智能体协议1.0版本，用于构建个人AI代理。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 14,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 15,
+      "keep": true,
+      "name": "Claude Duet",
+      "desc": "Anthropic推出的Claude Duet功能，现向所有候补美国订阅者开放。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 16,
+      "keep": true,
+      "name": "Gemini 4 Carbon",
+      "desc": "Google发布的Gemini 4 Carbon模型，专为高难度任务设计。",
+      "kind": "model"
+    },
+    {
+      "id": 17,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 18,
+      "keep": true,
+      "name": "Search Assistant",
+      "desc": "瓦肖县推出的搜索助手，旨在改善县信息的数字化访问。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 19,
+      "keep": true,
+      "name": "ElevenAI",
+      "desc": "ElevenLabs推出的会议记录AI工具，面向团队协作。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 20,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 21,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 22,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 23,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 24,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 25,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 26,
+      "keep": true,
+      "name": "语飞大模型",
+      "desc": "2026世界中文大会发布的国际中文教育垂直大模型。",
+      "kind": "model"
+    },
+    {
+      "id": 27,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 28,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 29,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 30,
+      "keep": true,
+      "name": "Antigravity平台",
+      "desc": "Google推出的Antigravity平台，新增双模型协同编程功能。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 31,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 32,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 33,
+      "keep": true,
+      "name": "ProtCell",
+      "desc": "清华大学发布的单细胞蛋白组基础模型，用于虚拟细胞预训练。",
+      "kind": "model"
+    },
+    {
+      "id": 34,
+      "keep": true,
+      "name": "Hy Realtime",
+      "desc": "腾讯混元发布的实时语音模型，支持语音合成、唱歌及工具调用。",
+      "kind": "model"
+    },
+    {
+      "id": 35,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 36,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 37,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 38,
+      "keep": true,
+      "name": "DeepSeek Harness",
+      "desc": "DeepSeek发布的开发者预览版工具，用于模型开发与测试。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 39,
+      "keep": true,
+      "name": "文心大模型 Flash",
+      "desc": "百度文心大模型推出的Flash版本，主打快速推理。",
+      "kind": "model"
+    },
+    {
+      "id": 40,
+      "keep": true,
+      "name": "Alpha-R1",
+      "desc": "财跃星辰联合上海交大开源的8B金融推理大模型。",
+      "kind": "model"
+    },
+    {
+      "id": 41,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 42,
+      "keep": true,
+      "name": "GTA6",
+      "desc": "《侠盗猎车手6》将于2026年11月18日发售，抖音平台发布直播合规指引。",
+      "kind": "game"
+    },
+    {
+      "id": 43,
+      "keep": true,
+      "name": "DeepSeek API",
+      "desc": "DeepSeek开放全家桶应用API，提供深度思考搜索、文件输入、语音等能力。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 44,
+      "keep": true,
+      "name": "ChatGPT Wallet",
+      "desc": "OpenAI推出的ChatGPT支付钱包，支持智能体在用户授权下完成购买。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 45,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 46,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 47,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 48,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 49,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 50,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 51,
+      "keep": true,
+      "name": "Kitesurf",
+      "desc": "Cloudflare开源的AI代理无状态浏览器，基于Cloudflare Workers构建。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 52,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 53,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 54,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 55,
+      "keep": true,
+      "name": "WeatherNext 3",
+      "desc": "Google DeepMind开源的气象模型WeatherNext 3及其基础数据集SatWeave、PARDIG。",
+      "kind": "model"
+    },
+    {
+      "id": 56,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 57,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 58,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 59,
+      "keep": true,
+      "name": "datasette-cluster-map 0.19",
+      "desc": "Datasette插件，用于在地图上展示数据聚类，现支持Datasette 1.0。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 60,
+      "keep": true,
+      "name": "datasette-leaflet 0.3",
+      "desc": "Datasette插件，提供OpenStreetMap地图瓦片加载并修复引用头问题。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 61,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 62,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 63,
+      "keep": true,
+      "name": "llama.cpp v1.0.0",
+      "desc": "本地AI生态基础库llama.cpp发布1.0版本，提供更强基础。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 64,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 65,
+      "keep": true,
+      "name": "open-code-review",
+      "desc": "阿里巴巴开源的代码审查工具，结合确定性流水线与LLM Agent。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 66,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 67,
+      "keep": true,
+      "name": "Codex Security",
+      "desc": "OpenAI发布的Codex Security CLI和TypeScript SDK，用于发现修复安全漏洞。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 68,
+      "keep": true,
+      "name": "daily_stock_analysis",
+      "desc": "基于LLM的多市场股票智能分析系统，支持实时新闻与自动推送。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 69,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 70,
+      "keep": true,
+      "name": "plannotator",
+      "desc": "用于标注、审查代码并与团队协作的工作空间工具，支持一键反馈给Agent。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 71,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 72,
+      "keep": true,
+      "name": "Buzz",
+      "desc": "Block开源的蜂巢思维通信平台，人类与Agent共同构建工作空间。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 73,
+      "keep": true,
+      "name": "claude-trading-skills",
+      "desc": "面向股票投资者的Claude Code技能包，提供市场分析、技术图表等功能。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 74,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    },
+    {
+      "id": 75,
+      "keep": true,
+      "name": "Veyra-NRVideo",
+      "desc": "具备AI超分辨率、DLSS5图像增强和帧生成的高级Windows视频播放器。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 76,
+      "keep": true,
+      "name": "chrome-devtools-mcp",
+      "desc": "为编码Agent提供Chrome DevTools控制与检查实时浏览器的MCP服务。",
+      "kind": "ai_tool"
+    },
+    {
+      "id": 77,
+      "keep": false,
+      "name": "",
+      "desc": "",
+      "kind": ""
+    }
+  ]
+}

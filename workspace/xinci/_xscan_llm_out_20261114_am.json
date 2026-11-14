@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "name": "Fluid Speech Pro",
+      "desc": "Fluid Speech Pro 是一个开源的自动语音识别模型，参数量低于 1B，在 Hugging Face OpenASR 排行榜上排名第二，支持 25 种语言。"
+    },
+    {
+      "name": "Voder",
+      "desc": "Voder 是由 VeriLoop 团队开发的开源编码代理，在将代码变更写入工作区前会独立验证提议的变更。"
+    },
+    {
+      "name": "Budget3D",
+      "desc": "Budget3D 是一篇在 Hugging Face Papers 分享的研究论文，提出在任意 token 预算下实现图像到 3D 的生成，属于研究成果，不是新模型。"
+    },
+    {
+      "name": "DeepSeek API 全功能（App 能力开放）",
+      "desc": "DeepSeek API 全功能将 DeepSeek App 的搜索、文件、链接、安全、语音等能力通过参数开放给 API，并提供独立的 OCR、ASR、TTS 接口，属于功能/API 更新，不是新模型。"
+    },
+    {
+      "name": "Claude Code 桌面自定义主题（mods）",
+      "desc": "Claude Code 桌面版新增通过 mods 自定义主题的功能，可更改颜色和动画背景，用户可向 Claude 询问或使用 theme-examples 插件，属于功能更新，不是新模型。"
+    },
+    {
+      "name": "Claude Code Projects 协调器升级",
+      "desc": "Claude Code Projects 的协调器升级为更主动的版本，可在项目聊天中回答问题并报告并行线程状态，属于功能更新，不是新模型。"
+    },
+    {
+      "name": "PARDIG / SatWeave",
+      "desc": "Google DeepMind 发布了 PARDIG 和 SatWeave 两个基础大气观测数据集，支撑 WeatherNext 3 天气预报，供研究人员和开发者使用，属于数据集发布，不是新模型。"
+    },
+    {
+      "name": "Gemini Personal Intelligence 接入 Google Wallet",
+      "desc": "Gemini Personal Intelligence 新增接入 Google Wallet，将用户应用信息连接以提供个性化回答，属于功能更新，不是新模型。"
+    }
+  ]
+}

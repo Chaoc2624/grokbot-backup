@@ -1,5 +1,5 @@
 {
- "day": "2026-11-13",
+ "day": "2026-11-14",
  "config": {
   "min_volume": 500,
   "max_kd": 31,
@@ -33,52 +33,7 @@
  "almost": [],
  "filtered_out": [
   {
-   "phrase": "connectors io.github.geornaden",
-   "source": "Google 补全种子",
-   "reason": "含义不明/包名碎片"
-  },
-  {
-   "phrase": "io.github.kizukidata",
-   "source": "Google 补全种子",
-   "reason": "含义不明/包名碎片"
-  },
-  {
-   "phrase": "connectors io.github.kizukidata",
-   "source": "Google 补全种子",
-   "reason": "含义不明/包名碎片"
-  },
-  {
-   "phrase": "connectors io.github.adkit",
-   "source": "Google 补全种子",
-   "reason": "含义不明/包名碎片"
-  },
-  {
-   "phrase": "io.github.ranqint",
-   "source": "Google 补全种子",
-   "reason": "含义不明/包名碎片"
-  },
-  {
-   "phrase": "connectors io.github.ranqint",
-   "source": "Google 补全种子",
-   "reason": "含义不明/包名碎片"
-  },
-  {
-   "phrase": "io.github.zoom zoom",
-   "source": "Google 补全种子",
-   "reason": "含义不明/包名碎片"
-  },
-  {
-   "phrase": "connectors io.github.zoom",
-   "source": "Google 补全种子",
-   "reason": "含义不明/包名碎片"
-  },
-  {
-   "phrase": "io.github.coregentdevspace",
-   "source": "Google 补全种子",
-   "reason": "含义不明/包名碎片"
-  },
-  {
-   "phrase": "connectors io.github.coregentdevspace",
+   "phrase": "com.jobiba",
    "source": "Google 补全种子",
    "reason": "含义不明/包名碎片"
   },
@@ -88,19 +43,19 @@
    "reason": "含义不明/包名碎片"
   },
   {
-   "phrase": "connectors io.github.nero",
+   "phrase": "connectors io.github.itsryanarmani",
    "source": "Google 补全种子",
    "reason": "含义不明/包名碎片"
   },
   {
-   "phrase": "io.github.nero engine",
+   "phrase": "forecast",
    "source": "Google 补全种子",
-   "reason": "含义不明/包名碎片"
+   "reason": "词典常识/服务故障/共搜噪音"
   },
   {
-   "phrase": "my 300 embroidery machine needed a subscription so i built my own app",
+   "phrase": "org.plantdatabases",
    "source": "Google 补全种子",
-   "reason": "长度异常或为空"
+   "reason": "含义不明/包名碎片"
   },
   {
    "phrase": "murderers vs sheriffs",
@@ -108,144 +63,164 @@
    "reason": "非科技/赛事对阵词"
   },
   {
-   "phrase": "blood lab airdrie hours",
-   "source": "Google 补全(Blood Lab)",
+   "phrase": "snake vs human",
+   "source": "Google 补全种子",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "voder github",
+   "source": "Google 补全(Voder)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "voder machine",
+   "source": "Google 补全(Voder)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "voder meaning",
+   "source": "Google 补全(Voder)",
    "reason": "词典常识/服务故障/共搜噪音"
   },
   {
-   "phrase": "blood lab centers near me",
-   "source": "Google 补全(Blood Lab)",
+   "phrase": "voder scrabble word",
+   "source": "Google 补全(Voder)",
    "reason": "词典常识/服务故障/共搜噪音"
   },
   {
-   "phrase": "blood lab clinic near me",
-   "source": "Google 补全(Blood Lab)",
+   "phrase": "voder vocoder",
+   "source": "Google 补全(Voder)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "voder vs vocoder",
+   "source": "Google 补全(Voder)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "vodera",
+   "source": "Google 补全(Voder)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "voderady",
+   "source": "Google 补全(Voder)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "vodery",
+   "source": "Google 补全(Voder)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "azure latch emotes wiki",
+   "source": "Google 补全(Azure Latch)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "azure latch final matchup",
+   "source": "Google 补全(Azure Latch)",
+   "reason": "体育赛事/比分噪音"
+  },
+  {
+   "phrase": "azure latch rin vs sae",
+   "source": "Google 补全(Azure Latch)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "azure latch vs anime",
+   "source": "Google 补全(Azure Latch)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "azure latch vs blue lock rivals",
+   "source": "Google 补全(Azure Latch)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "azure latch wiki",
+   "source": "Google 补全(Azure Latch)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "azure latch wiki codes",
+   "source": "Google 补全(Azure Latch)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "azure latch wiki emotes",
+   "source": "Google 补全(Azure Latch)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "azure latch wiki nagi",
+   "source": "Google 补全(Azure Latch)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "azure latch wiki rin",
+   "source": "Google 补全(Azure Latch)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "azure latch wiki sae",
+   "source": "Google 补全(Azure Latch)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "azure latch play menu",
+   "source": "Google 补全(Azure Latch play)",
    "reason": "词典常识/服务故障/共搜噪音"
   },
   {
-   "phrase": "blood lab draw near me",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
+   "phrase": "chelsea vs man city",
+   "source": "Trends RSS",
+   "reason": "体育赛事/比分噪音"
   },
   {
-   "phrase": "blood lab hours",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood lab hours near me",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood lab near me",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood lab near me walk in",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood lab open near me",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood lab open on sunday near me",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood lab open saturday near me",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood lab places near me",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood lab results meaning",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood lab services near me",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood lab test results meaning",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood lab testing near me",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood lab walk in near me",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood lab work near me",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood laboratory near me",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "blood labs near me",
-   "source": "Google 补全(Blood Lab)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "car circle crossword clue",
-   "source": "Google 补全(car circle)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "car circle meaning",
-   "source": "Google 补全(car circle)",
-   "reason": "词典常识/服务故障/共搜噪音"
-  },
-  {
-   "phrase": "paraguay vs singapore",
+   "phrase": "kosovo vs israel",
    "source": "Trends RSS",
    "reason": "非科技/赛事对阵词"
   },
   {
-   "phrase": "singapore vs paraguay",
+   "phrase": "man utd vs crystal palace",
    "source": "Trends RSS",
-   "reason": "非科技/赛事对阵词"
+   "reason": "体育赛事/比分噪音"
   },
   {
-   "phrase": "frenzy",
-   "source": "App Store(#72 frenzy - friends only)",
-   "reason": "老应用重返榜单(上架 2025-12-12)，非AI新工具"
+   "phrase": "dallas weather",
+   "source": "Trends RSS",
+   "reason": "词典常识/服务故障/共搜噪音"
   },
   {
-   "phrase": "walgreens",
-   "source": "App Store(#90 Walgreens)",
-   "reason": "老应用重返榜单(上架 2009-10-27)，非AI新工具"
+   "phrase": "flightradar24",
+   "source": "App Store(#16 Flightradar24 | Flight Tracker)",
+   "reason": "老应用重返榜单(上架 2010-07-21)，非AI新工具"
+  },
+  {
+   "phrase": "nfhs network",
+   "source": "App Store(#27 NFHS Network)",
+   "reason": "老应用重返榜单(上架 2016-05-23)，非AI新工具"
+  },
+  {
+   "phrase": "american airlines",
+   "source": "App Store(#84 American Airlines)",
+   "reason": "老应用重返榜单(上架 2010-07-26)，非AI新工具"
+  },
+  {
+   "phrase": "playstation app",
+   "source": "App Store(#92 PlayStation App)",
+   "reason": "老应用重返榜单(上架 2013-11-13)，非AI新工具"
   }
  ],
  "terms": [
   {
-   "phrase": "edge0-145b 和 edge0-120b",
+   "phrase": "fluid speech pro",
    "source": "书签X·AI新品",
    "names": [
-    "Edge0-145B 和 Edge0-120B"
+    "Fluid Speech Pro"
    ],
-   "evidence": "Edge0 推出的首个端侧原生 100B 级开权基础模型（旗舰 Edge0-145B 与更轻的 Edge0-120B），可在笔记本电脑离线运行并用于本地 vibe coding。",
+   "evidence": "Fluid Speech Pro 是一个开源的自动语音识别模型，参数量低于 1B，在 Hugging Face OpenASR 排行榜上排名第二，支持 25 种语言。",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -283,47 +258,46 @@
    "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
    "domains": [
     {
-     "domain": "edge0edge0.com",
+     "domain": "fluidspeechpro.com",
      "available": true
     },
     {
-     "domain": "edge0edge0ai.com",
+     "domain": "fluidspeechproai.com",
      "available": true
     },
     {
-     "domain": "tryedge0.com",
+     "domain": "tryfluid.com",
+     "available": false
+    },
+    {
+     "domain": "fluidspeechpro.ai",
      "available": true
     },
     {
-     "domain": "edge0edge0.ai",
+     "domain": "fluidspeechproai.ai",
      "available": true
     },
     {
-     "domain": "edge0edge0ai.ai",
+     "domain": "fluidspeechpro.io",
      "available": true
     },
     {
-     "domain": "edge0edge0.io",
+     "domain": "fluidspeechproai.io",
      "available": true
     },
     {
-     "domain": "edge0edge0ai.io",
-     "available": true
-    },
-    {
-     "domain": "edge0edge0.org",
+     "domain": "fluidspeechpro.org",
      "available": true
     }
    ],
    "available_domains": [
-    "tryedge0.com",
-    "edge0edge0.com",
-    "edge0edge0ai.com",
-    "edge0edge0.ai",
-    "edge0edge0ai.ai",
-    "edge0edge0.io",
-    "edge0edge0ai.io",
-    "edge0edge0.org"
+    "fluidspeechpro.com",
+    "fluidspeechproai.com",
+    "fluidspeechpro.ai",
+    "fluidspeechproai.ai",
+    "fluidspeechpro.io",
+    "fluidspeechproai.io",
+    "fluidspeechpro.org"
    ],
    "failed": [
     "月搜",
@@ -336,14 +310,14 @@
    ]
   },
   {
-   "phrase": "gemini 4 hydrogen",
-   "source": "书签X·建站热词",
+   "phrase": "voder",
+   "source": "书签X·AI新品",
    "names": [
-    "Gemini 4 Hydrogen"
+    "Voder"
    ],
-   "evidence": "官方首发 views 848113 达标，须用完整产品名，适合做 Gemini 4 Hydrogen / 快速编程与日常智能体工作模型介绍页。",
+   "evidence": "Voder 是由 VeriLoop 团队开发的开源编码代理，在将代码变更写入工作区前会独立验证提议的变更。",
    "is_vacuum_candidate": true,
-   "is_hot_keyword": true,
+   "is_hot_keyword": false,
    "overview_ok": true,
    "volume": 0,
    "cpc": null,
@@ -379,46 +353,43 @@
    "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
    "domains": [
     {
-     "domain": "gemini4hydrogen.com",
-     "available": true
-    },
-    {
-     "domain": "gemini4hydrogenai.com",
-     "available": true
-    },
-    {
-     "domain": "trygemini.com",
+     "domain": "voder.com",
      "available": false
     },
     {
-     "domain": "gemini4hydrogen.ai",
+     "domain": "voderai.com",
      "available": true
     },
     {
-     "domain": "gemini4hydrogenai.ai",
+     "domain": "tryvoder.com",
      "available": true
     },
     {
-     "domain": "gemini4hydrogen.io",
+     "domain": "voder.ai",
+     "available": false
+    },
+    {
+     "domain": "voderai.ai",
      "available": true
     },
     {
-     "domain": "gemini4hydrogenai.io",
+     "domain": "voder.io",
+     "available": false
+    },
+    {
+     "domain": "voderai.io",
      "available": true
     },
     {
-     "domain": "gemini4hydrogen.org",
-     "available": true
+     "domain": "voder.org",
+     "available": false
     }
    ],
    "available_domains": [
-    "gemini4hydrogen.com",
-    "gemini4hydrogenai.com",
-    "gemini4hydrogen.ai",
-    "gemini4hydrogenai.ai",
-    "gemini4hydrogen.io",
-    "gemini4hydrogenai.io",
-    "gemini4hydrogen.org"
+    "voderai.com",
+    "tryvoder.com",
+    "voderai.ai",
+    "voderai.io"
    ],
    "failed": [
     "月搜",
@@ -431,105 +402,12 @@
    ]
   },
   {
-   "phrase": "claude meetings",
-   "source": "书签X·建站热词",
-   "names": [
-    "Claude Meetings"
-   ],
-   "evidence": "官方首发 views 2846976、bookmarks 10772 达标，名字全新，适合做 Claude Meetings / 会议中实时协作生成文档与白板介绍页。",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": true,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {},
-    "ads": false,
-    "features": [],
-    "top": [],
-    "items": [],
-    "source": "serp",
-    "soft_weak": 0
-   },
-   "is_vacuum": false,
-   "vacuum_ratio": 0.0,
-   "vacuum_count": "0/0",
-   "vacuum_evidence": "结果过少",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": false,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "domains": [
-    {
-     "domain": "claudemeetings.com",
-     "available": false
-    },
-    {
-     "domain": "claudemeetingsai.com",
-     "available": true
-    },
-    {
-     "domain": "tryclaude.com",
-     "available": false
-    },
-    {
-     "domain": "claudemeetings.ai",
-     "available": false
-    },
-    {
-     "domain": "claudemeetingsai.ai",
-     "available": true
-    },
-    {
-     "domain": "claudemeetings.io",
-     "available": true
-    },
-    {
-     "domain": "claudemeetingsai.io",
-     "available": true
-    },
-    {
-     "domain": "claudemeetings.org",
-     "available": true
-    }
-   ],
-   "available_domains": [
-    "claudemeetingsai.com",
-    "claudemeetingsai.ai",
-    "claudemeetings.io",
-    "claudemeetingsai.io",
-    "claudemeetings.org"
-   ],
-   "failed": [
-    "月搜",
-    "CPC",
-    "首页竞争"
-   ],
-   "unknown": [
-    "KD",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "blood lab",
+   "phrase": "+1 glow up evolution",
    "source": "游戏轨",
    "names": [
-    "Blood Lab"
+    "+1 Glow Up Evolution"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 4294 playing",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 9890 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -576,12 +454,12 @@
    ]
   },
   {
-   "phrase": "blood lab unblocked",
+   "phrase": "+1 glow up evolution unblocked",
    "source": "游戏轨",
    "names": [
-    "Blood Lab"
+    "+1 Glow Up Evolution"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 4294 playing",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 9890 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -628,12 +506,12 @@
    ]
   },
   {
-   "phrase": "blood lab online",
+   "phrase": "+1 glow up evolution online",
    "source": "游戏轨",
    "names": [
-    "Blood Lab"
+    "+1 Glow Up Evolution"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 4294 playing",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 9890 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -680,12 +558,12 @@
    ]
   },
   {
-   "phrase": "blood lab play",
+   "phrase": "+1 glow up evolution play",
    "source": "游戏轨",
    "names": [
-    "Blood Lab"
+    "+1 Glow Up Evolution"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 4294 playing",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 9890 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -732,12 +610,12 @@
    ]
   },
   {
-   "phrase": "car circle",
+   "phrase": "azure latch",
    "source": "游戏轨",
    "names": [
-    "car circle"
+    "Azure Latch"
    ],
-   "evidence": "Poki: Poki 首页热门",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 14716 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -784,12 +662,12 @@
    ]
   },
   {
-   "phrase": "car circle unblocked",
+   "phrase": "azure latch unblocked",
    "source": "游戏轨",
    "names": [
-    "car circle"
+    "Azure Latch"
    ],
-   "evidence": "Poki: Poki 首页热门",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 14716 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -836,220 +714,12 @@
    ]
   },
   {
-   "phrase": "car circle online",
+   "phrase": "azure latch online",
    "source": "游戏轨",
    "names": [
-    "car circle"
+    "Azure Latch"
    ],
-   "evidence": "Poki: Poki 首页热门",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {},
-    "ads": false,
-    "features": [],
-    "top": [],
-    "items": [],
-    "source": "serp",
-    "soft_weak": 0
-   },
-   "is_vacuum": false,
-   "vacuum_ratio": 0.0,
-   "vacuum_count": "0/0",
-   "vacuum_evidence": "结果过少",
-   "tool_intent": true,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": false,
-    "allintitle": null
-   },
-   "score": 25,
-   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
-   "failed": [
-    "月搜",
-    "CPC",
-    "首页竞争"
-   ],
-   "unknown": [
-    "KD",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "car circle play",
-   "source": "游戏轨",
-   "names": [
-    "car circle"
-   ],
-   "evidence": "Poki: Poki 首页热门",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {},
-    "ads": false,
-    "features": [],
-    "top": [],
-    "items": [],
-    "source": "serp",
-    "soft_weak": 0
-   },
-   "is_vacuum": false,
-   "vacuum_ratio": 0.0,
-   "vacuum_count": "0/0",
-   "vacuum_evidence": "结果过少",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": false,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC",
-    "首页竞争"
-   ],
-   "unknown": [
-    "KD",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "draw the other half!",
-   "source": "游戏轨",
-   "names": [
-    "Draw the Other Half!"
-   ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 4796 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {},
-    "ads": false,
-    "features": [],
-    "top": [],
-    "items": [],
-    "source": "serp",
-    "soft_weak": 0
-   },
-   "is_vacuum": false,
-   "vacuum_ratio": 0.0,
-   "vacuum_count": "0/0",
-   "vacuum_evidence": "结果过少",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": false,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC",
-    "首页竞争"
-   ],
-   "unknown": [
-    "KD",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "draw the other half! unblocked",
-   "source": "游戏轨",
-   "names": [
-    "Draw the Other Half!"
-   ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 4796 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": "crowded",
-   "comp_detail": {
-    "kinds": {},
-    "ads": false,
-    "features": [],
-    "top": [],
-    "items": [],
-    "source": "serp",
-    "soft_weak": 0
-   },
-   "is_vacuum": false,
-   "vacuum_ratio": 0.0,
-   "vacuum_count": "0/0",
-   "vacuum_evidence": "结果过少",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": false,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC",
-    "首页竞争"
-   ],
-   "unknown": [
-    "KD",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "draw the other half! online",
-   "source": "游戏轨",
-   "names": [
-    "Draw the Other Half!"
-   ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 4796 playing",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 14716 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1096,12 +766,12 @@
    ]
   },
   {
-   "phrase": "draw the other half! play",
+   "phrase": "azure latch play",
    "source": "游戏轨",
    "names": [
-    "Draw the Other Half!"
+    "Azure Latch"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 4796 playing",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 14716 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1148,12 +818,12 @@
    ]
   },
   {
-   "phrase": "euro truck simulator 2 - coaches",
+   "phrase": "clean the bugs",
    "source": "游戏轨",
    "names": [
-    "Euro Truck Simulator 2 - Coaches"
+    "Clean The Bugs"
    ],
-   "evidence": "Steam 全球畅销: Steam 全球畅销：Euro Truck Simulator 2 - Coaches",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 9333 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1200,12 +870,12 @@
    ]
   },
   {
-   "phrase": "euro truck simulator 2 - coaches guide",
+   "phrase": "clean the bugs unblocked",
    "source": "游戏轨",
    "names": [
-    "Euro Truck Simulator 2 - Coaches"
+    "Clean The Bugs"
    ],
-   "evidence": "Steam 全球畅销: Steam 全球畅销：Euro Truck Simulator 2 - Coaches",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 9333 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1252,12 +922,64 @@
    ]
   },
   {
-   "phrase": "euro truck simulator 2 - coaches walkthrough",
+   "phrase": "clean the bugs online",
    "source": "游戏轨",
    "names": [
-    "Euro Truck Simulator 2 - Coaches"
+    "Clean The Bugs"
    ],
-   "evidence": "Steam 全球畅销: Steam 全球畅销：Euro Truck Simulator 2 - Coaches",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 9333 playing",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {},
+    "ads": false,
+    "features": [],
+    "top": [],
+    "items": [],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/0",
+   "vacuum_evidence": "结果过少",
+   "tool_intent": true,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 25,
+   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
+   "failed": [
+    "月搜",
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "clean the bugs play",
+   "source": "游戏轨",
+   "names": [
+    "Clean The Bugs"
+   ],
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 9333 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1304,12 +1026,220 @@
    ]
   },
   {
-   "phrase": "grow your forest",
+   "phrase": "dig & collect",
    "source": "游戏轨",
    "names": [
-    "Grow Your Forest"
+    "Dig & Collect"
    ],
-   "evidence": "@DRcorona2020: Roblox模拟经营种田游戏，标签含ComingSoon/InDevelopment但称今日发布，上线状态待核实，自述/低互动。",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 3093 playing",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {},
+    "ads": false,
+    "features": [],
+    "top": [],
+    "items": [],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/0",
+   "vacuum_evidence": "结果过少",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "dig & collect unblocked",
+   "source": "游戏轨",
+   "names": [
+    "Dig & Collect"
+   ],
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 3093 playing",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {},
+    "ads": false,
+    "features": [],
+    "top": [],
+    "items": [],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/0",
+   "vacuum_evidence": "结果过少",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "dig & collect online",
+   "source": "游戏轨",
+   "names": [
+    "Dig & Collect"
+   ],
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 3093 playing",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {},
+    "ads": false,
+    "features": [],
+    "top": [],
+    "items": [],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/0",
+   "vacuum_evidence": "结果过少",
+   "tool_intent": true,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 25,
+   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
+   "failed": [
+    "月搜",
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "dig & collect play",
+   "source": "游戏轨",
+   "names": [
+    "Dig & Collect"
+   ],
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 3093 playing",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {},
+    "ads": false,
+    "features": [],
+    "top": [],
+    "items": [],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/0",
+   "vacuum_evidence": "结果过少",
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "everyones tier list!",
+   "source": "游戏轨",
+   "names": [
+    "EVERYONES TIER LIST!"
+   ],
+   "evidence": "Steam 畅销: Steam 畅销：EVERYONE'S TIER LIST!",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1347,12 +1277,12 @@
    ]
   },
   {
-   "phrase": "grow your forest unblocked",
+   "phrase": "everyones tier list! unblocked",
    "source": "游戏轨",
    "names": [
-    "Grow Your Forest"
+    "EVERYONES TIER LIST!"
    ],
-   "evidence": "@DRcorona2020: Roblox模拟经营种田游戏，标签含ComingSoon/InDevelopment但称今日发布，上线状态待核实，自述/低互动。",
+   "evidence": "Steam 畅销: Steam 畅销：EVERYONE'S TIER LIST!",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1390,12 +1320,12 @@
    ]
   },
   {
-   "phrase": "grow your forest online",
+   "phrase": "everyones tier list! online",
    "source": "游戏轨",
    "names": [
-    "Grow Your Forest"
+    "EVERYONES TIER LIST!"
    ],
-   "evidence": "@DRcorona2020: Roblox模拟经营种田游戏，标签含ComingSoon/InDevelopment但称今日发布，上线状态待核实，自述/低互动。",
+   "evidence": "Steam 畅销: Steam 畅销：EVERYONE'S TIER LIST!",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1433,12 +1363,12 @@
    ]
   },
   {
-   "phrase": "grow your forest play",
+   "phrase": "everyones tier list! play",
    "source": "游戏轨",
    "names": [
-    "Grow Your Forest"
+    "EVERYONES TIER LIST!"
    ],
-   "evidence": "@DRcorona2020: Roblox模拟经营种田游戏，标签含ComingSoon/InDevelopment但称今日发布，上线状态待核实，自述/低互动。",
+   "evidence": "Steam 畅销: Steam 畅销：EVERYONE'S TIER LIST!",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1476,12 +1406,12 @@
    ]
   },
   {
-   "phrase": "hearts of iron iv",
+   "phrase": "path of exile",
    "source": "游戏轨",
    "names": [
-    "Hearts of Iron IV"
+    "Path of Exile"
    ],
-   "evidence": "Steam 畅销: Steam 畅销：Hearts of Iron IV",
+   "evidence": "Steam 全球畅销: Steam 全球畅销：Path of Exile",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1519,12 +1449,12 @@
    ]
   },
   {
-   "phrase": "hearts of iron iv unblocked",
+   "phrase": "path of exile unblocked",
    "source": "游戏轨",
    "names": [
-    "Hearts of Iron IV"
+    "Path of Exile"
    ],
-   "evidence": "Steam 畅销: Steam 畅销：Hearts of Iron IV",
+   "evidence": "Steam 全球畅销: Steam 全球畅销：Path of Exile",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1562,12 +1492,12 @@
    ]
   },
   {
-   "phrase": "hearts of iron iv online",
+   "phrase": "path of exile online",
    "source": "游戏轨",
    "names": [
-    "Hearts of Iron IV"
+    "Path of Exile"
    ],
-   "evidence": "Steam 畅销: Steam 畅销：Hearts of Iron IV",
+   "evidence": "Steam 全球畅销: Steam 全球畅销：Path of Exile",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1605,12 +1535,12 @@
    ]
   },
   {
-   "phrase": "hearts of iron iv play",
+   "phrase": "path of exile play",
    "source": "游戏轨",
    "names": [
-    "Hearts of Iron IV"
+    "Path of Exile"
    ],
-   "evidence": "Steam 畅销: Steam 畅销：Hearts of Iron IV",
+   "evidence": "Steam 全球畅销: Steam 全球畅销：Path of Exile",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1648,12 +1578,12 @@
    ]
   },
   {
-   "phrase": "hot balloon",
+   "phrase": "persona5: the phantom x",
    "source": "游戏轨",
    "names": [
-    "HOT BALLOON"
+    "Persona5: The Phantom X"
    ],
-   "evidence": "@kokohasjoined: Roblox平台新游戏，含大量皮肤特效动画，类型待核实，自述/低互动。",
+   "evidence": "Steam 畅销: Steam 畅销：Persona5: The Phantom X",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1691,12 +1621,12 @@
    ]
   },
   {
-   "phrase": "hot balloon unblocked",
+   "phrase": "persona5: the phantom x unblocked",
    "source": "游戏轨",
    "names": [
-    "HOT BALLOON"
+    "Persona5: The Phantom X"
    ],
-   "evidence": "@kokohasjoined: Roblox平台新游戏，含大量皮肤特效动画，类型待核实，自述/低互动。",
+   "evidence": "Steam 畅销: Steam 畅销：Persona5: The Phantom X",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1734,12 +1664,12 @@
    ]
   },
   {
-   "phrase": "hot balloon online",
+   "phrase": "persona5: the phantom x online",
    "source": "游戏轨",
    "names": [
-    "HOT BALLOON"
+    "Persona5: The Phantom X"
    ],
-   "evidence": "@kokohasjoined: Roblox平台新游戏，含大量皮肤特效动画，类型待核实，自述/低互动。",
+   "evidence": "Steam 畅销: Steam 畅销：Persona5: The Phantom X",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1777,12 +1707,12 @@
    ]
   },
   {
-   "phrase": "hot balloon play",
+   "phrase": "persona5: the phantom x play",
    "source": "游戏轨",
    "names": [
-    "HOT BALLOON"
+    "Persona5: The Phantom X"
    ],
-   "evidence": "@kokohasjoined: Roblox平台新游戏，含大量皮肤特效动画，类型待核实，自述/低互动。",
+   "evidence": "Steam 畅销: Steam 畅销：Persona5: The Phantom X",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1820,12 +1750,12 @@
    ]
   },
   {
-   "phrase": "main sequence",
+   "phrase": "towers of fortune",
    "source": "游戏轨",
    "names": [
-    "Main Sequence"
+    "Towers of Fortune"
    ],
-   "evidence": "Steam 畅销: Steam 畅销：Main Sequence",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 4699 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1863,12 +1793,12 @@
    ]
   },
   {
-   "phrase": "main sequence unblocked",
+   "phrase": "towers of fortune unblocked",
    "source": "游戏轨",
    "names": [
-    "Main Sequence"
+    "Towers of Fortune"
    ],
-   "evidence": "Steam 畅销: Steam 畅销：Main Sequence",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 4699 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1906,12 +1836,12 @@
    ]
   },
   {
-   "phrase": "main sequence online",
+   "phrase": "towers of fortune online",
    "source": "游戏轨",
    "names": [
-    "Main Sequence"
+    "Towers of Fortune"
    ],
-   "evidence": "Steam 畅销: Steam 畅销：Main Sequence",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 4699 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1949,12 +1879,12 @@
    ]
   },
   {
-   "phrase": "main sequence play",
+   "phrase": "towers of fortune play",
    "source": "游戏轨",
    "names": [
-    "Main Sequence"
+    "Towers of Fortune"
    ],
-   "evidence": "Steam 畅销: Steam 畅销：Main Sequence",
+   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 4699 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -1992,12 +1922,12 @@
    ]
   },
   {
-   "phrase": "one more lawn",
+   "phrase": "+1 sukuna evolution",
    "source": "游戏轨",
    "names": [
-    "One More Lawn"
+    "+1 Sukuna Evolution"
    ],
-   "evidence": "Steam 畅销: Steam 畅销：One More Lawn",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 26408 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2035,12 +1965,12 @@
    ]
   },
   {
-   "phrase": "one more lawn unblocked",
+   "phrase": "+1 sukuna evolution unblocked",
    "source": "游戏轨",
    "names": [
-    "One More Lawn"
+    "+1 Sukuna Evolution"
    ],
-   "evidence": "Steam 畅销: Steam 畅销：One More Lawn",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 26408 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2078,12 +2008,12 @@
    ]
   },
   {
-   "phrase": "one more lawn online",
+   "phrase": "+1 sukuna evolution online",
    "source": "游戏轨",
    "names": [
-    "One More Lawn"
+    "+1 Sukuna Evolution"
    ],
-   "evidence": "Steam 畅销: Steam 畅销：One More Lawn",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 26408 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2121,12 +2051,12 @@
    ]
   },
   {
-   "phrase": "one more lawn play",
+   "phrase": "+1 sukuna evolution play",
    "source": "游戏轨",
    "names": [
-    "One More Lawn"
+    "+1 Sukuna Evolution"
    ],
-   "evidence": "Steam 畅销: Steam 畅销：One More Lawn",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 26408 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2164,12 +2094,12 @@
    ]
   },
   {
-   "phrase": "retro football",
+   "phrase": "13 days to escape",
    "source": "游戏轨",
    "names": [
-    "Retro Football"
+    "13 Days to Escape"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 2426 playing",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 21662 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2207,12 +2137,12 @@
    ]
   },
   {
-   "phrase": "retro football unblocked",
+   "phrase": "13 days to escape unblocked",
    "source": "游戏轨",
    "names": [
-    "Retro Football"
+    "13 Days to Escape"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 2426 playing",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 21662 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2250,12 +2180,12 @@
    ]
   },
   {
-   "phrase": "retro football online",
+   "phrase": "13 days to escape online",
    "source": "游戏轨",
    "names": [
-    "Retro Football"
+    "13 Days to Escape"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 2426 playing",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 21662 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2293,12 +2223,12 @@
    ]
   },
   {
-   "phrase": "retro football play",
+   "phrase": "13 days to escape play",
    "source": "游戏轨",
    "names": [
-    "Retro Football"
+    "13 Days to Escape"
    ],
-   "evidence": "Roblox · Up-and-Coming: Roblox Up-and-Coming · 2426 playing",
+   "evidence": "Roblox · Top Trending: Roblox Top Trending · 21662 playing",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2336,55 +2266,12 @@
    ]
   },
   {
-   "phrase": "royale high",
-   "source": "游戏轨",
-   "names": [
-    "Royale High"
-   ],
-   "evidence": "Roblox · Top Trending: Roblox Top Trending · 9092 playing",
-   "is_vacuum_candidate": true,
-   "is_hot_keyword": false,
-   "overview_ok": true,
-   "volume": 0,
-   "cpc": null,
-   "comp": null,
-   "nodata": true,
-   "kd_ok": true,
-   "kd": null,
-   "kd_skipped": true,
-   "verdict": null,
-   "is_vacuum": false,
-   "vacuum_ratio": null,
-   "vacuum_count": null,
-   "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
-   "kdroi": null,
-   "checks": {
-    "月搜": false,
-    "KD": null,
-    "CPC": false,
-    "首页竞争": null,
-    "allintitle": null
-   },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
-   "failed": [
-    "月搜",
-    "CPC"
-   ],
-   "unknown": [
-    "KD",
-    "首页竞争",
-    "allintitle"
-   ]
-  },
-  {
-   "phrase": "expo simulators",
+   "phrase": "ohmygame",
    "source": "AI工具轨",
    "names": [
-    "Expo Simulators"
+    "ohmygame"
    ],
-   "evidence": "@celineodier: 为编程智能体提供云端iOS/Android模拟器，智能体可在云端运行改动、点选应用并回传录屏，无需本地Mac，第三方转述非官方首发。",
+   "evidence": "@zhangcheng0688: 开源的「用 AI 做游戏」工作室应用：把游戏画布和常用制作能力放在一个应用里，需自备 API 密钥，单人即可开做；第三方低互动介绍帖，非官方首发。",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2422,12 +2309,12 @@
    ]
   },
   {
-   "phrase": "expo simulators ai",
+   "phrase": "ohmygame ai",
    "source": "AI工具轨",
    "names": [
-    "Expo Simulators"
+    "ohmygame"
    ],
-   "evidence": "@celineodier: 为编程智能体提供云端iOS/Android模拟器，智能体可在云端运行改动、点选应用并回传录屏，无需本地Mac，第三方转述非官方首发。",
+   "evidence": "@zhangcheng0688: 开源的「用 AI 做游戏」工作室应用：把游戏画布和常用制作能力放在一个应用里，需自备 API 密钥，单人即可开做；第三方低互动介绍帖，非官方首发。",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2465,12 +2352,12 @@
    ]
   },
   {
-   "phrase": "expo simulators alternative",
+   "phrase": "ohmygame alternative",
    "source": "AI工具轨",
    "names": [
-    "Expo Simulators"
+    "ohmygame"
    ],
-   "evidence": "@celineodier: 为编程智能体提供云端iOS/Android模拟器，智能体可在云端运行改动、点选应用并回传录屏，无需本地Mac，第三方转述非官方首发。",
+   "evidence": "@zhangcheng0688: 开源的「用 AI 做游戏」工作室应用：把游戏画布和常用制作能力放在一个应用里，需自备 API 密钥，单人即可开做；第三方低互动介绍帖，非官方首发。",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2508,12 +2395,12 @@
    ]
   },
   {
-   "phrase": "instabox",
+   "phrase": "adgentek ad server",
    "source": "AI工具轨",
    "names": [
-    "InstaBox"
+    "adgentek ad server"
    ],
-   "evidence": "@carlaarodrigzz: 为智能体提供预装开发工具的专用云电脑，合上笔记本盖智能体仍持续运行，第三方转述/低互动。",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2551,12 +2438,12 @@
    ]
   },
   {
-   "phrase": "instabox ai",
+   "phrase": "adgentek ad server ai",
    "source": "AI工具轨",
    "names": [
-    "InstaBox"
+    "adgentek ad server"
    ],
-   "evidence": "@carlaarodrigzz: 为智能体提供预装开发工具的专用云电脑，合上笔记本盖智能体仍持续运行，第三方转述/低互动。",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2594,12 +2481,12 @@
    ]
   },
   {
-   "phrase": "instabox alternative",
+   "phrase": "adgentek ad server alternative",
    "source": "AI工具轨",
    "names": [
-    "InstaBox"
+    "adgentek ad server"
    ],
-   "evidence": "@carlaarodrigzz: 为智能体提供预装开发工具的专用云电脑，合上笔记本盖智能体仍持续运行，第三方转述/低互动。",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2637,12 +2524,12 @@
    ]
   },
   {
-   "phrase": "kukuri",
+   "phrase": "citation checker",
    "source": "AI工具轨",
    "names": [
-    "KUKURI"
+    "citation checker"
    ],
-   "evidence": "@kukuriagent: 提供现成AI规则（语气、回答风格、工作方式）供组合用于ChatGPT/Gemini/Claude，或下载配置文件给Claude Code和Codex，自述/低互",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2658,7 +2545,7 @@
    "vacuum_ratio": null,
    "vacuum_count": null,
    "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
+   "tool_intent": true,
    "kdroi": null,
    "checks": {
     "月搜": false,
@@ -2667,8 +2554,8 @@
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "score": 25,
+   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
    "failed": [
     "月搜",
     "CPC"
@@ -2680,12 +2567,12 @@
    ]
   },
   {
-   "phrase": "kukuri ai",
+   "phrase": "citation checker ai",
    "source": "AI工具轨",
    "names": [
-    "KUKURI"
+    "citation checker"
    ],
-   "evidence": "@kukuriagent: 提供现成AI规则（语气、回答风格、工作方式）供组合用于ChatGPT/Gemini/Claude，或下载配置文件给Claude Code和Codex，自述/低互",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2701,7 +2588,7 @@
    "vacuum_ratio": null,
    "vacuum_count": null,
    "vacuum_evidence": "未查 SERP",
-   "tool_intent": false,
+   "tool_intent": true,
    "kdroi": null,
    "checks": {
     "月搜": false,
@@ -2710,8 +2597,8 @@
     "首页竞争": null,
     "allintitle": null
    },
-   "score": 10,
-   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "score": 25,
+   "delivery_suggestion": "单页在线生成/转换工具站（免登录即用 + 预设模板库）",
    "failed": [
     "月搜",
     "CPC"
@@ -2723,12 +2610,12 @@
    ]
   },
   {
-   "phrase": "kukuri alternative",
+   "phrase": "citation checker alternative",
    "source": "AI工具轨",
    "names": [
-    "KUKURI"
+    "citation checker"
    ],
-   "evidence": "@kukuriagent: 提供现成AI规则（语气、回答风格、工作方式）供组合用于ChatGPT/Gemini/Claude，或下载配置文件给Claude Code和Codex，自述/低互",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2766,12 +2653,12 @@
    ]
   },
   {
-   "phrase": "measurescale",
+   "phrase": "claude fable 5 2 anthropic",
    "source": "AI工具轨",
    "names": [
-    "MeasureScale"
+    "claude fable 5 2 anthropic"
    ],
-   "evidence": "@MinahilAijaz: 让AI助手回答关于Google数据（如Search Console导出）的问题，无需自行翻阅报表，第三方或用户转述/低互动。",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2809,12 +2696,12 @@
    ]
   },
   {
-   "phrase": "measurescale ai",
+   "phrase": "claude fable 5 2 anthropic ai",
    "source": "AI工具轨",
    "names": [
-    "MeasureScale"
+    "claude fable 5 2 anthropic"
    ],
-   "evidence": "@MinahilAijaz: 让AI助手回答关于Google数据（如Search Console导出）的问题，无需自行翻阅报表，第三方或用户转述/低互动。",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2852,12 +2739,12 @@
    ]
   },
   {
-   "phrase": "measurescale alternative",
+   "phrase": "claude fable 5 2 anthropic alternative",
    "source": "AI工具轨",
    "names": [
-    "MeasureScale"
+    "claude fable 5 2 anthropic"
    ],
-   "evidence": "@MinahilAijaz: 让AI助手回答关于Google数据（如Search Console导出）的问题，无需自行翻阅报表，第三方或用户转述/低互动。",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2895,12 +2782,12 @@
    ]
   },
   {
-   "phrase": "nectar",
+   "phrase": "gemini 4 carbon google deepmind",
    "source": "AI工具轨",
    "names": [
-    "Nectar"
+    "gemini 4 carbon google deepmind"
    ],
-   "evidence": "@alex_prompter: 帮助品牌寻找创作者避免仅按粉丝数筛选，第三方转述非官方首发，用途为创作者匹配发现。",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2938,12 +2825,12 @@
    ]
   },
   {
-   "phrase": "nectar ai",
+   "phrase": "gemini 4 carbon google deepmind ai",
    "source": "AI工具轨",
    "names": [
-    "Nectar"
+    "gemini 4 carbon google deepmind"
    ],
-   "evidence": "@alex_prompter: 帮助品牌寻找创作者避免仅按粉丝数筛选，第三方转述非官方首发，用途为创作者匹配发现。",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -2981,12 +2868,12 @@
    ]
   },
   {
-   "phrase": "nectar alternative",
+   "phrase": "gemini 4 carbon google deepmind alternative",
    "source": "AI工具轨",
    "names": [
-    "Nectar"
+    "gemini 4 carbon google deepmind"
    ],
-   "evidence": "@alex_prompter: 帮助品牌寻找创作者避免仅按粉丝数筛选，第三方转述非官方首发，用途为创作者匹配发现。",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -3024,12 +2911,12 @@
    ]
   },
   {
-   "phrase": "sendr v4: lovable for gtm",
+   "phrase": "genie 4 google deepmind",
    "source": "AI工具轨",
    "names": [
-    "Sendr V4: Lovable for GTM"
+    "genie 4 google deepmind"
    ],
-   "evidence": "Product Hunt: Sendr V4: Lovable for GTM",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -3067,12 +2954,12 @@
    ]
   },
   {
-   "phrase": "sendr v4: lovable for gtm ai",
+   "phrase": "genie 4 google deepmind ai",
    "source": "AI工具轨",
    "names": [
-    "Sendr V4: Lovable for GTM"
+    "genie 4 google deepmind"
    ],
-   "evidence": "Product Hunt: Sendr V4: Lovable for GTM",
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
    "is_vacuum_candidate": true,
    "is_hot_keyword": false,
    "overview_ok": true,
@@ -3099,6 +2986,49 @@
    },
    "score": 10,
    "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "月搜",
+    "CPC"
+   ],
+   "unknown": [
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "genie 4 google deepmind alternative",
+   "source": "AI工具轨",
+   "names": [
+    "genie 4 google deepmind"
+   ],
+   "evidence": "sitemap·aixploria: aixploria sitemap 新页",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "vacuum_ratio": null,
+   "vacuum_count": null,
+   "vacuum_evidence": "未查 SERP",
+   "tool_intent": true,
+   "kdroi": null,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 25,
+   "delivery_suggestion": "开源/平替方案功能对比表、价格计算器与一键迁移指南站",
    "failed": [
     "月搜",
     "CPC"

@@ -1,7 +1,7 @@
 # 双轨补源：游戏轨 + AI工具轨
 
 补上 new-term-radar / 书签X 默认圈（AI 模型首发）容易漏的建站词。
-例程现为每天 18:00（Asia/Shanghai）跑一次。在 XSCAN 之后、`merge_board.py` 之前跑双轨、新闻轨和热梗轨：
+例程现为每天 10:00（Asia/Shanghai）±15 分钟跑一次完整日常（含 daily/finders/doable）。新版入口见 `RUNBOOK_V2.md` / `run_v2.py`。在 X 采集之后跑双轨、新闻轨、Higgsfield sitemap、热梗轨（AIsa 公开 API），再 verify / 有限立项 / merge / push：
 
 ```bash
 cd /workspace/xinci
@@ -115,7 +115,7 @@ PYTHONUNBUFFERED=1 python3 meme_scan.py
 
 **产出：** `meme-YYYYMMDD.json`：`tracks.meme.items[]`（name/desc/url/source/first_seen/kind，以及 platform、source_url、collected_at、published_at、metrics、replication_evidence、trend_stage、generation_feasibility、risks、coverage_type、video_semantics）与 `keywords[]`。另有 `coverage`（各平台 status / 原 URL / 采集时间 / 可得指标）和 `permissions_needed`。状态去重：`track_state/meme_seen.json`，并与当天 tracks/xnew/news 去重。
 
-**合并与配额：** `merge_board.py` 读取当日 `meme-YYYYMMDD.json`，来源「热梗轨」。`push_board.py` 带 source chip；热梗轨 keywords 最多 6 个，只填主轨用剩名额，不挤占书签X / 游戏轨 / AI工具轨。
+**合并与配额：** `merge_board.py` 读取当日 `meme-YYYYMMDD.json`，来源「热梗轨」。`push_board.py` 带 source chip；热梗/视频 keywords 最多预留 10 个（不够留空）；有合格条目时不得被 AI 工具轨挤成 0。游戏最多预留 10。书签X 只保留少量最高价值。
 
 **失败口径：** 某平台直采失败时，coverage.status 写 `unavailable`/`blocked`，摘要须写清「未全接入」及所需正规权限，不得称已监听三平台热榜。Google Trends 命中只能标 secondary。
 
@@ -123,7 +123,7 @@ PYTHONUNBUFFERED=1 python3 meme_scan.py
 
 1. `track_scan.py` 写出 `tracks-*.json`：`tracks.game|ai_tools` 下各有 `items[]`（name/desc/url/source/first_seen/kind）和 `keywords[]`（keyword/reason）。
 2. `merge_board.py` 读取当日 am+pm 的 tracks 文件以及 `news-YYYYMMDD.json`、`meme-YYYYMMDD.json`：items 进 `merged.terms`（来源「游戏轨」「AI工具轨」「新闻轨」「热梗轨」），keywords 进 `board_keywords.json`（带 `is_vacuum_candidate`）。
-3. 晚上 `doable.py` 照旧读 `board_keywords.json`，**门槛不变**（`min_volume` 500、`max_kd` 31 等）。过线才算可做词。
+3. 同一早轮可跑 `doable.py --only-extra`，只审核本轮优先候选。立项门槛仍是月搜≥500 且 KD≤31 等，但缺数不是 0，不能用来淘汰发现层。过线才算立项通过，不得把待验证写成已通过。
 4. 付费 Semrush 仍只在 doable；本轨脚本不调 AIsa。
 
 ## X 部分说明

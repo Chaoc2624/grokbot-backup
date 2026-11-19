@@ -1,0 +1,725 @@
+{
+ "label": "2026-11-19 新闻轨",
+ "run_at": "2026-11-19 16:59",
+ "date": "2026-11-19",
+ "window_hours": 24,
+ "window_start": "2026-11-18 16:54",
+ "window_end": "2026-11-19 16:54",
+ "tracks": {
+  "news": {
+   "items": [
+    {
+     "name": "Nutcake",
+     "desc": "一个用于创作者发现的AI工具",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTS1hWExPOU9OdGl5cTNfZ2k1LWZkY1MzOVNURld6ZVAwR0RkZkZ0ZWtCZloyT1NrUFNWYmZOLUU3TE5HUG51cnQ3X2ZBbXZnVHc0bmd2ZXJETlJuVFpIWFNOVEFZWVhFVFdFdzZ5WTMwNFhvMGx3MmlVRjlMSGlaRm5PTTRUOFd5RnpWWk04Wks2d29tXzhfeC1RSUs?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-18 17:47",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "Nutcake launches AI tool for creator discovery",
+     "is_new": true
+    },
+    {
+     "name": "Hymans",
+     "desc": "一个用于第三方行政管理的AI工具",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY2ZXdGNBNTlSb1dlb2VjbUJqNzJwX0ZGWVhYV01xTC1uaXVGcjRuVFRpR3lkaUlhUU9BOWo3cGtmeGg3Y1czRFJwNGJzQnhFdTdFRUU1ZDBEUk1PaWhMYllKZnZuQUZBZ0E4cmtlOWVMS25pOEJuQ1M4LW5fQWk5aDlUVlpZWUYwYVZKWGRaVFJqUGpySERyVUF3?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-18 23:54",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "Hymans launches AI tool for third-party administration",
+     "is_new": true
+    },
+    {
+     "name": "Snapchat",
+     "desc": "一个用于创建增强现实效果的AI工具",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWFVpSDlROFUxWUtTTktYYlJGNWItd0JDVmE4Y2RZak5LWU82eGE3OXBzbjE4MEF5enEyVnBxUm9xcDlGdmphRThXQTJMdXVCUFlMY1lVR1VGbl9RbzJ0QkEzTTJFMTJyTElFa3JLdnVjNE4wcGc5Umc4S0U4VVNWY0JDVlNzQ1hJODlNeW8waThXU055ZkI0Z2xxaGJySy1xSVQxVlI5dlV1STZOQXdWU2VrRW9CQmRFaHNGaU1rSVlKZWgtbnp0Rl9wNS1Fb2R3aDdReg?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 04:16",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "Snapchat launches AI tool for creating augmented reality effects",
+     "is_new": true
+    },
+    {
+     "name": "Halter",
+     "desc": "一个连接奶牛与牧场数据的AI工具",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQTRrTXp3ek5kcDRLUWRtbS0xR2hUU1NqVEo3TGR4ZmVScXJkNDh6Z3BLbHlXbE9BTDFkUW14YWtfcUxGcnd1eFQ0VWNsZWJhN0I1OTAyS2xZRFJLNUwxN1ZwTHZsRU5PT2FDdnpZYnIzRHRGaFNxVzVCOWE0M1N6XzhUNkIzWTFvbDRv?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 09:00",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "From cows to pasture, Halter’s new AI tool connects the dots",
+     "is_new": true
+    },
+    {
+     "name": "DepEd AI Tool",
+     "desc": "一个用于快速筛查二年级学习者的AI工具",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE03X1BjMzhjM1B3TWJfQlBlM1ZLbmxtWV9uTS1iQl9VM0RJbFdOcTEtUnliQVIwTDktNnFOQk9wSXJyQ2hYeWc1eEY0MzNmblY1c0M3bTJPS2RhR1lrYjdJS2dJRnpkWEtIMGJrSWk0bzdKcTJoMnZn?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-18 19:36",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "DepEd’s new AI tool screens a Grade 2 learner in 15 minutes. The old test took 2 hours",
+     "is_new": true
+    },
+    {
+     "name": "DTH AI",
+     "desc": "阿波罗医院与微软联合推出的用于提升安全性的AI工具",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT2kzTzJPc1NuTU8tQTFwNVNPcndMM3YyTU1nQU1Lak83Q2pQS2UzX3J4cjJRYThoRDlZSTlrbUJubnRKOTJHWkNmZDF5RDZNNUw0UTA0Q0ZaTWxqN0VOdUtLa1pBUjJmcEJNdGsxdFFBQldfc05vQjdDLVlpXzNjLXVhenJSWFRiRlRITjlFYUp2Smt4Z0h5QjVLZG9IOUR2NmFjWlJZYUoxZ29MQXc?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-18 18:33",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "Apollo Hospitals and Microsoft launch DTH AI to improve safety",
+     "is_new": true
+    },
+    {
+     "name": "Forsaken Lands",
+     "desc": "一款已登录Steam平台的合作卡牌构筑游戏",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVzN5cjAwME1ONDNXYXhvWGRMTnJxUGlfMXlub2JKYUdfdDJGaUNaWkp2ZHVIaVNXMURsdkZwVU4zZ29LSlRVbExKajFrOC1ucnl6a1B2Q2dmSHZ6NU10d3IxclE3YnVYV3RIc0hoNjhtWTBvU19wYWhIbXV0S1VOQUxDSlNoZ1BHSUVwb0JQdmdLZw?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 09:18",
+     "kind": "game",
+     "platform": "google_news",
+     "title": "Co-op Deckbuilder Forsaken Lands Is Now Available on Steam",
+     "is_new": true
+    },
+    {
+     "name": "Epochlings",
+     "desc": "一款已在Steam发布1.0正式版的游戏",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU2NUZUlzR1lMNVRuY1hCWnJSdzl1MjdWX2FHcFhCUl8tMERyNi1DTEF3VmxwYk13eVBXTnZSWWdZQUlaOGFDR2lnNG5STE5jOWxHWXY2dFlGdG5Wemxid3MwQXdpcGgwV1dBWXVGN1NUblc5VFhnQ1RrYWJsRGdkbk93VHFuM0RYV1BZeXBVQTJ4dXRIOThKWVJKem9INkg2R1lyZQ?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 13:33",
+     "kind": "game",
+     "platform": "google_news",
+     "title": "Epochlings Exits Early Access With Full Version 1.0 Release on Steam",
+     "is_new": true
+    },
+    {
+     "name": "Muv-Luv Girls Garden Mellow Days",
+     "desc": "一款已登录Steam平台并包含番茄钟和待办事项功能的视觉小说游戏",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM1VTalNFeEJsX0Y5cXRRSTBiR2pJT2N2Yzl0dTNFUFVvb0VhRGk5NDhRcDF6a3lEOVRrWm1IWm93WDhaMUJFbE5CNUVhbkkwOXBiRjJpbmtydk55TnVFUTNidW4ySkd1bHJVRjRDTjU2OEc1NEVSSWZKdUg3bHJ6T2hpYXlTX3FrUG82Mm01ZGFSUkk?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 08:27",
+     "kind": "game",
+     "platform": "google_news",
+     "title": "Muv-Luv Girls Garden Mellow Days Now Available On Steam With Pomodoro Timer, To-Do List, And Meru Momozono",
+     "is_new": true
+    },
+    {
+     "name": "Microsoft AI Models",
+     "desc": "微软推出的兼顾成本与性能的AI模型系列",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZkRKZGFKRC1YZS1mNk9fWkN0aktOYm9JalV2elRkVEI0Z082dWRMdnUzV0RmNEozOEpQTUlxemprSmthRE9VOFhQbFBRckx0OFdESHlyempmVl9rSG9DajlWRmpNMnNhN2hwcHJ5Z3I3MHdLbXV6OG1ZV3AyRUJfT1VVSEI5OXdFUlRiTVVmX01jOU5tMnFwMXFFYnhwb1ctWGNBWA?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 00:48",
+     "kind": "model",
+     "platform": "google_news",
+     "title": "Microsoft unveils AI models to compete on cost and performance",
+     "is_new": true
+    },
+    {
+     "name": "Temporal Cloud",
+     "desc": "在微软Azure上提供公开预览版的工作流云服务平台",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPalg2VC16YmlTRDZrZDAtalJha0lLNDF4T2NwZnlMVnR4TjVSbUxEZHpTb0RUZFIteHEwd0hEelFXS3AxWlExVzBMS3lOU2xsZ08xNkVOUGZDcW5jZnNWMXhXb2dyVG5HcXh5M29JVjZSMTlzUHJvZU5SY2FuSl9JMjBGM1lYQ21icTMzU1F6cUJCRS1oNk05Sm5SOGZNdUsyamVSS1RtMExSWWREN3dTQ2paYW1KVHdBMDI4NlVuZ0pPZ1I2Q2c4M3hpTGN3VDM3UmlaTjlCblAzOVlBVm5ud2ZEZEUtVi1P?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 04:06",
+     "kind": "model",
+     "platform": "google_news",
+     "title": "Temporal Technologies Announces Public Preview of Temporal Cloud on Microsoft Azure and Delivers Integrations with Microsoft Foundry and Microsoft Agent Framework",
+     "is_new": true
+    },
+    {
+     "name": "Ema AI Employees",
+     "desc": "面向人力资源、IT和财务部门的AI员工服务",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWWUtT1JSRE1aYWlUZFJZRTBzN25tbVdDSkg1YXgyT2lib3RPNWVZX29NYTMzVzlUbkhxcjNQcXdTNnZ4MlZpTXRVN0ktZ1FCVnpyYnFXdlFwMGJacVk1Z1RJamJ6ZU1KSTBldU1LSG5sWDBhVEdQRWtZV0ZaZnh5ZTd2c2FlNjJGa0M0eV9STW00bTRsWkg3ejZmUmlVYkt4eEpjak16V0dMd1plNzZSdnR2RmFfQ3c2cnNEdmFRdjQyNlczZFhYbUpVc3JjdDlfWXRDc016Zmd0QQ?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 01:05",
+     "kind": "model",
+     "platform": "google_news",
+     "title": "Ema Announces Availability of AI Employees for HR, IT, and Finance in Microsoft Marketplace",
+     "is_new": true
+    },
+    {
+     "name": "NanoI1",
+     "desc": "KiteFishAI推出的旨在解决企业数据隐私与部署成本的紧凑型AI模型",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSzlPV18tbk13THhjTUVXQnRhNnZ1cENZQ2JESmp4RWNMOVBzejd2bkZ0ZzB3Q19uNkZxOGhPQVhYTkRiWlc3dXdRaHZXRVVtTzk2bUI5UHBHU2JrZi1kTFkwU0NSRnpFVzdOZW5HQjdWWmVJTjFHMXBzcmY1dnZBVWtPMnZEUFNBbzg5SE9XNmJmaUNSYzZHbmhlT0VSU1ZKdnd2d1FKZmhFU1JaLTJ0MTRqSTN0WFU3LXpmNGY1ZG0tMzFs?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-18 19:47",
+     "kind": "model",
+     "platform": "google_news",
+     "title": "KiteFishAI Introduces NanoI1, a Compact AI Model to Address Enterprise Data Privacy and Deployment Costs",
+     "is_new": true
+    },
+    {
+     "name": "Conga Commerce Suite",
+     "desc": "与微软Dynamics 365及Copilot集成的商业套件",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNY0dRS1VsQ3Vzc2NIQW9LWkcySUFsbGtsTFg4UmZOTFd1QTJ4WVQyN3VTaWJNeGs3RC1jWWlCeHJnOHMzQkFuTlBGTDg1UXJXMm1jLUFMYW5TMEpxVTg1REN0UG9QeTJGUDR4RHFjOHIxT083bDlteWgzTy1TdUNqMTVYdGtRbm41N1ZhOExIWFFvdV9ZSW1sZzZ0bHpCOXp1QUxSOUQ0Q3ZvQzNHUDhBVVoycVhkZ3dDZDZtWWU2X1llZnZLcWNYNmgxdzZUV1hEOVljUG5HTUR3YXlLS0VpMWlJQ19WS0lm?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 00:35",
+     "kind": "model",
+     "platform": "google_news",
+     "title": "Conga Announces Strategic Partnership With Microsoft To Integrate Commerce Suite With Microsoft Dynamics 365 And Copilot",
+     "is_new": true
+    },
+    {
+     "name": "Microsoft Edge",
+     "desc": "跨平台扩展的企业级边缘浏览器安全报告连接器",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQMmdCejVtbU5rLVR0S092dmVFX3Zqa0xvOUlSVjBEYXpTQk50dVNfMHNrMjBHM1IyNTFBTTZDeXFyVF9vRGx6UFNYUW02aW5MeE5YaFRnRGg1bkxrT2MxNlBEbFRya2VRTy1GS3VxM0dqU1VBc1BIZE5BejExajJtZWpFYlEzdDM4QVYzQTNueXFqak44alNQdTM4bmFRMnp5djBnZ1hvQlAwU3IxN2RoVEtFRF9IRzJhdFE1eWFoM2JSeFNKenlRUGNIOXpCYzZOZU1HeXRrVGJNS3I4VlFlSVI1RzNpN3FI?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 00:20",
+     "kind": "model",
+     "platform": "google_news",
+     "title": "Devicie Announces Extension of Microsoft Edge for Business Security Reporting Connector Across Platforms",
+     "is_new": true
+    },
+    {
+     "name": "AI Agent Studio",
+     "desc": "NFON面向欧洲企业推出的AI智能体开发工作室",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUno0NTNabDA4YmJpUUxQUEpwLW04RU5GX0VHNXZoMkxIejU4dmowZWdBTXFranduclgyRTlNNW1fcXVKRHNIbjc3cnVpWjB2UG9Tc3cyaGQ0VExxVVFjc3JjQzI3WWgzeEREWDd5aUVBR0ZWNUllLV9MQlRjUTl2RGRnZElndWdW?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 00:38",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "NFON launches AI Agent Studio for European businesses",
+     "is_new": true
+    },
+    {
+     "name": "Proof MCP",
+     "desc": "集成于ChatGPT中的MCP协议工具，用于验证AI智能体的代理身份和授权",
+     "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNYzB4S3BWaGJRMVpCNWM5YjctSmtJUFRkZVdnNkFvYXFXbWh4bmdiblNOa21YRk05cWxnX3lRRTJ0M1YwMkFaYW5JZDVfWjF1RE4xbUlhOUJyRVJleVJYeExoOVV2ZGdMamFzRXFUckUtMU1HUkNweFpCVzlacGhCZjVjbU1VcldsNGFaQTNxQUw2dDdmRFl0MTFSN0l3Wkl1YzlrSzdOVkRMZ2lpRFFHMk1GRFdVdjJyYzJTUHRScWZ4ZGpfVEtNTHI3ZFFRV1ZxUVZ0SjVBUzd1cFZjSEp2MUNHckQ2Y213YzExRHFuZ1J2R2J6ZjM4dmE3NlR5TjZlS3BtakEyX2tEN0xHRDNzaTNLSC1WQ1dxWElkYi1rckxTNlViZEQw0gGnAkFVX3lxTE1jMHhLcFZoYlExWkI1YzliNy1Ka0lQVGRlV2c2QW9hcVdtaHhuZ2JuU05rbVhGTTlxbGdfeVFFMnQzVjAyQVphbklkNV9aMXVETjFtSWE5QnJFUmV5Ulh4TGg5VXZkZ0xqYXNFcVRyRS0xTUdSQ3B4WkJXOVpwaEJmNWNtTVVyV2w0YVpBM3FBTDZ0N2ZEWXQxMVI3SXdaSXVjOWtLN05WRExnaWlEUUcyTUZEV1V2MnJjMlNQdFJxZnhkal9US01McjdkUVFXVnFRVnRKNUFTN3VwVmNISnYxQ0dyRDZjbXdjMTFEcW5nUnZHYnpmMzh2YTc2VHlONmVLcG1qQTJfa0Q3TEdEM3NpM0tILVZDV3FYSWRiLWtyTFM2VWJkRDA?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-18 22:16",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "Proof launches its MCP in ChatGPT, starting with x401 so AI agents can prove who they act for and what that person approved",
+     "is_new": true
+    },
+    {
+     "name": "MSI EdgeMesa N AI+",
+     "desc": "搭载NVIDIA RTX Spark的AI系列笔记本及台式机",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclFfb3NMZDF3bDVDX0ZwMmQ2cVBVVXhUUXFBMm1rOXJjZDJ1UHU1OGpCeUd0QWRfRE4ySDJwR1BRdnptcWwtX3dTUEFDbm1adklOb19XV1d2ZVdWV2QzX0FnVXZ1VXBleHZJeXJvakFRRlV6SE5YWXB3QlZWYWpOdnNCdmFXU3FISjVNdlpWTXB2dDZBamZMcGdINEtPcG9sWXItN0N5VTVtT1lvQUE?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 13:57",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "MSI EdgeMesa N AI+ Series Launches in India with NVIDIA RTX Spark",
+     "is_new": true
+    },
+    {
+     "name": "Spin.AI",
+     "desc": "在微软Edge浏览器中可用的浏览器扩展风险评估洞察工具",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcU1OM1VKZEhHYnZuNmdyTzY0V1Jhc0FNenNOT1RCQ21xRTVyTl9YM1MwZmpBRzZFeHF2VkVJZzlpMDFINF84a3Yyamd1c2d3VmhtZGJvQmVNRUJ3b0NkWUpVWVhVRDl2WEFrcGNYUERMR0xLNlloXzhIaWZPSGlDc3NnX3lpb0JoT3c2dUtuV2FXaDFZZUpBUG9R?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-18 22:30",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "Spin.AI Browser Extension Risk Assessment Insights Now Available in Microsoft Edge for Business",
+     "is_new": true
+    },
+    {
+     "name": "Proof",
+     "desc": "集成于ChatGPT以解决AI智能体信任鸿沟的工具",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbzBFMFQ4XzVsQ2RQR1Ftd0d4VXRvcGVxMTNEeV8xTFk3ZXJJZVNzRUpNdFd0UTEtRzhXZDBFcUg1cWtMZFJrNVJINlNWSmVGSHdKOVpqM3ZMTC1GMl82U1RJMl92WVUxTnY5VThrSkpncFNXU0g3Tk9uS1dpTWNEVEoxTENfb0g1Q0NULXNsSVdTNUs3ZDU4SzRZaEFGQjZpWkl5bVpzb0U?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 05:52",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "Proof Launches ChatGPT Integration to Solve the AI Agent Trust Gap",
+     "is_new": true
+    },
+    {
+     "name": "NVIDIA RTX Spark",
+     "desc": "专为本地AI工作负载构建的紧凑型台式机",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbnVOd3JZNERjS082N00tSlRNbHFRM2JEZDBEME5IdE1IT09vd3Bab0wyMzE0QnpNSXdrUk1pWXZCS2tkN0hnRzRsb2tCZTd5RXdRbEV4MklZQUN3eEtvaTBuNEZWeE1TcF83U3Z3LTdTZzlQVFEzOERRQ1pTZnlPLUFhWENvS2p2bGJxT2JocllQcUFRRkVTQWM5QW03V1lNSkJ6Q2VVR0NWZjA?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 14:38",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "NVIDIA RTX Spark Compact Desktops Now Available, Built for Local AI Workloads",
+     "is_new": true
+    },
+    {
+     "name": "AI Inspo",
+     "desc": "多合一的AI社交媒体智能体工具",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNzZJaFBvX0dtNm04Xzhza240bTBaOEwtVk5yU3dRSzJWaDY0R1p1V2FRbkpST1I4SlVTUHlJS0h6UTRUSEEyUzQxU09hRXA4dEdhNEM3OXZKRkZsWEx3ZUh0b1NFNVNWTmZqMkNzRTlvWGxSSmdBOVpyX2oteTRlb1YxcjQ1ckRGWTd4N1BoVXpvVldEc2RXN1JJSlp6ZjQ3bGprVy1TcmVmSVEtWWpJ?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-18 22:00",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "AI Inspo Unveils an All-in-One AI Social Media Agent",
+     "is_new": true
+    },
+    {
+     "name": "Gemini Spark",
+     "desc": "谷歌在印度推出的24/7个人AI智能体",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHYjlYTDIzcU02UUFqNkx3ZktSaV96Q1lobi04TkxKRUxWSE1zNzQ0Yk56N2pLTmR5VXFEbmI0b2U1bkpJYldzVWtLc0FMRVZDWVRNeURvbWhZV011NXpzVGRzQktiOTVyZnNDMmVDTGVzdUNDZmc?oc=5",
+     "source": "新闻轨·Google News",
+     "first_seen": "2026-11-19 03:06",
+     "kind": "ai_tool",
+     "platform": "google_news",
+     "title": "Google Launches Gemini Spark in India: Meet Your 24/7 Personal AI Agent",
+     "is_new": true
+    },
+    {
+     "name": "Gemini 4 Hydrogen",
+     "desc": "谷歌推出的专注于日常编程与智能体工作流快速执行的AI模型",
+     "url": "https://t.me/zaihuapd/45222",
+     "source": "新闻轨·Telegram@zaihuapd",
+     "first_seen": "2026-11-19 10:00",
+     "kind": "ai_tool",
+     "platform": "telegram",
+     "title": "谷歌发布 Gemini 4 Hydrogen 模型 谷歌推出 Gemini 4 Hydrogen，主打日常编程与智能体工作流的快速执行，已向开发者、企业和普",
+     "is_new": true
+    },
+    {
+     "name": "网易 UU 远程",
+     "desc": "网易推出的远程控制软件",
+     "url": "https://uuyc.163.com/blog/20261118-dwdsa.html",
+     "source": "新闻轨·Telegram@zaihuapd",
+     "first_seen": "2026-11-19 11:27",
+     "kind": "ai_tool",
+     "platform": "telegram",
+     "title": "网易 UU 远程将于 12 月推出增值服务 网易 UU 远程计划于 2026 年 12 月 1 日推出增值服务，基础远程控制继续免费，且不限次数、不限时、不排队",
+     "is_new": true
+    },
+    {
+     "name": "Kimi K3.1 Pro",
+     "desc": "月之暗面推出的多项基准表现优异的大模型",
+     "url": "https://rss.bz/zh/post/kimi-k3-1-pro-fireworks-ai-benchmarks?source=telegram",
+     "source": "新闻轨·Telegram@ai_news_cn",
+     "first_seen": "2026-11-19 14:07",
+     "kind": "ai_tool",
+     "platform": "telegram",
+     "title": "Fireworks AI 研究：Kimi K3.",
+     "is_new": true
+    },
+    {
+     "name": "llm-gemini",
+     "desc": "支持谷歌Gemini模型的命令行与Python库插件",
+     "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+     "source": "新闻轨·RSS·Simon Willison",
+     "first_seen": "2026-11-19 07:59",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "llm-gemini 0.38",
+     "is_new": true
+    },
+    {
+     "name": "datasette-arrows",
+     "desc": "为 Datasette 插件系统添加流式导出格式支持的工具",
+     "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+     "source": "新闻轨·RSS·Simon Willison",
+     "first_seen": "2026-11-19 01:09",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "datasette-arrows 0.1a0",
+     "is_new": true
+    },
+    {
+     "name": "Quoting Daniel Stenberg",
+     "desc": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl projec",
+     "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+     "source": "新闻轨·RSS·Simon Willison",
+     "first_seen": "2026-11-18 23:58",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "Quoting Daniel Stenberg",
+     "is_new": true
+    },
+    {
+     "name": "The PSF end-of-year fundraiser",
+     "desc": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that suppo",
+     "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+     "source": "新闻轨·RSS·Simon Willison",
+     "first_seen": "2026-11-18 22:44",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "The PSF end-of-year fundraiser",
+     "is_new": true
+    },
+    {
+     "name": "DaisyRose-27B",
+     "desc": "突破后训练效率前沿的27B参数AI模型",
+     "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+     "source": "新闻轨·RSS·Hugging Face Blog",
+     "first_seen": "2026-11-19 03:54",
+     "kind": "model",
+     "platform": "rss",
+     "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+     "is_new": true
+    },
+    {
+     "name": "Time-Series Models in the Streamhouse",
+     "desc": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+     "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+     "source": "新闻轨·RSS·Hugging Face Blog",
+     "first_seen": "2026-11-18 23:00",
+     "kind": "model",
+     "platform": "rss",
+     "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+     "is_new": true
+    },
+    {
+     "name": "The Silent Consensus",
+     "desc": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+     "url": "https://openai.com/index/the-silent-consensus",
+     "source": "新闻轨·RSS·OpenAI News",
+     "first_seen": "2026-11-18 18:00",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "The Silent Consensus",
+     "is_new": true
+    },
+    {
+     "name": "Gemini App",
+     "desc": "谷歌推出的支持低内存安卓设备的AI应用",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+     "source": "新闻轨·RSS·Google AI Blog",
+     "first_seen": "2026-11-19 01:00",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "The Gemini app is now available on lower-memory Android devices.",
+     "is_new": true
+    },
+    {
+     "name": "cursor/plugins",
+     "desc": "Cursor 编辑器的官方插件规范及插件集合",
+     "url": "https://github.com/cursor/plugins",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "cursor/plugins",
+     "is_new": true
+    },
+    {
+     "name": "CLI-Anything",
+     "desc": "将所有传统软件转换为智能体原生界面的开发框架",
+     "url": "https://github.com/HKUDS/CLI-Anything",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "HKUDS/CLI-Anything",
+     "is_new": true
+    },
+    {
+     "name": "last30days-skill",
+     "desc": "用于跨多个社交与网页平台进行综合主题检索的AI智能体技能包",
+     "url": "https://github.com/mvanhorn/last30days-skill",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "mvanhorn/last30days-skill",
+     "is_new": true
+    },
+    {
+     "name": "Arcane",
+     "desc": "面向所有人设计的现代Docker容器管理工具",
+     "url": "https://github.com/getarcaneapp/arcane",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "getarcaneapp/arcane",
+     "is_new": true
+    },
+    {
+     "name": "SkillEvaluator",
+     "desc": "NVIDIA推出的用于评估AI智能体技能与插件的多层级质量安全验证框架",
+     "url": "https://github.com/NVIDIA/SkillEvaluator",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "NVIDIA/SkillEvaluator",
+     "is_new": true
+    },
+    {
+     "name": "uv",
+     "desc": "使用Rust编写的极速Python包和项目管理器",
+     "url": "https://github.com/astral-sh/uv",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "astral-sh/uv",
+     "is_new": true
+    },
+    {
+     "name": "PaperOrchestra",
+     "desc": "用于自动化AI研究论文写作的多智能体协作框架",
+     "url": "https://github.com/google-research/paper-orchestra",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "google-research/paper-orchestra",
+     "is_new": true
+    },
+    {
+     "name": "stitch-skills",
+     "desc": "与Stitch MCP服务器配合使用的智能体设计技能库",
+     "url": "https://github.com/google-labs-code/stitch-skills",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "google-labs-code/stitch-skills",
+     "is_new": true
+    },
+    {
+     "name": "Svelte",
+     "desc": "将声明式组件编译为高效原生JavaScript的Web开发框架",
+     "url": "https://github.com/sveltejs/svelte",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "sveltejs/svelte",
+     "is_new": true
+    },
+    {
+     "name": "jQuery",
+     "desc": "轻量级的JavaScript函数库",
+     "url": "https://github.com/jquery/jquery",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "jquery/jquery",
+     "is_new": true
+    },
+    {
+     "name": "Appwrite",
+     "desc": "面向AI智能体与开发者的开源云端后端服务平台",
+     "url": "https://github.com/appwrite/appwrite",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "appwrite/appwrite",
+     "is_new": true
+    },
+    {
+     "name": "OpenVINO",
+     "desc": "英特尔推出的用于优化和部署AI推理的开源工具包",
+     "url": "https://github.com/openvinotoolkit/openvino",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "openvinotoolkit/openvino",
+     "is_new": true
+    },
+    {
+     "name": "Superpowers",
+     "desc": "为编码智能体构建的可组合技能与软件开发方法论框架",
+     "url": "https://github.com/obra/superpowers",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "obra/superpowers",
+     "is_new": true
+    },
+    {
+     "name": "ECC",
+     "desc": "智能体开发脚手架与性能优化系统",
+     "url": "https://github.com/affaan-m/ECC",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "affaan-m/ECC",
+     "is_new": true
+    },
+    {
+     "name": "jiangshan-map",
+     "desc": "中国历史交互地图与时间轴展示项目",
+     "url": "https://github.com/DeanChensj/jiangshan-map",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "DeanChensj/jiangshan-map",
+     "is_new": true
+    },
+    {
+     "name": "n8n",
+     "desc": "具备原生AI能力的公平源码工作流自动化平台",
+     "url": "https://github.com/n8n-io/n8n",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "n8n-io/n8n",
+     "is_new": true
+    },
+    {
+     "name": "Solid",
+     "desc": "用于构建用户界面的声明式且高效的JavaScript库",
+     "url": "https://github.com/solidjs/solid",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "solidjs/solid",
+     "is_new": true
+    },
+    {
+     "name": "awesome-mcp-servers",
+     "desc": "MCP服务器资源与工具的精选集合列表",
+     "url": "https://github.com/punkpeye/awesome-mcp-servers",
+     "source": "新闻轨·RSS·GitHub Trending Daily",
+     "first_seen": "2026-11-19 16:10",
+     "kind": "ai_tool",
+     "platform": "rss",
+     "title": "punkpeye/awesome-mcp-servers",
+     "is_new": true
+    },
+    {
+     "name": "MyMems",
+     "desc": "由Will Wright开发的一款围绕AI及玩家个人记忆映射构建的新游戏",
+     "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+     "source": "新闻轨·RSS·The Verge AI",
+     "first_seen": "2026-11-19 00:27",
+     "kind": "game",
+     "platform": "rss",
+     "title": "Will Wright’s next game uses AI to map your memories",
+     "is_new": true
+    }
+   ],
+   "keywords": [
+    {
+     "keyword": "DaisyRose-27B",
+     "reason": "新闻轨·RSS·Hugging Face Blog: 突破后训练效率前沿的27B参数AI模型",
+     "from": "DaisyRose-27B"
+    },
+    {
+     "keyword": "datasette-arrows",
+     "reason": "新闻轨·RSS·Simon Willison: 为 Datasette 插件系统添加流式导出格式支持的工具",
+     "from": "datasette-arrows"
+    },
+    {
+     "keyword": "Gemini App",
+     "reason": "新闻轨·RSS·Google AI Blog: 谷歌推出的支持低内存安卓设备的AI应用",
+     "from": "Gemini App"
+    },
+    {
+     "keyword": "llm-gemini",
+     "reason": "新闻轨·RSS·Simon Willison: 支持谷歌Gemini模型的命令行与Python库插件",
+     "from": "llm-gemini"
+    },
+    {
+     "keyword": "Quoting Daniel Stenberg",
+     "reason": "新闻轨·RSS·Simon Willison: During the time these agents converted 185,000 lines of C code into 340,000 line",
+     "from": "Quoting Daniel Stenberg"
+    },
+    {
+     "keyword": "The PSF end-of-year fundraiser",
+     "reason": "新闻轨·RSS·Simon Willison: The PSF end-of-year fundraiser With my Python Software Foundation board director",
+     "from": "The PSF end-of-year fundraiser"
+    },
+    {
+     "keyword": "The Silent Consensus",
+     "reason": "新闻轨·RSS·OpenAI News: Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI cou",
+     "from": "The Silent Consensus"
+    },
+    {
+     "keyword": "Time-Series Models in the Streamhouse",
+     "reason": "新闻轨·RSS·Hugging Face Blog: Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+     "from": "Time-Series Models in the Streamhouse"
+    },
+    {
+     "keyword": "AI Agent Studio",
+     "reason": "新闻轨·Google News: NFON面向欧洲企业推出的AI智能体开发工作室",
+     "from": "AI Agent Studio"
+    },
+    {
+     "keyword": "AI Inspo",
+     "reason": "新闻轨·Google News: 多合一的AI社交媒体智能体工具",
+     "from": "AI Inspo"
+    },
+    {
+     "keyword": "Appwrite",
+     "reason": "新闻轨·RSS·GitHub Trending Daily: 面向AI智能体与开发者的开源云端后端服务平台",
+     "from": "Appwrite"
+    },
+    {
+     "keyword": "Arcane",
+     "reason": "新闻轨·RSS·GitHub Trending Daily: 面向所有人设计的现代Docker容器管理工具",
+     "from": "Arcane"
+    },
+    {
+     "keyword": "awesome-mcp-servers",
+     "reason": "新闻轨·RSS·GitHub Trending Daily: MCP服务器资源与工具的精选集合列表",
+     "from": "awesome-mcp-servers"
+    },
+    {
+     "keyword": "CLI-Anything",
+     "reason": "新闻轨·RSS·GitHub Trending Daily: 将所有传统软件转换为智能体原生界面的开发框架",
+     "from": "CLI-Anything"
+    },
+    {
+     "keyword": "Conga Commerce Suite",
+     "reason": "新闻轨·Google News: 与微软Dynamics 365及Copilot集成的商业套件",
+     "from": "Conga Commerce Suite"
+    },
+    {
+     "keyword": "cursor/plugins",
+     "reason": "新闻轨·RSS·GitHub Trending Daily: Cursor 编辑器的官方插件规范及插件集合",
+     "from": "cursor/plugins"
+    }
+   ]
+  }
+ },
+ "source_stats": [
+  {
+   "group": "google_news",
+   "raw": 65,
+   "kept_window": 65,
+   "by_label": {
+    "新闻轨·Google News": 65
+   }
+  },
+  {
+   "group": "gdelt",
+   "raw": 0,
+   "kept_window": 0,
+   "by_label": {}
+  },
+  {
+   "group": "telegram",
+   "raw": 40,
+   "kept_window": 40,
+   "by_label": {
+    "新闻轨·Telegram@zaihuapd": 19,
+    "新闻轨·Telegram@GitHubTrending": 1,
+    "新闻轨·Telegram@ai_news_cn": 20
+   }
+  },
+  {
+   "group": "rss",
+   "raw": 58,
+   "kept_window": 58,
+   "by_label": {
+    "新闻轨·RSS·Simon Willison": 4,
+    "新闻轨·RSS·Hugging Face Blog": 3,
+    "新闻轨·RSS·OpenAI News": 1,
+    "新闻轨·RSS·Google DeepMind Blog": 2,
+    "新闻轨·RSS·Google AI Blog": 1,
+    "新闻轨·RSS·GitHub Trending Daily": 19,
+    "新闻轨·RSS·TechCrunch AI": 18,
+    "新闻轨·RSS·The Verge AI": 10
+   }
+  }
+ ],
+ "errors": [
+  "gdelt/ai-tool: Expecting value: line 1 column 1 (char 0)",
+  "gdelt/steam-release: fetch https://api.gdeltproject.org/api/v2/doc/doc?query=%22released+on+Steam%22+OR+%22now+available+on+Steam%22&mode=ArtList&format=json&maxrecords=25&sort=datedesc&timespan=24h: HTTP Error 429: Too Many Requests",
+  "gdelt/model-available: fetch https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22now+available%22+OR+unveils+OR+introducing%29+%28LLM+OR+%22language+model%22+OR+%22open-source+model%22%29&mode=ArtList&format=json&maxrecords=25&sort=datedesc&timespan=24h: HTTP Error 429: Too Many Requests"
+ ]
+}

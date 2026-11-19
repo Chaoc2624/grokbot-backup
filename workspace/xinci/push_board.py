@@ -1,18 +1,22 @@
 #!/usr/bin/env python3
 """merged.json + doable.json + board_keywords.json -> board radar payload (label 'YYYY-MM-DD 新词雷达'), push via /workspace/xbm/board_client.py.
 
-keywords feed /radar/new: doable passed first, then board_keywords (书签X → 游戏轨 → AI工具轨 → 新闻轨 → 热梗轨 → others), ~40 cap.
-新闻轨最多 8 个、热梗轨最多 6 个关键词，只填主轨（书签X/游戏轨/AI工具轨）用剩的名额，不挤占主轨。
+keywords feed /radar/new: cap 40; 游戏最多预留 10、视频/热梗最多预留 10（不够留空）；视频有合格条目时不能被 AI 工具挤为 0。
+书签X 只保留少量最高价值（最多 5）。立项通过词可补剩余名额但不能挤掉视频预留。
 Derived track suffixes unblocked/online/play/alternative are dropped when a cleaner base phrase exists; `{name} AI` is kept.
 """
 import argparse, json, re, subprocess, sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-HERE = Path(__file__).resolve().parent
+import os as _os
+HERE = Path(_os.environ["XINCI_HOME"]) if _os.environ.get("XINCI_HOME") else Path(__file__).resolve().parent
 from merge_board import norm
+import sys
+sys.path.insert(0, str(HERE))
+from v2.select_keywords import select_board_keywords
 
 SOURCE_ORDER = ("书签X", "游戏轨", "AI工具轨", "新闻轨", "热梗轨")
-SOURCE_TAG = {"书签X": "【书签X】", "游戏轨": "【游戏轨】", "AI工具轨": "【AI工具轨】", "新闻轨": "【新闻轨】", "热梗轨": "【热梗轨】"}
+SOURCE_TAG = {"书签X": "【书签X】", "游戏轨": "【游戏轨】", "AI工具轨": "【AI工具轨】", "新闻轨": "【新闻轨】", "热梗轨": "【热梗轨】", "Higgsfield": "【Higgsfield】"}
 NEWS_KW_CAP = 8
 MEME_KW_CAP = 6
 SUPP_CAPS = {"新闻轨": NEWS_KW_CAP, "热梗轨": MEME_KW_CAP}
@@ -120,18 +124,9 @@ def main():
         keywords.append({"keyword": p, "reason": reason})
         return True
 
-    # 1) doable passed first (existing fmtv + score)
-    passed = [t for t in dj.get("terms") or [] if not t.get("failed") and not t.get("unknown")]
-    passed.sort(key=lambda t: -t.get("score", 0))
-    for t in passed:
-        why = fmtv(t) + f"，信心分 {t.get('score')}"
-        if t.get("names"):
-            why += f"；来自 {'、'.join(t['names'])}"
-        add_kw(t["phrase"], why, names=t.get("names") or [], evidence=t.get("evidence", ""), source=t.get("source", ""))
-
-    # 2) board_keywords：先填主轨（书签X → 游戏轨 → AI工具轨），再用剩余名额填新闻轨 / 热梗轨。
-    # 不预留、不挤占主轨；新闻轨最多 8、热梗轨最多 6。主轨已满时补充轨 keywords 可能为 0，但 items 仍在列表里。
+    # 1) board keywords with v2 reserves (game<=10, video<=10, x<=5). Do not pad.
     filtered = filter_derived(board_kw)
+    selected = select_board_keywords(filtered, cap=KW_CAP, game_reserve=10, video_reserve=10, x_max=5)
 
     def _src(e):
         return e.get("source") or ""
@@ -143,28 +138,34 @@ def main():
         reason = tag + (evidence or (e.get("reason") or "").strip() or e.get("phrase", ""))
         return add_kw(e.get("phrase"), reason, names=e.get("names") or [], evidence=evidence, source=src)
 
-    other_list = [e for e in filtered if not is_supp_source(_src(e))]
-    supp_list = [e for e in filtered if is_supp_source(_src(e))]
-    other_list.sort(key=lambda e: (source_rank(_src(e)), board_kw.index(e) if e in board_kw else 0))
-    supp_list.sort(key=lambda e: (source_rank(_src(e)), board_kw.index(e) if e in board_kw else 0))
-
-    for e in other_list:
-        if len(keywords) >= KW_CAP:
-            break
+    for e in selected:
         _add_entry(e)
 
-    added_by = {k: 0 for k in SUPP_CAPS}
-    for e in supp_list:
+    # 2) doable passed may fill leftover slots only; never evict reserved video/game already added
+    passed = [t for t in dj.get("terms") or [] if not t.get("failed") and not t.get("unknown") and t.get("passed_立项") or (
+        (not t.get("failed") and not t.get("unknown") and not t.get("nodata") and t.get("volume") is not None and t.get("kd") is not None
+         and t.get("volume") >= 500 and t.get("kd") <= 31 and t.get("cpc") is not None)
+    )]
+    # Safer: only terms explicitly marked passed if present, else classic checks without treating None as 0
+    passed = []
+    for t0 in dj.get("terms") or []:
+        if t0.get("failed") or t0.get("unknown") or t0.get("nodata"):
+            continue
+        vol, kd, cpc = t0.get("volume"), t0.get("kd"), t0.get("cpc")
+        if vol is None or kd is None or cpc is None:
+            continue
+        if vol >= 500 and kd <= 31:
+            passed.append(t0)
+    passed.sort(key=lambda t0: -t0.get("score", 0))
+    for t0 in passed:
         if len(keywords) >= KW_CAP:
             break
-        primary = _src(e).split("/")[0]
-        cap = SUPP_CAPS.get(primary, 0)
-        if added_by.get(primary, 0) >= cap:
-            continue
-        if _add_entry(e):
-            added_by[primary] = added_by.get(primary, 0) + 1
+        why = fmtv(t0) + f"，信心分 {t0.get('score')}"
+        if t0.get("names"):
+            why += f"；来自 {'、'.join(t0['names'])}"
+        add_kw(t0["phrase"], why, names=t0.get("names") or [], evidence=t0.get("evidence", ""), source=t0.get("source", ""))
 
-    items.sort(key=lambda i: (i.get("keyword_rank") or 999))
+        items.sort(key=lambda i: (i.get("keyword_rank") or 999))
     p = {
         "label": f"{a.date} 新词雷达",
         "run_at": now.strftime("%Y-%m-%d %H:%M"),

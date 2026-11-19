@@ -325,3 +325,130 @@ AgentMail `frame-submit@`：11-07 17:40 之后新的 CPJ 相关信仅 1 封—�
 今日新增提交 = 0 · 新增 Live = 0 · Live 累计 = 3
 工件：`/workspace/gsc-china-private-journeys/daily-runs/2026-11-09/cpj-14-handoff.md`
 
+## 2026-11-19 16:25 Asia/Taipei · 一次性免费目录批次（非每日例程）
+
+老板授权「一次发10个」免费合适目录外链。本批使用 Halo 仅授权**本批次**的隔离 Grok Bot 邮箱做验证（SoMuch）；**未改**网站/Cloudflare 路由。业主约束：CPJ 无对公电话，必填电话目录一律跳过。Live ≠ 提交成功 ≠ 邮箱已验证。
+
+| ID | 日期 (Asia/Taipei) | 渠道 | URL/入口 | 动作 | 状态 | 证据 | 备注 |
+|---|---|---|---|---|---|---|---|
+| 14 | 2026-11-19 16:16 | SoMuch.com | https://somuch.com/submit-links/submit-link · 回执 https://somuch.com/submit-links/submit-link-result/3977822/1755845 | 免费 basic Travel > Tours 已提交并完成邮件验证 | **EMAIL_VERIFIED / Pending content review**（非 Live） | `gsc-china-private-journeys/backlinks/2026-11-19/evidence/somuch/` | Link ID 3977822 · User ID 1755845；16:15:01 收到 cd@somuch.net 验证信（源时间 2026-11-19T08:15:01Z）；拒付费加速。公开 listing 未核到。 |
+| 15 | 2026-11-19 16:21 | Zearches | https://zearches.com/submit-website-free.php | 免费 Travel & Tourism 提交后立即公开 | **Live** | 公开页 https://zearches.com/site/travel-tourism/chinaprivatejourneys-com-5d2dcf5442 · `gsc-china-private-journeys/backlinks/2026-11-19/evidence/zearches/` | 本批第 2 次提交、第 1 条 **新 Live**。浏览器核验 Visit website → https://chinaprivatejourneys.com 。无账号、无邮件验证、无电话/付费/捐赠。Listing ID suffix `5d2dcf5442`。 |
+| 16 | 2026-11-19 16:24 | Cipinet | https://www.cipinet.com/suggest.php?action=addlink&TID=sf · 回执 https://www.cipinet.com/suggest.php?action=addlink&filled=1 | 免费 Travel & Tourism 提交进入审核队列 | **Submitted / Pending review**（非 Live；无提交 ID） | `gsc-china-private-journeys/backlinks/2026-11-19/evidence/cipinet/cipinet-submit-filled-1.png` | 官方确认 “Your submission has been received and is now in our review queue.” 无重复、无电话、无互惠链接。官方审核时长表述冲突（表单约 4–5 个月 / 套餐页约 6–7 个月），不作保证。 |
+
+本批未计提交：Hotfrog CN（账号已验证但 listing 必填电话，HOLD_PHONE）；Lacartes（验证码图损坏）；Trustpilot（第 2 步强制填写未公开的职务/年营收/人数）；Expat（缺真实个人人口学信息）；Curlie（浏览器 503）；Crunchbase（必须 Google/LinkedIn）。WorldBizDir 曾列入计划，**无提交回执，不计**。下一步浏览器：BrowseInter。
+
+**本批提交 = 3 · 本批新增 Live = 1（Zearches）· 本批 Pending = 2（SoMuch 已验证待审；Cipinet 审核队列无 ID）**  
+**有效 Live 累计 = 4（Brownbook + Addon Biz + F6S + Zearches）** · Lost = 0  
+历史 Pending 仍为 ExactSeek · ASR · Startup88 · Jayde（未重交）。Queued：PeerPush。  
+批次目录：`/workspace/gsc-china-private-journeys/backlinks/2026-11-19/`  
+双写：`/workspace/cpj-backlink-ledger.md` · 溯源台账：`增长知识库/04-内容与外链/02-外链/China-Private-Journeys外链与目录执行溯源台账.md`
+
+## 2026-11-19 16:38 Asia/Taipei · 成功标准改为 10 条公开 Live
+
+老板更新：排队/已提交/待审核**不算成功**；目标改为 10 条已公开、可点击到 https://chinaprivatejourneys.com 的 Live 外链。已提交待审项**不要删除、不要重交**。
+
+**本批成功 Live = 1 / 10**（仅 Zearches：https://zearches.com/site/travel-tourism/chinaprivatejourneys-com-5d2dcf5442）。  
+本批提交仍为 3；Pending 2（ID 14 SoMuch 已验证待审；ID 16 Cipinet 审核队列无 ID）**不计入 10**。
+
+新状态（均无新提交）：
+- BrowseInter：**HOLD_SESSION**（表单已填，服务器反复 Invalid session data，含新开表单）；证据 `gsc-china-private-journeys/backlinks/2026-11-19/evidence/browseinter/`
+- LinkWith：**SKIPPED_QUALITY**（抽检 20 条见赌博与堆砌词；搜索 500）
+- WorldBizDir：**SKIP_NO_TRAVEL_CATEGORY**（54 个类目无 Travel；未建号）
+
+**LinkCentre 免费档不宜继续注册/提交**：官方写明编辑先审再上线，Free submissions join the standard queue；profile 页不等于 listing。付费即日审核未授权。  
+**WebRank** 官方亦为 Pending、2–5 个工作日审核，同样不适合“立即 Live”目标。
+
+只读复核 Zearches Travel 类首页为旅行相关站点，未见 LinkWith 式赌博农场；页脚为新型目录互链集群，有邻域风险，**未采取删除或举报**。证据 `evidence/zearches-audit/`。
+
+立即公开且官方无电话、无互惠的已核表单仅见 MeWebLink https://meweblink.com/submit/（有 Travel 类，官方称检查通过即自动上线），但与 Zearches 同属较新自动目录集群，不是成熟编辑型目录。成熟旅行目录（如 Travel Junkies，2006 年，表单无电话/执照/互惠）仍要数日审核，上线前不算成功。未能找出 2–4 个可立即公开的成熟编辑/旅行目录。  
+批次目录：`/workspace/gsc-china-private-journeys/backlinks/2026-11-19/`
+
+## 2026-11-19 16:44 Asia/Taipei · LinkCentre 待审 + MeWebLink 质量跳过
+
+成功标准仍为 10 条公开、可点击到 https://chinaprivatejourneys.com 的 Live。排队不算成功。待审项不删除、不重交。
+
+| ID | 日期 (Asia/Taipei) | 渠道 | URL/入口 | 动作 | 状态 | 证据 | 备注 |
+|---|---|---|---|---|---|---|---|
+| 17 | 2026-11-19 16:40 | LinkCentre | 免费提交；公开档 https://www.linkcentre.com/profile/chinaprivatejourneys/ | 账号已验证，提交 1 条免费 listing | **ACCOUNT_VERIFIED / Free Review Pending（非 Live）** | `gsc-china-private-journeys/backlinks/2026-11-19/evidence/linkcentre/` | Listing ID **1747607**；类目 Travel & Tourism > Tours > Custom Tours。后台：已收件，免费队列 **#2733/2733**，声称约 4 天（非保证）。Fast Track CN¥269 未买。公开档原文 “This profile doesn't have any listings yet.”，页面无 `chinaprivatejourneys.com`、无可点击官网。profile ≠ listing。 |
+
+MeWebLink：**SKIPPED_QUALITY**，未提交。Travel 类多见单薄城市关键词酒店页、近乎相同描述，以及同一 Valencia 租房信息多语种重复；Business 类一并检查后放弃。不作凑数提交。
+
+**本批提交 = 4 · 成功 Live = 1 / 10（仅 Zearches）· Pending 3**（SoMuch、Cipinet、LinkCentre 1747607）不计入。还需 9 条 Live。
+
+下一步：BizMenia 免费公共服务/企业资料，**先检查电话是否必填、提交后是否立即公开可点击官网**，尚未注册。现有公开页可呈 Live 且官网可点、页上无电话（询盘按钮；联系方式官方称保持私密），但发布表单仍在登录墙后，电话未在表单层证实。若必填电话或邻域像灌水目录则停止。勿用 TRADEL（需可预订具体产品）或 to.co/Writeurl 这类弱通用主页作凑数。
+
+批次：`/workspace/gsc-china-private-journeys/backlinks/2026-11-19/`
+
+
+## BizMenia correction · 2026-11-19 16:49 Asia/Taipei (UTC+8)
+
+Parent browser inspected https://bizmenia.com/auth/signup : BOTH email and telephone must be verified before an account can be created. FAQ says quick review. **SKIP_MANDATORY_PHONE; no account, no submission, no LIVE.** Previous “inspect next / phone unproven” notes are superseded. Totals unchanged: 4 submitted, 1 LIVE, 3 pending uncounted. New brand-profile research: `brand-citations-wave4.md`.
+
+## 2026-11-19 17:12 Asia/Taipei · Gravatar 组织资料 Live
+
+成功标准仍为 10 条公开、可点击到 https://chinaprivatejourneys.com 的 Live。排队不算成功。待审项不删除、不重交。
+
+| ID | 日期 (Asia/Taipei) | 渠道 | URL/入口 | 动作 | 状态 | 证据 | 备注 |
+|---|---|---|---|---|---|---|---|
+| 18 | 2026-11-19 17:12 | Gravatar | https://gravatar.com/chinaprivatejourneys | 无密码注册并发布组织资料（顺带产生 WordPress.com 账号，**未建 WordPress 网站**） | **Live（本批第 2 条）** | `gsc-china-private-journeys/backlinks/2026-11-19/evidence/gravatar/` | 名称 China Private Journeys；类型 UI 为 Organization；地点 Guangzhou, China。原生可点击 “China Private Journeys” → https://chinaprivatejourneys.com，`rel="me nofollow noreferrer"`。页内 JSON-LD 为 `@type` Person（勿写成 Organization）。Email/contact 按钮已隐藏，无电话、社交、付费。这是品牌/组织资料页，**不是旅游目录**；用户已知悉，不夸大 SEO 或 dofollow 价值。注册使用本批已授权的站点专用提交邮箱（库内不写实址）。 |
+
+**本批提交 = 5 · 成功 Live = 2 / 10（Zearches + Gravatar）· Pending 3**（SoMuch、Cipinet、LinkCentre 1747607）不计入。还需 8 条 Live。BizMenia 仍为 SKIP_MANDATORY_PHONE。本次未指定下一个浏览器目标。
+
+共享库：只向 `/workspace/seo-vault/增长知识库/外链网站库/inboxes/cpj.jsonl` 追加事件，未运行 merge、未改 AUV 主表或说明页。
+
+批次：`/workspace/gsc-china-private-journeys/backlinks/2026-11-19/`
+
+## 2026-11-19 17:20 Asia/Taipei · 业主 t70u 配额规则（本批）
+
+Halo（t70u）：去掉“能在公开页面看到才算成功”的标准，只要在审核中或排队中都算。此规则仅覆盖 **本批 CPJ**，取代 16:36 的 Live-only 成功标准。 **不把任何 Pending 改标为 Live。** 账号创建本身不计额。不是其他站点或共享库全局 Live 定义的变更。
+
+用户已被告知本批完成 **5/10**。口径：Live 2（Zearches、Gravatar）+ 已受理 Pending 3（SoMuch 内容审核中、Cipinet 审核中、LinkCentre listing 1747607 免费审核队列）= 5。三条 Pending 的个体状态不变，仍非 Live，不删除、不重交。还需 **5** 条彼此不同的、已受理的免费提交（进入审核/排队或 Live）。
+
+| 渠道 | 状态（未改标） | 本批 t70u 是否计额 |
+|---|---|---|
+| Travel Junkies https://traveljunkies.com/free/ | **SKIP_MANDATORY_PHONE** | 否。官方免费表单有可见必填 **Phone \***；既有“无电话”研究作废。证据：`gsc-china-private-journeys/backlinks/2026-11-19/evidence/traveljunkies/` |
+| ProvenExpert | **HOLD** | 否。默认高级试用不适合本批，不注册。 |
+| EnrollBusiness | 父级浏览器已在预检 | 勿再开一条重复预检任务。 |
+| WebRank | 下一准备目标，尚未提交 | 注册页 https://webrankdirectory.org/account/register/ 。官方 Free Forever $0，Travel & Tourism 类目，审核 2–5 个工作日，免费链 nofollow。提交表在登录墙后，电话仍未证实；若必填则停止。账号创建不计额。 |
+
+批次：`/workspace/gsc-china-private-journeys/backlinks/2026-11-19/` · 任务说明：`first-browser-task.md`
+
+## 2026-11-19 17:30 Asia/Taipei · WebRank 审核中 2142（本批 6/10）
+
+t70u 规则仅本批：已受理的免费审核/排队计入 10 条；**不把 Pending 改标为 Live。** 账号创建不计额。
+
+| ID | 日期 (Asia/Taipei) | 渠道 | URL/入口 | 动作 | 状态 | 证据 | 备注 |
+|---|---|---|---|---|---|---|---|
+| 19 | 2026-11-19 17:30 | WebRank Directory | 免费提交；go-to https://webrankdirectory.org/go-to.php?id=2142 | 免费 Forever $0 一条，类目 Travel & Tourism | **In Review / pending_in_review（非 Live）** | `gsc-china-private-journeys/backlinks/2026-11-19/evidence/webrank/` | Listing ID **2142**。回执 “Submission received… submitted for review.” 后台 1 In Review、0 Live、标记 **NOFOLLOW**，官网 https://chinaprivatejourneys.com。表单无电话/联系栏。go-to 不是公开 Live 页。不重交、不升级。 |
+
+**本批提交 = 6 · 成功 Live = 2 · 已受理 Pending = 4**（SoMuch、Cipinet、LinkCentre 1747607、WebRank 2142）· 完成配额 **6 / 10**。还需 4 条已受理免费提交。
+
+EnrollBusiness：**SKIP_QUALITY**（重复关键词 e-visa、城市不符），无账号。Travel Junkies 已由父级确认必填电话，未提交。
+
+下一准备目标：UK Internet Directory 免费 Regular 提交 https://www.ukinternetdirectory.net/submit.php （选 normal，不要 Featured/互惠；无电话栏；类目 Recreation & Sports → Travel → Destinations → Asia）。Travel Notes 因表单处理选项强制互惠链/PayPal 捐赠/付费高级档而 HOLD。China Business Directory 免费档官网不可点。BOTW 当前免费身份未在官方页证实。
+
+批次：`/workspace/gsc-china-private-journeys/backlinks/2026-11-19/`
+
+
+## 2026-11-19T17:37:56+08:00 Asia/Taipei — UK skip
+
+UK Internet Directory: SKIP_QUALITY. Parent actual browser: Asia has only 2 listings, one Orlando listing misclassified; broader neighborhood irrelevant/low-content. No account or submission. Evidence screenshot asset368bb4e70f5431917fd3e8e0aed3094883218f3f78aefaf2b611aee062cc8b34.png. Quota unchanged 6/10 (Live 2, Pending 4).
+
+
+## BusinessSeek accepted queue · 2026-11-19T17:55:31+08:00 Asia/Taipei
+
+BusinessSeek browser/email confirmed 2026-11-19 17:54 Asia/Taipei: “Listing Confirmed / Your Listing Is Now Queued For Review”, listing ID 78149, correct homepage https://chinaprivatejourneys.com. Status pending_queued, NOT Live. Counts under owner t70u. Current accepted quota 7/10 = 2 Live + 5 Pending; need 3 more. No resubmit or paid upgrade. Evidence: /cursor/stores/user/grok-bot/agents/fb69d107-3c5a-4941-954d-7075286f007d/assets/a02f50099816ae739cebe9b867866a7f38d187eebc9503e9b8d1efb636077144.png. Confirmation token, password and mailbox address deliberately not recorded.
+
+Next parent-owned browser target: LDM Studio; research-only further preflight in `next-editorial-wave7.md`.
+
+
+## LDM Studio accepted; public visibility separate · 2026-11-19T17:59:13+08:00 Asia/Taipei
+
+LDM Studio actual browser17:57 Asia/Taipei: free submission accepted, ID745217. Public record https://www.directory.ldmstudio.com/china-private-journeys-745217.html . Submitted/search category Travel/Information; detail page displays odd “director” category; no corrective edit made. Official public WebFetch17:58 Asia/Taipei verifies TWO clickable links (Title Site, Visit) to https://chinaprivatejourneys.com; rel attributes not exposed, so UNKNOWN. Normal raw-box fetch403 is not Lost. Editorial status remains pending_in_review (editors validate), NOT promoted to Live merely because record/link is visible. Correct quota8/10 = 2 Live + 6 Pending, need2. Browser phrase “item7” superseded. Screenshot: /cursor/stores/user/grok-bot/agents/fb69d107-3c5a-4941-954d-7075286f007d/assets/6afffc4dd79c49f95c0d9b6c8cc218cfdbf2bfb4c61f1e28f1d685dda043e7ca.png. Evidence: evidence/ldmstudio/public-render-verification.json . Parent next browser IllumiRate. Final HTML deferred until10.
+
+
+## Browser availability corrections · 2026-11-19T18:03:23+08:00 Asia/Taipei
+
+Parent actual browser2026-11-19 18:02 Asia/Taipei: IllumiRate HTTP ERR_HTTP_RESPONSE_CODE_FAILURE, HTTPS closed, no form; R-TT HTTP500 on homepage/form, HTTPS closed. Both SKIP_CURRENT_UNAVAILABLE; no CPJ data, account or submission. Do not repeat transport probes this batch. Not evidence of permanent impossibility. Quota unchanged8/10 = 2 Live + 6 Pending.
+
+Next bounded browser target: https://www.prolinkdirectory.com/submit.php — explicitly choose Regular link Free; normal URL advance then inspect downstream requirements. No assumption of phone-free beyond first visible URL step. See next-editorial-wave8.md.

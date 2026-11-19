@@ -1,0 +1,597 @@
+{
+  "label": "2026-11-15 热梗轨补充（AIsa 实测）",
+  "run_at": "2026-11-15 23:33",
+  "timezone": "Asia/Taipei",
+  "source": "aisa_supplement",
+  "do_not_overwrite": "meme-20261115.json 是例程 21:08 空跑结果，本文件为补充，勿覆盖。",
+  "merge_into": {
+    "new_term_doc": "/workspace/xinci/merged.md",
+    "section": "文末「热梗轨补充（AIsa 实测 2026-11-15 23:33）」",
+    "board": "不要写入 board_payload.json / board_keywords.json（另一流正在重跑 Semrush）。若稍后重跑 merge_board.py，请把本 JSON 的 items 合入 tracks.meme 后再合并。",
+    "routine_meme": "/workspace/xinci/meme-20261115.json"
+  },
+  "items": [
+    {
+      "name": "Jatayu AI（@mayanks_techverse）",
+      "platform": "instagram",
+      "format_key": "jatayu-ai-edit",
+      "title": "Create Your Own Jatayu Viral AI Video!",
+      "url": "https://www.instagram.com/reel/DftHjQrKJTk/",
+      "author": "mayanks_techverse",
+      "published_at_taipei": "2026-11-14 10:22",
+      "metrics": {
+        "views": 1255694,
+        "likes": 105771,
+        "source": "get_instagram_reels_search",
+        "collected_at_taipei": "2026-11-15 23:33"
+      },
+      "tutorial": true,
+      "trend_stage": "观察",
+      "watch_video": {
+        "checked": true,
+        "by": "parent watchVideo",
+        "result": "黑灰夹克男子神鹰成片；含手机录屏教程/引流；画面可见 Google Flow 与 JATAYU 字样及 prompt 复制步骤。与 @lokesh_rautela_8 为同一人物，仅换主持滤镜，不能算独立复刻。不采纳关于 Google Vids 环境的推断。"
+      },
+      "ai_evidence": "watchVideo 证实成片为 AI 神鹰特效，并显示 Google Flow / JATAYU 与提示词复制步骤；同时是录屏教程/引流，不作纯玩法成片或强爆款推荐。",
+      "format_what": "Jatayu AI 特效词：把自己的照片做成神鹰在身后的效果。本条是教程带动的需求证据，不是已确认的早期爆款。",
+      "recreate_how": "成片流程在画面里是录屏教程（可见 Google Flow 与提示词复制），细节以 watchVideo 为准，不作环境推断。",
+      "site_keywords": [
+        "jatayu AI video",
+        "jatayu AI edit",
+        "Ramayana Jatayu AI",
+        "Google Flow Jatayu"
+      ],
+      "replication_evidence": "与 https://www.instagram.com/reel/Dftn3HtPq9K/ 为同一黑灰夹克男子、换滤镜，不能计为独立复刻。与 https://www.instagram.com/reel/Dft6GqkPTCQ/（白衬衫不同人物）合计只证实两个不同人物的效果演示，不是三创作者独立复刻。",
+      "trend_stage_note": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。Trends 作观察：在 past_30_days 实际窗（2026-10-15 至 2026-11-15，32 日点）的印度同请求中，完整日目前仅 2026-11-14 值为 9；11-15 为 missing_data，不完整。相对指数非月搜，跨请求不可比。",
+      "sample_file": "/workspace/xinci/meme_samples_20261115/ig-DftHjQrKJTk.mp4",
+      "video_semantics": "已由父线程 watchVideo 核验（见 watch_video）；本执行端未自行下画面结论。",
+      "board_role": "需求证据，非纯玩法成片、非强爆款推荐",
+      "collected_at_taipei": "2026-11-15 23:33",
+      "updated_at_taipei": "2026-11-15 23:51",
+      "semrush_trends": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。Trends 作观察：在 past_30_days 实际窗（2026-10-15 至 2026-11-15，32 日点）的印度同请求中，完整日目前仅 2026-11-14 值为 9；11-15 为 missing_data，不完整。相对指数非月搜，跨请求不可比。"
+    },
+    {
+      "name": "Jatayu AI（@creative_editor_05）",
+      "platform": "instagram",
+      "format_key": "jatayu-ai-edit",
+      "title": "Create Jatayu Ji Viral AI Video FREE!",
+      "url": "https://www.instagram.com/reel/Dft6GqkPTCQ/",
+      "author": "creative_editor_05",
+      "published_at_taipei": "2026-11-14 17:43",
+      "metrics": {
+        "views": 1304599,
+        "likes": 79371,
+        "source": "get_instagram_reels_search",
+        "collected_at_taipei": "2026-11-15 23:33"
+      },
+      "tutorial": true,
+      "trend_stage": "观察",
+      "watch_video": {
+        "checked": true,
+        "by": "parent watchVideo",
+        "result": "白衬衫不同人物的同类神鹰效果；同样含手机录屏教程/引流。是与第一条不同的人物演示，但仍是教程向内容。"
+      },
+      "ai_evidence": "watchVideo 证实为不同人物的同类 AI 神鹰特效，同时含录屏教程/引流，不作纯玩法成片或强爆款推荐。",
+      "format_what": "同一 Jatayu AI 特效的另一人物效果演示，用作需求证据。",
+      "recreate_how": "画面含录屏教程步骤；不作环境推断。",
+      "site_keywords": [
+        "jatayu AI video",
+        "jatayu ji AI",
+        "Ramayana AI reel"
+      ],
+      "replication_evidence": "白衬衫人物，不同于 @mayanks_techverse / @lokesh_rautela_8 的黑灰夹克男子。合计两个不同人物演示，不是三创作者独立复刻。",
+      "trend_stage_note": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。Trends 作观察：在 past_30_days 实际窗（2026-10-15 至 2026-11-15，32 日点）的印度同请求中，完整日目前仅 2026-11-14 值为 9；11-15 为 missing_data，不完整。相对指数非月搜，跨请求不可比。",
+      "sample_file": "/workspace/xinci/meme_samples_20261115/ig-Dft6GqkPTCQ.mp4",
+      "video_semantics": "已由父线程 watchVideo 核验（见 watch_video）；本执行端未自行下画面结论。",
+      "board_role": "需求证据，非纯玩法成片、非强爆款推荐",
+      "collected_at_taipei": "2026-11-15 23:33",
+      "updated_at_taipei": "2026-11-15 23:51",
+      "semrush_trends": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。Trends 作观察：在 past_30_days 实际窗（2026-10-15 至 2026-11-15，32 日点）的印度同请求中，完整日目前仅 2026-11-14 值为 9；11-15 为 missing_data，不完整。相对指数非月搜，跨请求不可比。"
+    },
+    {
+      "name": "Jatayu AI（@lokesh_rautela_8）",
+      "platform": "instagram",
+      "format_key": "jatayu-ai-edit",
+      "title": "JATAYU VIRAL AI EDIT FREE!",
+      "url": "https://www.instagram.com/reel/Dftn3HtPq9K/",
+      "author": "lokesh_rautela_8",
+      "published_at_taipei": "2026-11-14 15:10",
+      "metrics": {
+        "views": 11145,
+        "likes": 884,
+        "source": "get_instagram_reels_search",
+        "collected_at_taipei": "2026-11-15 23:33"
+      },
+      "tutorial": true,
+      "trend_stage": "观察",
+      "watch_video": {
+        "checked": true,
+        "by": "parent watchVideo",
+        "result": "与 @mayanks_techverse 同一黑灰夹克男子神鹰成片，仅换主持滤镜；含手机录屏教程/引流，可见 Google Flow、JATAYU 与 prompt 复制步骤。不能算独立复刻。不采纳关于 Google Vids 环境的推断。"
+      },
+      "ai_evidence": "watchVideo 判定为同一人物换滤镜再发，不是独立复刻；亦是教程/引流向。",
+      "format_what": "同一 Jatayu AI 特效的重复演示（换滤镜），保留为对照证据，不计入独立复刻数。",
+      "recreate_how": "画面含录屏教程与提示词复制；不作环境推断。",
+      "site_keywords": [
+        "jatayu AI edit",
+        "jatayu transformation"
+      ],
+      "replication_evidence": "不能作为独立复刻。独立人物演示只有 @mayanks_techverse 与 @creative_editor_05 两条。",
+      "trend_stage_note": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。Trends 作观察：在 past_30_days 实际窗（2026-10-15 至 2026-11-15，32 日点）的印度同请求中，完整日目前仅 2026-11-14 值为 9；11-15 为 missing_data，不完整。相对指数非月搜，跨请求不可比。",
+      "sample_file": "/workspace/xinci/meme_samples_20261115/ig-Dftn3HtPq9K.mp4",
+      "video_semantics": "已由父线程 watchVideo 核验（见 watch_video）；本执行端未自行下画面结论。",
+      "board_role": "对照证据（同一人物换滤镜），非独立复刻、非强爆款推荐",
+      "collected_at_taipei": "2026-11-15 23:33",
+      "updated_at_taipei": "2026-11-15 23:51",
+      "semrush_trends": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。Trends 作观察：在 past_30_days 实际窗（2026-10-15 至 2026-11-15，32 日点）的印度同请求中，完整日目前仅 2026-11-14 值为 9；11-15 为 missing_data，不完整。相对指数非月搜，跨请求不可比。"
+    },
+    {
+      "name": "Sheru Bhai AI（@editminds.ai）",
+      "platform": "instagram",
+      "format_key": "sheru-bhai-ai",
+      "title": "Create the ultimate billionaire lifestyle with Sheru Bhai!",
+      "url": "https://www.instagram.com/reel/DfglZB2BEiV/",
+      "author": "editminds.ai",
+      "published_at_taipei": "2026-11-09 13:30",
+      "metrics": {
+        "views": 87344,
+        "likes": 9515,
+        "source": "get_instagram_reels_search",
+        "collected_at_taipei": "2026-11-15 23:33"
+      },
+      "tutorial": false,
+      "trend_stage": "优先核验（不能称可立项）",
+      "watch_video": {
+        "checked": false,
+        "by": null,
+        "result": "本条未经 watchVideo；仅元数据。"
+      },
+      "ai_evidence": "文案为 AI 狮子角色 Sheru Bhai 奢华生活；同周另有不同原帖，但教程帖多。未经画面核验。",
+      "format_what": "用提示词生成狮子角色 Sheru Bhai 的生活短视频；不一定是用户本人换脸。",
+      "recreate_how": "文案指向角色设定 + 生成工具（同类帖常提 Google Flow / ChatGPT）。未观看成片。",
+      "site_keywords": [
+        "Sheru Bhai AI",
+        "Sheru Bhai trend",
+        "AI lion character"
+      ],
+      "replication_evidence": "元数据上有不同原帖（如 @rajphotoeditingmuchmore、@techplus.ai，后者偏教程）。未经 watchVideo，不能升级为已确认多作者成片复刻。",
+      "trend_stage_note": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。印度 11 月有连续搜索信号：past_30_days 实际窗（2026-10-15 至 2026-11-15，32 日点）同一印度请求中，11-11 完整日 84、同请求锚词 ai photo to video 为 37；11-13/14 完整日为 68/69。相对指数非月搜，跨请求不可比；11-15 missing_data，不完整。只优先核验：目前只有教程/元数据且未经画面验证，不能称可立项。",
+      "video_semantics": "未核实（仅元数据，未观看视频）",
+      "board_role": "元数据线索，待画面核验",
+      "collected_at_taipei": "2026-11-15 23:33",
+      "updated_at_taipei": "2026-11-15 23:51",
+      "semrush_trends": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。印度 11 月有连续搜索信号：past_30_days 实际窗（2026-10-15 至 2026-11-15，32 日点）同一印度请求中，11-11 完整日 84、同请求锚词 ai photo to video 为 37；11-13/14 完整日为 68/69。相对指数非月搜，跨请求不可比；11-15 missing_data，不完整。只优先核验：目前只有教程/元数据且未经画面验证，不能称可立项。"
+    },
+    {
+      "name": "AI lion ride（@po94275）",
+      "platform": "tiktok",
+      "format_key": "ai-lion-ride",
+      "title": "Upload just one photo and create this fun video of you riding a lion!",
+      "url": "https://www.tiktok.com/@po94275/video/7707635935218797837",
+      "author": "po94275",
+      "published_at_taipei": "2026-11-13 20:44",
+      "metrics": {
+        "views": 787125,
+        "likes": 12523,
+        "source": "tiktok.search this-week",
+        "collected_at_taipei": "2026-11-15 23:33"
+      },
+      "tutorial": true,
+      "trend_stage": "需求候选（画面已核实）",
+      "watch_video": {
+        "checked": true,
+        "by": "parent watchVideo",
+        "result": "两段均有 CapCut AI 水印。流程为单张静态照片→人物走路并骑狮子，明确是 AI 模板生成。前4秒与 @migf149 复用同一金发黑衣女子，后续人物和最后用户上传照片生成结果不同；本条手机实拍教程环境为蓝桌绿笔。可见锚点 CapCut Try this photo template / Try this template，以及 Use template in CapCut、Use AI template。确认同一模板有不同人物输出，但是效果展示+教程，不是纯 UGC 成片，也不能当全新独立模板或已确认早期爆款。不复制 CapCut 内置一键模板，不承诺兼容。"
+      },
+      "ai_evidence": "画面可见 CapCut AI 水印，以及 Try this photo template / Try this template、Use template in CapCut、Use AI template。流程为单张静态照片→人物走路并骑狮子，明确是 AI 模板生成。",
+      "format_what": "CapCut AI 照片模板：单张静态照片生成人物走路并骑狮子。已核实同一模板可输出不同人物，但样本是效果展示+教程，不是纯 UGC 成片。",
+      "recreate_how": "用户上传一张照片，走 CapCut 的 photo / AI template（画面锚点为 Try this photo template / Use template in CapCut / Use AI template）。这是对已有平台模板需求的记录，不要复制 CapCut 模板，也不要承诺与其兼容。",
+      "site_keywords": [
+        "AI lion ride",
+        "AI lion ride generator",
+        "lion riding AI template",
+        "photo to lion video"
+      ],
+      "replication_evidence": "与 @migf149 为同一模板的不同人物输出：前4秒复用同一金发黑衣女子，后续人物和最后用户上传照片生成结果不同；实拍教程环境也不同（蓝桌绿笔 vs 粉桌手指）。不能当成全新独立模板。@bjgfh67 与 YouTube 同文案条目仍未经画面核验。",
+      "trend_stage_note": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。AI lion ride / AI lion ride generator / lion riding AI template 这些确切写法在实际返回日期范围内无连续曲线（美国 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅见 10 月孤立点），但不能断言无需求或直接放弃玩法。画面已核实的两条是 CapCut 模板生成需求候选，不是已确认早期爆款。",
+      "sample_file": "/workspace/xinci/meme_samples_20261115/tt-po94275-7707635935218797837.mp4",
+      "video_semantics": "两段均有 CapCut AI 水印。流程为单张静态照片→人物走路并骑狮子，明确是 AI 模板生成。前4秒与 @migf149 复用同一金发黑衣女子，后续人物和最后用户上传照片生成结果不同；本条手机实拍教程环境为蓝桌绿笔。可见锚点 CapCut Try this photo template / Try this template，以及 Use template in CapCut、Use AI template。确认同一模板有不同人物输出，但是效果展示+教程，不是纯 UGC 成片，也不能当全新独立模板或已确认早期爆款。不复制 CapCut 内置一键模板，不承诺兼容。",
+      "board_role": "画面已核实的模板生成需求证据，非纯 UGC 成片、非全新独立模板、非已确认早期爆款",
+      "collected_at_taipei": "2026-11-15 23:33",
+      "updated_at_taipei": "2026-11-15 23:51",
+      "semrush_trends": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。AI lion ride / AI lion ride generator / lion riding AI template 这些确切写法在实际返回日期范围内无连续曲线（美国 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅见 10 月孤立点），但不能断言无需求或直接放弃玩法。画面已核实的两条是 CapCut 模板生成需求候选，不是已确认早期爆款。"
+    },
+    {
+      "name": "AI lion ride（@migf149）",
+      "platform": "tiktok",
+      "format_key": "ai-lion-ride",
+      "title": "Upload just one photo and create this fun video of you riding a lion!",
+      "url": "https://www.tiktok.com/@migf149/video/7707661582968442125",
+      "author": "migf149",
+      "published_at_taipei": "2026-11-13 22:24",
+      "metrics": {
+        "views": 508070,
+        "likes": 8497,
+        "source": "tiktok.search this-week",
+        "collected_at_taipei": "2026-11-15 23:33"
+      },
+      "tutorial": true,
+      "trend_stage": "需求候选（画面已核实）",
+      "watch_video": {
+        "checked": true,
+        "by": "parent watchVideo",
+        "result": "两段均有 CapCut AI 水印。流程为单张静态照片→人物走路并骑狮子，明确是 AI 模板生成。前4秒与 @po94275 复用同一金发黑衣女子，后续人物和最后用户上传照片生成结果不同；本条手机实拍教程环境为粉桌手指。可见锚点 CapCut Try this photo template / Try this template，以及 Use template in CapCut、Use AI template。确认同一模板有不同人物输出，但是效果展示+教程，不是纯 UGC 成片，也不能当全新独立模板或已确认早期爆款。不复制 CapCut 内置一键模板，不承诺兼容。"
+      },
+      "ai_evidence": "画面可见 CapCut AI 水印，以及 Try this photo template / Try this template、Use template in CapCut、Use AI template。流程为单张静态照片→人物走路并骑狮子，明确是 AI 模板生成。",
+      "format_what": "CapCut AI 照片模板：单张静态照片生成人物走路并骑狮子。已核实同一模板可输出不同人物，但样本是效果展示+教程，不是纯 UGC 成片。",
+      "recreate_how": "用户上传一张照片，走 CapCut 的 photo / AI template（画面锚点为 Try this photo template / Use template in CapCut / Use AI template）。这是对已有平台模板需求的记录，不要复制 CapCut 模板，也不要承诺与其兼容。",
+      "site_keywords": [
+        "AI lion ride",
+        "AI lion ride generator",
+        "lion riding AI template",
+        "photo to lion video"
+      ],
+      "replication_evidence": "与 @po94275 为同一模板的不同人物输出：前4秒复用同一金发黑衣女子，后续人物和最后用户上传照片生成结果不同；实拍教程环境也不同（蓝桌绿笔 vs 粉桌手指）。不能当成全新独立模板。@bjgfh67 与 YouTube 同文案条目仍未经画面核验。",
+      "trend_stage_note": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。AI lion ride / AI lion ride generator / lion riding AI template 这些确切写法在实际返回日期范围内无连续曲线（美国 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅见 10 月孤立点），但不能断言无需求或直接放弃玩法。画面已核实的两条是 CapCut 模板生成需求候选，不是已确认早期爆款。",
+      "sample_file": "/workspace/xinci/meme_samples_20261115/tt-migf149-7707661582968442125.mp4",
+      "video_semantics": "两段均有 CapCut AI 水印。流程为单张静态照片→人物走路并骑狮子，明确是 AI 模板生成。前4秒与 @po94275 复用同一金发黑衣女子，后续人物和最后用户上传照片生成结果不同；本条手机实拍教程环境为粉桌手指。可见锚点 CapCut Try this photo template / Try this template，以及 Use template in CapCut、Use AI template。确认同一模板有不同人物输出，但是效果展示+教程，不是纯 UGC 成片，也不能当全新独立模板或已确认早期爆款。不复制 CapCut 内置一键模板，不承诺兼容。",
+      "board_role": "画面已核实的模板生成需求证据，非纯 UGC 成片、非全新独立模板、非已确认早期爆款",
+      "collected_at_taipei": "2026-11-15 23:33",
+      "updated_at_taipei": "2026-11-15 23:51",
+      "semrush_trends": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。AI lion ride / AI lion ride generator / lion riding AI template 这些确切写法在实际返回日期范围内无连续曲线（美国 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅见 10 月孤立点），但不能断言无需求或直接放弃玩法。画面已核实的两条是 CapCut 模板生成需求候选，不是已确认早期爆款。"
+    },
+    {
+      "name": "AI lion ride（@bjgfh67）",
+      "platform": "tiktok",
+      "format_key": "ai-lion-ride",
+      "title": "Envie apenas uma foto e crie esse vídeo divertido montado em um leão!",
+      "url": "https://www.tiktok.com/@bjgfh67/video/7707867672763305237",
+      "author": "bjgfh67",
+      "published_at_taipei": "2026-11-14 11:43",
+      "metrics": {
+        "views": 200423,
+        "likes": 3748,
+        "source": "tiktok.search this-week",
+        "collected_at_taipei": "2026-11-15 23:33"
+      },
+      "tutorial": false,
+      "trend_stage": "待观察",
+      "watch_video": {
+        "checked": false,
+        "by": null,
+        "result": "本条未经 watchVideo；仅元数据。"
+      },
+      "ai_evidence": "葡语文案同样是「只发一张照片生成骑狮子视频」。未经画面核验。",
+      "format_what": "同一玩法的跨语言原视频（元数据）。",
+      "recreate_how": "上传一张照片到对应模板。未观看成片。",
+      "site_keywords": [
+        "AI lion ride",
+        "photo to lion video"
+      ],
+      "replication_evidence": "独立 URL/作者（元数据），待画面核验。",
+      "trend_stage_note": "待观察。无两次快照或可靠历史，不称增速。 US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。AI lion ride / AI lion ride generator / lion riding AI template 这些确切写法在实际返回日期范围内无连续曲线（美国 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅见 10 月孤立点），但不能断言无需求或直接放弃玩法。画面已核实的两条是 CapCut 模板生成需求候选，不是已确认早期爆款。",
+      "video_semantics": "未核实（仅元数据，未观看视频）",
+      "board_role": "元数据线索，待画面核验",
+      "collected_at_taipei": "2026-11-15 23:33",
+      "updated_at_taipei": "2026-11-15 23:51",
+      "semrush_trends": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。AI lion ride / AI lion ride generator / lion riding AI template 这些确切写法在实际返回日期范围内无连续曲线（美国 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅见 10 月孤立点），但不能断言无需求或直接放弃玩法。画面已核实的两条是 CapCut 模板生成需求候选，不是已确认早期爆款。"
+    },
+    {
+      "name": "King Jin AI trend（@i0159157）",
+      "platform": "tiktok",
+      "format_key": "king-jin-ai",
+      "title": "TikTok King Jin AI Trend",
+      "url": "https://www.tiktok.com/@i0159157/video/7707184848695315726",
+      "author": "i0159157",
+      "published_at_taipei": "2026-11-12 15:34",
+      "metrics": {
+        "views": 1375037,
+        "likes": 54056,
+        "source": "tiktok.search this-week",
+        "collected_at_taipei": "2026-11-15 23:33"
+      },
+      "tutorial": false,
+      "trend_stage": "待观察",
+      "watch_video": {
+        "checked": false,
+        "by": null,
+        "result": "本条未经 watchVideo；仅元数据。"
+      },
+      "ai_evidence": "文案写明 King Jin AI Trend，用一张照片制作；同文案出现在不同作者的不同视频。#capcut 模板特征明显。未经画面核验，不作爆款结论。",
+      "format_what": "一张照片套进 King Jin（ကျားရိုက် / 猛虎武打场面）AI 模板。",
+      "recreate_how": "按文案用自己的照片套模板。未观看成片。",
+      "site_keywords": [
+        "King Jin AI trend",
+        "King Jin AI video",
+        "tiger strike AI photo video"
+      ],
+      "replication_evidence": "元数据上有不同视频 ID 与作者（如 @fahsai5350、@xdwshfzqi0k）。文案高度相似，可能是模板分发；是否独立成片复刻需 watchVideo。",
+      "trend_stage_note": "待观察。无两次快照或可靠历史，不称增速。 US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。该确切写法无 11 月连续曲线（印度 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅 2026-09-05 孤立点 22）。仍仅元数据，未经画面验证。不能把无覆盖或无曲线当成月搜 0。",
+      "video_semantics": "未核实（仅元数据，未观看视频）",
+      "board_role": "元数据线索，待画面核验",
+      "collected_at_taipei": "2026-11-15 23:33",
+      "updated_at_taipei": "2026-11-15 23:51",
+      "semrush_trends": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。该确切写法无 11 月连续曲线（印度 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅 2026-09-05 孤立点 22）。仍仅元数据，未经画面验证。不能把无覆盖或无曲线当成月搜 0。"
+    },
+    {
+      "name": "AI lion ride（@ReyhanBooth）",
+      "platform": "youtube",
+      "format_key": "ai-lion-ride",
+      "title": "Upload just one photo and create this fun video of you riding a lion! One single photo is enoug",
+      "url": "https://www.youtube.com/shorts/OTXg1dKwD4A",
+      "author": "Reyhan Booth",
+      "author_url": "https://www.youtube.com/@ReyhanBooth",
+      "published_at_taipei": "",
+      "metrics": {
+        "views": 1000,
+        "likes": null,
+        "source": "get_youtube_search shorts shelf + official oEmbed",
+        "collected_at_taipei": "2026-11-15 23:33"
+      },
+      "tutorial": false,
+      "trend_stage": "待观察",
+      "watch_video": {
+        "checked": false,
+        "by": null,
+        "result": "本条未经 watchVideo；仅元数据。"
+      },
+      "ai_evidence": "标题与 TikTok 骑狮子玩法文案相同；官方 oEmbed 确认标题与作者。发布日未知，不能当作最新。",
+      "format_what": "同一玩法在 YouTube Shorts 上的弱证据样本。",
+      "recreate_how": "标题称上传一张照片。未观看成片。",
+      "site_keywords": [
+        "AI lion ride",
+        "photo to lion video"
+      ],
+      "replication_evidence": "与 @AndrewBentley-r7t 的 https://www.youtube.com/shorts/Q2dalJ_Xbpg 为不同作者、不同视频、相同标题（元数据）。播放低、无发布日。",
+      "trend_stage_note": "待观察。无发布日，不能当作最新。 无两次快照或可靠历史，不称增速。 US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。AI lion ride / AI lion ride generator / lion riding AI template 这些确切写法在实际返回日期范围内无连续曲线（美国 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅见 10 月孤立点），但不能断言无需求或直接放弃玩法。画面已核实的两条是 CapCut 模板生成需求候选，不是已确认早期爆款。",
+      "video_semantics": "未核实（仅元数据，未观看视频）",
+      "board_role": "弱证据，无发布日不算最新",
+      "collected_at_taipei": "2026-11-15 23:33",
+      "updated_at_taipei": "2026-11-15 23:51",
+      "semrush_trends": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。AI lion ride / AI lion ride generator / lion riding AI template 这些确切写法在实际返回日期范围内无连续曲线（美国 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅见 10 月孤立点），但不能断言无需求或直接放弃玩法。画面已核实的两条是 CapCut 模板生成需求候选，不是已确认早期爆款。"
+    },
+    {
+      "name": "AI lion ride（@AndrewBentley-r7t）",
+      "platform": "youtube",
+      "format_key": "ai-lion-ride",
+      "title": "Upload just one photo and create this fun video of you riding a lion! One single photo is enoug",
+      "url": "https://www.youtube.com/shorts/Q2dalJ_Xbpg",
+      "author": "Andrew Bentley",
+      "author_url": "https://www.youtube.com/@AndrewBentley-r7t",
+      "published_at_taipei": "",
+      "metrics": {
+        "views": 301,
+        "likes": null,
+        "source": "get_youtube_search shorts shelf + official oEmbed",
+        "collected_at_taipei": "2026-11-15 23:33"
+      },
+      "tutorial": false,
+      "trend_stage": "待观察",
+      "watch_video": {
+        "checked": false,
+        "by": null,
+        "result": "本条未经 watchVideo；仅元数据。"
+      },
+      "ai_evidence": "与上条同标题、不同作者；oEmbed 已确认。无发布日，不能当作最新。",
+      "format_what": "同一骑狮子玩法的第二条 YouTube 原视频（弱证据）。",
+      "recreate_how": "标题称上传一张照片。未观看成片。",
+      "site_keywords": [
+        "AI lion ride",
+        "photo to lion video"
+      ],
+      "replication_evidence": "独立 URL 与作者（元数据）。证据弱。",
+      "trend_stage_note": "待观察。无发布日，不能当作最新。 无两次快照或可靠历史，不称增速。 US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。AI lion ride / AI lion ride generator / lion riding AI template 这些确切写法在实际返回日期范围内无连续曲线（美国 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅见 10 月孤立点），但不能断言无需求或直接放弃玩法。画面已核实的两条是 CapCut 模板生成需求候选，不是已确认早期爆款。",
+      "video_semantics": "未核实（仅元数据，未观看视频）",
+      "board_role": "弱证据，无发布日不算最新",
+      "collected_at_taipei": "2026-11-15 23:33",
+      "updated_at_taipei": "2026-11-15 23:51",
+      "semrush_trends": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。AI lion ride / AI lion ride generator / lion riding AI template 这些确切写法在实际返回日期范围内无连续曲线（美国 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅见 10 月孤立点），但不能断言无需求或直接放弃玩法。画面已核实的两条是 CapCut 模板生成需求候选，不是已确认早期爆款。"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Jatayu AI video",
+      "reason": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。Trends 作观察：在 past_30_days 实际窗（2026-10-15 至 2026-11-15，32 日点）的印度同请求中，完整日目前仅 2026-11-14 值为 9；11-15 为 missing_data，不完整。相对指数非月搜，跨请求不可比。",
+      "from": "jatayu-ai-edit",
+      "trend_stage": "观察",
+      "semrush": "US/IN ERROR 50 无覆盖，不是月搜 0；未查 KD",
+      "trends_windows_actual": {
+        "past_30_days": "2026-10-15 至 2026-11-15，32 日点",
+        "past_90_days": "2026-08-15 至 2026-11-15，93 日点"
+      }
+    },
+    {
+      "keyword": "Sheru Bhai AI",
+      "reason": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。印度 11 月有连续搜索信号：past_30_days 实际窗（2026-10-15 至 2026-11-15，32 日点）同一印度请求中，11-11 完整日 84、同请求锚词 ai photo to video 为 37；11-13/14 完整日为 68/69。相对指数非月搜，跨请求不可比；11-15 missing_data，不完整。只优先核验：目前只有教程/元数据且未经画面验证，不能称可立项。",
+      "from": "sheru-bhai-ai",
+      "trend_stage": "优先核验（不能称可立项）",
+      "semrush": "US/IN ERROR 50 无覆盖，不是月搜 0；未查 KD",
+      "trends_windows_actual": {
+        "past_30_days": "2026-10-15 至 2026-11-15，32 日点",
+        "past_90_days": "2026-08-15 至 2026-11-15，93 日点"
+      }
+    },
+    {
+      "keyword": "AI lion ride",
+      "reason": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。AI lion ride / AI lion ride generator / lion riding AI template 这些确切写法在实际返回日期范围内无连续曲线（美国 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅见 10 月孤立点），但不能断言无需求或直接放弃玩法。画面已核实的两条是 CapCut 模板生成需求候选，不是已确认早期爆款。",
+      "from": "ai-lion-ride",
+      "trend_stage": "需求候选（画面已核实）",
+      "site_keyword_candidates": [
+        "AI lion ride generator",
+        "lion riding AI template"
+      ],
+      "semrush": "US/IN ERROR 50 无覆盖，不是月搜 0；未查 KD",
+      "differentiation_risk": "CapCut 已有内置一键模板；不要复制其模板或承诺兼容",
+      "trends_windows_actual": {
+        "past_30_days": "2026-10-15 至 2026-11-15，32 日点",
+        "past_90_days": "2026-08-15 至 2026-11-15，93 日点"
+      }
+    },
+    {
+      "keyword": "King Jin AI trend",
+      "reason": "US/IN Semrush ERROR 50 无覆盖，不是月搜 0，未过 KD。该确切写法无 11 月连续曲线（印度 past_90_days 实际窗 2026-08-15 至 2026-11-15 共 93 日点仅 2026-09-05 孤立点 22）。仍仅元数据，未经画面验证。不能把无覆盖或无曲线当成月搜 0。",
+      "from": "king-jin-ai",
+      "trend_stage": "待观察",
+      "semrush": "US/IN ERROR 50 无覆盖，不是月搜 0；未查 KD",
+      "trends_windows_actual": {
+        "past_30_days": "2026-10-15 至 2026-11-15，32 日点",
+        "past_90_days": "2026-08-15 至 2026-11-15，93 日点"
+      }
+    }
+  ],
+  "coverage": {
+    "instagram": {
+      "status": "ok",
+      "direct_via": "AIsa get_instagram_reels_search（Google 索引，非 Instagram 全站）",
+      "queries": [
+        "AI face swap last-week",
+        "AI photo to video last-week",
+        "Jatayu AI last-week",
+        "80s look AI video last-week",
+        "Sheru Bhai AI last-week"
+      ],
+      "kept": 4,
+      "note": "Jatayu 经 watchVideo 降为待观察：两条为同一人物换滤镜，第三条为不同人物，三条款都是录屏教程/引流，可作需求证据，不是强爆款或三创作者独立复刻。Sheru Bhai 仍仅元数据。80s look 未形成用自己照片复刻的新热词证据。"
+    },
+    "tiktok": {
+      "status": "partial",
+      "direct_via": "AIsa tiktok.search（datePosted=this-week）。crawl4ai.tiktok-search-videos 无日期过滤，返回的是 2024-2026-10 旧教程，未采用。",
+      "queries": [
+        "AI photo to video this-week",
+        "Jatayu AI this-week",
+        "Jatayu AI edit this-week"
+      ],
+      "kept": 4,
+      "note": "「Jatayu AI / Jatayu AI edit」本周结果几乎全是《罗摩衍那》电影片段，不是照片生成神鹰的 AI 玩法，故 TikTok 没有入选 Jatayu。已入选骑狮子与 King Jin 两种照片生成玩法。 两条骑狮子样本（@po94275、@migf149）已 watchVideo：均为 CapCut AI 模板+教程，同一模板不同人物输出，不是纯 UGC 成片或已确认早期爆款。@bjgfh67 仍仅元数据。"
+    },
+    "youtube": {
+      "status": "shortfall",
+      "direct_via": "AIsa get_youtube_search；官方 oEmbed 补作者。get_tikhub_youtube_web_v2_get_shorts_search 一次调用返回的是 YouTube 网页内部结构，不再续用。",
+      "queries": [
+        "AI face swap shorts",
+        "AI photo to video trend shorts",
+        "Jatayu AI video",
+        "AI photo riding a lion shorts"
+      ],
+      "kept": 2,
+      "note": "近7天 YouTube 上 Jatayu 几乎全是「How to / Tutorial」长视频或 Shorts，已排除，不当成原玩法样本。仅保留与 TikTok 同文案的两条骑狮子 Shorts；无发布日、播放低，证据弱于 IG/TT。未达「每平台 2-4 条高证据」的同等强度。"
+    }
+  },
+  "excluded_examples": [
+    {
+      "url": "https://www.youtube.com/watch?v=Kk9zSQ2UoXM",
+      "reason": "教程：Trending Jatayu AI Reel Editing Tutorial"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DfuT6vzCKXD/",
+      "reason": "偏教程（comment for prompts / Using Google Flow）"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DfrfhoIhOcE/",
+      "reason": "CapCut tutorial"
+    },
+    {
+      "url": "https://www.tiktok.com/@with__you__8/video/7707425410123894037",
+      "reason": "电影片段，不是用户照片生成的 AI 玩法"
+    },
+    {
+      "url": "https://www.tiktok.com/@hustle.faceless/video/7708147898545917190",
+      "reason": "Higgsfield 角色工具推销，不当新热词"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DfsQWymTWZi/",
+      "reason": "作者明确 No AI，不是本任务对象"
+    }
+  ],
+  "samples_for_watchVideo": [
+    "/workspace/xinci/meme_samples_20261115/ig-DftHjQrKJTk.mp4",
+    "/workspace/xinci/meme_samples_20261115/ig-Dft6GqkPTCQ.mp4",
+    "/workspace/xinci/meme_samples_20261115/ig-Dftn3HtPq9K.mp4",
+    "/workspace/xinci/meme_samples_20261115/tt-po94275-7707635935218797837.mp4",
+    "/workspace/xinci/meme_samples_20261115/tt-migf149-7707661582968442125.mp4"
+  ],
+  "cost": {
+    "quote_total_usd": 0.065,
+    "account_available_usd_before": 10.000041,
+    "account_available_usd_after": 9.838041,
+    "account_delta_usd": 0.162,
+    "today_charged_usd": 0.162,
+    "note": "15 次成功 batch_use，quote 合计 $0.065；quote 标明 may_exceed_estimate。开始到结束余额差 $0.162，账户 today.charged_usd 同为 $0.162。同期可能有其他 Semrush 流，无法把差额百分之百只记在本任务。未超内部 $1 上限。未调用带 cookie 的工具。"
+  },
+  "tools_used": [
+    "get_instagram_reels_search",
+    "crawl4ai.tiktok-search-videos（旧结果，未入选）",
+    "tiktok.search",
+    "get_youtube_search",
+    "get_tikhub_youtube_web_v2_get_shorts_search（一次，内部页结构，不再续用）"
+  ],
+  "tools_skipped": [
+    "get_instagram_reels_trending（无法按 AI 关键词过滤，未作为本轮主检索）",
+    "get_tikhub_tiktok_analytics_fetch_video_metrics（搜索已返回可见量，未再调用）",
+    "post_tikhub_tiktok_ads_get_top_contents_list（schema/目录含 cookie，跳过）"
+  ],
+  "notes": [
+    "Jatayu 已按父线程 watchVideo 修正，不得再写成三创作者独立复刻或已确认早期爆款。",
+    "仅保留 AI 生成、可用照片或提示词复刻的格式线索；教程向内容只作需求证据。",
+    "YouTube 无发布日的条目不算最新。",
+    "无两次快照不编增速。",
+    "未观看的条目 video_semantics 为未核实。",
+    "AI lion ride 两条 TikTok 样本已按父线程 watchVideo 修正：CapCut 模板+教程，同一模板不同人物输出；升级为画面已核实的模板生成需求候选，不是纯 UGC 成片或已确认早期爆款。",
+    "建站英文候选 AI lion ride generator / lion riding AI template 未跑 Semrush，不声称已过 KD。CapCut 已有内置一键模板，勿复制其模板或承诺兼容。",
+    "已合入 2026-11-15 Semrush/Trends 验证：7 词 US/IN ERROR50 无覆盖不是 0；Trends 相对指数只可同请求比较；11-15 missing_data 不完整。本轮 Trends $0.198。",
+    "Sheru 只优先核验，不能称可立项。Jatayu 保持观察。lion 确切写法无连续曲线，但不能断言无需求或放弃玩法。"
+  ],
+  "updated_at": "2026-11-15 23:51",
+  "watch_video_correction": {
+    "at": "2026-11-15 23:37",
+    "timezone": "Asia/Taipei",
+    "summary": "父线程 watchVideo：DftHjQrKJTk 与 Dftn3HtPq9K 为同一黑灰夹克男子神鹰成片（后者换主持滤镜），不能算独立复刻；Dft6GqkPTCQ 为白衬衫不同人物同类效果。3 条都含手机录屏教程/引流；前两条可见 Google Flow、JATAYU 与 prompt 复制步骤。Jatayu 降为待观察 AI 特效词/教程带动需求，只证实两个不同人物效果演示，不是三创作者独立复刻或已确认早期爆款。可作需求证据，不作纯玩法成片或强爆款推荐。无增长数据不称增速。不采纳关于 Google Vids 环境的推断。"
+  },
+  "watch_video_correction_lion": {
+    "at": "2026-11-15 23:41",
+    "timezone": "Asia/Taipei",
+    "summary": "父线程 watchVideo 核验两条 TikTok 骑狮子样本（@po94275、@migf149）：两段均有 CapCut AI 水印；流程为单张静态照片→人物走路并骑狮子，明确是 AI 模板生成。两段前4秒复用同一金发黑衣女子，后续人物、最后用户上传照片生成结果不同；手机实拍教程环境不同（蓝桌绿笔 vs 粉桌手指）。因此确认同一模板有不同人物输出，但两条都是效果展示+教程，不是纯 UGC 成片，也不能当全新独立模板或已确认早期爆款。可见锚点 CapCut Try this photo template / Try this template，以及 Use template in CapCut、Use AI template。建站英文候选 AI lion ride generator / lion riding AI template；未对这些新变体跑 Semrush，不声称已过 KD。AI lion ride 升级为画面已核实、模板生成需求候选，增长/搜索量/竞争仍待验证。CapCut 内置一键模板已有，须注明差异化风险，不要复制其模板或承诺兼容。@bjgfh67 与两条 YouTube Shorts 仍未经 watchVideo，只保留元数据。"
+  },
+  "semrush_trends_merge": {
+    "at": "2026-11-15 23:51",
+    "timezone": "Asia/Taipei",
+    "source_md": "/workspace/xinci/ai-video-keywords-20261115.md",
+    "source_json": "/workspace/xinci/ai-video-keywords-20261115.json",
+    "snapshot_dir": "/workspace/xinci/_ai_video_kw_20261115/",
+    "cost_trends_usd": 0.198,
+    "window_actual": {
+      "past_30_days_preset": "today 1-m",
+      "past_30_days_actual": "2026-10-15 至 2026-11-15，32 个日点（不是严格 30 天）",
+      "past_90_days_preset": "today 3-m",
+      "past_90_days_actual": "2026-08-15 至 2026-11-15，93 个日点（不是严格 90 天）",
+      "partial_today": "2026-11-15 missing_data=true，不完整"
+    },
+    "semrush": "7 词 US/IN 均为 ERROR 50 NOTHING FOUND，无覆盖不是 0；未查 KD。",
+    "verdicts_applied": {
+      "Sheru Bhai AI": "只优先核验，不能称可立项",
+      "Jatayu AI video": "观察",
+      "AI lion ride": "确切写法无连续曲线，但不能断言无需求或放弃玩法；画面已核实者为模板生成需求候选",
+      "King Jin AI trend": "确切写法无 11 月连续曲线，仍仅元数据"
+    },
+    "official_trends_links": {
+      "US_30_anchor": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%201-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+      "US_30_jatayu": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%201-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+      "US_30_lion": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%201-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+      "IN_30_anchor": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%201-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+      "IN_30_jatayu": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%201-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+      "IN_30_lion": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%201-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+      "WW_30_anchor": "https://trends.google.com/trends/explore?hl=en&date=today%201-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+      "WW_30_jatayu": "https://trends.google.com/trends/explore?hl=en&date=today%201-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+      "WW_30_lion": "https://trends.google.com/trends/explore?hl=en&date=today%201-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+      "US_90_anchor": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%203-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+      "US_90_jatayu": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%203-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+      "US_90_lion": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%203-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+      "IN_90_anchor": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%203-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+      "IN_90_jatayu": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%203-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+      "IN_90_lion": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%203-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+      "WW_90_anchor": "https://trends.google.com/trends/explore?hl=en&date=today%203-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+      "WW_90_jatayu": "https://trends.google.com/trends/explore?hl=en&date=today%203-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+      "WW_90_lion": "https://trends.google.com/trends/explore?hl=en&date=today%203-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video"
+    }
+  }
+}

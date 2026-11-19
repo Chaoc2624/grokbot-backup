@@ -1,0 +1,1847 @@
+{
+ "day": "2026-11-19",
+ "config": {
+  "min_volume": 500,
+  "max_kd": 31,
+  "min_cpc": 0.01,
+  "need_open_serp": true,
+  "database": "us",
+  "max_terms": 60,
+  "max_spend_usd": 0.2,
+  "cache_days": 7,
+  "serp_fetch": true,
+  "serp_location_code": 2840,
+  "kd_min_volume": 100,
+  "max_allintitle": 10000,
+  "check_allintitle": true,
+  "need_small_sites": false,
+  "small_sites_min": 5,
+  "tool_intent_bonus": 15,
+  "vacuum_enabled": true,
+  "vacuum_min_ratio": 0.7,
+  "vacuum_max_serp_checks": 18,
+  "check_domains": true,
+  "domain_tlds": [
+   "com",
+   "ai",
+   "io",
+   "org"
+  ]
+ },
+ "passed": [],
+ "vacuum_terms": [],
+ "almost": [
+  {
+   "phrase": "aion 2",
+   "source": "看板X",
+   "names": [
+    "AION 2"
+   ],
+   "evidence": "",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": true,
+   "overview_ok": true,
+   "volume": 22200,
+   "cpc": 0.07,
+   "comp": 0.01,
+   "results": 124,
+   "kd_ok": true,
+   "kd": 30,
+   "verdict": "mixed",
+   "comp_detail": {
+    "kinds": {
+     "article": 2,
+     "list": 5
+    },
+    "ads": true,
+    "features": [
+     "ai_overview",
+     "knowledge_graph",
+     "perspectives",
+     "related_searches",
+     "video"
+    ],
+    "top": [
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "play.google.com",
+     "google.com",
+     "google.com"
+    ],
+    "items": [
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESYgHEIkXXf-oAV_vgqejMhdE62JvVOI9jhS5JOtF8rLxgaV7id6pnswAe2eWUUDg5NM9wFoDFCliLv_UBy066dlC2_ysqOSAjT2_GzDteY9quvvg1roBRtXhwz-tPuGv_8rof&gsessionid=8kicfHxMH0T5wgMTdev6BrM3POuJWio9Nrxf6kbhZv6d-_m_mNVxGw",
+      "title": "AION 2 - Mobalytics Gamebase",
+      "position": 1,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXzqOuAnaIqt2daMpU8OrjQAb6G79O_znT3w5VDza8sBo0uNEr0ApX5SycqQLucGeirg0PIuYdqT9CM6uWbeorxyzVImDQvPuTKKwp6TmuZwBcV_rkwZJzC0fyTOM87SdNLQp4&gsessionid=8kicfHxMH0T5wgMTdev6BrM3POuJWio9Nrxf6kbhZv6d-_m_mNVxGw",
+      "title": "AION 2 Dev Gameplay: Fire Temple Dungeon (Global Version ...",
+      "position": 2,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXsTxl0tATZ6YIE8LoB1m_qhs2WLf2dfd_fbwX5nHq4KOn4kYNs2bBLYHJ0-NM683zb7b-WEOF3oTuiVWHKndDTGjTtiVW0WBZHul-B9h9Gm6qTD7BP0PZ7-y-qWknvSqMiTkl&gsessionid=8kicfHxMH0T5wgMTdev6BrM3POuJWio9Nrxf6kbhZv6d-_m_mNVxGw",
+      "title": "AION 2 The Truth About Subs! - P2W or Worth It? True Price & ...",
+      "position": 3,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXrSGrhHcW5S6Izei75YMmMPA6WqdiQM7ZMS6ZzOrYTls7AgfBXwO86kJvTobHI4zWJP_o0Ts0XLmx0uhGApOA2_iLNRL0SllrsBdtXt3qTEs74BPoirqVhKcQcAAzgh9wCQ4f&gsessionid=8kicfHxMH0T5wgMTdev6BrM3POuJWio9Nrxf6kbhZv6d-_m_mNVxGw",
+      "title": "AION 2 Gameplay and Full Pre-Review from Veteran AION Player",
+      "position": 4,
+      "kind": "list"
+     },
+     {
+      "domain": "play.google.com",
+      "url": "https://play.google.com/store/apps/details?id=com.ncsoft.aion2&hl=en_US",
+      "title": "AION2 - Apps on Google Play",
+      "position": 5,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESfwHEIkXXIc9zJ6j-5U4HN4F6Qo3wWqQeuRXNm6JmCIpLk4OfPgWPCGFSFGHD6VRuScR7q3QTtHDxlExxco8BHKRYjqvxS9fw4Wl3AdVOGwN7E3SQNRQHUEOISG3LzjBORMEyS0EyIGeEg4nR-9kSYkHV_y96gpnqSVi41MCk3_s&gsessionid=8kicfHxMH0T5wgMTdev6BrM3POuJWio9Nrxf6kbhZv6d-_m_mNVxGw",
+      "title": "Aion 2 is an MMO for character creation enthusiasts, and it ...",
+      "position": 6,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESdgHEIkXXE62zgeNKoRkBnLepCpd4xGzcHG8BrscSgsUlCRlAUb8XMW3h8E4ErCie1lwjxymB3tUew7GsPrwhOOo5VteEJa4yIAWjsQDP55xXJngdLMCl7j64WonbqJLdxo3fQBPK8pT7_K5VBYHArQUNX6coCmw&gsessionid=8kicfHxMH0T5wgMTdev6BrM3POuJWio9Nrxf6kbhZv6d-_m_mNVxGw",
+      "title": "What Is Aion 2 About",
+      "position": 7,
+      "kind": "list"
+     }
+    ],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/7",
+   "vacuum_hits": 0,
+   "vacuum_total": 7,
+   "vacuum_breakdown": {
+    "社媒/论坛": 0,
+    "代码仓/模型库": 0,
+    "视频": 0,
+    "资讯/评测": 0
+   },
+   "dedicated_sites": [
+    "play.google.com"
+   ],
+   "vacuum_evidence": "已有独立站/应用占坑（play.google.com），社区占比 0/7",
+   "tool_intent": false,
+   "kdroi": 51.8,
+   "small_sites": 0,
+   "allintitle": 91,
+   "checks": {
+    "月搜": true,
+    "KD": true,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": true
+   },
+   "score": 55,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "aion2.com",
+     "available": false
+    },
+    {
+     "domain": "aion2ai.com",
+     "available": true
+    },
+    {
+     "domain": "tryaion.com",
+     "available": false
+    },
+    {
+     "domain": "aion2.ai",
+     "available": false
+    },
+    {
+     "domain": "aion2ai.ai",
+     "available": true
+    },
+    {
+     "domain": "aion2.io",
+     "available": false
+    },
+    {
+     "domain": "aion2ai.io",
+     "available": true
+    },
+    {
+     "domain": "aion2.org",
+     "available": false
+    }
+   ],
+   "available_domains": [
+    "aion2ai.com",
+    "aion2ai.ai",
+    "aion2ai.io"
+   ],
+   "failed": [
+    "首页竞争"
+   ],
+   "unknown": []
+  }
+ ],
+ "filtered_out": [
+  {
+   "phrase": "connectors io.github.adamgraymon",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "io.github.nutshell2000",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "connectors io.github.nutshell2000",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "live map of u.s. flights during tonight s faa nationwide ground stop",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "murderers vs sheriffs",
+   "source": "Google 补全种子",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "snake vs human",
+   "source": "Google 补全种子",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "catch a brainrot container wiki",
+   "source": "Google 补全(Catch A Brainrot)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "catch a brainrot roblox wiki",
+   "source": "Google 补全(Catch A Brainrot)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "catch a brainrot wiki",
+   "source": "Google 补全(Catch A Brainrot)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "catch a brainrot wiki fandom",
+   "source": "Google 补全(Catch A Brainrot)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "catch a brainrot wiki roblox",
+   "source": "Google 补全(Catch A Brainrot)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "chronicles medieval age rating",
+   "source": "Google 补全(Chronicles Medieval)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "chronicles medieval vs bannerlord",
+   "source": "Google 补全(Chronicles Medieval)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "chronicles medieval vs bannerlord 2",
+   "source": "Google 补全(Chronicles Medieval)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "chronicles medieval vs kingdom come deliverance",
+   "source": "Google 补全(Chronicles Medieval)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "chronicles medieval vs mount and blade",
+   "source": "Google 补全(Chronicles Medieval)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "chronicles medieval vs total war",
+   "source": "Google 补全(Chronicles Medieval)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "chronicles medieval wiki",
+   "source": "Google 补全(Chronicles Medieval)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "project slayers 2 vs project slayers",
+   "source": "Google 补全(Project Slayers 2)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "project slayers 2 wiki",
+   "source": "Google 补全(Project Slayers 2)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "pumpkin playground near me",
+   "source": "Google 补全(Pumpkin Playground)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "atp finals 2026",
+   "source": "Trends RSS",
+   "reason": "体育赛事/比分噪音"
+  },
+  {
+   "phrase": "nitto atp finals",
+   "source": "Trends RSS",
+   "reason": "体育赛事/比分噪音"
+  },
+  {
+   "phrase": "kick",
+   "source": "App Store(#21 KICK - Live Streaming)",
+   "reason": "老应用重返榜单(上架 2023-03-26)，非AI新工具"
+  },
+  {
+   "phrase": "quince",
+   "source": "App Store(#99 Quince: Luxury Essentials)",
+   "reason": "老应用重返榜单(上架 2025-03-02)，非AI新工具"
+  },
+  {
+   "phrase": "gta 2013 vs 2026",
+   "source": "书签X·建站热词",
+   "reason": "非科技/赛事对阵词"
+  }
+ ],
+ "terms": [
+  {
+   "phrase": "qwen4-max",
+   "source": "书签X·建站热词",
+   "names": [
+    "Qwen4-Max"
+   ],
+   "evidence": "免费 x search_posts_all 官方账号检索；播放 12,205、收藏 12、赞 156。建议不等于批准立项；Semrush/Trends 待本轮优先核验。本条未做视频画面核验。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": true,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {
+     "article": 6,
+     "list": 2
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "perspectives",
+     "related_searches"
+    ],
+    "top": [
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com"
+    ],
+    "items": [
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESXgHEIkXXcuIVHcW5OyDwPfPn2qr-hJQqyLQrIuQ_HqESwRnI1ktqf2Ygqtvmy5CIXqgarZMp5_9qpZp0Q2Z5hw01hGb330L3uQjjUlA5YJ7SokzXA4_yOytntwPda8I&gsessionid=rhvE8OIslgjG5YoPPCQ5obwKr1vORCwyeuoTGbzptMgQ7QsfT6wv_Q",
+      "title": "Qwen4-Max: Your New Teammate Has Arrived",
+      "position": 1,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESeAHEIkXXyGG9fyZEY2ocDhZws6tfkSRF6B3JELzV1ix8gAc673im2xTHyrLMXfUA8GD55O9NlrqvS7PZfXjQppp2xOlWp1KI1-fr_CNeI6x8E5uUNv09XYLcbJrpCikWywuQoAJzhu-QT7PRIay8DuWXpL2ARo7BTQ&gsessionid=rhvE8OIslgjG5YoPPCQ5obwKr1vORCwyeuoTGbzptMgQ7QsfT6wv_Q",
+      "title": "Qwen4-Max - Alibaba Cloud Model Studio",
+      "position": 2,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXBtTXcpPE6nqRbUJfhAW9QMCPIYXpNNGO7eCV5Mbts3dfnViPCoJ6gF-hiFeNjmJR4D3MDgtAvPSNK5NMy3Xp8gHM2cFsbkPgleAycXPU0idMwNsQ4sxg4cus-0zHNTgCSziU&gsessionid=rhvE8OIslgjG5YoPPCQ5obwKr1vORCwyeuoTGbzptMgQ7QsfT6wv_Q",
+      "title": "Qwen 4 Max IS OUT! BEST Chinese AI Model EVER?! (Fully ...",
+      "position": 3,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESjAEBxCJF18ZGD3vwKpXtwtlc0Eq3GjSt109dXTM2ezAQjSJJz5kSc_sZkhDH-ir8Xu8mZuNLEvmDzVLqpIiVnN9wQNeajq8P5H7YKr2APKyaObOL7jwZSAN3PQ0PMvWZGA12o38Iur7T1tz14R6ntT1EgVMOkIa2UJHRPoWhdrN9Gb_1vFE5evCcATh23g&gsessionid=rhvE8OIslgjG5YoPPCQ5obwKr1vORCwyeuoTGbzptMgQ7QsfT6wv_Q",
+      "title": "Qwen 4 Max: Specs, Benchmarks, Pricing, and How to ...",
+      "position": 4,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESdQHEIkXXZlntalhwaSgvxJYvGfyjZ4mXGQg_Y6XZl_xyscUpUoZ0nieqpsjaEWCZy6UZ5-OvzfVEeADZ_ze39FARJyhJcK_2_uovVtIfzfHFMqRe6vwiu0s36-VwJ2sGTSJG1ASnTfMp6gA6c5PcprdE2-HT8A&gsessionid=rhvE8OIslgjG5YoPPCQ5obwKr1vORCwyeuoTGbzptMgQ7QsfT6wv_Q",
+      "title": "Qwen4 Max Hands-On: Testing Alibaba's New Model ...",
+      "position": 5,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESYAHEIkXXrbu5N1XQJbX57bB4fUtpuOQLPu0olJVvsezn6UZMTFmGovgx_xekpedb0pGIa8oceHfFMP6Vi2BpNZPndph46pO51uG3gImT0PoV9dSu8292c3i4OucTG2XzDw&gsessionid=rhvE8OIslgjG5YoPPCQ5obwKr1vORCwyeuoTGbzptMgQ7QsfT6wv_Q",
+      "title": "Qwen4 Max Benchmarks, Pricing & Speed (November 2026)",
+      "position": 6,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESmgEBxCJF18OA7-MQvp8cge1-mTsO01FxHYdyRlrcMmcrBTeOXKUJCpmTqinBHzu1DHuCdWsOdRYvOwJPTA-e9esJPqaF0jD13pIgXtHy54DBR9sJfIkmH1Dy_Jvec24YY6WIh9bbEOO8otvXuhfCZXaCvXiEomIO7LZ9Pblg_0mpuLJpKVHbOwUNHWhrXuazI_RNsr1ZjRhxyFNr&gsessionid=rhvE8OIslgjG5YoPPCQ5obwKr1vORCwyeuoTGbzptMgQ7QsfT6wv_Q",
+      "title": "Qwen4-Max: Your New Teammate Has Arrived : r/singularity",
+      "position": 7,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESdgHEIkXXo1TcYqOt8KVSasUrml2r80jKPPXMsi8roEkelTsLzGM4gLT4ysPQyY54DE-Rh5_gOqw6t16Oyz3ooGGPKoFwh_LAL87czCCWkT2gPfjZnGD8ekFugFlf0Da1Qi1Z_bH3fk2_lgYfWOoWdR1PPwbH5u4&gsessionid=rhvE8OIslgjG5YoPPCQ5obwKr1vORCwyeuoTGbzptMgQ7QsfT6wv_Q",
+      "title": "qwen4-max-preview - 阿里云文档 - Alibaba Cloud",
+      "position": 8,
+      "kind": "article"
+     }
+    ],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/8",
+   "vacuum_hits": 0,
+   "vacuum_total": 8,
+   "vacuum_breakdown": {
+    "社媒/论坛": 0,
+    "代码仓/模型库": 0,
+    "视频": 0,
+    "资讯/评测": 0
+   },
+   "dedicated_sites": [],
+   "vacuum_evidence": "已有 8 个垂直博客抢占（google.com），社区占比 0/8",
+   "tool_intent": false,
+   "kdroi": null,
+   "small_sites": 0,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "qwen4max.com",
+     "available": true
+    },
+    {
+     "domain": "qwen4maxai.com",
+     "available": true
+    },
+    {
+     "domain": "tryqwen4.com",
+     "available": true
+    },
+    {
+     "domain": "qwen4max.ai",
+     "available": true
+    },
+    {
+     "domain": "qwen4maxai.ai",
+     "available": true
+    },
+    {
+     "domain": "qwen4max.io",
+     "available": true
+    },
+    {
+     "domain": "qwen4maxai.io",
+     "available": true
+    },
+    {
+     "domain": "qwen4max.org",
+     "available": true
+    }
+   ],
+   "available_domains": [
+    "qwen4max.com",
+    "tryqwen4.com",
+    "qwen4maxai.com",
+    "qwen4max.ai",
+    "qwen4maxai.ai",
+    "qwen4max.io",
+    "qwen4maxai.io",
+    "qwen4max.org"
+   ],
+   "failed": [
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "higgsfield mcp 2.0",
+   "source": "书签X·建站热词",
+   "names": [
+    "Higgsfield MCP 2.0"
+   ],
+   "evidence": "免费 x search_posts_all 官方账号检索；播放 61,741、收藏 595、赞 1,014。建议不等于批准立项；Semrush/Trends 待本轮优先核验。本条未做视频画面核验。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": true,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {
+     "article": 6,
+     "list": 1,
+     "tool": 1
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "video"
+    ],
+    "top": [
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com"
+    ],
+    "items": [
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESVgHEIkXXXPsBhLdvAaiMNLF1TOwlCnDlMdFK12ULt0uqZwwajzOgSfVnU_xq0y0aQqg1h6uBGAyJGraw7aTcBwli5C5ljMw5tLI6UvEha2eLREQoZ45B&gsessionid=qHjo-1FJNq5ZQsSNkF8Uwe5ANHBkJxoc-0NPI_M3jRLAOrskGypVsQ",
+      "title": "Higgsfield CLI | AI Image & Video Generation for Any Agent",
+      "position": 1,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESZQHEIkXXCftps60K1efSH90LpNOEPWvUPdTLIsbBUQBmUc0sMOrOdEm0FR5Yb1cE7ufdUdJhyD8wIA9Rsd9FbNclQAYwgXxEGN-If_Ct_2kbUmMO_ijE0JxEO185HhFyxuUbwYCV&gsessionid=qHjo-1FJNq5ZQsSNkF8Uwe5ANHBkJxoc-0NPI_M3jRLAOrskGypVsQ",
+      "title": "Meet Higgsfield Unlimited MCP: How It Works and What ...",
+      "position": 2,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESigEBxCJF1954MtMQ417QBTW5iGwllCC011a2tp_w6S9DHdVXE6kHJSfgkyojtTFQ5izzcUDnV9BDYO5h0IFW8K-f0lbgK2m3GBPeq8BbAdN_moQLRmqcb_5plW5KhHUeHoZGfcoTk9gg8JMlVyRXU8ImCuoIRM1qKdYASkpjg32O-XuCtiWvERmeVq4&gsessionid=qHjo-1FJNq5ZQsSNkF8Uwe5ANHBkJxoc-0NPI_M3jRLAOrskGypVsQ",
+      "title": "How to Generate AI Videos in Claude With the Higgsfield ...",
+      "position": 3,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXhMttIrDqVFX_EGrYt8BYt23XuTEweVIo9HU7lA7AvAlHqseXMUok-61NQYeRFPXLtY_RvtFXJlynDZW6CuC0-i_6rR35_XOW9iihgxg67ZuZtswBQ249hmvUFXC_e54YNzje&gsessionid=qHjo-1FJNq5ZQsSNkF8Uwe5ANHBkJxoc-0NPI_M3jRLAOrskGypVsQ",
+      "title": "Higgsfield MCP + Claude Just Changed Marketing Forever!",
+      "position": 4,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXCG-V8D4IN12ds6XxhScJxHrNJjJyBzjwFTt2ofo41UinkZm5UiXTazzacw7tRBKAVL9p95uZZy4PQbrDFtmC-qHEqnJsatVd8IVYy7FHQ7jUA_vf60UfJfrpfgWMbZ3X7lbg&gsessionid=qHjo-1FJNq5ZQsSNkF8Uwe5ANHBkJxoc-0NPI_M3jRLAOrskGypVsQ",
+      "title": "What's new in Higgsfield: releases, improvements, and fixes",
+      "position": 5,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAEShwEBxCJF19OnNAgI8lz2nGTmHx8wH7iIhd1RZjb6HdTKZLotdS7bhPUlFEy7So2u2nozIVoFdhOZN-NetPZKeQlvYGIplquAS80Ur9BA2-rxUOcHv8cI_hOwDKOhCsPc8VuvhmbazfqgQRgvyUDFM4qgTXzYttz1VUebu1hbPtrvESkQQBPQkpY&gsessionid=qHjo-1FJNq5ZQsSNkF8Uwe5ANHBkJxoc-0NPI_M3jRLAOrskGypVsQ",
+      "title": "Higgsfield MCP: What It Is and 10 Integration Ideas",
+      "position": 6,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAEScAHEIkXX8Wp6wnPGMjA3jGUSz3-B3C9VIhGyblgUBCYH2ZzFRa9yWbTGu2pt8uMf553-BYZsojqAlLI01lrmJfJRc4e7IOgnwOimABo1TKzrK8CDhKUIpBIinVYf0OhRZAp1-vAkPRoSLwHLgyBNAr4&gsessionid=qHjo-1FJNq5ZQsSNkF8Uwe5ANHBkJxoc-0NPI_M3jRLAOrskGypVsQ",
+      "title": "Start your free 72-hour Higgsfield MCP trial with unlimited ...",
+      "position": 7,
+      "kind": "tool"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESYwHEIkXXV6YcrK1FCBcJtoXj1rapQXyTmUAznJ1uJkhmX3rlBx3AJXA4xaOoF3npHbmn1cUOOa_c7zkUe8Vh-j7JEs6qUg3VgPW-zxAGHDPlQDArhOmKwY7X6ayznsuD5OHzUw&gsessionid=qHjo-1FJNq5ZQsSNkF8Uwe5ANHBkJxoc-0NPI_M3jRLAOrskGypVsQ",
+      "title": "Higgsfield MCP for AI Image and Video Ads",
+      "position": 8,
+      "kind": "article"
+     }
+    ],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/8",
+   "vacuum_hits": 0,
+   "vacuum_total": 8,
+   "vacuum_breakdown": {
+    "社媒/论坛": 0,
+    "代码仓/模型库": 0,
+    "视频": 0,
+    "资讯/评测": 0
+   },
+   "dedicated_sites": [],
+   "vacuum_evidence": "已有 8 个垂直博客抢占（google.com），社区占比 0/8",
+   "tool_intent": false,
+   "kdroi": null,
+   "small_sites": 0,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "MCP Server 配置生成器、Claude/Cursor 接入教程与目录导航页",
+   "domains": [
+    {
+     "domain": "higgsfieldmcp20.com",
+     "available": true
+    },
+    {
+     "domain": "higgsfieldmcp20ai.com",
+     "available": true
+    },
+    {
+     "domain": "tryhiggsfield.com",
+     "available": false
+    },
+    {
+     "domain": "higgsfieldmcp20.ai",
+     "available": true
+    },
+    {
+     "domain": "higgsfieldmcp20ai.ai",
+     "available": true
+    },
+    {
+     "domain": "higgsfieldmcp20.io",
+     "available": true
+    },
+    {
+     "domain": "higgsfieldmcp20ai.io",
+     "available": true
+    },
+    {
+     "domain": "higgsfieldmcp20.org",
+     "available": true
+    }
+   ],
+   "available_domains": [
+    "higgsfieldmcp20.com",
+    "higgsfieldmcp20ai.com",
+    "higgsfieldmcp20.ai",
+    "higgsfieldmcp20ai.ai",
+    "higgsfieldmcp20.io",
+    "higgsfieldmcp20ai.io",
+    "higgsfieldmcp20.org"
+   ],
+   "failed": [
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "gemini 4 neon",
+   "source": "书签X·建站热词",
+   "names": [
+    "Gemini 4 Neon"
+   ],
+   "evidence": "免费 x search_posts_all 官方账号检索；播放 632,593、收藏 843、赞 8,199。建议不等于批准立项；Semrush/Trends 待本轮优先核验。本条未做视频画面核验。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": true,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {
+     "list": 6
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "discussions_and_forums",
+     "images",
+     "perspectives"
+    ],
+    "top": [
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com"
+    ],
+    "items": [
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESoQEBxCJF14l8TTtTUW-9kZWPa3dIKR2BAmlbWgtxCPKf8gogf37GI_aqvgsjChi5XNyjf4cHHMUBEYnNhZoj6LOr7-mnC3wrQl4-n_SWeA4zWqot8P2MiT2mcqLShwDtdVmyYWiLMOQMm6TqSkzj7vQr1ipQW-iEG9tPDr1ljjhmfgjLxtKgPQzb4ILWaJ_qulLKo8crQ8p-6dBmJlEYDIgA4w&gsessionid=Bb58VnKjPxrKw5nsbTrZY8pqxwpPomlac2Hn8HJ5PuD62Srj6zwq-w",
+      "title": "Google launches Gemini 4 Carbon with a 'significant leap ...",
+      "position": 1,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXkTaYKcjYgvLXtq41Y1-zoIDhhp-Ndrk7h4e0Q0JWwOfdjpUF8NC7pNvCDYNnUvmy4vTOn9EG_LTAZyPE7g4wABCW4_518jF2FmU9dGOdz8XwUcw5Zj5SpBwIcftJhCI0QZBO&gsessionid=Bb58VnKjPxrKw5nsbTrZY8pqxwpPomlac2Hn8HJ5PuD62Srj6zwq-w",
+      "title": "Gemini 4 Carbon Launches - Gradient Pulse Special Ep. 13 (28 ...",
+      "position": 2,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXX63I19Ogp-aUVq54fNX_jKOJFPX3srCyf1ZgQ4W3mb3ClPkm-5kSyY_yFrihMAJKn50SLs8YSzYtBq1mSZtiPF8tzfaX3cKTMVyMYieoKCk1bJxsLtQJic7KsJCrfwG4yCce2&gsessionid=Bb58VnKjPxrKw5nsbTrZY8pqxwpPomlac2Hn8HJ5PuD62Srj6zwq-w",
+      "title": "Gemini 4 Argon: 1 Million Tokens in One Answer! Full Details ...",
+      "position": 3,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESowEBxCJF14oKMP8QgvEeccnUS5UnbOt_Lg2yRYhiWB_DJ2sSnXNAvCwDjHbCAuC-0QBJUUM9k2QqqZ50MaP_vu0vlreZ9RnJ60OxmukiRDBP8MdA5TgKjpNRsGS1epXv4UbKE6ft1TNcf84fzMtMGJ9sZnVgG8bAmlbrhz70Am0mezC1EltjrQqej8Cz9JibrTFR2igCD5nGpwgGz7CDsfP5QiMr&gsessionid=Bb58VnKjPxrKw5nsbTrZY8pqxwpPomlac2Hn8HJ5PuD62Srj6zwq-w",
+      "title": "Google launches Gemini 4 Argon in push against AI rivals",
+      "position": 4,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXfYGq8ERIcjMv90504XiYpUOCO9uxil0ENQETIxz9a5VryRWVOhP0tYbA91QIp4TXC5j9t1CQTKwAtfOBDTRCL3P49e62_ONT-b_vHD-PacL5HXVRBC4ztcJKr7JtlxZgeEzS&gsessionid=Bb58VnKjPxrKw5nsbTrZY8pqxwpPomlac2Hn8HJ5PuD62Srj6zwq-w",
+      "title": "Gemini 4 Is #1 — But You Can't Use It Yet",
+      "position": 5,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESfQHEIkXXrBrWtNpIEVB-X5PSmDdlAX5yb9n3FkIN0vLw1h9sWqOtDI-e5AD5y7Z_LTogIbcnoGfWwC8YFKb1w_7vRN74m7ArpL0i1cE3_4c1ICpPvc5YMbxlsdt3rSFXWvCsgD2qwW2XvLKMgW0q8QQy7Iwr1yApb4PoVgsJ&gsessionid=Bb58VnKjPxrKw5nsbTrZY8pqxwpPomlac2Hn8HJ5PuD62Srj6zwq-w",
+      "title": "Google Releases Gemini 4 Argon, Its 'Most Powerful Model Yet'",
+      "position": 6,
+      "kind": "list"
+     }
+    ],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/6",
+   "vacuum_hits": 0,
+   "vacuum_total": 6,
+   "vacuum_breakdown": {
+    "社媒/论坛": 0,
+    "代码仓/模型库": 0,
+    "视频": 0,
+    "资讯/评测": 0
+   },
+   "dedicated_sites": [],
+   "vacuum_evidence": "已有 6 个垂直博客抢占（google.com），社区占比 0/6",
+   "tool_intent": false,
+   "kdroi": null,
+   "small_sites": 0,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "gemini4neon.com",
+     "available": false
+    },
+    {
+     "domain": "gemini4neonai.com",
+     "available": false
+    },
+    {
+     "domain": "trygemini.com",
+     "available": false
+    },
+    {
+     "domain": "gemini4neon.ai",
+     "available": true
+    },
+    {
+     "domain": "gemini4neonai.ai",
+     "available": true
+    },
+    {
+     "domain": "gemini4neon.io",
+     "available": true
+    },
+    {
+     "domain": "gemini4neonai.io",
+     "available": true
+    },
+    {
+     "domain": "gemini4neon.org",
+     "available": false
+    }
+   ],
+   "available_domains": [
+    "gemini4neon.ai",
+    "gemini4neonai.ai",
+    "gemini4neon.io",
+    "gemini4neonai.io"
+   ],
+   "failed": [
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "genie 4",
+   "source": "书签X·建站热词",
+   "names": [
+    "Genie 4"
+   ],
+   "evidence": "免费 x search_posts_all 官方账号检索；播放 160,278、收藏 405、赞 2,099。建议不等于批准立项；Semrush/Trends 待本轮优先核验。本条未做视频画面核验。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": true,
+   "overview_ok": true,
+   "volume": 140,
+   "cpc": 0.0,
+   "comp": 0.01,
+   "results": 160,
+   "kd_ok": true,
+   "kd": 69,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {
+     "article": 6
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "perspectives",
+     "related_searches",
+     "short_videos",
+     "video"
+    ],
+    "top": [
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com"
+    ],
+    "items": [
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAEShwEBxCJF1yhnADTLuWh_mbNNAZa9nyrMTa_LIiHF0mvEKUcH2tX8jwdv7UjM0Vf6CWKh4dEtcIBL0ycKWKlTc-TEtGNKB56sVPuBwNW2u27PfARravpUxRs5VqZSn573L6v7liTc7qERhCwQqcOOVYrHk0cvoZDjwWR_WD3sGf5Koghmkg36lAQ&gsessionid=x4gWr3BRoEFYWzn6g0hg7WVBNYc9ooYl0k3V9SyS5hxWAFCo5X4HXw",
+      "title": "Genie 4: A new generation of world simulation",
+      "position": 1,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESYgHEIkXXz0IkR-ku1QJIHCwdlNacWhJBsOIip9M2u8hirx2yw-SLyEWUx8x63hfAQUnFfoWdYOsZetOzfcxKYkzSHvE5D8i5nrD-D0I-mfJWrWCMYREAQvpjcpQMRkKaKiuK&gsessionid=x4gWr3BRoEFYWzn6g0hg7WVBNYc9ooYl0k3V9SyS5hxWAFCo5X4HXw",
+      "title": "Genie 4",
+      "position": 2,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESmwEBxCJF1z5TZXYk-A7NrMulmas5l4ls4DuX_JbWByM6lTnRtvGUEGcUe18P8zDyw9-dF_NV4yE5NBonq_e2hQl6u7ttl43KP-z0r2GU_Y94CCkLTsK38xmDuE6g5qAcsqX061oGdow5zggyLhA-rCO5KmZiuToCvwrKy4Hohi-5Vsu4oj2ZDH86gXvH4A-NDSGzo8H9N3AzaRoRUg&gsessionid=x4gWr3BRoEFYWzn6g0hg7WVBNYc9ooYl0k3V9SyS5hxWAFCo5X4HXw",
+      "title": "We're announcing Genie 4, our new world model for real- ...",
+      "position": 3,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESdgHEIkXXsLOozuKcxSAUykLrMXWrJP2WFOH4hCsRzdoG1AVtXxc4xnWFy03KekEFpE_HeOTRnb8ot9YlgxylMFqvWxrdcBL8mLMTGlmhPRytuE7Vz4Y61m587ABw7P76zXQW42uR7l_UVgwMft0Kbg75aea6iNk&gsessionid=x4gWr3BRoEFYWzn6g0hg7WVBNYc9ooYl0k3V9SyS5hxWAFCo5X4HXw",
+      "title": "Google Genie 4: Hands-On With the New AI World Model",
+      "position": 4,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESYgHEIkXXUVrzloh80pXHXG0sLBNXpWlKgsEGvbrP2n8FGlJQaemAqbejUuDDz20ftPGFr8xHlCj1VNBsgiS56QSqEGSsQgF2Sr7wKoP7CbNWgLvv7VMP0i6fl_zBOAyvR4yQ&gsessionid=x4gWr3BRoEFYWzn6g0hg7WVBNYc9ooYl0k3V9SyS5hxWAFCo5X4HXw",
+      "title": "Genie 4: Google DeepMind's New Real-Time World Model",
+      "position": 5,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESlAEBxCJF10cqWbz0R5og1h0Rr3vE_WZkhX_yQguAj5HEcjwMAZSUG3Bm6IzX3QiTeHwqKyjJh7bEvgzk89gRRBF9iWqhXslbCuQGKFir_IxJBw0hv_LY03wrbStOSoSAl29jtYzpF66h7B0dTcnrCZ_cTRdSjU0OY7yQkwiz3FmvTvl832KMw6tg8MpBcKhZvANDk3sp&gsessionid=x4gWr3BRoEFYWzn6g0hg7WVBNYc9ooYl0k3V9SyS5hxWAFCo5X4HXw",
+      "title": "Google Genie 4: Uses, Limits, and Availability",
+      "position": 6,
+      "kind": "article"
+     }
+    ],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/6",
+   "vacuum_hits": 0,
+   "vacuum_total": 6,
+   "vacuum_breakdown": {
+    "社媒/论坛": 0,
+    "代码仓/模型库": 0,
+    "视频": 0,
+    "资讯/评测": 0
+   },
+   "dedicated_sites": [],
+   "vacuum_evidence": "已有 6 个垂直博客抢占（google.com），社区占比 0/6",
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "small_sites": 0,
+   "checks": {
+    "月搜": false,
+    "KD": false,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 19,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "genie4.com",
+     "available": false
+    },
+    {
+     "domain": "genie4ai.com",
+     "available": false
+    },
+    {
+     "domain": "trygenie.com",
+     "available": false
+    },
+    {
+     "domain": "genie4.ai",
+     "available": false
+    },
+    {
+     "domain": "genie4ai.ai",
+     "available": false
+    },
+    {
+     "domain": "genie4.io",
+     "available": false
+    },
+    {
+     "domain": "genie4ai.io",
+     "available": true
+    },
+    {
+     "domain": "genie4.org",
+     "available": false
+    }
+   ],
+   "available_domains": [
+    "genie4ai.io"
+   ],
+   "failed": [
+    "月搜",
+    "KD",
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "mistral vibe",
+   "source": "书签X·建站热词",
+   "names": [
+    "Mistral Vibe"
+   ],
+   "evidence": "免费 x search_posts_all 官方账号检索；播放 175,752、收藏 759、赞 2,333。建议不等于批准立项；Semrush/Trends 待本轮优先核验。本条未做视频画面核验。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": true,
+   "overview_ok": true,
+   "volume": 480,
+   "cpc": 6.36,
+   "comp": 0.07,
+   "results": 0,
+   "kd_ok": true,
+   "kd": 47,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {
+     "article": 4,
+     "list": 2
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "discussions_and_forums",
+     "knowledge_graph",
+     "people_also_ask",
+     "perspectives",
+     "related_searches",
+     "video"
+    ],
+    "top": [
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com"
+    ],
+    "items": [
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESnAEBxCJF10jmN_34qmSCsa4xzHwC5WHV_BEBYHAmIEpRqiXN2Z0_pdDqDOMlFfEY5z-dRHdj99U1tAo7J99sTIEWBrvXZfOFfu7VWkXzzTCKXQCxGv87Bw9tTJMP-X1aYiYw4NzwYr_obxN8YJm18_hZFQUJSpGw_6k13ado9U-k9OlbNhKk6QI4CBqe72AX_3CWzg4gVpWxaSMS1VY&gsessionid=t7BSZJUL2y223nbk2-zQzt7O4JtxkxPVKXbZ-A5mNB97bxv5ycVlmA",
+      "title": "Mistral AI surfs vibe-coding tailwinds with new coding models",
+      "position": 1,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESiQEBxCJF1ytknHF8h1cuTOdH45gQMiISbEVCqWMCmaBi6e_6nw8dEIL8PE1xJ6g9oEpscTnxG-g_F8b0wEXFMRo2FV_NOmZUU2UJwZ4-X9DAYGioeg74NMJaiwZjuhXc558-NrCEbjwYde-h3gNfwr8ewVxkW68WKyrZoq33Yu3hm4GrHQtO2QBYwA&gsessionid=t7BSZJUL2y223nbk2-zQzt7O4JtxkxPVKXbZ-A5mNB97bxv5ycVlmA",
+      "title": "Mistral Vibe vs Vix",
+      "position": 2,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESfwHEIkXXEpXqTqvx25b1IlXGPKvG_5w7UGYcLj6gme91633yJ4K0mt3fjq36plrPX-bk5J1slIs7uWXc5kJRMjguN2E4KLEvkUUlumjUPFTL2OQcANnanVg-G76ktrWMDoI8-iJXkBjGIRhfH36otKI4UbJuDOY-FLK79Z93gN4&gsessionid=t7BSZJUL2y223nbk2-zQzt7O4JtxkxPVKXbZ-A5mNB97bxv5ycVlmA",
+      "title": "Codestral vs. Mistral Vibe Comparison",
+      "position": 3,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESawHEIkXXjtzrxpG9zTh4d6eK7zl_ufHbks-uO5_CwZ3D_sUsC6m5CR2xnMcrj_w48lB83xXcGA8k7zgQBNdQLFcrEJAhNtiphz-N_9q1waUiamQ231ZUTsQoLT0--GsNwom7v7znCTEMfURR&gsessionid=t7BSZJUL2y223nbk2-zQzt7O4JtxkxPVKXbZ-A5mNB97bxv5ycVlmA",
+      "title": "Mistral Vibe (formerly Le Chat): A Practitioner's Field Guide",
+      "position": 4,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESlQEBxCJF1xAhXIaxruu7mNs3JeIsj75cmGk7h6ay-ldGPhtPDUdoWNTW5LoyFCC2Ebrv-3jO1hfledoj1k63vUYOmzvy9aJpHdl1VKjJzxKsB4R1oQW40moi9HyJyjKvvBMGENo0CSs4kWhysiFIxuuaZz-gOKYU2u8266oMUQkRpYDNCqp0XL-HDIyrj1s5RUtA_d0yxw&gsessionid=t7BSZJUL2y223nbk2-zQzt7O4JtxkxPVKXbZ-A5mNB97bxv5ycVlmA",
+      "title": "Mistral releases Devstral2 and Mistral Vibe CLI",
+      "position": 5,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaQHEIkXXAYQEwrxmIsfteXS1dJD062BTZf8lxUtW5vYq_q4mUBrMBW8i3wuu-WVZpQ56-L_EIWVOUA4PJgS0A6h7UoAf7C4X54u_W878MpEIoFC4zcFwlHFsSeOCu7UvzQ3bkTfxNECScw&gsessionid=t7BSZJUL2y223nbk2-zQzt7O4JtxkxPVKXbZ-A5mNB97bxv5ycVlmA",
+      "title": "Mistral Launches Vibe 2.0",
+      "position": 6,
+      "kind": "article"
+     }
+    ],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/6",
+   "vacuum_hits": 0,
+   "vacuum_total": 6,
+   "vacuum_breakdown": {
+    "社媒/论坛": 0,
+    "代码仓/模型库": 0,
+    "视频": 0,
+    "资讯/评测": 0
+   },
+   "dedicated_sites": [],
+   "vacuum_evidence": "已有 6 个垂直博客抢占（google.com），社区占比 0/6",
+   "tool_intent": false,
+   "kdroi": 65.0,
+   "small_sites": 0,
+   "checks": {
+    "月搜": false,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 45,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "mistralvibe.com",
+     "available": false
+    },
+    {
+     "domain": "mistralvibeai.com",
+     "available": true
+    },
+    {
+     "domain": "trymistral.com",
+     "available": false
+    },
+    {
+     "domain": "mistralvibe.ai",
+     "available": false
+    },
+    {
+     "domain": "mistralvibeai.ai",
+     "available": true
+    },
+    {
+     "domain": "mistralvibe.io",
+     "available": true
+    },
+    {
+     "domain": "mistralvibeai.io",
+     "available": true
+    },
+    {
+     "domain": "mistralvibe.org",
+     "available": false
+    }
+   ],
+   "available_domains": [
+    "mistralvibeai.com",
+    "mistralvibeai.ai",
+    "mistralvibe.io",
+    "mistralvibeai.io"
+   ],
+   "failed": [
+    "月搜",
+    "KD",
+    "首页竞争"
+   ],
+   "unknown": [
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "gubby",
+   "source": "书签X·AI新品",
+   "names": [
+    "Gubby"
+   ],
+   "evidence": "免费 x 游戏检索交叉证据，互动低，不列入看板 keywords 主力；待游戏榜/三平台核验。未做视频画面核验。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 49500,
+   "cpc": 0.0,
+   "comp": 0.01,
+   "results": 0,
+   "kd_ok": true,
+   "kd": 38,
+   "verdict": "mixed",
+   "comp_detail": {
+    "kinds": {
+     "article": 7
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "images",
+     "people_also_ask",
+     "related_searches",
+     "short_videos"
+    ],
+    "top": [
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com"
+    ],
+    "items": [
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESZwHEIkXX7-iqJQT_RthuLhrp_58Qp2fcphRczWurHb3bUhWr4s-w5dOIvwovhO4nLN5AH3oqfnMK03LBViQ_pBX1pHHocVkFqrAZIGBO9489MfFaqATB2Ms7rFrnIaSFpBWdWy4cGOs&gsessionid=EajPIoXvZfsSTuF8xY_V7r1_qA_V0tRHcap2kejw-jncPPJXRfP18g",
+      "title": "𝚐𝚘𝚘𝚋𝚢...? #idk",
+      "position": 1,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESZwHEIkXXRnvW7z3DoaWI5s_EtouFzT80Iq7y4-NSg8n81C1NIU8WMb-Z72ifdn3Kgie1kdEySzP6GwwXobeYoH9MTq1BD_mT1y9EYyo4NQTQAzrVy3X2pLUTF9bCUWB0TsXkqG2V930&gsessionid=EajPIoXvZfsSTuF8xY_V7r1_qA_V0tRHcap2kejw-jncPPJXRfP18g",
+      "title": "Is that gubby",
+      "position": 2,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESZwHEIkXXX_Tf1hbd01xuv8hy4w4hJllRl47vvhB0jSu3-WEje4FLlrPUxreX-42F8eE5gUtdtncqrt0QGJK2RWtw52pFVCwJGoWdXnNdRHKi0jqiH06Chf8uJL_6DCo9MFfRcmwQRx8&gsessionid=EajPIoXvZfsSTuF8xY_V7r1_qA_V0tRHcap2kejw-jncPPJXRfP18g",
+      "title": "Why are the gubbies being mistreated?",
+      "position": 3,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESZwHEIkXXSDjbt2kAGtKRId__3DixPmdc_pTJVJN3E2FGt2qkAfJKyFS5oOh7fZ9fe7JZgbhRmOchOzBa32c0H7WhgcNDAPU6i6tsBYI7rE0aZt399lg1iR95oCs0zcOgYoTj3T3wQnk&gsessionid=EajPIoXvZfsSTuF8xY_V7r1_qA_V0tRHcap2kejw-jncPPJXRfP18g",
+      "title": "RELEASE THE GUBBYS #funny #memes #roblox",
+      "position": 4,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESZwHEIkXXc3MaYngRNtNt2wXKuuXDLp17DCSz7kdUiMg9gyBP3uYqagTkkpVafs6cNEttHeIKBw4sEmslHW7bFKeGREvtZ-Sa2AtE8uFFVDn3vMu9VeS6q0PNFNRzWO1otzAZwDlm7rg&gsessionid=EajPIoXvZfsSTuF8xY_V7r1_qA_V0tRHcap2kejw-jncPPJXRfP18g",
+      "title": "Gubby this Gubby that",
+      "position": 5,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXUDXo4BGa4lifvFKKReaXReigJSY-6elaGQ5ITcQ3zh24FWvtABe9hy3BmimaW4wWy-lK886QgEChcJXt33DV0BHQwEH8zbaZsKmt435yrml0jYeL5XJT1gPJvwVonzjo2g8e&gsessionid=EajPIoXvZfsSTuF8xY_V7r1_qA_V0tRHcap2kejw-jncPPJXRfP18g",
+      "title": "Little Angel 19 - Coffin Dance Song (COVER)",
+      "position": 6,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESZwHEIkXX1YCds5H8lauGeviF1xXaLg-6WLYSdsBRBF7GtVwTFi0xBA_tZq_6ltPZ8TB88UTqWZ_FGYabkdsyAxF5OQHn8tH2G3O3S7veaQZ85qemexPT-jxv80nrWyV8dPjITLFzY5M&gsessionid=EajPIoXvZfsSTuF8xY_V7r1_qA_V0tRHcap2kejw-jncPPJXRfP18g",
+      "title": "Is that a gooby #gooby #gubby",
+      "position": 7,
+      "kind": "article"
+     }
+    ],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/7",
+   "vacuum_hits": 0,
+   "vacuum_total": 7,
+   "vacuum_breakdown": {
+    "社媒/论坛": 0,
+    "代码仓/模型库": 0,
+    "视频": 0,
+    "资讯/评测": 0
+   },
+   "dedicated_sites": [],
+   "vacuum_evidence": "已有 7 个垂直博客抢占（google.com），社区占比 0/7",
+   "tool_intent": false,
+   "kdroi": 0.0,
+   "small_sites": 0,
+   "checks": {
+    "月搜": true,
+    "KD": false,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 63,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "gubby.com",
+     "available": false
+    },
+    {
+     "domain": "gubbyai.com",
+     "available": true
+    },
+    {
+     "domain": "trygubby.com",
+     "available": false
+    },
+    {
+     "domain": "gubby.ai",
+     "available": false
+    },
+    {
+     "domain": "gubbyai.ai",
+     "available": true
+    },
+    {
+     "domain": "gubby.io",
+     "available": false
+    },
+    {
+     "domain": "gubbyai.io",
+     "available": true
+    },
+    {
+     "domain": "gubby.org",
+     "available": false
+    }
+   ],
+   "available_domains": [
+    "gubbyai.com",
+    "gubbyai.ai",
+    "gubbyai.io"
+   ],
+   "failed": [
+    "KD",
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "mira science",
+   "source": "书签X·AI新品",
+   "names": [
+    "Mira Science"
+   ],
+   "evidence": "免费 x 发布检索（min_likes 操作符会被 API 去掉，已在本地按赞≥500 过滤）；播放 2,188,171、赞 3,886。建议不等于立项。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": 0,
+   "cpc": 0.0,
+   "comp": 0.05,
+   "results": 0,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {
+     "article": 8,
+     "tool": 1
+    },
+    "ads": false,
+    "features": [
+     "ai_overview"
+    ],
+    "top": [
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com"
+    ],
+    "items": [
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESUgHEIkXXnVgBxr7JVka2FIjq2MJohfRs5hXxnuyKl41q4VAJdEbuo6KgDoJFasiJHf8H-5PiqtnWmBnND2s-zvNoGZAkXSw_LtM3mZ6SnPWXUiQ&gsessionid=t5XN_QOAR3hdTnGwEKIN-6C2TKOmK2Kxd1rinBPc1KruHLc72t9cpw",
+      "title": "MiraLabs",
+      "position": 1,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXQmxSQQULVEUHFp_aawqQqMVhMpMwneCdWFrGoTvd0nif91KfSM-PJgD4gWMRALftjpCZpPQEJe550KdO_zJL-sDYVZTCeRLiI6vIrfsAUdFZHvhfOtmOm2hh1ljbDmB0LZ8s&gsessionid=t5XN_QOAR3hdTnGwEKIN-6C2TKOmK2Kxd1rinBPc1KruHLc72t9cpw",
+      "title": "your AI breaks the ice",
+      "position": 2,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAEShQEBxCJF1zsxGVIsq3dSCtl28frPAGLF8ik9Me6lHG2C_yw6jZBL5MmmpZ-aR_xIAl4ukhN2jiDfxAAnCNuf4hmDrlUJZojXkMPJnoebBl4SEG05GvPxqFlYC1rSHybRzzxhUnNiQIMBRAx6QB1-1-gXVtEVS_dYCdJWyqyvGCotkfldKNA1&gsessionid=t5XN_QOAR3hdTnGwEKIN-6C2TKOmK2Kxd1rinBPc1KruHLc72t9cpw",
+      "title": "What Is Mira (MIRA)? Everything You Need To Know | CotiNews",
+      "position": 3,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESrQEBxCJF109gMHw1RaLZh-Bm7Qg9fcmK5_avK0Oh3AirV1ceZUMRyYRch_yPCLuhcDURweclvPf12dWj0TKnWmMcha0L_nN5ucS4zshPhfoEQ_8FYo1h-mF61gncEuBTDH7o4oyAxFs0kTWF6ACyRR0fSFpiSkBRl5kA1epxt-49ixXlBHiSQqsqWyP2mxdxAHY31H_9BVYG82xzmJB_5ArDPQilJvj3iB4D3ZM6Kg&gsessionid=t5XN_QOAR3hdTnGwEKIN-6C2TKOmK2Kxd1rinBPc1KruHLc72t9cpw",
+      "title": "Unlocking the Future: How Mira is Revolutionizing ...",
+      "position": 4,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESyAEBxCJF1-dLkfoZ4BzJs1TlVGUXj_LYl7I_MUpzpOCwU5tdUtzgSrWH4RbS1GFqvLuVJph9Jpc1a__VBMT1Tjx_aqNsXhtDKpz1YMJKEffmGrGdf27LqyysFJ-c_RA6lI7e4wu7_QPmlZXxcrXBoHsOk-6zRSnc_-okDTfNZCo4Dd0_Amka_adZ3njUw57wWMb6-VlvFth7P4hcQ62EfpdPNIuyzwSmcA5toJoWydwZ7VOFEqMyvHap6_55j9nnPujnkb4syA7u2A&gsessionid=t5XN_QOAR3hdTnGwEKIN-6C2TKOmK2Kxd1rinBPc1KruHLc72t9cpw",
+      "title": "Mira AI Scientist's Post",
+      "position": 5,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESXgHEIkXXQojZU-iN4Wsl9JmXLgerkmljl-MpwrPJfVx1uRP-DBHaHcz0I0KS3VU0r2DUSfhPuFhsZufYBkgpfzV7-ZTvam51Fsrqv5xlDmB-1Wttbkn1Xq4wb5UHrP8&gsessionid=t5XN_QOAR3hdTnGwEKIN-6C2TKOmK2Kxd1rinBPc1KruHLc72t9cpw",
+      "title": "What we do - MIRA WELLBEING NETWORK MWN",
+      "position": 6,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESvgEBxCJF13mQhCB0P8Dy-USl8Vq9S3azajmIIbZENkapCht8s9Q-HEYTC2pUMCv7vUSKriUpIsbIquGCsUZwjVtSqnj4Gm7gWFJTPatdFiBk8Xzp_kf8rUVpvcbxeN_9iftV1ui2SvuU1Mus19HyUTdV_jFptRTX5OjJN1zAGhO8SO3ILi-zq-lVROGg-UXdlGej5uB4RWoqaptmjJ8xjcKGYodPSFxbYxMNQnhCJojEWN7rf9iOrcc_Djlq7RbJ&gsessionid=t5XN_QOAR3hdTnGwEKIN-6C2TKOmK2Kxd1rinBPc1KruHLc72t9cpw",
+      "title": "What Is Mira Network (MIRA)? Exploring the Decentralized AI ...",
+      "position": 7,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESXwHEIkXX3dL2sPScROW2CcG7DWHJhtKAWyTv5yCYg49b1ey7wiD0MCNx9Sf13RDhQKDB2MNXz3f6Hzg4she7LTcoHaobBQdqxTO0uxTASjCCoj8HVDXv79RNV-K0aRTT&gsessionid=t5XN_QOAR3hdTnGwEKIN-6C2TKOmK2Kxd1rinBPc1KruHLc72t9cpw",
+      "title": "miraAI",
+      "position": 8,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESWQHEIkXXdtZ3Gd2-D6U0pcJCBh9nZF3aSkTOs-3r284rxSBZOw3mYpiLHS32fbQJ7PRapgAsfPg9_MMxHC2PVcG4MU4F1G-f0bWWAE_uxxtkTovTUxUH0kVs&gsessionid=t5XN_QOAR3hdTnGwEKIN-6C2TKOmK2Kxd1rinBPc1KruHLc72t9cpw",
+      "title": "MIRA Online Learning System",
+      "position": 9,
+      "kind": "tool"
+     }
+    ],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/9",
+   "vacuum_hits": 0,
+   "vacuum_total": 9,
+   "vacuum_breakdown": {
+    "社媒/论坛": 0,
+    "代码仓/模型库": 0,
+    "视频": 0,
+    "资讯/评测": 0
+   },
+   "dedicated_sites": [],
+   "vacuum_evidence": "已有 9 个垂直博客抢占（google.com），社区占比 0/9",
+   "tool_intent": false,
+   "kdroi": null,
+   "small_sites": 0,
+   "checks": {
+    "月搜": false,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "mirascience.com",
+     "available": false
+    },
+    {
+     "domain": "mirascienceai.com",
+     "available": true
+    },
+    {
+     "domain": "trymira.com",
+     "available": false
+    },
+    {
+     "domain": "mirascience.ai",
+     "available": false
+    },
+    {
+     "domain": "mirascienceai.ai",
+     "available": true
+    },
+    {
+     "domain": "mirascience.io",
+     "available": false
+    },
+    {
+     "domain": "mirascienceai.io",
+     "available": true
+    },
+    {
+     "domain": "mirascience.org",
+     "available": false
+    }
+   ],
+   "available_domains": [
+    "mirascienceai.com",
+    "mirascienceai.ai",
+    "mirascienceai.io"
+   ],
+   "failed": [
+    "月搜",
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "aion 2",
+   "source": "看板X",
+   "names": [
+    "AION 2"
+   ],
+   "evidence": "",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": true,
+   "overview_ok": true,
+   "volume": 22200,
+   "cpc": 0.07,
+   "comp": 0.01,
+   "results": 124,
+   "kd_ok": true,
+   "kd": 30,
+   "verdict": "mixed",
+   "comp_detail": {
+    "kinds": {
+     "article": 2,
+     "list": 5
+    },
+    "ads": true,
+    "features": [
+     "ai_overview",
+     "knowledge_graph",
+     "perspectives",
+     "related_searches",
+     "video"
+    ],
+    "top": [
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "play.google.com",
+     "google.com",
+     "google.com"
+    ],
+    "items": [
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESYgHEIkXXf-oAV_vgqejMhdE62JvVOI9jhS5JOtF8rLxgaV7id6pnswAe2eWUUDg5NM9wFoDFCliLv_UBy066dlC2_ysqOSAjT2_GzDteY9quvvg1roBRtXhwz-tPuGv_8rof&gsessionid=8kicfHxMH0T5wgMTdev6BrM3POuJWio9Nrxf6kbhZv6d-_m_mNVxGw",
+      "title": "AION 2 - Mobalytics Gamebase",
+      "position": 1,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXzqOuAnaIqt2daMpU8OrjQAb6G79O_znT3w5VDza8sBo0uNEr0ApX5SycqQLucGeirg0PIuYdqT9CM6uWbeorxyzVImDQvPuTKKwp6TmuZwBcV_rkwZJzC0fyTOM87SdNLQp4&gsessionid=8kicfHxMH0T5wgMTdev6BrM3POuJWio9Nrxf6kbhZv6d-_m_mNVxGw",
+      "title": "AION 2 Dev Gameplay: Fire Temple Dungeon (Global Version ...",
+      "position": 2,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXsTxl0tATZ6YIE8LoB1m_qhs2WLf2dfd_fbwX5nHq4KOn4kYNs2bBLYHJ0-NM683zb7b-WEOF3oTuiVWHKndDTGjTtiVW0WBZHul-B9h9Gm6qTD7BP0PZ7-y-qWknvSqMiTkl&gsessionid=8kicfHxMH0T5wgMTdev6BrM3POuJWio9Nrxf6kbhZv6d-_m_mNVxGw",
+      "title": "AION 2 The Truth About Subs! - P2W or Worth It? True Price & ...",
+      "position": 3,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXrSGrhHcW5S6Izei75YMmMPA6WqdiQM7ZMS6ZzOrYTls7AgfBXwO86kJvTobHI4zWJP_o0Ts0XLmx0uhGApOA2_iLNRL0SllrsBdtXt3qTEs74BPoirqVhKcQcAAzgh9wCQ4f&gsessionid=8kicfHxMH0T5wgMTdev6BrM3POuJWio9Nrxf6kbhZv6d-_m_mNVxGw",
+      "title": "AION 2 Gameplay and Full Pre-Review from Veteran AION Player",
+      "position": 4,
+      "kind": "list"
+     },
+     {
+      "domain": "play.google.com",
+      "url": "https://play.google.com/store/apps/details?id=com.ncsoft.aion2&hl=en_US",
+      "title": "AION2 - Apps on Google Play",
+      "position": 5,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESfwHEIkXXIc9zJ6j-5U4HN4F6Qo3wWqQeuRXNm6JmCIpLk4OfPgWPCGFSFGHD6VRuScR7q3QTtHDxlExxco8BHKRYjqvxS9fw4Wl3AdVOGwN7E3SQNRQHUEOISG3LzjBORMEyS0EyIGeEg4nR-9kSYkHV_y96gpnqSVi41MCk3_s&gsessionid=8kicfHxMH0T5wgMTdev6BrM3POuJWio9Nrxf6kbhZv6d-_m_mNVxGw",
+      "title": "Aion 2 is an MMO for character creation enthusiasts, and it ...",
+      "position": 6,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESdgHEIkXXE62zgeNKoRkBnLepCpd4xGzcHG8BrscSgsUlCRlAUb8XMW3h8E4ErCie1lwjxymB3tUew7GsPrwhOOo5VteEJa4yIAWjsQDP55xXJngdLMCl7j64WonbqJLdxo3fQBPK8pT7_K5VBYHArQUNX6coCmw&gsessionid=8kicfHxMH0T5wgMTdev6BrM3POuJWio9Nrxf6kbhZv6d-_m_mNVxGw",
+      "title": "What Is Aion 2 About",
+      "position": 7,
+      "kind": "list"
+     }
+    ],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/7",
+   "vacuum_hits": 0,
+   "vacuum_total": 7,
+   "vacuum_breakdown": {
+    "社媒/论坛": 0,
+    "代码仓/模型库": 0,
+    "视频": 0,
+    "资讯/评测": 0
+   },
+   "dedicated_sites": [
+    "play.google.com"
+   ],
+   "vacuum_evidence": "已有独立站/应用占坑（play.google.com），社区占比 0/7",
+   "tool_intent": false,
+   "kdroi": 51.8,
+   "small_sites": 0,
+   "allintitle": 91,
+   "checks": {
+    "月搜": true,
+    "KD": true,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": true
+   },
+   "score": 55,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "aion2.com",
+     "available": false
+    },
+    {
+     "domain": "aion2ai.com",
+     "available": true
+    },
+    {
+     "domain": "tryaion.com",
+     "available": false
+    },
+    {
+     "domain": "aion2.ai",
+     "available": false
+    },
+    {
+     "domain": "aion2ai.ai",
+     "available": true
+    },
+    {
+     "domain": "aion2.io",
+     "available": false
+    },
+    {
+     "domain": "aion2ai.io",
+     "available": true
+    },
+    {
+     "domain": "aion2.org",
+     "available": false
+    }
+   ],
+   "available_domains": [
+    "aion2ai.com",
+    "aion2ai.ai",
+    "aion2ai.io"
+   ],
+   "failed": [
+    "首页竞争"
+   ],
+   "unknown": []
+  },
+  {
+   "phrase": "counter-strike 2",
+   "source": "看板X",
+   "names": [
+    "Counter-Strike 2"
+   ],
+   "evidence": "",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": true,
+   "overview_ok": true,
+   "volume": 8100,
+   "cpc": 0.36,
+   "comp": 0.02,
+   "results": 0,
+   "kd_ok": true,
+   "kd": 89,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {
+     "list": 3,
+     "article": 4
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "knowledge_graph",
+     "people_also_ask",
+     "perspectives",
+     "short_videos",
+     "video"
+    ],
+    "top": [
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com"
+    ],
+    "items": [
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXWY1qIL-lP1Mc7RQ4UPwZxH0zo_dGnK6sg6I8Rck4KSXJzOdlXljGIIY6xL9jZKQU-R18cZyQricREWk19-keXGpbEwrJGVH9Y-lZJIz15K9ACWS7POJAYgmMKqsdtVYRPoPC&gsessionid=uvnSoN2k8FWHcGmt-pYyXV_4VlEbxDrzjJbxyPsY3HbCL5K4nB4fNQ",
+      "title": "Counter-Strike 2 PREMIER Gameplay - GAME 12",
+      "position": 1,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESegHEIkXXnOotTFRDVJVZ6659CUEIc6ssvqr4fyVjmkLj4NDoeNkDKURo_WxEl6URMPK1j25lQ1dOlbDbHG6Ut49mI6_EkD6NjAJItWIho1kbd1LcCuHOQMp5pRd3j78u7ERVEAhFgLKZ-_acDVLY6mfpjtBog4Q3HKSn&gsessionid=uvnSoN2k8FWHcGmt-pYyXV_4VlEbxDrzjJbxyPsY3HbCL5K4nB4fNQ",
+      "title": "Counter-Strike 2 is now available on Steam for free after ...",
+      "position": 2,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESdwHEIkXXF7BDZZfq-XTdgV8E87OQfqfNoQR8VU6syU_3VBMH7bWFknrhsoYrMnukSyE7bHYdk4LZOw8-8RUxCiVh62w9laLmF4Mw42RlTrlaZ4KCu9146QFgyEFFNugjrq5DpefpooBVzq4CGNUoUsRRMiiQV0fL&gsessionid=uvnSoN2k8FWHcGmt-pYyXV_4VlEbxDrzjJbxyPsY3HbCL5K4nB4fNQ",
+      "title": "Counter-Strike 2 | Valve Corporation Wiki",
+      "position": 3,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESWgHEIkXXkXYg3uKxSpJWJ1TKT0S5RRtHhr_q2nKZON1LMEjU7IHeSqDCmb0T6vuxyQ0KDsIY7Gcl05ZsBbTXikzVleJSnSAY6PIcuxY-7AeHDw0c23JAFxDtTA&gsessionid=uvnSoN2k8FWHcGmt-pYyXV_4VlEbxDrzjJbxyPsY3HbCL5K4nB4fNQ",
+      "title": "Download Counter-Strike 2 for free on PC (latest)",
+      "position": 4,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESbgHEIkXXeo9iUMBvMUKs464DO-FX3KJ6_9DJMfuQeeuhZhQX6LhvbpnwiHN9R-j7ataJQTohMhvRQ8KO4Jn49RjdCd7Xny5UyLmq-Den_QzWgKDaCuwP1-oqrUPGlsDRoKyeK3JuC_IwN2slQ3al&gsessionid=uvnSoN2k8FWHcGmt-pYyXV_4VlEbxDrzjJbxyPsY3HbCL5K4nB4fNQ",
+      "title": "Counter-Strike 2 [Videos]",
+      "position": 5,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXX6t6hbKSmZjnnUomDqXtW8dxEp3iHsOt11vYJ4qr1qoOHbKVFSY1mYVx8-srxFJrlIj74kmd0WGGHofqkGb8677rKfa_NAT8fKXiL2Th8oyixxxTSX8DXfaC43tKyCBnwEPPO&gsessionid=uvnSoN2k8FWHcGmt-pYyXV_4VlEbxDrzjJbxyPsY3HbCL5K4nB4fNQ",
+      "title": "Counter-Strike's “NEXT Release”.. (CS2 NEWS)",
+      "position": 6,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESbAHEIkXX6U0OaADA62mXSpXANxb6cDobMAxjPWoiaVarBSQdE6DE-xSH41CvCvmLTE9A1S55OwBE3apx2OtmwajFZxyqw-duMs4-HZ6LDYeQbV4k010_c-glxYan89RMi1Rl4-lLss8-Sxizqg&gsessionid=uvnSoN2k8FWHcGmt-pYyXV_4VlEbxDrzjJbxyPsY3HbCL5K4nB4fNQ",
+      "title": "CS2D on Steam",
+      "position": 7,
+      "kind": "article"
+     }
+    ],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/7",
+   "vacuum_hits": 0,
+   "vacuum_total": 7,
+   "vacuum_breakdown": {
+    "社媒/论坛": 0,
+    "代码仓/模型库": 0,
+    "视频": 0,
+    "资讯/评测": 0
+   },
+   "dedicated_sites": [],
+   "vacuum_evidence": "已有 7 个垂直博客抢占（google.com），社区占比 0/7",
+   "tool_intent": false,
+   "kdroi": 32.8,
+   "small_sites": 0,
+   "allintitle": 100,
+   "checks": {
+    "月搜": true,
+    "KD": false,
+    "CPC": true,
+    "首页竞争": false,
+    "allintitle": true
+   },
+   "score": 33,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "counterstrike2.com",
+     "available": false
+    },
+    {
+     "domain": "counterstrike2ai.com",
+     "available": true
+    },
+    {
+     "domain": "trycounter.com",
+     "available": false
+    },
+    {
+     "domain": "counterstrike2.ai",
+     "available": true
+    },
+    {
+     "domain": "counterstrike2ai.ai",
+     "available": true
+    },
+    {
+     "domain": "counterstrike2.io",
+     "available": true
+    },
+    {
+     "domain": "counterstrike2ai.io",
+     "available": true
+    },
+    {
+     "domain": "counterstrike2.org",
+     "available": false
+    }
+   ],
+   "available_domains": [
+    "counterstrike2ai.com",
+    "counterstrike2.ai",
+    "counterstrike2ai.ai",
+    "counterstrike2.io",
+    "counterstrike2ai.io"
+   ],
+   "failed": [
+    "KD",
+    "首页竞争"
+   ],
+   "unknown": []
+  }
+ ],
+ "spent_micros": 69000,
+ "errors": [],
+ "skipped": []
+}

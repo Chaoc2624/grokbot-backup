@@ -1,0 +1,6828 @@
+{
+  "total_cost_micros_usd": 66000,
+  "total_cost_usd": 0.066,
+  "calls": [
+    {
+      "call_id": "t30_us_anchor",
+      "successful": true,
+      "customer_cost_micros_usd": 11000,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "api_cost": 0.011,
+      "task_status": 20000,
+      "task_message": "Ok.",
+      "keywords": [
+        "ai photo to video",
+        "image to video",
+        "ai video generator"
+      ],
+      "location_name": null,
+      "location_code": 2840,
+      "language_code": "en",
+      "type": "trends",
+      "item_types": null,
+      "check_url": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%201-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+      "datetime": "2026-11-15 15:45:36 +00:00",
+      "items": [
+        {
+          "type": "google_trends_graph",
+          "averages": [
+            6,
+            58,
+            88
+          ],
+          "series_stats": {
+            "ai photo to video": {
+              "non_null": 29,
+              "max": 9,
+              "sum": 179,
+              "n": 29,
+              "missing_days": 3,
+              "avg_non_null": 6.172413793103448
+            },
+            "image to video": {
+              "non_null": 32,
+              "max": 70,
+              "sum": 1843,
+              "n": 32,
+              "missing_days": 0,
+              "avg_non_null": 57.59375
+            },
+            "ai video generator": {
+              "non_null": 32,
+              "max": 100,
+              "sum": 2808,
+              "n": 32,
+              "missing_days": 0,
+              "avg_non_null": 87.75
+            }
+          },
+          "series": {
+            "ai photo to video": {
+              "non_null": 29,
+              "max": 9,
+              "sum": 179,
+              "n": 29,
+              "missing_days": 3,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": 9,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": 8,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": 6,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": 6,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": 9,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": 8,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": 9,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": 7,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": 4,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": 6,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": 6,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": 8,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": 6,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": 7,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": 6,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": 6,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": 6,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": 7,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": 6.172413793103448
+            },
+            "image to video": {
+              "non_null": 32,
+              "max": 70,
+              "sum": 1843,
+              "n": 32,
+              "missing_days": 0,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": 63,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": 65,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": 61,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": 67,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": 70,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": 66,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": 59,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": 64,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": 63,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": 50,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": 52,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": 66,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": 59,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": 60,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": 69,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": 70,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": 61,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": 53,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": 54,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": 54,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": 47,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": 55,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": 55,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": 59,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": 49,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": 52,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": 55,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": 52,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": 51,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": 48,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": 48,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": 46,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": 57.59375
+            },
+            "ai video generator": {
+              "non_null": 32,
+              "max": 100,
+              "sum": 2808,
+              "n": 32,
+              "missing_days": 0,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": 92,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": 91,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": 100,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": 84,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": 99,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": 91,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": 91,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": 90,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": 94,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": 87,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": 91,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": 93,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": 80,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": 92,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": 96,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": 85,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": 91,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": 87,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": 81,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": 74,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": 73,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": 80,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": 84,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": 87,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": 87,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": 83,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": 83,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": 95,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": 83,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": 78,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": 95,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": 91,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": 87.75
+            }
+          },
+          "raw_points": [
+            {
+              "date_from": "2026-10-15",
+              "date_to": "2026-10-15",
+              "timestamp": 1792022400,
+              "missing_data": false,
+              "values": [
+                5,
+                63,
+                92
+              ]
+            },
+            {
+              "date_from": "2026-10-16",
+              "date_to": "2026-10-16",
+              "timestamp": 1792108800,
+              "missing_data": false,
+              "values": [
+                9,
+                65,
+                91
+              ]
+            },
+            {
+              "date_from": "2026-10-17",
+              "date_to": "2026-10-17",
+              "timestamp": 1792195200,
+              "missing_data": false,
+              "values": [
+                null,
+                61,
+                100
+              ]
+            },
+            {
+              "date_from": "2026-10-18",
+              "date_to": "2026-10-18",
+              "timestamp": 1792281600,
+              "missing_data": false,
+              "values": [
+                8,
+                67,
+                84
+              ]
+            },
+            {
+              "date_from": "2026-10-19",
+              "date_to": "2026-10-19",
+              "timestamp": 1792368000,
+              "missing_data": false,
+              "values": [
+                5,
+                70,
+                99
+              ]
+            },
+            {
+              "date_from": "2026-10-20",
+              "date_to": "2026-10-20",
+              "timestamp": 1792454400,
+              "missing_data": false,
+              "values": [
+                6,
+                66,
+                91
+              ]
+            },
+            {
+              "date_from": "2026-10-21",
+              "date_to": "2026-10-21",
+              "timestamp": 1792540800,
+              "missing_data": false,
+              "values": [
+                6,
+                59,
+                91
+              ]
+            },
+            {
+              "date_from": "2026-10-22",
+              "date_to": "2026-10-22",
+              "timestamp": 1792627200,
+              "missing_data": false,
+              "values": [
+                9,
+                64,
+                90
+              ]
+            },
+            {
+              "date_from": "2026-10-23",
+              "date_to": "2026-10-23",
+              "timestamp": 1792713600,
+              "missing_data": false,
+              "values": [
+                8,
+                63,
+                94
+              ]
+            },
+            {
+              "date_from": "2026-10-24",
+              "date_to": "2026-10-24",
+              "timestamp": 1792800000,
+              "missing_data": false,
+              "values": [
+                9,
+                50,
+                87
+              ]
+            },
+            {
+              "date_from": "2026-10-25",
+              "date_to": "2026-10-25",
+              "timestamp": 1792886400,
+              "missing_data": false,
+              "values": [
+                null,
+                52,
+                91
+              ]
+            },
+            {
+              "date_from": "2026-10-26",
+              "date_to": "2026-10-26",
+              "timestamp": 1792972800,
+              "missing_data": false,
+              "values": [
+                7,
+                66,
+                93
+              ]
+            },
+            {
+              "date_from": "2026-10-27",
+              "date_to": "2026-10-27",
+              "timestamp": 1793059200,
+              "missing_data": false,
+              "values": [
+                null,
+                59,
+                80
+              ]
+            },
+            {
+              "date_from": "2026-10-28",
+              "date_to": "2026-10-28",
+              "timestamp": 1793145600,
+              "missing_data": false,
+              "values": [
+                4,
+                60,
+                92
+              ]
+            },
+            {
+              "date_from": "2026-10-29",
+              "date_to": "2026-10-29",
+              "timestamp": 1793232000,
+              "missing_data": false,
+              "values": [
+                6,
+                69,
+                96
+              ]
+            },
+            {
+              "date_from": "2026-10-30",
+              "date_to": "2026-10-30",
+              "timestamp": 1793318400,
+              "missing_data": false,
+              "values": [
+                6,
+                70,
+                85
+              ]
+            },
+            {
+              "date_from": "2026-10-31",
+              "date_to": "2026-10-31",
+              "timestamp": 1793404800,
+              "missing_data": false,
+              "values": [
+                8,
+                61,
+                91
+              ]
+            },
+            {
+              "date_from": "2026-11-01",
+              "date_to": "2026-11-01",
+              "timestamp": 1793491200,
+              "missing_data": false,
+              "values": [
+                6,
+                53,
+                87
+              ]
+            },
+            {
+              "date_from": "2026-11-02",
+              "date_to": "2026-11-02",
+              "timestamp": 1793577600,
+              "missing_data": false,
+              "values": [
+                7,
+                54,
+                81
+              ]
+            },
+            {
+              "date_from": "2026-11-03",
+              "date_to": "2026-11-03",
+              "timestamp": 1793664000,
+              "missing_data": false,
+              "values": [
+                5,
+                54,
+                74
+              ]
+            },
+            {
+              "date_from": "2026-11-04",
+              "date_to": "2026-11-04",
+              "timestamp": 1793750400,
+              "missing_data": false,
+              "values": [
+                5,
+                47,
+                73
+              ]
+            },
+            {
+              "date_from": "2026-11-05",
+              "date_to": "2026-11-05",
+              "timestamp": 1793836800,
+              "missing_data": false,
+              "values": [
+                5,
+                55,
+                80
+              ]
+            },
+            {
+              "date_from": "2026-11-06",
+              "date_to": "2026-11-06",
+              "timestamp": 1793923200,
+              "missing_data": false,
+              "values": [
+                5,
+                55,
+                84
+              ]
+            },
+            {
+              "date_from": "2026-11-07",
+              "date_to": "2026-11-07",
+              "timestamp": 1794009600,
+              "missing_data": false,
+              "values": [
+                6,
+                59,
+                87
+              ]
+            },
+            {
+              "date_from": "2026-11-08",
+              "date_to": "2026-11-08",
+              "timestamp": 1794096000,
+              "missing_data": false,
+              "values": [
+                6,
+                49,
+                87
+              ]
+            },
+            {
+              "date_from": "2026-11-09",
+              "date_to": "2026-11-09",
+              "timestamp": 1794182400,
+              "missing_data": false,
+              "values": [
+                5,
+                52,
+                83
+              ]
+            },
+            {
+              "date_from": "2026-11-10",
+              "date_to": "2026-11-10",
+              "timestamp": 1794268800,
+              "missing_data": false,
+              "values": [
+                5,
+                55,
+                83
+              ]
+            },
+            {
+              "date_from": "2026-11-11",
+              "date_to": "2026-11-11",
+              "timestamp": 1794355200,
+              "missing_data": false,
+              "values": [
+                5,
+                52,
+                95
+              ]
+            },
+            {
+              "date_from": "2026-11-12",
+              "date_to": "2026-11-12",
+              "timestamp": 1794441600,
+              "missing_data": false,
+              "values": [
+                5,
+                51,
+                83
+              ]
+            },
+            {
+              "date_from": "2026-11-13",
+              "date_to": "2026-11-13",
+              "timestamp": 1794528000,
+              "missing_data": false,
+              "values": [
+                5,
+                48,
+                78
+              ]
+            },
+            {
+              "date_from": "2026-11-14",
+              "date_to": "2026-11-14",
+              "timestamp": 1794614400,
+              "missing_data": false,
+              "values": [
+                6,
+                48,
+                95
+              ]
+            },
+            {
+              "date_from": "2026-11-15",
+              "date_to": "2026-11-15",
+              "timestamp": 1794700800,
+              "missing_data": true,
+              "values": [
+                7,
+                46,
+                91
+              ]
+            }
+          ]
+        }
+      ],
+      "items_count": 1
+    },
+    {
+      "call_id": "t30_us_jatayu",
+      "successful": true,
+      "customer_cost_micros_usd": 11000,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "api_cost": 0.011,
+      "task_status": 20000,
+      "task_message": "Ok.",
+      "keywords": [
+        "Jatayu AI video",
+        "Jatayu AI video generator",
+        "Sheru Bhai AI",
+        "King Jin AI trend",
+        "ai photo to video"
+      ],
+      "location_name": null,
+      "location_code": 2840,
+      "language_code": "en",
+      "type": "trends",
+      "item_types": null,
+      "check_url": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%201-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+      "datetime": "2026-11-15 15:45:36 +00:00",
+      "items": [
+        {
+          "type": "google_trends_graph",
+          "averages": [
+            0,
+            0,
+            0,
+            0,
+            62
+          ],
+          "series_stats": {
+            "Jatayu AI video": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "avg_non_null": null
+            },
+            "Jatayu AI video generator": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "avg_non_null": null
+            },
+            "Sheru Bhai AI": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "avg_non_null": null
+            },
+            "King Jin AI trend": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "avg_non_null": null
+            },
+            "ai photo to video": {
+              "non_null": 29,
+              "max": 100,
+              "sum": 1990,
+              "n": 29,
+              "missing_days": 3,
+              "avg_non_null": 68.62068965517241
+            }
+          },
+          "series": {
+            "Jatayu AI video": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": null,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": null
+            },
+            "Jatayu AI video generator": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": null,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": null
+            },
+            "Sheru Bhai AI": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": null,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": null
+            },
+            "King Jin AI trend": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": null,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": null
+            },
+            "ai photo to video": {
+              "non_null": 29,
+              "max": 100,
+              "sum": 1990,
+              "n": 29,
+              "missing_days": 3,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": 53,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": 98,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": 89,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": 58,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": 63,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": 61,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": 100,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": 92,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": 100,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": 78,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": 49,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": 71,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": 65,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": 85,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": 68,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": 80,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": 59,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": 51,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": 56,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": 56,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": 68,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": 68,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": 57,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": 54,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": 55,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": 57,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": 58,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": 68,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": 73,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": 68.62068965517241
+            }
+          },
+          "raw_points": [
+            {
+              "date_from": "2026-10-15",
+              "date_to": "2026-10-15",
+              "timestamp": 1792022400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                53
+              ]
+            },
+            {
+              "date_from": "2026-10-16",
+              "date_to": "2026-10-16",
+              "timestamp": 1792108800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                98
+              ]
+            },
+            {
+              "date_from": "2026-10-17",
+              "date_to": "2026-10-17",
+              "timestamp": 1792195200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "date_from": "2026-10-18",
+              "date_to": "2026-10-18",
+              "timestamp": 1792281600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                89
+              ]
+            },
+            {
+              "date_from": "2026-10-19",
+              "date_to": "2026-10-19",
+              "timestamp": 1792368000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                58
+              ]
+            },
+            {
+              "date_from": "2026-10-20",
+              "date_to": "2026-10-20",
+              "timestamp": 1792454400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                63
+              ]
+            },
+            {
+              "date_from": "2026-10-21",
+              "date_to": "2026-10-21",
+              "timestamp": 1792540800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                61
+              ]
+            },
+            {
+              "date_from": "2026-10-22",
+              "date_to": "2026-10-22",
+              "timestamp": 1792627200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                100
+              ]
+            },
+            {
+              "date_from": "2026-10-23",
+              "date_to": "2026-10-23",
+              "timestamp": 1792713600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                92
+              ]
+            },
+            {
+              "date_from": "2026-10-24",
+              "date_to": "2026-10-24",
+              "timestamp": 1792800000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                100
+              ]
+            },
+            {
+              "date_from": "2026-10-25",
+              "date_to": "2026-10-25",
+              "timestamp": 1792886400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "date_from": "2026-10-26",
+              "date_to": "2026-10-26",
+              "timestamp": 1792972800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                78
+              ]
+            },
+            {
+              "date_from": "2026-10-27",
+              "date_to": "2026-10-27",
+              "timestamp": 1793059200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "date_from": "2026-10-28",
+              "date_to": "2026-10-28",
+              "timestamp": 1793145600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                49
+              ]
+            },
+            {
+              "date_from": "2026-10-29",
+              "date_to": "2026-10-29",
+              "timestamp": 1793232000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                71
+              ]
+            },
+            {
+              "date_from": "2026-10-30",
+              "date_to": "2026-10-30",
+              "timestamp": 1793318400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                65
+              ]
+            },
+            {
+              "date_from": "2026-10-31",
+              "date_to": "2026-10-31",
+              "timestamp": 1793404800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                85
+              ]
+            },
+            {
+              "date_from": "2026-11-01",
+              "date_to": "2026-11-01",
+              "timestamp": 1793491200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                68
+              ]
+            },
+            {
+              "date_from": "2026-11-02",
+              "date_to": "2026-11-02",
+              "timestamp": 1793577600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                80
+              ]
+            },
+            {
+              "date_from": "2026-11-03",
+              "date_to": "2026-11-03",
+              "timestamp": 1793664000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                59
+              ]
+            },
+            {
+              "date_from": "2026-11-04",
+              "date_to": "2026-11-04",
+              "timestamp": 1793750400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                51
+              ]
+            },
+            {
+              "date_from": "2026-11-05",
+              "date_to": "2026-11-05",
+              "timestamp": 1793836800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                56
+              ]
+            },
+            {
+              "date_from": "2026-11-06",
+              "date_to": "2026-11-06",
+              "timestamp": 1793923200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                56
+              ]
+            },
+            {
+              "date_from": "2026-11-07",
+              "date_to": "2026-11-07",
+              "timestamp": 1794009600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                68
+              ]
+            },
+            {
+              "date_from": "2026-11-08",
+              "date_to": "2026-11-08",
+              "timestamp": 1794096000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                68
+              ]
+            },
+            {
+              "date_from": "2026-11-09",
+              "date_to": "2026-11-09",
+              "timestamp": 1794182400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                57
+              ]
+            },
+            {
+              "date_from": "2026-11-10",
+              "date_to": "2026-11-10",
+              "timestamp": 1794268800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                54
+              ]
+            },
+            {
+              "date_from": "2026-11-11",
+              "date_to": "2026-11-11",
+              "timestamp": 1794355200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                55
+              ]
+            },
+            {
+              "date_from": "2026-11-12",
+              "date_to": "2026-11-12",
+              "timestamp": 1794441600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                57
+              ]
+            },
+            {
+              "date_from": "2026-11-13",
+              "date_to": "2026-11-13",
+              "timestamp": 1794528000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                58
+              ]
+            },
+            {
+              "date_from": "2026-11-14",
+              "date_to": "2026-11-14",
+              "timestamp": 1794614400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                68
+              ]
+            },
+            {
+              "date_from": "2026-11-15",
+              "date_to": "2026-11-15",
+              "timestamp": 1794700800,
+              "missing_data": true,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                73
+              ]
+            }
+          ]
+        }
+      ],
+      "items_count": 1
+    },
+    {
+      "call_id": "t30_us_lion",
+      "successful": true,
+      "customer_cost_micros_usd": 11000,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "api_cost": 0.011,
+      "task_status": 20000,
+      "task_message": "Ok.",
+      "keywords": [
+        "AI lion ride",
+        "AI lion ride generator",
+        "lion riding AI template",
+        "ai photo to video"
+      ],
+      "location_name": null,
+      "location_code": 2840,
+      "language_code": "en",
+      "type": "trends",
+      "item_types": null,
+      "check_url": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%201-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+      "datetime": "2026-11-15 15:45:39 +00:00",
+      "items": [
+        {
+          "type": "google_trends_graph",
+          "averages": [
+            0,
+            0,
+            0,
+            59
+          ],
+          "series_stats": {
+            "AI lion ride": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "avg_non_null": null
+            },
+            "AI lion ride generator": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "avg_non_null": null
+            },
+            "lion riding AI template": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "avg_non_null": null
+            },
+            "ai photo to video": {
+              "non_null": 30,
+              "max": 100,
+              "sum": 1900,
+              "n": 30,
+              "missing_days": 2,
+              "avg_non_null": 63.333333333333336
+            }
+          },
+          "series": {
+            "AI lion ride": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": null,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": null
+            },
+            "AI lion ride generator": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": null,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": null
+            },
+            "lion riding AI template": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": null,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": null
+            },
+            "ai photo to video": {
+              "non_null": 30,
+              "max": 100,
+              "sum": 1900,
+              "n": 30,
+              "missing_days": 2,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": 58,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": 100,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": 66,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": 85,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": 58,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": 63,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": 89,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": 58,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": 52,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": 75,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": 49,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": 49,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": 84,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": 62,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": 77,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": 65,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": 73,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": 56,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": 50,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": 52,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": 54,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": 63,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": 63,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": 56,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": 51,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": 51,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": 53,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": 54,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": 63,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": 71,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": 63.333333333333336
+            }
+          },
+          "raw_points": [
+            {
+              "date_from": "2026-10-15",
+              "date_to": "2026-10-15",
+              "timestamp": 1792022400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                58
+              ]
+            },
+            {
+              "date_from": "2026-10-16",
+              "date_to": "2026-10-16",
+              "timestamp": 1792108800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                100
+              ]
+            },
+            {
+              "date_from": "2026-10-17",
+              "date_to": "2026-10-17",
+              "timestamp": 1792195200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "date_from": "2026-10-18",
+              "date_to": "2026-10-18",
+              "timestamp": 1792281600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                66
+              ]
+            },
+            {
+              "date_from": "2026-10-19",
+              "date_to": "2026-10-19",
+              "timestamp": 1792368000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                85
+              ]
+            },
+            {
+              "date_from": "2026-10-20",
+              "date_to": "2026-10-20",
+              "timestamp": 1792454400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                58
+              ]
+            },
+            {
+              "date_from": "2026-10-21",
+              "date_to": "2026-10-21",
+              "timestamp": 1792540800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                63
+              ]
+            },
+            {
+              "date_from": "2026-10-22",
+              "date_to": "2026-10-22",
+              "timestamp": 1792627200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                89
+              ]
+            },
+            {
+              "date_from": "2026-10-23",
+              "date_to": "2026-10-23",
+              "timestamp": 1792713600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                58
+              ]
+            },
+            {
+              "date_from": "2026-10-24",
+              "date_to": "2026-10-24",
+              "timestamp": 1792800000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "date_from": "2026-10-25",
+              "date_to": "2026-10-25",
+              "timestamp": 1792886400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                52
+              ]
+            },
+            {
+              "date_from": "2026-10-26",
+              "date_to": "2026-10-26",
+              "timestamp": 1792972800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                75
+              ]
+            },
+            {
+              "date_from": "2026-10-27",
+              "date_to": "2026-10-27",
+              "timestamp": 1793059200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                49
+              ]
+            },
+            {
+              "date_from": "2026-10-28",
+              "date_to": "2026-10-28",
+              "timestamp": 1793145600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                49
+              ]
+            },
+            {
+              "date_from": "2026-10-29",
+              "date_to": "2026-10-29",
+              "timestamp": 1793232000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                84
+              ]
+            },
+            {
+              "date_from": "2026-10-30",
+              "date_to": "2026-10-30",
+              "timestamp": 1793318400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                62
+              ]
+            },
+            {
+              "date_from": "2026-10-31",
+              "date_to": "2026-10-31",
+              "timestamp": 1793404800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                77
+              ]
+            },
+            {
+              "date_from": "2026-11-01",
+              "date_to": "2026-11-01",
+              "timestamp": 1793491200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                65
+              ]
+            },
+            {
+              "date_from": "2026-11-02",
+              "date_to": "2026-11-02",
+              "timestamp": 1793577600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                73
+              ]
+            },
+            {
+              "date_from": "2026-11-03",
+              "date_to": "2026-11-03",
+              "timestamp": 1793664000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                56
+              ]
+            },
+            {
+              "date_from": "2026-11-04",
+              "date_to": "2026-11-04",
+              "timestamp": 1793750400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                50
+              ]
+            },
+            {
+              "date_from": "2026-11-05",
+              "date_to": "2026-11-05",
+              "timestamp": 1793836800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                52
+              ]
+            },
+            {
+              "date_from": "2026-11-06",
+              "date_to": "2026-11-06",
+              "timestamp": 1793923200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                54
+              ]
+            },
+            {
+              "date_from": "2026-11-07",
+              "date_to": "2026-11-07",
+              "timestamp": 1794009600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                63
+              ]
+            },
+            {
+              "date_from": "2026-11-08",
+              "date_to": "2026-11-08",
+              "timestamp": 1794096000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                63
+              ]
+            },
+            {
+              "date_from": "2026-11-09",
+              "date_to": "2026-11-09",
+              "timestamp": 1794182400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                56
+              ]
+            },
+            {
+              "date_from": "2026-11-10",
+              "date_to": "2026-11-10",
+              "timestamp": 1794268800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                51
+              ]
+            },
+            {
+              "date_from": "2026-11-11",
+              "date_to": "2026-11-11",
+              "timestamp": 1794355200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                51
+              ]
+            },
+            {
+              "date_from": "2026-11-12",
+              "date_to": "2026-11-12",
+              "timestamp": 1794441600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                53
+              ]
+            },
+            {
+              "date_from": "2026-11-13",
+              "date_to": "2026-11-13",
+              "timestamp": 1794528000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                54
+              ]
+            },
+            {
+              "date_from": "2026-11-14",
+              "date_to": "2026-11-14",
+              "timestamp": 1794614400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                63
+              ]
+            },
+            {
+              "date_from": "2026-11-15",
+              "date_to": "2026-11-15",
+              "timestamp": 1794700800,
+              "missing_data": true,
+              "values": [
+                null,
+                null,
+                null,
+                71
+              ]
+            }
+          ]
+        }
+      ],
+      "items_count": 1
+    },
+    {
+      "call_id": "t30_in_anchor",
+      "successful": true,
+      "customer_cost_micros_usd": 11000,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "api_cost": 0.011,
+      "task_status": 20000,
+      "task_message": "Ok.",
+      "keywords": [
+        "ai photo to video",
+        "image to video",
+        "ai video generator"
+      ],
+      "location_name": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "type": "trends",
+      "item_types": null,
+      "check_url": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%201-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+      "datetime": "2026-11-15 15:45:46 +00:00",
+      "items": [
+        {
+          "type": "google_trends_graph",
+          "averages": [
+            6,
+            26,
+            85
+          ],
+          "series_stats": {
+            "ai photo to video": {
+              "non_null": 32,
+              "max": 14,
+              "sum": 180,
+              "n": 32,
+              "missing_days": 0,
+              "avg_non_null": 5.625
+            },
+            "image to video": {
+              "non_null": 32,
+              "max": 34,
+              "sum": 828,
+              "n": 32,
+              "missing_days": 0,
+              "avg_non_null": 25.875
+            },
+            "ai video generator": {
+              "non_null": 32,
+              "max": 100,
+              "sum": 2712,
+              "n": 32,
+              "missing_days": 0,
+              "avg_non_null": 84.75
+            }
+          },
+          "series": {
+            "ai photo to video": {
+              "non_null": 32,
+              "max": 14,
+              "sum": 180,
+              "n": 32,
+              "missing_days": 0,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": 2,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": 3,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": 6,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": 8,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": 6,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": 7,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": 6,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": 3,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": 7,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": 7,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": 3,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": 7,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": 6,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": 6,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": 7,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": 5,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": 7,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": 14,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": 5.625
+            },
+            "image to video": {
+              "non_null": 32,
+              "max": 34,
+              "sum": 828,
+              "n": 32,
+              "missing_days": 0,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": 25,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": 26,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": 25,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": 29,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": 27,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": 34,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": 27,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": 26,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": 28,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": 25,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": 26,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": 27,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": 27,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": 24,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": 25,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": 24,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": 29,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": 25,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": 24,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": 25,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": 25,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": 24,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": 25,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": 26,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": 28,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": 25,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": 23,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": 27,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": 28,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": 23,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": 25,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": 21,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": 25.875
+            },
+            "ai video generator": {
+              "non_null": 32,
+              "max": 100,
+              "sum": 2712,
+              "n": 32,
+              "missing_days": 0,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": 75,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": 81,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": 85,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": 84,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": 87,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": 87,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": 82,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": 77,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": 86,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": 84,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": 100,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": 87,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": 81,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": 77,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": 88,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": 78,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": 89,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": 86,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": 83,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": 82,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": 79,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": 84,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": 84,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": 91,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": 95,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": 86,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": 85,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": 87,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": 89,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": 81,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": 92,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": 80,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": 84.75
+            }
+          },
+          "raw_points": [
+            {
+              "date_from": "2026-10-15",
+              "date_to": "2026-10-15",
+              "timestamp": 1792022400,
+              "missing_data": false,
+              "values": [
+                2,
+                25,
+                75
+              ]
+            },
+            {
+              "date_from": "2026-10-16",
+              "date_to": "2026-10-16",
+              "timestamp": 1792108800,
+              "missing_data": false,
+              "values": [
+                3,
+                26,
+                81
+              ]
+            },
+            {
+              "date_from": "2026-10-17",
+              "date_to": "2026-10-17",
+              "timestamp": 1792195200,
+              "missing_data": false,
+              "values": [
+                6,
+                25,
+                85
+              ]
+            },
+            {
+              "date_from": "2026-10-18",
+              "date_to": "2026-10-18",
+              "timestamp": 1792281600,
+              "missing_data": false,
+              "values": [
+                8,
+                29,
+                84
+              ]
+            },
+            {
+              "date_from": "2026-10-19",
+              "date_to": "2026-10-19",
+              "timestamp": 1792368000,
+              "missing_data": false,
+              "values": [
+                6,
+                27,
+                87
+              ]
+            },
+            {
+              "date_from": "2026-10-20",
+              "date_to": "2026-10-20",
+              "timestamp": 1792454400,
+              "missing_data": false,
+              "values": [
+                7,
+                34,
+                87
+              ]
+            },
+            {
+              "date_from": "2026-10-21",
+              "date_to": "2026-10-21",
+              "timestamp": 1792540800,
+              "missing_data": false,
+              "values": [
+                5,
+                27,
+                82
+              ]
+            },
+            {
+              "date_from": "2026-10-22",
+              "date_to": "2026-10-22",
+              "timestamp": 1792627200,
+              "missing_data": false,
+              "values": [
+                6,
+                26,
+                77
+              ]
+            },
+            {
+              "date_from": "2026-10-23",
+              "date_to": "2026-10-23",
+              "timestamp": 1792713600,
+              "missing_data": false,
+              "values": [
+                5,
+                28,
+                86
+              ]
+            },
+            {
+              "date_from": "2026-10-24",
+              "date_to": "2026-10-24",
+              "timestamp": 1792800000,
+              "missing_data": false,
+              "values": [
+                3,
+                25,
+                84
+              ]
+            },
+            {
+              "date_from": "2026-10-25",
+              "date_to": "2026-10-25",
+              "timestamp": 1792886400,
+              "missing_data": false,
+              "values": [
+                7,
+                26,
+                100
+              ]
+            },
+            {
+              "date_from": "2026-10-26",
+              "date_to": "2026-10-26",
+              "timestamp": 1792972800,
+              "missing_data": false,
+              "values": [
+                5,
+                27,
+                87
+              ]
+            },
+            {
+              "date_from": "2026-10-27",
+              "date_to": "2026-10-27",
+              "timestamp": 1793059200,
+              "missing_data": false,
+              "values": [
+                5,
+                27,
+                81
+              ]
+            },
+            {
+              "date_from": "2026-10-28",
+              "date_to": "2026-10-28",
+              "timestamp": 1793145600,
+              "missing_data": false,
+              "values": [
+                7,
+                24,
+                77
+              ]
+            },
+            {
+              "date_from": "2026-10-29",
+              "date_to": "2026-10-29",
+              "timestamp": 1793232000,
+              "missing_data": false,
+              "values": [
+                5,
+                25,
+                88
+              ]
+            },
+            {
+              "date_from": "2026-10-30",
+              "date_to": "2026-10-30",
+              "timestamp": 1793318400,
+              "missing_data": false,
+              "values": [
+                3,
+                24,
+                78
+              ]
+            },
+            {
+              "date_from": "2026-10-31",
+              "date_to": "2026-10-31",
+              "timestamp": 1793404800,
+              "missing_data": false,
+              "values": [
+                7,
+                29,
+                89
+              ]
+            },
+            {
+              "date_from": "2026-11-01",
+              "date_to": "2026-11-01",
+              "timestamp": 1793491200,
+              "missing_data": false,
+              "values": [
+                6,
+                25,
+                86
+              ]
+            },
+            {
+              "date_from": "2026-11-02",
+              "date_to": "2026-11-02",
+              "timestamp": 1793577600,
+              "missing_data": false,
+              "values": [
+                5,
+                24,
+                83
+              ]
+            },
+            {
+              "date_from": "2026-11-03",
+              "date_to": "2026-11-03",
+              "timestamp": 1793664000,
+              "missing_data": false,
+              "values": [
+                5,
+                25,
+                82
+              ]
+            },
+            {
+              "date_from": "2026-11-04",
+              "date_to": "2026-11-04",
+              "timestamp": 1793750400,
+              "missing_data": false,
+              "values": [
+                5,
+                25,
+                79
+              ]
+            },
+            {
+              "date_from": "2026-11-05",
+              "date_to": "2026-11-05",
+              "timestamp": 1793836800,
+              "missing_data": false,
+              "values": [
+                5,
+                24,
+                84
+              ]
+            },
+            {
+              "date_from": "2026-11-06",
+              "date_to": "2026-11-06",
+              "timestamp": 1793923200,
+              "missing_data": false,
+              "values": [
+                5,
+                25,
+                84
+              ]
+            },
+            {
+              "date_from": "2026-11-07",
+              "date_to": "2026-11-07",
+              "timestamp": 1794009600,
+              "missing_data": false,
+              "values": [
+                6,
+                26,
+                91
+              ]
+            },
+            {
+              "date_from": "2026-11-08",
+              "date_to": "2026-11-08",
+              "timestamp": 1794096000,
+              "missing_data": false,
+              "values": [
+                7,
+                28,
+                95
+              ]
+            },
+            {
+              "date_from": "2026-11-09",
+              "date_to": "2026-11-09",
+              "timestamp": 1794182400,
+              "missing_data": false,
+              "values": [
+                5,
+                25,
+                86
+              ]
+            },
+            {
+              "date_from": "2026-11-10",
+              "date_to": "2026-11-10",
+              "timestamp": 1794268800,
+              "missing_data": false,
+              "values": [
+                5,
+                23,
+                85
+              ]
+            },
+            {
+              "date_from": "2026-11-11",
+              "date_to": "2026-11-11",
+              "timestamp": 1794355200,
+              "missing_data": false,
+              "values": [
+                5,
+                27,
+                87
+              ]
+            },
+            {
+              "date_from": "2026-11-12",
+              "date_to": "2026-11-12",
+              "timestamp": 1794441600,
+              "missing_data": false,
+              "values": [
+                5,
+                28,
+                89
+              ]
+            },
+            {
+              "date_from": "2026-11-13",
+              "date_to": "2026-11-13",
+              "timestamp": 1794528000,
+              "missing_data": false,
+              "values": [
+                5,
+                23,
+                81
+              ]
+            },
+            {
+              "date_from": "2026-11-14",
+              "date_to": "2026-11-14",
+              "timestamp": 1794614400,
+              "missing_data": false,
+              "values": [
+                7,
+                25,
+                92
+              ]
+            },
+            {
+              "date_from": "2026-11-15",
+              "date_to": "2026-11-15",
+              "timestamp": 1794700800,
+              "missing_data": true,
+              "values": [
+                14,
+                21,
+                80
+              ]
+            }
+          ]
+        }
+      ],
+      "items_count": 1
+    },
+    {
+      "call_id": "t30_in_jatayu",
+      "successful": true,
+      "customer_cost_micros_usd": 11000,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "api_cost": 0.011,
+      "task_status": 20000,
+      "task_message": "Ok.",
+      "keywords": [
+        "Jatayu AI video",
+        "Jatayu AI video generator",
+        "Sheru Bhai AI",
+        "King Jin AI trend",
+        "ai photo to video"
+      ],
+      "location_name": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "type": "trends",
+      "item_types": null,
+      "check_url": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%201-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+      "datetime": "2026-11-15 15:45:36 +00:00",
+      "items": [
+        {
+          "type": "google_trends_graph",
+          "averages": [
+            1,
+            0,
+            18,
+            0,
+            41
+          ],
+          "series_stats": {
+            "Jatayu AI video": {
+              "non_null": 2,
+              "max": 33,
+              "sum": 42,
+              "n": 2,
+              "missing_days": 30,
+              "avg_non_null": 21.0
+            },
+            "Jatayu AI video generator": {
+              "non_null": 1,
+              "max": 2,
+              "sum": 2,
+              "n": 1,
+              "missing_days": 31,
+              "avg_non_null": 2.0
+            },
+            "Sheru Bhai AI": {
+              "non_null": 15,
+              "max": 84,
+              "sum": 573,
+              "n": 15,
+              "missing_days": 17,
+              "avg_non_null": 38.2
+            },
+            "King Jin AI trend": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "avg_non_null": null
+            },
+            "ai photo to video": {
+              "non_null": 32,
+              "max": 100,
+              "sum": 1327,
+              "n": 32,
+              "missing_days": 0,
+              "avg_non_null": 41.46875
+            }
+          },
+          "series": {
+            "Jatayu AI video": {
+              "non_null": 2,
+              "max": 33,
+              "sum": 42,
+              "n": 2,
+              "missing_days": 30,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": 9,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": 33,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": 21.0
+            },
+            "Jatayu AI video generator": {
+              "non_null": 1,
+              "max": 2,
+              "sum": 2,
+              "n": 1,
+              "missing_days": 31,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": 2,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": 2.0
+            },
+            "Sheru Bhai AI": {
+              "non_null": 15,
+              "max": 84,
+              "sum": 573,
+              "n": 15,
+              "missing_days": 17,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": 11,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": 11,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": 12,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": 11,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": 13,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": 16,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": 20,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": 24,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": 35,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": 53,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": 84,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": 82,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": 68,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": 69,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": 64,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": 38.2
+            },
+            "King Jin AI trend": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": null,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": null
+            },
+            "ai photo to video": {
+              "non_null": 32,
+              "max": 100,
+              "sum": 1327,
+              "n": 32,
+              "missing_days": 0,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": 24,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": 24,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": 36,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": 58,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": 40,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": 53,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": 44,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": 54,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": 34,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": 33,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": 43,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": 63,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": 26,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": 48,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": 37,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": 30,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": 46,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": 41,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": 33,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": 38,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": 34,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": 34,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": 37,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": 41,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": 49,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": 38,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": 32,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": 37,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": 39,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": 34,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": 47,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": 100,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": 41.46875
+            }
+          },
+          "raw_points": [
+            {
+              "date_from": "2026-10-15",
+              "date_to": "2026-10-15",
+              "timestamp": 1792022400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                24
+              ]
+            },
+            {
+              "date_from": "2026-10-16",
+              "date_to": "2026-10-16",
+              "timestamp": 1792108800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                24
+              ]
+            },
+            {
+              "date_from": "2026-10-17",
+              "date_to": "2026-10-17",
+              "timestamp": 1792195200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                36
+              ]
+            },
+            {
+              "date_from": "2026-10-18",
+              "date_to": "2026-10-18",
+              "timestamp": 1792281600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                58
+              ]
+            },
+            {
+              "date_from": "2026-10-19",
+              "date_to": "2026-10-19",
+              "timestamp": 1792368000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                40
+              ]
+            },
+            {
+              "date_from": "2026-10-20",
+              "date_to": "2026-10-20",
+              "timestamp": 1792454400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                53
+              ]
+            },
+            {
+              "date_from": "2026-10-21",
+              "date_to": "2026-10-21",
+              "timestamp": 1792540800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                44
+              ]
+            },
+            {
+              "date_from": "2026-10-22",
+              "date_to": "2026-10-22",
+              "timestamp": 1792627200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                54
+              ]
+            },
+            {
+              "date_from": "2026-10-23",
+              "date_to": "2026-10-23",
+              "timestamp": 1792713600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                34
+              ]
+            },
+            {
+              "date_from": "2026-10-24",
+              "date_to": "2026-10-24",
+              "timestamp": 1792800000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                33
+              ]
+            },
+            {
+              "date_from": "2026-10-25",
+              "date_to": "2026-10-25",
+              "timestamp": 1792886400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                43
+              ]
+            },
+            {
+              "date_from": "2026-10-26",
+              "date_to": "2026-10-26",
+              "timestamp": 1792972800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                63
+              ]
+            },
+            {
+              "date_from": "2026-10-27",
+              "date_to": "2026-10-27",
+              "timestamp": 1793059200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                26
+              ]
+            },
+            {
+              "date_from": "2026-10-28",
+              "date_to": "2026-10-28",
+              "timestamp": 1793145600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                48
+              ]
+            },
+            {
+              "date_from": "2026-10-29",
+              "date_to": "2026-10-29",
+              "timestamp": 1793232000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                37
+              ]
+            },
+            {
+              "date_from": "2026-10-30",
+              "date_to": "2026-10-30",
+              "timestamp": 1793318400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                30
+              ]
+            },
+            {
+              "date_from": "2026-10-31",
+              "date_to": "2026-10-31",
+              "timestamp": 1793404800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null,
+                46
+              ]
+            },
+            {
+              "date_from": "2026-11-01",
+              "date_to": "2026-11-01",
+              "timestamp": 1793491200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                11,
+                null,
+                41
+              ]
+            },
+            {
+              "date_from": "2026-11-02",
+              "date_to": "2026-11-02",
+              "timestamp": 1793577600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                11,
+                null,
+                33
+              ]
+            },
+            {
+              "date_from": "2026-11-03",
+              "date_to": "2026-11-03",
+              "timestamp": 1793664000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                12,
+                null,
+                38
+              ]
+            },
+            {
+              "date_from": "2026-11-04",
+              "date_to": "2026-11-04",
+              "timestamp": 1793750400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                11,
+                null,
+                34
+              ]
+            },
+            {
+              "date_from": "2026-11-05",
+              "date_to": "2026-11-05",
+              "timestamp": 1793836800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                13,
+                null,
+                34
+              ]
+            },
+            {
+              "date_from": "2026-11-06",
+              "date_to": "2026-11-06",
+              "timestamp": 1793923200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                16,
+                null,
+                37
+              ]
+            },
+            {
+              "date_from": "2026-11-07",
+              "date_to": "2026-11-07",
+              "timestamp": 1794009600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                20,
+                null,
+                41
+              ]
+            },
+            {
+              "date_from": "2026-11-08",
+              "date_to": "2026-11-08",
+              "timestamp": 1794096000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                24,
+                null,
+                49
+              ]
+            },
+            {
+              "date_from": "2026-11-09",
+              "date_to": "2026-11-09",
+              "timestamp": 1794182400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                35,
+                null,
+                38
+              ]
+            },
+            {
+              "date_from": "2026-11-10",
+              "date_to": "2026-11-10",
+              "timestamp": 1794268800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                53,
+                null,
+                32
+              ]
+            },
+            {
+              "date_from": "2026-11-11",
+              "date_to": "2026-11-11",
+              "timestamp": 1794355200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                84,
+                null,
+                37
+              ]
+            },
+            {
+              "date_from": "2026-11-12",
+              "date_to": "2026-11-12",
+              "timestamp": 1794441600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                82,
+                null,
+                39
+              ]
+            },
+            {
+              "date_from": "2026-11-13",
+              "date_to": "2026-11-13",
+              "timestamp": 1794528000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                68,
+                null,
+                34
+              ]
+            },
+            {
+              "date_from": "2026-11-14",
+              "date_to": "2026-11-14",
+              "timestamp": 1794614400,
+              "missing_data": false,
+              "values": [
+                9,
+                null,
+                69,
+                null,
+                47
+              ]
+            },
+            {
+              "date_from": "2026-11-15",
+              "date_to": "2026-11-15",
+              "timestamp": 1794700800,
+              "missing_data": true,
+              "values": [
+                33,
+                2,
+                64,
+                null,
+                100
+              ]
+            }
+          ]
+        }
+      ],
+      "items_count": 1
+    },
+    {
+      "call_id": "t30_in_lion",
+      "successful": true,
+      "customer_cost_micros_usd": 11000,
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "api_cost": 0.011,
+      "task_status": 20000,
+      "task_message": "Ok.",
+      "keywords": [
+        "AI lion ride",
+        "AI lion ride generator",
+        "lion riding AI template",
+        "ai photo to video"
+      ],
+      "location_name": null,
+      "location_code": 2356,
+      "language_code": "en",
+      "type": "trends",
+      "item_types": null,
+      "check_url": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%201-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+      "datetime": "2026-11-15 15:45:35 +00:00",
+      "items": [
+        {
+          "type": "google_trends_graph",
+          "averages": [
+            0,
+            0,
+            0,
+            39
+          ],
+          "series_stats": {
+            "AI lion ride": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "avg_non_null": null
+            },
+            "AI lion ride generator": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "avg_non_null": null
+            },
+            "lion riding AI template": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "avg_non_null": null
+            },
+            "ai photo to video": {
+              "non_null": 31,
+              "max": 100,
+              "sum": 1241,
+              "n": 31,
+              "missing_days": 1,
+              "avg_non_null": 40.03225806451613
+            }
+          },
+          "series": {
+            "AI lion ride": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": null,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": null
+            },
+            "AI lion ride generator": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": null,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": null
+            },
+            "lion riding AI template": {
+              "non_null": 0,
+              "max": null,
+              "sum": 0,
+              "n": 0,
+              "missing_days": 32,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": null,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": null
+            },
+            "ai photo to video": {
+              "non_null": 31,
+              "max": 100,
+              "sum": 1241,
+              "n": 31,
+              "missing_days": 1,
+              "points": [
+                {
+                  "date": "2026-10-15",
+                  "value": 28,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-16",
+                  "value": null,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-17",
+                  "value": 33,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-18",
+                  "value": 38,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-19",
+                  "value": 47,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-20",
+                  "value": 46,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-21",
+                  "value": 30,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-22",
+                  "value": 42,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-23",
+                  "value": 28,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-24",
+                  "value": 29,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-25",
+                  "value": 49,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-26",
+                  "value": 40,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-27",
+                  "value": 31,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-28",
+                  "value": 45,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-29",
+                  "value": 46,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-30",
+                  "value": 31,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-10-31",
+                  "value": 44,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-01",
+                  "value": 40,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-02",
+                  "value": 32,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-03",
+                  "value": 38,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-04",
+                  "value": 34,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-05",
+                  "value": 34,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-06",
+                  "value": 36,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-07",
+                  "value": 41,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-08",
+                  "value": 48,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-09",
+                  "value": 39,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-10",
+                  "value": 33,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-11",
+                  "value": 38,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-12",
+                  "value": 38,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-13",
+                  "value": 34,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-14",
+                  "value": 49,
+                  "missing_data": false
+                },
+                {
+                  "date": "2026-11-15",
+                  "value": 100,
+                  "missing_data": true
+                }
+              ],
+              "avg_non_null": 40.03225806451613
+            }
+          },
+          "raw_points": [
+            {
+              "date_from": "2026-10-15",
+              "date_to": "2026-10-15",
+              "timestamp": 1792022400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                28
+              ]
+            },
+            {
+              "date_from": "2026-10-16",
+              "date_to": "2026-10-16",
+              "timestamp": 1792108800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                null
+              ]
+            },
+            {
+              "date_from": "2026-10-17",
+              "date_to": "2026-10-17",
+              "timestamp": 1792195200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                33
+              ]
+            },
+            {
+              "date_from": "2026-10-18",
+              "date_to": "2026-10-18",
+              "timestamp": 1792281600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                38
+              ]
+            },
+            {
+              "date_from": "2026-10-19",
+              "date_to": "2026-10-19",
+              "timestamp": 1792368000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                47
+              ]
+            },
+            {
+              "date_from": "2026-10-20",
+              "date_to": "2026-10-20",
+              "timestamp": 1792454400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                46
+              ]
+            },
+            {
+              "date_from": "2026-10-21",
+              "date_to": "2026-10-21",
+              "timestamp": 1792540800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                30
+              ]
+            },
+            {
+              "date_from": "2026-10-22",
+              "date_to": "2026-10-22",
+              "timestamp": 1792627200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                42
+              ]
+            },
+            {
+              "date_from": "2026-10-23",
+              "date_to": "2026-10-23",
+              "timestamp": 1792713600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                28
+              ]
+            },
+            {
+              "date_from": "2026-10-24",
+              "date_to": "2026-10-24",
+              "timestamp": 1792800000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                29
+              ]
+            },
+            {
+              "date_from": "2026-10-25",
+              "date_to": "2026-10-25",
+              "timestamp": 1792886400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                49
+              ]
+            },
+            {
+              "date_from": "2026-10-26",
+              "date_to": "2026-10-26",
+              "timestamp": 1792972800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                40
+              ]
+            },
+            {
+              "date_from": "2026-10-27",
+              "date_to": "2026-10-27",
+              "timestamp": 1793059200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                31
+              ]
+            },
+            {
+              "date_from": "2026-10-28",
+              "date_to": "2026-10-28",
+              "timestamp": 1793145600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                45
+              ]
+            },
+            {
+              "date_from": "2026-10-29",
+              "date_to": "2026-10-29",
+              "timestamp": 1793232000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                46
+              ]
+            },
+            {
+              "date_from": "2026-10-30",
+              "date_to": "2026-10-30",
+              "timestamp": 1793318400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                31
+              ]
+            },
+            {
+              "date_from": "2026-10-31",
+              "date_to": "2026-10-31",
+              "timestamp": 1793404800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                44
+              ]
+            },
+            {
+              "date_from": "2026-11-01",
+              "date_to": "2026-11-01",
+              "timestamp": 1793491200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                40
+              ]
+            },
+            {
+              "date_from": "2026-11-02",
+              "date_to": "2026-11-02",
+              "timestamp": 1793577600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                32
+              ]
+            },
+            {
+              "date_from": "2026-11-03",
+              "date_to": "2026-11-03",
+              "timestamp": 1793664000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                38
+              ]
+            },
+            {
+              "date_from": "2026-11-04",
+              "date_to": "2026-11-04",
+              "timestamp": 1793750400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                34
+              ]
+            },
+            {
+              "date_from": "2026-11-05",
+              "date_to": "2026-11-05",
+              "timestamp": 1793836800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                34
+              ]
+            },
+            {
+              "date_from": "2026-11-06",
+              "date_to": "2026-11-06",
+              "timestamp": 1793923200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                36
+              ]
+            },
+            {
+              "date_from": "2026-11-07",
+              "date_to": "2026-11-07",
+              "timestamp": 1794009600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                41
+              ]
+            },
+            {
+              "date_from": "2026-11-08",
+              "date_to": "2026-11-08",
+              "timestamp": 1794096000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                48
+              ]
+            },
+            {
+              "date_from": "2026-11-09",
+              "date_to": "2026-11-09",
+              "timestamp": 1794182400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                39
+              ]
+            },
+            {
+              "date_from": "2026-11-10",
+              "date_to": "2026-11-10",
+              "timestamp": 1794268800,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                33
+              ]
+            },
+            {
+              "date_from": "2026-11-11",
+              "date_to": "2026-11-11",
+              "timestamp": 1794355200,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                38
+              ]
+            },
+            {
+              "date_from": "2026-11-12",
+              "date_to": "2026-11-12",
+              "timestamp": 1794441600,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                38
+              ]
+            },
+            {
+              "date_from": "2026-11-13",
+              "date_to": "2026-11-13",
+              "timestamp": 1794528000,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                34
+              ]
+            },
+            {
+              "date_from": "2026-11-14",
+              "date_to": "2026-11-14",
+              "timestamp": 1794614400,
+              "missing_data": false,
+              "values": [
+                null,
+                null,
+                null,
+                49
+              ]
+            },
+            {
+              "date_from": "2026-11-15",
+              "date_to": "2026-11-15",
+              "timestamp": 1794700800,
+              "missing_data": true,
+              "values": [
+                null,
+                null,
+                null,
+                100
+              ]
+            }
+          ]
+        }
+      ],
+      "items_count": 1
+    }
+  ]
+}

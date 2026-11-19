@@ -1,0 +1,68 @@
+{
+ "date": "2026-11-19",
+ "slot": "pm",
+ "coverage": {
+  "track": {
+   "status": "cache_reuse",
+   "reason": "legacy-only: reuse already-captured tracks-20261119-pm.json",
+   "path": "/workspace/xinci/tracks-20261119-pm.json"
+  },
+  "news": {
+   "status": "cache_reuse",
+   "reason": "legacy-only: reuse already-captured news-20261119.json",
+   "path": "/workspace/xinci/news-20261119.json"
+  },
+  "higgsfield": {
+   "status": "cache_reuse",
+   "reason": "legacy-only: reuse already-captured higgsfield-20261119.json",
+   "path": "/workspace/xinci/higgsfield-20261119.json"
+  },
+  "video": {
+   "status": "cache_reuse",
+   "reason": "legacy-only: reuse already-captured meme-20261119.json",
+   "path": "/workspace/xinci/meme-20261119.json"
+  },
+  "verify": {
+   "status": "cache_reuse",
+   "reason": "legacy-only: reuse already-captured verify-2026-11-19.json",
+   "path": "/workspace/xinci/v2_run/verify-2026-11-19.json"
+  },
+  "legacy_sources": {
+   "status": "ok",
+   "reason": "Skipped paid slice x (AIsa X); ran Hugging Face and free legacy sources successfully.",
+   "out": "/workspace/xinci/v2_run/sources-2026-11-19.md"
+  },
+  "legacy_daily": {
+   "status": "ok",
+   "reason": "Ran free signals successfully; skipped paid/uncontrollable slices: x,review,usecases,judge,newsites,asks,sellers,builders,money,revenue,feeds",
+   "out": "/workspace/xinci/v2_run/report-2026-11-19.md",
+   "json_out": "/workspace/xinci/v2_run/report-2026-11-19.json"
+  },
+  "finders": {
+   "status": "ok",
+   "reason": "finders trends 无可靠报价封顶/报价不足，已 --skip trends，仍跑 ac/appstore/hn",
+   "trends": "skipped_budget"
+  },
+  "doable": {
+   "status": "cache_reuse",
+   "reason": "legacy-only: reuse already-captured doable-2026-11-19.json",
+   "path": "/workspace/xinci/v2_run/doable-2026-11-19.json"
+  },
+  "merge": {
+   "status": "ok",
+   "reason": "report=report-2026-11-19.json (stamped date after daily omitted date field)",
+   "report": "/workspace/xinci/v2_run/report-2026-11-19.json",
+   "terms": 320,
+   "board_keywords_selected": 37,
+   "keywords_unchanged": true
+  },
+  "push": {
+   "status": "ok",
+   "reason": "upserted id=49 items=324 keywords=37 empty=false; 37 phrases unchanged vs 17:16 acceptance",
+   "board_id": 49,
+   "items": 324,
+   "keywords": 37
+  }
+ },
+ "written_at": "2026-11-19 17:29"
+}

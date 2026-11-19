@@ -1,0 +1,173 @@
+{
+  "window_hours": 24,
+  "max_items": 80,
+  "max_keywords": 16,
+  "pause_sec": 0.8,
+  "notes": "免密钥、非 X 补充源。不要加入 Toolify/Futurepedia/Aixploria sitemap、Product Hunt、HN（已在 AI工具轨）。不要启用 Horizon 的 twitter/openbb/email/wechat/webhook/pages/Apify/Playwright/Firecrawl。",
+  "google_news": {
+    "enabled": true,
+    "language": "en-US",
+    "country": "US",
+    "ceid": "US:en",
+    "max_results_per_query": 20,
+    "queries": [
+      {
+        "id": "ai-tool",
+        "q": "(\"new AI tool\" OR \"AI tool launch\" OR \"launches AI tool\" OR \"releases AI tool\")",
+        "kind_hint": "ai_tool"
+      },
+      {
+        "id": "steam-release",
+        "q": "(\"released on Steam\" OR \"now available on Steam\")",
+        "kind_hint": "game"
+      },
+      {
+        "id": "model-announce",
+        "q": "(\"announces\" OR \"unveils\" OR \"introduces\") (\"language model\" OR \"open-source model\" OR \"open-weight model\" OR \"open weight\")",
+        "kind_hint": "model"
+      },
+      {
+        "id": "ai-available",
+        "q": "(\"just launched\" OR \"now available\") (AI OR \"language model\") (tool OR agent OR model)",
+        "kind_hint": "ai_tool"
+      },
+      {
+        "id": "zh-launch",
+        "q": "(发布 OR 推出 OR 上线 OR 开源) (模型 OR AI工具 OR 新游戏 OR Steam OR Roblox)",
+        "kind_hint": "",
+        "language": "zh-CN",
+        "country": "CN",
+        "ceid": "CN:zh-Hans"
+      }
+    ]
+  },
+  "gdelt": {
+    "enabled": true,
+    "timespan": "24h",
+    "max_records": 25,
+    "mode": "ArtList",
+    "queries": [
+      {
+        "id": "ai-tool",
+        "q": "\"new AI tool\" OR \"AI tool launch\" OR \"launches an AI\"",
+        "kind_hint": "ai_tool"
+      },
+      {
+        "id": "steam-release",
+        "q": "\"released on Steam\" OR \"now available on Steam\"",
+        "kind_hint": "game"
+      },
+      {
+        "id": "model-available",
+        "q": "(\"now available\" OR unveils OR introducing) (LLM OR \"language model\" OR \"open-source model\")",
+        "kind_hint": "model"
+      }
+    ]
+  },
+  "telegram": {
+    "enabled": true,
+    "channels": [
+      {
+        "channel": "zaihuapd",
+        "name": "在花科技圈",
+        "enabled": true,
+        "fetch_limit": 25
+      },
+      {
+        "channel": "GitHubTrending",
+        "name": "GitHub Trends",
+        "enabled": true,
+        "fetch_limit": 25
+      },
+      {
+        "channel": "ai_news_cn",
+        "name": "AI新闻聚合",
+        "enabled": true,
+        "fetch_limit": 25
+      }
+    ]
+  },
+  "rss": {
+    "enabled": true,
+    "feeds": [
+      {
+        "id": "simonwillison",
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/atom/everything/",
+        "enabled": true,
+        "kind_hint": "ai_tool",
+        "official": true
+      },
+      {
+        "id": "hf-blog",
+        "name": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "enabled": true,
+        "kind_hint": "model",
+        "official": true
+      },
+      {
+        "id": "openai-news",
+        "name": "OpenAI News",
+        "url": "https://openai.com/news/rss.xml",
+        "enabled": true,
+        "kind_hint": "ai_tool",
+        "official": true
+      },
+      {
+        "id": "deepmind-blog",
+        "name": "Google DeepMind Blog",
+        "url": "https://deepmind.google/blog/rss.xml",
+        "enabled": true,
+        "kind_hint": "model",
+        "official": true
+      },
+      {
+        "id": "google-ai-blog",
+        "name": "Google AI Blog",
+        "url": "https://blog.google/technology/ai/rss/",
+        "enabled": true,
+        "kind_hint": "ai_tool",
+        "official": true
+      },
+      {
+        "id": "ollama-blog",
+        "name": "Ollama Blog",
+        "url": "https://ollama.com/blog/rss.xml",
+        "enabled": true,
+        "kind_hint": "model",
+        "official": true
+      },
+      {
+        "id": "github-trending-daily",
+        "name": "GitHub Trending Daily",
+        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
+        "enabled": true,
+        "kind_hint": "ai_tool",
+        "dateless_policy": "feed_date"
+      },
+      {
+        "id": "steam-news",
+        "name": "Steam News",
+        "url": "https://store.steampowered.com/feeds/news.xml",
+        "enabled": true,
+        "kind_hint": "game",
+        "official": true
+      },
+      {
+        "id": "techcrunch-ai",
+        "name": "TechCrunch AI",
+        "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "enabled": true,
+        "kind_hint": "ai_tool"
+      },
+      {
+        "id": "theverge-ai",
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+        "enabled": true,
+        "kind_hint": "ai_tool"
+      }
+    ]
+  }
+}

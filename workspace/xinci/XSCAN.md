@@ -1,6 +1,6 @@
 # XSCAN：书签X 扫描流程（AI 新品 + 建站热词）
 
-每次 10:20（am 档）和 21:20（pm 档）运行；晚上档在 merge_board.py 之前执行。
+现为每天 10:00（Asia/Shanghai）±15 分钟的唯一完整轮次使用 am 档文件名（xnew-YYYYMMDD-am.json）。手工补跑可用 --slot pm。务必先用免费 `x` 命名空间检索，再调用 `run_v2.py`；不要用付费 user-X / API x 替代。
 只用免费的 `x` 命名空间（CallDynamicTool namespace="x"），**绝不用 user-X**。先 GetDynamicTools 确认 `x` 可用；出错按 x-api-mcp-guide 处理（429 等一次重试一次，5xx 退避一次，仍失败就写 empty+error 文件并在摘要里说明）。
 
 ## 1. 窗口
@@ -69,3 +69,15 @@ python3 track_scan.py --mode pm --x-input /tmp/tracks_x_fill.json
 公开源（无需 X）：Toolify / Futurepedia / Aixploria **sitemap 增量**（`track_state/` 快照）、Product Hunt Atom feed、HN `AI tool` RSS。
 
 **注意：** 首次跑 sitemap 只建快照、`new=0`；第二次起才出导航站新工具名。doable 门槛不变（KD≤31 等）。
+
+
+---
+
+## 9. v2 交叉检索（游戏 / AI 视频玩法，仍走免费 x）
+
+除 §2 官方首发与 §8 游戏/工具查询外，10:00 轮建议增加（`search_posts_all`，recency，窗口约 7 天，`-is:retweet`，最多 2 页）：
+
+1. `("CapCut" OR "AI video" OR Higgsfield OR "photo to video") (template OR trend OR viral OR 模板 OR 玩法) -is:retweet lang:en OR lang:zh`
+2. 游戏查询沿用 §8.1。
+
+结果写入 `xnew-YYYYMMDD-am.json` 与可选 `--x-input`。X 是跨轨证据，只保留少量最高价值词，不为了凑满 40。大模型官方首发不要挤掉视频/游戏小词的发现记录（可进 items，keywords 精选）。

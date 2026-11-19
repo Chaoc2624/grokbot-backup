@@ -1,0 +1,86 @@
+{
+  "label": "2026-11-19 热梗轨（AIsa + 交叉补充）",
+  "run_at": "2026-11-19 16:03",
+  "timezone": "Asia/Taipei",
+  "source": "aisa_and_cross_20261119",
+  "tracks": {
+    "meme": {
+      "items": [
+        {
+          "name": "CapCut Peek AI",
+          "desc": "CapCut AI Lab 搜 peek，上传照片生成视频。Instagram 近一周有多名作者明确写出该模板；近 3 天高播放样本含教程。YouTube 本轮未找到可确认的同一玩法近期复刻（多为泛 CapCut 教程或旧视频）。发现阶段，不是立项批准。CapCut 已有一键模板，独立站需考虑差异化。",
+          "source": "热梗轨",
+          "url": "https://www.instagram.com/reel/Df2JChERXMF/",
+          "first_seen": "2026-11-17 22:27",
+          "platform": "instagram",
+          "metrics": {
+            "views": 134051,
+            "likes": 13922,
+            "collected_at": "2026-11-19"
+          }
+        },
+        {
+          "name": "CapCut Pool AI",
+          "desc": "CapCut AI Lab 搜 pool，常见为泳池/差点掉下去类效果。Instagram 多作者明确点名模板；TikTok 有同主题但播放较低且文案雷同。YouTube 本轮交叉证据不足（含 1 年前旧 swimming pool 剪辑教程）。发现阶段。",
+          "source": "热梗轨",
+          "url": "https://www.instagram.com/reel/Df2ndHkg8Es/",
+          "first_seen": "2026-11-18 02:53",
+          "platform": "instagram",
+          "metrics": {
+            "views": 143594,
+            "likes": 6678,
+            "collected_at": "2026-11-19"
+          }
+        },
+        {
+          "name": "CapCut Rich AI",
+          "desc": "CapCut AI Lab 搜 rich，把照片做成奢侈生活视频。近 7 天 Instagram 有多作者；11-15 有一条高播放样本。近 3 天部分条目播放字段异常偏低。发现阶段。",
+          "source": "热梗轨",
+          "url": "https://www.instagram.com/reel/DfvBPoggoAn/",
+          "first_seen": "2026-11-15 04:04",
+          "platform": "instagram",
+          "metrics": {
+            "views": 204287,
+            "likes": 31794,
+            "collected_at": "2026-11-19"
+          }
+        },
+        {
+          "name": "CapCut ATM 吐钞",
+          "desc": "上传照片生成 ATM 故障不断吐钱的视频。TikTok 近 7 天有可引用样本，部分文案高度相似，独立复刻证据需保留。本轮未跑该词 Trends，也未做 Instagram 专项检索。发现阶段。",
+          "source": "热梗轨",
+          "url": "https://www.tiktok.com/@elyas2415/video/7707719168849710369",
+          "first_seen": "2026-11-14 02:07",
+          "platform": "tiktok",
+          "metrics": {
+            "views": 511216,
+            "likes": 27076,
+            "collected_at": "2026-11-19"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "keyword": "CapCut peek AI",
+          "reason": "近 3–7 天 Instagram 多作者明确搜 peek 上传照片；高播放样本多为教程。可做玩法介绍/生成器页，建议≠立项。YouTube 交叉不足。",
+          "from": "CapCut Peek AI"
+        },
+        {
+          "keyword": "CapCut pool AI",
+          "reason": "近 3–7 天 Instagram 多作者明确搜 pool。可做玩法介绍页，建议≠立项。",
+          "from": "CapCut Pool AI"
+        },
+        {
+          "keyword": "CapCut rich AI",
+          "reason": "近 7 天照片变奢侈生活模板，有多作者。可做玩法介绍页，建议≠立项。",
+          "from": "CapCut Rich AI"
+        },
+        {
+          "keyword": "ATM CapCut template",
+          "reason": "TikTok 近 7 天照片生成 ATM 吐钞模板，有不同文案作者。可做玩法介绍页，建议≠立项，待补 Trends/IG。",
+          "from": "CapCut ATM 吐钞"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5041 @@
+{
+  "batch_id": "batch_999492f79a7639ca17fed3aa",
+  "error_count": 0,
+  "next_steps_guidance": [
+    "Report the returned business results and any known charges from customer_cost_micros_usd. Omitted charges are unknown, not zero.",
+    "Do not automatically retry or expand the call set. Further billable actions still need a matching quote and covering authorization."
+  ],
+  "results": [
+    {
+      "call_id": "t30_ww_anchor",
+      "customer_cost_micros_usd": 11000,
+      "data": {
+        "version": "0.1.20261103",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "6.0426 sec.",
+        "cost": 0.011,
+        "tasks_count": 1,
+        "tasks_error": 0,
+        "tasks": [
+          {
+            "id": "11151547-2439-0173-0000-c6c607effc7a",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "6.0351 sec.",
+            "cost": 0.011,
+            "result_count": 1,
+            "path": [
+              "v3",
+              "keywords_data",
+              "google_trends",
+              "explore",
+              "live"
+            ],
+            "data": {
+              "api": "keywords_data",
+              "function": "explore",
+              "se": "google_trends",
+              "item_types": [
+                "google_trends_graph"
+              ],
+              "keywords": [
+                "ai photo to video",
+                "image to video",
+                "ai video generator"
+              ],
+              "language_code": "en",
+              "time_range": "past_30_days",
+              "type": "web"
+            },
+            "result": [
+              {
+                "keywords": [
+                  "ai photo to video",
+                  "image to video",
+                  "ai video generator"
+                ],
+                "type": "trends",
+                "location_code": 0,
+                "language_code": "en",
+                "check_url": "https://trends.google.com/trends/explore?hl=en&date=today%201-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+                "datetime": "2026-11-15 15:47:37 +00:00",
+                "items_count": 1,
+                "items": [
+                  {
+                    "position": 1,
+                    "type": "google_trends_graph",
+                    "title": null,
+                    "keywords": [
+                      "ai photo to video",
+                      "image to video",
+                      "ai video generator"
+                    ],
+                    "data": [
+                      {
+                        "date_from": "2026-10-15",
+                        "date_to": "2026-10-15",
+                        "timestamp": 1792022400,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          35,
+                          84
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-16",
+                        "date_to": "2026-10-16",
+                        "timestamp": 1792108800,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          40,
+                          88
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-17",
+                        "date_to": "2026-10-17",
+                        "timestamp": 1792195200,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          36,
+                          97
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-18",
+                        "date_to": "2026-10-18",
+                        "timestamp": 1792281600,
+                        "missing_data": false,
+                        "values": [
+                          6,
+                          36,
+                          91
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-19",
+                        "date_to": "2026-10-19",
+                        "timestamp": 1792368000,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          33,
+                          91
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-20",
+                        "date_to": "2026-10-20",
+                        "timestamp": 1792454400,
+                        "missing_data": false,
+                        "values": [
+                          6,
+                          40,
+                          88
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-21",
+                        "date_to": "2026-10-21",
+                        "timestamp": 1792540800,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          34,
+                          84
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-22",
+                        "date_to": "2026-10-22",
+                        "timestamp": 1792627200,
+                        "missing_data": false,
+                        "values": [
+                          6,
+                          39,
+                          87
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-23",
+                        "date_to": "2026-10-23",
+                        "timestamp": 1792713600,
+                        "missing_data": false,
+                        "values": [
+                          6,
+                          36,
+                          94
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-24",
+                        "date_to": "2026-10-24",
+                        "timestamp": 1792800000,
+                        "missing_data": false,
+                        "values": [
+                          6,
+                          34,
+                          90
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-25",
+                        "date_to": "2026-10-25",
+                        "timestamp": 1792886400,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          34,
+                          94
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-26",
+                        "date_to": "2026-10-26",
+                        "timestamp": 1792972800,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          38,
+                          93
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-27",
+                        "date_to": "2026-10-27",
+                        "timestamp": 1793059200,
+                        "missing_data": false,
+                        "values": [
+                          6,
+                          39,
+                          90
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-28",
+                        "date_to": "2026-10-28",
+                        "timestamp": 1793145600,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          38,
+                          89
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-29",
+                        "date_to": "2026-10-29",
+                        "timestamp": 1793232000,
+                        "missing_data": false,
+                        "values": [
+                          6,
+                          34,
+                          96
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-30",
+                        "date_to": "2026-10-30",
+                        "timestamp": 1793318400,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          39,
+                          83
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-31",
+                        "date_to": "2026-10-31",
+                        "timestamp": 1793404800,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          35,
+                          90
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-01",
+                        "date_to": "2026-11-01",
+                        "timestamp": 1793491200,
+                        "missing_data": false,
+                        "values": [
+                          6,
+                          36,
+                          90
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-02",
+                        "date_to": "2026-11-02",
+                        "timestamp": 1793577600,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          35,
+                          84
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-03",
+                        "date_to": "2026-11-03",
+                        "timestamp": 1793664000,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          35,
+                          86
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-04",
+                        "date_to": "2026-11-04",
+                        "timestamp": 1793750400,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          31,
+                          84
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-05",
+                        "date_to": "2026-11-05",
+                        "timestamp": 1793836800,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          34,
+                          86
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-06",
+                        "date_to": "2026-11-06",
+                        "timestamp": 1793923200,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          34,
+                          88
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-07",
+                        "date_to": "2026-11-07",
+                        "timestamp": 1794009600,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          36,
+                          88
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-08",
+                        "date_to": "2026-11-08",
+                        "timestamp": 1794096000,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          33,
+                          88
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-09",
+                        "date_to": "2026-11-09",
+                        "timestamp": 1794182400,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          33,
+                          86
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-10",
+                        "date_to": "2026-11-10",
+                        "timestamp": 1794268800,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          33,
+                          87
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-11",
+                        "date_to": "2026-11-11",
+                        "timestamp": 1794355200,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          34,
+                          86
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-12",
+                        "date_to": "2026-11-12",
+                        "timestamp": 1794441600,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          32,
+                          86
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-13",
+                        "date_to": "2026-11-13",
+                        "timestamp": 1794528000,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          32,
+                          84
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-14",
+                        "date_to": "2026-11-14",
+                        "timestamp": 1794614400,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          32,
+                          88
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-15",
+                        "date_to": "2026-11-15",
+                        "timestamp": 1794700800,
+                        "missing_data": true,
+                        "values": [
+                          8,
+                          32,
+                          100
+                        ]
+                      }
+                    ],
+                    "averages": [
+                      5,
+                      35,
+                      89
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "request_id": "imc_a27f7296e3b9fd6e80f0a399e8aeee43bd50290728bea90b6fa4121af9cf9112",
+      "successful": true,
+      "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+      "upstream_status": 200
+    },
+    {
+      "call_id": "t30_ww_jatayu",
+      "customer_cost_micros_usd": 11000,
+      "data": {
+        "version": "0.1.20261103",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "5.0382 sec.",
+        "cost": 0.011,
+        "tasks_count": 1,
+        "tasks_error": 0,
+        "tasks": [
+          {
+            "id": "11151547-2439-0173-0000-0de88e4141fe",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "5.0267 sec.",
+            "cost": 0.011,
+            "result_count": 1,
+            "path": [
+              "v3",
+              "keywords_data",
+              "google_trends",
+              "explore",
+              "live"
+            ],
+            "data": {
+              "api": "keywords_data",
+              "function": "explore",
+              "se": "google_trends",
+              "item_types": [
+                "google_trends_graph"
+              ],
+              "keywords": [
+                "Jatayu AI video",
+                "Jatayu AI video generator",
+                "Sheru Bhai AI",
+                "King Jin AI trend",
+                "ai photo to video"
+              ],
+              "language_code": "en",
+              "time_range": "past_30_days",
+              "type": "web"
+            },
+            "result": [
+              {
+                "keywords": [
+                  "Jatayu AI video",
+                  "Jatayu AI video generator",
+                  "Sheru Bhai AI",
+                  "King Jin AI trend",
+                  "ai photo to video"
+                ],
+                "type": "trends",
+                "location_code": 0,
+                "language_code": "en",
+                "check_url": "https://trends.google.com/trends/explore?hl=en&date=today%201-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+                "datetime": "2026-11-15 15:47:36 +00:00",
+                "items_count": 1,
+                "items": [
+                  {
+                    "position": 1,
+                    "type": "google_trends_graph",
+                    "title": null,
+                    "keywords": [
+                      "Jatayu AI video",
+                      "Jatayu AI video generator",
+                      "Sheru Bhai AI",
+                      "King Jin AI trend",
+                      "ai photo to video"
+                    ],
+                    "data": [
+                      {
+                        "date_from": "2026-10-15",
+                        "date_to": "2026-10-15",
+                        "timestamp": 1792022400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          61
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-16",
+                        "date_to": "2026-10-16",
+                        "timestamp": 1792108800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          59
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-17",
+                        "date_to": "2026-10-17",
+                        "timestamp": 1792195200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          59
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-18",
+                        "date_to": "2026-10-18",
+                        "timestamp": 1792281600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          77
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-19",
+                        "date_to": "2026-10-19",
+                        "timestamp": 1792368000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          61
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-20",
+                        "date_to": "2026-10-20",
+                        "timestamp": 1792454400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          70
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-21",
+                        "date_to": "2026-10-21",
+                        "timestamp": 1792540800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          60
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-22",
+                        "date_to": "2026-10-22",
+                        "timestamp": 1792627200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          69
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-23",
+                        "date_to": "2026-10-23",
+                        "timestamp": 1792713600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          72
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-24",
+                        "date_to": "2026-10-24",
+                        "timestamp": 1792800000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          73
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-25",
+                        "date_to": "2026-10-25",
+                        "timestamp": 1792886400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          60
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-26",
+                        "date_to": "2026-10-26",
+                        "timestamp": 1792972800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          59
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-27",
+                        "date_to": "2026-10-27",
+                        "timestamp": 1793059200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          68
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-28",
+                        "date_to": "2026-10-28",
+                        "timestamp": 1793145600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          60
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-29",
+                        "date_to": "2026-10-29",
+                        "timestamp": 1793232000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          75
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-30",
+                        "date_to": "2026-10-30",
+                        "timestamp": 1793318400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          52
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-31",
+                        "date_to": "2026-10-31",
+                        "timestamp": 1793404800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          66
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-01",
+                        "date_to": "2026-11-01",
+                        "timestamp": 1793491200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          6,
+                          null,
+                          68
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-02",
+                        "date_to": "2026-11-02",
+                        "timestamp": 1793577600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          6,
+                          null,
+                          61
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-03",
+                        "date_to": "2026-11-03",
+                        "timestamp": 1793664000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          6,
+                          null,
+                          60
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-04",
+                        "date_to": "2026-11-04",
+                        "timestamp": 1793750400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          6,
+                          null,
+                          55
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-05",
+                        "date_to": "2026-11-05",
+                        "timestamp": 1793836800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          6,
+                          null,
+                          55
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-06",
+                        "date_to": "2026-11-06",
+                        "timestamp": 1793923200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          8,
+                          null,
+                          57
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-07",
+                        "date_to": "2026-11-07",
+                        "timestamp": 1794009600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          11,
+                          null,
+                          63
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-08",
+                        "date_to": "2026-11-08",
+                        "timestamp": 1794096000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          11,
+                          null,
+                          60
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-09",
+                        "date_to": "2026-11-09",
+                        "timestamp": 1794182400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          18,
+                          null,
+                          59
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-10",
+                        "date_to": "2026-11-10",
+                        "timestamp": 1794268800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          28,
+                          null,
+                          55
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-11",
+                        "date_to": "2026-11-11",
+                        "timestamp": 1794355200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          43,
+                          null,
+                          55
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-12",
+                        "date_to": "2026-11-12",
+                        "timestamp": 1794441600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          44,
+                          null,
+                          57
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-13",
+                        "date_to": "2026-11-13",
+                        "timestamp": 1794528000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          39,
+                          null,
+                          60
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-14",
+                        "date_to": "2026-11-14",
+                        "timestamp": 1794614400,
+                        "missing_data": false,
+                        "values": [
+                          5,
+                          null,
+                          39,
+                          null,
+                          66
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-15",
+                        "date_to": "2026-11-15",
+                        "timestamp": 1794700800,
+                        "missing_data": true,
+                        "values": [
+                          22,
+                          1,
+                          48,
+                          null,
+                          100
+                        ]
+                      }
+                    ],
+                    "averages": [
+                      1,
+                      0,
+                      10,
+                      0,
+                      64
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "request_id": "imc_6f28c75569823037fc7703336b37d9ab73595e18a007607a02b812b6c3248a85",
+      "successful": true,
+      "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+      "upstream_status": 200
+    },
+    {
+      "call_id": "t30_ww_lion",
+      "customer_cost_micros_usd": 11000,
+      "data": {
+        "version": "0.1.20261103",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "4.8691 sec.",
+        "cost": 0.011,
+        "tasks_count": 1,
+        "tasks_error": 0,
+        "tasks": [
+          {
+            "id": "11151547-2439-0173-0000-b49a737cb6d8",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "4.8128 sec.",
+            "cost": 0.011,
+            "result_count": 1,
+            "path": [
+              "v3",
+              "keywords_data",
+              "google_trends",
+              "explore",
+              "live"
+            ],
+            "data": {
+              "api": "keywords_data",
+              "function": "explore",
+              "se": "google_trends",
+              "item_types": [
+                "google_trends_graph"
+              ],
+              "keywords": [
+                "AI lion ride",
+                "AI lion ride generator",
+                "lion riding AI template",
+                "ai photo to video"
+              ],
+              "language_code": "en",
+              "time_range": "past_30_days",
+              "type": "web"
+            },
+            "result": [
+              {
+                "keywords": [
+                  "AI lion ride",
+                  "AI lion ride generator",
+                  "lion riding AI template",
+                  "ai photo to video"
+                ],
+                "type": "trends",
+                "location_code": 0,
+                "language_code": "en",
+                "check_url": "https://trends.google.com/trends/explore?hl=en&date=today%201-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+                "datetime": "2026-11-15 15:47:36 +00:00",
+                "items_count": 1,
+                "items": [
+                  {
+                    "position": 1,
+                    "type": "google_trends_graph",
+                    "title": null,
+                    "keywords": [
+                      "AI lion ride",
+                      "AI lion ride generator",
+                      "lion riding AI template",
+                      "ai photo to video"
+                    ],
+                    "data": [
+                      {
+                        "date_from": "2026-10-15",
+                        "date_to": "2026-10-15",
+                        "timestamp": 1792022400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          61
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-16",
+                        "date_to": "2026-10-16",
+                        "timestamp": 1792108800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          59
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-17",
+                        "date_to": "2026-10-17",
+                        "timestamp": 1792195200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          59
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-18",
+                        "date_to": "2026-10-18",
+                        "timestamp": 1792281600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          77
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-19",
+                        "date_to": "2026-10-19",
+                        "timestamp": 1792368000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          61
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-20",
+                        "date_to": "2026-10-20",
+                        "timestamp": 1792454400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          70
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-21",
+                        "date_to": "2026-10-21",
+                        "timestamp": 1792540800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          60
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-22",
+                        "date_to": "2026-10-22",
+                        "timestamp": 1792627200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          69
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-23",
+                        "date_to": "2026-10-23",
+                        "timestamp": 1792713600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          72
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-24",
+                        "date_to": "2026-10-24",
+                        "timestamp": 1792800000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          73
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-25",
+                        "date_to": "2026-10-25",
+                        "timestamp": 1792886400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          60
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-26",
+                        "date_to": "2026-10-26",
+                        "timestamp": 1792972800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          59
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-27",
+                        "date_to": "2026-10-27",
+                        "timestamp": 1793059200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          68
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-28",
+                        "date_to": "2026-10-28",
+                        "timestamp": 1793145600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          60
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-29",
+                        "date_to": "2026-10-29",
+                        "timestamp": 1793232000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          75
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-30",
+                        "date_to": "2026-10-30",
+                        "timestamp": 1793318400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          52
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-31",
+                        "date_to": "2026-10-31",
+                        "timestamp": 1793404800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          66
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-01",
+                        "date_to": "2026-11-01",
+                        "timestamp": 1793491200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          68
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-02",
+                        "date_to": "2026-11-02",
+                        "timestamp": 1793577600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          61
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-03",
+                        "date_to": "2026-11-03",
+                        "timestamp": 1793664000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          60
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-04",
+                        "date_to": "2026-11-04",
+                        "timestamp": 1793750400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          55
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-05",
+                        "date_to": "2026-11-05",
+                        "timestamp": 1793836800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          55
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-06",
+                        "date_to": "2026-11-06",
+                        "timestamp": 1793923200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          57
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-07",
+                        "date_to": "2026-11-07",
+                        "timestamp": 1794009600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          63
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-08",
+                        "date_to": "2026-11-08",
+                        "timestamp": 1794096000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          60
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-09",
+                        "date_to": "2026-11-09",
+                        "timestamp": 1794182400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          59
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-10",
+                        "date_to": "2026-11-10",
+                        "timestamp": 1794268800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          55
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-11",
+                        "date_to": "2026-11-11",
+                        "timestamp": 1794355200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          55
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-12",
+                        "date_to": "2026-11-12",
+                        "timestamp": 1794441600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          57
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-13",
+                        "date_to": "2026-11-13",
+                        "timestamp": 1794528000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          60
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-14",
+                        "date_to": "2026-11-14",
+                        "timestamp": 1794614400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          66
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-15",
+                        "date_to": "2026-11-15",
+                        "timestamp": 1794700800,
+                        "missing_data": true,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          100
+                        ]
+                      }
+                    ],
+                    "averages": [
+                      0,
+                      0,
+                      0,
+                      64
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "request_id": "imc_91ab22eecb438760478aa8d355560829afb2aad1baa760609fefb39a36e892c2",
+      "successful": true,
+      "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+      "upstream_status": 200
+    },
+    {
+      "call_id": "t90_ww_anchor",
+      "customer_cost_micros_usd": 11000,
+      "data": {
+        "version": "0.1.20261103",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "5.2227 sec.",
+        "cost": 0.011,
+        "tasks_count": 1,
+        "tasks_error": 0,
+        "tasks": [
+          {
+            "id": "11151547-2439-0173-0000-5c0311b691ea",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "5.2147 sec.",
+            "cost": 0.011,
+            "result_count": 1,
+            "path": [
+              "v3",
+              "keywords_data",
+              "google_trends",
+              "explore",
+              "live"
+            ],
+            "data": {
+              "api": "keywords_data",
+              "function": "explore",
+              "se": "google_trends",
+              "item_types": [
+                "google_trends_graph"
+              ],
+              "keywords": [
+                "ai photo to video",
+                "image to video",
+                "ai video generator"
+              ],
+              "language_code": "en",
+              "time_range": "past_90_days",
+              "type": "web"
+            },
+            "result": [
+              {
+                "keywords": [
+                  "ai photo to video",
+                  "image to video",
+                  "ai video generator"
+                ],
+                "type": "trends",
+                "location_code": 0,
+                "language_code": "en",
+                "check_url": "https://trends.google.com/trends/explore?hl=en&date=today%203-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+                "datetime": "2026-11-15 15:47:42 +00:00",
+                "items_count": 1,
+                "items": [
+                  {
+                    "position": 1,
+                    "type": "google_trends_graph",
+                    "title": null,
+                    "keywords": [
+                      "ai photo to video",
+                      "image to video",
+                      "ai video generator"
+                    ],
+                    "data": [
+                      {
+                        "date_from": "2026-08-15",
+                        "date_to": "2026-08-15",
+                        "timestamp": 1786752000,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          30,
+                          50
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-16",
+                        "date_to": "2026-08-16",
+                        "timestamp": 1786838400,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          29,
+                          54
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-17",
+                        "date_to": "2026-08-17",
+                        "timestamp": 1786924800,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          28,
+                          47
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-18",
+                        "date_to": "2026-08-18",
+                        "timestamp": 1787011200,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          30,
+                          45
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-19",
+                        "date_to": "2026-08-19",
+                        "timestamp": 1787097600,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          31,
+                          50
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-20",
+                        "date_to": "2026-08-20",
+                        "timestamp": 1787184000,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          24,
+                          47
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-21",
+                        "date_to": "2026-08-21",
+                        "timestamp": 1787270400,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          19,
+                          45
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-22",
+                        "date_to": "2026-08-22",
+                        "timestamp": 1787356800,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          17,
+                          42
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-23",
+                        "date_to": "2026-08-23",
+                        "timestamp": 1787443200,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          18,
+                          52
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-24",
+                        "date_to": "2026-08-24",
+                        "timestamp": 1787529600,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          18,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-25",
+                        "date_to": "2026-08-25",
+                        "timestamp": 1787616000,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          22,
+                          51
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-26",
+                        "date_to": "2026-08-26",
+                        "timestamp": 1787702400,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          25,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-27",
+                        "date_to": "2026-08-27",
+                        "timestamp": 1787788800,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          25,
+                          53
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-28",
+                        "date_to": "2026-08-28",
+                        "timestamp": 1787875200,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          26,
+                          52
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-29",
+                        "date_to": "2026-08-29",
+                        "timestamp": 1787961600,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          24,
+                          55
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-30",
+                        "date_to": "2026-08-30",
+                        "timestamp": 1788048000,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          23,
+                          55
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-31",
+                        "date_to": "2026-08-31",
+                        "timestamp": 1788134400,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          26,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-01",
+                        "date_to": "2026-09-01",
+                        "timestamp": 1788220800,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          28,
+                          51
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-02",
+                        "date_to": "2026-09-02",
+                        "timestamp": 1788307200,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          36,
+                          59
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-03",
+                        "date_to": "2026-09-03",
+                        "timestamp": 1788393600,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          31,
+                          45
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-04",
+                        "date_to": "2026-09-04",
+                        "timestamp": 1788480000,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          30,
+                          45
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-05",
+                        "date_to": "2026-09-05",
+                        "timestamp": 1788566400,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          29,
+                          47
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-06",
+                        "date_to": "2026-09-06",
+                        "timestamp": 1788652800,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          35,
+                          46
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-07",
+                        "date_to": "2026-09-07",
+                        "timestamp": 1788739200,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          31,
+                          44
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-08",
+                        "date_to": "2026-09-08",
+                        "timestamp": 1788825600,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          30,
+                          40
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-09",
+                        "date_to": "2026-09-09",
+                        "timestamp": 1788912000,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          29,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-10",
+                        "date_to": "2026-09-10",
+                        "timestamp": 1788998400,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          30,
+                          42
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-11",
+                        "date_to": "2026-09-11",
+                        "timestamp": 1789084800,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          26,
+                          41
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-12",
+                        "date_to": "2026-09-12",
+                        "timestamp": 1789171200,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          20,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-13",
+                        "date_to": "2026-09-13",
+                        "timestamp": 1789257600,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          21,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-14",
+                        "date_to": "2026-09-14",
+                        "timestamp": 1789344000,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          31,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-15",
+                        "date_to": "2026-09-15",
+                        "timestamp": 1789430400,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          38,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-16",
+                        "date_to": "2026-09-16",
+                        "timestamp": 1789516800,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          32,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-17",
+                        "date_to": "2026-09-17",
+                        "timestamp": 1789603200,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          34,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-18",
+                        "date_to": "2026-09-18",
+                        "timestamp": 1789689600,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          31,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-19",
+                        "date_to": "2026-09-19",
+                        "timestamp": 1789776000,
+                        "missing_data": false,
+                        "values": [
+                          6,
+                          78,
+                          45
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-20",
+                        "date_to": "2026-09-20",
+                        "timestamp": 1789862400,
+                        "missing_data": false,
+                        "values": [
+                          7,
+                          100,
+                          52
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-21",
+                        "date_to": "2026-09-21",
+                        "timestamp": 1789948800,
+                        "missing_data": false,
+                        "values": [
+                          6,
+                          78,
+                          48
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-22",
+                        "date_to": "2026-09-22",
+                        "timestamp": 1790035200,
+                        "missing_data": false,
+                        "values": [
+                          4,
+                          40,
+                          40
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-23",
+                        "date_to": "2026-09-23",
+                        "timestamp": 1790121600,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          26,
+                          40
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-24",
+                        "date_to": "2026-09-24",
+                        "timestamp": 1790208000,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          23,
+                          40
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-25",
+                        "date_to": "2026-09-25",
+                        "timestamp": 1790294400,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          23,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-26",
+                        "date_to": "2026-09-26",
+                        "timestamp": 1790380800,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          25,
+                          43
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-27",
+                        "date_to": "2026-09-27",
+                        "timestamp": 1790467200,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          25,
+                          40
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-28",
+                        "date_to": "2026-09-28",
+                        "timestamp": 1790553600,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          27,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-29",
+                        "date_to": "2026-09-29",
+                        "timestamp": 1790640000,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          24,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-30",
+                        "date_to": "2026-09-30",
+                        "timestamp": 1790726400,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          23,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-01",
+                        "date_to": "2026-10-01",
+                        "timestamp": 1790812800,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          18,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-02",
+                        "date_to": "2026-10-02",
+                        "timestamp": 1790899200,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          16,
+                          42
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-03",
+                        "date_to": "2026-10-03",
+                        "timestamp": 1790985600,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          21,
+                          44
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-04",
+                        "date_to": "2026-10-04",
+                        "timestamp": 1791072000,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          19,
+                          44
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-05",
+                        "date_to": "2026-10-05",
+                        "timestamp": 1791158400,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          18,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-06",
+                        "date_to": "2026-10-06",
+                        "timestamp": 1791244800,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          19,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-07",
+                        "date_to": "2026-10-07",
+                        "timestamp": 1791331200,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          18,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-08",
+                        "date_to": "2026-10-08",
+                        "timestamp": 1791417600,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          18,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-09",
+                        "date_to": "2026-10-09",
+                        "timestamp": 1791504000,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          16,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-10",
+                        "date_to": "2026-10-10",
+                        "timestamp": 1791590400,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          17,
+                          40
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-11",
+                        "date_to": "2026-10-11",
+                        "timestamp": 1791676800,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          15,
+                          40
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-12",
+                        "date_to": "2026-10-12",
+                        "timestamp": 1791763200,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          16,
+                          34
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-13",
+                        "date_to": "2026-10-13",
+                        "timestamp": 1791849600,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          13,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-14",
+                        "date_to": "2026-10-14",
+                        "timestamp": 1791936000,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          16,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-15",
+                        "date_to": "2026-10-15",
+                        "timestamp": 1792022400,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          14,
+                          34
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-16",
+                        "date_to": "2026-10-16",
+                        "timestamp": 1792108800,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          16,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-17",
+                        "date_to": "2026-10-17",
+                        "timestamp": 1792195200,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          15,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-18",
+                        "date_to": "2026-10-18",
+                        "timestamp": 1792281600,
+                        "missing_data": false,
+                        "values": [
+                          3,
+                          15,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-19",
+                        "date_to": "2026-10-19",
+                        "timestamp": 1792368000,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          14,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-20",
+                        "date_to": "2026-10-20",
+                        "timestamp": 1792454400,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          16,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-21",
+                        "date_to": "2026-10-21",
+                        "timestamp": 1792540800,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          14,
+                          34
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-22",
+                        "date_to": "2026-10-22",
+                        "timestamp": 1792627200,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          16,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-23",
+                        "date_to": "2026-10-23",
+                        "timestamp": 1792713600,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          14,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-24",
+                        "date_to": "2026-10-24",
+                        "timestamp": 1792800000,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          14,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-25",
+                        "date_to": "2026-10-25",
+                        "timestamp": 1792886400,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          14,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-26",
+                        "date_to": "2026-10-26",
+                        "timestamp": 1792972800,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          16,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-27",
+                        "date_to": "2026-10-27",
+                        "timestamp": 1793059200,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          16,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-28",
+                        "date_to": "2026-10-28",
+                        "timestamp": 1793145600,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          15,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-29",
+                        "date_to": "2026-10-29",
+                        "timestamp": 1793232000,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          14,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-30",
+                        "date_to": "2026-10-30",
+                        "timestamp": 1793318400,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          16,
+                          34
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-31",
+                        "date_to": "2026-10-31",
+                        "timestamp": 1793404800,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          14,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-01",
+                        "date_to": "2026-11-01",
+                        "timestamp": 1793491200,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          15,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-02",
+                        "date_to": "2026-11-02",
+                        "timestamp": 1793577600,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          14,
+                          34
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-03",
+                        "date_to": "2026-11-03",
+                        "timestamp": 1793664000,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          14,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-04",
+                        "date_to": "2026-11-04",
+                        "timestamp": 1793750400,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          13,
+                          34
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-05",
+                        "date_to": "2026-11-05",
+                        "timestamp": 1793836800,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          14,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-06",
+                        "date_to": "2026-11-06",
+                        "timestamp": 1793923200,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          14,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-07",
+                        "date_to": "2026-11-07",
+                        "timestamp": 1794009600,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          15,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-08",
+                        "date_to": "2026-11-08",
+                        "timestamp": 1794096000,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          13,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-09",
+                        "date_to": "2026-11-09",
+                        "timestamp": 1794182400,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          13,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-10",
+                        "date_to": "2026-11-10",
+                        "timestamp": 1794268800,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          13,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-11",
+                        "date_to": "2026-11-11",
+                        "timestamp": 1794355200,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          14,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-12",
+                        "date_to": "2026-11-12",
+                        "timestamp": 1794441600,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          13,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-13",
+                        "date_to": "2026-11-13",
+                        "timestamp": 1794528000,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          13,
+                          34
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-14",
+                        "date_to": "2026-11-14",
+                        "timestamp": 1794614400,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          13,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-15",
+                        "date_to": "2026-11-15",
+                        "timestamp": 1794700800,
+                        "missing_data": true,
+                        "values": [
+                          3,
+                          13,
+                          41
+                        ]
+                      }
+                    ],
+                    "averages": [
+                      3,
+                      23,
+                      41
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "request_id": "imc_41cade811c392d00585a4e80c3d1727b915574a4262b441608abe5bc474096a1",
+      "successful": true,
+      "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+      "upstream_status": 200
+    },
+    {
+      "call_id": "t90_ww_jatayu",
+      "customer_cost_micros_usd": 11000,
+      "data": {
+        "version": "0.1.20261103",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "5.2374 sec.",
+        "cost": 0.011,
+        "tasks_count": 1,
+        "tasks_error": 0,
+        "tasks": [
+          {
+            "id": "11151547-2439-0173-0000-b9089e7b98dc",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "5.2223 sec.",
+            "cost": 0.011,
+            "result_count": 1,
+            "path": [
+              "v3",
+              "keywords_data",
+              "google_trends",
+              "explore",
+              "live"
+            ],
+            "data": {
+              "api": "keywords_data",
+              "function": "explore",
+              "se": "google_trends",
+              "item_types": [
+                "google_trends_graph"
+              ],
+              "keywords": [
+                "Jatayu AI video",
+                "Jatayu AI video generator",
+                "Sheru Bhai AI",
+                "King Jin AI trend",
+                "ai photo to video"
+              ],
+              "language_code": "en",
+              "time_range": "past_90_days",
+              "type": "web"
+            },
+            "result": [
+              {
+                "keywords": [
+                  "Jatayu AI video",
+                  "Jatayu AI video generator",
+                  "Sheru Bhai AI",
+                  "King Jin AI trend",
+                  "ai photo to video"
+                ],
+                "type": "trends",
+                "location_code": 0,
+                "language_code": "en",
+                "check_url": "https://trends.google.com/trends/explore?hl=en&date=today%203-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+                "datetime": "2026-11-15 15:47:36 +00:00",
+                "items_count": 1,
+                "items": [
+                  {
+                    "position": 1,
+                    "type": "google_trends_graph",
+                    "title": null,
+                    "keywords": [
+                      "Jatayu AI video",
+                      "Jatayu AI video generator",
+                      "Sheru Bhai AI",
+                      "King Jin AI trend",
+                      "ai photo to video"
+                    ],
+                    "data": [
+                      {
+                        "date_from": "2026-08-15",
+                        "date_to": "2026-08-15",
+                        "timestamp": 1786752000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          56
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-16",
+                        "date_to": "2026-08-16",
+                        "timestamp": 1786838400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          47
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-17",
+                        "date_to": "2026-08-17",
+                        "timestamp": 1786924800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-18",
+                        "date_to": "2026-08-18",
+                        "timestamp": 1787011200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          50
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-19",
+                        "date_to": "2026-08-19",
+                        "timestamp": 1787097600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-20",
+                        "date_to": "2026-08-20",
+                        "timestamp": 1787184000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          40
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-21",
+                        "date_to": "2026-08-21",
+                        "timestamp": 1787270400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-22",
+                        "date_to": "2026-08-22",
+                        "timestamp": 1787356800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-23",
+                        "date_to": "2026-08-23",
+                        "timestamp": 1787443200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          43
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-24",
+                        "date_to": "2026-08-24",
+                        "timestamp": 1787529600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-25",
+                        "date_to": "2026-08-25",
+                        "timestamp": 1787616000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          41
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-26",
+                        "date_to": "2026-08-26",
+                        "timestamp": 1787702400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          44
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-27",
+                        "date_to": "2026-08-27",
+                        "timestamp": 1787788800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          42
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-28",
+                        "date_to": "2026-08-28",
+                        "timestamp": 1787875200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          47
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-29",
+                        "date_to": "2026-08-29",
+                        "timestamp": 1787961600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          41
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-30",
+                        "date_to": "2026-08-30",
+                        "timestamp": 1788048000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-31",
+                        "date_to": "2026-08-31",
+                        "timestamp": 1788134400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-01",
+                        "date_to": "2026-09-01",
+                        "timestamp": 1788220800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          43
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-02",
+                        "date_to": "2026-09-02",
+                        "timestamp": 1788307200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          57
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-03",
+                        "date_to": "2026-09-03",
+                        "timestamp": 1788393600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-04",
+                        "date_to": "2026-09-04",
+                        "timestamp": 1788480000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          55
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-05",
+                        "date_to": "2026-09-05",
+                        "timestamp": 1788566400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          48
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-06",
+                        "date_to": "2026-09-06",
+                        "timestamp": 1788652800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          54
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-07",
+                        "date_to": "2026-09-07",
+                        "timestamp": 1788739200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          43
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-08",
+                        "date_to": "2026-09-08",
+                        "timestamp": 1788825600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          48
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-09",
+                        "date_to": "2026-09-09",
+                        "timestamp": 1788912000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          51
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-10",
+                        "date_to": "2026-09-10",
+                        "timestamp": 1788998400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          62
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-11",
+                        "date_to": "2026-09-11",
+                        "timestamp": 1789084800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          59
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-12",
+                        "date_to": "2026-09-12",
+                        "timestamp": 1789171200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          58
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-13",
+                        "date_to": "2026-09-13",
+                        "timestamp": 1789257600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-14",
+                        "date_to": "2026-09-14",
+                        "timestamp": 1789344000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          54
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-15",
+                        "date_to": "2026-09-15",
+                        "timestamp": 1789430400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-16",
+                        "date_to": "2026-09-16",
+                        "timestamp": 1789516800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          44
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-17",
+                        "date_to": "2026-09-17",
+                        "timestamp": 1789603200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-18",
+                        "date_to": "2026-09-18",
+                        "timestamp": 1789689600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          56
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-19",
+                        "date_to": "2026-09-19",
+                        "timestamp": 1789776000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          87
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-20",
+                        "date_to": "2026-09-20",
+                        "timestamp": 1789862400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          100
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-21",
+                        "date_to": "2026-09-21",
+                        "timestamp": 1789948800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          99
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-22",
+                        "date_to": "2026-09-22",
+                        "timestamp": 1790035200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          64
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-23",
+                        "date_to": "2026-09-23",
+                        "timestamp": 1790121600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          51
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-24",
+                        "date_to": "2026-09-24",
+                        "timestamp": 1790208000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          45
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-25",
+                        "date_to": "2026-09-25",
+                        "timestamp": 1790294400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          41
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-26",
+                        "date_to": "2026-09-26",
+                        "timestamp": 1790380800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          45
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-27",
+                        "date_to": "2026-09-27",
+                        "timestamp": 1790467200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          51
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-28",
+                        "date_to": "2026-09-28",
+                        "timestamp": 1790553600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          45
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-29",
+                        "date_to": "2026-09-29",
+                        "timestamp": 1790640000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          40
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-30",
+                        "date_to": "2026-09-30",
+                        "timestamp": 1790726400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-01",
+                        "date_to": "2026-10-01",
+                        "timestamp": 1790812800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-02",
+                        "date_to": "2026-10-02",
+                        "timestamp": 1790899200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-03",
+                        "date_to": "2026-10-03",
+                        "timestamp": 1790985600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          47
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-04",
+                        "date_to": "2026-10-04",
+                        "timestamp": 1791072000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          45
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-05",
+                        "date_to": "2026-10-05",
+                        "timestamp": 1791158400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-06",
+                        "date_to": "2026-10-06",
+                        "timestamp": 1791244800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-07",
+                        "date_to": "2026-10-07",
+                        "timestamp": 1791331200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-08",
+                        "date_to": "2026-10-08",
+                        "timestamp": 1791417600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-09",
+                        "date_to": "2026-10-09",
+                        "timestamp": 1791504000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-10",
+                        "date_to": "2026-10-10",
+                        "timestamp": 1791590400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-11",
+                        "date_to": "2026-10-11",
+                        "timestamp": 1791676800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-12",
+                        "date_to": "2026-10-12",
+                        "timestamp": 1791763200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-13",
+                        "date_to": "2026-10-13",
+                        "timestamp": 1791849600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          33
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-14",
+                        "date_to": "2026-10-14",
+                        "timestamp": 1791936000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          28
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-15",
+                        "date_to": "2026-10-15",
+                        "timestamp": 1792022400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          31
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-16",
+                        "date_to": "2026-10-16",
+                        "timestamp": 1792108800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-17",
+                        "date_to": "2026-10-17",
+                        "timestamp": 1792195200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-18",
+                        "date_to": "2026-10-18",
+                        "timestamp": 1792281600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-19",
+                        "date_to": "2026-10-19",
+                        "timestamp": 1792368000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          31
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-20",
+                        "date_to": "2026-10-20",
+                        "timestamp": 1792454400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-21",
+                        "date_to": "2026-10-21",
+                        "timestamp": 1792540800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-22",
+                        "date_to": "2026-10-22",
+                        "timestamp": 1792627200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-23",
+                        "date_to": "2026-10-23",
+                        "timestamp": 1792713600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-24",
+                        "date_to": "2026-10-24",
+                        "timestamp": 1792800000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-25",
+                        "date_to": "2026-10-25",
+                        "timestamp": 1792886400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-26",
+                        "date_to": "2026-10-26",
+                        "timestamp": 1792972800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-27",
+                        "date_to": "2026-10-27",
+                        "timestamp": 1793059200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-28",
+                        "date_to": "2026-10-28",
+                        "timestamp": 1793145600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-29",
+                        "date_to": "2026-10-29",
+                        "timestamp": 1793232000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-30",
+                        "date_to": "2026-10-30",
+                        "timestamp": 1793318400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          27
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-31",
+                        "date_to": "2026-10-31",
+                        "timestamp": 1793404800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          null,
+                          33
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-01",
+                        "date_to": "2026-11-01",
+                        "timestamp": 1793491200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          3,
+                          null,
+                          34
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-02",
+                        "date_to": "2026-11-02",
+                        "timestamp": 1793577600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          3,
+                          null,
+                          31
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-03",
+                        "date_to": "2026-11-03",
+                        "timestamp": 1793664000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          3,
+                          null,
+                          31
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-04",
+                        "date_to": "2026-11-04",
+                        "timestamp": 1793750400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          3,
+                          null,
+                          28
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-05",
+                        "date_to": "2026-11-05",
+                        "timestamp": 1793836800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          3,
+                          null,
+                          28
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-06",
+                        "date_to": "2026-11-06",
+                        "timestamp": 1793923200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          4,
+                          null,
+                          29
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-07",
+                        "date_to": "2026-11-07",
+                        "timestamp": 1794009600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          5,
+                          null,
+                          32
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-08",
+                        "date_to": "2026-11-08",
+                        "timestamp": 1794096000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          6,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-09",
+                        "date_to": "2026-11-09",
+                        "timestamp": 1794182400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          9,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-10",
+                        "date_to": "2026-11-10",
+                        "timestamp": 1794268800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          14,
+                          null,
+                          28
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-11",
+                        "date_to": "2026-11-11",
+                        "timestamp": 1794355200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          22,
+                          null,
+                          28
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-12",
+                        "date_to": "2026-11-12",
+                        "timestamp": 1794441600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          22,
+                          null,
+                          29
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-13",
+                        "date_to": "2026-11-13",
+                        "timestamp": 1794528000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          20,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-14",
+                        "date_to": "2026-11-14",
+                        "timestamp": 1794614400,
+                        "missing_data": false,
+                        "values": [
+                          2,
+                          null,
+                          20,
+                          null,
+                          33
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-15",
+                        "date_to": "2026-11-15",
+                        "timestamp": 1794700800,
+                        "missing_data": true,
+                        "values": [
+                          11,
+                          0,
+                          24,
+                          null,
+                          51
+                        ]
+                      }
+                    ],
+                    "averages": [
+                      0,
+                      0,
+                      2,
+                      0,
+                      42
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "request_id": "imc_f90b7b63b283d9a18288b76bc8642bbb4adb3e0c8864b9c87d45036354c3c571",
+      "successful": true,
+      "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+      "upstream_status": 200
+    },
+    {
+      "call_id": "t90_ww_lion",
+      "customer_cost_micros_usd": 11000,
+      "data": {
+        "version": "0.1.20261103",
+        "status_code": 20000,
+        "status_message": "Ok.",
+        "time": "5.1534 sec.",
+        "cost": 0.011,
+        "tasks_count": 1,
+        "tasks_error": 0,
+        "tasks": [
+          {
+            "id": "11151547-2439-0173-0000-da8ac7287fbc",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "5.1323 sec.",
+            "cost": 0.011,
+            "result_count": 1,
+            "path": [
+              "v3",
+              "keywords_data",
+              "google_trends",
+              "explore",
+              "live"
+            ],
+            "data": {
+              "api": "keywords_data",
+              "function": "explore",
+              "se": "google_trends",
+              "item_types": [
+                "google_trends_graph"
+              ],
+              "keywords": [
+                "AI lion ride",
+                "AI lion ride generator",
+                "lion riding AI template",
+                "ai photo to video"
+              ],
+              "language_code": "en",
+              "time_range": "past_90_days",
+              "type": "web"
+            },
+            "result": [
+              {
+                "keywords": [
+                  "AI lion ride",
+                  "AI lion ride generator",
+                  "lion riding AI template",
+                  "ai photo to video"
+                ],
+                "type": "trends",
+                "location_code": 0,
+                "language_code": "en",
+                "check_url": "https://trends.google.com/trends/explore?hl=en&date=today%203-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+                "datetime": "2026-11-15 15:47:36 +00:00",
+                "items_count": 1,
+                "items": [
+                  {
+                    "position": 1,
+                    "type": "google_trends_graph",
+                    "title": null,
+                    "keywords": [
+                      "AI lion ride",
+                      "AI lion ride generator",
+                      "lion riding AI template",
+                      "ai photo to video"
+                    ],
+                    "data": [
+                      {
+                        "date_from": "2026-08-15",
+                        "date_to": "2026-08-15",
+                        "timestamp": 1786752000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          56
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-16",
+                        "date_to": "2026-08-16",
+                        "timestamp": 1786838400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          47
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-17",
+                        "date_to": "2026-08-17",
+                        "timestamp": 1786924800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-18",
+                        "date_to": "2026-08-18",
+                        "timestamp": 1787011200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          50
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-19",
+                        "date_to": "2026-08-19",
+                        "timestamp": 1787097600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-20",
+                        "date_to": "2026-08-20",
+                        "timestamp": 1787184000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          40
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-21",
+                        "date_to": "2026-08-21",
+                        "timestamp": 1787270400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-22",
+                        "date_to": "2026-08-22",
+                        "timestamp": 1787356800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-23",
+                        "date_to": "2026-08-23",
+                        "timestamp": 1787443200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          43
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-24",
+                        "date_to": "2026-08-24",
+                        "timestamp": 1787529600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-25",
+                        "date_to": "2026-08-25",
+                        "timestamp": 1787616000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          41
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-26",
+                        "date_to": "2026-08-26",
+                        "timestamp": 1787702400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          44
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-27",
+                        "date_to": "2026-08-27",
+                        "timestamp": 1787788800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          42
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-28",
+                        "date_to": "2026-08-28",
+                        "timestamp": 1787875200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          47
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-29",
+                        "date_to": "2026-08-29",
+                        "timestamp": 1787961600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          41
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-30",
+                        "date_to": "2026-08-30",
+                        "timestamp": 1788048000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-08-31",
+                        "date_to": "2026-08-31",
+                        "timestamp": 1788134400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-01",
+                        "date_to": "2026-09-01",
+                        "timestamp": 1788220800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          43
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-02",
+                        "date_to": "2026-09-02",
+                        "timestamp": 1788307200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          57
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-03",
+                        "date_to": "2026-09-03",
+                        "timestamp": 1788393600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-04",
+                        "date_to": "2026-09-04",
+                        "timestamp": 1788480000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          55
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-05",
+                        "date_to": "2026-09-05",
+                        "timestamp": 1788566400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          48
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-06",
+                        "date_to": "2026-09-06",
+                        "timestamp": 1788652800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          54
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-07",
+                        "date_to": "2026-09-07",
+                        "timestamp": 1788739200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          43
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-08",
+                        "date_to": "2026-09-08",
+                        "timestamp": 1788825600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          48
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-09",
+                        "date_to": "2026-09-09",
+                        "timestamp": 1788912000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          51
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-10",
+                        "date_to": "2026-09-10",
+                        "timestamp": 1788998400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          62
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-11",
+                        "date_to": "2026-09-11",
+                        "timestamp": 1789084800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          59
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-12",
+                        "date_to": "2026-09-12",
+                        "timestamp": 1789171200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          58
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-13",
+                        "date_to": "2026-09-13",
+                        "timestamp": 1789257600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-14",
+                        "date_to": "2026-09-14",
+                        "timestamp": 1789344000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          54
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-15",
+                        "date_to": "2026-09-15",
+                        "timestamp": 1789430400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-16",
+                        "date_to": "2026-09-16",
+                        "timestamp": 1789516800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          44
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-17",
+                        "date_to": "2026-09-17",
+                        "timestamp": 1789603200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          49
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-18",
+                        "date_to": "2026-09-18",
+                        "timestamp": 1789689600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          56
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-19",
+                        "date_to": "2026-09-19",
+                        "timestamp": 1789776000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          87
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-20",
+                        "date_to": "2026-09-20",
+                        "timestamp": 1789862400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          100
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-21",
+                        "date_to": "2026-09-21",
+                        "timestamp": 1789948800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          99
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-22",
+                        "date_to": "2026-09-22",
+                        "timestamp": 1790035200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          64
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-23",
+                        "date_to": "2026-09-23",
+                        "timestamp": 1790121600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          51
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-24",
+                        "date_to": "2026-09-24",
+                        "timestamp": 1790208000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          45
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-25",
+                        "date_to": "2026-09-25",
+                        "timestamp": 1790294400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          41
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-26",
+                        "date_to": "2026-09-26",
+                        "timestamp": 1790380800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          45
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-27",
+                        "date_to": "2026-09-27",
+                        "timestamp": 1790467200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          51
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-28",
+                        "date_to": "2026-09-28",
+                        "timestamp": 1790553600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          45
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-29",
+                        "date_to": "2026-09-29",
+                        "timestamp": 1790640000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          40
+                        ]
+                      },
+                      {
+                        "date_from": "2026-09-30",
+                        "date_to": "2026-09-30",
+                        "timestamp": 1790726400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-01",
+                        "date_to": "2026-10-01",
+                        "timestamp": 1790812800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-02",
+                        "date_to": "2026-10-02",
+                        "timestamp": 1790899200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-03",
+                        "date_to": "2026-10-03",
+                        "timestamp": 1790985600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          47
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-04",
+                        "date_to": "2026-10-04",
+                        "timestamp": 1791072000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          45
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-05",
+                        "date_to": "2026-10-05",
+                        "timestamp": 1791158400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-06",
+                        "date_to": "2026-10-06",
+                        "timestamp": 1791244800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-07",
+                        "date_to": "2026-10-07",
+                        "timestamp": 1791331200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-08",
+                        "date_to": "2026-10-08",
+                        "timestamp": 1791417600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-09",
+                        "date_to": "2026-10-09",
+                        "timestamp": 1791504000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-10",
+                        "date_to": "2026-10-10",
+                        "timestamp": 1791590400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-11",
+                        "date_to": "2026-10-11",
+                        "timestamp": 1791676800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-12",
+                        "date_to": "2026-10-12",
+                        "timestamp": 1791763200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-13",
+                        "date_to": "2026-10-13",
+                        "timestamp": 1791849600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          33
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-14",
+                        "date_to": "2026-10-14",
+                        "timestamp": 1791936000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          28
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-15",
+                        "date_to": "2026-10-15",
+                        "timestamp": 1792022400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          31
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-16",
+                        "date_to": "2026-10-16",
+                        "timestamp": 1792108800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-17",
+                        "date_to": "2026-10-17",
+                        "timestamp": 1792195200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-18",
+                        "date_to": "2026-10-18",
+                        "timestamp": 1792281600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          39
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-19",
+                        "date_to": "2026-10-19",
+                        "timestamp": 1792368000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          31
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-20",
+                        "date_to": "2026-10-20",
+                        "timestamp": 1792454400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-21",
+                        "date_to": "2026-10-21",
+                        "timestamp": 1792540800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-22",
+                        "date_to": "2026-10-22",
+                        "timestamp": 1792627200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-23",
+                        "date_to": "2026-10-23",
+                        "timestamp": 1792713600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          36
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-24",
+                        "date_to": "2026-10-24",
+                        "timestamp": 1792800000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          37
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-25",
+                        "date_to": "2026-10-25",
+                        "timestamp": 1792886400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-26",
+                        "date_to": "2026-10-26",
+                        "timestamp": 1792972800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-27",
+                        "date_to": "2026-10-27",
+                        "timestamp": 1793059200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          35
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-28",
+                        "date_to": "2026-10-28",
+                        "timestamp": 1793145600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-29",
+                        "date_to": "2026-10-29",
+                        "timestamp": 1793232000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          38
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-30",
+                        "date_to": "2026-10-30",
+                        "timestamp": 1793318400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          27
+                        ]
+                      },
+                      {
+                        "date_from": "2026-10-31",
+                        "date_to": "2026-10-31",
+                        "timestamp": 1793404800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          33
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-01",
+                        "date_to": "2026-11-01",
+                        "timestamp": 1793491200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          34
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-02",
+                        "date_to": "2026-11-02",
+                        "timestamp": 1793577600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          31
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-03",
+                        "date_to": "2026-11-03",
+                        "timestamp": 1793664000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          31
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-04",
+                        "date_to": "2026-11-04",
+                        "timestamp": 1793750400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          28
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-05",
+                        "date_to": "2026-11-05",
+                        "timestamp": 1793836800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          28
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-06",
+                        "date_to": "2026-11-06",
+                        "timestamp": 1793923200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          29
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-07",
+                        "date_to": "2026-11-07",
+                        "timestamp": 1794009600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          32
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-08",
+                        "date_to": "2026-11-08",
+                        "timestamp": 1794096000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-09",
+                        "date_to": "2026-11-09",
+                        "timestamp": 1794182400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-10",
+                        "date_to": "2026-11-10",
+                        "timestamp": 1794268800,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          28
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-11",
+                        "date_to": "2026-11-11",
+                        "timestamp": 1794355200,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          28
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-12",
+                        "date_to": "2026-11-12",
+                        "timestamp": 1794441600,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          29
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-13",
+                        "date_to": "2026-11-13",
+                        "timestamp": 1794528000,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          30
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-14",
+                        "date_to": "2026-11-14",
+                        "timestamp": 1794614400,
+                        "missing_data": false,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          33
+                        ]
+                      },
+                      {
+                        "date_from": "2026-11-15",
+                        "date_to": "2026-11-15",
+                        "timestamp": 1794700800,
+                        "missing_data": true,
+                        "values": [
+                          null,
+                          null,
+                          null,
+                          51
+                        ]
+                      }
+                    ],
+                    "averages": [
+                      0,
+                      0,
+                      0,
+                      42
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "request_id": "imc_5a8e8b82a69010b34b0d46de433933226c3ce9cfca4fa34ae845e4730e810e38",
+      "successful": true,
+      "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+      "upstream_status": 200
+    }
+  ],
+  "session_id": "ses_7708e01c-9a2f-4ec8-805d-230dba8662f1",
+  "success_count": 6,
+  "total_count": 6
+}

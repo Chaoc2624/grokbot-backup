@@ -1,0 +1,128 @@
+{
+  "slot": "am",
+  "timezone": "Asia/Shanghai (UTC+8)",
+  "window": "2026-11-14 20:50 至 2026-11-15 10:10",
+  "run_at": "2026-11-15 10:18",
+  "board_url": "https://x.omnitools.cc/radar/new",
+  "board": {
+    "label": "2026-11-15 新词雷达",
+    "items": 214,
+    "keywords": 40,
+    "push_ok": true,
+    "news_items": 17,
+    "news_keywords": 3,
+    "meme_items": 0,
+    "meme_keywords": 0
+  },
+  "notes": {
+    "doable": "早间不跑 doable，可做词以晚间为准。",
+    "x_hot_module": "看板“🔥 X 热词”由用户负责写，本轮未改。",
+    "bookmark_x": "本档书签X成功跑完，但无新品、无建站热词。官方账号查询与抽查均为 0 帖（周末窗口安静，不是接口失败）。首发关键词帖最高 446 赞，无一达到 min_likes:500 门槛。这是零新增，不是采集失败。",
+    "radar_sources": "雷达内置 X 关注源本轮无新名字（answered=0，hf 扫了 100）；今早未跑 daily。merge 里的 our_x_failed=True 指的是这个内置源 answered=0，不是书签X失败。",
+    "tracks": "双轨抓取成功：游戏 138 条 / 40 词；AI工具 30 条 / 40 词。导航站 sitemap 增量 new=0（Toolify/Futurepedia/Aixploria），不是抓取失败。",
+    "news": "新闻轨 17 条已进看板列表；keywords=3（datasette-llm、datasette-vega、Ancient Wars: Sparta HD Remaster），只填主轨用剩名额，未挤占书签X/游戏轨/AI工具轨。GDELT 429（另一次解析为空）未取到；Google News / Telegram / RSS 正常。部分抽名较粗（如“众赢财富通：…_产业资讯”“Google为Gemini”“Horizon Summary”），不作为重点。",
+    "meme": "热梗轨三平台未全接入，0 条合格（权限与配置不足，不是抓取崩溃；不能写成已在监听三平台热榜）。TikTok：公开页 HTTP 200，但热榜为前端渲染，且无广告账户 token。YouTube：无 API key，status=unavailable。Instagram：无公开趋势接口（login_required）。Google Trends 仅作二次源，过滤后 0 条。",
+    "ph_tools": "AI工具轨今日多为 Product Hunt feed 名，直抓产品页返回 403，无法核实具体用途。这些名字不得凭名称猜测功能，摘要中不作为重点推荐，可一句说明“用途待核实”。"
+  },
+  "bookmark_x_items": [],
+  "site_keywords_from_x": [],
+  "game_highlights": [
+    {
+      "name": "Throw Food For Animals",
+      "what": "Roblox 游戏，类型待核实。",
+      "evidence": "Roblox 官方榜 Top Trending，抓取时约 404518 人在玩，已核实平台为 Roblox 且已上线。",
+      "url": "https://www.roblox.com/games/120219252362013"
+    },
+    {
+      "name": "STAND OUT",
+      "what": "Roblox 游戏，类型待核实。",
+      "evidence": "Roblox Top Playing Now，抓取时约 63446 人在玩，已核实平台为 Roblox 且已上线。",
+      "url": "https://www.roblox.com/games/128828638194450"
+    },
+    {
+      "name": "Ant Evolution",
+      "what": "Roblox 游戏，类型待核实。",
+      "evidence": "Roblox Up-and-Coming，抓取时约 26859 人在玩，已核实平台为 Roblox 且已上线。",
+      "url": "https://www.roblox.com/games/123969755970816"
+    },
+    {
+      "name": "Project Slayers 2",
+      "what": "Roblox 游戏，类型待核实（名称像续作，但原榜未说明类型）。",
+      "evidence": "Roblox Top Trending，抓取时约 22285 人在玩，已核实平台为 Roblox 且已上线。",
+      "url": "https://www.roblox.com/games/16205713724"
+    },
+    {
+      "name": "Volley Bomb",
+      "what": "Roblox 游戏，类型待核实。",
+      "evidence": "Roblox Up-and-Coming，抓取时约 19204 人在玩，已核实平台为 Roblox 且已上线。",
+      "url": "https://www.roblox.com/games/98979169190595"
+    },
+    {
+      "name": "Pumpkin Playground",
+      "what": "Roblox 游戏，类型待核实。",
+      "evidence": "Roblox Up-and-Coming，抓取时约 17218 人在玩，已核实平台为 Roblox 且已上线。",
+      "url": "https://www.roblox.com/games/140588554028496"
+    },
+    {
+      "name": "Revolver Arena",
+      "what": "Roblox 游戏，类型待核实。",
+      "evidence": "Roblox Top Trending，抓取时约 6580 人在玩，已核实平台为 Roblox 且已上线；另有第三方预告片作者称其为 viral。",
+      "url": "https://www.roblox.com/games/108419873026523"
+    },
+    {
+      "name": "Into The Hive",
+      "what": "Roblox 游戏，类型待核实。",
+      "evidence": "Roblox Up-and-Coming，抓取时约 4771 人在玩，已核实平台为 Roblox 且已上线。",
+      "url": "https://www.roblox.com/games/127112779460977"
+    },
+    {
+      "name": "Chronicles Medieval",
+      "what": "Steam 游戏，类型待核实，尚未上线。",
+      "evidence": "第三方称已被 Coffee Stain 收购/挽救，愿望单约第 26、超 100 万愿望单，early access 可能明年；收购与愿望单数据未经核实。",
+      "url": "https://x.com/10_ch_10/status/2121648300160110648"
+    },
+    {
+      "name": "Selkie's Salvage & Co",
+      "what": "Steam 钓鱼/清理游戏（从海里钓垃圾）。",
+      "evidence": "作者称在 Steam Next Fest 发现并准备游玩，现为试玩展示，正式上线状态待核实，互动极低。",
+      "url": "https://x.com/BellandTTV/status/2121612110157541876"
+    }
+  ],
+  "news_highlights_ok": [
+    {
+      "name": "Perplexity Personal Computer",
+      "what": "Perplexity 推出的个人 AI 助手 Mac 应用，现面向所有用户开放。",
+      "url": "来源为新闻轨·Google News（Google News 转链）。"
+    },
+    {
+      "name": "Constant Contact AI Marketing Assistant",
+      "what": "面向小企业的 AI 营销助手，用于自动规划并执行营销活动。",
+      "url": "来源为新闻轨·Google News。"
+    },
+    {
+      "name": "datasette-llm",
+      "what": "Datasette 插件，用于给其他 Datasette 插件配置 LLM，并新增 OpenAI 兼容端点支持。",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/"
+    },
+    {
+      "name": "datasette-vega",
+      "what": "Datasette 图表渲染插件，基于 Vega-Lite 在表格或自定义查询上生成图表。",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/"
+    },
+    {
+      "name": "Scarecrow: 90s Crime Story",
+      "what": "类 Hotline Miami 的俯视角动作游戏，已在 Steam 上线。",
+      "url": "来源为新闻轨·Google News。"
+    },
+    {
+      "name": "Ancient Wars: Sparta HD Remaster",
+      "what": "经典即时战略游戏的高清重制版，已在 Steam 上线。",
+      "url": "来源为新闻轨·Google News。"
+    },
+    {
+      "name": "ONE FENIX DOWN",
+      "what": "日式角色扮演游戏，历时十年开发，已在 Steam 发售。",
+      "url": "来源为新闻轨·Google News。"
+    }
+  ]
+}

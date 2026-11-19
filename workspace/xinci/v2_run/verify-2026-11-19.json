@@ -1,0 +1,231 @@
+{
+  "date": "2026-11-19",
+  "timestamp": "2026-11-19 17:06",
+  "note": "verify_priority.py 已对 7 个优先词完成 quote+use（US/IN Trends + Semrush overview），随后 parse_semrush_overview_csv 因回执为 dict 崩溃，原始回执未保存。本文件用同轮 doable Semrush 美国库缓存重建指标，Trends 相对序列无法恢复。",
+  "terms": [
+    {
+      "phrase": "Qwen4-Max",
+      "source": "",
+      "立项_status": "未通过立项：Semrush 美国库无覆盖或缺数（volume=null，不是 0）。Trends US/IN 已付费但原始回执未保存，未重查。",
+      "立项_passed_claim": false,
+      "semrush": {
+        "database": "us",
+        "volume": null,
+        "kd": null,
+        "cpc": null,
+        "nodata": true,
+        "source": "doable.py get_semrush_keyword_overview/difficulty via AIsa, cached 2026-11-19",
+        "requested_at": "2026-11-19 17:03"
+      },
+      "trends": {
+        "status": "paid_parse_failed_no_raw",
+        "regions": [
+          "United States",
+          "India"
+        ],
+        "time_range": "past_7_days",
+        "anchor": "gpts",
+        "requested_at": "2026-11-19 17:05",
+        "cost_note": "14 次 Trends 实际各 $0.011（ledger）；原始回执未落盘，禁止重查。"
+      }
+    },
+    {
+      "phrase": "Higgsfield MCP 2.0",
+      "source": "",
+      "立项_status": "未通过立项：Semrush 美国库无覆盖或缺数（volume=null，不是 0）。Trends US/IN 已付费但原始回执未保存，未重查。",
+      "立项_passed_claim": false,
+      "semrush": {
+        "database": "us",
+        "volume": null,
+        "kd": null,
+        "cpc": null,
+        "nodata": true,
+        "source": "doable.py get_semrush_keyword_overview/difficulty via AIsa, cached 2026-11-19",
+        "requested_at": "2026-11-19 17:03"
+      },
+      "trends": {
+        "status": "paid_parse_failed_no_raw",
+        "regions": [
+          "United States",
+          "India"
+        ],
+        "time_range": "past_7_days",
+        "anchor": "gpts",
+        "requested_at": "2026-11-19 17:05",
+        "cost_note": "14 次 Trends 实际各 $0.011（ledger）；原始回执未落盘，禁止重查。"
+      }
+    },
+    {
+      "phrase": "Gemini 4 Neon",
+      "source": "",
+      "立项_status": "未通过立项：Semrush 美国库无覆盖或缺数（volume=null，不是 0）。Trends US/IN 已付费但原始回执未保存，未重查。",
+      "立项_passed_claim": false,
+      "semrush": {
+        "database": "us",
+        "volume": null,
+        "kd": null,
+        "cpc": null,
+        "nodata": true,
+        "source": "doable.py get_semrush_keyword_overview/difficulty via AIsa, cached 2026-11-19",
+        "requested_at": "2026-11-19 17:03"
+      },
+      "trends": {
+        "status": "paid_parse_failed_no_raw",
+        "regions": [
+          "United States",
+          "India"
+        ],
+        "time_range": "past_7_days",
+        "anchor": "gpts",
+        "requested_at": "2026-11-19 17:05",
+        "cost_note": "14 次 Trends 实际各 $0.011（ledger）；原始回执未落盘，禁止重查。"
+      }
+    },
+    {
+      "phrase": "Genie 4",
+      "source": "",
+      "立项_status": "未通过立项：Semrush 美国库 volume=140, KD=69, CPC=0.0，未同时满足 volume>=500 且 KD<=31 且 CPC 有值（另有首页竞争门槛见 doable）。Trends US/IN 已付费但原始回执未保存，未重查。",
+      "立项_passed_claim": false,
+      "semrush": {
+        "database": "us",
+        "volume": 140,
+        "kd": 69,
+        "cpc": 0.0,
+        "nodata": false,
+        "source": "doable.py get_semrush_keyword_overview/difficulty via AIsa, cached 2026-11-19",
+        "requested_at": "2026-11-19 17:03"
+      },
+      "trends": {
+        "status": "paid_parse_failed_no_raw",
+        "regions": [
+          "United States",
+          "India"
+        ],
+        "time_range": "past_7_days",
+        "anchor": "gpts",
+        "requested_at": "2026-11-19 17:05",
+        "cost_note": "14 次 Trends 实际各 $0.011（ledger）；原始回执未落盘，禁止重查。"
+      }
+    },
+    {
+      "phrase": "Mistral Vibe",
+      "source": "",
+      "立项_status": "未通过立项：Semrush 美国库 volume=480, KD=47, CPC=6.36，未同时满足 volume>=500 且 KD<=31 且 CPC 有值（另有首页竞争门槛见 doable）。Trends US/IN 已付费但原始回执未保存，未重查。",
+      "立项_passed_claim": false,
+      "semrush": {
+        "database": "us",
+        "volume": 480,
+        "kd": 47,
+        "cpc": 6.36,
+        "nodata": false,
+        "source": "doable.py get_semrush_keyword_overview/difficulty via AIsa, cached 2026-11-19",
+        "requested_at": "2026-11-19 17:03"
+      },
+      "trends": {
+        "status": "paid_parse_failed_no_raw",
+        "regions": [
+          "United States",
+          "India"
+        ],
+        "time_range": "past_7_days",
+        "anchor": "gpts",
+        "requested_at": "2026-11-19 17:05",
+        "cost_note": "14 次 Trends 实际各 $0.011（ledger）；原始回执未落盘，禁止重查。"
+      }
+    },
+    {
+      "phrase": "GTA 2013 vs 2026",
+      "source": "",
+      "立项_status": "未通过：Trends US/IN 已付费查询但解析失败且未保存原始回执，本轮未重查；Semrush 缓存中无此词。不得称为立项通过。",
+      "semrush": null,
+      "trends": {
+        "status": "paid_parse_failed_no_raw",
+        "regions": [
+          "United States",
+          "India"
+        ],
+        "time_range": "past_7_days",
+        "requested_at": "2026-11-19 17:05",
+        "cost_note": "DataForSEO Trends 本轮实际约 $0.011/次，非早前估计的 $0.0012。原始回执未落盘，禁止重查以免重复扣费。"
+      }
+    },
+    {
+      "phrase": "AION 2",
+      "source": "",
+      "立项_status": "指标过 volume/KD 门槛但须以 doable 首页竞争等完整规则为准，不得仅据此声称立项通过。volume=22200, KD=30, CPC=0.07。",
+      "立项_passed_claim": false,
+      "semrush": {
+        "database": "us",
+        "volume": 22200,
+        "kd": 30,
+        "cpc": 0.07,
+        "nodata": false,
+        "source": "doable.py get_semrush_keyword_overview/difficulty via AIsa, cached 2026-11-19",
+        "requested_at": "2026-11-19 17:03"
+      },
+      "trends": {
+        "status": "paid_parse_failed_no_raw",
+        "regions": [
+          "United States",
+          "India"
+        ],
+        "time_range": "past_7_days",
+        "anchor": "gpts",
+        "requested_at": "2026-11-19 17:05",
+        "cost_note": "14 次 Trends 实际各 $0.011（ledger）；原始回执未落盘，禁止重查。"
+      }
+    },
+    {
+      "phrase": "gubby",
+      "source": "doable-only_extra曾误吸入xnew items，已在代码中修复，本轮未再查询",
+      "立项_status": "未通过立项：Semrush 美国库 volume=49500, KD=38, CPC=0.0，未同时满足 volume>=500 且 KD<=31 且 CPC 有值（另有首页竞争门槛见 doable）。Trends US/IN 已付费但原始回执未保存，未重查。",
+      "立项_passed_claim": false,
+      "semrush": {
+        "database": "us",
+        "volume": 49500,
+        "kd": 38,
+        "cpc": 0.0,
+        "nodata": false,
+        "source": "doable.py get_semrush_keyword_overview/difficulty via AIsa, cached 2026-11-19",
+        "requested_at": "2026-11-19 17:03"
+      },
+      "trends": {
+        "status": "paid_parse_failed_no_raw",
+        "regions": [
+          "United States",
+          "India"
+        ],
+        "time_range": "past_7_days",
+        "anchor": "gpts",
+        "requested_at": "2026-11-19 17:05",
+        "cost_note": "14 次 Trends 实际各 $0.011（ledger）；原始回执未落盘，禁止重查。"
+      }
+    },
+    {
+      "phrase": "mira science",
+      "source": "doable-only_extra曾误吸入xnew items，已在代码中修复，本轮未再查询",
+      "立项_status": "未通过立项：Semrush 美国库 volume=0, KD=None, CPC=0.0，未同时满足 volume>=500 且 KD<=31 且 CPC 有值（另有首页竞争门槛见 doable）。Trends US/IN 已付费但原始回执未保存，未重查。",
+      "立项_passed_claim": false,
+      "semrush": {
+        "database": "us",
+        "volume": 0,
+        "kd": null,
+        "cpc": 0.0,
+        "nodata": false,
+        "source": "doable.py get_semrush_keyword_overview/difficulty via AIsa, cached 2026-11-19",
+        "requested_at": "2026-11-19 17:03"
+      },
+      "trends": {
+        "status": "paid_parse_failed_no_raw",
+        "regions": [
+          "United States",
+          "India"
+        ],
+        "time_range": "past_7_days",
+        "anchor": "gpts",
+        "requested_at": "2026-11-19 17:05",
+        "cost_note": "14 次 Trends 实际各 $0.011（ledger）；原始回执未落盘，禁止重查。"
+      }
+    }
+  ]
+}

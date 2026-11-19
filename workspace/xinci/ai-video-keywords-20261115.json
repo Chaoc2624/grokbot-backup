@@ -1,0 +1,117 @@
+{
+  "generated_at_taipei": "2026-11-15 (generated from supplied facts)",
+  "candidates": [
+    {
+      "exact_spelling": "Sheru Bhai AI",
+      "semrush_us": "no coverage",
+      "semrush_in": "no coverage",
+      "trends_notes": "印度11月持续上升（15/32天非空，11月11日完整日峰值84），全球范围也有11月上升波形，美国无趋势序列。",
+      "verdict": "可立项(有约束)",
+      "verdict_constraints": [
+        "Semrush US和IN均无覆盖，不是Semrush月搜索量可立项",
+        "印度11月持续上升，但Trends相对指数不可跨请求对比",
+        "另一个worker正持有视频复制证据，并非本文件数据"
+      ]
+    },
+    {
+      "exact_spelling": "Jatayu AI video",
+      "semrush_us": "no coverage",
+      "semrush_in": "no coverage",
+      "trends_notes": "仅有2026-11-14完整日及当日部分数据，时间太新，美国仅9月孤立爆发点。",
+      "verdict": "观察",
+      "verdict_constraints": [
+        "Semrush无覆盖",
+        "仅有最新完整日及部分今日数据，尚无稳定序列"
+      ]
+    },
+    {
+      "exact_spelling": "Jatayu AI video generator",
+      "semrush_us": "no coverage",
+      "semrush_in": "no coverage",
+      "trends_notes": "较弱，主要为今日部分数据，美国仅 2026-10-01 有孤立点。",
+      "verdict": "观察",
+      "verdict_constraints": [
+        "Semrush无覆盖",
+        "数据多为部分今日数据，缺乏连续波形"
+      ]
+    },
+    {
+      "exact_spelling": "King Jin AI trend",
+      "semrush_us": "no coverage",
+      "semrush_in": "no coverage",
+      "trends_notes": "9月印度仅有单个孤立日，无11月上升波。",
+      "verdict": "放弃/暂缓这些确切拼写",
+      "verdict_constraints": [
+        "Semrush无覆盖",
+        "无11月上升波形，缺乏可比序列"
+      ]
+    },
+    {
+      "exact_spelling": "AI lion ride",
+      "semrush_us": "no coverage",
+      "semrush_in": "no coverage",
+      "trends_notes": "无印度或全球序列，仅美国10月有孤立点。",
+      "verdict": "放弃/暂缓这些确切拼写",
+      "verdict_constraints": [
+        "Semrush无覆盖",
+        "作为首要词缺乏印度或全球可比序列"
+      ]
+    },
+    {
+      "exact_spelling": "AI lion ride generator",
+      "semrush_us": "no coverage",
+      "semrush_in": "no coverage",
+      "trends_notes": "无印度或全球序列，仅美国10月有孤立点。",
+      "verdict": "放弃/暂缓这些确切拼写",
+      "verdict_constraints": [
+        "Semrush无覆盖",
+        "作为首要词缺乏印度或全球可比序列"
+      ]
+    },
+    {
+      "exact_spelling": "lion riding AI template",
+      "semrush_us": "no coverage",
+      "semrush_in": "no coverage",
+      "trends_notes": "无印度、全球及美国序列数据。",
+      "verdict": "放弃/暂缓这些确切拼写",
+      "verdict_constraints": [
+        "Semrush无覆盖",
+        "作为首要词缺乏可比序列"
+      ]
+    }
+  ],
+  "method_notes": [
+    "Database separation: US and IN Semrush data were queried separately and must not be summed.",
+    "Trends relative index: 0-100 values are relative interest in a single request and cannot be compared across different requests, geos, or windows.",
+    "Mid-anchor: ai photo to video was used as a mid-anchor across groups, but shared anchors do not make raw curves directly comparable.",
+    "Partial today: 2026-11-15 points have missing_data=true and are treated as incomplete."
+  ],
+  "costs": {
+    "cap_usd": 0.5,
+    "spent_usd": 0.198,
+    "breakdown_short": "Semrush overview US/IN actual 0.0 USD; DataForSEO Google Trends 18 calls at 0.011 USD each totaling 0.198 USD."
+  },
+  "official_trends_links": {
+    "US_30_anchor": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%201-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+    "US_30_jatayu": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%201-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+    "US_30_lion": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%201-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+    "IN_30_anchor": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%201-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+    "IN_30_jatayu": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%201-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+    "IN_30_lion": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%201-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+    "WW_30_anchor": "https://trends.google.com/trends/explore?hl=en&date=today%201-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+    "WW_30_jatayu": "https://trends.google.com/trends/explore?hl=en&date=today%201-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+    "WW_30_lion": "https://trends.google.com/trends/explore?hl=en&date=today%201-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+    "US_90_anchor": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%203-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+    "US_90_jatayu": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%203-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+    "US_90_lion": "https://trends.google.com/trends/explore?hl=en&geo=US&date=today%203-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+    "IN_90_anchor": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%203-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+    "IN_90_jatayu": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%203-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+    "IN_90_lion": "https://trends.google.com/trends/explore?hl=en&geo=IN&date=today%203-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video",
+    "WW_90_anchor": "https://trends.google.com/trends/explore?hl=en&date=today%203-m&q=ai%20photo%20to%20video,image%20to%20video,ai%20video%20generator",
+    "WW_90_jatayu": "https://trends.google.com/trends/explore?hl=en&date=today%203-m&q=Jatayu%20AI%20video,Jatayu%20AI%20video%20generator,Sheru%20Bhai%20AI,King%20Jin%20AI%20trend,ai%20photo%20to%20video",
+    "WW_90_lion": "https://trends.google.com/trends/explore?hl=en&date=today%203-m&q=AI%20lion%20ride,AI%20lion%20ride%20generator,lion%20riding%20AI%20template,ai%20photo%20to%20video"
+  },
+  "snapshot_dir": "/workspace/xinci/_ai_video_kw_20261115/",
+  "not_merged_into_board": true,
+  "open_questions_for_parent": "past_7_days was documented in DataForSEO schema but not run because past_30_days already returned daily points and budget was reserved; official check_url API links can be used for browser confirmation if wanted."
+}

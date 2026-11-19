@@ -1,0 +1,23 @@
+📌 推特书签简报 · 2026-11-15 晚上（22:00 档）
+
+账号 @Chaoc2624 · 新增 2 条书签（过滤 0）。之前推过、看板上还没处理的还有 382 条，详情在看板。
+
+### 增长
+- [虹安转述 Tibo 的 11 条 SEO/AEO 打法并补充 Reddit 规矩](https://x.com/yaohongan2025/status/2121531834831954117)
+  - 虹安（@yaohongan2025）转述并评论 Tibo（@tibo_maker）的 SEO/AEO 长帖（https://x.com/tibo_maker/status/2119780865131548954）：核心就一句——AI 推荐被提到最多的产品，所以要出现在 Reddit、已排名榜单、评论网站、社交媒体和博客这些 AI 会看的地方。Tibo 自称用自家工具 Outrank、Bazzly、Revid 执行 11 条打法（Reddit 抢高赞回复、占据已排名榜单、把 Reddit 问题写成博客、持续挖新利基、日更 SEO、刷新旧文、每周外链并称可用 Outrank 免费客座库 278 个 DR20+ 站点、做能排名的免费工具、每月用 AI Visibility Checker 问 ChatGPT/Claude/Gemini/Perplexity 是否被点名并把引用来源反哺内容、激励用户在社交和评测站写真实评价、发展联盟；称 Revid 联盟近 30 天约 $8K）。虹安补充：小站没有这套工具也可手动——先问 ChatGPT 推荐该类产品时引用了哪些页面，再逐个去出现；Reddit 则先把问题答好再提自己的产品，同一版块一周最多一条，不用小号。原帖配图为 GSC「Generative AI features（Beta）」近 6 个月、Search type Web：上方 Total impressions 1.06M（约 5/18–10/25，9 月起明显拉升）；下方另列 Total clicks 806K、Total impressions 20M、Average CTR 4%、Average position 10.2（约 5/1–10/23）。截图未给站点域名，两组数字量级不同，按原样记录。Outrank/Bazzly/Revid 官网未在帖中给出。
+  - 动作：先问 ChatGPT 推荐同类产品时引用了哪些页面并逐个出现；若在 Reddit 回复，先答好问题再提产品，同一版块每周最多一条、不用小号
+
+### 支付
+- [Stripe Link 关闭 Save customer information 让手机号变可选](https://x.com/Wuc436/status/2121825183753281769)
+  - Wu（@Wuc436）分享提高付款成功率的细节：若 Stripe 支付方式中开启了 Link，可在 Link 的 Advanced Settings 关闭第一项 Save customer information。他称关闭后，Checkout 页最下方的手机号会从默认勾选且必填变为 optional，用户填完卡信息即可直接付款。配图是 Stripe 风格 Optimizations 列表，说明文案为 “Optimizations apply across all payment method configurations.”，三项为 Save customer information、Show cash back offers、Prefill customer information（截图里看不到开关状态，也没有关闭后的 Checkout 页）。未提供 Stripe 文档链接。
+  - 动作：若已开启 Stripe Link，到 Link 的 Advanced Settings 关闭第一项 Save customer information，确认 Checkout 手机号已变为选填后再观察付款成功率
+
+### 看板
+- [x.omnitools.cc](https://x.omnitools.cc)（📰 每日简报、待办书签已同步）
+
+### X API
+- 本档调用：bookmarks 1 + usage 1（引用帖全文与配图走公开读取 / pbs.twimg.com，未另走用户侧开发者接口）
+- 余额：**$12.73** free（约 2027-10-06 20:22 台北时间到期），prepaid $0
+
+### 增长批
+- **2** 条（虹安转述 Tibo SEO/AEO 11 条、Stripe Link 结账转化）已 priority 转增长大师

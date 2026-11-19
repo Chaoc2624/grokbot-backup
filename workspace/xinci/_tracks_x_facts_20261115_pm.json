@@ -1,0 +1,39 @@
+{
+  "instructions": "根据已核实的原始帖事实，用简体中文写 desc（是什么、做什么；游戏要写类型与已核实平台/上线状态；AI工具写具体用途；不得猜测未在事实中出现的功能）。输出 JSON：{game:[], ai_tools:[]}，每项保留 name,url,source,first_seen,desc。互动低要注明。不要发明热度。",
+  "game_candidates": [
+    {
+      "name": "Chrono Dash",
+      "url": "https://x.com/Chrono_Dsh/status/2121902531974480332",
+      "source": "@Chrono_Dsh",
+      "first_seen": "2026-11-15 17:46",
+      "facts": "开发者/同名账号自推：Play Chrono Dash FREE on Roblox；文案称 4 worlds, 4 bosses, No second chances。已核实平台为 Roblox，声称免费可玩（已上线自称，仅此一条宣传帖，0 赞 0 书签）。类型未说明，应标类型待核实。不要写成爆款。",
+      "likes": 0,
+      "bookmarks": 0
+    }
+  ],
+  "ai_tool_candidates": [
+    {
+      "name": "Rakazo",
+      "url": "https://x.com/rakazoai/status/2118039158916837588",
+      "source": "@rakazoai",
+      "first_seen": "2026-11-15 16:39",
+      "facts": "官方账号 @rakazoai 于 2026-11-04 发帖 Introducing Rakazo, an open-source Grok Bot alternative：Use any LLM (pi harness)；Use any sandbox provider. Or Docker；Web, desktop (Electron), and mobile (React Native)；Open source, Apache 2.0。@elie2222 11-11 亦有介绍帖（326 赞）：Bring any model or sandbox；Works with your ChatGPT or Claude subscription；Multiplayer team+bots；$15/mo or self-host；Mac/Windows/Linux/iOS/Android/web。本窗口内 @tysyrrr 2026-11-15 08:39 UTC（16:39 北京）发帖称 Big launch，并有评论提到 Product Hunt launch。Rakazo 不是今天才首次出现的全新产品，而是已有开源项目、今日有 PH 上线讨论。用途已按官方帖核实。",
+      "likes_today_mention": 82
+    },
+    {
+      "name": "CognyAI",
+      "url": "https://x.com/CognyAI/status/2121861860831985783",
+      "source": "@CognyAI",
+      "first_seen": "2026-11-15 15:04",
+      "facts": "官方账号 @CognyAI 帖（411 赞，10 书签）：Add Product Hunt as an MCP server straight from Settings, so your own AI can run it too. You can now upload .csv and .tsv files as a table your AI reads. Shipped since yesterday. 这是已有产品的功能更新（把 Product Hunt 加成 MCP 服务器，并支持上传 CSV/TSV 供 AI 读表），不是全新工具首发。不要编造其它功能。",
+      "likes": 411,
+      "bookmarks": 10
+    }
+  ],
+  "rejected": [
+    "Claude Code Code Mode：社区多人讨论 experimental feature（v2.1.323+，环境变量 CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1），最高 1567 赞来自非官方 @dani_avila7；官方号 AnthropicAI/claudeai/ClaudeDevs 窗口内及专项检索均无帖，按书签X规则视为无官方首发帖、不收入 xnew。",
+    "Termix / termix_ai game creation agent：多为 Web3/空投宣传，且提及未经官方核实的 Claude Fable 5.2；不收入。",
+    "Aivoys：Framer 模板（$59），不是 AI 工具。",
+    "大量 Roblox condo/R34 色情内容已过滤。"
+  ]
+}

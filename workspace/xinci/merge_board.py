@@ -5,7 +5,11 @@ Out: merged.json, merged.md, board_keywords.json (extra input for doable.py --ex
 import argparse, json, re, unicodedata
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-HERE = Path(__file__).resolve().parent
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from v2.snapshots import report_is_current
+import os as _os
+HERE = Path(_os.environ["XINCI_HOME"]) if _os.environ.get("XINCI_HOME") else Path(__file__).resolve().parent
 XBM = Path("/workspace/xbm")
 KIND = {"x": "我们X", "hf": "HF", "breakout": "GitHub", "sitemap": "竞品站", "seller": "收款新站", "builder": "构建器新站", "feed": "新品榜单", "money": "AdSense矩阵", "ask": "痛点求助", "revenue": "营收榜", "newsite": "新域名"}
 
@@ -20,7 +24,10 @@ def main():
     ap.add_argument("--report", default=str(HERE / "report.json"))
     a = ap.parse_args()
     d = a.date.replace("-", "")
-    report = json.loads(Path(a.report).read_text())
+    report = json.loads(Path(a.report).read_text()) if Path(a.report).exists() else {"leads": [], "keywords": {}, "x": {}}
+    if not report_is_current(report, a.date):
+        print(f"skip stale or undated report {a.report} for {a.date}")
+        report = {"leads": [], "keywords": {}, "x": report.get("x") if isinstance(report, dict) else {}}
     terms, idx = [], {}
     def get(name):
         k = norm(name)
@@ -138,6 +145,25 @@ def main():
             phrase = kw.get("keyword") or ""
             if not phrase: continue
             board_kw.append((phrase, kw.get("from") or "", kw.get("reason", ""), src_label))
+    # Higgsfield public sitemap track (first run may be empty)
+    hf_path = HERE / f"higgsfield-{d}.json"
+    if hf_path.exists():
+        hf = json.loads(hf_path.read_text())
+        block = (hf.get("tracks") or {}).get("higgsfield") or hf
+        for it in block.get("items") or []:
+            name = it.get("name") or ""
+            if not name: continue
+            t = get(name)
+            if "Higgsfield" not in t["sources"]:
+                t["sources"].append("Higgsfield")
+            if not t["desc"]:
+                t["desc"] = it.get("desc") or t["desc"]
+            t["url"] = t["url"] or it.get("url", "")
+            t.setdefault("first_seen", it.get("first_seen"))
+        for kw in block.get("keywords") or []:
+            phrase = kw.get("keyword") or ""
+            if not phrase: continue
+            board_kw.append((phrase, kw.get("from") or "", kw.get("reason", ""), "Higgsfield"))
     extra, seen = [], set()
     for e in board_kw:
         kw, nm, why = e[:3]; src = e[3] if len(e) > 3 else "看板X"
@@ -146,11 +172,15 @@ def main():
             if src not in hit["source"]: hit["source"] += "/" + src
             continue
         row = {"phrase": kw, "source": src, "names": [nm] if nm else [], "evidence": why}
-        if src in ("游戏轨", "AI工具轨", "书签X", "新闻轨", "热梗轨"):
+        if src in ("游戏轨", "AI工具轨", "书签X", "新闻轨", "热梗轨", "Higgsfield"):
             row["is_vacuum_candidate"] = True
         extra.append(row)
-    xs = report.get("x", {})
-    x_failed = bool(xs.get("error")) or (xs.get("answered", 0) == 0)
+    xs = report.get("x", {}) or {}
+    # daily --skip x is skipped_budget, not a failure of our free xnew collection
+    if xnew_runs:
+        x_failed = False
+    else:
+        x_failed = bool(xs.get("error")) or (not xs.get("skipped") and xs.get("answered", 0) == 0)
     out = {"date": a.date, "board_runs": board_runs, "xnew_runs": xnew_runs, "track_runs": track_runs, "news_runs": news_runs, "meme_runs": meme_runs,
            "our_x_failed": x_failed, "terms": terms, "dupes": dupes, "board_keywords": [e["phrase"] for e in extra]}
     (HERE / "merged.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))

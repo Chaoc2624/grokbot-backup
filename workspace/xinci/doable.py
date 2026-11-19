@@ -131,7 +131,7 @@ def semantic_prescreen(phrase: str, source: str = "", evidence: str = "") -> tup
 
 
 # ---------- collect ----------
-def collect(report: dict, extra: list, cap: int, report_day: str, filtered_out: list[dict]) -> list[dict]:
+def collect(report: dict, extra: list, cap: int, report_day: str, filtered_out: list[dict], only_extra: bool=False) -> list[dict]:
     kw = report.get("keywords") or {}
     out: dict[str, dict] = {}
     seen_filtered: set[str] = set()
@@ -164,7 +164,8 @@ def collect(report: dict, extra: list, cap: int, report_day: str, filtered_out: 
 
     # 1) 优先收集当日 AI 新品与建站热词（来自 xnew-YYYYMMDD-*.json 与 board_keywords.json）
     day_compact = report_day.replace("-", "")
-    for pat in (f"xnew-{day_compact}-*.json",):
+    if not only_extra:
+      for pat in (f"xnew-{day_compact}-*.json",):
         for xp in sorted(HERE.glob(pat)):
             try:
                 xd = json.loads(xp.read_text())
@@ -257,6 +258,9 @@ def load_cache(days: int) -> dict:
         if isinstance(v, dict) and v.get("day"):
             try:
                 if (today - date.fromisoformat(v["day"])).days < days:
+                    # Isolate previously cached "nodata as volume 0"
+                    if isinstance(v, dict) and (v.get("nodata") or v.get("no_data")) and v.get("volume") == 0:
+                        v = {**v, "volume": None, "nodata": True, "cache_sanitized": True}
                     out[k] = v
             except Exception:
                 pass
@@ -317,10 +321,10 @@ def fetch_semrush(phrases: list[str], cfg: dict, budget: Budget, errors: list[st
                 got[p].update(volume=int(num(row.get("Search Volume")) or 0), cpc=num(row.get("CPC")),
                               comp=num(row.get("Competition")), results=int(num(row.get("Number of Results")) or 0))
             else:
-                got[p].update(volume=0, cpc=None, comp=None, nodata=True)
+                got[p].update(volume=None, cpc=None, comp=None, nodata=True)
     kd_need = []
     for p in phrases:
-        if got[p].get("overview_ok") and (got[p].get("volume") or 0) < cfg.get("kd_min_volume", 0):
+        if got[p].get("overview_ok") and (got[p].get("nodata") or got[p].get("volume") is None or got[p].get("volume") < cfg.get("kd_min_volume", 0)):
             got[p].update(kd_ok=True, kd=None, kd_skipped=True)
         else:
             kd_need.append(p)
@@ -850,10 +854,19 @@ def main():
     ap.add_argument("--terms", default="", help="extra terms, ';'-separated")
     ap.add_argument("--extra-file", default="", help="JSON list of {phrase,source,names,evidence}")
     ap.add_argument("--dry-run", action="store_true", help="collect and show terms, spend nothing")
+    ap.add_argument("--only-extra", action="store_true", help="only score --extra-file/--terms; do not ingest report or xnew")
+    ap.add_argument("--max-spend", type=float, default=None, help="override max_spend_usd for this run")
     a = ap.parse_args()
     load_env()
     cfg = config()
-    report = json.loads(Path(a.report).read_text())
+    if a.max_spend is not None:
+        cfg["max_spend_usd"] = float(a.max_spend)
+    if a.only_extra:
+        report = {"leads": [], "keywords": {}, "x": {"answered": 1}}
+    elif Path(a.report).exists():
+        report = json.loads(Path(a.report).read_text())
+    else:
+        report = {"leads": [], "keywords": {}, "x": {}}
     report_day = datetime.fromtimestamp(Path(a.report).stat().st_mtime).strftime("%Y-%m-%d")
     extra = [t for t in a.terms.split(";") if t.strip()]
     for ef in [x for x in a.extra_file.split(",") if x.strip()]:
@@ -871,7 +884,7 @@ def main():
         except Exception:
             pass
 
-    terms = collect(report, extra, cfg["max_terms"], report_day, filtered_out)
+    terms = collect(report, extra, cfg["max_terms"], report_day, filtered_out, only_extra=a.only_extra)
     if a.dry_run:
         print(json.dumps([t["phrase"] for t in terms], ensure_ascii=False))
         return
@@ -898,7 +911,7 @@ def main():
     vac_max = cfg.get("vacuum_max_serp_checks", 18)
     for t in terms:
         p = t["phrase"]
-        pre = (t.get("volume") or 0) >= cfg["min_volume"] and (t.get("cpc") or 0) >= cfg["min_cpc"]
+        pre = (t.get("volume") is not None and t.get("cpc") is not None and not t.get("nodata") and t.get("volume") >= cfg["min_volume"] and t.get("cpc") >= cfg["min_cpc"])
         is_vac_cand = bool(cfg.get("vacuum_enabled", True) and t.get("is_vacuum_candidate"))
         serp = (cache.get(p) or {}).get("serp") if isinstance(cache.get(p), dict) else None
 
@@ -935,7 +948,7 @@ def main():
         t["kdroi"] = kdroi(t)
         if t.get("comp_detail") and t["comp_detail"].get("top"):
             t["small_sites"] = small_sites(t["comp_detail"])
-        pre = (t.get("volume") or 0) >= cfg["min_volume"] and (t.get("cpc") or 0) >= cfg["min_cpc"]
+        pre = (t.get("volume") is not None and t.get("cpc") is not None and not t.get("nodata") and t.get("volume") >= cfg["min_volume"] and t.get("cpc") >= cfg["min_cpc"])
         c = cache.get(t["phrase"]) if isinstance(cache.get(t["phrase"]), dict) else {}
         if "allintitle" in c:
             t["allintitle"] = c["allintitle"]

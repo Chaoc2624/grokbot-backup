@@ -1,0 +1,187 @@
+{
+  "task": "写给用户 Halo Z 的今晚新词雷达摘要。简体中文，简洁，不要客套。必须只用下面已核实事实，禁止猜测游戏类型或 AI 工具功能。每个重点词都要有“是什么、做什么/平台”一句。固定结尾附看板链接。",
+  "board_url": "https://x.omnitools.cc/radar/new",
+  "slot": "2026-11-15 晚上（Asia/Shanghai UTC+8）",
+  "window": "2026-11-15 10:10 至 20:48",
+  "pushed_at": "2026-11-15 21:12",
+  "board": {
+    "label": "2026-11-15 新词雷达（晚上覆盖刷新早上同标签）",
+    "items": 257,
+    "keywords": 40,
+    "push_ok": true,
+    "news_items": 14,
+    "news_keywords": 0,
+    "meme_items": 0,
+    "meme_keywords": 0,
+    "keyword_note": "40 个关键词已被书签X(0)+游戏轨+AI工具轨占满；新闻轨/热梗轨 keywords=0，只填剩余名额、未挤占主轨。新闻轨 14 条仍在列表。"
+  },
+  "doable": {
+    "verdict": "待审核，不能写成未过门槛或月搜为 0。",
+    "detail": "doable 查了 60 个候选，AIsa 花费 $0，0 条命中 7 天缓存；全部 nodata=true，volume 被写成 0，但 KD/CPC/allintitle 均无数据。雷达 daily 同期 AIsa 名字判断 HTTP 402 insufficient_wallet_balance。按规则：Semrush/AIsa 余额不足或空结果不得当月搜 0 或审核未达标。今晚没有可确认的可做词，需补余额后再审。真空期通道也因 SERP 数据不足未成立。"
+  },
+  "bookmark_x": {
+    "status": "采集成功，零新增（不是失败）",
+    "official_posts": 0,
+    "keywords": 0,
+    "items": 0,
+    "note": "重点官方账号查询本窗口 0 帖（周日较安静）。首发关键词检索后按赞数本地过滤，唯一 ≥500 赞的是非官方 @dani_avila7 谈 Claude Code 实验功能 Code Mode（v2.1.323+，用环境变量开启，让模型写 JS 一次执行多步工具调用）。官方号 AnthropicAI/claudeai/ClaudeDevs 专项检索无帖，按规则不收入书签X。不要写成已官方发布。"
+  },
+  "tracks": {
+    "game": "晚上双轨成功：game 139 条 / 40 词；AI工具 31 条 / 40 词。导航站 sitemap 增量 new=0（Toolify/Futurepedia/Aixploria），不是抓取失败。",
+    "game_highlights_verified": [
+      {
+        "name": "Throw Food For Animals",
+        "what": "Roblox 游戏，类型待核实。",
+        "evidence": "Roblox Top Trending，晚间抓取约 485610 人在玩；已核实平台 Roblox 且已上线。",
+        "url": "https://www.roblox.com/games/120219252362013"
+      },
+      {
+        "name": "STAND OUT",
+        "what": "Roblox 游戏，类型待核实。",
+        "evidence": "Roblox Top Trending，约 55201 人在玩；已核实平台 Roblox 且已上线。",
+        "url": "https://www.roblox.com/games/128828638194450"
+      },
+      {
+        "name": "Sandworm Playground",
+        "what": "Roblox 游戏，类型待核实。本晚相对今早为新进榜。",
+        "evidence": "Roblox Up-and-Coming，约 46457 人在玩；已核实平台 Roblox 且已上线。",
+        "url": "https://www.roblox.com/games/88246556972100"
+      },
+      {
+        "name": "Ant Evolution",
+        "what": "Roblox 游戏，类型待核实。",
+        "evidence": "Roblox Up-and-Coming，约 37826 人在玩；已核实平台 Roblox 且已上线。",
+        "url": "https://www.roblox.com/games/123969755970816"
+      },
+      {
+        "name": "13 Days to Escape",
+        "what": "Roblox 游戏，类型待核实。",
+        "evidence": "Roblox Top Trending，约 34386 人在玩；已核实平台 Roblox 且已上线。",
+        "url": "https://www.roblox.com/games/134117451433332"
+      },
+      {
+        "name": "city destruction",
+        "what": "Poki 网页游戏，类型待核实。本晚新进 Poki 首页热门。",
+        "evidence": "已核实平台为 Poki，页面：https://poki.com/en/g/city-destruction",
+        "url": "https://poki.com/en/g/city-destruction"
+      },
+      {
+        "name": "Paper To Plane",
+        "what": "Roblox 游戏，类型待核实。本晚新进 Up-and-Coming。",
+        "evidence": "约 14233 人在玩；已核实平台 Roblox 且已上线。",
+        "url": "https://www.roblox.com/games/132583639194663"
+      },
+      {
+        "name": "TTK Testing",
+        "what": "Roblox 游戏，类型待核实。本晚新进 Top Trending。",
+        "evidence": "约 13972 人在玩；已核实平台 Roblox 且已上线。",
+        "url": "https://www.roblox.com/games/120189115846709"
+      },
+      {
+        "name": "Chrono Dash",
+        "what": "Roblox 游戏，宣传为 4 个世界、4 个 Boss 的免费闯关，类型待核实。",
+        "evidence": "仅开发者账号自推，自称已上线可免费玩，互动 0 赞，待观察，不是爆款证据。",
+        "url": "https://x.com/Chrono_Dsh/status/2121902531974480332"
+      },
+      {
+        "name": "Chronicles Medieval",
+        "what": "Steam 游戏，类型待核实，尚未上线（待发售/计划平台 Steam）。",
+        "evidence": "沿用今早第三方帖，收购与愿望单数据未经核实。",
+        "url": "https://x.com/10_ch_10/status/2121648300160110648"
+      },
+      {
+        "name": "Selkies Salvage & Co",
+        "what": "Steam 钓鱼/清理游戏（从海里钓垃圾）。现为试玩展示，正式上线状态待核实。",
+        "evidence": "作者称在 Steam Next Fest 发现；互动极低。",
+        "url": "https://x.com/BellandTTV/status/2121612110157541876"
+      }
+    ],
+    "game_weak_not_focus": [
+      "Catch A Brainrot、Steal a Dimensional Door：开发者自述的 Roblox 新游，上线未确认，0 赞，不作为重点。"
+    ]
+  },
+  "ai_tools": {
+    "verified": [
+      {
+        "name": "Rakazo",
+        "what": "开源的 Grok Bot 替代客户端（Apache 2.0）：可接入任意 LLM 与沙箱/Docker，有 Web、桌面（Electron）和移动端，可用 ChatGPT/Claude 订阅，支持多人与 Bot；官方称 $15/月或自托管。",
+        "evidence": "官方 @rakazoai 11-04 首发，今晚 Product Hunt 有上线讨论。不是今天才首次出现的产品。",
+        "url_official": "https://x.com/rakazoai/status/2118039158916837588",
+        "url_ph": "https://www.producthunt.com/products/rakazo"
+      },
+      {
+        "name": "CognyAI",
+        "what": "已有产品的功能更新（不是新工具首发）：设置里可把 Product Hunt 加成 MCP 服务器供自有 AI 调用，并支持上传 CSV/TSV 当表给 AI 读。官方称昨日已上线。",
+        "url": "https://x.com/CognyAI/status/2121861860831985783"
+      }
+    ],
+    "unverified_ph": "看板里的 Aven App Agent、Templify AI、Trainn MCP、Aboard Sign、Antelog、AnyoneHiring.today、Blender 5.3、Businesses in ChatGPT、CaptureFlow、CodeMesh 等主要来自 Product Hunt，条目 desc 只有名字，用途待核实，不凭名称猜功能，不作为重点推荐。"
+  },
+  "news": {
+    "items": 14,
+    "keywords_on_board": 0,
+    "gdelt": "GDELT 429（另一次解析为空）未取到；Google News / Telegram / RSS 正常。free-llm 成功映射 55/55，不是规则回退抽名。",
+    "ok_highlights": [
+      {
+        "name": "Personal Agent Protocol 1.0",
+        "what": "Sierra 发布的个人 AI 代理通信开放协议首个正式版本。",
+        "title": "Releasing Personal Agent Protocol 1.0",
+        "source": "新闻轨·Google News"
+      },
+      {
+        "name": "词元所",
+        "what": "百度推出的大模型交易平台，报道称用于模型买卖与部署。",
+        "title": "百度推出大模型交易平台词元所，大模型交易市场要来了？",
+        "source": "新闻轨·Google News（新浪）"
+      },
+      {
+        "name": "OriDynamics",
+        "what": "开源的全模态分子动态模拟世界模型，用于分子建模研究。",
+        "title": "OriDynamics开源！全模态分子动态模拟世界模型",
+        "source": "新闻轨·Google News（智源社区）"
+      },
+      {
+        "name": "openEuler Agentic Infra OS",
+        "what": "openEuler 发布的面向智能体基础设施（Agentic Infra）的操作系统版本。",
+        "source": "新闻轨·Google News（新浪/环球网）"
+      },
+      {
+        "name": "LongCat-2.5",
+        "what": "美团开源的智能体模型（报道称 1.6 万亿参数）；“未使用英伟达 GPU 训练”为报道/自称，需谨慎。",
+        "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+        "source": "新闻轨·Telegram@ai_news_cn / The Decoder"
+      },
+      {
+        "name": "Meta AI Ad Tools",
+        "what": "新闻标题称 Meta 在 Ad Week 2026 推出 AI 广告工具并带聊天内结账。非 Meta 官方 X 帖，当作报道、不是已用官方帖核实的首发细节。",
+        "title": "Meta Launches AI Ad Tools With In-Chat Checkout at Ad Week 2026",
+        "source": "新闻轨·Google News"
+      },
+      {
+        "name": "LoopForge",
+        "what": "腾讯开源的编码代理工作流编排项目，GitHub 描述/抽名称支持 CodeBuddy、Codex 与 Claude Code。",
+        "url": "https://github.com/Tencent/LoopForge",
+        "source": "新闻轨·RSS·GitHub Trending Daily"
+      },
+      {
+        "name": "LiteLLM",
+        "what": "已有的统一调用多模型开源库，本周更新含客户门户测试版与 Rust 版消息接口，不是全新产品。",
+        "source": "新闻轨·Telegram@ai_news_cn"
+      }
+    ],
+    "not_focus": [
+      "抽名「Gemini 4」来自 TechGig 标题，但 Gemini 4 模型家族已在 2026-09-30 官方发布（Argon 等）；Gemini 4 Hydrogen 官方博客日期为 2026-11-12。不是今日首发，不作为今日新品重点。本窗口 Google 官方 X 账号无帖。",
+      "visionOS：苹果重申对已有平台长期投入，不是新产品。",
+      "Caveman 的“减少 65% token”为项目自称，未核实；Airgorah 为 WiFi 安全审计工具，与建站词关系弱。"
+    ]
+  },
+  "meme": "热梗轨三平台未全接入，0 条合格（不是抓取崩溃；不能写成已在监听三平台热榜）。TikTok Creative Center 公开页 HTTP 200，但热榜为前端渲染，且无广告账户 token。YouTube 无 API key（status=partial/unavailable）。Instagram 遇登录墙。Google Trends 仅作二次源，过滤后 0 条。",
+  "radar_daily": {
+    "ok": true,
+    "report_json_mtime": "2026-11-15 20:59",
+    "aisa_name_score": "HTTP 402 余额不足，名字得分缺失；用户此前说过雷达不用管 AIsa 余额，但仍需在摘要注明。",
+    "builtin_x": "雷达内置 X 关注源 0/35 账号、0 帖。merge/push 的 our_x_failed=True 指这个内置源，不是今晚书签X失败。",
+    "caution": "GitHub 爆发榜出现大量近 1 天、星数约 666 的同质仓库克隆（IPTV Player 2.0、GitHub Copilot app、ai--manus2.0），不要当真实新品推荐。OpenRouter 新上架 Ling 3.2 Flash（free），具体能力待核实。"
+  },
+  "style": "先写看板与可做词结论，再写书签X/建站热词，再各轨重点几条（带一句说明和来源链接）。短段落或列表。不要内部文件名、不要说你是模型。"
+}

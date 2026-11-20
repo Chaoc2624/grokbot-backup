@@ -1,0 +1,131 @@
+{
+  "label": "2026-11-20 上午 书签X",
+  "run_at": "2026-11-20 09:59",
+  "window_start": "2026-11-19 16:03",
+  "window_end": "2026-11-20 09:59",
+  "window_start_utc": "2026-11-19T08:03:24Z",
+  "window_end_utc": "2026-11-20T01:59:52Z",
+  "tracks_start_utc": "2026-11-13T01:55:00Z",
+  "query_note": "免费 x.search_posts_all，未使用付费 user-X。官方账号窗口 start_time=2026-11-19T08:03:24Z（上次成功 last_scan）；游戏/工具/视频补近7天 start_time=2026-11-13T01:55:00Z。A 官方 20 条后 next_token 翻页得 0 条。B 路 min_likes:500 被 API 去掉，本地过滤 likes>=500 为 0。视频检索含大量 grok 回复与儿童家庭影像 CapCut 模板，已排除、不得收录。游戏检索含大量 condo/色情垃圾，已剔除。",
+  "coverage": {
+    "A_official": {
+      "pages": 2,
+      "p1": 20,
+      "p2": 0,
+      "p2_note": "p1 had next_token but p2 empty"
+    },
+    "B_introducing": {
+      "pages": 2,
+      "posts": 50,
+      "likes_ge_500": 0,
+      "min_likes_stripped": true
+    },
+    "G1_viral_games": {
+      "pages": 2,
+      "posts": 50
+    },
+    "G2_steam": {
+      "pages": 2,
+      "posts": 50
+    },
+    "G3_zh_games": {
+      "pages": 2,
+      "posts": 48
+    },
+    "T1_ai_tools": {
+      "pages": 2,
+      "posts": 50,
+      "min_faves_stripped": true
+    },
+    "T2_dirs": {
+      "pages": 2,
+      "p1": 21,
+      "p2": 0
+    },
+    "T3_zh_tools": {
+      "pages": 1,
+      "posts": 4
+    },
+    "V1_video": {
+      "pages": 2,
+      "posts": 50
+    }
+  },
+  "already_reported_must_skip": [
+    "Qwen4-Max",
+    "Gemini 4 Neon",
+    "Genie 4",
+    "Mistral Vibe",
+    "Mistral Vibe Desktop",
+    "Higgsfield MCP 2.0",
+    "GPT-6.2 Astra",
+    "GPT-6.2 Sol",
+    "Project Genie",
+    "Le Chonk"
+  ],
+  "facts_must_obey": [
+    "GPT-Live-1.1：官方 @OpenAIDevs 于 2026-11-19T20:00:32Z（北京 2026-11-20 04:00）宣布 now available in the API。播放 297003、收藏 1055、赞 3305、转 236。url=https://x.com/OpenAIDevs/status/2123506733524136446。原文要点：口音更自然一致、新增 standby 降低空闲成本、任务完成更稳。第三方帖称该模型自 10 月 15 日起已用于 ChatGPT Plus/Pro 语音；本窗是 API 上架，不是全新模型首发。必须 kind=not_model，desc 末尾写「不是新模型」。不得写成新模型发布。因 kind=not_model，不要因播放/收藏达标就强行列入 keywords；建站热词优先 model/product。",
+    "Higgsfield GPU Harness：官方 @higgsfield 首发 Introducing，2026-11-19T20:50:56Z（北京 2026-11-20 04:50）。播放 140614、收藏 382、赞 755。url=https://x.com/higgsfield/status/2123519417610825890。用途：在 Claude 和 ChatGPT 里按需租用 GPU，用于渲染、跑开源权重模型、训练 LoRA，并可让多个 agent 同时在云端做专业应用。这是新产品，不是昨天已报的 Higgsfield MCP 2.0。kind=product。收藏 382<1000 且播放 140614<500000，未达建站热词数值门槛，可进 items，不要进 keywords。",
+    "Depth Pro 2：@_akhaliq（官方检索账号列表内；未检索到 Apple 企业官方账号原帖）2026-11-20T01:16:12Z（北京 2026-11-20 09:16）。播放 3564、收藏 27、赞 44。url=https://x.com/_akhaliq/status/2123586174405296481。Apple 发布的单目度量深度模型，宣传点是更锐利、时间上更一致的 metric monocular depth，已上 Hugging Face。另有帖提到为其发布的焦距估计小网络（约 23.5M 参数），那是配套组件，不要把 focal length estimator 当成主产品名。kind=model。互动未达 keywords 门槛。",
+    "DaisyRose-27B：@ModelScope2022 2026-11-19T08:20:36Z（北京 2026-11-19 16:20）。播放 1654、收藏 8、赞 11。url=https://x.com/ModelScope2022/status/2123330588694171912。RadixArk 基于 Qwen3.8-27B 做 RL 后训练，面向长程 agent / 真实终端工作，Apache-2.0；宣称 Terminal-Bench 4.1 Pass@1 从 5.6 升到 12.0。kind=model。互动低，只进 items，不进 keywords。",
+    "Jeveration、UltraTex：仅 @_akhaliq 论文卡片，用途/是否可体验产品未经核实，不要收录，禁止凭名字猜用途。",
+    "Canva 生成式 AI 开关、Anthropic IPO、黑客松、Codex Performance Factory、Muse Wonder（用途未核清）、Gemini 4 Neon 演示帖：不收。",
+    "Qwen4-Max、Gemini 4 Neon、Genie 4、Mistral Vibe 等已在昨档或 earlier reported，不收。",
+    "Rolana：@rimmypnl 称 Roblox 新游戏，播放 57、赞 0，无官方/高互动原发，不要进 xnew items/keywords；如需交叉可仅作文案事实，但不作为合格新品。",
+    "VEED AI video agent：第三方转述，无 VEED 官方帖，互动低，不进 xnew items。",
+    "视频：排除儿童家庭影像 CapCut 模板与 grok 解释帖。『Bad Times』同步挑战、AI 情侣卡通对打成片带货帖均无本轮画面核验，不得称独立成片；不够格不要为了视频区非空而收录。查询种子 CapCut AI Lab / photo to video / AI video trend 不得当新词。",
+    "游戏检索大量 condo/色情与 NFL/GTA 抽词噪音，不收。Steam 检索无新游首发信号。",
+    "B 路本地 likes>=500 为 0，不要从 B 路收传闻。",
+    "建站热词≤3，宁缺勿滥：须 kind=model/product（非 not_model 优先），views≥500000 或 bookmarks≥1000。本档若无达标者，keywords 必须为空数组，不要放宽门槛凑数。"
+  ],
+  "candidate_posts": [
+    {
+      "name": "GPT-Live-1.1",
+      "source": "@OpenAIDevs",
+      "url": "https://x.com/OpenAIDevs/status/2123506733524136446",
+      "created_utc": "2026-11-19T20:00:32.000Z",
+      "first_seen": "2026-11-20 04:00",
+      "views": 297003,
+      "bookmarks": 1055,
+      "likes": 3305,
+      "kind_hint": "not_model",
+      "text": "GPT-Live-1.1 is now available in the API. It speaks with more natural and consistent accents across languages, supports lower idle costs with a new standby option, and completes tasks even more reliably."
+    },
+    {
+      "name": "Higgsfield GPU Harness",
+      "source": "@higgsfield",
+      "url": "https://x.com/higgsfield/status/2123519417610825890",
+      "created_utc": "2026-11-19T20:50:56.000Z",
+      "first_seen": "2026-11-20 04:50",
+      "views": 140614,
+      "bookmarks": 382,
+      "likes": 755,
+      "kind_hint": "product",
+      "text": "Introducing Higgsfield GPU Harness. Rent on-demand GPUs in Claude and ChatGPT to render, run open-weight models and train LoRAs. Let several AI agents work on your professional apps in the cloud at once, from any device."
+    },
+    {
+      "name": "Depth Pro 2",
+      "source": "@_akhaliq",
+      "url": "https://x.com/_akhaliq/status/2123586174405296481",
+      "created_utc": "2026-11-20T01:16:12.000Z",
+      "first_seen": "2026-11-20 09:16",
+      "views": 3564,
+      "bookmarks": 27,
+      "likes": 44,
+      "kind_hint": "model",
+      "text": "Apple just released Depth Pro 2  Sharp and Temporally Consistent Metric Monocular Depth  HF: (link)"
+    },
+    {
+      "name": "DaisyRose-27B",
+      "source": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2123330588694171912",
+      "created_utc": "2026-11-19T08:20:36.000Z",
+      "first_seen": "2026-11-19 16:20",
+      "views": 1654,
+      "bookmarks": 8,
+      "likes": 11,
+      "kind_hint": "model",
+      "text": "RadixArk introduces DaisyRose-27B, an RL post-training release built on Qwen3.8-27B to make long-horizon agents more capable at real terminal work. Apache-2.0 License. More than doubles Terminal-Bench 4.1: Pass@1 rises from 5.6 to 12.0"
+    }
+  ]
+}

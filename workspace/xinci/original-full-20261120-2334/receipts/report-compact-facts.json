@@ -1,0 +1,4430 @@
+{
+  "run": {
+    "dir": "/workspace/xinci/original-full-20261120-2334",
+    "started_taipei": "2026-11-20 23:35:22 CST (Asia/Taipei)",
+    "ended_taipei": "2026-11-20 23:52:04 CST (Asia/Taipei)",
+    "exit": 0,
+    "version": "0.6.0",
+    "cmd": "PYTHONPATH=/workspace/xinci/repo python3 -m radar daily --skip x --new-sites --sellers --feeds --config /workspace/xinci/repo/config.json --state .../state --out .../report.md",
+    "cli_aisa_data_usd": 1.85,
+    "cli_note": "AIsa 数据花费 $1.850（名字判断的模型调用另计）; 用时 13 min；usecases 5, sitemap 4, seller 1"
+  },
+  "signals": {
+    "x": {
+      "skipped": true
+    },
+    "hf": {
+      "first_run": false,
+      "terms_count": 9,
+      "models": 100,
+      "spaces": 100,
+      "seconds": 0
+    },
+    "breakout": {
+      "searched": 200,
+      "first_run": false,
+      "repos_count": 15,
+      "terms_count": 10,
+      "window_days": 14,
+      "seconds": 30
+    },
+    "sitemap": {
+      "sites_keys": [
+        "glama",
+        "mcp.so",
+        "lobehub-mcp",
+        "lobehub-skills",
+        "toolify",
+        "aixploria",
+        "ai-bot.cn",
+        "opentools",
+        "dang",
+        "clipfly",
+        "aitoptools",
+        "futurepedia"
+      ],
+      "sites_n": 12,
+      "terms_count": 25,
+      "seconds": 243,
+      "sites_brief": [
+        "glama",
+        "mcp.so",
+        "lobehub-mcp",
+        "lobehub-skills",
+        "toolify",
+        "aixploria",
+        "ai-bot.cn",
+        "opentools",
+        "dang",
+        "clipfly",
+        "aitoptools",
+        "futurepedia"
+      ]
+    },
+    "newsite": {
+      "queries": 2,
+      "answered": 2,
+      "cost_micros": 329400,
+      "sites_count": 25,
+      "terms_count": 4,
+      "errors": "list[0]",
+      "seconds": 9
+    },
+    "revenue": {
+      "skipped": true
+    },
+    "ask": {
+      "skipped": true
+    },
+    "seller": {
+      "links": 362,
+      "old": 164,
+      "new": 141,
+      "networked": 36,
+      "first_run": false,
+      "sellers_count": 12,
+      "terms_count": 12,
+      "errors": "list[0]",
+      "kind_error": "",
+      "cost_micros": 434472,
+      "platforms_count": 8,
+      "seconds": 63
+    },
+    "builder": {
+      "links": 67,
+      "old": 61,
+      "new": 6,
+      "first_run": false,
+      "sites_count": 6,
+      "terms_count": 0,
+      "by_kind_keys": [
+        "ai",
+        "template",
+        "course",
+        "content",
+        "physical",
+        "other",
+        "donation"
+      ],
+      "by_kind_n": 7,
+      "kind_error": "",
+      "errors": "list[0]",
+      "cost_micros": 165600,
+      "seconds": 23
+    },
+    "feed": {
+      "read_keys": [
+        "producthunt",
+        "hn",
+        "openrouter",
+        "appstore",
+        "awesome",
+        "google_new"
+      ],
+      "read_n": 6,
+      "new_keys": [
+        "producthunt",
+        "hn",
+        "openrouter",
+        "appstore",
+        "awesome",
+        "google_new"
+      ],
+      "new_n": 6,
+      "first_run": "list[0]",
+      "errors": "list[2]",
+      "cost_micros": 30000,
+      "terms_count": 50,
+      "seconds": 29
+    },
+    "money": {
+      "no_key": true,
+      "portfolios_count": 0,
+      "advertisers_count": 0,
+      "terms_count": 0,
+      "errors": "list[0]",
+      "cost_micros": 0,
+      "seconds": 0
+    },
+    "gsc": {
+      "off": true,
+      "seconds": 0
+    },
+    "review": {
+      "checked_count": 5,
+      "cost_micros": 7200,
+      "after_days": 14,
+      "seconds": 14
+    },
+    "summary": {
+      "by_signal_keys": [
+        "breakout",
+        "hf",
+        "x",
+        "sitemap",
+        "usecase"
+      ],
+      "by_signal_n": 5,
+      "pending": 716,
+      "window_days": 60,
+      "seconds": 0
+    },
+    "keywords": {
+      "names_count": 5,
+      "rows_count": 8,
+      "proposed": 21,
+      "relevant": 16,
+      "kept": 3,
+      "benchmark": "gpts",
+      "bench_daily": null,
+      "volume_month": "2026-10",
+      "no_evidence": [],
+      "posts_error": "",
+      "related": false,
+      "tails_keys": [],
+      "tails_n": 0,
+      "cosearch_count": 0,
+      "related_errors": [],
+      "geo": "US",
+      "country_errors": [],
+      "competition_errors": [],
+      "extra_errors": [],
+      "cost_micros": 551050,
+      "seconds": 350,
+      "names": [
+        "reverb tts",
+        "clairic",
+        "hy4",
+        "olala v1.0 mini 7a1b",
+        "depthpro2"
+      ],
+      "rows_preview": [
+        {
+          "phrase": "reverb tts",
+          "kind": "name",
+          "names": [],
+          "decision": "watch",
+          "brand": true
+        },
+        {
+          "phrase": "clairic",
+          "kind": "name",
+          "names": [],
+          "decision": "watch",
+          "brand": true
+        },
+        {
+          "phrase": "hy4",
+          "kind": "name",
+          "names": [],
+          "decision": "watch",
+          "brand": true
+        },
+        {
+          "phrase": "olala v1.0 mini 7a1b",
+          "kind": "name",
+          "names": [],
+          "decision": "watch",
+          "brand": true
+        },
+        {
+          "phrase": "depthpro2",
+          "kind": "name",
+          "names": [],
+          "decision": "watch",
+          "brand": true
+        },
+        {
+          "phrase": "elevenlabs alternative",
+          "kind": "generic",
+          "names": [
+            "reverb tts"
+          ],
+          "new": true,
+          "per_day": 13,
+          "now": "fading",
+          "decision": "skip",
+          "brand": true,
+          "source": "model"
+        },
+        {
+          "phrase": "local text to speech",
+          "kind": "generic",
+          "names": [
+            "reverb tts"
+          ],
+          "new": true,
+          "per_day": 7,
+          "now": "fading",
+          "decision": "skip",
+          "brand": false,
+          "source": "model"
+        },
+        {
+          "phrase": "monocular depth estimation",
+          "kind": "generic",
+          "names": [
+            "depthpro2"
+          ],
+          "new": true,
+          "per_day": 0,
+          "now": "fading",
+          "decision": "skip",
+          "brand": false,
+          "source": "model"
+        }
+      ]
+    }
+  },
+  "leads_n": 110,
+  "leads_named_ge_0_8": [
+    {
+      "term": "reverb tts",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 44 名"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "software-mansion/Reverb-TTS (text-to-speech, ♥72)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "clairic",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 25 名"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 2,
+      "n_posts": 0,
+      "example0": "Cloudflare/clairic (image-text-to-text, ♥113)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "hy4",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 26 名"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "tencent/Hy4 (image-text-to-text, ♥97)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "olala v1.0 mini 7a1b",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 31 名"
+      ],
+      "named": 0.95,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OVHaiLLM/Olala-v1.0-mini-7A1B (text-generation, ♥89)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "depthpro2",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 32 名"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "apple/DepthPro2 (depth-estimation, ♥67)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "enterpriseops gym v1.1",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF Spaces 新进榜第 33 名"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "ServiceNow-AI/enterpriseops-gym-v1.1 (static, ♥21)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "h3",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 20 名"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Sentinel7/h3 (?, ♥141)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "neonclipping",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 iamajmeena/neonclipping ★1053(均 854/天)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "iamajmeena/neonclipping: Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube caption",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "lastbook",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 Immortal-Protocols/lastbook ★2700(均 353/天,一天 +458)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Immortal-Protocols/lastbook: Offline knowledge AI, maps and videos for survival and rebuilding",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "linger",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 simplexai-labs/linger ★2661(均 254/天,一天 +1774)"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "simplexai-labs/linger: Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing p",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "kernarium",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 imxieyi/Kernarium ★1870(均 143/天,一天 +1230)"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "imxieyi/Kernarium: Run real Linux kernel natively on iOS",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "phonebox",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 ersinkoc/phonebox ★4121(均 318/天,一天 +701)"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "ersinkoc/phonebox: Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widget",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "blender ai mcp addon",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 bookwjitchieni1986/blender-ai-mcp-addon ★1045(均 1008/天)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "bookwjitchieni1986/blender-ai-mcp-addon: AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "fastunlock",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 MSNightmare/FastUnlock ★517(均 460/天)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "MSNightmare/FastUnlock: FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gta6recomp",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 0marContreras/gta6recomp ★799(均 410/天)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "0marContreras/gta6recomp: A GTA VI PC Port",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "querymoat",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Dodo Payments 收款链接"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "querymoat.com · Dodo Payments",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "lapser studio",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "www.lapser.studio · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "kalkgo",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Creem 收款链接"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "kalkgo.com · Creem",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "beyond translate",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-20 第一次挂 Creem 收款链接"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "beyondtranslate.com · Creem",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "u2 ai carbon",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "u2aicarbon.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "u2 ai fintech",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "u2aifintech.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "u2aismarthome",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "u2aismarthome.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "u2 ai performance",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "u2aiperformance.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "zoombo: ai image&video editor",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "App Store 新上架"
+      ],
+      "named": 0.95,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "App Store: Zoombo: AI Image&Video Editor",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "threadlore",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: ThreadLore",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "pixtral large 2502",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: Pixtral Large 2502",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 astra pro",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.95,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Astra Pro",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 astra pro (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.95,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Astra Pro (batch)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "tripps",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: tripps",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "nova by vybe",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Nova by Vybe",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "stormi",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Stormi",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "aiteam.space",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: aiteam.space",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "rox",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Rox",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "compass os",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Compass OS",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "kuc-kuc",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Kuc-kuc",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "volcano",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Volcano",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "exitpath",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Show HN: ExitPath",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "foolscap",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Show HN: Foolscap",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gemini 4 neon",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: Gemini 4 Neon",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gemini 4 neon (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: Gemini 4 Neon (batch)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 astra",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Astra",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 astra (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Astra (batch)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 sol pro",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Sol Pro",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 sol pro (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Sol Pro (batch)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 sol",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Sol",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "qr reader for iphone",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "App Store 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "App Store: QR Reader for iPhone",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "actimod/onaa-protocol",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: actimod/onaa-protocol",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "benjaminsamson0210/nexusgrid-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: benjaminsamson0210/nexusgrid-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "nutshell2000/agent-data-tools",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: Nutshell2000/agent-data-tools",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "camerxnduff/x402-router-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: camerxnduff/x402-router-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "konstantinstarovoytov/kitden",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: KonstantinStarovoytov/kitden",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "muzaqil555/gemini-pro-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: Muzaqil555/gemini-pro-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "swarmnest/swarmnest-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: swarmnest/swarmnest-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "btsouth/toolport",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: btsouth/toolport",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "sunwen1983/mcpgate",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: sunwen1983/mcpgate",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "caijianxiong2007-prog/bayze-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: caijianxiong2007-prog/bayze-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "flooow for figjam",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Flooow for FigJam",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "lokalise",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Lokalise",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "giff",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Giff",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gui test studio",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: GUI Test Studio",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "photopro",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: PhotoPro",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "overlord",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Overlord",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "heixing 黑星",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Heixing 黑星",
+      "post0": null,
+      "link": null
+    }
+  ],
+  "leads_named_ge_0_5": [
+    {
+      "term": "reverb tts",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 44 名"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "software-mansion/Reverb-TTS (text-to-speech, ♥72)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "clairic",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 25 名"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 2,
+      "n_posts": 0,
+      "example0": "Cloudflare/clairic (image-text-to-text, ♥113)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "hy4",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 26 名"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "tencent/Hy4 (image-text-to-text, ♥97)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "olala v1.0 mini 7a1b",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 31 名"
+      ],
+      "named": 0.95,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OVHaiLLM/Olala-v1.0-mini-7A1B (text-generation, ♥89)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "depthpro2",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 32 名"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "apple/DepthPro2 (depth-estimation, ♥67)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "enterpriseops gym v1.1",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF Spaces 新进榜第 33 名"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "ServiceNow-AI/enterpriseops-gym-v1.1 (static, ♥21)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "h3",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 20 名"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Sentinel7/h3 (?, ♥141)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "wan2 2 fp8da aoti 2c finishing",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF Spaces 新进榜第 45 名"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "johnnysnowblind/wan2-2-fp8da-aoti-preview-2c-finishing (gradio, ♥20)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "neonclipping",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 iamajmeena/neonclipping ★1053(均 854/天)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "iamajmeena/neonclipping: Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube caption",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "lastbook",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 Immortal-Protocols/lastbook ★2700(均 353/天,一天 +458)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Immortal-Protocols/lastbook: Offline knowledge AI, maps and videos for survival and rebuilding",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "linger",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 simplexai-labs/linger ★2661(均 254/天,一天 +1774)"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "simplexai-labs/linger: Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing p",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "kernarium",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 imxieyi/Kernarium ★1870(均 143/天,一天 +1230)"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "imxieyi/Kernarium: Run real Linux kernel natively on iOS",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "phonebox",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 ersinkoc/phonebox ★4121(均 318/天,一天 +701)"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "ersinkoc/phonebox: Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widget",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "blender ai mcp addon",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 bookwjitchieni1986/blender-ai-mcp-addon ★1045(均 1008/天)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "bookwjitchieni1986/blender-ai-mcp-addon: AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "fastunlock",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 MSNightmare/FastUnlock ★517(均 460/天)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "MSNightmare/FastUnlock: FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gta6recomp",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 0marContreras/gta6recomp ★799(均 410/天)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "0marContreras/gta6recomp: A GTA VI PC Port",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "open source face recognition ultimate",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 nataphong-lab/Open-Source-Face-Recognition-Ultimate ★430(均 357/天)"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "nataphong-lab/Open-Source-Face-Recognition-Ultimate: Open Source Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare,",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "google ultra",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 gylive/google-ultra ★2518(均 783/天)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "gylive/google-ultra: ",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "cotlet connect",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 30 处 (×12.5)"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "com.caelaralabs",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 11 处 (×11.0)"
+      ],
+      "named": 0.6,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "com.quickcoderhub",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 8 处 (×7.9)"
+      ],
+      "named": 0.6,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "io.github.mettini",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 8 处 (×7.9)"
+      ],
+      "named": 0.6,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "dev.workers.b2bintel",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 6 处 (×6.0)"
+      ],
+      "named": 0.6,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "com.b2bprofileapi",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 6 处 (×5.9)"
+      ],
+      "named": 0.6,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors com.caelaralabs",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 11 处 (×11.0)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors com.quickcoderhub",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 8 处 (×7.9)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors io.github.mettini",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 8 处 (×7.9)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors io.github.memeanalyst",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 8 处 (×7.4)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors dev.workers.b2bintel",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 6 处 (×6.0)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors com.b2bprofileapi",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 6 处 (×5.9)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "elxplaqghaut",
+      "kinds": [
+        "newsite"
+      ],
+      "signals": [
+        "新站 elxplaqghaut.video(注册 2026-08-26,约 4309 访问/月,450 个排名词)"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "elxplaqghaut.video · 450 keywords",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "downigvideo",
+      "kinds": [
+        "newsite"
+      ],
+      "signals": [
+        "新站 downigvideo.com(注册 2026-09-30,约 37073 访问/月,45 个排名词)"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "downigvideo.com · 45 keywords",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "fbvideosaves",
+      "kinds": [
+        "newsite"
+      ],
+      "signals": [
+        "新站 fbvideosaves.com(注册 2026-09-04,约 4406 访问/月,102 个排名词)"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "fbvideosaves.com · 102 keywords",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "jeuvideooccasion",
+      "kinds": [
+        "newsite"
+      ],
+      "signals": [
+        "新站 jeuvideooccasion.fr(注册 2026-09-29,约 3848 访问/月,488 个排名词)"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "jeuvideooccasion.fr · 488 keywords",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "querymoat",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Dodo Payments 收款链接"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "querymoat.com · Dodo Payments",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "lapser studio",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "www.lapser.studio · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "kalkgo",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Creem 收款链接"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "kalkgo.com · Creem",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "beyond translate",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-20 第一次挂 Creem 收款链接"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "beyondtranslate.com · Creem",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "u2 ai carbon",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "u2aicarbon.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "u2 ai fintech",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "u2aifintech.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "u2aismarthome",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "u2aismarthome.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "u2 ai performance",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "u2aiperformance.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "apps by mo",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-20 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "appsbymo.app · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "khaos studios",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-20 第一次挂 Lemon Squeezy 收款链接"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "khaosstudio.com · Lemon Squeezy",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "thirty year pm",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "www.thirtyyearpm.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "zoombo: ai image&video editor",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "App Store 新上架"
+      ],
+      "named": 0.95,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "App Store: Zoombo: AI Image&Video Editor",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "threadlore",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: ThreadLore",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "pixtral large 2502",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: Pixtral Large 2502",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 astra pro",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.95,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Astra Pro",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 astra pro (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.95,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Astra Pro (batch)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "tripps",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: tripps",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "nova by vybe",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Nova by Vybe",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "stormi",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Stormi",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "aiteam.space",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: aiteam.space",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "rox",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Rox",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "compass os",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Compass OS",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "kuc-kuc",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Kuc-kuc",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "volcano",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Volcano",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "exitpath",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Show HN: ExitPath",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "foolscap",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Show HN: Foolscap",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gemini 4 neon",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: Gemini 4 Neon",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gemini 4 neon (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: Gemini 4 Neon (batch)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 astra",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Astra",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 astra (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Astra (batch)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 sol pro",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Sol Pro",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 sol pro (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Sol Pro (batch)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 sol",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Sol",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "qr reader for iphone",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "App Store 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "App Store: QR Reader for iPhone",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "actimod/onaa-protocol",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: actimod/onaa-protocol",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "benjaminsamson0210/nexusgrid-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: benjaminsamson0210/nexusgrid-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "nutshell2000/agent-data-tools",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: Nutshell2000/agent-data-tools",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "camerxnduff/x402-router-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: camerxnduff/x402-router-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "konstantinstarovoytov/kitden",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: KonstantinStarovoytov/kitden",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "muzaqil555/gemini-pro-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: Muzaqil555/gemini-pro-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "swarmnest/swarmnest-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: swarmnest/swarmnest-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "btsouth/toolport",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: btsouth/toolport",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "sunwen1983/mcpgate",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: sunwen1983/mcpgate",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "caijianxiong2007-prog/bayze-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: caijianxiong2007-prog/bayze-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "flooow for figjam",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Flooow for FigJam",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "lokalise",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Lokalise",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "giff",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Giff",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gui test studio",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: GUI Test Studio",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "photopro",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: PhotoPro",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "overlord",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Overlord",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "heixing 黑星",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Heixing 黑星",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "mastra factory, the open-source software factory we use to build mastra",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+      "post0": null,
+      "link": null
+    }
+  ],
+  "leads_all_compact": [
+    {
+      "term": "reverb tts",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 44 名"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "software-mansion/Reverb-TTS (text-to-speech, ♥72)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "clairic",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 25 名"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 2,
+      "n_posts": 0,
+      "example0": "Cloudflare/clairic (image-text-to-text, ♥113)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "hy4",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 26 名"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "tencent/Hy4 (image-text-to-text, ♥97)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "olala v1.0 mini 7a1b",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 31 名"
+      ],
+      "named": 0.95,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OVHaiLLM/Olala-v1.0-mini-7A1B (text-generation, ♥89)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "depthpro2",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 32 名"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "apple/DepthPro2 (depth-estimation, ♥67)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "enterpriseops gym v1.1",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF Spaces 新进榜第 33 名"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "ServiceNow-AI/enterpriseops-gym-v1.1 (static, ♥21)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "h3",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF 新进榜第 20 名"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Sentinel7/h3 (?, ♥141)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "wan2 2 fp8da aoti 2c finishing",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF Spaces 新进榜第 45 名"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "johnnysnowblind/wan2-2-fp8da-aoti-preview-2c-finishing (gradio, ♥20)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "neonclipping",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 iamajmeena/neonclipping ★1053(均 854/天)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "iamajmeena/neonclipping: Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube caption",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "lastbook",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 Immortal-Protocols/lastbook ★2700(均 353/天,一天 +458)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Immortal-Protocols/lastbook: Offline knowledge AI, maps and videos for survival and rebuilding",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "linger",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 simplexai-labs/linger ★2661(均 254/天,一天 +1774)"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "simplexai-labs/linger: Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing p",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "kernarium",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 imxieyi/Kernarium ★1870(均 143/天,一天 +1230)"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "imxieyi/Kernarium: Run real Linux kernel natively on iOS",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "phonebox",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 ersinkoc/phonebox ★4121(均 318/天,一天 +701)"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "ersinkoc/phonebox: Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widget",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "blender ai mcp addon",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 bookwjitchieni1986/blender-ai-mcp-addon ★1045(均 1008/天)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "bookwjitchieni1986/blender-ai-mcp-addon: AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "fastunlock",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 MSNightmare/FastUnlock ★517(均 460/天)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "MSNightmare/FastUnlock: FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gta6recomp",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 0marContreras/gta6recomp ★799(均 410/天)"
+      ],
+      "named": 0.85,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "0marContreras/gta6recomp: A GTA VI PC Port",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "open source face recognition ultimate",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 nataphong-lab/Open-Source-Face-Recognition-Ultimate ★430(均 357/天)"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "nataphong-lab/Open-Source-Face-Recognition-Ultimate: Open Source Face Recognition, Face Liveness Detection, Face Anti-Spoofing, Face Detection, Face Landmarks, Face Compare,",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "google ultra",
+      "kinds": [
+        "breakout"
+      ],
+      "signals": [
+        "GitHub 爆发 gylive/google-ultra ★2518(均 783/天)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "gylive/google-ultra: ",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "cotlet connect",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 30 处 (×12.5)"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "com.caelaralabs",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 11 处 (×11.0)"
+      ],
+      "named": 0.6,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "com.quickcoderhub",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 8 处 (×7.9)"
+      ],
+      "named": 0.6,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "io.github.mettini",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 8 处 (×7.9)"
+      ],
+      "named": 0.6,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "dev.workers.b2bintel",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 6 处 (×6.0)"
+      ],
+      "named": 0.6,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "com.b2bprofileapi",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 6 处 (×5.9)"
+      ],
+      "named": 0.6,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors com.caelaralabs",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 11 处 (×11.0)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors com.quickcoderhub",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 8 处 (×7.9)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors io.github.mettini",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 8 处 (×7.9)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors io.github.memeanalyst",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 8 处 (×7.4)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors dev.workers.b2bintel",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 6 处 (×6.0)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors com.b2bprofileapi",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 6 处 (×5.9)"
+      ],
+      "named": 0.5,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "elxplaqghaut",
+      "kinds": [
+        "newsite"
+      ],
+      "signals": [
+        "新站 elxplaqghaut.video(注册 2026-08-26,约 4309 访问/月,450 个排名词)"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "elxplaqghaut.video · 450 keywords",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "downigvideo",
+      "kinds": [
+        "newsite"
+      ],
+      "signals": [
+        "新站 downigvideo.com(注册 2026-09-30,约 37073 访问/月,45 个排名词)"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "downigvideo.com · 45 keywords",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "fbvideosaves",
+      "kinds": [
+        "newsite"
+      ],
+      "signals": [
+        "新站 fbvideosaves.com(注册 2026-09-04,约 4406 访问/月,102 个排名词)"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "fbvideosaves.com · 102 keywords",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "jeuvideooccasion",
+      "kinds": [
+        "newsite"
+      ],
+      "signals": [
+        "新站 jeuvideooccasion.fr(注册 2026-09-29,约 3848 访问/月,488 个排名词)"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "jeuvideooccasion.fr · 488 keywords",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "querymoat",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Dodo Payments 收款链接"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "querymoat.com · Dodo Payments",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "lapser studio",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "www.lapser.studio · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "kalkgo",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Creem 收款链接"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "kalkgo.com · Creem",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "beyond translate",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-20 第一次挂 Creem 收款链接"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "beyondtranslate.com · Creem",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "u2 ai carbon",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "u2aicarbon.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "u2 ai fintech",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "u2aifintech.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "u2aismarthome",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "u2aismarthome.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "u2 ai performance",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "u2aiperformance.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "apps by mo",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-20 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "appsbymo.app · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "khaos studios",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-20 第一次挂 Lemon Squeezy 收款链接"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "khaosstudio.com · Lemon Squeezy",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "thirty year pm",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-19 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "www.thirtyyearpm.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "zoombo: ai image&video editor",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "App Store 新上架"
+      ],
+      "named": 0.95,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "App Store: Zoombo: AI Image&Video Editor",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "threadlore",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: ThreadLore",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "pixtral large 2502",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: Pixtral Large 2502",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 astra pro",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.95,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Astra Pro",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 astra pro (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.95,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Astra Pro (batch)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "tripps",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: tripps",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "nova by vybe",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Nova by Vybe",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "stormi",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Stormi",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "aiteam.space",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: aiteam.space",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "rox",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Rox",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "compass os",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Compass OS",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "kuc-kuc",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Kuc-kuc",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "volcano",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Volcano",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "exitpath",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Show HN: ExitPath",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "foolscap",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Show HN: Foolscap",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gemini 4 neon",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: Gemini 4 Neon",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gemini 4 neon (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: Gemini 4 Neon (batch)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 astra",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Astra",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 astra (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Astra (batch)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 sol pro",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Sol Pro",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 sol pro (batch)",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Sol Pro (batch)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gpt-6.2 sol",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "OpenRouter 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "OpenRouter: GPT-6.2 Sol",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "qr reader for iphone",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "App Store 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "App Store: QR Reader for iPhone",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "actimod/onaa-protocol",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: actimod/onaa-protocol",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "benjaminsamson0210/nexusgrid-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: benjaminsamson0210/nexusgrid-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "nutshell2000/agent-data-tools",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: Nutshell2000/agent-data-tools",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "camerxnduff/x402-router-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: camerxnduff/x402-router-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "konstantinstarovoytov/kitden",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: KonstantinStarovoytov/kitden",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "muzaqil555/gemini-pro-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: Muzaqil555/gemini-pro-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "swarmnest/swarmnest-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: swarmnest/swarmnest-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "btsouth/toolport",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: btsouth/toolport",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "sunwen1983/mcpgate",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: sunwen1983/mcpgate",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "caijianxiong2007-prog/bayze-mcp",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "awesome list 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "awesome list: caijianxiong2007-prog/bayze-mcp",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "flooow for figjam",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Flooow for FigJam",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "lokalise",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.9,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Lokalise",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "giff",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Giff",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "gui test studio",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: GUI Test Studio",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "photopro",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: PhotoPro",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "overlord",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Overlord",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "heixing 黑星",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.8,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Heixing 黑星",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "mastra factory, the open-source software factory we use to build mastra",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "named": 0.7,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "leaderboard",
+      "kinds": [
+        "hf"
+      ],
+      "signals": [
+        "HF Spaces 新进榜第 11 名"
+      ],
+      "named": 0.3,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "agent-memory-leaderboard/leaderboard (static, ♥931)",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors software.brainiac",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 147 处 (×147.0)"
+      ],
+      "named": 0.4,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "work.agentexchange",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 37 处 (×34.4)"
+      ],
+      "named": 0.4,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors work.agentexchange",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 37 处 (×34.4)"
+      ],
+      "named": 0.4,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "ai.agentapigate",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 13 处 (×13.0)"
+      ],
+      "named": 0.4,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors ai.agentapigate",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 13 处 (×13.0)"
+      ],
+      "named": 0.4,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "connectors ai.agentapihub",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 13 处 (×13.0)"
+      ],
+      "named": 0.4,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "operations",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 11 处 (×8.2)"
+      ],
+      "named": 0.0,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "b2b",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 11 处 (×6.9)"
+      ],
+      "named": 0.0,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "medicaid",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 7 处 (×6.5)"
+      ],
+      "named": 0.0,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "tweets",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 6 处 (×5.8)"
+      ],
+      "named": 0.0,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "security",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 20 处 (×5.6)"
+      ],
+      "named": 0.0,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "serp",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 7 处 (×5.6)"
+      ],
+      "named": 0.0,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "pitch",
+      "kinds": [
+        "sitemap"
+      ],
+      "signals": [
+        "③ 竞品 7 处 (×5.5)"
+      ],
+      "named": 0.0,
+      "known": "",
+      "n_examples": 0,
+      "n_posts": 0,
+      "example0": null,
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "grabwp tenancy",
+      "kinds": [
+        "seller"
+      ],
+      "signals": [
+        "开始收钱(AI / 软件):2026-11-20 第一次挂 Polar 收款链接"
+      ],
+      "named": 0.4,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "grabwp.com · Polar",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "interview coach",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Product Hunt 新上架"
+      ],
+      "named": 0.3,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Product Hunt: Interview Coach",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "增强模糊",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.3,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: 增强模糊",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "增强变形",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.3,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: 增强变形",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "vertical japanese text",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Google, new this week 新上架"
+      ],
+      "named": 0.3,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Google, new this week · figma.com/community/plugin: Vertical Japanese Text",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "take voyager 1 apart, down to a single memory chip",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "named": 0.1,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Show HN: Take Voyager 1 apart, down to a single memory chip",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "cornhole news",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "named": 0.1,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Show HN: Cornhole News",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "fast deterministic natural language search for openstreetmap data",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "named": 0.0,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "watch weight-space programming in action with webgpu",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "named": 0.0,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Show HN: Watch weight-space programming in action with WebGPU",
+      "post0": null,
+      "link": null
+    },
+    {
+      "term": "robotics needs better cad, so i wrote a b-rep kernel and 3,487 tests",
+      "kinds": [
+        "feed"
+      ],
+      "signals": [
+        "Show HN 新上架"
+      ],
+      "named": 0.0,
+      "known": "",
+      "n_examples": 1,
+      "n_posts": 0,
+      "example0": "Show HN: Robotics needs better CAD, so I wrote a B-rep kernel and 3,487 tests",
+      "post0": null,
+      "link": null
+    }
+  ]
+}

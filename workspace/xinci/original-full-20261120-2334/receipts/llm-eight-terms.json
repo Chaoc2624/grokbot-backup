@@ -1,0 +1,96 @@
+{
+  "eight_terms": [
+    {
+      "term": "reverb tts",
+      "what": "一个文本转语音（text-to-speech）软件项目。",
+      "use": "原文未说明用途",
+      "platform": "HF",
+      "source_link": null,
+      "status": "发现且表内评估",
+      "status_detail": "进入 keywords 新词表，decision 为 watch。",
+      "named_score": null,
+      "channel": "original_cli"
+    },
+    {
+      "term": "depthpro2",
+      "what": "苹果发布的深度估计（depth-estimation）模型。",
+      "use": "原文未说明用途",
+      "platform": "HF",
+      "source_link": null,
+      "status": "发现且表内评估",
+      "status_detail": "进入 keywords 新词表，decision 为 watch。",
+      "named_score": null,
+      "channel": "original_cli"
+    },
+    {
+      "term": "neonclipping",
+      "what": "一个开源的视频剪辑引擎，可粘贴链接并在约2分钟内获取带字幕的9:16短片。",
+      "use": "用于视频剪辑和字幕生成",
+      "platform": "GitHub 爆发",
+      "source_link": null,
+      "status": "发现",
+      "status_detail": "仅被雷达发现，未验证。",
+      "named_score": null,
+      "channel": "original_cli"
+    },
+    {
+      "term": "linger",
+      "what": "一个完全在个人电脑上运行的开源个人代理。",
+      "use": "旨在打破大科技公司对AI的垄断",
+      "platform": "GitHub 爆发",
+      "source_link": null,
+      "status": "发现",
+      "status_detail": "仅被雷达发现，未验证。",
+      "named_score": null,
+      "channel": "original_cli"
+    },
+    {
+      "term": "querymoat",
+      "what": "一个AI/软件服务，于2026-11-19开始挂收款链接。",
+      "use": "原文未说明用途",
+      "platform": "新卖家",
+      "source_link": null,
+      "status": "发现",
+      "status_detail": "仅被雷达发现，未验证。",
+      "named_score": null,
+      "channel": "original_cli"
+    },
+    {
+      "term": "Depth Pro 2",
+      "what": "苹果发布的具有锐利且时间一致性的度量单目深度估计模型。",
+      "use": "深度估计",
+      "platform": "免费X",
+      "source_link": "https://x.com/_akhaliq/status/2123586174405296481",
+      "status": "发现",
+      "status_detail": "未验证。",
+      "named_score": null,
+      "channel": "free_x_substitute"
+    },
+    {
+      "term": "Haru-4B",
+      "what": "Higurashi AI 开发的语音AI，支持边听边说，可在本地NVIDIA GPU上运行。",
+      "use": "语音交互",
+      "platform": "免费X",
+      "source_link": "https://x.com/TeksEdge/status/2123536809733005757",
+      "status": "发现",
+      "status_detail": "未验证。",
+      "named_score": null,
+      "channel": "free_x_substitute"
+    }
+  ],
+  "notes_on_selection": "优先选择了在 keywords 表中被评估的词以及 GitHub 爆发信号中描述清晰的工具。丢弃了无具体描述的 sitemap 竞品词和仅有名称无实际功能的 feed 列表项。免费X部分选取了有明确开发者和功能描述的 AI 模型。",
+  "x_substitute_highlights": [
+    {
+      "item": "Depth Pro 2",
+      "url": "https://x.com/_akhaliq/status/2123586174405296481",
+      "account": "_akhaliq",
+      "note": "苹果发布的单目深度估计模型。"
+    },
+    {
+      "item": "Haru-4B",
+      "url": "https://x.com/TeksEdge/status/2123536809733005757",
+      "account": "TeksEdge",
+      "note": "Higurashi AI 开发的本地运行语音AI。"
+    }
+  ]
+}

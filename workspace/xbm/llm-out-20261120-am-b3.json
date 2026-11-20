@@ -1,0 +1,89 @@
+{
+  "items": [
+    {
+      "id": "2122321666898538758",
+      "url": "https://x.com/chenchengpro/status/2122321666898538758",
+      "title": "陈成分享 9 条常用 Agent / 编程 Prompt",
+      "tag": "工作流",
+      "need": "了解技术大牛常用的 Agent 提示词和工作流设置，提升开发效率",
+      "action": "阅读并参考文中的 9 条英文 Prompt 设定，结合个人开发习惯进行尝试",
+      "deadline": "",
+      "due_date": "",
+      "category": "开发与AI",
+      "posted_at": "11-16 21:31"
+    },
+    {
+      "id": "2122266042491642027",
+      "url": "https://x.com/czzzzzzJ_/status/2122266042491642027",
+      "title": "麦田开源 AI 自媒体工作台：一个人管 7 个平台发布与监控",
+      "tag": "开源项目",
+      "need": "寻找支持多平台发布与数据监控的自媒体管理工具",
+      "action": "访问 GitHub 仓库了解详情并部署或使用该开源自媒体中控系统",
+      "deadline": "",
+      "due_date": "",
+      "category": "开源与工具",
+      "posted_at": "11-16 17:50"
+    },
+    {
+      "id": "2122370983470502050",
+      "url": "https://x.com/CoderJeffLee/status/2122370983470502050",
+      "title": "Semrush 博客引导用户将博客喂给 AI 的 GEO 操作",
+      "tag": "GEO优化",
+      "need": "了解最新的搜索引擎与 AI 优化（GEO）玩法与案例",
+      "action": "关注 Semrush 在文章中引导用户将内容添加为首选来源的做法，思考产品可借鉴的 GEO 策略",
+      "deadline": "",
+      "due_date": "",
+      "category": "营销与SEO",
+      "posted_at": "11-17 00:47"
+    },
+    {
+      "id": "2122132239286927503",
+      "url": "https://x.com/CoderJeffLee/status/2122132239286927503",
+      "title": "GSC 后台如何排查 SEO 数据变化？",
+      "tag": "SEO优化",
+      "need": "排查和理解 SEO 页面排名波动的深层原因",
+      "action": "阅读长文了解站点主题积累和信任对长期排名的影响",
+      "deadline": "",
+      "due_date": "",
+      "category": "营销与SEO",
+      "posted_at": "11-16 08:58"
+    },
+    {
+      "id": "2122261278102327676",
+      "url": "https://x.com/hackerxiao/status/2122261278102327676",
+      "title": "分享小众欧元 IBAN：塞浦路斯电子钱包 eCREDO",
+      "tag": "海外支付",
+      "need": "寻找支持欧洲手机号、无地址证明即可开户的欧洲银行账户",
+      "action": "准备护照和欧洲手机号前往 eCREDO 注册开户，注意同名 SEPA 出入金免费",
+      "deadline": "",
+      "due_date": "",
+      "category": "美卡与支付",
+      "posted_at": "11-16 17:31"
+    },
+    {
+      "id": "2121453268588962266",
+      "url": "https://x.com/victor_UWer/status/2121453268588962266",
+      "title": "一个 Stripe 账号接多个网站的 webhook 避坑指南",
+      "tag": "Stripe",
+      "need": "解决多网站共用单个 Stripe 账号时 webhook 收到所有事件、导致通知混乱和报错的问题",
+      "action": "检查并实施文中的建议：Checkout Session 带 site 字段、webhook 先读 site 判断、非本站返回 200 而非 4xx、各端点单独 setting secret、续费发票继承 metadata",
+      "deadline": "",
+      "due_date": "",
+      "category": "开发与AI",
+      "posted_at": "11-14 12:00"
+    },
+    {
+      "id": "2121951520350437638",
+      "url": "https://x.com/geektao0319/status/2121951520350437638",
+      "title": "Geektao 分享 GEO 基线测试及 Claude skills 推荐案例",
+      "tag": "GEO优化",
+      "need": "分析 AI 推荐来源的机制并提升自身站点被 AI 推荐的概率",
+      "action": "参考案例中通过寻找 ChatGPT 频繁引用的第三方文章并通过 GitHub PR 合并自身链接的 GEO 优化方式",
+      "deadline": "",
+      "due_date": "",
+      "category": "营销与SEO",
+      "posted_at": "11-15 21:00"
+    }
+  ],
+  "summary": "本期简报涵盖 7 条内容，包括开发者的常用 Agent 提示词、开源 AI 自媒体工作台、Semrush 的 GEO 骚操作与 SEO 波动排查、塞浦路斯电子钱包 eCREDO 注册、Stripe 多站 webhook 避坑指南以及 AI 推荐优化案例。"
+}

@@ -1,0 +1,51 @@
+{
+  "run_id": "original-full-20261120-2334",
+  "started_at_taipei": "2026-11-20 23:34:59 CST",
+  "started_at_utc": "2026-11-20 15:34:59 UTC",
+  "cli": "python3 -m radar daily",
+  "version_pyproject": "0.6.0",
+  "repo": "/workspace/xinci/repo",
+  "skip": "x",
+  "weekly_flags": [
+    "--new-sites",
+    "--sellers",
+    "--feeds"
+  ],
+  "not_passed": {
+    "asks": "⑦ asks includes paid X via AIsa; skipped as the only paid-X disable we can do without code changes is --skip x. Not modifying repo.",
+    "revenue": "TRUSTMRR_API_KEY not present in /workspace/xinci/.env; unconfigured",
+    "history": "separate command, not part of daily",
+    "pains": "separate command, not part of daily",
+    "mail": "would send email; not requested"
+  },
+  "keys_present_names_only": {
+    "AISA_API_KEY": true,
+    "GOANYAPI_API_KEY": false,
+    "TRUSTMRR_API_KEY": false
+  },
+  "aisa_before": {
+    "queried_at_utc": "2026-11-20T15:29:39.004802489Z",
+    "queried_at_taipei": "2026-11-20 23:29:39 CST (Asia/Taipei)",
+    "account_usd": 8.818659,
+    "available_usd": 8.818659,
+    "used_usd_lifetime": 3.211343,
+    "today": {
+      "date_basis": "as_of UTC timestamp; usage.today.charged_usd",
+      "requests": 28,
+      "failed_requests": 12,
+      "charged_usd": 0.12932
+    },
+    "last_7d_charged_usd": 1.181382,
+    "last_30d_charged_usd": 19.159226,
+    "unlimited": true
+  },
+  "state_copied_from": "/workspace/xinci/repo/state",
+  "state_source_mtime_taipei": "radar.db last mtime 2026-11-19 17:26 CST (Asia/Taipei)",
+  "do_not_overwrite": [
+    "/workspace/xinci/v2_run/* 2026-11-20 morning official 277/40",
+    "/workspace/xinci/board_payload.json",
+    "/workspace/xinci/board_keywords.json",
+    "/workspace/xinci/report.json",
+    "/workspace/xinci/report.md"
+  ]
+}

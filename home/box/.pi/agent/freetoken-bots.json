@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-15T13:03:38.131068+00:00",
+  "checked_at": "2026-11-20T13:09:44.785501+00:00",
   "eligible": [],
   "needs_parameter_verification": [
     {
@@ -9,10 +9,6 @@
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
       "context_length": 1024000
-    },
-    {
-      "id": "thinkingmachines/inkling-2-small:free",
-      "context_length": 1048576
     },
     {
       "id": "liquid/lfm-3-1.7b:free",
@@ -39,10 +35,6 @@
       "context_length": 1000000
     },
     {
-      "id": "cohere/north-mini-code:free",
-      "context_length": 256000
-    },
-    {
       "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "context_length": 1000000
     },
@@ -65,7 +57,6 @@
   ],
   "free_ids": [
     "baidu/ernie-5.5-flash-preview:free",
-    "cohere/north-mini-code:free",
     "dots-studio/dots-3-note-preview:free",
     "google/gemma-4-26b-a4b-it:free",
     "google/gemma-4-31b-it:free",
@@ -79,8 +70,7 @@
     "nvidia/nemotron-3.5-super-vl:free",
     "openrouter/free",
     "particle-ai/particle-1:free",
-    "recursive/flint-v1.0:free",
-    "thinkingmachines/inkling-2-small:free"
+    "recursive/flint-v1.0:free"
   ],
-  "free_count": 17
+  "free_count": 15
 }

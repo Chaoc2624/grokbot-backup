@@ -1,0 +1,1531 @@
+{
+ "day": "2026-11-20",
+ "config": {
+  "min_volume": 500,
+  "max_kd": 31,
+  "min_cpc": 0.01,
+  "need_open_serp": true,
+  "database": "us",
+  "max_terms": 60,
+  "max_spend_usd": 0.2,
+  "cache_days": 7,
+  "serp_fetch": true,
+  "serp_location_code": 2840,
+  "kd_min_volume": 100,
+  "max_allintitle": 10000,
+  "check_allintitle": true,
+  "need_small_sites": false,
+  "small_sites_min": 5,
+  "tool_intent_bonus": 15,
+  "vacuum_enabled": true,
+  "vacuum_min_ratio": 0.7,
+  "vacuum_max_serp_checks": 18,
+  "check_domains": true,
+  "domain_tlds": [
+   "com",
+   "ai",
+   "io",
+   "org"
+  ]
+ },
+ "passed": [],
+ "vacuum_terms": [],
+ "almost": [],
+ "filtered_out": [
+  {
+   "phrase": "org.aimlds atom",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "io.github.monkeydscraping",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "connectors io.github.monkeydscraping",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "connectors io.github.j0401",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "com.tidybutton",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "connectors io.github.memeanalyst",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "connectors io.github.willowswt",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "io.github.arpitgandhi1934",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "io.github.arpit",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "connectors io.github.arpitgandhi1934",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "io.github.arpitgandhi1934 yugenox",
+   "source": "Google 补全种子",
+   "reason": "含义不明/包名碎片"
+  },
+  {
+   "phrase": "gta 2013 vs 2026",
+   "source": "Google 补全种子",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "want to recreate this ai trend open capcut ai lab type rich in the ai",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "what if you could take an ordinary photo and turn it into an incredibly realisti",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "discover the magic of capcut s ai lab explore creative ai-powered effects and",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "what if you could create a marketing video with ai in just a few clicks",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "want to try it yourself open capcut go to al lab and type peek in the chat",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "create viral ai music videos from just one photo 100 free explore_aitech",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "capcut ai video template program 2026 how to create ai templates earn credit",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "capcut ai video editing tutorial for beginners 2025 update seedream 4.0",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "capcut ai video generator 𝟮𝟬𝟮𝟲 100 works no yapping to the point fast",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "capcut ai avatar tutorial 2026 how to make ai avatar in capcut seedream 4.0",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "capcut ai not working problem solution capcut ai template ai credit issue",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "transform any photo into a video clip with canva s new ai feature in seconds",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "top 5 free secret ai tools image to video animate photos bring images to l",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "5 free unlimited ai video generators text-to-video + image-to-video 2025 g",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "genie 45 boom lift weight",
+   "source": "Google 补全(Genie 4)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "mistral vibe wiki",
+   "source": "Google 补全(Mistral Vibe)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "aniimo 3d models",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo account",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo aimo",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo aimo core",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo all aniimo",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo alpha geoclaw",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo alpha locations",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo alpha minespine",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo alpha minespine location",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo aniilog",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo architecture and models",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo beast fang ridge",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo besauce",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo best healer",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo best prismana",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo best starter",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo best teams",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo beta",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo blazen",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo blitzwood",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo builds",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo business model",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo change weather",
+   "source": "Google 补全(Aniimo)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "aniimo character creation",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo character customization",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo characters",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo codes",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo coop",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo creatures",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo cross platform",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo crossplay",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo crystal cavern",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo dazmand",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo developer",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo dex",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo discord",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo discord server",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo discovery event",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo download",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo dreaple",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo dreaple location",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo driftwise meadow",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo echoback landing",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo egg gifted from flowers",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo egg heist",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo egg heist best team",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo egg heist maps",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo egg locations",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo eko",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo element chart",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo events",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo evolutions",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo face codes",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo fenmane",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo fentuft",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo fists 1",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo flamerion",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo flameruff elite",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo forest of falling stars",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo fragrancier",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo free",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo free clothes",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo free gift codes",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo free nurture",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo free prismana",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo free prismana egg",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo free stuff",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo free to play",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo freedoms breeze",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo freezing",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo fulminous soul",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo fulmintis",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo gacha",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo game",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo gameplay",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo geoclaw",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo gift codes",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo glacy",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo glynsera",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo golden helmet",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo gracewing",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo guide",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo held items",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo helion",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo helion or lunara",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo hexxin",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo homeland",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo homeland layout",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo how to beat lita",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo how to change weather",
+   "source": "Google 补全(Aniimo)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "aniimo how to get inferlupa",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo how to use prisma crystal",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo ignitis",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo infergon",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo inferlupa",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo inferlupa prismana",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo inherit",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo interactive map",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo iris",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo iris forms",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo irisal",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo irisalis",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo map",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo max level",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo melloblum",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo minespine",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo mobile",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo mobile release date",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo model quest",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo model rip",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo model viewer",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo modele economique",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo models",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo models and architecture",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo models not loading",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo mods",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo monetization model",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo multiplayer",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo mysterious presence",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo mysterious presence quest",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo old recast",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo omega infergon",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo omega sherro",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo omegas",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo on a trip",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo on ps5",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo on switch",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo on switch 2",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo on xbox",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo outfits",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo pawney",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo platforms",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo player count",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo pre register",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo prismana",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo prismana crystal",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo prismana flow",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo prismana forms",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo ps5",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo pvp",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo rating",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo reddit",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo redeem codes",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo release",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo release date",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo release date ps5",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo rest with the pathfinder from night to day",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo review",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo roadmap",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo russet highlands",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo scorchhowl",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo secret of the golden helmet",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo sherro",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo somniwing",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo sparkling",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo starters",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo steam",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo susuta",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo switch 2",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo sword of bravery",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo teams",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo thats art not scribbles",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo thornblade",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo tide blossom coast",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo tier list",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo toolbox",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo toolkit",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo tools",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo tools app",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo tools egg heist",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo tools homeland",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo tools interactive map",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo tools map",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo tools sanctum",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo trading",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo trailer",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo transmog",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo type chart",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo umbra",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo umbral",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo umbral evolution",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo umbral form",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo umbral sparkling",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo unknown rating",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo upcoming events",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo update today",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo updates",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo vein abundance",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo vein abundance event",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo vein essence",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo venture into the unknown",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo voxel coins",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo voxel cubes",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo vs",
+   "source": "Google 补全(Aniimo)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aniimo vs genshin",
+   "source": "Google 补全(Aniimo)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aniimo vs genshin impact",
+   "source": "Google 补全(Aniimo)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aniimo vs infinity nikki",
+   "source": "Google 补全(Aniimo)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aniimo vs palworld",
+   "source": "Google 补全(Aniimo)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aniimo vs palworld reddit",
+   "source": "Google 补全(Aniimo)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aniimo vs palworld vs pokemon",
+   "source": "Google 补全(Aniimo)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aniimo vs pokemon",
+   "source": "Google 补全(Aniimo)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aniimo vs roco kingdom",
+   "source": "Google 补全(Aniimo)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aniimo vsauce",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo warrior quest",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo weakness chart",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo weather",
+   "source": "Google 补全(Aniimo)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "aniimo weather tracker",
+   "source": "Google 补全(Aniimo)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "aniimo website",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo what to do with extra aniimo",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo whos that aniimo",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo wiki",
+   "source": "Google 补全(Aniimo)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "aniimo wisptis",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "aniimo wonder egg",
+   "source": "Google 补全(Aniimo)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "granado espada meaning",
+   "source": "Google 补全(Granado Espada)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "granado espada odyssey lyrics",
+   "source": "Google 补全(Granado Espada)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "granado espada wiki",
+   "source": "Google 补全(Granado Espada)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "aion 2 asmodian vs elyos",
+   "source": "Google 补全(AION 2)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aion 2 elyos vs asmodians",
+   "source": "Google 补全(AION 2)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aion 2 server status",
+   "source": "Google 补全(AION 2)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "aion 2 the one who hears the voice",
+   "source": "Google 补全(AION 2)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "aion 2 vs aion 1",
+   "source": "Google 补全(AION 2)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aion 2 vs bdo",
+   "source": "Google 补全(AION 2)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aion 2 vs ffxiv",
+   "source": "Google 补全(AION 2)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aion 2 vs gw2",
+   "source": "Google 补全(AION 2)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aion 2 vs lost ark",
+   "source": "Google 补全(AION 2)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aion 2 vs throne and liberty",
+   "source": "Google 补全(AION 2)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aion 2 vs where winds meet",
+   "source": "Google 补全(AION 2)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aion 2 vs wow",
+   "source": "Google 补全(AION 2)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aion 2 vs wow forever",
+   "source": "Google 补全(AION 2)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "aion 2 wiki",
+   "source": "Google 补全(AION 2)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "anime crusaders x wiki",
+   "source": "Google 补全(Anime Crusaders X)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "room air vs nasal cannula",
+   "source": "Google 补全(Room AI)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "room air vs o2",
+   "source": "Google 补全(Room AI)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "room air vs oxygen",
+   "source": "Google 补全(Room AI)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "whee",
+   "source": "App Store(#30 Whee - TikTok Chat)",
+   "reason": "老应用重返榜单(上架 2026-10-23)，非AI新工具"
+  },
+  {
+   "phrase": "circle k",
+   "source": "App Store(#34 Circle K)",
+   "reason": "老应用重返榜单(上架 2022-08-01)，非AI新工具"
+  },
+  {
+   "phrase": "affirm",
+   "source": "App Store(#91 Affirm: Buy now, pay over time)",
+   "reason": "老应用重返榜单(上架 2015-08-24)，非AI新工具"
+  },
+  {
+   "phrase": "doordash",
+   "source": "App Store(#99 DoorDash - Dasher)",
+   "reason": "大厂纯品牌导航词"
+  }
+ ],
+ "terms": [
+  {
+   "phrase": "capcut peek ai",
+   "source": "热梗轨",
+   "names": [
+    "extracted"
+   ],
+   "evidence": "发现阶段，未做画面核验不得称独立成片",
+   "is_vacuum_candidate": false,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "CPC"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "jatayu ai edit",
+   "source": "热梗轨",
+   "names": [
+    "extracted"
+   ],
+   "evidence": "发现阶段，未做画面核验不得称独立成片",
+   "is_vacuum_candidate": false,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "CPC"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "capcut rich ai",
+   "source": "热梗轨",
+   "names": [
+    "extracted"
+   ],
+   "evidence": "发现阶段，未做画面核验不得称独立成片",
+   "is_vacuum_candidate": false,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "CPC"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "sheru bhai ai trend",
+   "source": "热梗轨",
+   "names": [
+    "extracted"
+   ],
+   "evidence": "发现阶段，未做画面核验不得称独立成片",
+   "is_vacuum_candidate": false,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "CPC"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  }
+ ],
+ "spent_micros": 0,
+ "errors": [],
+ "skipped": []
+}

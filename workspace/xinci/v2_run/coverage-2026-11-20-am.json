@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-20",
+ "slot": "am",
+ "coverage": {
+  "track": {
+   "status": "ok"
+  },
+  "news": {
+   "status": "ok"
+  },
+  "higgsfield": {
+   "status": "ok"
+  },
+  "video": {
+   "status": "ok"
+  },
+  "verify": {
+   "status": "failed",
+   "reason": "exit 1"
+  },
+  "legacy_sources": {
+   "status": "skipped_budget",
+   "reason": "radar sources/daily 官方 CLI 无 --max-usd 硬费用上限（该旗仅用于 history）。2026-11-19 即使 skip 付费组仍发生 AIsa 数据扣费约 $0.243。默认不执行，记 skipped_budget/blocked_unbounded_cost。免费替代由现有 track/news/higgsfield 提供。可验证硬费用控制尚未实现，不得自称全部上游覆盖。",
+   "block": "blocked_unbounded_cost"
+  },
+  "legacy_daily": {
+   "status": "skipped_budget",
+   "reason": "radar sources/daily 官方 CLI 无 --max-usd 硬费用上限（该旗仅用于 history）。2026-11-19 即使 skip 付费组仍发生 AIsa 数据扣费约 $0.243。默认不执行，记 skipped_budget/blocked_unbounded_cost。免费替代由现有 track/news/higgsfield 提供。可验证硬费用控制尚未实现，不得自称全部上游覆盖。",
+   "block": "blocked_unbounded_cost"
+  },
+  "finders": {
+   "status": "ok",
+   "reason": "finders 仅保留已验证零费分支 --skip trends（ac/appstore/hn）；trends 无硬费用上限且报价 may_exceed，默认不跑",
+   "trends": "skipped_budget"
+  },
+  "doable": {
+   "status": "ok"
+  },
+  "merge": {
+   "status": "ok",
+   "reason": "report=report-stub-2026-11-20.json",
+   "report": "/workspace/xinci/v2_run/report-stub-2026-11-20.json"
+  },
+  "push": {
+   "status": "ok"
+  }
+ },
+ "written_at": "2026-11-20 10:17"
+}

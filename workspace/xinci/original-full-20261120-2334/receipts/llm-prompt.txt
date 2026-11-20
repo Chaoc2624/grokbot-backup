@@ -1,0 +1,35 @@
+你是在整理一次「原版 new-term-radar 0.6.0 daily」实跑的证据摘要。只根据输入文件，不要补充自己知道的产品或新闻。不要编造链接、搜索量、验证结论。
+
+输入有两份：
+1) report-compact-facts.json：来自原版 CLI 的 report.json 压缩事实（信号块、leads、新词表）。
+2) x-free-facts.json：用免费内置 x（search_posts_all / get_trends_by_woeid）在同一批配置账号窗口内采集的独立结果。这不是原版 AIsa 付费 X。原版 ① X 已 --skip x。
+
+请输出一个 JSON 对象，字段如下：
+
+{
+  "eight_terms": [
+    {
+      "term": "原样词",
+      "what": "它是什么，只用例子/signals/帖文里的原话压缩成一两句中文",
+      "use": "用途（同样必须有原文依据，没有就写「原文未说明用途」）",
+      "platform": "发现平台/信号名（如 GitHub 爆发、HF、sitemap/具体站、新卖家、feeds、新词表、免费X）",
+      "source_link": "一条原始链接，必须来自输入；没有就 null",
+      "status": "发现 or 已验证 or 发现且表内评估",
+      "status_detail": "说明是仅被雷达发现，还是进入了 keywords 新词表、decision 是什么（优先/观察/跳过）、或出现在 ⑤ 复盘里 hit/no_data 等。没有验证就明确写未验证。",
+      "named_score": null,
+      "channel": "original_cli 或 free_x_substitute"
+    }
+  ],
+  "notes_on_selection": "为什么选这几个、为何丢掉明显像模型拼名或无链接的词",
+  "x_substitute_highlights": [
+    {"item": "免费X里有原文依据的新名字或官方发布", "url": "...", "account": "...", "note": "中文一句"}
+  ]
+}
+
+挑选规则（最多 8 个，可以更少，不许凑数）：
+- 优先：keywords.names 里真正做了新词表的名字，以及 named>=0.8 且有原始链接、能从 example/post/signal 说清是什么的词。
+- 每个词必须能回答「是什么/用途/平台/原始链接/发现vs验证」。缺链接或完全说不清是什么的不要选。
+- 不要把明显无证据的未来型号/拼名（若例子空洞）硬当成已证实产品。
+- 不要用 Trends 热搜标签冒充 AI 新词，除非能证明它是新工具/模型名。
+- 免费X的词单独标 channel=free_x_substitute；最多用 2 个名额，且必须有原帖链接。若免费X没有足够具体的新工具/模型名，x_substitute_highlights 可写官方动态，eight_terms 可不含免费X。
+- 发现 vs 验证：出现在 leads/signals 只算发现；进入 keywords 行并有 decision/Trends/Ads 才算「发现且表内评估」；⑤ 复盘 hit/no_data 是对 14 天前旧词的复核，不要当成今天新发现的验证，除非该词也是今天 lead。

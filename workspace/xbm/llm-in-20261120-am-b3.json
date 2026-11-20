@@ -1,0 +1,135 @@
+{
+  "label": "2026-11-20 上午",
+  "run_at": "2026-11-20 10:00",
+  "carried_count": 384,
+  "bookmarks": [
+    {
+      "id": "2122321666898538758",
+      "url": "https://x.com/chenchengpro/status/2122321666898538758",
+      "created_at": "2026-11-16T13:31:30.000Z",
+      "posted_at": "11-16 21:31",
+      "author": {
+        "name": "陈成",
+        "username": "chenchengpro"
+      },
+      "text": "也分享下我的部分常用 Prompt。\n\n1/ dont implement or fix directly, analyze related files first if needed, tell me what changes are needed and ask questions if unclear.\n\n2/ implement all steps one by one until all is completed, in worktree, then commit in one commit, merge to  main & push / create pr\n\n3/ save to ~/Downloads/ in a seperate markdown in zh with mermaid if need\n\n4/ grill me on ...\n\n5/ This codebase is yours: what it's for and how it's built are your call, and you'll keep building on it.\n\n6/ implement and test and proven me it works with a html under ~/Downloads/\n\n7/ make a dynamic 15to30 second motion graphics video that shows what an incredible this product is. should be fancy and great design. go all out. music on. dont use hyperframe.\n\n8/ review prs one by one with worktree. and should care the bundle size increase and edge case and good ui design and ux and related.  approve & merge or reject with comment. if approve and have suggestion, should update the pr and do the improve first.\n\n9/ /goal to make this app professional and beautiful and have good design and have good performance and small animation is better. dont ask me question since i will go to sleep and check your job later. dont stop util you archived it. use workflow if need and work multiple turns.  use worktree and commit and create pr for this.",
+      "article_title": null,
+      "quoted": {
+        "id": "2122268349707219333",
+        "url": "https://x.com/Khazix0918/status/2122268349707219333",
+        "author": {
+          "name": "数字生命卡兹克",
+          "username": "Khazix0918"
+        },
+        "full_text": "翻了一下最近两个月，我用Agent干活最爱说的几句Prompt：\n\n1. 从第一性原理出发，找到最本质原因，修复一下。\n\n2. 先问一些不清晰的问题，对齐我的喜好，然后再出3版方案。\n\n3.不要默认我提出的问题定义就是正确的。你先分析我真正想解决的底层需求，判断我有没有把症状误认为原因、把手段误认为目标。如果存在更值得解决的问题，直接指出来\n\n4. 不要只考虑这个改动产生的直接效果。继续推演它的二阶、三阶影响，尤其关注对其他模块、用户行为、系统复杂度和长期维护成本的潜在影响。\n\n5. 其他领域里有没有类似的方案，用跨领域的方式全面思考，找到最优解。\n\n6. 先假设你当前认为最合理的方案是错误的。站在最强反对者的角度，寻找能够推翻它的证据、反例和边界情况。然后重新评估方案，看看有没有更好的解法。\n\n7. 深入分析整个代码库的 Git 历史、关键 PR 和架构演变过程。找出哪些设计是有意为之，哪些是历史遗留，哪些是为了解决已经不存在的问题而引入的。识别可以安全移除的历史包袱。\n\n8. 假设明天有一个完全不了解项目、但是能力很强的工程师来接手。请评估他理解整个项目需要付出的认知成本，找出那些命名混乱、抽象过度、职责不清晰、需要大量上下文才能理解的代码，并提出简化方案。\n\n9. 全面分析最近XX天里的所有的PR，找出最慢的那几个，看看有没有导致卡顿、可以优化的地方。\n\n10.  全面复盘最近XX时间的 Bug、返工、回滚和重复修改。不要只统计发生了什么，要分析这些问题背后有没有共同的根因。把能够预防的共性问题沉淀成项目规则、自动化或者Skill，避免我们反复支付同样的成本。"
+      },
+      "image_note": null,
+      "verified": "陈成（@chenchengpro）引用卡兹克 Prompt 帖，分享自己常用的 9 条英文 Prompt，全文已在 text。属工具/工作流。",
+      "soft_ad_risk": false
+    },
+    {
+      "id": "2122266042491642027",
+      "url": "https://x.com/czzzzzzJ_/status/2122266042491642027",
+      "created_at": "2026-11-16T09:50:28.000Z",
+      "posted_at": "11-16 17:50",
+      "author": {
+        "name": "麦当mdldm",
+        "username": "czzzzzzJ_"
+      },
+      "text": "https://t.co/X69rzdrWgo",
+      "article_title": "被问爆的 AI 自媒体工作台，我直接开源了：一个人管 7 个平台的发布 + 监控系统｜麦田",
+      "quoted": null,
+      "image_note": null,
+      "verified": "X 长文标题已核实：《被问爆的 AI 自媒体工作台，我直接开源了：一个人管 7 个平台的发布 + 监控系统｜麦田》。开源仓库已核实：https://github.com/CzzzzzzJ/mdldm-maitian （描述：自媒体多平台发布中控与数据监控，B站/抖音/小红书/视频号/YouTube/X 等，飞书卡片+数据大屏；国内四平台只填写不自动点发布；跑在常开 Mac，不存平台密码）。不要编造未在输入中的指标。",
+      "soft_ad_risk": false
+    },
+    {
+      "id": "2122370983470502050",
+      "url": "https://x.com/CoderJeffLee/status/2122370983470502050",
+      "created_at": "2026-11-16T16:47:28.000Z",
+      "posted_at": "11-17 00:47",
+      "author": {
+        "name": "写增长的子木",
+        "username": "CoderJeffLee"
+      },
+      "text": "这四不四 GEO 骚操作，让 用户 帮你，将你的博客喂给 AI\n\nSEMRush 在这么干。之前看到 heygen 啥都一键跟上了 https://t.co/w2afKfCbq9",
+      "article_title": null,
+      "quoted": null,
+      "image_note": null,
+      "verified": "截图已看：Semrush 博客文 How to Choose the Right AI SEO Tool，右侧有 Tells Google to show you more from Semrush in AI, Search, and Discover，以及 Add SEMRUSH as a preferred source on Google 组件。子木称之为让用户帮你把博客喂给 AI 的 GEO 操作，并称 HeyGen 也曾跟上。不要把 Semrush 文中的工具评测清单当成这条书签的要点。",
+      "soft_ad_risk": false
+    },
+    {
+      "id": "2122132239286927503",
+      "url": "https://x.com/CoderJeffLee/status/2122132239286927503",
+      "created_at": "2026-11-16T00:58:47.000Z",
+      "posted_at": "11-16 08:58",
+      "author": {
+        "name": "写增长的子木",
+        "username": "CoderJeffLee"
+      },
+      "text": "感谢下 Joker，上周跟他交流\n\n弥补了我对某个 SEO 页面排名波动的原因：是页面可能有一定竞争力，但站点的主题积累和信任还撑不住它长期排名。 https://t.co/kJCXidBJJL",
+      "article_title": "GSC 后台如何排查 SEO 数据变化？",
+      "quoted": null,
+      "image_note": null,
+      "verified": "X 长文标题已核实：《GSC 后台如何排查 SEO 数据变化？》。原帖正文补充：感谢 Joker，作者认为某个 SEO 页面排名波动的原因是——页面可能有一定竞争力，但站点的主题积累和信任还撑不住它长期排名。接口未返回长文全文，不要编造排查步骤清单。",
+      "soft_ad_risk": false
+    },
+    {
+      "id": "2122261278102327676",
+      "url": "https://x.com/hackerxiao/status/2122261278102327676",
+      "created_at": "2026-11-16T09:31:33.000Z",
+      "posted_at": "11-16 17:31",
+      "author": {
+        "name": "Starry",
+        "username": "hackerxiao"
+      },
+      "text": "分享一个超小众的欧元iban\n\n塞浦路斯电子钱包eCREDO，护照+欧洲手机号可开，无需地址证明\n\nCY059170开头的稀有iban，支持同名SPEA出入金免费\n\n官方还写了马上会推出万事达预付卡，注册链接我放评论区了，快冲！ https://t.co/mtKFXrScQp",
+      "article_title": null,
+      "quoted": null,
+      "image_note": null,
+      "verified": "Starry 分享塞浦路斯电子钱包 eCREDO：护照+欧洲手机号可开，无需地址证明；IBAN 以 CY059170 开头；同名 SEPA 出入金免费；官方称即将推出万事达预付卡。注册链接在评论区，原帖正文未给 URL。属美卡/支付。注意是 SEPA 不是 SPEA。",
+      "soft_ad_risk": false
+    },
+    {
+      "id": "2121453268588962266",
+      "url": "https://x.com/victor_UWer/status/2121453268588962266",
+      "created_at": "2026-11-14T04:00:48.000Z",
+      "posted_at": "11-14 12:00",
+      "author": {
+        "name": "Victor在西雅图",
+        "username": "victor_UWer"
+      },
+      "text": "一个 Stripe 账号接多个网站，最容易漏的坑：\n\n每个网站的 webhook 端点，收到的是整个账号下所有的事件。\n\n比如 A 站的用户付了款，B 站的端点也会收到通知。B 站要是不做判断，就可能给一个根本不存在的用户发权益，或者直接报错。\n\n我的做法是：\n\n1. 创建 Checkout Session 时，metadata 里固定带一个 site 字段，比如 site: \"pdf-tool\"\n\n2. webhook 处理函数里，先读 event 里对应对象的 https://t.co/p8XHHWTCBA\n\n3. 不是自己站的，直接返回 200，什么都不做。别返回 4xx，不然 Stripe 会反复重试，后台一堆红色报错\n\n4. 每个端点单独保存自己的 signing secret，别几个站共用一个\n\n订阅类事件要留意，续费发票上的 metadata 不一定会自动继承，建好订阅时记得把 metadata 也写到 subscription 上。\n\n不然第二个月扣款，你的程序会认不出这是哪个站的单。",
+      "article_title": null,
+      "quoted": null,
+      "image_note": null,
+      "verified": "Victor在西雅图讲一个 Stripe 账号接多站的 webhook 坑。注意：正文里的 metadata.site 被 X 误识别成链接 http://metadata.site，这不是一个网站，need 里应写成 metadata 的 site 字段。要点：Checkout Session 的 metadata 带 site；webhook 先读 site，不是本站则返回 200（不要 4xx，否则 Stripe 重试）；各端点单独 signing secret；订阅续费发票不一定继承 metadata，需在创建订阅时把 metadata 写到 subscription 上。",
+      "soft_ad_risk": false
+    },
+    {
+      "id": "2121951520350437638",
+      "url": "https://x.com/geektao0319/status/2121951520350437638",
+      "created_at": "2026-11-15T13:00:41.000Z",
+      "posted_at": "11-15 21:00",
+      "author": {
+        "name": "Geektao · AI Operator",
+        "username": "geektao0319"
+      },
+      "text": "我一个站做 GEO 基线时也数过：问了 18 次，有 10 次 ChatGPT 都去读了同一个第三方测评站，最多一次读了它 9 页。\n\n问替代品的 3 次，排第一的都是同一家，它自己写的对比页 3 次都被读到了。 https://t.co/b5u5gAHMjY",
+      "article_title": null,
+      "quoted": {
+        "id": "2121198885460914540",
+        "url": "https://x.com/i/status/2121198885460914540",
+        "author": {
+          "name": null,
+          "username": null
+        },
+        "full_text": "想被AI推荐，先进它读Sited的那几篇！！！\n\n决定 ChatGPT 推荐哪个 Claude skills 站的，是它回答前先读的 7 篇文章\n\n这次测试里，https://t.co/UkefzM66Iu 进了 6 篇，20 次回答里被推荐 12 次\n\n11 月 6 日核对时，我的站一篇没进，被推荐 0 次\n\n我用 Glasser 把 20 道 Claude skills 选型题分别问了 ChatGPT、Gemini 和 Perplexity；60 个回答里，Agent Skills Hub 被推荐 0 次\n\n接着翻出 ChatGPT 读得最多的 7 篇第三方文章，逐篇核对它们收录了谁\n\n11 月 6 日，我联系了能改这些文章的人；有个公开邮箱退信，我后来改走 GitHub，最后PR被合并了\n\n使用链接🔗：https://t.co/80n052O8qF"
+      },
+      "image_note": null,
+      "verified": "Geektao 引用 GoSailGlobal 的 GEO 测试并补充自己的基线：问了 18 次，有 10 次 ChatGPT 都去读同一个第三方测评站，最多一次读了它 9 页；问替代品的 3 次，排第一的都是同一家，它自己写的对比页 3 次都被读到。被引用帖要点：决定 ChatGPT 推荐哪个 Claude skills 站的，是回答前先读的文章；测试中 skills.sh 进了 6 篇、20 次回答里被推荐 12 次；作者站 11 月 6 日一篇没进、被推荐 0 次；用 Glasser 问了 20 道题给 ChatGPT/Gemini/Perplexity，60 个回答里 Agent Skills Hub 被推荐 0 次；后来联系可改这些文章的人，有公开邮箱退信，改走 GitHub，PR 被合并。链接 https://skills.sh 。按原帖数字记录，不要换算或补充未给出的站点名。",
+      "soft_ad_risk": false
+    }
+  ]
+}

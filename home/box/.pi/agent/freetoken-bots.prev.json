@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-15T01:02:12.803044+00:00",
+  "checked_at": "2026-11-20T01:06:17.358611+00:00",
   "eligible": [],
   "needs_parameter_verification": [
     {
@@ -9,10 +9,6 @@
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
       "context_length": 1024000
-    },
-    {
-      "id": "thinkingmachines/inkling-2-small:free",
-      "context_length": 1048576
     },
     {
       "id": "liquid/lfm-3-1.7b:free",
@@ -79,8 +75,7 @@
     "nvidia/nemotron-3.5-super-vl:free",
     "openrouter/free",
     "particle-ai/particle-1:free",
-    "recursive/flint-v1.0:free",
-    "thinkingmachines/inkling-2-small:free"
+    "recursive/flint-v1.0:free"
   ],
-  "free_count": 17
+  "free_count": 16
 }

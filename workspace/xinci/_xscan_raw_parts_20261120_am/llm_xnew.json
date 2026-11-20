@@ -1,0 +1,55 @@
+{
+  "label": "2026-11-20 上午 书签X",
+  "run_at": "2026-11-20 09:59",
+  "window_start": "2026-11-19 16:03",
+  "window_end": "2026-11-20 09:59",
+  "empty": false,
+  "query_note": "免费 x.search_posts_all，未使用付费 user-X。官方账号窗口 start_time=2026-11-19T08:03:24Z（上次成功 last_scan）；游戏/工具/视频补近7天 start_time=2026-11-13T01:55:00Z。A 官方 20 条后 next_token 翻页得 0 条。B 路 min_likes:500 被 API 去掉，本地过滤 likes>=500 为 0。视频检索含大量 grok 回复与儿童家庭影像 CapCut 模板，已排除、不得收录。游戏检索含大量 condo/色情垃圾，已剔除。",
+  "items": [
+    {
+      "name": "GPT-Live-1.1",
+      "desc": "OpenAI 发布 GPT-Live-1.1 API 版本，提供更自然一致的多语言口音、待机模式降低空闲成本、任务完成更可靠，不是新模型",
+      "source": "@OpenAIDevs",
+      "url": "https://x.com/OpenAIDevs/status/2123506733524136446",
+      "first_seen": "2026-11-20 04:00",
+      "views": 297003,
+      "bookmarks": 1055,
+      "likes": 3305,
+      "kind": "not_model"
+    },
+    {
+      "name": "Higgsfield GPU Harness",
+      "desc": "Higgsfield 推出 GPU Harness 产品，让用户在 Claude 和 ChatGPT 中按需租用云端 GPU 运行开源模型、训练 LoRA 并支持多 Agent 协作",
+      "source": "@higgsfield",
+      "url": "https://x.com/higgsfield/status/2123519417610825890",
+      "first_seen": "2026-11-20 04:50",
+      "views": 140614,
+      "bookmarks": 382,
+      "likes": 755,
+      "kind": "product"
+    },
+    {
+      "name": "Depth Pro 2",
+      "desc": "Apple 发布 Depth Pro 2 单目度量深度模型，实现更锐利且时间上更一致的度量单目深度估计，已上架 Hugging Face",
+      "source": "@_akhaliq",
+      "url": "https://x.com/_akhaliq/status/2123586174405296481",
+      "first_seen": "2026-11-20 09:16",
+      "views": 3564,
+      "bookmarks": 27,
+      "likes": 44,
+      "kind": "model"
+    },
+    {
+      "name": "DaisyRose-27B",
+      "desc": "RadixArk 基于 Qwen3.8-27B 通过强化学习后训练推出 DaisyRose-27B，面向长程 Agent 与真实终端工作，Apache-2.0 开源",
+      "source": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2123330588694171912",
+      "first_seen": "2026-11-19 16:20",
+      "views": 1654,
+      "bookmarks": 8,
+      "likes": 11,
+      "kind": "model"
+    }
+  ],
+  "keywords": []
+}

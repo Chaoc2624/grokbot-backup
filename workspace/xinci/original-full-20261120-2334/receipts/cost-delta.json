@@ -1,0 +1,21 @@
+{
+  "same_taipei_calendar_day": true,
+  "same_utc_account_day": true,
+  "account_day_note": "AIsa as_of is UTC. Before 15:29:39Z and after 15:56:05Z are both 2026-11-20 UTC, and both 2026-11-20 Asia/Taipei. No day-boundary subtraction.",
+  "before_taipei": "2026-11-20 23:29:39 CST (Asia/Taipei)",
+  "after_taipei": "2026-11-20 23:56:05 CST (Asia/Taipei)",
+  "before_account_usd": 8.818659,
+  "after_account_usd": 6.812636,
+  "delta_account_usd": 2.006023,
+  "before_lifetime_used_usd": 3.211343,
+  "after_lifetime_used_usd": 5.217366,
+  "delta_lifetime_used_usd": 2.006023,
+  "before_today_charged_usd": 0.12932,
+  "after_today_charged_usd": 2.135343,
+  "delta_today_charged_usd": 2.006023,
+  "requests_delta": 103,
+  "failed_requests_delta": 10,
+  "cli_reported_data_usd": 1.85,
+  "cli_note": "数据花费 $1.850，名字判断模型调用另计。账户实扣应以后者与前后余额差为准。",
+  "actual_increment_usd": 2.006023
+}

@@ -1,0 +1,78 @@
+{
+  "growth": [
+    {
+      "id": "2122881785797447942",
+      "title": "用 Bing Webmaster Tools 免费查看 AI 引用了哪些页面",
+      "points": "在 Bing Webmaster Tools 的 AI Performance 里看商业/比较意图查询的 Page Mapping 和 Citation Share，核对 AI 实际引用了哪些页面；作者称覆盖 Copilot、Bing AI 和部分合作伙伴。",
+      "url": "https://x.com/ShenyuanNext/status/2122881785797447942",
+      "tags": [
+        "AEO",
+        "SEO",
+        "工具与审计"
+      ]
+    },
+    {
+      "id": "2122370983470502050",
+      "title": "子木指 Semrush 用 Google 首选来源组件做 GEO",
+      "points": "Semrush 博客放了 Add SEMRUSH as a preferred source on Google 组件；子木称为让用户把博客喂给 AI 的 GEO 操作，并称 HeyGen 也曾跟上。截图未给官方设置入口。",
+      "url": "https://x.com/CoderJeffLee/status/2122370983470502050",
+      "tags": [
+        "GEO",
+        "SEO"
+      ]
+    },
+    {
+      "id": "2121951520350437638",
+      "title": "Geektao 补 GEO 基线：18 次提问里 10 次读同一测评站",
+      "points": "18 次提问里 10 次 ChatGPT 都读同一测评站，最多一次 9 页；替代品 3 次排第一的都是同一家自写对比页。引用帖称 skills.sh 进了 6 篇、20 次里被推荐 12 次，后经 GitHub PR 进入被引文。",
+      "url": "https://x.com/geektao0319/status/2121951520350437638",
+      "tags": [
+        "GEO",
+        "SEO"
+      ]
+    },
+    {
+      "id": "2122132239286927503",
+      "title": "子木谈 SEO 页面波动：单页竞争力撑不住站点信任",
+      "points": "他认为某个页面排名波动，是因为页面或有竞争力，但站点主题积累和信任还撑不住长期排名。配套 GSC 排查长文全文未返回。",
+      "url": "https://x.com/CoderJeffLee/status/2122132239286927503",
+      "tags": [
+        "SEO"
+      ]
+    },
+    {
+      "id": "2122904132441043419",
+      "title": "阿杭称本月 Affiliate 赚了几百刀且新站出现搜索与 AI 抓取",
+      "points": "作者称 AI 自媒体+Affiliate 当月已赚几百刀，新站开始有搜索流量。截图为未付 $400.4、余额 USD 185.74，以及约 11 月 18 日 AI/搜索爬取拉升。站点域名未给出，金额不要加总。",
+      "url": "https://x.com/Astronaut_1216/status/2122904132441043419",
+      "tags": [
+        "变现",
+        "流量渠道",
+        "GEO",
+        "出海增长复盘"
+      ]
+    },
+    {
+      "id": "2122817482863890626",
+      "title": "开源 app-store-compliance 可在提交前按 2026 规则审查拒因",
+      "points": "仓库 https://github.com/mjmirza/app-store-compliance 可盘点常见拒因、按 2026 年规则检查，并支持提交前用 AI Agent 审代码。属 ASO/提交前审计。",
+      "url": "https://x.com/slashui/status/2122817482863890626",
+      "tags": [
+        "ASO",
+        "工具与审计"
+      ]
+    },
+    {
+      "id": "2122266042491642027",
+      "title": "麦当开源「麦田」自媒体七平台发布与监控工作台",
+      "points": "仓库 https://github.com/CzzzzzzJ/mdldm-maitian ，多平台分发与数据监控；作者称国内四平台只填写不自动点发布，跑在常开 Mac、不存平台密码。",
+      "url": "https://x.com/czzzzzzJ_/status/2122266042491642027",
+      "tags": [
+        "内容策略",
+        "流量渠道",
+        "工具与审计"
+      ]
+    }
+  ],
+  "rejected_note": "模型把非增长项误标为已在 learned-ids（实际本档 23 条均不在 learned-ids）。已人工按规则补入 ASO 仓库与麦田工作台；Stripe 多站 webhook 视为支付开发避坑、未进增长批。其余羊毛/美卡/身份/纯 Prompt/写作教程维持排除。"
+}

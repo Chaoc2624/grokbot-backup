@@ -1,0 +1,7 @@
+import json,subprocess
+car=[x['id'] if isinstance(x,dict) else x for x in json.loads(subprocess.run(['timeout','60','python3','board_client.py','carryover'],capture_output=True,text=True).stdout)]
+items=[
+{"id":"2123660811927527775","url":"https://x.com/ShenyuanNext/status/2123660811927527775","title":"程序化 SEO 八步完整体系：关键词模式到规模化引擎","tag":"增长","need":"Shenyuan Wang（@ShenyuanNext）发长帖梳理程序化 SEO：关键词模式（自动补全/PAA/Ahrefs 长尾归类成模板）、数据层清洗、先做一个高质量模板再规模化、独特数据避免纯 AI 垃圾页、自动内链、sitemap 与 noindex、分批上线、抽检质量、追踪 60–90 天无展示的页面并清理，最后扩展修饰词与数据集。","action":"对照自己的 pSEO 站，检查是否先人工验证模板、分批上线，并清理 60–90 天无展示页面","deadline":None,"due_date":None,"category":"todo","posted_at":"11-20 14:12"},
+{"id":"2123570770454458669","url":"https://x.com/zuohai/status/2123570770454458669","title":"左海从 Reddit 挖到地板定制设计工具需求","tag":"增长","need":"左海（@zuohai）称在 Reddit 发现需求：铺地板前无法预览效果图、难算拐角、难预留材料尺寸；一位独立开发者做了免费设计工具，输入庭院或室内尺寸即得效果图与材料尺寸。带视频和图，工具链接在评论区，原帖未给。","action":"当作 Reddit 找需求→做小工具的案例记录；如需工具地址去原帖评论区找","deadline":None,"due_date":None,"category":"todo","posted_at":"11-20 08:15"}]
+json.dump({"label":"2026-11-20 晚上","items":items,"carried_ids":car},open('ingest-20261120-pm.json','w'),ensure_ascii=False)
+json.dump({"label":"2026-11-20 晚上","run_at":"2026-11-20 22:00","summary":"本档新增 2 条：程序化 SEO 八步体系长帖（Shenyuan Wang），以及左海从 Reddit 挖到的地板设计工具需求案例。","new_ids":[i['id'] for i in items],"carried_ids":car},open('briefsync-20261120-pm.json','w'),ensure_ascii=False)

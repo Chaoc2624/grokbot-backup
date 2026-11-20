@@ -1,0 +1,2 @@
+重要：不要回显输入 JSON，不要输出 status/message 这类成功说明。必须输出含 items、summary 两个键的 JSON 对象。items 是数组，每条含 id,url,title,tag,need,action,deadline,due_date,category,posted_at。不要复制 bookmarks 字段，也不要输出 brief_text。
+请根据下面的输入 JSON 生成本批简报条目。已知核实信息已写在各条 verified / image_note / quoted 中，请采用，不要改链接或编造未提供的页面。输入有几条就应输出几乎同样多条（只丢掉真正的软广）。

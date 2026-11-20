@@ -1,0 +1,19 @@
+{
+  "ended_at_taipei": "2026-11-20 23:52:04 CST (Asia/Taipei)",
+  "account_after_taipei": "2026-11-20 23:56:05 CST (Asia/Taipei)",
+  "exit_code": 0,
+  "crossed_taipei_midnight": false,
+  "crossed_utc_account_day": false,
+  "cli_data_usd": 1.85,
+  "actual_increment_usd": 2.006023,
+  "push": "not_pushed",
+  "push_reason": "push_board.py only supports --date/--dry-run; SOURCE_TAG has no independent 'YYYY-MM-DD 原版新词雷达实跑' flag. Integration would require code or format guessing. Morning 10:17 board left untouched.",
+  "paths": {
+    "dir": "/workspace/xinci/original-full-20261120-2334",
+    "report_md": "/workspace/xinci/original-full-20261120-2334/report.md",
+    "report_json": "/workspace/xinci/original-full-20261120-2334/report.json",
+    "log": "/workspace/xinci/original-full-20261120-2334/logs/daily.log",
+    "cost": "/workspace/xinci/original-full-20261120-2334/receipts/cost-delta.json",
+    "evidence": "/workspace/xinci/original-full-20261120-2334/receipts/eight-terms-evidence.json"
+  }
+}

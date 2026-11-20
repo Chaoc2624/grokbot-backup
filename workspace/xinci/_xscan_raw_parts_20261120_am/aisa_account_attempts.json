@@ -1,0 +1,41 @@
+{
+  "ok": false,
+  "attempts": [
+    {
+      "url": "https://tools.aisa.one/v1/account",
+      "status": 404,
+      "error": "Not Found 404 page not found",
+      "fields": []
+    },
+    {
+      "url": "https://tools.aisa.one/v1/me",
+      "status": 404,
+      "error": "Not Found 404 page not found",
+      "fields": []
+    },
+    {
+      "url": "https://api.aisa.one/v1/account",
+      "status": 404,
+      "error": "Not Found 404 page not found",
+      "fields": []
+    },
+    {
+      "url": "https://api.aisa.one/account",
+      "status": 404,
+      "error": "Not Found <html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n<script>(function(){function c(){var b=a.contentDocument||(a.contentWind",
+      "fields": []
+    },
+    {
+      "url": "https://tools.aisa.one/v1/tool-router/account",
+      "status": 405,
+      "error": "Not Allowed <html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "fields": []
+    },
+    {
+      "url": "https://tools.aisa.one/account",
+      "status": 404,
+      "error": "Not Found 404 page not found",
+      "fields": []
+    }
+  ]
+}

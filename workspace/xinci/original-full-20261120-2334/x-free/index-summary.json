@@ -1,0 +1,98 @@
+[
+  {
+    "file": "posts-bloggers.raw.txt",
+    "bytes": 6752,
+    "parse_error": "JSONDecodeError:Invalid control character at: line 1 column 3912 (char 3911)",
+    "head": "<cursor_untrusted_data_1337 source=\"CallDynamicTool\"> {\"data\":[{\"author_id\":\"1682428283135336449\",\"conversation_id\":\"2123801147672801627\",\"created_at\":\"2026-11-20T15:30:27.000Z\",\"edit_history_tweet_ids\":[\"2123801152294891572\"],\"id\":\"2123801"
+  },
+  {
+    "file": "posts-labs-batch1.raw.txt",
+    "bytes": 6865,
+    "parse_error": "JSONDecodeError:Invalid control character at: line 1 column 3982 (char 3981)",
+    "head": "<cursor_untrusted_data_1337 source=\"CallDynamicTool\"> {\"data\":[{\"author_id\":\"1633874951508721686\",\"conversation_id\":\"2123566018866151579\",\"created_at\":\"2026-11-19T23:56:21.000Z\",\"edit_history_tweet_ids\":[\"2123566075707261252\"],\"id\":\"2123566"
+  },
+  {
+    "file": "posts-labs-batch2.raw.txt",
+    "bytes": 9704,
+    "ok": true,
+    "n": 12,
+    "meta": {
+      "newest_id": "2123738670335209519",
+      "next_token": "b26v89c19zqg8o3juzowll2a3ohfkkxkaocqw3h03n7gd",
+      "oldest_id": "2123339999244636509",
+      "result_count": 12
+    },
+    "errors": null,
+    "keys": [
+      "data",
+      "includes",
+      "meta"
+    ],
+    "usernames": [
+      "AIatMeta",
+      "Kling_ai",
+      "MistralAI",
+      "huggingface",
+      "runwayml"
+    ]
+  },
+  {
+    "file": "posts-labs-batch3.raw.txt",
+    "bytes": 6842,
+    "parse_error": "JSONDecodeError:Invalid control character at: line 1 column 3964 (char 3963)",
+    "head": "<cursor_untrusted_data_1337 source=\"CallDynamicTool\"> {\"data\":[{\"author_id\":\"1807669255909019648\",\"conversation_id\":\"2123763296608370918\",\"created_at\":\"2026-11-20T13:00:02.000Z\",\"edit_history_tweet_ids\":[\"2123763296608370918\"],\"id\":\"2123763"
+  },
+  {
+    "file": "trends-taiwan.raw.txt",
+    "bytes": 6008,
+    "ok": true,
+    "n": 50,
+    "meta": null,
+    "errors": null,
+    "keys": [
+      "data"
+    ],
+    "usernames": []
+  },
+  {
+    "file": "trends-us.raw.txt",
+    "bytes": 4891,
+    "ok": true,
+    "n": 50,
+    "meta": {
+      "location": {
+        "country": "United States",
+        "country_code": "US",
+        "name": "United States",
+        "parent_id": 1,
+        "place_type": "country",
+        "woeid": 23424977
+      }
+    },
+    "errors": null,
+    "keys": [
+      "data",
+      "meta"
+    ],
+    "usernames": []
+  },
+  {
+    "file": "trends-worldwide.raw.txt",
+    "bytes": 6083,
+    "ok": true,
+    "n": 50,
+    "meta": {
+      "location": {
+        "name": "Worldwide",
+        "place_type": "supername",
+        "woeid": 1
+      }
+    },
+    "errors": null,
+    "keys": [
+      "data",
+      "meta"
+    ],
+    "usernames": []
+  }
+]

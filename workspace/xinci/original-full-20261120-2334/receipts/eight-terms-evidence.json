@@ -1,0 +1,99 @@
+[
+  {
+    "term": "reverb tts",
+    "named": 0.9,
+    "platform": "Hugging Face 新进榜第 44 名",
+    "what_from_report": "software-mansion/Reverb-TTS (text-to-speech, ♥72)",
+    "use_from_report": "text-to-speech",
+    "source_link": "https://huggingface.co/software-mansion/Reverb-TTS",
+    "link_basis": "HF repo id in lead.example0",
+    "status": "发现且表内评估",
+    "status_detail": "keywords 中该 name 行 decision=watch（brand=true）。其通用词 elevenlabs alternative、local text to speech 为 skip/fading。",
+    "channel": "original_cli"
+  },
+  {
+    "term": "clairic",
+    "named": 0.9,
+    "platform": "Hugging Face 新进榜第 25 名",
+    "what_from_report": "Cloudflare/clairic (image-text-to-text, ♥113)",
+    "use_from_report": "image-text-to-text",
+    "source_link": "https://huggingface.co/Cloudflare/clairic",
+    "link_basis": "HF repo id in lead.example0",
+    "status": "发现且表内评估",
+    "status_detail": "keywords.names 之一，name 行 decision=watch（brand=true）。",
+    "channel": "original_cli"
+  },
+  {
+    "term": "hy4",
+    "named": 0.9,
+    "platform": "Hugging Face 新进榜第 26 名",
+    "what_from_report": "tencent/Hy4 (image-text-to-text, ♥97)",
+    "use_from_report": "image-text-to-text",
+    "source_link": "https://huggingface.co/tencent/Hy4",
+    "link_basis": "HF repo id in lead.example0",
+    "status": "发现且表内评估",
+    "status_detail": "keywords.names 之一，name 行 decision=watch（brand=true）。",
+    "channel": "original_cli"
+  },
+  {
+    "term": "depthpro2",
+    "named": 0.9,
+    "platform": "Hugging Face 新进榜第 32 名；免费X交叉可见",
+    "what_from_report": "apple/DepthPro2 (depth-estimation, ♥67)",
+    "use_from_report": "depth-estimation / 单目深度估计",
+    "source_link": "https://huggingface.co/apple/DepthPro2",
+    "also_link": "https://x.com/_akhaliq/status/2123586174405296481",
+    "link_basis": "HF repo id in lead.example0; free-x post is independent corroboration, not original paid X",
+    "status": "发现且表内评估",
+    "status_detail": "keywords 中 name 行 decision=watch；通用词 monocular depth estimation 为 skip（per_day=0, fading）。免费X仅作交叉，不声称原版X。",
+    "channel": "original_cli + free_x_substitute"
+  },
+  {
+    "term": "olala v1.0 mini 7a1b",
+    "named": 0.95,
+    "platform": "Hugging Face 新进榜第 31 名",
+    "what_from_report": "OVHaiLLM/Olala-v1.0-mini-7A1B (text-generation, ♥89)",
+    "use_from_report": "text-generation",
+    "source_link": "https://huggingface.co/OVHaiLLM/Olala-v1.0-mini-7A1B",
+    "link_basis": "HF repo id in lead.example0",
+    "status": "发现且表内评估",
+    "status_detail": "keywords.names 之一，name 行 decision=watch（brand=true）。",
+    "channel": "original_cli"
+  },
+  {
+    "term": "neonclipping",
+    "named": 0.85,
+    "platform": "GitHub 爆发",
+    "what_from_report": "iamajmeena/neonclipping: Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube caption…)",
+    "use_from_report": "粘贴链接，约2分钟得到带字幕的9:16短视频；本地开源剪辑引擎",
+    "source_link": "https://github.com/iamajmeena/neonclipping",
+    "link_basis": "breakout.repos.repo iamajmeena/neonclipping; stars 1053, velocity 854/day, age 1.2d, new=true",
+    "status": "发现（未进今日新词表）",
+    "status_detail": "今日 keywords 只读了 5 个名字（均为 HF），本词仅 breakout 发现，无 Trends/Ads 验证。",
+    "channel": "original_cli"
+  },
+  {
+    "term": "linger",
+    "named": 0.9,
+    "platform": "GitHub 爆发",
+    "what_from_report": "simplexai-labs/linger: Linger is An Open-Source Personal Agent That Runs Fully on Your PC.",
+    "use_from_report": "完全在个人电脑上运行的开源个人代理",
+    "source_link": "https://github.com/simplexai-labs/linger",
+    "link_basis": "breakout.repos.repo simplexai-labs/linger; stars 2661, velocity 254/day, delta +1774, age 10.5d, new=true",
+    "status": "发现（未进今日新词表）",
+    "status_detail": "仅 breakout 发现，无 Trends/Ads 验证。",
+    "channel": "original_cli"
+  },
+  {
+    "term": "querymoat",
+    "named": 0.9,
+    "platform": "⑧ 新卖家（Dodo Payments）",
+    "what_from_report": "QueryMoat: safe database access for AI coding agents；querymoat.com · Dodo Payments；2026-11-19 第一次挂收款链接",
+    "use_from_report": "给 Claude Code、Cursor、Windsurf 和 Copilot 提供只读默认的本地 MCP，用于安全访问真实 schema 和数据",
+    "source_link": "https://querymoat.com/",
+    "link_basis": "seller.page 字段原文",
+    "status": "发现（未进今日新词表）",
+    "status_detail": "新卖家信号发现，无 Trends/Ads 验证。",
+    "channel": "original_cli"
+  }
+]

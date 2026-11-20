@@ -1,0 +1,661 @@
+{
+ "date": "2026-11-20",
+ "slot": "am",
+ "steps_status": {
+  "track": {
+   "returncode": 0,
+   "tail": "=== X 查询（例程用 namespace=x 执行，结果经 --x-input 喂回）===\n[game]\n  (Roblox OR \"roblox game\" OR \"steal a\" OR survivors OR poki OR \"unblocked games\" OR itch.io) (viral OR trending OR \"new game\" OR exploded OR 爆款 OR 新游) -is:retweet lang:en OR lang:zh\n  (\"steam charts\" OR \"steam top\" OR \"new on steam\" OR \"steam next fest\") (game OR play) -is:retweet lang:en\n  (游戏站 OR unblocked OR \"在线玩\" OR \"网页游戏\" OR Poki OR Roblox) (新词 OR 热词 OR 爆了 OR 日pv OR 建站) -is:retweet lang:zh\n[ai_tools]\n  (\"new ai tool\" OR \"ai tool launch\" OR \"just launched\" OR \"product hunt\") (ai OR generator OR agent) -is:retweet lang:en min_faves:50\n  (Toolify OR Futurepedia OR Aixploria OR \"ai directory\") (new OR added OR growth OR 增长) -is:retweet\n  (AI工具站 OR \"ai generator\" OR \"ai alternative\" OR Toolify) (新上 OR 增长榜 OR 挖词 OR 热词) -is:retweet lang:zh\n===\ntracks tracks-20261120-am.json: game items=142 kws=40; ai_tools items=39 kws=40; errors=3\n  game sample: Apex Legends, AION 2, Mahjong Soul, FINAL FANTASY VII REBIRTH, The Seven Deadly Sins: Origin, DRAGON QUEST MONSTERS: The Withered World, GIRLS FRONTLINE 2: EXILIUM, FINAL FANTASY VII REMAKE INTERGRADE\n  ai_tools sample: agentic cx designer, blabla, f5 ai guardrails, mindshub, readcube, Ableten Hybrid AI Travel Planner, Room AI, Upsolve MCP Connections\n  ! sitemap toolify: urls=12927 new=0\n  ! sitemap futurepedia: urls=2491 new=5\n  ! sitemap aixploria: urls=47 new=0\n",
+   "seconds": 43.34
+  },
+  "classify_games": {
+   "status": "ok",
+   "path": "/workspace/xinci/v2_run/game-class-2026-11-20.json"
+  },
+  "news": {
+   "returncode": 0,
+   "tail": "  google_news: window_hits=52 raw=52\n    新闻轨·Google News: 52\n  gdelt: window_hits=0 raw=0\n  telegram: window_hits=41 raw=41\n    新闻轨·Telegram@zaihuapd: 20\n    新闻轨·Telegram@GitHubTrending: 1\n    新闻轨·Telegram@ai_news_cn: 20\n  rss: window_hits=45 raw=45\n    新闻轨·RSS·Simon Willison: 1\n    新闻轨·RSS·OpenAI News: 1\n    新闻轨·RSS·Google AI Blog: 2\n    新闻轨·RSS·GitHub Trending Daily: 19\n    新闻轨·RSS·TechCrunch AI: 13\n    新闻轨·RSS·The Verge AI: 9\n  llm mapped 0/87\nnews news-20261120.json: items=24 kws=16 raw=138 pre=87 errors=4\n  sample: Argus MedGPT Patient Chart Review Tool, Project Genie: Genie 4, MCP in ChatGPT, World Model, RTX Spark, Gemini 4 Neon AI, 700个智能体攻击之后, 前瞻全球产业早报：谷歌推出Gemini 4 Neon模型_产经, 谷歌推出Gemini 4 Neon模型, 阿里巴巴\n  ! gdelt/ai-tool: fetch https://api.gdeltproject.org/api/v2/doc/doc?query=%22new+AI+tool%22+OR+%22AI+tool+launch%22+OR+%22launches+an+AI%22&mode=ArtList&format=json&maxrecords=25&sort=datedesc&timespan=24h: HTTP Error 429: Too Many Requests\n  ! gdelt/steam-release: Expecting value: line 1 column 1 (char 0)\n  ! gdelt/model-available: fetch https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22now+available%22+OR+unveils+OR+introducing%29+%28LLM+OR+%22language+model%22+OR+%22open-source+model%22%29&mode=ArtList&format=json&maxrecords=25&sort=datedesc&timespan=24h: HTTP Error 429: Too Many Requests\n  ! free-llm: 超时，改用规则抽名\n",
+   "seconds": 620.78
+  },
+  "higgsfield": {
+   "returncode": 0,
+   "tail": "",
+   "seconds": 7.17
+  },
+  "video": {
+   "returncode": 0,
+   "tail": "{\"status\": \"success\", \"items_count\": 77, \"spend\": 0.04132, \"remaining\": 0.95868}\n",
+   "seconds": 41.15
+  },
+  "priority": {
+   "status": "ok",
+   "count": 4
+  },
+  "verify": {
+   "returncode": 1,
+   "tail": "wrote /workspace/xinci/v2_run/verify-raw-2026-11-20.json\nTraceback (most recent call last):\n  File \"/workspace/xinci/verify_priority.py\", line 348, in <module>\n    main()\n    ~~~~^^\n  File \"/workspace/xinci/verify_priority.py\", line 195, in main\n    nodata = parse_missing_as_nodata(output_content)\nTypeError: parse_missing_as_nodata() missing 1 required positional argument: 'parsed'\n",
+   "seconds": 24.19
+  },
+  "legacy_sources": {
+   "status": "skipped_budget",
+   "block": "blocked_unbounded_cost",
+   "reason": "radar sources/daily 官方 CLI 无 --max-usd 硬费用上限（该旗仅用于 history）。2026-11-19 即使 skip 付费组仍发生 AIsa 数据扣费约 $0.243。默认不执行，记 skipped_budget/blocked_unbounded_cost。免费替代由现有 track/news/higgsfield 提供。可验证硬费用控制尚未实现，不得自称全部上游覆盖。"
+  },
+  "legacy_daily": {
+   "status": "skipped_budget",
+   "block": "blocked_unbounded_cost",
+   "reason": "radar sources/daily 官方 CLI 无 --max-usd 硬费用上限（该旗仅用于 history）。2026-11-19 即使 skip 付费组仍发生 AIsa 数据扣费约 $0.243。默认不执行，记 skipped_budget/blocked_unbounded_cost。免费替代由现有 track/news/higgsfield 提供。可验证硬费用控制尚未实现，不得自称全部上游覆盖。"
+  },
+  "finders": {
+   "status": "ok",
+   "reason": "finders 仅保留已验证零费分支 --skip trends（ac/appstore/hn）；trends 无硬费用上限且报价 may_exceed，默认不跑",
+   "trends": "skipped_budget"
+  },
+  "doable": {
+   "returncode": 0,
+   "tail": "## 可做的词 & SERP 真空期机会（2026-11-20）\n\n规则：常规通道：月搜 ≥ 500、KD ≤ 31、CPC 有值、首页竞争「能进」、allintitle < 10,000；真空期通道（免月搜门槛）：Google 前 10 自然结果中论坛/社交/代码仓/视频/资讯占比 ≥ 70% 且无独立产品站占坑。共查 4 个干净候选词（前置语义预筛已自动剔除 266 个球赛/八卦/非网页交付噪音词）。\n\n### 🔥 真空期可抢（免月搜门槛 · SERP 社媒/代码仓 ≥70% 且无独立站）（0）\n\n今天没有触发 SERP 真空期的词。\n\n### 全过门槛的词（0）\n\n今天没有词全过 Semrush 常规门槛。\n\n### 差一点就过的词（0）\n\n没有只差一项的词。\n\n其余（两项以上没过）：capcut peek ai（月搜 —，KDROI —，KD —，CPC —；卡在 CPC、月搜没数据、KD没数据、首页竞争没数据、allintitle没数据）；jatayu ai edit（月搜 —，KDROI —，KD —，CPC —；卡在 CPC、月搜没数据、KD没数据、首页竞争没数据、allintitle没数据）；capcut rich ai（月搜 —，KDROI —，KD —，CPC —；卡在 CPC、月搜没数据、KD没数据、首页竞争没数据、allintitle没数据）；sheru bhai ai trend（月搜 —，KDROI —，KD —，CPC —；卡在 CPC、月搜没数据、KD没数据、首页竞争没数据、allintitle没数据）\n\n前置语义预筛拦截（共 266 个）：`org.aimlds atom`（含义不明/包名碎片）、`io.github.monkeydscraping`（含义不明/包名碎片）、`connectors io.github.monkeydscraping`（含义不明/包名碎片）、`connectors io.github.j0401`（含义不明/包名碎片）、`com.tidybutton`（含义不明/包名碎片）、`connectors io.github.memeanalyst`（含义不明/包名碎片）、`connectors io.github.willowswt`（含义不明/包名碎片）、`io.github.arpitgandhi1934`（含义不明/包名碎片）、`io.github.arpit`（含义不明/包名碎片）、`connectors io.github.arpitgandhi1934`（含义不明/包名碎片）、`io.github.arpitgandhi1934 yugenox`（含义不明/包名碎片）、`gta 2013 vs 2026`（非科技/赛事对阵词）、`want to recreate this ai trend open capcut ai lab type rich in the ai`（长度异常或为空）、`what if you could take an ordinary photo and turn it into an incredibly realisti`（长度异常或为空）、`discover the magic of capcut s ai lab explore creative ai-powered effects and`（长度异常或为空）、`what if you could create a marketing video with ai in just a few clicks`（长度异常或为空）、`want to try it yourself open capcut go to al lab and type peek in the chat`（长度异常或为空）、`create viral ai music videos from just one photo 100 free explore_aitech`（长度异常或为空）\n\n花费：本次 AIsa 约 $0.000（上限 $0.20），0 个词用了 7 天内缓存没再付费。\n注：KD 用的是 Semrush 指数；域名状态通过官方 RDAP 只读查询（.com Verisign / .ai & .io IdentityDigital / .org PIR），全程只读不自动注册。\n\n",
+   "seconds": 2.09
+  },
+  "merge": {
+   "returncode": 0,
+   "tail": "merged 273 terms, dupes 4: ['GPT-Live-1.1', 'Higgsfield GPU Harness', 'Depth Pro 2', 'DaisyRose-27B']; board keywords: ['Can you servive?', 'Can you servive? unblocked', 'Can you servive? online', 'Can you servive? play', 'Dragon Arena', 'Dragon Arena unblocked', 'Dragon Arena online', 'Dragon Arena play', 'Ghost of Tsushima DIRECTORS CUT', 'Ghost of Tsushima DIRECTORS CUT guide', 'Ghost of Tsushima DIRECTORS CUT walkthrough', 'Jailbreak ⛓', 'Jailbreak ⛓ unblocked', 'Jailbreak ⛓ online', 'Jailbreak ⛓ play', 'Kit PVP FFA', 'Kit PVP FFA unblocked', 'Kit PVP FFA online', 'Kit PVP FFA play', 'Pixel Z', 'Pixel Z unblocked', 'Pixel Z online', 'Pixel Z play', 'Rolana', 'Rolana unblocked', 'Rolana online', 'Rolana play', 'Romancing SaGa 2: Revenge of the Seven', 'Romancing SaGa 2: Revenge of the Seven guide', 'Romancing SaGa 2: Revenge of the Seven walkthrough', 'The Seven Deadly Sins: Origin', 'The Seven Deadly Sins: Origin guide', 'The Seven Deadly Sins: Origin walkthrough', 'Tiny Snipers', 'Tiny Snipers unblocked', 'Tiny Snipers online', 'Tiny Snipers play', 'voxel wreck', 'voxel wreck unblocked', 'voxel wreck online', 'DaisyRose-27B', 'DaisyRose-27B ai', 'DaisyRose-27B alternative', 'Depth Pro 2', 'Depth Pro 2 ai', 'Depth Pro 2 alternative', 'GPT-Live-1.1', 'GPT-Live-1.1 ai', 'GPT-Live-1.1 alternative', 'Higgsfield GPU Harness', 'Higgsfield GPU Harness ai', 'Higgsfield GPU Harness alternative', 'agentic cx designer', 'agentic cx designer ai', 'agentic cx designer alternative', 'blabla', 'blabla ai', 'blabla alternative', 'CodeDesign v3', 'CodeDesign v3 ai', 'CodeDesign v3 alternative', 'f5 ai guardrails', 'f5 ai guardrails ai', 'f5 ai guardrails alternative', 'mindshub', 'mindshub ai', 'mindshub alternative', 'Noteshell', 'Noteshell ai', 'Noteshell alternative', 'readcube', 'readcube ai', 'readcube alternative', 'Replay QA Self-healing Mode', 'Replay QA Self-healing Mode ai', 'Replay QA Self-healing Mode alternative', 'Spellar for Chrome', 'Spellar for Chrome ai', 'Spellar for Chrome alternative', 'Stripo Email Widgets', 'PostgreSQL 19 Released', 'Tool Retrieval in the Gemini API', '700个智能体攻击之后', 'Argus MedGPT Patient Chart Review Tool', 'Gemini 4 Neon AI', 'MCP in ChatGPT', 'Project Genie: Genie 4', 'RTX Spark', 'World Model', '全球都自研', 'AMD 做空报告', 'ChatGPT 语音输入大升级：上线实时听写功能', 'Google为Mac版Gemini', 'Google搜索首页迎来重大改版：AI对话入口将直接出现在页面上', 'GTA VI！', 'Mac', 'CapCut Peek AI', 'Jatayu AI edit', 'CapCut Rich AI', 'Sheru Bhai AI trend']; tracks: ['2026-11-20 上午 双轨']; news: ['2026-11-20 新闻轨']; meme: ['meme-20261120.json']; our X failed: False\n",
+   "seconds": 0.04
+  },
+  "select_board_keywords": {
+   "status": "ok"
+  },
+  "push": {
+   "returncode": 0,
+   "tail": "label=2026-11-20 新词雷达 items=277 keywords=40 x_failed=False news_items=24 news_keywords=12 meme_items=72 meme_keywords=4\nkeywords_first15=[\"CapCut Peek AI\", \"Jatayu AI edit\", \"CapCut Rich AI\", \"Sheru Bhai AI trend\", \"Dragon Arena\", \"Kit PVP FFA\", \"Pixel Z\", \"Rolana\", \"Can you servive?\", \"Ghost of Tsushima DIRECTORS CUT\", \"Ghost of Tsushima DIRECTORS CUT guide\", \"Ghost of Tsushima DIRECTORS CUT walkthrough\", \"Jailbreak ⛓\", \"Romancing SaGa 2: Revenge of the Seven\", \"DaisyRose-27B\"]\nnews_keywords=[\"PostgreSQL 19 Released\", \"700个智能体攻击之后\", \"Gemini 4 Neon AI\", \"MCP in ChatGPT\", \"Project Genie: Genie 4\", \"RTX Spark\", \"World Model\", \"全球都自研\", \"AMD 做空报告\", \"ChatGPT 语音输入大升级：上线实时听写功能\", \"Google为Mac版Gemini\", \"Google搜索首页迎来重大改版：AI对话入口将直接出现在页面上\"]\nmeme_keywords=[\"CapCut Peek AI\", \"Jatayu AI edit\", \"CapCut Rich AI\", \"Sheru Bhai AI trend\"]\n{\"id\": 50, \"items\": 277, \"keywords\": 40, \"empty\": false}\n",
+   "seconds": 0.66
+  }
+ },
+ "coverage": {
+  "track": {
+   "status": "ok"
+  },
+  "news": {
+   "status": "ok"
+  },
+  "higgsfield": {
+   "status": "ok"
+  },
+  "video": {
+   "status": "ok"
+  },
+  "verify": {
+   "status": "failed",
+   "reason": "exit 1"
+  },
+  "legacy_sources": {
+   "status": "skipped_budget",
+   "reason": "radar sources/daily 官方 CLI 无 --max-usd 硬费用上限（该旗仅用于 history）。2026-11-19 即使 skip 付费组仍发生 AIsa 数据扣费约 $0.243。默认不执行，记 skipped_budget/blocked_unbounded_cost。免费替代由现有 track/news/higgsfield 提供。可验证硬费用控制尚未实现，不得自称全部上游覆盖。",
+   "block": "blocked_unbounded_cost"
+  },
+  "legacy_daily": {
+   "status": "skipped_budget",
+   "reason": "radar sources/daily 官方 CLI 无 --max-usd 硬费用上限（该旗仅用于 history）。2026-11-19 即使 skip 付费组仍发生 AIsa 数据扣费约 $0.243。默认不执行，记 skipped_budget/blocked_unbounded_cost。免费替代由现有 track/news/higgsfield 提供。可验证硬费用控制尚未实现，不得自称全部上游覆盖。",
+   "block": "blocked_unbounded_cost"
+  },
+  "finders": {
+   "status": "ok",
+   "reason": "finders 仅保留已验证零费分支 --skip trends（ac/appstore/hn）；trends 无硬费用上限且报价 may_exceed，默认不跑",
+   "trends": "skipped_budget"
+  },
+  "doable": {
+   "status": "ok"
+  },
+  "merge": {
+   "status": "ok",
+   "reason": "report=report-stub-2026-11-20.json",
+   "report": "/workspace/xinci/v2_run/report-stub-2026-11-20.json"
+  },
+  "push": {
+   "status": "ok"
+  }
+ },
+ "coverage_path": "/workspace/xinci/v2_run/coverage-2026-11-20-am.json",
+ "ledger": {
+  "date": "2026-11-20",
+  "hard_cap_usd": 1.0,
+  "today_prior_usd": 0.0,
+  "actual_usd": 0.12932,
+  "estimated_usd": 0.2746400000000001,
+  "remaining_usd": 0.87068,
+  "entries": [
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_1",
+    "estimated_usd": 0.00188,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_2",
+    "estimated_usd": 0.00188,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_3",
+    "estimated_usd": 0.00188,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_4",
+    "estimated_usd": 0.00188,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_1",
+    "estimated_usd": 0.00188,
+    "actual_usd": 0.00188,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_2",
+    "estimated_usd": 0.00188,
+    "actual_usd": 0.00188,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_3",
+    "estimated_usd": 0.00188,
+    "actual_usd": 0.00188,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_4",
+    "estimated_usd": 0.00188,
+    "actual_usd": 0.00188,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "tiktok.search",
+    "call_id": "tt_5",
+    "estimated_usd": 0.014,
+    "actual_usd": null,
+    "may_exceed_estimate": false,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "tiktok.search",
+    "call_id": "tt_6",
+    "estimated_usd": 0.014,
+    "actual_usd": null,
+    "may_exceed_estimate": false,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "tiktok.search",
+    "call_id": "tt_5",
+    "estimated_usd": 0.014,
+    "actual_usd": 0.014,
+    "may_exceed_estimate": false,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "tiktok.search",
+    "call_id": "tt_6",
+    "estimated_usd": 0.014,
+    "actual_usd": 0.014,
+    "may_exceed_estimate": false,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_youtube_search",
+    "call_id": "yt_7",
+    "estimated_usd": 0.0029,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_youtube_search",
+    "call_id": "yt_8",
+    "estimated_usd": 0.0029,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_youtube_search",
+    "call_id": "yt_7",
+    "estimated_usd": 0.0029,
+    "actual_usd": 0.0029,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_youtube_search",
+    "call_id": "yt_8",
+    "estimated_usd": 0.0029,
+    "actual_usd": 0.0029,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_1",
+    "estimated_usd": 0.011,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_2",
+    "estimated_usd": 0.001,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_3",
+    "estimated_usd": 0.011,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_4",
+    "estimated_usd": 0.001,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_5",
+    "estimated_usd": 0.011,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_6",
+    "estimated_usd": 0.001,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_7",
+    "estimated_usd": 0.011,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_8",
+    "estimated_usd": 0.001,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_9",
+    "estimated_usd": 0.011,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_10",
+    "estimated_usd": 0.001,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_11",
+    "estimated_usd": 0.011,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_12",
+    "estimated_usd": 0.001,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_13",
+    "estimated_usd": 0.011,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_14",
+    "estimated_usd": 0.001,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_15",
+    "estimated_usd": 0.011,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_16",
+    "estimated_usd": 0.001,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_1",
+    "estimated_usd": 0.011,
+    "actual_usd": 0.011,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_2",
+    "estimated_usd": 0.001,
+    "actual_usd": 0.0,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_3",
+    "estimated_usd": 0.011,
+    "actual_usd": 0.011,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_4",
+    "estimated_usd": 0.001,
+    "actual_usd": 0.0,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_5",
+    "estimated_usd": 0.011,
+    "actual_usd": 0.011,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_6",
+    "estimated_usd": 0.001,
+    "actual_usd": 0.0,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_7",
+    "estimated_usd": 0.011,
+    "actual_usd": 0.011,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_8",
+    "estimated_usd": 0.001,
+    "actual_usd": 0.0,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_9",
+    "estimated_usd": 0.011,
+    "actual_usd": 0.011,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_10",
+    "estimated_usd": 0.001,
+    "actual_usd": 0.0,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_11",
+    "estimated_usd": 0.011,
+    "actual_usd": 0.011,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_12",
+    "estimated_usd": 0.001,
+    "actual_usd": 0.0,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_13",
+    "estimated_usd": 0.011,
+    "actual_usd": 0.011,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_14",
+    "estimated_usd": 0.001,
+    "actual_usd": 0.0,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_15",
+    "estimated_usd": 0.011,
+    "actual_usd": 0.011,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-20 10:16",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_16",
+    "estimated_usd": 0.001,
+    "actual_usd": 0.0,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   }
+  ]
+ },
+ "x_status": "ok",
+ "errors": [
+  "sitemap toolify: urls=12927 new=0",
+  "sitemap futurepedia: urls=2491 new=5",
+  "sitemap aixploria: urls=47 new=0"
+ ]
+}

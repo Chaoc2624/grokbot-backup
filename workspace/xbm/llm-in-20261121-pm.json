@@ -1,0 +1,47 @@
+{
+  "bookmarks": [
+    {
+      "id": "2124080550885396896",
+      "url": "https://x.com/victor_UWer/status/2124080550885396896",
+      "author": "Victor在西雅图（@victor_UWer）",
+      "created_at": "2026-11-21T10:00:41.000Z",
+      "posted_at": "11-21 18:00",
+      "text": "做韩语站的朋友注意了：\n\n只在 Google 提交，等于把韩国一大半入口白白放掉。\n\n韩国人很多习惯用 Naver 搜东西，Google 在那边没你想的那么强势。\n\n我的做法，贼简单：\n\n1. 打开 Naver Search Advisor，用 Naver 账号登录，没有就先注册一个\n\n2. 添加网站，选 HTML 标签验证，把 meta 标签贴进首页 head 里\n\n3. 验证通过后，进\"요청\"菜单，找到\"사이트맵 제출\"，把 sitemap.xml 地址丢进去\n\n4. 过几天回来看收录状态，没进的页面再单独手动提交\n\n俄语市场同理，换成 Yandex Webmaster，流程差不多。\n\n目标市场用哪个搜索引擎，就去哪个搜索引擎报到，别只盯着 Google。",
+      "urls": [],
+      "quoted": null,
+      "verified": "原帖无配图、无外链。发帖时间为 2026-11-21 18:00（台北时间）。Naver 后台菜单名按原文保留：요청、사이트맵 제출。不要编造 Naver Search Advisor 或 Yandex Webmaster 的官方网址。"
+    },
+    {
+      "id": "2123675279210242167",
+      "url": "https://x.com/illyism/status/2123675279210242167",
+      "author": "ILIAS ISM（@illyism）",
+      "created_at": "2026-11-20T07:10:17.000Z",
+      "posted_at": "11-20 15:10",
+      "text": "Open-sourced my full SEO and AI-search stack for Claude Code and Cursor (30 skills + 4 live MCP servers I actually use every day)\n\n1. 30 open-source SEO skills (technical audits, programmatic SEO, BOFU pages, directory submissions, Ahrefs/GSC workflows):\nhttps://github.com/Illyism/seo-skills\n\n2. Full walkthrough and chained workflows for how I run them:\nhttps://il.ly/blog/seo-skills\n\n3. Video and YouTube transcript MCP (pulls captions + frame OCR right into your agent):\nhttps://scribiz.com/mcp\n\n4. Live AI search visibility tracker MCP:\nhttps://aiseotracker.com\n\n5. Hands-on tool directory & benchmark MCP:\nhttps://awesome.tools\n\nInstall all 30 skills in one line:\nnpx skills add Illyism/seo-skills\n\nMost SEO agency retainers are basically 5 of these checklists run manually once a month tbh. Easier to just hand them to your coding agent and merge the PRs yourself!",
+      "urls": [
+        {
+          "expanded_url": "https://github.com/Illyism/seo-skills",
+          "title": "GitHub - Illyism/seo-skills: 30 open-source SEO skills (SKILL.md) for Claude Code, Cursor, Codex & AI agents: technical SEO roasts, Ahrefs & DataForSEO SERP workflows, first-hand proof KBs, backlinks & GEO."
+        },
+        {
+          "expanded_url": "https://il.ly/blog/seo-skills",
+          "title": null
+        },
+        {
+          "expanded_url": "https://scribiz.com/mcp",
+          "title": null
+        },
+        {
+          "expanded_url": "https://aiseotracker.com",
+          "title": null
+        },
+        {
+          "expanded_url": "https://awesome.tools",
+          "title": null
+        }
+      ],
+      "quoted": null,
+      "verified": "长帖链接已展开：1) 开源技能仓库 https://github.com/Illyism/seo-skills ；2) 操作说明 https://il.ly/blog/seo-skills ；3) Video/YouTube transcript MCP https://scribiz.com/mcp ；4) AI search visibility tracker MCP https://aiseotracker.com ；5) tool directory & benchmark MCP https://awesome.tools 。安装命令：npx skills add Illyism/seo-skills。作者称这 4 个 MCP 是自己日常在用的 live 服务。原帖无配图。不要编造未提供的安装步骤或其他产品页。"
+    }
+  ]
+}

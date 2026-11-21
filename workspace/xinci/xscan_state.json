@@ -1,21 +1,6 @@
 {
-  "last_scan": "2026-11-20T01:59:52Z",
+  "last_scan": "2026-11-21T01:58:40Z",
   "reported": {
-    "sagea15": {
-      "name": "Sage-A1.5",
-      "first_seen": "2026-10-21",
-      "file": "xbm/radar-20261021"
-    },
-    "sparkx264b": {
-      "name": "Spark-X2.6-4B",
-      "first_seen": "2026-10-21",
-      "file": "xbm/radar-20261021"
-    },
-    "oxr10": {
-      "name": "OXR-1.0",
-      "first_seen": "2026-10-21",
-      "file": "xbm/radar-20261021"
-    },
     "claudeduet": {
       "name": "Claude Duet",
       "first_seen": "2026-10-22 03:09",
@@ -34,21 +19,6 @@
     "openai模型登陆googlecloud": {
       "name": "OpenAI 模型登陆 Google Cloud",
       "first_seen": "2026-10-22 03:23",
-      "file": "xnew-20261022-am.json"
-    },
-    "openai发现php严重漏洞codex检测技能": {
-      "name": "OpenAI 发现 PHP 严重漏洞 + Codex 检测技能",
-      "first_seen": "2026-10-21 22:04",
-      "file": "xnew-20261022-am.json"
-    },
-    "gptrosalind药物发现线索": {
-      "name": "GPT-Rosalind 药物发现线索",
-      "first_seen": "2026-10-21 21:32",
-      "file": "xnew-20261022-am.json"
-    },
-    "mistralnvidia工业工程合作": {
-      "name": "Mistral × NVIDIA 工业工程合作",
-      "first_seen": "2026-10-21 19:35",
       "file": "xnew-20261022-am.json"
     },
     "gemini在google地图carplay导航": {
@@ -950,6 +920,31 @@
       "name": "DaisyRose-27B",
       "first_seen": "2026-11-19 16:20",
       "file": "xnew-20261120-am.json"
+    },
+    "inkling2mini": {
+      "name": "Inkling 2 Mini",
+      "first_seen": "2026-11-21 04:10",
+      "file": "xnew-20261121-am.json"
+    },
+    "wemmvideo": {
+      "name": "WeMM-Video",
+      "first_seen": "2026-11-20 20:28",
+      "file": "xnew-20261121-am.json"
+    },
+    "gemini35transcribe语音编辑api": {
+      "name": "Gemini 3.5 Transcribe 语音编辑 API",
+      "first_seen": "2026-11-21 01:13",
+      "file": "xnew-20261121-am.json"
+    },
+    "stitchloop": {
+      "name": "Stitch Loop",
+      "first_seen": "2026-11-19 01:11",
+      "file": "xnew-20261121-am.json"
+    },
+    "flowticaverso": {
+      "name": "Flowtica Verso",
+      "first_seen": "2026-11-17 22:00",
+      "file": "xnew-20261121-am.json"
     }
   }
 }

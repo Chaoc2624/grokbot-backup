@@ -1,75 +1,89 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "board_runs": [],
  "xnew_runs": [
-  "2026-11-20 上午 书签X"
+  "2026-11-21 上午 书签X"
  ],
  "track_runs": [
-  "2026-11-20 上午 双轨"
+  "2026-11-21 上午 双轨"
  ],
  "news_runs": [
-  "2026-11-20 新闻轨"
+  "2026-11-21 新闻轨"
  ],
  "meme_runs": [
-  "meme-20261120.json"
+  "meme-20261121.json"
  ],
  "our_x_failed": false,
  "terms": [
   {
-   "name": "GPT-Live-1.1",
-   "key": "gptlive11",
+   "name": "Inkling 2 Mini",
+   "key": "inkling2mini",
    "sources": [
     "书签X",
     "AI工具轨"
    ],
-   "desc": "OpenAI 宣布 GPT-Live-1.1 现已在 API 中可用：多语言口音更自然一致，新增 standby 降低空闲成本，任务完成更稳。该模型自 10 月 15 日起已用于 ChatGPT Plus/Pro 语音，本窗是 API 上架，不是新模型。",
-   "url": "https://x.com/OpenAIDevs/status/2123506733524136446",
+   "desc": "Thinking Machines 官方发布 Inkling 2 Mini：约 26B 参数（激活约 3.4B）的循环 Transformer 开源权重模型，官方称可在笔记本运行，AA Index 20.1，面向 agent 工作。",
+   "url": "https://x.com/thinkymachines/status/2123871643797995872",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 04:10",
+   "track": "ai_tools"
+  },
+  {
+   "name": "WeMM-Video",
+   "key": "wemmvideo",
+   "sources": [
+    "书签X",
+    "AI工具轨"
+   ],
+   "desc": "腾讯微信视觉（WeChat Vision）发布 WeMM-Video 开源权重模型系列，面向音画联合理解与推理，提供 2B/4B/9B/35B-A3B 规格，支持文本、图像、音频和视频输入，Apache-2.0。",
+   "url": "https://x.com/ModelScope2022/status/2123755394296422564",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 20:28",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Gemini 3.5 Transcribe 语音编辑 API",
+   "key": "gemini35transcribe语音编辑api",
+   "sources": [
+    "书签X",
+    "AI工具轨"
+   ],
+   "desc": "Google 宣布把 Gemini 3.5 Transcribe 的语音编辑能力开放到 Gemini API，开发者可做「用语音编辑、改写、翻译已有文本」的体验；该能力已用于 Gboard 的 Rambler 和 macOS 上的 Gemini 应用。不是新模型。",
+   "url": "https://x.com/Google/status/2123827048808370477",
    "signals": [],
    "variants": [],
    "not_model": true,
-   "first_seen": "2026-11-20 04:00",
+   "first_seen": "2026-11-21 01:13",
    "track": "ai_tools"
   },
   {
-   "name": "Higgsfield GPU Harness",
-   "key": "higgsfieldgpuharness",
+   "name": "Stitch Loop",
+   "key": "stitchloop",
    "sources": [
     "书签X",
     "AI工具轨"
    ],
-   "desc": "Higgsfield 推出 GPU Harness 产品，让用户在 Claude 和 ChatGPT 中按需租用云端 GPU 运行开源模型、训练 LoRA 并支持多 Agent 协作",
-   "url": "https://x.com/higgsfield/status/2123519417610825890",
+   "desc": "【补报】Google / Google Labs 发布实验产品 Stitch Loop：代码上线后仍持续监测产品指标，在沙箱中测试修复并提交待审批的 PR，基于 Gemini 4 Carbon 和 CodeMender。本窗之前官方首发（2026-11-18），上档漏报。",
+   "url": "https://x.com/Google/status/2123101724047200432",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 04:50",
+   "first_seen": "2026-11-19 01:11",
    "track": "ai_tools"
   },
   {
-   "name": "Depth Pro 2",
-   "key": "depthpro2",
+   "name": "Flowtica Verso",
+   "key": "flowticaverso",
    "sources": [
     "书签X",
     "AI工具轨"
    ],
-   "desc": "Apple 发布 Depth Pro 2 单目度量深度模型，实现更锐利且时间上更一致的度量单目深度估计，已上架 Hugging Face",
-   "url": "https://x.com/_akhaliq/status/2123586174405296481",
+   "desc": "【补报】Flowtica 官方发布 Flowtica Verso：宣称全球首款带实时电子墨水屏的 MagSafe AI 会议记录配件，可记录通话与当面交谈并生成摘要和待办。本窗之前官方首发（2026-11-17），上档漏报。",
+   "url": "https://x.com/Flowtica_AI/status/2122691235261383029",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 09:16",
-   "track": "ai_tools"
-  },
-  {
-   "name": "DaisyRose-27B",
-   "key": "daisyrose27b",
-   "sources": [
-    "书签X",
-    "AI工具轨"
-   ],
-   "desc": "RadixArk 基于 Qwen3.8-27B 通过强化学习后训练推出 DaisyRose-27B，面向长程 Agent 与真实终端工作，Apache-2.0 开源",
-   "url": "https://x.com/ModelScope2022/status/2123330588694171912",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-19 16:20",
+   "first_seen": "2026-11-17 22:00",
    "track": "ai_tools"
   },
   {
@@ -82,7 +96,7 @@
    "url": "https://store.steampowered.com/search/?term=Apex%20Legends",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -95,46 +109,7 @@
    "url": "https://store.steampowered.com/search/?term=AION%202",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Mahjong Soul",
-   "key": "mahjongsoul",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Mahjong Soul",
-   "url": "https://store.steampowered.com/search/?term=Mahjong%20Soul",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "FINAL FANTASY VII REBIRTH",
-   "key": "finalfantasyviirebirth",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：FINAL FANTASY VII REBIRTH",
-   "url": "https://store.steampowered.com/search/?term=FINAL%20FANTASY%20VII%20REBIRTH",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "The Seven Deadly Sins: Origin",
-   "key": "thesevendeadlysinsorigin",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：The Seven Deadly Sins: Origin",
-   "url": "https://store.steampowered.com/search/?term=The%20Seven%20Deadly%20Sins%3A%20Origin",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -147,176 +122,7 @@
    "url": "https://store.steampowered.com/search/?term=DRAGON%20QUEST%20MONSTERS%3A%20The%20Withered%20World",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "GIRLS FRONTLINE 2: EXILIUM",
-   "key": "girlsfrontline2exilium",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：GIRLS' FRONTLINE 2: EXILIUM",
-   "url": "https://store.steampowered.com/search/?term=GIRLS%20FRONTLINE%202%3A%20EXILIUM",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "FINAL FANTASY VII REMAKE INTERGRADE",
-   "key": "finalfantasyviiremakeintergrade",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：FINAL FANTASY VII REMAKE INTERGRADE",
-   "url": "https://store.steampowered.com/search/?term=FINAL%20FANTASY%20VII%20REMAKE%20INTERGRADE",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "ブループロトコル：スターレゾナンス",
-   "key": "ブループロトコルスターレゾナンス",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：ブループロトコル：スターレゾナンス",
-   "url": "https://store.steampowered.com/search/?term=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%97%E3%83%AD%E3%83%88%E3%82%B3%E3%83%AB%EF%BC%9A%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%AC%E3%82%BE%E3%83%8A%E3%83%B3%E3%82%B9",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Psycho-Sleuth",
-   "key": "psychosleuth",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Psycho-Sleuth",
-   "url": "https://store.steampowered.com/search/?term=Psycho-Sleuth",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "FATAL FURY: City of the Wolves",
-   "key": "fatalfurycityofthewolves",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：FATAL FURY: City of the Wolves",
-   "url": "https://store.steampowered.com/search/?term=FATAL%20FURY%3A%20City%20of%20the%20Wolves",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Slay the Spire 2",
-   "key": "slaythespire2",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Slay the Spire 2",
-   "url": "https://store.steampowered.com/search/?term=Slay%20the%20Spire%202",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Once Human",
-   "key": "oncehuman",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Once Human",
-   "url": "https://store.steampowered.com/search/?term=Once%20Human",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "VRChat",
-   "key": "vrchat",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：VRChat",
-   "url": "https://store.steampowered.com/search/?term=VRChat",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "eFootball",
-   "key": "efootball",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：eFootball™",
-   "url": "https://store.steampowered.com/search/?term=eFootball",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Limbus Company",
-   "key": "limbuscompany",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Limbus Company",
-   "url": "https://store.steampowered.com/search/?term=Limbus%20Company",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Annihilated",
-   "key": "annihilated",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Annihilated",
-   "url": "https://store.steampowered.com/search/?term=Annihilated",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "NTE: Neverness to Everness",
-   "key": "ntenevernesstoeverness",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：NTE: Neverness to Everness",
-   "url": "https://store.steampowered.com/search/?term=NTE%3A%20Neverness%20to%20Everness",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Overwatch",
-   "key": "overwatch",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 畅销：Overwatch®",
-   "url": "https://store.steampowered.com/search/?term=Overwatch",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -329,33 +135,176 @@
    "url": "https://store.steampowered.com/search/?term=EA%20SPORTS%20FC%2027",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Romancing SaGa 2: Revenge of the Seven",
-   "key": "romancingsaga2revengeoftheseven",
+   "name": "Mahjong Soul",
+   "key": "mahjongsoul",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 畅销：Romancing SaGa 2: Revenge of the Seven",
-   "url": "https://store.steampowered.com/search/?term=Romancing%20SaGa%202%3A%20Revenge%20of%20the%20Seven",
+   "desc": "Steam 畅销：Mahjong Soul",
+   "url": "https://store.steampowered.com/search/?term=Mahjong%20Soul",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Witch the Showdown",
-   "key": "witchtheshowdown",
+   "name": "WITCH ON THE HOLY NIGHT",
+   "key": "witchontheholynight",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 畅销：Witch the Showdown",
-   "url": "https://store.steampowered.com/search/?term=Witch%20the%20Showdown",
+   "desc": "Steam 畅销：WITCH ON THE HOLY NIGHT",
+   "url": "https://store.steampowered.com/search/?term=WITCH%20ON%20THE%20HOLY%20NIGHT",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "FINAL FANTASY VII REBIRTH",
+   "key": "finalfantasyviirebirth",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：FINAL FANTASY VII REBIRTH",
+   "url": "https://store.steampowered.com/search/?term=FINAL%20FANTASY%20VII%20REBIRTH",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Ghost of Tsushima DIRECTORS CUT",
+   "key": "ghostoftsushimadirectorscut",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Ghost of Tsushima DIRECTOR'S CUT",
+   "url": "https://store.steampowered.com/search/?term=Ghost%20of%20Tsushima%20DIRECTORS%20CUT",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+   "key": "finalfantasyviiremakeintergrade",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：FINAL FANTASY VII REMAKE INTERGRADE",
+   "url": "https://store.steampowered.com/search/?term=FINAL%20FANTASY%20VII%20REMAKE%20INTERGRADE",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "DEATH STRANDING 2: ON THE BEACH",
+   "key": "deathstranding2onthebeach",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：DEATH STRANDING 2: ON THE BEACH",
+   "url": "https://store.steampowered.com/search/?term=DEATH%20STRANDING%202%3A%20ON%20THE%20BEACH",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Stellar Blade",
+   "key": "stellarblade",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Stellar Blade™",
+   "url": "https://store.steampowered.com/search/?term=Stellar%20Blade",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "VRChat",
+   "key": "vrchat",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：VRChat",
+   "url": "https://store.steampowered.com/search/?term=VRChat",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Heartopia",
+   "key": "heartopia",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Heartopia",
+   "url": "https://store.steampowered.com/search/?term=Heartopia",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "The Seven Deadly Sins: Origin",
+   "key": "thesevendeadlysinsorigin",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：The Seven Deadly Sins: Origin",
+   "url": "https://store.steampowered.com/search/?term=The%20Seven%20Deadly%20Sins%3A%20Origin",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Slay the Spire 2",
+   "key": "slaythespire2",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Slay the Spire 2",
+   "url": "https://store.steampowered.com/search/?term=Slay%20the%20Spire%202",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "FATAL FURY: City of the Wolves",
+   "key": "fatalfurycityofthewolves",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：FATAL FURY: City of the Wolves",
+   "url": "https://store.steampowered.com/search/?term=FATAL%20FURY%3A%20City%20of%20the%20Wolves",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "ARC Raiders",
+   "key": "arcraiders",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：ARC Raiders",
+   "url": "https://store.steampowered.com/search/?term=ARC%20Raiders",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -368,7 +317,20 @@
    "url": "https://store.steampowered.com/search/?term=Yu-Gi-Oh%21%20Master%20Duel",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "GIRLS FRONTLINE 2: EXILIUM",
+   "key": "girlsfrontline2exilium",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：GIRLS' FRONTLINE 2: EXILIUM",
+   "url": "https://store.steampowered.com/search/?term=GIRLS%20FRONTLINE%202%3A%20EXILIUM",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -381,7 +343,72 @@
    "url": "https://store.steampowered.com/search/?term=Hearts%20of%20Iron%20IV",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Annihilated",
+   "key": "annihilated",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Annihilated",
+   "url": "https://store.steampowered.com/search/?term=Annihilated",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Limbus Company",
+   "key": "limbuscompany",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Limbus Company",
+   "url": "https://store.steampowered.com/search/?term=Limbus%20Company",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Overwatch",
+   "key": "overwatch",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Overwatch®",
+   "url": "https://store.steampowered.com/search/?term=Overwatch",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Dead by Daylight",
+   "key": "deadbydaylight",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Dead by Daylight",
+   "url": "https://store.steampowered.com/search/?term=Dead%20by%20Daylight",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Forza Horizon 6",
+   "key": "forzahorizon6",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 畅销：Forza Horizon 6",
+   "url": "https://store.steampowered.com/search/?term=Forza%20Horizon%206",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -394,33 +421,7 @@
    "url": "https://store.steampowered.com/search/?term=Call%20of%20Duty%3A%20Modern%20Warfare%204",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Dead by Daylight",
-   "key": "deadbydaylight",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Dead by Daylight",
-   "url": "https://store.steampowered.com/search/?term=Dead%20by%20Daylight",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Grand Theft Auto V Enhanced",
-   "key": "grandtheftautovenhanced",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Grand Theft Auto V Enhanced",
-   "url": "https://store.steampowered.com/search/?term=Grand%20Theft%20Auto%20V%20Enhanced",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -433,20 +434,7 @@
    "url": "https://store.steampowered.com/search/?term=Wuthering%20Waves",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Euro Truck Simulator 2",
-   "key": "eurotrucksimulator2",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Euro Truck Simulator 2",
-   "url": "https://store.steampowered.com/search/?term=Euro%20Truck%20Simulator%202",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -459,59 +447,7 @@
    "url": "https://store.steampowered.com/search/?term=Phantom%20Blade%20Zero",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "FINAL FANTASY RESONANCE",
-   "key": "finalfantasyresonance",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：FINAL FANTASY RESONANCE",
-   "url": "https://store.steampowered.com/search/?term=FINAL%20FANTASY%20RESONANCE",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Rust",
-   "key": "rust",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Rust",
-   "url": "https://store.steampowered.com/search/?term=Rust",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Warframe",
-   "key": "warframe",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Warframe",
-   "url": "https://store.steampowered.com/search/?term=Warframe",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Escape from Tarkov",
-   "key": "escapefromtarkov",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 新热：Escape from Tarkov",
-   "url": "https://store.steampowered.com/search/?term=Escape%20from%20Tarkov",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -524,7 +460,46 @@
    "url": "https://store.steampowered.com/search/?term=ACE%20COMBAT%208%3A%20WINGS%20OF%20THEVE",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Escape from Tarkov",
+   "key": "escapefromtarkov",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Escape from Tarkov",
+   "url": "https://store.steampowered.com/search/?term=Escape%20from%20Tarkov",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Grand Theft Auto V Enhanced",
+   "key": "grandtheftautovenhanced",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Grand Theft Auto V Enhanced",
+   "url": "https://store.steampowered.com/search/?term=Grand%20Theft%20Auto%20V%20Enhanced",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Euro Truck Simulator 2",
+   "key": "eurotrucksimulator2",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Euro Truck Simulator 2",
+   "url": "https://store.steampowered.com/search/?term=Euro%20Truck%20Simulator%202",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -537,20 +512,46 @@
    "url": "https://store.steampowered.com/search/?term=Football%20Manager%2027",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "FINAL FANTASY XIV Online",
-   "key": "finalfantasyxivonline",
+   "name": "Warframe",
+   "key": "warframe",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 新热：FINAL FANTASY XIV Online",
-   "url": "https://store.steampowered.com/search/?term=FINAL%20FANTASY%20XIV%20Online",
+   "desc": "Steam 新热：Warframe",
+   "url": "https://store.steampowered.com/search/?term=Warframe",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "FINAL FANTASY RESONANCE",
+   "key": "finalfantasyresonance",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：FINAL FANTASY RESONANCE",
+   "url": "https://store.steampowered.com/search/?term=FINAL%20FANTASY%20RESONANCE",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Rust",
+   "key": "rust",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 新热：Rust",
+   "url": "https://store.steampowered.com/search/?term=Rust",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -563,20 +564,7 @@
    "url": "https://store.steampowered.com/search/?term=Steam%20Deck",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Counter-Strike 2",
-   "key": "counterstrike2",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：Counter-Strike 2",
-   "url": "https://store.steampowered.com/search/?term=Counter-Strike%202",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -589,72 +577,20 @@
    "url": "https://store.steampowered.com/search/?term=Steam%20Machine",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Steam Frame",
-   "key": "steamframe",
+   "name": "Counter-Strike 2",
+   "key": "counterstrike2",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 全球畅销：Steam Frame",
-   "url": "https://store.steampowered.com/search/?term=Steam%20Frame",
+   "desc": "Steam 全球畅销：Counter-Strike 2",
+   "url": "https://store.steampowered.com/search/?term=Counter-Strike%202",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Marvel Rivals",
-   "key": "marvelrivals",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：Marvel Rivals",
-   "url": "https://store.steampowered.com/search/?term=Marvel%20Rivals",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Bodycam",
-   "key": "bodycam",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：Bodycam",
-   "url": "https://store.steampowered.com/search/?term=Bodycam",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Dota 2",
-   "key": "dota2",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：Dota 2",
-   "url": "https://store.steampowered.com/search/?term=Dota%202",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Disney Dreamlight Valley",
-   "key": "disneydreamlightvalley",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Steam 全球畅销：Disney Dreamlight Valley",
-   "url": "https://store.steampowered.com/search/?term=Disney%20Dreamlight%20Valley",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -667,7 +603,72 @@
    "url": "https://store.steampowered.com/search/?term=ROB%20RUN",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Steam Frame",
+   "key": "steamframe",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Steam Frame",
+   "url": "https://store.steampowered.com/search/?term=Steam%20Frame",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Dota 2",
+   "key": "dota2",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Dota 2",
+   "url": "https://store.steampowered.com/search/?term=Dota%202",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "It Takes Two",
+   "key": "ittakestwo",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：It Takes Two",
+   "url": "https://store.steampowered.com/search/?term=It%20Takes%20Two",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Bodycam",
+   "key": "bodycam",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Bodycam",
+   "url": "https://store.steampowered.com/search/?term=Bodycam",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Marvel Rivals",
+   "key": "marvelrivals",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Marvel Rivals",
+   "url": "https://store.steampowered.com/search/?term=Marvel%20Rivals",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -680,33 +681,46 @@
    "url": "https://store.steampowered.com/search/?term=Crimson%20Desert%20Enhanced",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Kingdom Come: Deliverance II",
-   "key": "kingdomcomedeliveranceii",
+   "name": "PUBG: BATTLEGROUNDS",
+   "key": "pubgbattlegrounds",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 全球畅销：Kingdom Come: Deliverance II",
-   "url": "https://store.steampowered.com/search/?term=Kingdom%20Come%3A%20Deliverance%20II",
+   "desc": "Steam 全球畅销：PUBG: BATTLEGROUNDS",
+   "url": "https://store.steampowered.com/search/?term=PUBG%3A%20BATTLEGROUNDS",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Ghost of Tsushima DIRECTORS CUT",
-   "key": "ghostoftsushimadirectorscut",
+   "name": "Battlefield 6",
+   "key": "battlefield6",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Steam 全球畅销：Ghost of Tsushima DIRECTOR'S CUT",
-   "url": "https://store.steampowered.com/search/?term=Ghost%20of%20Tsushima%20DIRECTORS%20CUT",
+   "desc": "Steam 全球畅销：Battlefield™ 6",
+   "url": "https://store.steampowered.com/search/?term=Battlefield%206",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Marvel’s Spider-Man Remastered",
+   "key": "marvelsspidermanremastered",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Steam 全球畅销：Marvel’s Spider-Man Remastered",
+   "url": "https://store.steampowered.com/search/?term=Marvel%E2%80%99s%20Spider-Man%20Remastered",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -719,7 +733,7 @@
    "url": "https://store.steampowered.com/search/?term=Crusader%20Kings%20III",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -728,11 +742,11 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Trending · 40948 playing",
+   "desc": "Roblox Top Trending · 50153 playing",
    "url": "https://www.roblox.com/games/77900175935766",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -741,11 +755,11 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Trending · 89388 playing",
+   "desc": "Roblox Top Trending · 128100 playing",
    "url": "https://www.roblox.com/games/101277003916102",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -754,37 +768,11 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Trending · 16076 playing",
+   "desc": "Roblox Top Trending · 21578 playing",
    "url": "https://www.roblox.com/games/116779912472448",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Emergency Hamburg",
-   "key": "emergencyhamburg",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 5304 playing",
-   "url": "https://www.roblox.com/games/7711635737",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Notoriety: A PAYDAY Experience",
-   "key": "notorietyapaydayexperience",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 4887 playing",
-   "url": "https://www.roblox.com/games/21532277",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -793,11 +781,11 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Trending · 18399 playing",
+   "desc": "Roblox Top Trending · 29281 playing",
    "url": "https://www.roblox.com/games/13775256536",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -806,11 +794,11 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Trending · 15642 playing",
+   "desc": "Roblox Top Trending · 21657 playing",
    "url": "https://www.roblox.com/games/78884249003161",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -819,11 +807,11 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Trending · 30316 playing",
+   "desc": "Roblox Top Trending · 35278 playing",
    "url": "https://www.roblox.com/games/128828638194450",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -832,50 +820,24 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Trending · 16615 playing",
+   "desc": "Roblox Top Trending · 24223 playing",
    "url": "https://www.roblox.com/games/76870565041704",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Jailbreak ⛓",
-   "key": "jailbreak",
+   "name": "Bloody Ragdoll Physics",
+   "key": "bloodyragdollphysics",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Trending · 7659 playing",
-   "url": "https://www.roblox.com/games/606849621",
+   "desc": "Roblox Top Trending · 27191 playing",
+   "url": "https://www.roblox.com/games/140431845542654",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "BloxNG",
-   "key": "bloxng",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 34578 playing",
-   "url": "https://www.roblox.com/games/83784149502814",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Can you servive?",
-   "key": "canyouservive",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 168 playing",
-   "url": "https://www.roblox.com/games/106376077169603",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -884,37 +846,24 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Trending · 29696 playing",
+   "desc": "Roblox Top Trending · 41936 playing",
    "url": "https://www.roblox.com/games/123969755970816",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "The Forge",
-   "key": "theforge",
+   "name": "BloxNG",
+   "key": "bloxng",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Trending · 17977 playing",
-   "url": "https://www.roblox.com/games/76558904092080",
+   "desc": "Roblox Top Trending · 45017 playing",
+   "url": "https://www.roblox.com/games/83784149502814",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "MOUSE",
-   "key": "mouse",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 20414 playing",
-   "url": "https://www.roblox.com/games/81688312343760",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -923,37 +872,11 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Trending · 51178 playing",
+   "desc": "Roblox Top Trending · 60722 playing",
    "url": "https://www.roblox.com/games/106931373443671",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Anime Crusaders X",
-   "key": "animecrusadersx",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 43873 playing",
-   "url": "https://www.roblox.com/games/107573139811370",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Net a Fish!",
-   "key": "netafish",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 17744 playing",
-   "url": "https://www.roblox.com/games/93898234979111",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -962,89 +885,11 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Trending · 32321 playing",
+   "desc": "Roblox Top Trending · 45668 playing",
    "url": "https://www.roblox.com/games/95105291546154",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Revolver Arena",
-   "key": "revolverarena",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 4884 playing",
-   "url": "https://www.roblox.com/games/108419873026523",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Volley Bomb",
-   "key": "volleybomb",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 25408 playing",
-   "url": "https://www.roblox.com/games/98979169190595",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Tiny Snipers",
-   "key": "tinysnipers",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 4351 playing",
-   "url": "https://www.roblox.com/games/76740361051685",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Stop The Tsunami!",
-   "key": "stopthetsunami",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 13782 playing",
-   "url": "https://www.roblox.com/games/71586501620185",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "シール帳を盗む",
-   "key": "シール帳を盗む",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 156 playing",
-   "url": "https://www.roblox.com/games/78971902900541",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Towers of Fortune",
-   "key": "towersoffortune",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Trending · 7078 playing",
-   "url": "https://www.roblox.com/games/108114331578868",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1053,24 +898,89 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 18894 playing",
+   "desc": "Roblox Top Trending · 21512 playing",
    "url": "https://www.roblox.com/games/75260404327641",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Scare Your Favorite Streamer",
-   "key": "scareyourfavoritestreamer",
+   "name": "Anime Crusaders X",
+   "key": "animecrusadersx",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 14284 playing",
-   "url": "https://www.roblox.com/games/121011978933862",
+   "desc": "Roblox Top Trending · 57412 playing",
+   "url": "https://www.roblox.com/games/107573139811370",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Can you servive?",
+   "key": "canyouservive",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 1082 playing",
+   "url": "https://www.roblox.com/games/106376077169603",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Towers of Fortune",
+   "key": "towersoffortune",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 10097 playing",
+   "url": "https://www.roblox.com/games/108114331578868",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Build a Car to Go Far",
+   "key": "buildacartogofar",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 9992 playing",
+   "url": "https://www.roblox.com/games/94998162120172",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Revolver Arena",
+   "key": "revolverarena",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 6157 playing",
+   "url": "https://www.roblox.com/games/108419873026523",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Volley Bomb",
+   "key": "volleybomb",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Trending · 28990 playing",
+   "url": "https://www.roblox.com/games/98979169190595",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1079,50 +989,24 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 8854 playing",
+   "desc": "Roblox Top Trending · 15095 playing",
    "url": "https://www.roblox.com/games/99352685758267",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Be The Biggest Streamer",
-   "key": "bethebiggeststreamer",
+   "name": "Stop The Tsunami!",
+   "key": "stopthetsunami",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 8681 playing",
-   "url": "https://www.roblox.com/games/87324870231331",
+   "desc": "Roblox Top Trending · 26688 playing",
+   "url": "https://www.roblox.com/games/71586501620185",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Plebs Plane Crash Sandbox",
-   "key": "plebsplanecrashsandbox",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 2512 playing",
-   "url": "https://www.roblox.com/games/82887321543807",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Cambria - Creature Survival",
-   "key": "cambriacreaturesurvival",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Up-and-Coming · 5950 playing",
-   "url": "https://www.roblox.com/games/116361821294893",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1131,50 +1015,50 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 5328 playing",
+   "desc": "Roblox Top Trending · 6370 playing",
    "url": "https://www.roblox.com/games/112611542562333",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Skiing",
-   "key": "skiing",
+   "name": "Vox Seas",
+   "key": "voxseas",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 995 playing",
-   "url": "https://www.roblox.com/games/129949708602192",
+   "desc": "Roblox Top Trending · 26489 playing",
+   "url": "https://www.roblox.com/games/104067066727140",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Realistic Ragdoll MMA",
-   "key": "realisticragdollmma",
+   "name": "Ragdoll Destruction Playground",
+   "key": "ragdolldestructionplayground",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 18043 playing",
-   "url": "https://www.roblox.com/games/124780003623150",
+   "desc": "Roblox Top Trending · 11645 playing",
+   "url": "https://www.roblox.com/games/135471930388646",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "DONT LET IT HEAR",
-   "key": "dontletithear",
+   "name": "Notoriety: A PAYDAY Experience",
+   "key": "notorietyapaydayexperience",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 4018 playing",
-   "url": "https://www.roblox.com/games/97127381613199",
+   "desc": "Roblox Top Trending · 4960 playing",
+   "url": "https://www.roblox.com/games/21532277",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1183,24 +1067,63 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 20644 playing",
+   "desc": "Roblox Up-and-Coming · 25394 playing",
    "url": "https://www.roblox.com/games/126221718321318",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Technical Ragdoll MMA",
-   "key": "technicalragdollmma",
+   "name": "Scare Your Favorite Streamer",
+   "key": "scareyourfavoritestreamer",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 7310 playing",
-   "url": "https://www.roblox.com/games/100580661895757",
+   "desc": "Roblox Up-and-Coming · 22473 playing",
+   "url": "https://www.roblox.com/games/121011978933862",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Ragdoll Experiment",
+   "key": "ragdollexperiment",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 12256 playing",
+   "url": "https://www.roblox.com/games/81650324921955",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Ragdoll Gladiator Arena",
+   "key": "ragdollgladiatorarena",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 8685 playing",
+   "url": "https://www.roblox.com/games/81921480725704",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Summon a Pet Army",
+   "key": "summonapetarmy",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 14286 playing",
+   "url": "https://www.roblox.com/games/89695026030574",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1209,37 +1132,89 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 8024 playing",
+   "desc": "Roblox Up-and-Coming · 14807 playing",
    "url": "https://www.roblox.com/games/83694443310872",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Pixel Z",
-   "key": "pixelz",
+   "name": "Be The Biggest Streamer",
+   "key": "bethebiggeststreamer",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 6826 playing",
-   "url": "https://www.roblox.com/games/88379863274840",
+   "desc": "Roblox Up-and-Coming · 10543 playing",
+   "url": "https://www.roblox.com/games/87324870231331",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "+1 Heart Per Kill",
-   "key": "1heartperkill",
+   "name": "Parasite Simulator",
+   "key": "parasitesimulator",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Up-and-Coming · 3204 playing",
-   "url": "https://www.roblox.com/games/82331798712738",
+   "desc": "Roblox Up-and-Coming · 2524 playing",
+   "url": "https://www.roblox.com/games/87935648944176",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "DONT GET FOUND!",
+   "key": "dontgetfound",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 5199 playing",
+   "url": "https://www.roblox.com/games/82076375282808",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "DOWNHILL BIKING",
+   "key": "downhillbiking",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 2823 playing",
+   "url": "https://www.roblox.com/games/84409267903124",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "PACK IT",
+   "key": "packit",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 2940 playing",
+   "url": "https://www.roblox.com/games/126998242116777",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Plebs Plane Crash Sandbox",
+   "key": "plebsplanecrashsandbox",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Up-and-Coming · 3009 playing",
+   "url": "https://www.roblox.com/games/82887321543807",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1248,11 +1223,11 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Playing Now · 519393 playing",
+   "desc": "Roblox Top Playing Now · 740565 playing",
    "url": "https://www.roblox.com/games/107778070777162",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1261,102 +1236,11 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Playing Now · 285052 playing",
+   "desc": "Roblox Top Playing Now · 451223 playing",
    "url": "https://www.roblox.com/games/4924922222",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Adopt Me!",
-   "key": "adoptme",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 237470 playing",
-   "url": "https://www.roblox.com/games/920587237",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Blox Fruits",
-   "key": "bloxfruits",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 192720 playing",
-   "url": "https://www.roblox.com/games/2753915549",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Throw Food For Animals",
-   "key": "throwfoodforanimals",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 188699 playing",
-   "url": "https://www.roblox.com/games/120219252362013",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Murder Mystery 2",
-   "key": "murdermystery2",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 117482 playing",
-   "url": "https://www.roblox.com/games/142823291",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "RIVALS",
-   "key": "rivals",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 116665 playing",
-   "url": "https://www.roblox.com/games/17625359962",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "99 Nights in the Forest",
-   "key": "99nightsintheforest",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 115242 playing",
-   "url": "https://www.roblox.com/games/79546208627805",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Jujutsu Shenanigans",
-   "key": "jujutsushenanigans",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 86047 playing",
-   "url": "https://www.roblox.com/games/9391468976",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1365,37 +1249,102 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Playing Now · 81613 playing",
+   "desc": "Roblox Top Playing Now · 321644 playing",
    "url": "https://www.roblox.com/games/16116270224",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Catalog Avatar Creator",
-   "key": "catalogavatarcreator",
+   "name": "RIVALS",
+   "key": "rivals",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Playing Now · 66682 playing",
-   "url": "https://www.roblox.com/games/7041939546",
+   "desc": "Roblox Top Playing Now · 285485 playing",
+   "url": "https://www.roblox.com/games/17625359962",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Murderers VS Sheriffs",
-   "key": "murderersvssheriffs",
+   "name": "Throw Food For Animals",
+   "key": "throwfoodforanimals",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Playing Now · 63194 playing",
-   "url": "https://www.roblox.com/games/135856908115931",
+   "desc": "Roblox Top Playing Now · 279914 playing",
+   "url": "https://www.roblox.com/games/120219252362013",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Blox Fruits",
+   "key": "bloxfruits",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 275957 playing",
+   "url": "https://www.roblox.com/games/2753915549",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Adopt Me!",
+   "key": "adoptme",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 237447 playing",
+   "url": "https://www.roblox.com/games/920587237",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "99 Nights in the Forest",
+   "key": "99nightsintheforest",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 193262 playing",
+   "url": "https://www.roblox.com/games/79546208627805",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Murder Mystery 2",
+   "key": "murdermystery2",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 142747 playing",
+   "url": "https://www.roblox.com/games/142823291",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Jujutsu Shenanigans",
+   "key": "jujutsushenanigans",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 110805 playing",
+   "url": "https://www.roblox.com/games/9391468976",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1404,63 +1353,24 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Playing Now · 62940 playing",
+   "desc": "Roblox Top Playing Now · 82942 playing",
    "url": "https://www.roblox.com/games/114326934417838",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Fish It!",
-   "key": "fishit",
+   "name": "Catalog Avatar Creator",
+   "key": "catalogavatarcreator",
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Playing Now · 61181 playing",
-   "url": "https://www.roblox.com/games/121864768012064",
+   "desc": "Roblox Top Playing Now · 80102 playing",
+   "url": "https://www.roblox.com/games/7041939546",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Anime Adventures",
-   "key": "animeadventures",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 59740 playing",
-   "url": "https://www.roblox.com/games/8304191830",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Forsaken",
-   "key": "forsaken",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 54155 playing",
-   "url": "https://www.roblox.com/games/18687417158",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Fisch",
-   "key": "fisch",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 48144 playing",
-   "url": "https://www.roblox.com/games/16732694052",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1469,11 +1379,76 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Playing Now · 47760 playing",
+   "desc": "Roblox Top Playing Now · 76050 playing",
    "url": "https://www.roblox.com/games/80681221431821",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Forsaken",
+   "key": "forsaken",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 70673 playing",
+   "url": "https://www.roblox.com/games/18687417158",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Murderers VS Sheriffs",
+   "key": "murderersvssheriffs",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 69995 playing",
+   "url": "https://www.roblox.com/games/135856908115931",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Fish It!",
+   "key": "fishit",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 65990 playing",
+   "url": "https://www.roblox.com/games/121864768012064",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Fisch",
+   "key": "fisch",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 65753 playing",
+   "url": "https://www.roblox.com/games/16732694052",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Anime Adventures",
+   "key": "animeadventures",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 63745 playing",
+   "url": "https://www.roblox.com/games/8304191830",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1482,24 +1457,11 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Playing Now · 45517 playing",
+   "desc": "Roblox Top Playing Now · 57981 playing",
    "url": "https://www.roblox.com/games/15101393044",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "Volleyball Legends",
-   "key": "volleyballlegends",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Roblox Top Playing Now · 43534 playing",
-   "url": "https://www.roblox.com/games/73956553001240",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1508,11 +1470,24 @@
    "sources": [
     "游戏轨"
    ],
-   "desc": "Roblox Top Playing Now · 43015 playing",
+   "desc": "Roblox Top Playing Now · 56499 playing",
    "url": "https://www.roblox.com/games/10449761463",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "Volleyball Legends",
+   "key": "volleyballlegends",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Roblox Top Playing Now · 51058 playing",
+   "url": "https://www.roblox.com/games/73956553001240",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1525,7 +1500,7 @@
    "url": "https://poki.com/en/g/master-chess",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1538,7 +1513,7 @@
    "url": "https://poki.com/en/g/subway-surfers",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1551,7 +1526,7 @@
    "url": "https://poki.com/en/g/minefun-io",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1564,33 +1539,33 @@
    "url": "https://poki.com/en/g/tag",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "cryzen io",
-   "key": "cryzenio",
+   "name": "aquaparkio",
+   "key": "aquaparkio",
    "sources": [
     "游戏轨"
    ],
    "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/cryzen-io",
+   "url": "https://poki.com/en/g/aquaparkio",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "basketball stars",
-   "key": "basketballstars",
+   "name": "stickman battle",
+   "key": "stickmanbattle",
    "sources": [
     "游戏轨"
    ],
    "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/basketball-stars",
+   "url": "https://poki.com/en/g/stickman-battle",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1603,7 +1578,7 @@
    "url": "https://poki.com/en/g/drift-boss",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1616,7 +1591,7 @@
    "url": "https://poki.com/en/g/retro-bowl",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1629,7 +1604,7 @@
    "url": "https://poki.com/en/g/stickman-hook",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1642,7 +1617,7 @@
    "url": "https://poki.com/en/g/monkey-mart",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1655,7 +1630,7 @@
    "url": "https://poki.com/en/g/blocky-blast-puzzle",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1668,7 +1643,7 @@
    "url": "https://poki.com/en/g/level-devil",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1681,7 +1656,7 @@
    "url": "https://poki.com/en/g/tic-tac-toe-3",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1694,7 +1669,7 @@
    "url": "https://poki.com/en/g/find-the-needle-in-haystack",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1707,7 +1682,7 @@
    "url": "https://poki.com/en/g/crazy-motorcycle-pro",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1720,33 +1695,7 @@
    "url": "https://poki.com/en/g/slice-master",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "snake vs human",
-   "key": "snakevshuman",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/snake-vs-human",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "drive mad",
-   "key": "drivemad",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/drive-mad",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1759,7 +1708,33 @@
    "url": "https://poki.com/en/g/neon-challenge-legends",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "drive mad",
+   "key": "drivemad",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/drive-mad",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "snake vs human",
+   "key": "snakevshuman",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/snake-vs-human",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1772,20 +1747,7 @@
    "url": "https://poki.com/en/g/city-destruction",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "longcat",
-   "key": "longcat",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/longcat",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1798,7 +1760,20 @@
    "url": "https://poki.com/en/g/count-control-legends",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "longcat",
+   "key": "longcat",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/longcat",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1811,20 +1786,7 @@
    "url": "https://poki.com/en/g/voxel-wreck",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "stickman climb 3d",
-   "key": "stickmanclimb3d",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/stickman-climb-3d",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1837,7 +1799,7 @@
    "url": "https://poki.com/en/g/blumgi-merge",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1850,20 +1812,7 @@
    "url": "https://poki.com/en/g/brain-test-5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "game"
-  },
-  {
-   "name": "tnt sandbox",
-   "key": "tntsandbox",
-   "sources": [
-    "游戏轨"
-   ],
-   "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/tnt-sandbox",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1876,20 +1825,33 @@
    "url": "https://poki.com/en/g/blumgi-slime",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "family sort",
-   "key": "familysort",
+   "name": "stickman climb 3d",
+   "key": "stickmanclimb3d",
    "sources": [
     "游戏轨"
    ],
    "desc": "Poki 首页热门",
-   "url": "https://poki.com/en/g/family-sort",
+   "url": "https://poki.com/en/g/stickman-climb-3d",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
+   "track": "game"
+  },
+  {
+   "name": "punchy guy",
+   "key": "punchyguy",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/punchy-guy",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
@@ -1902,801 +1864,1035 @@
    "url": "https://poki.com/en/g/blumgi-bounce",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "Rolana",
-   "key": "rolana",
+   "name": "family sort",
+   "key": "familysort",
    "sources": [
     "游戏轨"
    ],
-   "desc": "X 帖称可在 Roblox 新游戏 Rolana 上 trench。互动极低（播放 57、赞 0），游戏类型与玩法未核实，仅作游戏轨发现线索，不是官方首发。",
-   "url": "https://x.com/rimmypnl/status/2123581660520174000",
+   "desc": "Poki 首页热门",
+   "url": "https://poki.com/en/g/family-sort",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 08:58",
+   "first_seen": "2026-11-21 10:07",
    "track": "game"
   },
   {
-   "name": "agentic cx designer",
-   "key": "agenticcxdesigner",
+   "name": "TNT Incremental 2",
+   "key": "tntincremental2",
+   "sources": [
+    "游戏轨"
+   ],
+   "desc": "开发者自宣 Roblox 新游戏 TNT Incremental 2 已上线，从标签看是增量/放置（incremental）类型、平台为 Roblox。互动极低（播放 52、赞 3），未做画面核验，仅作游戏轨发现线索，不是官方榜单或高互动首发。",
+   "url": "https://x.com/realw1vvo/status/2123891148758634877",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 05:28",
+   "track": "game"
+  },
+  {
+   "name": "brand studio",
+   "key": "brandstudio",
    "sources": [
     "AI工具轨"
    ],
    "desc": "futurepedia sitemap 新页",
-   "url": "https://www.futurepedia.io/tool/agentic-cx-designer",
+   "url": "https://www.futurepedia.io/tool/brand-studio",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "blabla",
-   "key": "blabla",
+   "name": "gc ai",
+   "key": "gcai",
    "sources": [
     "AI工具轨"
    ],
    "desc": "futurepedia sitemap 新页",
-   "url": "https://www.futurepedia.io/tool/blabla",
+   "url": "https://www.futurepedia.io/tool/gc-ai",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "f5 ai guardrails",
-   "key": "f5aiguardrails",
+   "name": "skoop",
+   "key": "skoop",
    "sources": [
     "AI工具轨"
    ],
    "desc": "futurepedia sitemap 新页",
-   "url": "https://www.futurepedia.io/tool/f5-ai-guardrails",
+   "url": "https://www.futurepedia.io/tool/skoop",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "mindshub",
-   "key": "mindshub",
+   "name": "spear",
+   "key": "spear",
    "sources": [
     "AI工具轨"
    ],
    "desc": "futurepedia sitemap 新页",
-   "url": "https://www.futurepedia.io/tool/mindshub",
+   "url": "https://www.futurepedia.io/tool/spear",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "readcube",
-   "key": "readcube",
+   "name": "worxflow",
+   "key": "worxflow",
    "sources": [
     "AI工具轨"
    ],
    "desc": "futurepedia sitemap 新页",
-   "url": "https://www.futurepedia.io/tool/readcube",
+   "url": "https://www.futurepedia.io/tool/worxflow",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "Ableten Hybrid AI Travel Planner",
-   "key": "abletenhybridaitravelplanner",
+   "name": "aiteam.space",
+   "key": "aiteamspace",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "Ableten Hybrid AI Travel Planner",
-   "url": "https://www.producthunt.com/products/ableten-source-library",
+   "desc": "aiteam.space",
+   "url": "https://www.producthunt.com/products/aiteam-space",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "Room AI",
-   "key": "roomai",
+   "name": "Andromon",
+   "key": "andromon",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "Room AI",
-   "url": "https://www.producthunt.com/products/room-ai-2",
+   "desc": "Andromon",
+   "url": "https://www.producthunt.com/products/andromon",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "Upsolve MCP Connections",
-   "key": "upsolvemcpconnections",
+   "name": "Badya",
+   "key": "badya",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "Upsolve MCP Connections",
-   "url": "https://www.producthunt.com/products/upsolve-ai",
+   "desc": "Badya",
+   "url": "https://www.producthunt.com/products/badya-ai-language-immersion",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "Adside",
-   "key": "adside",
+   "name": "Compass OS",
+   "key": "compassos",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "Adside",
-   "url": "https://www.producthunt.com/products/adside",
+   "desc": "Compass OS",
+   "url": "https://www.producthunt.com/products/compassos-dev",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "Cleared",
-   "key": "cleared",
+   "name": "Cup of Sugar",
+   "key": "cupofsugar",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "Cleared",
-   "url": "https://www.producthunt.com/products/cleared-quit-nicotine",
+   "desc": "Cup of Sugar",
+   "url": "https://www.producthunt.com/products/cup-of-sugar-2",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "CodeDesign v3",
-   "key": "codedesignv3",
+   "name": "Currents",
+   "key": "currents",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "CodeDesign v3",
-   "url": "https://www.producthunt.com/products/codedesign",
+   "desc": "Currents",
+   "url": "https://www.producthunt.com/products/currents-4",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "dusk bot",
-   "key": "duskbot",
+   "name": "Direct by Instagram",
+   "key": "directbyinstagram",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "dusk bot",
-   "url": "https://www.producthunt.com/products/dusk-bot",
+   "desc": "Direct by Instagram",
+   "url": "https://www.producthunt.com/products/instagram",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "Enrichable by Context.dev",
-   "key": "enrichablebycontextdev",
+   "name": "Dozy",
+   "key": "dozy",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "Enrichable by Context.dev",
-   "url": "https://www.producthunt.com/products/context-dev",
+   "desc": "Dozy",
+   "url": "https://www.producthunt.com/products/dozy",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "Every Signal",
-   "key": "everysignal",
+   "name": "DWaste",
+   "key": "dwaste",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "Every Signal",
-   "url": "https://www.producthunt.com/products/every-signal",
+   "desc": "DWaste",
+   "url": "https://www.producthunt.com/products/deep-waste",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
   },
   {
-   "name": "Fieldwork Code",
-   "key": "fieldworkcode",
+   "name": "Fack’d",
+   "key": "fackd",
    "sources": [
     "AI工具轨"
    ],
-   "desc": "Fieldwork Code",
-   "url": "https://www.producthunt.com/products/fieldwork-code",
+   "desc": "Fack’d",
+   "url": "https://www.producthunt.com/products/fack-d",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:04",
+   "first_seen": "2026-11-21 10:07",
    "track": "ai_tools"
+  },
+  {
+   "name": "FFMPA Kids News",
+   "key": "ffmpakidsnews",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "FFMPA Kids News",
+   "url": "https://www.producthunt.com/products/ffmpa-kids-news",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "greatai Review",
+   "key": "greataireview",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "greatai Review",
+   "url": "https://www.producthunt.com/products/greatai-review",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Groundwork",
+   "key": "groundwork",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Groundwork",
+   "url": "https://www.producthunt.com/products/groundwork-6",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "HelpCard",
+   "key": "helpcard",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "HelpCard",
+   "url": "https://www.producthunt.com/products/helpcard",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Inkrail",
+   "key": "inkrail",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Inkrail",
+   "url": "https://www.producthunt.com/products/inkrail",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "InteraOne",
+   "key": "interaone",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "InteraOne",
+   "url": "https://www.producthunt.com/products/interaone",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Interview Coach",
+   "key": "interviewcoach",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Interview Coach",
+   "url": "https://www.producthunt.com/products/interview-coach-3",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Kuc-kuc",
+   "key": "kuckuc",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Kuc-kuc",
+   "url": "https://www.producthunt.com/products/kuc-kuc",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Lumyna Community Challenge",
+   "key": "lumynacommunitychallenge",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Lumyna Community Challenge",
+   "url": "https://www.producthunt.com/products/lumyna-community-challenge",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Mailpipe",
+   "key": "mailpipe",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Mailpipe",
+   "url": "https://www.producthunt.com/products/mailpipe-2",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Memanto Cloud",
+   "key": "memantocloud",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Memanto Cloud",
+   "url": "https://www.producthunt.com/products/memanto-by-moorcheh",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "NetSieve",
+   "key": "netsieve",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "NetSieve",
+   "url": "https://www.producthunt.com/products/netsieve",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Nova by Vybe",
+   "key": "novabyvybe",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Nova by Vybe",
+   "url": "https://www.producthunt.com/products/vybe-4",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "pickfit",
+   "key": "pickfit",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "pickfit",
+   "url": "https://www.producthunt.com/products/pickfit",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Rox",
+   "key": "rox",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Rox",
+   "url": "https://www.producthunt.com/products/rox-2",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Salus",
+   "key": "salus",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Salus",
+   "url": "https://www.producthunt.com/products/salus",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Same Moon",
+   "key": "samemoon",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Same Moon",
+   "url": "https://www.producthunt.com/products/same-moon",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Samiksa",
+   "key": "samiksa",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Samiksa",
+   "url": "https://www.producthunt.com/products/samiksa",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Saparo",
+   "key": "saparo",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Saparo",
+   "url": "https://www.producthunt.com/products/saparo",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "Scam Link Check",
+   "key": "scamlinkcheck",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "Scam Link Check",
+   "url": "https://www.producthunt.com/products/scam-link-check",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:07",
+   "track": "ai_tools"
+  },
+  {
+   "name": "OpenMotion",
+   "key": "openmotion",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "X 帖称 OpenMotion 是开源的 CapCut / Claude Motion 替代，玩法是喂一段参考视频、换上自己的品牌素材和文案后复刻可改的动态设计并导出 MP4；另有帖称 OpenDesign 为其增加 DeepSeek 调用和 300 多个视频模板。互动极低，未做画面核验，仅作工具轨发现线索，不是已核验的热梗玩法。",
+   "url": "https://x.com/wlzh/status/2123954192993952044",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 09:38",
+   "track": "ai_tools"
+  },
+  {
+   "name": "n8n Agents",
+   "key": "n8nagents",
+   "sources": [
+    "AI工具轨"
+   ],
+   "desc": "第三方帖称 n8n 刚上线 Agents：可给 agent 设定目标并调用已有 n8n 工作流。未见 @n8n_io 官方首发帖，n8n 为既有产品，本条只作功能更新发现线索，不是新工具名立项依据。",
+   "url": "https://x.com/DataChaz/status/2123887116182835574",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 05:12",
+   "track": "ai_tools"
+  },
+  {
+   "name": "DataReel",
+   "key": "datareel",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "University of Richmond Distant Viewing Lab Releases DataReel, a New AI Tool for Film Research University of Richmond",
+   "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOR1lvcEdab3NmS1BGSkJTU3dsOXRDWmh5VEpzU2JhUGVSVkFIY3Y1NmdpVjVGMUR3RTVKQVRLVW5BcXA2aFlZNG9MS19ZbC1PZlpHa1VUTVUwQU9oREVqYWc5WWRYUi0xZE50M3FQaWhadW40M21jcTNOZExrWlBDMDMtNGFPZ3hSX0x6UF9YaDJuVVlMY3cwZ19OcEdLUlh6YUd3OEdDTThBbVVCWVo1WFhxblZaRktuQjZOQm5oZVp6V0o4dXJhcGtiS0EwWVRCak9CVEVkZmhxaEQ3WkU3Ui02NkxOdTZINEhrNWZxdzloeGhFdE5lT2N5ZG52VUt0UkNnTGNzczlnTkVSajZuNS1yc00zb2hRaUJvejBuS3g2bUg5OGVfekw2WkpTc2IwMXpLWENB?oc=5",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 00:45",
+   "track": "news"
+  },
+  {
+   "name": "Symposium",
+   "key": "symposium",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "Rust + AI: Matsakis introduces Symposium, ACP for developer tools TechGig",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaHFlbUhTQzc3ZVEzMEE4N2E5R1V5djZfeWY3Qm9DX1BsMGRla1k2WmJNMmM1MC03aFJtbGRuNDM2VERDZU9aUGFSaXp5Zktsb0o4VkttMUdnNFZVbk1DZlU0aE1XeEFsNlNyX2Fvb0QyNEI2WXJqdHZFSmkxMG5LbnBlazhMZVRUdW1sN2xuTmlielhFQzdpZEdhVmlWV0hH?oc=5",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 11:28",
+   "track": "news"
+  },
+  {
+   "name": "Optimization Technology",
+   "key": "optimizationtechnology",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "Moreh Boosts AI Inference Throughput by Up to 1.66x... Unveils Optimization Technology 파이낸셜뉴스",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ETm5PTENLWFJPcDFwcldJd1hzOUNMYnZUVWhWS3hpVkw3UFp4TU8xbGRmYVFyWGUwMHJtbkZESXF2dnlXNUFlOFBpeC1uQmZQYWZKU3RpUks?oc=5",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 10:52",
+   "track": "news"
+  },
+  {
+   "name": "Tesla Arrives in Argentina",
+   "key": "teslaarrivesinargentina",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "Tesla Arrives in Argentina: Five EV Configurations Now Available for Order Starting Today with Deliveries in 2027 Latin Times",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUVo5NWx5c3hROTNOdXZBa0JWNm5uSUNQclBkU1hpcFdvVHJfMllpOVItS3h4Y3FpZ2xHTTlVN0p5WXVMN1hpVmZOa1BNUzFSNExfSFhjMm5LYWdKSnVGc1o4WUZqNFRBVFN1ekI0dTY3TUxTSEtDbGtuaTBydVFnOWFPX2xPaHBBRkh4QjVvQzY?oc=5",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 04:48",
+   "track": "news"
   },
   {
    "name": "Gemini 4 Neon",
    "key": "gemini4neon",
    "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Gemini 4 Neon",
-   "url": "https://www.producthunt.com/products/gemini-6",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "HeyGen Avatar 6",
-   "key": "heygenavatar6",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "HeyGen Avatar 6",
-   "url": "https://www.producthunt.com/products/heygen",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Impractical",
-   "key": "impractical",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Impractical",
-   "url": "https://www.producthunt.com/products/impractical",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Introzy",
-   "key": "introzy",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Introzy",
-   "url": "https://www.producthunt.com/products/introzy",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "lepoly",
-   "key": "lepoly",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "lepoly",
-   "url": "https://www.producthunt.com/products/lepoly",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Manufact",
-   "key": "manufact",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Manufact",
-   "url": "https://www.producthunt.com/products/manufact",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Meilisearch Searchandising",
-   "key": "meilisearchsearchandising",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Meilisearch Searchandising",
-   "url": "https://www.producthunt.com/products/meilisearch-cloud",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "mio click",
-   "key": "mioclick",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "mio click",
-   "url": "https://www.producthunt.com/products/mio-click",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Netlify Server",
-   "key": "netlifyserver",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Netlify Server",
-   "url": "https://www.producthunt.com/products/netlify",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Noteshell",
-   "key": "noteshell",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Noteshell",
-   "url": "https://www.producthunt.com/products/noteshell",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Nuko",
-   "key": "nuko",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Nuko",
-   "url": "https://www.producthunt.com/products/nuko",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "OfinTech Desk",
-   "key": "ofintechdesk",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "OfinTech Desk",
-   "url": "https://www.producthunt.com/products/ofintech-desk",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Play That Back",
-   "key": "playthatback",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Play That Back",
-   "url": "https://www.producthunt.com/products/play-that-back",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Polylane for Azure",
-   "key": "polylaneforazure",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Polylane for Azure",
-   "url": "https://www.producthunt.com/products/polylane",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Qwen4-Max",
-   "key": "qwen4max",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Qwen4-Max",
-   "url": "https://www.producthunt.com/products/qwen3",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Replay QA Self-healing Mode",
-   "key": "replayqaselfhealingmode",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Replay QA Self-healing Mode",
-   "url": "https://www.producthunt.com/products/replayio",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Rezora IO",
-   "key": "rezoraio",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Rezora IO",
-   "url": "https://www.producthunt.com/products/rezora-io-ai-calling-assistant",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Source",
-   "key": "source",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Source",
-   "url": "https://www.producthunt.com/products/source-public-beta",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Spellar for Chrome",
-   "key": "spellarforchrome",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Spellar for Chrome",
-   "url": "https://www.producthunt.com/products/spellar",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Stripo Email Widgets",
-   "key": "stripoemailwidgets",
-   "sources": [
-    "AI工具轨"
-   ],
-   "desc": "Stripo Email Widgets",
-   "url": "https://www.producthunt.com/products/stripo-email",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:04",
-   "track": "ai_tools"
-  },
-  {
-   "name": "Argus MedGPT Patient Chart Review Tool",
-   "key": "argusmedgptpatientchartreviewtool",
-   "sources": [
     "新闻轨"
    ],
-   "desc": "Argus MedGPT™ Patient Chart Review Tool and EndoSoft® FHIR® engine Now Available on Oracle Cloud Marketplace EIN News",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVmZXUTdYU1RQUGljRFJpQnhEbUZxNndHQjVkMUxnUElkRmczX2NnM0JXY1RCM1dmVkUxUUxDbkdyS19KMmRsVFVDWWxCUFJlMjZZUnl4cjdTX3hpejRLS05FMHJ3UEJNOVhKemZQbWh0Y2JPOXg0V0I0WlFqTV9RVElBRHZqTmh2WXZqQUFhZm5YTTA1c2hZSEVXRHZkNjVxNDFiQ0FDTTBhVjJQb0dRWjIxWUNFVUQ3c2IzalhoZ2wwLXlvTWZVMEwxendDOV9WVjlIRlpQTUJ4eWJDd3FISQ?oc=5",
+   "desc": "Google Introduces Gemini 4 Neon ManilaShaker",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HR29sNlB2d1VyeXZ4Nld2aWktU0ttblJzSTRiZ0ZTNHhvN09ZdWcxaXVWeVV6dEZYUEcydVVOTGw0TjZGejh0azY2OWJxWXN6YWFVY0NsNkZ3aDRyZHBvQjI4czNIbnVT?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 21:00",
+   "first_seen": "2026-11-20 11:49",
    "track": "news"
   },
   {
-   "name": "Project Genie: Genie 4",
-   "key": "projectgeniegenie4",
+   "name": "中国开源模型的「最大甲方」有了",
+   "key": "中国开源模型的最大甲方有了",
    "sources": [
     "新闻轨"
    ],
-   "desc": "Project Genie: Genie 4 Now Available jetstream.blog",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Sank3UlVWREtVdnllZml0blFNYVRmLWs4dHlRcW1mQjljQjdYZ2lDcWpBQVFEejJpNV9VcXFWelFkRk50R0RBWU0zYkIxMWhRM3VYQWVTZWN5WGJHcE1Ja2MwanhHTnpSdWQ2bVUxbw?oc=5",
+   "desc": "中国开源模型的「最大甲方」有了 华尔街见闻",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KMERhY0x4TndoWHZYd0tYUzN3UlRpMmRGdEF4dGxqZDRMMUQ3aVVWQUo3eVJVbUVYdDJCb2VoZVBoUFRhX25sTk54RFQ4cTVhb3B3?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 10:38",
+   "first_seen": "2026-11-20 22:17",
    "track": "news"
   },
   {
-   "name": "MCP in ChatGPT",
-   "key": "mcpinchatgpt",
+   "name": "像赌一把全押",
+   "key": "像赌一把全押",
    "sources": [
     "新闻轨"
    ],
-   "desc": "Proof launches its MCP in ChatGPT, starting with x401 so AI agents can prove who they act for and what that person approved AiThority",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNVy1FbUdhdlFfM1psUTkwWnFKZG51N056NS16dGlYdEF2MlNxTmE4bVN1MW1YSE8tbWszTTJieldNYUdIZUVjSUhLZVBHVWlhbFRybXBZTkFfbjlVTGs3eVRkVnhOMGNUcVhCUWE5WEMyTmxTOGdSZC1KeTRldGNMaE5TQ2NuQ1E1RThXUzMzN0VqQURoMGRoLXF2UHpENFV5N25YVHBlU0p5Q0FKeUdiNVZBcnJEbWFDUTM2NVJhM0ppa0FxZUVqcFFrYm1CMFBEUmJxd0ZGd0pEUUtTdGYtdUVLR0lxVTRRSmFzRGpTbmJ6QWxB?oc=5",
+   "desc": "“像赌一把全押”，腾讯姚顺雨领衔混元开源后的一场深夜问答 https://www.mrjjxw.com/",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1NZEVLM3YtNmVyaHE2OEJpa1ZRTkJIcWNVMmJKd05xWGtWTDZlN1hVMnVIRVpvVGVfMFoxTGRKblhjTGFEYWdiY1NuWXRzQXNkQld0ZkFiS2NuYUVnS3FIR1Z1NmNJdw?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 18:27",
+   "first_seen": "2026-11-21 09:38",
    "track": "news"
   },
   {
-   "name": "World Model",
-   "key": "worldmodel",
+   "name": "华为云开源昇腾原生具身世界模型 CloudRobo-WM1.2",
+   "key": "华为云开源昇腾原生具身世界模型cloudrobowm12",
    "sources": [
     "新闻轨"
    ],
-   "desc": "Genie 4 Now Available in Project Genie: Google Unveils Its World Model with Audio for Ultra Subscribers Basic Tutorials",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPanFQTi1nRjlFd0VORlc0eU1KMmtjRnQ4ZWtrVTJIRWVXVm5ZVTRYUGN3bjhGOTVLVkkzcUtFeVZSTlZ3dmd6eGdGXzZHLXdJZ01VcVNmQTNObXhJNUk2Nml6eExna0l4WjFkMXN6cmpLTFROSDBYMFJkbERlRF9nVFZoTWlVcGc4OVpiMVE4ZmlKX0lNanBzdHFaLWRTYUZraTNMU3BTdkJNSVJxOW45MFVrRHIzc0tOYmlLckdUQ3pPY0RFeFN1UGhZQ3VYRGJGeFE?oc=5",
+   "desc": "华为云开源昇腾原生具身世界模型 CloudRobo-WM1.2，两项评测均列第一 InfoQ.cn",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE92eVJJaVVXVEVfczE0d2VyUThtenVtOGZCeUpIWEhIT25Zbi1IMGVJTmhvNjZnYUU4RG9QdlB3d3NVNURmN0JXRGQxd2gyRWpyaEJoZWN1UGtOZw?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 12:40",
+   "first_seen": "2026-11-20 18:24",
    "track": "news"
   },
   {
-   "name": "RTX Spark",
-   "key": "rtxspark",
+   "name": "7 款",
+   "key": "7款",
    "sources": [
     "新闻轨"
    ],
-   "desc": "RTX Spark: First mini-PCs from ASUS, Dell, and MSI Now Available, Plus a DGX Spark Cluster for Researchers Basic Tutorials",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWEN4eFI1YTJNWTVXQ3dJR3hud2FyVm5oNHNSWGxPUUJ0dHVDVmtKOG03UVEyaFpXS3FXdkVNdC16MzRUcnNEdDRxMWNfX0pkWnlZTEw4WUFpc1V3c0VCMFJIWnpBanFQcUV5WnVpeWpXVmZ5TF83TDVvOWtqeWpZZVFWMFB3SDdQNHBVa29iak5Oak1RX21UUlAySXRNWHdCeXRIZWhNMXJWdTlGVGZXWUJFTWZyNF8xUzZzdXFmVjdyRnBXTHhRTFZyekJvVW5ySmc?oc=5",
+   "desc": "微软发布 7 款“世界级”新模型，全在打同一个算盘 - OSCHINA - 开源 × AI · 开发者生态社区 OSCHINA",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9qc0xBa1NIcUI3cHN5N01IeDREWTV6VURfM2xJUG5SUF9lOWppVlZibXVYdHFwY1FtUF9DVTU1bFlMclpzMDBTa0xJNA?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 11:46",
+   "first_seen": "2026-11-20 15:45",
    "track": "news"
   },
   {
-   "name": "Gemini 4 Neon AI",
-   "key": "gemini4neonai",
+   "name": "Anysphere 考虑让 Cursor 停用中国开源权重模型",
+   "key": "anysphere考虑让cursor停用中国开源权重模型",
    "sources": [
     "新闻轨"
    ],
-   "desc": "Google launches Gemini 4 Neon AI for multimodal 1,000,000-token sessions NewsBytes",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWVV5QUM2YTZreVMzRjhCLXJia2QtSlk1ZFppdDdPLXB2M1lNdE91YlZnczU4MS1IMU9wREFWcmJFelZmNTZWWENlbkFaa0Q5aV9oZTdoQ1NmZkFXTzZOVFJ6QkxpNDVYd1gwaXVUOUV0NVptelpmZUFmUVMwLXNnU1VXYnFpQ3AtRTJ1M3A0VVFCajBQc1Y4VUVKNzUwU3FZMDdGcl9GT0NMWTg4T0JhNlVUUmhpaHlr?oc=5",
+   "desc": "Anysphere 考虑让 Cursor 停用中国开源权重模型 Unite.AI",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcWhuUk5vT2FpeWtweFVCUHBmWlBGeng0ZklIMFFwNDhFNDNiU1duQ056VUF5UnpFM0xvUno2RUZRX1JBdkRPV2w5b1NLYWVtMHNBMFNPTzlIRmxJMDZYRVVDdkNkZVZ1aEpfZTZGd3EzWm5PLXRVLXdPempPNnU5Q2ZZeEtfS1hndjJLWHhxV1hUcmx1RmtkY2lydw?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 17:22",
+   "first_seen": "2026-11-21 07:24",
    "track": "news"
   },
   {
-   "name": "700个智能体攻击之后",
-   "key": "700个智能体攻击之后",
+   "name": "混元LLM模型已全部开源",
+   "key": "混元llm模型已全部开源",
    "sources": [
     "新闻轨"
    ],
-   "desc": "700个智能体攻击之后，Hugging Face发现开源模型才是最后一道防线 ThePaper.cn",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xQTUyU1pUUlBwZ0hWV215RjlkNzZ4VkJVdDFrcTdpZm9MM3dCNklKY2I1VXRxdlJiaGFTdGl1TXRwODZSVWlrSWU4VnVJZFJzOE1CYUVtTThxTkY1dHh6Qw?oc=5",
+   "desc": "腾讯混元宣布Hy4正式开源 混元LLM模型已全部开源 观点网",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uSFQ1bE9qbXFqZFBSVlpJcFBvaC0wcmtYTGdvUFlodXVseDI0YW1VMlBfU09EX05DNTdoZW4xbkJJWWoxQ2RKTXloSjNIRjY3TzVtNWpQM0JtMUtrLWk4Vk5R?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 07:31",
+   "first_seen": "2026-11-20 13:46",
    "track": "news"
   },
   {
-   "name": "前瞻全球产业早报：谷歌推出Gemini 4 Neon模型_产经",
-   "key": "前瞻全球产业早报谷歌推出gemini4neon模型产经",
+   "name": "50天推出4款模型",
+   "key": "50天推出4款模型",
    "sources": [
     "新闻轨"
    ],
-   "desc": "前瞻全球产业早报：谷歌推出Gemini 4 Neon模型_产经 前瞻网",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oc2NneS1xX0RYX0ZHM0ljSG5NOV9qVGNFdXRMdkFhbWY3Z3QwNFJVN1BUTkF3bmtvYUNIeHNpbk1JZkQxMkJ2dmxPVXVZSlZsREJrTmNqdk9XQWV2X0dBTVJyYmlsdFFNX1E?oc=5",
+   "desc": "50天推出4款模型，谷歌想当“造物主”了？-36氪 www.36kr.com",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnV1JKZm5yUW1fTjk3aTlYbDlpMHAwbHVPVjgtYUhkR0I3ME85eG9XcHdiRzR4WXlSU2ZLS0pXWEtOTDRFNURQUDQ2OVRBdHM?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 09:04",
+   "first_seen": "2026-11-20 18:44",
    "track": "news"
   },
   {
-   "name": "谷歌推出Gemini 4 Neon模型",
-   "key": "谷歌推出gemini4neon模型",
+   "name": "DeepSeek新模型降价",
+   "key": "deepseek新模型降价",
    "sources": [
     "新闻轨"
    ],
-   "desc": "谷歌推出Gemini 4 Neon模型；英特尔18A工艺签下首家外部客户｜数智早参 https://www.mrjjxw.com/",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VN215RkFrWkNtMVdlMDBjNFBfQXAyMjdPNnpKN2g1VGhqQWFIYmRiZjlYdzFpaW16Vkx5OFhEMlM5M3E4RTYzUUFucTA0bzd5djV4cmQtT0w5YUFfc2hGZmdobXlYUQ?oc=5",
+   "desc": "DeepSeek新模型降价上线，对比ChatGPT Pro的选型与接入指南 CSDN",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5ei13NDZJc0xYYXJaN2FmSjY2V09FRi0zLTltUnRZLWRDRFVtVUgwcnp1UGtaZHcwSW5kQzM0TlVkN0QyOWU3YnBKcVFpOHlVNlVfUlRlQ1AxZUlUeVJZ?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 07:00",
+   "first_seen": "2026-11-20 16:01",
    "track": "news"
   },
   {
-   "name": "阿里巴巴",
-   "key": "阿里巴巴",
+   "name": "国产大模型引领全球开源生态（大数据观察·智能经济新形态）",
+   "key": "国产大模型引领全球开源生态",
    "sources": [
     "新闻轨"
    ],
-   "desc": "阿里巴巴，重要发布 同花顺",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRRnNwTXlYeHk1eTlrN0ljX0Nmem9sdE5UcWlzTmJfYTBRTms4dGh5VXEwLWcyYmhWS3hlN00zWS1aN0g0eGxHUzR4QWpMZXFFeHZ4OVRxVWtKLW9EaHVOcg?oc=5",
+   "desc": "国产大模型引领全球开源生态（大数据观察·智能经济新形态） 手机新浪网",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GQ3VIZENTY09uVVIxVjJuakNxZzlJbC1zVHBkbjBMaWN4VXJKZGdweF9PdjdUaGpQTkV2OENCTU1sRGIyd3I1RzQ5aml0a0Ixcy1FM3VxRkZDN3hBUV9BMlpFWDZhZ25kZEljX29IdFhkQQ?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 20:44",
+   "first_seen": "2026-11-21 00:00",
    "track": "news"
   },
   {
-   "name": "微软推出MAI Code 2编程模型",
-   "key": "微软推出maicode2编程模型",
+   "name": "卓世科技开源GR-SAC强化学习技术斩获 RoboMME Standard Track SOTA！",
+   "key": "卓世科技开源grsac强化学习技术斩获robommestandardtracksota",
    "sources": [
     "新闻轨"
    ],
-   "desc": "微软推出MAI Code 2编程模型，成本大幅降低-模型 至顶网",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90d05PcHJyeG1uQnpRMHRhQmRydDBiYVZuX3RfOGRmQzhYRUNYQy05UGxINUhEcGtuV3VKalp2d3NNb3pRM1VCdXA2MmtDdDh5RVdYNHFuV2JIQ3ktbnpIMkp3?oc=5",
+   "desc": "卓世科技开源GR-SAC强化学习技术斩获 RoboMME Standard Track SOTA！ Sohu",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX1JCZ1c1SUlVcUFMYlc5VXRQcFR0X3Y3WXBUemh5a2IwaV9ZQlpaY0JrMVB3SHo2dkNIME5FTm9CdlBTYTNPUTR0bnZza3l6OTRLVF9rZmU2UTNvSjZyeEhOU19YaG1fbVJ3YmtBeW9tdzd6MVE3U3NNZC1WeTY5SGJvWVNqM2hE?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 22:59",
+   "first_seen": "2026-11-20 17:12",
    "track": "news"
   },
   {
-   "name": "《GTA6》Steam页面上线?标签还是免费开玩",
-   "key": "gta6steam页面上线标签还是免费开玩",
+   "name": "全系列LLM模型同步开放下载",
+   "key": "全系列llm模型同步开放下载",
    "sources": [
     "新闻轨"
    ],
-   "desc": "《GTA6》Steam页面上线?标签还是免费开玩 驱动之家",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Jdk56RWNUNm1EaVQwdWhNeXVSVnhwUUtQRGVXbEhtbXhCYkY0TGZGSGtwWkU2d3lRMllMVHdjeHdzQlBFeGJ5TU1DczNhQ1ZGaDNTelpkbTg?oc=5",
+   "desc": "混元Hy4模型正式开源 全系列LLM模型同步开放下载 观点网",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41TDJRTjIzcl8zVDNRQkUtWHJ3YmpUS1ZXalVYOVE2VkNNaGdISThRWXNwcU1jNDdCbDVQX0M2SHgwNzlmTFRwbzREdlBUb1JZX2plMkJncjBzYjFvc0hpQmxB?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 18:04",
+   "first_seen": "2026-11-20 13:46",
    "track": "news"
   },
   {
-   "name": "全球都自研",
-   "key": "全球都自研",
+   "name": "DeepSeek前成员张博",
+   "key": "deepseek前成员张博",
    "sources": [
     "新闻轨"
    ],
-   "desc": "中国一开源 全球都自研：海外100%国产大模型被指DeepSeek套壳 电子工程专辑EE Times China",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94N2wwZEFkOXBCN3liR0ZKUW1PSmU4eXVjUE5rc2tDVDA0U2p4bGhSUzNULWVWOUpKejNKR1U2TXgtbzdTYmtEQ1hMWm1VcU9aazBV?oc=5",
+   "desc": "DeepSeek前成员张博开源Linger项目，主打零token费 华尔街见闻",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IOFNUSEN6ZFZ3Qkwwb3VYa0RXU3BfankyWHBmay1KR29sc09HbG5BZjFLaVBjR0JqbS1kdV9vZGFfeWt0SGZEUkwyZ252ek5mTEtv?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 18:44",
+   "first_seen": "2026-11-20 13:58",
    "track": "news"
   },
   {
-   "name": "戴文渊下场做基模！范式发布Phai系双模型：推理快10倍",
-   "key": "戴文渊下场做基模范式发布phai系双模型推理快10倍",
+   "name": "Google推出Neon模型命名体系引发困惑-模型",
+   "key": "google推出neon模型命名体系引发困惑模型",
    "sources": [
     "新闻轨"
    ],
-   "desc": "戴文渊下场做基模！范式发布Phai系双模型：推理快10倍，AI视频告别塑料感 Sohu",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWHRKWWZBczFKYTFmcXdtWXJqaVplWVJCZkEtS3VjU2RnMVM4VlBaN2syaTZFVHoyRUhFOUZOcHo5Q2pRNU5iakNPVmlBdDJZaWZSb1NXS0lTRDFLS2xRd01sZmprcFJoUTJ5cFVHS2NZMGt6bC1kb1J2Sy1KSXFFYWFsRWs4RjEyZlVQcA?oc=5",
+   "desc": "Google推出Neon模型命名体系引发困惑-模型 至顶网",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBOb2w2ai1ZbmhTeFY4cXJtX1NuaWpGY2ZnUWN6eVk2Nm5sbWdUTkhYUElabmQzRkE2cUhZdnBjVENMelJhbjlXQlRsMExoQ2dwblJaTzhRbmFKVERSU3d2MDczbw?oc=5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 15:03",
+   "first_seen": "2026-11-20 14:10",
    "track": "news"
   },
   {
-   "name": "能看会听还能主动开口",
-   "key": "能看会听还能主动开口",
+   "name": "苹果据称最快明年让 Siri 更像智能体 苹果据称最快明年推出更主动的 Siri",
+   "key": "苹果据称最快明年让siri更像智能体苹果据称最快明年推出更主动的siri",
    "sources": [
     "新闻轨"
    ],
-   "desc": "豆包AI又进化了！实时音视频模型上线 能看会听还能主动开口 驱动之家",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TdGktMzVxcExUNmQyLTU0TFhTeFBZVXFucjIwRW5PVXNiM1MwcV94cU1iVXlORE1NWEZTV1lqMHNRVlNKSnhQaWV6WVlJUC0yMTZ5T2V4NnI?oc=5",
+   "desc": "🤖 苹果据称最快明年让 Siri 更像智能体 苹果据称最快明年推出更主动的 Siri，让它更像能替用户执行任务的智能体。彭博记者 Mark Gurman 在 Power On 中称，Siri 已在 iOS 27 实现个性化，但仍缺少主动代为操作的能力；苹果可能最早 2027 年让 Siri 朝智能体方向转变。 为此苹果",
+   "url": "https://t.me/zaihuapd/45257",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 15:25",
+   "first_seen": "2026-11-20 16:59",
    "track": "news"
   },
   {
-   "name": "真按元素周期表发布模型？谷歌把AI 排成了化学表|Google|Gemini 4|元素周期表_新浪新闻",
-   "key": "真按元素周期表发布模型谷歌把ai排成了化学表googlegemini4元素周期表新浪新闻",
+   "name": "Gemini 4 Neon 模型 谷歌推出 Gemini 4 Neon",
+   "key": "gemini4neon模型谷歌推出gemini4neon",
    "sources": [
     "新闻轨"
    ],
-   "desc": "真按元素周期表发布模型？谷歌把AI 排成了化学表|Google|Gemini 4|元素周期表_新浪新闻 手机新浪网",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qRDlsOFZISDRGdm1MRFNfTWhvcTJUWDNwUlFOSmVycm1MZjYxODFSdURGSzZOLVRHc25DQkZfZWk0SGdHcXNfQ1NyODFrNjRvOFZ1bnJEc1ZHdlBLVERuZ1JwOA?oc=5",
+   "desc": "🤖 谷歌发布 Gemini 4 Neon 模型 谷歌推出 Gemini 4 Neon，主打复杂软件工程、知识工作与科研工作流的快速端到端执行，已向开发者、企业及 Google AI Pro/Ultra 订阅用户开放。价格为每百万输入 token 3 美元（缓存输入 0.15 美元）、输出 15 美元，支持 100 万",
+   "url": "https://t.me/zaihuapd/45267",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 15:10",
+   "first_seen": "2026-11-21 09:09",
    "track": "news"
   },
   {
-   "name": "GTA VI！",
-   "key": "gtavi",
+   "name": "Space",
+   "key": "space",
    "sources": [
     "新闻轨"
    ],
-   "desc": "GTA VI！ GTA VI 将从新西兰开始按照地区开始逐步推出。中国香港和台湾地区将于 5 小时后推出。 Youtube ｜ Twitch 🌸 科技圈· 茶馆 · 投稿",
-   "url": "https://t.me/zaihuapd/45241",
+   "desc": "ChatGPT 面向 Plus 用户推出 Space：协作页面、幻灯片和网站 ChatGPT 推出 Space，为 Plus 用户提供新的侧边栏中心，用于创建和协作交互式页面、幻灯片和网站，并支持从连接工具自动更新。 内容详情 · 原文链接 via AI情报局 | 全球 AI 动态简报 - Telegram Chann",
+   "url": "https://rss.bz/zh/post/chatgpt-space-plus-collaboration?source=telegram",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-19 21:41",
+   "first_seen": "2026-11-21 03:38",
    "track": "news"
   },
   {
-   "name": "AMD 做空报告",
-   "key": "amd做空报告",
+   "name": "MedChemBench",
+   "key": "medchembench",
    "sources": [
     "新闻轨"
    ],
-   "desc": "做空机构质疑 AMD 涉华业务存在出口管制风险 做空机构 Hunterbrook 发布 AMD 做空报告，质疑公司涉华业务可能存在美国出口管制合规风险。报告称，中国服务器厂商浪潮信息 2025 年被美国列入实体清单后，相关服务器仍持续发布包含 AMD 新版本固件的更新，最近一次更新于今年 10 月 19 日。 此外，报",
-   "url": "https://x.com/hntrbrkmedia/status/2123438428977025178",
+   "desc": "OpenAI 推出 MedChemBench，用于评估药物化学中的 AI 推理能力 OpenAI 发布 MedChemBench，这是一个用于评估药物化学中 AI 推理能力的新基准，并展示了其前沿模型在帮助科学家识别有前景的药物候选分子方面的进展。 内容详情 · 原文链接 via AI情报局 | 全球 AI 动态简报",
+   "url": "https://rss.bz/zh/post/openai-medchembench-medicinal-chemistry?source=telegram",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 09:00",
+   "first_seen": "2026-11-21 03:38",
    "track": "news"
   },
   {
-   "name": "Google搜索首页迎来重大改版：AI对话入口将直接出现在页面上",
-   "key": "google搜索首页迎来重大改版ai对话入口将直接出现在页面上",
+   "name": "ChatGPT 桌面应用重大升级",
+   "key": "chatgpt桌面应用重大升级",
    "sources": [
     "新闻轨"
    ],
-   "desc": "Google搜索首页迎来重大改版：AI对话入口将直接出现在页面上，用户无需进入单独界面即可发起、查看和继续与AI的搜索对话。 iframe (Twitter Embed) Google负责产品的副总裁罗比·斯坦（Robby Stein）在X平台发布演示称，此次更新会在搜索首页新增一个侧边栏。用户点击屏幕左侧出现的灰色栏",
-   "url": "https://platform.twitter.com/embed/Tweet.html?dnt=true&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=2123500235930640844&amp;lang=en&amp;origin=https%3A%2F%2Fwww.theverge.com%2Ftech%2F1038059%2Fgoogle-search-homepage-ai-chats&amp;sessionId=911b3518323b95ad4c2bda73720a6875c253d0d4&amp;siteScreenName=verge&amp;theme=light&amp;widgetsVersion=6a3ad42b224df%3A1778106238597&amp;width=550px",
+   "desc": "OpenAI 推出 ChatGPT 桌面应用重大升级，Plus 用户获 ChatGPT Space OpenAI 发布重构版 ChatGPT 桌面应用，为 Plus 订阅用户带来全新 ChatGPT Space，并包含更简洁的视觉设计、性能提升、重建的对话线程、重新设计的 Space 主页、更快的页面与幻灯片、移动端页",
+   "url": "https://rss.bz/zh/post/openai-chatgpt-desktop-app-upgrade?source=telegram",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 04:38",
+   "first_seen": "2026-11-21 03:49",
    "track": "news"
   },
   {
-   "name": "Google为Mac版Gemini",
-   "key": "google为mac版gemini",
+   "name": "Gemini 4 Hydrogen 模型",
+   "key": "gemini4hydrogen模型",
    "sources": [
     "新闻轨"
    ],
-   "desc": "Google为Mac版Gemini推出“电脑操作”功能 AI可代用户完成多步骤任务 Google周四宣布，其macOS版Gemini桌面应用正式引入“电脑操作”能力，让人工智能能够代表用户执行任务，包括操作原生Mac应用，以及在后台浏览网页。用户只需下达指令，Gemini便可在聊天界面中以实时预览的方式展示操作过程，同",
-   "url": "https://www.cnbeta.com.tw/articles/tech/1587154.htm",
+   "desc": "Gemini 4 Hydrogen 登陆 Gemini 应用与搜索 谷歌发布 Gemini 4 Hydrogen 模型，主打速度与日常任务，已在 Gemini 应用和搜索中上线，在智能体工作流中能更准确地遵循指令并调用工具。 内容详情 · 原文链接 via AI情报局 | 全球 AI 动态简报 - Telegram C",
+   "url": "https://rss.bz/zh/post/gemini-4-hydrogen-app-search?source=telegram",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 04:38",
+   "first_seen": "2026-11-21 04:07",
    "track": "news"
   },
   {
-   "name": "ChatGPT 语音输入大升级：上线实时听写功能",
-   "key": "chatgpt语音输入大升级上线实时听写功能",
+   "name": "百年未解难题迎来突破？",
+   "key": "百年未解难题迎来突破",
    "sources": [
     "新闻轨"
    ],
-   "desc": "ChatGPT 语音输入大升级：上线实时听写功能，取消 10 分钟限制并全平台陆续推送 语音交互正在变得越来越即时、自然。OpenAI 宣布为 ChatGPT 正式引入全新的“实时听写”功能，让用户在对着麦克风说话的同时就能同步看到转写文字，进一步提升日常语音输入的效率。该功能将陆续面向全球 ChatGPT 用户开放，",
-   "url": "https://www.aibase.com/zh/news/32418",
+   "desc": "百年未解难题迎来突破？Anthropic数学家宣称破解黎曼猜想 Anthropic的数学家兼员工Levent Alpöge声称，他借助大语言模型（LLM），成功证明了数学界最著名的难题——黎曼猜想。 Alpöge周五在其个人网站发布的一份声明中写道：“我相信，我已经与Claude合作，找到了黎曼猜想的证明。” 黎曼猜想",
+   "url": "https://api3.cls.cn/share/article/2540656?sv=8.8.5",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 08:53",
+   "first_seen": "2026-11-21 05:32",
    "track": "news"
   },
   {
-   "name": "Mac",
-   "key": "mac",
+   "name": "GIF 生成功能 在花科技圈",
+   "key": "gif生成功能在花科技圈",
    "sources": [
     "新闻轨"
    ],
-   "desc": "谷歌 Gemini 上线 Mac“电脑操控”功能：后台自动干活，支持修图与做 PPT via AI新闻资讯 (author: AI Base)",
-   "url": "https://telegra.ph/%E8%B0%B7%E6%AD%8C-Gemini-%E4%B8%8A%E7%BA%BF-Mac%E7%94%B5%E8%84%91%E6%93%8D%E6%8E%A7%E5%8A%9F%E8%83%BD%E5%90%8E%E5%8F%B0%E8%87%AA%E5%8A%A8%E5%B9%B2%E6%B4%BB%E6%94%AF%E6%8C%81%E4%BF%AE%E5%9B%BE%E4%B8%8E%E5%81%9A-PPT-11-20",
+   "desc": "↩️🖼 Gemini 上线 GIF 生成功能 在花🎗️科技圈: 🤖 谷歌发布 Gemini 4 Neon 模型 谷歌推出 Gemini 4 Neon，主打复杂软件工程、知识工作与科研工作流的快速端到端执行，已向开发者、企业及 Google AI Pro/Ultra 订阅用户开放。价格为每百万输入 token 3 美元（",
+   "url": "https://x.com/GeminiApp/status/2123813017855103449",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 09:03",
+   "first_seen": "2026-11-21 09:10",
    "track": "news"
   },
   {
-   "name": "PostgreSQL 19 Released",
-   "key": "postgresql19released",
+   "name": "Neon",
+   "key": "neon",
    "sources": [
     "新闻轨"
    ],
-   "desc": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issu",
-   "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+   "desc": "谷歌发布 Neon，八天内推出的第三个 Gemini 模型 谷歌发布 Neon，这是八天内推出的第三个 Gemini 模型，同时 Gemini 应用中的 Tasks 功能得到扩展。 内容详情 · 原文链接 via AI情报局 | 全球 AI 动态简报 - Telegram Channel",
+   "url": "https://rss.bz/zh/post/google-neon-gemini-model?source=telegram",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 04:43",
+   "first_seen": "2026-11-21 09:34",
    "track": "news"
   },
   {
-   "name": "Tool Retrieval in the Gemini API",
-   "key": "toolretrievalinthegeminiapi",
+   "name": "Quoting Ravi Vakil",
+   "key": "quotingravivakil",
    "sources": [
     "新闻轨"
    ],
-   "desc": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
-   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+   "desc": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedb",
+   "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 02:00",
+   "first_seen": "2026-11-21 03:21",
    "track": "news"
   },
   {
-   "name": "Want to recreate this AI trend? 👀✨ Open CapCut → AI Lab → Type ‘PEEK’ in the AI ",
-   "key": "wanttorecreatethisaitrendopencapcutailabtypepeekintheai",
+   "name": "Quoting Levent Alpöge",
+   "key": "quotingleventalpöge",
    "sources": [
-    "热梗轨"
+    "新闻轨"
    ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/DfulNIZgovv/",
+   "desc": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Ge",
+   "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
+   "first_seen": "2026-11-21 00:30",
+   "track": "news"
+  },
+  {
+   "name": "Combatting adversarial distillation",
+   "key": "combattingadversarialdistillation",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 18:00",
+   "track": "news"
+  },
+  {
+   "name": "elementalsouls/Claude-BugHunter",
+   "key": "elementalsoulsclaudebughunter",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulne",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 15:58",
+   "track": "news"
+  },
+  {
+   "name": "jingyaogong/minimind",
+   "key": "jingyaogongminimind",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours. https://jingyaogong.github.io/minimind \"大道至简\" 中文 | English 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时",
+   "url": "https://github.com/jingyaogong/minimind",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 15:58",
+   "track": "news"
+  },
+  {
+   "name": "firecrawl/firecrawl",
+   "key": "firecrawlfirecrawl",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API. https://firecrawl.dev 🔥 Firecrawl Knowledge infras",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 15:58",
+   "track": "news"
+  },
+  {
+   "name": "nginx/nginx",
+   "key": "nginxnginx",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "The official NGINX Open Source repository. https://nginx.org/ NGINX (pronounced \"engine x\" or \"en-jin-eks\") is the world's most popular Web Server, high perform",
+   "url": "https://github.com/nginx/nginx",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 15:58",
+   "track": "news"
+  },
+  {
+   "name": "cathrynlavery/diagram-design",
+   "key": "cathrynlaverydiagramdesign",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows.",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 15:58",
+   "track": "news"
+  },
+  {
+   "name": "mjmirza/app-store-compliance",
+   "key": "mjmirzaappstorecompliance",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and",
+   "url": "https://github.com/mjmirza/app-store-compliance",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 15:58",
+   "track": "news"
+  },
+  {
+   "name": "Tracer-Cloud/opensre",
+   "key": "tracercloudopensre",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "The open-source agent for CI/CD reliability. https://opensre.com OpenSRE: The open-source agent for CI/CD reliability Your CI tells you it broke, but not why or",
+   "url": "https://github.com/Tracer-Cloud/opensre",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 15:58",
+   "track": "news"
+  },
+  {
+   "name": "toeverything/AFFiNE",
+   "key": "toeverythingaffine",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privac",
+   "url": "https://github.com/toeverything/AFFiNE",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 15:58",
+   "track": "news"
+  },
+  {
+   "name": "XiaoYouChR/Ghost-Downloader-3",
+   "key": "xiaoyouchrghostdownloader3",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "The only downloader you need. 下载器的集大成者。 https://gd.xychr.com/ 简体中文 | English Note Swiftproxy – Premium Global Residential Proxy Network Swiftproxy provides 90M+",
+   "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 15:58",
+   "track": "news"
+  },
+  {
+   "name": "zhouxiaoka/autoclip",
+   "key": "zhouxiaokaautoclip",
+   "sources": [
+    "新闻轨"
+   ],
+   "desc": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-20 15:58",
+   "track": "news"
   },
   {
    "name": "Wait… I made THIS using CapCut AI?! 🤯✨",
@@ -2708,72 +2904,33 @@
    "url": "https://www.instagram.com/reel/Dfu1K3cRAPe/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "✨POV: You just entered your rich era 💸✨ @capcutapp ",
-   "key": "povyoujustenteredyourricheracapcutapp",
+   "name": "Want to try the viral AI trend everyone is talking about? Here is the exact step",
+   "key": "wanttotrytheviralaitrendeveryoneistalkingabouthereistheexactstep",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/DfrOCoBxfCw/",
+   "url": "https://www.instagram.com/reel/Df0IkW0zPdW/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "How I made this video in few clicks 😱",
-   "key": "howimadethisvideoinfewclicks",
+   "name": "Want to recreate this AI trend? 👀✨",
+   "key": "wanttorecreatethisaitrend",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Df4vA4etOXq/",
+   "url": "https://www.instagram.com/reel/Df8pQXbMUzj/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "Want to try it yourself? Open CapCut, go to Al Lab, and type ‘peek’ in the chat ",
-   "key": "wanttotryityourselfopencapcutgotoallabandtypepeekinthechat",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/DfulkqAhcQy/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "Have fun with CapCut! 😂",
-   "key": "havefunwithcapcut",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/DfrWJYTqpir/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "#AD How did it know?!?! ",
-   "key": "adhowdiditknow",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Dfr_3iJOj2K/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -2786,98 +2943,7 @@
    "url": "https://www.instagram.com/reel/Dfz-BJAigkK/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "Should I change my hair? 👀💇🏻‍♀️✨ I tried the 4 Hairstylist AI template on CapCut",
-   "key": "shouldichangemyhairitriedthe4hairstylistaitemplateoncapcut",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/DfrlvKFTpVR/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "Just me dancing in the window… until I realize someone’s watching. 😂",
-   "key": "justmedancinginthewindowuntilirealizesomeoneswatching",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Dfu2htHJLh-/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "Create Your Own Jatayu Viral AI Video! 🦅🔥",
-   "key": "createyourownjatayuviralaivideo",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/DftHjQrKJTk/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "How to Turn a Photo into an AI Video Using a Prompt! 🤖📸",
-   "key": "howtoturnaphotointoanaivideousingaprompt",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Df47Cnltyzb/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "JATAYU VIRAL AI EDIT FREE! 🦅⚡",
-   "key": "jatayuviralaieditfree",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Dftn3HtPq9K/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "Turn any image into a video with AI. 🎬",
-   "key": "turnanyimageintoavideowithai",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/DfscWWmlYM_/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "What if you could take an ordinary photo and turn it into an incredibly realisti",
-   "key": "whatifyoucouldtakeanordinaryphotoandturnitintoanincrediblyrealisti",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Df5OnhAy_Bz/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -2890,59 +2956,59 @@
    "url": "https://www.instagram.com/reel/Df2ndHkg8Es/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "Create Jatayu Ji Viral AI Video FREE! 🦅❤️",
-   "key": "createjatayujiviralaivideofree",
+   "name": "Create without limits with CapCut AI! 🚀✨",
+   "key": "createwithoutlimitswithcapcutai",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Dft6GqkPTCQ/",
+   "url": "https://www.instagram.com/reel/Df5BdNexfTJ/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "🦅🔥 JATAYU VIRAL AI EDIT – NEW INSTAGRAM TREND! ⚡😱",
-   "key": "jatayuviralaieditnewinstagramtrend",
+   "name": "Want to recreate this AI trend? 👀✨ Open CapCut → AI Lab → Type ‘PEEK’ in the AI ",
+   "key": "wanttorecreatethisaitrendopencapcutailabtypepeekintheai",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Dfts-I_M7hg/",
+   "url": "https://www.instagram.com/reel/DfulNIZgovv/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "Create Viral AI Music Videos From Just ONE Photo! 🤯🔥 (100% FREE) @explore_aitech",
-   "key": "createviralaimusicvideosfromjustonephotoexploreaitech",
+   "name": "Okay, I had to try this viral AI trend! 😍✨ @capcutapp ",
+   "key": "okayihadtotrythisviralaitrendcapcutapp",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Df6KhIsPxbF/",
+   "url": "https://www.instagram.com/reel/Df5qLpXCIbl/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "🔥 Create a Viral Jatayu AI Video",
-   "key": "createaviraljatayuaivideo",
+   "name": "✨ Want to create AI images without worrying about running out of generations? Tr",
+   "key": "wanttocreateaiimageswithoutworryingaboutrunningoutofgenerationstr",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/DfwFRDEA_0B/",
+   "url": "https://www.instagram.com/reel/Df-PgpBCK1w/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -2955,46 +3021,202 @@
    "url": "https://www.instagram.com/reel/DfvBPoggoAn/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "What if you could create a marketing video with AI in just a few clicks? 🚀",
-   "key": "whatifyoucouldcreateamarketingvideowithaiinjustafewclicks",
+   "name": "How to Turn a Photo into an AI Video Using a Prompt! 🤖📸",
+   "key": "howtoturnaphotointoanaivideousingaprompt",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Dfr3cRKRZuJ/",
+   "url": "https://www.instagram.com/reel/Df47Cnltyzb/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "This trend has been on my feed everywhere so you know I had to try it. Turns out",
-   "key": "thistrendhasbeenonmyfeedeverywheresoyouknowihadtotryitturnsout",
+   "name": "What if you could take an ordinary photo and turn it into an incredibly realisti",
+   "key": "whatifyoucouldtakeanordinaryphotoandturnitintoanincrediblyrealisti",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Dfr6QG1RNvQ/",
+   "url": "https://www.instagram.com/reel/Df5OnhAy_Bz/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "I'm so obsessed guys🥹🥰Wanna try it yourself? Open CapCut, go to AI Lab, and type",
-   "key": "imsoobsessedguyswannatryityourselfopencapcutgotoailabandtype",
+   "name": "Create Jatayu Ji Viral AI Video FREE! 🦅💗",
+   "key": "createjatayujiviralaivideofree",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Dfu_0ZXgsSo/",
+   "url": "https://www.instagram.com/reel/DfzGVpqzcZs/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "🔥 This VIRAL JATAYU AI EDIT is INSANE! 🤯🦅",
+   "key": "thisviraljatayuaieditisinsane",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/DfwO8AySrCq/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "The easiest way to create AI videos is here.",
+   "key": "theeasiestwaytocreateaivideosishere",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/Dfxl4vuCkny/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "JATAYU VIRAL AI EDIT FREE! 🦅⚡",
+   "key": "jatayuviralaieditfree",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/Dftn3HtPq9K/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "✨ What if you could turn a simple product photo into a stunning, professional-lo",
+   "key": "whatifyoucouldturnasimpleproductphotointoastunningprofessionallo",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/DfwBMLTBgDx/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "Create Viral AI Music Videos From Just ONE Photo! 🤯🔥 (100% FREE) @explore_aitech",
+   "key": "createviralaimusicvideosfromjustonephotoexploreaitech",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/Df6KhIsPxbF/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "Create This Viral Thar to Mercedes AI Transformation Video with Your Own Photo! ",
+   "key": "createthisviralthartomercedesaitransformationvideowithyourownphoto",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/Df6_qtrTt54/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "One idea, a whole marketing campaign! ✨🚀",
+   "key": "oneideaawholemarketingcampaign",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/Df7Yipsh70t/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "I keep seeing the Restyle trend everywhere, so I had to try it with CapCut AI La",
+   "key": "ikeepseeingtherestyletrendeverywheresoihadtotryitwithcapcutaila",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/Df-yUPFBDjB/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "Who needs dance lessons when you’ve got AI?! 💃🤖😂",
+   "key": "whoneedsdancelessonswhenyouvegotai",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/Df9bM3CtNf5/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "Want to try it yourself? Open CapCut, go to Al Lab, and type ‘peek’ in the chat ",
+   "key": "wanttotryityourselfopencapcutgotoallabandtypepeekinthechat",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/DfulkqAhcQy/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "How I made this video in few clicks 😱",
+   "key": "howimadethisvideoinfewclicks",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/Df4vA4etOXq/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "🚨 VIRAL ANIMAL DANCE TREND 🐾🔥",
+   "key": "viralanimaldancetrend",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/Df82hONP45O/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -3007,59 +3229,7 @@
    "url": "https://www.instagram.com/reel/DftmKBkx2nt/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "🎂🎉 This AI birthday video trend is TOO GOOD! 😂🔥",
-   "key": "thisaibirthdayvideotrendistoogood",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/DfsMSsXFMeR/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "AI definitely CAN’T do any of these! 🙌 I mean, this isn’t really a trend, showin",
-   "key": "aidefinitelycantdoanyoftheseimeanthisisntreallyatrendshowin",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Df6p2eLM_nF/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "🚨 VIRAL SHERU BHAI TREND! 🦁🔥",
-   "key": "viralsherubhaitrend",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/DfyEsiHvMUS/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "Ai is getting way too real 😳🔥",
-   "key": "aiisgettingwaytooreal",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.instagram.com/reel/Df1olOQCebM/",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -3072,7 +3242,59 @@
    "url": "https://www.instagram.com/reel/Df0vYdfP9jE/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "AI Viral Trend 👀",
+   "key": "aiviraltrend",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/Df8hMDjyG3U/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "Sheru Bhai 🔥",
+   "key": "sherubhai",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/DfuQ1bMB51H/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "🦅🔥 JATAYU VIRAL AI EDIT – NEW INSTAGRAM TREND! ⚡😱",
+   "key": "jatayuviralaieditnewinstagramtrend",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/Dfts-I_M7hg/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "🚨 VIRAL SHERU BHAI TREND! 🦁🔥",
+   "key": "viralsherubhaitrend",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.instagram.com/reel/DfyEsiHvMUS/",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -3085,7 +3307,7 @@
    "url": "https://www.instagram.com/reel/Df7hEcKzLMl/",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -3098,20 +3320,7 @@
    "url": "https://www.youtube.com/watch?v=3coy2u61hX8",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "ChatGPT can now edit videos in CapCut 🤯… Full Tutorial",
-   "key": "chatgptcannoweditvideosincapcutfulltutorial",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=3vcuIfG5o0E",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -3124,7 +3333,33 @@
    "url": "https://www.youtube.com/watch?v=I_8AoYovwFo",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "ChatGPT can now edit videos in CapCut 🤯… Full Tutorial",
+   "key": "chatgptcannoweditvideosincapcutfulltutorial",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=3vcuIfG5o0E",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "ChatGPT Can Now Edit Videos with CapCut! AI Video Editing Workflow",
+   "key": "chatgptcannoweditvideoswithcapcutaivideoeditingworkflow",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=UdgzkCxck9E",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -3137,150 +3372,7 @@
    "url": "https://www.youtube.com/watch?v=Msvsy3bO8uo",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "How To Create, Edit & Post Ai Templates? | CapCut Ai Trends Templates",
-   "key": "howtocreateeditpostaitemplatescapcutaitrendstemplates",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=p3rrcZfv-_8",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "How to Make a Template in CapCut Using AI Video Maker",
-   "key": "howtomakeatemplateincapcutusingaivideomaker",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=I2m7jfuzNG4",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "CapCut’s new AI Video Maker is INSANE (and it’s FREE!)",
-   "key": "capcutsnewaivideomakerisinsane",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=iz2nbCqcFUg",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "How to Use CapCut AI Tools Better than 99% of Editors",
-   "key": "howtousecapcutaitoolsbetterthan99ofeditors",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=lCly-zH6A78",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "How to Use CapCut AI Video Maker for Free | 2026 Update",
-   "key": "howtousecapcutaivideomakerforfree2026update",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=104dHOfZ4lM",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "How To Use CapCut Templates (Speed Up Your CapCut Video Editing!)",
-   "key": "howtousecapcuttemplates",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=me7BKGe6qlY",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "HOW TO START MAKING MONEY WITH CAPCUT TEMPLATES IN 2026",
-   "key": "howtostartmakingmoneywithcapcuttemplatesin2026",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=xwlmEPBbakE",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "How to Use CapCut's AI Editing Tool | CapCut",
-   "key": "howtousecapcutsaieditingtoolcapcut",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=7DnbaboteCo",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "Capcut AI Video Generator (𝟮𝟬𝟮𝟲) | 100% WORKS | NO Yapping, To The Point! | FAST",
-   "key": "capcutaivideogenerator100worksnoyappingtothepointfast",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=cRdzl1f7wbY",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "CapCut AI Video Editing Tutorial for Beginners (2025 Update) | Seedream 4.0",
-   "key": "capcutaivideoeditingtutorialforbeginnersseedream40",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=owIewx-Uo5I",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "CapCut AI Video Template Program 2026 | How to Create AI Templates & Earn Credit",
-   "key": "capcutaivideotemplateprogram2026howtocreateaitemplatesearncredit",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=2CBwqTfG780",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -3293,20 +3385,137 @@
    "url": "https://www.youtube.com/watch?v=ADISzDz0iGo",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "HOW TO MAKE MONEY WITH CAPCUT TEMPLATES - FREE STARTER GUIDE",
-   "key": "howtomakemoneywithcapcuttemplatesfreestarterguide",
+   "name": "How to Make a Template in CapCut Using AI Video Maker",
+   "key": "howtomakeatemplateincapcutusingaivideomaker",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=0Nd8Yy2LmiA",
+   "url": "https://www.youtube.com/watch?v=I2m7jfuzNG4",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "CapCut’s new AI Video Maker is INSANE (and it’s FREE!)",
+   "key": "capcutsnewaivideomakerisinsane",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=iz2nbCqcFUg",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "Capcut AI Does Automatic Video Editing?!... I WAS SHOCKED!",
+   "key": "capcutaidoesautomaticvideoeditingiwasshocked",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=7QbN583ZkXY",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "How To Use CapCut Templates (Speed Up Your CapCut Video Editing!)",
+   "key": "howtousecapcuttemplates",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=me7BKGe6qlY",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "How to Use CapCut AI Tools Better than 99% of Editors",
+   "key": "howtousecapcutaitoolsbetterthan99ofeditors",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=lCly-zH6A78",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "HOW TO START MAKING MONEY WITH CAPCUT TEMPLATES IN 2026",
+   "key": "howtostartmakingmoneywithcapcuttemplatesin2026",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=xwlmEPBbakE",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "CapCut AI Video Editing Tutorial for Beginners (2025 Update) | Seedream 4.0",
+   "key": "capcutaivideoeditingtutorialforbeginnersseedream40",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=owIewx-Uo5I",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "CapCut AI Avatar Tutorial – 2026 | How to Make AI Avatar in CapCut (Seedream 4.0",
+   "key": "capcutaiavatartutorial2026howtomakeaiavatarincapcutseedream40",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=jbtguPNoHTg",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "How to Use CapCut AI Video Maker for Free | 2026 Update",
+   "key": "howtousecapcutaivideomakerforfree2026update",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=104dHOfZ4lM",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "CapCut AI Video Template Program 2026 | How to Create AI Templates & Earn Credit",
+   "key": "capcutaivideotemplateprogram2026howtocreateaitemplatesearncredit",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=2CBwqTfG780",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -3319,59 +3528,7 @@
    "url": "https://www.youtube.com/watch?v=a0mvc9bLiR8",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "This App Lets You Turn Old Photos Into Videos",
-   "key": "thisappletsyouturnoldphotosintovideos",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=6EtrntZi8r4",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "New Cinematic AI Image to Video Generator | Higgsfield AI Tutorial",
-   "key": "newcinematicaiimagetovideogeneratorhiggsfieldaitutorial",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=8JxOHotx60w",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "How To Turn Your Photos Into Videos! (AI Models Compared)",
-   "key": "howtoturnyourphotosintovideos",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=HaK2RzmML3Q",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "Image to Video AI | Step-by-Step Beginners Tutorial (2026)",
-   "key": "imagetovideoaistepbystepbeginnerstutorial",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=_R9Q5zXmbec",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -3384,33 +3541,7 @@
    "url": "https://www.youtube.com/watch?v=dgd9YFLEIqY",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "AliveMoment Tutorial | BEST Image to Video AI Tool?",
-   "key": "alivemomenttutorialbestimagetovideoaitool",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=5ucsdA5MzQU",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "I Tried Every Image To Video AI Video Generator (free & paid)",
-   "key": "itriedeveryimagetovideoaivideogenerator",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=8obne_qS6MY",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -3423,85 +3554,46 @@
    "url": "https://www.youtube.com/watch?v=fbaEtY0JT-Q",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "3 AI Video Generators for FREE & UNLIMITED Videos",
-   "key": "3aivideogeneratorsforfreeunlimitedvideos",
+   "name": "How To Turn Your Photos Into Videos! (AI Models Compared)",
+   "key": "howtoturnyourphotosintovideos",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=mNsR_KfjZpY",
+   "url": "https://www.youtube.com/watch?v=HaK2RzmML3Q",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "I Found a NEW 100% FREE & UNLIMITED AI Video Generator",
-   "key": "ifoundanew100freeunlimitedaivideogenerator",
+   "name": "AliveMoment Tutorial | BEST Image to Video AI Tool?",
+   "key": "alivemomenttutorialbestimagetovideoaitool",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=liO1EAhFg1k",
+   "url": "https://www.youtube.com/watch?v=5ucsdA5MzQU",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "Free AI Image to Video Generator | Animate Images into Videos FREE",
-   "key": "freeaiimagetovideogeneratoranimateimagesintovideosfree",
+   "name": "I Tried Every Image To Video AI Video Generator (free & paid)",
+   "key": "itriedeveryimagetovideoaivideogenerator",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=BGUqMdEgu1c",
+   "url": "https://www.youtube.com/watch?v=8obne_qS6MY",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "AI Video Generators Ranked from Worst to Best (2026)",
-   "key": "aivideogeneratorsrankedfromworsttobest",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=v6bqRIjwddE",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "5 FREE & UNLIMITED AI Video Generators (Text-to-Video + Image-to-Video) | 2025 G",
-   "key": "5freeunlimitedaivideogenerators2025g",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=1qvy5PYnaJo",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
-   "track": "meme"
-  },
-  {
-   "name": "Best FREE AI Video Generators (Backed by Data)",
-   "key": "bestfreeaivideogenerators",
-   "sources": [
-    "热梗轨"
-   ],
-   "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=nmpHMBnZHWQ",
-   "signals": [],
-   "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -3514,7 +3606,33 @@
    "url": "https://www.youtube.com/watch?v=1ipBE3eoemE",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "Image to Video AI | Step-by-Step Beginners Tutorial (2026)",
+   "key": "imagetovideoaistepbystepbeginnerstutorial",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=_R9Q5zXmbec",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "How To Convert Photo Into Video Using AI For FREE | Generate FREE & UNLIMITED AI",
+   "key": "howtoconvertphotointovideousingaiforfreegeneratefreeunlimitedai",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=D8_TJZ0QAuU",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
@@ -3527,179 +3645,251 @@
    "url": "https://www.youtube.com/watch?v=VIZlSgcknxA",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "Turn Your Real Estate Photos into VIDEO! (Using AI)",
-   "key": "turnyourrealestatephotosintovideo",
+   "name": "Top 5 Free SECRET AI Tools | Image To Video | Animate Photos & Bring Images to L",
+   "key": "top5freesecretaitoolsimagetovideoanimatephotosbringimagestol",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=nW-1TS7NJGs",
+   "url": "https://www.youtube.com/watch?v=-l0z5das3B4",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "The ONLY Free & Unlimited AI Video Generator Left",
-   "key": "theonlyfreeunlimitedaivideogeneratorleft",
+   "name": "AI Video Generators Ranked from Worst to Best (2026)",
+   "key": "aivideogeneratorsrankedfromworsttobest",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=axBF6zXzsNA",
+   "url": "https://www.youtube.com/watch?v=v6bqRIjwddE",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   },
   {
-   "name": "How I Make Realistic AI Videos with Seedance 2.5 - Full Guide",
-   "key": "howimakerealisticaivideoswithseedance25fullguide",
+   "name": "Best FREE AI Video Generators (Backed by Data)",
+   "key": "bestfreeaivideogenerators",
    "sources": [
     "热梗轨"
    ],
    "desc": "发现阶段，未做画面核验不得称独立成片",
-   "url": "https://www.youtube.com/watch?v=2hJsvDSPWYM",
+   "url": "https://www.youtube.com/watch?v=nmpHMBnZHWQ",
    "signals": [],
    "variants": [],
-   "first_seen": "2026-11-20 10:15",
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "5 FREE & UNLIMITED AI Video Generators (Text-to-Video + Image-to-Video) | 2025 G",
+   "key": "5freeunlimitedaivideogenerators2025g",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=1qvy5PYnaJo",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "I Tested Firefly on My Own Photos: Best AI Image-to-Video Generator 2026",
+   "key": "itestedfireflyonmyownphotosbestaiimagetovideogenerator2026",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=pEzY8zfH-O4",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "3 AI Video Generators That Are ACTUALLY FREE & UNLIMITED",
+   "key": "3aivideogeneratorsthatareactuallyfreeunlimited",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=AJHsGX2Era0",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "Paano Gumawa ng AI Video Gamit ang Cellphone | Step-by-Step AI Video Tutorial Ta",
+   "key": "paanogumawangaivideogamitangcellphonestepbystepaivideotutorialta",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=aeYgN0kJigY",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
+   "track": "meme"
+  },
+  {
+   "name": "Best AI Video Generator in 2026 (Don't Choose Wrong)",
+   "key": "bestaivideogeneratorin2026",
+   "sources": [
+    "热梗轨"
+   ],
+   "desc": "发现阶段，未做画面核验不得称独立成片",
+   "url": "https://www.youtube.com/watch?v=PsJLCiWnZhM",
+   "signals": [],
+   "variants": [],
+   "first_seen": "2026-11-21 10:17",
    "track": "meme"
   }
  ],
  "dupes": [
   {
-   "name": "GPT-Live-1.1",
-   "matched": "GPT-Live-1.1",
+   "name": "Inkling 2 Mini",
+   "matched": "Inkling 2 Mini",
    "ours": [
     "书签X"
    ]
   },
   {
-   "name": "Higgsfield GPU Harness",
-   "matched": "Higgsfield GPU Harness",
+   "name": "WeMM-Video",
+   "matched": "WeMM-Video",
    "ours": [
     "书签X"
    ]
   },
   {
-   "name": "Depth Pro 2",
-   "matched": "Depth Pro 2",
+   "name": "Gemini 3.5 Transcribe 语音编辑 API",
+   "matched": "Gemini 3.5 Transcribe 语音编辑 API",
    "ours": [
     "书签X"
    ]
   },
   {
-   "name": "DaisyRose-27B",
-   "matched": "DaisyRose-27B",
+   "name": "Stitch Loop",
+   "matched": "Stitch Loop",
+   "ours": [
+    "书签X"
+   ]
+  },
+  {
+   "name": "Flowtica Verso",
+   "matched": "Flowtica Verso",
    "ours": [
     "书签X"
    ]
   }
  ],
  "board_keywords": [
-  "Can you servive?",
-  "Can you servive? unblocked",
-  "Can you servive? online",
-  "Can you servive? play",
-  "Dragon Arena",
-  "Dragon Arena unblocked",
-  "Dragon Arena online",
-  "Dragon Arena play",
-  "Ghost of Tsushima DIRECTORS CUT",
-  "Ghost of Tsushima DIRECTORS CUT guide",
-  "Ghost of Tsushima DIRECTORS CUT walkthrough",
-  "Jailbreak ⛓",
-  "Jailbreak ⛓ unblocked",
-  "Jailbreak ⛓ online",
-  "Jailbreak ⛓ play",
-  "Kit PVP FFA",
-  "Kit PVP FFA unblocked",
-  "Kit PVP FFA online",
-  "Kit PVP FFA play",
-  "Pixel Z",
-  "Pixel Z unblocked",
-  "Pixel Z online",
-  "Pixel Z play",
-  "Rolana",
-  "Rolana unblocked",
-  "Rolana online",
-  "Rolana play",
-  "Romancing SaGa 2: Revenge of the Seven",
-  "Romancing SaGa 2: Revenge of the Seven guide",
-  "Romancing SaGa 2: Revenge of the Seven walkthrough",
-  "The Seven Deadly Sins: Origin",
-  "The Seven Deadly Sins: Origin guide",
-  "The Seven Deadly Sins: Origin walkthrough",
-  "Tiny Snipers",
-  "Tiny Snipers unblocked",
-  "Tiny Snipers online",
-  "Tiny Snipers play",
-  "voxel wreck",
-  "voxel wreck unblocked",
-  "voxel wreck online",
-  "DaisyRose-27B",
-  "DaisyRose-27B ai",
-  "DaisyRose-27B alternative",
-  "Depth Pro 2",
-  "Depth Pro 2 ai",
-  "Depth Pro 2 alternative",
-  "GPT-Live-1.1",
-  "GPT-Live-1.1 ai",
-  "GPT-Live-1.1 alternative",
-  "Higgsfield GPU Harness",
-  "Higgsfield GPU Harness ai",
-  "Higgsfield GPU Harness alternative",
-  "agentic cx designer",
-  "agentic cx designer ai",
-  "agentic cx designer alternative",
-  "blabla",
-  "blabla ai",
-  "blabla alternative",
-  "CodeDesign v3",
-  "CodeDesign v3 ai",
-  "CodeDesign v3 alternative",
-  "f5 ai guardrails",
-  "f5 ai guardrails ai",
-  "f5 ai guardrails alternative",
-  "mindshub",
-  "mindshub ai",
-  "mindshub alternative",
-  "Noteshell",
-  "Noteshell ai",
-  "Noteshell alternative",
-  "readcube",
-  "readcube ai",
-  "readcube alternative",
-  "Replay QA Self-healing Mode",
-  "Replay QA Self-healing Mode ai",
-  "Replay QA Self-healing Mode alternative",
-  "Spellar for Chrome",
-  "Spellar for Chrome ai",
-  "Spellar for Chrome alternative",
-  "Stripo Email Widgets",
-  "PostgreSQL 19 Released",
-  "Tool Retrieval in the Gemini API",
-  "700个智能体攻击之后",
-  "Argus MedGPT Patient Chart Review Tool",
-  "Gemini 4 Neon AI",
-  "MCP in ChatGPT",
-  "Project Genie: Genie 4",
-  "RTX Spark",
-  "World Model",
-  "全球都自研",
-  "AMD 做空报告",
-  "ChatGPT 语音输入大升级：上线实时听写功能",
-  "Google为Mac版Gemini",
-  "Google搜索首页迎来重大改版：AI对话入口将直接出现在页面上",
-  "GTA VI！",
-  "Mac",
+  "Inkling 2 Mini",
+  "Flowtica Verso",
+  "ARC Raiders",
+  "ARC Raiders unblocked",
+  "ARC Raiders online",
+  "ARC Raiders play",
+  "Battlefield 6",
+  "Battlefield 6 unblocked",
+  "Battlefield 6 online",
+  "Battlefield 6 play",
+  "DEATH STRANDING 2: ON THE BEACH",
+  "DEATH STRANDING 2: ON THE BEACH guide",
+  "DEATH STRANDING 2: ON THE BEACH walkthrough",
+  "DONT GET FOUND!",
+  "DONT GET FOUND! unblocked",
+  "DONT GET FOUND! online",
+  "DONT GET FOUND! play",
+  "DOWNHILL BIKING",
+  "DOWNHILL BIKING unblocked",
+  "DOWNHILL BIKING online",
+  "DOWNHILL BIKING play",
+  "Forza Horizon 6",
+  "Forza Horizon 6 unblocked",
+  "Forza Horizon 6 online",
+  "Forza Horizon 6 play",
+  "Heartopia",
+  "Heartopia unblocked",
+  "Heartopia online",
+  "Heartopia play",
+  "It Takes Two",
+  "It Takes Two unblocked",
+  "It Takes Two online",
+  "It Takes Two play",
+  "Marvel’s Spider-Man Remastered",
+  "Marvel’s Spider-Man Remastered unblocked",
+  "Marvel’s Spider-Man Remastered online",
+  "Marvel’s Spider-Man Remastered play",
+  "PACK IT",
+  "PACK IT unblocked",
+  "PACK IT online",
+  "PACK IT play",
+  "Parasite Simulator",
+  "Flowtica Verso ai",
+  "Flowtica Verso alternative",
+  "Gemini 3.5 Transcribe 语音编辑 API",
+  "Gemini 3.5 Transcribe 语音编辑 API ai",
+  "Gemini 3.5 Transcribe 语音编辑 API alternative",
+  "Inkling 2 Mini ai",
+  "Inkling 2 Mini alternative",
+  "n8n Agents",
+  "n8n Agents ai",
+  "n8n Agents alternative",
+  "OpenMotion",
+  "OpenMotion ai",
+  "OpenMotion alternative",
+  "Stitch Loop",
+  "Stitch Loop ai",
+  "Stitch Loop alternative",
+  "WeMM-Video",
+  "WeMM-Video ai",
+  "WeMM-Video alternative",
+  "aiteam.space",
+  "aiteam.space ai",
+  "aiteam.space alternative",
+  "Andromon",
+  "Andromon ai",
+  "Andromon alternative",
+  "Badya",
+  "Badya ai",
+  "Badya alternative",
+  "brand studio",
+  "brand studio ai",
+  "brand studio alternative",
+  "Compass OS",
+  "Compass OS ai",
+  "Compass OS alternative",
+  "Cup of Sugar",
+  "Cup of Sugar ai",
+  "Cup of Sugar alternative",
+  "Currents",
+  "Combatting adversarial distillation",
+  "Quoting Levent Alpöge",
+  "Quoting Ravi Vakil",
+  "cathrynlavery/diagram-design",
+  "diagram design",
+  "DataReel",
+  "elementalsouls/Claude-BugHunter",
+  "Claude BugHunter",
+  "firecrawl/firecrawl",
+  "firecrawl",
+  "Gemini 4 Neon",
+  "jingyaogong/minimind",
+  "minimind",
+  "mjmirza/app-store-compliance",
+  "app store compliance",
+  "nginx/nginx",
   "CapCut Peek AI",
-  "Jatayu AI edit",
   "CapCut Rich AI",
+  "Jatayu AI edit",
   "Sheru Bhai AI trend"
  ]
 }

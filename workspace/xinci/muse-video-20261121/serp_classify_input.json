@@ -1,0 +1,373 @@
+{
+  "task": "Classify each organic SERP row into exactly one of: band, game, meta_model, other. Then for precise keywords (muse ai video, meta muse video) also judge page_type homepage|inner|video|unknown, claims_generation yes|no|unknown, officiality official_meta_muse_video|official_meta_other_product|unofficial|unknown. Do not invent traffic or backlinks. If YouTube title is generic 'YouTube' and no verified title, use other and evidence_gap=unresolved_title.",
+  "categories": {
+    "band": "rock band Muse music videos / YouTube Music / official or lyric/live pages for the band",
+    "game": "Muse Dash or other games named Muse",
+    "meta_model": "pages specifically about Meta Superintelligence Labs Muse Video text-to-video model (official announcement OR clearly about that model, even if unofficial third-party)",
+    "other": "Muse personal agent, Meta Vibes, Microsoft Muse, Motion Muse, Filmora Muse AI, unresolved videos, error pages, unrelated"
+  },
+  "serps": [
+    {
+      "keyword": "muse video",
+      "engine": "serpapi.google-light",
+      "geo": "us",
+      "hl": "en",
+      "device": "desktop",
+      "created_at_utc": "2026-11-21 04:30:07 UTC",
+      "organic_count": 9,
+      "note": "google_light returned 9 organic results, not 10. Do not invent a 10th.",
+      "rows": [
+        {
+          "position": 1,
+          "serp_title": "YouTube",
+          "displayed_link": "www.youtube.com › watch",
+          "raw_link": "https://www.youtube.com/watch?v=CtwqlVLCAVI",
+          "date": "Oct 8, 2024",
+          "snippet": "Share your videos with friends, family, and the world.",
+          "verified": {
+            "verified_title": "Muse Dash",
+            "verified_author": "Weisttil",
+            "source": "YouTube oembed 2026-11-21"
+          },
+          "canonical_url_from_displayed_link": "https://www.youtube.com/watch?v=CtwqlVLCAVI"
+        },
+        {
+          "position": 2,
+          "serp_title": "YouTube",
+          "displayed_link": "www.youtube.com › watch",
+          "raw_link": "https://www.youtube.com/watch?v=okBTjPH3-Jg",
+          "date": "Jul 28, 2018",
+          "snippet": "Share your videos with friends, family, and the world.",
+          "verified": {
+            "verified_title": "SHADOW OF THE MUSE | Goal Production",
+            "verified_author": "Goal Production Official",
+            "source": "YouTube oembed 2026-11-21"
+          },
+          "canonical_url_from_displayed_link": "https://www.youtube.com/watch?v=okBTjPH3-Jg"
+        },
+        {
+          "position": 3,
+          "serp_title": "Muse - YouTube Music",
+          "displayed_link": "music.youtube.com › channel",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESdwHEIkXXA3y7wIHXfiy8awXULWYFsRCkl7EAA7wBzF6JKtM4co54L6W3MHQtK-BiqkE6QO747bSSABpli4HPo-iGG4HIb-kuAQkYbobmCw6WJ0n0kwGpqTLgqadnrj9Em_nZmV08BMEhvl-HQd-wbDNOjfeoHRaW&sa=U&uoh=3&ved=2ahUKEwjatZCGnZiYAxVjFVkFHdeABVAQFnoECAYQAg&usg=AOvVaw1G21YmYqQ0gVqJkfoK_aun",
+          "date": null,
+          "snippet": "Muse. Subscribe 155. Share. Videos. Persona 5 – Light the Fire Up in the Night. Muse • 17K views. New recommendations."
+        },
+        {
+          "position": 4,
+          "serp_title": "Les vidéos les plus vues de Muse - Allformusic",
+          "displayed_link": "www.allformusic.fr › Artistes › Muse",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESYwHEIkXXNoRiBCRbYiN88rStbi2stjzOm3MDhuPQofjxRD-NoVtmiTJh5e6RLmx2DNb_6lRagFlXrJoiyd8YQi5TOOPm_9pscbSQlSvbHeok06jkfPGth5MEBB9RfyG4tnjhZg&sa=U&uoh=3&ved=2ahUKEwjatZCGnZiYAxVjFVkFHdeABVAQFnoECA0QAg&usg=AOvVaw3wshnhnDECXT6pG9X2aXnu",
+          "date": null,
+          "snippet": "Tops vidéos du moment de Muse · Capture de la vidéo Muse - Uprising [Official Video] · Capture de la vidéo The Dark Forest · Capture de la vidéo Muse - Starlight [ ..."
+        },
+        {
+          "position": 5,
+          "serp_title": "Muse YouTube",
+          "displayed_link": "music.youtube.com › browse",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESdgHEIkXXxU54bIFXVU3zX3dETdUTxXJg8RYBiA-zPcii3gnPxnsaHsVyTs0v_8SmZ7MO6kq7fCbA1XGz3KW3F5vpuX3xCxUqho8eGeu08GDRCOnakcJmfAd2dlTnKiCX4uDvvTmnvLhjf_W2i1vn0UJ0-RMwpTw&sa=U&uoh=3&ved=2ahUKEwjatZCGnZiYAxVjFVkFHdeABVAQFnoECAkQAg&usg=AOvVaw2MiYGVNLvnBVRbQnx-jqja",
+          "date": null,
+          "snippet": "Profile • @museyoutube4885."
+        },
+        {
+          "position": 6,
+          "serp_title": "YouTube",
+          "displayed_link": "www.youtube.com › watch",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESaAHEIkXXOt8czU5cTsahMzXXQTkTrCuFeed_HdsfyySyvEh2wTnFoC98ialzWlHBwYpp16VXkhhDsTZOo1MejmtXg4MwTBY9KZWzCT2-9PheTB2nS3SkUCefI2VyF3xkxVYh4liHh0eX&sa=U&uoh=3&ved=2ahUKEwjatZCGnZiYAxVjFVkFHdeABVAQFnoECAgQAQ&usg=AOvVaw0cfJbO-la3Eh4tGgBJhvMy",
+          "date": "Nov 5, 2018",
+          "snippet": "Share your videos with friends, family, and the world."
+        },
+        {
+          "position": 7,
+          "serp_title": "THE MUSE?? - YouTube",
+          "displayed_link": "www.youtube.com › shorts",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESZwHEIkXXzJvOJN41zXmIgrSXvRaAjj027CqDxc7H4iia0onP3Lne19O5ba5CQMF8hzocKO88qbrNf30IlCmq7tI5hfbtWQz8DyNkulB_bDala8z2QzDFMhpJWVLab-EWW2Gip74jr6E&sa=U&uoh=3&ved=2ahUKEwjatZCGnZiYAxVjFVkFHdeABVAQFnoECBEQAQ&usg=AOvVaw3wLY23S2GbID2gGrOuHPvs",
+          "date": "Aug 28, 2026",
+          "snippet": "THE MUSE?? 12. 0. Share ... Video unavailable. This content isn't available. Skip video."
+        },
+        {
+          "position": 8,
+          "serp_title": "Video - YouTube Music",
+          "displayed_link": "music.youtube.com › search › q=+MUSE+Falling+Down",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAEScgHEIkXXkUpHiOlHQBvrPlcGrPykQKXQ6Nh86e_kg3Uk2ZHiiiIUAu7Jsylf4icqWEHEOLN0Fczpp2_ZHfibeHWCFxIOdk790lwt5KFGd7JZydow9ahUtZXrg1jI24Q8xHokx2jg7eMFEOjwvfXrsG2HzA&sa=U&uoh=3&ved=2ahUKEwjatZCGnZiYAxVjFVkFHdeABVAQFnoECAsQAg&usg=AOvVaw0RmuRL7iLeb1FXHoWj0g5w",
+          "date": null,
+          "snippet": "Muse · 18.2M monthly audience ; Muse Falling Down Lyrics · jtj39 • 102K views ; Muse - Falling Down live @ London Astoria 2000 [HD] · MuseLiveVideos • 346K views."
+        },
+        {
+          "position": 9,
+          "serp_title": "Muse - YouTube Music",
+          "displayed_link": "music.youtube.com › playlist",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAEShwEBxCJF1w3Vi29A6Y1SVnGCTvQRm9dMatqTdpOOfaXihrE6eJCtScnEng68tFezr6adHc41qmv0HVPjVNyisyG0wPSR9PGZ390mXo1FHW0aSLtmihQhj_Rn0hClxKBZCZmssM5yn_NW_9ZwGETPi5GW-WxRtQgZsZV1sbyYVBZuWbBD_bh8h3I&sa=U&uoh=3&ved=2ahUKEwjatZCGnZiYAxVjFVkFHdeABVAQFnoECAUQAg&usg=AOvVaw1MCqiBq2J0A3y2S5_tRRu7",
+          "date": null,
+          "snippet": "Muse ; Starlight · 4:05 ; Supermassive Black Hole · 3:31 ; Uprising · 4:12 ; Muse - hysteria lyrics video · 3:52 ; Knights of Cydonia · 6:06."
+        }
+      ]
+    },
+    {
+      "keyword": "muse ai video",
+      "engine": "serpapi.google-light",
+      "geo": "us",
+      "hl": "en",
+      "device": "desktop",
+      "created_at_utc": "2026-11-21 04:30:07 UTC",
+      "organic_count": 9,
+      "note": "google_light returned 9 organic results, not 10. Do not invent a 10th.",
+      "rows": [
+        {
+          "position": 1,
+          "serp_title": "Muse Video AI Generator — Try Meta Muse Video Online",
+          "displayed_link": "musevideos.io",
+          "raw_link": "https://musevideos.io/",
+          "date": null,
+          "snippet": "Muse Video is the first video generation. It turns a text prompt, a still image, or an existing clip into video with natively generated, synchronized audio",
+          "canonical_url_from_displayed_link": "https://musevideos.io/"
+        },
+        {
+          "position": 2,
+          "serp_title": "Introducing Muse Image and Muse Video - Meta AI",
+          "displayed_link": "ai.meta.com › blog › introducing-muse-image-muse-video-msl",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESfAHEIkXXDPh5_rMndDjdXJ_dqrLX09wIBfqi8t5A7p09MaE5K4qEt-mRkS0j-SqbAsYfF82XlI5dWA8_FdfP4Tb1bngvm1BtaomXTEoZft059GcorLKTWspW24b4FSquBNQnmoKHAllgvV4c4Xa7tqhN4UT54Bv5M7ozFyY&sa=U&uoh=3&ved=2ahUKEwj5-K-GnZiYAxUiSzABHfXvL88QFnoECAkQAg&usg=AOvVaw22vdtXfCpEzm2eHLef9Zdk",
+          "date": "Jul 7, 2026",
+          "snippet": "Muse Video, the first media generation models developed by Meta Superintelligence Labs. delivers exceptional visual fidelity with native audio ...",
+          "canonical_url_from_displayed_link": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+        },
+        {
+          "position": 3,
+          "serp_title": "Muse Video — Meta's AI Video Generator (Free)",
+          "displayed_link": "muse-video.pro",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESVAHEIkXXv8-DL-lkH8bBnvvupSXbC7bTH6B5WocskgkD_6ORXsyAOfZQlkBi2JYp5lSK8mCyOUwyUqFPEpT16necpwsZW7xnt2qnnej3s66wZQHqPA&sa=U&uoh=3&ved=2ahUKEwj5-K-GnZiYAxUiSzABHfXvL88QFnoECAoQAg&usg=AOvVaw03_mBENqMIAW80Nm3OMU7A",
+          "date": null,
+          "snippet": "Explore Meta's Muse Video model and generate a real AI visual for free — type a prompt, create instantly. No account, no credits.",
+          "canonical_url_from_displayed_link": "https://muse-video.pro/"
+        },
+        {
+          "position": 4,
+          "serp_title": "Muse Video: AI Video Generator - Text & Image to Video",
+          "displayed_link": "muse-video.co",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESUwHEIkXXjDnqggiIb251jbH85Xep8ZMJCHUaiFB3stYxa0qgWOlb3xvqY25alEI1w05jHuQ5SMAfgU_ZoLqp9meEVbiFXc6rXqybecx-kW1vRIi4&sa=U&uoh=3&ved=2ahUKEwj5-K-GnZiYAxUiSzABHfXvL88QFnoECAgQAg&usg=AOvVaw0CwmS_46uwM0cBQDUlow2i",
+          "date": null,
+          "snippet": "Muse Video is an AI video generator for text-to-video and image-to-video — native audio, up to 4K, no watermark. Credit packs from $4.99.",
+          "canonical_url_from_displayed_link": "https://muse-video.co/"
+        },
+        {
+          "position": 5,
+          "serp_title": "Muse Video AI Video Generator With Native Audio - Try Online",
+          "displayed_link": "muse-video.app",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESVAHEIkXX1GVFFa9ouX440In5vAa98PKD7Hiko2vQODoKLBcrHQA1SVsGbUlQHXLBRpX-6iAUXTYo0dh1NSGO3Cz3en8B5WDNRjPp_GK_hXuwl-2ziw&sa=U&uoh=3&ved=2ahUKEwj5-K-GnZiYAxUiSzABHfXvL88QFnoECAsQAg&usg=AOvVaw3KPg2S2idOoVW_RZtaabeA",
+          "date": null,
+          "snippet": "Make AI videos with Muse Video, powered by Meta's Muse Video model. Turn text or an image into a short clip with native audio. Try it online.",
+          "canonical_url_from_displayed_link": "https://muse-video.app/"
+        },
+        {
+          "position": 6,
+          "serp_title": "Muse AI Video Generator FREE & Unlimited - YouTube",
+          "displayed_link": "www.youtube.com › watch",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESaAHEIkXX0jxx6s4rnfPlhobKiHUTjNyrb5HykmDtdUH_X6jiUUqxiG1V21FjPh0cWtc5olW06Jriojheyrt0eRtHMwrnqUL-4bjvXyX7LqoAD1OQPRdffTlLJic8sou9tv7JkBzDcT9c&sa=U&uoh=3&ved=2ahUKEwj5-K-GnZiYAxUiSzABHfXvL88QFnoECBAQAQ&usg=AOvVaw30yv6efpCkmTgXzTEfnMKN",
+          "date": "Oct 3, 2026",
+          "snippet": "Create Muse AI videos in Filmora with prompts, motion, effects, and clean cuts — start today: https://filmora.go.link/2mTdP AI Video ..."
+        },
+        {
+          "position": 7,
+          "serp_title": "Introducing Muse, your personal AI agent from Meta that gets things ...",
+          "displayed_link": "www.facebook.com › Pages › Other › Brand › Website › Muse › Videos",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESxQEBxCJF14B4cp85mBhtxZtIdchaHlKWSLNttwtQFgy9D59aDeBBwxoS0MyttWaAXQCdkwNR4x_oo4XX2rQbdvRmwuJ8F8r4g_hIENgNt00FSIfrQeS24AsRq2RxZhHgswpcNEfF21rlnbojwUyQF8_ZuXKP1sGLAZWuJn8HVYn8rcaRtUahgv-GUYtrOq9k11uN6uKMM2M9MkKUHdDXYX0YvRKS45s7or2bZI1fwvSLfe7pSwaa4tZMJNuuwcKtZljd4iaKyQ&sa=U&uoh=3&ved=2ahUKEwj5-K-GnZiYAxUiSzABHfXvL88QFnoECAUQAQ&usg=AOvVaw2pFEXdmlw2ABzVIM8EryLU",
+          "date": "Sep 8, 2026",
+          "snippet": "This advertisement introduces Muse, a personal AI agent developed by Meta designed to simplify daily life. The video showcases Muse's ..."
+        },
+        {
+          "position": 8,
+          "serp_title": "Muse — Your Personal AI Agent from Meta",
+          "displayed_link": "muse.ai",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESTQHEIkXXx-NByXx7OqCwhNn8Btn69kYGgLtIWi66uCXClu7I8CEGYaW_eBGw7TUYJlXPaOzTZhdWqCuyWq2K1o4c00YIwi0kDC_U72wD&sa=U&uoh=3&ved=2ahUKEwj5-K-GnZiYAxUiSzABHfXvL88QFnoECAwQAg&usg=AOvVaw0v_kf_kMm2iH-8j_4DhKPC",
+          "date": null,
+          "snippet": "Muse helps you stay on top of things, takes tasks and projects off your plate, and turns long-term goals into real progress. It learns from conversations, ...",
+          "canonical_url_from_displayed_link": "https://muse.ai/"
+        },
+        {
+          "position": 9,
+          "serp_title": "VidMuse — AI Music Video & Product Ads Generator",
+          "displayed_link": "vidmuse.ai › ...",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESUgHEIkXX9DZ9Hy4xekh8BkrRUOaSeFuuH86OVU8MUEM-W6STsrAal-nhPg4czSxelDgetLNM6lfwolX1B9bynPXUWKraKnMxA0XlpO91mWxPGu0&sa=U&uoh=3&ved=2ahUKEwj5-K-GnZiYAxUiSzABHfXvL88QFnoECAcQAg&usg=AOvVaw2EOjkq45Dd4lxcYcXZoUCG",
+          "date": null,
+          "snippet": "Create music videos and winning product ads with VidMuse AI.",
+          "canonical_url_from_displayed_link": "https://vidmuse.ai/"
+        }
+      ]
+    },
+    {
+      "keyword": "muse video generator",
+      "engine": "serpapi.google-light",
+      "geo": "us",
+      "hl": "en",
+      "device": "desktop",
+      "created_at_utc": "2026-11-21 04:30:06 UTC",
+      "organic_count": 9,
+      "note": "google_light returned 9 organic results, not 10. Do not invent a 10th.",
+      "rows": [
+        {
+          "position": 1,
+          "serp_title": "Something went wrong! Show Error",
+          "displayed_link": "museimages.org › muse-video-to-video",
+          "raw_link": "https://museimages.org/muse-video-to-video",
+          "date": null,
+          "snippet": "Something went wrong! Show Error",
+          "canonical_url_from_displayed_link": "https://museimages.org/muse-video-to-video"
+        },
+        {
+          "position": 2,
+          "serp_title": "Create Engaging Short-Form Videos with Motion Muse AI - Toolify AI",
+          "displayed_link": "www.toolify.ai › ai-news › create-engaging-shortform-videos-with-motion-...",
+          "raw_link": "https://www.toolify.ai/ai-news/create-engaging-shortform-videos-with-motion-muse-ai-8384",
+          "date": "Dec 26, 2023",
+          "snippet": "Motion Muse is an AI-powered app that generates short-form video content for social media platforms like TikTok, Instagram Reels, and YouTube ...",
+          "canonical_url_from_displayed_link": "https://www.toolify.ai/ai-news/create-engaging-shortform-videos-with-motion-muse-ai-8384"
+        },
+        {
+          "position": 3,
+          "serp_title": "How to Create an App Using Muse - YouTube",
+          "displayed_link": "www.youtube.com › watch",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESaAHEIkXXJ0LpAYhr4gr1ODuzGc1u9Hx2TzaRv7CIX3yQIH0sw2qDaZ-7_eZ_9gOBjvHux4ULqha6NHvY_LElO-cUexOoozzNl5tEgRym2PCT4r5s95eXFRTqLLfFZr-75AI9UviFrTv6&sa=U&uoh=3&ved=2ahUKEwj7_uGFnZiYAxVrF2IAHZtKPQsQFnoECAoQAQ&usg=AOvVaw1VdLxaMOiF9PR2wQnQ6to-",
+          "date": "Oct 21, 2026",
+          "snippet": "Want to create an app using Muse but don't know where to start? Join Glam for a beginner-friendly LIVE walkthrough as we turn an app idea ..."
+        },
+        {
+          "position": 4,
+          "serp_title": "Muse Video AI Video Generator Review 2026 | PoweredByAI",
+          "displayed_link": "poweredbyai.app › Content Creation & Generation",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESgwEBxCJF12LszUaLuFerR70yQdkh0bQQxOZRGZOFs_20wcyRXo01ogbgILtspft6lA6ZWzN18PkFilk7w8IjrQ4-XU5qJvj6B6CWNKvIfxU84SSslL_JahGSDRyyU9dCQ3LzpQsPeqQyc6VZEq7y-AZSqa7a6UAy-SyS8DE_G81R0eNUBw&sa=U&uoh=3&ved=2ahUKEwj7_uGFnZiYAxVrF2IAHZtKPQsQFnoECAgQAg&usg=AOvVaw15cuELQxU0U0ayoixPOyVM",
+          "date": null,
+          "snippet": "Muse Video AI Video Generator allows users to create cinematic AI videos from text or images. Starts at $19."
+        },
+        {
+          "position": 5,
+          "serp_title": "Microsoft has unveiled Muse, a generative AI model ... - YouTube",
+          "displayed_link": "www.youtube.com › shorts",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESZwHEIkXX8K-EfCNoumf8zbGEXERUu77CC3tKCrsDVM1XR7ZPJSjY7cU2qrqTGv0AE1Lftt6Rl5KGGahyLt28nPTLyq-qUH2xIzuBVHTbwIYu8a2WBq1ECqrExp6YZCyKsVSqtXtSy4k&sa=U&uoh=3&ved=2ahUKEwj7_uGFnZiYAxVrF2IAHZtKPQsQFnoECBAQAQ&usg=AOvVaw3CiHr2QbRmB7wZ2Ks-GavD",
+          "date": "Feb 20, 2025",
+          "snippet": "Microsoft has unveiled Muse, a generative AI model designed for game development ... Video unavailable. This content isn't available. Skip video."
+        },
+        {
+          "position": 6,
+          "serp_title": "Free Long AI Videos with Muse AI - How to Create, Step ... - YouTube",
+          "displayed_link": "www.youtube.com › watch",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESaAHEIkXX4Zw_RuZvALLYxdnWNo2FnvEKdK_22soNQACskaA-zWWK7qVaR7UbyoYeCw0VYxFDUqgpmD3y7qO85vW4lgKzhn88GlzjwHn8P-iC-UuEZXCW9gb9iS-jbKFCF6Vxr3wLp9zX&sa=U&uoh=3&ved=2ahUKEwj7_uGFnZiYAxVrF2IAHZtKPQsQFnoECA4QAQ&usg=AOvVaw0-5r08To76xfXhLFbblKN3",
+          "date": "Nov 4, 2026",
+          "snippet": "Free Long AI Videos with Muse AI - How to Create, Step-by-Step Tutorial · Comments."
+        },
+        {
+          "position": 7,
+          "serp_title": "How to Turn Any Video Into 2D Animation Using Muse AI ... - YouTube",
+          "displayed_link": "www.youtube.com › watch",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESaAHEIkXXIKNcGkxaGeWThDpMSoqEhz9zmWqaYGZ4N9aXoyzr8DZiSZ1GfZ_wBdjswLdJpKv6secMQ9cHrbvKd-gUplMaq6L-E0zBwxCURrKFZIG5PLfxuqgsKZ2LJGE881O8NjzpCYzX&sa=U&uoh=3&ved=2ahUKEwj7_uGFnZiYAxVrF2IAHZtKPQsQFnoECA0QAQ&usg=AOvVaw3PGCsyFn8F8xvO6M9wyqPJ",
+          "date": "Oct 14, 2026",
+          "snippet": "... generator, Muse AI prompt, animation prompt, convert video to ... Muse AI, Muse AI tutorial, Muse AI animation, video to 2D animation ..."
+        },
+        {
+          "position": 8,
+          "serp_title": "Automatically Create Hundreds of AI Videos Every Day ... - YouTube",
+          "displayed_link": "www.youtube.com › watch",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESaAHEIkXXv1zVNGuMwLEzXpYPxpdCC9YVpdyiYy8KcKTxMQKUHjIBIVUfAohZLPpqR1pnN5RTi8D0ef3tkLRnbeP-d5vFMffYZoue7GPcAa-LY0Iq8vmrERwxaAtRHGDIwSzPPVGS7Bmt&sa=U&uoh=3&ved=2ahUKEwj7_uGFnZiYAxVrF2IAHZtKPQsQFnoECAkQAQ&usg=AOvVaw0jyh4uxNxCQ00qOBPH0IJQ",
+          "date": "Oct 7, 2026",
+          "snippet": "Automatically Create Hundreds of AI Videos Every Day with the Ultimate Muse AI Tool! (How to Get ... · Comments."
+        },
+        {
+          "position": 9,
+          "serp_title": "Muse Video - ListYourProject",
+          "displayed_link": "www.listyourproject.com › picaten7 › muse-video",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAEScQHEIkXXs4PeGRojkGY9uSwcDOVPHUeEOV5A-b3mD6N989EJ6insbU22GCdkc125Le-tEOmQfwzi1pNdSxVk_lJqyvO1-yv_0nRIT0iOUwPpUSRIMfLWiQc5gxj4VAyRf4LiX1SIt8PNa6s1rDOs6RkM&sa=U&uoh=3&ved=2ahUKEwj7_uGFnZiYAxVrF2IAHZtKPQsQFnoECAwQAg&usg=AOvVaw2G-eyuqSrIMlQGgC3dY8nQ",
+          "date": null,
+          "snippet": "Muse Video. Create cinematic AI videos from text prompts and images with realistic motion, creative camera control, and AI-powered video generation."
+        }
+      ]
+    },
+    {
+      "keyword": "meta muse video",
+      "engine": "serpapi.google-light",
+      "geo": "us",
+      "hl": "en",
+      "device": "desktop",
+      "created_at_utc": "2026-11-21 04:42:59 UTC",
+      "organic_count": 9,
+      "note": "google_light returned 9 organic results, not 10. Do not invent a 10th.",
+      "rows": [
+        {
+          "position": 1,
+          "serp_title": "Introducing Muse Image and Muse Video - Meta AI",
+          "displayed_link": "ai.meta.com › blog › introducing-muse-image-muse-video-msl",
+          "raw_link": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+          "date": "Jul 7, 2026",
+          "snippet": "We're excited to launch Muse Image and preview Muse Video, the first media generation models developed by Meta Superintelligence Labs.",
+          "canonical_url_from_displayed_link": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+        },
+        {
+          "position": 2,
+          "serp_title": "Introducing Muse, your personal AI agent from Meta that gets things ...",
+          "displayed_link": "www.facebook.com › Pages › Other › Brand › Website › Muse › Videos",
+          "raw_link": "https://www.facebook.com/muse/videos/introducing-muse-your-personal-ai-agent-from-meta-that-gets-things-done-across-e/1871514170486895/",
+          "date": "Sep 8, 2026",
+          "snippet": "This advertisement introduces Muse, a personal AI agent developed by Meta designed to simplify daily life. The video showcases Muse's ...",
+          "canonical_url_from_displayed_link": "https://www.facebook.com/muse/videos/introducing-muse-your-personal-ai-agent-from-meta-that-gets-things-done-across-e/1871514170486895/"
+        },
+        {
+          "position": 3,
+          "serp_title": "Muse Video AI Generator — Try Meta Muse Video Online",
+          "displayed_link": "musevideos.io",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESUwHEIkXXshksy65aSccn64PrbhaXOQtGxhtyzApOLRNxotD6U0eE3URelmSrq-wNKUwQ15fhYz-vpH2IXWdYWUJG6zVSdDR0T5TT28SA6DEKST-v&sa=U&uoh=3&ved=2ahUKEwjIr6L2n5iYAxUjTTABHXt1HY0QFnoECAkQAg&usg=AOvVaw3x_Pp5ijmu8b8_x2YrqdlR",
+          "date": null,
+          "snippet": "Create AI videos with Muse Video, Meta's new model with native audio. Type a prompt, get a cinematic clip with sound in minutes. Start free online.",
+          "canonical_url_from_displayed_link": "https://musevideos.io/"
+        },
+        {
+          "position": 4,
+          "serp_title": "Muse — Your Personal AI Agent from Meta",
+          "displayed_link": "muse.ai",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESTQHEIkXXfxa_Alb2GXRhUG2qcP0_OP-m2WtV5u2_Q7YkVBf8WONjLtI-bhu05uAVzgBL9BBYydBI3QEOBxhxOtMN1SSNQ940k-KhJxJ6&sa=U&uoh=3&ved=2ahUKEwjIr6L2n5iYAxUjTTABHXt1HY0QFnoECAsQAg&usg=AOvVaw22xNCxzKqrH9KsKzBKKZAR",
+          "date": null,
+          "snippet": "Give Muse a goal or task and it handles the rest, from saving money and improving your health to smart shopping and helping you strengthen your relationships.",
+          "canonical_url_from_displayed_link": "https://muse.ai/"
+        },
+        {
+          "position": 5,
+          "serp_title": "Meta's Muse can run your digital life. Here's how it works - YouTube",
+          "displayed_link": "www.youtube.com › watch",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESaAHEIkXX8UwEb9rUzvHic6JfsAM6m5T2hrT1EbJD4-_2yHbh4t0ZZPCgrjvhMWtWBUGph3Z4D47bgRybYERwurxEoh1k4NW3EBrzXZTPF0F48QN-8Jx9q-V-79k7o5CwHgHoEYJEhobH&sa=U&uoh=3&ved=2ahUKEwjIr6L2n5iYAxUjTTABHXt1HY0QFnoECA8QAQ&usg=AOvVaw3Bp1e6AeHOwgDcK7IuXWJc",
+          "date": "Sep 25, 2026",
+          "snippet": "Meta's Muse, the personal AI agent that books trips, makes ... Video unavailable. This content isn't available. Meta's Muse, the ..."
+        },
+        {
+          "position": 6,
+          "serp_title": "Meta Muse Video AI Video Generator - Try Online Now",
+          "displayed_link": "musevideo.ai",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESUgHEIkXXe3KzF2ecaXkOSvhPbwEiPfhtWYycN6Z3A_1blxhskxGpZZRJNq1Q3h85m8Z3mxLNbVOX72BLiiop82UguTF7th8PvpZ-TFIkhAZDYHQ&sa=U&uoh=3&ved=2ahUKEwjIr6L2n5iYAxUjTTABHXt1HY0QFnoECAwQAg&usg=AOvVaw2vjLOgbZxJgxx-HNwyTKaT",
+          "date": null,
+          "snippet": "Meta Muse Video is an online AI video generator for Meta Muse Video-style text-to-video and image-to-video drafts, with prompt controls, credits, ...",
+          "canonical_url_from_displayed_link": "https://musevideo.ai/"
+        },
+        {
+          "position": 7,
+          "serp_title": "Vibes: Generate free AI videos - Meta AI",
+          "displayed_link": "ai.meta.com › meta-ai › vibes",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESXwHEIkXXXN5hFyNvbn47-9KxBsSf7xGzjSRZxWyQY4PF0ADtrC1IH_zXUsqt_9EB8xigt2kfP-NELI1f-dX7QMV3x9DAHcZuljtyfpKIxUgbAsOid1hBPts-pIa-fZY7&sa=U&uoh=3&ved=2ahUKEwjIr6L2n5iYAxUjTTABHXt1HY0QFnoECAgQAg&usg=AOvVaw17zskkvdt3lehSiGJBymc0",
+          "date": null,
+          "snippet": "Vibes lets you bring your ideas to life through AI video creation. Experiment, edit, and share your creations with friends and followers."
+        },
+        {
+          "position": 8,
+          "serp_title": "Muse AI Video Generator FREE & Unlimited - YouTube",
+          "displayed_link": "www.youtube.com › watch",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESaAHEIkXXKt5Ke8jZQqildDfd5yon4HOzGC9UtLUz8WlQyngQ7BKRArOpjDY3Q_uO4IA9xsNSFOHjf5ZZvAql8mZ-BFrchYx3cmII8oQsgbU24lsA8mRe8YNF6HhP2y0IVylEg8D3v0Eu&sa=U&uoh=3&ved=2ahUKEwjIr6L2n5iYAxUjTTABHXt1HY0QFnoECAoQAQ&usg=AOvVaw2Nq3uYGWejXxrfo2eeSGFP",
+          "date": "Oct 3, 2026",
+          "snippet": "Create Muse AI videos in Filmora with prompts, motion, effects, and clean cuts — start today: https://filmora.go.link/2mTdP AI Video ..."
+        },
+        {
+          "position": 9,
+          "serp_title": "Meet Muse: Your Personal AI Agent That Handles Work For You | Meta",
+          "displayed_link": "www.facebook.com › Meta › Videos",
+          "raw_link": "https://www.google.com/url?opi=89978449&q=CAESxQEBxCJF12m1Z_RN-RlflcZvSV8JnKWvWWn48YIMWXlLZUwMuDIFXWsw-QGz5yblUziAtot6MnWghNn2SaN8lDL1Ae84dMjcCp-iPl9UVefVbxbxn3pgPki8beHednzJuZP_uQX-7I0cNqLOXyEsz3tIKuH55T3WiPpHlxZMU1HLHPpqXDA6lo1mGpYuZquF0Yt_iXunb72rYHnCSzQF7gFUJVEB0WKPKhHjrlxDLADpDlQe6fBpv8Ef_xF5L9Q2Fg9kQe35WA&sa=U&uoh=3&ved=2ahUKEwjIr6L2n5iYAxUjTTABHXt1HY0QFnoECAUQAQ&usg=AOvVaw1qpGKgRvcRdmCbnJa9GF5k",
+          "date": "Sep 14, 2026",
+          "snippet": "The video introduces Muse, a personal AI agent developed by Meta. The presenter explains how Muse integrates with a user's digital life to ..."
+        }
+      ]
+    }
+  ]
+}

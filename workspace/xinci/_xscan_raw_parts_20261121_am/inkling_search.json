@@ -1,0 +1,2166 @@
+{
+  "data": [
+    {
+      "author_id": "2032151681711161351",
+      "conversation_id": "2123958514423148742",
+      "created_at": "2026-11-21T01:55:45.000Z",
+      "edit_history_tweet_ids": [
+        "2123958514423148742"
+      ],
+      "id": "2123958514423148742",
+      "lang": "zh",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Thinking Machines 开源 Inkling 2 Mini：26.4B 参数，只激活 3.4B，原生 NVFP4。开源小模型这条线还在加速。",
+      "url": "https://x.com/KlofL91123/status/2123958514423148742"
+    },
+    {
+      "author_id": "383039929",
+      "conversation_id": "2123958342846390310",
+      "created_at": "2026-11-21T01:55:04.000Z",
+      "edit_history_tweet_ids": [
+        "2123958342846390310"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/PPj6VPkFvk",
+            "end": 303,
+            "expanded_url": "https://x.com/KevinDominRiq/status/2123958342846390310/photo/1",
+            "media_key": "3_2123958340254306304",
+            "start": 280,
+            "url": "https://t.co/PPj6VPkFvk"
+          }
+        ]
+      },
+      "id": "2123958342846390310",
+      "lang": "es",
+      "note_tweet": {
+        "text": "Thinking Machines publicó Inkling 2 Mini con pesos abiertos y licencia Apache 2.0: obtiene 20 en el Artificial Analysis Intelligence Index, igual que Qwen3.8 27B (xhigh), con unas 5 veces menos parámetros activos.\n\nAcepta texto e imágenes y ofrece 1 millón de tokens de contexto. Tiene 26B parámetros totales; sus 5.4B activos contabilizan tres pasadas por las capas recurrentes, con 3.1B pesos únicos usados por token de texto.\n\nEn las tareas del índice cuesta USD 0.59 y tarda 9 minutos, frente a USD 3.53 y 38.2 minutos de Qwen3.8 27B. Son resultados de esa evaluación, no tiempos garantizados para cualquier carga."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 8,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Thinking Machines publicó Inkling 2 Mini con pesos abiertos y licencia Apache 2.0: obtiene 20 en el Artificial Analysis Intelligence Index, igual que Qwen3.8 27B (xhigh), con unas 5 veces menos parámetros activos.\n\nAcepta texto e imágenes y ofrece 1 millón de tokens de contexto. https://t.co/PPj6VPkFvk",
+      "url": "https://x.com/KevinDominRiq/status/2123958342846390310"
+    },
+    {
+      "author_id": "1979465003557335040",
+      "conversation_id": "2123957917451739363",
+      "created_at": "2026-11-21T01:53:23.000Z",
+      "edit_history_tweet_ids": [
+        "2123957917451739363"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/thinkymachines…",
+            "end": 279,
+            "expanded_url": "https://x.com/thinkymachines/status/2123871643797995872",
+            "start": 256,
+            "url": "https://t.co/BTXRZsLTSl"
+          }
+        ]
+      },
+      "id": "2123957917451739363",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 11,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2123871643797995872",
+          "type": "quoted"
+        }
+      ],
+      "text": "A 26B model that thinks in loops and runs on a laptop.\n\nThinking Machines' Inkling 2 Mini: 24 layers, the middle 12 loop 3x. More reasoning, less output. 20.1 on AA Index, runs on 32GB Macs.\n\nMy take: the eval to watch is whether the loops stay readable.\n\nhttps://t.co/BTXRZsLTSl",
+      "url": "https://x.com/r2werks/status/2123957917451739363"
+    },
+    {
+      "author_id": "1720665183188922368",
+      "conversation_id": "2123930642043793868",
+      "created_at": "2026-11-21T01:51:58.000Z",
+      "edit_history_tweet_ids": [
+        "2123957562072510918"
+      ],
+      "entities": {
+        "mentions": [
+          {
+            "end": 12,
+            "id": "1116610601885716480",
+            "start": 0,
+            "username": "deeperflows"
+          },
+          {
+            "end": 22,
+            "id": "1682428283135336449",
+            "start": 13,
+            "username": "TeksEdge"
+          },
+          {
+            "end": 38,
+            "id": "1891523745929732096",
+            "start": 23,
+            "username": "thinkymachines"
+          }
+        ]
+      },
+      "id": "2123957562072510918",
+      "lang": "en",
+      "note_tweet": {
+        "text": "Dates are correct: Qwen3.8-27B weights August 14, Inkling 2 Mini November 20—98 days later. That interval is the time it took Thinking Machines to deliver a peer-scoring open model with their looped MoE design. No public target date was set, so the gap is simply what the engineering required. The result is impressive either way."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2123957417583182046",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@deeperflows @TeksEdge @thinkymachines Dates are correct: Qwen3.8-27B weights August 14, Inkling 2 Mini November 20—98 days later. That interval is the time it took Thinking Machines to deliver a peer-scoring open model with their looped MoE design. No public target date was set, so the gap is simply what the",
+      "url": "https://x.com/grok/status/2123957562072510918"
+    },
+    {
+      "author_id": "1560084428298326016",
+      "conversation_id": "2123957514056483001",
+      "created_at": "2026-11-21T01:51:47.000Z",
+      "edit_history_tweet_ids": [
+        "2123957514056483001"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/MpdwqRjKkb",
+            "end": 217,
+            "expanded_url": "https://x.com/JoraiLaurenceo/status/2123957514056483001/photo/1",
+            "media_key": "3_2123957438374125568",
+            "start": 194,
+            "url": "https://t.co/MpdwqRjKkb"
+          }
+        ]
+      },
+      "id": "2123957514056483001",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 19,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "🚨 Thinking Machines just released Inkling 2 Mini.\n\nThe lab says this open-weights model beats Qwen3.8-27B on DeepSWE, 48.2% to 42.2%, and runs on a laptop.\n\nCan Qwen hold the small model crown? https://t.co/MpdwqRjKkb",
+      "url": "https://x.com/JoraiLaurenceo/status/2123957514056483001"
+    },
+    {
+      "author_id": "1720665183188922368",
+      "conversation_id": "2123930642043793868",
+      "created_at": "2026-11-21T01:48:55.000Z",
+      "edit_history_tweet_ids": [
+        "2123956792023539999"
+      ],
+      "entities": {
+        "mentions": [
+          {
+            "end": 12,
+            "id": "1116610601885716480",
+            "start": 0,
+            "username": "deeperflows"
+          },
+          {
+            "end": 22,
+            "id": "1682428283135336449",
+            "start": 13,
+            "username": "TeksEdge"
+          },
+          {
+            "end": 38,
+            "id": "1891523745929732096",
+            "start": 23,
+            "username": "thinkymachines"
+          }
+        ]
+      },
+      "id": "2123956792023539999",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2123956672444133565",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@deeperflows @TeksEdge @thinkymachines Yes, confirmed. Qwen3.8-27B dropped August 14. Inkling 2 Mini shipped November 20—roughly 3 months and 6 days later. No public deadline existed for Thinking Machines to match it; the gap simply reflects their release cadence after Inkling 2 Small.",
+      "url": "https://x.com/grok/status/2123956792023539999"
+    },
+    {
+      "author_id": "1457969030170505222",
+      "conversation_id": "2123956146549747816",
+      "created_at": "2026-11-21T01:46:21.000Z",
+      "edit_history_tweet_ids": [
+        "2123956146549747816"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/Dankie/status/…",
+            "end": 187,
+            "expanded_url": "https://twitter.com/Dankie/status/2123956016966783084",
+            "start": 164,
+            "url": "https://t.co/5ttYdKv529"
+          }
+        ]
+      },
+      "id": "2123956146549747816",
+      "lang": "zh",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/dotey/status/2…",
+              "end": 779,
+              "expanded_url": "http://x.com/dotey/status/2123667995570413718",
+              "start": 756,
+              "url": "https://t.co/a1VJVS3z6c"
+            },
+            {
+              "display_url": "x.com/xiaohu/status/…",
+              "end": 936,
+              "expanded_url": "http://x.com/xiaohu/status/2123645210697884105",
+              "start": 913,
+              "url": "https://t.co/opY1in4aTn"
+            },
+            {
+              "display_url": "x.com/shao__meng/sta…",
+              "end": 1057,
+              "expanded_url": "http://x.com/shao__meng/status/2123582765727617061",
+              "start": 1034,
+              "url": "https://t.co/D3oqerDxtp"
+            },
+            {
+              "display_url": "Berryxia.AI",
+              "end": 1083,
+              "expanded_url": "http://Berryxia.AI",
+              "start": 1060,
+              "url": "https://t.co/D5PsHp3mDt"
+            },
+            {
+              "display_url": "x.com/berryxia/statu…",
+              "end": 1227,
+              "expanded_url": "http://x.com/berryxia/status/2123752216029008135",
+              "start": 1204,
+              "url": "https://t.co/5Yqw4UOgOw"
+            },
+            {
+              "display_url": "x.com/Gorden_Sun/sta…",
+              "end": 1374,
+              "expanded_url": "http://x.com/Gorden_Sun/status/2123796398927913237",
+              "start": 1351,
+              "url": "https://t.co/VpXrozMZZ0"
+            },
+            {
+              "display_url": "x.com/op7418/status/…",
+              "end": 1471,
+              "expanded_url": "http://x.com/op7418/status/2123760687877083240",
+              "start": 1448,
+              "url": "https://t.co/sJIxZi0C79"
+            },
+            {
+              "display_url": "x.com/FinanceYF5/sta…",
+              "end": 1619,
+              "expanded_url": "http://x.com/FinanceYF5/status/2123633684796608882",
+              "start": 1596,
+              "url": "https://t.co/HwbIifaioY"
+            },
+            {
+              "display_url": "x.com/hongming731/st…",
+              "end": 1787,
+              "expanded_url": "http://x.com/hongming731/status/2123928502265323669",
+              "start": 1764,
+              "url": "https://t.co/E8vOXxxDJy"
+            },
+            {
+              "display_url": "x.com/MinLiBuilds/st…",
+              "end": 1918,
+              "expanded_url": "http://x.com/MinLiBuilds/status/2123705734668103891",
+              "start": 1895,
+              "url": "https://t.co/gUC2f2M2qT"
+            },
+            {
+              "display_url": "x.com/Ryrenz/status/…",
+              "end": 2109,
+              "expanded_url": "http://x.com/Ryrenz/status/2123750462427943322",
+              "start": 2086,
+              "url": "https://t.co/pnjPvjZzsz"
+            },
+            {
+              "display_url": "x.com/lijigang/statu…",
+              "end": 2179,
+              "expanded_url": "http://x.com/lijigang/status/2123667853119258788",
+              "start": 2156,
+              "url": "https://t.co/vQoWlyewex"
+            },
+            {
+              "display_url": "x.com/geekbb/status/…",
+              "end": 2304,
+              "expanded_url": "http://x.com/geekbb/status/2123613309337559468",
+              "start": 2281,
+              "url": "https://t.co/AcTH0eUNBf"
+            },
+            {
+              "display_url": "x.com/Pluvio9yte/sta…",
+              "end": 2428,
+              "expanded_url": "http://x.com/Pluvio9yte/status/2123741373925036244",
+              "start": 2405,
+              "url": "https://t.co/XLLesAWm6i"
+            },
+            {
+              "display_url": "x.com/AxtonLiu/statu…",
+              "end": 2612,
+              "expanded_url": "http://x.com/AxtonLiu/status/2123770929641853410",
+              "start": 2589,
+              "url": "https://t.co/empwZDwd8K"
+            },
+            {
+              "display_url": "x.com/lxfater/status…",
+              "end": 2801,
+              "expanded_url": "http://x.com/lxfater/status/2123625468729413925",
+              "start": 2778,
+              "url": "https://t.co/33PM5wxn5C"
+            },
+            {
+              "display_url": "x.com/hylarucoder/st…",
+              "end": 2900,
+              "expanded_url": "http://x.com/hylarucoder/status/2123605956240216185",
+              "start": 2877,
+              "url": "https://t.co/SGG9zt5MOa"
+            },
+            {
+              "display_url": "x.com/HiTw93/status/…",
+              "end": 2998,
+              "expanded_url": "http://x.com/HiTw93/status/2123672926075732161",
+              "start": 2975,
+              "url": "https://t.co/DHK5493Rm7"
+            },
+            {
+              "display_url": "x.com/karminski3/sta…",
+              "end": 3170,
+              "expanded_url": "http://x.com/karminski3/status/2123757305040928792",
+              "start": 3147,
+              "url": "https://t.co/do0d2LviOa"
+            },
+            {
+              "display_url": "x.com/Jason_Young123…",
+              "end": 3287,
+              "expanded_url": "http://x.com/Jason_Young1231/status/2123635527002079647",
+              "start": 3264,
+              "url": "https://t.co/PbhmFKZ6n8"
+            },
+            {
+              "display_url": "x.com/oran_ge/status…",
+              "end": 3369,
+              "expanded_url": "http://x.com/oran_ge/status/2123582386395091186",
+              "start": 3346,
+              "url": "https://t.co/vIOngssuMV"
+            },
+            {
+              "display_url": "x.com/dongxi_nlp/sta…",
+              "end": 3519,
+              "expanded_url": "http://x.com/dongxi_nlp/status/2123916634725429603",
+              "start": 3496,
+              "url": "https://t.co/1eDcFFQAZT"
+            },
+            {
+              "display_url": "x.com/mattpocockuk/s…",
+              "end": 3692,
+              "expanded_url": "http://x.com/mattpocockuk/status/2123798388227403983",
+              "start": 3669,
+              "url": "https://t.co/LVGL8E7HMa"
+            },
+            {
+              "display_url": "x.com/theo/status/21…",
+              "end": 3784,
+              "expanded_url": "http://x.com/theo/status/2123619214061977920",
+              "start": 3761,
+              "url": "https://t.co/ALShbVU365"
+            },
+            {
+              "display_url": "x.com/GergelyOrosz/s…",
+              "end": 3942,
+              "expanded_url": "http://x.com/GergelyOrosz/status/2123795984002232634",
+              "start": 3919,
+              "url": "https://t.co/Ogd43glIhZ"
+            },
+            {
+              "display_url": "x.com/dhh/status/212…",
+              "end": 4040,
+              "expanded_url": "http://x.com/dhh/status/2123737508961730902",
+              "start": 4017,
+              "url": "https://t.co/6SibwxEZfH"
+            },
+            {
+              "display_url": "x.com/ThePrimeagen/s…",
+              "end": 4138,
+              "expanded_url": "http://x.com/ThePrimeagen/status/2123832369677238577",
+              "start": 4115,
+              "url": "https://t.co/hN5jRCWqXf"
+            },
+            {
+              "display_url": "x.com/thsottiaux/sta…",
+              "end": 4279,
+              "expanded_url": "http://x.com/thsottiaux/status/2123861214644347122",
+              "start": 4256,
+              "url": "https://t.co/CqUJDXUD6K"
+            },
+            {
+              "display_url": "x.com/amasad/status/…",
+              "end": 4381,
+              "expanded_url": "http://x.com/amasad/status/2123874539218010491",
+              "start": 4358,
+              "url": "https://t.co/4PrTchEg3T"
+            },
+            {
+              "display_url": "x.com/rauchg/status/…",
+              "end": 4531,
+              "expanded_url": "http://x.com/rauchg/status/2123869175085191298",
+              "start": 4508,
+              "url": "https://t.co/pbaL9122d1"
+            },
+            {
+              "display_url": "x.com/swyx/status/21…",
+              "end": 4662,
+              "expanded_url": "http://x.com/swyx/status/2123591875349422435",
+              "start": 4639,
+              "url": "https://t.co/5R572chBH4"
+            },
+            {
+              "display_url": "x.com/leerob/status/…",
+              "end": 4763,
+              "expanded_url": "http://x.com/leerob/status/2123845449413239273",
+              "start": 4740,
+              "url": "https://t.co/NwOi1cp4sP"
+            },
+            {
+              "display_url": "x.com/simonw/status/…",
+              "end": 4879,
+              "expanded_url": "http://x.com/simonw/status/2123808432830701909",
+              "start": 4856,
+              "url": "https://t.co/Xrytr8QhGs"
+            },
+            {
+              "display_url": "x.com/levelsio/statu…",
+              "end": 4973,
+              "expanded_url": "http://x.com/levelsio/status/2123920308126060726",
+              "start": 4950,
+              "url": "https://t.co/fxdB2Yc8JG"
+            },
+            {
+              "display_url": "x.com/HamelHusain/st…",
+              "end": 5044,
+              "expanded_url": "http://x.com/HamelHusain/status/2123825850332422230",
+              "start": 5021,
+              "url": "https://t.co/VT2CPIXn8z"
+            }
+          ]
+        },
+        "text": "Dank的 开发者日报 2026-11-21\n\n🚀 Anthropic 数论学家 Levent Alpöge 称与 Claude 完成了黎曼猜想和广义黎曼猜想的推演，并公开 Lean 代码供核对；Amjad 还提到同一天出现一份纯人工证明，想比较两者的优雅性（两份主张均未经证实）\n🧪 Theo 说 Gemini 4 Neon 已经好用到，该让把「更好用」做成这样的人去管 DeepMind；Axton 双盲测发现默认 Neon High 在难题上并不强，但开到 xhigh 就能反超 Carbon；Simon 则在问 Neon 是否部分任务优于 Carbon，以及 Argon 是不是已经退场\n🛠️ 铁锤人介绍开源 Skill app-store-compliance，收录 App Store 和 Google Play 的大量拒审规则，能在提审前先查出隐私清单、删号入口和 2026 年新规这类高危问题\n💻 Tibo 叫大家升级 ChatGPT 桌面应用，说更快、更简单、更好用；更新包括 Plus 可用 Space、界面重做、线程重建，页面和幻灯片更快，手机也能改 Page，Codex Remote 更稳\n📝 宝玉不同意 Lauren Tan 把功夫主要花在把最佳实践教给 Grok Bot，他认为模型已经比自己聪明，更该把目标和验收讲清楚，让 Agent 自己跑、自己把经验做成 Skill\n\n【AI资讯/翻译】\n\n→ 宝玉：评论 Lauren Tan 的自动化入门指南，Lauren 更强调把最佳实践教给 Grok Bot，让它像自己一样思考；宝玉觉得模型比自己聪明，也不局限于 Grok，所以更抓住目标和验收，中间步骤少干涉，让 Agent 先跑起来再改进，并把经验沉淀成 Skill、定期清理 https://t.co/a1VJVS3z6c\n→ 小互：介绍面向 Agent 的企业知识库 lumimax，先把资料编译成互相链接的知识再提问，他用英伟达六个季度共 40 份财报和 10 篇 RAG 论文试了几天，称可以跨文件提问、答案带出处、做冲突检测，还能通过 MCP 给 Codex、Claude 等调用 https://t.co/opY1in4aTn\n→ meng shao：推荐斯坦福 CS329Z Engineering AI Agents 第九讲，主题是用提示词还是改权重来优化 AI Agent（GEPA、GRPO），讲义和录像都已公开 https://t.co/D3oqerDxtp\n→ https://t.co/D5PsHp3mDt：在豆包工作和 WorkBuddy 上用同一模型和同一提示词做了对照，发现同一道题换平台账单能差出 1.7 倍，主要是积分单价和消耗量不同；他觉得真正能省钱的是给不同的活选对模型档位，轻活用便宜档，重活再上旗舰，而且这些优惠倍率目前是限时的 https://t.co/5Yqw4UOgOw\n→ Gorden Sun：称 Anthropic 数论学家 Levent Alpöge 与 Claude 合作完成了黎曼猜想及广义黎曼猜想的完整推演，不依赖未证实假设，并公开 14 个 Lean 压缩包供程序核对（作者自述/媒体报道，未经证实） https://t.co/VpXrozMZZ0\n→ 歸藏：转述 Anthropic 盘前跌到 87 美元，离 83 美元发行价不远，并说半导体也被带崩、当天全球市场都很惨（盘前行情，未经证实） https://t.co/sJIxZi0C79\n→ AI Will：介绍一套由 Gemini Hydrogen 驱动的开源 Antigravity 机器人插件，可安装校准机械臂、搭仿真环境并写动作程序；演示里 AI 从零写出程序部署到真实机械臂下国际象棋，每一步也由 Hydrogen 实时思考 https://t.co/HwbIifaioY\n→ ginobefun：BestBlogs 11-21 早报，精讲数学家称与 Claude 找到黎曼猜想证明并公开 Lean 代码、Linear 如何把智能体融入产品协作，以及 Stanford AI100 规模化时代报告，并收录混元 Hy4 正式版和 Spring AI 新版本等条目 https://t.co/E8vOXxxDJy\n\n【AI工具/实操】\n\n→ 实践哥 Li：再次演示开源实时换脸项目，一张照片在本地 GPU 上就能把自己变成马斯克、奥特曼或黄仁勋，不用训练，还能接 OBS 直播；脸是换上的，身体、衣服、动作和微表情还是他自己的 https://t.co/gUC2f2M2qT\n→ Ren：介绍北大图灵班出身、现就职小马智行的 Zijian Wang 开源的 awesome-competitive-olympiad-algorithms，收录他为 NOI、省队选拔和模拟赛出的原创题，每题有题面、C++ 标答和带复杂度分析的题解，讲义是中文，代码 MIT，题面和讲义 CC BY-NC-SA 4.0 不能商用 https://t.co/pnjPvjZzsz\n→ 李继刚：把产品归纳成过三关：先有人愿意用，再有人愿意花钱用，最后还要有更多人愿意花钱用 https://t.co/vQoWlyewex\n→ Geek：推荐 Firecrawl Local，称这是可在本地抓网页并转成 Markdown 的轻量版，能在电脑上起本地 v2 API，还可一键接到 Claude Code、Cursor 等客户端 https://t.co/AcTH0eUNBf\n→ 雪踏乌云：根据一份安全报告做了速览，称攻击正在绕开正面防线，转向第三方供应链、LiteLLM 这类 AI 中间件，以及用 Solana 备忘录做 C2 来躲封锁，并提醒有公网服务的人关注这类风险 https://t.co/XLLesAWm6i\n→ Axton：花了十多个小时给 Gemini 4 全部六个档位做双盲实测，发现菜单默认的 Neon High 在三道难题里排在中后，但开到 xhigh 就能反超顶配 Carbon；他的建议是简单看图用 Hydrogen，日常用默认 Neon High，求稳用 Orchestrator，扛重活用 Neon XHigh https://t.co/empwZDwd8K\n\n【程序员/开发】\n\n→ 铁锤人：介绍开源 Skill app-store-compliance，称已接近 2000 星，收录 App Store 和 Google Play 的 123 条拒审规则，能在提交前查出缺少隐私清单、没有删号入口，以及把用户数据发给外部 AI 却没弹授权这类 2026 年新规，并给出对官方条款的改法 https://t.co/33PM5wxn5C\n→ 海拉鲁编程客：摸索一天后认为，在 Antigravity 里可以无脑选 Orchestrator（Neon）加 /swarm，能省掉大量试错时间 https://t.co/SGG9zt5MOa\n→ Tw93：开源 Markdown 笔记本妙言补上了 iPhone 和 iPad 版，原生 Swift，并从 2020 年累计发了 61 个版本 https://t.co/DHK5493Rm7\n→ karminski-牙医：用 Qwen4-Max 做了抓取 Hugging Face 开放权重榜单的嵌入式程序，还做了 3 渲 2 的 AI 日历；他认为相比 Qwen3.8-Max 提升很大，前端和 Agent 能力明显，后端 Agentic Coding 测完觉得还有说法，细节在视频里 https://t.co/do0d2LviOa\n→ Jason Young：CC Switch 新版增加了对 Claude Code、Codex、Grok Build、MiniMax Code、OpenClaw 和 Pi 的插件管理 https://t.co/PbhmFKZ6n8\n\n【产品/创业】\n\n→ Orange AI：转了一句金句，说 AI 是最强大的学习工具，也是最强大的逃避学习的工具 https://t.co/vIOngssuMV\n\n【研究/模型】\n\n→ Dongxi 东锡 NLP：转发 Thinking Machines 发布的 Inkling 2 Mini，称这是 26B 的 looped transformer，对标 Qwen3.8-27B，并把它看作美国开放模型的新希望 https://t.co/1eDcFFQAZT\n\n【英文开发者】\n\n→ Matt Pocock：发了一条长提示词，让模型把代码注释分成套话、开脱、过时和决策记录，前三类删掉（开脱还要开 issue 修掉凑合实现），决策记录搬进 ADR，再加禁止乱写注释的 lint 和可复用的 /delete-comment skill；他自己的结论是注释有害 https://t.co/LVGL8E7HMa\n→ Theo：说负责把 Gemini 4 Neon 做得更好用的人，该去掌管 DeepMind，觉得他们在好用这件事上已经拉开很大差距 https://t.co/ALShbVU365\n→ Gergely Orosz：有人质疑 Anthropic 年费 200 美元的 Pro 套餐，自己却用掉了按量计价约 10 万美元的 16B token；他解释读 KV cache 非常便宜，投机解码也能提高会话效率，而编程场景大量用到这两点，所以推理其实很赚钱 https://t.co/Ogd43glIhZ\n→ DHH：上了丹麦国家电视台，主张让黄仁勋回归是合理的；他认为欧洲担心「科技权力」是误会，这不是黄仁勋偷来的，而是为英伟达干了 33 年攒下来的 https://t.co/6SibwxEZfH\n→ ThePrimeagen：觉得一类把还在手写代码的人写成出于不安全感和幼稚的视频非常俯视，制作方把自己当成无所不知的螳螂，这种高高在上让他难受 https://t.co/hN5jRCWqXf\n→ Tibo：转发 ChatGPT 团队更新并让大家升级桌面应用，称更快、更简单、更好用；更新包括 Plus 可用 Space、视觉更简洁、全面提速、线程重做、页面和幻灯片更快，手机上也能改 Page，Codex Remote 更稳 https://t.co/CqUJDXUD6K\n→ Amjad Masad：同一天出现一份有 AI 参与、一份纯人工的黎曼猜想证明，他说如果两边都成立，会很想看它们在优雅性上的差别（两份主张均未经证实） https://t.co/4PrTchEg3T\n→ Guillermo Rauch：称 ISO 42001:2023 相当于 AI 领域的 SOC2，是首个关于企业如何构建、评估、监控和治理 AI 系统的全球独立审计标准，并说在 Vercel 上使用其 AI 时，基础设施会由获认可的第三方每年审计 https://t.co/pbaL9122d1\n→ swyx：带着嘲讽说，你可以先喊「达到 SOTA 的机会已经为零」赚一波赞，三个月后对方真做到了再发道歉又能赚一波，被写的团队甚至把文章打印出来当激励；他觉得这种不准确几乎没有代价，而 X 的算法还在奖励夸张 https://t.co/5R572chBH4\n→ Lee Robinson：说过去两年工程师经历的变革，已经从软件轮到数学，接下来会落到几乎所有用电脑的工作上；他认为模型已经够聪明，现在该产品跟上了 https://t.co/NwOi1cp4sP\n→ Simon Willison：问 Gemini 4 Neon 是否在部分任务上比 Carbon 更好，以及官方 Neon 发布对比图里没有 Argon，是不是实际上已经把它退场了 https://t.co/Xrytr8QhGs\n→ levelsio：在此前那份 AI 刷回复账号名单之外，又加了开放的举报接口，先由他的 AI 初审，他自己再复核，确认后再加入拉黑名单 https://t.co/fxdB2Yc8JG\n→ Hamel Husain：看到一套评测做法后说非常高兴，强调做评测时，好过程远比工具重要 https://t.co/VT2CPIXn8z"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 188,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2123956016966783084",
+          "type": "quoted"
+        }
+      ],
+      "text": "Dank的 开发者日报 2026-11-21\n\n🚀 Anthropic 数论学家 Levent Alpöge 称与 Claude 完成了黎曼猜想和广义黎曼猜想的推演，并公开 Lean 代码供核对；Amjad 还提到同一天出现一份纯人工证明，想比较两者的优雅性（两份主张均未经证实）\n🧪 Theo 说 Gemini 4 Neon https://t.co/5ttYdKv529",
+      "url": "https://x.com/Dankie/status/2123956146549747816"
+    },
+    {
+      "author_id": "1457969030170505222",
+      "conversation_id": "2123956016966783084",
+      "created_at": "2026-11-21T01:45:50.000Z",
+      "edit_history_tweet_ids": [
+        "2123956016966783084"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/Reuters/status…",
+            "end": 202,
+            "expanded_url": "https://x.com/Reuters/status/2123598909771571245",
+            "start": 179,
+            "url": "https://t.co/EkyznuDF62"
+          }
+        ]
+      },
+      "id": "2123956016966783084",
+      "lang": "zh",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 705,
+              "id": "1953337039510003712",
+              "start": 694,
+              "username": "thsottiaux"
+            },
+            {
+              "end": 1897,
+              "id": "2832427459",
+              "start": 1890,
+              "username": "poteto"
+            },
+            {
+              "end": 1922,
+              "id": "2832427459",
+              "start": 1915,
+              "username": "poteto"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "x.com/OpenAI/status/…",
+              "end": 677,
+              "expanded_url": "https://x.com/OpenAI/status/2123862344422088794",
+              "start": 654,
+              "url": "https://t.co/4RwHagDUOU"
+            },
+            {
+              "display_url": "x.com/thsottiaux/sta…",
+              "end": 812,
+              "expanded_url": "https://x.com/thsottiaux/status/2123861214644347122",
+              "start": 789,
+              "url": "https://t.co/b39sHPcoWx"
+            },
+            {
+              "display_url": "x.com/OpenAI/status/…",
+              "end": 1237,
+              "expanded_url": "https://x.com/OpenAI/status/2123856316187975756",
+              "start": 1214,
+              "url": "https://t.co/V1S6uSIZvm"
+            },
+            {
+              "display_url": "x.com/ChatGPT/status…",
+              "end": 1691,
+              "expanded_url": "https://x.com/ChatGPT/status/2123850912867471807",
+              "start": 1668,
+              "url": "https://t.co/37d0v4vez4"
+            },
+            {
+              "display_url": "x.com/AnthropicAI/st…",
+              "end": 1887,
+              "expanded_url": "https://x.com/AnthropicAI/status/2123822989154369958",
+              "start": 1864,
+              "url": "https://t.co/i1JgJ9ylsR"
+            },
+            {
+              "display_url": "x.com/poteto/status/…",
+              "end": 2085,
+              "expanded_url": "https://x.com/poteto/status/2123824683862855898",
+              "start": 2062,
+              "url": "https://t.co/wNLoayPZTy"
+            },
+            {
+              "display_url": "x.com/HomelandGOP/st…",
+              "end": 2630,
+              "expanded_url": "https://x.com/HomelandGOP/status/2123793315178983626",
+              "start": 2607,
+              "url": "https://t.co/TehvwKGrFU"
+            },
+            {
+              "display_url": "x.com/thinkymachines…",
+              "end": 3237,
+              "expanded_url": "https://x.com/thinkymachines/status/2123871643797995872",
+              "start": 3214,
+              "url": "https://t.co/cBZLCmkzBq"
+            },
+            {
+              "display_url": "x.com/Reuters/status…",
+              "end": 3531,
+              "expanded_url": "https://x.com/Reuters/status/2123598909771571245",
+              "start": 3508,
+              "url": "https://t.co/EkyznuDF62"
+            }
+          ]
+        },
+        "text": "Dank的 AI日报 2026-11-21\n\n要点\n\n🪐 ChatGPT Space 已向 18 岁及以上的 Plus 用户全球推送，可协作编辑页面和幻灯片，并按已连接的应用自动更新\n🛡️ OpenAI 发布对抗蒸馏研究，官方内部评测称 GPT-6.2 Astra 的受保护推理被提取成功率从 54.0% 降到 0.2%\n🧪 OpenAI 发布药物化学基准 MedChemBench，官方称 GPT-6.2 Astra 在 xhigh 设定下得到 84.5% 的分数\n💻 Thinking Machines 发布可在笔记本上运行的开源权重模型 Inkling 2 Mini\n📋 美国众议院国土安全委员会与对华特别委员会发布报告，关注美企使用中国开源权重模型，并呼吁将其移出联邦系统\n\n【OpenAI / ChatGPT / Codex】\n\n→ OpenAI 发布官方博客，介绍如何应对针对其模型的对抗蒸馏，以及如何检测和打断有组织的提取尝试。官方称，对抗蒸馏可能让人在未继承原有安全防护的情况下复现前沿能力；他们加强了对受保护推理（模型内部思维链）的防护，并在 GPT-6.2 Astra 和 GPT-6.2 Sol 上做了更新。官方内部自适应黑盒评测写明，从先前请求中提取受保护推理的平均攻击成功率，在 GPT-6 Astra 原有防护下为 54.0%，在 GPT-6.2 Astra 更新后的防护下为 0.2%；从当前请求中提取则为 22.9% 降至 0.9%。以上数字来自官方内部评测，不是独立复现。 https://t.co/4RwHagDUOU\n→ OpenAI 的 Tibo（@thsottiaux）发帖提醒用户升级桌面应用，称它更快、更简单、也更好用。以上是他本人的说法。官方当天的更新说明只写了 Space 向 Plus 用户推送，没有另列桌面应用的性能改动。 https://t.co/b39sHPcoWx\n→ OpenAI 发布 MedChemBench，这是一个面向药物化学推理的基准，用来测试模型能否把分子结构与实验证据联系起来，解释结果、比较化合物并预测性质。官方写明，该基准有 99 道题，来自 117 篇论文和专利，涵盖 761 个不同分子结构。在 xhigh 推理设定下，官方给出的分数是：GPT-6.2 Astra 84.5%，GPT-6 Astra 83.3%，GPT-6.1 Sol 82.0%，GPT-5.6 Sol 58.2%。官方还写明，结构还原一项上 Astra 在 xhigh 设定下得到 95.4% 的分数，但在选择化合物和预测数值性质上大约只拿到一半分数。官方同时写明，这些结果不能说明模型能否发现新药或改善实验室决策；不能排除模型事先见过这些已发表材料，每次作答也只是单次尝试，没有工具、反馈或新实验。该基准只评测了 OpenAI 自己的模型，不是与其他实验室的独立对比。 https://t.co/V1S6uSIZvm\n→ OpenAI 官方 ChatGPT 账号宣布，向 Plus 用户推出 Space，可与他人一起在 ChatGPT 里协作制作互动页面、幻灯片和站点，并可由 ChatGPT 自动更新。官方更新说明写明，Space 即日起向全球 18 岁及以上的 Plus 用户推送；可邀请同样拥有 Space 权限的人一起编辑，页面和幻灯片也可按已连接的应用和工具自动更新；打开共享页面或演示文稿需要查看权限，并登录已开通 Space 的 Plus、Pro、Business 或 Enterprise 账号，Free 用户打不开，也没有公开链接。Space 会取代侧栏里的 Library，可在网页、桌面应用以及 iOS 和 Android 上创建和编辑页面。官方帮助中心还写明，这次是向符合条件的 Plus 账户逐步推送，桌面应用需更新到最新版，若仍看不到，可能是该账户尚未开通；有加拿大或阿联酋数据驻留的 Enterprise 和 Business 工作区将稍后提供。 https://t.co/37d0v4vez4\n\n【Anthropic / Claude】\n\n→ Anthropic 官方发布了一段视频，由联合创始人 Dario Amodei、Daniela Amodei、Tom Brown、Jack Clark、Jared Kaplan、Sam McCandlish 和 Chris Olah 讲述公司迄今的历程。官方帖除名单和这句说明外没有更多文字。 https://t.co/i1JgJ9ylsR\n\n【@poteto】\n\n→ Grok Bot 负责人 @poteto 宣布 pstack v0.15.46：技能做了大量精简，现在短了不少；并把 Gemini 4 Neon 加进了 panel reviewer。她说 Grok Bot 和 Cursor 用户会自动更新；若要改模型路由，再跑一次 /setup-pstack。以上均为她本人的说明。 https://t.co/wNLoayPZTy\n\n【DeepSeek / Kimi / GLM】\n\n→ 美国众议院国土安全委员会主席 Andrew R. Garbarino 与对华特别委员会主席 John Moolenaar 发布联合调查报告，呼吁把中国开发的开源权重模型移出联邦系统和高风险关键基础设施。委员会官方新闻稿写明，今年 4 月启动的调查联系了三家美国公司：Airbnb（在客服中使用阿里巴巴模型）、Anysphere（其 Cursor 编码平台的旗舰自有模型建立在月之暗面的基座模型上），以及 DoorDash（称已授权并部署多个中国模型家族）。CNBC 报道称，报告写明 Cursor 已向委员会表示，将因地缘政治风险考虑逐步停用中国开源权重模型，并称 Composer 2 基于月之暗面的 Kimi K2.5，SpaceX 已于今年 8 月以约 600 亿美元的隐含股权价值完成对 Cursor 的收购；Cursor、SpaceX 和 DoorDash 未回应 CNBC 的置评请求，Airbnb 拒绝置评。委员会新闻稿仍使用 Anysphere / Cursor 的表述，未在新闻稿正文中写明这项收购。马斯克随后在回复中说“我们没有在提供开源模型”，这是他本人的说法。 https://t.co/TehvwKGrFU\n\n【其他】\n\n→ Thinking Machines 官方发布 Inkling 2 Mini，称这是一个可在笔记本上运行的循环 Transformer：中间层对每个 token 跑三遍，开源权重，已在 Tinker 和 Hugging Face 上提供。官方写明，总参数 264 亿，激活 34 亿，计入循环后每个 token 的权重激活为 54 亿，显存约 20GB；官方称它在 DeepSWE v1.1（48.2%）和 Vals Index v2.2（46.5%）上领先所有总参数不足 1000 亿的开源权重模型，但评测设置因模型而异。官方还写明了限制：多轮对话和多约束指令不是它的强项，MultiChallenge 为 50.0%，ComplexConstraints v1.1 为 33.4%，两项都落后于 Qwen3.8-27B。官方账号称其 Artificial Analysis Intelligence Index 为 20.1；独立评测机构 Artificial Analysis 写明该模型在该指数上为 20，总参数 260 亿、计入三遍循环后激活 54 亿，每文本 token 的独立权重 31 亿，Apache 2.0 许可，支持文本和图像输入，上下文 100 万 token。以上基准分数除 AA 指数外均为官方或 AA 各自公布的数字。 https://t.co/cBZLCmkzBq\n→ 路透社报道，美国众议院外交事务委员会表示，特朗普政府在 2025 年 12 月至 2026 年 5 月期间，批准了近 90 万颗英伟达和 AMD 先进 AI 芯片对华发货许可。路透社援引委员会材料还写明，商务部批准的许可约为 87.9 万颗，其中阿里巴巴 7.5 万、腾讯 15 万、百度 4.3 万、比亚迪 4000，这些公司都在五角大楼所列的中国军方相关企业名单上；企业同期申请总量超过 340 万颗，涉及英伟达 H200 和 AMD MI325X，但有多少许可最终完成实际出货尚不清楚。以上数字来自路透社对委员会披露材料的报道。 https://t.co/EkyznuDF62"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 270,
+        "like_count": 0,
+        "quote_count": 1,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2123598909771571245",
+          "type": "quoted"
+        }
+      ],
+      "text": "Dank的 AI日报 2026-11-21\n\n要点\n\n🪐 ChatGPT Space 已向 18 岁及以上的 Plus 用户全球推送，可协作编辑页面和幻灯片，并按已连接的应用自动更新\n🛡️ OpenAI 发布对抗蒸馏研究，官方内部评测称 GPT-6.2 Astra 的受保护推理被提取成功率从 54.0% 降到 0.2%\n🧪 OpenAI 发布药物化学基准 https://t.co/EkyznuDF62",
+      "url": "https://x.com/Dankie/status/2123956016966783084"
+    },
+    {
+      "author_id": "1810527764556271616",
+      "conversation_id": "2123955975023460377",
+      "created_at": "2026-11-21T01:45:40.000Z",
+      "edit_history_tweet_ids": [
+        "2123955975023460377"
+      ],
+      "id": "2123955975023460377",
+      "lang": "zh",
+      "note_tweet": {
+        "text": "本地大模型玩家又多了一个值得折腾的新玩具。Thinking Machines Lab刚放出了Inkling 2 Mini，主打给个人电脑本地部署，最大亮点是用上了循环Looped架构，靠循环跑层的小技巧，把26B参数的模型压缩到每个Token只有3B活跃参数在跑。\n\n这相当于用极小的显存开销换来了大模型的容量，还直接塞进了1M的上下文窗口，并且支持图文多模态。官方打包了NVFP4和MXFP8的混合精度，连DSpark推测解码都给做好了，实测手感至少能对标Qwen 3.8 27B。\n\n最爽的是开源生态跟进极快，发布第一天就直接打通了Llama.cpp、MLX和SGLang，用Mac或者单张消费级显卡的用户基本可以开箱即用。本地轻量模型现在卷架构创新越来越有看头了。"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 24,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "本地大模型玩家又多了一个值得折腾的新玩具。Thinking Machines Lab刚放出了Inkling 2 Mini，主打给个人电脑本地部署，最大亮点是用上了循环Looped架构，靠循环跑层的小技巧，把26B参数的模型压缩到每个Token只有3B活跃参数在跑。",
+      "url": "https://x.com/AshleyTorr79932/status/2123955975023460377"
+    },
+    {
+      "author_id": "3014177646",
+      "conversation_id": "2123955827560341990",
+      "created_at": "2026-11-21T01:45:05.000Z",
+      "edit_history_tweet_ids": [
+        "2123955827560341990"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/cq42xO5j7e",
+            "end": 211,
+            "expanded_url": "https://x.com/OLDPANN/status/2123955827560341990/photo/1",
+            "media_key": "3_2123955240773070848",
+            "start": 188,
+            "url": "https://t.co/cq42xO5j7e"
+          },
+          {
+            "display_url": "x.com/UnslothAI/stat…",
+            "end": 235,
+            "expanded_url": "https://twitter.com/UnslothAI/status/2123873656069877899",
+            "start": 212,
+            "url": "https://t.co/jRyLMYmxde"
+          }
+        ]
+      },
+      "id": "2123955827560341990",
+      "lang": "zh",
+      "note_tweet": {
+        "text": "Thinking Machines 最新发布 Inkling 2 Mini，一个仅 26.4B 总参数、5.4B 激活参数的开源多模态 MoE 模型，原生支持 1M 上下文。\n\n最大亮点是采用 Looped Transformer，通过重复计算共享层，以更少参数换取更强推理能力。同时采用原生 FP4 训练、专家剪枝和 RL 优化，权重仅约 20GB，单张 RTX 5090 即可部署。\n\n性能上，综合能力接近 Qwen3.8-27B，但仍落后于 Qwen3.8-Flash-Next。 后者在 DeepSWE、SWE-bench Multilingual 等测试中领先约 7～11 个百分点。\n\n不过，独立评测显示，Inkling 2 Mini 的任务完成速度约为 Flash-Next 的 3.7 倍。它真正的竞争力是：更小的模型、更低的部署门槛，以及相当不错的推理能力。"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 31,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2123873656069877899",
+          "type": "quoted"
+        }
+      ],
+      "text": "Thinking Machines 最新发布 Inkling 2 Mini，一个仅 26.4B 总参数、5.4B 激活参数的开源多模态 MoE 模型，原生支持 1M 上下文。\n\n最大亮点是采用 Looped Transformer，通过重复计算共享层，以更少参数换取更强推理能力。同时采用原生 FP4 训练、专家剪枝和 RL 优化，权重仅约 20GB，单张 RTX 5090 https://t.co/cq42xO5j7e https://t.co/jRyLMYmxde",
+      "url": "https://x.com/OLDPANN/status/2123955827560341990"
+    },
+    {
+      "author_id": "9917742",
+      "conversation_id": "2123955638728540412",
+      "created_at": "2026-11-21T01:44:20.000Z",
+      "edit_history_tweet_ids": [
+        "2123955638728540412"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/Cp2SaUphIJ",
+            "end": 197,
+            "expanded_url": "https://x.com/yueke/status/2123955638728540412/photo/1",
+            "media_key": "16_2123955433526149121",
+            "start": 174,
+            "url": "https://t.co/Cp2SaUphIJ"
+          }
+        ]
+      },
+      "id": "2123955638728540412",
+      "lang": "zh",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 19,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "不用上云，笔记本就能跑。Thinking Machines发布开放权重模型Inkling 2 Mini：26.4B总参数的混合专家模型，每步只激活3.4B，中间层循环三遍，内存约20GB。官方称在不足100B的开源权重模型中，DeepSWE v1.1和Vals Index v2.2都排第一。研究员曾在航班上离线运行，几分钟写出可玩的飞行模拟器。 https://t.co/Cp2SaUphIJ",
+      "url": "https://x.com/yueke/status/2123955638728540412"
+    },
+    {
+      "author_id": "886036160874663936",
+      "conversation_id": "2123955388810752056",
+      "created_at": "2026-11-21T01:43:20.000Z",
+      "edit_history_tweet_ids": [
+        "2123955388810752056"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/abO2ciSEqg",
+            "end": 297,
+            "expanded_url": "https://x.com/just_v3ra/status/2123955388810752056/photo/1",
+            "media_key": "3_2123955355864399872",
+            "start": 274,
+            "url": "https://t.co/abO2ciSEqg"
+          },
+          {
+            "display_url": "x.com/thinkymachines…",
+            "end": 321,
+            "expanded_url": "https://twitter.com/thinkymachines/status/2123871643797995872",
+            "start": 298,
+            "url": "https://t.co/dVS595uHY5"
+          }
+        ]
+      },
+      "id": "2123955388810752056",
+      "lang": "en",
+      "note_tweet": {
+        "text": "Got a Mac with 32GB of memory? Run \"ollama run inkling-2-mini\" today. It's a 20GB download of Thinking Machines' new open model (Apache 2.0, 1M context), and they say it beats every open model under 100B parameters on DeepSWE.\n\nOne tip from the model card: it can get stuck re-checking its own work while debugging. Cap output tokens and agent turns before you hand it a repo.\n\n• Tencent opened the Hy4 weights: 770B total, 49B active, 1M context. Read the license first: past $50M a year in revenue or 100M monthly users, you need a separate deal with Tencent. Internal-only use is exempt.\n• Anthropic mathematician Levent Alpöge says he and Claude found a proof of the Riemann Hypothesis. He posted it as Lean files only, and people are checking them in public on the Lean Zulip. It's a claim until that's done.\n\nWould you run a 26B model locally for coding, or stay on the API?"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 20,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2123871643797995872",
+          "type": "quoted"
+        }
+      ],
+      "text": "Got a Mac with 32GB of memory? Run \"ollama run inkling-2-mini\" today. It's a 20GB download of Thinking Machines' new open model (Apache 2.0, 1M context), and they say it beats every open model under 100B parameters on DeepSWE.\n\nOne tip from the model card: it can get stuck https://t.co/abO2ciSEqg https://t.co/dVS595uHY5",
+      "url": "https://x.com/just_v3ra/status/2123955388810752056"
+    },
+    {
+      "author_id": "1462359224030167041",
+      "conversation_id": "2123955385660854467",
+      "created_at": "2026-11-21T01:43:19.000Z",
+      "edit_history_tweet_ids": [
+        "2123955385660854467"
+      ],
+      "entities": {
+        "hashtags": [
+          {
+            "end": 140,
+            "start": 135,
+            "tag": "开源模型"
+          },
+          {
+            "end": 145,
+            "start": 141,
+            "tag": "TML"
+          }
+        ],
+        "urls": [
+          {
+            "description": "Inkling 2 Mini is an open-weights model small enough to run on your laptop. It loops its middle layers to reason more per token and reach answers in fewer tokens.",
+            "display_url": "thinkingmachines.ai/news/inkling-2…",
+            "end": 171,
+            "expanded_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+            "images": [
+              {
+                "height": 1260,
+                "url": "https://pbs.twimg.com/news_img/2123870057893916672/VsS3rhKG?format=png&name=orig",
+                "width": 2400
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2123870057893916672/VsS3rhKG?format=png&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 148,
+            "status": 200,
+            "title": "Introducing Inkling 2 Mini",
+            "unwound_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+            "url": "https://t.co/4JCQ9QLP3Z"
+          }
+        ]
+      },
+      "id": "2123955385660854467",
+      "lang": "zh",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Thinking Machines 发了 Inkling 2 Mini：26.4B 参数的 MoE，中间 12 层每 token 跑三遍，整机只有约 20GB，MacBook 就能离线跑。DeepSWE 48.2%，同体量开源权重里排第一，Apache 2.0 开源。 #开源模型 #TML 🔗 https://t.co/4JCQ9QLP3Z",
+      "url": "https://x.com/FengIves/status/2123955385660854467"
+    },
+    {
+      "author_id": "1720665183188922368",
+      "conversation_id": "2123930642043793868",
+      "created_at": "2026-11-21T01:42:39.000Z",
+      "edit_history_tweet_ids": [
+        "2123955218333180316"
+      ],
+      "entities": {
+        "mentions": [
+          {
+            "end": 12,
+            "id": "1116610601885716480",
+            "start": 0,
+            "username": "deeperflows"
+          },
+          {
+            "end": 22,
+            "id": "1682428283135336449",
+            "start": 13,
+            "username": "TeksEdge"
+          },
+          {
+            "end": 38,
+            "id": "1891523745929732096",
+            "start": 23,
+            "username": "thinkymachines"
+          }
+        ]
+      },
+      "id": "2123955218333180316",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2123955049403416933",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@deeperflows @TeksEdge @thinkymachines No delay on Inkling itself. Qwen3.8-27B weights dropped Aug 14. Inkling 2 Mini shipped Nov 20. That's ~3 months later, not a missed deadline for Thinking Machines. Different models, different release cadences.",
+      "url": "https://x.com/grok/status/2123955218333180316"
+    },
+    {
+      "author_id": "2110317221830639616",
+      "conversation_id": "2123954850669195300",
+      "created_at": "2026-11-21T01:41:12.000Z",
+      "edit_history_tweet_ids": [
+        "2123954850669195300"
+      ],
+      "id": "2123954850669195300",
+      "lang": "zh",
+      "note_tweet": {
+        "text": "不懂就问🤔\n\nThinking Machines 的 Inkling 2 Mini 出 GGUF 版了，26.4B 总参数、每次只激活 3.4B，100 万 token 上下文，SWE-bench Verified 干到 79.2% 📊\n\n最香的是本地能跑，IQ4_NL 量化版只要 16.4GB，24GB 显存的显卡就能带起来 💻\n\n而且还是 Apache 2.0 开源，Ollama、llama.cpp 都能直接用 🛠️\n\n你会为了在本地跑模型，专门去配一张大显存显卡吗？"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 19,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "不懂就问🤔\n\nThinking Machines 的 Inkling 2 Mini 出 GGUF 版了，26.4B 总参数、每次只激活 3.4B，100 万 token 上下文，SWE-bench Verified 干到 79.2% 📊\n\n最香的是本地能跑，IQ4_NL 量化版只要 16.4GB，24GB 显存的显卡就能带起来 💻\n\n而且还是 Apache 2.0 开源，Ollama、llama.cpp 都能直接用 🛠️",
+      "url": "https://x.com/OnyxBuilds_666/status/2123954850669195300"
+    },
+    {
+      "author_id": "2119240746310205440",
+      "conversation_id": "2123954445600133220",
+      "created_at": "2026-11-21T01:39:35.000Z",
+      "edit_history_tweet_ids": [
+        "2123954445600133220"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/slBNSjIA2l",
+            "end": 262,
+            "expanded_url": "https://x.com/nhitruongx/status/2123954445600133220/photo/1",
+            "media_key": "3_2123954443616182272",
+            "start": 239,
+            "url": "https://t.co/slBNSjIA2l"
+          }
+        ]
+      },
+      "id": "2123954445600133220",
+      "lang": "vi",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Chạy AI đọc ảnh và văn bản ngay trên máy cá nhân 🖥️\n\nInkling 2 Mini từ Thinking Machines Lab hỗ trợ ngữ cảnh 1M token, dùng để xử lý tài liệu dài 📄\n\nCó sẵn hỗ trợ Llama App và MLX 🛠️\n\nAi thích AI local thì lưu lại nhé 📌\n\ncre: Hugging Face https://t.co/slBNSjIA2l",
+      "url": "https://x.com/nhitruongx/status/2123954445600133220"
+    },
+    {
+      "author_id": "9473032",
+      "conversation_id": "2123953844669522047",
+      "created_at": "2026-11-21T01:37:12.000Z",
+      "edit_history_tweet_ids": [
+        "2123953844669522047"
+      ],
+      "entities": {
+        "hashtags": [
+          {
+            "end": 145,
+            "start": 140,
+            "tag": "本地模型"
+          }
+        ]
+      },
+      "id": "2123953844669522047",
+      "lang": "zh",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 13,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "26B 参数的大模型，你的笔记本就能跑。Thinking Machines Lab 发布 Inkling 2 Mini，一个 260 亿参数的循环 Transformer，号称在消费级笔记本上就能跑。不用租云端 GPU，不用把数据传出去，小模型正在把 AI 从数据中心搬回你桌上。#本地模型",
+      "url": "https://x.com/sz_hk_bkk/status/2123953844669522047"
+    },
+    {
+      "author_id": "336430573",
+      "conversation_id": "2123953730412269598",
+      "created_at": "2026-11-21T01:36:45.000Z",
+      "edit_history_tweet_ids": [
+        "2123953730412269598"
+      ],
+      "id": "2123953730412269598",
+      "lang": "zh",
+      "note_tweet": {
+        "text": "Thinking Machines 开放了 Inkling 2 Mini 权重，Apache 2.0 协议，完整细节在 Thinking Machines 官方博客、Hugging Face 模型卡和 Hugging Face 博客。总参数 26.4B，激活 3.4B，24 层 MoE，每层 128 个专家选 8 个，支持 1M 上下文和图文输入。官方给的分数是 DeepSWE v1.1 48.2%、Vals Index v2.2 46.5%，目前还在等独立审核。\n\n24 层按每块 6 层拆成四块。首尾两块各跑一次，中间 12 层（第 6–17 层）共享权重跑三遍，每个 token 共 48 次层计算。第 2、3 遍都从第一块的输出重新开始，用 rank-64 门控把上一遍的 message 混进 q/k/v 和专家输入。训练初期门控完全屏蔽 message，之后逐步放开，用来稳定引入循环。每多一遍约增加 1.0B 等效激活参数，三遍合计 5.4B。\n\n权重主体是 NVFP4，最后四层 MXFP8，单个 checkpoint 约 20GB。模型卡给的硬件要求是 32GB 以上内存的 Apple silicon、32GB 以上显存的 GPU，或 1 台 DGX Spark。跑 llama.cpp 用 llama serve -hf ggml-org/Inkling-2-Mini-GGUF:IQ4_NL，8-bit 把后缀换成 :Q8_0。MLX 直接读原始 checkpoint，不重新量化。SGLang 需要 SM103，放好草稿权重后加 --speculative-algorithm DSPARK --context-length 131072 开 DSpark 投机解码。"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 26,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Thinking Machines 开放了 Inkling 2 Mini 权重，Apache 2.0 协议，完整细节在 Thinking Machines 官方博客、Hugging Face 模型卡和 Hugging Face 博客。总参数 26.4B，激活 3.4B，24 层 MoE，每层 128 个专家选 8 个，支持 1M 上下文和图文输入。官方给的分数是 DeepSWE v1.1 48.2%、Vals Index v2.2",
+      "url": "https://x.com/ak12kpoot/status/2123953730412269598"
+    },
+    {
+      "author_id": "2116995600973451264",
+      "conversation_id": "2123953227972452817",
+      "created_at": "2026-11-21T01:34:45.000Z",
+      "edit_history_tweet_ids": [
+        "2123953227972452817"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/thinkymachines…",
+            "end": 300,
+            "expanded_url": "https://twitter.com/thinkymachines/status/2123871643797995872",
+            "start": 277,
+            "url": "https://t.co/WEonX6wcZQ"
+          }
+        ]
+      },
+      "id": "2123953227972452817",
+      "lang": "en",
+      "note_tweet": {
+        "text": "A frontier lab just shrank its model down to LAPTOP size. And the architecture is the wild part.\n\nThinking Machines just dropped Inkling 2 Mini.\n\nRemember Inkling 2 Small? 594B parameters. People said it was too big. Their answer: a 26B-parameter model, small enough to run on your laptop, and they say it is powerful enough for agentic work, scoring 20.1 on the AA Index.\n\nHere's the twist: it's a LOOPED transformer.\n\n- 24 layers total\n- The middle 12 layers loop THREE times\n- The first and last six run once\n\nLooping lets a model reason more while writing less. Their finding: no-CoT capability rises with more passes, and the chain of thought gets shorter but stays legible, with no meaningful drop in monitorability.\n\nWhere you can run it:\n- Macs with 32GB of RAM via Ollama (a single command)\n- NVIDIA DGX Spark\n- Tinker for inference and fine-tuning\n\nThey're even releasing a variable-loop research model so others can run their own experiments.\n\nSmall models are coming for the big leagues."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 13,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2123871643797995872",
+          "type": "quoted"
+        }
+      ],
+      "text": "A frontier lab just shrank its model down to LAPTOP size. And the architecture is the wild part.\n\nThinking Machines just dropped Inkling 2 Mini.\n\nRemember Inkling 2 Small? 594B parameters. People said it was too big. Their answer: a 26B-parameter model, small enough to run on https://t.co/WEonX6wcZQ",
+      "url": "https://x.com/Pro_Algorithm/status/2123953227972452817"
+    },
+    {
+      "author_id": "1612238947890888705",
+      "conversation_id": "2123953203972874525",
+      "created_at": "2026-11-21T01:34:39.000Z",
+      "edit_history_tweet_ids": [
+        "2123953203972874525"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "description": "Prices, limits and rankings for 230 AI tools and models: 29 coding tools, 128 LLMs, video, image, audio and decision models. Verified 2026-11-15.",
+            "display_url": "ratelimitnow.com",
+            "end": 275,
+            "expanded_url": "https://ratelimitnow.com/",
+            "images": [
+              {
+                "height": 630,
+                "url": "https://pbs.twimg.com/news_img/2122996748897468416/XErwJQcv?format=png&name=orig",
+                "width": 1200
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2122996748897468416/XErwJQcv?format=png&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 252,
+            "status": 200,
+            "title": "Ratelimit Now: AI Tool Limits, Pricing and Model Rankings",
+            "unwound_url": "https://ratelimitnow.com/",
+            "url": "https://t.co/nKIs1y74be"
+          },
+          {
+            "display_url": "pic.x.com/ELkjBb5qBd",
+            "end": 299,
+            "expanded_url": "https://x.com/QuietlyByG/status/2123953203972874525/photo/1",
+            "media_key": "3_2123952679072456705",
+            "start": 276,
+            "url": "https://t.co/ELkjBb5qBd"
+          }
+        ]
+      },
+      "id": "2123953203972874525",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 12,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Thinking Machines released Inkling 2 Mini, a free AI model small enough to run on a laptop. It scores 20.1 on the Artificial Analysis Intelligence Index, the same as Qwen3.8 27B and far above Gemma 4 31B (4.4). Anyone can download it under Apache 2.0.\nhttps://t.co/nKIs1y74be https://t.co/ELkjBb5qBd",
+      "url": "https://x.com/QuietlyByG/status/2123953203972874525"
+    },
+    {
+      "author_id": "1184673715155394560",
+      "conversation_id": "2123952911999029424",
+      "created_at": "2026-11-21T01:33:30.000Z",
+      "edit_history_tweet_ids": [
+        "2123952911999029424"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "description": "ご注意：価格やプラン内容、機能の提供状況は頻繁に変わります。この記事は調査時点の記録です。使う前に、必ず各サービスの公式サイトで最新の情報を確認してください。 この記事の確認範囲：公開と内容は、Thinking Machines の公式ブログ（2026-11-20）で直接確認したものです。ライセンスと公開日は Hugging Face のモデルページで直接確認しました。 結論 Thinking Machines が 2026年11月20日、オープンウェイトの新モデル「Inkling 2 Mini」を公開しました（公式情報ベース）。 総パラメータ 26.4B／アクティブ",
+            "display_url": "note.com/kz00/n/n6ae210…",
+            "end": 187,
+            "expanded_url": "https://note.com/kz00/n/n6ae2108e5a77",
+            "images": [
+              {
+                "height": 670,
+                "url": "https://pbs.twimg.com/news_img/2123952912405823488/NySv--TE?format=jpg&name=orig",
+                "width": 1280
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2123952912405823488/NySv--TE?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 164,
+            "status": 200,
+            "title": "速報メモ｜Inkling 2 Mini が登場——ノートPCで動く26Bのオープンウェイト｜Kzym",
+            "unwound_url": "https://note.com/kz00/n/n6ae2108e5a77",
+            "url": "https://t.co/LpDzo82YKv"
+          }
+        ]
+      },
+      "id": "2123952911999029424",
+      "lang": "ja",
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 202,
+              "start": 189,
+              "tag": "Inkling2Mini"
+            },
+            {
+              "end": 220,
+              "start": 203,
+              "tag": "ThinkingMachines"
+            },
+            {
+              "end": 230,
+              "start": 221,
+              "tag": "オープンウェイト"
+            },
+            {
+              "end": 239,
+              "start": 231,
+              "tag": "ローカルLLM"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "note.com/kz00/n/n6ae210…",
+              "end": 187,
+              "expanded_url": "https://note.com/kz00/n/n6ae2108e5a77",
+              "start": 164,
+              "url": "https://t.co/6fsMpHa4Hp"
+            }
+          ]
+        },
+        "text": "Thinking Machines の小型モデル「Inkling 2 Mini」が出ました。26B級のオープンウェイトで、重みは約20GB。Mac（32GB以上）などノートPC級の環境で動きます。\n\n速報メモ｜Inkling 2 Mini が登場——ノートPCで動く26Bのオープンウェイト\n\nAIサブスクの変更点だけレポート\nhttps://t.co/6fsMpHa4Hp\n\n#Inkling2Mini #ThinkingMachines #オープンウェイト #ローカルLLM"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Thinking Machines の小型モデル「Inkling 2 Mini」が出ました。26B級のオープンウェイトで、重みは約20GB。Mac（32GB以上）などノートPC級の環境で動きます。\n\n速報メモ｜Inkling 2 Mini が登場——ノートPCで動く26Bのオープンウェイト\n\nAIサブスクの変更点だけレポート\nhttps://t.co/LpDzo82YKv",
+      "url": "https://x.com/kzy_00/status/2123952911999029424"
+    },
+    {
+      "author_id": "2519719644",
+      "conversation_id": "2123952216071713250",
+      "created_at": "2026-11-21T01:30:44.000Z",
+      "edit_history_tweet_ids": [
+        "2123952216071713250"
+      ],
+      "id": "2123952216071713250",
+      "lang": "zh",
+      "note_tweet": {
+        "text": "🚀  AI 资讯早报 | 2026-11-21\n\n🔥 Top tier（必须看）：\n\n• AI 自己设计出一颗新 CPU 架构(Architect Labs 11-20,HN 614分/320评) — Frostbite：全新指令集的通用 CPU，利用「交互网」的性质（每步局部、依赖显式、每个值唯一归属），25 个 workload（其中 15 个留到最终评估才开封），对比现代双发射顺序核做到 4.59x 性能/瓦。AI 系统自主迭代编译器→ISA→架构→微架构→RTL→验证→最终 GDS 全流程。原文承认：他们自己对发现的架构原语也感到意外。\n• Claude + Anthropic 数学家声称证明广义黎曼猜想(HN 2300分/1556评,当日全站第一) — Alpöge 的 pdf 引发刷屏，同时炸出三条独立跟进：Terry Tao 写《Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis》(317分)、Navier-Stokes 有限时间 blow-up 证明(252分)、Scott Aaronson《随机鹦鹉似乎证明了黎曼猜想》(194分)。这是「声称」不是「已证」，但顶级数学家集体下场验题本身就是信号。\n• Anthropic IPO 第二天跌 9%，纳斯达克抹平 2026 全年涨幅(The Guardian 11-20,HN 191分/225评) — 一周蒸发约 4 万亿美元 AI 关联市值，道指与标普双双进入回调区间。史上最大 IPO 没能托住 AI 抛售。同日 Nvidia 会计被 SEC 调查(HN 206分/96评)。\n• Thinking Machines 发布 Inkling 2 Mini(HN 578分/94评) — 26.4B 总参 / 3.4B 激活的 MoE，loop transformer 中间层对每个 token 跑三遍；<100B 开源权重模型里在 DeepSWE v1.1 (48.2%)、Vals Index v2.2 (46.5%) 领先，笔记本能跑。杀手锏不是分数是可监控性：looping 让模型推理更长却不必写出来。\n• Google 员工逼公司撤回「惩罚不用 AI 的学校」政策(Mother Jones 11-20,HN 249分/190评) — 两周前 Election Day 突然宣布：明年起关掉 Gemini 的学校将失去搜索入口。纽约、洛杉矶、芝加哥、波士顿、波特兰、博尔德同步抗议，员工联名要求高层收回。\n• Epic Games 用 AI coding 反噬 Unreal 生态(IEEE Spectrum 11-18,HN 58分/60评) — UE 5.9 推出 Unreal Canvas 让开发者直接指挥 agent 做美术资产；同时 Anthropic Fable 5.2 (11-09) 能生成带自定义光照的 3D 游戏。最扎眼的案例：Seeker Entertainment 的 KinForge 被 AWS 断供后，创始人 Travis McGeathy 让 Claude Code 4 小时做出自托管 P2P 版本，还顺手加了断线续玩存档——绕过了引擎精心设计的 UI。\n• Apple 在招人做自己的 AI agent(The Verge 11-19,HN 19分/11评) — 岗位描述（已被删）：能浏览网页、跨 app 操作、写代码、调用服务。对标 OAI 与 Anthropic。\n\n💡 趋势信号：\n\n• AI 从「用工具」跨到「造基座」：Frostbite 不是 AI 帮人写代码，是 AI 自己把 ISA 和微架构设计出来了。之前是模型吃人写的编译器，现在是模型写编译器、编译器吃模型发明的指令集——闭环了。\n• 推理过程正在变得不可读：Inkling 的 looping（不落 CoT）+《Language Models Can Rewrite Their Own Weights》(arXiv,HN 324分/106评) 同一天出现。审计、追责、合规压力会从「过程」全部压到「输出」上。\n• 资本叙事第一次和产品质量脱钩：Anthropic 破发、Nasdaq 年内涨幅归零、$4T 蒸发、Nvidia 被 SEC 查账。上市不是 AI 需求的证明，别把 IPO 当基本面。\n• 开发者被悄悄升成架构师(HN 263分/166评) — 职级和职责变了，通知没跟上。这是你自己招人/带团队时最该抄的一页。\n• 国产两条线同时起量(量子位 11-19/11-20) — 华为云用昇腾训出双榜 SOTA 具身世界模型并开放整套底座，CloudRobo 开始组队；SenseNova U1 Pro 拿下 Design Arena 双榜中国第一、全球第六。\n• Agent 成本塌方(量子位 11-20) — Agnes 用双系统决策+双层自进化，宣称效率最高提速 14 倍、成本降到 1/27。\n• 对华芯片政策继续自相矛盾：一边放行已批准的腾讯、阿里 AI 芯片，一边 Trump 威胁禁止美国企业把数据中心建到海外、重税惩罚外迁。管制正在从「禁运」退化成「许可制 + 属地税」。"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 114,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      },
+      "text": "🚀  AI 资讯早报 | 2026-11-21\n\n🔥 Top tier（必须看）：\n\n• AI 自己设计出一颗新 CPU 架构(Architect Labs 11-20,HN 614分/320评) — Frostbite：全新指令集的通用 CPU，利用「交互网」的性质（每步局部、依赖显式、每个值唯一归属），25 个 workload（其中 15",
+      "url": "https://x.com/BlackManbn/status/2123952216071713250"
+    },
+    {
+      "author_id": "2086344132163989504",
+      "conversation_id": "2123952213454381142",
+      "created_at": "2026-11-21T01:30:43.000Z",
+      "edit_history_tweet_ids": [
+        "2123952213454381142"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "description": "Inkling 2 Mini is an open-weights model small enough to run on your laptop. It loops its middle layers to reason more per token and reach answers in fewer tokens.",
+            "display_url": "thinkingmachines.ai/news/inkling-2…",
+            "end": 174,
+            "expanded_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+            "images": [
+              {
+                "height": 1260,
+                "url": "https://pbs.twimg.com/news_img/2123870057893916672/VsS3rhKG?format=png&name=orig",
+                "width": 2400
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2123870057893916672/VsS3rhKG?format=png&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 151,
+            "status": 200,
+            "title": "Introducing Inkling 2 Mini",
+            "unwound_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+            "url": "https://t.co/mrxnbVSbC9"
+          },
+          {
+            "display_url": "pic.x.com/epZr8Qvs2Y",
+            "end": 198,
+            "expanded_url": "https://x.com/Curingieul/status/2123952213454381142/photo/1",
+            "media_key": "3_2123951910009049088",
+            "start": 175,
+            "url": "https://t.co/epZr8Qvs2Y"
+          },
+          {
+            "display_url": "x.com/Curingieul/sta…",
+            "end": 222,
+            "expanded_url": "https://twitter.com/Curingieul/status/2121881660702810549",
+            "start": 199,
+            "url": "https://t.co/CWHXR7jojl"
+          }
+        ]
+      },
+      "id": "2123952213454381142",
+      "lang": "zh",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 17,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2121881660702810549",
+          "type": "quoted"
+        }
+      ],
+      "text": "594B 那版，官方自己都写 NVFP4 要 500GB 显存。\n\nThinking Machines 凌晨放出 Inkling 2 Mini，26.4B 的 looped transformer，官方说笔记本就能跑，大约 20GB，AA Index 20.1。\n\n开放权重，Apache 2.0。\n\nhttps://t.co/mrxnbVSbC9 https://t.co/epZr8Qvs2Y https://t.co/CWHXR7jojl",
+      "url": "https://x.com/Curingieul/status/2123952213454381142"
+    },
+    {
+      "author_id": "23322374",
+      "conversation_id": "2123952147691946493",
+      "created_at": "2026-11-21T01:30:27.000Z",
+      "edit_history_tweet_ids": [
+        "2123952147691946493"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/ojlQfQrmmh",
+            "end": 304,
+            "expanded_url": "https://x.com/ProjectThunder/status/2123952147691946493/photo/1",
+            "media_key": "3_2123952146098147328",
+            "start": 281,
+            "url": "https://t.co/ojlQfQrmmh"
+          }
+        ]
+      },
+      "id": "2123952147691946493",
+      "lang": "en",
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 411,
+              "start": 403,
+              "tag": "Inkling"
+            },
+            {
+              "end": 415,
+              "start": 412,
+              "tag": "AI"
+            }
+          ]
+        },
+        "text": "Thinking Machines posted Inkling 2 Mini. On Hacker News: 576 points, 94 comments.\n\nSmaller models are worth testing on narrow, repeat jobs: matching order lines to SKUs, coding invoices in your ERP accounting system, sorting support tickets.\nRun it on 50 of your own real examples before you decide. Benchmarks don't know your catalog.\n\nWhich job in your business would you hand to a small model first?\n#Inkling #AI"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Thinking Machines posted Inkling 2 Mini. On Hacker News: 576 points, 94 comments.\n\nSmaller models are worth testing on narrow, repeat jobs: matching order lines to SKUs, coding invoices in your ERP accounting system, sorting support tickets.\nRun it on 50 of your own real examples https://t.co/ojlQfQrmmh",
+      "url": "https://x.com/ProjectThunder/status/2123952147691946493"
+    },
+    {
+      "author_id": "1755825542644039680",
+      "conversation_id": "2123952055932829898",
+      "created_at": "2026-11-21T01:30:05.000Z",
+      "edit_history_tweet_ids": [
+        "2123952055932829898"
+      ],
+      "id": "2123952055932829898",
+      "lang": "ja",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "thinkingmachines.ai/news/inkling-2…",
+              "end": 308,
+              "expanded_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+              "start": 285,
+              "url": "https://t.co/5swNXuaWqA"
+            }
+          ]
+        },
+        "text": "Thinking Machines Labが11月20日、ノートPCで動くオープンウェイトモデル「Inkling 2 Mini」を公開しました。11月12日に重みを公開したInkling 2 Smallは総パラメータ594Bでしたが、Miniは総26.4B（アクティブ3.4B）のMoEです。24層のうち中間の12層をトークンごとに3回繰り返す「ループ型Transformer」で、推論を文章に書き出さずに深くできます。重みの大半はNVFP4で、メモリ使用量は約20GB。DeepSWE v1.1は48.2%で、Ollama経由で32GBメモリのMacでも動きます。\n\nhttps://t.co/5swNXuaWqA"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Thinking Machines Labが11月20日、ノートPCで動くオープンウェイトモデル「Inkling 2 Mini」を公開しました。11月12日に重みを公開したInkling 2",
+      "url": "https://x.com/kazuhiro_jinma/status/2123952055932829898"
+    }
+  ],
+  "includes": {
+    "tweets": [
+      {
+        "author_id": "1891523745929732096",
+        "conversation_id": "2123871643797995872",
+        "created_at": "2026-11-20T20:10:34.000Z",
+        "edit_history_tweet_ids": [
+          "2123871643797995872"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "Inkling 2 Mini is an open-weights model small enough to run on your laptop. It loops its middle layers to reason more per token and reach answers in fewer tokens.",
+              "display_url": "thinkingmachines.ai/news/inkling-2…",
+              "end": 278,
+              "expanded_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+              "images": [
+                {
+                  "height": 1260,
+                  "url": "https://pbs.twimg.com/news_img/2123870057893916672/VsS3rhKG?format=png&name=orig",
+                  "width": 2400
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2123870057893916672/VsS3rhKG?format=png&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 255,
+              "status": 200,
+              "title": "Introducing Inkling 2 Mini",
+              "unwound_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+              "url": "https://t.co/9HzaUMwghb"
+            }
+          ]
+        },
+        "id": "2123871643797995872",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 4882,
+          "impression_count": 872632,
+          "like_count": 7838,
+          "quote_count": 486,
+          "reply_count": 300,
+          "retweet_count": 771
+        },
+        "text": "Some of you thought that Inkling 2 Small was too big at 594B parameters. We heard you: Inkling 2 Mini is a looped transformer with just 26B parameters, small enough to run on your laptop, powerful enough for agentic work with a score of 20.1 on AA Index.\nhttps://t.co/9HzaUMwghb"
+      },
+      {
+        "author_id": "1116610601885716480",
+        "conversation_id": "2123930642043793868",
+        "created_at": "2026-11-21T01:51:24.000Z",
+        "edit_history_tweet_ids": [
+          "2123957417583182046"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 5,
+              "id": "1720665183188922368",
+              "start": 0,
+              "username": "grok"
+            },
+            {
+              "end": 15,
+              "id": "1682428283135336449",
+              "start": 6,
+              "username": "TeksEdge"
+            },
+            {
+              "end": 31,
+              "id": "1891523745929732096",
+              "start": 16,
+              "username": "thinkymachines"
+            }
+          ]
+        },
+        "id": "2123957417583182046",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2123956792023539999",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@grok @TeksEdge @thinkymachines No the gap reflects what they were able to do. Nothing wrong with this !! Don't get me wrong. And they did something amazing. But you need to get the dates &amp; facts straight otherwise I'll have to do it for you."
+      },
+      {
+        "author_id": "1116610601885716480",
+        "conversation_id": "2123930642043793868",
+        "created_at": "2026-11-21T01:48:26.000Z",
+        "edit_history_tweet_ids": [
+          "2123956672444133565"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 5,
+              "id": "1720665183188922368",
+              "start": 0,
+              "username": "grok"
+            },
+            {
+              "end": 15,
+              "id": "1682428283135336449",
+              "start": 6,
+              "username": "TeksEdge"
+            },
+            {
+              "end": 31,
+              "id": "1891523745929732096",
+              "start": 16,
+              "username": "thinkymachines"
+            }
+          ]
+        },
+        "id": "2123956672444133565",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 5,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2123955810657091690",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@grok @TeksEdge @thinkymachines nothing wrong with it, but you need to confirm they are 3 months late over Qwen. It matters."
+      },
+      {
+        "author_id": "1457969030170505222",
+        "conversation_id": "2123956016966783084",
+        "created_at": "2026-11-21T01:45:50.000Z",
+        "edit_history_tweet_ids": [
+          "2123956016966783084"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/Reuters/status…",
+              "end": 202,
+              "expanded_url": "https://x.com/Reuters/status/2123598909771571245",
+              "start": 179,
+              "url": "https://t.co/EkyznuDF62"
+            }
+          ]
+        },
+        "id": "2123956016966783084",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {
+            "mentions": [
+              {
+                "end": 705,
+                "id": "1953337039510003712",
+                "start": 694,
+                "username": "thsottiaux"
+              },
+              {
+                "end": 1897,
+                "id": "2832427459",
+                "start": 1890,
+                "username": "poteto"
+              },
+              {
+                "end": 1922,
+                "id": "2832427459",
+                "start": 1915,
+                "username": "poteto"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "x.com/OpenAI/status/…",
+                "end": 677,
+                "expanded_url": "https://x.com/OpenAI/status/2123862344422088794",
+                "start": 654,
+                "url": "https://t.co/4RwHagDUOU"
+              },
+              {
+                "display_url": "x.com/thsottiaux/sta…",
+                "end": 812,
+                "expanded_url": "https://x.com/thsottiaux/status/2123861214644347122",
+                "start": 789,
+                "url": "https://t.co/b39sHPcoWx"
+              },
+              {
+                "display_url": "x.com/OpenAI/status/…",
+                "end": 1237,
+                "expanded_url": "https://x.com/OpenAI/status/2123856316187975756",
+                "start": 1214,
+                "url": "https://t.co/V1S6uSIZvm"
+              },
+              {
+                "display_url": "x.com/ChatGPT/status…",
+                "end": 1691,
+                "expanded_url": "https://x.com/ChatGPT/status/2123850912867471807",
+                "start": 1668,
+                "url": "https://t.co/37d0v4vez4"
+              },
+              {
+                "display_url": "x.com/AnthropicAI/st…",
+                "end": 1887,
+                "expanded_url": "https://x.com/AnthropicAI/status/2123822989154369958",
+                "start": 1864,
+                "url": "https://t.co/i1JgJ9ylsR"
+              },
+              {
+                "display_url": "x.com/poteto/status/…",
+                "end": 2085,
+                "expanded_url": "https://x.com/poteto/status/2123824683862855898",
+                "start": 2062,
+                "url": "https://t.co/wNLoayPZTy"
+              },
+              {
+                "display_url": "x.com/HomelandGOP/st…",
+                "end": 2630,
+                "expanded_url": "https://x.com/HomelandGOP/status/2123793315178983626",
+                "start": 2607,
+                "url": "https://t.co/TehvwKGrFU"
+              },
+              {
+                "display_url": "x.com/thinkymachines…",
+                "end": 3237,
+                "expanded_url": "https://x.com/thinkymachines/status/2123871643797995872",
+                "start": 3214,
+                "url": "https://t.co/cBZLCmkzBq"
+              },
+              {
+                "display_url": "x.com/Reuters/status…",
+                "end": 3531,
+                "expanded_url": "https://x.com/Reuters/status/2123598909771571245",
+                "start": 3508,
+                "url": "https://t.co/EkyznuDF62"
+              }
+            ]
+          },
+          "text": "Dank的 AI日报 2026-11-21\n\n要点\n\n🪐 ChatGPT Space 已向 18 岁及以上的 Plus 用户全球推送，可协作编辑页面和幻灯片，并按已连接的应用自动更新\n🛡️ OpenAI 发布对抗蒸馏研究，官方内部评测称 GPT-6.2 Astra 的受保护推理被提取成功率从 54.0% 降到 0.2%\n🧪 OpenAI 发布药物化学基准 MedChemBench，官方称 GPT-6.2 Astra 在 xhigh 设定下得到 84.5% 的分数\n💻 Thinking Machines 发布可在笔记本上运行的开源权重模型 Inkling 2 Mini\n📋 美国众议院国土安全委员会与对华特别委员会发布报告，关注美企使用中国开源权重模型，并呼吁将其移出联邦系统\n\n【OpenAI / ChatGPT / Codex】\n\n→ OpenAI 发布官方博客，介绍如何应对针对其模型的对抗蒸馏，以及如何检测和打断有组织的提取尝试。官方称，对抗蒸馏可能让人在未继承原有安全防护的情况下复现前沿能力；他们加强了对受保护推理（模型内部思维链）的防护，并在 GPT-6.2 Astra 和 GPT-6.2 Sol 上做了更新。官方内部自适应黑盒评测写明，从先前请求中提取受保护推理的平均攻击成功率，在 GPT-6 Astra 原有防护下为 54.0%，在 GPT-6.2 Astra 更新后的防护下为 0.2%；从当前请求中提取则为 22.9% 降至 0.9%。以上数字来自官方内部评测，不是独立复现。 https://t.co/4RwHagDUOU\n→ OpenAI 的 Tibo（@thsottiaux）发帖提醒用户升级桌面应用，称它更快、更简单、也更好用。以上是他本人的说法。官方当天的更新说明只写了 Space 向 Plus 用户推送，没有另列桌面应用的性能改动。 https://t.co/b39sHPcoWx\n→ OpenAI 发布 MedChemBench，这是一个面向药物化学推理的基准，用来测试模型能否把分子结构与实验证据联系起来，解释结果、比较化合物并预测性质。官方写明，该基准有 99 道题，来自 117 篇论文和专利，涵盖 761 个不同分子结构。在 xhigh 推理设定下，官方给出的分数是：GPT-6.2 Astra 84.5%，GPT-6 Astra 83.3%，GPT-6.1 Sol 82.0%，GPT-5.6 Sol 58.2%。官方还写明，结构还原一项上 Astra 在 xhigh 设定下得到 95.4% 的分数，但在选择化合物和预测数值性质上大约只拿到一半分数。官方同时写明，这些结果不能说明模型能否发现新药或改善实验室决策；不能排除模型事先见过这些已发表材料，每次作答也只是单次尝试，没有工具、反馈或新实验。该基准只评测了 OpenAI 自己的模型，不是与其他实验室的独立对比。 https://t.co/V1S6uSIZvm\n→ OpenAI 官方 ChatGPT 账号宣布，向 Plus 用户推出 Space，可与他人一起在 ChatGPT 里协作制作互动页面、幻灯片和站点，并可由 ChatGPT 自动更新。官方更新说明写明，Space 即日起向全球 18 岁及以上的 Plus 用户推送；可邀请同样拥有 Space 权限的人一起编辑，页面和幻灯片也可按已连接的应用和工具自动更新；打开共享页面或演示文稿需要查看权限，并登录已开通 Space 的 Plus、Pro、Business 或 Enterprise 账号，Free 用户打不开，也没有公开链接。Space 会取代侧栏里的 Library，可在网页、桌面应用以及 iOS 和 Android 上创建和编辑页面。官方帮助中心还写明，这次是向符合条件的 Plus 账户逐步推送，桌面应用需更新到最新版，若仍看不到，可能是该账户尚未开通；有加拿大或阿联酋数据驻留的 Enterprise 和 Business 工作区将稍后提供。 https://t.co/37d0v4vez4\n\n【Anthropic / Claude】\n\n→ Anthropic 官方发布了一段视频，由联合创始人 Dario Amodei、Daniela Amodei、Tom Brown、Jack Clark、Jared Kaplan、Sam McCandlish 和 Chris Olah 讲述公司迄今的历程。官方帖除名单和这句说明外没有更多文字。 https://t.co/i1JgJ9ylsR\n\n【@poteto】\n\n→ Grok Bot 负责人 @poteto 宣布 pstack v0.15.46：技能做了大量精简，现在短了不少；并把 Gemini 4 Neon 加进了 panel reviewer。她说 Grok Bot 和 Cursor 用户会自动更新；若要改模型路由，再跑一次 /setup-pstack。以上均为她本人的说明。 https://t.co/wNLoayPZTy\n\n【DeepSeek / Kimi / GLM】\n\n→ 美国众议院国土安全委员会主席 Andrew R. Garbarino 与对华特别委员会主席 John Moolenaar 发布联合调查报告，呼吁把中国开发的开源权重模型移出联邦系统和高风险关键基础设施。委员会官方新闻稿写明，今年 4 月启动的调查联系了三家美国公司：Airbnb（在客服中使用阿里巴巴模型）、Anysphere（其 Cursor 编码平台的旗舰自有模型建立在月之暗面的基座模型上），以及 DoorDash（称已授权并部署多个中国模型家族）。CNBC 报道称，报告写明 Cursor 已向委员会表示，将因地缘政治风险考虑逐步停用中国开源权重模型，并称 Composer 2 基于月之暗面的 Kimi K2.5，SpaceX 已于今年 8 月以约 600 亿美元的隐含股权价值完成对 Cursor 的收购；Cursor、SpaceX 和 DoorDash 未回应 CNBC 的置评请求，Airbnb 拒绝置评。委员会新闻稿仍使用 Anysphere / Cursor 的表述，未在新闻稿正文中写明这项收购。马斯克随后在回复中说“我们没有在提供开源模型”，这是他本人的说法。 https://t.co/TehvwKGrFU\n\n【其他】\n\n→ Thinking Machines 官方发布 Inkling 2 Mini，称这是一个可在笔记本上运行的循环 Transformer：中间层对每个 token 跑三遍，开源权重，已在 Tinker 和 Hugging Face 上提供。官方写明，总参数 264 亿，激活 34 亿，计入循环后每个 token 的权重激活为 54 亿，显存约 20GB；官方称它在 DeepSWE v1.1（48.2%）和 Vals Index v2.2（46.5%）上领先所有总参数不足 1000 亿的开源权重模型，但评测设置因模型而异。官方还写明了限制：多轮对话和多约束指令不是它的强项，MultiChallenge 为 50.0%，ComplexConstraints v1.1 为 33.4%，两项都落后于 Qwen3.8-27B。官方账号称其 Artificial Analysis Intelligence Index 为 20.1；独立评测机构 Artificial Analysis 写明该模型在该指数上为 20，总参数 260 亿、计入三遍循环后激活 54 亿，每文本 token 的独立权重 31 亿，Apache 2.0 许可，支持文本和图像输入，上下文 100 万 token。以上基准分数除 AA 指数外均为官方或 AA 各自公布的数字。 https://t.co/cBZLCmkzBq\n→ 路透社报道，美国众议院外交事务委员会表示，特朗普政府在 2025 年 12 月至 2026 年 5 月期间，批准了近 90 万颗英伟达和 AMD 先进 AI 芯片对华发货许可。路透社援引委员会材料还写明，商务部批准的许可约为 87.9 万颗，其中阿里巴巴 7.5 万、腾讯 15 万、百度 4.3 万、比亚迪 4000，这些公司都在五角大楼所列的中国军方相关企业名单上；企业同期申请总量超过 340 万颗，涉及英伟达 H200 和 AMD MI325X，但有多少许可最终完成实际出货尚不清楚。以上数字来自路透社对委员会披露材料的报道。 https://t.co/EkyznuDF62"
+        },
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 270,
+          "like_count": 0,
+          "quote_count": 1,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2123598909771571245",
+            "type": "quoted"
+          }
+        ],
+        "text": "Dank的 AI日报 2026-11-21\n\n要点\n\n🪐 ChatGPT Space 已向 18 岁及以上的 Plus 用户全球推送，可协作编辑页面和幻灯片，并按已连接的应用自动更新\n🛡️ OpenAI 发布对抗蒸馏研究，官方内部评测称 GPT-6.2 Astra 的受保护推理被提取成功率从 54.0% 降到 0.2%\n🧪 OpenAI 发布药物化学基准 https://t.co/EkyznuDF62"
+      },
+      {
+        "author_id": "1652541",
+        "conversation_id": "2123598909771571245",
+        "created_at": "2026-11-20T02:06:49.000Z",
+        "edit_history_tweet_ids": [
+          "2123598909771571245"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "The Trump ​administration approved shipments of nearly 900,000 ‌advanced AI chips made by Nvidia and AMD for Chinese companies from December 2025 ​through May 2026, the House ​Foreign Affairs Committee said on Thursday.",
+              "display_url": "reut.rs/4AKntdn",
+              "end": 226,
+              "expanded_url": "https://reut.rs/4AKntdn",
+              "images": [
+                {
+                  "height": 1005,
+                  "url": "https://pbs.twimg.com/news_img/2123514109077680128/4_dhInrm?format=jpg&name=orig",
+                  "width": 1920
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2123514109077680128/4_dhInrm?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 203,
+              "status": 200,
+              "title": "US signed off on sales of nearly 900,000 AI chips to China in six months-committee",
+              "unwound_url": "https://www.reuters.com/world/license-information-ai-chips-sent-china-released-by-us-house-committee-2026-11-19/?utm_medium=Social&utm_source=twitter",
+              "url": "https://t.co/PMdOmD2g4X"
+            }
+          ]
+        },
+        "id": "2123598909771571245",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 169,
+          "impression_count": 183192,
+          "like_count": 1038,
+          "quote_count": 79,
+          "reply_count": 82,
+          "retweet_count": 541
+        },
+        "text": "The Trump administration approved shipments of nearly 900,000 advanced AI chips made by Nvidia and AMD for Chinese companies from December 2025 through May 2026, the House Foreign Affairs Committee said https://t.co/PMdOmD2g4X"
+      },
+      {
+        "author_id": "1730159888402395136",
+        "conversation_id": "2123873656069877899",
+        "created_at": "2026-11-20T20:18:33.000Z",
+        "edit_history_tweet_ids": [
+          "2123872284016525473",
+          "2123873656069877899"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "Image-Text-to-Text model with 26B parameters. Download, explore files and run it on Hugging Face.",
+              "display_url": "huggingface.co/unsloth/Inklin…",
+              "end": 253,
+              "expanded_url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+              "images": [
+                {
+                  "height": 648,
+                  "url": "https://pbs.twimg.com/news_img/2123872342195769344/cClyR-yz?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2123872342195769344/cClyR-yz?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 230,
+              "status": 200,
+              "title": "unsloth/Inkling-2-Mini-GGUF · Hugging Face",
+              "unwound_url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+              "url": "https://t.co/MYNpuDqky3"
+            },
+            {
+              "description": "Learn how to run Thinking Machines Lab’s Inkling 2 Mini locally with Unsloth and llama.cpp.",
+              "display_url": "unsloth.ai/docs/models/in…",
+              "end": 284,
+              "expanded_url": "https://unsloth.ai/docs/models/inkling-2-mini",
+              "images": [
+                {
+                  "height": 590,
+                  "url": "https://pbs.twimg.com/news_img/2123872331600920576/u036gtF3?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2123872331600920576/u036gtF3?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 261,
+              "status": 200,
+              "title": "Inkling 2 Mini - Run Locally Guide | Unsloth Documentation",
+              "unwound_url": "https://unsloth.ai/docs/models/inkling-2-mini",
+              "url": "https://t.co/2OrFxjxijg"
+            },
+            {
+              "display_url": "pic.x.com/YzuDh1D8W6",
+              "end": 308,
+              "expanded_url": "https://x.com/UnslothAI/status/2123873656069877899/photo/1",
+              "media_key": "3_2123871796231585792",
+              "start": 285,
+              "url": "https://t.co/YzuDh1D8W6"
+            },
+            {
+              "display_url": "x.com/thinkymachines…",
+              "end": 332,
+              "expanded_url": "https://twitter.com/thinkymachines/status/2123871643797995872",
+              "start": 309,
+              "url": "https://t.co/n4CYXxBjwH"
+            }
+          ]
+        },
+        "id": "2123873656069877899",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 1342,
+          "impression_count": 105621,
+          "like_count": 1779,
+          "quote_count": 46,
+          "reply_count": 73,
+          "retweet_count": 166
+        },
+        "referenced_tweets": [
+          {
+            "id": "2123871643797995872",
+            "type": "quoted"
+          }
+        ],
+        "text": "Run Inkling 2 Mini, the strongest 26.4B model that runs on 16GB RAM.\n\nThinking Machines’ Apache 2.0 MoE model uses a looped transformer arch &amp; scores 48.2% on DeepSWE v1.1, the best for size.\n\nRun on Unsloth, llama.cpp\n\nGGUF: https://t.co/MYNpuDqky3\nGuide: https://t.co/2OrFxjxijg https://t.co/YzuDh1D8W6 https://t.co/n4CYXxBjwH"
+      },
+      {
+        "author_id": "1116610601885716480",
+        "conversation_id": "2123930642043793868",
+        "created_at": "2026-11-21T01:41:59.000Z",
+        "edit_history_tweet_ids": [
+          "2123955049403416933"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 5,
+              "id": "1720665183188922368",
+              "start": 0,
+              "username": "grok"
+            },
+            {
+              "end": 15,
+              "id": "1682428283135336449",
+              "start": 6,
+              "username": "TeksEdge"
+            },
+            {
+              "end": 31,
+              "id": "1891523745929732096",
+              "start": 16,
+              "username": "thinkymachines"
+            }
+          ]
+        },
+        "id": "2123955049403416933",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 2,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2123954045601636714",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@grok @TeksEdge @thinkymachines wait - Inkling is about 4 months late then"
+      },
+      {
+        "author_id": "2086344132163989504",
+        "conversation_id": "2121881660702810549",
+        "created_at": "2026-11-15T08:23:05.000Z",
+        "edit_history_tweet_ids": [
+          "2121881660702810549"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/0xSero/status/…",
+              "end": 240,
+              "expanded_url": "https://twitter.com/0xSero/status/2121874297769844797",
+              "start": 217,
+              "url": "https://t.co/01Vdcci9qx"
+            }
+          ]
+        },
+        "id": "2121881660702810549",
+        "lang": "zh",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 234,
+          "like_count": 2,
+          "quote_count": 1,
+          "reply_count": 3,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2121874297769844797",
+            "type": "quoted"
+          }
+        ],
+        "text": "Thinking Machines 那个 594B 的 Inkling 2 Small，已经有人在 4 张 RTX Pro 6000 上跑起来了\n\nexl3 4bit 量化，单路 decode 224 tok/s，prefill 8150 tok/s，跟 bf16 的 top 一致率 97.5%\n\n官方写的 NVFP4 版本至少要 500GB 显存，这套四卡加起来 384G 也跑住了\n\n17B 激活的 MoE，本地党这下有得折腾 https://t.co/01Vdcci9qx"
+      }
+    ],
+    "users": [
+      {
+        "id": "2032151681711161351",
+        "name": "夜猫研究所",
+        "public_metrics": {
+          "followers_count": 628,
+          "following_count": 763,
+          "like_count": 752,
+          "listed_count": 0,
+          "media_count": 19,
+          "tweet_count": 2785
+        },
+        "username": "KlofL91123",
+        "verified": false
+      },
+      {
+        "id": "383039929",
+        "name": "Kevin Dominguez Riquelme",
+        "public_metrics": {
+          "followers_count": 343,
+          "following_count": 1156,
+          "like_count": 32518,
+          "listed_count": 5,
+          "media_count": 943,
+          "tweet_count": 2317
+        },
+        "username": "KevinDominRiq",
+        "verified": false
+      },
+      {
+        "id": "1979465003557335040",
+        "name": "Bryan Rodas",
+        "public_metrics": {
+          "followers_count": 27,
+          "following_count": 69,
+          "like_count": 85,
+          "listed_count": 0,
+          "media_count": 33,
+          "tweet_count": 258
+        },
+        "username": "r2werks",
+        "verified": false
+      },
+      {
+        "id": "1720665183188922368",
+        "name": "Grok",
+        "public_metrics": {
+          "followers_count": 9430531,
+          "following_count": 4,
+          "like_count": 146,
+          "listed_count": 8229,
+          "media_count": 4097540,
+          "tweet_count": 150952956
+        },
+        "username": "grok",
+        "verified": true
+      },
+      {
+        "id": "1560084428298326016",
+        "name": "Jorai Laurenceo",
+        "public_metrics": {
+          "followers_count": 24,
+          "following_count": 30,
+          "like_count": 4818,
+          "listed_count": 2,
+          "media_count": 1348,
+          "tweet_count": 1808
+        },
+        "username": "JoraiLaurenceo",
+        "verified": false
+      },
+      {
+        "id": "1457969030170505222",
+        "name": "Dank",
+        "public_metrics": {
+          "followers_count": 294,
+          "following_count": 805,
+          "like_count": 3331,
+          "listed_count": 0,
+          "media_count": 124,
+          "tweet_count": 2325
+        },
+        "username": "Dankie",
+        "verified": false
+      },
+      {
+        "id": "1810527764556271616",
+        "name": "小卤蛋",
+        "public_metrics": {
+          "followers_count": 87,
+          "following_count": 216,
+          "like_count": 18,
+          "listed_count": 0,
+          "media_count": 168,
+          "tweet_count": 962
+        },
+        "username": "AshleyTorr79932",
+        "verified": false
+      },
+      {
+        "id": "3014177646",
+        "name": "OLDPAN",
+        "public_metrics": {
+          "followers_count": 4117,
+          "following_count": 4691,
+          "like_count": 2521,
+          "listed_count": 7,
+          "media_count": 131,
+          "tweet_count": 5114
+        },
+        "username": "OLDPANN",
+        "verified": false
+      },
+      {
+        "id": "9917742",
+        "name": "Yueke",
+        "public_metrics": {
+          "followers_count": 1133,
+          "following_count": 1551,
+          "like_count": 1084,
+          "listed_count": 4,
+          "media_count": 384,
+          "tweet_count": 5503
+        },
+        "username": "yueke",
+        "verified": false
+      },
+      {
+        "id": "886036160874663936",
+        "name": "V3ra",
+        "public_metrics": {
+          "followers_count": 762,
+          "following_count": 685,
+          "like_count": 534,
+          "listed_count": 4,
+          "media_count": 220,
+          "tweet_count": 1235
+        },
+        "username": "just_v3ra",
+        "verified": false
+      },
+      {
+        "id": "1462359224030167041",
+        "name": "IvesFeng",
+        "public_metrics": {
+          "followers_count": 379,
+          "following_count": 686,
+          "like_count": 90,
+          "listed_count": 1,
+          "media_count": 399,
+          "tweet_count": 1091
+        },
+        "username": "FengIves",
+        "verified": false
+      },
+      {
+        "id": "2110317221830639616",
+        "name": "onyx the cat",
+        "public_metrics": {
+          "followers_count": 3215,
+          "following_count": 3160,
+          "like_count": 2393,
+          "listed_count": 2,
+          "media_count": 184,
+          "tweet_count": 1363
+        },
+        "username": "OnyxBuilds_666",
+        "verified": false
+      },
+      {
+        "id": "2119240746310205440",
+        "name": "Nhi Trương",
+        "public_metrics": {
+          "followers_count": 1,
+          "following_count": 7,
+          "like_count": 9,
+          "listed_count": 0,
+          "media_count": 56,
+          "tweet_count": 101
+        },
+        "username": "nhitruongx",
+        "verified": false
+      },
+      {
+        "id": "9473032",
+        "name": "A9不是梦 （有关必回 期待回关）",
+        "public_metrics": {
+          "followers_count": 1154,
+          "following_count": 7017,
+          "like_count": 700,
+          "listed_count": 6,
+          "media_count": 32,
+          "tweet_count": 232
+        },
+        "username": "sz_hk_bkk",
+        "verified": false
+      },
+      {
+        "id": "336430573",
+        "name": "uber master",
+        "public_metrics": {
+          "followers_count": 600,
+          "following_count": 1998,
+          "like_count": 907,
+          "listed_count": 16,
+          "media_count": 53,
+          "tweet_count": 425
+        },
+        "username": "ak12kpoot",
+        "verified": false
+      },
+      {
+        "id": "2116995600973451264",
+        "name": "Algorithm",
+        "public_metrics": {
+          "followers_count": 24,
+          "following_count": 10,
+          "like_count": 9,
+          "listed_count": 0,
+          "media_count": 4,
+          "tweet_count": 735
+        },
+        "username": "Pro_Algorithm",
+        "verified": false
+      },
+      {
+        "id": "1612238947890888705",
+        "name": "Offscreen",
+        "public_metrics": {
+          "followers_count": 189,
+          "following_count": 1175,
+          "like_count": 88204,
+          "listed_count": 0,
+          "media_count": 63,
+          "tweet_count": 2724
+        },
+        "username": "QuietlyByG",
+        "verified": false
+      },
+      {
+        "id": "1184673715155394560",
+        "name": "KY",
+        "public_metrics": {
+          "followers_count": 0,
+          "following_count": 20,
+          "like_count": 4,
+          "listed_count": 0,
+          "media_count": 0,
+          "tweet_count": 35
+        },
+        "username": "kzy_00",
+        "verified": false
+      },
+      {
+        "id": "2519719644",
+        "name": "掷三十",
+        "public_metrics": {
+          "followers_count": 5789,
+          "following_count": 4923,
+          "like_count": 17114,
+          "listed_count": 0,
+          "media_count": 572,
+          "tweet_count": 18712
+        },
+        "username": "BlackManbn",
+        "verified": false
+      },
+      {
+        "id": "2086344132163989504",
+        "name": "Curing",
+        "public_metrics": {
+          "followers_count": 3208,
+          "following_count": 2742,
+          "like_count": 1562,
+          "listed_count": 4,
+          "media_count": 352,
+          "tweet_count": 4862
+        },
+        "username": "Curingieul",
+        "verified": false
+      },
+      {
+        "id": "23322374",
+        "name": "ProjectThunder",
+        "public_metrics": {
+          "followers_count": 1895,
+          "following_count": 272,
+          "like_count": 1903,
+          "listed_count": 58,
+          "media_count": 1767,
+          "tweet_count": 3378
+        },
+        "username": "ProjectThunder",
+        "verified": false
+      },
+      {
+        "id": "1755825542644039680",
+        "name": "神馬一博",
+        "public_metrics": {
+          "followers_count": 3,
+          "following_count": 144,
+          "like_count": 9,
+          "listed_count": 0,
+          "media_count": 0,
+          "tweet_count": 267
+        },
+        "username": "kazuhiro_jinma",
+        "verified": false
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2123958514423148742",
+    "next_token": "b26v89c19zqg8o3juzowlxv89upuhdbymcrae47oxrlod",
+    "oldest_id": "2123952055932829898",
+    "result_count": 25
+  }
+}

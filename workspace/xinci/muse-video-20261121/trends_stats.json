@@ -1,0 +1,557 @@
+{
+  "tr_90": {
+    "params": {
+      "engine": "google_trends",
+      "q": "muse video,muse ai video,meta muse video",
+      "hl": "en",
+      "geo": "US",
+      "date": "today 3-m",
+      "tz": "420",
+      "data_type": "TIMESERIES"
+    },
+    "queried_at_utc": "2026-11-21 04:42:59 UTC",
+    "window_first": "Aug 21, 2026",
+    "window_last": "Nov 21, 2026",
+    "window_first_taipei": "2026-08-21 08:00 UTC+08:00 (Asia/Taipei)",
+    "window_last_taipei": "2026-11-21 08:00 UTC+08:00 (Asia/Taipei)",
+    "points": 93,
+    "includes_july_7_2026": false,
+    "queries": {
+      "muse video": {
+        "api_average": 23,
+        "points": 93,
+        "zeros": 54,
+        "nonzero_count": 39,
+        "missing": 0,
+        "min": 0,
+        "max": 100,
+        "peak": {
+          "date": "Sep 24, 2026",
+          "timestamp": "1790208000",
+          "taipei": "2026-09-24 08:00 UTC+08:00 (Asia/Taipei)",
+          "value": 100,
+          "partial": false,
+          "raw_value": "100"
+        },
+        "top5_nonzero": [
+          {
+            "date": "Sep 24, 2026",
+            "timestamp": "1790208000",
+            "taipei": "2026-09-24 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 100,
+            "partial": false,
+            "raw_value": "100"
+          },
+          {
+            "date": "Sep 27, 2026",
+            "timestamp": "1790467200",
+            "taipei": "2026-09-27 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 82,
+            "partial": false,
+            "raw_value": "82"
+          },
+          {
+            "date": "Oct 13, 2026",
+            "timestamp": "1791849600",
+            "taipei": "2026-10-13 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 80,
+            "partial": false,
+            "raw_value": "80"
+          },
+          {
+            "date": "Oct 9, 2026",
+            "timestamp": "1791504000",
+            "taipei": "2026-10-09 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 78,
+            "partial": false,
+            "raw_value": "78"
+          },
+          {
+            "date": "Oct 3, 2026",
+            "timestamp": "1790985600",
+            "taipei": "2026-10-03 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 76,
+            "partial": false,
+            "raw_value": "76"
+          }
+        ],
+        "coverage": "series_present"
+      },
+      "muse ai video": {
+        "api_average": 3,
+        "points": 93,
+        "zeros": 76,
+        "nonzero_count": 17,
+        "missing": 0,
+        "min": 0,
+        "max": 51,
+        "peak": {
+          "date": "Oct 12, 2026",
+          "timestamp": "1791763200",
+          "taipei": "2026-10-12 08:00 UTC+08:00 (Asia/Taipei)",
+          "value": 51,
+          "partial": false,
+          "raw_value": "51"
+        },
+        "top5_nonzero": [
+          {
+            "date": "Oct 12, 2026",
+            "timestamp": "1791763200",
+            "taipei": "2026-10-12 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 51,
+            "partial": false,
+            "raw_value": "51"
+          },
+          {
+            "date": "Oct 14, 2026",
+            "timestamp": "1791936000",
+            "taipei": "2026-10-14 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 48,
+            "partial": false,
+            "raw_value": "48"
+          },
+          {
+            "date": "Nov 12, 2026",
+            "timestamp": "1794441600",
+            "taipei": "2026-11-12 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 18,
+            "partial": false,
+            "raw_value": "18"
+          },
+          {
+            "date": "Nov 13, 2026",
+            "timestamp": "1794528000",
+            "taipei": "2026-11-13 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 18,
+            "partial": false,
+            "raw_value": "18"
+          },
+          {
+            "date": "Nov 11, 2026",
+            "timestamp": "1794355200",
+            "taipei": "2026-11-11 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 17,
+            "partial": false,
+            "raw_value": "17"
+          }
+        ],
+        "coverage": "series_present"
+      },
+      "meta muse video": {
+        "api_average": 2,
+        "points": 93,
+        "zeros": 82,
+        "nonzero_count": 11,
+        "missing": 0,
+        "min": 0,
+        "max": 84,
+        "peak": {
+          "date": "Oct 16, 2026",
+          "timestamp": "1792108800",
+          "taipei": "2026-10-16 08:00 UTC+08:00 (Asia/Taipei)",
+          "value": 84,
+          "partial": false,
+          "raw_value": "84"
+        },
+        "top5_nonzero": [
+          {
+            "date": "Oct 16, 2026",
+            "timestamp": "1792108800",
+            "taipei": "2026-10-16 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 84,
+            "partial": false,
+            "raw_value": "84"
+          },
+          {
+            "date": "Nov 8, 2026",
+            "timestamp": "1794096000",
+            "taipei": "2026-11-08 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 8,
+            "partial": false,
+            "raw_value": "8"
+          },
+          {
+            "date": "Nov 12, 2026",
+            "timestamp": "1794441600",
+            "taipei": "2026-11-12 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 8,
+            "partial": false,
+            "raw_value": "8"
+          },
+          {
+            "date": "Nov 7, 2026",
+            "timestamp": "1794009600",
+            "taipei": "2026-11-07 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 7,
+            "partial": false,
+            "raw_value": "7"
+          },
+          {
+            "date": "Nov 9, 2026",
+            "timestamp": "1794182400",
+            "taipei": "2026-11-09 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 6,
+            "partial": false,
+            "raw_value": "6"
+          }
+        ],
+        "coverage": "series_present"
+      }
+    },
+    "note": "Values are Google Trends relative 0-100 within this single request only; do not compare averages across 7/30/90-day requests as absolute levels."
+  },
+  "tr_30": {
+    "params": {
+      "engine": "google_trends",
+      "q": "muse video,muse ai video,meta muse video",
+      "hl": "en",
+      "geo": "US",
+      "date": "today 1-m",
+      "tz": "420",
+      "data_type": "TIMESERIES"
+    },
+    "queried_at_utc": "2026-11-21 04:42:59 UTC",
+    "window_first": "Oct 21, 2026",
+    "window_last": "Nov 21, 2026",
+    "window_first_taipei": "2026-10-21 08:00 UTC+08:00 (Asia/Taipei)",
+    "window_last_taipei": "2026-11-21 08:00 UTC+08:00 (Asia/Taipei)",
+    "points": 32,
+    "includes_july_7_2026": false,
+    "queries": {
+      "muse video": {
+        "api_average": 51,
+        "points": 32,
+        "zeros": 10,
+        "nonzero_count": 22,
+        "missing": 0,
+        "min": 0,
+        "max": 100,
+        "peak": {
+          "date": "Oct 22, 2026",
+          "timestamp": "1792627200",
+          "taipei": "2026-10-22 08:00 UTC+08:00 (Asia/Taipei)",
+          "value": 100,
+          "partial": false,
+          "raw_value": "100"
+        },
+        "top5_nonzero": [
+          {
+            "date": "Oct 22, 2026",
+            "timestamp": "1792627200",
+            "taipei": "2026-10-22 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 100,
+            "partial": false,
+            "raw_value": "100"
+          },
+          {
+            "date": "Oct 24, 2026",
+            "timestamp": "1792800000",
+            "taipei": "2026-10-24 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 93,
+            "partial": false,
+            "raw_value": "93"
+          },
+          {
+            "date": "Nov 5, 2026",
+            "timestamp": "1793836800",
+            "taipei": "2026-11-05 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 89,
+            "partial": false,
+            "raw_value": "89"
+          },
+          {
+            "date": "Oct 30, 2026",
+            "timestamp": "1793318400",
+            "taipei": "2026-10-30 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 81,
+            "partial": false,
+            "raw_value": "81"
+          },
+          {
+            "date": "Oct 27, 2026",
+            "timestamp": "1793059200",
+            "taipei": "2026-10-27 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 80,
+            "partial": false,
+            "raw_value": "80"
+          }
+        ],
+        "coverage": "series_present"
+      },
+      "muse ai video": {
+        "api_average": 11,
+        "points": 32,
+        "zeros": 18,
+        "nonzero_count": 14,
+        "missing": 0,
+        "min": 0,
+        "max": 30,
+        "peak": {
+          "date": "Nov 15, 2026",
+          "timestamp": "1794700800",
+          "taipei": "2026-11-15 08:00 UTC+08:00 (Asia/Taipei)",
+          "value": 30,
+          "partial": false,
+          "raw_value": "30"
+        },
+        "top5_nonzero": [
+          {
+            "date": "Nov 15, 2026",
+            "timestamp": "1794700800",
+            "taipei": "2026-11-15 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 30,
+            "partial": false,
+            "raw_value": "30"
+          },
+          {
+            "date": "Nov 12, 2026",
+            "timestamp": "1794441600",
+            "taipei": "2026-11-12 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 29,
+            "partial": false,
+            "raw_value": "29"
+          },
+          {
+            "date": "Nov 11, 2026",
+            "timestamp": "1794355200",
+            "taipei": "2026-11-11 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 28,
+            "partial": false,
+            "raw_value": "28"
+          },
+          {
+            "date": "Nov 13, 2026",
+            "timestamp": "1794528000",
+            "taipei": "2026-11-13 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 28,
+            "partial": false,
+            "raw_value": "28"
+          },
+          {
+            "date": "Nov 19, 2026",
+            "timestamp": "1795046400",
+            "taipei": "2026-11-19 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 27,
+            "partial": false,
+            "raw_value": "27"
+          }
+        ],
+        "coverage": "series_present"
+      },
+      "meta muse video": {
+        "api_average": 3,
+        "points": 32,
+        "zeros": 22,
+        "nonzero_count": 10,
+        "missing": 0,
+        "min": 0,
+        "max": 12,
+        "peak": {
+          "date": "Nov 8, 2026",
+          "timestamp": "1794096000",
+          "taipei": "2026-11-08 08:00 UTC+08:00 (Asia/Taipei)",
+          "value": 12,
+          "partial": false,
+          "raw_value": "12"
+        },
+        "top5_nonzero": [
+          {
+            "date": "Nov 8, 2026",
+            "timestamp": "1794096000",
+            "taipei": "2026-11-08 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 12,
+            "partial": false,
+            "raw_value": "12"
+          },
+          {
+            "date": "Nov 12, 2026",
+            "timestamp": "1794441600",
+            "taipei": "2026-11-12 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 12,
+            "partial": false,
+            "raw_value": "12"
+          },
+          {
+            "date": "Nov 20, 2026",
+            "timestamp": "1795132800",
+            "taipei": "2026-11-20 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 10,
+            "partial": false,
+            "raw_value": "10"
+          },
+          {
+            "date": "Nov 7, 2026",
+            "timestamp": "1794009600",
+            "taipei": "2026-11-07 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 9,
+            "partial": false,
+            "raw_value": "9"
+          },
+          {
+            "date": "Nov 9, 2026",
+            "timestamp": "1794182400",
+            "taipei": "2026-11-09 08:00 UTC+08:00 (Asia/Taipei)",
+            "value": 9,
+            "partial": false,
+            "raw_value": "9"
+          }
+        ],
+        "coverage": "series_present"
+      }
+    },
+    "note": "Values are Google Trends relative 0-100 within this single request only; do not compare averages across 7/30/90-day requests as absolute levels."
+  },
+  "tr_7": {
+    "params": {
+      "engine": "google_trends",
+      "q": "muse video,muse ai video,meta muse video",
+      "hl": "en",
+      "geo": "US",
+      "date": "now 7-d",
+      "tz": "420",
+      "data_type": "TIMESERIES"
+    },
+    "queried_at_utc": "2026-11-21 04:42:59 UTC",
+    "window_first": "Nov 13, 2026 at 9:00 PM",
+    "window_last": "Nov 20, 2026 at 9:00 PM",
+    "window_first_taipei": "2026-11-14 12:00 UTC+08:00 (Asia/Taipei)",
+    "window_last_taipei": "2026-11-21 12:00 UTC+08:00 (Asia/Taipei)",
+    "points": 169,
+    "includes_july_7_2026": false,
+    "queries": {
+      "muse video": {
+        "api_average": 3,
+        "points": 169,
+        "zeros": 148,
+        "nonzero_count": 21,
+        "missing": 0,
+        "min": 0,
+        "max": 100,
+        "peak": {
+          "date": "Nov 17, 2026 at 2:00 AM",
+          "timestamp": "1794906000",
+          "taipei": "2026-11-17 17:00 UTC+08:00 (Asia/Taipei)",
+          "value": 100,
+          "partial": false,
+          "raw_value": "100"
+        },
+        "top5_nonzero": [
+          {
+            "date": "Nov 17, 2026 at 2:00 AM",
+            "timestamp": "1794906000",
+            "taipei": "2026-11-17 17:00 UTC+08:00 (Asia/Taipei)",
+            "value": 100,
+            "partial": false,
+            "raw_value": "100"
+          },
+          {
+            "date": "Nov 17, 2026 at 1:00 AM",
+            "timestamp": "1794902400",
+            "taipei": "2026-11-17 16:00 UTC+08:00 (Asia/Taipei)",
+            "value": 99,
+            "partial": false,
+            "raw_value": "99"
+          },
+          {
+            "date": "Nov 15, 2026 at 11:00 PM",
+            "timestamp": "1794808800",
+            "taipei": "2026-11-16 14:00 UTC+08:00 (Asia/Taipei)",
+            "value": 41,
+            "partial": false,
+            "raw_value": "41"
+          },
+          {
+            "date": "Nov 16, 2026 at 9:00 PM",
+            "timestamp": "1794888000",
+            "taipei": "2026-11-17 12:00 UTC+08:00 (Asia/Taipei)",
+            "value": 28,
+            "partial": false,
+            "raw_value": "28"
+          },
+          {
+            "date": "Nov 15, 2026 at 7:00 AM",
+            "timestamp": "1794751200",
+            "taipei": "2026-11-15 22:00 UTC+08:00 (Asia/Taipei)",
+            "value": 24,
+            "partial": false,
+            "raw_value": "24"
+          }
+        ],
+        "coverage": "series_present"
+      },
+      "muse ai video": {
+        "api_average": 0,
+        "points": 169,
+        "zeros": 166,
+        "nonzero_count": 3,
+        "missing": 0,
+        "min": 0,
+        "max": 19,
+        "peak": {
+          "date": "Nov 16, 2026 at 6:00 PM",
+          "timestamp": "1794877200",
+          "taipei": "2026-11-17 09:00 UTC+08:00 (Asia/Taipei)",
+          "value": 19,
+          "partial": false,
+          "raw_value": "19"
+        },
+        "top5_nonzero": [
+          {
+            "date": "Nov 16, 2026 at 6:00 PM",
+            "timestamp": "1794877200",
+            "taipei": "2026-11-17 09:00 UTC+08:00 (Asia/Taipei)",
+            "value": 19,
+            "partial": false,
+            "raw_value": "19"
+          },
+          {
+            "date": "Nov 19, 2026 at 7:00 AM",
+            "timestamp": "1795096800",
+            "taipei": "2026-11-19 22:00 UTC+08:00 (Asia/Taipei)",
+            "value": 19,
+            "partial": false,
+            "raw_value": "19"
+          },
+          {
+            "date": "Nov 19, 2026 at 10:00 AM",
+            "timestamp": "1795107600",
+            "taipei": "2026-11-20 01:00 UTC+08:00 (Asia/Taipei)",
+            "value": 17,
+            "partial": false,
+            "raw_value": "17"
+          }
+        ],
+        "coverage": "series_present"
+      },
+      "meta muse video": {
+        "api_average": 0,
+        "points": 169,
+        "zeros": 168,
+        "nonzero_count": 1,
+        "missing": 0,
+        "min": 0,
+        "max": 37,
+        "peak": {
+          "date": "Nov 19, 2026 at 11:00 PM",
+          "timestamp": "1795154400",
+          "taipei": "2026-11-20 14:00 UTC+08:00 (Asia/Taipei)",
+          "value": 37,
+          "partial": false,
+          "raw_value": "37"
+        },
+        "top5_nonzero": [
+          {
+            "date": "Nov 19, 2026 at 11:00 PM",
+            "timestamp": "1795154400",
+            "taipei": "2026-11-20 14:00 UTC+08:00 (Asia/Taipei)",
+            "value": 37,
+            "partial": false,
+            "raw_value": "37"
+          }
+        ],
+        "coverage": "series_present"
+      }
+    },
+    "note": "Values are Google Trends relative 0-100 within this single request only; do not compare averages across 7/30/90-day requests as absolute levels."
+  }
+}

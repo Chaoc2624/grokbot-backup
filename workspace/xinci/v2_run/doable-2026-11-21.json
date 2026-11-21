@@ -1,0 +1,1080 @@
+{
+ "day": "2026-11-21",
+ "config": {
+  "min_volume": 500,
+  "max_kd": 31,
+  "min_cpc": 0.01,
+  "need_open_serp": true,
+  "database": "us",
+  "max_terms": 60,
+  "max_spend_usd": 0.2,
+  "cache_days": 7,
+  "serp_fetch": true,
+  "serp_location_code": 2840,
+  "kd_min_volume": 100,
+  "max_allintitle": 10000,
+  "check_allintitle": true,
+  "need_small_sites": false,
+  "small_sites_min": 5,
+  "tool_intent_bonus": 15,
+  "vacuum_enabled": true,
+  "vacuum_min_ratio": 0.7,
+  "vacuum_max_serp_checks": 18,
+  "check_domains": true,
+  "domain_tlds": [
+   "com",
+   "ai",
+   "io",
+   "org"
+  ]
+ },
+ "passed": [],
+ "vacuum_terms": [],
+ "almost": [],
+ "filtered_out": [
+  {
+   "phrase": "murderers vs sheriffs",
+   "source": "Google 补全种子",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "snake vs human",
+   "source": "Google 补全种子",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "want to recreate this ai trend open capcut ai lab type peek in the ai",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "want to try it yourself open capcut go to al lab and type peek in the chat",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "should i change my hair i tried the 4 hairstylist ai template on capcut",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "just me dancing in the window until i realize someone s watching.",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "what if you could take an ordinary photo and turn it into an incredibly realisti",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "create viral ai music videos from just one photo 100 free explore_aitech",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "what if you could create a marketing video with ai in just a few clicks",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "this trend has been on my feed everywhere so you know i had to try it. turns out",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "i m so obsessed guys wanna try it yourself open capcut go to ai lab and type",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "ai definitely can t do any of these i mean this isn t really a trend showin",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "how to create edit post ai templates capcut ai trends templates",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "capcut ai video generator 𝟮𝟬𝟮𝟲 100 works no yapping to the point fast",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "capcut ai video editing tutorial for beginners 2025 update seedream 4.0",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "capcut ai video template program 2026 how to create ai templates earn credit",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "new cinematic ai image to video generator higgsfield ai tutorial",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "transform any photo into a video clip with canva s new ai feature in seconds",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "free ai image to video generator animate images into videos free",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "5 free unlimited ai video generators text-to-video + image-to-video 2025 g",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "dragon arena slots",
+   "source": "Google 补全(Dragon Arena)",
+   "reason": "涉黄赌毒/博彩违规"
+  },
+  {
+   "phrase": "dragon arena slots lords mobile",
+   "source": "Google 补全(Dragon Arena)",
+   "reason": "涉黄赌毒/博彩违规"
+  },
+  {
+   "phrase": "dragon arena time slots",
+   "source": "Google 补全(Dragon Arena)",
+   "reason": "涉黄赌毒/博彩违规"
+  },
+  {
+   "phrase": "dragon arena time slots india",
+   "source": "Google 补全(Dragon Arena)",
+   "reason": "涉黄赌毒/博彩违规"
+  },
+  {
+   "phrase": "dragon arena time slots lords mobile",
+   "source": "Google 补全(Dragon Arena)",
+   "reason": "涉黄赌毒/博彩违规"
+  },
+  {
+   "phrase": "pixel z gunner mod menu",
+   "source": "Google 补全(Pixel Z)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pixel z warriors",
+   "source": "Google 补全(Pixel Z)",
+   "reason": "体育赛事/比分噪音"
+  },
+  {
+   "phrase": "rolana arabic coffee",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana baklava",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana baklava od maka",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana baklava od višanja",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana baklava recept",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana baklava sa grizom i orasima",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana baklava sa orasima",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana bourland",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana brumley",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana brumley model",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana brumley stevie emerson",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana by david",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana by david lyrics",
+   "source": "Google 补全(Rolana)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "rolana caulking",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana chocolate",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana from good times",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana garazna vrata",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana gibanica",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana gibanica sa sirom",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana govedina",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana griz baklava",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana habchy",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana harris",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana heavy sateen dress",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana hobotnica",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana in hindi",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana oblatne recept",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana ograda",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana piletina u panceti",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana piletina u pecnici",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana pita od jabuka",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana rebra",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana romena",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana romena subotica",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana sbano",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana slanina",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana sunka",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana sunka u mrezici gavrilovic",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana sunka u mrezici kuhanje",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana svinjetina",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana svinjetina u rerni",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana teletina",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana teletina u pecnici",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana tex",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana torta",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana uab",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana weather",
+   "source": "Google 补全(Rolana)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "rolana šunka u mrežici",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "rolana šunka u mrežici recept",
+   "source": "Google 补全(Rolana)",
+   "reason": "单字同名非AI语义"
+  },
+  {
+   "phrase": "ghost of tsushima directors cut meaning",
+   "source": "Google 补全(Ghost of Tsushima DIRECTORS CUT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "ghost of tsushima directors cut ps4 vs ps5",
+   "source": "Google 补全(Ghost of Tsushima DIRECTORS CUT)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "ghost of tsushima directors cut vs normal",
+   "source": "Google 补全(Ghost of Tsushima DIRECTORS CUT)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "ghost of tsushima directors cut vs original",
+   "source": "Google 补全(Ghost of Tsushima DIRECTORS CUT)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "jailbreak ai meaning",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "jailbreak chords",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "jailbreak definition",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "jailbreak meaning",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "jailbreak model meaning",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "jailbreak phone near me",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "jailbreak ps5 meaning",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "jailbreak thin lizzy lyrics",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "jailbreak vs demon",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "jailbreak vs hellcat",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "jailbreak vs mad city",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "jailbreak vs prison life",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "jailbreak vs redeye",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "jailbreak vs redeye difference",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "jailbreak vs root",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "jailbreak vs sideload",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "jailbreak waylon wyatt lyrics",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "jailbreak wiki",
+   "source": "Google 补全(Jailbreak ⛓)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "romancing saga 2 revenge of the seven how many playable characters",
+   "source": "Google 补全(Romancing SaGa 2: Revenge of the Seven)",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "romancing saga 2 revenge of the seven switch vs ps5",
+   "source": "Google 补全(Romancing SaGa 2: Revenge of the Seven)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "romancing saga 2 revenge of the seven vs dragon quest 11",
+   "source": "Google 补全(Romancing SaGa 2: Revenge of the Seven)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "romancing saga 2 revenge of the seven vs original",
+   "source": "Google 补全(Romancing SaGa 2: Revenge of the Seven)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "romancing saga 2 revenge of the seven vs romancing saga 2",
+   "source": "Google 补全(Romancing SaGa 2: Revenge of the Seven)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "romancing saga 2 revenge of the seven vs romancing saga 3'",
+   "source": "Google 补全(Romancing SaGa 2: Revenge of the Seven)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "romancing saga 2 revenge of the seven when do you play as your character",
+   "source": "Google 补全(Romancing SaGa 2: Revenge of the Seven)",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "romancing saga 2 revenge of the seven wiki",
+   "source": "Google 补全(Romancing SaGa 2: Revenge of the Seven)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "google home",
+   "source": "App Store(#13 Google Home)",
+   "reason": "老应用重返榜单(上架 2013-08-27)，非AI新工具"
+  },
+  {
+   "phrase": "health100",
+   "source": "App Store(#81 Health100)",
+   "reason": "老应用重返榜单(上架 2026-07-01)，非AI新工具"
+  }
+ ],
+ "terms": [
+  {
+   "phrase": "inkling 2 mini",
+   "source": "看板X",
+   "names": [
+    "Inkling 2 Mini"
+   ],
+   "evidence": "官方首发的新 SKU（相对已报的 Inkling 2 Small），播放约 87.8 万、收藏约 4904，适合做本地部署/下载页，以及与 Qwen3.8 27B 等小模型的对比页。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": true,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {
+     "list": 6,
+     "article": 2
+    },
+    "ads": false,
+    "features": [
+     "ai_overview",
+     "perspectives"
+    ],
+    "top": [
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com"
+    ],
+    "items": [
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESZQHEIkXXaAib7fZWjp8RZu-w88JMwSzynTUFFckDIex7hOT13ZRLmeQEAr0RsaGk1ISgMlBdUwtxe4BAQ5FVbzVE9rjZ1Z2zhdiwTMBw0t_wdZbUBHJLuYCtLiBTTx_Dhdu13aL5&gsessionid=Tu8kHn2iXA7jU5yPx8Cngi20OqQqgGXngjbAlJCzelBm28VK7K7LOQ",
+      "title": "Inkling 2 Small: A model that can see and refine what it builds",
+      "position": 1,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESfwHEIkXXyrNAhkKo3iLYdYtr-YRNc7WT7z-LboCxPZWloK0cwLsnGToIRf5YJv64TqedQyAItCH0b_vTt03waPSWEHCBIo-lHL4EmKzo5RTg8vwyp9S2ALF9jpDpX5PsVMSUo7eDLzEAZMePOT5qJ2ZzRJ9Mgok0tphJlptKa1M&gsessionid=Tu8kHn2iXA7jU5yPx8Cngi20OqQqgGXngjbAlJCzelBm28VK7K7LOQ",
+      "title": "Inkling-Small vs. SmolLM2 Comparison",
+      "position": 2,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESYgHEIkXXlSHh4zo9Vqf9nYM7nZc-4HebpkEeSY565pMdJNQAJAN7A2FMvwYKeiB8CWJwXh2lu6jeBS15Uqi_YYTETM8yeLzMFLRYVsYIj36SQP922-aGHzJoTWCaMlvP0pBj&gsessionid=Tu8kHn2iXA7jU5yPx8Cngi20OqQqgGXngjbAlJCzelBm28VK7K7LOQ",
+      "title": "Inkling-Small - Thinking Machines - Model Price & Provider ...",
+      "position": 3,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESfgHEIkXXu26u8dvf4J9lRIplUzfLSeHP9Y4mVBE8j_APxYShUPf3JGMbxkw5JLJ6YYoDZtp9ay7yqSqot5ykdPlER0FeY5K4uelrtNRwnekZQEn60MaUQHviAP2Amg5VJ5X69gUKnGkuFeE1O5BO0bKmbL-JxvDVWlSglSsS7Q&gsessionid=Tu8kHn2iXA7jU5yPx8Cngi20OqQqgGXngjbAlJCzelBm28VK7K7LOQ",
+      "title": "Inkling-Small vs MiniMax M2.1 Pricing",
+      "position": 4,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESjgEBxCJF16rUwPP8-bdZUu1YjFNz3dDYxyElsBDHH1Or9o_hs1BVeJa_8aX8e80uzIR6c_i237Y5PqewAWDvSSWJMdXdi7pYSZAVxRgHP60nGOT9Pw2oYXR5EknIhzjJGWseMFYrYhm86IQVUa6vaYGtBz0BmVDU5Tmm43SCAvzmVqgvaC8hnEeg2KaRPv1v&gsessionid=Tu8kHn2iXA7jU5yPx8Cngi20OqQqgGXngjbAlJCzelBm28VK7K7LOQ",
+      "title": "Thinking Machines Releases Inkling 2 Small Open Weights ...",
+      "position": 5,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAEShwEBxCJF152yVIoipejhuCZY5bO-BTfxnaLP960K5jjNrgfkNkkDkqNAaqixvVS9KfO7gI7qTDnMFQhPWzCwvfT5iUxzaD2iA25MgaJYIgIWb1E2uSiT0JhAL-CV5XTIL_f-iNet9_CDi6mrgPfKgbM0YorCgnaWWJB7_XeAXaFxjqtq3UdmoL8&gsessionid=Tu8kHn2iXA7jU5yPx8Cngi20OqQqgGXngjbAlJCzelBm28VK7K7LOQ",
+      "title": "Thinking Machines Inkling 2 Small - LLM Pulse - Teach AI Tools",
+      "position": 6,
+      "kind": "list"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESdQHEIkXXyWjQajMx54BevGX3e9dh5g_jWhyPkOPbIufwiLOeOvbgahVagwB-2rj9pg_5ztzWgDJqSnY-fs7KBpoyw44766pLU_QxciiAdnbHhfcTt-_RC0g_Cqb4n_wxUKWAIErq7mO2NAVCuZ79TC3rELY7EQ&gsessionid=Tu8kHn2iXA7jU5yPx8Cngi20OqQqgGXngjbAlJCzelBm28VK7K7LOQ",
+      "title": "Inkling Small pricing, providers, and specs",
+      "position": 7,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESfgHEIkXXIjJHrlCvh8mGKf9w_TcG_G4rpJp_w9Dbwc-qMPMFapeALUt0RajqEKCh-p2xASyObd6gFVmGLrHSIsYXodHDStNYN-AcUswc3nGG_kA0v3FAQ3dqU6nKYly_vH5sY2_Xng8sRSzBlTfmV67RxX4iKvIzhcqRrlG7zg&gsessionid=Tu8kHn2iXA7jU5yPx8Cngi20OqQqgGXngjbAlJCzelBm28VK7K7LOQ",
+      "title": "Inkling-Small vs MiniMax M2.5 Pricing",
+      "position": 8,
+      "kind": "list"
+     }
+    ],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/8",
+   "vacuum_hits": 0,
+   "vacuum_total": 8,
+   "vacuum_breakdown": {
+    "社媒/论坛": 0,
+    "代码仓/模型库": 0,
+    "视频": 0,
+    "资讯/评测": 0
+   },
+   "dedicated_sites": [],
+   "vacuum_evidence": "已有 8 个垂直博客抢占（google.com），社区占比 0/8",
+   "tool_intent": false,
+   "kdroi": null,
+   "small_sites": 0,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "inkling2mini.com",
+     "available": true
+    },
+    {
+     "domain": "inkling2miniai.com",
+     "available": true
+    },
+    {
+     "domain": "tryinkling.com",
+     "available": false
+    },
+    {
+     "domain": "inkling2mini.ai",
+     "available": true
+    },
+    {
+     "domain": "inkling2miniai.ai",
+     "available": true
+    },
+    {
+     "domain": "inkling2mini.io",
+     "available": true
+    },
+    {
+     "domain": "inkling2miniai.io",
+     "available": true
+    },
+    {
+     "domain": "inkling2mini.org",
+     "available": true
+    }
+   ],
+   "available_domains": [
+    "inkling2mini.com",
+    "inkling2miniai.com",
+    "inkling2mini.ai",
+    "inkling2miniai.ai",
+    "inkling2mini.io",
+    "inkling2miniai.io",
+    "inkling2mini.org"
+   ],
+   "failed": [
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "flowtica verso",
+   "source": "看板X",
+   "names": [
+    "Flowtica Verso"
+   ],
+   "evidence": "官方硬件+AI 笔记新品，播放约 55.3 万，适合做 AI 会议记录/MagSafe 录音配件介绍或替代词页；需标明这是实体配件，不是纯网页工具。",
+   "is_vacuum_candidate": true,
+   "is_hot_keyword": true,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": "crowded",
+   "comp_detail": {
+    "kinds": {
+     "article": 6
+    },
+    "ads": true,
+    "features": [
+     "ai_overview",
+     "images",
+     "perspectives",
+     "related_searches",
+     "video"
+    ],
+    "top": [
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com",
+     "google.com"
+    ],
+    "items": [
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESYwHEIkXXhM0zcUfG3S2f3ESamUuk-nUXCK0oU1haqsBdzgXZZnI90neN5I4ePwFvlrlX1GRT9fvrXhNtEdGnaK82NfKAmX9U4DbRc2mRuy76oOz56pis34qxSaIa9GQ2qq3bCw&gsessionid=ZXk4YBojVnEF5e0F_4ZPzVciraTqn4K7Krekn8oeB_5TpSvlSFtS4g",
+      "title": "flowtica_ai • Instagram photos and videos",
+      "position": 1,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESXgHEIkXXt-yelwIngRZdYjrC8vmE1v-VsqRzzR2RnON0P_ocBZVsbiG5xtHYO9jJEa2QQCQNwh77xAnp2b9QwSxNM0YsoXjNEdSYF6ke8RLYGUoE37dKhy8XsVRvC6E&gsessionid=ZXk4YBojVnEF5e0F_4ZPzVciraTqn4K7Krekn8oeB_5TpSvlSFtS4g",
+      "title": "Flowtica (@Flowtica_AI) / X",
+      "position": 2,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXbunEMUhEWBxBzJnRlLhL_rlwWSmF1szoPWmgYNBnSOw6BKlIZEXQ-J4eEvDNXDT08dhU81nZUDPjftq3VAIE8aVXMw-gT2Wk4uammQexGudLDf1tMiOOOYtyvF4w4jItQ9w8&gsessionid=ZXk4YBojVnEF5e0F_4ZPzVciraTqn4K7Krekn8oeB_5TpSvlSFtS4g",
+      "title": "Your phone gives you the answer—and everything else. Verso ...",
+      "position": 3,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESrwEBxCJF172gWKk6KCWjP9jrHLL8PTPVVQq3FcJ0J987d9RIie_nRoRm10wz-X3oGZ17KCbZTIz51W03rSEDBI9uQ-eTbDxf_fTWA2v9Y3HyNJnKqt24hlxx0vjCyYgAcXlJHmQ-283D1R87IpSGV_l1AjHw-WfsF9HhYLgtwXrpuCH1YZneiOdcg46Sjgjpd2yr9iBI8C20bXb3CNDm5TT04sFIqM0EQYZtM2R5g8Zy&gsessionid=ZXk4YBojVnEF5e0F_4ZPzVciraTqn4K7Krekn8oeB_5TpSvlSFtS4g",
+      "title": "Flowtica Verso AI Productivity Companion Launches for ...",
+      "position": 4,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESZAHEIkXXS5FP_CIScv_0CKHVl1b-IMF4n6dzl2Gf8cHoEGSZAmrMqNk8tBoi8o4hAIOnxM6IwG8FUxKrRdZeF39ydIXhMoliHvjE5Gx4Qx69E7GJZgruUleAPOjazi-6iSbq_4U&gsessionid=ZXk4YBojVnEF5e0F_4ZPzVciraTqn4K7Krekn8oeB_5TpSvlSFtS4g",
+      "title": "r/Flowtica",
+      "position": 5,
+      "kind": "article"
+     },
+     {
+      "domain": "google.com",
+      "url": "https://google.com/goto?url=CAESaAHEIkXXztcsZoyeFx-T3fPJqYRUIAY1N3nAR9KNOy1JPiY4oVfRXIGYh7bcRH9EQHkaHLcqqKMEO7jG9DIgMEpXSYmZdsf3N7gmCzf0WfKBVz7im3fMSVRZu_hqHHsheSIUF-O8HQvS&gsessionid=ZXk4YBojVnEF5e0F_4ZPzVciraTqn4K7Krekn8oeB_5TpSvlSFtS4g",
+      "title": "Flowtica Verso features e-paper display | Night Technology ...",
+      "position": 6,
+      "kind": "article"
+     }
+    ],
+    "source": "serp",
+    "soft_weak": 0
+   },
+   "is_vacuum": false,
+   "vacuum_ratio": 0.0,
+   "vacuum_count": "0/6",
+   "vacuum_hits": 0,
+   "vacuum_total": 6,
+   "vacuum_breakdown": {
+    "社媒/论坛": 0,
+    "代码仓/模型库": 0,
+    "视频": 0,
+    "资讯/评测": 0
+   },
+   "dedicated_sites": [],
+   "vacuum_evidence": "已有 6 个垂直博客抢占（google.com），社区占比 0/6",
+   "tool_intent": false,
+   "kdroi": null,
+   "small_sites": 0,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": false,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "domains": [
+    {
+     "domain": "flowticaverso.com",
+     "available": false
+    },
+    {
+     "domain": "flowticaversoai.com",
+     "available": true
+    },
+    {
+     "domain": "tryflowtica.com",
+     "available": false
+    },
+    {
+     "domain": "flowticaverso.ai",
+     "available": true
+    },
+    {
+     "domain": "flowticaversoai.ai",
+     "available": true
+    },
+    {
+     "domain": "flowticaverso.io",
+     "available": true
+    },
+    {
+     "domain": "flowticaversoai.io",
+     "available": true
+    },
+    {
+     "domain": "flowticaverso.org",
+     "available": true
+    }
+   ],
+   "available_domains": [
+    "flowticaversoai.com",
+    "flowticaverso.ai",
+    "flowticaversoai.ai",
+    "flowticaverso.io",
+    "flowticaversoai.io",
+    "flowticaverso.org"
+   ],
+   "failed": [
+    "CPC",
+    "首页竞争"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "capcut peek ai",
+   "source": "热梗轨",
+   "names": [
+    "extracted"
+   ],
+   "evidence": "发现阶段，未做画面核验不得称独立成片",
+   "is_vacuum_candidate": false,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "CPC"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "capcut rich ai",
+   "source": "热梗轨",
+   "names": [
+    "extracted"
+   ],
+   "evidence": "发现阶段，未做画面核验不得称独立成片",
+   "is_vacuum_candidate": false,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "CPC"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "jatayu ai edit",
+   "source": "热梗轨",
+   "names": [
+    "extracted"
+   ],
+   "evidence": "发现阶段，未做画面核验不得称独立成片",
+   "is_vacuum_candidate": false,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "CPC"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "sheru bhai ai trend",
+   "source": "热梗轨",
+   "names": [
+    "extracted"
+   ],
+   "evidence": "发现阶段，未做画面核验不得称独立成片",
+   "is_vacuum_candidate": false,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "CPC"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  }
+ ],
+ "spent_micros": 4000,
+ "errors": [],
+ "skipped": []
+}

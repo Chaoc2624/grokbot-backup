@@ -1,0 +1,13 @@
+{
+  "queried_at_utc": "2026-11-21T01:59:00Z",
+  "queried_at_taipei": "2026-11-21 09:59 CST (Asia/Taipei)",
+  "endpoint": "https://api.aisa.one/v1/usage?start_time=<today_utc_midnight>",
+  "today": {
+    "date_basis": "as_of UTC midnight; usage totals.charged_micros_usd / 1e6 as today charged_usd",
+    "requests": 0,
+    "failed_requests": 0,
+    "charged_usd": 0.0,
+    "charged_micros_usd": 0
+  },
+  "today_shanghai_also_zero": true
+}

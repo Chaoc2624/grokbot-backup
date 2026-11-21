@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-20T13:09:44.785501+00:00",
+  "checked_at": "2026-11-21T13:03:37.551665+00:00",
   "eligible": [],
   "needs_parameter_verification": [
     {
@@ -25,10 +25,6 @@
     {
       "id": "nvidia/nemotron-3.5-super-vl:free",
       "context_length": 1000000
-    },
-    {
-      "id": "dots-studio/dots-3-note-preview:free",
-      "context_length": 512000
     },
     {
       "id": "nvidia/nemotron-3.5-lightning:free",
@@ -57,7 +53,6 @@
   ],
   "free_ids": [
     "baidu/ernie-5.5-flash-preview:free",
-    "dots-studio/dots-3-note-preview:free",
     "google/gemma-4-26b-a4b-it:free",
     "google/gemma-4-31b-it:free",
     "google/lyria-3-clip-preview",
@@ -72,5 +67,5 @@
     "particle-ai/particle-1:free",
     "recursive/flint-v1.0:free"
   ],
-  "free_count": 15
+  "free_count": 14
 }

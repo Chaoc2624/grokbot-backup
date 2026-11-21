@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-20T01:06:17.358611+00:00",
+  "checked_at": "2026-11-21T01:07:51.121321+00:00",
   "eligible": [],
   "needs_parameter_verification": [
     {
@@ -35,10 +35,6 @@
       "context_length": 1000000
     },
     {
-      "id": "cohere/north-mini-code:free",
-      "context_length": 256000
-    },
-    {
       "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "context_length": 1000000
     },
@@ -61,7 +57,6 @@
   ],
   "free_ids": [
     "baidu/ernie-5.5-flash-preview:free",
-    "cohere/north-mini-code:free",
     "dots-studio/dots-3-note-preview:free",
     "google/gemma-4-26b-a4b-it:free",
     "google/gemma-4-31b-it:free",
@@ -77,5 +72,5 @@
     "particle-ai/particle-1:free",
     "recursive/flint-v1.0:free"
   ],
-  "free_count": 16
+  "free_count": 15
 }

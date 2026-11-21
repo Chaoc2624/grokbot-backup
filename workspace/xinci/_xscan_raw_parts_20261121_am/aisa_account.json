@@ -1,0 +1,86 @@
+{
+  "ok": false,
+  "attempts": [
+    {
+      "url": "https://api.aisa.one/v1/account",
+      "method": "GET",
+      "status": 404,
+      "body": "404 page not found"
+    },
+    {
+      "url": "https://api.aisa.one/v1/me",
+      "method": "GET",
+      "status": 404,
+      "body": "404 page not found"
+    },
+    {
+      "url": "https://api.aisa.one/v1/users/me",
+      "method": "GET",
+      "status": 404,
+      "body": "404 page not found"
+    },
+    {
+      "url": "https://api.aisa.one/v1/usage",
+      "method": "GET",
+      "status": 400,
+      "body": "{\"error\":\"start_time must be a positive Unix timestamp\"}",
+      "keys": [
+        "error"
+      ],
+      "hits": []
+    },
+    {
+      "url": "https://api.aisa.one/v1/billing",
+      "method": "GET",
+      "status": 404,
+      "body": "404 page not found"
+    },
+    {
+      "url": "https://api.aisa.one/v1/wallet",
+      "method": "GET",
+      "status": 404,
+      "body": "404 page not found"
+    },
+    {
+      "url": "https://api.aisa.one/v1/dashboard/account",
+      "method": "GET",
+      "status": 404,
+      "body": "404 page not found"
+    },
+    {
+      "url": "https://api.aisa.one/apis/v1/account",
+      "method": "GET",
+      "status": 404,
+      "body": "{\"error\":{\"code\":\"endpoint_not_found\",\"message\":\"API endpoint not found.\",\"request_id\":\"req_2690d6da78a68aeb8044ba84\",\"retry_hint\":\"never\",\"retryable\":false}}",
+      "keys": [
+        "error"
+      ],
+      "hits": []
+    },
+    {
+      "url": "https://tools.aisa.one/v1/tool-router/account",
+      "method": "POST",
+      "status": 404,
+      "body": "404 page not found"
+    },
+    {
+      "url": "https://tools.aisa.one/v1/tool-router/account",
+      "method": "GET",
+      "status": 405,
+      "body": "<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+    },
+    {
+      "url": "https://console.aisa.one/api/account",
+      "method": "GET",
+      "status": 404,
+      "body": "404 page not found"
+    },
+    {
+      "url": "https://api.aisa.one/account",
+      "method": "GET",
+      "status": 404,
+      "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a5dc187b7f990609',t:'MTc5NTIyNjM3Mg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challe"
+    }
+  ],
+  "today_charged_usd": null
+}

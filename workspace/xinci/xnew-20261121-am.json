@@ -1,0 +1,83 @@
+{
+  "label": "2026-11-21 上午 书签X",
+  "run_at": "2026-11-21 10:06",
+  "window_start": "2026-11-20 09:59",
+  "window_end": "2026-11-21 09:58",
+  "empty": false,
+  "query_note": "免费 x.search_posts_all，未使用付费 user-X。官方账号窗口 start_time=2026-11-20T01:59:52Z（上次成功 last_scan）；游戏/工具/视频补近7天 start_time=2026-11-14T01:55:00Z，end_time=2026-11-21T01:58:40Z。A 官方 14 条后翻页 0 条。B 路 min_likes:500 被 API 去掉，本地过滤 likes>=500 仅命中 Inkling 2 Mini 相关转述，已改用官方 @thinkymachines 首发帖。本窗 GoogleAI 回顾帖还提到 Gemini 4 Neon/Hydrogen/Carbon、Genie 4、Gemini Robotics 2.5、AlphaGenome 2，均已在 reported 中，不重复收录；Hy4 开源权重动态因 hy4 已报（2026-11-04）不重复收录。Stitch Loop、Flowtica Verso 为窗口前官方首发、上档漏报，已补报。视频检索含大量 grok 回复、K-pop/普通 CapCut 模板和儿童相关内容，已排除；未见有原文证据、可复刻的具体 AI 视频玩法，故视频词不收录，查询种子（CapCut/AI video 等）不当作新词。游戏检索大量 condo/色情及泛讨论已剔除；仅保留低互动的 TNT Incremental 2 作为发现线索进入可选 x-input。",
+  "items": [
+    {
+      "name": "Inkling 2 Mini",
+      "desc": "Thinking Machines 官方发布 Inkling 2 Mini：约 26B 参数（激活约 3.4B）的循环 Transformer 开源权重模型，官方称可在笔记本运行，AA Index 20.1，面向 agent 工作。",
+      "source": "@thinkymachines",
+      "url": "https://x.com/thinkymachines/status/2123871643797995872",
+      "first_seen": "2026-11-21 04:10",
+      "views": 877955,
+      "bookmarks": 4904,
+      "likes": 7876,
+      "kind": "model",
+      "keyword_rank": 1,
+      "keyword": "Inkling 2 Mini",
+      "reason": "官方首发的新 SKU（相对已报的 Inkling 2 Small），播放约 87.8 万、收藏约 4904，适合做本地部署/下载页，以及与 Qwen3.8 27B 等小模型的对比页。"
+    },
+    {
+      "name": "WeMM-Video",
+      "desc": "腾讯微信视觉（WeChat Vision）发布 WeMM-Video 开源权重模型系列，面向音画联合理解与推理，提供 2B/4B/9B/35B-A3B 规格，支持文本、图像、音频和视频输入，Apache-2.0。",
+      "source": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2123755394296422564",
+      "first_seen": "2026-11-20 20:28",
+      "views": 3366,
+      "bookmarks": 55,
+      "likes": 68,
+      "kind": "model"
+    },
+    {
+      "name": "Gemini 3.5 Transcribe 语音编辑 API",
+      "desc": "Google 宣布把 Gemini 3.5 Transcribe 的语音编辑能力开放到 Gemini API，开发者可做「用语音编辑、改写、翻译已有文本」的体验；该能力已用于 Gboard 的 Rambler 和 macOS 上的 Gemini 应用。不是新模型。",
+      "source": "@Google",
+      "url": "https://x.com/Google/status/2123827048808370477",
+      "first_seen": "2026-11-21 01:13",
+      "views": 182590,
+      "bookmarks": 294,
+      "likes": 809,
+      "kind": "not_model"
+    },
+    {
+      "name": "Stitch Loop",
+      "desc": "【补报】Google / Google Labs 发布实验产品 Stitch Loop：代码上线后仍持续监测产品指标，在沙箱中测试修复并提交待审批的 PR，基于 Gemini 4 Carbon 和 CodeMender。本窗之前官方首发（2026-11-18），上档漏报。",
+      "source": "@Google",
+      "url": "https://x.com/Google/status/2123101724047200432",
+      "first_seen": "2026-11-19 01:11",
+      "views": 225354,
+      "bookmarks": 707,
+      "likes": 1711,
+      "kind": "product",
+      "backfill": true
+    },
+    {
+      "name": "Flowtica Verso",
+      "desc": "【补报】Flowtica 官方发布 Flowtica Verso：宣称全球首款带实时电子墨水屏的 MagSafe AI 会议记录配件，可记录通话与当面交谈并生成摘要和待办。本窗之前官方首发（2026-11-17），上档漏报。",
+      "source": "@Flowtica_AI",
+      "url": "https://x.com/Flowtica_AI/status/2122691235261383029",
+      "first_seen": "2026-11-17 22:00",
+      "views": 552827,
+      "bookmarks": 56,
+      "likes": 184,
+      "kind": "product",
+      "backfill": true,
+      "keyword_rank": 2,
+      "keyword": "Flowtica Verso",
+      "reason": "官方硬件+AI 笔记新品，播放约 55.3 万，适合做 AI 会议记录/MagSafe 录音配件介绍或替代词页；需标明这是实体配件，不是纯网页工具。"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Inkling 2 Mini",
+      "reason": "官方首发的新 SKU（相对已报的 Inkling 2 Small），播放约 87.8 万、收藏约 4904，适合做本地部署/下载页，以及与 Qwen3.8 27B 等小模型的对比页。"
+    },
+    {
+      "keyword": "Flowtica Verso",
+      "reason": "官方硬件+AI 笔记新品，播放约 55.3 万，适合做 AI 会议记录/MagSafe 录音配件介绍或替代词页；需标明这是实体配件，不是纯网页工具。"
+    }
+  ]
+}

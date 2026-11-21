@@ -1,0 +1,2 @@
+重要：不要回显 candidates。必须输出对象 {"growth":[{"id","title","points","url","tags":[...]}],"rejected":[{"id","reason"}]}。不要用 category 字段代替 growth/rejected。
+请从下面 candidates（与本档 23 条新书签相同）里分拣增长类。已标记 already_learned=true 的也应归入 rejected，原因写已在 learned-ids。输出只要 JSON。

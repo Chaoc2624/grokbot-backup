@@ -1,739 +1,200 @@
 {
   "items": [
     {
-      "id": 0,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
       "id": 1,
       "keep": true,
-      "name": "Nutcake",
-      "desc": "一个用于创作者发现的AI工具",
-      "kind": "ai_tool"
+      "name": "Soldiers at War",
+      "desc": "经典策略游戏《Soldiers at War》时隔28年登陆Steam/GOG，同期还推出《Theocracy》与《Warlords IV: Heroes of Etheria》",
+      "kind": "game"
     },
     {
       "id": 2,
       "keep": true,
-      "name": "Hymans",
-      "desc": "一个用于第三方行政管理的AI工具",
-      "kind": "ai_tool"
+      "name": "Prison Legacy",
+      "desc": "监狱题材MMORPG《Prison Legacy》时隔26年重启上线Steam",
+      "kind": "game"
     },
     {
       "id": 3,
       "keep": true,
-      "name": "Snapchat",
-      "desc": "一个用于创建增强现实效果的AI工具",
-      "kind": "ai_tool"
+      "name": "Spin Tactics",
+      "desc": "老虎机策略Roguelike游戏《Spin Tactics》已在Steam发布",
+      "kind": "game"
     },
     {
       "id": 4,
       "keep": true,
-      "name": "Halter",
-      "desc": "一个连接奶牛与牧场数据的AI工具",
-      "kind": "ai_tool"
+      "name": "Inkling 2 Mini",
+      "desc": "Thinking Machines发布260亿参数模型Inkling 2 Mini，可在32GB内存MacBook上本地运行",
+      "kind": "model"
     },
     {
       "id": 5,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
+      "keep": true,
+      "name": "Inkling 2 Mini",
+      "desc": "Thinking Machines发布260亿参数模型Inkling 2 Mini，可在32GB内存MacBook上本地运行",
+      "kind": "model"
     },
     {
       "id": 6,
       "keep": true,
-      "name": "DepEd AI Tool",
-      "desc": "一个用于快速筛查二年级学习者的AI工具",
-      "kind": "ai_tool"
+      "name": "Inkling 2 Mini",
+      "desc": "Thinking Machines发布260亿参数模型Inkling 2 Mini，可在32GB内存MacBook上本地运行",
+      "kind": "model"
     },
     {
       "id": 7,
       "keep": true,
-      "name": "DTH AI",
-      "desc": "阿波罗医院与微软联合推出的用于提升安全性的AI工具",
+      "name": "Dayora",
+      "desc": "AI日记应用Dayora新增乌克兰语支持，提供Plus会员免费试用",
       "kind": "ai_tool"
     },
     {
       "id": 8,
       "keep": true,
-      "name": "Forsaken Lands",
-      "desc": "一款已登录Steam平台的合作卡牌构筑游戏",
-      "kind": "game"
+      "name": "Clairic",
+      "desc": "Cloudflare向开发者开放Clairic模型并推出更快的数据提取版本",
+      "kind": "model"
     },
     {
       "id": 9,
       "keep": true,
-      "name": "Forsaken Lands",
-      "desc": "一款已在Steam发布的卡牌构筑游戏",
-      "kind": "game"
+      "name": "ASUS ProArt GR1X",
+      "desc": "华硕发布搭载RTX Spark的ProArt GR1X工作站，128GB版本售价7299欧元",
+      "kind": "ai_tool"
     },
     {
       "id": 10,
       "keep": true,
-      "name": "Epochlings",
-      "desc": "一款已在Steam发布1.0正式版的游戏",
-      "kind": "game"
-    },
-    {
-      "id": 11,
-      "keep": true,
-      "name": "Muv-Luv Girls Garden Mellow Days",
-      "desc": "一款已登录Steam平台并包含番茄钟和待办事项功能的视觉小说游戏",
-      "kind": "game"
+      "name": "Perplexity Personal Computer",
+      "desc": "Perplexity推出个人电脑应用，现已在Mac平台全面可用",
+      "kind": "ai_tool"
     },
     {
       "id": 12,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "model"
-    },
-    {
-      "id": 13,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "model"
-    },
-    {
-      "id": 14,
       "keep": true,
-      "name": "Microsoft AI Models",
-      "desc": "微软推出的兼顾成本与性能的AI模型系列",
-      "kind": "model"
-    },
-    {
-      "id": 15,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "model"
-    },
-    {
-      "id": 16,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "model"
-    },
-    {
-      "id": 17,
-      "keep": true,
-      "name": "Temporal Cloud",
-      "desc": "在微软Azure上提供公开预览版的工作流云服务平台",
-      "kind": "model"
-    },
-    {
-      "id": 18,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "model"
-    },
-    {
-      "id": 19,
-      "keep": true,
-      "name": "Ema AI Employees",
-      "desc": "面向人力资源、IT和财务部门的AI员工服务",
-      "kind": "model"
-    },
-    {
-      "id": 20,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "model"
-    },
-    {
-      "id": 21,
-      "keep": true,
-      "name": "NanoI1",
-      "desc": "KiteFishAI推出的旨在解决企业数据隐私与部署成本的紧凑型AI模型",
-      "kind": "model"
-    },
-    {
-      "id": 22,
-      "keep": true,
-      "name": "Conga Commerce Suite",
-      "desc": "与微软Dynamics 365及Copilot集成的商业套件",
-      "kind": "model"
-    },
-    {
-      "id": 23,
-      "keep": true,
-      "name": "Microsoft Edge for Business Security Reporting Connector",
-      "desc": "跨平台扩展的企业级边缘浏览器安全报告连接器",
-      "kind": "model"
-    },
-    {
-      "id": 24,
-      "keep": true,
-      "name": "Genie 4",
-      "desc": "谷歌推出的具备音频支持的世界模型",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 25,
-      "keep": true,
-      "name": "InkoAI Agent",
-      "desc": "免费的创意助手，支持15种模型以处理故事和动漫视频创作",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 26,
-      "keep": true,
-      "name": "Gemini 4 Neon",
-      "desc": "谷歌推出的可通过API调用的AI模型",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 27,
-      "keep": true,
-      "name": "Gemini 4 Neon",
-      "desc": "谷歌新推出的AI模型",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 28,
-      "keep": true,
-      "name": "AI Agent Studio",
-      "desc": "NFON面向欧洲企业推出的AI智能体开发工作室",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 29,
-      "keep": true,
-      "name": "Proof MCP",
-      "desc": "集成于ChatGPT中的MCP协议工具，用于验证AI智能体的代理身份和授权",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 30,
-      "keep": true,
-      "name": "Genie 4",
-      "desc": "谷歌推出的世界模型",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 31,
-      "keep": true,
-      "name": "MSI EdgeMesa N AI+",
-      "desc": "搭载NVIDIA RTX Spark的AI系列笔记本及台式机",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 32,
-      "keep": true,
-      "name": "Spin.AI",
-      "desc": "在微软Edge浏览器中可用的浏览器扩展风险评估洞察工具",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 33,
-      "keep": true,
-      "name": "Proof",
-      "desc": "集成于ChatGPT以解决AI智能体信任鸿沟的工具",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 34,
-      "keep": true,
-      "name": "NVIDIA RTX Spark",
-      "desc": "专为本地AI工作负载构建的紧凑型台式机",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 35,
-      "keep": true,
-      "name": "AI Inspo",
-      "desc": "多合一的AI社交媒体智能体工具",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 36,
-      "keep": true,
-      "name": "Genie 4",
-      "desc": "谷歌面向高级订阅用户推出的带音频的世界模型",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 37,
-      "keep": true,
-      "name": "Gemini Spark",
-      "desc": "谷歌在印度推出的24/7个人AI智能体",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 38,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 39,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 40,
-      "keep": false,
-      "name": "",
-      "desc": "",
+      "name": "DeepSeek Harness",
+      "desc": "DeepSeek Harness开发者预览版开放测试，提供模型开发工具链",
       "kind": "ai_tool"
     },
     {
       "id": 41,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
+      "keep": true,
+      "name": "GLM 5.3",
+      "desc": "GLM 5.3与DeepSeek V4.1 Flash在OpenCode平台降价60%供开发者调用",
+      "kind": "model"
     },
     {
       "id": 42,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 43,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 44,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 45,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
+      "keep": true,
+      "name": "Gemini 4 Neon",
+      "desc": "Google面向AI Pro/Ultra订阅用户上线Gemini 4 Neon模型，主打前沿推理与快速响应",
+      "kind": "model"
     },
     {
       "id": 46,
-      "keep": false,
-      "name": "",
-      "desc": "",
+      "keep": true,
+      "name": "Muru",
+      "desc": "AI辅助的Rust服务器Muru发布，旨在为Python ASGI/WSGI应用提供最佳生产部署工具",
       "kind": "ai_tool"
     },
     {
       "id": 47,
-      "keep": false,
-      "name": "",
-      "desc": "",
+      "keep": true,
+      "name": "Claude-BugHunter",
+      "desc": "Claude Code技能包Claude-BugHunter发布，包含82个技能、15条斜杠命令用于漏洞挖掘与红队演练",
       "kind": "ai_tool"
     },
     {
       "id": 48,
-      "keep": false,
-      "name": "",
-      "desc": "",
+      "keep": true,
+      "name": "Superpowers",
+      "desc": "智能体技能框架Superpowers发布，提供可组合技能与开发方法论供编码代理使用",
       "kind": "ai_tool"
     },
     {
       "id": 49,
-      "keep": false,
-      "name": "",
-      "desc": "",
+      "keep": true,
+      "name": "CLI-Anything",
+      "desc": "CLI-Anything项目发布，旨在让所有软件原生支持AI代理交互",
       "kind": "ai_tool"
     },
     {
       "id": 50,
-      "keep": false,
-      "name": "",
-      "desc": "",
+      "keep": true,
+      "name": "MiniMind",
+      "desc": "MiniMind开源项目支持两小时在个人GPU上从零训练64M参数小语言模型",
       "kind": "ai_tool"
     },
     {
       "id": 51,
-      "keep": false,
-      "name": "",
-      "desc": "",
+      "keep": true,
+      "name": "Cursor plugins",
+      "desc": "Cursor发布插件规范与官方插件集，支持主流开发工具、框架及SaaS产品集成",
       "kind": "ai_tool"
     },
     {
       "id": 52,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 53,
-      "keep": false,
-      "name": "",
-      "desc": "",
+      "keep": true,
+      "name": "Firecrawl",
+      "desc": "Firecrawl提供统一API接入550+数据源，作为智能体知识基础设施支持搜索、抓取与访问",
       "kind": "ai_tool"
     },
     {
       "id": 54,
-      "keep": false,
-      "name": "",
-      "desc": "",
+      "keep": true,
+      "name": "OpenVINO",
+      "desc": "OpenVINO开源工具包用于优化部署深度学习模型，支持生成式AI推理加速",
       "kind": "ai_tool"
     },
     {
       "id": 55,
-      "keep": false,
-      "name": "",
-      "desc": "",
+      "keep": true,
+      "name": "diagram-design",
+      "desc": "面向Claude Code等编码代理的图表设计技能，输出自包含HTML+SVG，支持45种图表类型",
       "kind": "ai_tool"
     },
     {
       "id": 56,
-      "keep": false,
-      "name": "",
-      "desc": "",
+      "keep": true,
+      "name": "last30days-skill",
+      "desc": "AI代理技能last30days可跨Reddit、X、YouTube等多源调研并生成有据可查的摘要",
       "kind": "ai_tool"
     },
     {
       "id": 57,
-      "keep": false,
-      "name": "",
-      "desc": "",
+      "keep": true,
+      "name": "Stitch Skills",
+      "desc": "Google Stitch MCP服务器配套的代理技能库，遵循开放标准兼容多种编码代理",
       "kind": "ai_tool"
     },
     {
       "id": 58,
       "keep": true,
-      "name": "Maru Code API",
-      "desc": "支持多种主流大模型调用的API服务平台",
+      "name": "app-store-compliance",
+      "desc": "App Store与Google Play合规指南与预提交防护工具，含117种拒绝模式修复及隐私合规检查",
       "kind": "ai_tool"
     },
     {
       "id": 59,
       "keep": true,
-      "name": "Gemini 4 Hydrogen",
-      "desc": "谷歌推出的专注于日常编程与智能体工作流快速执行的AI模型",
+      "name": "OpenSRE",
+      "desc": "开源CI/CD可靠性代理OpenSRE可读取失败运行、追踪原因并推送修复供审查",
       "kind": "ai_tool"
     },
     {
       "id": 60,
       "keep": true,
-      "name": "网易 UU 远程",
-      "desc": "网易推出的远程控制软件",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 61,
-      "keep": false,
-      "name": "",
-      "desc": "",
+      "name": "AFFiNE",
+      "desc": "新一代知识库AFFiNE整合规划、排序与创作，隐私优先、开源可定制",
       "kind": "ai_tool"
     },
     {
       "id": 62,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 63,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 64,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 65,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 66,
       "keep": true,
-      "name": "OpenCode",
-      "desc": "提供大模型API套餐服务的平台",
+      "name": "AutoClip",
+      "desc": "开源AI视频剪辑工具AutoClip支持一键将长视频转短视频，生成字幕、封面与发布文案，适配抖音、小红书等平台",
       "kind": "ai_tool"
-    },
-    {
-      "id": 67,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 68,
-      "keep": true,
-      "name": "Kimi K3.1 Pro",
-      "desc": "月之暗面推出的多项基准表现优异的大模型",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 69,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 70,
-      "keep": true,
-      "name": "Intelligent Eyewear",
-      "desc": "三星与谷歌联合开发并携手时尚品牌的AI眼镜",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 71,
-      "keep": true,
-      "name": "llm-gemini",
-      "desc": "支持谷歌Gemini模型的命令行与Python库插件",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 72,
-      "keep": true,
-      "name": "datasette-arrows",
-      "desc": "为 Datasette 插件系统添加流式导出格式支持的工具",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 73,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 74,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 75,
-      "keep": true,
-      "name": "DaisyRose-27B",
-      "desc": "突破后训练效率前沿的27B参数AI模型",
-      "kind": "model"
-    },
-    {
-      "id": 76,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "model"
-    },
-    {
-      "id": 77,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "model"
-    },
-    {
-      "id": 78,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 79,
-      "keep": true,
-      "name": "Gemini 4 Neon",
-      "desc": "谷歌推出的新一代Gemini系列AI模型",
-      "kind": "model"
-    },
-    {
-      "id": 80,
-      "keep": true,
-      "name": "Genie 4",
-      "desc": "谷歌推出的全新世界模型",
-      "kind": "model"
-    },
-    {
-      "id": 81,
-      "keep": true,
-      "name": "Gemini App",
-      "desc": "谷歌推出的支持低内存安卓设备的AI应用",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 82,
-      "keep": true,
-      "name": "cursor/plugins",
-      "desc": "Cursor 编辑器的官方插件规范及插件集合",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 83,
-      "keep": true,
-      "name": "CLI-Anything",
-      "desc": "将所有传统软件转换为智能体原生界面的开发框架",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 84,
-      "keep": true,
-      "name": "last30days-skill",
-      "desc": "用于跨多个社交与网页平台进行综合主题检索的AI智能体技能包",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 85,
-      "keep": true,
-      "name": "Arcane",
-      "desc": "面向所有人设计的现代Docker容器管理工具",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 86,
-      "keep": true,
-      "name": "SkillEvaluator",
-      "desc": "NVIDIA推出的用于评估AI智能体技能与插件的多层级质量安全验证框架",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 87,
-      "keep": true,
-      "name": "nvm",
-      "desc": "用于管理多个Node.js活跃版本的脚本工具",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 88,
-      "keep": true,
-      "name": "uv",
-      "desc": "使用Rust编写的极速Python包和项目管理器",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 89,
-      "keep": true,
-      "name": "PaperOrchestra",
-      "desc": "用于自动化AI研究论文写作的多智能体协作框架",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 90,
-      "keep": true,
-      "name": "stitch-skills",
-      "desc": "与Stitch MCP服务器配合使用的智能体设计技能库",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 91,
-      "keep": true,
-      "name": "Svelte",
-      "desc": "将声明式组件编译为高效原生JavaScript的Web开发框架",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 92,
-      "keep": true,
-      "name": "jQuery",
-      "desc": "轻量级的JavaScript函数库",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 93,
-      "keep": true,
-      "name": "Appwrite",
-      "desc": "面向AI智能体与开发者的开源云端后端服务平台",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 94,
-      "keep": true,
-      "name": "OpenVINO",
-      "desc": "英特尔推出的用于优化和部署AI推理的开源工具包",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 95,
-      "keep": true,
-      "name": "Superpowers",
-      "desc": "为编码智能体构建的可组合技能与软件开发方法论框架",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 96,
-      "keep": true,
-      "name": "ECC",
-      "desc": "智能体开发脚手架与性能优化系统",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 97,
-      "keep": true,
-      "name": "jiangshan-map",
-      "desc": "中国历史交互地图与时间轴展示项目",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 98,
-      "keep": true,
-      "name": "n8n",
-      "desc": "具备原生AI能力的公平源码工作流自动化平台",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 99,
-      "keep": true,
-      "name": "Solid",
-      "desc": "用于构建用户界面的声明式且高效的JavaScript库",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 100,
-      "keep": true,
-      "name": "awesome-mcp-servers",
-      "desc": "MCP服务器资源与工具的精选集合列表",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 101,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 102,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 103,
-      "keep": false,
-      "name": "",
-      "desc": "",
-      "kind": "ai_tool"
-    },
-    {
-      "id": 104,
-      "keep": true,
-      "name": "MyMems",
-      "desc": "由Will Wright开发的一款围绕AI及玩家个人记忆映射构建的新游戏",
-      "kind": "game"
     }
   ]
 }

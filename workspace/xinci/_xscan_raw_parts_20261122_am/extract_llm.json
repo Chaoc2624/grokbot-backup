@@ -1,0 +1,102 @@
+{
+  "query_note": "采集窗口：2026-11-21T01:58:40Z 后至 2026-11-22 早。过滤：API 已移除 min_likes 阈值；排除儿童/色情/种子词；仅收录官方首发或窗口前官方首发且 reported 无的新模型/产品。游戏、第三方工具、视频玩法归入 x_input 发现线索，不进 items。",
+  "items": [
+    {
+      "name": "CCORE-Web-Coder-4B",
+      "desc": "CCORE-Web-Coder-4B turns a brief into a React HTML page you can open in a browser. This open-weight 4B preview is fine-tuned from Qwen3.5-4B-Base for local web generation. Apache 2.0. Websites, slide decks, and informational pages.",
+      "source": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2123990190939308374",
+      "first_seen": "2026-11-21 12:01",
+      "views": 1711,
+      "bookmarks": 13,
+      "likes": 24,
+      "kind": "model"
+    },
+    {
+      "name": "Hy4-flash",
+      "desc": "【补报】Tencent Hy has released Hy4-flash as an open-weight 220B MoE model that activates just 12B parameters per token, with native image understanding and 1M context.",
+      "source": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2122955127782834677",
+      "first_seen": "2026-11-18 15:28",
+      "views": 4082,
+      "bookmarks": 4,
+      "likes": 37,
+      "kind": "model",
+      "backfill": true
+    },
+    {
+      "name": "Code Mode",
+      "desc": "Check out Code Mode, a new, experimental way for Claude Code to work with tools. Claude writes scripts that chain your tools together... Opt in with CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 不是新模型",
+      "source": "@ClaudeDevs",
+      "url": "https://x.com/ClaudeDevs/status/2122801681939234950",
+      "first_seen": "2026-11-18 05:18",
+      "views": 2403922,
+      "bookmarks": 14515,
+      "likes": 12487,
+      "kind": "not_model"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Code Mode",
+      "reason": "views=2,403,922 bookmarks=14,515 达标，为 Claude Code 新实验功能名，非老品牌泛词"
+    }
+  ],
+  "x_input": {
+    "game": [
+      {
+        "name": "Flower Survivors",
+        "desc": "Steam 游戏，9 关卡 9 Boss 9 英雄，价格 $6 以下，非官方榜单推荐，未核验是否新发还是旧作宣传。仅作发现线索",
+        "url": "https://x.com/MoJz89092047/status/2124157134225199385",
+        "source": "@MoJz89092047",
+        "first_seen": "2026-11-21 23:05"
+      },
+      {
+        "name": "Forty Eight",
+        "desc": "Roblox 新游戏发布，改良版 Mancala，标签 #Roblox #RobloxDev。仅作发现线索",
+        "url": "https://x.com/FedoraMasterB98/status/2124048897668727123",
+        "source": "@FedoraMasterB98",
+        "first_seen": "2026-11-21 15:54"
+      },
+      {
+        "name": "Classroom in Sora",
+        "desc": "Steam 游戏现已推出，曾在 Steam Next Fest 获支持。仅作发现线索",
+        "url": "https://x.com/hypohyphen/status/2123146356646936933",
+        "source": "@hypohyphen",
+        "first_seen": "2026-11-19 04:08"
+      }
+    ],
+    "ai_tools": [
+      {
+        "name": "PhoText",
+        "desc": "第三方转述：域名 5 月注册，10 月月访 147 万，功能为点开图片里的字直接改。非官方首发，未核验。仅作发现线索",
+        "url": "https://x.com/tao_nie23174/status/2123778714110488744",
+        "source": "@tao_nie23174",
+        "first_seen": "2026-11-20 22:01"
+      },
+      {
+        "name": "Gluely",
+        "desc": "iOS 应用新版本上线，重建 higgsfield genjutsu，提供趋势模板、角色构建与病毒趋势替换。仅作发现线索",
+        "url": "https://x.com/michaelaubry/status/2124286967924019322",
+        "source": "@michaelaubry",
+        "first_seen": "2026-11-22 07:40"
+      }
+    ],
+    "video": [
+      {
+        "name": "Higgsfield Genjutsu",
+        "desc": "Gluely 帖称重建 higgsfield genjutsu，另有推文提及 GENJUTSU GOT THE WHOLE INTERNET IN A CHOKEHOLD。未做画面核验，仅元数据线索",
+        "url": "https://x.com/AbubacaryDanso/status/2124288855725486246",
+        "source": "@AbubacaryDanso",
+        "first_seen": "2026-11-22 07:48"
+      },
+      {
+        "name": "Quilted fabric cave (第一人称软布洞穴爬行)",
+        "desc": "第一人称视角：双手按压软垫布料墙壁、发光隧道、相机爬行穿过。无官方玩法商品名，用描述性名称。未做画面核验，仅元数据线索",
+        "url": "https://x.com/tolik12308/status/2124171625151054287",
+        "source": "@tolik12308",
+        "first_seen": "2026-11-22 00:02"
+      }
+    ]
+  }
+}

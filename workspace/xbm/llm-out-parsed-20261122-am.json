@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": "2124045648936784218",
+      "url": "https://x.com/yaohongan2025/status/2124045648936784218",
+      "title": "GSC 正则筛选长查询优化内容",
+      "tag": "SEO",
+      "need": "虹安转述 @edwardeachday 的 GSC 小技巧：在效果→搜索结果→查询→自定义正则粘贴 ^(?:\\S+\\s+){7,}\\S+$ 筛选 8 词以上长查询，这些是用户常问 ChatGPT 的问题。挑选展示多、点击少的查询，在已有排名页面顶部直接回答，可提升长尾流量。引用帖还提到点开查询可看对应排名页，且 GSC 蓝色按钮支持自然语言生成筛选。",
+      "action": "在 GSC 中应用该正则筛选长查询并优化对应页面",
+      "deadline": null,
+      "due_date": null,
+      "category": "todo",
+      "posted_at": "11-21 15:42"
+    },
+    {
+      "id": "2123008105944412338",
+      "url": "https://x.com/thwlf67/status/2123008105944412338",
+      "title": "AI Employee SEO 全流程工作流与提示词",
+      "tag": "AI/SEO",
+      "need": "Tom 分享将博客 SEO 交给 GPT-6.2 Astra 运行的完整周循环工作流（X Article：How to run SEO for your site with an AI employee）。核心：Codex 跑 Astra 负责思考汇报，配合可读 GSC/SERP/词数据的工具（文中用 ChatSEO MCP），人只批准发布。七项任务含提示词：1) 近 3 月 GSC 找排名页与查询；2) 挖 10 个无页面的商业购买词；3) 写 brief 前核对主查询与标题一致性并读前 5 结果；4) AI 写页但真实测评/价格须人提供，未测标注 not tested；5) 人批准发布，提示词固定 Change nothing: I approve everything，AI 不碰发布按钮；6) 每日早检只报显著变动；7) 周一报告一页汇总。日程建议：周一 10 分钟批改、周一/二 20-40 分钟落地、每日 1 分钟早检、月首周一 15 分钟重做任务 1/2。注意：文中 ChatSEO 链接为作者联盟推广链接（https://chatseo.app/go/thomas），截图数字来自演示站 temple-de-la-whey.com 非作者自有站点。",
+      "action": "阅读全文并根据提示词搭建自己的 SEO Agent 周循环",
+      "deadline": null,
+      "due_date": null,
+      "category": "todo",
+      "posted_at": "11-18 18:59"
+    }
+  ],
+  "summary": "本批包含 GSC 正则挖掘长尾问答优化技巧，以及可落地的 AI SEO Agent 周循环工作流与完整提示词（含联盟推广提示）"
+}

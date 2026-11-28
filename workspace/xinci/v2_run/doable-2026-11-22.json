@@ -1,0 +1,566 @@
+{
+ "day": "2026-11-22",
+ "config": {
+  "min_volume": 500,
+  "max_kd": 31,
+  "min_cpc": 0.01,
+  "need_open_serp": true,
+  "database": "us",
+  "max_terms": 60,
+  "max_spend_usd": 0.2,
+  "cache_days": 7,
+  "serp_fetch": true,
+  "serp_location_code": 2840,
+  "kd_min_volume": 100,
+  "max_allintitle": 10000,
+  "check_allintitle": true,
+  "need_small_sites": false,
+  "small_sites_min": 5,
+  "tool_intent_bonus": 15,
+  "vacuum_enabled": true,
+  "vacuum_min_ratio": 0.7,
+  "vacuum_max_serp_checks": 18,
+  "check_domains": true,
+  "domain_tlds": [
+   "com",
+   "ai",
+   "io",
+   "org"
+  ]
+ },
+ "passed": [],
+ "vacuum_terms": [],
+ "almost": [],
+ "filtered_out": [
+  {
+   "phrase": "death stranding 2 on the beach",
+   "source": "Google 补全种子",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "death stranding 2 on the beach guide",
+   "source": "Google 补全种子",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "death stranding 2 on the beach walkthrough",
+   "source": "Google 补全种子",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "murderers vs sheriffs",
+   "source": "Google 补全种子",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "snake vs human",
+   "source": "Google 补全种子",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "want to try the viral ai trend everyone is talking about here is the exact step",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "want to recreate this ai trend open capcut ai lab type peek in the ai",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "want to create ai images without worrying about running out of generations tr",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "what if you could take an ordinary photo and turn it into an incredibly realisti",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "what if you could turn a simple product photo into a stunning professional-lo",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "create viral ai music videos from just one photo 100 free explore_aitech",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "create this viral thar to mercedes ai transformation video with your own photo",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "i keep seeing the restyle trend everywhere so i had to try it with capcut ai la",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "want to try it yourself open capcut go to al lab and type peek in the chat",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "chatgpt can now edit videos with capcut ai video editing workflow",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "capcut ai video editing tutorial for beginners 2025 update seedream 4.0",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "capcut ai avatar tutorial 2026 how to make ai avatar in capcut seedream 4.0",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "capcut ai video template program 2026 how to create ai templates earn credit",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "transform any photo into a video clip with canva s new ai feature in seconds",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "how to convert photo into video using ai for free generate free unlimited ai",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "top 5 free secret ai tools image to video animate photos bring images to l",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "5 free unlimited ai video generators text-to-video + image-to-video 2025 g",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "i tested firefly on my own photos best ai image-to-video generator 2026",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "paano gumawa ng ai video gamit ang cellphone step-by-step ai video tutorial ta",
+   "source": "Google 补全种子",
+   "reason": "长度异常或为空"
+  },
+  {
+   "phrase": "inkling 2 mini vs opus 4.6",
+   "source": "Google 补全(Inkling 2 Mini)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "inkling 2 mini vs qwen3 8 flash next",
+   "source": "Google 补全(Inkling 2 Mini)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "inkling 2 mini vs small",
+   "source": "Google 补全(Inkling 2 Mini)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "downhill biking near me",
+   "source": "Google 补全(DOWNHILL BIKING)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "downhill biking trails near me",
+   "source": "Google 补全(DOWNHILL BIKING)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "downhill biking world cup",
+   "source": "Google 补全(DOWNHILL BIKING)",
+   "reason": "体育赛事/比分噪音"
+  },
+  {
+   "phrase": "pack it all away in one suitcase lyrics",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it coupon code",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it in crossword",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it in meaning",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it in meaning slang",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it in pack it out meaning",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it meaning",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it meaning slang",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it off meaning",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it on meaning",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it out meaning",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it promo code",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it reveal vs isolate",
+   "source": "Google 补全(PACK IT)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "pack it ship it near me",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it up cortis lyrics",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it up cortis lyrics english",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it up meaning",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it up pack it in let me begin lyrics",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "pack it up pack it in lyrics",
+   "source": "Google 补全(PACK IT)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "arc raiders server status",
+   "source": "Google 补全(ARC Raiders)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "arc raiders vs active matter",
+   "source": "Google 补全(ARC Raiders)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "arc raiders vs arc raiders deluxe",
+   "source": "Google 补全(ARC Raiders)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "arc raiders vs deluxe edition",
+   "source": "Google 补全(ARC Raiders)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "arc raiders vs fortnite",
+   "source": "Google 补全(ARC Raiders)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "arc raiders vs helldivers 2",
+   "source": "Google 补全(ARC Raiders)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "arc raiders vs marathon",
+   "source": "Google 补全(ARC Raiders)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "arc raiders vs rust",
+   "source": "Google 补全(ARC Raiders)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "arc raiders vs tarkov",
+   "source": "Google 补全(ARC Raiders)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "arc raiders vs the division 2",
+   "source": "Google 补全(ARC Raiders)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "arc raiders vs wardogs",
+   "source": "Google 补全(ARC Raiders)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "arc raiders wiki",
+   "source": "Google 补全(ARC Raiders)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "battlefield 6 age rating",
+   "source": "Google 补全(Battlefield 6)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "battlefield 6 vs 2042",
+   "source": "Google 补全(Battlefield 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "battlefield 6 vs 4",
+   "source": "Google 补全(Battlefield 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "battlefield 6 vs black ops 7",
+   "source": "Google 补全(Battlefield 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "battlefield 6 vs call of duty",
+   "source": "Google 补全(Battlefield 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "battlefield 6 vs modern warfare 4",
+   "source": "Google 补全(Battlefield 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "battlefield 6 vs phantom edition",
+   "source": "Google 补全(Battlefield 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "battlefield 6 vs redsec",
+   "source": "Google 补全(Battlefield 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "battlefield 6 vs wardogs",
+   "source": "Google 补全(Battlefield 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "battlefield 6 wiki",
+   "source": "Google 补全(Battlefield 6)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "forza horizon 6 aio mod menu",
+   "source": "Google 补全(Forza Horizon 6)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "forza horizon 6 server status",
+   "source": "Google 补全(Forza Horizon 6)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "forza horizon 6 vs 4",
+   "source": "Google 补全(Forza Horizon 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "forza horizon 6 vs 5",
+   "source": "Google 补全(Forza Horizon 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "forza horizon 6 vs 5 graphics",
+   "source": "Google 补全(Forza Horizon 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "forza horizon 6 vs deluxe vs premium",
+   "source": "Google 补全(Forza Horizon 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "forza horizon 6 vs forza motorsport",
+   "source": "Google 补全(Forza Horizon 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "forza horizon 6 vs gran turismo 7",
+   "source": "Google 补全(Forza Horizon 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "forza horizon 6 vs gta 6",
+   "source": "Google 补全(Forza Horizon 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "forza horizon 6 vs need for speed unbound",
+   "source": "Google 补全(Forza Horizon 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "forza horizon 6 vs standard edition",
+   "source": "Google 补全(Forza Horizon 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "forza horizon 6 vs the crew motorfest",
+   "source": "Google 补全(Forza Horizon 6)",
+   "reason": "非科技/赛事对阵词"
+  },
+  {
+   "phrase": "forza horizon 6 wiki",
+   "source": "Google 补全(Forza Horizon 6)",
+   "reason": "名人/娱乐/八卦噪音"
+  },
+  {
+   "phrase": "n8n agents meaning",
+   "source": "Google 补全(n8n Agents)",
+   "reason": "词典常识/服务故障/共搜噪音"
+  },
+  {
+   "phrase": "untraced",
+   "source": "App Store(#69 Untraced: Find the Suspect)",
+   "reason": "老应用重返榜单(上架 2026-10-22)，非AI新工具"
+  },
+  {
+   "phrase": "bath body works",
+   "source": "App Store(#80 Bath & Body Works | B&BW)",
+   "reason": "老应用重返榜单(上架 2017-08-29)，非AI新工具"
+  },
+  {
+   "phrase": "govee home",
+   "source": "App Store(#87 Govee Home)",
+   "reason": "老应用重返榜单(上架 2018-07-27)，非AI新工具"
+  },
+  {
+   "phrase": "ring",
+   "source": "App Store(#90 Ring - Always Home)",
+   "reason": "老应用重返榜单(上架 2014-11-19)，非AI新工具"
+  }
+ ],
+ "terms": [
+  {
+   "phrase": "jatayu ai edit",
+   "source": "热梗轨",
+   "names": [
+    "extracted"
+   ],
+   "evidence": "发现阶段，未做画面核验不得称独立成片",
+   "is_vacuum_candidate": false,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "CPC"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  },
+  {
+   "phrase": "sheru bhai ai trend",
+   "source": "热梗轨",
+   "names": [
+    "extracted"
+   ],
+   "evidence": "发现阶段，未做画面核验不得称独立成片",
+   "is_vacuum_candidate": false,
+   "is_hot_keyword": false,
+   "overview_ok": true,
+   "volume": null,
+   "cpc": null,
+   "comp": null,
+   "nodata": true,
+   "kd_ok": true,
+   "kd": null,
+   "kd_skipped": true,
+   "verdict": null,
+   "is_vacuum": false,
+   "tool_intent": false,
+   "kdroi": null,
+   "checks": {
+    "月搜": null,
+    "KD": null,
+    "CPC": false,
+    "首页竞争": null,
+    "allintitle": null
+   },
+   "score": 10,
+   "delivery_suggestion": "垂直功能演练场 + 评测对比与快速上手指南站",
+   "failed": [
+    "CPC"
+   ],
+   "unknown": [
+    "月搜",
+    "KD",
+    "首页竞争",
+    "allintitle"
+   ]
+  }
+ ],
+ "spent_micros": 0,
+ "errors": [],
+ "skipped": []
+}

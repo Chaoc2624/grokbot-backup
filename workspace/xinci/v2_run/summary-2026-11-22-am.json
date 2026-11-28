@@ -1,0 +1,485 @@
+{
+ "date": "2026-11-22",
+ "slot": "am",
+ "steps_status": {
+  "track": {
+   "returncode": 0,
+   "tail": "=== X 查询（例程用 namespace=x 执行，结果经 --x-input 喂回）===\n[game]\n  (Roblox OR \"roblox game\" OR \"steal a\" OR survivors OR poki OR \"unblocked games\" OR itch.io) (viral OR trending OR \"new game\" OR exploded OR 爆款 OR 新游) -is:retweet lang:en OR lang:zh\n  (\"steam charts\" OR \"steam top\" OR \"new on steam\" OR \"steam next fest\") (game OR play) -is:retweet lang:en\n  (游戏站 OR unblocked OR \"在线玩\" OR \"网页游戏\" OR Poki OR Roblox) (新词 OR 热词 OR 爆了 OR 日pv OR 建站) -is:retweet lang:zh\n[ai_tools]\n  (\"new ai tool\" OR \"ai tool launch\" OR \"just launched\" OR \"product hunt\") (ai OR generator OR agent) -is:retweet lang:en min_faves:50\n  (Toolify OR Futurepedia OR Aixploria OR \"ai directory\") (new OR added OR growth OR 增长) -is:retweet\n  (AI工具站 OR \"ai generator\" OR \"ai alternative\" OR Toolify) (新上 OR 增长榜 OR 挖词 OR 热词) -is:retweet lang:zh\n===\ntracks tracks-20261122-am.json: game items=139 kws=40; ai_tools items=37 kws=40; errors=3\n  game sample: Apex Legends, AION 2, DRAGON QUEST MONSTERS: The Withered World, WITCH ON THE HOLY NIGHT, Mahjong Soul, FINAL FANTASY VII REBIRTH, EA SPORTS FC 27, FINAL FANTASY VII REMAKE INTERGRADE\n  ai_tools sample: AI Context Flow MCP, AlterContacts, Andromon, AnyProfile, Babys Day In, Backspin, Badya, Beat Watcher\n  ! sitemap toolify: urls=12927 new=0\n  ! sitemap futurepedia: urls=2491 new=0\n  ! sitemap aixploria: urls=47 new=0\n",
+   "seconds": 44.4
+  },
+  "classify_games": {
+   "status": "ok",
+   "path": "/workspace/xinci/v2_run/game-class-2026-11-22.json"
+  },
+  "news": {
+   "returncode": 0,
+   "tail": "  google_news: window_hits=33 raw=33\n    新闻轨·Google News: 33\n  gdelt: window_hits=0 raw=0\n  telegram: window_hits=35 raw=35\n    新闻轨·Telegram@zaihuapd: 17\n    新闻轨·Telegram@ai_news_cn: 18\n  rss: window_hits=23 raw=23\n    新闻轨·RSS·Simon Willison: 1\n    新闻轨·RSS·GitHub Trending Daily: 16\n    新闻轨·RSS·TechCrunch AI: 4\n    新闻轨·RSS·The Verge AI: 2\n  llm mapped 28/65\nnews news-20261122.json: items=14 kws=14 raw=91 pre=65 errors=3\n  sample: Soldiers at War, Prison Legacy, Spin Tactics, Inkling 2 Mini, Dayora, Clairic, ASUS ProArt GR1X, 姚顺雨与腾讯混元团队首次公开问答：下一代模型将显著扩容, 国内首个合成生物酶设计大模型在天津发布, TML\n  ! gdelt/ai-tool: Expecting value: line 1 column 1 (char 0)\n  ! gdelt/steam-release: Expecting value: line 1 column 1 (char 0)\n  ! gdelt/model-available: fetch https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22now+available%22+OR+unveils+OR+introducing%29+%28LLM+OR+%22language+model%22+OR+%22open-source+model%22%29&mode=ArtList&format=json&maxrecords=25&sort=datedesc&timespan=24h: HTTP Error 429: Too Many Requests\n",
+   "seconds": 401.9
+  },
+  "higgsfield": {
+   "returncode": 0,
+   "tail": "",
+   "seconds": 8.66
+  },
+  "video": {
+   "returncode": 0,
+   "tail": "{\"status\": \"success\", \"items_count\": 74, \"spend\": 0.04132, \"remaining\": 0.95868}\n",
+   "seconds": 35.51
+  },
+  "priority": {
+   "status": "ok",
+   "count": 2
+  },
+  "verify": {
+   "returncode": 1,
+   "tail": "wrote /workspace/xinci/v2_run/verify-raw-2026-11-22.json\nTraceback (most recent call last):\n  File \"/workspace/xinci/verify_priority.py\", line 348, in <module>\n    main()\n    ~~~~^^\n  File \"/workspace/xinci/verify_priority.py\", line 195, in main\n    nodata = parse_missing_as_nodata(output_content)\nTypeError: parse_missing_as_nodata() missing 1 required positional argument: 'parsed'\n",
+   "seconds": 17.04
+  },
+  "legacy_sources": {
+   "status": "skipped_budget",
+   "block": "blocked_unbounded_cost",
+   "reason": "radar sources/daily 官方 CLI 无 --max-usd 硬费用上限（该旗仅用于 history）。2026-11-19 即使 skip 付费组仍发生 AIsa 数据扣费约 $0.243。默认不执行，记 skipped_budget/blocked_unbounded_cost。免费替代由现有 track/news/higgsfield 提供。可验证硬费用控制尚未实现，不得自称全部上游覆盖。"
+  },
+  "legacy_daily": {
+   "status": "skipped_budget",
+   "block": "blocked_unbounded_cost",
+   "reason": "radar sources/daily 官方 CLI 无 --max-usd 硬费用上限（该旗仅用于 history）。2026-11-19 即使 skip 付费组仍发生 AIsa 数据扣费约 $0.243。默认不执行，记 skipped_budget/blocked_unbounded_cost。免费替代由现有 track/news/higgsfield 提供。可验证硬费用控制尚未实现，不得自称全部上游覆盖。"
+  },
+  "finders": {
+   "status": "ok",
+   "reason": "finders 仅保留已验证零费分支 --skip trends（ac/appstore/hn）；trends 无硬费用上限且报价 may_exceed，默认不跑",
+   "trends": "skipped_budget"
+  },
+  "doable": {
+   "returncode": 0,
+   "tail": "## 可做的词 & SERP 真空期机会（2026-11-22）\n\n规则：常规通道：月搜 ≥ 500、KD ≤ 31、CPC 有值、首页竞争「能进」、allintitle < 10,000；真空期通道（免月搜门槛）：Google 前 10 自然结果中论坛/社交/代码仓/视频/资讯占比 ≥ 70% 且无独立产品站占坑。共查 2 个干净候选词（前置语义预筛已自动剔除 89 个球赛/八卦/非网页交付噪音词）。\n\n### 🔥 真空期可抢（免月搜门槛 · SERP 社媒/代码仓 ≥70% 且无独立站）（0）\n\n今天没有触发 SERP 真空期的词。\n\n### 全过门槛的词（0）\n\n今天没有词全过 Semrush 常规门槛。\n\n### 差一点就过的词（0）\n\n没有只差一项的词。\n\n其余（两项以上没过）：jatayu ai edit（月搜 —，KDROI —，KD —，CPC —；卡在 CPC、月搜没数据、KD没数据、首页竞争没数据、allintitle没数据）；sheru bhai ai trend（月搜 —，KDROI —，KD —，CPC —；卡在 CPC、月搜没数据、KD没数据、首页竞争没数据、allintitle没数据）\n\n前置语义预筛拦截（共 89 个）：`death stranding 2 on the beach`（名人/娱乐/八卦噪音）、`death stranding 2 on the beach guide`（名人/娱乐/八卦噪音）、`death stranding 2 on the beach walkthrough`（名人/娱乐/八卦噪音）、`murderers vs sheriffs`（非科技/赛事对阵词）、`snake vs human`（非科技/赛事对阵词）、`want to try the viral ai trend everyone is talking about here is the exact step`（长度异常或为空）、`want to recreate this ai trend open capcut ai lab type peek in the ai`（长度异常或为空）、`want to create ai images without worrying about running out of generations tr`（长度异常或为空）、`what if you could take an ordinary photo and turn it into an incredibly realisti`（长度异常或为空）、`what if you could turn a simple product photo into a stunning professional-lo`（长度异常或为空）、`create viral ai music videos from just one photo 100 free explore_aitech`（长度异常或为空）、`create this viral thar to mercedes ai transformation video with your own photo`（长度异常或为空）、`i keep seeing the restyle trend everywhere so i had to try it with capcut ai la`（长度异常或为空）、`want to try it yourself open capcut go to al lab and type peek in the chat`（长度异常或为空）、`chatgpt can now edit videos with capcut ai video editing workflow`（长度异常或为空）、`capcut ai video editing tutorial for beginners 2025 update seedream 4.0`（长度异常或为空）、`capcut ai avatar tutorial 2026 how to make ai avatar in capcut seedream 4.0`（长度异常或为空）、`capcut ai video template program 2026 how to create ai templates earn credit`（长度异常或为空）\n\n花费：本次 AIsa 约 $0.000（上限 $0.20），2 个词用了 7 天内缓存没再付费。\n注：KD 用的是 Semrush 指数；域名状态通过官方 RDAP 只读查询（.com Verisign / .ai & .io IdentityDigital / .org PIR），全程只读不自动注册。\n\n",
+   "seconds": 0.08
+  },
+  "merge": {
+   "returncode": 0,
+   "tail": "merged 255 terms, dupes 3: ['CCORE-Web-Coder-4B', 'Hy4-flash', 'Code Mode']; board keywords: ['Classroom in Sora', 'Classroom in Sora unblocked', 'Classroom in Sora online', 'Classroom in Sora play', 'Flower Survivors', 'Flower Survivors unblocked', 'Flower Survivors online', 'Flower Survivors play', 'Forty Eight', 'Forty Eight unblocked', 'Forty Eight online', 'Forty Eight play', 'Forza Horizon 5', 'Forza Horizon 5 unblocked', 'Forza Horizon 5 online', 'Forza Horizon 5 play', 'Magical Girl Witch Trials', 'Magical Girl Witch Trials unblocked', 'Magical Girl Witch Trials online', 'Magical Girl Witch Trials play', 'Mukbang Students', 'Mukbang Students unblocked', 'Mukbang Students online', 'Mukbang Students play', '+1 Heart Per Kill', '+1 Heart Per Kill unblocked', '+1 Heart Per Kill online', '+1 Heart Per Kill play', '100 Miles Down the River', '100 Miles Down the River unblocked', '100 Miles Down the River online', '100 Miles Down the River play', '30 Floors Up', '30 Floors Up unblocked', '30 Floors Up online', '30 Floors Up play', '99 Nights in the Forest', '99 Nights in the Forest unblocked', '99 Nights in the Forest online', '99 Nights in the Forest play', 'AI Context Flow MCP', 'AI Context Flow MCP ai', 'AI Context Flow MCP alternative', 'CCORE-Web-Coder-4B', 'CCORE-Web-Coder-4B ai', 'CCORE-Web-Coder-4B alternative', 'Code Mode', 'Code Mode ai', 'Code Mode alternative', 'Gluely', 'Gluely ai', 'Gluely alternative', 'Higgsfield Genjutsu', 'Higgsfield Genjutsu ai', 'Higgsfield Genjutsu alternative', 'Hy4-flash', 'Hy4-flash ai', 'Hy4-flash alternative', 'PhoText', 'PhoText ai', 'PhoText alternative', 'Quilted fabric cave', 'Quilted fabric cave ai', 'Quilted fabric cave alternative', 'AlterContacts', 'AlterContacts ai', 'AlterContacts alternative', 'AnyProfile', 'AnyProfile ai', 'AnyProfile alternative', 'Babys Day In', 'Babys Day In ai', 'Babys Day In alternative', 'Backspin', 'Backspin ai', 'Backspin alternative', 'Beat Watcher', 'Beat Watcher ai', 'Beat Watcher alternative', 'Codemany', 'Muru', 'ASUS ProArt GR1X', 'Clairic', 'Dayora', 'Inkling 2 Mini', 'Prison Legacy', 'Soldiers at War', 'Spin Tactics', 'Windows 的 RDMA over USB4 开发者预览', '国内首个合成生物酶设计大模型在天津发布', 'Google Gemini', 'TML', '姚顺雨与腾讯混元团队首次公开问答：下一代模型将显著扩容', '特斯拉开始推送 FSD v15 特斯拉今日在海外推出FSD v15', 'Jatayu AI edit', 'Sheru Bhai AI trend']; tracks: ['2026-11-22 上午 双轨']; news: ['2026-11-22 新闻轨']; meme: ['meme-20261122.json']; our X failed: False\n",
+   "seconds": 0.04
+  },
+  "select_board_keywords": {
+   "status": "ok"
+  },
+  "push": {
+   "returncode": 0,
+   "tail": "label=2026-11-22 新词雷达 items=257 keywords=37 x_failed=False news_items=14 news_keywords=12 meme_items=67 meme_keywords=2\nkeywords_first15=[\"Jatayu AI edit\", \"Sheru Bhai AI trend\", \"Classroom in Sora\", \"Mukbang Students\", \"+1 Heart Per Kill\", \"30 Floors Up\", \"Flower Survivors\", \"Forty Eight\", \"Forza Horizon 5\", \"Magical Girl Witch Trials\", \"100 Miles Down the River\", \"AI Context Flow MCP\", \"CCORE-Web-Coder-4B\", \"Code Mode\", \"Gluely\"]\nnews_keywords=[\"Muru\", \"ASUS ProArt GR1X\", \"Clairic\", \"Dayora\", \"Inkling 2 Mini\", \"Prison Legacy\", \"Soldiers at War\", \"Spin Tactics\", \"国内首个合成生物酶设计大模型在天津发布\", \"Google Gemini\", \"TML\", \"姚顺雨与腾讯混元团队首次公开问答：下一代模型将显著扩容\"]\nmeme_keywords=[\"Jatayu AI edit\", \"Sheru Bhai AI trend\"]\n{\"id\": 52, \"items\": 257, \"keywords\": 37, \"empty\": false}\n",
+   "seconds": 5.63
+  }
+ },
+ "coverage": {
+  "track": {
+   "status": "ok"
+  },
+  "news": {
+   "status": "ok"
+  },
+  "higgsfield": {
+   "status": "ok"
+  },
+  "video": {
+   "status": "ok"
+  },
+  "verify": {
+   "status": "failed",
+   "reason": "exit 1"
+  },
+  "legacy_sources": {
+   "status": "skipped_budget",
+   "reason": "radar sources/daily 官方 CLI 无 --max-usd 硬费用上限（该旗仅用于 history）。2026-11-19 即使 skip 付费组仍发生 AIsa 数据扣费约 $0.243。默认不执行，记 skipped_budget/blocked_unbounded_cost。免费替代由现有 track/news/higgsfield 提供。可验证硬费用控制尚未实现，不得自称全部上游覆盖。",
+   "block": "blocked_unbounded_cost"
+  },
+  "legacy_daily": {
+   "status": "skipped_budget",
+   "reason": "radar sources/daily 官方 CLI 无 --max-usd 硬费用上限（该旗仅用于 history）。2026-11-19 即使 skip 付费组仍发生 AIsa 数据扣费约 $0.243。默认不执行，记 skipped_budget/blocked_unbounded_cost。免费替代由现有 track/news/higgsfield 提供。可验证硬费用控制尚未实现，不得自称全部上游覆盖。",
+   "block": "blocked_unbounded_cost"
+  },
+  "finders": {
+   "status": "ok",
+   "reason": "finders 仅保留已验证零费分支 --skip trends（ac/appstore/hn）；trends 无硬费用上限且报价 may_exceed，默认不跑",
+   "trends": "skipped_budget"
+  },
+  "doable": {
+   "status": "ok"
+  },
+  "merge": {
+   "status": "ok",
+   "reason": "report=report-stub-2026-11-22.json",
+   "report": "/workspace/xinci/v2_run/report-stub-2026-11-22.json"
+  },
+  "push": {
+   "status": "ok"
+  }
+ },
+ "coverage_path": "/workspace/xinci/v2_run/coverage-2026-11-22-am.json",
+ "ledger": {
+  "date": "2026-11-22",
+  "hard_cap_usd": 1.0,
+  "today_prior_usd": 0.0,
+  "actual_usd": 0.08532,
+  "estimated_usd": 0.17864000000000005,
+  "remaining_usd": 0.91468,
+  "entries": [
+   {
+    "at": "2026-11-22 10:14",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_1",
+    "estimated_usd": 0.00188,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:14",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_2",
+    "estimated_usd": 0.00188,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:14",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_3",
+    "estimated_usd": 0.00188,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:14",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_4",
+    "estimated_usd": 0.00188,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:14",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_1",
+    "estimated_usd": 0.00188,
+    "actual_usd": 0.00188,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:14",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_2",
+    "estimated_usd": 0.00188,
+    "actual_usd": 0.00188,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:14",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_3",
+    "estimated_usd": 0.00188,
+    "actual_usd": 0.00188,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:14",
+    "tool": "get_instagram_reels_search",
+    "call_id": "ig_4",
+    "estimated_usd": 0.00188,
+    "actual_usd": 0.00188,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:14",
+    "tool": "tiktok.search",
+    "call_id": "tt_5",
+    "estimated_usd": 0.014,
+    "actual_usd": null,
+    "may_exceed_estimate": false,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:14",
+    "tool": "tiktok.search",
+    "call_id": "tt_6",
+    "estimated_usd": 0.014,
+    "actual_usd": null,
+    "may_exceed_estimate": false,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "tiktok.search",
+    "call_id": "tt_5",
+    "estimated_usd": 0.014,
+    "actual_usd": 0.014,
+    "may_exceed_estimate": false,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "tiktok.search",
+    "call_id": "tt_6",
+    "estimated_usd": 0.014,
+    "actual_usd": 0.014,
+    "may_exceed_estimate": false,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "get_youtube_search",
+    "call_id": "yt_7",
+    "estimated_usd": 0.0029,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "get_youtube_search",
+    "call_id": "yt_8",
+    "estimated_usd": 0.0029,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "get_youtube_search",
+    "call_id": "yt_7",
+    "estimated_usd": 0.0029,
+    "actual_usd": 0.0029,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "get_youtube_search",
+    "call_id": "yt_8",
+    "estimated_usd": 0.0029,
+    "actual_usd": 0.0029,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_1",
+    "estimated_usd": 0.011,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_2",
+    "estimated_usd": 0.001,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_3",
+    "estimated_usd": 0.011,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_4",
+    "estimated_usd": 0.001,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_5",
+    "estimated_usd": 0.011,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_6",
+    "estimated_usd": 0.001,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_7",
+    "estimated_usd": 0.011,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_8",
+    "estimated_usd": 0.001,
+    "actual_usd": null,
+    "may_exceed_estimate": true,
+    "status": "quoted",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_1",
+    "estimated_usd": 0.011,
+    "actual_usd": 0.011,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_2",
+    "estimated_usd": 0.001,
+    "actual_usd": 0.0,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_3",
+    "estimated_usd": 0.011,
+    "actual_usd": 0.011,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_4",
+    "estimated_usd": 0.001,
+    "actual_usd": 0.0,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_5",
+    "estimated_usd": 0.011,
+    "actual_usd": 0.011,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_6",
+    "estimated_usd": 0.001,
+    "actual_usd": 0.0,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "any_dataforseo_apis_v1_dataforseo_keywords_data_g_f56cfb",
+    "call_id": "t_7",
+    "estimated_usd": 0.011,
+    "actual_usd": 0.011,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   },
+   {
+    "at": "2026-11-22 10:15",
+    "tool": "get_semrush_keyword_overview",
+    "call_id": "s_8",
+    "estimated_usd": 0.001,
+    "actual_usd": 0.0,
+    "may_exceed_estimate": true,
+    "status": "used",
+    "note": "",
+    "actual_unknown": false
+   }
+  ]
+ },
+ "x_status": "ok",
+ "errors": [
+  "sitemap toolify: urls=12927 new=0",
+  "sitemap futurepedia: urls=2491 new=0",
+  "sitemap aixploria: urls=47 new=0"
+ ]
+}

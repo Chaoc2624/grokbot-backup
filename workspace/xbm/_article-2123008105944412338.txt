@@ -1,0 +1,233 @@
+I manage a small affiliate blog on my own, and every week the same SEO jobs came back. I skipped half of them.
+So I handed the whole loop to an AI employee running on GPT-6.2 Astra, the model OpenAI shipped yesterday for its hardest projects. It finds what already ranks, picks the next keywords, writes the briefs, reads Search Console every morning and sends me a report on Monday. I approve and I publish, that's my whole job now.
+Here's the full workflow: who does what, week after week, with the exact prompts.
+(I'm a ChatSEO affiliate: the ChatSEO link in this article is mine.)
+Here is an example of the results you could achieve with this method:
+ 
+ 
+To get similar results for your business: try ChatSEO free for 7 days
+Little tip: bookmark this. It's long on purpose, and you will come back to step 6 every morning for a week before it becomes a habit.
+The first screenshot is a real five-star review from September 21, 2026, written by Francis Whiteley, Managing Director at Flex4. In short, he says the tool saves his team time on everything they need to do, from mentoring employees to blog briefs, on-page improvements, data analysis and finding opportunities. That is the same list of jobs as this article. The second screenshot is the Search Console curve I put under every link to the tool.
+Full disclosure before anything else: I am a ChatSEO affiliate, and every ChatSEO link in this guide is my affiliate link. If you sign up through it, I get a commission. The workflow itself is not tied to it, and at each step I say what the tool is doing that you would otherwise do by hand.
+Who is writing this
+I'm Thomas. I'm French, I have a normal job, and on the side I run a comparison blog on WordPress. It's a small site in a slow niche. Nobody will ever write a case study about it.
+What it taught me is that SEO for a small site isn't hard, it's repetitive. The same seven jobs come back every single week:
+look at what already ranks
+find the next keywords
+write a brief
+write the page
+publish it
+check that nothing broke
+write down what happened, so next week starts from somewhere
+None of these takes a genius. All of them take an hour I don't have on a Tuesday night. So for months I did job 4 (the fun one) and skipped jobs 1, 6 and 7 (the boring ones). And the boring ones are the ones that tell you if job 4 was worth doing.
+When I started SEO I knew almost nothing. I learned the basics by asking a tool questions about my own site. This article is the next step of that: I stopped asking questions and started giving jobs.
+One note on the screenshots. I'm not going to show you my own Search Console, because my niche is small and I'd rather not hand my keywords to people who read this. Every capture below comes from a demo site the ChatSEO team lets affiliates use: a real, small affiliate blog about whey protein, with its real Search Console connected. It's not mine. The numbers are real, the five jobs ran this morning (November 18, 2026), and nothing in the captures was edited except the red marks.
+One thing to know before you look at them: the captures show the ChatSEO side of the work. The message at the top of each conversation was typed by Astra, not by me. You're watching the employee ask for the data, read the answer, and ask again when something doesn't fit.
+What an AI employee is (and what it is not)
+The phrase is everywhere this month, so let me say what I mean by it.
+A chatbot answers a question. You ask "how do I find keywords", it gives you a list of advice, and you close the tab.
+An employee gets a job. A job has four things a question doesn't have:
+a scope ("this site, last 7 days, by page and by query")
+a definition of done ("one table, then your number 1 pick in two lines")
+a threshold for when to shut up ("if nothing real moved, say it in one line and stop")
+a line it can't cross ("change nothing: I approve everything")
+Once you write your asks like that, the same model that gave you generic advice starts handing you finished work. But only if it can read real data, and that's the part most people forget this week.
+In this workflow the employee is GPT-6.2 Astra. I run it in Codex, OpenAI's agent, because that's where it can use tools. I've had this loop running for a few weeks on the model I had before. This morning I re-ran all five jobs on Astra, and those are the runs you'll see.
+Astra is very good at the thinking part. It plans the job, it reads a table, and it notices when two numbers don't fit together. What it doesn't have on its own is the data. It can't see your Search Console. It doesn't know how many people search a keyword each month. It can't tell you who ranks in the top 3 today, or who links to your competitors. Ask it about your SEO without that and you get a confident essay.
+So I plugged ChatSEO into it. ChatSEO is an SEO agent connected to Search Console, to live Google results and to keyword data, and it has a connector (an MCP server) that Astra can call. Astra is the employee who thinks, doubts and reports. ChatSEO is where every number comes from.
+That's why each prompt below has a second part that never changes. I paste it under every job:
+ 
+The last two lines matter more than they look. Without them, a smart model takes the shortcut: it finds last week's answer and gives it back to you with today's date.
+The loop has seven boxes. Six belong to the employee. One belongs to you. I'll go through them in order, each with the job I gave this morning and what came back.
+01. Find what already ranks
+ 
+Everybody wants to start with new keywords. Don't. The first job is to find out what Google already gives you, because the cheapest traffic you'll ever get is on pages that already rank.
+Here is the job, word for word:
+ 
+Astra opened a ChatSEO conversation, sent the job with its own precisions (the exact date range, how to sort the second table), and this came back:
+ 
+Read the line above the table first, because it's the part most people skip. Over the last 90 days (August 18 to November 15, 2026) the whole site got 577 clicks from 63,201 impressions. That's a click rate of 0.91% at an average position around 31. In plain words: Google shows this site a lot and almost nobody clicks. That one sentence already tells you where the work is.
+Then the table. The home page is first with 114 clicks. The second line is the interesting one: an English review page with 65 clicks from 1,523 impressions at position 7.2. It's the only page on the site that ranks on page one and gets clicked.
+Now the moment that sold me on this setup. Under its tables, ChatSEO had written a caveat saying that the searches Google hides were missing from both tables. Astra read that, saw that it didn't fit with the page counts, and sent this back without asking me:
+"Your caveat about anonymized queries conflicts with the page counts. Confirm or correct the top 10."
+ 
+ChatSEO pulled the pages again, on their own this time. Same ten rows, click for click: "Table 1 stands as published." And it corrected itself: the caveat only applies to the query table, its first wording was wrong. On this site 426 of the 577 clicks come from searches Google doesn't name, so the query table reads low, and the page table doesn't.
+I would never have caught that. I'd have read the caveat, nodded, and trusted the pages a little less for no reason. An employee that checks the tool it works with is worth more than one that copies it.
+Then the part I actually asked for, protect and push:
+ 
+Three pages to protect, because they carry the clicks. The home page is 19.8% of all clicks. The review page has 65 clicks at position 7.2. A third page gets 28 clicks from only 360 impressions, the best yield on the site. "Protect" means: don't rewrite them for fun, don't change their URL, look at them first every morning.
+Three pages to push, and this is where the money is. The first one was shown 2,476 times in 90 days and won 0 clicks. 2,244 of those impressions come from one single query, where the page sits at position 7.6. That's page one. Google already did the hard part. The page loses at the very last step, the click.
+What this step replaces: an hour in Search Console, exporting two tables, sorting them, and trying to remember which URL goes with which query. I used to do it once a quarter. Now it's the first job of every month.
+How to check yours: run the same prompt with your domain. If the answer starts with advice instead of numbers, the model has no data behind it. Fix that before anything else.
+-> Start with what Google already shows. Protect the pages that get the clicks, push the ones that rank and don't.
+02. Find the next keywords
+Now the new pages. The trap here is the classic one: you ask for keywords, you get a list of the biggest ones in your niche, and you spend three months writing a page that will never beat the giants.
+So the job has to say what kind of keyword you want. For a small site that makes money with affiliate links, that's buyer searches: best, review, price, comparison, versus. People typing these are about to buy something. And the job has to say "that I have no page for yet", or you'll get keywords you already cover.
+ 
+This is the job where a model alone is the most dangerous, because it will happily give you ten keywords with ten volumes, and you can't tell that it made them up. Here every volume and every top 3 comes from ChatSEO's keyword data and from Google's live results. What came back:
+ 
+Ten keywords, each one checked against the site's sitemap and against Search Console, so "no page" really means no page. For each one you get the monthly US volume and, more useful than any difficulty score, who is actually in the top 3 today.
+Look at that column. For "whey protein vs soy protein" (260 searches a month), the top 3 is a small site, a WordPress post from 2015 and a forum thread. For "best clear whey protein", one of the three is an Instagram post. That's the real difficulty of a keyword: not a number from 0 to 100, but who you have to beat. A small site can beat a forum thread. It can't beat a giant. And when the giants are there, the list says so: the grass fed and organic keywords sit behind Amazon, so they're at rows 8 and 9, not at the top.
+Astra did two things here that I didn't ask for.
+First, it checked the list against the site and found that two of ChatSEO's ten keywords were already covered by existing pages. It sent them back:
+ 
+Two replacements came in, each with its volume and its live top 3: "whey protein vs collagen" (1,900 searches a month) and "whey protein vs egg protein" (480).
+Second, it asked for a real difficulty number for each keyword. ChatSEO found one for six of the ten. In Astra's final table, the four others say "Not returned". Not a guess, not an average. That's the "never invent a number" line of the prompt doing its job.
+Then the pick:
+ 
+"Whey protein vs plant protein": 4,400 US searches a month, a difficulty of 4 out of 100, and a top 3 made of two brand blogs and a YouTube video. The site has no English page on it. It happens to be the biggest keyword of the list, but that's not why it's first. It's first because nobody strong is defending it.
+What to do with the table: pick one keyword. Not ten. The loop runs every week, so the other nine will still be there next Monday.
+How to check yours: open Google in a private window, type the number 1 pick, and look at the top 3 yourself. It takes 30 seconds, and it's the one check I always do by hand before I say yes.
+-> Rank the list by who you have to beat, never by volume. Then pick one.
+03. Write the brief
+A brief is the page before the page: what it must promise, what it must cover, in what order. Most people skip it and go straight to "write me an article about X". That's how you get a page that looks like every other page.
+For the demo I picked the first "push" page from step 1, the page about whey for bulking that sits on page one and gets no clicks. The job:
+ 
+Before reading a single competitor, the employee went to Search Console to see what the page is really shown for. And that changed the whole brief:
+ 
+"The main query is not bulking." 2,244 of the page's 2,476 impressions over 90 days (90.6%) come from people typing "whey protein price comparison". The page ranks at 7.6 for it and gets 0 clicks. The title and the H1 both say bulking. People want prices, the result promises muscle, nobody clicks.
+I asked for a brief to rank higher. I got told that ranking isn't the problem. That's worth more than the brief.
+Then the competition, read live on Google US:
+ 
+Five results, and three of them are not even articles: a thread on Hacker News about a price comparison side project, a Facebook post comparing Costco and GNC, and an Amazon listing. The second result is a catalog page with 20 priced products and no cost per serving. The demo page has 1,991 words and prices 5 products, in euros, on a query typed by Americans.
+Two details I want you to notice. The first result is marked "UNREAD, fetch failed twice". It didn't invent what that page says to look complete. And Astra didn't leave it there. It sent a second message asking ChatSEO to find the real URLs of the Hacker News and Facebook results, to open them, and to try the first result another way. The Hacker News thread got read in full. The Facebook posts didn't, and the final table says so: "The body could not be verified."
+I'd take one "I couldn't check" over ten confident guesses.
+How to check yours: open the page's queries in Search Console and compare the biggest query with the title. If they don't say the same thing, you just found your problem for free.
+-> The brief starts with what your page really gets shown for, then the live top 5. The outline comes after.
+04. Write the pages
+I asked for a brief on one screen. ChatSEO drafted a long one, with ten sections. Astra cut it down to what I asked for. Here is the brief as it landed in my report:
+ 
+The angle is the smart part. Nobody in the top 5 shows what 20 g of real protein costs, with a date and a method. So the brief doesn't say "write more words than the others". It says: put prices in dollars at the top, show the maths (tub price divided by the grams of protein in the tub, times 20), and keep bulking as the practical use case lower on the page.
+It also lists what the page needs beyond the text:
+ 
+One currency for the English audience, a price table that can be refreshed every month, and a clear statement of how many products are compared (the results above list 20 and 48, the demo page prices 5).
+Now the part that made me trust it. Before anyone writes a line of the page, there are three questions for me:
+ 
+Which tubs can you actually price? Dollars or euros? And do you have your own numbers from a bulk: what a tub cost you, what whey cost you per month?
+Think about what that means. The fastest thing for an AI to do is to write "we compared 20 wheys this month" and move on. It would read fine. It would also be a lie with my name on it. Instead, the work stops and asks for the only thing it can't know: what the human really did.
+So here is how the writing step works in my loop:
+I answer the questions honestly, in a few lines (what I bought, what I paid, what I think)
+the page gets written around those answers and the brief
+anything I didn't test is written as "not tested", not hidden
+The page is still written by the AI. The experience in it is mine. That split is the only version of AI content I'm comfortable publishing, and it's also the one that Google has the least reason to ignore: a page with real prices checked on a real date is a page the other five can't copy.
+How to check yours: read the draft and underline every sentence that claims an experience ("we tried", "after a month", "in our test"). Each one must be true. If one isn't, delete it or go do the test.
+-> The AI writes the page. You supply what really happened. Never let it invent a test.
+ 
+To get similar results for your business: try ChatSEO free for 7 days
+05. Approve and publish (the one box that is yours)
+ 
+Every prompt above ends with the same sentence: "Change nothing: I approve everything." That sentence is the whole design.
+An employee that can read everything and change nothing can't break your site. The worst thing it can do is waste five minutes of your reading time. So I give it full access to the data and zero access to the publish button.
+And I can tell you it takes the rule seriously, because of what happened in step 3. The last line of Astra's brief report was this:
+"The website was untouched. ChatSEO saved a brief card in its workspace despite the read-only instruction."
+Nothing happened on the site. A draft got saved in the tool's own workspace, and the employee still reported it to me, like a colleague who tells you he left a file on the shared drive. That's the behaviour I want around a publish button.
+What it gives me instead of changes is a list. It sits at the bottom of the Monday report, under a title I chose myself:
+ 
+"Waiting for your yes." Three changes this week, each with the page, the exact new title, and the number that pays for it:
+a flavour guide that got 77 impressions and 0 clicks at position 4.8, while two of its queries literally ask for the "best flavour". The new title says it.
+the English "best whey protein" page, where 34 of the week's 72 impressions come from the price comparison query, at position 3.9, with 0 clicks. Same story as step 3: the page ranks for prices and its title doesn't mention them.
+a promo code page where people now type "2026" in their search (13 impressions at position 7.1, 0 clicks) and the title doesn't have it.
+Each proposed title comes with its length in characters and in pixels, so I know it fits in Google's results before I paste it.
+One small thing I noticed. ChatSEO's title for the promo page ended with "code réduction vérifié" (verified discount code). In Astra's final report, the word "vérifié" is gone. Good: nobody verified those codes this morning, and I'm the one who has to check that the promos still work before I touch that page.
+My job on each line takes 20 seconds: yes or no. Then five minutes in WordPress to paste the new title.
+Why I keep this box and you should too:
+the publish button is where mistakes become public
+some decisions need things the AI can't see (is this offer still running? do I still want to push this brand?)
+approving is how you learn: after a month of saying yes or no to real changes on your own site, you understand SEO better than after any course
+The rule I follow: I never approve in bulk. One line, one yes or one no. If a week has ten lines, the employee recommended too much, and I tell it to give me the top 3 next time. Notice that the Monday prompt already says "the 3 changes".
+-> Give it all the data and none of the buttons. Your whole job is one list of yes or no.
+06. Check Search Console every morning
+This is the job I never did. Nobody opens Search Console every morning for a small site, because 9 mornings out of 10 there's nothing to see, and the tenth morning you've stopped looking.
+That's exactly why it's a job for an employee. It doesn't get bored, and you can tell it when to stay quiet:
+ 
+The thresholds are the important part. Without them, every morning brings twenty "changes" that are just noise: a query that went from 2 clicks to 1, a page that moved from position 31 to 33. With them, this is what this morning looked like:
+ 
+First the week in one line: 59 clicks became 95 (+61%) on flat impressions (9,679 to 9,763), and the average position went from 27.0 to 25.1. Then the only move above 5 clicks on the whole site: the English review page went from 8 to 15 clicks, and from position 10.0 to 6.7. The cause it could verify: two review queries climbed from around 5.5 to around 4. And it says what kind of proof that is: "verified as correlation only".
+Astra wasn't satisfied with the first answer. It sent two more messages to close what it called the coverage gap: pull each week separately, list every page and every query that passes one of my two thresholds, and say what's still unknown at the end. The final count: 13 pages and one query pass one of my two rules, and only one of them on clicks.
+Thirteen rows is more than I want with my coffee. That's my threshold's fault, not the employee's. On a site this small, an average position jumps as soon as one query appears or disappears. I'm raising the rule to 300 impressions for next week.
+But one of those rows was worth the whole check:
+ 
+The English "best whey protein" page went from position 6.9 to 27.9 in one week. If you see that in Search Console, you panic. You think penalty, you think a competitor, you start rewriting the page.
+Here is what really happened. Its big query, the same price comparison search as in step 3, went from 515 impressions on that page to 34. And on that query the page barely moved: 3.0 to 3.9. The page didn't lose its ranking. Google showed that search a lot less this week, so the average is now computed on the small queries where the page ranks badly. Both English pages that "dropped" share that one query.
+Twenty-one positions lost on paper, less than one in reality. That's the kind of thing I'd have got wrong on my own.
+And when the data isn't there, it says so. One query had 239 impressions the first week and nothing at all the second. Search Console simply returned no row. The report doesn't call it a drop to zero. It calls it "no data".
+What I do with the morning check: I read it with my coffee. Most days it's one line. When it's more, the lines usually match something already on my "waiting for your yes" list, and that's my sign to stop waiting.
+How to check yours: the first week, open Search Console yourself and verify two numbers from the report. They should match exactly. After that, you'll stop checking, and that's fine.
+-> A daily check is only useful if it knows when to say nothing. Put the thresholds in the prompt, and tune them to your site's size.
+07. Write the Monday report
+The last job closes the loop. Once a week, one page, the same structure every time, so that I can compare this Monday with the last one in ten seconds.
+ 
+Part 1:
+ 
+Three numbers and their change. Clicks 95 against 59, +36. Impressions 9,763 against 9,679, almost flat. Average position 25.1 against 27.0. If you only read this table, it's a great week.
+Now read the sentence right under it:
+ 
+"Clicks grew while impressions were flat: the gain comes from a better rank and CTR, not from more visibility." So Google isn't showing the site to more people. The same number of people saw it, and more of them clicked, because a few pages sit higher than last week.
+That's a good sign, and it's also a reason to stay calm. +61% sounds huge. It's 36 clicks, on one week, on a site where most clicks come from searches Google doesn't name (step 1 told us that). An agency report would have put "+61% clicks" in green at the top and sent the invoice. Mine tells me where the gain comes from, and I add the rest myself: one week is not a trend.
+Part 2 is the three pages that moved the most. The first one is the same review page as in the morning check, +7 clicks, which is a good sign: two different jobs, one story. Part 3 is the "waiting for your yes" list you saw in step 5.
+And then the loop starts again. On Monday I say yes or no to three lines. During the week the employee checks every morning if my yes changed anything. Next Monday the report tells me. Once a month I re-run job 1 and job 2 to refill the list.
+-> One page, three numbers, three decisions. If the report makes you feel good without telling you what to do, it's a bad report.
+The week on one page
+Here is the whole thing as a schedule. This is what I'd pin above my desk:
+Monday, 10 minutes: read the report, say yes or no to the 3 lines
+Monday or Tuesday, 20 to 40 minutes: apply what I approved in WordPress (a title, a date, a new section)
+every morning, 1 minute: read the morning check, usually one line
+first Monday of the month, 15 minutes: job 1 (what ranks) and job 2 (next keywords), pick one new page
+when I pick a new page: job 3 (the brief), answer its questions, let it write, read every claim, publish
+Add it up and it's about one hour a week. Before, I spent that hour on one job out of seven and skipped the rest.
+One more thing about the list above. I wrote "seven jobs" and you saw five prompts. That's not a mistake. Writing the page (step 4) happens right after the brief, once I've answered its three questions, so it doesn't need its own prompt. And approving (step 5) is not a prompt at all: it's me, a list and a yes. Five prompts, seven boxes, one human.
+Who does what, one more time:
+the AI employee: finds what ranks, finds the keywords, reads the competition, writes the brief, writes the draft, checks every morning, writes the report
+me: answer what I really tested, say yes or no, press publish
+Six boxes for it, one for me. And the one box I keep is the only one where a mistake costs something.
+What it costs me, in time
+People ask this before anything else, so here are my honest numbers for the first month.
+Setting it up took one evening. Connecting Search Console is two clicks. Writing the first versions of the prompts took longer, about an hour, because my first tries were questions, not jobs. "What should I improve on my site?" gave me a nice essay. "My 10 best pages by clicks, then the 3 to protect and the 3 to push, one line each with the number" gave me the table you saw in step 1.
+The first week I read everything twice, because I didn't trust it yet. I opened Search Console next to each answer and compared. The numbers matched every time, so in week two I stopped comparing and only read.
+Since then, a normal week looks like this. One minute each morning, most days. Ten minutes on Monday for the report. Twenty to forty minutes to apply the changes I said yes to. And once a month, a longer session when I pick a new page and answer the questions from step 4, which is the only part that still feels like work, because it's the part where I have to really know my products.
+What I stopped doing: opening Search Console "to have a look" and closing it ten minutes later without having decided anything. That habit cost me more time than the whole loop does now.
+The rules that make it work
+After this run, here are the rules I'd give anyone who wants to copy the workflow. Each one comes from something you saw above.
+One job per conversation. I didn't ask for the audit, the keywords and the report in one message. Each job has its own prompt and its own definition of done.
+Say where the data comes from. "From Search Console, last 7 days, all countries" is not decoration. Without it you get general knowledge instead of your numbers.
+Say what the answer looks like. "One table, then your pick in two lines." Otherwise you get an essay.
+Give thresholds. "More than 5 clicks, or more than 3 positions on at least 100 impressions." That's the difference between a check you read and a check you mute.
+Give permission to say nothing. "If nothing real moved, say it in one line and stop."
+End with the line it can't cross. "Change nothing: I approve everything."
+Ask for the number that justifies each recommendation. A recommendation without a number is an opinion.
+Reward honesty. When it says "I couldn't verify this", that's the system working. Don't push it to guess.
+Give the model real data, and let it doubt the data. Astra without ChatSEO would have guessed my numbers. Astra with ChatSEO caught a wrong caveat in step 1.
+If you copy only one thing from this article, copy the last line of the prompts.
+What I'd avoid
+Starting with step 2. New keywords are exciting. The page shown 2,476 times with 0 clicks is worth more, and it's already written.
+Approving ten things at once. You won't know which one worked.
+Letting it write "we tested". If you didn't, it's not a detail, it's the whole credibility of the page.
+Reading only the green numbers. The +61% of this week is 36 clicks, and one week.
+Changing the report format every week. The value of a weekly report is that it's boring and comparable.
+Expecting results in days. A title change can show in Search Console within a week or two. A new page takes longer. The loop is built for months.
+What I didn't test
+To be straight with you about the limits of this guide:
+Every capture comes from one demo site, on one morning. I showed the loop running once, not the result of running it for six months. Your numbers will differ.
+I didn't publish the changes on the demo site: it's not mine, and "change nothing" was the rule. So this article proves the jobs, not the gains that follow them.
+I ran the five jobs on GPT-6.2 Astra once, the day after its release. I didn't run the same jobs on other models side by side, so I can't tell you it's the best one for SEO. I can only show you how it worked this morning.
+I didn't compare several tools. I use this one, I'm an affiliate, and I said so at the top. If you build the same loop with other tools, the prompts above should still work as long as the AI can read your Search Console and the live results.
+The volumes in step 2 are monthly US averages, and the difficulty is an estimate (four of the ten keywords came back without one). The live top 3 is the better judge, and it changes.
+The morning check uses Search Console data that's a few days late. "Every morning" means "every morning, on the latest final data".
+If you run it on your site, tell me what the first Monday report said. That's the part I'm curious about.
+Questions people ask me
+Do I need to know SEO to do this? You need to be able to read a table and say yes or no. I started with almost nothing. The approvals are how I learned.
+Can I just ask GPT-6.2 Astra directly? You can, and you'll get a well written answer with no data in it. The model doesn't know your clicks, the search volumes or who ranks today. It needs a tool that gives it those numbers. That's the whole reason ChatSEO is plugged in.
+Do I need Search Console? Yes. It's free and it's the only place where Google tells you what it really shows for your site. Without it, steps 1, 6 and 7 don't exist.
+How big does my site need to be? The demo site gets 577 clicks in three months. That's small. The loop still found a page shown 2,476 times with 0 clicks, a "crash" of 21 positions that wasn't one, and ten keywords with weak competition.
+Will the AI publish for me? In my loop, no, and on purpose. Some tools can push to WordPress. I keep the publish button because it's the only step where an error is public.
+Does AI content rank? A page that says the same as five others doesn't rank, whoever wrote it. A page with a real test, a real price table and an honest "not tested" list has a chance. That's why step 4 starts with questions.
+How long before I see something? I can't promise a number and I won't. What I can say is that the first job gives you, in minutes, a list of pages that already rank and don't get clicked. That list alone is worth the first week.
+What if it's wrong? It happens, and the interface says so on every answer. That's why each recommendation comes with its number, why I verify two numbers by hand the first week, and why nothing goes live without my yes.
+The point
+SEO for a small site is seven boring jobs that come back every week. I used to do one of them. Now six are done for me by a model that thinks and a tool that brings the data, with the numbers and the limits written down, and the seventh takes me ten minutes on Monday.
+The model you saw at the start of this article runs paid ads this way. This is the same idea for the traffic you don't pay for: the AI does the loop, the human keeps one box.
+Start with job 1 this week. Copy the prompt, change the domain, read what comes back. You'll know in a few minutes if your site has a page sitting on page one with nobody clicking.
+Thanks for reading!
+If you want the employee I use for all seven jobs (affiliate link, as said at the top):
+ 
+To get similar results for your business: try ChatSEO free for 7 days

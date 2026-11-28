@@ -1,0 +1,46 @@
+{
+  "label": "2026-11-22 上午 书签X",
+  "run_at": "2026-11-22 10:06",
+  "window_start": "2026-11-21 09:58",
+  "window_end": "2026-11-22 09:58",
+  "empty": false,
+  "query_note": "免费 x.search_posts_all，未使用付费 user-X。官方账号窗口 start_time=2026-11-21T01:58:40Z（上次成功 last_scan）；游戏/工具/视频及官方补漏 start_time=2026-11-15T01:55:00Z（近7天），end_time=2026-11-22T01:58:52Z。A 官方本窗仅 2 条（活动帖已排除），翻页后无更多；另补近7天官方账号 3 页用于查漏。B 路 min_likes:500 与工具路 min_faves:50 被 API 去掉，已改为本地过滤，本窗 likes>=500 的首发关键词帖为 0。本窗官方首发收录 CCORE-Web-Coder-4B；Hy4-flash 为已报 Hy4 的新 SKU、窗口前官方帖，已补报；Code Mode 为 Claude Code 实验功能（不是新模型），窗口前官方帖已补报，但「Code Mode」偏泛词，未列入建站热词。Gemini 4 Neon/Hydrogen、Genie 4、Stitch Loop、WeMM-Video、DaisyRose-27B、GPT-Live-1.1、GPT-6.2 Astra/Sol、Mistral Vibe Desktop、Depth Pro 2、Gemini 3.5 Transcribe 语音编辑 API、Hy4 总称均已在 reported，不重复收录。视频检索已排除儿童相关与普通 CapCut 模板/GTA 切片教程；查询种子（CapCut/AI video 等）不当作新词。有原文证据的 Higgsfield Genjutsu、Quilted fabric cave 仅作为元数据线索进入可选 x-input，未做画面核验。游戏检索大量历史事件/色情/泛讨论已剔除；未写明游戏名的自宣帖不编造名称。尚未发行的 Sandkeeper、coming soon 的 bugsbugs 不收。",
+  "items": [
+    {
+      "name": "CCORE-Web-Coder-4B",
+      "desc": "CCORE-Web-Coder-4B 可将简要需求转为可在浏览器打开的 React HTML 页面。基于 Qwen3.5-4B-Base 微调的 4B 开放权重预览模型，用于本地网页生成，Apache 2.0 许可。适用于网站、幻灯片、信息页。",
+      "source": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2123990190939308374",
+      "first_seen": "2026-11-21 12:01",
+      "views": 1711,
+      "bookmarks": 13,
+      "likes": 24,
+      "kind": "model"
+    },
+    {
+      "name": "Hy4-flash",
+      "desc": "【补报】腾讯 Hy 发布 Hy4-flash，220B MoE 开放权重模型，单 token 激活 12B 参数，原生图像理解，1M 上下文。属已报 Hy4 新 SKU，官方首发于窗口前、上期漏报。",
+      "source": "@ModelScope2022",
+      "url": "https://x.com/ModelScope2022/status/2122955127782834677",
+      "first_seen": "2026-11-18 15:28",
+      "views": 4082,
+      "bookmarks": 4,
+      "likes": 37,
+      "kind": "model",
+      "backfill": true
+    },
+    {
+      "name": "Code Mode",
+      "desc": "【补报】Anthropic/Claude Code 推出实验功能 Code Mode：让 Claude 编写脚本串联工具，并在长命令运行时继续响应。需设置 CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 启用。不是新模型。",
+      "source": "@ClaudeDevs",
+      "url": "https://x.com/ClaudeDevs/status/2122801681939234950",
+      "first_seen": "2026-11-18 05:18",
+      "views": 2403922,
+      "bookmarks": 14515,
+      "likes": 12487,
+      "kind": "not_model",
+      "backfill": true
+    }
+  ],
+  "keywords": []
+}
